@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Footnotes to Plato — passage view</title>
+<link rel="stylesheet" href="filterbar.css">
 <style>
   /* ---- design tokens -------------------------------------------------------
      Subject: a scholarly instrument for ancient-philosophy researchers. The
@@ -229,6 +230,8 @@
     </div>
   </div>
 
+  <div id="filterbar"></div>
+
   <div id="tier"></div>
   <div id="bandnote" style="display:none"></div>
 
@@ -264,6 +267,7 @@
 
 <div class="tooltip" id="tooltip"></div>
 
+<script src="filterbar.js"></script>
 <script>
 // ---- data files present in this standalone build --------------------------
 // Where the generated JSON lives, RELATIVE TO THIS HTML FILE.
@@ -272,10 +276,12 @@
 // Must end with a slash when non-empty.
 const DATA_DIR = "viewer_data/";
 
-const FILES = {
-  "Nicomachean_Ethics": "Nicomachean_Ethics.json",
-  "Meno": "Meno.json"
-};
+// Populated from works_index.json at boot, so every work is available rather
+// than a hardcoded pair. Kept as `let {}` (not `const {}`) so the site build
+// leaves it alone; paths stay relative to DATA_DIR, which loadWork prepends.
+// works_index gives w.file like "view_b/Republic.json".
+let FILES = {};
+let WORKS = [];                 // [{work, file, tier, citations, faceted, ...}]
 // textual book order (common books sit in their NE place; string sort won't do)
 const BOOK_ORDER = ["I","II","III","IV","V*","VI*","VII*","VIII","IX","X",
                     "Α","α","Β","Γ","Δ","Ε","Ζ","Η","Θ","Ι","Κ","Λ","Μ","Ν",
@@ -315,6 +321,18 @@ function inBand(work,page){
 let mode = "pooled";      // pooled | split
 let metric = "count";     // count | articles
 let activeJournals = null;// null = all (pooled uses all; split shows per-journal)
+
+// Shared journal/year filter bar (filterbar.js). Orthogonal to the pooled/split
+// control above: FilterBar narrows which citations count at all, by journal and
+// by year, across every surface. A dot must pass BOTH to be drawn or drilled.
+function passesBar(d){
+  return !window.FilterBar || FilterBar.isDefault() || FilterBar.matches(d);
+}
+function filterKey(){
+  if(!window.FilterBar || FilterBar.isDefault()) return "ALL";
+  const s=FilterBar.state;
+  return [...s.journals].sort().join(",")+"|"+s.y0+"-"+s.y1;
+}
 
 const $ = s => document.querySelector(s);
 
@@ -357,11 +375,12 @@ async function loadWork(id){
 // and the CSV export actually list.
 let _secCache=null, _secCacheKey="";
 function sectionCells(){
-  const ck = current.work+"|"+mode+"|"+(activeJournals?[...activeJournals].join(","):"all");
+  const ck = current.work+"|"+mode+"|"+(activeJournals?[...activeJournals].join(","):"all")+"|"+filterKey();
   if(_secCache && _secCacheKey===ck) return _secCache;
   const map=new Map();
   for(const d of current.dots){
     if(mode==="split" && activeJournals && !activeJournals.has(d.journal)) continue;
+    if(!passesBar(d)) continue;
     const k=`${d.book}|${d.page}|${d.section}`;
     let e=map.get(k);
     if(!e){ e={book:d.book,page:d.page,section:d.section,iids:new Set(),loci:new Set()}; map.set(k,e); }
@@ -634,12 +653,13 @@ function renderHeatgrid(){
 // build line-band cells from dots: book|page|sec|band -> {count, articles, iids}
 let _bandCache=null, _bandCacheKey="";
 function buildBandCells(){
-  const ck = current.work+"|"+mode+"|"+(activeJournals?[...activeJournals].join(","):"all");
+  const ck = current.work+"|"+mode+"|"+(activeJournals?[...activeJournals].join(","):"all")+"|"+filterKey();
   if(_bandCache && _bandCacheKey===ck) return _bandCache;
   const map=new Map();
   const banded = hasLineBands(current.work);
   for(const d of current.dots){
     if(mode==="split" && activeJournals && !activeJournals.has(d.journal)) continue;
+    if(!passesBar(d)) continue;
     const band = banded ? bandOf(d.line) : 0;
     const k=`${d.book}|${d.page}|${d.section}|${band}`;
     let e=map.get(k); if(!e){ e={count:0,articles:0,iids:new Set()}; map.set(k,e); }
@@ -680,6 +700,7 @@ function openDrillBand(book,page,sec,band,agg){
   const dots = current.dots.filter(d=>{
     if(d.book!==book||d.page!==page||d.section!==sec)return false;
     if(mode==="split" && activeJournals && !activeJournals.has(d.journal)) return false;
+    if(!passesBar(d)) return false;
     if(banded) return bandOf(d.line)===band;
     return true;
   });
@@ -702,9 +723,11 @@ function hideTip(){ tip.style.opacity="0"; }
 
 // ---- drill-in -------------------------------------------------------------
 function openDrill(cell){
-  // section-grain drill (from a bar): all dots at this book/page/section
+  // section-grain drill (from a bar): all dots at this book/page/section that
+  // pass the active journal/year filter, so the drill count matches the bar.
   const dots = current.dots.filter(d =>
-    d.page===cell.page && d.section===cell.section && d.book===cell.book);
+    d.page===cell.page && d.section===cell.section && d.book===cell.book
+    && passesBar(d));
   openDrillDots(dots, `${current.work.replace(/_/g," ")} ${cell.page}${cell.section}`);
 }
 
@@ -782,12 +805,30 @@ function exportCsv(){
 }
 
 // ---- wire up --------------------------------------------------------------
+// The work selector is grouped by tier so the distinction is visible before the
+// chart loads; within each group, most-cited first. Populated from works_index.
+function buildWorkSelector(){
+  const sel = $("#work");
+  sel.innerHTML = "";
+  for(const [tier,label] of [["trustworthy","Reliable coverage (80%+ placed)"],
+                             ["uncertain","Partial coverage (under 80% placed)"]]){
+    const items = WORKS.filter(w=>w.tier===tier)
+                       .sort((a,b)=>b.citations-a.citations);
+    if(!items.length) continue;
+    const og = document.createElement("optgroup");
+    og.label = label;
+    for(const w of items){
+      const o=document.createElement("option");
+      o.value=w.work;
+      o.textContent=`${w.work.replace(/_/g," ")}  (${w.citations.toLocaleString()})`;
+      og.appendChild(o);
+    }
+    sel.appendChild(og);
+  }
+}
+
 function initControls(){
   const sel = $("#work");
-  for(const id of Object.keys(FILES)){
-    const o=document.createElement("option");
-    o.value=id; o.textContent=id.replace(/_/g," "); sel.appendChild(o);
-  }
   sel.addEventListener("change", e=>loadWork(e.target.value));
   $("#pool").addEventListener("click", e=>{
     if(!e.target.dataset.mode) return;
@@ -842,7 +883,39 @@ fetch(DATA_DIR+"copy.json")
       .catch(e=>console.warn("collision_bands.json unavailable", e));
     retireMetricToggle();
     initControls();
-    loadWork("Nicomachean_Ethics");
+
+    // Load the work index, filter metadata and journal grouping together, then
+    // populate the selector, mount the filter bar and open a default work. The
+    // index is what makes every work available rather than a hardcoded pair.
+    Promise.all([
+      fetch(DATA_DIR+"works_index.json").then(r=>r.json()),
+      fetch(DATA_DIR+"meta.json").then(r=>r.json()),
+      fetch(DATA_DIR+"journal_groups.json").then(r=>r.json()).catch(()=>null)
+    ]).then(([index, meta, groups])=>{
+      WORKS = index;
+      for(const w of WORKS) FILES[w.work] = w.file;   // relative to DATA_DIR
+      buildWorkSelector();
+
+      if(window.FilterBar){
+        FilterBar.mount($("#filterbar"), meta, ()=>{
+          _secCache=null; _bandCache=null;   // filter changed: drop derived caches
+          if(current) render();
+        }, groups);
+      }
+
+      // open the most-cited well-resolved work by default
+      const first = WORKS.filter(w=>w.tier==="trustworthy")
+                         .sort((a,b)=>b.citations-a.citations)[0] || WORKS[0];
+      if(first){ $("#work").value = first.work; loadWork(first.work); }
+    }).catch(e=>{
+      console.warn("viewer index unavailable — falling back to a single work", e);
+      // last-ditch fallback so the page is never blank
+      FILES["Nicomachean_Ethics"] = "view_b/Nicomachean_Ethics.json";
+      const o=document.createElement("option");
+      o.value="Nicomachean_Ethics"; o.textContent="Nicomachean Ethics";
+      $("#work").appendChild(o);
+      loadWork("Nicomachean_Ethics");
+    });
   })
   .catch(err=>{
     console.error("copy.json", err);
