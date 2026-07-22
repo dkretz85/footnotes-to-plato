@@ -57,6 +57,13 @@ bimodal — a dense mass below 50%, an empty valley between 50% and 79%, and a
 spike from 80% up. The threshold sits in the valley rather than at a round
 number picked in advance.
 
+The split is also **robust to how queued citations are filed.** Because filing
+is alphabetical, a work sorted ahead of its collision partners can have its rate
+depressed by luck alone. Recomputing each work's uncertainty from candidate-set
+membership instead of filing order moves only a single work across the 80% line
+and leaves the bimodal shape intact — so the tier assignments are not an artefact
+of filing order.
+
 Uncertain-tier works are **included, not hidden**. Excluding them would remove
 *Phaedo*, *Phaedrus*, *Gorgias*, *Apology*, *Meno* and *Crito* — 28% of all
 placed citations, and much of what the field actually argues about. They are
@@ -69,9 +76,15 @@ chart, and a stated placement rate wherever they appear.
   could not attribute to a work cannot honestly be attributed to a decade
   either. When you filter by year, the uncertainty tail therefore stays at full
   width and turns grey rather than shrinking with the bars.
-- **The review queue's work attribution is non-exclusive.** One ambiguous
-  citation is filed under *every* candidate work, so those counts cannot be
-  summed. This is why there is no "estimated true total" anywhere on the site.
+- **The queue holds two different quantities, and only one is multi-counted.**
+  Each queued citation is *filed* under exactly one work — the alphabetically
+  first of its candidate set — so a work's filed queue count is exclusive and the
+  per-work totals sum cleanly (97.7% of multi-candidate rows fall to that first
+  candidate). But the faint "could belong here" tail counts *candidate-set
+  membership*: a citation whose page-number collides across several works is
+  counted against each of them, on purpose, because any one could be its true
+  home. Those memberships overlap and must not be summed — which is why there is
+  no single "estimated true total" anywhere on the site.
 - **No verbatim article text.** The citation context extracted during processing
   is confidential under the JSTOR agreement and is dropped before anything is
   written to a shareable file.
