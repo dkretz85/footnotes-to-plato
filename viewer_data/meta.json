@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-21T21:51:44",
+ "generated": "2026-07-22T18:42:50",
  "band_threshold": 0.5,
  "tier_threshold": 0.8,
  "journals": [
@@ -167,7 +167,8 @@
   "2022": 1789
  },
  "total_citations": 90502,
- "total_queued": 50450,
+ "total_queued": 46782,
+ "total_candidate_attributions": 144330,
  "distinct_works": 68,
  "faceted_works": [
   "Eudemian_Ethics",
@@ -176,5 +177,7 @@
   "Nicomachean_Ethics",
   "Republic"
  ],
- "doi_coverage": 1.0
+ "doi_coverage": 1.0,
+ "doi_coverage_of_matched": 1.0,
+ "meta_match_rate": 1.0
 }
