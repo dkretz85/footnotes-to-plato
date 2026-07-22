@@ -373,11 +373,12 @@ def build_viewer_page(out, src, url, title, subtitle, intro_md, current):
     links, scripts = absolutize(links), absolutize(scripts)
     # data fetches inside the viewer scripts point at viewer_data/
     scripts = re.sub(r"fetch\('(?!/|https?:)([^']+)'", r"fetch('/data/viewer/\1'", scripts)
-    # View B's FILES map holds bare per-work filenames that live in view_b/;
-    # rewrite those too or every work selection 404s.
-    scripts = re.sub(r'"([A-Za-z_0-9]+)\.json"(\s*[,}])',
-                     r'"/data/viewer/view_b/\1.json"\2', scripts)
-    # ...but don't double-prefix the ones already rewritten above
+    # View B resolves per-work paths from works_index.json at runtime, and those
+    # paths are relative to the data directory ("view_b/Republic.json"). Give it
+    # the published base so they resolve from any page URL.
+    scripts = scripts.replace('const FILES = {};',
+                              'const FILES = {__base:"/data/viewer/"};')
+    # ...and don't double-prefix anything already absolute
     scripts = scripts.replace("/data/viewer//data/viewer/", "/data/viewer/")
     html_out = page(
         title, f'<div class="viewer-intro">{intro}</div>\n{body}', current,

@@ -271,11 +271,13 @@
 
 <script src="filterbar.js"></script>
 <script>
-// ---- data files present in this standalone build --------------------------
-const FILES = {
-  "Nicomachean_Ethics": "Nicomachean_Ethics.json",
-  "Meno": "Meno.json"
-};
+// ---- available works ------------------------------------------------------
+// Built from works_index.json, which the aggregator writes alongside the
+// per-work files. Previously this was a hardcoded two-entry map, which meant
+// the selector silently showed only whatever sample data happened to be
+// present. Now every work the aggregator produced is offered.
+let WORKS = [];                 // [{work, file, tier, citations, faceted}, ...]
+const FILES = {};               // work id -> path, populated from WORKS
 // textual book order (common books sit in their NE place; string sort won't do)
 const BOOK_ORDER = ["I","II","III","IV","V*","VI*","VII*","VIII","IX","X",
                     "Α","α","Β","Γ","Δ","Ε","Ζ","Η","Θ","Ι","Κ","Λ","Μ","Ν",
@@ -302,7 +304,14 @@ function heatVar(v, max){
 function isHot(v,max){ return v>0 && Math.sqrt(v)/Math.sqrt(max) > 0.55; }
 
 async function loadWork(id){
-  const res = await fetch(FILES[id]);
+  const path = FILES[id];
+  if(!path){ console.warn("no data file for", id); return; }
+  const res = await fetch(path);
+  if(!res.ok){
+    $("#chart").innerHTML =
+      `<div class="fb-empty">Could not load data for ${id.replace(/_/g," ")}.</div>`;
+    return;
+  }
   current = await res.json();
   render();
 }
@@ -944,12 +953,31 @@ function exportCsv(){
 }
 
 // ---- wire up --------------------------------------------------------------
+function buildWorkSelector(){
+  const sel = $("#work");
+  sel.innerHTML = "";
+  // Grouped by tier so the selector itself carries the distinction: a reader
+  // choosing Crito should see, before the chart loads, that it sits in the
+  // partial-coverage group. Within each group, most-cited first.
+  for(const [tier,label] of [["trustworthy","Reliable coverage (80%+ placed)"],
+                             ["uncertain","Partial coverage (under 80% placed)"]]){
+    const items = WORKS.filter(w=>w.tier===tier)
+                       .sort((a,b)=>b.citations-a.citations);
+    if(!items.length) continue;
+    const og = document.createElement("optgroup");
+    og.label = label;
+    for(const w of items){
+      const o=document.createElement("option");
+      o.value=w.work;
+      o.textContent=`${w.work.replace(/_/g," ")}  (${w.citations.toLocaleString()})`;
+      og.appendChild(o);
+    }
+    sel.appendChild(og);
+  }
+}
+
 function initControls(){
   const sel = $("#work");
-  for(const id of Object.keys(FILES)){
-    const o=document.createElement("option");
-    o.value=id; o.textContent=id.replace(/_/g," "); sel.appendChild(o);
-  }
   sel.addEventListener("change", e=>loadWork(e.target.value));
   $("#metric").addEventListener("click", e=>{
     if(!e.target.dataset.metric) return;
@@ -972,22 +1000,38 @@ function initControls(){
 
 initControls();
 
-// mount the shared filter bar, then load the default work
+// Load the work index, the filter metadata and the journal grouping together,
+// then populate the selector and open a default work. The index is what makes
+// every work available rather than a hardcoded pair.
 Promise.all([
+  fetch('works_index.json').then(r=>r.json()),
   fetch('meta.json').then(r=>r.json()),
   // field grouping is optional: if it's missing the bar degrades to one column
   fetch('journal_groups.json').then(r=>r.json()).catch(()=>null)
-]).then(([meta, groups])=>{
+]).then(([index, meta, groups])=>{
+  WORKS = index;
+  // works_index.json gives paths relative to the data directory; resolve them
+  // against wherever works_index.json itself was fetched from, so this works
+  // both standalone and when the site build re-hosts the viewer.
+  const base = FILES.__base || "";
+  for(const w of WORKS) FILES[w.work] = base + w.file;
+  buildWorkSelector();
+
   FilterBar.mount($("#filterbar"), meta, ()=>{
     _fCache=null; _bandCache=null;   // filter changed: drop derived caches
     if(current) render();
   }, groups);
+
+  // open the most-cited well-resolved work by default
+  const first = WORKS.filter(w=>w.tier==="trustworthy")
+                     .sort((a,b)=>b.citations-a.citations)[0] || WORKS[0];
+  if(first){ $("#work").value = first.work; loadWork(first.work); }
 }).catch(e=>{
-  console.warn("meta.json unavailable — filter bar disabled", e);
+  console.warn("viewer data unavailable", e);
   $("#filterbar").innerHTML =
-    `<div class="fb-note">Filter unavailable: meta.json could not be loaded.</div>`;
-}).finally(()=>{
-  loadWork("Nicomachean_Ethics");
+    `<div class="fb-note">Could not load viewer data. If you are running this
+     file directly from disk, serve it over HTTP instead — browsers block
+     fetch() on file:// URLs.</div>`;
 });
 </script>
 </body>
