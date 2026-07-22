@@ -183,26 +183,24 @@
   }
   .tooltip .tt-loc{font-family:var(--mono); font-size:11px; color:#c7cdf0}
 
-  /* ---- field comparison ---------------------------------------------------
-     Two CATEGORIES, so two distinct hues rather than the heat ramp: lavender
-     (philosophy, the house colour) against a muted ochre-green (classics).
-     Neither is the clay used for uncertainty, which must keep its meaning.  */
-  .bar.cmp{cursor:pointer}
-  .bar.cmp-a{fill:var(--lav-deep)}
-  .bar.cmp-b{fill:#8a8f4a}
-  .bar.cmp:hover{outline:2px solid var(--ink)}
-  .cmp-side{
-    font-family:var(--mono); font-size:9.5px; letter-spacing:.1em;
-    text-transform:uppercase;
-  }
-  .cmp-side.cmp-a{fill:var(--lav-deep)}
-  .cmp-side.cmp-b{fill:#8a8f4a}
-  .cmp-cap{
-    font-size:12px; color:var(--ink-soft); line-height:1.5; margin-top:10px;
-    padding-top:9px; border-top:1px solid var(--rule); max-width:80ch;
-  }
-  .cmp-cap b{color:var(--ink)}
-  .cmp-warn{color:var(--uncertain)}
+  /* line-band with NO line number given: hatched, so it never reads as a
+     line-specific measurement (audit 2c) */
+  .cell.unspec{position:relative}
+  .cell.unspec::after{content:"";position:absolute;inset:0;border-radius:inherit;
+    background:repeating-linear-gradient(45deg,rgba(255,255,255,.55) 0 1.5px,
+      rgba(255,255,255,0) 1.5px 4px);pointer-events:none}
+  /* loci list under a drill entry when one article cites several points */
+  .cite .loci{font-family:var(--mono);font-size:10.5px;color:var(--ink-soft);
+    margin-top:3px;opacity:.85}
+
+  /* pages whose citations resolve worse than the rest of the work
+     (collision_bands.json). Clay, dashed: an uncertainty mark, not data. */
+  .pgcol.underres{position:relative}
+  .pgcol.underres::before{content:"";position:absolute;left:0;right:0;top:-3px;
+    height:2px;background:repeating-linear-gradient(90deg,var(--uncertain) 0 3px,
+      transparent 3px 6px);border-radius:1px}
+  .pgcol.underres .pnum{color:var(--uncertain)}
+  .bandnote{margin-top:-4px}
   @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 </style>
 </head>
@@ -231,43 +229,43 @@
 
   <div class="controls">
     <div class="ctl">
-      <label for="work">Work</label>
+      <label for="work" data-copy="view_b.controls.work_label"></label>
       <select id="work"></select>
     </div>
     <div class="ctl">
-      <label>Intensity</label>
-      <div class="seg" id="metric">
-        <button data-metric="count" aria-pressed="true">Citations</button>
-        <button data-metric="articles" aria-pressed="false">Distinct articles</button>
+      <label data-copy="view_b.controls.journals_label"></label>
+      <div class="seg" id="pool">
+        <button data-mode="pooled" aria-pressed="true" data-copy="view_b.controls.journals_pooled"></button>
+        <button data-mode="split" aria-pressed="false" data-copy="view_b.controls.journals_split"></button>
       </div>
     </div>
     <div class="ctl">
-      <label>Compare fields</label>
-      <div class="seg" id="cmp">
-        <button data-cmp="off" aria-pressed="true">Off</button>
-        <button data-cmp="on" aria-pressed="false">Philosophy vs classics</button>
+      <label data-copy="view_b.controls.intensity_label"></label>
+      <div class="seg" id="metric">
+        <button data-metric="count" aria-pressed="true" data-copy="view_b.controls.intensity_count"></button>
+        <button data-metric="articles" aria-pressed="false" data-copy="view_b.controls.intensity_articles"></button>
       </div>
     </div>
   </div>
 
   <div id="filterbar"></div>
-  <div class="fb-note" id="fbCaveat" style="display:none"></div>
 
   <div id="tier"></div>
+  <div id="bandnote" style="display:none"></div>
 
   <div class="profile-head">
     <h2 id="workname"></h2>
     <div class="meta" id="workmeta"></div>
   </div>
 
-  <div class="viewlabel" id="viewlabel-chart">Citation profile · by section</div>
+  <div class="viewlabel" data-copy="view_b.chart_label"></div>
   <div class="chart" id="chart"></div>
 
-  <div class="viewlabel">Passage map · line-band detail</div>
-  <div class="legend" id="legend">
-    <span>fewer</span>
+  <div class="viewlabel" data-copy="view_b.heatmap_label"></div>
+  <div class="legend">
+    <span data-copy="view_b.legend.low"></span>
     <div class="ramp"><i style="background:var(--h0)"></i><i style="background:var(--h1)"></i><i style="background:var(--h2)"></i><i style="background:var(--h3)"></i><i style="background:var(--h4)"></i><i style="background:var(--h5)"></i><i style="background:var(--h6)"></i></div>
-    <span>more citations per section</span>
+    <span data-copy="view_b.legend.high"></span>
   </div>
   <div id="heatgrid" class="heatgrid"></div>
 </div>
@@ -281,7 +279,7 @@
   </div>
   <div class="drill-body" id="drillBody"></div>
   <div class="drill-foot">
-    <button class="btn" id="exportBtn">Export these citations (.csv)</button>
+    <button class="btn" id="exportBtn" data-copy="view_b.drill.export_button"></button>
   </div>
 </aside>
 
@@ -306,54 +304,70 @@
 <script src="/static/site.js"></script>
 <script src="/filterbar.js"></script>
 <script>
-// ---- available works ------------------------------------------------------
-// Built from works_index.json, which the aggregator writes alongside the
-// per-work files. Previously this was a hardcoded two-entry map, which meant
-// the selector silently showed only whatever sample data happened to be
-// present. Now every work the aggregator produced is offered.
-let WORKS = [];                 // [{work, file, tier, citations, faceted}, ...]
-const FILES = {__base:"/data/viewer/"};               // work id -> path, populated from WORKS
+// ---- data files present in this standalone build --------------------------
+// Where the generated JSON lives, RELATIVE TO THIS HTML FILE.
+// Repo layout is: view_b.html at root, data in viewer_data/.
+// If you ever move the HTML into viewer_data/ alongside the data, set this to "".
+// Must end with a slash when non-empty.
+const DATA_DIR = "/data/viewer/";
+
+// Populated from works_index.json at boot, so every work is available rather
+// than a hardcoded pair. Kept as `let {}` (not `const {}`) so the site build
+// leaves it alone; paths stay relative to DATA_DIR, which loadWork prepends.
+// works_index gives w.file like "view_b/Republic.json".
+let FILES = {};
+let WORKS = [];                 // [{work, file, tier, citations, faceted, ...}]
 // textual book order (common books sit in their NE place; string sort won't do)
+const BOOK_ORDER = ["I","II","III","IV","V*","VI*","VII*","VIII","IX","X",
+                    "Α","α","Β","Γ","Δ","Ε","Ζ","Η","Θ","Ι","Κ","Λ","Μ","Ν",
+                    "XI","XII"];
 const SECTIONS = ["a","b","c","d","e"];
 
-/* Book ordering.
+// Author/edition map (68 works). Inlined deliberately: nothing external to fetch,
+// so no silent 404 can put a work on the wrong grid. 'a' = Bekker (Aristotle),
+// 'p' = Stephanus (Plato). Grouping is by the edition that paginates the work as
+// traditionally ascribed; it is not a claim about authorship.
+const EDITIONS = {"Magna_Moralia":"a","Meno":"p","De_Incessu_Animalium":"a","Ion":"p","Euthyphro":"p","De_Generatione_Animalium":"a","Hippias_Minor":"p","De_Respiratione":"a","Meteorology":"a","Sophist":"p","Prior_Analytics":"a","De_Partibus_Animalium":"a","Apology":"p","Posterior_Analytics":"a","Critias":"p","Cratylus":"p","Euthydemus":"p","Lysis":"p","Historia_Animalium":"a","Menexenus":"p","Parmenides":"p","Hippias_Major":"p","De_Insomniis":"a","Alcibiades_2":"p","Rival_Lovers":"p","Nicomachean_Ethics":"a","Metaphysics":"a","De_Sensu":"a","Rhetoric":"a","Poetics":"a","Hipparchus":"p","Statesman":"p","Topics":"a","De_Divinatione_per_Somnum":"a","Theages":"p","Laches":"p","De_Caelo":"a","Clitophon":"p","Crito":"p","Philebus":"p","Letters":"p","De_Generatione_et_Corruptione":"a","Alcibiades_1":"p","Rhetorica_ad_Alexandrum":"a","Charmides":"p","Republic":"p","Politics":"a","De_Somno":"a","De_Interpretatione":"a","Gorgias":"p","Eudemian_Ethics":"a","De_Motu_Animalium":"a","Symposium":"p","De_Longitudine_Vitae":"a","Phaedrus":"p","Physics":"a","Laws":"p","Sophistical_Refutations":"a","De_Juventute":"a","Categories":"a","De_Anima":"a","Epinomis":"p","Timaeus":"p","De_Memoria":"a","Minos":"p","Phaedo":"p","Protagoras":"p","Theaetetus":"p"};
 
-   Two rules, in this order:
-
-   1. If the work declares a reading order, use it. This matters for exactly
-      one case, but that case is real: the COMMON BOOKS. NE V-VII and EE IV-VI
-      are the same three books, transmitted once and printed in the NE's Bekker
-      range (~1129-1154). So EE's reading order is I, II, III, IV*, V*, VI*,
-      VII, VIII — while its Bekker pages run 1214, 1220, 1228, then *back* to
-      1129-1154, then forward to 1234, 1246. Reading order and page order
-      genuinely diverge, and page order would print EE's borrowed middle before
-      its own opening books.
-
-   2. Otherwise sort by first page. Correct for every other faceted work —
-      Republic, Laws, NE, Metaphysics — regardless of whether books are labelled
-      with Roman numerals, Greek letters, or asterisked commons.
-
-   The previous implementation was a single hardcoded list built from NE, which
-   silently mis-sorted EE (its IV* was absent), Republic and Laws (XI/XII sat
-   after the Greek letters), leaving only NE correct. */
-const READING_ORDER = {
-  // the one work whose reading order is not its page order
-  "Eudemian_Ethics": ["I","II","III","IV*","V*","VI*","VII","VIII"],
-};
-
-function bookSortKeys(cells){
-  const first = new Map();
-  for(const c of cells){
-    const k = first.get(c.book);
-    const v = [c.page, c.section || "a"];
-    if(!k || v[0] < k[0] || (v[0] === k[0] && v[1] < k[1])) first.set(c.book, v);
-  }
-  return first;
+// ---- externalised prose ---------------------------------------------------
+let COPY = null;
+function t(path, vars){
+  let v = path.split(".").reduce((o,k)=> (o||{})[k], COPY);
+  if(typeof v !== "string") return "";
+  if(vars) for(const k in vars) v = v.split("{"+k+"}").join(vars[k]);
+  return v;
+}
+function fatal(msg){
+  document.body.innerHTML =
+    '<div style="max-width:44ch;margin:18vh auto;font:15px/1.55 system-ui;color:#5b6478">'+
+    '<b style="color:#b06a3a">Could not start.</b><br>'+msg+'</div>';
 }
 
 let current = null;       // loaded work json
+let BANDS = null;         // collision_bands.json, keyed by work
+function bandsFor(work){
+  if(!BANDS) return [];
+  return (BANDS.bands||[]).filter(b=>b.work===work)
+    .sort((a,b)=>a.band_start-b.band_start);
+}
+function inBand(work,page){
+  return bandsFor(work).some(b=>page>=b.band_start && page<=b.band_end);
+}
+let mode = "pooled";      // pooled | split
 let metric = "count";     // count | articles
-let compare = false;      // field-comparison mode (philosophy vs classics)
+let activeJournals = null;// null = all (pooled uses all; split shows per-journal)
+
+// Shared journal/year filter bar (filterbar.js). Orthogonal to the pooled/split
+// control above: FilterBar narrows which citations count at all, by journal and
+// by year, across every surface. A dot must pass BOTH to be drawn or drilled.
+function passesBar(d){
+  return !window.FilterBar || FilterBar.isDefault() || FilterBar.matches(d);
+}
+function filterKey(){
+  if(!window.FilterBar || FilterBar.isDefault()) return "ALL";
+  const s=FilterBar.state;
+  return [...s.journals].sort().join(",")+"|"+s.y0+"-"+s.y1;
+}
 
 const $ = s => document.querySelector(s);
 
@@ -371,169 +385,97 @@ function heatVar(v, max){
 function isHot(v,max){ return v>0 && Math.sqrt(v)/Math.sqrt(max) > 0.55; }
 
 async function loadWork(id){
-  const path = FILES[id];
-  if(!path){ console.warn("no data file for", id); return; }
-  const res = await fetch(path);
-  if(!res.ok){
+  try{
+    const res = await fetch(DATA_DIR+FILES[id]);
+    if(!res.ok) throw new Error("HTTP "+res.status);
+    current = await res.json();
+  }catch(err){
+    console.error("loadWork", id, err);
     $("#chart").innerHTML =
-      `<div class="fb-empty">Could not load data for ${id.replace(/_/g," ")}.</div>`;
+      '<div style="padding:22px;color:var(--uncertain);font-size:13px">'+
+      t("view_b.errors.load_failed")+'</div>';
+    $("#heatgrid").innerHTML = "";
     return;
   }
-  current = await res.json();
+  _secCache=null; _bandCache=null;
+  activeJournals = null;
   render();
 }
 
-function cellValue(cell){
-  // journal selection is handled upstream by the filter bar (activeCells()
-  // rebuilds from the surviving dots), so a cell is already scoped correctly.
-  return metric==="articles" ? cell.articles : cell.count;
-}
-
-/* ---- filtered view of the work -------------------------------------------
-   The shipped `cells` array carries by_journal but NO year breakdown, so as
-   soon as a year window is set we must rebuild section cells from `dots`
-   (which carry journal + year per citation). When no filter is active we use
-   the precomputed cells verbatim — they're identical and cost nothing.
-   `activeCells()` is the single source both the chart and the head read.     */
-let _fCache=null, _fCacheKey="";
-function filterKey(){
-  if(!window.FilterBar || FilterBar.isDefault()) return "ALL";
-  const s=FilterBar.state;
-  return [...s.journals].sort().join(",")+"|"+s.y0+"-"+s.y1;
-}
-function activeDots(){
-  if(!current) return [];
-  if(!window.FilterBar || FilterBar.isDefault()) return current.dots;
-  return current.dots.filter(d=>FilterBar.matches(d));
-}
-function activeCells(){
-  if(!current) return [];
-  const key = current.work+"|"+filterKey();
-  if(_fCache && _fCacheKey===key) return _fCache;
-  if(!window.FilterBar || FilterBar.isDefault()){
-    _fCache=current.cells; _fCacheKey=key; return _fCache;
-  }
-  // rebuild section-grain cells from the surviving dots
+// ---- section-grain values, built from DOTS (audit 2b) ----------------------
+// Formerly the bars read cells[].count (raw TSV rows, so an article citing both
+// 1097b25 and 1097b33 counted twice) while the heatmap read deduped dots. The two
+// disagreed on 159 of NE's 183 sections — 179 vs 91 at 1097b. Both surfaces now
+// resolve to distinct-article-per-locus, which is the quantity the drill panel
+// and the CSV export actually list.
+let _secCache=null, _secCacheKey="";
+function sectionCells(){
+  const ck = current.work+"|"+mode+"|"+(activeJournals?[...activeJournals].join(","):"all")+"|"+filterKey();
+  if(_secCache && _secCacheKey===ck) return _secCache;
   const map=new Map();
-  for(const d of activeDots()){
+  for(const d of current.dots){
+    if(mode==="split" && activeJournals && !activeJournals.has(d.journal)) continue;
+    if(!passesBar(d)) continue;
     const k=`${d.book}|${d.page}|${d.section}`;
     let e=map.get(k);
-    if(!e){ e={book:d.book, page:d.page, section:d.section, count:0,
-                articles:0, by_journal:{}, _iids:new Set()}; map.set(k,e); }
-    e.count++;
-    e.by_journal[d.journal]=(e.by_journal[d.journal]||0)+1;
-    if(d.iid) e._iids.add(d.iid);
+    if(!e){ e={book:d.book,page:d.page,section:d.section,iids:new Set(),loci:new Set()}; map.set(k,e); }
+    if(d.iid) e.iids.add(d.iid);
+    e.loci.add(`${d.iid}|${d.line==null?"":d.line}`);
   }
-  const out=[];
-  for(const e of map.values()){ e.articles=e._iids.size; delete e._iids; out.push(e); }
-  _fCache=out; _fCacheKey=key;
-  return out;
+  for(const e of map.values()){ e.articles=e.iids.size; e.count=e.articles; }
+  _secCache=map; _secCacheKey=ck;
+  return map;
 }
+function cellValue(cell){ return cell.articles; }
 
 function render(){
   renderTier();
+  renderBands();
   renderHead();
-  const empty = activeCells().length===0;
-  $("#chart").innerHTML = "";
-  $("#heatgrid").innerHTML = "";
-  if(empty){
-    // a filter that excludes everything: say so plainly rather than drawing
-    // an empty axis, which reads as "this work is never cited".
-    $("#chart").innerHTML =
-      `<div class="fb-empty">No citations of this work match the current filter.<br>
-       Widen the year range or re-enable journals.</div>`;
-    return;
-  }
-  if(compare){
-    renderCompare();
-    // the heatmap stays pooled: a diverging line-band grid would be unreadable
-    $("#heatgrid").innerHTML =
-      `<div class="fb-empty">Passage map is hidden while comparing fields.
-       Switch comparison off to see the line-band detail.</div>`;
-    $("#viewlabel-chart").textContent = "Field comparison · by section";
-    $("#legend").style.display = "none";
-    return;
-  }
-  $("#viewlabel-chart").textContent = "Citation profile · by section";
-  $("#legend").style.display = "";
   renderChart();
   renderHeatgrid();
 }
 
+function renderBands(){
+  const host=$("#bandnote");
+  const bs = bandsFor(current.work);
+  if(!bs.length){ host.innerHTML=""; host.style.display="none"; return; }
+  host.style.display="";
+  const ranges = bs.map(b=>`${b.band_start}\u2013${b.band_end}`).join(", ");
+  const missing = bs.reduce((a,b)=>a+(b.est_missing||0),0);
+  host.className="tier uncertain bandnote";
+  host.innerHTML=`<span class="dot"></span><div>`+
+    t("view_b.bands.banner_html",{ranges, missing: missing.toLocaleString()})+`</div>`;
+}
+
 function renderTier(){
-  const t = current.tier;
   const el = $("#tier");
-  if(t==="trustworthy"){
-    el.className = "tier trustworthy";
-    el.innerHTML = `<span class="dot"></span><div>
-      <div class="label">Trustworthy tier · publication grade</div>
-      At least 80% of this work's detected citations resolve to a specific passage.
-      The profile below is a reliable picture of where attention falls: you can
-      compare section heights within this work and cite them with confidence.</div>`;
-  } else {
-    el.className = "tier uncertain";
-    el.innerHTML = `<span class="dot"></span><div>
-      <div class="label">Uncertain tier · read with care</div>
-      Fewer than 80% of this work's detected citations could be pinned to a
-      specific passage — its page-numbers collide with other works, so much of
-      its citation traffic is unplaceable. <b>What you see is a floor, not the
-      full picture.</b> A short bar here means "we couldn't place these," not
-      "few cite this." Trust the <i>shape</i> of what resolved; don't read the
-      absolute heights as complete, and don't compare heights against
-      trustworthy-tier works.</div>`;
-  }
+  const key = (current.tier==="trustworthy") ? "trustworthy" : "uncertain";
+  el.className = "tier " + key;
+  el.innerHTML = `<span class="dot"></span><div>`+
+    `<div class="label">${t("view_b.tiers."+key+".label")}</div>`+
+    t("view_b.tiers."+key+".body_html")+`</div>`;
 }
 
 function renderHead(){
   const name = current.work.replace(/_/g," ");
   $("#workname").textContent = name;
-  const cells = activeCells();
-  const totalCites = cells.reduce((a,c)=>a+c.count,0);
+  const cells = [...sectionCells().values()];
+  const totalCites = cells.reduce((a,c)=>a+c.articles,0);
   const pages = new Set(cells.map(c=>c.page)).size;
-  const filtered = window.FilterBar && !FilterBar.isDefault();
-  const allCites = current.cells.reduce((a,c)=>a+c.count,0);
   $("#workmeta").textContent =
-    (filtered
-      ? `${totalCites.toLocaleString()} of ${allCites.toLocaleString()} placed citations`
-      : `${totalCites.toLocaleString()} placed citations`)
-    + ` · ${cells.length} sections · ${pages} pages`
-    + (current.faceted ? " · book-faceted" : "");
-
-  /* Filtering has to be computed from `dots`, because `cells` carry no year
-     dimension. But dots are deduped by iid+locus while cells.count is not, so
-     the two disagree on the CITATIONS metric by ~20%. The DISTINCT-ARTICLES
-     metric is exact either way (cells.articles == distinct iid+locus in dots).
-     Rather than let the y-axis quietly shrink, say what's happening.
-     Proper fix belongs in build_viewer_data.py — see the aggregator patch.   */
-  const note = $("#fbCaveat");
-  if(filtered && metric!=="articles"){
-    note.style.display="";
-    note.innerHTML =
-      `Filtered citation counts are computed from the per-citation records, which are
-       deduplicated by article-and-passage. They run about 15–20% below the unfiltered
-       totals for that reason — the difference is duplicate mentions of the same passage
-       within one article, not citations removed by your filter. <b>Switch to
-       “Distinct articles” for a measure that is exact under filtering.</b>`;
-  } else if(note){ note.style.display="none"; }
+    t("view_b.work_meta", {
+      citations: totalCites.toLocaleString(),
+      sections: cells.length.toLocaleString(),
+      pages: pages.toLocaleString()
+    }) + (current.faceted ? t("view_b.work_meta_faceted_suffix") : "");
 }
 
 function orderedBooks(){
-  const cells = activeCells();
-  const first = bookSortKeys(cells);
-  const present = [...first.keys()];
-  const declared = current && READING_ORDER[current.work];
-  if(declared){
-    // declared order first, then anything unexpected (by page) so nothing is
-    // silently dropped if the reference tables and the data disagree
-    const known = declared.filter(b=>first.has(b));
-    const extra = present.filter(b=>declared.indexOf(b)<0)
-                         .sort((a,b)=>first.get(a)[0]-first.get(b)[0]);
-    return known.concat(extra);
-  }
+  const present = [...new Set([...sectionCells().values()].map(c=>c.book))];
   return present.sort((a,b)=>{
-    const ka = first.get(a), kb = first.get(b);
-    if(ka[0] !== kb[0]) return ka[0] - kb[0];       // lowest page wins
-    return ka[1] < kb[1] ? -1 : ka[1] > kb[1] ? 1 : 0;
+    const ia=BOOK_ORDER.indexOf(a), ib=BOOK_ORDER.indexOf(b);
+    return (ia<0?999:ia)-(ib<0?999:ib);
   });
 }
 
@@ -541,8 +483,9 @@ function orderedBooks(){
 function sectionSequence(){
   const books = orderedBooks();
   const seq = [];
+  const all=[...sectionCells().values()];
   for(const book of books){
-    const cells = activeCells()
+    const cells = all
       .filter(c=>c.book===book)
       .sort((a,b)=> a.page-b.page || SECTIONS.indexOf(a.section)-SECTIONS.indexOf(b.section));
     for(const c of cells) seq.push({cell:c, book});
@@ -568,7 +511,7 @@ function renderChart(){
   const n = seq.length;
   const slot = plotW / n;
   const bw = Math.max(1.5, slot*0.82);
-  const metricName = metric==="articles" ? "distinct articles" : "citations";
+  const metricName = t("view_b.axis.count");
 
   const NS="http://www.w3.org/2000/svg";
   const svg = document.createElementNS(NS,"svg");
@@ -664,197 +607,6 @@ function renderChart(){
   host.appendChild(svg);
 }
 
-/* ---- FIELD COMPARISON ----------------------------------------------------
-   Plots two journal groups against each other across the work.
-
-   The naive version — raw counts per group — mostly just restates that the
-   philosophy journals are ~3x the volume of the classics ones, which we
-   already know from the sidebar totals. The interesting question is where each
-   field's attention falls *relative to its own output*. So each group is
-   normalised to its own total: a bar shows that group's SHARE of its own
-   citations landing on that section. Equal shares = both fields distribute
-   attention the same way over the work, whatever their absolute sizes.
-
-   Divergence is then share(A) - share(B) at each section, drawn as a
-   diverging bar around a centre line.                                        */
-function groupTotals(){
-  const g = FilterBar._groups;
-  if(!g) return null;
-  const keys = Object.keys(g.groups);
-  if(keys.length < 2) return null;
-  return keys.map(k=>({
-    key:k, label:g.groups[k].label,
-    journals:new Set(g.groups[k].journals)
-  }));
-}
-
-function buildCompare(){
-  const groups = groupTotals();
-  if(!groups) return null;
-  const dots = activeDots();
-  // section -> per-group counts (and distinct-article sets)
-  const map = new Map();
-  const tot = {}, totArt = {};
-  for(const g of groups){ tot[g.key]=0; totArt[g.key]=new Set(); }
-
-  for(const d of dots){
-    let gk=null;
-    for(const g of groups) if(g.journals.has(d.journal)){ gk=g.key; break; }
-    if(!gk) continue;                       // unclassified journal: skipped
-    const k=`${d.book}|${d.page}|${d.section}`;
-    let e=map.get(k);
-    if(!e){
-      e={book:d.book,page:d.page,section:d.section,g:{},arts:{}};
-      for(const g of groups){ e.g[g.key]=0; e.arts[g.key]=new Set(); }
-      map.set(k,e);
-    }
-    e.g[gk]++; tot[gk]++;
-    if(d.iid){ e.arts[gk].add(d.iid); totArt[gk].add(d.iid); }
-  }
-  const rows=[...map.values()];
-  for(const e of rows){
-    for(const g of groups) e['art_'+g.key]=e.arts[g.key].size;
-    delete e.arts;
-  }
-  const totals={}; const totalsArt={};
-  for(const g of groups){ totals[g.key]=tot[g.key]; totalsArt[g.key]=totArt[g.key].size; }
-  return {groups, rows, totals, totalsArt};
-}
-
-function renderCompare(){
-  const host = $("#chart");
-  host.innerHTML = "";
-  const C = buildCompare();
-  if(!C){ host.innerHTML=`<div class="fb-empty">No journal grouping available.</div>`; return; }
-
-  const [A,B] = C.groups;                       // exactly two groups supported
-  const useArt = metric==="articles";
-  const tA = (useArt?C.totalsArt:C.totals)[A.key];
-  const tB = (useArt?C.totalsArt:C.totals)[B.key];
-  if(!tA || !tB){
-    host.innerHTML = `<div class="fb-empty">One field has no citations under the
-      current filter — nothing to compare. Re-enable its journals.</div>`;
-    return;
-  }
-
-  // order sections the same way the main chart does
-  const {seq} = sectionSequence();
-  const key = c=>`${c.book}|${c.page}|${c.section}`;
-  const byKey = new Map(C.rows.map(r=>[key(r),r]));
-
-  const items = seq.map(s=>{
-    const r = byKey.get(key(s.cell));
-    const a = r ? (useArt ? r['art_'+A.key] : r.g[A.key]) : 0;
-    const b = r ? (useArt ? r['art_'+B.key] : r.g[B.key]) : 0;
-    return {cell:s.cell, book:s.book, a, b,
-            sa: a/tA, sb: b/tB, div: a/tA - b/tB};
-  });
-
-  let maxDiv = 0;
-  for(const it of items) maxDiv = Math.max(maxDiv, Math.abs(it.div));
-  maxDiv = Math.max(maxDiv, 1e-9);
-
-  const W = host.clientWidth || 1000;
-  const H = 300, padL = 52, padR = 12, padT = 16, padB = 40;
-  const plotW = W-padL-padR, plotH = H-padT-padB;
-  const mid = padT + plotH/2;
-  const n = items.length, slot = plotW/n, bw = Math.max(1.5, slot*0.82);
-
-  const NS="http://www.w3.org/2000/svg";
-  const svg=document.createElementNS(NS,"svg");
-  svg.setAttribute("viewBox",`0 0 ${W} ${H}`); svg.setAttribute("height",H);
-
-  // centre line = equal share
-  const base=document.createElementNS(NS,"line");
-  base.setAttribute("class","axis-line");
-  base.setAttribute("x1",padL); base.setAttribute("x2",W-padR);
-  base.setAttribute("y1",mid); base.setAttribute("y2",mid);
-  svg.appendChild(base);
-
-  // side labels
-  for(const [lab,yy,cls] of [[A.label+" cites more",padT+11,"cmp-a"],
-                             [B.label+" cites more",padT+plotH-3,"cmp-b"]]){
-    const t=document.createElementNS(NS,"text");
-    t.setAttribute("class","cmp-side "+cls);
-    t.setAttribute("x",padL-6); t.setAttribute("y",yy);
-    t.setAttribute("text-anchor","end"); t.textContent=lab;
-    svg.appendChild(t);
-  }
-
-  let idx=0;
-  const bookStartIdx={};
-  for(const it of items){
-    if(bookStartIdx[it.book]===undefined) bookStartIdx[it.book]=idx;
-    const h = Math.abs(it.div)/maxDiv * (plotH/2);
-    const up = it.div >= 0;
-    const x = padL + idx*slot + (slot-bw)/2;
-    const y = up ? mid-h : mid;
-    if(h>0.2){
-      const bar=document.createElementNS(NS,"rect");
-      bar.setAttribute("class","bar cmp "+(up?"cmp-a":"cmp-b"));
-      bar.setAttribute("x",x); bar.setAttribute("y",y);
-      bar.setAttribute("width",bw); bar.setAttribute("height",Math.max(0.6,h));
-      bar.setAttribute("rx",Math.min(1.5,bw/2));
-      const c=it.cell;
-      bar.addEventListener("click",()=>openDrill(c));
-      bar.addEventListener("mousemove",e=>showTipCmp(e,it,A,B,useArt));
-      bar.addEventListener("mouseleave",hideTip);
-      svg.appendChild(bar);
-    }
-    idx++;
-  }
-
-  // book dividers, same as the main chart
-  if(current.faceted){
-    const books = orderedBooks();
-    for(const book of books){
-      const si=bookStartIdx[book]; if(si===undefined) continue;
-      if(si>0){
-        const dv=document.createElementNS(NS,"line");
-        dv.setAttribute("class","bookdiv");
-        dv.setAttribute("x1",padL+si*slot); dv.setAttribute("x2",padL+si*slot);
-        dv.setAttribute("y1",padT); dv.setAttribute("y2",padT+plotH+6);
-        svg.appendChild(dv);
-      }
-      const nb=books[books.indexOf(book)+1];
-      const ei = nb!==undefined && bookStartIdx[nb]!==undefined ? bookStartIdx[nb] : n;
-      const tg=document.createElementNS(NS,"text");
-      tg.setAttribute("class","booktag"+(book.endsWith("*")?" common":""));
-      tg.setAttribute("x",padL+((si+ei)/2)*slot); tg.setAttribute("y",padT+plotH+26);
-      tg.setAttribute("text-anchor","middle"); tg.textContent=book.replace("*","");
-      svg.appendChild(tg);
-    }
-  }
-  host.appendChild(svg);
-
-  // caption: what the reader is looking at, plus the base rates
-  const cap=document.createElement("div");
-  cap.className="cmp-cap";
-  const unit = useArt ? "articles" : "citations";
-  cap.innerHTML =
-    `Each field is normalised to its own output, so this shows where a field
-     aims its attention, not how much it publishes.
-     Base: <b>${tA.toLocaleString()}</b> ${A.label.toLowerCase()} ${unit} vs
-     <b>${tB.toLocaleString()}</b> ${B.label.toLowerCase()} ${unit} for this work.
-     Bars are the difference in each field's share of its own total.
-     <span class="cmp-warn">Sections with only a handful of citations
-     will swing wildly — read the tall bars, not the forest.</span>`;
-  host.appendChild(cap);
-}
-
-function showTipCmp(e,it,A,B,useArt){
-  const unit = useArt?"articles":"citations";
-  const lead = it.div>=0 ? A : B;
-  tip.innerHTML =
-    `<span class="tt-loc">${it.cell.page}${it.cell.section}</span><br>`+
-    `${A.label}: ${it.a} ${unit} (${(it.sa*100).toFixed(2)}% of field)<br>`+
-    `${B.label}: ${it.b} ${unit} (${(it.sb*100).toFixed(2)}% of field)<br>`+
-    `<b>${lead.label} leads</b> by ${(Math.abs(it.div)*100).toFixed(2)} pts`;
-  tip.style.opacity="1";
-  tip.style.left=Math.min(e.clientX+12, window.innerWidth-240)+"px";
-  tip.style.top=(e.clientY+12)+"px";
-}
-
 function niceTicks(max, count){
   const raw = max/count;
   const mag = Math.pow(10, Math.floor(Math.log10(raw)));
@@ -862,8 +614,7 @@ function niceTicks(max, count){
   const step = (norm>=5?5:norm>=2?2:1)*mag;
   const ticks=[];
   for(let t=0;t<=max;t+=step) ticks.push(Math.round(t));
-  if(ticks[ticks.length-1]<max) ticks.push(ticks[ticks.length-1]+step);
-  return ticks;
+  return ticks;   // audit: no tick above the plot top
 }
 
 // ---- HEATMAP GRID (line-band grain, map view) -----------------------------
@@ -891,25 +642,32 @@ function renderHeatgrid(){
 
     for(const page of pages){
       const col=document.createElement("div");
-      col.className="pgcol"+(page%5===0?" mark":"");
+      const flagged = inBand(current.work, page);
+      col.className="pgcol"+(page%5===0?" mark":"")+(flagged?" underres":"");
+      if(flagged) col.title = t("view_b.bands.marker_label");
       const secrow=document.createElement("div"); secrow.className="seccol";
       // for Plato: a-e each as single band; for Bekker: a,b each split into 3 bands
-      const secs = current.faceted && isBekker(current.work) ? ["a","b"] : SECTIONS;
-      const nBands = (current.faceted && isBekker(current.work)) ? 3 : 1;
+      const secs = sectionsFor(current.work);
+      const banded = hasLineBands(current.work);
+      const bandList = banded ? [0,1,2,UNSPEC] : [0];
       for(const sec of secs){
         const stack=document.createElement("div"); stack.className="bandstack";
-        for(let band=0; band<nBands; band++){
+        for(const band of bandList){
           const key=`${book}|${page}|${sec}|${band}`;
           const v=bandCells.get(key);
           const cell=document.createElement("div");
           if(v){
-            const val=metric==="articles"?v.articles:v.count;
-            cell.className="cell";
+            const val=v.articles;
+            cell.className="cell"+(band===UNSPEC?" unspec":"");
             cell.style.background=`var(${heatVar(val,max)})`;
-            const bandLbl = nBands>1 ? `${sec}${['₁','₂','₃'][band]}` : sec;
+            const bandLbl = banded ? `${sec}${BAND_LABEL[band]}` : sec;
+            const locTip = band===UNSPEC
+              ? `${page}${sec} · no line given`
+              : `${page}${bandLbl}`;
             cell.addEventListener("click",()=>openDrillBand(book,page,sec,band,v));
-            cell.addEventListener("mousemove",e=>showTipRaw(e,`${page}${bandLbl}`,val,v.articles));
+            cell.addEventListener("mousemove",e=>showTipRaw(e,locTip,val));
             cell.addEventListener("mouseleave",hideTip);
+            cell.addEventListener("touchstart",e=>showTipRaw(e.touches[0],locTip,val),{passive:true});
           } else {
             cell.className="cell empty";
           }
@@ -930,12 +688,14 @@ function renderHeatgrid(){
 // build line-band cells from dots: book|page|sec|band -> {count, articles, iids}
 let _bandCache=null, _bandCacheKey="";
 function buildBandCells(){
-  const ck = current.work+"|"+filterKey();
+  const ck = current.work+"|"+mode+"|"+(activeJournals?[...activeJournals].join(","):"all")+"|"+filterKey();
   if(_bandCache && _bandCacheKey===ck) return _bandCache;
   const map=new Map();
-  const bekker = current.faceted && isBekker(current.work);
-  for(const d of activeDots()){
-    const band = bekker ? bandOf(d.line) : 0;
+  const banded = hasLineBands(current.work);
+  for(const d of current.dots){
+    if(mode==="split" && activeJournals && !activeJournals.has(d.journal)) continue;
+    if(!passesBar(d)) continue;
+    const band = banded ? bandOf(d.line) : 0;
     const k=`${d.book}|${d.page}|${d.section}|${band}`;
     let e=map.get(k); if(!e){ e={count:0,articles:0,iids:new Set()}; map.set(k,e); }
     e.count++; if(d.iid) e.iids.add(d.iid);
@@ -945,31 +705,51 @@ function buildBandCells(){
   return map;
 }
 
+// Line bands. Index 0..2 are real line ranges; UNSPEC is a distinct fourth band
+// for citations carrying NO line number (13.5% of NE). Folding those into band 0
+// claimed a precision the source never had — see audit 2c.
 const LINEBANDS=[[1,15],[16,30],[31,99]];
-function bandOf(line){ if(line==null)return 0;
+const UNSPEC = 3;
+function bandOf(line){
+  if(line==null) return UNSPEC;
   for(let i=0;i<LINEBANDS.length;i++){ if(line>=LINEBANDS[i][0]&&line<=LINEBANDS[i][1])return i; }
   return 2; }
-function isBekker(work){
-  return ["Metaphysics","Nicomachean_Ethics","Eudemian_Ethics"].includes(work); }
+const BAND_LABEL = ['\u2081','\u2082','\u2083','\u2093'];   // ₁ ₂ ₃ ₓ
+
+// Two independent questions, formerly conflated in one hardcoded list of three
+// (audit 2d): which PAGINATION SYSTEM the work uses — a property of the edition,
+// true of all 32 Aristotle works — and whether we draw LINE BANDS, a display
+// choice for the big faceted treatises. Conflating them put 29 Aristotle works
+// (18,815 citations: Politics, Physics, De Anima, Rhetoric, Poetics, Posterior
+// Analytics ...) on a Stephanus a-e grid with three permanently empty columns.
+function paginationOf(work){
+  return (typeof EDITIONS!=="undefined" && EDITIONS[work]==="a") ? "bekker" : "stephanus"; }
+function sectionsFor(work){
+  return paginationOf(work)==="bekker" ? ["a","b"] : SECTIONS; }
+function hasLineBands(work){
+  return paginationOf(work)==="bekker" && !!(current && current.faceted); }
 
 function openDrillBand(book,page,sec,band,agg){
   // reuse the section drill but scope to this line-band
-  const bekker = current.faceted && isBekker(current.work);
-  const dots = activeDots().filter(d=>{
+  const banded = hasLineBands(current.work);
+  const dots = current.dots.filter(d=>{
     if(d.book!==book||d.page!==page||d.section!==sec)return false;
-    if(bekker) return bandOf(d.line)===band;
+    if(mode==="split" && activeJournals && !activeJournals.has(d.journal)) return false;
+    if(!passesBar(d)) return false;
+    if(banded) return bandOf(d.line)===band;
     return true;
   });
-  const bandLbl = bekker ? `${page}${sec}${['₁','₂','₃'][band]}` : `${page}${sec}`;
+  const bandLbl = !banded ? `${page}${sec}`
+    : band===UNSPEC ? `${page}${sec} (no line given)`
+    : `${page}${sec}${BAND_LABEL[band]}`;
   openDrillDots(dots, `${current.work.replace(/_/g," ")} ${bandLbl}`);
 }
 
 // ---- tooltip --------------------------------------------------------------
 const tip = $("#tooltip");
-function showTipRaw(e,locLabel,v,articles){
-  const unit = metric==="articles" ? "articles" : "citations";
-  tip.innerHTML = `<span class="tt-loc">${locLabel}</span> · ${v} ${unit}`
-    + (articles!=null?` · ${articles} distinct`:"");
+function showTipRaw(e,locLabel,v){
+  tip.innerHTML = `<span class="tt-loc">${locLabel}</span> · ${v} `
+    + t("view_b.axis.count");
   tip.style.opacity="1";
   tip.style.left=(e.clientX+12)+"px";
   tip.style.top=(e.clientY+12)+"px";
@@ -978,29 +758,51 @@ function hideTip(){ tip.style.opacity="0"; }
 
 // ---- drill-in -------------------------------------------------------------
 function openDrill(cell){
-  // section-grain drill (from a bar): all dots at this book/page/section
-  const dots = activeDots().filter(d =>
-    d.page===cell.page && d.section===cell.section && d.book===cell.book);
+  // section-grain drill (from a bar): all dots at this book/page/section that
+  // pass the active journal/year filter, so the drill count matches the bar.
+  const dots = current.dots.filter(d =>
+    d.page===cell.page && d.section===cell.section && d.book===cell.book
+    && passesBar(d));
   openDrillDots(dots, `${current.work.replace(/_/g," ")} ${cell.page}${cell.section}`);
 }
 
 function openDrillDots(dots, locLabel){
+  // Audit 2a: the header used dots.length, so an article citing 1097b25 AND
+  // 1097b33 was counted twice (91 reported vs 53 real at NE 1097b). Group by
+  // article; show each once with all of its loci in that passage.
+  const byArticle = new Map();
+  for(const d of dots){
+    const k = d.iid || (stripTags(d.title)+"|"+(d.year||""));
+    let e = byArticle.get(k);
+    if(!e){ e={...d, loci:new Set()}; byArticle.set(k,e); }
+    e.loci.add(`${d.page}${d.section}${d.line==null?"":d.line}`);
+  }
+  const arts = [...byArticle.values()]
+    .sort((a,b)=> String(b.year||"").localeCompare(String(a.year||"")));
+
   $("#drillLoc").textContent = locLabel.replace(/\s(\d)/, " · $1");
-  $("#drillCnt").textContent =
-    `${dots.length} article${dots.length===1?"":"s"} cite this passage`;
+  $("#drillCnt").textContent = arts.length===1
+    ? t("view_b.drill.count_one")
+    : t("view_b.drill.count_many", {n: arts.length.toLocaleString()});
+
   const body = $("#drillBody");
   body.innerHTML = "";
-  dots = dots.slice().sort((a,b)=> (b.year||"").localeCompare(a.year||""));
-  for(const d of dots){
+  if(!arts.length){
+    const e=document.createElement("div"); e.className="cite";
+    e.textContent = t("view_b.drill.empty"); body.appendChild(e);
+  }
+  for(const d of arts){
     const el = document.createElement("div");
     el.className = "cite";
     const doi = d.doi ? `https://doi.org/${d.doi}` : null;
+    const loci = [...d.loci].sort();
     el.innerHTML =
       `<div class="t">${stripTags(d.title)||"(untitled)"}</div>`+
       (d.author?`<div class="a">${stripTags(d.author)}</div>`:"")+
       `<div class="j">${d.journal||""} · ${d.year||""}`+
       (doi?` · <a class="doi" href="/${doi}" target="_blank" rel="noopener">${d.doi}</a>`:"")+
-      `</div>`;
+      `</div>`+
+      (loci.length>1?`<div class="loci">cites ${loci.join(", ")}</div>`:"");
     body.appendChild(el);
   }
   currentDrillDots = dots;
@@ -1013,10 +815,16 @@ function closeDrill(){ $("#drill").classList.remove("open"); $("#scrim").classLi
 
 // ---- export ---------------------------------------------------------------
 function exportCsv(){
-  const rows = [["work","locus","journal","year","author","title","doi"]];
+  // Audit finding 5: book and line were dropped, so a band-level export lost the
+  // very distinction that scoped it. Both are now columns, and `locus` is full.
+  const rows = [["work","book","page","section","line","locus",
+                 "journal","year","author","title","doi"]];
   for(const d of currentDrillDots){
+    const line = (d.line==null ? "" : d.line);
     rows.push([
-      current.work, `${d.page}${d.section}`, d.journal||"", d.year||"",
+      current.work, d.book||"", d.page, d.section, line,
+      `${d.page}${d.section}${line}`,
+      d.journal||"", d.year||"",
       stripTags(d.author), stripTags(d.title),
       d.doi?`https://doi.org/${d.doi}`:""
     ]);
@@ -1032,12 +840,11 @@ function exportCsv(){
 }
 
 // ---- wire up --------------------------------------------------------------
+// The work selector is grouped by tier so the distinction is visible before the
+// chart loads; within each group, most-cited first. Populated from works_index.
 function buildWorkSelector(){
   const sel = $("#work");
   sel.innerHTML = "";
-  // Grouped by tier so the selector itself carries the distinction: a reader
-  // choosing Crito should see, before the chart loads, that it sits in the
-  // partial-coverage group. Within each group, most-cited first.
   for(const [tier,label] of [["trustworthy","Reliable coverage (80%+ placed)"],
                              ["uncertain","Partial coverage (under 80% placed)"]]){
     const items = WORKS.filter(w=>w.tier===tier)
@@ -1058,17 +865,16 @@ function buildWorkSelector(){
 function initControls(){
   const sel = $("#work");
   sel.addEventListener("change", e=>loadWork(e.target.value));
+  $("#pool").addEventListener("click", e=>{
+    if(!e.target.dataset.mode) return;
+    mode=e.target.dataset.mode;
+    for(const b of $("#pool").children) b.setAttribute("aria-pressed", b.dataset.mode===mode);
+    render();
+  });
   $("#metric").addEventListener("click", e=>{
     if(!e.target.dataset.metric) return;
     metric=e.target.dataset.metric;
     for(const b of $("#metric").children) b.setAttribute("aria-pressed", b.dataset.metric===metric);
-    render();
-  });
-  $("#cmp").addEventListener("click", e=>{
-    if(!e.target.dataset.cmp) return;
-    compare = e.target.dataset.cmp==="on";
-    for(const b of $("#cmp").children)
-      b.setAttribute("aria-pressed", (b.dataset.cmp==="on")===compare);
     render();
   });
   $("#drillClose").addEventListener("click", closeDrill);
@@ -1077,41 +883,80 @@ function initControls(){
   document.addEventListener("keydown", e=>{ if(e.key==="Escape") closeDrill(); });
 }
 
-initControls();
+function applyCopy(root){
+  for(const el of (root||document).querySelectorAll("[data-copy]")){
+    const v = t(el.dataset.copy);
+    if(v) el.textContent = v;
+  }
+  document.title = t("view_b.page_title") || document.title;
+}
 
-// Load the work index, the filter metadata and the journal grouping together,
-// then populate the selector and open a default work. The index is what makes
-// every work available rather than a hardcoded pair.
-Promise.all([
-  fetch('/data/viewer/works_index.json').then(r=>r.json()),
-  fetch('/data/viewer/meta.json').then(r=>r.json()),
-  // field grouping is optional: if it's missing the bar degrades to one column
-  fetch('/data/viewer/journal_groups.json').then(r=>r.json()).catch(()=>null)
-]).then(([index, meta, groups])=>{
-  WORKS = index;
-  // works_index.json gives paths relative to the data directory; resolve them
-  // against wherever works_index.json itself was fetched from, so this works
-  // both standalone and when the site build re-hosts the viewer.
-  const base = FILES.__base || "";
-  for(const w of WORKS) FILES[w.work] = base + w.file;
-  buildWorkSelector();
+// After 2b both surfaces show distinct-article-per-locus, so a citations vs
+// distinct-articles toggle would offer two labels for one quantity. Hidden
+// rather than left as a control that does nothing.
+function retireMetricToggle(){
+  const m = $("#metric");
+  if(m && m.parentElement) m.parentElement.style.display = "none";
+}
 
-  FilterBar.mount($("#filterbar"), meta, ()=>{
-    _fCache=null; _bandCache=null;   // filter changed: drop derived caches
-    if(current) render();
-  }, groups);
-
-  // open the most-cited well-resolved work by default
-  const first = WORKS.filter(w=>w.tier==="trustworthy")
-                     .sort((a,b)=>b.citations-a.citations)[0] || WORKS[0];
-  if(first){ $("#work").value = first.work; loadWork(first.work); }
-}).catch(e=>{
-  console.warn("viewer data unavailable", e);
-  $("#filterbar").innerHTML =
-    `<div class="fb-note">Could not load viewer data. If you are running this
-     file directly from disk, serve it over HTTP instead — browsers block
-     fetch() on file:// URLs.</div>`;
+// Re-render on resize: the SVG is laid out in px against host.clientWidth.
+let _rz;
+window.addEventListener("resize", ()=>{
+  clearTimeout(_rz);
+  _rz = setTimeout(()=>{ if(current) { renderChart(); renderHeatgrid(); } }, 150);
 });
+
+fetch(DATA_DIR+"copy.json")
+  .then(r=>{ if(!r.ok) throw new Error("HTTP "+r.status); return r.json(); })
+  .then(c=>{
+    COPY = c;
+    applyCopy();
+    // Non-fatal: without bands the overlay is absent, but the page still works.
+    fetch(DATA_DIR+"collision_bands.json")
+      .then(r=>r.ok?r.json():null)
+      .then(b=>{ BANDS=b; if(current) renderBands(), renderHeatgrid(); })
+      .catch(e=>console.warn("collision_bands.json unavailable", e));
+    retireMetricToggle();
+    initControls();
+
+    // Load the work index, filter metadata and journal grouping together, then
+    // populate the selector, mount the filter bar and open a default work. The
+    // index is what makes every work available rather than a hardcoded pair.
+    Promise.all([
+      fetch(DATA_DIR+"works_index.json").then(r=>r.json()),
+      fetch(DATA_DIR+"meta.json").then(r=>r.json()),
+      fetch(DATA_DIR+"journal_groups.json").then(r=>r.json()).catch(()=>null)
+    ]).then(([index, meta, groups])=>{
+      WORKS = index;
+      for(const w of WORKS) FILES[w.work] = w.file;   // relative to DATA_DIR
+      buildWorkSelector();
+
+      if(window.FilterBar){
+        FilterBar.mount($("#filterbar"), meta, ()=>{
+          _secCache=null; _bandCache=null;   // filter changed: drop derived caches
+          if(current) render();
+        }, groups);
+      }
+
+      // open the most-cited well-resolved work by default
+      const first = WORKS.filter(w=>w.tier==="trustworthy")
+                         .sort((a,b)=>b.citations-a.citations)[0] || WORKS[0];
+      if(first){ $("#work").value = first.work; loadWork(first.work); }
+    }).catch(e=>{
+      console.warn("viewer index unavailable — falling back to a single work", e);
+      // last-ditch fallback so the page is never blank
+      FILES["Nicomachean_Ethics"] = "view_b/Nicomachean_Ethics.json";
+      const o=document.createElement("option");
+      o.value="Nicomachean_Ethics"; o.textContent="Nicomachean Ethics";
+      $("#work").appendChild(o);
+      loadWork("Nicomachean_Ethics");
+    });
+  })
+  .catch(err=>{
+    console.error("copy.json", err);
+    fatal("The text file <code>copy.json</code> could not be loaded or is not "+
+          "valid JSON. If you just edited it, check for a stray comma or quote.");
+  });
 </script>
 </body>
 </html>

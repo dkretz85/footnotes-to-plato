@@ -371,11 +371,17 @@ def build_viewer_page(out, src, url, title, subtitle, intro_md, current):
         s = re.sub(r'(src|href)="(?!/|https?:|#)([^"]+)"', r'\1="/\2"', s)
         return s
     links, scripts = absolutize(links), absolutize(scripts)
-    # data fetches inside the viewer scripts point at viewer_data/
+    # Data fetches inside the viewer scripts point at viewer_data/. The current
+    # viewers load everything through `const DATA_DIR = "viewer_data/"` and call
+    # fetch(DATA_DIR + name); older ones used a literal fetch('name'). Rewrite
+    # both forms so they resolve from /explore/works/ and /explore/passages/
+    # alike. (Without the DATA_DIR rewrite every data fetch 404s from the built
+    # page's URL — see the copy.json / DATA_DIR handoff notes.)
+    scripts = re.sub(r'const\s+DATA_DIR\s*=\s*["\']viewer_data/["\']',
+                     'const DATA_DIR = "/data/viewer/"', scripts)
     scripts = re.sub(r"fetch\('(?!/|https?:)([^']+)'", r"fetch('/data/viewer/\1'", scripts)
-    # View B resolves per-work paths from works_index.json at runtime, and those
-    # paths are relative to the data directory ("view_b/Republic.json"). Give it
-    # the published base so they resolve from any page URL.
+    # View B (older layout) resolved per-work paths from an empty FILES map;
+    # give it the published base so they resolve from any page URL.
     scripts = scripts.replace('const FILES = {};',
                               'const FILES = {__base:"/data/viewer/"};')
     # ...and don't double-prefix anything already absolute
@@ -431,6 +437,16 @@ def main():
     if os.path.isdir(vd):
         shutil.copytree(vd, os.path.join(out, "data", "viewer"), dirs_exist_ok=True)
         print(f"  published {args.viewer_data}/ -> data/viewer/", file=sys.stderr)
+        # copy.json holds the user-facing prose the viewers fetch at runtime
+        # (DATA_DIR + "copy.json"). It lives at the repo root, not in
+        # viewer_data/, so publish it alongside the data or the viewers 404.
+        cj = os.path.join(ROOT, "copy.json")
+        if os.path.exists(cj):
+            shutil.copy(cj, os.path.join(out, "data", "viewer", "copy.json"))
+            print("  published copy.json -> data/viewer/copy.json", file=sys.stderr)
+        else:
+            print("  WARNING: copy.json not found — viewers will fail to load "
+                  "their text.", file=sys.stderr)
     else:
         print(f"  WARNING: {args.viewer_data}/ not found. The viewers will have "
               f"no data. Run build_viewer_data.py first.", file=sys.stderr)

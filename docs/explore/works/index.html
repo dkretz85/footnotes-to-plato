@@ -72,7 +72,18 @@
   /* fade: FULL height, a single smooth wash of the author hue that dissolves to
      transparent — the gradient itself does the fade, no mask or arrow needed.   */
   .bar-fade{height:20px; border-radius:0 3px 3px 0; position:relative;}
+  /* fade under an active filter: greyed, width unchanged, dashed edge to mark
+     that it is deliberately NOT participating in the filter */
+  .bar-fade.unfiltered{outline:1px dashed rgba(120,128,146,.35); outline-offset:-1px}
   .row .val{font-family:var(--mono); font-size:12px; color:var(--ink-soft); text-align:right}
+
+  /* segmented controls used by the time-series panel */
+  .seg{display:inline-flex; border:1px solid var(--rule); border-radius:7px; overflow:hidden;
+    box-shadow:var(--shadow); background:#fff}
+  .seg button{font-family:var(--sans); font-size:12.5px; color:var(--ink); background:#fff;
+    border:0; padding:5px 11px; cursor:pointer}
+  .seg button + button{border-left:1px solid var(--rule)}
+  .seg button[aria-pressed="true"]{background:var(--lav); color:#fff}
 
   /* tooltip */
   .tooltip{position:fixed; z-index:30; pointer-events:none; background:var(--ink); color:#fff;
@@ -82,17 +93,24 @@
   .tooltip .tt-row{color:#c7cdf0}
   .tooltip .tt-col{color:var(--fade1); margin-top:4px; font-size:11px}
   .tooltip b{color:#fff}
+
+  /* Finding 3 apparatus: small-n and localised under-resolution.
+     Clay is reserved for uncertainty throughout, so both badges use it. */
+  .badge{font-family:var(--mono); font-size:8.5px; letter-spacing:.09em;
+    text-transform:uppercase; padding:1px 5px; border-radius:4px; margin-left:6px;
+    vertical-align:middle; white-space:nowrap; font-weight:500;}
+  .badge.sm{color:var(--uncertain); background:#faf1ea; border:1px solid var(--uncertain-soft)}
+  .badge.bd{color:var(--uncertain); background:transparent; border:1px dashed var(--uncertain-soft)}
+  /* small-n bars sit back visually: the number is real, the rate behind the
+     tier is not well evidenced, so the bar should not compete for attention */
+  .bar-track.faint{opacity:.62}
+  .tooltip .tt-warn{color:var(--uncertain-soft); margin-top:5px; font-size:11px;
+    border-top:1px solid rgba(255,255,255,.15); padding-top:4px; line-height:1.4}
+  .tier-sub{font-size:12px; color:var(--ink-soft); max-width:78ch;
+    margin:-8px 0 14px; padding-left:11px; border-left:2px solid var(--uncertain-soft);}
+  .tier-sub b{color:var(--ink)}
   .footnote{font-size:12px; color:var(--ink-soft); max-width:80ch; margin:36px 0 0;
     padding-top:14px; border-top:1px solid var(--rule); line-height:1.55;}
-  .seg{display:inline-flex; border:1px solid var(--rule); border-radius:7px; overflow:hidden;
-    box-shadow:var(--shadow); background:#fff}
-  .seg button{font-family:var(--sans); font-size:12.5px; color:var(--ink); background:#fff;
-    border:0; padding:5px 11px; cursor:pointer}
-  .seg button + button{border-left:1px solid var(--rule)}
-  .seg button[aria-pressed="true"]{background:var(--lav); color:#fff}
-  /* fade under an active filter: greyed, width unchanged, dashed edge to mark
-     that it is deliberately NOT participating in the filter */
-  .bar-fade.unfiltered{outline:1px dashed rgba(120,128,146,.35); outline-offset:-1px}
   @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 </style>
 </head>
@@ -119,20 +137,13 @@
 <div class="wrap">
   
 
-  <p class="intro">Each bar counts how often a work is cited across the ten journals. The solid
-  bar is what we could place with confidence — a floor. For many short dialogues, far more
-  citations exist but can't be pinned to one work, because their page-numbers collide with
-  others; that uncertain mass trails off as a fade rather than a false number.</p>
+  <p class="intro" data-copy="view_a.intro"></p>
 
   <div class="barkey">
-    <div class="k"><span class="sw floor"></span> confidently placed (floor)</div>
-    <div class="k"><span class="sw band"></span> reasonably sure</div>
-    <div class="k"><span class="sw fade"></span> detected but unplaceable — could be much more</div>
+    <div class="k"><span class="sw floor"></span> <span data-copy="view_a.legend.floor"></span></div>
+    <div class="k"><span class="sw band"></span> <span data-copy="view_a.legend.band"></span></div>
+    <div class="k"><span class="sw fade"></span> <span data-copy="view_a.legend.fade"></span></div>
     <div class="authk"><span class="chip plato"></span> Plato <span class="chip aris"></span> Aristotle</div>
-    <div class="seg" id="metric" style="margin-left:auto">
-      <button data-metric="count" aria-pressed="true">Citations</button>
-      <button data-metric="articles" aria-pressed="false">Distinct articles</button>
-    </div>
   </div>
 
   <div id="filterbar"></div>
@@ -176,11 +187,7 @@
 
   <div id="tiers"></div>
 
-  <p class="footnote">On author colouring: works are grouped by the reference edition their
-  citations use — Stephanus pagination (indigo) or Bekker pagination (teal) — which is how
-  the scholarship addresses them, not a position on authorship. Several works in each corpus
-  are of disputed or rejected authenticity; they are coloured by the edition that paginates
-  them, as traditionally ascribed, and no claim about who wrote them is intended.</p>
+  <p class="footnote" data-copy="view_a.footnote"></p>
 </div>
 
 <div class="tooltip" id="tooltip"></div>
@@ -207,13 +214,51 @@
 <script src="/series.js"></script>
 <script>
 const $ = s=>document.querySelector(s);
-let DATA=null, SCALE=1, FILTER=null, METRIC="count";
+// Where the generated JSON lives, RELATIVE TO THIS HTML FILE.
+// Repo layout is: view_a.html at root, data in viewer_data/.
+// build_site.py rewrites this to "/data/viewer/" when it publishes the page.
+// Must end with a slash when non-empty.
+const DATA_DIR = "/data/viewer/";
+
+let DATA=null, SCALE=1, FILTER=null, WGROUPS=null;
+// mirrors --small-n-threshold in build_viewer_data.py; only used for display
+const SMALL_N_LABEL = 100;
+
+// Author/edition map baked in (68 works, ~1.4KB) so there is NOTHING external to
+// fetch — no silent 404, no misplaced file, colours always correct on load.
+// 'p' = Plato / Stephanus pagination (indigo); 'a' = Aristotle / Bekker (teal).
+const EDITIONS = {"Magna_Moralia": "a", "Meno": "p", "De_Incessu_Animalium": "a", "Ion": "p", "Euthyphro": "p", "De_Generatione_Animalium": "a", "Hippias_Minor": "p", "De_Respiratione": "a", "Meteorology": "a", "Sophist": "p", "Prior_Analytics": "a", "De_Partibus_Animalium": "a", "Apology": "p", "Posterior_Analytics": "a", "Critias": "p", "Cratylus": "p", "Euthydemus": "p", "Lysis": "p", "Historia_Animalium": "a", "Menexenus": "p", "Parmenides": "p", "Hippias_Major": "p", "De_Insomniis": "a", "Alcibiades_2": "p", "Rival_Lovers": "p", "Nicomachean_Ethics": "a", "Metaphysics": "a", "De_Sensu": "a", "Rhetoric": "a", "Poetics": "a", "Hipparchus": "p", "Statesman": "p", "Topics": "a", "De_Divinatione_per_Somnum": "a", "Theages": "p", "Laches": "p", "De_Caelo": "a", "Clitophon": "p", "Crito": "p", "Philebus": "p", "Letters": "p", "De_Generatione_et_Corruptione": "a", "Alcibiades_1": "p", "Rhetorica_ad_Alexandrum": "a", "Charmides": "p", "Republic": "p", "Politics": "a", "De_Somno": "a", "De_Interpretatione": "a", "Gorgias": "p", "Eudemian_Ethics": "a", "De_Motu_Animalium": "a", "Symposium": "p", "De_Longitudine_Vitae": "a", "Phaedrus": "p", "Physics": "a", "Laws": "p", "Sophistical_Refutations": "a", "De_Juventute": "a", "Categories": "a", "De_Anima": "a", "Epinomis": "p", "Timaeus": "p", "De_Memoria": "a", "Minos": "p", "Phaedo": "p", "Protagoras": "p", "Theaetetus": "p"};
+
+// ---- externalised prose ---------------------------------------------------
+// NB: the filter caveat and the time-series panel's warnings are still authored
+// inline below. Externalising them into copy.json is a deferred follow-up (the
+// handoff sequences the prose refactor as a separate pass after the features
+// are back and verified).
+let COPY=null;
+function t(path, vars){
+  let v = path.split(".").reduce((o,k)=>(o||{})[k], COPY);
+  if(typeof v!=="string") return "";
+  if(vars) for(const k in vars) v = v.split("{"+k+"}").join(vars[k]);
+  return v;
+}
+function applyCopy(){
+  for(const el of document.querySelectorAll("[data-copy]")){
+    const v=t(el.dataset.copy);
+    if(v){ if(/_html$/.test(el.dataset.copy)) el.innerHTML=v; else el.textContent=v; }
+  }
+  document.title = t("view_a.page_title") || document.title;
+}
+function fatal(msg){
+  document.body.innerHTML =
+    '<div style="max-width:44ch;margin:18vh auto;font:15px/1.55 system-ui;color:#5b6478">'+
+    '<b style="color:#b06a3a">Could not start.</b><br>'+msg+'</div>';
+}
 
 /* ---- filtering ------------------------------------------------------------
    `view_a.json` carries only all-time totals, so filtering needs the separate
    sparse matrix in `view_a_filter.json` (work -> journal -> year -> n). That
    file is ~430 KB, so it is fetched lazily: View A paints instantly from the
-   20 KB summary, and the matrix arrives before the user can finish reading the
+   summary, and the matrix arrives before the user can finish reading the
    legend. Until it lands the filter bar is disabled rather than wrong.
 
    IMPORTANT — the fade is NOT filtered. `unplaceable` is a whole-corpus
@@ -221,20 +266,20 @@ let DATA=null, SCALE=1, FILTER=null, METRIC="count";
    attribute to a WORK cannot honestly be attributed to a year either. Scaling
    it alongside the floor would manufacture a per-work-per-year number the
    pipeline never computed. So under a filter the fade is held at its full
-   width and greyed, and the tooltip says so.                                 */
+   width and greyed, and the tooltip says so.
+
+   The metric toggle (Citations / Distinct articles) was retired: audit 2b made
+   both surfaces distinct-article-per-locus, so the two labels named one
+   quantity. Filtering therefore works on the citation floor only.            */
 function filteredFloor(w){
-  if(!FILTER || !window.FilterBar || FilterBar.isDefault()) {
-    return METRIC==="articles" ? w.distinct_articles : w.floor;
-  }
+  if(!isFiltered()) return w.floor;
   const m = FILTER[w.work];
-  if(!m) return 0;
-  const table = METRIC==="articles" ? m.articles : m.citations;
-  if(!table) return 0;
+  if(!m || !m.citations) return 0;
   const st = FilterBar.state;
   let n=0;
-  for(const j in table){
+  for(const j in m.citations){
     if(!st.journals.has(j)) continue;
-    const yrs=table[j];
+    const yrs=m.citations[j];
     for(const y in yrs){
       const yi=+y;
       if(yi>=st.y0 && yi<=st.y1) n+=yrs[y];
@@ -244,17 +289,40 @@ function filteredFloor(w){
 }
 function isFiltered(){ return !!(FILTER && window.FilterBar && !FilterBar.isDefault()); }
 
-// Author/edition map baked in (68 works, ~1.4KB) so there is NOTHING external to
-// fetch — no silent 404, no misplaced file, colours always correct on load.
-// 'p' = Plato / Stephanus pagination (indigo); 'a' = Aristotle / Bekker (teal).
-const AUTHORS_INLINE = {"Magna_Moralia": "a", "Meno": "p", "De_Incessu_Animalium": "a", "Ion": "p", "Euthyphro": "p", "De_Generatione_Animalium": "a", "Hippias_Minor": "p", "De_Respiratione": "a", "Meteorology": "a", "Sophist": "p", "Prior_Analytics": "a", "De_Partibus_Animalium": "a", "Apology": "p", "Posterior_Analytics": "a", "Critias": "p", "Cratylus": "p", "Euthydemus": "p", "Lysis": "p", "Historia_Animalium": "a", "Menexenus": "p", "Parmenides": "p", "Hippias_Major": "p", "De_Insomniis": "a", "Alcibiades_2": "p", "Rival_Lovers": "p", "Nicomachean_Ethics": "a", "Metaphysics": "a", "De_Sensu": "a", "Rhetoric": "a", "Poetics": "a", "Hipparchus": "p", "Statesman": "p", "Topics": "a", "De_Divinatione_per_Somnum": "a", "Theages": "p", "Laches": "p", "De_Caelo": "a", "Clitophon": "p", "Crito": "p", "Philebus": "p", "Letters": "p", "De_Generatione_et_Corruptione": "a", "Alcibiades_1": "p", "Rhetorica_ad_Alexandrum": "a", "Charmides": "p", "Republic": "p", "Politics": "a", "De_Somno": "a", "De_Interpretatione": "a", "Gorgias": "p", "Eudemian_Ethics": "a", "De_Motu_Animalium": "a", "Symposium": "p", "De_Longitudine_Vitae": "a", "Phaedrus": "p", "Physics": "a", "Laws": "p", "Sophistical_Refutations": "a", "De_Juventute": "a", "Categories": "a", "De_Anima": "a", "Epinomis": "p", "Timaeus": "p", "De_Memoria": "a", "Minos": "p", "Phaedo": "p", "Protagoras": "p", "Theaetetus": "p"};
+// Measured width of the bar column: grid is 150px name / 1fr track / 78px value,
+// with a 12px gap either side of the track.
+function trackWidth(){
+  const wrap=document.querySelector(".wrap");
+  const w=(wrap?wrap.clientWidth:1000)-56;      // minus .wrap padding
+  return Math.max(180, w-150-78-24);
+}
 
-fetch('/data/viewer/view_a.json').then(r=>r.json()).then(d=>{ DATA=d; render(); mountFilter(); });
+let _rz;
+window.addEventListener("resize", ()=>{
+  clearTimeout(_rz);
+  _rz=setTimeout(()=>{ if(DATA) render(); },150);
+});
+
+Promise.all([
+  fetch(DATA_DIR+'copy.json').then(r=>{ if(!r.ok) throw new Error("copy.json HTTP "+r.status); return r.json(); }),
+  fetch(DATA_DIR+'view_a.json').then(r=>{ if(!r.ok) throw new Error("view_a.json HTTP "+r.status); return r.json(); })
+]).then(([c,d])=>{
+  COPY=c; DATA=d;
+  applyCopy();
+  render();
+  mountFilter();
+}).catch(err=>{
+  console.error(err);
+  fatal(String(err).indexOf("copy.json")>=0
+    ? "The text file <code>copy.json</code> could not be loaded or is not valid JSON. "+
+      "If you just edited it, check for a stray comma or quote."
+    : "The data file <code>view_a.json</code> could not be loaded.");
+});
 
 function mountFilter(){
   Promise.all([
-    fetch('/data/viewer/meta.json').then(r=>r.json()),
-    fetch('/data/viewer/journal_groups.json').then(r=>r.json()).catch(()=>null)
+    fetch(DATA_DIR+'meta.json').then(r=>r.json()),
+    fetch(DATA_DIR+'journal_groups.json').then(r=>r.json()).catch(()=>null)
   ]).then(([meta, groups])=>{
     FilterBar.mount($("#filterbar"), meta, ()=>{
       if(!FILTER && !FilterBar.isDefault()){
@@ -268,8 +336,8 @@ function mountFilter(){
     }, groups);
     // the heavy matrix arrives after the first paint
     Promise.all([
-      fetch('/data/viewer/view_a_filter.json').then(r=>r.json()),
-      fetch('/data/viewer/work_groups.json').then(r=>r.json()).catch(()=>null)
+      fetch(DATA_DIR+'view_a_filter.json').then(r=>r.json()),
+      fetch(DATA_DIR+'work_groups.json').then(r=>r.json()).catch(()=>null)
     ]).then(([m,wg])=>{
       FILTER=m; WGROUPS=wg; updateCaveat(); render(); scInit();
     }).catch(e=>{
@@ -289,75 +357,59 @@ function showCaveat(msg){
 }
 function updateCaveat(){
   const el=$("#fbCaveat");
-  const parts=[];
-  if(METRIC==="articles"){
-    parts.push(`Showing <b>distinct articles</b>. The uncertainty fade is not drawn on
-       this metric: unplaceable citations were never resolved to a work, so they
-       have no article count to show. The bars are a floor, as always.`);
-  }
-  if(isFiltered()){
-    parts.push(`Bars show only citations matching the filter, and the works are
-       re-ranked accordingly.` + (METRIC==="articles" ? "" : ` The <b>grey tail</b> is
-       <b>not filtered</b>: unplaceable citations couldn't be attributed to a work,
-       so they can't honestly be attributed to a year or journal either. It stays
-       at full width to show the ambiguity is still there — don't read it as a
-       filtered quantity. The "reasonably sure" band is hidden while filtering for
-       the same reason.`));
-  }
-  if(!parts.length){ el.style.display="none"; return; }
+  if(!isFiltered()){ el.style.display="none"; return; }
   el.style.display="";
-  el.innerHTML = parts.join(" ");
+  el.innerHTML = `Bars show only citations matching the filter, and the works are
+     re-ranked accordingly. The <b>grey tail</b> is <b>not filtered</b>: unplaceable
+     citations couldn't be attributed to a work, so they can't honestly be
+     attributed to a year or journal either. It stays at full width to show the
+     ambiguity is still there — don't read it as a filtered quantity. The
+     "reasonably sure" band is hidden while filtering for the same reason.`;
 }
 
-function authorOf(work){ return AUTHORS_INLINE[work]==="a" ? "a" : "p"; } // default Plato
-function authorName(work){ return AUTHORS_INLINE[work]==="a" ? "Aristotle" : "Plato"; }
+function authorOf(work){ return EDITIONS[work]==="a" ? "a" : "p"; } // default Plato
+function authorName(work){ return EDITIONS[work]==="a" ? "Aristotle" : "Plato"; }
 
 function render(){
   const host=$("#tiers");
   host.innerHTML="";
-  const filt = isFiltered();
-  /* Scale policy — two different questions, two different answers:
-
-     FILTER changes must NOT rescale. If the track re-fitted to the filtered
-     maximum, narrowing a filter would make every bar grow, which reads as
-     "more citations" when it means the opposite. So the scale is pinned to
-     unfiltered totals and a filter genuinely shortens the bars.
-
-     METRIC changes MUST rescale. Citations and distinct articles are different
-     units — the largest work has 12,350 citations but 2,030 articles, so
-     holding the citations scale renders the whole articles view at 16% width,
-     wasting the track and making differences unreadable. Each metric gets its
-     own full-width scale.                                                    */
-  const maxTotal = METRIC==="articles"
-    ? Math.max(...DATA.map(w=>w.distinct_articles), 1)
-    : Math.max(...DATA.map(w=>w.floor + w.unplaceable), 1);
-  // px width available for the bar track (grid middle column ~ up to ~760)
-  const TRACK = 740;
-  SCALE = TRACK / maxTotal;
+  // one shared linear scale across BOTH tiers so bar lengths are comparable.
+  // Audit finding 5: the scale omitted band_extra, so band segments could overrun
+  // the intended track. Scale on the full drawn length: floor + band + fade.
+  //
+  // Scale is pinned to UNFILTERED totals on purpose. If the track re-fitted to
+  // the filtered maximum, narrowing a filter would make every bar grow, which
+  // reads as "more citations" when it means the opposite. So a filter genuinely
+  // shortens the bars rather than rescaling them.
+  const maxTotal = Math.max(
+    ...DATA.map(w=>w.floor + Math.max(0,(w.band||w.floor)-w.floor) + w.unplaceable), 1);
+  // TRACK was hardcoded at 740px with no responsiveness, so bars overflowed the
+  // grid column on narrow screens. Measure the actual middle column instead.
+  SCALE = trackWidth() / maxTotal;
 
   for(const tier of ["trustworthy","uncertain"]){
-    // sort by the CURRENT floor so filtering re-ranks the works — that
-    // re-ranking is one of the more interesting things the filter reveals.
+    // sort by the CURRENT (possibly filtered) floor so filtering re-ranks the
+    // works — that re-ranking is one of the more interesting things it reveals.
     const works = DATA.filter(w=>w.tier===tier)
                       .sort((a,b)=>filteredFloor(b)-filteredFloor(a));
     const sec=document.createElement("div"); sec.className="tier-sec";
     const head=document.createElement("div"); head.className="tier-h";
-    if(tier==="trustworthy"){
-      head.innerHTML=`<h2>Trustworthy</h2><span class="tag trust">publication grade · ${works.length} works</span>`;
-    } else {
-      head.innerHTML=`<h2>Uncertain</h2><span class="tag unc">read with care · ${works.length} works</span>`;
-    }
+    const tagCls = tier==="trustworthy" ? "trust" : "unc";
+    head.innerHTML =
+      `<h2>${t("view_a.tiers."+tier+".heading")}</h2>`+
+      `<span class="tag ${tagCls}">${t("view_a.tiers."+tier+".tag",{n:works.length})}</span>`;
     sec.appendChild(head);
 
     const note=document.createElement("div"); note.className="tier-note";
-    note.innerHTML = tier==="trustworthy"
-      ? `At least 80% of these works' citations resolve to a specific passage. Bar lengths
-         are reliable — you can compare how much these works are studied.`
-      : `Under 80% resolve. The solid floors are real lower bounds, but the long fades show
-         how much citation traffic couldn't be attributed. <b>A short floor here does not mean
-         a work is little-studied</b> — it means much of its attention is unplaceable. Don't
-         rank these by floor alone, and don't compare their floors against the trustworthy tier.`;
+    note.innerHTML = t("view_a.tiers."+tier+".note_html");
     sec.appendChild(note);
+
+    // Finding 3: name the small-n caveat where the tier claims confidence.
+    if(tier==="trustworthy" && works.some(w=>w.small_n)){
+      const sub=document.createElement("div"); sub.className="tier-sub";
+      sub.innerHTML = t("view_a.smalln.note_html",{threshold: SMALL_N_LABEL});
+      sec.appendChild(sub);
+    }
 
     const rows=document.createElement("div"); rows.className="rows";
     for(const w of works) rows.appendChild(makeRow(w));
@@ -375,20 +427,14 @@ function makeRow(w){
   // rgb of each author's floor hue, for a smooth fade-to-transparent
   const floorRGB = au==="a" ? "31,158,138" : "90,84,151";
 
-  const filt  = isFiltered();
-  const fl    = filteredFloor(w);
+  const filt   = isFiltered();
+  const fl     = filteredFloor(w);
   const floorW = Math.max(1, fl*SCALE);
-  // the band is a floor extension; under a filter we can't apportion it by
-  // year (queued rows are excluded from the matrix by design), so it is
-  // suppressed rather than guessed.
-  const bandW  = (filt || METRIC==="articles") ? 0 : Math.max(0, (w.band - w.floor)*SCALE);
-  // `unplaceable` is a count of CITATIONS. On the distinct-articles metric the
-  // track is scaled in articles, so drawing it here would render a citation
-  // count against an article axis — a category error that would make the fade
-  // ~6x too long. There is no article-equivalent of unplaceable (we never
-  // resolved those rows to a work, so we can't count their distinct articles
-  // either), so the fade is simply absent on this metric.
-  const fadeW  = METRIC==="articles" ? 0 : Math.max(0, w.unplaceable*SCALE);
+  // the band is a floor extension; under a filter we can't apportion it by year
+  // (queued rows are excluded from the matrix by design), so it is suppressed
+  // rather than guessed.
+  const bandW  = filt ? 0 : Math.max(0, (w.band - w.floor)*SCALE);
+  const fadeW  = Math.max(0, w.unplaceable*SCALE);
 
   // fade: ONE smooth wash from the author hue (semi-opaque) to fully transparent.
   // No hard steps — so it reads as "trailing into the unknown", never as more bar.
@@ -398,21 +444,30 @@ function makeRow(w){
   const fadeRGB = filt ? "120,128,146" : floorRGB;
   const fadeBg = `linear-gradient(90deg, rgba(${fadeRGB},${filt?0.30:0.55}) 0%, rgba(${fadeRGB},${filt?0.15:0.28}) 45%, rgba(${fadeRGB},0) 100%)`;
 
+  const bands = w.collision_bands || [];
+  const bandRanges = bands.map(b=>`${b.start}–${b.end}`).join(", ");
+  const badges =
+    (w.small_n ? `<span class="badge sm" title="${t("view_a.smalln.badge")}">${t("view_a.smalln.badge")}</span>` : "")+
+    (bands.length ? `<span class="badge bd">${t("view_a.bands.badge")}</span>` : "");
+
   row.innerHTML =
-    `<div class="name">${w.work.replace(/_/g," ")}</div>`+
-    `<div class="bar-track">`+
+    `<div class="name">${w.work.replace(/_/g," ")}${badges}</div>`+
+    `<div class="bar-track${w.small_n?" faint":""}">`+
       `<div class="bar-floor" style="width:${floorW}px;background:${floorC}"></div>`+
       (bandW>0.5?`<div class="bar-band" style="width:${bandW}px;background:${bandC}"></div>`:"")+
-      (fadeW>2?`<div class="bar-fade${filt?" unfiltered":""}" style="width:${Math.min(fadeW,320)}px;background:${fadeBg}">`+
+      (fadeW>2?`<div class="bar-fade${filt?" unfiltered":""}" style="width:${Math.min(fadeW,trackWidth()*0.42)}px;background:${fadeBg}">`+
                `</div>`:"")+
     `</div>`+
     `<div class="val">${fl.toLocaleString()}</div>`;
+  row._bandRanges = bandRanges;
 
   const fadeEl = row.querySelector(".bar-fade");
   if(fadeEl){ fadeEl.style.setProperty("--arrow", `rgba(${floorRGB},0.5)`); }
 
   row.addEventListener("mousemove", e=>showTip(e,w));
   row.addEventListener("mouseleave", hideTip);
+  row.addEventListener("touchstart", e=>showTip(e.touches[0],w), {passive:true});
+  row.addEventListener("touchend", hideTip);
   return row;
 }
 
@@ -420,32 +475,48 @@ const tip=$("#tooltip");
 function showTip(e,w){
   const filt = isFiltered();
   const fl = filteredFloor(w);
-  const total = w.floor + w.unplaceable;
+  // Audit finding 5: the total omitted band_extra, so "≈X if all belonged here"
+  // was short by the whole band segment.
+  const bandExtra = Math.max(0,(w.band||w.floor)-w.floor);
+  const total = w.floor + bandExtra + w.unplaceable;
   let html = `<div class="tt-name">${w.work.replace(/_/g," ")}</div>`;
   const auth = authorName(w.work);
   if(auth) html += `<div class="tt-row" style="font-size:11px;margin-bottom:3px">${auth}</div>`;
   if(filt){
-    const unit = METRIC==="articles" ? "articles" : "citations";
-    html += `<div class="tt-row">in filter <b>${fl.toLocaleString()}</b> ${unit}`+
-            ` <span style="opacity:.7">of ${(METRIC==="articles"?w.distinct_articles:w.floor).toLocaleString()} total</span></div>`;
+    html += `<div class="tt-row">in filter <b>${fl.toLocaleString()}</b> citations`+
+            ` <span style="opacity:.7">of ${w.floor.toLocaleString()} total</span></div>`;
   } else {
-    html += `<div class="tt-row">floor <b>${w.floor.toLocaleString()}</b> confidently placed`;
-    if(w.band>w.floor) html += ` · +${(w.band-w.floor).toLocaleString()} reasonably sure`;
+    html += `<div class="tt-row">floor <b>${w.floor.toLocaleString()}</b> ${t("view_a.tooltip.floor_label")}`;
+    if(bandExtra>0) html += ` · +${bandExtra.toLocaleString()} ${t("view_a.tooltip.band_label")}`;
     html += `</div>`;
   }
   if(w.unplaceable>0){
-    html += `<div class="tt-row">+<b>${w.unplaceable.toLocaleString()}</b> detected but unplaceable`;
+    html += `<div class="tt-row">+<b>${w.unplaceable.toLocaleString()}</b> ${t("view_a.tooltip.unplaceable_label")}`;
     if(filt){
-      // say plainly that this part ignores the filter, so nobody reads the
-      // grey tail as a filtered quantity
       html += ` <span style="opacity:.7">(not filtered — this ambiguity has no year)</span></div>`;
     } else {
-      html += ` <span style="opacity:.7">(≈${Math.round(total).toLocaleString()} if all belonged here)</span></div>`;
+      html += ` <span style="opacity:.7">${t("view_a.tooltip.if_all_belonged",{total:Math.round(total).toLocaleString()})}</span></div>`;
     }
   }
-  html += `<div class="tt-row" style="margin-top:3px">resolution rate <b>${Math.round(w.resolution_rate*100)}%</b> · ${w.distinct_articles.toLocaleString()} articles</div>`;
+  html += `<div class="tt-row" style="margin-top:3px">`+
+    t("view_a.tooltip.rate_line",{
+      pct: Math.round(w.resolution_rate*100),
+      articles: w.distinct_articles.toLocaleString()
+    })+`</div>`;
   if(w.collides_with && w.collides_with.length){
-    html += `<div class="tt-col">collides with ${w.collides_with.slice(0,4).map(x=>x.replace(/_/g," ")).join(", ")}</div>`;
+    html += `<div class="tt-col">`+t("view_a.tooltip.collides_with",{
+      works: w.collides_with.slice(0,4).map(x=>x.replace(/_/g," ")).join(", ")
+    })+`</div>`;
+  }
+  const bands = w.collision_bands || [];
+  if(bands.length){
+    html += `<div class="tt-warn">`+t("view_a.bands.tooltip",{
+      ranges: bands.map(b=>`${b.start}–${b.end}`).join(", "),
+      missing: (w.band_est_missing||0).toLocaleString()
+    })+`</div>`;
+  }
+  if(w.small_n){
+    html += `<div class="tt-warn">`+t("view_a.legend.smalln")+`</div>`;
   }
   tip.innerHTML=html;
   tip.style.opacity="1";
@@ -455,8 +526,12 @@ function showTip(e,w){
 }
 function hideTip(){ tip.style.opacity="0"; }
 
-/* ===== series comparison ================================================= */
-let WGROUPS=null, SC_SEL=[], SC_MODE="works", SC_SHARE=false, SC_SMOOTH=1;
+/* ===== series comparison =================================================
+   Time-series panel. Uses series.js (Series.*) and the same view_a_filter.json
+   matrix as the bars. Metric is always the citation floor (see filteredFloor).
+   Prose here is authored inline, pending the copy.json prose pass.           */
+let SC_SEL=[], SC_MODE="works", SC_SHARE=false, SC_SMOOTH=1;
+const SC_METRIC="count";
 
 function scInit(){
   if(!window.Series){
@@ -539,7 +614,7 @@ function scRender(){
   const host=$("#scChart");
   if(!FILTER){ host.innerHTML=`<div class="sc-empty">Loading time-series data…</div>`; return; }
   const st = window.FilterBar ? FilterBar.state : null;
-  const opts = {metric:METRIC, journals:st?st.journals:null,
+  const opts = {metric:SC_METRIC, journals:st?st.journals:null,
                 y0:st?st.y0:null, y1:st?st.y1:null};
 
   let lines=[], warn=[], footNotes=[], scopeBanner=null;
@@ -589,8 +664,8 @@ function scRender(){
     }
     let i=0;
     const tiers=new Set();
-    for(const t of SC_SEL){
-      const r=scResolve(t); if(!r) continue;
+    for(const tok of SC_SEL){
+      const r=scResolve(tok); if(!r) continue;
       const s=Series.seriesFor(FILTER, r.works, opts);
       /* A series' tier is a property of the WORKS in it, so a group spanning
          both tiers needs a weighted answer rather than a majority vote: the
@@ -649,7 +724,7 @@ function scRender(){
   }
   if(SC_SMOOTH>1) for(const L of lines) L.series=Series.smooth(L.series,SC_SMOOTH);
 
-  Series.render(host, lines, {metric:METRIC, share:SC_SHARE,
+  Series.render(host, lines, {metric:SC_METRIC, share:SC_SHARE,
                               y0:opts.y0, y1:opts.y1});
 
   // legend lives OUTSIDE the chart container: the SVG is overflow:visible so a
@@ -718,16 +793,6 @@ function scRender(){
   foot.push(...footNotes);
   $("#scFoot").innerHTML=foot.join(" ");
 }
-
-$("#metric").addEventListener("click", e=>{
-  if(!e.target.dataset.metric) return;
-  METRIC=e.target.dataset.metric;
-  for(const b of $("#metric").children)
-    b.setAttribute("aria-pressed", b.dataset.metric===METRIC);
-  updateCaveat();
-  if(DATA) render();
-  if(FILTER) scRender();
-});
 </script>
 </body>
 </html>
