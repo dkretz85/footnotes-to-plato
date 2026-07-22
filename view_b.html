@@ -266,6 +266,12 @@
 
 <script>
 // ---- data files present in this standalone build --------------------------
+// Where the generated JSON lives, RELATIVE TO THIS HTML FILE.
+// Repo layout is: view_b.html at root, data in viewer_data/.
+// If you ever move the HTML into viewer_data/ alongside the data, set this to "".
+// Must end with a slash when non-empty.
+const DATA_DIR = "viewer_data/";
+
 const FILES = {
   "Nicomachean_Ethics": "Nicomachean_Ethics.json",
   "Meno": "Meno.json"
@@ -327,7 +333,7 @@ function isHot(v,max){ return v>0 && Math.sqrt(v)/Math.sqrt(max) > 0.55; }
 
 async function loadWork(id){
   try{
-    const res = await fetch(FILES[id]);
+    const res = await fetch(DATA_DIR+FILES[id]);
     if(!res.ok) throw new Error("HTTP "+res.status);
     current = await res.json();
   }catch(err){
@@ -824,13 +830,13 @@ window.addEventListener("resize", ()=>{
   _rz = setTimeout(()=>{ if(current) { renderChart(); renderHeatgrid(); } }, 150);
 });
 
-fetch("copy.json")
+fetch(DATA_DIR+"copy.json")
   .then(r=>{ if(!r.ok) throw new Error("HTTP "+r.status); return r.json(); })
   .then(c=>{
     COPY = c;
     applyCopy();
     // Non-fatal: without bands the overlay is absent, but the page still works.
-    fetch("collision_bands.json")
+    fetch(DATA_DIR+"collision_bands.json")
       .then(r=>r.ok?r.json():null)
       .then(b=>{ BANDS=b; if(current) renderBands(), renderHeatgrid(); })
       .catch(e=>console.warn("collision_bands.json unavailable", e));
