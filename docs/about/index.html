@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>About — Footnotes to Plato</title>
+<meta name="description" content="Background, scope, licensing and citation information for Footnotes to Plato.">
+<meta name="robots" content="noindex,nofollow">
+<link rel="stylesheet" href="/static/site.css">
+
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="draftbar">Draft — figures and text are still being checked. Not indexed; please do not cite yet.</div>
+<header class="site">
+  <div class="bar">
+    <a class="brand" href="/"><span class="bt">Footnotes to Plato</span></a>
+    <button class="navtoggle" aria-label="Menu" aria-expanded="false">☰</button>
+    <nav class="mainnav"><a href="/">Home</a><a href="/explore/works/">Works over time</a><a href="/explore/passages/">Passages</a><a href="/methods/">Methods</a><a href="/data/">Data</a><a href="/about/" class="on">About</a><a href="/contact/">Contact</a></nav>
+  </div>
+</header>
+<main id="main" class="">
+  <div class="pagehead">
+    <h1>About</h1>
+    <div class="sub">What this is, who made it, how to cite it, and what you may do with it</div>
+  </div>
+  
+  <div class="prose">
+<h2 id="what-this-is">What this is<a class="anchor" href="#what-this-is" aria-label="link">#</a></h2>
+<p><em>Footnotes to Plato</em> is a passage-level citation index of the ancient-philosophy journal literature. It answers a question that indexes of secondary literature normally cannot: not <em>which works</em> scholars discuss, but <em>which passages</em> — down to the Stephanus or Bekker line.</p>
+<p>The underlying corpus is a full-text delivery from JSTOR's Text Analysis Support programme covering ten journals. A pipeline extracts candidate citation strings from article body text, resolves each to a specific work and locus where it can do so with confidence, and routes the rest to an auditable review queue rather than guessing. The <a href="/methods/">methods record</a> documents every stage.</p>
+<p>The tool is a <strong>finding aid</strong>. It reports where citations point and links out to the citing articles on JSTOR. It does not reproduce article text, and it is not a substitute for reading the scholarship it indexes.</p>
+<h2 id="scope-and-its-limits">Scope and its limits<a class="anchor" href="#scope-and-its-limits" aria-label="link">#</a></h2>
+<p>The corpus is <strong>journal articles from ten titles, 1887–2022</strong>. That excludes monographs, edited volumes, commentaries, and journals outside the delivery — including <em>Oxford Studies in Ancient Philosophy</em>, where a great deal of the most consequential recent work has appeared. Coverage skews Anglophone.</p>
+<p>The honest description of what this measures is <em>citation traffic in these ten journals</em>. It is a large and useful sample of the field's attention. It is not a census, and a passage's absence here is not evidence that nobody has written about it.</p>
+<p>A second limit is placement. Roughly 141,000 citation candidates were detected; 90,502 could be tied to a specific passage. The remainder are mostly cases where page-number ranges collide between works — a bare "80b" is ambiguous across several dialogues. Those citations are real and are counted in the totals, but they are not attributed to any one work, and every chart on this site distinguishes what was placed from what was not.</p>
+<h2 id="how-to-cite">How to cite<a class="anchor" href="#how-to-cite" aria-label="link">#</a></h2>
+<p><h3 id="how-to-cite">Citing this tool</h3></p>
+<p>If this contributed to published work, please cite it. A version-specific identifier matters here, because the corpus and the resolution pipeline will both change: a reader checking your citation in three years should be able to retrieve the version you actually used.</p>
+<p><strong>Recommended form</strong> (adapt to your style guide):</p>
+<pre><code>Kretz, David. Footnotes to Plato: A Passage-Level Citation Index of the
+Ancient-Philosophy Scholarship. Version 1.0, 2026.
+https://&lt;your-pages-url&gt;/  DOI: &lt;to be assigned&gt;</code></pre>
+<p><strong>On getting a DOI.</strong> The straightforward route is <a href="https://zenodo.org/">Zenodo</a>, which is free, run by CERN, and integrates directly with GitHub: link the repository, cut a release, and Zenodo archives that exact state and mints a DOI for it. It issues both a version DOI and a concept DOI that always resolves to the newest release, so readers can cite either "the version I used" or "the project." This is the standard route for research software and derived datasets, and it is what I would recommend before publicising the site.</p>
+<p>If you would rather not use Zenodo, the alternatives are an institutional repository (many universities run one, and yours may prefer it) or the Open Science Framework. What matters is that the identifier is persistent and version-specific; a bare URL is not, since the site will change under it.</p>
+<p><strong>Citing the underlying corpus.</strong> The full text came from JSTOR under a Text Analysis Support agreement. If your argument depends on the corpus rather than on this tool's analysis, acknowledge JSTOR as the source of the underlying data and note that access was granted under that programme.</p>
+<h2 id="licensing">Licensing<a class="anchor" href="#licensing" aria-label="link">#</a></h2>
+<p>Different parts of this project carry different terms, because they are different kinds of thing.</p>
+<div class='tablewrap'><table><thead><tr><th>Component</th><th>Licence</th><th>Notes</th></tr></thead><tbody><tr><td>Pipeline and site code</td><td>MIT</td><td>Permissive; reuse freely with attribution.</td></tr><tr><td>Derived data (<code>viewer_data/</code>)</td><td>CC BY 4.0</td><td>Counts, loci, and identifiers. Attribute this project.</td></tr><tr><td>Site prose (methods, About)</td><td>CC BY 4.0</td><td>Same terms as the data.</td></tr><tr><td>Underlying JSTOR full text</td><td><strong>Not redistributable</strong></td><td>Never leaves the local machine. Not included in any download here.</td></tr></tbody></table></div>
+<p>A note on why the split. <strong>MIT</strong> for code is the least restrictive sensible choice and imposes nothing on people who reuse the pipeline. <strong>CC BY 4.0</strong> for the derived data asks only for attribution, which keeps the data usable in further research — including commercial or AI research — while ensuring the provenance travels with it. The alternatives were considered and rejected: CC0 (public domain) would drop the attribution that lets a reader trace a number back to its method, and a NonCommercial or ShareAlike clause would make the data awkward to combine with other openly licensed corpora, which is most of its potential value.</p>
+<p>The one hard boundary is the source text. The JSTOR delivery is confidential research data under the Text Analysis Support terms. It is processed only on a local machine, the verbatim context of each citation is dropped before anything is written to a shareable file, and no part of it is published here or available for download. What is published is derived facts: which work, which passage, which journal, which year, which DOI.</p>
+<h2 id="disclosure">Disclosure<a class="anchor" href="#disclosure" aria-label="link">#</a></h2>
+<p>The pipeline, the analysis, and this site were developed with substantial assistance from Claude (Anthropic), used as a working collaborator throughout — writing and reviewing code, stress-testing the statistical reasoning, and catching several errors that would otherwise have shipped. Every methodological decision, and responsibility for what is published here, remains mine.</p>
+<p>I mention this because the work should be assessable on its merits, and because how it was made is part of what a reader may want to weigh. The pipeline is open, the derived data is published, and the <a href="/methods/">methods record</a> documents the failures alongside the results precisely so that none of this has to be taken on trust.</p>
+<h2 id="acknowledgements">Acknowledgements<a class="anchor" href="#acknowledgements" aria-label="link">#</a></h2>
+<p>To JSTOR's Text Analysis Support programme, for making full-text research access possible at all, and for the care taken over the delivery.</p>
+<p>To the editors and contributors of the ten journals indexed here. This tool is entirely parasitic on their work: every data point is a scholar deciding a passage was worth arguing about.</p>
+<p>And to Perseus Digital Library at Tufts, whose canonical citation infrastructure makes it possible to link a locus to the text it names.</p>
+<h2 id="contact">Contact<a class="anchor" href="#contact" aria-label="link">#</a></h2>
+<p>Corrections, methodological objections, and feature suggestions are all welcome — see the <a href="/contact/">contact page</a>. Objections to the method are especially welcome; that is what the methods record is for.</p>
+  </div>
+</main>
+<footer class="site">
+  <div class="fwrap">
+    <div>
+      <strong>Footnotes to Plato</strong> · A passage-level citation index of the ancient-philosophy scholarship<br>
+      <span class="muted">Built 2026-07-22. Derived from a JSTOR
+      Text Analysis Support delivery; a finding aid that links out to the
+      articles, never a substitute for them.</span>
+    </div>
+    <div class="flinks"><a href="/">Home</a><a href="/explore/works/">Works over time</a><a href="/explore/passages/">Passages</a><a href="/methods/">Methods</a><a href="/data/">Data</a><a href="/about/">About</a><a href="/contact/">Contact</a></div>
+  </div>
+</footer>
+<script src="/static/site.js"></script>
+</body>
+</html>

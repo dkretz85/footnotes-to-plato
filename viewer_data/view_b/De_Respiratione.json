@@ -1,0 +1,316 @@
+{
+ "work": "De_Respiratione",
+ "faceted": false,
+ "tier": "uncertain",
+ "cells": [
+  {
+   "book": "",
+   "page": 467,
+   "section": "a",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 467,
+   "section": "b",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 468,
+   "section": "a",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 471,
+   "section": "b",
+   "count": 3,
+   "articles": 2,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 2,
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 472,
+   "section": "b",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 474,
+   "section": "a",
+   "count": 3,
+   "articles": 2,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 1,
+    "Phronesis": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 474,
+   "section": "b",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 475,
+   "section": "a",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "Revue de Philosophie Ancienne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 479,
+   "section": "a",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 480,
+   "section": "b",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "The Classical Quarterly": 2
+   }
+  }
+ ],
+ "dots": [
+  {
+   "book": "",
+   "page": 480,
+   "section": "b",
+   "line": 22,
+   "journal": "The Classical Quarterly",
+   "year": "2011",
+   "iid": "10263c96-80c7-37dc-8704-dc85c325fe60",
+   "doi": "10.2307/41301521",
+   "title": "'UNDER THE INFLUENCE' - THE PHYSIOLOGY AND THERAPEUTICS OF \"AKRASIA\" IN ARISTOTLE'S ETHICS",
+   "author": "SARAH FRANCIS"
+  },
+  {
+   "book": "",
+   "page": 480,
+   "section": "b",
+   "line": 22,
+   "journal": "The Classical Quarterly",
+   "year": "1999",
+   "iid": "2158d5fe-1760-3086-b37f-588dc5cf23a6",
+   "doi": "10.2307/639874",
+   "title": "On Sterility ('HA X'), A Medical Work by Aristotle?",
+   "author": "Philip J. van der Eijk"
+  },
+  {
+   "book": "",
+   "page": 474,
+   "section": "a",
+   "line": 25,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2015",
+   "iid": "25d9dc07-630e-3432-bfee-b963cc2acdd4",
+   "doi": "10.2307/26387851",
+   "title": "L’AVORTEMENT CHEZ ARISTOTE",
+   "author": "Yiannis Panidis"
+  },
+  {
+   "book": "",
+   "page": 474,
+   "section": "b",
+   "line": 3,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2015",
+   "iid": "25d9dc07-630e-3432-bfee-b963cc2acdd4",
+   "doi": "10.2307/26387851",
+   "title": "L’AVORTEMENT CHEZ ARISTOTE",
+   "author": "Yiannis Panidis"
+  },
+  {
+   "book": "",
+   "page": 472,
+   "section": "b",
+   "line": 5,
+   "journal": "Phronesis",
+   "year": "2021",
+   "iid": "69a122e6-6f3f-3e0e-8d39-926ed7c0c8c3",
+   "doi": "10.2307/27285979",
+   "title": "The Three Choruses of Plato's <em>Laws</em> and their Function in the Dialogue",
+   "author": "Julia Pfefferkorn"
+  },
+  {
+   "book": "",
+   "page": 475,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1928",
+   "iid": "9e07af34-dabc-344f-938d-c2a96128f371",
+   "doi": "10.2307/636001",
+   "title": "The Pseudo-Aristotelian Problems: Their Nature and Composition",
+   "author": "E. S. Forster"
+  },
+  {
+   "book": "",
+   "page": 474,
+   "section": "a",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1965",
+   "iid": "a77b99c6-ca4b-3f62-8347-1caae0bf3998",
+   "doi": "10.2307/4181767",
+   "title": "The \"Timaeus Locrus\"",
+   "author": "G. Ryle"
+  },
+  {
+   "book": "",
+   "page": 472,
+   "section": "b",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1965",
+   "iid": "a77b99c6-ca4b-3f62-8347-1caae0bf3998",
+   "doi": "10.2307/4181767",
+   "title": "The \"Timaeus Locrus\"",
+   "author": "G. Ryle"
+  },
+  {
+   "book": "",
+   "page": 474,
+   "section": "a",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1965",
+   "iid": "a77b99c6-ca4b-3f62-8347-1caae0bf3998",
+   "doi": "10.2307/4181767",
+   "title": "The \"Timaeus Locrus\"",
+   "author": "G. Ryle"
+  },
+  {
+   "book": "",
+   "page": 468,
+   "section": "a",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2002",
+   "iid": "c5714f09-023b-3708-870a-596a01e78608",
+   "doi": "10.2307/24354676",
+   "title": "L'ARGUMENT DU SECTIONNEMENT DES VIVANTS DANS LES \"PARVA NATURALIA\" : LE CAS DES INSECTES",
+   "author": "D. Lefebvre"
+  },
+  {
+   "book": "",
+   "page": 471,
+   "section": "b",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2002",
+   "iid": "c5714f09-023b-3708-870a-596a01e78608",
+   "doi": "10.2307/24354676",
+   "title": "L'ARGUMENT DU SECTIONNEMENT DES VIVANTS DANS LES \"PARVA NATURALIA\" : LE CAS DES INSECTES",
+   "author": "D. Lefebvre"
+  },
+  {
+   "book": "",
+   "page": 479,
+   "section": "a",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2002",
+   "iid": "c5714f09-023b-3708-870a-596a01e78608",
+   "doi": "10.2307/24354676",
+   "title": "L'ARGUMENT DU SECTIONNEMENT DES VIVANTS DANS LES \"PARVA NATURALIA\" : LE CAS DES INSECTES",
+   "author": "D. Lefebvre"
+  },
+  {
+   "book": "",
+   "page": 467,
+   "section": "a",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2002",
+   "iid": "c5714f09-023b-3708-870a-596a01e78608",
+   "doi": "10.2307/24354676",
+   "title": "L'ARGUMENT DU SECTIONNEMENT DES VIVANTS DANS LES \"PARVA NATURALIA\" : LE CAS DES INSECTES",
+   "author": "D. Lefebvre"
+  },
+  {
+   "book": "",
+   "page": 471,
+   "section": "b",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2002",
+   "iid": "c5714f09-023b-3708-870a-596a01e78608",
+   "doi": "10.2307/24354676",
+   "title": "L'ARGUMENT DU SECTIONNEMENT DES VIVANTS DANS LES \"PARVA NATURALIA\" : LE CAS DES INSECTES",
+   "author": "D. Lefebvre"
+  },
+  {
+   "book": "",
+   "page": 475,
+   "section": "a",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2002",
+   "iid": "c5714f09-023b-3708-870a-596a01e78608",
+   "doi": "10.2307/24354676",
+   "title": "L'ARGUMENT DU SECTIONNEMENT DES VIVANTS DANS LES \"PARVA NATURALIA\" : LE CAS DES INSECTES",
+   "author": "D. Lefebvre"
+  },
+  {
+   "book": "",
+   "page": 467,
+   "section": "b",
+   "line": 26,
+   "journal": "Phronesis",
+   "year": "1985",
+   "iid": "d64ee765-2792-327b-82d2-113ed51e6eb6",
+   "doi": "10.2307/4182226",
+   "title": "The Scala Naturae and the Continuity of Kinds",
+   "author": "Herbert Granger"
+  },
+  {
+   "book": "",
+   "page": 471,
+   "section": "b",
+   "line": 20,
+   "journal": "Phronesis",
+   "year": "2018",
+   "iid": "eb365875-3d73-3d81-90eb-766290b64644",
+   "doi": "10.2307/26566223",
+   "title": "Dividing Plato's Kinds",
+   "author": "George Rudebusch, Fernando Muniz"
+  }
+ ]
+}

@@ -1,0 +1,65 @@
+{
+ "work": "De_Longitudine_Vitae",
+ "faceted": false,
+ "tier": "uncertain",
+ "cells": [
+  {
+   "book": "",
+   "page": 465,
+   "section": "a",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 466,
+   "section": "a",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Quarterly": 1
+   }
+  }
+ ],
+ "dots": [
+  {
+   "book": "",
+   "page": 465,
+   "section": "a",
+   "line": 21,
+   "journal": "Phronesis",
+   "year": "1996",
+   "iid": "6f38e2f9-ea2e-3766-827d-b2369110b958",
+   "doi": "10.2307/4182514",
+   "title": "Why Aristotle Needs Imagination",
+   "author": "Victor Caston"
+  },
+  {
+   "book": "",
+   "page": 465,
+   "section": "a",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1981",
+   "iid": "b1dd10ca-5c55-3494-a29b-7f9e217bee2d",
+   "doi": "10.2307/4182131",
+   "title": "Non-Substantial Individuals in the Categories",
+   "author": "Robert Heinaman"
+  },
+  {
+   "book": "",
+   "page": 466,
+   "section": "a",
+   "line": 18,
+   "journal": "The Classical Quarterly",
+   "year": "1997",
+   "iid": "bfdd4f2e-efe4-32c7-a8a8-9aaadf1501ce",
+   "doi": "10.2307/639606",
+   "title": "Space, Time and Phantasms in Aristotle, De Memoria 2, 452B7-25",
+   "author": "John E. Sisko"
+  }
+ ]
+}

@@ -1,0 +1,3116 @@
+{
+ "work": "Critias",
+ "faceted": false,
+ "tier": "trustworthy",
+ "cells": [
+  {
+   "book": "",
+   "page": 106,
+   "section": "a",
+   "count": 7,
+   "articles": 4,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 3,
+    "Méthexis": 4
+   }
+  },
+  {
+   "book": "",
+   "page": 106,
+   "section": "b",
+   "count": 7,
+   "articles": 4,
+   "by_journal": {
+    "Classical Philology": 5,
+    "Revue Internationale de Philosophie": 1,
+    "Méthexis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 106,
+   "section": "c",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 107,
+   "section": "a",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Classical Philology": 1,
+    "Revue de Philosophie Ancienne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 107,
+   "section": "b",
+   "count": 7,
+   "articles": 4,
+   "by_journal": {
+    "Classical Philology": 3,
+    "Phronesis": 2,
+    "Méthexis": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 107,
+   "section": "c",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Review": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 107,
+   "section": "d",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 107,
+   "section": "e",
+   "count": 2,
+   "articles": 1,
+   "by_journal": {
+    "Classical Philology": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 108,
+   "section": "a",
+   "count": 6,
+   "articles": 3,
+   "by_journal": {
+    "Classical Philology": 4,
+    "Méthexis": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 108,
+   "section": "b",
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 1,
+    "Méthexis": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 108,
+   "section": "c",
+   "count": 5,
+   "articles": 4,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "Classical Philology": 3,
+    "Méthexis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 108,
+   "section": "d",
+   "count": 7,
+   "articles": 5,
+   "by_journal": {
+    "Classical Philology": 4,
+    "Revue de Philosophie Ancienne": 2,
+    "The Classical Review": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 108,
+   "section": "e",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 1,
+    "Les Études philosophiques": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 109,
+   "section": "a",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 109,
+   "section": "b",
+   "count": 8,
+   "articles": 4,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 1,
+    "Classical Philology": 2,
+    "The Classical Quarterly": 1,
+    "Phronesis": 4
+   }
+  },
+  {
+   "book": "",
+   "page": 109,
+   "section": "c",
+   "count": 8,
+   "articles": 4,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 2,
+    "Phronesis": 5,
+    "Méthexis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 109,
+   "section": "d",
+   "count": 9,
+   "articles": 4,
+   "by_journal": {
+    "Classical Philology": 3,
+    "Phronesis": 5,
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 109,
+   "section": "e",
+   "count": 2,
+   "articles": 1,
+   "by_journal": {
+    "Phronesis": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 110,
+   "section": "a",
+   "count": 6,
+   "articles": 6,
+   "by_journal": {
+    "Méthexis": 2,
+    "Revue de Philosophie Ancienne": 2,
+    "The Classical Review": 1,
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 110,
+   "section": "d",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Classical Philology": 1,
+    "Revue de Philosophie Ancienne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 110,
+   "section": "e",
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 1,
+    "The Classical Quarterly": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 111,
+   "section": "c",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 112,
+   "section": "a",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 1,
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 112,
+   "section": "b",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 112,
+   "section": "c",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 112,
+   "section": "d",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Classical Philology": 1,
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 112,
+   "section": "e",
+   "count": 8,
+   "articles": 6,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 2,
+    "Classical Philology": 3,
+    "Méthexis": 2,
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 113,
+   "section": "a",
+   "count": 5,
+   "articles": 4,
+   "by_journal": {
+    "Classical Philology": 1,
+    "Revue de Philosophie Ancienne": 2,
+    "Méthexis": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 113,
+   "section": "b",
+   "count": 6,
+   "articles": 4,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 3,
+    "Classical Philology": 2,
+    "Méthexis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 113,
+   "section": "c",
+   "count": 5,
+   "articles": 4,
+   "by_journal": {
+    "Phronesis": 2,
+    "The Classical Quarterly": 1,
+    "The Classical Review": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 113,
+   "section": "d",
+   "count": 3,
+   "articles": 2,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "Classical Philology": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 113,
+   "section": "e",
+   "count": 5,
+   "articles": 4,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 1,
+    "Classical Philology": 3,
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 114,
+   "section": "c",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 114,
+   "section": "d",
+   "count": 2,
+   "articles": 1,
+   "by_journal": {
+    "Classical Philology": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 114,
+   "section": "e",
+   "count": 5,
+   "articles": 3,
+   "by_journal": {
+    "The Classical Review": 1,
+    "Revue de Philosophie Ancienne": 3,
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 115,
+   "section": "a",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 115,
+   "section": "b",
+   "count": 5,
+   "articles": 4,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 2,
+    "Classical Philology": 1,
+    "The Classical Quarterly": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 115,
+   "section": "c",
+   "count": 3,
+   "articles": 1,
+   "by_journal": {
+    "Classical Philology": 3
+   }
+  },
+  {
+   "book": "",
+   "page": 115,
+   "section": "e",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 116,
+   "section": "a",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 116,
+   "section": "b",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "The Classical Review": 1,
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 116,
+   "section": "c",
+   "count": 3,
+   "articles": 2,
+   "by_journal": {
+    "The Classical Review": 1,
+    "Classical Philology": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 116,
+   "section": "d",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 116,
+   "section": "e",
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "The Classical Review": 3
+   }
+  },
+  {
+   "book": "",
+   "page": 117,
+   "section": "a",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 1,
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 117,
+   "section": "d",
+   "count": 2,
+   "articles": 1,
+   "by_journal": {
+    "Classical Philology": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 117,
+   "section": "e",
+   "count": 4,
+   "articles": 3,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 1,
+    "Classical Philology": 3
+   }
+  },
+  {
+   "book": "",
+   "page": 118,
+   "section": "a",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 118,
+   "section": "b",
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 1,
+    "The Classical Quarterly": 1,
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 118,
+   "section": "c",
+   "count": 3,
+   "articles": 1,
+   "by_journal": {
+    "Classical Philology": 3
+   }
+  },
+  {
+   "book": "",
+   "page": 118,
+   "section": "d",
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "The Classical Review": 1,
+    "Revue de Philosophie Ancienne": 1,
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 119,
+   "section": "a",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 119,
+   "section": "c",
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 1,
+    "The Classical Quarterly": 1,
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 120,
+   "section": "b",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 120,
+   "section": "c",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 120,
+   "section": "d",
+   "count": 2,
+   "articles": 1,
+   "by_journal": {
+    "Classical Philology": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 120,
+   "section": "e",
+   "count": 4,
+   "articles": 2,
+   "by_journal": {
+    "Classical Philology": 1,
+    "Phronesis": 3
+   }
+  },
+  {
+   "book": "",
+   "page": 121,
+   "section": "b",
+   "count": 6,
+   "articles": 4,
+   "by_journal": {
+    "Classical Philology": 4,
+    "Revue de Philosophie Ancienne": 1,
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 121,
+   "section": "c",
+   "count": 9,
+   "articles": 8,
+   "by_journal": {
+    "Classical Philology": 3,
+    "Revue de Philosophie Ancienne": 2,
+    "Phronesis": 1,
+    "The Classical Review": 3
+   }
+  },
+  {
+   "book": "",
+   "page": 121,
+   "section": "e",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Classical Philology": 1
+   }
+  }
+ ],
+ "dots": [
+  {
+   "book": "",
+   "page": 110,
+   "section": "a",
+   "line": null,
+   "journal": "Méthexis",
+   "year": "1996",
+   "iid": "02a30e24-9325-305e-8add-cc6268933555",
+   "doi": "10.2307/43738883",
+   "title": "PLATO'S \"THEOLOGÍA\" REVISITED",
+   "author": "GERARD NADDAF"
+  },
+  {
+   "book": "",
+   "page": 121,
+   "section": "c",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2018",
+   "iid": "0b016b3f-ba74-3207-b673-00abc358c1d7",
+   "doi": "10.2307/26544016",
+   "title": "THE DEVELOPMENT OF CRITIAS IN PLATO’S DIALOGUES",
+   "author": "SAMUEL ORTENCIO FLORES"
+  },
+  {
+   "book": "",
+   "page": 106,
+   "section": "b",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2018",
+   "iid": "0b016b3f-ba74-3207-b673-00abc358c1d7",
+   "doi": "10.2307/26544016",
+   "title": "THE DEVELOPMENT OF CRITIAS IN PLATO’S DIALOGUES",
+   "author": "SAMUEL ORTENCIO FLORES"
+  },
+  {
+   "book": "",
+   "page": 106,
+   "section": "c",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2018",
+   "iid": "0b016b3f-ba74-3207-b673-00abc358c1d7",
+   "doi": "10.2307/26544016",
+   "title": "THE DEVELOPMENT OF CRITIAS IN PLATO’S DIALOGUES",
+   "author": "SAMUEL ORTENCIO FLORES"
+  },
+  {
+   "book": "",
+   "page": 108,
+   "section": "d",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2018",
+   "iid": "0b016b3f-ba74-3207-b673-00abc358c1d7",
+   "doi": "10.2307/26544016",
+   "title": "THE DEVELOPMENT OF CRITIAS IN PLATO’S DIALOGUES",
+   "author": "SAMUEL ORTENCIO FLORES"
+  },
+  {
+   "book": "",
+   "page": 108,
+   "section": "d",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2018",
+   "iid": "0b016b3f-ba74-3207-b673-00abc358c1d7",
+   "doi": "10.2307/26544016",
+   "title": "THE DEVELOPMENT OF CRITIAS IN PLATO’S DIALOGUES",
+   "author": "SAMUEL ORTENCIO FLORES"
+  },
+  {
+   "book": "",
+   "page": 108,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2018",
+   "iid": "0b016b3f-ba74-3207-b673-00abc358c1d7",
+   "doi": "10.2307/26544016",
+   "title": "THE DEVELOPMENT OF CRITIAS IN PLATO’S DIALOGUES",
+   "author": "SAMUEL ORTENCIO FLORES"
+  },
+  {
+   "book": "",
+   "page": 109,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2018",
+   "iid": "0b016b3f-ba74-3207-b673-00abc358c1d7",
+   "doi": "10.2307/26544016",
+   "title": "THE DEVELOPMENT OF CRITIAS IN PLATO’S DIALOGUES",
+   "author": "SAMUEL ORTENCIO FLORES"
+  },
+  {
+   "book": "",
+   "page": 113,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2018",
+   "iid": "0b016b3f-ba74-3207-b673-00abc358c1d7",
+   "doi": "10.2307/26544016",
+   "title": "THE DEVELOPMENT OF CRITIAS IN PLATO’S DIALOGUES",
+   "author": "SAMUEL ORTENCIO FLORES"
+  },
+  {
+   "book": "",
+   "page": 108,
+   "section": "d",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "1999",
+   "iid": "136321f7-03c0-3a91-9a9b-e5bbff5b8c84",
+   "doi": "10.2307/24354646",
+   "title": "LE STATUT DU TUPOS DANS LA \"RÉPUBLIQUE\" DE PLATON",
+   "author": "Makoto Sekimura"
+  },
+  {
+   "book": "",
+   "page": 116,
+   "section": "e",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "2003",
+   "iid": "1affbccc-3bb6-3477-af92-234e750d71f0",
+   "doi": "10.2307/3662635",
+   "title": "Xenophon's \"Symposium\"",
+   "author": "Christopher Tuplin, Xenophon, B. Huss"
+  },
+  {
+   "book": "",
+   "page": 118,
+   "section": "d",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1982",
+   "iid": "23049dd1-7a31-38d3-893e-5d23feb1c0be",
+   "doi": "10.2307/3063410",
+   "title": "The Budé Apollonius Completed",
+   "author": "Malcolm Campbell, Apollonius Rhodius, Francis Vian, Émile Delage"
+  },
+  {
+   "book": "",
+   "page": 106,
+   "section": "b",
+   "line": 5,
+   "journal": "Revue Internationale de Philosophie",
+   "year": "1998",
+   "iid": "23e4651b-d800-3550-b804-b1618d7e4f9b",
+   "doi": "10.2307/23955880",
+   "title": "LA DÉCISION DE L'ANALOGIE. REMARQUE SUR DERRIDA, LECTEUR DE PLATON",
+   "author": "Karel THEIN"
+  },
+  {
+   "book": "",
+   "page": 108,
+   "section": "d",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "2008",
+   "iid": "2751b37f-38a5-3b71-ab87-fa528705f7b3",
+   "doi": "10.2307/20482342",
+   "title": "Hellenic Philosophy, Egypt and the West",
+   "author": "C. C. Evangeliou, Niketas Siniossoglou"
+  },
+  {
+   "book": "",
+   "page": 116,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "2016",
+   "iid": "2769866d-196b-3903-8551-509297ce3f7a",
+   "doi": "10.2307/24760007",
+   "title": "SHIPSHEDS",
+   "author": "AMELIA ROBERTSON BROWN, B. Rankov, D. Blackman"
+  },
+  {
+   "book": "",
+   "page": 109,
+   "section": "b",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2008",
+   "iid": "28a1e2c1-ab20-36df-ac14-515eb3492f64",
+   "doi": "10.2307/24358003",
+   "title": "PARMENICIDE. POLITICAL REASONS FOR A PLATONIC CRIME",
+   "author": "Gabriel Livov"
+  },
+  {
+   "book": "",
+   "page": 113,
+   "section": "d",
+   "line": 8,
+   "journal": "The Classical Quarterly",
+   "year": "1990",
+   "iid": "30390c6b-6992-3d53-9828-b62a78dfbfe1",
+   "doi": "10.2307/639118",
+   "title": "What Are the Topnoi in Philebus 51C?",
+   "author": "Todd Compton"
+  },
+  {
+   "book": "",
+   "page": 114,
+   "section": "e",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1981",
+   "iid": "36bc1113-84c1-3e8a-9c8a-3fb0e12a7a4e",
+   "doi": "10.2307/3063064",
+   "title": "Lexicon to the Hymns of Callimachus",
+   "author": "Alan Griffiths, Emilio Fernández-Galiano"
+  },
+  {
+   "book": "",
+   "page": 116,
+   "section": "c",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1981",
+   "iid": "36bc1113-84c1-3e8a-9c8a-3fb0e12a7a4e",
+   "doi": "10.2307/3063064",
+   "title": "Lexicon to the Hymns of Callimachus",
+   "author": "Alan Griffiths, Emilio Fernández-Galiano"
+  },
+  {
+   "book": "",
+   "page": 108,
+   "section": "d",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "1992",
+   "iid": "37254824-ffe8-36f3-9019-fcfc0946d33d",
+   "doi": "10.2307/24353900",
+   "title": "L'INVOCATION AUX MUSES ET LEUR REPONSE (Platon, \"Rép.\" VIII, 545d - 547c)",
+   "author": "Marcel Meulder"
+  },
+  {
+   "book": "",
+   "page": 110,
+   "section": "a",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "1992",
+   "iid": "37254824-ffe8-36f3-9019-fcfc0946d33d",
+   "doi": "10.2307/24353900",
+   "title": "L'INVOCATION AUX MUSES ET LEUR REPONSE (Platon, \"Rép.\" VIII, 545d - 547c)",
+   "author": "Marcel Meulder"
+  },
+  {
+   "book": "",
+   "page": 116,
+   "section": "e",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "2003",
+   "iid": "3f6e2b7a-a487-3951-91bc-a7cd63add1d7",
+   "doi": "10.2307/3662634",
+   "title": "Plato's Atlantis and the Exploding Planet",
+   "author": "A. F. Alford, Diskin Clay"
+  },
+  {
+   "book": "",
+   "page": 121,
+   "section": "c",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "1993",
+   "iid": "407fdedf-48db-33d2-b3b0-a7343dd58415",
+   "doi": "10.2307/24354370",
+   "title": "L'ATLANTIDE OU PLATON FACE À L'EXOTISME (\"Critias\", 112 e sqq.)",
+   "author": "Marcel Meulder"
+  },
+  {
+   "book": "",
+   "page": 106,
+   "section": "a",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "1993",
+   "iid": "407fdedf-48db-33d2-b3b0-a7343dd58415",
+   "doi": "10.2307/24354370",
+   "title": "L'ATLANTIDE OU PLATON FACE À L'EXOTISME (\"Critias\", 112 e sqq.)",
+   "author": "Marcel Meulder"
+  },
+  {
+   "book": "",
+   "page": 108,
+   "section": "e",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "1993",
+   "iid": "407fdedf-48db-33d2-b3b0-a7343dd58415",
+   "doi": "10.2307/24354370",
+   "title": "L'ATLANTIDE OU PLATON FACE À L'EXOTISME (\"Critias\", 112 e sqq.)",
+   "author": "Marcel Meulder"
+  },
+  {
+   "book": "",
+   "page": 113,
+   "section": "b",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "1993",
+   "iid": "407fdedf-48db-33d2-b3b0-a7343dd58415",
+   "doi": "10.2307/24354370",
+   "title": "L'ATLANTIDE OU PLATON FACE À L'EXOTISME (\"Critias\", 112 e sqq.)",
+   "author": "Marcel Meulder"
+  },
+  {
+   "book": "",
+   "page": 114,
+   "section": "e",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "1993",
+   "iid": "407fdedf-48db-33d2-b3b0-a7343dd58415",
+   "doi": "10.2307/24354370",
+   "title": "L'ATLANTIDE OU PLATON FACE À L'EXOTISME (\"Critias\", 112 e sqq.)",
+   "author": "Marcel Meulder"
+  },
+  {
+   "book": "",
+   "page": 115,
+   "section": "b",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "1993",
+   "iid": "407fdedf-48db-33d2-b3b0-a7343dd58415",
+   "doi": "10.2307/24354370",
+   "title": "L'ATLANTIDE OU PLATON FACE À L'EXOTISME (\"Critias\", 112 e sqq.)",
+   "author": "Marcel Meulder"
+  },
+  {
+   "book": "",
+   "page": 119,
+   "section": "c",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "1993",
+   "iid": "407fdedf-48db-33d2-b3b0-a7343dd58415",
+   "doi": "10.2307/24354370",
+   "title": "L'ATLANTIDE OU PLATON FACE À L'EXOTISME (\"Critias\", 112 e sqq.)",
+   "author": "Marcel Meulder"
+  },
+  {
+   "book": "",
+   "page": 120,
+   "section": "b",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "1993",
+   "iid": "407fdedf-48db-33d2-b3b0-a7343dd58415",
+   "doi": "10.2307/24354370",
+   "title": "L'ATLANTIDE OU PLATON FACE À L'EXOTISME (\"Critias\", 112 e sqq.)",
+   "author": "Marcel Meulder"
+  },
+  {
+   "book": "",
+   "page": 113,
+   "section": "a",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "1993",
+   "iid": "407fdedf-48db-33d2-b3b0-a7343dd58415",
+   "doi": "10.2307/24354370",
+   "title": "L'ATLANTIDE OU PLATON FACE À L'EXOTISME (\"Critias\", 112 e sqq.)",
+   "author": "Marcel Meulder"
+  },
+  {
+   "book": "",
+   "page": 111,
+   "section": "c",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "1993",
+   "iid": "407fdedf-48db-33d2-b3b0-a7343dd58415",
+   "doi": "10.2307/24354370",
+   "title": "L'ATLANTIDE OU PLATON FACE À L'EXOTISME (\"Critias\", 112 e sqq.)",
+   "author": "Marcel Meulder"
+  },
+  {
+   "book": "",
+   "page": 113,
+   "section": "e",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "1993",
+   "iid": "407fdedf-48db-33d2-b3b0-a7343dd58415",
+   "doi": "10.2307/24354370",
+   "title": "L'ATLANTIDE OU PLATON FACE À L'EXOTISME (\"Critias\", 112 e sqq.)",
+   "author": "Marcel Meulder"
+  },
+  {
+   "book": "",
+   "page": 114,
+   "section": "e",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "1993",
+   "iid": "407fdedf-48db-33d2-b3b0-a7343dd58415",
+   "doi": "10.2307/24354370",
+   "title": "L'ATLANTIDE OU PLATON FACE À L'EXOTISME (\"Critias\", 112 e sqq.)",
+   "author": "Marcel Meulder"
+  },
+  {
+   "book": "",
+   "page": 112,
+   "section": "e",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "1993",
+   "iid": "407fdedf-48db-33d2-b3b0-a7343dd58415",
+   "doi": "10.2307/24354370",
+   "title": "L'ATLANTIDE OU PLATON FACE À L'EXOTISME (\"Critias\", 112 e sqq.)",
+   "author": "Marcel Meulder"
+  },
+  {
+   "book": "",
+   "page": 115,
+   "section": "a",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "1993",
+   "iid": "407fdedf-48db-33d2-b3b0-a7343dd58415",
+   "doi": "10.2307/24354370",
+   "title": "L'ATLANTIDE OU PLATON FACE À L'EXOTISME (\"Critias\", 112 e sqq.)",
+   "author": "Marcel Meulder"
+  },
+  {
+   "book": "",
+   "page": 118,
+   "section": "b",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "1993",
+   "iid": "407fdedf-48db-33d2-b3b0-a7343dd58415",
+   "doi": "10.2307/24354370",
+   "title": "L'ATLANTIDE OU PLATON FACE À L'EXOTISME (\"Critias\", 112 e sqq.)",
+   "author": "Marcel Meulder"
+  },
+  {
+   "book": "",
+   "page": 117,
+   "section": "e",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "1993",
+   "iid": "407fdedf-48db-33d2-b3b0-a7343dd58415",
+   "doi": "10.2307/24354370",
+   "title": "L'ATLANTIDE OU PLATON FACE À L'EXOTISME (\"Critias\", 112 e sqq.)",
+   "author": "Marcel Meulder"
+  },
+  {
+   "book": "",
+   "page": 116,
+   "section": "a",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "1993",
+   "iid": "407fdedf-48db-33d2-b3b0-a7343dd58415",
+   "doi": "10.2307/24354370",
+   "title": "L'ATLANTIDE OU PLATON FACE À L'EXOTISME (\"Critias\", 112 e sqq.)",
+   "author": "Marcel Meulder"
+  },
+  {
+   "book": "",
+   "page": 115,
+   "section": "b",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "1993",
+   "iid": "407fdedf-48db-33d2-b3b0-a7343dd58415",
+   "doi": "10.2307/24354370",
+   "title": "L'ATLANTIDE OU PLATON FACE À L'EXOTISME (\"Critias\", 112 e sqq.)",
+   "author": "Marcel Meulder"
+  },
+  {
+   "book": "",
+   "page": 109,
+   "section": "c",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "1993",
+   "iid": "407fdedf-48db-33d2-b3b0-a7343dd58415",
+   "doi": "10.2307/24354370",
+   "title": "L'ATLANTIDE OU PLATON FACE À L'EXOTISME (\"Critias\", 112 e sqq.)",
+   "author": "Marcel Meulder"
+  },
+  {
+   "book": "",
+   "page": 115,
+   "section": "e",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "1993",
+   "iid": "407fdedf-48db-33d2-b3b0-a7343dd58415",
+   "doi": "10.2307/24354370",
+   "title": "L'ATLANTIDE OU PLATON FACE À L'EXOTISME (\"Critias\", 112 e sqq.)",
+   "author": "Marcel Meulder"
+  },
+  {
+   "book": "",
+   "page": 118,
+   "section": "d",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "1993",
+   "iid": "407fdedf-48db-33d2-b3b0-a7343dd58415",
+   "doi": "10.2307/24354370",
+   "title": "L'ATLANTIDE OU PLATON FACE À L'EXOTISME (\"Critias\", 112 e sqq.)",
+   "author": "Marcel Meulder"
+  },
+  {
+   "book": "",
+   "page": 114,
+   "section": "e",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "1993",
+   "iid": "407fdedf-48db-33d2-b3b0-a7343dd58415",
+   "doi": "10.2307/24354370",
+   "title": "L'ATLANTIDE OU PLATON FACE À L'EXOTISME (\"Critias\", 112 e sqq.)",
+   "author": "Marcel Meulder"
+  },
+  {
+   "book": "",
+   "page": 117,
+   "section": "a",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "1993",
+   "iid": "407fdedf-48db-33d2-b3b0-a7343dd58415",
+   "doi": "10.2307/24354370",
+   "title": "L'ATLANTIDE OU PLATON FACE À L'EXOTISME (\"Critias\", 112 e sqq.)",
+   "author": "Marcel Meulder"
+  },
+  {
+   "book": "",
+   "page": 113,
+   "section": "b",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "1993",
+   "iid": "407fdedf-48db-33d2-b3b0-a7343dd58415",
+   "doi": "10.2307/24354370",
+   "title": "L'ATLANTIDE OU PLATON FACE À L'EXOTISME (\"Critias\", 112 e sqq.)",
+   "author": "Marcel Meulder"
+  },
+  {
+   "book": "",
+   "page": 119,
+   "section": "c",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1999",
+   "iid": "4389f3c1-e3a8-3559-b77b-05cb521b38cf",
+   "doi": "10.2307/639491",
+   "title": "Plato's Lawcode in Context: Rule by Written Law in Athens and Magnesia",
+   "author": "Andrea Wilson Nightingale"
+  },
+  {
+   "book": "",
+   "page": 118,
+   "section": "b",
+   "line": 3,
+   "journal": "The Classical Quarterly",
+   "year": "2019",
+   "iid": "4730b972-6739-328f-b673-3c0ecc172e85",
+   "doi": "10.2307/26852160",
+   "title": "THE GREEK ὝΜΝΟΣ",
+   "author": "MICHAEL E. BRUMBAUGH"
+  },
+  {
+   "book": "",
+   "page": 108,
+   "section": "c",
+   "line": 1,
+   "journal": "The Classical Quarterly",
+   "year": "2019",
+   "iid": "4730b972-6739-328f-b673-3c0ecc172e85",
+   "doi": "10.2307/26852160",
+   "title": "THE GREEK ὝΜΝΟΣ",
+   "author": "MICHAEL E. BRUMBAUGH"
+  },
+  {
+   "book": "",
+   "page": 110,
+   "section": "e",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2022",
+   "iid": "49354682-0785-3434-8f15-9906ebf7b4bf",
+   "doi": "10.2307/27264531",
+   "title": "LA PRÉMISSE MOBILISTE DE LA PERCEPTION SENSIBLE DANS LE <em>THÉÉTÈTE</em> DE PLATON",
+   "author": "Tatjana Aleknienė"
+  },
+  {
+   "book": "",
+   "page": 106,
+   "section": "b",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1977",
+   "iid": "49f99fb4-f236-39f9-801b-722d242ff1b4",
+   "doi": "10.2307/267878",
+   "title": "The Genre of the Atlantis Story",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 108,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1977",
+   "iid": "49f99fb4-f236-39f9-801b-722d242ff1b4",
+   "doi": "10.2307/267878",
+   "title": "The Genre of the Atlantis Story",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 107,
+   "section": "e",
+   "line": 3,
+   "journal": "Classical Philology",
+   "year": "1977",
+   "iid": "49f99fb4-f236-39f9-801b-722d242ff1b4",
+   "doi": "10.2307/267878",
+   "title": "The Genre of the Atlantis Story",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 108,
+   "section": "d",
+   "line": 4,
+   "journal": "Classical Philology",
+   "year": "1977",
+   "iid": "49f99fb4-f236-39f9-801b-722d242ff1b4",
+   "doi": "10.2307/267878",
+   "title": "The Genre of the Atlantis Story",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 113,
+   "section": "b",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1977",
+   "iid": "49f99fb4-f236-39f9-801b-722d242ff1b4",
+   "doi": "10.2307/267878",
+   "title": "The Genre of the Atlantis Story",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 107,
+   "section": "d",
+   "line": 6,
+   "journal": "Classical Philology",
+   "year": "1977",
+   "iid": "49f99fb4-f236-39f9-801b-722d242ff1b4",
+   "doi": "10.2307/267878",
+   "title": "The Genre of the Atlantis Story",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 106,
+   "section": "b",
+   "line": 8,
+   "journal": "Classical Philology",
+   "year": "1977",
+   "iid": "49f99fb4-f236-39f9-801b-722d242ff1b4",
+   "doi": "10.2307/267878",
+   "title": "The Genre of the Atlantis Story",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 108,
+   "section": "a",
+   "line": 4,
+   "journal": "Classical Philology",
+   "year": "1977",
+   "iid": "49f99fb4-f236-39f9-801b-722d242ff1b4",
+   "doi": "10.2307/267878",
+   "title": "The Genre of the Atlantis Story",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 106,
+   "section": "b",
+   "line": 8,
+   "journal": "Classical Philology",
+   "year": "1977",
+   "iid": "49f99fb4-f236-39f9-801b-722d242ff1b4",
+   "doi": "10.2307/267878",
+   "title": "The Genre of the Atlantis Story",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 107,
+   "section": "e",
+   "line": 2,
+   "journal": "Classical Philology",
+   "year": "1977",
+   "iid": "49f99fb4-f236-39f9-801b-722d242ff1b4",
+   "doi": "10.2307/267878",
+   "title": "The Genre of the Atlantis Story",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 107,
+   "section": "b",
+   "line": 5,
+   "journal": "Classical Philology",
+   "year": "1977",
+   "iid": "49f99fb4-f236-39f9-801b-722d242ff1b4",
+   "doi": "10.2307/267878",
+   "title": "The Genre of the Atlantis Story",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 107,
+   "section": "b",
+   "line": 5,
+   "journal": "Classical Philology",
+   "year": "1977",
+   "iid": "49f99fb4-f236-39f9-801b-722d242ff1b4",
+   "doi": "10.2307/267878",
+   "title": "The Genre of the Atlantis Story",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 109,
+   "section": "d",
+   "line": 4,
+   "journal": "Classical Philology",
+   "year": "1977",
+   "iid": "49f99fb4-f236-39f9-801b-722d242ff1b4",
+   "doi": "10.2307/267878",
+   "title": "The Genre of the Atlantis Story",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 110,
+   "section": "d",
+   "line": 5,
+   "journal": "Classical Philology",
+   "year": "1977",
+   "iid": "49f99fb4-f236-39f9-801b-722d242ff1b4",
+   "doi": "10.2307/267878",
+   "title": "The Genre of the Atlantis Story",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 115,
+   "section": "c",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1977",
+   "iid": "49f99fb4-f236-39f9-801b-722d242ff1b4",
+   "doi": "10.2307/267878",
+   "title": "The Genre of the Atlantis Story",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 118,
+   "section": "c",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1977",
+   "iid": "49f99fb4-f236-39f9-801b-722d242ff1b4",
+   "doi": "10.2307/267878",
+   "title": "The Genre of the Atlantis Story",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 108,
+   "section": "c",
+   "line": 3,
+   "journal": "Classical Philology",
+   "year": "1977",
+   "iid": "49f99fb4-f236-39f9-801b-722d242ff1b4",
+   "doi": "10.2307/267878",
+   "title": "The Genre of the Atlantis Story",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 112,
+   "section": "e",
+   "line": 3,
+   "journal": "Classical Philology",
+   "year": "1977",
+   "iid": "49f99fb4-f236-39f9-801b-722d242ff1b4",
+   "doi": "10.2307/267878",
+   "title": "The Genre of the Atlantis Story",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 120,
+   "section": "d",
+   "line": 6,
+   "journal": "Classical Philology",
+   "year": "1977",
+   "iid": "49f99fb4-f236-39f9-801b-722d242ff1b4",
+   "doi": "10.2307/267878",
+   "title": "The Genre of the Atlantis Story",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 113,
+   "section": "e",
+   "line": 3,
+   "journal": "Classical Philology",
+   "year": "1977",
+   "iid": "49f99fb4-f236-39f9-801b-722d242ff1b4",
+   "doi": "10.2307/267878",
+   "title": "The Genre of the Atlantis Story",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 113,
+   "section": "d",
+   "line": 8,
+   "journal": "Classical Philology",
+   "year": "1977",
+   "iid": "49f99fb4-f236-39f9-801b-722d242ff1b4",
+   "doi": "10.2307/267878",
+   "title": "The Genre of the Atlantis Story",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 109,
+   "section": "b",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1977",
+   "iid": "49f99fb4-f236-39f9-801b-722d242ff1b4",
+   "doi": "10.2307/267878",
+   "title": "The Genre of the Atlantis Story",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 113,
+   "section": "b",
+   "line": 7,
+   "journal": "Classical Philology",
+   "year": "1977",
+   "iid": "49f99fb4-f236-39f9-801b-722d242ff1b4",
+   "doi": "10.2307/267878",
+   "title": "The Genre of the Atlantis Story",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 109,
+   "section": "b",
+   "line": 6,
+   "journal": "Classical Philology",
+   "year": "1977",
+   "iid": "49f99fb4-f236-39f9-801b-722d242ff1b4",
+   "doi": "10.2307/267878",
+   "title": "The Genre of the Atlantis Story",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 114,
+   "section": "d",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1977",
+   "iid": "49f99fb4-f236-39f9-801b-722d242ff1b4",
+   "doi": "10.2307/267878",
+   "title": "The Genre of the Atlantis Story",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 115,
+   "section": "c",
+   "line": 4,
+   "journal": "Classical Philology",
+   "year": "1977",
+   "iid": "49f99fb4-f236-39f9-801b-722d242ff1b4",
+   "doi": "10.2307/267878",
+   "title": "The Genre of the Atlantis Story",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 118,
+   "section": "c",
+   "line": 4,
+   "journal": "Classical Philology",
+   "year": "1977",
+   "iid": "49f99fb4-f236-39f9-801b-722d242ff1b4",
+   "doi": "10.2307/267878",
+   "title": "The Genre of the Atlantis Story",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 121,
+   "section": "e",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1977",
+   "iid": "49f99fb4-f236-39f9-801b-722d242ff1b4",
+   "doi": "10.2307/267878",
+   "title": "The Genre of the Atlantis Story",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 112,
+   "section": "d",
+   "line": 4,
+   "journal": "Classical Philology",
+   "year": "1977",
+   "iid": "49f99fb4-f236-39f9-801b-722d242ff1b4",
+   "doi": "10.2307/267878",
+   "title": "The Genre of the Atlantis Story",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 121,
+   "section": "c",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1977",
+   "iid": "49f99fb4-f236-39f9-801b-722d242ff1b4",
+   "doi": "10.2307/267878",
+   "title": "The Genre of the Atlantis Story",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 114,
+   "section": "d",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1977",
+   "iid": "49f99fb4-f236-39f9-801b-722d242ff1b4",
+   "doi": "10.2307/267878",
+   "title": "The Genre of the Atlantis Story",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 117,
+   "section": "e",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1977",
+   "iid": "49f99fb4-f236-39f9-801b-722d242ff1b4",
+   "doi": "10.2307/267878",
+   "title": "The Genre of the Atlantis Story",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 118,
+   "section": "d",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1977",
+   "iid": "49f99fb4-f236-39f9-801b-722d242ff1b4",
+   "doi": "10.2307/267878",
+   "title": "The Genre of the Atlantis Story",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 113,
+   "section": "e",
+   "line": 1,
+   "journal": "Classical Philology",
+   "year": "1977",
+   "iid": "49f99fb4-f236-39f9-801b-722d242ff1b4",
+   "doi": "10.2307/267878",
+   "title": "The Genre of the Atlantis Story",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 115,
+   "section": "c",
+   "line": 4,
+   "journal": "Classical Philology",
+   "year": "1977",
+   "iid": "49f99fb4-f236-39f9-801b-722d242ff1b4",
+   "doi": "10.2307/267878",
+   "title": "The Genre of the Atlantis Story",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 116,
+   "section": "c",
+   "line": 3,
+   "journal": "Classical Philology",
+   "year": "1977",
+   "iid": "49f99fb4-f236-39f9-801b-722d242ff1b4",
+   "doi": "10.2307/267878",
+   "title": "The Genre of the Atlantis Story",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 118,
+   "section": "c",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1977",
+   "iid": "49f99fb4-f236-39f9-801b-722d242ff1b4",
+   "doi": "10.2307/267878",
+   "title": "The Genre of the Atlantis Story",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 117,
+   "section": "d",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1977",
+   "iid": "49f99fb4-f236-39f9-801b-722d242ff1b4",
+   "doi": "10.2307/267878",
+   "title": "The Genre of the Atlantis Story",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 117,
+   "section": "d",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1977",
+   "iid": "49f99fb4-f236-39f9-801b-722d242ff1b4",
+   "doi": "10.2307/267878",
+   "title": "The Genre of the Atlantis Story",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 117,
+   "section": "e",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1977",
+   "iid": "49f99fb4-f236-39f9-801b-722d242ff1b4",
+   "doi": "10.2307/267878",
+   "title": "The Genre of the Atlantis Story",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 113,
+   "section": "d",
+   "line": 1,
+   "journal": "Classical Philology",
+   "year": "1977",
+   "iid": "49f99fb4-f236-39f9-801b-722d242ff1b4",
+   "doi": "10.2307/267878",
+   "title": "The Genre of the Atlantis Story",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 114,
+   "section": "c",
+   "line": 1,
+   "journal": "Classical Philology",
+   "year": "1977",
+   "iid": "49f99fb4-f236-39f9-801b-722d242ff1b4",
+   "doi": "10.2307/267878",
+   "title": "The Genre of the Atlantis Story",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 109,
+   "section": "d",
+   "line": 2,
+   "journal": "Classical Philology",
+   "year": "1977",
+   "iid": "49f99fb4-f236-39f9-801b-722d242ff1b4",
+   "doi": "10.2307/267878",
+   "title": "The Genre of the Atlantis Story",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 112,
+   "section": "c",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1977",
+   "iid": "49f99fb4-f236-39f9-801b-722d242ff1b4",
+   "doi": "10.2307/267878",
+   "title": "The Genre of the Atlantis Story",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 116,
+   "section": "c",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1977",
+   "iid": "49f99fb4-f236-39f9-801b-722d242ff1b4",
+   "doi": "10.2307/267878",
+   "title": "The Genre of the Atlantis Story",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 109,
+   "section": "d",
+   "line": 2,
+   "journal": "Classical Philology",
+   "year": "1977",
+   "iid": "49f99fb4-f236-39f9-801b-722d242ff1b4",
+   "doi": "10.2307/267878",
+   "title": "The Genre of the Atlantis Story",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 116,
+   "section": "b",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1977",
+   "iid": "49f99fb4-f236-39f9-801b-722d242ff1b4",
+   "doi": "10.2307/267878",
+   "title": "The Genre of the Atlantis Story",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 120,
+   "section": "d",
+   "line": 8,
+   "journal": "Classical Philology",
+   "year": "1977",
+   "iid": "49f99fb4-f236-39f9-801b-722d242ff1b4",
+   "doi": "10.2307/267878",
+   "title": "The Genre of the Atlantis Story",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 116,
+   "section": "d",
+   "line": 2,
+   "journal": "Classical Philology",
+   "year": "1977",
+   "iid": "49f99fb4-f236-39f9-801b-722d242ff1b4",
+   "doi": "10.2307/267878",
+   "title": "The Genre of the Atlantis Story",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 121,
+   "section": "b",
+   "line": 6,
+   "journal": "Classical Philology",
+   "year": "1977",
+   "iid": "49f99fb4-f236-39f9-801b-722d242ff1b4",
+   "doi": "10.2307/267878",
+   "title": "The Genre of the Atlantis Story",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 108,
+   "section": "a",
+   "line": 5,
+   "journal": "Classical Philology",
+   "year": "1977",
+   "iid": "49f99fb4-f236-39f9-801b-722d242ff1b4",
+   "doi": "10.2307/267878",
+   "title": "The Genre of the Atlantis Story",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 112,
+   "section": "e",
+   "line": 3,
+   "journal": "Classical Philology",
+   "year": "1977",
+   "iid": "49f99fb4-f236-39f9-801b-722d242ff1b4",
+   "doi": "10.2307/267878",
+   "title": "The Genre of the Atlantis Story",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 121,
+   "section": "b",
+   "line": 6,
+   "journal": "Classical Philology",
+   "year": "1977",
+   "iid": "49f99fb4-f236-39f9-801b-722d242ff1b4",
+   "doi": "10.2307/267878",
+   "title": "The Genre of the Atlantis Story",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 108,
+   "section": "c",
+   "line": 3,
+   "journal": "Classical Philology",
+   "year": "1977",
+   "iid": "49f99fb4-f236-39f9-801b-722d242ff1b4",
+   "doi": "10.2307/267878",
+   "title": "The Genre of the Atlantis Story",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 112,
+   "section": "b",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1977",
+   "iid": "49f99fb4-f236-39f9-801b-722d242ff1b4",
+   "doi": "10.2307/267878",
+   "title": "The Genre of the Atlantis Story",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 119,
+   "section": "c",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1977",
+   "iid": "49f99fb4-f236-39f9-801b-722d242ff1b4",
+   "doi": "10.2307/267878",
+   "title": "The Genre of the Atlantis Story",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 120,
+   "section": "e",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1977",
+   "iid": "49f99fb4-f236-39f9-801b-722d242ff1b4",
+   "doi": "10.2307/267878",
+   "title": "The Genre of the Atlantis Story",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 121,
+   "section": "b",
+   "line": 7,
+   "journal": "Classical Philology",
+   "year": "1977",
+   "iid": "49f99fb4-f236-39f9-801b-722d242ff1b4",
+   "doi": "10.2307/267878",
+   "title": "The Genre of the Atlantis Story",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 108,
+   "section": "d",
+   "line": 8,
+   "journal": "Classical Philology",
+   "year": "1977",
+   "iid": "49f99fb4-f236-39f9-801b-722d242ff1b4",
+   "doi": "10.2307/267878",
+   "title": "The Genre of the Atlantis Story",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 106,
+   "section": "b",
+   "line": 8,
+   "journal": "Classical Philology",
+   "year": "1977",
+   "iid": "49f99fb4-f236-39f9-801b-722d242ff1b4",
+   "doi": "10.2307/267878",
+   "title": "The Genre of the Atlantis Story",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 107,
+   "section": "a",
+   "line": 7,
+   "journal": "Classical Philology",
+   "year": "1977",
+   "iid": "49f99fb4-f236-39f9-801b-722d242ff1b4",
+   "doi": "10.2307/267878",
+   "title": "The Genre of the Atlantis Story",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 121,
+   "section": "c",
+   "line": 5,
+   "journal": "Classical Philology",
+   "year": "1977",
+   "iid": "49f99fb4-f236-39f9-801b-722d242ff1b4",
+   "doi": "10.2307/267878",
+   "title": "The Genre of the Atlantis Story",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 110,
+   "section": "e",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1983",
+   "iid": "5fcdc0f3-30d6-3c1f-9447-aa632aca3a46",
+   "doi": "10.2307/638646",
+   "title": "Πανcompounds in plato",
+   "author": "R. S. W. Hawtrey"
+  },
+  {
+   "book": "",
+   "page": 108,
+   "section": "c",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1992",
+   "iid": "62505f64-32cc-39ae-b32b-8f2f7c5a5f0c",
+   "doi": "10.2307/270000",
+   "title": "Review Article: The New Oxford Sophocles",
+   "author": "H. Lloyd-Jones, N. G. Wilson, R. Renehan"
+  },
+  {
+   "book": "",
+   "page": 118,
+   "section": "a",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1997",
+   "iid": "62263eac-08b8-321a-ab2b-9ab338e4e0b7",
+   "doi": "10.2307/4182566",
+   "title": "La physiologie politique du \"Critias\" de Platon",
+   "author": "Jean-François Pradeau"
+  },
+  {
+   "book": "",
+   "page": 119,
+   "section": "a",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1997",
+   "iid": "62263eac-08b8-321a-ab2b-9ab338e4e0b7",
+   "doi": "10.2307/4182566",
+   "title": "La physiologie politique du \"Critias\" de Platon",
+   "author": "Jean-François Pradeau"
+  },
+  {
+   "book": "",
+   "page": 109,
+   "section": "b",
+   "line": 6,
+   "journal": "The Classical Quarterly",
+   "year": "2018",
+   "iid": "65a7cb8d-63d2-395b-88f1-67c46a0eb5d5",
+   "doi": "10.2307/26670618",
+   "title": "EROS’ ATTACK ON ΚΤΗΜΑΤΑ",
+   "author": "EMILIO CAPETTINI"
+  },
+  {
+   "book": "",
+   "page": 121,
+   "section": "b",
+   "line": 6,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2013",
+   "iid": "699e4c02-6e9c-3c78-b29b-5e1c6c62613a",
+   "doi": "10.2307/24358691",
+   "title": "PLATON ET ARISTOTE : DEUX ANTHROPOLOGIES ÉCONOMIQUES, DEUX CITÉS JUSTES",
+   "author": "Étienne Helmer"
+  },
+  {
+   "book": "",
+   "page": 112,
+   "section": "e",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "1995",
+   "iid": "697a4a25-6644-39af-bf9b-f6efd90102bd",
+   "doi": "10.2307/24354590",
+   "title": "LE BON POLITIQUE ET LA BONNE CONSTITUTION OU LES CHEMINS DE L'INVISIBLE",
+   "author": "Baudouin Decharneux"
+  },
+  {
+   "book": "",
+   "page": 121,
+   "section": "c",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "1995",
+   "iid": "697a4a25-6644-39af-bf9b-f6efd90102bd",
+   "doi": "10.2307/24354590",
+   "title": "LE BON POLITIQUE ET LA BONNE CONSTITUTION OU LES CHEMINS DE L'INVISIBLE",
+   "author": "Baudouin Decharneux"
+  },
+  {
+   "book": "",
+   "page": 107,
+   "section": "c",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1905",
+   "iid": "6a7733f0-957c-3a20-abd4-c050b70c9454",
+   "doi": "10.2307/694204",
+   "title": "Platonica III",
+   "author": "John Burnet"
+  },
+  {
+   "book": "",
+   "page": 116,
+   "section": "e",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1905",
+   "iid": "6a7733f0-957c-3a20-abd4-c050b70c9454",
+   "doi": "10.2307/694204",
+   "title": "Platonica III",
+   "author": "John Burnet"
+  },
+  {
+   "book": "",
+   "page": 110,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1905",
+   "iid": "6a7733f0-957c-3a20-abd4-c050b70c9454",
+   "doi": "10.2307/694204",
+   "title": "Platonica III",
+   "author": "John Burnet"
+  },
+  {
+   "book": "",
+   "page": 107,
+   "section": "b",
+   "line": 5,
+   "journal": "Phronesis",
+   "year": "1979",
+   "iid": "70f236e8-d725-3439-927a-416c98b7fb06",
+   "doi": "10.2307/4182064",
+   "title": "Plato and Politics: The Critias and the Politicus",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 107,
+   "section": "b",
+   "line": 7,
+   "journal": "Phronesis",
+   "year": "1979",
+   "iid": "70f236e8-d725-3439-927a-416c98b7fb06",
+   "doi": "10.2307/4182064",
+   "title": "Plato and Politics: The Critias and the Politicus",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 113,
+   "section": "c",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1979",
+   "iid": "70f236e8-d725-3439-927a-416c98b7fb06",
+   "doi": "10.2307/4182064",
+   "title": "Plato and Politics: The Critias and the Politicus",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 109,
+   "section": "c",
+   "line": 4,
+   "journal": "Phronesis",
+   "year": "1979",
+   "iid": "70f236e8-d725-3439-927a-416c98b7fb06",
+   "doi": "10.2307/4182064",
+   "title": "Plato and Politics: The Critias and the Politicus",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 109,
+   "section": "b",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1979",
+   "iid": "70f236e8-d725-3439-927a-416c98b7fb06",
+   "doi": "10.2307/4182064",
+   "title": "Plato and Politics: The Critias and the Politicus",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 119,
+   "section": "a",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1979",
+   "iid": "70f236e8-d725-3439-927a-416c98b7fb06",
+   "doi": "10.2307/4182064",
+   "title": "Plato and Politics: The Critias and the Politicus",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 109,
+   "section": "b",
+   "line": 6,
+   "journal": "Phronesis",
+   "year": "1979",
+   "iid": "70f236e8-d725-3439-927a-416c98b7fb06",
+   "doi": "10.2307/4182064",
+   "title": "Plato and Politics: The Critias and the Politicus",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 120,
+   "section": "e",
+   "line": 1,
+   "journal": "Phronesis",
+   "year": "1979",
+   "iid": "70f236e8-d725-3439-927a-416c98b7fb06",
+   "doi": "10.2307/4182064",
+   "title": "Plato and Politics: The Critias and the Politicus",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 109,
+   "section": "c",
+   "line": 2,
+   "journal": "Phronesis",
+   "year": "1979",
+   "iid": "70f236e8-d725-3439-927a-416c98b7fb06",
+   "doi": "10.2307/4182064",
+   "title": "Plato and Politics: The Critias and the Politicus",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 112,
+   "section": "d",
+   "line": 2,
+   "journal": "Phronesis",
+   "year": "1979",
+   "iid": "70f236e8-d725-3439-927a-416c98b7fb06",
+   "doi": "10.2307/4182064",
+   "title": "Plato and Politics: The Critias and the Politicus",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 114,
+   "section": "e",
+   "line": 7,
+   "journal": "Phronesis",
+   "year": "1979",
+   "iid": "70f236e8-d725-3439-927a-416c98b7fb06",
+   "doi": "10.2307/4182064",
+   "title": "Plato and Politics: The Critias and the Politicus",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 109,
+   "section": "c",
+   "line": 9,
+   "journal": "Phronesis",
+   "year": "1979",
+   "iid": "70f236e8-d725-3439-927a-416c98b7fb06",
+   "doi": "10.2307/4182064",
+   "title": "Plato and Politics: The Critias and the Politicus",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 117,
+   "section": "a",
+   "line": 5,
+   "journal": "Phronesis",
+   "year": "1979",
+   "iid": "70f236e8-d725-3439-927a-416c98b7fb06",
+   "doi": "10.2307/4182064",
+   "title": "Plato and Politics: The Critias and the Politicus",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 118,
+   "section": "b",
+   "line": 8,
+   "journal": "Phronesis",
+   "year": "1979",
+   "iid": "70f236e8-d725-3439-927a-416c98b7fb06",
+   "doi": "10.2307/4182064",
+   "title": "Plato and Politics: The Critias and the Politicus",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 120,
+   "section": "e",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1979",
+   "iid": "70f236e8-d725-3439-927a-416c98b7fb06",
+   "doi": "10.2307/4182064",
+   "title": "Plato and Politics: The Critias and the Politicus",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 121,
+   "section": "c",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1979",
+   "iid": "70f236e8-d725-3439-927a-416c98b7fb06",
+   "doi": "10.2307/4182064",
+   "title": "Plato and Politics: The Critias and the Politicus",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 120,
+   "section": "e",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1979",
+   "iid": "70f236e8-d725-3439-927a-416c98b7fb06",
+   "doi": "10.2307/4182064",
+   "title": "Plato and Politics: The Critias and the Politicus",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 109,
+   "section": "d",
+   "line": 2,
+   "journal": "Phronesis",
+   "year": "1979",
+   "iid": "70f236e8-d725-3439-927a-416c98b7fb06",
+   "doi": "10.2307/4182064",
+   "title": "Plato and Politics: The Critias and the Politicus",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 109,
+   "section": "d",
+   "line": 2,
+   "journal": "Phronesis",
+   "year": "1979",
+   "iid": "70f236e8-d725-3439-927a-416c98b7fb06",
+   "doi": "10.2307/4182064",
+   "title": "Plato and Politics: The Critias and the Politicus",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 113,
+   "section": "c",
+   "line": 8,
+   "journal": "Phronesis",
+   "year": "1979",
+   "iid": "70f236e8-d725-3439-927a-416c98b7fb06",
+   "doi": "10.2307/4182064",
+   "title": "Plato and Politics: The Critias and the Politicus",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 109,
+   "section": "c",
+   "line": 2,
+   "journal": "Phronesis",
+   "year": "1979",
+   "iid": "70f236e8-d725-3439-927a-416c98b7fb06",
+   "doi": "10.2307/4182064",
+   "title": "Plato and Politics: The Critias and the Politicus",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 109,
+   "section": "d",
+   "line": 4,
+   "journal": "Phronesis",
+   "year": "1979",
+   "iid": "70f236e8-d725-3439-927a-416c98b7fb06",
+   "doi": "10.2307/4182064",
+   "title": "Plato and Politics: The Critias and the Politicus",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 109,
+   "section": "d",
+   "line": 4,
+   "journal": "Phronesis",
+   "year": "1979",
+   "iid": "70f236e8-d725-3439-927a-416c98b7fb06",
+   "doi": "10.2307/4182064",
+   "title": "Plato and Politics: The Critias and the Politicus",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 109,
+   "section": "e",
+   "line": 2,
+   "journal": "Phronesis",
+   "year": "1979",
+   "iid": "70f236e8-d725-3439-927a-416c98b7fb06",
+   "doi": "10.2307/4182064",
+   "title": "Plato and Politics: The Critias and the Politicus",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 109,
+   "section": "e",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1979",
+   "iid": "70f236e8-d725-3439-927a-416c98b7fb06",
+   "doi": "10.2307/4182064",
+   "title": "Plato and Politics: The Critias and the Politicus",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 109,
+   "section": "b",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1979",
+   "iid": "70f236e8-d725-3439-927a-416c98b7fb06",
+   "doi": "10.2307/4182064",
+   "title": "Plato and Politics: The Critias and the Politicus",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 109,
+   "section": "b",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1979",
+   "iid": "70f236e8-d725-3439-927a-416c98b7fb06",
+   "doi": "10.2307/4182064",
+   "title": "Plato and Politics: The Critias and the Politicus",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 110,
+   "section": "a",
+   "line": 5,
+   "journal": "Phronesis",
+   "year": "1979",
+   "iid": "70f236e8-d725-3439-927a-416c98b7fb06",
+   "doi": "10.2307/4182064",
+   "title": "Plato and Politics: The Critias and the Politicus",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 109,
+   "section": "c",
+   "line": 2,
+   "journal": "Phronesis",
+   "year": "1979",
+   "iid": "70f236e8-d725-3439-927a-416c98b7fb06",
+   "doi": "10.2307/4182064",
+   "title": "Plato and Politics: The Critias and the Politicus",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 113,
+   "section": "e",
+   "line": 3,
+   "journal": "Phronesis",
+   "year": "1979",
+   "iid": "70f236e8-d725-3439-927a-416c98b7fb06",
+   "doi": "10.2307/4182064",
+   "title": "Plato and Politics: The Critias and the Politicus",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 113,
+   "section": "c",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1990",
+   "iid": "74948cdb-22f8-3b78-bbcf-11f918d8152d",
+   "doi": "10.2307/639326",
+   "title": "Numenius, Pherecydes and The Cave of the Nymphs",
+   "author": "M. J. Edwards"
+  },
+  {
+   "book": "",
+   "page": 115,
+   "section": "b",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2005",
+   "iid": "7783adba-f12c-3fc3-8a2f-673b198e9705",
+   "doi": "10.1086/431428",
+   "title": "Oedipus and Thyestes among the Philosophers: Incest and Cannibalism in Plato, Diogenes, and Zeno",
+   "author": "Brian S. Hook"
+  },
+  {
+   "book": "",
+   "page": 110,
+   "section": "d",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2010",
+   "iid": "8716825d-bd35-3a02-a987-f1a80d1b453e",
+   "doi": "10.2307/24354715",
+   "title": "PLATON ET LES GÉNÉALOGISTES",
+   "author": "Marcel Meulder"
+  },
+  {
+   "book": "",
+   "page": 112,
+   "section": "a",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2010",
+   "iid": "8716825d-bd35-3a02-a987-f1a80d1b453e",
+   "doi": "10.2307/24354715",
+   "title": "PLATON ET LES GÉNÉALOGISTES",
+   "author": "Marcel Meulder"
+  },
+  {
+   "book": "",
+   "page": 113,
+   "section": "a",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2010",
+   "iid": "8716825d-bd35-3a02-a987-f1a80d1b453e",
+   "doi": "10.2307/24354715",
+   "title": "PLATON ET LES GÉNÉALOGISTES",
+   "author": "Marcel Meulder"
+  },
+  {
+   "book": "",
+   "page": 113,
+   "section": "b",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2010",
+   "iid": "8716825d-bd35-3a02-a987-f1a80d1b453e",
+   "doi": "10.2307/24354715",
+   "title": "PLATON ET LES GÉNÉALOGISTES",
+   "author": "Marcel Meulder"
+  },
+  {
+   "book": "",
+   "page": 110,
+   "section": "a",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2010",
+   "iid": "8716825d-bd35-3a02-a987-f1a80d1b453e",
+   "doi": "10.2307/24354715",
+   "title": "PLATON ET LES GÉNÉALOGISTES",
+   "author": "Marcel Meulder"
+  },
+  {
+   "book": "",
+   "page": 108,
+   "section": "b",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "1997",
+   "iid": "886e32d7-022a-3018-90d2-af9ce437ba15",
+   "doi": "10.2307/24354610",
+   "title": "DE LA BONTÉ DU DÉMIURGE (Platon, \"Timée\", 29d 6 - e 4)",
+   "author": "André Motte"
+  },
+  {
+   "book": "",
+   "page": 106,
+   "section": "a",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "1997",
+   "iid": "886e32d7-022a-3018-90d2-af9ce437ba15",
+   "doi": "10.2307/24354610",
+   "title": "DE LA BONTÉ DU DÉMIURGE (Platon, \"Timée\", 29d 6 - e 4)",
+   "author": "André Motte"
+  },
+  {
+   "book": "",
+   "page": 106,
+   "section": "a",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "1997",
+   "iid": "886e32d7-022a-3018-90d2-af9ce437ba15",
+   "doi": "10.2307/24354610",
+   "title": "DE LA BONTÉ DU DÉMIURGE (Platon, \"Timée\", 29d 6 - e 4)",
+   "author": "André Motte"
+  },
+  {
+   "book": "",
+   "page": 109,
+   "section": "c",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2003",
+   "iid": "8f03a274-2c69-339c-a874-c3cdb55afd4d",
+   "doi": "10.2307/24354697",
+   "title": "LE STATUT DE LA PHILOSOPHIE DANS LE \"POLITIQUE\"",
+   "author": "Jim Dratwa"
+  },
+  {
+   "book": "",
+   "page": 113,
+   "section": "c",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1981",
+   "iid": "911ba14f-92e9-3d0d-8558-c5618ba60044",
+   "doi": "10.2307/3063885",
+   "title": "",
+   "author": "Jonathan Lear, David Charles"
+  },
+  {
+   "book": "",
+   "page": 110,
+   "section": "e",
+   "line": 5,
+   "journal": "The Classical Quarterly",
+   "year": "2017",
+   "iid": "949a631a-c674-3a15-bcfb-5aea1383061a",
+   "doi": "10.2307/26292404",
+   "title": "PLATO ON VIRTUE IN THE \"MENEXENVS\"",
+   "author": "FEDERICO M. PETRUCCI"
+  },
+  {
+   "book": "",
+   "page": 109,
+   "section": "d",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2017",
+   "iid": "949a631a-c674-3a15-bcfb-5aea1383061a",
+   "doi": "10.2307/26292404",
+   "title": "PLATO ON VIRTUE IN THE \"MENEXENVS\"",
+   "author": "FEDERICO M. PETRUCCI"
+  },
+  {
+   "book": "",
+   "page": 107,
+   "section": "b",
+   "line": null,
+   "journal": "Méthexis",
+   "year": "2013",
+   "iid": "9547103b-7e23-3c49-926a-caa0f59fb621",
+   "doi": "10.2307/43739104",
+   "title": "LOS PARADIGMAS POÉTICOS DE REPÚBLICA A LA LUZ DE LAS TÉCNICAS MIMÉTICAS DEL SOFISTA",
+   "author": "LUCAS SOARES, LUCA SOARES"
+  },
+  {
+   "book": "",
+   "page": 106,
+   "section": "b",
+   "line": 5,
+   "journal": "Méthexis",
+   "year": "2013",
+   "iid": "9547103b-7e23-3c49-926a-caa0f59fb621",
+   "doi": "10.2307/43739104",
+   "title": "LOS PARADIGMAS POÉTICOS DE REPÚBLICA A LA LUZ DE LAS TÉCNICAS MIMÉTICAS DEL SOFISTA",
+   "author": "LUCAS SOARES, LUCA SOARES"
+  },
+  {
+   "book": "",
+   "page": 107,
+   "section": "b",
+   "line": 5,
+   "journal": "Méthexis",
+   "year": "2013",
+   "iid": "9547103b-7e23-3c49-926a-caa0f59fb621",
+   "doi": "10.2307/43739104",
+   "title": "LOS PARADIGMAS POÉTICOS DE REPÚBLICA A LA LUZ DE LAS TÉCNICAS MIMÉTICAS DEL SOFISTA",
+   "author": "LUCAS SOARES, LUCA SOARES"
+  },
+  {
+   "book": "",
+   "page": 121,
+   "section": "b",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1963",
+   "iid": "96a4841a-019e-3869-bda3-ab05b41f086d",
+   "doi": "10.2307/266532",
+   "title": "Plato's Funeral Oration: The Motive of the Menexenus",
+   "author": "Charles H. Kahn"
+  },
+  {
+   "book": "",
+   "page": 121,
+   "section": "b",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "2004",
+   "iid": "999971fa-180a-3adb-b260-e558ec226d50",
+   "doi": "10.2307/4182741",
+   "title": "Phaedo of Elis and Plato on the Soul",
+   "author": "George Boys-Stones"
+  },
+  {
+   "book": "",
+   "page": 121,
+   "section": "c",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "2004",
+   "iid": "9bdc435d-c703-3efc-9684-9be2685fd8dc",
+   "doi": "10.2307/3661934",
+   "title": "Book Review : \n        Platon und die Erfindung von Atlantis\n        H.-G. Nesselrath",
+   "author": "H.-G. Nesselrath, Christopher Chaffin"
+  },
+  {
+   "book": "",
+   "page": 108,
+   "section": "e",
+   "line": null,
+   "journal": "Les Études philosophiques",
+   "year": "2013",
+   "iid": "a62bc00f-a9b2-3182-8b67-b615330a7f6a",
+   "doi": "10.2307/42773146",
+   "title": "ARISTOTE, SES COMMENTATEURS ET LES DÉFICIENCES DÉLIBÉRATIVES DE L'ESCLAVE ET DE LA FEMME",
+   "author": "Claudio William Veloso"
+  },
+  {
+   "book": "",
+   "page": 112,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1983",
+   "iid": "b30e5169-f161-3876-b4b1-d5b66f5f8122",
+   "doi": "10.2307/638649",
+   "title": "Crantor and Posidonius on Atlantis",
+   "author": "Alan Cameron"
+  },
+  {
+   "book": "",
+   "page": 121,
+   "section": "c",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "2004",
+   "iid": "cb81312b-0b9d-3437-abe6-17f05bc50829",
+   "doi": "10.2307/3661935",
+   "title": "Book Review : \n        Proceedings of the Boston Area Colloquium in Ancient Philosophy. Volume XVII, 2001\n        J. J. Cleary\n        G. M. Gurtler",
+   "author": "F. Sheffield, G. M. Gurtler, J. J. Cleary"
+  },
+  {
+   "book": "",
+   "page": 120,
+   "section": "c",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1973",
+   "iid": "d068df63-3723-3068-930e-5dd2b81fcdd3",
+   "doi": "10.2307/268799",
+   "title": "",
+   "author": "Joseph Fontenrose, Édouard des Places"
+  },
+  {
+   "book": "",
+   "page": 115,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1931",
+   "iid": "db656056-09a8-3a85-8a16-3c8c0528e21e",
+   "doi": "10.2307/637006",
+   "title": "The Boy, the Grapes, and the Foxes",
+   "author": "A. Y. Campbell"
+  },
+  {
+   "book": "",
+   "page": 117,
+   "section": "e",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1935",
+   "iid": "dea7a909-60f3-3616-b76b-24f05a5d18f1",
+   "doi": "10.2307/264904",
+   "title": "<tex-math>$\\text{'}\\acute{{}}\\text{E}\\mu \\pi \\text{o}\\rho \\text{o}\\varsigma,\\ \\text{N}\\alpha \\acute{\\upsilon}\\kappa \\lambda \\eta \\rho \\text{o}\\varsigma $</tex-math>, and  Kάπ η λ oς : A Prolegomena to the Study of Athenian Trade",
+   "author": "Moses I. Finkelstein"
+  },
+  {
+   "book": "",
+   "page": 108,
+   "section": "c",
+   "line": null,
+   "journal": "Méthexis",
+   "year": "1997",
+   "iid": "ded10327-d07c-3036-acd5-9e489c4894e5",
+   "doi": "10.2307/43738541",
+   "title": "EL \"TIMEO-CRITIAS\" EN EL IV SYMPOSIUM PLATONICUM",
+   "author": "ÁLVARO VALLEJO CAMPOS"
+  },
+  {
+   "book": "",
+   "page": 115,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2000",
+   "iid": "e00d62e6-6edc-3ce1-9283-0bd8934676f2",
+   "doi": "10.2307/1558948",
+   "title": "The Introduction to Diogenes of Oinoanda's \"Physics\"",
+   "author": "Martin Ferguson Smith"
+  },
+  {
+   "book": "",
+   "page": 121,
+   "section": "c",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "2004",
+   "iid": "df4d4f61-52b5-3cc7-be98-05759279fd26",
+   "doi": "10.2307/3661933",
+   "title": "Book Review : \n        \n          Platón: Eutidemo. Introduccíon, traduccíon y notas\n        \n        U. Schmidt Osmanczik\n        Plato",
+   "author": "Isabelle Torrance, U. Schmidt Osmanczik, Plato"
+  },
+  {
+   "book": "",
+   "page": 106,
+   "section": "a",
+   "line": null,
+   "journal": "Méthexis",
+   "year": "1993",
+   "iid": "e0d2431e-4064-3a18-91b4-05dd9fc1a655",
+   "doi": "10.2307/43738404",
+   "title": "PLATONIC DIALECTIC AND THE TRUTH-STATUS OF THE UNWRITTEN DOCTRINES",
+   "author": "CHRISTOPHER GILL"
+  },
+  {
+   "book": "",
+   "page": 108,
+   "section": "b",
+   "line": null,
+   "journal": "Méthexis",
+   "year": "1993",
+   "iid": "e0d2431e-4064-3a18-91b4-05dd9fc1a655",
+   "doi": "10.2307/43738404",
+   "title": "PLATONIC DIALECTIC AND THE TRUTH-STATUS OF THE UNWRITTEN DOCTRINES",
+   "author": "CHRISTOPHER GILL"
+  },
+  {
+   "book": "",
+   "page": 106,
+   "section": "a",
+   "line": null,
+   "journal": "Méthexis",
+   "year": "1993",
+   "iid": "e0d2431e-4064-3a18-91b4-05dd9fc1a655",
+   "doi": "10.2307/43738404",
+   "title": "PLATONIC DIALECTIC AND THE TRUTH-STATUS OF THE UNWRITTEN DOCTRINES",
+   "author": "CHRISTOPHER GILL"
+  },
+  {
+   "book": "",
+   "page": 113,
+   "section": "e",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1985",
+   "iid": "e230efe7-eaeb-3d2c-99c9-d1a03b0cb324",
+   "doi": "10.2307/270163",
+   "title": "Review Article: A New Commentary on Euripides",
+   "author": "Godfrey W. Bond, R. Renehan"
+  },
+  {
+   "book": "",
+   "page": 112,
+   "section": "e",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1950",
+   "iid": "e74beeed-9bd8-3d65-a08f-114c5f516077",
+   "doi": "10.2307/266442",
+   "title": "",
+   "author": "John H. Kent"
+  },
+  {
+   "book": "",
+   "page": 109,
+   "section": "c",
+   "line": null,
+   "journal": "Méthexis",
+   "year": "1997",
+   "iid": "e8bca5b3-dff3-3793-8499-b994a7a125ab",
+   "doi": "10.2307/43738535",
+   "title": "WHY IS THE IDEAL ATHENS OF THE \"TIMAEUS-CRITIAS\" NOT RULED BY PHILOSOPHERS?",
+   "author": "CHRISTOPHER ROWE"
+  },
+  {
+   "book": "",
+   "page": 107,
+   "section": "a",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2006",
+   "iid": "e8271617-651a-3cb6-baaa-0815560e3e8d",
+   "doi": "10.2307/24358472",
+   "title": "POÈTES ET (PHILO)SOPHOI: POUR UNE ARCHÉOLOGIE DE LA \"MIMESIS\"",
+   "author": "Ioanna Papadopoulou"
+  },
+  {
+   "book": "",
+   "page": 112,
+   "section": "e",
+   "line": 8,
+   "journal": "Méthexis",
+   "year": "2019",
+   "iid": "ea09c3f2-35ab-3684-b966-ec4c5251e275",
+   "doi": "10.2307/26730254",
+   "title": "On Hastily Declaring Platonic Dialogues Spurious",
+   "author": "Harold Tarrant"
+  },
+  {
+   "book": "",
+   "page": 108,
+   "section": "a",
+   "line": null,
+   "journal": "Méthexis",
+   "year": "2019",
+   "iid": "ea09c3f2-35ab-3684-b966-ec4c5251e275",
+   "doi": "10.2307/26730254",
+   "title": "On Hastily Declaring Platonic Dialogues Spurious",
+   "author": "Harold Tarrant"
+  },
+  {
+   "book": "",
+   "page": 113,
+   "section": "a",
+   "line": null,
+   "journal": "Méthexis",
+   "year": "2019",
+   "iid": "ea09c3f2-35ab-3684-b966-ec4c5251e275",
+   "doi": "10.2307/26730254",
+   "title": "On Hastily Declaring Platonic Dialogues Spurious",
+   "author": "Harold Tarrant"
+  },
+  {
+   "book": "",
+   "page": 113,
+   "section": "b",
+   "line": 3,
+   "journal": "Méthexis",
+   "year": "2019",
+   "iid": "ea09c3f2-35ab-3684-b966-ec4c5251e275",
+   "doi": "10.2307/26730254",
+   "title": "On Hastily Declaring Platonic Dialogues Spurious",
+   "author": "Harold Tarrant"
+  },
+  {
+   "book": "",
+   "page": 110,
+   "section": "a",
+   "line": 3,
+   "journal": "Méthexis",
+   "year": "2019",
+   "iid": "ea09c3f2-35ab-3684-b966-ec4c5251e275",
+   "doi": "10.2307/26730254",
+   "title": "On Hastily Declaring Platonic Dialogues Spurious",
+   "author": "Harold Tarrant"
+  },
+  {
+   "book": "",
+   "page": 112,
+   "section": "e",
+   "line": null,
+   "journal": "Méthexis",
+   "year": "2019",
+   "iid": "ea09c3f2-35ab-3684-b966-ec4c5251e275",
+   "doi": "10.2307/26730254",
+   "title": "On Hastily Declaring Platonic Dialogues Spurious",
+   "author": "Harold Tarrant"
+  },
+  {
+   "book": "",
+   "page": 108,
+   "section": "a",
+   "line": null,
+   "journal": "Méthexis",
+   "year": "2019",
+   "iid": "ea09c3f2-35ab-3684-b966-ec4c5251e275",
+   "doi": "10.2307/26730254",
+   "title": "On Hastily Declaring Platonic Dialogues Spurious",
+   "author": "Harold Tarrant"
+  },
+  {
+   "book": "",
+   "page": 113,
+   "section": "a",
+   "line": null,
+   "journal": "Méthexis",
+   "year": "2019",
+   "iid": "ea09c3f2-35ab-3684-b966-ec4c5251e275",
+   "doi": "10.2307/26730254",
+   "title": "On Hastily Declaring Platonic Dialogues Spurious",
+   "author": "Harold Tarrant"
+  },
+  {
+   "book": "",
+   "page": 109,
+   "section": "d",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1995",
+   "iid": "efbe1248-3165-34e8-82dd-ddab80c5f308",
+   "doi": "10.2307/4182496",
+   "title": "Humans and Other Political Animals in Aristotle's \"History of Animals\"",
+   "author": "David J. Depew"
+  },
+  {
+   "book": "",
+   "page": 113,
+   "section": "c",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1981",
+   "iid": "f18072b2-29ee-3871-a957-319a5a60b665",
+   "doi": "10.2307/3063884",
+   "title": "",
+   "author": "Karl Philipp, Anne Sheppard"
+  },
+  {
+   "book": "",
+   "page": 107,
+   "section": "b",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1969",
+   "iid": "f29c2057-29c5-37e5-82d9-d4fbc79a8332",
+   "doi": "10.2307/268156",
+   "title": "Mimesis and Katharsis",
+   "author": "Leon Golden"
+  },
+  {
+   "book": "",
+   "page": 106,
+   "section": "a",
+   "line": null,
+   "journal": "Méthexis",
+   "year": "1993",
+   "iid": "f574e8ae-a691-3110-85a8-0333b14d3bc1",
+   "doi": "10.2307/43738857",
+   "title": "LA DIALÉCTICA PLATÓNICA Y EL \"STATUS\" DE VERDAD DE LAS DOCTRINAS NO-ESCRITAS",
+   "author": "Ivana Costa, CHRISTOPHER GILL"
+  },
+  {
+   "book": "",
+   "page": 108,
+   "section": "b",
+   "line": null,
+   "journal": "Méthexis",
+   "year": "1993",
+   "iid": "f574e8ae-a691-3110-85a8-0333b14d3bc1",
+   "doi": "10.2307/43738857",
+   "title": "LA DIALÉCTICA PLATÓNICA Y EL \"STATUS\" DE VERDAD DE LAS DOCTRINAS NO-ESCRITAS",
+   "author": "Ivana Costa, CHRISTOPHER GILL"
+  },
+  {
+   "book": "",
+   "page": 106,
+   "section": "a",
+   "line": null,
+   "journal": "Méthexis",
+   "year": "1993",
+   "iid": "f574e8ae-a691-3110-85a8-0333b14d3bc1",
+   "doi": "10.2307/43738857",
+   "title": "LA DIALÉCTICA PLATÓNICA Y EL \"STATUS\" DE VERDAD DE LAS DOCTRINAS NO-ESCRITAS",
+   "author": "Ivana Costa, CHRISTOPHER GILL"
+  },
+  {
+   "book": "",
+   "page": 112,
+   "section": "e",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1984",
+   "iid": "fde0d44b-1904-3fbb-992f-ffedf46a88dd",
+   "doi": "10.2307/638335",
+   "title": "On the Manuscripts and Text of Euripides, Medea: II. The Text",
+   "author": "James Diggle"
+  }
+ ]
+}

@@ -1,0 +1,1137 @@
+[
+ {
+  "work": "Republic",
+  "floor": 12350,
+  "band": 12610,
+  "band_extra": 260,
+  "unplaceable": 387,
+  "queued_total": 647,
+  "resolution_rate": 0.95,
+  "tier": "trustworthy",
+  "distinct_articles": 2030,
+  "faceted": true,
+  "collides_with": []
+ },
+ {
+  "work": "Metaphysics",
+  "floor": 7851,
+  "band": 7856,
+  "band_extra": 5,
+  "unplaceable": 210,
+  "queued_total": 215,
+  "resolution_rate": 0.973,
+  "tier": "trustworthy",
+  "distinct_articles": 1141,
+  "faceted": true,
+  "collides_with": []
+ },
+ {
+  "work": "Laws",
+  "floor": 7491,
+  "band": 7508,
+  "band_extra": 17,
+  "unplaceable": 1282,
+  "queued_total": 1299,
+  "resolution_rate": 0.852,
+  "tier": "trustworthy",
+  "distinct_articles": 1472,
+  "faceted": true,
+  "collides_with": [
+   "Problems"
+  ]
+ },
+ {
+  "work": "Nicomachean_Ethics",
+  "floor": 6730,
+  "band": 6730,
+  "band_extra": 0,
+  "unplaceable": 195,
+  "queued_total": 195,
+  "resolution_rate": 0.972,
+  "tier": "trustworthy",
+  "distinct_articles": 882,
+  "faceted": true,
+  "collides_with": []
+ },
+ {
+  "work": "Timaeus",
+  "floor": 3977,
+  "band": 4059,
+  "band_extra": 82,
+  "unplaceable": 139,
+  "queued_total": 221,
+  "resolution_rate": 0.947,
+  "tier": "trustworthy",
+  "distinct_articles": 829,
+  "faceted": false,
+  "collides_with": []
+ },
+ {
+  "work": "Politics",
+  "floor": 3525,
+  "band": 3525,
+  "band_extra": 0,
+  "unplaceable": 59,
+  "queued_total": 59,
+  "resolution_rate": 0.984,
+  "tier": "trustworthy",
+  "distinct_articles": 727,
+  "faceted": false,
+  "collides_with": []
+ },
+ {
+  "work": "Physics",
+  "floor": 2433,
+  "band": 2486,
+  "band_extra": 53,
+  "unplaceable": 179,
+  "queued_total": 232,
+  "resolution_rate": 0.913,
+  "tier": "trustworthy",
+  "distinct_articles": 511,
+  "faceted": false,
+  "collides_with": [
+   "Symposium",
+   "Theaetetus",
+   "Sophist",
+   "Phaedrus",
+   "Lysis",
+   "Statesman"
+  ]
+ },
+ {
+  "work": "De_Anima",
+  "floor": 2200,
+  "band": 2355,
+  "band_extra": 155,
+  "unplaceable": 84,
+  "queued_total": 239,
+  "resolution_rate": 0.902,
+  "tier": "trustworthy",
+  "distinct_articles": 416,
+  "faceted": false,
+  "collides_with": [
+   "Cratylus",
+   "Republic",
+   "Clitophon"
+  ]
+ },
+ {
+  "work": "Protagoras",
+  "floor": 2096,
+  "band": 2313,
+  "band_extra": 217,
+  "unplaceable": 66,
+  "queued_total": 283,
+  "resolution_rate": 0.881,
+  "tier": "trustworthy",
+  "distinct_articles": 496,
+  "faceted": false,
+  "collides_with": [
+   "Letters",
+   "Republic",
+   "Meteorology",
+   "De_Generatione_et_Corruptione",
+   "Statesman",
+   "De_Caelo"
+  ]
+ },
+ {
+  "work": "Sophist",
+  "floor": 1999,
+  "band": 2113,
+  "band_extra": 114,
+  "unplaceable": 55,
+  "queued_total": 169,
+  "resolution_rate": 0.922,
+  "tier": "trustworthy",
+  "distinct_articles": 411,
+  "faceted": false,
+  "collides_with": [
+   "Phaedrus",
+   "Statesman",
+   "Physics",
+   "Lysis",
+   "Symposium",
+   "De_Caelo"
+  ]
+ },
+ {
+  "work": "Theaetetus",
+  "floor": 1985,
+  "band": 2002,
+  "band_extra": 17,
+  "unplaceable": 85,
+  "queued_total": 102,
+  "resolution_rate": 0.951,
+  "tier": "trustworthy",
+  "distinct_articles": 534,
+  "faceted": false,
+  "collides_with": []
+ },
+ {
+  "work": "Rhetoric",
+  "floor": 1782,
+  "band": 1783,
+  "band_extra": 1,
+  "unplaceable": 59,
+  "queued_total": 60,
+  "resolution_rate": 0.967,
+  "tier": "trustworthy",
+  "distinct_articles": 535,
+  "faceted": false,
+  "collides_with": [
+   "Rhetorica_ad_Alexandrum"
+  ]
+ },
+ {
+  "work": "Symposium",
+  "floor": 1702,
+  "band": 1782,
+  "band_extra": 80,
+  "unplaceable": 129,
+  "queued_total": 209,
+  "resolution_rate": 0.891,
+  "tier": "trustworthy",
+  "distinct_articles": 455,
+  "faceted": false,
+  "collides_with": [
+   "Theaetetus",
+   "Lysis",
+   "Laches",
+   "Physics",
+   "Sophistical_Refutations",
+   "Charmides"
+  ]
+ },
+ {
+  "work": "Eudemian_Ethics",
+  "floor": 1546,
+  "band": 1546,
+  "band_extra": 0,
+  "unplaceable": 31,
+  "queued_total": 31,
+  "resolution_rate": 0.98,
+  "tier": "trustworthy",
+  "distinct_articles": 310,
+  "faceted": true,
+  "collides_with": []
+ },
+ {
+  "work": "Poetics",
+  "floor": 1512,
+  "band": 1513,
+  "band_extra": 1,
+  "unplaceable": 61,
+  "queued_total": 62,
+  "resolution_rate": 0.961,
+  "tier": "trustworthy",
+  "distinct_articles": 406,
+  "faceted": false,
+  "collides_with": [
+   "Rhetorica_ad_Alexandrum"
+  ]
+ },
+ {
+  "work": "Statesman",
+  "floor": 1332,
+  "band": 1345,
+  "band_extra": 13,
+  "unplaceable": 49,
+  "queued_total": 62,
+  "resolution_rate": 0.956,
+  "tier": "trustworthy",
+  "distinct_articles": 316,
+  "faceted": false,
+  "collides_with": []
+ },
+ {
+  "work": "Parmenides",
+  "floor": 1294,
+  "band": 1335,
+  "band_extra": 41,
+  "unplaceable": 265,
+  "queued_total": 306,
+  "resolution_rate": 0.809,
+  "tier": "trustworthy",
+  "distinct_articles": 258,
+  "faceted": false,
+  "collides_with": [
+   "Theaetetus",
+   "Topics",
+   "Rival_Lovers",
+   "Alcibiades_2",
+   "Charmides"
+  ]
+ },
+ {
+  "work": "Posterior_Analytics",
+  "floor": 985,
+  "band": 1014,
+  "band_extra": 29,
+  "unplaceable": 31,
+  "queued_total": 60,
+  "resolution_rate": 0.943,
+  "tier": "trustworthy",
+  "distinct_articles": 151,
+  "faceted": false,
+  "collides_with": [
+   "Meno",
+   "Phaedo",
+   "Topics",
+   "Timaeus"
+  ]
+ },
+ {
+  "work": "Topics",
+  "floor": 866,
+  "band": 874,
+  "band_extra": 8,
+  "unplaceable": 67,
+  "queued_total": 75,
+  "resolution_rate": 0.92,
+  "tier": "trustworthy",
+  "distinct_articles": 269,
+  "faceted": false,
+  "collides_with": []
+ },
+ {
+  "work": "Prior_Analytics",
+  "floor": 626,
+  "band": 662,
+  "band_extra": 36,
+  "unplaceable": 18,
+  "queued_total": 54,
+  "resolution_rate": 0.921,
+  "tier": "trustworthy",
+  "distinct_articles": 78,
+  "faceted": false,
+  "collides_with": [
+   "Philebus",
+   "Timaeus",
+   "Apology"
+  ]
+ },
+ {
+  "work": "Hippias_Major",
+  "floor": 285,
+  "band": 295,
+  "band_extra": 10,
+  "unplaceable": 14,
+  "queued_total": 24,
+  "resolution_rate": 0.922,
+  "tier": "trustworthy",
+  "distinct_articles": 74,
+  "faceted": false,
+  "collides_with": [
+   "Euthydemus",
+   "Statesman"
+  ]
+ },
+ {
+  "work": "Critias",
+  "floor": 204,
+  "band": 205,
+  "band_extra": 1,
+  "unplaceable": 7,
+  "queued_total": 8,
+  "resolution_rate": 0.962,
+  "tier": "trustworthy",
+  "distinct_articles": 57,
+  "faceted": false,
+  "collides_with": [
+   "Alcibiades_1",
+   "Phaedo"
+  ]
+ },
+ {
+  "work": "Magna_Moralia",
+  "floor": 149,
+  "band": 150,
+  "band_extra": 1,
+  "unplaceable": 16,
+  "queued_total": 17,
+  "resolution_rate": 0.898,
+  "tier": "trustworthy",
+  "distinct_articles": 79,
+  "faceted": false,
+  "collides_with": [
+   "Nicomachean_Ethics"
+  ]
+ },
+ {
+  "work": "Rhetorica_ad_Alexandrum",
+  "floor": 66,
+  "band": 66,
+  "band_extra": 0,
+  "unplaceable": 13,
+  "queued_total": 13,
+  "resolution_rate": 0.835,
+  "tier": "trustworthy",
+  "distinct_articles": 43,
+  "faceted": false,
+  "collides_with": []
+ },
+ {
+  "work": "Theages",
+  "floor": 39,
+  "band": 39,
+  "band_extra": 0,
+  "unplaceable": 3,
+  "queued_total": 3,
+  "resolution_rate": 0.929,
+  "tier": "trustworthy",
+  "distinct_articles": 19,
+  "faceted": false,
+  "collides_with": []
+ },
+ {
+  "work": "Minos",
+  "floor": 30,
+  "band": 30,
+  "band_extra": 0,
+  "unplaceable": 0,
+  "queued_total": 0,
+  "resolution_rate": 1.0,
+  "tier": "trustworthy",
+  "distinct_articles": 19,
+  "faceted": false,
+  "collides_with": []
+ },
+ {
+  "work": "Phaedo",
+  "floor": 3551,
+  "band": 3855,
+  "band_extra": 304,
+  "unplaceable": 2438,
+  "queued_total": 2742,
+  "resolution_rate": 0.564,
+  "tier": "uncertain",
+  "distinct_articles": 667,
+  "faceted": false,
+  "collides_with": [
+   "Timaeus",
+   "Philebus",
+   "Prior_Analytics",
+   "Topics",
+   "Meno",
+   "Posterior_Analytics"
+  ]
+ },
+ {
+  "work": "Phaedrus",
+  "floor": 2483,
+  "band": 2665,
+  "band_extra": 182,
+  "unplaceable": 1406,
+  "queued_total": 1588,
+  "resolution_rate": 0.61,
+  "tier": "uncertain",
+  "distinct_articles": 658,
+  "faceted": false,
+  "collides_with": [
+   "Sophist",
+   "Statesman",
+   "Physics",
+   "Menexenus",
+   "Euthydemus",
+   "Hipparchus"
+  ]
+ },
+ {
+  "work": "Gorgias",
+  "floor": 2341,
+  "band": 2905,
+  "band_extra": 564,
+  "unplaceable": 2486,
+  "queued_total": 3050,
+  "resolution_rate": 0.434,
+  "tier": "uncertain",
+  "distinct_articles": 502,
+  "faceted": false,
+  "collides_with": [
+   "Republic",
+   "Historia_Animalium",
+   "De_Juventute",
+   "De_Respiratione",
+   "De_Longitudine_Vitae",
+   "De_Somno"
+  ]
+ },
+ {
+  "work": "Philebus",
+  "floor": 2301,
+  "band": 2662,
+  "band_extra": 361,
+  "unplaceable": 359,
+  "queued_total": 720,
+  "resolution_rate": 0.762,
+  "tier": "uncertain",
+  "distinct_articles": 361,
+  "faceted": false,
+  "collides_with": [
+   "Timaeus",
+   "Prior_Analytics",
+   "Apology",
+   "Crito",
+   "Phaedo",
+   "De_Interpretatione"
+  ]
+ },
+ {
+  "work": "Apology",
+  "floor": 1738,
+  "band": 1791,
+  "band_extra": 53,
+  "unplaceable": 5031,
+  "queued_total": 5084,
+  "resolution_rate": 0.255,
+  "tier": "uncertain",
+  "distinct_articles": 422,
+  "faceted": false,
+  "collides_with": [
+   "Philebus",
+   "Timaeus",
+   "Prior_Analytics",
+   "De_Interpretatione"
+  ]
+ },
+ {
+  "work": "Meno",
+  "floor": 1575,
+  "band": 1761,
+  "band_extra": 186,
+  "unplaceable": 4395,
+  "queued_total": 4581,
+  "resolution_rate": 0.256,
+  "tier": "uncertain",
+  "distinct_articles": 412,
+  "faceted": false,
+  "collides_with": [
+   "Phaedo",
+   "Timaeus",
+   "Posterior_Analytics",
+   "Topics",
+   "Prior_Analytics"
+  ]
+ },
+ {
+  "work": "Cratylus",
+  "floor": 1230,
+  "band": 1379,
+  "band_extra": 149,
+  "unplaceable": 2691,
+  "queued_total": 2840,
+  "resolution_rate": 0.302,
+  "tier": "uncertain",
+  "distinct_articles": 266,
+  "faceted": false,
+  "collides_with": [
+   "Republic",
+   "De_Anima",
+   "De_Mundo",
+   "De_Sensu",
+   "Meteorology",
+   "Clitophon"
+  ]
+ },
+ {
+  "work": "Laches",
+  "floor": 932,
+  "band": 1175,
+  "band_extra": 243,
+  "unplaceable": 1385,
+  "queued_total": 1628,
+  "resolution_rate": 0.364,
+  "tier": "uncertain",
+  "distinct_articles": 225,
+  "faceted": false,
+  "collides_with": [
+   "Symposium",
+   "Theaetetus",
+   "Physics",
+   "Sophistical_Refutations"
+  ]
+ },
+ {
+  "work": "De_Generatione_Animalium",
+  "floor": 809,
+  "band": 812,
+  "band_extra": 3,
+  "unplaceable": 966,
+  "queued_total": 969,
+  "resolution_rate": 0.455,
+  "tier": "uncertain",
+  "distinct_articles": 109,
+  "faceted": false,
+  "collides_with": [
+   "Laws"
+  ]
+ },
+ {
+  "work": "Euthydemus",
+  "floor": 685,
+  "band": 723,
+  "band_extra": 38,
+  "unplaceable": 902,
+  "queued_total": 940,
+  "resolution_rate": 0.422,
+  "tier": "uncertain",
+  "distinct_articles": 210,
+  "faceted": false,
+  "collides_with": [
+   "Statesman",
+   "Hippias_Major",
+   "Phaedrus",
+   "De_Caelo"
+  ]
+ },
+ {
+  "work": "Crito",
+  "floor": 637,
+  "band": 652,
+  "band_extra": 15,
+  "unplaceable": 2609,
+  "queued_total": 2624,
+  "resolution_rate": 0.195,
+  "tier": "uncertain",
+  "distinct_articles": 162,
+  "faceted": false,
+  "collides_with": [
+   "Philebus",
+   "Timaeus",
+   "Prior_Analytics"
+  ]
+ },
+ {
+  "work": "Lysis",
+  "floor": 613,
+  "band": 696,
+  "band_extra": 83,
+  "unplaceable": 1730,
+  "queued_total": 1813,
+  "resolution_rate": 0.253,
+  "tier": "uncertain",
+  "distinct_articles": 127,
+  "faceted": false,
+  "collides_with": [
+   "Symposium",
+   "Physics",
+   "Theaetetus",
+   "Sophist"
+  ]
+ },
+ {
+  "work": "De_Partibus_Animalium",
+  "floor": 590,
+  "band": 595,
+  "band_extra": 5,
+  "unplaceable": 876,
+  "queued_total": 881,
+  "resolution_rate": 0.401,
+  "tier": "uncertain",
+  "distinct_articles": 130,
+  "faceted": false,
+  "collides_with": [
+   "Laws"
+  ]
+ },
+ {
+  "work": "Charmides",
+  "floor": 585,
+  "band": 626,
+  "band_extra": 41,
+  "unplaceable": 1745,
+  "queued_total": 1786,
+  "resolution_rate": 0.247,
+  "tier": "uncertain",
+  "distinct_articles": 161,
+  "faceted": false,
+  "collides_with": [
+   "Theaetetus",
+   "Parmenides",
+   "Sophistical_Refutations",
+   "Topics",
+   "Symposium"
+  ]
+ },
+ {
+  "work": "De_Caelo",
+  "floor": 569,
+  "band": 597,
+  "band_extra": 28,
+  "unplaceable": 1197,
+  "queued_total": 1225,
+  "resolution_rate": 0.317,
+  "tier": "uncertain",
+  "distinct_articles": 218,
+  "faceted": false,
+  "collides_with": [
+   "Statesman",
+   "Euthydemus",
+   "Hippias_Major",
+   "Phaedrus",
+   "Letters",
+   "Protagoras"
+  ]
+ },
+ {
+  "work": "Meteorology",
+  "floor": 510,
+  "band": 570,
+  "band_extra": 60,
+  "unplaceable": 164,
+  "queued_total": 224,
+  "resolution_rate": 0.695,
+  "tier": "uncertain",
+  "distinct_articles": 133,
+  "faceted": false,
+  "collides_with": [
+   "Republic",
+   "Hippias_Minor",
+   "Letters",
+   "Protagoras",
+   "Cratylus"
+  ]
+ },
+ {
+  "work": "Historia_Animalium",
+  "floor": 438,
+  "band": 483,
+  "band_extra": 45,
+  "unplaceable": 1666,
+  "queued_total": 1711,
+  "resolution_rate": 0.204,
+  "tier": "uncertain",
+  "distinct_articles": 147,
+  "faceted": false,
+  "collides_with": [
+   "Republic",
+   "Ion",
+   "Laws",
+   "Gorgias"
+  ]
+ },
+ {
+  "work": "Euthyphro",
+  "floor": 431,
+  "band": 436,
+  "band_extra": 5,
+  "unplaceable": 483,
+  "queued_total": 488,
+  "resolution_rate": 0.469,
+  "tier": "uncertain",
+  "distinct_articles": 232,
+  "faceted": false,
+  "collides_with": [
+   "Philebus"
+  ]
+ },
+ {
+  "work": "De_Interpretatione",
+  "floor": 402,
+  "band": 426,
+  "band_extra": 24,
+  "unplaceable": 180,
+  "queued_total": 204,
+  "resolution_rate": 0.663,
+  "tier": "uncertain",
+  "distinct_articles": 95,
+  "faceted": false,
+  "collides_with": [
+   "Philebus",
+   "Euthyphro",
+   "Apology",
+   "Timaeus",
+   "Prior_Analytics"
+  ]
+ },
+ {
+  "work": "Epinomis",
+  "floor": 356,
+  "band": 362,
+  "band_extra": 6,
+  "unplaceable": 365,
+  "queued_total": 371,
+  "resolution_rate": 0.49,
+  "tier": "uncertain",
+  "distinct_articles": 121,
+  "faceted": false,
+  "collides_with": [
+   "Metaphysics"
+  ]
+ },
+ {
+  "work": "Alcibiades_1",
+  "floor": 349,
+  "band": 367,
+  "band_extra": 18,
+  "unplaceable": 1698,
+  "queued_total": 1716,
+  "resolution_rate": 0.169,
+  "tier": "uncertain",
+  "distinct_articles": 87,
+  "faceted": false,
+  "collides_with": [
+   "Topics",
+   "Phaedo",
+   "Parmenides",
+   "Critias",
+   "Theages",
+   "Rival_Lovers"
+  ]
+ },
+ {
+  "work": "Letters",
+  "floor": 322,
+  "band": 411,
+  "band_extra": 89,
+  "unplaceable": 1525,
+  "queued_total": 1614,
+  "resolution_rate": 0.166,
+  "tier": "uncertain",
+  "distinct_articles": 124,
+  "faceted": false,
+  "collides_with": [
+   "Protagoras",
+   "Republic",
+   "Meteorology",
+   "Minos",
+   "Statesman",
+   "De_Generatione_et_Corruptione"
+  ]
+ },
+ {
+  "work": "De_Sensu",
+  "floor": 239,
+  "band": 250,
+  "band_extra": 11,
+  "unplaceable": 246,
+  "queued_total": 257,
+  "resolution_rate": 0.482,
+  "tier": "uncertain",
+  "distinct_articles": 83,
+  "faceted": false,
+  "collides_with": [
+   "Republic",
+   "Gorgias",
+   "Cratylus"
+  ]
+ },
+ {
+  "work": "Sophistical_Refutations",
+  "floor": 227,
+  "band": 241,
+  "band_extra": 14,
+  "unplaceable": 56,
+  "queued_total": 70,
+  "resolution_rate": 0.764,
+  "tier": "uncertain",
+  "distinct_articles": 78,
+  "faceted": false,
+  "collides_with": [
+   "Theaetetus",
+   "Symposium",
+   "Charmides",
+   "Parmenides",
+   "Topics",
+   "Laches"
+  ]
+ },
+ {
+  "work": "Menexenus",
+  "floor": 225,
+  "band": 245,
+  "band_extra": 20,
+  "unplaceable": 1122,
+  "queued_total": 1142,
+  "resolution_rate": 0.165,
+  "tier": "uncertain",
+  "distinct_articles": 74,
+  "faceted": false,
+  "collides_with": [
+   "Phaedrus",
+   "Sophist",
+   "Physics"
+  ]
+ },
+ {
+  "work": "Ion",
+  "floor": 196,
+  "band": 242,
+  "band_extra": 46,
+  "unplaceable": 277,
+  "queued_total": 323,
+  "resolution_rate": 0.378,
+  "tier": "uncertain",
+  "distinct_articles": 82,
+  "faceted": false,
+  "collides_with": [
+   "Republic",
+   "Historia_Animalium"
+  ]
+ },
+ {
+  "work": "De_Motu_Animalium",
+  "floor": 180,
+  "band": 188,
+  "band_extra": 8,
+  "unplaceable": 164,
+  "queued_total": 172,
+  "resolution_rate": 0.511,
+  "tier": "uncertain",
+  "distinct_articles": 61,
+  "faceted": false,
+  "collides_with": [
+   "Laws"
+  ]
+ },
+ {
+  "work": "De_Generatione_et_Corruptione",
+  "floor": 156,
+  "band": 164,
+  "band_extra": 8,
+  "unplaceable": 939,
+  "queued_total": 947,
+  "resolution_rate": 0.141,
+  "tier": "uncertain",
+  "distinct_articles": 48,
+  "faceted": false,
+  "collides_with": [
+   "Letters",
+   "Protagoras",
+   "Republic",
+   "Minos",
+   "Meteorology"
+  ]
+ },
+ {
+  "work": "Hippias_Minor",
+  "floor": 153,
+  "band": 184,
+  "band_extra": 31,
+  "unplaceable": 654,
+  "queued_total": 685,
+  "resolution_rate": 0.183,
+  "tier": "uncertain",
+  "distinct_articles": 25,
+  "faceted": false,
+  "collides_with": [
+   "Republic",
+   "Meteorology",
+   "Letters"
+  ]
+ },
+ {
+  "work": "De_Memoria",
+  "floor": 129,
+  "band": 145,
+  "band_extra": 16,
+  "unplaceable": 199,
+  "queued_total": 215,
+  "resolution_rate": 0.375,
+  "tier": "uncertain",
+  "distinct_articles": 47,
+  "faceted": false,
+  "collides_with": [
+   "Gorgias",
+   "Republic",
+   "De_Sensu"
+  ]
+ },
+ {
+  "work": "De_Insomniis",
+  "floor": 123,
+  "band": 127,
+  "band_extra": 4,
+  "unplaceable": 128,
+  "queued_total": 132,
+  "resolution_rate": 0.482,
+  "tier": "uncertain",
+  "distinct_articles": 22,
+  "faceted": false,
+  "collides_with": [
+   "Gorgias",
+   "Republic"
+  ]
+ },
+ {
+  "work": "Categories",
+  "floor": 122,
+  "band": 125,
+  "band_extra": 3,
+  "unplaceable": 1264,
+  "queued_total": 1267,
+  "resolution_rate": 0.088,
+  "tier": "uncertain",
+  "distinct_articles": 73,
+  "faceted": false,
+  "collides_with": [
+   "Euthyphro",
+   "Philebus"
+  ]
+ },
+ {
+  "work": "De_Somno",
+  "floor": 103,
+  "band": 123,
+  "band_extra": 20,
+  "unplaceable": 145,
+  "queued_total": 165,
+  "resolution_rate": 0.384,
+  "tier": "uncertain",
+  "distinct_articles": 40,
+  "faceted": false,
+  "collides_with": [
+   "Gorgias",
+   "Republic"
+  ]
+ },
+ {
+  "work": "Clitophon",
+  "floor": 42,
+  "band": 50,
+  "band_extra": 8,
+  "unplaceable": 166,
+  "queued_total": 174,
+  "resolution_rate": 0.194,
+  "tier": "uncertain",
+  "distinct_articles": 15,
+  "faceted": false,
+  "collides_with": [
+   "Cratylus",
+   "Republic",
+   "De_Anima"
+  ]
+ },
+ {
+  "work": "De_Incessu_Animalium",
+  "floor": 25,
+  "band": 26,
+  "band_extra": 1,
+  "unplaceable": 75,
+  "queued_total": 76,
+  "resolution_rate": 0.248,
+  "tier": "uncertain",
+  "distinct_articles": 16,
+  "faceted": false,
+  "collides_with": [
+   "Laws",
+   "De_Motu_Animalium"
+  ]
+ },
+ {
+  "work": "De_Juventute",
+  "floor": 23,
+  "band": 37,
+  "band_extra": 14,
+  "unplaceable": 282,
+  "queued_total": 296,
+  "resolution_rate": 0.072,
+  "tier": "uncertain",
+  "distinct_articles": 14,
+  "faceted": false,
+  "collides_with": [
+   "De_Respiratione",
+   "Gorgias",
+   "Republic"
+  ]
+ },
+ {
+  "work": "Hipparchus",
+  "floor": 17,
+  "band": 20,
+  "band_extra": 3,
+  "unplaceable": 258,
+  "queued_total": 261,
+  "resolution_rate": 0.061,
+  "tier": "uncertain",
+  "distinct_articles": 14,
+  "faceted": false,
+  "collides_with": [
+   "Sophist",
+   "Phaedrus",
+   "Physics"
+  ]
+ },
+ {
+  "work": "De_Respiratione",
+  "floor": 17,
+  "band": 30,
+  "band_extra": 13,
+  "unplaceable": 2,
+  "queued_total": 15,
+  "resolution_rate": 0.531,
+  "tier": "uncertain",
+  "distinct_articles": 9,
+  "faceted": false,
+  "collides_with": [
+   "De_Juventute",
+   "Gorgias",
+   "Republic"
+  ]
+ },
+ {
+  "work": "Rival_Lovers",
+  "floor": 8,
+  "band": 8,
+  "band_extra": 0,
+  "unplaceable": 9,
+  "queued_total": 9,
+  "resolution_rate": 0.471,
+  "tier": "uncertain",
+  "distinct_articles": 6,
+  "faceted": false,
+  "collides_with": []
+ },
+ {
+  "work": "Alcibiades_2",
+  "floor": 6,
+  "band": 6,
+  "band_extra": 0,
+  "unplaceable": 672,
+  "queued_total": 672,
+  "resolution_rate": 0.009,
+  "tier": "uncertain",
+  "distinct_articles": 5,
+  "faceted": false,
+  "collides_with": [
+   "Parmenides",
+   "Theaetetus",
+   "Topics",
+   "Rival_Lovers"
+  ]
+ },
+ {
+  "work": "De_Divinatione_per_Somnum",
+  "floor": 6,
+  "band": 8,
+  "band_extra": 2,
+  "unplaceable": 44,
+  "queued_total": 46,
+  "resolution_rate": 0.115,
+  "tier": "uncertain",
+  "distinct_articles": 4,
+  "faceted": false,
+  "collides_with": [
+   "Gorgias",
+   "Republic"
+  ]
+ },
+ {
+  "work": "De_Longitudine_Vitae",
+  "floor": 3,
+  "band": 4,
+  "band_extra": 1,
+  "unplaceable": 81,
+  "queued_total": 82,
+  "resolution_rate": 0.035,
+  "tier": "uncertain",
+  "distinct_articles": 3,
+  "faceted": false,
+  "collides_with": [
+   "Gorgias",
+   "Republic"
+  ]
+ }
+]

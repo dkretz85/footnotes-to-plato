@@ -1,0 +1,296 @@
+{
+ "work": "Hipparchus",
+ "faceted": false,
+ "tier": "uncertain",
+ "cells": [
+  {
+   "book": "",
+   "page": 226,
+   "section": "e",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 227,
+   "section": "d",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 228,
+   "section": "b",
+   "count": 5,
+   "articles": 5,
+   "by_journal": {
+    "Classical Philology": 2,
+    "The Classical Quarterly": 2,
+    "The Classical Review": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 228,
+   "section": "c",
+   "count": 4,
+   "articles": 4,
+   "by_journal": {
+    "Classical Philology": 2,
+    "The Classical Quarterly": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 228,
+   "section": "d",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 229,
+   "section": "a",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 229,
+   "section": "b",
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "The Classical Quarterly": 3
+   }
+  },
+  {
+   "book": "",
+   "page": 232,
+   "section": "a",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Classical Philology": 1
+   }
+  }
+ ],
+ "dots": [
+  {
+   "book": "",
+   "page": 228,
+   "section": "b",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1917",
+   "iid": "02b81ce1-7fce-30cf-aadd-26f0082fe470",
+   "doi": "10.2307/263353",
+   "title": "",
+   "author": "Karl Julius Beloch, William D. Gray"
+  },
+  {
+   "book": "",
+   "page": 228,
+   "section": "c",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1938",
+   "iid": "197d46de-be15-37f4-9980-b5e0894bda0a",
+   "doi": "10.2307/264565",
+   "title": "Xenophanes, Fragment 1",
+   "author": "C. M. Bowra"
+  },
+  {
+   "book": "",
+   "page": 228,
+   "section": "d",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1921",
+   "iid": "24bb16e3-b5f8-35e8-8035-fff940a324d0",
+   "doi": "10.2307/636158",
+   "title": "Ἐξ ὑποβολη̑ς",
+   "author": "A. S. Ferguson"
+  },
+  {
+   "book": "",
+   "page": 232,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1906",
+   "iid": "2e4bfdcb-c8ad-3cf1-93f1-b81a05d4a38a",
+   "doi": "10.2307/262258",
+   "title": "Bisected Trimeters in Attic Tragedy",
+   "author": "Thomas D. Goodell"
+  },
+  {
+   "book": "",
+   "page": 228,
+   "section": "c",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1992",
+   "iid": "3b4783c0-5190-37b4-81b5-853ac169ebd7",
+   "doi": "10.2307/269522",
+   "title": "How Not to Read a Poem: Unmixing Simonides from \"Protagoras\"",
+   "author": "Anne Carson"
+  },
+  {
+   "book": "",
+   "page": 228,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1999",
+   "iid": "5e858a2d-79ab-3af7-bf5b-a6c02e904100",
+   "doi": "10.2307/639488",
+   "title": "Literate Education in Classical Athens",
+   "author": "T. J. Morgan"
+  },
+  {
+   "book": "",
+   "page": 229,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1999",
+   "iid": "5e858a2d-79ab-3af7-bf5b-a6c02e904100",
+   "doi": "10.2307/639488",
+   "title": "Literate Education in Classical Athens",
+   "author": "T. J. Morgan"
+  },
+  {
+   "book": "",
+   "page": 228,
+   "section": "c",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2015",
+   "iid": "6063e2c8-41cd-36a3-8abc-f0706dbb9d78",
+   "doi": "10.2307/43905653",
+   "title": "A DITHYRAMB FOR AUGUSTUS: HORACE, \"ODES\" 4.2",
+   "author": "ALEX HARDIE"
+  },
+  {
+   "book": "",
+   "page": 226,
+   "section": "e",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2011",
+   "iid": "645722b9-fbed-38b4-a1fa-e1a28d9bb5ec",
+   "doi": "10.1086/661542",
+   "title": "Socrates and the True Political Craft",
+   "author": "J. Clerk Shaw"
+  },
+  {
+   "book": "",
+   "page": 228,
+   "section": "b",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1997",
+   "iid": "71613182-6fba-34b6-adbd-bbc25df48a6d",
+   "doi": "10.2307/270371",
+   "title": "",
+   "author": "M. D. Usher, Gregory Nagy"
+  },
+  {
+   "book": "",
+   "page": 229,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2008",
+   "iid": "7b8d2b2a-576a-35c7-bd5d-84619ab07c28",
+   "doi": "10.2307/27564120",
+   "title": "Thucydides on Harmodius and Aristogeiton, Tyranny, and History",
+   "author": "Elizabeth A. Meyer"
+  },
+  {
+   "book": "",
+   "page": 229,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1924",
+   "iid": "7ca8ef2d-09c7-3a6e-9237-f3092a5d29b9",
+   "doi": "10.2307/636108",
+   "title": "A Peisistratean Edition of the Hesiodic Poems",
+   "author": "Hugh G. Evelyn White"
+  },
+  {
+   "book": "",
+   "page": 228,
+   "section": "c",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1924",
+   "iid": "7ca8ef2d-09c7-3a6e-9237-f3092a5d29b9",
+   "doi": "10.2307/636108",
+   "title": "A Peisistratean Edition of the Hesiodic Poems",
+   "author": "Hugh G. Evelyn White"
+  },
+  {
+   "book": "",
+   "page": 227,
+   "section": "d",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2004",
+   "iid": "a29ede1b-0d06-3050-885d-00401d855e45",
+   "doi": "10.2307/3556379",
+   "title": "The Greek Address System of the Roman Period and Its Relationship to Latin",
+   "author": "Eleanor Dickey"
+  },
+  {
+   "book": "",
+   "page": 228,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1995",
+   "iid": "dca4688e-0260-327a-9f69-366eed5d1015",
+   "doi": "10.2307/639718",
+   "title": "Early Greek Tyranny and the People",
+   "author": "G. L. Cawkwell"
+  },
+  {
+   "book": "",
+   "page": 229,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1995",
+   "iid": "dca4688e-0260-327a-9f69-366eed5d1015",
+   "doi": "10.2307/639718",
+   "title": "Early Greek Tyranny and the People",
+   "author": "G. L. Cawkwell"
+  },
+  {
+   "book": "",
+   "page": 228,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1987",
+   "iid": "f8fc2bb7-29dc-3681-a4e2-a3d44b4d6d24",
+   "doi": "10.2307/3064686",
+   "title": "Wolf's Prolegomena",
+   "author": "Glenn W. Most, Anthony Grafton, James E. G. Zetzel, E. J. Kenney, F. A. Wolf"
+  }
+ ]
+}

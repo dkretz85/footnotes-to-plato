@@ -1,0 +1,200 @@
+{
+ "_meta": {
+  "generated_by": "missingness.py",
+  "bin_width_pages": 10,
+  "flag_gap": 0.15,
+  "min_bin_vol": 30,
+  "note": "Each entry is a within-work page band whose citations are under-resolved relative to the work's own average rate, typically due to Bekker/Stephanus page-number collisions with other works. 'est_missing' is a first-order estimate of citations not captured in that band. Bands are a responsible FLOOR on the caveat set, not proof of the only problems; absence of a flag means no band-level pattern was detected above threshold, not certainty of completeness."
+ },
+ "bands": [
+  {
+   "work": "Phaedo",
+   "band_start": 50,
+   "band_end": 59,
+   "resolved_share": 0.195,
+   "gap": 0.37,
+   "band_volume": 560,
+   "est_missing": 207
+  },
+  {
+   "work": "Phaedo",
+   "band_start": 60,
+   "band_end": 69,
+   "resolved_share": 0.317,
+   "gap": 0.247,
+   "band_volume": 2703,
+   "est_missing": 667
+  },
+  {
+   "work": "Phaedrus",
+   "band_start": 250,
+   "band_end": 259,
+   "resolved_share": 0.331,
+   "gap": 0.279,
+   "band_volume": 1189,
+   "est_missing": 332
+  },
+  {
+   "work": "Phaedrus",
+   "band_start": 260,
+   "band_end": 269,
+   "resolved_share": 0.406,
+   "gap": 0.204,
+   "band_volume": 972,
+   "est_missing": 198
+  },
+  {
+   "work": "Laws",
+   "band_start": 860,
+   "band_end": 869,
+   "resolved_share": 0.553,
+   "gap": 0.299,
+   "band_volume": 347,
+   "est_missing": 104
+  },
+  {
+   "work": "Laws",
+   "band_start": 870,
+   "band_end": 879,
+   "resolved_share": 0.698,
+   "gap": 0.154,
+   "band_volume": 222,
+   "est_missing": 34
+  },
+  {
+   "work": "Laws",
+   "band_start": 910,
+   "band_end": 919,
+   "resolved_share": 0.648,
+   "gap": 0.204,
+   "band_volume": 145,
+   "est_missing": 30
+  },
+  {
+   "work": "Laws",
+   "band_start": 920,
+   "band_end": 929,
+   "resolved_share": 0.5,
+   "gap": 0.352,
+   "band_volume": 138,
+   "est_missing": 49
+  },
+  {
+   "work": "Laws",
+   "band_start": 930,
+   "band_end": 939,
+   "resolved_share": 0.633,
+   "gap": 0.22,
+   "band_volume": 196,
+   "est_missing": 43
+  },
+  {
+   "work": "Laws",
+   "band_start": 940,
+   "band_end": 949,
+   "resolved_share": 0.611,
+   "gap": 0.241,
+   "band_volume": 239,
+   "est_missing": 58
+  },
+  {
+   "work": "Laws",
+   "band_start": 950,
+   "band_end": 959,
+   "resolved_share": 0.701,
+   "gap": 0.152,
+   "band_volume": 197,
+   "est_missing": 30
+  },
+  {
+   "work": "Philebus",
+   "band_start": 50,
+   "band_end": 59,
+   "resolved_share": 0.546,
+   "gap": 0.215,
+   "band_volume": 692,
+   "est_missing": 149
+  },
+  {
+   "work": "Gorgias",
+   "band_start": 510,
+   "band_end": 519,
+   "resolved_share": 0.207,
+   "gap": 0.227,
+   "band_volume": 614,
+   "est_missing": 140
+  },
+  {
+   "work": "Parmenides",
+   "band_start": 150,
+   "band_end": 159,
+   "resolved_share": 0.434,
+   "gap": 0.374,
+   "band_volume": 221,
+   "est_missing": 83
+  },
+  {
+   "work": "Epinomis",
+   "band_start": 980,
+   "band_end": 989,
+   "resolved_share": 0.29,
+   "gap": 0.2,
+   "band_volume": 366,
+   "est_missing": 73
+  },
+  {
+   "work": "Republic",
+   "band_start": 60,
+   "band_end": 69,
+   "resolved_share": 0.0,
+   "gap": 0.95,
+   "band_volume": 39,
+   "est_missing": 37
+  },
+  {
+   "work": "Laches",
+   "band_start": 170,
+   "band_end": 179,
+   "resolved_share": 0.199,
+   "gap": 0.165,
+   "band_volume": 216,
+   "est_missing": 36
+  },
+  {
+   "work": "Meteorology",
+   "band_start": 370,
+   "band_end": 379,
+   "resolved_share": 0.5,
+   "gap": 0.195,
+   "band_volume": 152,
+   "est_missing": 30
+  },
+  {
+   "work": "De_Partibus_Animalium",
+   "band_start": 630,
+   "band_end": 639,
+   "resolved_share": 0.24,
+   "gap": 0.161,
+   "band_volume": 50,
+   "est_missing": 8
+  },
+  {
+   "work": "De_Partibus_Animalium",
+   "band_start": 690,
+   "band_end": 699,
+   "resolved_share": 0.237,
+   "gap": 0.165,
+   "band_volume": 93,
+   "est_missing": 15
+  },
+  {
+   "work": "De_Generatione_Animalium",
+   "band_start": 750,
+   "band_end": 759,
+   "resolved_share": 0.295,
+   "gap": 0.16,
+   "band_volume": 132,
+   "est_missing": 21
+  }
+ ]
+}

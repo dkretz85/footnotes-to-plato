@@ -1,0 +1,671 @@
+{
+ "work": "Clitophon",
+ "faceted": false,
+ "tier": "uncertain",
+ "cells": [
+  {
+   "book": "",
+   "page": 406,
+   "section": "a",
+   "count": 5,
+   "articles": 2,
+   "by_journal": {
+    "Classical Philology": 4,
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 407,
+   "section": "a",
+   "count": 6,
+   "articles": 5,
+   "by_journal": {
+    "Classical Philology": 4,
+    "Revue de Philosophie Ancienne": 1,
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 407,
+   "section": "b",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 1,
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 407,
+   "section": "c",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Classical Philology": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 407,
+   "section": "d",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 408,
+   "section": "b",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "The Classical Review": 1,
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 408,
+   "section": "d",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 409,
+   "section": "b",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 409,
+   "section": "c",
+   "count": 2,
+   "articles": 1,
+   "by_journal": {
+    "Classical Philology": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 409,
+   "section": "d",
+   "count": 4,
+   "articles": 2,
+   "by_journal": {
+    "Classical Philology": 4
+   }
+  },
+  {
+   "book": "",
+   "page": 410,
+   "section": "a",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Classical Philology": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 410,
+   "section": "b",
+   "count": 3,
+   "articles": 2,
+   "by_journal": {
+    "Classical Philology": 3
+   }
+  },
+  {
+   "book": "",
+   "page": 410,
+   "section": "c",
+   "count": 5,
+   "articles": 3,
+   "by_journal": {
+    "The Classical Review": 1,
+    "The Classical Quarterly": 1,
+    "Classical Philology": 3
+   }
+  },
+  {
+   "book": "",
+   "page": 410,
+   "section": "d",
+   "count": 3,
+   "articles": 2,
+   "by_journal": {
+    "Classical Philology": 2,
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 410,
+   "section": "e",
+   "count": 3,
+   "articles": 1,
+   "by_journal": {
+    "Classical Philology": 3
+   }
+  }
+ ],
+ "dots": [
+  {
+   "book": "",
+   "page": 407,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2019",
+   "iid": "2ab5e6ae-44a3-3ce5-a8fb-314148c028ef",
+   "doi": "10.2307/26621119",
+   "title": "RETHINKING <em>MEDEA</em> AND THE <em>DEUS EX MACHINA</em>",
+   "author": "Paul G. Johnston"
+  },
+  {
+   "book": "",
+   "page": 407,
+   "section": "a",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2022",
+   "iid": "353e3723-b29a-3c0e-9e47-74b1a6544150",
+   "doi": "10.2307/27264529",
+   "title": "ASKÊSIS, GENÈSE DE LAVERTU ET EXEMPLARITÉ DE SOCRATE CHEZ PLATON ET XÉNOPHON",
+   "author": "Louis-André DORION"
+  },
+  {
+   "book": "",
+   "page": 407,
+   "section": "b",
+   "line": 6,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2022",
+   "iid": "353e3723-b29a-3c0e-9e47-74b1a6544150",
+   "doi": "10.2307/27264529",
+   "title": "ASKÊSIS, GENÈSE DE LAVERTU ET EXEMPLARITÉ DE SOCRATE CHEZ PLATON ET XÉNOPHON",
+   "author": "Louis-André DORION"
+  },
+  {
+   "book": "",
+   "page": 407,
+   "section": "a",
+   "line": 8,
+   "journal": "The Classical Quarterly",
+   "year": "2015",
+   "iid": "5389b1e2-57ca-3b1d-b1bb-faf0a809cfcc",
+   "doi": "10.2307/43905690",
+   "title": "SOCRATES AND SELF-KNOWLEDGE IN ARISTOPHANES' \"CLOUDS\"",
+   "author": "CHRISTOPHER MOORE"
+  },
+  {
+   "book": "",
+   "page": 407,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1999",
+   "iid": "5e858a2d-79ab-3af7-bf5b-a6c02e904100",
+   "doi": "10.2307/639488",
+   "title": "Literate Education in Classical Athens",
+   "author": "T. J. Morgan"
+  },
+  {
+   "book": "",
+   "page": 410,
+   "section": "c",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "2005",
+   "iid": "7b4c46ef-4be2-3e07-bf1e-3c616ab6df29",
+   "doi": "10.2307/3873803",
+   "title": "Clitophon",
+   "author": "G. S. Bowe, M. Kremer"
+  },
+  {
+   "book": "",
+   "page": 409,
+   "section": "b",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1931",
+   "iid": "823beabe-6420-34d8-bae5-e5da45937063",
+   "doi": "10.2307/264500",
+   "title": "The Cleitophon of Plato",
+   "author": "G. M. A. Grube"
+  },
+  {
+   "book": "",
+   "page": 409,
+   "section": "c",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1931",
+   "iid": "823beabe-6420-34d8-bae5-e5da45937063",
+   "doi": "10.2307/264500",
+   "title": "The Cleitophon of Plato",
+   "author": "G. M. A. Grube"
+  },
+  {
+   "book": "",
+   "page": 409,
+   "section": "d",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1931",
+   "iid": "823beabe-6420-34d8-bae5-e5da45937063",
+   "doi": "10.2307/264500",
+   "title": "The Cleitophon of Plato",
+   "author": "G. M. A. Grube"
+  },
+  {
+   "book": "",
+   "page": 409,
+   "section": "c",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1931",
+   "iid": "823beabe-6420-34d8-bae5-e5da45937063",
+   "doi": "10.2307/264500",
+   "title": "The Cleitophon of Plato",
+   "author": "G. M. A. Grube"
+  },
+  {
+   "book": "",
+   "page": 410,
+   "section": "b",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1931",
+   "iid": "823beabe-6420-34d8-bae5-e5da45937063",
+   "doi": "10.2307/264500",
+   "title": "The Cleitophon of Plato",
+   "author": "G. M. A. Grube"
+  },
+  {
+   "book": "",
+   "page": 407,
+   "section": "c",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1931",
+   "iid": "823beabe-6420-34d8-bae5-e5da45937063",
+   "doi": "10.2307/264500",
+   "title": "The Cleitophon of Plato",
+   "author": "G. M. A. Grube"
+  },
+  {
+   "book": "",
+   "page": 409,
+   "section": "d",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1931",
+   "iid": "823beabe-6420-34d8-bae5-e5da45937063",
+   "doi": "10.2307/264500",
+   "title": "The Cleitophon of Plato",
+   "author": "G. M. A. Grube"
+  },
+  {
+   "book": "",
+   "page": 410,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1931",
+   "iid": "823beabe-6420-34d8-bae5-e5da45937063",
+   "doi": "10.2307/264500",
+   "title": "The Cleitophon of Plato",
+   "author": "G. M. A. Grube"
+  },
+  {
+   "book": "",
+   "page": 409,
+   "section": "d",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1931",
+   "iid": "823beabe-6420-34d8-bae5-e5da45937063",
+   "doi": "10.2307/264500",
+   "title": "The Cleitophon of Plato",
+   "author": "G. M. A. Grube"
+  },
+  {
+   "book": "",
+   "page": 410,
+   "section": "b",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1931",
+   "iid": "823beabe-6420-34d8-bae5-e5da45937063",
+   "doi": "10.2307/264500",
+   "title": "The Cleitophon of Plato",
+   "author": "G. M. A. Grube"
+  },
+  {
+   "book": "",
+   "page": 408,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "2015",
+   "iid": "8a529e8c-201f-34fc-abc3-9bb560a2a3b8",
+   "doi": "10.2307/24759747",
+   "title": "THE PINDARIC SCHOLIA",
+   "author": "S. David, TOM PHILLIPS, C. Muckensturm-Poulle, M. Fartzoff, C. Daude"
+  },
+  {
+   "book": "",
+   "page": 410,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1980",
+   "iid": "919b1652-4deb-35d7-8542-952296c7e608",
+   "doi": "10.2307/269603",
+   "title": "Review Article: Progress in Hesiod",
+   "author": "M. L. West, R. Renehan"
+  },
+  {
+   "book": "",
+   "page": 407,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2019",
+   "iid": "b53d5ff8-e784-3942-9037-6ab809acb2a0",
+   "doi": "10.2307/26621118",
+   "title": "THE DISAPPEARING TURN OF <em>ILIAD</em> 23.373",
+   "author": "Alexander S. W. Forte"
+  },
+  {
+   "book": "",
+   "page": 409,
+   "section": "d",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1993",
+   "iid": "c2723ed9-ad9f-3386-8116-b00ef8efc27b",
+   "doi": "10.2307/270018",
+   "title": "",
+   "author": "Barry S. Strauss, Mark Golden"
+  },
+  {
+   "book": "",
+   "page": 408,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2009",
+   "iid": "c590d5ce-36a0-336f-9f3c-de7bacb2876c",
+   "doi": "10.2307/20616698",
+   "title": "Traditional Forms of Wisdom and Politics in Plato's \"Apology\"",
+   "author": "Harvey Goldman"
+  },
+  {
+   "book": "",
+   "page": 410,
+   "section": "c",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2009",
+   "iid": "c590d5ce-36a0-336f-9f3c-de7bacb2876c",
+   "doi": "10.2307/20616698",
+   "title": "Traditional Forms of Wisdom and Politics in Plato's \"Apology\"",
+   "author": "Harvey Goldman"
+  },
+  {
+   "book": "",
+   "page": 410,
+   "section": "b",
+   "line": 1,
+   "journal": "Classical Philology",
+   "year": "2012",
+   "iid": "e38e32b3-2808-3765-b314-fc9c0b717555",
+   "doi": "10.1086/666925",
+   "title": "Is Socratic Ethics Egoistic?",
+   "author": "Sara Ahbel-Rappe"
+  },
+  {
+   "book": "",
+   "page": 408,
+   "section": "d",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1990",
+   "iid": "e79e95c2-a6b7-3bf5-89d5-4359a2b0ef8f",
+   "doi": "10.2307/639309",
+   "title": "Democritus on Politics and the Care of the Soul: Appendix",
+   "author": "J. F. Procopé"
+  },
+  {
+   "book": "",
+   "page": 407,
+   "section": "d",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2007",
+   "iid": "ebce74a8-ca40-3e12-9fbe-32a9d9179dda",
+   "doi": "10.1086/529471",
+   "title": "In Defense of Clitophon",
+   "author": "G. S. Bowe"
+  },
+  {
+   "book": "",
+   "page": 410,
+   "section": "e",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2007",
+   "iid": "ebce74a8-ca40-3e12-9fbe-32a9d9179dda",
+   "doi": "10.1086/529471",
+   "title": "In Defense of Clitophon",
+   "author": "G. S. Bowe"
+  },
+  {
+   "book": "",
+   "page": 407,
+   "section": "c",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2007",
+   "iid": "ebce74a8-ca40-3e12-9fbe-32a9d9179dda",
+   "doi": "10.1086/529471",
+   "title": "In Defense of Clitophon",
+   "author": "G. S. Bowe"
+  },
+  {
+   "book": "",
+   "page": 410,
+   "section": "c",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2007",
+   "iid": "ebce74a8-ca40-3e12-9fbe-32a9d9179dda",
+   "doi": "10.1086/529471",
+   "title": "In Defense of Clitophon",
+   "author": "G. S. Bowe"
+  },
+  {
+   "book": "",
+   "page": 410,
+   "section": "c",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2007",
+   "iid": "ebce74a8-ca40-3e12-9fbe-32a9d9179dda",
+   "doi": "10.1086/529471",
+   "title": "In Defense of Clitophon",
+   "author": "G. S. Bowe"
+  },
+  {
+   "book": "",
+   "page": 410,
+   "section": "c",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2007",
+   "iid": "ebce74a8-ca40-3e12-9fbe-32a9d9179dda",
+   "doi": "10.1086/529471",
+   "title": "In Defense of Clitophon",
+   "author": "G. S. Bowe"
+  },
+  {
+   "book": "",
+   "page": 406,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2007",
+   "iid": "ebce74a8-ca40-3e12-9fbe-32a9d9179dda",
+   "doi": "10.1086/529471",
+   "title": "In Defense of Clitophon",
+   "author": "G. S. Bowe"
+  },
+  {
+   "book": "",
+   "page": 406,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2007",
+   "iid": "ebce74a8-ca40-3e12-9fbe-32a9d9179dda",
+   "doi": "10.1086/529471",
+   "title": "In Defense of Clitophon",
+   "author": "G. S. Bowe"
+  },
+  {
+   "book": "",
+   "page": 406,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2007",
+   "iid": "ebce74a8-ca40-3e12-9fbe-32a9d9179dda",
+   "doi": "10.1086/529471",
+   "title": "In Defense of Clitophon",
+   "author": "G. S. Bowe"
+  },
+  {
+   "book": "",
+   "page": 407,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2007",
+   "iid": "ebce74a8-ca40-3e12-9fbe-32a9d9179dda",
+   "doi": "10.1086/529471",
+   "title": "In Defense of Clitophon",
+   "author": "G. S. Bowe"
+  },
+  {
+   "book": "",
+   "page": 407,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2007",
+   "iid": "ebce74a8-ca40-3e12-9fbe-32a9d9179dda",
+   "doi": "10.1086/529471",
+   "title": "In Defense of Clitophon",
+   "author": "G. S. Bowe"
+  },
+  {
+   "book": "",
+   "page": 410,
+   "section": "e",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2007",
+   "iid": "ebce74a8-ca40-3e12-9fbe-32a9d9179dda",
+   "doi": "10.1086/529471",
+   "title": "In Defense of Clitophon",
+   "author": "G. S. Bowe"
+  },
+  {
+   "book": "",
+   "page": 406,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2007",
+   "iid": "ebce74a8-ca40-3e12-9fbe-32a9d9179dda",
+   "doi": "10.1086/529471",
+   "title": "In Defense of Clitophon",
+   "author": "G. S. Bowe"
+  },
+  {
+   "book": "",
+   "page": 410,
+   "section": "d",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2007",
+   "iid": "ebce74a8-ca40-3e12-9fbe-32a9d9179dda",
+   "doi": "10.1086/529471",
+   "title": "In Defense of Clitophon",
+   "author": "G. S. Bowe"
+  },
+  {
+   "book": "",
+   "page": 410,
+   "section": "d",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2007",
+   "iid": "ebce74a8-ca40-3e12-9fbe-32a9d9179dda",
+   "doi": "10.1086/529471",
+   "title": "In Defense of Clitophon",
+   "author": "G. S. Bowe"
+  },
+  {
+   "book": "",
+   "page": 410,
+   "section": "e",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2007",
+   "iid": "ebce74a8-ca40-3e12-9fbe-32a9d9179dda",
+   "doi": "10.1086/529471",
+   "title": "In Defense of Clitophon",
+   "author": "G. S. Bowe"
+  },
+  {
+   "book": "",
+   "page": 410,
+   "section": "d",
+   "line": 5,
+   "journal": "The Classical Quarterly",
+   "year": "2000",
+   "iid": "f9574eec-87cf-3c55-ab43-f81dffdd1299",
+   "doi": "10.2307/1558896",
+   "title": "Plato's Disappointment with His Phaedran Characters and Its Impact on His Theory of Psychology",
+   "author": "Julius Tomin"
+  },
+  {
+   "book": "",
+   "page": 406,
+   "section": "a",
+   "line": 5,
+   "journal": "The Classical Quarterly",
+   "year": "2000",
+   "iid": "f9574eec-87cf-3c55-ab43-f81dffdd1299",
+   "doi": "10.2307/1558896",
+   "title": "Plato's Disappointment with His Phaedran Characters and Its Impact on His Theory of Psychology",
+   "author": "Julius Tomin"
+  }
+ ]
+}

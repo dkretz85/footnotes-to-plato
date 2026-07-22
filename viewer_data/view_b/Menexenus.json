@@ -1,0 +1,3448 @@
+{
+ "work": "Menexenus",
+ "faceted": false,
+ "tier": "uncertain",
+ "cells": [
+  {
+   "book": "",
+   "page": 234,
+   "section": "a",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 234,
+   "section": "b",
+   "count": 4,
+   "articles": 4,
+   "by_journal": {
+    "The Classical Quarterly": 2,
+    "Phronesis": 1,
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 234,
+   "section": "c",
+   "count": 3,
+   "articles": 2,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 2,
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 235,
+   "section": "a",
+   "count": 5,
+   "articles": 3,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 5
+   }
+  },
+  {
+   "book": "",
+   "page": 235,
+   "section": "b",
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 1,
+    "Classical Philology": 1,
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 235,
+   "section": "c",
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 1,
+    "Classical Philology": 1,
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 235,
+   "section": "d",
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "Classical Philology": 2,
+    "Revue de Philosophie Ancienne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 235,
+   "section": "e",
+   "count": 9,
+   "articles": 7,
+   "by_journal": {
+    "Classical Philology": 3,
+    "The Classical Quarterly": 3,
+    "Méthexis": 3
+   }
+  },
+  {
+   "book": "",
+   "page": 236,
+   "section": "a",
+   "count": 9,
+   "articles": 8,
+   "by_journal": {
+    "The Classical Quarterly": 4,
+    "Classical Philology": 3,
+    "Revue de Philosophie Ancienne": 1,
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 236,
+   "section": "b",
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "Méthexis": 1,
+    "Classical Philology": 1,
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 236,
+   "section": "c",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 236,
+   "section": "d",
+   "count": 7,
+   "articles": 6,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 1,
+    "The Classical Review": 1,
+    "The Classical Quarterly": 4,
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 236,
+   "section": "e",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Classical Philology": 1,
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 237,
+   "section": "a",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "The Classical Quarterly": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 237,
+   "section": "b",
+   "count": 5,
+   "articles": 4,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 2,
+    "The Classical Quarterly": 3
+   }
+  },
+  {
+   "book": "",
+   "page": 237,
+   "section": "c",
+   "count": 3,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 1,
+    "The Classical Quarterly": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 237,
+   "section": "d",
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "The Classical Review": 1,
+    "Classical Philology": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 237,
+   "section": "e",
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "The Classical Quarterly": 2,
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 238,
+   "section": "a",
+   "count": 8,
+   "articles": 8,
+   "by_journal": {
+    "The Classical Quarterly": 5,
+    "Classical Philology": 2,
+    "Revue de Philosophie Ancienne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 238,
+   "section": "b",
+   "count": 5,
+   "articles": 2,
+   "by_journal": {
+    "The Classical Quarterly": 5
+   }
+  },
+  {
+   "book": "",
+   "page": 238,
+   "section": "c",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "The Classical Quarterly": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 238,
+   "section": "d",
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "Classical Philology": 1,
+    "The Classical Review": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 238,
+   "section": "e",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 239,
+   "section": "a",
+   "count": 5,
+   "articles": 5,
+   "by_journal": {
+    "The Classical Quarterly": 2,
+    "Classical Philology": 3
+   }
+  },
+  {
+   "book": "",
+   "page": 239,
+   "section": "b",
+   "count": 9,
+   "articles": 5,
+   "by_journal": {
+    "The Classical Quarterly": 8,
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 239,
+   "section": "c",
+   "count": 2,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Quarterly": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 239,
+   "section": "d",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "The Classical Review": 1,
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 240,
+   "section": "c",
+   "count": 4,
+   "articles": 2,
+   "by_journal": {
+    "Classical Philology": 1,
+    "The Classical Quarterly": 3
+   }
+  },
+  {
+   "book": "",
+   "page": 240,
+   "section": "d",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 240,
+   "section": "e",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 241,
+   "section": "a",
+   "count": 4,
+   "articles": 4,
+   "by_journal": {
+    "The Classical Quarterly": 2,
+    "Classical Philology": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 241,
+   "section": "b",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Review": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 241,
+   "section": "c",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 241,
+   "section": "d",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Les Études philosophiques": 1,
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 241,
+   "section": "e",
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "The Classical Review": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 242,
+   "section": "a",
+   "count": 3,
+   "articles": 2,
+   "by_journal": {
+    "Classical Philology": 3
+   }
+  },
+  {
+   "book": "",
+   "page": 242,
+   "section": "c",
+   "count": 5,
+   "articles": 4,
+   "by_journal": {
+    "The Classical Quarterly": 3,
+    "The Classical Review": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 243,
+   "section": "a",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Classical Philology": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 243,
+   "section": "b",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 243,
+   "section": "c",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 243,
+   "section": "d",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 1,
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 244,
+   "section": "b",
+   "count": 3,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Quarterly": 3
+   }
+  },
+  {
+   "book": "",
+   "page": 244,
+   "section": "d",
+   "count": 5,
+   "articles": 3,
+   "by_journal": {
+    "Classical Philology": 4,
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 244,
+   "section": "e",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 245,
+   "section": "a",
+   "count": 6,
+   "articles": 3,
+   "by_journal": {
+    "Classical Philology": 6
+   }
+  },
+  {
+   "book": "",
+   "page": 245,
+   "section": "b",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Classical Philology": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 245,
+   "section": "c",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Classical Philology": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 245,
+   "section": "d",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Classical Philology": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 245,
+   "section": "e",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 246,
+   "section": "a",
+   "count": 7,
+   "articles": 2,
+   "by_journal": {
+    "The Classical Quarterly": 7
+   }
+  },
+  {
+   "book": "",
+   "page": 246,
+   "section": "b",
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "The Classical Quarterly": 2,
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 246,
+   "section": "c",
+   "count": 7,
+   "articles": 5,
+   "by_journal": {
+    "The Classical Quarterly": 5,
+    "Classical Philology": 1,
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 246,
+   "section": "d",
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "The Classical Quarterly": 2,
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 246,
+   "section": "e",
+   "count": 5,
+   "articles": 4,
+   "by_journal": {
+    "Classical Philology": 3,
+    "The Classical Quarterly": 1,
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 247,
+   "section": "a",
+   "count": 3,
+   "articles": 2,
+   "by_journal": {
+    "Classical Philology": 1,
+    "The Classical Quarterly": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 247,
+   "section": "b",
+   "count": 4,
+   "articles": 4,
+   "by_journal": {
+    "The Classical Review": 1,
+    "Revue de Philosophie Ancienne": 1,
+    "Phronesis": 1,
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 247,
+   "section": "c",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "History of Philosophy Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 247,
+   "section": "d",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Classical Philology": 1,
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 247,
+   "section": "e",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Classical Philology": 1,
+    "The Classical Review": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 248,
+   "section": "a",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 248,
+   "section": "b",
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "Phronesis": 1,
+    "The Classical Quarterly": 1,
+    "The Classical Review": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 248,
+   "section": "d",
+   "count": 4,
+   "articles": 3,
+   "by_journal": {
+    "The Classical Quarterly": 3,
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 248,
+   "section": "e",
+   "count": 5,
+   "articles": 5,
+   "by_journal": {
+    "Classical Philology": 2,
+    "The Classical Quarterly": 2,
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 249,
+   "section": "a",
+   "count": 4,
+   "articles": 2,
+   "by_journal": {
+    "The Classical Quarterly": 4
+   }
+  },
+  {
+   "book": "",
+   "page": 249,
+   "section": "b",
+   "count": 4,
+   "articles": 3,
+   "by_journal": {
+    "Phronesis": 2,
+    "The Classical Quarterly": 1,
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 249,
+   "section": "c",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "The Classical Quarterly": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 249,
+   "section": "d",
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "Méthexis": 1,
+    "The Classical Quarterly": 1,
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 249,
+   "section": "e",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 1,
+    "The Classical Quarterly": 1
+   }
+  }
+ ],
+ "dots": [
+  {
+   "book": "",
+   "page": 247,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1934",
+   "iid": "04300afc-9324-3458-b5f2-16d587317347",
+   "doi": "10.2307/701546",
+   "title": "More of the Budé Plato",
+   "author": "L. Méridier, W. L. Lorimer"
+  },
+  {
+   "book": "",
+   "page": 249,
+   "section": "a",
+   "line": 6,
+   "journal": "The Classical Quarterly",
+   "year": "2001",
+   "iid": "0aa0855a-8464-3831-9151-1dec674f2217",
+   "doi": "10.2307/3556519",
+   "title": "Conscription of Hoplites in Classical Athens",
+   "author": "Matthew R. Christ"
+  },
+  {
+   "book": "",
+   "page": 238,
+   "section": "d",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1914",
+   "iid": "0fc22bd6-4261-3ac3-8765-70f53ea9737a",
+   "doi": "10.2307/261448",
+   "title": "Plato's Laws and the Unity of Plato's Thought. I",
+   "author": "Paul Shorey"
+  },
+  {
+   "book": "",
+   "page": 246,
+   "section": "e",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1914",
+   "iid": "0fc22bd6-4261-3ac3-8765-70f53ea9737a",
+   "doi": "10.2307/261448",
+   "title": "Plato's Laws and the Unity of Plato's Thought. I",
+   "author": "Paul Shorey"
+  },
+  {
+   "book": "",
+   "page": 246,
+   "section": "e",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1914",
+   "iid": "0fc22bd6-4261-3ac3-8765-70f53ea9737a",
+   "doi": "10.2307/261448",
+   "title": "Plato's Laws and the Unity of Plato's Thought. I",
+   "author": "Paul Shorey"
+  },
+  {
+   "book": "",
+   "page": 236,
+   "section": "d",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2009",
+   "iid": "14295ec5-a074-357b-a88b-7b9ec04cca79",
+   "doi": "10.2307/24358485",
+   "title": "L'INTERVENTION DIVINE DU PROLOGUE DU \"PHÉDON\" DE PLATON : SOCRATE, NOUVEAU DIEU TUTÉLAIRE D'ATHÈNES",
+   "author": "Martin Marier"
+  },
+  {
+   "book": "",
+   "page": 237,
+   "section": "b",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2009",
+   "iid": "14295ec5-a074-357b-a88b-7b9ec04cca79",
+   "doi": "10.2307/24358485",
+   "title": "L'INTERVENTION DIVINE DU PROLOGUE DU \"PHÉDON\" DE PLATON : SOCRATE, NOUVEAU DIEU TUTÉLAIRE D'ATHÈNES",
+   "author": "Martin Marier"
+  },
+  {
+   "book": "",
+   "page": 239,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1990",
+   "iid": "16f66928-0f38-3470-bb67-6087278b151f",
+   "doi": "10.2307/639093",
+   "title": "The Young of Athens: Religion and Society in Herakleidai of Euripides",
+   "author": "John Wilkins"
+  },
+  {
+   "book": "",
+   "page": 235,
+   "section": "d",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2010",
+   "iid": "1c567a8d-cf1e-3d52-bdcd-5a60b9eb8a15",
+   "doi": "10.1086/656195",
+   "title": "ΣΩKPATIKOI ΛOΓOI in Aristotle and Fourth-Century Theories of Genre",
+   "author": "Andrew L. Ford"
+  },
+  {
+   "book": "",
+   "page": 236,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1950",
+   "iid": "1de295af-cae6-3f15-b020-9fc8eb55b270",
+   "doi": "10.2307/637070",
+   "title": "The Chronology of Antiphon's Speeches",
+   "author": "K. J. Dover"
+  },
+  {
+   "book": "",
+   "page": 237,
+   "section": "d",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1938",
+   "iid": "1e9a6a3f-731d-303f-a73d-fcb6087737cd",
+   "doi": "10.2307/703124",
+   "title": "",
+   "author": "W. L. Lorimer, J. Enoch Powell"
+  },
+  {
+   "book": "",
+   "page": 236,
+   "section": "d",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "2005",
+   "iid": "1f3d69dc-f910-3d4f-8ff4-707140ddfcc5",
+   "doi": "10.2307/3873829",
+   "title": "A Sourcebook of Women Writers",
+   "author": "Holt Parker, I. M. Plant"
+  },
+  {
+   "book": "",
+   "page": 246,
+   "section": "e",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1999",
+   "iid": "230f567c-57e8-3018-a783-98f783deb6e8",
+   "doi": "10.2307/639495",
+   "title": "Plato, Carneades, and Cicero's Philus (Cicero, Rep. 3.8-31)",
+   "author": "David E. Hahm"
+  },
+  {
+   "book": "",
+   "page": 237,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1987",
+   "iid": "24043681-9f56-3f7e-bca2-ae7f8ec50696",
+   "doi": "10.2307/638830",
+   "title": "Autochthony and the Athenians",
+   "author": "Vincent J. Rosivach"
+  },
+  {
+   "book": "",
+   "page": 237,
+   "section": "e",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1987",
+   "iid": "24043681-9f56-3f7e-bca2-ae7f8ec50696",
+   "doi": "10.2307/638830",
+   "title": "Autochthony and the Athenians",
+   "author": "Vincent J. Rosivach"
+  },
+  {
+   "book": "",
+   "page": 238,
+   "section": "c",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1987",
+   "iid": "24043681-9f56-3f7e-bca2-ae7f8ec50696",
+   "doi": "10.2307/638830",
+   "title": "Autochthony and the Athenians",
+   "author": "Vincent J. Rosivach"
+  },
+  {
+   "book": "",
+   "page": 238,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1987",
+   "iid": "24043681-9f56-3f7e-bca2-ae7f8ec50696",
+   "doi": "10.2307/638830",
+   "title": "Autochthony and the Athenians",
+   "author": "Vincent J. Rosivach"
+  },
+  {
+   "book": "",
+   "page": 238,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1987",
+   "iid": "24043681-9f56-3f7e-bca2-ae7f8ec50696",
+   "doi": "10.2307/638830",
+   "title": "Autochthony and the Athenians",
+   "author": "Vincent J. Rosivach"
+  },
+  {
+   "book": "",
+   "page": 238,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1987",
+   "iid": "24043681-9f56-3f7e-bca2-ae7f8ec50696",
+   "doi": "10.2307/638830",
+   "title": "Autochthony and the Athenians",
+   "author": "Vincent J. Rosivach"
+  },
+  {
+   "book": "",
+   "page": 237,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1987",
+   "iid": "24043681-9f56-3f7e-bca2-ae7f8ec50696",
+   "doi": "10.2307/638830",
+   "title": "Autochthony and the Athenians",
+   "author": "Vincent J. Rosivach"
+  },
+  {
+   "book": "",
+   "page": 239,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1987",
+   "iid": "24043681-9f56-3f7e-bca2-ae7f8ec50696",
+   "doi": "10.2307/638830",
+   "title": "Autochthony and the Athenians",
+   "author": "Vincent J. Rosivach"
+  },
+  {
+   "book": "",
+   "page": 245,
+   "section": "b",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1986",
+   "iid": "266b150d-3d7d-3edd-9a2d-ec034e126264",
+   "doi": "10.2307/270173",
+   "title": "Agesilaus, Antalcidas, and the Failed Peace of 392/91 B.C.",
+   "author": "James G. Devoto"
+  },
+  {
+   "book": "",
+   "page": 236,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2018",
+   "iid": "2b2ee665-82e8-3357-a773-b9ddb6da9840",
+   "doi": "10.2307/26543987",
+   "title": "PLAYING THE VOLCANO",
+   "author": "PATRICK GLAUTHIER"
+  },
+  {
+   "book": "",
+   "page": 234,
+   "section": "c",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "1985",
+   "iid": "2ff7ae16-4c0e-31d6-a984-15edc9730fd8",
+   "doi": "10.2307/24353785",
+   "title": "SIGNIFICATION DIALECTIQUE DE LA \"MEGALOPRÉPEIA\" DANS LES PREMIERS DIALOGUES DE PLATON",
+   "author": "Louis Graz"
+  },
+  {
+   "book": "",
+   "page": 247,
+   "section": "b",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "1985",
+   "iid": "2ff7ae16-4c0e-31d6-a984-15edc9730fd8",
+   "doi": "10.2307/24353785",
+   "title": "SIGNIFICATION DIALECTIQUE DE LA \"MEGALOPRÉPEIA\" DANS LES PREMIERS DIALOGUES DE PLATON",
+   "author": "Louis Graz"
+  },
+  {
+   "book": "",
+   "page": 234,
+   "section": "c",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "1985",
+   "iid": "2ff7ae16-4c0e-31d6-a984-15edc9730fd8",
+   "doi": "10.2307/24353785",
+   "title": "SIGNIFICATION DIALECTIQUE DE LA \"MEGALOPRÉPEIA\" DANS LES PREMIERS DIALOGUES DE PLATON",
+   "author": "Louis Graz"
+  },
+  {
+   "book": "",
+   "page": 235,
+   "section": "a",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "1985",
+   "iid": "2ff7ae16-4c0e-31d6-a984-15edc9730fd8",
+   "doi": "10.2307/24353785",
+   "title": "SIGNIFICATION DIALECTIQUE DE LA \"MEGALOPRÉPEIA\" DANS LES PREMIERS DIALOGUES DE PLATON",
+   "author": "Louis Graz"
+  },
+  {
+   "book": "",
+   "page": 235,
+   "section": "c",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "1985",
+   "iid": "2ff7ae16-4c0e-31d6-a984-15edc9730fd8",
+   "doi": "10.2307/24353785",
+   "title": "SIGNIFICATION DIALECTIQUE DE LA \"MEGALOPRÉPEIA\" DANS LES PREMIERS DIALOGUES DE PLATON",
+   "author": "Louis Graz"
+  },
+  {
+   "book": "",
+   "page": 235,
+   "section": "a",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "1985",
+   "iid": "2ff7ae16-4c0e-31d6-a984-15edc9730fd8",
+   "doi": "10.2307/24353785",
+   "title": "SIGNIFICATION DIALECTIQUE DE LA \"MEGALOPRÉPEIA\" DANS LES PREMIERS DIALOGUES DE PLATON",
+   "author": "Louis Graz"
+  },
+  {
+   "book": "",
+   "page": 235,
+   "section": "b",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "1985",
+   "iid": "2ff7ae16-4c0e-31d6-a984-15edc9730fd8",
+   "doi": "10.2307/24353785",
+   "title": "SIGNIFICATION DIALECTIQUE DE LA \"MEGALOPRÉPEIA\" DANS LES PREMIERS DIALOGUES DE PLATON",
+   "author": "Louis Graz"
+  },
+  {
+   "book": "",
+   "page": 235,
+   "section": "a",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "1992",
+   "iid": "37254824-ffe8-36f3-9019-fcfc0946d33d",
+   "doi": "10.2307/24353900",
+   "title": "L'INVOCATION AUX MUSES ET LEUR REPONSE (Platon, \"Rép.\" VIII, 545d - 547c)",
+   "author": "Marcel Meulder"
+  },
+  {
+   "book": "",
+   "page": 236,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1998",
+   "iid": "3a57d32f-618f-33d0-a63b-3c18e00290e9",
+   "doi": "10.2307/639753",
+   "title": "Notes on Pseudo-Plutarch's Life of Antiphon",
+   "author": "Michael J. Edwards"
+  },
+  {
+   "book": "",
+   "page": 245,
+   "section": "c",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2020",
+   "iid": "44df5603-0c17-3a99-9cd8-eea69cb8dffb",
+   "doi": "10.2307/48807144",
+   "title": "REINVENTING THE BARBARIAN",
+   "author": "THOMAS HARRISON"
+  },
+  {
+   "book": "",
+   "page": 239,
+   "section": "b",
+   "line": 8,
+   "journal": "The Classical Quarterly",
+   "year": "2019",
+   "iid": "4730b972-6739-328f-b673-3c0ecc172e85",
+   "doi": "10.2307/26852160",
+   "title": "THE GREEK ὝΜΝΟΣ",
+   "author": "MICHAEL E. BRUMBAUGH"
+  },
+  {
+   "book": "",
+   "page": 239,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1977",
+   "iid": "49f99fb4-f236-39f9-801b-722d242ff1b4",
+   "doi": "10.2307/267878",
+   "title": "The Genre of the Atlantis Story",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 243,
+   "section": "b",
+   "line": 7,
+   "journal": "Classical Philology",
+   "year": "1977",
+   "iid": "49f99fb4-f236-39f9-801b-722d242ff1b4",
+   "doi": "10.2307/267878",
+   "title": "The Genre of the Atlantis Story",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 237,
+   "section": "d",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1977",
+   "iid": "49f99fb4-f236-39f9-801b-722d242ff1b4",
+   "doi": "10.2307/267878",
+   "title": "The Genre of the Atlantis Story",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 238,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1977",
+   "iid": "49f99fb4-f236-39f9-801b-722d242ff1b4",
+   "doi": "10.2307/267878",
+   "title": "The Genre of the Atlantis Story",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 241,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1934",
+   "iid": "4aaee395-3941-385f-947e-215644c0cd01",
+   "doi": "10.2307/701472",
+   "title": "Note on Plato Charmides 153B",
+   "author": "K. W. Luckhurst"
+  },
+  {
+   "book": "",
+   "page": 243,
+   "section": "d",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2014",
+   "iid": "4cf5b0fa-7bd1-339f-895e-b758f08473f4",
+   "doi": "10.2307/24358722",
+   "title": "LA QUESTION BARBARE : PLATON OU ARISTOTE?",
+   "author": "Fulcran Teisserenc"
+  },
+  {
+   "book": "",
+   "page": 235,
+   "section": "a",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2014",
+   "iid": "4cf5b0fa-7bd1-339f-895e-b758f08473f4",
+   "doi": "10.2307/24358722",
+   "title": "LA QUESTION BARBARE : PLATON OU ARISTOTE?",
+   "author": "Fulcran Teisserenc"
+  },
+  {
+   "book": "",
+   "page": 249,
+   "section": "e",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2014",
+   "iid": "4cf5b0fa-7bd1-339f-895e-b758f08473f4",
+   "doi": "10.2307/24358722",
+   "title": "LA QUESTION BARBARE : PLATON OU ARISTOTE?",
+   "author": "Fulcran Teisserenc"
+  },
+  {
+   "book": "",
+   "page": 235,
+   "section": "a",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2014",
+   "iid": "4cf5b0fa-7bd1-339f-895e-b758f08473f4",
+   "doi": "10.2307/24358722",
+   "title": "LA QUESTION BARBARE : PLATON OU ARISTOTE?",
+   "author": "Fulcran Teisserenc"
+  },
+  {
+   "book": "",
+   "page": 236,
+   "section": "a",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2014",
+   "iid": "4cf5b0fa-7bd1-339f-895e-b758f08473f4",
+   "doi": "10.2307/24358722",
+   "title": "LA QUESTION BARBARE : PLATON OU ARISTOTE?",
+   "author": "Fulcran Teisserenc"
+  },
+  {
+   "book": "",
+   "page": 237,
+   "section": "b",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2014",
+   "iid": "4cf5b0fa-7bd1-339f-895e-b758f08473f4",
+   "doi": "10.2307/24358722",
+   "title": "LA QUESTION BARBARE : PLATON OU ARISTOTE?",
+   "author": "Fulcran Teisserenc"
+  },
+  {
+   "book": "",
+   "page": 248,
+   "section": "b",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1960",
+   "iid": "4ddfd035-3d2c-3d5d-a4e5-2c5d9d8c0cbe",
+   "doi": "10.2307/4181675",
+   "title": "The Second Platonic Epistle",
+   "author": "R. S. Bluck"
+  },
+  {
+   "book": "",
+   "page": 245,
+   "section": "d",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1941",
+   "iid": "4f3834d8-bb0e-36bd-a5b1-8a7b30899630",
+   "doi": "10.2307/265183",
+   "title": "The Name of the Phoenicians",
+   "author": "G. Bonfante"
+  },
+  {
+   "book": "",
+   "page": 235,
+   "section": "e",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2003",
+   "iid": "54855dd7-2008-335f-8815-3766e5097ad3",
+   "doi": "10.1086/420720",
+   "title": "Text and Interpretation of Philebus 56A",
+   "author": "E. Kerr Borthwick"
+  },
+  {
+   "book": "",
+   "page": 236,
+   "section": "d",
+   "line": 4,
+   "journal": "The Classical Quarterly",
+   "year": "2019",
+   "iid": "55966cb5-4ac1-3346-a866-67d3f67b1ff9",
+   "doi": "10.2307/26954943",
+   "title": "‘I WILL INTERPRET’",
+   "author": "CAROL ATACK"
+  },
+  {
+   "book": "",
+   "page": 249,
+   "section": "c",
+   "line": 8,
+   "journal": "The Classical Quarterly",
+   "year": "2019",
+   "iid": "55966cb5-4ac1-3346-a866-67d3f67b1ff9",
+   "doi": "10.2307/26954943",
+   "title": "‘I WILL INTERPRET’",
+   "author": "CAROL ATACK"
+  },
+  {
+   "book": "",
+   "page": 246,
+   "section": "d",
+   "line": 1,
+   "journal": "The Classical Quarterly",
+   "year": "2019",
+   "iid": "55966cb5-4ac1-3346-a866-67d3f67b1ff9",
+   "doi": "10.2307/26954943",
+   "title": "‘I WILL INTERPRET’",
+   "author": "CAROL ATACK"
+  },
+  {
+   "book": "",
+   "page": 248,
+   "section": "d",
+   "line": 6,
+   "journal": "The Classical Quarterly",
+   "year": "2019",
+   "iid": "55966cb5-4ac1-3346-a866-67d3f67b1ff9",
+   "doi": "10.2307/26954943",
+   "title": "‘I WILL INTERPRET’",
+   "author": "CAROL ATACK"
+  },
+  {
+   "book": "",
+   "page": 246,
+   "section": "b",
+   "line": 6,
+   "journal": "The Classical Quarterly",
+   "year": "2019",
+   "iid": "55966cb5-4ac1-3346-a866-67d3f67b1ff9",
+   "doi": "10.2307/26954943",
+   "title": "‘I WILL INTERPRET’",
+   "author": "CAROL ATACK"
+  },
+  {
+   "book": "",
+   "page": 235,
+   "section": "d",
+   "line": 8,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2003",
+   "iid": "5794f403-1600-3ccd-bc2e-049cab1db05b",
+   "doi": "10.2307/24354723",
+   "title": "\"PAR ZEUS!\". LES JURONS DE PLATON",
+   "author": "Aikaterini Lefka"
+  },
+  {
+   "book": "",
+   "page": 235,
+   "section": "e",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1995",
+   "iid": "58b4b0ad-eaea-31d1-85a2-6e3f4cf6fbb3",
+   "doi": "10.2307/639715",
+   "title": "Menexenus-Son of Socrates",
+   "author": "Lesley Dean-Jones"
+  },
+  {
+   "book": "",
+   "page": 246,
+   "section": "c",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1995",
+   "iid": "58b4b0ad-eaea-31d1-85a2-6e3f4cf6fbb3",
+   "doi": "10.2307/639715",
+   "title": "Menexenus-Son of Socrates",
+   "author": "Lesley Dean-Jones"
+  },
+  {
+   "book": "",
+   "page": 234,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1995",
+   "iid": "58b4b0ad-eaea-31d1-85a2-6e3f4cf6fbb3",
+   "doi": "10.2307/639715",
+   "title": "Menexenus-Son of Socrates",
+   "author": "Lesley Dean-Jones"
+  },
+  {
+   "book": "",
+   "page": 234,
+   "section": "c",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1995",
+   "iid": "58b4b0ad-eaea-31d1-85a2-6e3f4cf6fbb3",
+   "doi": "10.2307/639715",
+   "title": "Menexenus-Son of Socrates",
+   "author": "Lesley Dean-Jones"
+  },
+  {
+   "book": "",
+   "page": 236,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1995",
+   "iid": "58b4b0ad-eaea-31d1-85a2-6e3f4cf6fbb3",
+   "doi": "10.2307/639715",
+   "title": "Menexenus-Son of Socrates",
+   "author": "Lesley Dean-Jones"
+  },
+  {
+   "book": "",
+   "page": 235,
+   "section": "e",
+   "line": null,
+   "journal": "Méthexis",
+   "year": "2017",
+   "iid": "5fc6817a-c872-3f35-8e21-8ee811e843c2",
+   "doi": "10.2307/26414177",
+   "title": "Eschine di Sfetto",
+   "author": "Francesca Pentassuglio"
+  },
+  {
+   "book": "",
+   "page": 249,
+   "section": "d",
+   "line": null,
+   "journal": "Méthexis",
+   "year": "2017",
+   "iid": "5fc6817a-c872-3f35-8e21-8ee811e843c2",
+   "doi": "10.2307/26414177",
+   "title": "Eschine di Sfetto",
+   "author": "Francesca Pentassuglio"
+  },
+  {
+   "book": "",
+   "page": 236,
+   "section": "b",
+   "line": null,
+   "journal": "Méthexis",
+   "year": "2017",
+   "iid": "5fc6817a-c872-3f35-8e21-8ee811e843c2",
+   "doi": "10.2307/26414177",
+   "title": "Eschine di Sfetto",
+   "author": "Francesca Pentassuglio"
+  },
+  {
+   "book": "",
+   "page": 235,
+   "section": "e",
+   "line": null,
+   "journal": "Méthexis",
+   "year": "2017",
+   "iid": "5fc6817a-c872-3f35-8e21-8ee811e843c2",
+   "doi": "10.2307/26414177",
+   "title": "Eschine di Sfetto",
+   "author": "Francesca Pentassuglio"
+  },
+  {
+   "book": "",
+   "page": 235,
+   "section": "e",
+   "line": null,
+   "journal": "Méthexis",
+   "year": "2017",
+   "iid": "5fc6817a-c872-3f35-8e21-8ee811e843c2",
+   "doi": "10.2307/26414177",
+   "title": "Eschine di Sfetto",
+   "author": "Francesca Pentassuglio"
+  },
+  {
+   "book": "",
+   "page": 241,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2012",
+   "iid": "621fb271-38e2-3229-bb81-679e581d56ba",
+   "doi": "10.2307/41820010",
+   "title": "WHY DOES PHILO CRITICIZE THE STOIC IDEAL OF APATHEIA IN ON ABRAHAM 257? PHILO AND CONSOLATORY LITERATURE",
+   "author": "SHARON WEISSER"
+  },
+  {
+   "book": "",
+   "page": 238,
+   "section": "e",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2012",
+   "iid": "621fb271-38e2-3229-bb81-679e581d56ba",
+   "doi": "10.2307/41820010",
+   "title": "WHY DOES PHILO CRITICIZE THE STOIC IDEAL OF APATHEIA IN ON ABRAHAM 257? PHILO AND CONSOLATORY LITERATURE",
+   "author": "SHARON WEISSER"
+  },
+  {
+   "book": "",
+   "page": 239,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2012",
+   "iid": "621fb271-38e2-3229-bb81-679e581d56ba",
+   "doi": "10.2307/41820010",
+   "title": "WHY DOES PHILO CRITICIZE THE STOIC IDEAL OF APATHEIA IN ON ABRAHAM 257? PHILO AND CONSOLATORY LITERATURE",
+   "author": "SHARON WEISSER"
+  },
+  {
+   "book": "",
+   "page": 248,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2012",
+   "iid": "621fb271-38e2-3229-bb81-679e581d56ba",
+   "doi": "10.2307/41820010",
+   "title": "WHY DOES PHILO CRITICIZE THE STOIC IDEAL OF APATHEIA IN ON ABRAHAM 257? PHILO AND CONSOLATORY LITERATURE",
+   "author": "SHARON WEISSER"
+  },
+  {
+   "book": "",
+   "page": 242,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1970",
+   "iid": "6f5a4080-b0f7-399a-9638-dab4dabbcd49",
+   "doi": "10.2307/268599",
+   "title": "The Athenian Domination of Boeotia",
+   "author": "R. J. Buck"
+  },
+  {
+   "book": "",
+   "page": 237,
+   "section": "c",
+   "line": 7,
+   "journal": "Phronesis",
+   "year": "1979",
+   "iid": "70f236e8-d725-3439-927a-416c98b7fb06",
+   "doi": "10.2307/4182064",
+   "title": "Plato and Politics: The Critias and the Politicus",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 239,
+   "section": "d",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1903",
+   "iid": "840a8cea-d175-3fee-bc42-a86f0251f613",
+   "doi": "10.2307/696306",
+   "title": "Vindobonensis F and the Text of Plato",
+   "author": "John Burnet"
+  },
+  {
+   "book": "",
+   "page": 237,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1913",
+   "iid": "842a0adb-2204-31b4-a45c-d5a703fa24c2",
+   "doi": "10.2307/635607",
+   "title": "The Argument of Plato, Protagoras, 351b-356c",
+   "author": "J. L. Stocks"
+  },
+  {
+   "book": "",
+   "page": 238,
+   "section": "a",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "1997",
+   "iid": "886e32d7-022a-3018-90d2-af9ce437ba15",
+   "doi": "10.2307/24354610",
+   "title": "DE LA BONTÉ DU DÉMIURGE (Platon, \"Timée\", 29d 6 - e 4)",
+   "author": "André Motte"
+  },
+  {
+   "book": "",
+   "page": 235,
+   "section": "e",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1940",
+   "iid": "89d2fea1-a92c-32fe-93ba-d3ebf957fa14",
+   "doi": "10.2307/264959",
+   "title": "Plato in Cicero",
+   "author": "Thelma B. Degraff"
+  },
+  {
+   "book": "",
+   "page": 236,
+   "section": "e",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1985",
+   "iid": "918865d1-be48-3837-842d-63e731404cff",
+   "doi": "10.2307/269864",
+   "title": "",
+   "author": "Wilhelm Kierdorf, John E. Ziolkowski"
+  },
+  {
+   "book": "",
+   "page": 248,
+   "section": "e",
+   "line": 6,
+   "journal": "Classical Philology",
+   "year": "1985",
+   "iid": "918865d1-be48-3837-842d-63e731404cff",
+   "doi": "10.2307/269864",
+   "title": "",
+   "author": "Wilhelm Kierdorf, John E. Ziolkowski"
+  },
+  {
+   "book": "",
+   "page": 247,
+   "section": "d",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1985",
+   "iid": "918865d1-be48-3837-842d-63e731404cff",
+   "doi": "10.2307/269864",
+   "title": "",
+   "author": "Wilhelm Kierdorf, John E. Ziolkowski"
+  },
+  {
+   "book": "",
+   "page": 235,
+   "section": "e",
+   "line": 2,
+   "journal": "The Classical Quarterly",
+   "year": "2017",
+   "iid": "949a631a-c674-3a15-bcfb-5aea1383061a",
+   "doi": "10.2307/26292404",
+   "title": "PLATO ON VIRTUE IN THE \"MENEXENVS\"",
+   "author": "FEDERICO M. PETRUCCI"
+  },
+  {
+   "book": "",
+   "page": 249,
+   "section": "d",
+   "line": 8,
+   "journal": "The Classical Quarterly",
+   "year": "2017",
+   "iid": "949a631a-c674-3a15-bcfb-5aea1383061a",
+   "doi": "10.2307/26292404",
+   "title": "PLATO ON VIRTUE IN THE \"MENEXENVS\"",
+   "author": "FEDERICO M. PETRUCCI"
+  },
+  {
+   "book": "",
+   "page": 249,
+   "section": "e",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2017",
+   "iid": "949a631a-c674-3a15-bcfb-5aea1383061a",
+   "doi": "10.2307/26292404",
+   "title": "PLATO ON VIRTUE IN THE \"MENEXENVS\"",
+   "author": "FEDERICO M. PETRUCCI"
+  },
+  {
+   "book": "",
+   "page": 236,
+   "section": "d",
+   "line": 4,
+   "journal": "The Classical Quarterly",
+   "year": "2017",
+   "iid": "949a631a-c674-3a15-bcfb-5aea1383061a",
+   "doi": "10.2307/26292404",
+   "title": "PLATO ON VIRTUE IN THE \"MENEXENVS\"",
+   "author": "FEDERICO M. PETRUCCI"
+  },
+  {
+   "book": "",
+   "page": 236,
+   "section": "d",
+   "line": 4,
+   "journal": "The Classical Quarterly",
+   "year": "2017",
+   "iid": "949a631a-c674-3a15-bcfb-5aea1383061a",
+   "doi": "10.2307/26292404",
+   "title": "PLATO ON VIRTUE IN THE \"MENEXENVS\"",
+   "author": "FEDERICO M. PETRUCCI"
+  },
+  {
+   "book": "",
+   "page": 237,
+   "section": "c",
+   "line": 4,
+   "journal": "The Classical Quarterly",
+   "year": "2017",
+   "iid": "949a631a-c674-3a15-bcfb-5aea1383061a",
+   "doi": "10.2307/26292404",
+   "title": "PLATO ON VIRTUE IN THE \"MENEXENVS\"",
+   "author": "FEDERICO M. PETRUCCI"
+  },
+  {
+   "book": "",
+   "page": 237,
+   "section": "c",
+   "line": 5,
+   "journal": "The Classical Quarterly",
+   "year": "2017",
+   "iid": "949a631a-c674-3a15-bcfb-5aea1383061a",
+   "doi": "10.2307/26292404",
+   "title": "PLATO ON VIRTUE IN THE \"MENEXENVS\"",
+   "author": "FEDERICO M. PETRUCCI"
+  },
+  {
+   "book": "",
+   "page": 246,
+   "section": "a",
+   "line": 4,
+   "journal": "The Classical Quarterly",
+   "year": "2017",
+   "iid": "949a631a-c674-3a15-bcfb-5aea1383061a",
+   "doi": "10.2307/26292404",
+   "title": "PLATO ON VIRTUE IN THE \"MENEXENVS\"",
+   "author": "FEDERICO M. PETRUCCI"
+  },
+  {
+   "book": "",
+   "page": 238,
+   "section": "b",
+   "line": 6,
+   "journal": "The Classical Quarterly",
+   "year": "2017",
+   "iid": "949a631a-c674-3a15-bcfb-5aea1383061a",
+   "doi": "10.2307/26292404",
+   "title": "PLATO ON VIRTUE IN THE \"MENEXENVS\"",
+   "author": "FEDERICO M. PETRUCCI"
+  },
+  {
+   "book": "",
+   "page": 238,
+   "section": "b",
+   "line": 7,
+   "journal": "The Classical Quarterly",
+   "year": "2017",
+   "iid": "949a631a-c674-3a15-bcfb-5aea1383061a",
+   "doi": "10.2307/26292404",
+   "title": "PLATO ON VIRTUE IN THE \"MENEXENVS\"",
+   "author": "FEDERICO M. PETRUCCI"
+  },
+  {
+   "book": "",
+   "page": 246,
+   "section": "a",
+   "line": 4,
+   "journal": "The Classical Quarterly",
+   "year": "2017",
+   "iid": "949a631a-c674-3a15-bcfb-5aea1383061a",
+   "doi": "10.2307/26292404",
+   "title": "PLATO ON VIRTUE IN THE \"MENEXENVS\"",
+   "author": "FEDERICO M. PETRUCCI"
+  },
+  {
+   "book": "",
+   "page": 238,
+   "section": "b",
+   "line": 6,
+   "journal": "The Classical Quarterly",
+   "year": "2017",
+   "iid": "949a631a-c674-3a15-bcfb-5aea1383061a",
+   "doi": "10.2307/26292404",
+   "title": "PLATO ON VIRTUE IN THE \"MENEXENVS\"",
+   "author": "FEDERICO M. PETRUCCI"
+  },
+  {
+   "book": "",
+   "page": 238,
+   "section": "c",
+   "line": 5,
+   "journal": "The Classical Quarterly",
+   "year": "2017",
+   "iid": "949a631a-c674-3a15-bcfb-5aea1383061a",
+   "doi": "10.2307/26292404",
+   "title": "PLATO ON VIRTUE IN THE \"MENEXENVS\"",
+   "author": "FEDERICO M. PETRUCCI"
+  },
+  {
+   "book": "",
+   "page": 239,
+   "section": "b",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2011",
+   "iid": "96bfeb3e-aa35-3866-b01d-7711cb02c7d2",
+   "doi": "10.1086/659107",
+   "title": "Myth and Performance on the Athenian Stage: Praxithea,\nErechtheus, Their Daughters, and the Etiology of Autochthony",
+   "author": "Claude Calame"
+  },
+  {
+   "book": "",
+   "page": 237,
+   "section": "d",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2011",
+   "iid": "96bfeb3e-aa35-3866-b01d-7711cb02c7d2",
+   "doi": "10.1086/659107",
+   "title": "Myth and Performance on the Athenian Stage: Praxithea,\nErechtheus, Their Daughters, and the Etiology of Autochthony",
+   "author": "Claude Calame"
+  },
+  {
+   "book": "",
+   "page": 238,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2011",
+   "iid": "96bfeb3e-aa35-3866-b01d-7711cb02c7d2",
+   "doi": "10.1086/659107",
+   "title": "Myth and Performance on the Athenian Stage: Praxithea,\nErechtheus, Their Daughters, and the Etiology of Autochthony",
+   "author": "Claude Calame"
+  },
+  {
+   "book": "",
+   "page": 236,
+   "section": "b",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1963",
+   "iid": "96a4841a-019e-3869-bda3-ab05b41f086d",
+   "doi": "10.2307/266532",
+   "title": "Plato's Funeral Oration: The Motive of the Menexenus",
+   "author": "Charles H. Kahn"
+  },
+  {
+   "book": "",
+   "page": 236,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1963",
+   "iid": "96a4841a-019e-3869-bda3-ab05b41f086d",
+   "doi": "10.2307/266532",
+   "title": "Plato's Funeral Oration: The Motive of the Menexenus",
+   "author": "Charles H. Kahn"
+  },
+  {
+   "book": "",
+   "page": 235,
+   "section": "b",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1963",
+   "iid": "96a4841a-019e-3869-bda3-ab05b41f086d",
+   "doi": "10.2307/266532",
+   "title": "Plato's Funeral Oration: The Motive of the Menexenus",
+   "author": "Charles H. Kahn"
+  },
+  {
+   "book": "",
+   "page": 242,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1963",
+   "iid": "96a4841a-019e-3869-bda3-ab05b41f086d",
+   "doi": "10.2307/266532",
+   "title": "Plato's Funeral Oration: The Motive of the Menexenus",
+   "author": "Charles H. Kahn"
+  },
+  {
+   "book": "",
+   "page": 243,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1963",
+   "iid": "96a4841a-019e-3869-bda3-ab05b41f086d",
+   "doi": "10.2307/266532",
+   "title": "Plato's Funeral Oration: The Motive of the Menexenus",
+   "author": "Charles H. Kahn"
+  },
+  {
+   "book": "",
+   "page": 244,
+   "section": "d",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1963",
+   "iid": "96a4841a-019e-3869-bda3-ab05b41f086d",
+   "doi": "10.2307/266532",
+   "title": "Plato's Funeral Oration: The Motive of the Menexenus",
+   "author": "Charles H. Kahn"
+  },
+  {
+   "book": "",
+   "page": 239,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1963",
+   "iid": "96a4841a-019e-3869-bda3-ab05b41f086d",
+   "doi": "10.2307/266532",
+   "title": "Plato's Funeral Oration: The Motive of the Menexenus",
+   "author": "Charles H. Kahn"
+  },
+  {
+   "book": "",
+   "page": 244,
+   "section": "d",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1963",
+   "iid": "96a4841a-019e-3869-bda3-ab05b41f086d",
+   "doi": "10.2307/266532",
+   "title": "Plato's Funeral Oration: The Motive of the Menexenus",
+   "author": "Charles H. Kahn"
+  },
+  {
+   "book": "",
+   "page": 245,
+   "section": "c",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1963",
+   "iid": "96a4841a-019e-3869-bda3-ab05b41f086d",
+   "doi": "10.2307/266532",
+   "title": "Plato's Funeral Oration: The Motive of the Menexenus",
+   "author": "Charles H. Kahn"
+  },
+  {
+   "book": "",
+   "page": 245,
+   "section": "d",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1963",
+   "iid": "96a4841a-019e-3869-bda3-ab05b41f086d",
+   "doi": "10.2307/266532",
+   "title": "Plato's Funeral Oration: The Motive of the Menexenus",
+   "author": "Charles H. Kahn"
+  },
+  {
+   "book": "",
+   "page": 245,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1963",
+   "iid": "96a4841a-019e-3869-bda3-ab05b41f086d",
+   "doi": "10.2307/266532",
+   "title": "Plato's Funeral Oration: The Motive of the Menexenus",
+   "author": "Charles H. Kahn"
+  },
+  {
+   "book": "",
+   "page": 246,
+   "section": "e",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1963",
+   "iid": "96a4841a-019e-3869-bda3-ab05b41f086d",
+   "doi": "10.2307/266532",
+   "title": "Plato's Funeral Oration: The Motive of the Menexenus",
+   "author": "Charles H. Kahn"
+  },
+  {
+   "book": "",
+   "page": 246,
+   "section": "c",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1963",
+   "iid": "96a4841a-019e-3869-bda3-ab05b41f086d",
+   "doi": "10.2307/266532",
+   "title": "Plato's Funeral Oration: The Motive of the Menexenus",
+   "author": "Charles H. Kahn"
+  },
+  {
+   "book": "",
+   "page": 247,
+   "section": "e",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1963",
+   "iid": "96a4841a-019e-3869-bda3-ab05b41f086d",
+   "doi": "10.2307/266532",
+   "title": "Plato's Funeral Oration: The Motive of the Menexenus",
+   "author": "Charles H. Kahn"
+  },
+  {
+   "book": "",
+   "page": 248,
+   "section": "e",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1963",
+   "iid": "96a4841a-019e-3869-bda3-ab05b41f086d",
+   "doi": "10.2307/266532",
+   "title": "Plato's Funeral Oration: The Motive of the Menexenus",
+   "author": "Charles H. Kahn"
+  },
+  {
+   "book": "",
+   "page": 246,
+   "section": "d",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1963",
+   "iid": "96a4841a-019e-3869-bda3-ab05b41f086d",
+   "doi": "10.2307/266532",
+   "title": "Plato's Funeral Oration: The Motive of the Menexenus",
+   "author": "Charles H. Kahn"
+  },
+  {
+   "book": "",
+   "page": 248,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1963",
+   "iid": "96a4841a-019e-3869-bda3-ab05b41f086d",
+   "doi": "10.2307/266532",
+   "title": "Plato's Funeral Oration: The Motive of the Menexenus",
+   "author": "Charles H. Kahn"
+  },
+  {
+   "book": "",
+   "page": 247,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1963",
+   "iid": "96a4841a-019e-3869-bda3-ab05b41f086d",
+   "doi": "10.2307/266532",
+   "title": "Plato's Funeral Oration: The Motive of the Menexenus",
+   "author": "Charles H. Kahn"
+  },
+  {
+   "book": "",
+   "page": 235,
+   "section": "c",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1963",
+   "iid": "96a4841a-019e-3869-bda3-ab05b41f086d",
+   "doi": "10.2307/266532",
+   "title": "Plato's Funeral Oration: The Motive of the Menexenus",
+   "author": "Charles H. Kahn"
+  },
+  {
+   "book": "",
+   "page": 236,
+   "section": "d",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1963",
+   "iid": "96a4841a-019e-3869-bda3-ab05b41f086d",
+   "doi": "10.2307/266532",
+   "title": "Plato's Funeral Oration: The Motive of the Menexenus",
+   "author": "Charles H. Kahn"
+  },
+  {
+   "book": "",
+   "page": 240,
+   "section": "d",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1963",
+   "iid": "96a4841a-019e-3869-bda3-ab05b41f086d",
+   "doi": "10.2307/266532",
+   "title": "Plato's Funeral Oration: The Motive of the Menexenus",
+   "author": "Charles H. Kahn"
+  },
+  {
+   "book": "",
+   "page": 240,
+   "section": "c",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1963",
+   "iid": "96a4841a-019e-3869-bda3-ab05b41f086d",
+   "doi": "10.2307/266532",
+   "title": "Plato's Funeral Oration: The Motive of the Menexenus",
+   "author": "Charles H. Kahn"
+  },
+  {
+   "book": "",
+   "page": 244,
+   "section": "d",
+   "line": 1,
+   "journal": "Classical Philology",
+   "year": "1963",
+   "iid": "96a4841a-019e-3869-bda3-ab05b41f086d",
+   "doi": "10.2307/266532",
+   "title": "Plato's Funeral Oration: The Motive of the Menexenus",
+   "author": "Charles H. Kahn"
+  },
+  {
+   "book": "",
+   "page": 236,
+   "section": "a",
+   "line": 6,
+   "journal": "Classical Philology",
+   "year": "1963",
+   "iid": "96a4841a-019e-3869-bda3-ab05b41f086d",
+   "doi": "10.2307/266532",
+   "title": "Plato's Funeral Oration: The Motive of the Menexenus",
+   "author": "Charles H. Kahn"
+  },
+  {
+   "book": "",
+   "page": 240,
+   "section": "e",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1963",
+   "iid": "96a4841a-019e-3869-bda3-ab05b41f086d",
+   "doi": "10.2307/266532",
+   "title": "Plato's Funeral Oration: The Motive of the Menexenus",
+   "author": "Charles H. Kahn"
+  },
+  {
+   "book": "",
+   "page": 242,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1963",
+   "iid": "96a4841a-019e-3869-bda3-ab05b41f086d",
+   "doi": "10.2307/266532",
+   "title": "Plato's Funeral Oration: The Motive of the Menexenus",
+   "author": "Charles H. Kahn"
+  },
+  {
+   "book": "",
+   "page": 241,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1963",
+   "iid": "96a4841a-019e-3869-bda3-ab05b41f086d",
+   "doi": "10.2307/266532",
+   "title": "Plato's Funeral Oration: The Motive of the Menexenus",
+   "author": "Charles H. Kahn"
+  },
+  {
+   "book": "",
+   "page": 246,
+   "section": "e",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1990",
+   "iid": "97b9fb57-e5e3-3243-a545-8d16a776b8f9",
+   "doi": "10.2307/4182365",
+   "title": "'Domina et Regina Virtutum': Justice and Societas in \"De Officiis\"",
+   "author": "E. M. Atkins"
+  },
+  {
+   "book": "",
+   "page": 237,
+   "section": "e",
+   "line": 5,
+   "journal": "The Classical Quarterly",
+   "year": "2014",
+   "iid": "9bafdddb-c40c-3791-9513-ab57133d6b0d",
+   "doi": "10.2307/43905595",
+   "title": "THE CONCEPT OF \"MIMĒSIS\" IN THE HIPPOCRATIC \"DE VICTU\"",
+   "author": "HYNEK BARTOŠ"
+  },
+  {
+   "book": "",
+   "page": 238,
+   "section": "a",
+   "line": 5,
+   "journal": "The Classical Quarterly",
+   "year": "2014",
+   "iid": "9bafdddb-c40c-3791-9513-ab57133d6b0d",
+   "doi": "10.2307/43905595",
+   "title": "THE CONCEPT OF \"MIMĒSIS\" IN THE HIPPOCRATIC \"DE VICTU\"",
+   "author": "HYNEK BARTOŠ"
+  },
+  {
+   "book": "",
+   "page": 248,
+   "section": "e",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2002",
+   "iid": "a3e8044c-f5ef-3a2a-a895-13bb7d4be69b",
+   "doi": "10.2307/3556410",
+   "title": "Ephebes in the Stadium (Not the Theatre): Ath. Pol. 42.4 and IG II<sup>2</sup>.351",
+   "author": "John Dillery"
+  },
+  {
+   "book": "",
+   "page": 238,
+   "section": "d",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1984",
+   "iid": "a49742f8-b654-3be7-8911-ac9806e81467",
+   "doi": "10.2307/3062479",
+   "title": "",
+   "author": "Manfred Clauss, Paul Cartledge"
+  },
+  {
+   "book": "",
+   "page": 237,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2001",
+   "iid": "abd77bd3-4ae7-3371-ab02-b9b396ec56c7",
+   "doi": "10.2307/3556328",
+   "title": "\"Axiosis\", the New Arete: A Periclean Metaphor for Friendship",
+   "author": "June W. Allison"
+  },
+  {
+   "book": "",
+   "page": 247,
+   "section": "e",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1938",
+   "iid": "b4837b5d-8a4d-34ce-bbe1-22f381f2b2a9",
+   "doi": "10.2307/704895",
+   "title": "AΓAN and ΛIAN in Attic",
+   "author": "J. F. Lockwood"
+  },
+  {
+   "book": "",
+   "page": 248,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1938",
+   "iid": "b4837b5d-8a4d-34ce-bbe1-22f381f2b2a9",
+   "doi": "10.2307/704895",
+   "title": "AΓAN and ΛIAN in Attic",
+   "author": "J. F. Lockwood"
+  },
+  {
+   "book": "",
+   "page": 249,
+   "section": "b",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1957",
+   "iid": "b74f5eca-0e49-3130-8e83-6a1243291ab3",
+   "doi": "10.2307/4181617",
+   "title": "The \"Menexenus\" Reconsidered",
+   "author": "Pamela M. Huby"
+  },
+  {
+   "book": "",
+   "page": 236,
+   "section": "a",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1957",
+   "iid": "b74f5eca-0e49-3130-8e83-6a1243291ab3",
+   "doi": "10.2307/4181617",
+   "title": "The \"Menexenus\" Reconsidered",
+   "author": "Pamela M. Huby"
+  },
+  {
+   "book": "",
+   "page": 244,
+   "section": "d",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1957",
+   "iid": "b74f5eca-0e49-3130-8e83-6a1243291ab3",
+   "doi": "10.2307/4181617",
+   "title": "The \"Menexenus\" Reconsidered",
+   "author": "Pamela M. Huby"
+  },
+  {
+   "book": "",
+   "page": 249,
+   "section": "d",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1957",
+   "iid": "b74f5eca-0e49-3130-8e83-6a1243291ab3",
+   "doi": "10.2307/4181617",
+   "title": "The \"Menexenus\" Reconsidered",
+   "author": "Pamela M. Huby"
+  },
+  {
+   "book": "",
+   "page": 248,
+   "section": "d",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1957",
+   "iid": "b74f5eca-0e49-3130-8e83-6a1243291ab3",
+   "doi": "10.2307/4181617",
+   "title": "The \"Menexenus\" Reconsidered",
+   "author": "Pamela M. Huby"
+  },
+  {
+   "book": "",
+   "page": 237,
+   "section": "e",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1957",
+   "iid": "b74f5eca-0e49-3130-8e83-6a1243291ab3",
+   "doi": "10.2307/4181617",
+   "title": "The \"Menexenus\" Reconsidered",
+   "author": "Pamela M. Huby"
+  },
+  {
+   "book": "",
+   "page": 248,
+   "section": "e",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1957",
+   "iid": "b74f5eca-0e49-3130-8e83-6a1243291ab3",
+   "doi": "10.2307/4181617",
+   "title": "The \"Menexenus\" Reconsidered",
+   "author": "Pamela M. Huby"
+  },
+  {
+   "book": "",
+   "page": 246,
+   "section": "c",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1957",
+   "iid": "b74f5eca-0e49-3130-8e83-6a1243291ab3",
+   "doi": "10.2307/4181617",
+   "title": "The \"Menexenus\" Reconsidered",
+   "author": "Pamela M. Huby"
+  },
+  {
+   "book": "",
+   "page": 234,
+   "section": "b",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1957",
+   "iid": "b74f5eca-0e49-3130-8e83-6a1243291ab3",
+   "doi": "10.2307/4181617",
+   "title": "The \"Menexenus\" Reconsidered",
+   "author": "Pamela M. Huby"
+  },
+  {
+   "book": "",
+   "page": 249,
+   "section": "b",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1957",
+   "iid": "b74f5eca-0e49-3130-8e83-6a1243291ab3",
+   "doi": "10.2307/4181617",
+   "title": "The \"Menexenus\" Reconsidered",
+   "author": "Pamela M. Huby"
+  },
+  {
+   "book": "",
+   "page": 246,
+   "section": "b",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1957",
+   "iid": "b74f5eca-0e49-3130-8e83-6a1243291ab3",
+   "doi": "10.2307/4181617",
+   "title": "The \"Menexenus\" Reconsidered",
+   "author": "Pamela M. Huby"
+  },
+  {
+   "book": "",
+   "page": 247,
+   "section": "b",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1957",
+   "iid": "b74f5eca-0e49-3130-8e83-6a1243291ab3",
+   "doi": "10.2307/4181617",
+   "title": "The \"Menexenus\" Reconsidered",
+   "author": "Pamela M. Huby"
+  },
+  {
+   "book": "",
+   "page": 241,
+   "section": "d",
+   "line": 5,
+   "journal": "Les Études philosophiques",
+   "year": "2005",
+   "iid": "b862cb4b-e37e-3f9e-a722-21b0bf79a0a2",
+   "doi": "10.2307/20849712",
+   "title": "LA DIVISION ET L'UNITÉ DU POLITIQUE DE PLATON: À Monique Dixsaut",
+   "author": "Dimitri El Murr"
+  },
+  {
+   "book": "",
+   "page": 249,
+   "section": "b",
+   "line": 3,
+   "journal": "The Classical Quarterly",
+   "year": "2013",
+   "iid": "bc42eaef-1bcd-3783-bec4-36cb31744b0f",
+   "doi": "10.2307/43905986",
+   "title": "'THEIR MEMORIES WILL NEVER GROW OLD': THE POLITICS OF REMEMBRANCE IN THE ATHENIAN FUNERAL ORATIONS",
+   "author": "JULIA L. SHEAR"
+  },
+  {
+   "book": "",
+   "page": 249,
+   "section": "c",
+   "line": 6,
+   "journal": "The Classical Quarterly",
+   "year": "2013",
+   "iid": "bc42eaef-1bcd-3783-bec4-36cb31744b0f",
+   "doi": "10.2307/43905986",
+   "title": "'THEIR MEMORIES WILL NEVER GROW OLD': THE POLITICS OF REMEMBRANCE IN THE ATHENIAN FUNERAL ORATIONS",
+   "author": "JULIA L. SHEAR"
+  },
+  {
+   "book": "",
+   "page": 236,
+   "section": "e",
+   "line": 2,
+   "journal": "The Classical Quarterly",
+   "year": "2013",
+   "iid": "bc42eaef-1bcd-3783-bec4-36cb31744b0f",
+   "doi": "10.2307/43905986",
+   "title": "'THEIR MEMORIES WILL NEVER GROW OLD': THE POLITICS OF REMEMBRANCE IN THE ATHENIAN FUNERAL ORATIONS",
+   "author": "JULIA L. SHEAR"
+  },
+  {
+   "book": "",
+   "page": 239,
+   "section": "c",
+   "line": 4,
+   "journal": "The Classical Quarterly",
+   "year": "2013",
+   "iid": "bc42eaef-1bcd-3783-bec4-36cb31744b0f",
+   "doi": "10.2307/43905986",
+   "title": "'THEIR MEMORIES WILL NEVER GROW OLD': THE POLITICS OF REMEMBRANCE IN THE ATHENIAN FUNERAL ORATIONS",
+   "author": "JULIA L. SHEAR"
+  },
+  {
+   "book": "",
+   "page": 239,
+   "section": "c",
+   "line": 5,
+   "journal": "The Classical Quarterly",
+   "year": "2013",
+   "iid": "bc42eaef-1bcd-3783-bec4-36cb31744b0f",
+   "doi": "10.2307/43905986",
+   "title": "'THEIR MEMORIES WILL NEVER GROW OLD': THE POLITICS OF REMEMBRANCE IN THE ATHENIAN FUNERAL ORATIONS",
+   "author": "JULIA L. SHEAR"
+  },
+  {
+   "book": "",
+   "page": 239,
+   "section": "d",
+   "line": 3,
+   "journal": "The Classical Quarterly",
+   "year": "2013",
+   "iid": "bc42eaef-1bcd-3783-bec4-36cb31744b0f",
+   "doi": "10.2307/43905986",
+   "title": "'THEIR MEMORIES WILL NEVER GROW OLD': THE POLITICS OF REMEMBRANCE IN THE ATHENIAN FUNERAL ORATIONS",
+   "author": "JULIA L. SHEAR"
+  },
+  {
+   "book": "",
+   "page": 241,
+   "section": "d",
+   "line": 4,
+   "journal": "The Classical Quarterly",
+   "year": "2013",
+   "iid": "bc42eaef-1bcd-3783-bec4-36cb31744b0f",
+   "doi": "10.2307/43905986",
+   "title": "'THEIR MEMORIES WILL NEVER GROW OLD': THE POLITICS OF REMEMBRANCE IN THE ATHENIAN FUNERAL ORATIONS",
+   "author": "JULIA L. SHEAR"
+  },
+  {
+   "book": "",
+   "page": 241,
+   "section": "e",
+   "line": 2,
+   "journal": "The Classical Quarterly",
+   "year": "2013",
+   "iid": "bc42eaef-1bcd-3783-bec4-36cb31744b0f",
+   "doi": "10.2307/43905986",
+   "title": "'THEIR MEMORIES WILL NEVER GROW OLD': THE POLITICS OF REMEMBRANCE IN THE ATHENIAN FUNERAL ORATIONS",
+   "author": "JULIA L. SHEAR"
+  },
+  {
+   "book": "",
+   "page": 242,
+   "section": "c",
+   "line": 2,
+   "journal": "The Classical Quarterly",
+   "year": "2013",
+   "iid": "bc42eaef-1bcd-3783-bec4-36cb31744b0f",
+   "doi": "10.2307/43905986",
+   "title": "'THEIR MEMORIES WILL NEVER GROW OLD': THE POLITICS OF REMEMBRANCE IN THE ATHENIAN FUNERAL ORATIONS",
+   "author": "JULIA L. SHEAR"
+  },
+  {
+   "book": "",
+   "page": 243,
+   "section": "c",
+   "line": 7,
+   "journal": "The Classical Quarterly",
+   "year": "2013",
+   "iid": "bc42eaef-1bcd-3783-bec4-36cb31744b0f",
+   "doi": "10.2307/43905986",
+   "title": "'THEIR MEMORIES WILL NEVER GROW OLD': THE POLITICS OF REMEMBRANCE IN THE ATHENIAN FUNERAL ORATIONS",
+   "author": "JULIA L. SHEAR"
+  },
+  {
+   "book": "",
+   "page": 246,
+   "section": "c",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2013",
+   "iid": "bc42eaef-1bcd-3783-bec4-36cb31744b0f",
+   "doi": "10.2307/43905986",
+   "title": "'THEIR MEMORIES WILL NEVER GROW OLD': THE POLITICS OF REMEMBRANCE IN THE ATHENIAN FUNERAL ORATIONS",
+   "author": "JULIA L. SHEAR"
+  },
+  {
+   "book": "",
+   "page": 246,
+   "section": "d",
+   "line": 8,
+   "journal": "The Classical Quarterly",
+   "year": "2013",
+   "iid": "bc42eaef-1bcd-3783-bec4-36cb31744b0f",
+   "doi": "10.2307/43905986",
+   "title": "'THEIR MEMORIES WILL NEVER GROW OLD': THE POLITICS OF REMEMBRANCE IN THE ATHENIAN FUNERAL ORATIONS",
+   "author": "JULIA L. SHEAR"
+  },
+  {
+   "book": "",
+   "page": 247,
+   "section": "d",
+   "line": 2,
+   "journal": "The Classical Quarterly",
+   "year": "2013",
+   "iid": "bc42eaef-1bcd-3783-bec4-36cb31744b0f",
+   "doi": "10.2307/43905986",
+   "title": "'THEIR MEMORIES WILL NEVER GROW OLD': THE POLITICS OF REMEMBRANCE IN THE ATHENIAN FUNERAL ORATIONS",
+   "author": "JULIA L. SHEAR"
+  },
+  {
+   "book": "",
+   "page": 235,
+   "section": "c",
+   "line": 3,
+   "journal": "The Classical Quarterly",
+   "year": "2013",
+   "iid": "bc42eaef-1bcd-3783-bec4-36cb31744b0f",
+   "doi": "10.2307/43905986",
+   "title": "'THEIR MEMORIES WILL NEVER GROW OLD': THE POLITICS OF REMEMBRANCE IN THE ATHENIAN FUNERAL ORATIONS",
+   "author": "JULIA L. SHEAR"
+  },
+  {
+   "book": "",
+   "page": 236,
+   "section": "d",
+   "line": 4,
+   "journal": "The Classical Quarterly",
+   "year": "2013",
+   "iid": "bc42eaef-1bcd-3783-bec4-36cb31744b0f",
+   "doi": "10.2307/43905986",
+   "title": "'THEIR MEMORIES WILL NEVER GROW OLD': THE POLITICS OF REMEMBRANCE IN THE ATHENIAN FUNERAL ORATIONS",
+   "author": "JULIA L. SHEAR"
+  },
+  {
+   "book": "",
+   "page": 241,
+   "section": "a",
+   "line": 5,
+   "journal": "The Classical Quarterly",
+   "year": "2013",
+   "iid": "bc42eaef-1bcd-3783-bec4-36cb31744b0f",
+   "doi": "10.2307/43905986",
+   "title": "'THEIR MEMORIES WILL NEVER GROW OLD': THE POLITICS OF REMEMBRANCE IN THE ATHENIAN FUNERAL ORATIONS",
+   "author": "JULIA L. SHEAR"
+  },
+  {
+   "book": "",
+   "page": 244,
+   "section": "b",
+   "line": 7,
+   "journal": "The Classical Quarterly",
+   "year": "2013",
+   "iid": "bc42eaef-1bcd-3783-bec4-36cb31744b0f",
+   "doi": "10.2307/43905986",
+   "title": "'THEIR MEMORIES WILL NEVER GROW OLD': THE POLITICS OF REMEMBRANCE IN THE ATHENIAN FUNERAL ORATIONS",
+   "author": "JULIA L. SHEAR"
+  },
+  {
+   "book": "",
+   "page": 246,
+   "section": "a",
+   "line": 3,
+   "journal": "The Classical Quarterly",
+   "year": "2013",
+   "iid": "bc42eaef-1bcd-3783-bec4-36cb31744b0f",
+   "doi": "10.2307/43905986",
+   "title": "'THEIR MEMORIES WILL NEVER GROW OLD': THE POLITICS OF REMEMBRANCE IN THE ATHENIAN FUNERAL ORATIONS",
+   "author": "JULIA L. SHEAR"
+  },
+  {
+   "book": "",
+   "page": 246,
+   "section": "b",
+   "line": 3,
+   "journal": "The Classical Quarterly",
+   "year": "2013",
+   "iid": "bc42eaef-1bcd-3783-bec4-36cb31744b0f",
+   "doi": "10.2307/43905986",
+   "title": "'THEIR MEMORIES WILL NEVER GROW OLD': THE POLITICS OF REMEMBRANCE IN THE ATHENIAN FUNERAL ORATIONS",
+   "author": "JULIA L. SHEAR"
+  },
+  {
+   "book": "",
+   "page": 249,
+   "section": "a",
+   "line": 7,
+   "journal": "The Classical Quarterly",
+   "year": "2013",
+   "iid": "bc42eaef-1bcd-3783-bec4-36cb31744b0f",
+   "doi": "10.2307/43905986",
+   "title": "'THEIR MEMORIES WILL NEVER GROW OLD': THE POLITICS OF REMEMBRANCE IN THE ATHENIAN FUNERAL ORATIONS",
+   "author": "JULIA L. SHEAR"
+  },
+  {
+   "book": "",
+   "page": 236,
+   "section": "a",
+   "line": 8,
+   "journal": "The Classical Quarterly",
+   "year": "2013",
+   "iid": "bc42eaef-1bcd-3783-bec4-36cb31744b0f",
+   "doi": "10.2307/43905986",
+   "title": "'THEIR MEMORIES WILL NEVER GROW OLD': THE POLITICS OF REMEMBRANCE IN THE ATHENIAN FUNERAL ORATIONS",
+   "author": "JULIA L. SHEAR"
+  },
+  {
+   "book": "",
+   "page": 246,
+   "section": "a",
+   "line": 5,
+   "journal": "The Classical Quarterly",
+   "year": "2013",
+   "iid": "bc42eaef-1bcd-3783-bec4-36cb31744b0f",
+   "doi": "10.2307/43905986",
+   "title": "'THEIR MEMORIES WILL NEVER GROW OLD': THE POLITICS OF REMEMBRANCE IN THE ATHENIAN FUNERAL ORATIONS",
+   "author": "JULIA L. SHEAR"
+  },
+  {
+   "book": "",
+   "page": 237,
+   "section": "a",
+   "line": 6,
+   "journal": "The Classical Quarterly",
+   "year": "2013",
+   "iid": "bc42eaef-1bcd-3783-bec4-36cb31744b0f",
+   "doi": "10.2307/43905986",
+   "title": "'THEIR MEMORIES WILL NEVER GROW OLD': THE POLITICS OF REMEMBRANCE IN THE ATHENIAN FUNERAL ORATIONS",
+   "author": "JULIA L. SHEAR"
+  },
+  {
+   "book": "",
+   "page": 239,
+   "section": "b",
+   "line": 3,
+   "journal": "The Classical Quarterly",
+   "year": "2013",
+   "iid": "bc42eaef-1bcd-3783-bec4-36cb31744b0f",
+   "doi": "10.2307/43905986",
+   "title": "'THEIR MEMORIES WILL NEVER GROW OLD': THE POLITICS OF REMEMBRANCE IN THE ATHENIAN FUNERAL ORATIONS",
+   "author": "JULIA L. SHEAR"
+  },
+  {
+   "book": "",
+   "page": 248,
+   "section": "e",
+   "line": 2,
+   "journal": "The Classical Quarterly",
+   "year": "2013",
+   "iid": "bc42eaef-1bcd-3783-bec4-36cb31744b0f",
+   "doi": "10.2307/43905986",
+   "title": "'THEIR MEMORIES WILL NEVER GROW OLD': THE POLITICS OF REMEMBRANCE IN THE ATHENIAN FUNERAL ORATIONS",
+   "author": "JULIA L. SHEAR"
+  },
+  {
+   "book": "",
+   "page": 247,
+   "section": "a",
+   "line": 2,
+   "journal": "The Classical Quarterly",
+   "year": "2013",
+   "iid": "bc42eaef-1bcd-3783-bec4-36cb31744b0f",
+   "doi": "10.2307/43905986",
+   "title": "'THEIR MEMORIES WILL NEVER GROW OLD': THE POLITICS OF REMEMBRANCE IN THE ATHENIAN FUNERAL ORATIONS",
+   "author": "JULIA L. SHEAR"
+  },
+  {
+   "book": "",
+   "page": 247,
+   "section": "a",
+   "line": 6,
+   "journal": "The Classical Quarterly",
+   "year": "2013",
+   "iid": "bc42eaef-1bcd-3783-bec4-36cb31744b0f",
+   "doi": "10.2307/43905986",
+   "title": "'THEIR MEMORIES WILL NEVER GROW OLD': THE POLITICS OF REMEMBRANCE IN THE ATHENIAN FUNERAL ORATIONS",
+   "author": "JULIA L. SHEAR"
+  },
+  {
+   "book": "",
+   "page": 244,
+   "section": "b",
+   "line": 3,
+   "journal": "The Classical Quarterly",
+   "year": "2013",
+   "iid": "bc42eaef-1bcd-3783-bec4-36cb31744b0f",
+   "doi": "10.2307/43905986",
+   "title": "'THEIR MEMORIES WILL NEVER GROW OLD': THE POLITICS OF REMEMBRANCE IN THE ATHENIAN FUNERAL ORATIONS",
+   "author": "JULIA L. SHEAR"
+  },
+  {
+   "book": "",
+   "page": 246,
+   "section": "a",
+   "line": 4,
+   "journal": "The Classical Quarterly",
+   "year": "2013",
+   "iid": "bc42eaef-1bcd-3783-bec4-36cb31744b0f",
+   "doi": "10.2307/43905986",
+   "title": "'THEIR MEMORIES WILL NEVER GROW OLD': THE POLITICS OF REMEMBRANCE IN THE ATHENIAN FUNERAL ORATIONS",
+   "author": "JULIA L. SHEAR"
+  },
+  {
+   "book": "",
+   "page": 248,
+   "section": "d",
+   "line": 6,
+   "journal": "The Classical Quarterly",
+   "year": "2013",
+   "iid": "bc42eaef-1bcd-3783-bec4-36cb31744b0f",
+   "doi": "10.2307/43905986",
+   "title": "'THEIR MEMORIES WILL NEVER GROW OLD': THE POLITICS OF REMEMBRANCE IN THE ATHENIAN FUNERAL ORATIONS",
+   "author": "JULIA L. SHEAR"
+  },
+  {
+   "book": "",
+   "page": 246,
+   "section": "c",
+   "line": 2,
+   "journal": "The Classical Quarterly",
+   "year": "2013",
+   "iid": "bc42eaef-1bcd-3783-bec4-36cb31744b0f",
+   "doi": "10.2307/43905986",
+   "title": "'THEIR MEMORIES WILL NEVER GROW OLD': THE POLITICS OF REMEMBRANCE IN THE ATHENIAN FUNERAL ORATIONS",
+   "author": "JULIA L. SHEAR"
+  },
+  {
+   "book": "",
+   "page": 248,
+   "section": "d",
+   "line": 7,
+   "journal": "The Classical Quarterly",
+   "year": "2013",
+   "iid": "bc42eaef-1bcd-3783-bec4-36cb31744b0f",
+   "doi": "10.2307/43905986",
+   "title": "'THEIR MEMORIES WILL NEVER GROW OLD': THE POLITICS OF REMEMBRANCE IN THE ATHENIAN FUNERAL ORATIONS",
+   "author": "JULIA L. SHEAR"
+  },
+  {
+   "book": "",
+   "page": 235,
+   "section": "b",
+   "line": 2,
+   "journal": "The Classical Quarterly",
+   "year": "2013",
+   "iid": "bc42eaef-1bcd-3783-bec4-36cb31744b0f",
+   "doi": "10.2307/43905986",
+   "title": "'THEIR MEMORIES WILL NEVER GROW OLD': THE POLITICS OF REMEMBRANCE IN THE ATHENIAN FUNERAL ORATIONS",
+   "author": "JULIA L. SHEAR"
+  },
+  {
+   "book": "",
+   "page": 246,
+   "section": "a",
+   "line": 5,
+   "journal": "The Classical Quarterly",
+   "year": "2013",
+   "iid": "bc42eaef-1bcd-3783-bec4-36cb31744b0f",
+   "doi": "10.2307/43905986",
+   "title": "'THEIR MEMORIES WILL NEVER GROW OLD': THE POLITICS OF REMEMBRANCE IN THE ATHENIAN FUNERAL ORATIONS",
+   "author": "JULIA L. SHEAR"
+  },
+  {
+   "book": "",
+   "page": 240,
+   "section": "c",
+   "line": 4,
+   "journal": "The Classical Quarterly",
+   "year": "2013",
+   "iid": "bc42eaef-1bcd-3783-bec4-36cb31744b0f",
+   "doi": "10.2307/43905986",
+   "title": "'THEIR MEMORIES WILL NEVER GROW OLD': THE POLITICS OF REMEMBRANCE IN THE ATHENIAN FUNERAL ORATIONS",
+   "author": "JULIA L. SHEAR"
+  },
+  {
+   "book": "",
+   "page": 243,
+   "section": "d",
+   "line": 7,
+   "journal": "The Classical Quarterly",
+   "year": "2013",
+   "iid": "bc42eaef-1bcd-3783-bec4-36cb31744b0f",
+   "doi": "10.2307/43905986",
+   "title": "'THEIR MEMORIES WILL NEVER GROW OLD': THE POLITICS OF REMEMBRANCE IN THE ATHENIAN FUNERAL ORATIONS",
+   "author": "JULIA L. SHEAR"
+  },
+  {
+   "book": "",
+   "page": 239,
+   "section": "b",
+   "line": 3,
+   "journal": "The Classical Quarterly",
+   "year": "2013",
+   "iid": "bc42eaef-1bcd-3783-bec4-36cb31744b0f",
+   "doi": "10.2307/43905986",
+   "title": "'THEIR MEMORIES WILL NEVER GROW OLD': THE POLITICS OF REMEMBRANCE IN THE ATHENIAN FUNERAL ORATIONS",
+   "author": "JULIA L. SHEAR"
+  },
+  {
+   "book": "",
+   "page": 239,
+   "section": "b",
+   "line": 5,
+   "journal": "The Classical Quarterly",
+   "year": "2013",
+   "iid": "bc42eaef-1bcd-3783-bec4-36cb31744b0f",
+   "doi": "10.2307/43905986",
+   "title": "'THEIR MEMORIES WILL NEVER GROW OLD': THE POLITICS OF REMEMBRANCE IN THE ATHENIAN FUNERAL ORATIONS",
+   "author": "JULIA L. SHEAR"
+  },
+  {
+   "book": "",
+   "page": 239,
+   "section": "b",
+   "line": 5,
+   "journal": "The Classical Quarterly",
+   "year": "2013",
+   "iid": "bc42eaef-1bcd-3783-bec4-36cb31744b0f",
+   "doi": "10.2307/43905986",
+   "title": "'THEIR MEMORIES WILL NEVER GROW OLD': THE POLITICS OF REMEMBRANCE IN THE ATHENIAN FUNERAL ORATIONS",
+   "author": "JULIA L. SHEAR"
+  },
+  {
+   "book": "",
+   "page": 246,
+   "section": "a",
+   "line": 5,
+   "journal": "The Classical Quarterly",
+   "year": "2013",
+   "iid": "bc42eaef-1bcd-3783-bec4-36cb31744b0f",
+   "doi": "10.2307/43905986",
+   "title": "'THEIR MEMORIES WILL NEVER GROW OLD': THE POLITICS OF REMEMBRANCE IN THE ATHENIAN FUNERAL ORATIONS",
+   "author": "JULIA L. SHEAR"
+  },
+  {
+   "book": "",
+   "page": 244,
+   "section": "b",
+   "line": 3,
+   "journal": "The Classical Quarterly",
+   "year": "2013",
+   "iid": "bc42eaef-1bcd-3783-bec4-36cb31744b0f",
+   "doi": "10.2307/43905986",
+   "title": "'THEIR MEMORIES WILL NEVER GROW OLD': THE POLITICS OF REMEMBRANCE IN THE ATHENIAN FUNERAL ORATIONS",
+   "author": "JULIA L. SHEAR"
+  },
+  {
+   "book": "",
+   "page": 234,
+   "section": "b",
+   "line": 4,
+   "journal": "The Classical Quarterly",
+   "year": "2013",
+   "iid": "bc42eaef-1bcd-3783-bec4-36cb31744b0f",
+   "doi": "10.2307/43905986",
+   "title": "'THEIR MEMORIES WILL NEVER GROW OLD': THE POLITICS OF REMEMBRANCE IN THE ATHENIAN FUNERAL ORATIONS",
+   "author": "JULIA L. SHEAR"
+  },
+  {
+   "book": "",
+   "page": 240,
+   "section": "c",
+   "line": 2,
+   "journal": "The Classical Quarterly",
+   "year": "2013",
+   "iid": "bc42eaef-1bcd-3783-bec4-36cb31744b0f",
+   "doi": "10.2307/43905986",
+   "title": "'THEIR MEMORIES WILL NEVER GROW OLD': THE POLITICS OF REMEMBRANCE IN THE ATHENIAN FUNERAL ORATIONS",
+   "author": "JULIA L. SHEAR"
+  },
+  {
+   "book": "",
+   "page": 242,
+   "section": "c",
+   "line": 5,
+   "journal": "The Classical Quarterly",
+   "year": "2013",
+   "iid": "bc42eaef-1bcd-3783-bec4-36cb31744b0f",
+   "doi": "10.2307/43905986",
+   "title": "'THEIR MEMORIES WILL NEVER GROW OLD': THE POLITICS OF REMEMBRANCE IN THE ATHENIAN FUNERAL ORATIONS",
+   "author": "JULIA L. SHEAR"
+  },
+  {
+   "book": "",
+   "page": 239,
+   "section": "b",
+   "line": 3,
+   "journal": "The Classical Quarterly",
+   "year": "2013",
+   "iid": "bc42eaef-1bcd-3783-bec4-36cb31744b0f",
+   "doi": "10.2307/43905986",
+   "title": "'THEIR MEMORIES WILL NEVER GROW OLD': THE POLITICS OF REMEMBRANCE IN THE ATHENIAN FUNERAL ORATIONS",
+   "author": "JULIA L. SHEAR"
+  },
+  {
+   "book": "",
+   "page": 240,
+   "section": "c",
+   "line": 2,
+   "journal": "The Classical Quarterly",
+   "year": "2013",
+   "iid": "bc42eaef-1bcd-3783-bec4-36cb31744b0f",
+   "doi": "10.2307/43905986",
+   "title": "'THEIR MEMORIES WILL NEVER GROW OLD': THE POLITICS OF REMEMBRANCE IN THE ATHENIAN FUNERAL ORATIONS",
+   "author": "JULIA L. SHEAR"
+  },
+  {
+   "book": "",
+   "page": 249,
+   "section": "a",
+   "line": 6,
+   "journal": "The Classical Quarterly",
+   "year": "2013",
+   "iid": "bc42eaef-1bcd-3783-bec4-36cb31744b0f",
+   "doi": "10.2307/43905986",
+   "title": "'THEIR MEMORIES WILL NEVER GROW OLD': THE POLITICS OF REMEMBRANCE IN THE ATHENIAN FUNERAL ORATIONS",
+   "author": "JULIA L. SHEAR"
+  },
+  {
+   "book": "",
+   "page": 249,
+   "section": "a",
+   "line": 6,
+   "journal": "The Classical Quarterly",
+   "year": "2013",
+   "iid": "bc42eaef-1bcd-3783-bec4-36cb31744b0f",
+   "doi": "10.2307/43905986",
+   "title": "'THEIR MEMORIES WILL NEVER GROW OLD': THE POLITICS OF REMEMBRANCE IN THE ATHENIAN FUNERAL ORATIONS",
+   "author": "JULIA L. SHEAR"
+  },
+  {
+   "book": "",
+   "page": 246,
+   "section": "c",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1985",
+   "iid": "bd1c3480-a9d7-36fa-b2a3-99183f1f567f",
+   "doi": "10.2307/638800",
+   "title": "Αὐτὸς ἐκει̑νος: A Neglected Idiom",
+   "author": "R. Janko"
+  },
+  {
+   "book": "",
+   "page": 246,
+   "section": "c",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1985",
+   "iid": "bd1c3480-a9d7-36fa-b2a3-99183f1f567f",
+   "doi": "10.2307/638800",
+   "title": "Αὐτὸς ἐκει̑νος: A Neglected Idiom",
+   "author": "R. Janko"
+  },
+  {
+   "book": "",
+   "page": 236,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1996",
+   "iid": "bc7eefba-9b1a-398a-a801-f91517f74f09",
+   "doi": "10.2307/639791",
+   "title": "How to Avoid Being a Komodoumenos",
+   "author": "Alan H. Sommerstein"
+  },
+  {
+   "book": "",
+   "page": 238,
+   "section": "d",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1984",
+   "iid": "bde3ea66-34c9-3fac-a8e0-5071afb78c02",
+   "doi": "10.2307/3062480",
+   "title": "",
+   "author": "D. M. Lewis, V. Lynne Snyder Abel"
+  },
+  {
+   "book": "",
+   "page": 244,
+   "section": "d",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1968",
+   "iid": "c4868c5f-39ba-3803-984d-232637698d17",
+   "doi": "10.2307/267575",
+   "title": "Athenian Democracy and the Revival of Imperialistic Expansion at the Beginning of the Fourth Century B.C.",
+   "author": "S. Perlman"
+  },
+  {
+   "book": "",
+   "page": 245,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1968",
+   "iid": "c4868c5f-39ba-3803-984d-232637698d17",
+   "doi": "10.2307/267575",
+   "title": "Athenian Democracy and the Revival of Imperialistic Expansion at the Beginning of the Fourth Century B.C.",
+   "author": "S. Perlman"
+  },
+  {
+   "book": "",
+   "page": 234,
+   "section": "b",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1968",
+   "iid": "c4868c5f-39ba-3803-984d-232637698d17",
+   "doi": "10.2307/267575",
+   "title": "Athenian Democracy and the Revival of Imperialistic Expansion at the Beginning of the Fourth Century B.C.",
+   "author": "S. Perlman"
+  },
+  {
+   "book": "",
+   "page": 247,
+   "section": "b",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1919",
+   "iid": "c6fbff12-db0b-3c44-b289-3b7a9cab1bc5",
+   "doi": "10.2307/262922",
+   "title": "Greek and Latin Constructions in Implied Agreement",
+   "author": "Eugene S. McCartney"
+  },
+  {
+   "book": "",
+   "page": 235,
+   "section": "d",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1959",
+   "iid": "c8e34d90-71ec-3aff-a284-34a45cab6251",
+   "doi": "10.2307/266342",
+   "title": "",
+   "author": "William M. Calder, <suffix>III</suffix>, John Dewar Denniston, Denys Page"
+  },
+  {
+   "book": "",
+   "page": 235,
+   "section": "e",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1983",
+   "iid": "c7f30190-4203-3f89-bf0b-98c67a83848b",
+   "doi": "10.2307/638792",
+   "title": "Konnos' Figleaf?",
+   "author": "Alan H. Sommerstein"
+  },
+  {
+   "book": "",
+   "page": 249,
+   "section": "b",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1919",
+   "iid": "c82ed40a-f231-3856-8fa3-40a41f3281cf",
+   "doi": "10.2307/263500",
+   "title": "Athenian Casualty Lists",
+   "author": "Gertrude Smith"
+  },
+  {
+   "book": "",
+   "page": 238,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1936",
+   "iid": "d28ac884-ea97-31ba-aec7-3dacee3aba65",
+   "doi": "10.2307/637318",
+   "title": "Aristotle and the Koine-Notes on the Prepositions",
+   "author": "P. T. Stevens"
+  },
+  {
+   "book": "",
+   "page": 235,
+   "section": "e",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2003",
+   "iid": "d5c2289f-2191-3672-a800-fa236c30aac3",
+   "doi": "10.1086/420721",
+   "title": "Splendidior Vitro: Horace and Callimachus",
+   "author": "Dan Curley"
+  },
+  {
+   "book": "",
+   "page": 238,
+   "section": "a",
+   "line": 4,
+   "journal": "The Classical Quarterly",
+   "year": "2018",
+   "iid": "d61f3e06-0baf-3dde-af61-ae739fce10a6",
+   "doi": "10.2307/26670583",
+   "title": "IMITATING THE COSMOS",
+   "author": "LAURA ROSELLA SCHLUDERER"
+  },
+  {
+   "book": "",
+   "page": 245,
+   "section": "b",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1984",
+   "iid": "d66b9b51-359f-38d1-95cf-7864e6477113",
+   "doi": "10.2307/269667",
+   "title": "The Oligarchic Revolution at Rhodes, 391-89 B.C.",
+   "author": "E. David"
+  },
+  {
+   "book": "",
+   "page": 236,
+   "section": "c",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2018",
+   "iid": "d7cfac93-60fa-305b-9a98-a4b1850cbedc",
+   "doi": "10.2307/26670619",
+   "title": "THE HORTATIVE AORIST",
+   "author": "MICHAEL LLOYD"
+  },
+  {
+   "book": "",
+   "page": 247,
+   "section": "c",
+   "line": null,
+   "journal": "History of Philosophy Quarterly",
+   "year": "2012",
+   "iid": "d8e6fa18-40d5-3a6e-8958-40f1eebb61d1",
+   "doi": "10.2307/23212824",
+   "title": "FOOLS AND MALICIOUS PLEASURE IN PLATO'S \"PHILEBUS\"",
+   "author": "Emily A. Austin"
+  },
+  {
+   "book": "",
+   "page": 238,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1929",
+   "iid": "db866972-cfeb-3e72-b374-102cd6f332c2",
+   "doi": "10.2307/637173",
+   "title": "Sophoclea II",
+   "author": "A. C. Pearson"
+  },
+  {
+   "book": "",
+   "page": 243,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1969",
+   "iid": "dcdfe872-9b1c-3bd5-8d26-867e2ba68382",
+   "doi": "10.2307/268005",
+   "title": "The Trophies of the Persian Wars",
+   "author": "William C. West, <suffix>III</suffix>"
+  },
+  {
+   "book": "",
+   "page": 245,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1969",
+   "iid": "dcdfe872-9b1c-3bd5-8d26-867e2ba68382",
+   "doi": "10.2307/268005",
+   "title": "The Trophies of the Persian Wars",
+   "author": "William C. West, <suffix>III</suffix>"
+  },
+  {
+   "book": "",
+   "page": 245,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1969",
+   "iid": "dcdfe872-9b1c-3bd5-8d26-867e2ba68382",
+   "doi": "10.2307/268005",
+   "title": "The Trophies of the Persian Wars",
+   "author": "William C. West, <suffix>III</suffix>"
+  },
+  {
+   "book": "",
+   "page": 245,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1969",
+   "iid": "dcdfe872-9b1c-3bd5-8d26-867e2ba68382",
+   "doi": "10.2307/268005",
+   "title": "The Trophies of the Persian Wars",
+   "author": "William C. West, <suffix>III</suffix>"
+  },
+  {
+   "book": "",
+   "page": 245,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1969",
+   "iid": "dcdfe872-9b1c-3bd5-8d26-867e2ba68382",
+   "doi": "10.2307/268005",
+   "title": "The Trophies of the Persian Wars",
+   "author": "William C. West, <suffix>III</suffix>"
+  },
+  {
+   "book": "",
+   "page": 243,
+   "section": "c",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2019",
+   "iid": "e290e606-8c6c-3693-a6dd-ec0d288891af",
+   "doi": "10.2307/26621112",
+   "title": "“LIVING AS ONE WISHES” IN ATHENS",
+   "author": "JAKUB FILONIK"
+  },
+  {
+   "book": "",
+   "page": 242,
+   "section": "c",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2006",
+   "iid": "e4e42463-2d77-3a63-8303-6da075de97ee",
+   "doi": "10.2307/4493387",
+   "title": "'Citizen Cemeteries' in Classical Athens?",
+   "author": "Cynthia Patterson"
+  },
+  {
+   "book": "",
+   "page": 239,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1989",
+   "iid": "e57e1614-93d4-3975-bd56-ab49ad5a9b3f",
+   "doi": "10.2307/270269",
+   "title": "Review Article: Athenian Democracy: Institutions and Ideology",
+   "author": "Jochen Bleicken, Mogens Herman Hansen"
+  },
+  {
+   "book": "",
+   "page": 245,
+   "section": "e",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1958",
+   "iid": "e76ab427-1eb0-3307-b70c-fcb7bb27768d",
+   "doi": "10.2307/4181633",
+   "title": "Plato's \"Euthyphro\"",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 241,
+   "section": "c",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1990",
+   "iid": "e79e95c2-a6b7-3bf5-89d5-4359a2b0ef8f",
+   "doi": "10.2307/639309",
+   "title": "Democritus on Politics and the Care of the Soul: Appendix",
+   "author": "J. F. Procopé"
+  },
+  {
+   "book": "",
+   "page": 241,
+   "section": "e",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1999",
+   "iid": "f2ae0e42-6521-3ae9-a1dc-539301a81c5f",
+   "doi": "10.2307/713999",
+   "title": "",
+   "author": "Martin Mcavoy, M. C. Stokes"
+  },
+  {
+   "book": "",
+   "page": 242,
+   "section": "c",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1999",
+   "iid": "f2ae0e42-6521-3ae9-a1dc-539301a81c5f",
+   "doi": "10.2307/713999",
+   "title": "",
+   "author": "Martin Mcavoy, M. C. Stokes"
+  },
+  {
+   "book": "",
+   "page": 241,
+   "section": "e",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1999",
+   "iid": "f794e581-643d-3555-a25d-cc71d9e150e0",
+   "doi": "10.2307/713998",
+   "title": "",
+   "author": "David L. Toye, J. H. Schreiner"
+  },
+  {
+   "book": "",
+   "page": 242,
+   "section": "c",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1999",
+   "iid": "f794e581-643d-3555-a25d-cc71d9e150e0",
+   "doi": "10.2307/713998",
+   "title": "",
+   "author": "David L. Toye, J. H. Schreiner"
+  },
+  {
+   "book": "",
+   "page": 244,
+   "section": "e",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1997",
+   "iid": "fbb9afa8-e4a6-34fd-bbb3-db1e84f2ef53",
+   "doi": "10.2307/270589",
+   "title": "Euripides Heracles 1351 and the Hero's Encounter with Death",
+   "author": "John C. Gibert"
+  },
+  {
+   "book": "",
+   "page": 241,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1997",
+   "iid": "fbb9afa8-e4a6-34fd-bbb3-db1e84f2ef53",
+   "doi": "10.2307/270589",
+   "title": "Euripides Heracles 1351 and the Hero's Encounter with Death",
+   "author": "John C. Gibert"
+  },
+  {
+   "book": "",
+   "page": 239,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2001",
+   "iid": "fb469be6-1b3f-378e-ba67-c6243de67bb9",
+   "doi": "10.2307/3556339",
+   "title": "Diodoros on Delion and Euripides' Supplices",
+   "author": "Mark Toher"
+  },
+  {
+   "book": "",
+   "page": 234,
+   "section": "a",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1959",
+   "iid": "fd24f468-1d0d-34a6-8285-35b1320b00ee",
+   "doi": "10.2307/4181644",
+   "title": "Plato's \"Lysis\"",
+   "author": "Robert G. Hoerber"
+  }
+ ]
+}

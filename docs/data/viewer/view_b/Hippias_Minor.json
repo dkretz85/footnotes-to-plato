@@ -1,0 +1,2366 @@
+{
+ "work": "Hippias_Minor",
+ "faceted": false,
+ "tier": "uncertain",
+ "cells": [
+  {
+   "book": "",
+   "page": 363,
+   "section": "a",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "The Classical Review": 1,
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 363,
+   "section": "c",
+   "count": 4,
+   "articles": 3,
+   "by_journal": {
+    "Phronesis": 2,
+    "History of Philosophy Quarterly": 1,
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 363,
+   "section": "d",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 1,
+    "History of Philosophy Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 364,
+   "section": "a",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 1,
+    "History of Philosophy Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 364,
+   "section": "b",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 364,
+   "section": "c",
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "Phronesis": 2,
+    "History of Philosophy Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 364,
+   "section": "d",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 364,
+   "section": "e",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "History of Philosophy Quarterly": 1,
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 365,
+   "section": "b",
+   "count": 3,
+   "articles": 2,
+   "by_journal": {
+    "Classical Philology": 2,
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 365,
+   "section": "c",
+   "count": 3,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 1,
+    "The Classical Quarterly": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 365,
+   "section": "e",
+   "count": 6,
+   "articles": 2,
+   "by_journal": {
+    "Classical Philology": 1,
+    "The Classical Quarterly": 5
+   }
+  },
+  {
+   "book": "",
+   "page": 366,
+   "section": "a",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 1,
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 366,
+   "section": "b",
+   "count": 4,
+   "articles": 2,
+   "by_journal": {
+    "The Classical Quarterly": 3,
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 366,
+   "section": "c",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 366,
+   "section": "e",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 367,
+   "section": "c",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 367,
+   "section": "e",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Méthexis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 368,
+   "section": "a",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 1,
+    "Méthexis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 368,
+   "section": "b",
+   "count": 4,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 3,
+    "History of Philosophy Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 368,
+   "section": "c",
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 2,
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 368,
+   "section": "d",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 369,
+   "section": "a",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 369,
+   "section": "b",
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "Phronesis": 1,
+    "The Classical Review": 1,
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 369,
+   "section": "c",
+   "count": 6,
+   "articles": 3,
+   "by_journal": {
+    "Phronesis": 3,
+    "Classical Philology": 2,
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 369,
+   "section": "e",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 370,
+   "section": "e",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 371,
+   "section": "a",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 371,
+   "section": "c",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 371,
+   "section": "d",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 371,
+   "section": "e",
+   "count": 5,
+   "articles": 1,
+   "by_journal": {
+    "Classical Philology": 5
+   }
+  },
+  {
+   "book": "",
+   "page": 372,
+   "section": "a",
+   "count": 3,
+   "articles": 1,
+   "by_journal": {
+    "Classical Philology": 3
+   }
+  },
+  {
+   "book": "",
+   "page": 372,
+   "section": "b",
+   "count": 4,
+   "articles": 3,
+   "by_journal": {
+    "Phronesis": 1,
+    "Revue de Philosophie Ancienne": 1,
+    "Classical Philology": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 372,
+   "section": "c",
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "Phronesis": 1,
+    "Classical Philology": 1,
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 372,
+   "section": "d",
+   "count": 5,
+   "articles": 3,
+   "by_journal": {
+    "Phronesis": 3,
+    "Classical Philology": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 372,
+   "section": "e",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 373,
+   "section": "a",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Classical Philology": 1,
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 373,
+   "section": "c",
+   "count": 8,
+   "articles": 5,
+   "by_journal": {
+    "Phronesis": 2,
+    "The Classical Review": 2,
+    "Classical Philology": 3,
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 373,
+   "section": "d",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 1,
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 373,
+   "section": "e",
+   "count": 2,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Quarterly": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 374,
+   "section": "c",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 1,
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 374,
+   "section": "d",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 374,
+   "section": "e",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 1,
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 375,
+   "section": "a",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 375,
+   "section": "d",
+   "count": 13,
+   "articles": 4,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 1,
+    "Phronesis": 1,
+    "Classical Philology": 9,
+    "The Classical Quarterly": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 375,
+   "section": "e",
+   "count": 2,
+   "articles": 1,
+   "by_journal": {
+    "Classical Philology": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 376,
+   "section": "a",
+   "count": 6,
+   "articles": 4,
+   "by_journal": {
+    "Phronesis": 1,
+    "The Classical Review": 1,
+    "Classical Philology": 3,
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 376,
+   "section": "b",
+   "count": 24,
+   "articles": 3,
+   "by_journal": {
+    "Phronesis": 3,
+    "Classical Philology": 17,
+    "The Classical Quarterly": 4
+   }
+  },
+  {
+   "book": "",
+   "page": 376,
+   "section": "c",
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "Classical Philology": 1,
+    "Revue de Philosophie Ancienne": 1,
+    "The Classical Quarterly": 1
+   }
+  }
+ ],
+ "dots": [
+  {
+   "book": "",
+   "page": 368,
+   "section": "c",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "1993",
+   "iid": "01126344-242e-326f-9f44-516ab033ed4e",
+   "doi": "10.2307/24353916",
+   "title": "LECTURE DU CHARMIDE",
+   "author": "Sylvie Solère-Queval"
+  },
+  {
+   "book": "",
+   "page": 368,
+   "section": "b",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1962",
+   "iid": "02c1a1a7-6463-3ce4-bb1e-5acf7bd8c552",
+   "doi": "10.2307/4181705",
+   "title": "Plato's \"Lesser Hippias\"",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 372,
+   "section": "d",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1962",
+   "iid": "02c1a1a7-6463-3ce4-bb1e-5acf7bd8c552",
+   "doi": "10.2307/4181705",
+   "title": "Plato's \"Lesser Hippias\"",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 368,
+   "section": "c",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1962",
+   "iid": "02c1a1a7-6463-3ce4-bb1e-5acf7bd8c552",
+   "doi": "10.2307/4181705",
+   "title": "Plato's \"Lesser Hippias\"",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 368,
+   "section": "b",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1962",
+   "iid": "02c1a1a7-6463-3ce4-bb1e-5acf7bd8c552",
+   "doi": "10.2307/4181705",
+   "title": "Plato's \"Lesser Hippias\"",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 376,
+   "section": "b",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1962",
+   "iid": "02c1a1a7-6463-3ce4-bb1e-5acf7bd8c552",
+   "doi": "10.2307/4181705",
+   "title": "Plato's \"Lesser Hippias\"",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 364,
+   "section": "a",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1962",
+   "iid": "02c1a1a7-6463-3ce4-bb1e-5acf7bd8c552",
+   "doi": "10.2307/4181705",
+   "title": "Plato's \"Lesser Hippias\"",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 364,
+   "section": "c",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1962",
+   "iid": "02c1a1a7-6463-3ce4-bb1e-5acf7bd8c552",
+   "doi": "10.2307/4181705",
+   "title": "Plato's \"Lesser Hippias\"",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 373,
+   "section": "c",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1962",
+   "iid": "02c1a1a7-6463-3ce4-bb1e-5acf7bd8c552",
+   "doi": "10.2307/4181705",
+   "title": "Plato's \"Lesser Hippias\"",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 366,
+   "section": "a",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1962",
+   "iid": "02c1a1a7-6463-3ce4-bb1e-5acf7bd8c552",
+   "doi": "10.2307/4181705",
+   "title": "Plato's \"Lesser Hippias\"",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 368,
+   "section": "a",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1962",
+   "iid": "02c1a1a7-6463-3ce4-bb1e-5acf7bd8c552",
+   "doi": "10.2307/4181705",
+   "title": "Plato's \"Lesser Hippias\"",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 368,
+   "section": "b",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1962",
+   "iid": "02c1a1a7-6463-3ce4-bb1e-5acf7bd8c552",
+   "doi": "10.2307/4181705",
+   "title": "Plato's \"Lesser Hippias\"",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 369,
+   "section": "b",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1962",
+   "iid": "02c1a1a7-6463-3ce4-bb1e-5acf7bd8c552",
+   "doi": "10.2307/4181705",
+   "title": "Plato's \"Lesser Hippias\"",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 372,
+   "section": "b",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1962",
+   "iid": "02c1a1a7-6463-3ce4-bb1e-5acf7bd8c552",
+   "doi": "10.2307/4181705",
+   "title": "Plato's \"Lesser Hippias\"",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 376,
+   "section": "a",
+   "line": 3,
+   "journal": "Phronesis",
+   "year": "1962",
+   "iid": "02c1a1a7-6463-3ce4-bb1e-5acf7bd8c552",
+   "doi": "10.2307/4181705",
+   "title": "Plato's \"Lesser Hippias\"",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 367,
+   "section": "c",
+   "line": 8,
+   "journal": "Phronesis",
+   "year": "1962",
+   "iid": "02c1a1a7-6463-3ce4-bb1e-5acf7bd8c552",
+   "doi": "10.2307/4181705",
+   "title": "Plato's \"Lesser Hippias\"",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 369,
+   "section": "c",
+   "line": 4,
+   "journal": "Phronesis",
+   "year": "1962",
+   "iid": "02c1a1a7-6463-3ce4-bb1e-5acf7bd8c552",
+   "doi": "10.2307/4181705",
+   "title": "Plato's \"Lesser Hippias\"",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 369,
+   "section": "c",
+   "line": 7,
+   "journal": "Phronesis",
+   "year": "1962",
+   "iid": "02c1a1a7-6463-3ce4-bb1e-5acf7bd8c552",
+   "doi": "10.2307/4181705",
+   "title": "Plato's \"Lesser Hippias\"",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 369,
+   "section": "c",
+   "line": 8,
+   "journal": "Phronesis",
+   "year": "1962",
+   "iid": "02c1a1a7-6463-3ce4-bb1e-5acf7bd8c552",
+   "doi": "10.2307/4181705",
+   "title": "Plato's \"Lesser Hippias\"",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 370,
+   "section": "e",
+   "line": 2,
+   "journal": "Phronesis",
+   "year": "1962",
+   "iid": "02c1a1a7-6463-3ce4-bb1e-5acf7bd8c552",
+   "doi": "10.2307/4181705",
+   "title": "Plato's \"Lesser Hippias\"",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 371,
+   "section": "c",
+   "line": 4,
+   "journal": "Phronesis",
+   "year": "1962",
+   "iid": "02c1a1a7-6463-3ce4-bb1e-5acf7bd8c552",
+   "doi": "10.2307/4181705",
+   "title": "Plato's \"Lesser Hippias\"",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 372,
+   "section": "d",
+   "line": 7,
+   "journal": "Phronesis",
+   "year": "1962",
+   "iid": "02c1a1a7-6463-3ce4-bb1e-5acf7bd8c552",
+   "doi": "10.2307/4181705",
+   "title": "Plato's \"Lesser Hippias\"",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 372,
+   "section": "e",
+   "line": 3,
+   "journal": "Phronesis",
+   "year": "1962",
+   "iid": "02c1a1a7-6463-3ce4-bb1e-5acf7bd8c552",
+   "doi": "10.2307/4181705",
+   "title": "Plato's \"Lesser Hippias\"",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 373,
+   "section": "c",
+   "line": 7,
+   "journal": "Phronesis",
+   "year": "1962",
+   "iid": "02c1a1a7-6463-3ce4-bb1e-5acf7bd8c552",
+   "doi": "10.2307/4181705",
+   "title": "Plato's \"Lesser Hippias\"",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 373,
+   "section": "d",
+   "line": 6,
+   "journal": "Phronesis",
+   "year": "1962",
+   "iid": "02c1a1a7-6463-3ce4-bb1e-5acf7bd8c552",
+   "doi": "10.2307/4181705",
+   "title": "Plato's \"Lesser Hippias\"",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 374,
+   "section": "c",
+   "line": 3,
+   "journal": "Phronesis",
+   "year": "1962",
+   "iid": "02c1a1a7-6463-3ce4-bb1e-5acf7bd8c552",
+   "doi": "10.2307/4181705",
+   "title": "Plato's \"Lesser Hippias\"",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 374,
+   "section": "d",
+   "line": 6,
+   "journal": "Phronesis",
+   "year": "1962",
+   "iid": "02c1a1a7-6463-3ce4-bb1e-5acf7bd8c552",
+   "doi": "10.2307/4181705",
+   "title": "Plato's \"Lesser Hippias\"",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 374,
+   "section": "e",
+   "line": 3,
+   "journal": "Phronesis",
+   "year": "1962",
+   "iid": "02c1a1a7-6463-3ce4-bb1e-5acf7bd8c552",
+   "doi": "10.2307/4181705",
+   "title": "Plato's \"Lesser Hippias\"",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 376,
+   "section": "b",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1962",
+   "iid": "02c1a1a7-6463-3ce4-bb1e-5acf7bd8c552",
+   "doi": "10.2307/4181705",
+   "title": "Plato's \"Lesser Hippias\"",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 376,
+   "section": "b",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1962",
+   "iid": "02c1a1a7-6463-3ce4-bb1e-5acf7bd8c552",
+   "doi": "10.2307/4181705",
+   "title": "Plato's \"Lesser Hippias\"",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 365,
+   "section": "c",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1962",
+   "iid": "02c1a1a7-6463-3ce4-bb1e-5acf7bd8c552",
+   "doi": "10.2307/4181705",
+   "title": "Plato's \"Lesser Hippias\"",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 363,
+   "section": "c",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1962",
+   "iid": "02c1a1a7-6463-3ce4-bb1e-5acf7bd8c552",
+   "doi": "10.2307/4181705",
+   "title": "Plato's \"Lesser Hippias\"",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 363,
+   "section": "c",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1962",
+   "iid": "02c1a1a7-6463-3ce4-bb1e-5acf7bd8c552",
+   "doi": "10.2307/4181705",
+   "title": "Plato's \"Lesser Hippias\"",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 363,
+   "section": "d",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1962",
+   "iid": "02c1a1a7-6463-3ce4-bb1e-5acf7bd8c552",
+   "doi": "10.2307/4181705",
+   "title": "Plato's \"Lesser Hippias\"",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 363,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1905",
+   "iid": "1709f4ee-8d26-3214-bffd-c7f897739719",
+   "doi": "10.2307/695953",
+   "title": "",
+   "author": "Ernst Horneffer, R. G. Bury"
+  },
+  {
+   "book": "",
+   "page": 369,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1905",
+   "iid": "1709f4ee-8d26-3214-bffd-c7f897739719",
+   "doi": "10.2307/695953",
+   "title": "",
+   "author": "Ernst Horneffer, R. G. Bury"
+  },
+  {
+   "book": "",
+   "page": 363,
+   "section": "c",
+   "line": null,
+   "journal": "History of Philosophy Quarterly",
+   "year": "1995",
+   "iid": "2c44d1bc-e529-32d7-a79a-ac8e072324c3",
+   "doi": "10.2307/27744664",
+   "title": "How to Discriminate between Experts and Frauds: Some Problems for Socratic Peirastic",
+   "author": "Jyl Gentzler"
+  },
+  {
+   "book": "",
+   "page": 363,
+   "section": "d",
+   "line": null,
+   "journal": "History of Philosophy Quarterly",
+   "year": "1995",
+   "iid": "2c44d1bc-e529-32d7-a79a-ac8e072324c3",
+   "doi": "10.2307/27744664",
+   "title": "How to Discriminate between Experts and Frauds: Some Problems for Socratic Peirastic",
+   "author": "Jyl Gentzler"
+  },
+  {
+   "book": "",
+   "page": 364,
+   "section": "c",
+   "line": null,
+   "journal": "History of Philosophy Quarterly",
+   "year": "1995",
+   "iid": "2c44d1bc-e529-32d7-a79a-ac8e072324c3",
+   "doi": "10.2307/27744664",
+   "title": "How to Discriminate between Experts and Frauds: Some Problems for Socratic Peirastic",
+   "author": "Jyl Gentzler"
+  },
+  {
+   "book": "",
+   "page": 364,
+   "section": "e",
+   "line": null,
+   "journal": "History of Philosophy Quarterly",
+   "year": "1995",
+   "iid": "2c44d1bc-e529-32d7-a79a-ac8e072324c3",
+   "doi": "10.2307/27744664",
+   "title": "How to Discriminate between Experts and Frauds: Some Problems for Socratic Peirastic",
+   "author": "Jyl Gentzler"
+  },
+  {
+   "book": "",
+   "page": 364,
+   "section": "a",
+   "line": null,
+   "journal": "History of Philosophy Quarterly",
+   "year": "1995",
+   "iid": "2c44d1bc-e529-32d7-a79a-ac8e072324c3",
+   "doi": "10.2307/27744664",
+   "title": "How to Discriminate between Experts and Frauds: Some Problems for Socratic Peirastic",
+   "author": "Jyl Gentzler"
+  },
+  {
+   "book": "",
+   "page": 375,
+   "section": "d",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2022",
+   "iid": "353e3723-b29a-3c0e-9e47-74b1a6544150",
+   "doi": "10.2307/27264529",
+   "title": "ASKÊSIS, GENÈSE DE LAVERTU ET EXEMPLARITÉ DE SOCRATE CHEZ PLATON ET XÉNOPHON",
+   "author": "Louis-André DORION"
+  },
+  {
+   "book": "",
+   "page": 372,
+   "section": "b",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2022",
+   "iid": "353e3723-b29a-3c0e-9e47-74b1a6544150",
+   "doi": "10.2307/27264529",
+   "title": "ASKÊSIS, GENÈSE DE LAVERTU ET EXEMPLARITÉ DE SOCRATE CHEZ PLATON ET XÉNOPHON",
+   "author": "Louis-André DORION"
+  },
+  {
+   "book": "",
+   "page": 369,
+   "section": "a",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "1992",
+   "iid": "37254824-ffe8-36f3-9019-fcfc0946d33d",
+   "doi": "10.2307/24353900",
+   "title": "L'INVOCATION AUX MUSES ET LEUR REPONSE (Platon, \"Rép.\" VIII, 545d - 547c)",
+   "author": "Marcel Meulder"
+  },
+  {
+   "book": "",
+   "page": 372,
+   "section": "d",
+   "line": 3,
+   "journal": "Phronesis",
+   "year": "2022",
+   "iid": "4fc9ec93-541c-3678-b7d6-4b0cee18376f",
+   "doi": "10.2307/27363945",
+   "title": "Ignorance in Plato's <em>Protagoras</em>",
+   "author": "Wenjin Liu"
+  },
+  {
+   "book": "",
+   "page": 367,
+   "section": "e",
+   "line": null,
+   "journal": "Méthexis",
+   "year": "2011",
+   "iid": "5e2892d9-51c6-3413-920c-1dd365d13464",
+   "doi": "10.2307/43738842",
+   "title": "DES ARGUMENTS PROTAGORÉENS CONTRE LE CHANGEMENT. \"THÉÉTÈTE ET PHÉDON\"",
+   "author": "ANNE BALANSARD"
+  },
+  {
+   "book": "",
+   "page": 368,
+   "section": "a",
+   "line": null,
+   "journal": "Méthexis",
+   "year": "2011",
+   "iid": "5e2892d9-51c6-3413-920c-1dd365d13464",
+   "doi": "10.2307/43738842",
+   "title": "DES ARGUMENTS PROTAGORÉENS CONTRE LE CHANGEMENT. \"THÉÉTÈTE ET PHÉDON\"",
+   "author": "ANNE BALANSARD"
+  },
+  {
+   "book": "",
+   "page": 372,
+   "section": "c",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1992",
+   "iid": "807f86cc-c439-33ed-8b4e-1d0dba75f1cc",
+   "doi": "10.2307/4182412",
+   "title": "Vlastos's Socrates",
+   "author": "Gregory Vlastos, Charles H. Kahn"
+  },
+  {
+   "book": "",
+   "page": 373,
+   "section": "c",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1997",
+   "iid": "845342f9-a26a-316f-8312-9732f380a4f4",
+   "doi": "10.2307/710575",
+   "title": "",
+   "author": "F. Vian, A. S. Hollis"
+  },
+  {
+   "book": "",
+   "page": 376,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1903",
+   "iid": "840a8cea-d175-3fee-bc42-a86f0251f613",
+   "doi": "10.2307/696306",
+   "title": "Vindobonensis F and the Text of Plato",
+   "author": "John Burnet"
+  },
+  {
+   "book": "",
+   "page": 374,
+   "section": "c",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1926",
+   "iid": "8efae639-7315-344c-aa0f-dda73db90442",
+   "doi": "10.2307/635772",
+   "title": "On the Authenticity of the Hippias Maior",
+   "author": "G. M. A. Grube"
+  },
+  {
+   "book": "",
+   "page": 375,
+   "section": "d",
+   "line": 8,
+   "journal": "Phronesis",
+   "year": "1994",
+   "iid": "915aceb8-357a-3f39-83fe-92640a13226f",
+   "doi": "10.2307/4182454",
+   "title": "The Desire for Good: Is the \"Meno\" Inconsistent with the \"Gorgias\"?",
+   "author": "C. J. Rowe, Terry Penner"
+  },
+  {
+   "book": "",
+   "page": 368,
+   "section": "b",
+   "line": null,
+   "journal": "History of Philosophy Quarterly",
+   "year": "1987",
+   "iid": "9bb61665-47da-3ca3-89bf-81d471a76eaa",
+   "doi": "10.2307/27743803",
+   "title": "The Erotics of Philosophical Discourse",
+   "author": "David L. Roochnik"
+  },
+  {
+   "book": "",
+   "page": 375,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1984",
+   "iid": "a3f51593-ef8a-3f80-98ad-6529bac06d8a",
+   "doi": "10.2307/269676",
+   "title": "",
+   "author": "David B. Claus, R. Renehan"
+  },
+  {
+   "book": "",
+   "page": 376,
+   "section": "b",
+   "line": 5,
+   "journal": "Classical Philology",
+   "year": "2017",
+   "iid": "baf045b3-26bc-3d74-a239-00f650b97fcf",
+   "doi": "10.2307/26543449",
+   "title": "THE WANDERING HERO OF THE <em>HIPPIAS MINOR</em>",
+   "author": "RUSSELL E. JONES, RAVI SHARMA"
+  },
+  {
+   "book": "",
+   "page": 376,
+   "section": "b",
+   "line": 8,
+   "journal": "Classical Philology",
+   "year": "2017",
+   "iid": "baf045b3-26bc-3d74-a239-00f650b97fcf",
+   "doi": "10.2307/26543449",
+   "title": "THE WANDERING HERO OF THE <em>HIPPIAS MINOR</em>",
+   "author": "RUSSELL E. JONES, RAVI SHARMA"
+  },
+  {
+   "book": "",
+   "page": 376,
+   "section": "b",
+   "line": 7,
+   "journal": "Classical Philology",
+   "year": "2017",
+   "iid": "baf045b3-26bc-3d74-a239-00f650b97fcf",
+   "doi": "10.2307/26543449",
+   "title": "THE WANDERING HERO OF THE <em>HIPPIAS MINOR</em>",
+   "author": "RUSSELL E. JONES, RAVI SHARMA"
+  },
+  {
+   "book": "",
+   "page": 375,
+   "section": "d",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2017",
+   "iid": "baf045b3-26bc-3d74-a239-00f650b97fcf",
+   "doi": "10.2307/26543449",
+   "title": "THE WANDERING HERO OF THE <em>HIPPIAS MINOR</em>",
+   "author": "RUSSELL E. JONES, RAVI SHARMA"
+  },
+  {
+   "book": "",
+   "page": 375,
+   "section": "d",
+   "line": 7,
+   "journal": "Classical Philology",
+   "year": "2017",
+   "iid": "baf045b3-26bc-3d74-a239-00f650b97fcf",
+   "doi": "10.2307/26543449",
+   "title": "THE WANDERING HERO OF THE <em>HIPPIAS MINOR</em>",
+   "author": "RUSSELL E. JONES, RAVI SHARMA"
+  },
+  {
+   "book": "",
+   "page": 376,
+   "section": "c",
+   "line": 3,
+   "journal": "Classical Philology",
+   "year": "2017",
+   "iid": "baf045b3-26bc-3d74-a239-00f650b97fcf",
+   "doi": "10.2307/26543449",
+   "title": "THE WANDERING HERO OF THE <em>HIPPIAS MINOR</em>",
+   "author": "RUSSELL E. JONES, RAVI SHARMA"
+  },
+  {
+   "book": "",
+   "page": 376,
+   "section": "b",
+   "line": 8,
+   "journal": "Classical Philology",
+   "year": "2017",
+   "iid": "baf045b3-26bc-3d74-a239-00f650b97fcf",
+   "doi": "10.2307/26543449",
+   "title": "THE WANDERING HERO OF THE <em>HIPPIAS MINOR</em>",
+   "author": "RUSSELL E. JONES, RAVI SHARMA"
+  },
+  {
+   "book": "",
+   "page": 376,
+   "section": "b",
+   "line": 6,
+   "journal": "Classical Philology",
+   "year": "2017",
+   "iid": "baf045b3-26bc-3d74-a239-00f650b97fcf",
+   "doi": "10.2307/26543449",
+   "title": "THE WANDERING HERO OF THE <em>HIPPIAS MINOR</em>",
+   "author": "RUSSELL E. JONES, RAVI SHARMA"
+  },
+  {
+   "book": "",
+   "page": 376,
+   "section": "b",
+   "line": 7,
+   "journal": "Classical Philology",
+   "year": "2017",
+   "iid": "baf045b3-26bc-3d74-a239-00f650b97fcf",
+   "doi": "10.2307/26543449",
+   "title": "THE WANDERING HERO OF THE <em>HIPPIAS MINOR</em>",
+   "author": "RUSSELL E. JONES, RAVI SHARMA"
+  },
+  {
+   "book": "",
+   "page": 376,
+   "section": "b",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2017",
+   "iid": "baf045b3-26bc-3d74-a239-00f650b97fcf",
+   "doi": "10.2307/26543449",
+   "title": "THE WANDERING HERO OF THE <em>HIPPIAS MINOR</em>",
+   "author": "RUSSELL E. JONES, RAVI SHARMA"
+  },
+  {
+   "book": "",
+   "page": 376,
+   "section": "b",
+   "line": 7,
+   "journal": "Classical Philology",
+   "year": "2017",
+   "iid": "baf045b3-26bc-3d74-a239-00f650b97fcf",
+   "doi": "10.2307/26543449",
+   "title": "THE WANDERING HERO OF THE <em>HIPPIAS MINOR</em>",
+   "author": "RUSSELL E. JONES, RAVI SHARMA"
+  },
+  {
+   "book": "",
+   "page": 375,
+   "section": "d",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2017",
+   "iid": "baf045b3-26bc-3d74-a239-00f650b97fcf",
+   "doi": "10.2307/26543449",
+   "title": "THE WANDERING HERO OF THE <em>HIPPIAS MINOR</em>",
+   "author": "RUSSELL E. JONES, RAVI SHARMA"
+  },
+  {
+   "book": "",
+   "page": 375,
+   "section": "d",
+   "line": 3,
+   "journal": "Classical Philology",
+   "year": "2017",
+   "iid": "baf045b3-26bc-3d74-a239-00f650b97fcf",
+   "doi": "10.2307/26543449",
+   "title": "THE WANDERING HERO OF THE <em>HIPPIAS MINOR</em>",
+   "author": "RUSSELL E. JONES, RAVI SHARMA"
+  },
+  {
+   "book": "",
+   "page": 363,
+   "section": "c",
+   "line": 7,
+   "journal": "Classical Philology",
+   "year": "2017",
+   "iid": "baf045b3-26bc-3d74-a239-00f650b97fcf",
+   "doi": "10.2307/26543449",
+   "title": "THE WANDERING HERO OF THE <em>HIPPIAS MINOR</em>",
+   "author": "RUSSELL E. JONES, RAVI SHARMA"
+  },
+  {
+   "book": "",
+   "page": 364,
+   "section": "d",
+   "line": 3,
+   "journal": "Classical Philology",
+   "year": "2017",
+   "iid": "baf045b3-26bc-3d74-a239-00f650b97fcf",
+   "doi": "10.2307/26543449",
+   "title": "THE WANDERING HERO OF THE <em>HIPPIAS MINOR</em>",
+   "author": "RUSSELL E. JONES, RAVI SHARMA"
+  },
+  {
+   "book": "",
+   "page": 372,
+   "section": "c",
+   "line": 8,
+   "journal": "Classical Philology",
+   "year": "2017",
+   "iid": "baf045b3-26bc-3d74-a239-00f650b97fcf",
+   "doi": "10.2307/26543449",
+   "title": "THE WANDERING HERO OF THE <em>HIPPIAS MINOR</em>",
+   "author": "RUSSELL E. JONES, RAVI SHARMA"
+  },
+  {
+   "book": "",
+   "page": 372,
+   "section": "b",
+   "line": 7,
+   "journal": "Classical Philology",
+   "year": "2017",
+   "iid": "baf045b3-26bc-3d74-a239-00f650b97fcf",
+   "doi": "10.2307/26543449",
+   "title": "THE WANDERING HERO OF THE <em>HIPPIAS MINOR</em>",
+   "author": "RUSSELL E. JONES, RAVI SHARMA"
+  },
+  {
+   "book": "",
+   "page": 373,
+   "section": "a",
+   "line": 2,
+   "journal": "Classical Philology",
+   "year": "2017",
+   "iid": "baf045b3-26bc-3d74-a239-00f650b97fcf",
+   "doi": "10.2307/26543449",
+   "title": "THE WANDERING HERO OF THE <em>HIPPIAS MINOR</em>",
+   "author": "RUSSELL E. JONES, RAVI SHARMA"
+  },
+  {
+   "book": "",
+   "page": 371,
+   "section": "e",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2017",
+   "iid": "baf045b3-26bc-3d74-a239-00f650b97fcf",
+   "doi": "10.2307/26543449",
+   "title": "THE WANDERING HERO OF THE <em>HIPPIAS MINOR</em>",
+   "author": "RUSSELL E. JONES, RAVI SHARMA"
+  },
+  {
+   "book": "",
+   "page": 372,
+   "section": "d",
+   "line": 7,
+   "journal": "Classical Philology",
+   "year": "2017",
+   "iid": "baf045b3-26bc-3d74-a239-00f650b97fcf",
+   "doi": "10.2307/26543449",
+   "title": "THE WANDERING HERO OF THE <em>HIPPIAS MINOR</em>",
+   "author": "RUSSELL E. JONES, RAVI SHARMA"
+  },
+  {
+   "book": "",
+   "page": 372,
+   "section": "b",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2017",
+   "iid": "baf045b3-26bc-3d74-a239-00f650b97fcf",
+   "doi": "10.2307/26543449",
+   "title": "THE WANDERING HERO OF THE <em>HIPPIAS MINOR</em>",
+   "author": "RUSSELL E. JONES, RAVI SHARMA"
+  },
+  {
+   "book": "",
+   "page": 372,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2017",
+   "iid": "baf045b3-26bc-3d74-a239-00f650b97fcf",
+   "doi": "10.2307/26543449",
+   "title": "THE WANDERING HERO OF THE <em>HIPPIAS MINOR</em>",
+   "author": "RUSSELL E. JONES, RAVI SHARMA"
+  },
+  {
+   "book": "",
+   "page": 372,
+   "section": "d",
+   "line": 8,
+   "journal": "Classical Philology",
+   "year": "2017",
+   "iid": "baf045b3-26bc-3d74-a239-00f650b97fcf",
+   "doi": "10.2307/26543449",
+   "title": "THE WANDERING HERO OF THE <em>HIPPIAS MINOR</em>",
+   "author": "RUSSELL E. JONES, RAVI SHARMA"
+  },
+  {
+   "book": "",
+   "page": 369,
+   "section": "c",
+   "line": 7,
+   "journal": "Classical Philology",
+   "year": "2017",
+   "iid": "baf045b3-26bc-3d74-a239-00f650b97fcf",
+   "doi": "10.2307/26543449",
+   "title": "THE WANDERING HERO OF THE <em>HIPPIAS MINOR</em>",
+   "author": "RUSSELL E. JONES, RAVI SHARMA"
+  },
+  {
+   "book": "",
+   "page": 375,
+   "section": "d",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2017",
+   "iid": "baf045b3-26bc-3d74-a239-00f650b97fcf",
+   "doi": "10.2307/26543449",
+   "title": "THE WANDERING HERO OF THE <em>HIPPIAS MINOR</em>",
+   "author": "RUSSELL E. JONES, RAVI SHARMA"
+  },
+  {
+   "book": "",
+   "page": 376,
+   "section": "b",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2017",
+   "iid": "baf045b3-26bc-3d74-a239-00f650b97fcf",
+   "doi": "10.2307/26543449",
+   "title": "THE WANDERING HERO OF THE <em>HIPPIAS MINOR</em>",
+   "author": "RUSSELL E. JONES, RAVI SHARMA"
+  },
+  {
+   "book": "",
+   "page": 373,
+   "section": "c",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2017",
+   "iid": "baf045b3-26bc-3d74-a239-00f650b97fcf",
+   "doi": "10.2307/26543449",
+   "title": "THE WANDERING HERO OF THE <em>HIPPIAS MINOR</em>",
+   "author": "RUSSELL E. JONES, RAVI SHARMA"
+  },
+  {
+   "book": "",
+   "page": 375,
+   "section": "d",
+   "line": 1,
+   "journal": "Classical Philology",
+   "year": "2017",
+   "iid": "baf045b3-26bc-3d74-a239-00f650b97fcf",
+   "doi": "10.2307/26543449",
+   "title": "THE WANDERING HERO OF THE <em>HIPPIAS MINOR</em>",
+   "author": "RUSSELL E. JONES, RAVI SHARMA"
+  },
+  {
+   "book": "",
+   "page": 373,
+   "section": "c",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2017",
+   "iid": "baf045b3-26bc-3d74-a239-00f650b97fcf",
+   "doi": "10.2307/26543449",
+   "title": "THE WANDERING HERO OF THE <em>HIPPIAS MINOR</em>",
+   "author": "RUSSELL E. JONES, RAVI SHARMA"
+  },
+  {
+   "book": "",
+   "page": 375,
+   "section": "d",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2017",
+   "iid": "baf045b3-26bc-3d74-a239-00f650b97fcf",
+   "doi": "10.2307/26543449",
+   "title": "THE WANDERING HERO OF THE <em>HIPPIAS MINOR</em>",
+   "author": "RUSSELL E. JONES, RAVI SHARMA"
+  },
+  {
+   "book": "",
+   "page": 375,
+   "section": "d",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2017",
+   "iid": "baf045b3-26bc-3d74-a239-00f650b97fcf",
+   "doi": "10.2307/26543449",
+   "title": "THE WANDERING HERO OF THE <em>HIPPIAS MINOR</em>",
+   "author": "RUSSELL E. JONES, RAVI SHARMA"
+  },
+  {
+   "book": "",
+   "page": 375,
+   "section": "d",
+   "line": 7,
+   "journal": "Classical Philology",
+   "year": "2017",
+   "iid": "baf045b3-26bc-3d74-a239-00f650b97fcf",
+   "doi": "10.2307/26543449",
+   "title": "THE WANDERING HERO OF THE <em>HIPPIAS MINOR</em>",
+   "author": "RUSSELL E. JONES, RAVI SHARMA"
+  },
+  {
+   "book": "",
+   "page": 373,
+   "section": "c",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2017",
+   "iid": "baf045b3-26bc-3d74-a239-00f650b97fcf",
+   "doi": "10.2307/26543449",
+   "title": "THE WANDERING HERO OF THE <em>HIPPIAS MINOR</em>",
+   "author": "RUSSELL E. JONES, RAVI SHARMA"
+  },
+  {
+   "book": "",
+   "page": 376,
+   "section": "b",
+   "line": 5,
+   "journal": "Classical Philology",
+   "year": "2017",
+   "iid": "baf045b3-26bc-3d74-a239-00f650b97fcf",
+   "doi": "10.2307/26543449",
+   "title": "THE WANDERING HERO OF THE <em>HIPPIAS MINOR</em>",
+   "author": "RUSSELL E. JONES, RAVI SHARMA"
+  },
+  {
+   "book": "",
+   "page": 376,
+   "section": "b",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2017",
+   "iid": "baf045b3-26bc-3d74-a239-00f650b97fcf",
+   "doi": "10.2307/26543449",
+   "title": "THE WANDERING HERO OF THE <em>HIPPIAS MINOR</em>",
+   "author": "RUSSELL E. JONES, RAVI SHARMA"
+  },
+  {
+   "book": "",
+   "page": 376,
+   "section": "b",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2017",
+   "iid": "baf045b3-26bc-3d74-a239-00f650b97fcf",
+   "doi": "10.2307/26543449",
+   "title": "THE WANDERING HERO OF THE <em>HIPPIAS MINOR</em>",
+   "author": "RUSSELL E. JONES, RAVI SHARMA"
+  },
+  {
+   "book": "",
+   "page": 371,
+   "section": "e",
+   "line": 9,
+   "journal": "Classical Philology",
+   "year": "2017",
+   "iid": "baf045b3-26bc-3d74-a239-00f650b97fcf",
+   "doi": "10.2307/26543449",
+   "title": "THE WANDERING HERO OF THE <em>HIPPIAS MINOR</em>",
+   "author": "RUSSELL E. JONES, RAVI SHARMA"
+  },
+  {
+   "book": "",
+   "page": 371,
+   "section": "e",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2017",
+   "iid": "baf045b3-26bc-3d74-a239-00f650b97fcf",
+   "doi": "10.2307/26543449",
+   "title": "THE WANDERING HERO OF THE <em>HIPPIAS MINOR</em>",
+   "author": "RUSSELL E. JONES, RAVI SHARMA"
+  },
+  {
+   "book": "",
+   "page": 371,
+   "section": "e",
+   "line": 2,
+   "journal": "Classical Philology",
+   "year": "2017",
+   "iid": "baf045b3-26bc-3d74-a239-00f650b97fcf",
+   "doi": "10.2307/26543449",
+   "title": "THE WANDERING HERO OF THE <em>HIPPIAS MINOR</em>",
+   "author": "RUSSELL E. JONES, RAVI SHARMA"
+  },
+  {
+   "book": "",
+   "page": 372,
+   "section": "a",
+   "line": 3,
+   "journal": "Classical Philology",
+   "year": "2017",
+   "iid": "baf045b3-26bc-3d74-a239-00f650b97fcf",
+   "doi": "10.2307/26543449",
+   "title": "THE WANDERING HERO OF THE <em>HIPPIAS MINOR</em>",
+   "author": "RUSSELL E. JONES, RAVI SHARMA"
+  },
+  {
+   "book": "",
+   "page": 372,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2017",
+   "iid": "baf045b3-26bc-3d74-a239-00f650b97fcf",
+   "doi": "10.2307/26543449",
+   "title": "THE WANDERING HERO OF THE <em>HIPPIAS MINOR</em>",
+   "author": "RUSSELL E. JONES, RAVI SHARMA"
+  },
+  {
+   "book": "",
+   "page": 365,
+   "section": "e",
+   "line": 1,
+   "journal": "Classical Philology",
+   "year": "2017",
+   "iid": "baf045b3-26bc-3d74-a239-00f650b97fcf",
+   "doi": "10.2307/26543449",
+   "title": "THE WANDERING HERO OF THE <em>HIPPIAS MINOR</em>",
+   "author": "RUSSELL E. JONES, RAVI SHARMA"
+  },
+  {
+   "book": "",
+   "page": 371,
+   "section": "d",
+   "line": 5,
+   "journal": "Classical Philology",
+   "year": "2017",
+   "iid": "baf045b3-26bc-3d74-a239-00f650b97fcf",
+   "doi": "10.2307/26543449",
+   "title": "THE WANDERING HERO OF THE <em>HIPPIAS MINOR</em>",
+   "author": "RUSSELL E. JONES, RAVI SHARMA"
+  },
+  {
+   "book": "",
+   "page": 371,
+   "section": "e",
+   "line": 6,
+   "journal": "Classical Philology",
+   "year": "2017",
+   "iid": "baf045b3-26bc-3d74-a239-00f650b97fcf",
+   "doi": "10.2307/26543449",
+   "title": "THE WANDERING HERO OF THE <em>HIPPIAS MINOR</em>",
+   "author": "RUSSELL E. JONES, RAVI SHARMA"
+  },
+  {
+   "book": "",
+   "page": 365,
+   "section": "b",
+   "line": 5,
+   "journal": "Classical Philology",
+   "year": "2017",
+   "iid": "baf045b3-26bc-3d74-a239-00f650b97fcf",
+   "doi": "10.2307/26543449",
+   "title": "THE WANDERING HERO OF THE <em>HIPPIAS MINOR</em>",
+   "author": "RUSSELL E. JONES, RAVI SHARMA"
+  },
+  {
+   "book": "",
+   "page": 371,
+   "section": "a",
+   "line": 3,
+   "journal": "Classical Philology",
+   "year": "2017",
+   "iid": "baf045b3-26bc-3d74-a239-00f650b97fcf",
+   "doi": "10.2307/26543449",
+   "title": "THE WANDERING HERO OF THE <em>HIPPIAS MINOR</em>",
+   "author": "RUSSELL E. JONES, RAVI SHARMA"
+  },
+  {
+   "book": "",
+   "page": 369,
+   "section": "c",
+   "line": 4,
+   "journal": "Classical Philology",
+   "year": "2017",
+   "iid": "baf045b3-26bc-3d74-a239-00f650b97fcf",
+   "doi": "10.2307/26543449",
+   "title": "THE WANDERING HERO OF THE <em>HIPPIAS MINOR</em>",
+   "author": "RUSSELL E. JONES, RAVI SHARMA"
+  },
+  {
+   "book": "",
+   "page": 365,
+   "section": "b",
+   "line": 4,
+   "journal": "Classical Philology",
+   "year": "2017",
+   "iid": "baf045b3-26bc-3d74-a239-00f650b97fcf",
+   "doi": "10.2307/26543449",
+   "title": "THE WANDERING HERO OF THE <em>HIPPIAS MINOR</em>",
+   "author": "RUSSELL E. JONES, RAVI SHARMA"
+  },
+  {
+   "book": "",
+   "page": 376,
+   "section": "b",
+   "line": 5,
+   "journal": "Classical Philology",
+   "year": "2017",
+   "iid": "baf045b3-26bc-3d74-a239-00f650b97fcf",
+   "doi": "10.2307/26543449",
+   "title": "THE WANDERING HERO OF THE <em>HIPPIAS MINOR</em>",
+   "author": "RUSSELL E. JONES, RAVI SHARMA"
+  },
+  {
+   "book": "",
+   "page": 376,
+   "section": "a",
+   "line": 6,
+   "journal": "Classical Philology",
+   "year": "2017",
+   "iid": "baf045b3-26bc-3d74-a239-00f650b97fcf",
+   "doi": "10.2307/26543449",
+   "title": "THE WANDERING HERO OF THE <em>HIPPIAS MINOR</em>",
+   "author": "RUSSELL E. JONES, RAVI SHARMA"
+  },
+  {
+   "book": "",
+   "page": 375,
+   "section": "e",
+   "line": 9,
+   "journal": "Classical Philology",
+   "year": "2017",
+   "iid": "baf045b3-26bc-3d74-a239-00f650b97fcf",
+   "doi": "10.2307/26543449",
+   "title": "THE WANDERING HERO OF THE <em>HIPPIAS MINOR</em>",
+   "author": "RUSSELL E. JONES, RAVI SHARMA"
+  },
+  {
+   "book": "",
+   "page": 375,
+   "section": "e",
+   "line": 9,
+   "journal": "Classical Philology",
+   "year": "2017",
+   "iid": "baf045b3-26bc-3d74-a239-00f650b97fcf",
+   "doi": "10.2307/26543449",
+   "title": "THE WANDERING HERO OF THE <em>HIPPIAS MINOR</em>",
+   "author": "RUSSELL E. JONES, RAVI SHARMA"
+  },
+  {
+   "book": "",
+   "page": 366,
+   "section": "c",
+   "line": 1,
+   "journal": "Classical Philology",
+   "year": "2017",
+   "iid": "baf045b3-26bc-3d74-a239-00f650b97fcf",
+   "doi": "10.2307/26543449",
+   "title": "THE WANDERING HERO OF THE <em>HIPPIAS MINOR</em>",
+   "author": "RUSSELL E. JONES, RAVI SHARMA"
+  },
+  {
+   "book": "",
+   "page": 376,
+   "section": "b",
+   "line": 5,
+   "journal": "Classical Philology",
+   "year": "2017",
+   "iid": "baf045b3-26bc-3d74-a239-00f650b97fcf",
+   "doi": "10.2307/26543449",
+   "title": "THE WANDERING HERO OF THE <em>HIPPIAS MINOR</em>",
+   "author": "RUSSELL E. JONES, RAVI SHARMA"
+  },
+  {
+   "book": "",
+   "page": 376,
+   "section": "a",
+   "line": 6,
+   "journal": "Classical Philology",
+   "year": "2017",
+   "iid": "baf045b3-26bc-3d74-a239-00f650b97fcf",
+   "doi": "10.2307/26543449",
+   "title": "THE WANDERING HERO OF THE <em>HIPPIAS MINOR</em>",
+   "author": "RUSSELL E. JONES, RAVI SHARMA"
+  },
+  {
+   "book": "",
+   "page": 376,
+   "section": "b",
+   "line": 5,
+   "journal": "Classical Philology",
+   "year": "2017",
+   "iid": "baf045b3-26bc-3d74-a239-00f650b97fcf",
+   "doi": "10.2307/26543449",
+   "title": "THE WANDERING HERO OF THE <em>HIPPIAS MINOR</em>",
+   "author": "RUSSELL E. JONES, RAVI SHARMA"
+  },
+  {
+   "book": "",
+   "page": 376,
+   "section": "b",
+   "line": 5,
+   "journal": "Classical Philology",
+   "year": "2017",
+   "iid": "baf045b3-26bc-3d74-a239-00f650b97fcf",
+   "doi": "10.2307/26543449",
+   "title": "THE WANDERING HERO OF THE <em>HIPPIAS MINOR</em>",
+   "author": "RUSSELL E. JONES, RAVI SHARMA"
+  },
+  {
+   "book": "",
+   "page": 376,
+   "section": "b",
+   "line": 5,
+   "journal": "Classical Philology",
+   "year": "2017",
+   "iid": "baf045b3-26bc-3d74-a239-00f650b97fcf",
+   "doi": "10.2307/26543449",
+   "title": "THE WANDERING HERO OF THE <em>HIPPIAS MINOR</em>",
+   "author": "RUSSELL E. JONES, RAVI SHARMA"
+  },
+  {
+   "book": "",
+   "page": 376,
+   "section": "a",
+   "line": 6,
+   "journal": "Classical Philology",
+   "year": "2017",
+   "iid": "baf045b3-26bc-3d74-a239-00f650b97fcf",
+   "doi": "10.2307/26543449",
+   "title": "THE WANDERING HERO OF THE <em>HIPPIAS MINOR</em>",
+   "author": "RUSSELL E. JONES, RAVI SHARMA"
+  },
+  {
+   "book": "",
+   "page": 376,
+   "section": "c",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "1999",
+   "iid": "c8ba8cdf-b300-3bca-b6f8-fadaa99a173c",
+   "doi": "10.2307/24354659",
+   "title": "LE TYRAN PLATONICIEN ET LES DIVINITÈS NOIRES",
+   "author": "Marcel Meulder"
+  },
+  {
+   "book": "",
+   "page": 369,
+   "section": "e",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1980",
+   "iid": "c8f57e6f-6357-36b0-a09a-2f81d5a04661",
+   "doi": "10.2307/638496",
+   "title": "Literary Criticism in the Exegetical Scholia to the Iliad: A Sketch",
+   "author": "N. J. Richardson"
+  },
+  {
+   "book": "",
+   "page": 365,
+   "section": "e",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1981",
+   "iid": "caeda972-b0dc-390b-bf85-f923c0fca69f",
+   "doi": "10.2307/638534",
+   "title": "Ὁ Ἀγαθός as Ὁ Δυνατός in the Hippias Minor",
+   "author": "Roslyn Weiss"
+  },
+  {
+   "book": "",
+   "page": 366,
+   "section": "b",
+   "line": 4,
+   "journal": "The Classical Quarterly",
+   "year": "1981",
+   "iid": "caeda972-b0dc-390b-bf85-f923c0fca69f",
+   "doi": "10.2307/638534",
+   "title": "Ὁ Ἀγαθός as Ὁ Δυνατός in the Hippias Minor",
+   "author": "Roslyn Weiss"
+  },
+  {
+   "book": "",
+   "page": 366,
+   "section": "b",
+   "line": 4,
+   "journal": "The Classical Quarterly",
+   "year": "1981",
+   "iid": "caeda972-b0dc-390b-bf85-f923c0fca69f",
+   "doi": "10.2307/638534",
+   "title": "Ὁ Ἀγαθός as Ὁ Δυνατός in the Hippias Minor",
+   "author": "Roslyn Weiss"
+  },
+  {
+   "book": "",
+   "page": 366,
+   "section": "b",
+   "line": 4,
+   "journal": "The Classical Quarterly",
+   "year": "1981",
+   "iid": "caeda972-b0dc-390b-bf85-f923c0fca69f",
+   "doi": "10.2307/638534",
+   "title": "Ὁ Ἀγαθός as Ὁ Δυνατός in the Hippias Minor",
+   "author": "Roslyn Weiss"
+  },
+  {
+   "book": "",
+   "page": 364,
+   "section": "e",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1981",
+   "iid": "caeda972-b0dc-390b-bf85-f923c0fca69f",
+   "doi": "10.2307/638534",
+   "title": "Ὁ Ἀγαθός as Ὁ Δυνατός in the Hippias Minor",
+   "author": "Roslyn Weiss"
+  },
+  {
+   "book": "",
+   "page": 365,
+   "section": "b",
+   "line": 8,
+   "journal": "The Classical Quarterly",
+   "year": "1981",
+   "iid": "caeda972-b0dc-390b-bf85-f923c0fca69f",
+   "doi": "10.2307/638534",
+   "title": "Ὁ Ἀγαθός as Ὁ Δυνατός in the Hippias Minor",
+   "author": "Roslyn Weiss"
+  },
+  {
+   "book": "",
+   "page": 365,
+   "section": "e",
+   "line": 3,
+   "journal": "The Classical Quarterly",
+   "year": "1981",
+   "iid": "caeda972-b0dc-390b-bf85-f923c0fca69f",
+   "doi": "10.2307/638534",
+   "title": "Ὁ Ἀγαθός as Ὁ Δυνατός in the Hippias Minor",
+   "author": "Roslyn Weiss"
+  },
+  {
+   "book": "",
+   "page": 365,
+   "section": "e",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1981",
+   "iid": "caeda972-b0dc-390b-bf85-f923c0fca69f",
+   "doi": "10.2307/638534",
+   "title": "Ὁ Ἀγαθός as Ὁ Δυνατός in the Hippias Minor",
+   "author": "Roslyn Weiss"
+  },
+  {
+   "book": "",
+   "page": 365,
+   "section": "c",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1981",
+   "iid": "caeda972-b0dc-390b-bf85-f923c0fca69f",
+   "doi": "10.2307/638534",
+   "title": "Ὁ Ἀγαθός as Ὁ Δυνατός in the Hippias Minor",
+   "author": "Roslyn Weiss"
+  },
+  {
+   "book": "",
+   "page": 365,
+   "section": "e",
+   "line": 2,
+   "journal": "The Classical Quarterly",
+   "year": "1981",
+   "iid": "caeda972-b0dc-390b-bf85-f923c0fca69f",
+   "doi": "10.2307/638534",
+   "title": "Ὁ Ἀγαθός as Ὁ Δυνατός in the Hippias Minor",
+   "author": "Roslyn Weiss"
+  },
+  {
+   "book": "",
+   "page": 365,
+   "section": "e",
+   "line": 2,
+   "journal": "The Classical Quarterly",
+   "year": "1981",
+   "iid": "caeda972-b0dc-390b-bf85-f923c0fca69f",
+   "doi": "10.2307/638534",
+   "title": "Ὁ Ἀγαθός as Ὁ Δυνατός in the Hippias Minor",
+   "author": "Roslyn Weiss"
+  },
+  {
+   "book": "",
+   "page": 365,
+   "section": "c",
+   "line": 3,
+   "journal": "The Classical Quarterly",
+   "year": "1981",
+   "iid": "caeda972-b0dc-390b-bf85-f923c0fca69f",
+   "doi": "10.2307/638534",
+   "title": "Ὁ Ἀγαθός as Ὁ Δυνατός in the Hippias Minor",
+   "author": "Roslyn Weiss"
+  },
+  {
+   "book": "",
+   "page": 366,
+   "section": "a",
+   "line": 5,
+   "journal": "The Classical Quarterly",
+   "year": "1981",
+   "iid": "caeda972-b0dc-390b-bf85-f923c0fca69f",
+   "doi": "10.2307/638534",
+   "title": "Ὁ Ἀγαθός as Ὁ Δυνατός in the Hippias Minor",
+   "author": "Roslyn Weiss"
+  },
+  {
+   "book": "",
+   "page": 373,
+   "section": "c",
+   "line": 6,
+   "journal": "The Classical Quarterly",
+   "year": "1981",
+   "iid": "caeda972-b0dc-390b-bf85-f923c0fca69f",
+   "doi": "10.2307/638534",
+   "title": "Ὁ Ἀγαθός as Ὁ Δυνατός in the Hippias Minor",
+   "author": "Roslyn Weiss"
+  },
+  {
+   "book": "",
+   "page": 369,
+   "section": "b",
+   "line": 8,
+   "journal": "The Classical Quarterly",
+   "year": "1981",
+   "iid": "caeda972-b0dc-390b-bf85-f923c0fca69f",
+   "doi": "10.2307/638534",
+   "title": "Ὁ Ἀγαθός as Ὁ Δυνατός in the Hippias Minor",
+   "author": "Roslyn Weiss"
+  },
+  {
+   "book": "",
+   "page": 366,
+   "section": "e",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1981",
+   "iid": "caeda972-b0dc-390b-bf85-f923c0fca69f",
+   "doi": "10.2307/638534",
+   "title": "Ὁ Ἀγαθός as Ὁ Δυνατός in the Hippias Minor",
+   "author": "Roslyn Weiss"
+  },
+  {
+   "book": "",
+   "page": 373,
+   "section": "e",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1981",
+   "iid": "caeda972-b0dc-390b-bf85-f923c0fca69f",
+   "doi": "10.2307/638534",
+   "title": "Ὁ Ἀγαθός as Ὁ Δυνατός in the Hippias Minor",
+   "author": "Roslyn Weiss"
+  },
+  {
+   "book": "",
+   "page": 374,
+   "section": "e",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1981",
+   "iid": "caeda972-b0dc-390b-bf85-f923c0fca69f",
+   "doi": "10.2307/638534",
+   "title": "Ὁ Ἀγαθός as Ὁ Δυνατός in the Hippias Minor",
+   "author": "Roslyn Weiss"
+  },
+  {
+   "book": "",
+   "page": 375,
+   "section": "d",
+   "line": 3,
+   "journal": "The Classical Quarterly",
+   "year": "1981",
+   "iid": "caeda972-b0dc-390b-bf85-f923c0fca69f",
+   "doi": "10.2307/638534",
+   "title": "Ὁ Ἀγαθός as Ὁ Δυνατός in the Hippias Minor",
+   "author": "Roslyn Weiss"
+  },
+  {
+   "book": "",
+   "page": 376,
+   "section": "b",
+   "line": 8,
+   "journal": "The Classical Quarterly",
+   "year": "1981",
+   "iid": "caeda972-b0dc-390b-bf85-f923c0fca69f",
+   "doi": "10.2307/638534",
+   "title": "Ὁ Ἀγαθός as Ὁ Δυνατός in the Hippias Minor",
+   "author": "Roslyn Weiss"
+  },
+  {
+   "book": "",
+   "page": 376,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1981",
+   "iid": "caeda972-b0dc-390b-bf85-f923c0fca69f",
+   "doi": "10.2307/638534",
+   "title": "Ὁ Ἀγαθός as Ὁ Δυνατός in the Hippias Minor",
+   "author": "Roslyn Weiss"
+  },
+  {
+   "book": "",
+   "page": 375,
+   "section": "d",
+   "line": 4,
+   "journal": "The Classical Quarterly",
+   "year": "1981",
+   "iid": "caeda972-b0dc-390b-bf85-f923c0fca69f",
+   "doi": "10.2307/638534",
+   "title": "Ὁ Ἀγαθός as Ὁ Δυνατός in the Hippias Minor",
+   "author": "Roslyn Weiss"
+  },
+  {
+   "book": "",
+   "page": 376,
+   "section": "c",
+   "line": 6,
+   "journal": "The Classical Quarterly",
+   "year": "1981",
+   "iid": "caeda972-b0dc-390b-bf85-f923c0fca69f",
+   "doi": "10.2307/638534",
+   "title": "Ὁ Ἀγαθός as Ὁ Δυνατός in the Hippias Minor",
+   "author": "Roslyn Weiss"
+  },
+  {
+   "book": "",
+   "page": 373,
+   "section": "d",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1981",
+   "iid": "caeda972-b0dc-390b-bf85-f923c0fca69f",
+   "doi": "10.2307/638534",
+   "title": "Ὁ Ἀγαθός as Ὁ Δυνατός in the Hippias Minor",
+   "author": "Roslyn Weiss"
+  },
+  {
+   "book": "",
+   "page": 373,
+   "section": "e",
+   "line": 4,
+   "journal": "The Classical Quarterly",
+   "year": "1981",
+   "iid": "caeda972-b0dc-390b-bf85-f923c0fca69f",
+   "doi": "10.2307/638534",
+   "title": "Ὁ Ἀγαθός as Ὁ Δυνατός in the Hippias Minor",
+   "author": "Roslyn Weiss"
+  },
+  {
+   "book": "",
+   "page": 376,
+   "section": "a",
+   "line": 5,
+   "journal": "The Classical Quarterly",
+   "year": "1981",
+   "iid": "caeda972-b0dc-390b-bf85-f923c0fca69f",
+   "doi": "10.2307/638534",
+   "title": "Ὁ Ἀγαθός as Ὁ Δυνατός in the Hippias Minor",
+   "author": "Roslyn Weiss"
+  },
+  {
+   "book": "",
+   "page": 376,
+   "section": "b",
+   "line": 5,
+   "journal": "The Classical Quarterly",
+   "year": "1981",
+   "iid": "caeda972-b0dc-390b-bf85-f923c0fca69f",
+   "doi": "10.2307/638534",
+   "title": "Ὁ Ἀγαθός as Ὁ Δυνατός in the Hippias Minor",
+   "author": "Roslyn Weiss"
+  },
+  {
+   "book": "",
+   "page": 376,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1981",
+   "iid": "caeda972-b0dc-390b-bf85-f923c0fca69f",
+   "doi": "10.2307/638534",
+   "title": "Ὁ Ἀγαθός as Ὁ Δυνατός in the Hippias Minor",
+   "author": "Roslyn Weiss"
+  },
+  {
+   "book": "",
+   "page": 373,
+   "section": "c",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1997",
+   "iid": "db8d651f-12bf-3a3c-843b-c1cf6f36aff4",
+   "doi": "10.2307/710576",
+   "title": "",
+   "author": "R. E. Allen, Robin Waterfield, Plato"
+  },
+  {
+   "book": "",
+   "page": 369,
+   "section": "c",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1987",
+   "iid": "db9b04d8-d84c-321d-a944-1bdda909e281",
+   "doi": "10.2307/639347",
+   "title": "Socratic Midwifery",
+   "author": "Julius Tomin"
+  },
+  {
+   "book": "",
+   "page": 372,
+   "section": "c",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1987",
+   "iid": "db9b04d8-d84c-321d-a944-1bdda909e281",
+   "doi": "10.2307/639347",
+   "title": "Socratic Midwifery",
+   "author": "Julius Tomin"
+  },
+  {
+   "book": "",
+   "page": 364,
+   "section": "c",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 363,
+   "section": "a",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 373,
+   "section": "a",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 364,
+   "section": "b",
+   "line": 4,
+   "journal": "Phronesis",
+   "year": "1990",
+   "iid": "ea03d9e2-aee9-3625-ac43-993dfe525ec4",
+   "doi": "10.2307/4182354",
+   "title": "\"Meno\", the Slave Boy and the Elenchos",
+   "author": "Hugh H. Benson"
+  },
+  {
+   "book": "",
+   "page": 366,
+   "section": "b",
+   "line": 7,
+   "journal": "Phronesis",
+   "year": "1984",
+   "iid": "fb0fb84b-90a7-3e3d-b651-0bc0a31bb064",
+   "doi": "10.2307/4182203",
+   "title": "Socrates on Desire for the Good and the Involuntariness of Wrongdoing: \"Gorgias\" 466a-468e",
+   "author": "Kevin McTighe"
+  },
+  {
+   "book": "",
+   "page": 368,
+   "section": "c",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "1989",
+   "iid": "ffe19c3f-c82f-3222-aa85-111a958fa2d6",
+   "doi": "10.2307/24353857",
+   "title": "CE QUE PLATON REPROCHE À HIPPIAS: UNE SUGGESTION",
+   "author": "Jean - Yves GOFFI"
+  },
+  {
+   "book": "",
+   "page": 368,
+   "section": "d",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "1989",
+   "iid": "ffe19c3f-c82f-3222-aa85-111a958fa2d6",
+   "doi": "10.2307/24353857",
+   "title": "CE QUE PLATON REPROCHE À HIPPIAS: UNE SUGGESTION",
+   "author": "Jean - Yves GOFFI"
+  }
+ ]
+}

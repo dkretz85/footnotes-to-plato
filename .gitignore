@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+
+# Node (only used for local testing)
+node_modules/
+package-lock.json
+package.json
+
+# macOS
+.DS_Store
+
+# ---------------------------------------------------------------------------
+# JSTOR source data — CONFIDENTIAL under the Text Analysis Support agreement.
+# These must never reach a public repository. Git history is permanent: a file
+# committed once survives deletion unless the history is rewritten.
+# ---------------------------------------------------------------------------
+*.tsv
+*.jsonl
+*.jsonl.gz
+resolved_with_books*
+review_queue*
+review_filing.html
+
+# Uncomment if viewer_data/ grows too large to version comfortably.
+# The published copy in docs/data/viewer/ carries the same files.
+# viewer_data/

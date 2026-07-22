@@ -1,0 +1,185 @@
+{
+ "work": "Rival_Lovers",
+ "faceted": false,
+ "tier": "uncertain",
+ "cells": [
+  {
+   "book": "",
+   "page": 133,
+   "section": "b",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 133,
+   "section": "c",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 134,
+   "section": "c",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 135,
+   "section": "c",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 137,
+   "section": "b",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 138,
+   "section": "a",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 138,
+   "section": "b",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 139,
+   "section": "e",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Quarterly": 1
+   }
+  }
+ ],
+ "dots": [
+  {
+   "book": "",
+   "page": 135,
+   "section": "c",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1985",
+   "iid": "2e67206d-7c65-357e-8815-6735d7f54b6d",
+   "doi": "10.2307/639066",
+   "title": "Some Types of Abnormal Word-Order in Attic Comedy",
+   "author": "K. J. Dover"
+  },
+  {
+   "book": "",
+   "page": 138,
+   "section": "b",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1981",
+   "iid": "88042875-c5f0-3d64-8379-452cf8de1abb",
+   "doi": "10.2307/270132",
+   "title": "",
+   "author": "Demetrius J. Georgacas, F. Wilbur Gingrich, Frederick W. Danker"
+  },
+  {
+   "book": "",
+   "page": 139,
+   "section": "e",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2001",
+   "iid": "aee1efc6-0ff9-31b7-9ef9-bc2fa56954cc",
+   "doi": "10.2307/3556531",
+   "title": "Plutarch's \"Amatorius\": A Commentary on Plato's Theories of Love?",
+   "author": "John M. Rist"
+  },
+  {
+   "book": "",
+   "page": 133,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2009",
+   "iid": "c590d5ce-36a0-336f-9f3c-de7bacb2876c",
+   "doi": "10.2307/20616698",
+   "title": "Traditional Forms of Wisdom and Politics in Plato's \"Apology\"",
+   "author": "Harvey Goldman"
+  },
+  {
+   "book": "",
+   "page": 138,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2009",
+   "iid": "c590d5ce-36a0-336f-9f3c-de7bacb2876c",
+   "doi": "10.2307/20616698",
+   "title": "Traditional Forms of Wisdom and Politics in Plato's \"Apology\"",
+   "author": "Harvey Goldman"
+  },
+  {
+   "book": "",
+   "page": 134,
+   "section": "c",
+   "line": 3,
+   "journal": "Phronesis",
+   "year": "2008",
+   "iid": "cdc94303-fa52-332a-9715-a1bfdb6bddd6",
+   "doi": "10.2307/40387947",
+   "title": "The Method ἐξ ὑποθέσεως at Meno 86e1-87d8",
+   "author": "David Wolfsdorf"
+  },
+  {
+   "book": "",
+   "page": 137,
+   "section": "b",
+   "line": 3,
+   "journal": "Phronesis",
+   "year": "2008",
+   "iid": "cdc94303-fa52-332a-9715-a1bfdb6bddd6",
+   "doi": "10.2307/40387947",
+   "title": "The Method ἐξ ὑποθέσεως at Meno 86e1-87d8",
+   "author": "David Wolfsdorf"
+  },
+  {
+   "book": "",
+   "page": 133,
+   "section": "c",
+   "line": 6,
+   "journal": "The Classical Quarterly",
+   "year": "2000",
+   "iid": "fbd477cf-20db-312c-a37a-c052082f91cd",
+   "doi": "10.2307/1558937",
+   "title": "The Subjection of Muthos to Logos: Plato's Citations of the Poets",
+   "author": "S. Halliwell"
+  }
+ ]
+}

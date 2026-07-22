@@ -1,0 +1,113 @@
+{
+ "work": "De_Divinatione_per_Somnum",
+ "faceted": false,
+ "tier": "uncertain",
+ "cells": [
+  {
+   "book": "",
+   "page": 463,
+   "section": "a",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 463,
+   "section": "b",
+   "count": 4,
+   "articles": 3,
+   "by_journal": {
+    "Méthexis": 2,
+    "Revue Internationale de Philosophie": 1,
+    "Revue de Philosophie Ancienne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 464,
+   "section": "a",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 1
+   }
+  }
+ ],
+ "dots": [
+  {
+   "book": "",
+   "page": 463,
+   "section": "b",
+   "line": 4,
+   "journal": "Méthexis",
+   "year": "2002",
+   "iid": "449012f8-f9b5-3944-953f-70d2fdcfb5ac",
+   "doi": "10.2307/43738674",
+   "title": "REALTÀ NOTTURNA",
+   "author": "STEFANO MASO"
+  },
+  {
+   "book": "",
+   "page": 463,
+   "section": "b",
+   "line": 22,
+   "journal": "Méthexis",
+   "year": "2002",
+   "iid": "449012f8-f9b5-3944-953f-70d2fdcfb5ac",
+   "doi": "10.2307/43738674",
+   "title": "REALTÀ NOTTURNA",
+   "author": "STEFANO MASO"
+  },
+  {
+   "book": "",
+   "page": 463,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1911",
+   "iid": "b96e567a-ebe7-3a75-ad69-4b7577c6e689",
+   "doi": "10.2307/261601",
+   "title": "The Omen of Sneezing",
+   "author": "Arthur Stanley Pease"
+  },
+  {
+   "book": "",
+   "page": 463,
+   "section": "b",
+   "line": 23,
+   "journal": "Revue Internationale de Philosophie",
+   "year": "1974",
+   "iid": "ba93687a-88b8-374b-b839-c168bbaa387d",
+   "doi": "10.2307/23943191",
+   "title": "FUTURE",
+   "author": "MICHITARO TANAKA"
+  },
+  {
+   "book": "",
+   "page": 463,
+   "section": "b",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2002",
+   "iid": "cd6d19d4-8a94-38a4-9a13-4854115145e2",
+   "doi": "10.2307/24354678",
+   "title": "LES \"PARVA NATURALIA\" D'ARISTOTE ET LE MOUVEMENT ANIMAL",
+   "author": "Pierre-Marie Morel"
+  },
+  {
+   "book": "",
+   "page": 464,
+   "section": "a",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2002",
+   "iid": "cd6d19d4-8a94-38a4-9a13-4854115145e2",
+   "doi": "10.2307/24354678",
+   "title": "LES \"PARVA NATURALIA\" D'ARISTOTE ET LE MOUVEMENT ANIMAL",
+   "author": "Pierre-Marie Morel"
+  }
+ ]
+}

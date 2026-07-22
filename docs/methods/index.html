@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Methods — Footnotes to Plato</title>
+<meta name="description" content="Pipeline, resolution logic, data quality, and known limitations for the Footnotes to Plato citation index.">
+<meta name="robots" content="noindex,nofollow">
+<link rel="stylesheet" href="/static/site.css">
+
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="draftbar">Draft — figures and text are still being checked. Not indexed; please do not cite yet.</div>
+<header class="site">
+  <div class="bar">
+    <a class="brand" href="/"><span class="bt">Footnotes to Plato</span></a>
+    <button class="navtoggle" aria-label="Menu" aria-expanded="false">☰</button>
+    <nav class="mainnav"><a href="/">Home</a><a href="/explore/works/">Works over time</a><a href="/explore/passages/">Passages</a><a href="/methods/" class="on">Methods</a><a href="/data/">Data</a><a href="/about/">About</a><a href="/contact/">Contact</a></nav>
+  </div>
+</header>
+<main id="main" class="">
+  <div class="pagehead">
+    <h1>Methods</h1>
+    <div class="sub">How the numbers were made, and how far they can be pushed</div>
+  </div>
+  <nav class="toc" aria-label="On this page"><div class="toc-h">On this page</div><ul><li class="l2"><a href="#the-pipeline-in-brief">The pipeline in brief</a></li><li class="l2"><a href="#what-placed-means">What &quot;placed&quot; means</a></li><li class="l2"><a href="#the-two-tiers">The two tiers</a></li><li class="l2"><a href="#what-is-deliberately-not-shown">What is deliberately not shown</a></li><li class="l2"><a href="#known-limitations">Known limitations</a></li><li class="l2"><a href="#checking-the-work">Checking the work</a></li></ul></nav>
+  <div class="prose">
+<p>This page is the short version. The <a href="/methods/pipeline/">full pipeline and methods record</a> documents the build as actually executed — including the bugs found, the assumptions tested, and the things still outstanding.</p>
+<h2 id="the-pipeline-in-brief">The pipeline in brief<a class="anchor" href="#the-pipeline-in-brief" aria-label="link">#</a></h2>
+<ol><li><strong>Delivery.</strong> A 381 MB gzipped full-text corpus from JSTOR Text Analysis Support: 69,177 documents across ten journals.</li><li><strong>Extraction.</strong> Candidate citation strings are pulled from article body text by shape — Stephanus (<code>509d</code>), Bekker (<code>1097b12</code>), and named-work forms. Roughly 141,000 genuine candidates survive filtering.</li><li><strong>Resolution.</strong> Each candidate is matched against reference tables of work boundaries. Where the locus falls unambiguously inside one work, it is resolved. Where it does not, it goes to a review queue with the competing candidates recorded.</li><li><strong>Aggregation.</strong> Resolved citations are counted per work, per passage, per journal and per year, and joined to article metadata for DOI links.</li></ol>
+<p>The governing principle is <strong>precision first</strong>: at every stage the default is to decline to resolve rather than guess, and every exclusion diverts data to an auditable file rather than deleting it.</p>
+<h2 id="what-placed-means">What "placed" means<a class="anchor" href="#what-placed-means" aria-label="link">#</a></h2>
+<p>Of about 141,000 candidates, <strong>90,502 (64%) were placed</strong> to a specific work and passage. The other 36% are not errors and are not lost — they are recorded in the review queue with their candidate works.</p>
+<p>The dominant reason for non-placement is <strong>collision</strong>. Stephanus pagination runs continuously across the Platonic corpus, so a citation to "80b" with no work named could belong to <em>Meno</em>, <em>Apology</em>, or several others. Where the surrounding text does not disambiguate, the pipeline declines to choose.</p>
+<p>This has an important consequence for reading the charts: <strong>placement rate is a property of a work's page range, not of its scholarly importance.</strong> <em>Crito</em> places at 20% not because it is neglected but because its Stephanus range is crowded.</p>
+<h2 id="the-two-tiers">The two tiers<a class="anchor" href="#the-two-tiers" aria-label="link">#</a></h2>
+<p>Works are split at an <strong>80% placement rate</strong>:</p>
+<ul><li><strong>Trustworthy</strong> (26 works) — at least 80% of detected citations resolve. Bar lengths and time series can be compared directly.</li><li><strong>Uncertain</strong> (42 works) — fewer do. The counts are floors: real lower bounds, but with a substantial and unevenly distributed gap.</li></ul>
+<p>The 80% cut was chosen from the actual distribution, which is genuinely bimodal — a dense mass below 50%, an empty valley between 50% and 79%, and a spike from 80% up. The threshold sits in the valley rather than at a round number picked in advance.</p>
+<p>Uncertain-tier works are <strong>included, not hidden</strong>. Excluding them would remove <em>Phaedo</em>, <em>Phaedrus</em>, <em>Gorgias</em>, <em>Apology</em>, <em>Meno</em> and <em>Crito</em> — 28% of all placed citations, and much of what the field actually argues about. They are marked instead: dashed lines in the time chart, a fading tail in the summary chart, and a stated placement rate wherever they appear.</p>
+<h2 id="what-is-deliberately-not-shown">What is deliberately not shown<a class="anchor" href="#what-is-deliberately-not-shown" aria-label="link">#</a></h2>
+<ul><li><strong>Unplaceable citations have no year or journal breakdown.</strong> A citation we could not attribute to a work cannot honestly be attributed to a decade either. When you filter by year, the uncertainty tail therefore stays at full width and turns grey rather than shrinking with the bars.</li><li><strong>The review queue's work attribution is non-exclusive.</strong> One ambiguous citation is filed under <em>every</em> candidate work, so those counts cannot be summed. This is why there is no "estimated true total" anywhere on the site.</li><li><strong>No verbatim article text.</strong> The citation context extracted during processing is confidential under the JSTOR agreement and is dropped before anything is written to a shareable file.</li></ul>
+<h2 id="known-limitations">Known limitations<a class="anchor" href="#known-limitations" aria-label="link">#</a></h2>
+<ul><li>Coverage is ten journals, articles only, Anglophone-skewed. See <a href="/about/#scope-and-its-limits">scope</a>.</li><li>Book divisions for faceted works are editorial conveniences; passage positions are exact, book boundaries are a display choice.</li><li>Line numbers parse noisily in the Bekker works, so line-band detail is grouped rather than exact.</li><li>Several Aristotelian treatise boundaries remain to be verified; see the <a href="/methods/pipeline/#9-known-limitations--the-honest-to-do-list">full record</a>.</li></ul>
+<h2 id="checking-the-work">Checking the work<a class="anchor" href="#checking-the-work" aria-label="link">#</a></h2>
+<p>The <a href="/data/">derived data is published</a> under CC BY 4.0, and the pipeline is open source. If you find an error, <a href="/contact/">please tell me</a> — corrections will be recorded and credited.</p>
+  </div>
+</main>
+<footer class="site">
+  <div class="fwrap">
+    <div>
+      <strong>Footnotes to Plato</strong> · A passage-level citation index of the ancient-philosophy scholarship<br>
+      <span class="muted">Built 2026-07-22. Derived from a JSTOR
+      Text Analysis Support delivery; a finding aid that links out to the
+      articles, never a substitute for them.</span>
+    </div>
+    <div class="flinks"><a href="/">Home</a><a href="/explore/works/">Works over time</a><a href="/explore/passages/">Passages</a><a href="/methods/">Methods</a><a href="/data/">Data</a><a href="/about/">About</a><a href="/contact/">Contact</a></div>
+  </div>
+</footer>
+<script src="/static/site.js"></script>
+</body>
+</html>

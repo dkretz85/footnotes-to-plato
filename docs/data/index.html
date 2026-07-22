@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Data — Footnotes to Plato</title>
+<meta name="description" content="Published derived data for Footnotes to Plato, with licensing terms and file documentation.">
+<meta name="robots" content="noindex,nofollow">
+<link rel="stylesheet" href="/static/site.css">
+
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="draftbar">Draft — figures and text are still being checked. Not indexed; please do not cite yet.</div>
+<header class="site">
+  <div class="bar">
+    <a class="brand" href="/"><span class="bt">Footnotes to Plato</span></a>
+    <button class="navtoggle" aria-label="Menu" aria-expanded="false">☰</button>
+    <nav class="mainnav"><a href="/">Home</a><a href="/explore/works/">Works over time</a><a href="/explore/passages/">Passages</a><a href="/methods/">Methods</a><a href="/data/" class="on">Data</a><a href="/about/">About</a><a href="/contact/">Contact</a></nav>
+  </div>
+</header>
+<main id="main" class="">
+  <div class="pagehead">
+    <h1>Data</h1>
+    <div class="sub">Download the derived data, or read what may and may not be redistributed</div>
+  </div>
+  
+  <div class="prose">
+<p>Everything the viewers use is published here. If you want to check a number, reproduce a chart, or build something else on top of this, start with these files.</p>
+<h2 id="what-is-published">What is published<a class="anchor" href="#what-is-published" aria-label="link">#</a></h2>
+<p><div class="callout"> <p><strong>Derived facts only.</strong> Each record says which work, which passage, which journal, which year, and which article DOI. There is no article text of any kind. The verbatim citation context extracted during processing is confidential under the JSTOR Text Analysis Support terms and is dropped before any shareable file is written.</p> </div></p>
+<div class='tablewrap'><table><thead><tr><th>File</th><th>Contents</th></tr></thead><tbody><tr><td>[<code>meta.json</code>](/data/viewer/meta.json)</td><td>Journals, year range and histogram, corpus totals, thresholds used.</td></tr><tr><td>[<code>view_a.json</code>](/data/viewer/view_a.json)</td><td>Per work: placed count, uncertainty band, unplaceable mass, placement rate, tier, distinct articles, collision partners.</td></tr><tr><td>[<code>view_a_filter.json</code>](/data/viewer/view_a_filter.json)</td><td>Per work: sparse journal × year matrix of placed citations. The time chart's source.</td></tr><tr><td>[<code>works_index.json</code>](/data/viewer/works_index.json)</td><td>Work list with tiers and totals.</td></tr><tr><td><code>view_b/&lt;work&gt;.json</code></td><td>Per work: section-level cells and per-citation records with DOI links.</td></tr></tbody></table></div>
+<h2 id="licence">Licence<a class="anchor" href="#licence" aria-label="link">#</a></h2>
+<p>The derived data is <strong>CC BY 4.0</strong> — use it for anything, including commercially, provided you attribute the source. See <a href="/about/#licensing">licensing</a> for the reasoning and for how the other components are licensed.</p>
+<p>The underlying JSTOR full text is <strong>not redistributable</strong> and is not available here. It never leaves the machine that processes it.</p>
+<h2 id="reproducing-the-build">Reproducing the build<a class="anchor" href="#reproducing-the-build" aria-label="link">#</a></h2>
+<p>The aggregator that produces these files runs locally against the JSTOR delivery. Given the delivery, <code>build_viewer_data.py</code> regenerates every file above, and prints invariant self-checks so a bad run announces itself.</p>
+<p>Without the delivery you cannot regenerate the data from scratch — but you can verify every published number against these files, and the <a href="/methods/pipeline/">methods record</a> documents each transformation between the two.</p>
+<h2 id="caveat-before-reuse">Caveat before reuse<a class="anchor" href="#caveat-before-reuse" aria-label="link">#</a></h2>
+<p>Placement rates vary enormously across works, and a raw count from <code>view_a.json</code> means something different for <em>Republic</em> (95% placed) than for <em>Crito</em> (20% placed). If you reuse these numbers, carry the tier and placement rate with them. See <a href="/methods/#the-two-tiers">the two tiers</a>.</p>
+  </div>
+</main>
+<footer class="site">
+  <div class="fwrap">
+    <div>
+      <strong>Footnotes to Plato</strong> · A passage-level citation index of the ancient-philosophy scholarship<br>
+      <span class="muted">Built 2026-07-22. Derived from a JSTOR
+      Text Analysis Support delivery; a finding aid that links out to the
+      articles, never a substitute for them.</span>
+    </div>
+    <div class="flinks"><a href="/">Home</a><a href="/explore/works/">Works over time</a><a href="/explore/passages/">Passages</a><a href="/methods/">Methods</a><a href="/data/">Data</a><a href="/about/">About</a><a href="/contact/">Contact</a></div>
+  </div>
+</footer>
+<script src="/static/site.js"></script>
+</body>
+</html>

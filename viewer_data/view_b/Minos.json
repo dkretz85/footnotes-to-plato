@@ -1,0 +1,544 @@
+{
+ "work": "Minos",
+ "faceted": false,
+ "tier": "trustworthy",
+ "cells": [
+  {
+   "book": "",
+   "page": 315,
+   "section": "a",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "The Classical Review": 1,
+    "Méthexis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 315,
+   "section": "c",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Classical Philology": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 315,
+   "section": "e",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 316,
+   "section": "c",
+   "count": 2,
+   "articles": 1,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 316,
+   "section": "e",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 317,
+   "section": "a",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "Revue de Philosophie Ancienne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 318,
+   "section": "b",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 318,
+   "section": "c",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 318,
+   "section": "d",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 319,
+   "section": "c",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 319,
+   "section": "e",
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "The Classical Review": 1,
+    "The Classical Quarterly": 1,
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 320,
+   "section": "a",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 320,
+   "section": "b",
+   "count": 3,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Quarterly": 3
+   }
+  },
+  {
+   "book": "",
+   "page": 320,
+   "section": "d",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Classical Philology": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 320,
+   "section": "e",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 321,
+   "section": "a",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Classical Philology": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 321,
+   "section": "b",
+   "count": 4,
+   "articles": 3,
+   "by_journal": {
+    "Classical Philology": 3,
+    "The Classical Quarterly": 1
+   }
+  }
+ ],
+ "dots": [
+  {
+   "book": "",
+   "page": 316,
+   "section": "c",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2000",
+   "iid": "0d697dd1-5c8a-3c9b-8881-2e1990b0f9d4",
+   "doi": "10.2307/24354664",
+   "title": "UN JEU CLEF: LA PETTEIA",
+   "author": "Philippe G. Guéniot"
+  },
+  {
+   "book": "",
+   "page": 316,
+   "section": "c",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2000",
+   "iid": "0d697dd1-5c8a-3c9b-8881-2e1990b0f9d4",
+   "doi": "10.2307/24354664",
+   "title": "UN JEU CLEF: LA PETTEIA",
+   "author": "Philippe G. Guéniot"
+  },
+  {
+   "book": "",
+   "page": 319,
+   "section": "e",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1935",
+   "iid": "0fa5ebbf-11bc-3c54-834c-7fb5a8630075",
+   "doi": "10.2307/699665",
+   "title": "Notes on Pindar",
+   "author": "W. A. Stone"
+  },
+  {
+   "book": "",
+   "page": 315,
+   "section": "c",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1922",
+   "iid": "151b1795-3157-3ffd-95a5-ebfa3afdd58f",
+   "doi": "10.2307/263599",
+   "title": "The Exposure of Children at Athens and the ἐγχυτρίστριαι",
+   "author": "H. Bolkestein"
+  },
+  {
+   "book": "",
+   "page": 320,
+   "section": "d",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1979",
+   "iid": "200b019b-a382-3747-a9a3-8ef3619710cb",
+   "doi": "10.2307/269163",
+   "title": "Poet or Plato in Plutarch?",
+   "author": "Robert Renehan"
+  },
+  {
+   "book": "",
+   "page": 320,
+   "section": "e",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1979",
+   "iid": "200b019b-a382-3747-a9a3-8ef3619710cb",
+   "doi": "10.2307/269163",
+   "title": "Poet or Plato in Plutarch?",
+   "author": "Robert Renehan"
+  },
+  {
+   "book": "",
+   "page": 321,
+   "section": "b",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1979",
+   "iid": "200b019b-a382-3747-a9a3-8ef3619710cb",
+   "doi": "10.2307/269163",
+   "title": "Poet or Plato in Plutarch?",
+   "author": "Robert Renehan"
+  },
+  {
+   "book": "",
+   "page": 316,
+   "section": "e",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2003",
+   "iid": "2d10add2-a930-3f5a-87f1-3eaf58341736",
+   "doi": "10.1086/422370",
+   "title": "The Unruly Tongue: Philitas of Cos as Scholar and Poet",
+   "author": "Peter Bing"
+  },
+  {
+   "book": "",
+   "page": 320,
+   "section": "d",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1992",
+   "iid": "43a35c00-aebb-3cc2-aa81-8ae2750cd6c3",
+   "doi": "10.2307/269820",
+   "title": "One Hundred-Citied Crete and the \"Cretan ΠΟΛΙΤΕΙΑ\"",
+   "author": "Paula Perlman"
+  },
+  {
+   "book": "",
+   "page": 318,
+   "section": "d",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1992",
+   "iid": "43a35c00-aebb-3cc2-aa81-8ae2750cd6c3",
+   "doi": "10.2307/269820",
+   "title": "One Hundred-Citied Crete and the \"Cretan ΠΟΛΙΤΕΙΑ\"",
+   "author": "Paula Perlman"
+  },
+  {
+   "book": "",
+   "page": 321,
+   "section": "b",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1992",
+   "iid": "43a35c00-aebb-3cc2-aa81-8ae2750cd6c3",
+   "doi": "10.2307/269820",
+   "title": "One Hundred-Citied Crete and the \"Cretan ΠΟΛΙΤΕΙΑ\"",
+   "author": "Paula Perlman"
+  },
+  {
+   "book": "",
+   "page": 320,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1992",
+   "iid": "43a35c00-aebb-3cc2-aa81-8ae2750cd6c3",
+   "doi": "10.2307/269820",
+   "title": "One Hundred-Citied Crete and the \"Cretan ΠΟΛΙΤΕΙΑ\"",
+   "author": "Paula Perlman"
+  },
+  {
+   "book": "",
+   "page": 318,
+   "section": "c",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1992",
+   "iid": "43a35c00-aebb-3cc2-aa81-8ae2750cd6c3",
+   "doi": "10.2307/269820",
+   "title": "One Hundred-Citied Crete and the \"Cretan ΠΟΛΙΤΕΙΑ\"",
+   "author": "Paula Perlman"
+  },
+  {
+   "book": "",
+   "page": 321,
+   "section": "b",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1992",
+   "iid": "43a35c00-aebb-3cc2-aa81-8ae2750cd6c3",
+   "doi": "10.2307/269820",
+   "title": "One Hundred-Citied Crete and the \"Cretan ΠΟΛΙΤΕΙΑ\"",
+   "author": "Paula Perlman"
+  },
+  {
+   "book": "",
+   "page": 319,
+   "section": "e",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1999",
+   "iid": "4389f3c1-e3a8-3559-b77b-05cb521b38cf",
+   "doi": "10.2307/639491",
+   "title": "Plato's Lawcode in Context: Rule by Written Law in Athens and Magnesia",
+   "author": "Andrea Wilson Nightingale"
+  },
+  {
+   "book": "",
+   "page": 315,
+   "section": "e",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2018",
+   "iid": "53f8eeba-c9ef-3b08-8db2-f6742b9a0315",
+   "doi": "10.2307/26670617",
+   "title": "ION OF CHIOS",
+   "author": "EDMUND STEWART"
+  },
+  {
+   "book": "",
+   "page": 319,
+   "section": "e",
+   "line": 3,
+   "journal": "Classical Philology",
+   "year": "1993",
+   "iid": "5fa1e586-c741-3bfa-8366-fc165697fea1",
+   "doi": "10.2307/270213",
+   "title": "Writing/Reading a Sacred Text: A Literary Interpretation of Plato's Laws",
+   "author": "Andrea Nightingale"
+  },
+  {
+   "book": "",
+   "page": 315,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "2018",
+   "iid": "73daddee-35e3-3745-91ca-92b9556efb99",
+   "doi": "10.2307/26796235",
+   "title": "LEO STRAUSS AND THE CLASSICS",
+   "author": "T.W. Burns, RODRIGO CHACON"
+  },
+  {
+   "book": "",
+   "page": 321,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2007",
+   "iid": "76ddb74f-0571-3928-b8d7-584576abbb31",
+   "doi": "10.1086/588505",
+   "title": "The Portrait of Homer in Strabo’s <em>Geography</em>",
+   "author": "Lawrence Kim"
+  },
+  {
+   "book": "",
+   "page": 321,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1936",
+   "iid": "89e9090a-2432-3c88-ae71-dc9992728de6",
+   "doi": "10.2307/637088",
+   "title": "Notes on the Oresteia",
+   "author": "George Thomson"
+  },
+  {
+   "book": "",
+   "page": 317,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1989",
+   "iid": "8f07d17e-f583-36c8-a403-a112977cbe6b",
+   "doi": "10.2307/639389",
+   "title": "Plutarch's De Fortuna Romanorum",
+   "author": "S. C. R. Swain"
+  },
+  {
+   "book": "",
+   "page": 319,
+   "section": "c",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2020",
+   "iid": "953e6d1d-a5e8-3db6-9fe5-1693d42337fa",
+   "doi": "10.2307/27340945",
+   "title": "THE ARISTOTELIAN LEGISLATOR AND POLITICAL NATURALISM",
+   "author": "GEORGE DUKE"
+  },
+  {
+   "book": "",
+   "page": 320,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2020",
+   "iid": "953e6d1d-a5e8-3db6-9fe5-1693d42337fa",
+   "doi": "10.2307/27340945",
+   "title": "THE ARISTOTELIAN LEGISLATOR AND POLITICAL NATURALISM",
+   "author": "GEORGE DUKE"
+  },
+  {
+   "book": "",
+   "page": 320,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2020",
+   "iid": "953e6d1d-a5e8-3db6-9fe5-1693d42337fa",
+   "doi": "10.2307/27340945",
+   "title": "THE ARISTOTELIAN LEGISLATOR AND POLITICAL NATURALISM",
+   "author": "GEORGE DUKE"
+  },
+  {
+   "book": "",
+   "page": 320,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2020",
+   "iid": "953e6d1d-a5e8-3db6-9fe5-1693d42337fa",
+   "doi": "10.2307/27340945",
+   "title": "THE ARISTOTELIAN LEGISLATOR AND POLITICAL NATURALISM",
+   "author": "GEORGE DUKE"
+  },
+  {
+   "book": "",
+   "page": 315,
+   "section": "a",
+   "line": 2,
+   "journal": "Méthexis",
+   "year": "2000",
+   "iid": "b6ff6892-cb7a-3ff5-a563-d54df250306a",
+   "doi": "10.2307/43738621",
+   "title": "NESSUNO FA IL MALE VOLONTARIAMENTE. LE PASSIONI, LA VOLONTÀ, L'INGIUSTIZIA E LA LEGGE: PLATONE, Leg. IX",
+   "author": "SERAFINA ROTONDARO"
+  },
+  {
+   "book": "",
+   "page": 321,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1913",
+   "iid": "cfa2f191-2cc3-3d57-a7cd-8e4d756753f9",
+   "doi": "10.2307/261686",
+   "title": "Tragedy and the Satyric Drama",
+   "author": "Roy C. Flickinger"
+  },
+  {
+   "book": "",
+   "page": 317,
+   "section": "a",
+   "line": 7,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "1999",
+   "iid": "d3ab83a4-cdef-387b-a3d7-4142396f550f",
+   "doi": "10.2307/24354645",
+   "title": "LA CRITIQUE PLATONICIENNE DE L'ÉCRIT VAUT-ELLE AUSSI POUR LES \"DIALOGUES\" DE PLATON? A PROPOS D'UNE NOUVELLE INTERPRÉTATION DE \"PHÈDRE\" 278 B 8 - E 4",
+   "author": "Thomas Alexander Szlezák, Marie-Dominique Richard"
+  },
+  {
+   "book": "",
+   "page": 318,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2003",
+   "iid": "e31dae2e-8808-336f-ad53-813066be3ebe",
+   "doi": "10.2307/3556207",
+   "title": "Mapping Phleious: Politics and Myth-Making in Bacchylides 9",
+   "author": "David Fearn"
+  },
+  {
+   "book": "",
+   "page": 315,
+   "section": "c",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1976",
+   "iid": "fec160ab-556d-34fe-bfb3-00e2e3409587",
+   "doi": "10.2307/267958",
+   "title": "Silius Italicus, Cataphracti, and the Date of Q. Curtius Rufus",
+   "author": "J. Rufus Fears"
+  }
+ ]
+}

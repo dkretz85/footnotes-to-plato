@@ -1,0 +1,2888 @@
+{
+ "work": "Ion",
+ "faceted": false,
+ "tier": "uncertain",
+ "cells": [
+  {
+   "book": "",
+   "page": 530,
+   "section": "a",
+   "count": 4,
+   "articles": 4,
+   "by_journal": {
+    "History of Philosophy Quarterly": 1,
+    "The Classical Quarterly": 2,
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 530,
+   "section": "b",
+   "count": 4,
+   "articles": 4,
+   "by_journal": {
+    "Phronesis": 1,
+    "Classical Philology": 1,
+    "The Classical Quarterly": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 530,
+   "section": "c",
+   "count": 4,
+   "articles": 3,
+   "by_journal": {
+    "History of Philosophy Quarterly": 2,
+    "Phronesis": 1,
+    "Revue de Philosophie Ancienne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 530,
+   "section": "d",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 531,
+   "section": "a",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Classical Philology": 1,
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 531,
+   "section": "c",
+   "count": 4,
+   "articles": 3,
+   "by_journal": {
+    "The Classical Review": 1,
+    "History of Philosophy Quarterly": 1,
+    "The Classical Quarterly": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 532,
+   "section": "a",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Classical Philology": 1,
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 532,
+   "section": "b",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 532,
+   "section": "c",
+   "count": 13,
+   "articles": 7,
+   "by_journal": {
+    "History of Philosophy Quarterly": 4,
+    "Classical Philology": 2,
+    "Phronesis": 5,
+    "Revue de Philosophie Ancienne": 1,
+    "The Classical Review": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 532,
+   "section": "d",
+   "count": 5,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 3,
+    "Revue de Philosophie Ancienne": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 532,
+   "section": "e",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Méthexis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 533,
+   "section": "a",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Classical Philology": 1,
+    "Revue de Philosophie Ancienne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 533,
+   "section": "b",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 533,
+   "section": "c",
+   "count": 6,
+   "articles": 6,
+   "by_journal": {
+    "The Classical Quarterly": 2,
+    "Phronesis": 1,
+    "Méthexis": 2,
+    "History of Philosophy Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 533,
+   "section": "d",
+   "count": 12,
+   "articles": 8,
+   "by_journal": {
+    "History of Philosophy Quarterly": 4,
+    "The Classical Quarterly": 3,
+    "Classical Philology": 3,
+    "Méthexis": 1,
+    "The Classical Review": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 533,
+   "section": "e",
+   "count": 19,
+   "articles": 9,
+   "by_journal": {
+    "The Classical Quarterly": 3,
+    "Phronesis": 5,
+    "History of Philosophy Quarterly": 9,
+    "Méthexis": 1,
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 534,
+   "section": "a",
+   "count": 9,
+   "articles": 6,
+   "by_journal": {
+    "History of Philosophy Quarterly": 4,
+    "Phronesis": 1,
+    "Revue de Philosophie Ancienne": 1,
+    "The Classical Review": 1,
+    "The Classical Quarterly": 1,
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 534,
+   "section": "b",
+   "count": 13,
+   "articles": 9,
+   "by_journal": {
+    "History of Philosophy Quarterly": 5,
+    "Phronesis": 3,
+    "Classical Philology": 3,
+    "The Classical Review": 1,
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 534,
+   "section": "c",
+   "count": 6,
+   "articles": 5,
+   "by_journal": {
+    "History of Philosophy Quarterly": 2,
+    "Classical Philology": 2,
+    "Phronesis": 1,
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 534,
+   "section": "d",
+   "count": 6,
+   "articles": 3,
+   "by_journal": {
+    "History of Philosophy Quarterly": 3,
+    "Phronesis": 2,
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 534,
+   "section": "e",
+   "count": 5,
+   "articles": 4,
+   "by_journal": {
+    "History of Philosophy Quarterly": 1,
+    "The Classical Quarterly": 3,
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 535,
+   "section": "a",
+   "count": 7,
+   "articles": 6,
+   "by_journal": {
+    "History of Philosophy Quarterly": 1,
+    "Phronesis": 2,
+    "The Classical Quarterly": 1,
+    "Classical Philology": 1,
+    "The Classical Review": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 535,
+   "section": "b",
+   "count": 7,
+   "articles": 7,
+   "by_journal": {
+    "The Classical Quarterly": 2,
+    "Classical Philology": 1,
+    "Revue de Philosophie Ancienne": 1,
+    "Revue Internationale de Philosophie": 1,
+    "Phronesis": 1,
+    "The Classical Review": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 535,
+   "section": "c",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Classical Philology": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 535,
+   "section": "d",
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 1,
+    "Classical Philology": 1,
+    "The Classical Review": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 535,
+   "section": "e",
+   "count": 9,
+   "articles": 6,
+   "by_journal": {
+    "History of Philosophy Quarterly": 1,
+    "Revue de Philosophie Ancienne": 4,
+    "Classical Philology": 3,
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 536,
+   "section": "a",
+   "count": 4,
+   "articles": 4,
+   "by_journal": {
+    "The Classical Quarterly": 2,
+    "Classical Philology": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 536,
+   "section": "b",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 536,
+   "section": "c",
+   "count": 5,
+   "articles": 4,
+   "by_journal": {
+    "Classical Philology": 1,
+    "Phronesis": 1,
+    "The Classical Quarterly": 2,
+    "The Classical Review": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 536,
+   "section": "d",
+   "count": 4,
+   "articles": 4,
+   "by_journal": {
+    "History of Philosophy Quarterly": 2,
+    "Classical Philology": 1,
+    "Revue de Philosophie Ancienne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 536,
+   "section": "e",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "History of Philosophy Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 537,
+   "section": "a",
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "Classical Philology": 1,
+    "Phronesis": 1,
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 537,
+   "section": "c",
+   "count": 4,
+   "articles": 4,
+   "by_journal": {
+    "History of Philosophy Quarterly": 1,
+    "Phronesis": 1,
+    "Classical Philology": 1,
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 538,
+   "section": "a",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "History of Philosophy Quarterly": 1,
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 538,
+   "section": "b",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "History of Philosophy Quarterly": 1,
+    "The Classical Review": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 538,
+   "section": "c",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 539,
+   "section": "d",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 1,
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 540,
+   "section": "b",
+   "count": 4,
+   "articles": 4,
+   "by_journal": {
+    "Classical Philology": 1,
+    "The Classical Quarterly": 3
+   }
+  },
+  {
+   "book": "",
+   "page": 540,
+   "section": "c",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 540,
+   "section": "e",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "The Classical Review": 1,
+    "History of Philosophy Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 541,
+   "section": "b",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "History of Philosophy Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 541,
+   "section": "c",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "History of Philosophy Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 541,
+   "section": "e",
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "Classical Philology": 3
+   }
+  },
+  {
+   "book": "",
+   "page": 542,
+   "section": "a",
+   "count": 3,
+   "articles": 2,
+   "by_journal": {
+    "History of Philosophy Quarterly": 1,
+    "Phronesis": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 542,
+   "section": "b",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 1,
+    "Phronesis": 1
+   }
+  }
+ ],
+ "dots": [
+  {
+   "book": "",
+   "page": 540,
+   "section": "b",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2003",
+   "iid": "001f00d4-839d-3afd-b391-4438b7ed5644",
+   "doi": "10.1086/378725",
+   "title": "Choral Identity in Greek Tragedy",
+   "author": "Helene Foley"
+  },
+  {
+   "book": "",
+   "page": 536,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1984",
+   "iid": "11146290-3ea3-3ed1-ae52-556926a3f8de",
+   "doi": "10.2307/638345",
+   "title": "The Ēthos/Pathos Distinction in Rhetorical and Literary Criticism",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 535,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1998",
+   "iid": "12ee065a-ed15-3200-ba45-d259add59522",
+   "doi": "10.2307/639766",
+   "title": "Juvenal, the Phaedrus, and the Truth about Rome",
+   "author": "Alex Hardie"
+  },
+  {
+   "book": "",
+   "page": 540,
+   "section": "e",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "2014",
+   "iid": "1986cf45-0d59-34dd-a0ec-0889de93e7f7",
+   "doi": "10.2307/43301783",
+   "title": "PHILOSOPHERS IN THE \"REPUBLIC\"",
+   "author": "CLERK SHAW, R. Weiss"
+  },
+  {
+   "book": "",
+   "page": 540,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2001",
+   "iid": "1a6144e6-165b-3ec3-9cc3-0beb72e8a36a",
+   "doi": "10.2307/3556517",
+   "title": "Women's Speech in Greek Tragedy: The Case of Electra and Clytemnestra in Euripides' \"Electra\"",
+   "author": "Judith Mossman"
+  },
+  {
+   "book": "",
+   "page": 533,
+   "section": "e",
+   "line": 8,
+   "journal": "The Classical Quarterly",
+   "year": "2015",
+   "iid": "1c316931-73c9-3819-99fd-06c32c392d38",
+   "doi": "10.2307/43905642",
+   "title": "ΩΣΠΕΡ ΟΙ ΚΟΡΥΒΑΝΤΙΩΝΤΕΣ: THE CORYBANTIC RITES IN PLATO'S DIALOGUES",
+   "author": "ELLISIF WASMUTH"
+  },
+  {
+   "book": "",
+   "page": 533,
+   "section": "c",
+   "line": 9,
+   "journal": "The Classical Quarterly",
+   "year": "2015",
+   "iid": "1c316931-73c9-3819-99fd-06c32c392d38",
+   "doi": "10.2307/43905642",
+   "title": "ΩΣΠΕΡ ΟΙ ΚΟΡΥΒΑΝΤΙΩΝΤΕΣ: THE CORYBANTIC RITES IN PLATO'S DIALOGUES",
+   "author": "ELLISIF WASMUTH"
+  },
+  {
+   "book": "",
+   "page": 533,
+   "section": "e",
+   "line": 6,
+   "journal": "Phronesis",
+   "year": "2000",
+   "iid": "213b6fdb-af5c-31e7-8384-4878d56d9f2a",
+   "doi": "10.2307/4182648",
+   "title": "Scepticism and Ineffability in Plotinus",
+   "author": "Dominic J. O'Meara"
+  },
+  {
+   "book": "",
+   "page": 540,
+   "section": "c",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2006",
+   "iid": "21f6b200-7168-3218-9668-8e1ce057891c",
+   "doi": "10.1086/519184",
+   "title": "The Bucolic Problem",
+   "author": "Kathryn Gutzwiller"
+  },
+  {
+   "book": "",
+   "page": 532,
+   "section": "c",
+   "line": 2,
+   "journal": "History of Philosophy Quarterly",
+   "year": "2016",
+   "iid": "23913065-e1c4-3f73-b76d-55d980fe861c",
+   "doi": "10.2307/44076604",
+   "title": "SOCRATES ON EDUCATIONAL SUCCESS",
+   "author": "Shigeru Yonezawa"
+  },
+  {
+   "book": "",
+   "page": 532,
+   "section": "c",
+   "line": 2,
+   "journal": "History of Philosophy Quarterly",
+   "year": "2016",
+   "iid": "23913065-e1c4-3f73-b76d-55d980fe861c",
+   "doi": "10.2307/44076604",
+   "title": "SOCRATES ON EDUCATIONAL SUCCESS",
+   "author": "Shigeru Yonezawa"
+  },
+  {
+   "book": "",
+   "page": 532,
+   "section": "c",
+   "line": 8,
+   "journal": "History of Philosophy Quarterly",
+   "year": "2016",
+   "iid": "23913065-e1c4-3f73-b76d-55d980fe861c",
+   "doi": "10.2307/44076604",
+   "title": "SOCRATES ON EDUCATIONAL SUCCESS",
+   "author": "Shigeru Yonezawa"
+  },
+  {
+   "book": "",
+   "page": 534,
+   "section": "c",
+   "line": 6,
+   "journal": "History of Philosophy Quarterly",
+   "year": "2016",
+   "iid": "23913065-e1c4-3f73-b76d-55d980fe861c",
+   "doi": "10.2307/44076604",
+   "title": "SOCRATES ON EDUCATIONAL SUCCESS",
+   "author": "Shigeru Yonezawa"
+  },
+  {
+   "book": "",
+   "page": 536,
+   "section": "d",
+   "line": 2,
+   "journal": "History of Philosophy Quarterly",
+   "year": "2016",
+   "iid": "23913065-e1c4-3f73-b76d-55d980fe861c",
+   "doi": "10.2307/44076604",
+   "title": "SOCRATES ON EDUCATIONAL SUCCESS",
+   "author": "Shigeru Yonezawa"
+  },
+  {
+   "book": "",
+   "page": 533,
+   "section": "d",
+   "line": 4,
+   "journal": "History of Philosophy Quarterly",
+   "year": "2016",
+   "iid": "23913065-e1c4-3f73-b76d-55d980fe861c",
+   "doi": "10.2307/44076604",
+   "title": "SOCRATES ON EDUCATIONAL SUCCESS",
+   "author": "Shigeru Yonezawa"
+  },
+  {
+   "book": "",
+   "page": 533,
+   "section": "d",
+   "line": 7,
+   "journal": "History of Philosophy Quarterly",
+   "year": "2016",
+   "iid": "23913065-e1c4-3f73-b76d-55d980fe861c",
+   "doi": "10.2307/44076604",
+   "title": "SOCRATES ON EDUCATIONAL SUCCESS",
+   "author": "Shigeru Yonezawa"
+  },
+  {
+   "book": "",
+   "page": 533,
+   "section": "d",
+   "line": null,
+   "journal": "History of Philosophy Quarterly",
+   "year": "2016",
+   "iid": "23913065-e1c4-3f73-b76d-55d980fe861c",
+   "doi": "10.2307/44076604",
+   "title": "SOCRATES ON EDUCATIONAL SUCCESS",
+   "author": "Shigeru Yonezawa"
+  },
+  {
+   "book": "",
+   "page": 533,
+   "section": "e",
+   "line": 4,
+   "journal": "History of Philosophy Quarterly",
+   "year": "2016",
+   "iid": "23913065-e1c4-3f73-b76d-55d980fe861c",
+   "doi": "10.2307/44076604",
+   "title": "SOCRATES ON EDUCATIONAL SUCCESS",
+   "author": "Shigeru Yonezawa"
+  },
+  {
+   "book": "",
+   "page": 533,
+   "section": "e",
+   "line": 5,
+   "journal": "History of Philosophy Quarterly",
+   "year": "2016",
+   "iid": "23913065-e1c4-3f73-b76d-55d980fe861c",
+   "doi": "10.2307/44076604",
+   "title": "SOCRATES ON EDUCATIONAL SUCCESS",
+   "author": "Shigeru Yonezawa"
+  },
+  {
+   "book": "",
+   "page": 533,
+   "section": "e",
+   "line": 6,
+   "journal": "History of Philosophy Quarterly",
+   "year": "2016",
+   "iid": "23913065-e1c4-3f73-b76d-55d980fe861c",
+   "doi": "10.2307/44076604",
+   "title": "SOCRATES ON EDUCATIONAL SUCCESS",
+   "author": "Shigeru Yonezawa"
+  },
+  {
+   "book": "",
+   "page": 533,
+   "section": "e",
+   "line": 6,
+   "journal": "History of Philosophy Quarterly",
+   "year": "2016",
+   "iid": "23913065-e1c4-3f73-b76d-55d980fe861c",
+   "doi": "10.2307/44076604",
+   "title": "SOCRATES ON EDUCATIONAL SUCCESS",
+   "author": "Shigeru Yonezawa"
+  },
+  {
+   "book": "",
+   "page": 533,
+   "section": "e",
+   "line": 7,
+   "journal": "History of Philosophy Quarterly",
+   "year": "2016",
+   "iid": "23913065-e1c4-3f73-b76d-55d980fe861c",
+   "doi": "10.2307/44076604",
+   "title": "SOCRATES ON EDUCATIONAL SUCCESS",
+   "author": "Shigeru Yonezawa"
+  },
+  {
+   "book": "",
+   "page": 533,
+   "section": "e",
+   "line": 9,
+   "journal": "History of Philosophy Quarterly",
+   "year": "2016",
+   "iid": "23913065-e1c4-3f73-b76d-55d980fe861c",
+   "doi": "10.2307/44076604",
+   "title": "SOCRATES ON EDUCATIONAL SUCCESS",
+   "author": "Shigeru Yonezawa"
+  },
+  {
+   "book": "",
+   "page": 534,
+   "section": "c",
+   "line": 3,
+   "journal": "History of Philosophy Quarterly",
+   "year": "2016",
+   "iid": "23913065-e1c4-3f73-b76d-55d980fe861c",
+   "doi": "10.2307/44076604",
+   "title": "SOCRATES ON EDUCATIONAL SUCCESS",
+   "author": "Shigeru Yonezawa"
+  },
+  {
+   "book": "",
+   "page": 534,
+   "section": "e",
+   "line": 3,
+   "journal": "History of Philosophy Quarterly",
+   "year": "2016",
+   "iid": "23913065-e1c4-3f73-b76d-55d980fe861c",
+   "doi": "10.2307/44076604",
+   "title": "SOCRATES ON EDUCATIONAL SUCCESS",
+   "author": "Shigeru Yonezawa"
+  },
+  {
+   "book": "",
+   "page": 534,
+   "section": "b",
+   "line": 8,
+   "journal": "History of Philosophy Quarterly",
+   "year": "2016",
+   "iid": "23913065-e1c4-3f73-b76d-55d980fe861c",
+   "doi": "10.2307/44076604",
+   "title": "SOCRATES ON EDUCATIONAL SUCCESS",
+   "author": "Shigeru Yonezawa"
+  },
+  {
+   "book": "",
+   "page": 535,
+   "section": "a",
+   "line": 4,
+   "journal": "History of Philosophy Quarterly",
+   "year": "2016",
+   "iid": "23913065-e1c4-3f73-b76d-55d980fe861c",
+   "doi": "10.2307/44076604",
+   "title": "SOCRATES ON EDUCATIONAL SUCCESS",
+   "author": "Shigeru Yonezawa"
+  },
+  {
+   "book": "",
+   "page": 542,
+   "section": "a",
+   "line": 4,
+   "journal": "History of Philosophy Quarterly",
+   "year": "2016",
+   "iid": "23913065-e1c4-3f73-b76d-55d980fe861c",
+   "doi": "10.2307/44076604",
+   "title": "SOCRATES ON EDUCATIONAL SUCCESS",
+   "author": "Shigeru Yonezawa"
+  },
+  {
+   "book": "",
+   "page": 535,
+   "section": "e",
+   "line": 9,
+   "journal": "History of Philosophy Quarterly",
+   "year": "2016",
+   "iid": "23913065-e1c4-3f73-b76d-55d980fe861c",
+   "doi": "10.2307/44076604",
+   "title": "SOCRATES ON EDUCATIONAL SUCCESS",
+   "author": "Shigeru Yonezawa"
+  },
+  {
+   "book": "",
+   "page": 533,
+   "section": "e",
+   "line": 7,
+   "journal": "History of Philosophy Quarterly",
+   "year": "2016",
+   "iid": "23913065-e1c4-3f73-b76d-55d980fe861c",
+   "doi": "10.2307/44076604",
+   "title": "SOCRATES ON EDUCATIONAL SUCCESS",
+   "author": "Shigeru Yonezawa"
+  },
+  {
+   "book": "",
+   "page": 534,
+   "section": "d",
+   "line": 3,
+   "journal": "History of Philosophy Quarterly",
+   "year": "2016",
+   "iid": "23913065-e1c4-3f73-b76d-55d980fe861c",
+   "doi": "10.2307/44076604",
+   "title": "SOCRATES ON EDUCATIONAL SUCCESS",
+   "author": "Shigeru Yonezawa"
+  },
+  {
+   "book": "",
+   "page": 534,
+   "section": "d",
+   "line": 7,
+   "journal": "History of Philosophy Quarterly",
+   "year": "2016",
+   "iid": "23913065-e1c4-3f73-b76d-55d980fe861c",
+   "doi": "10.2307/44076604",
+   "title": "SOCRATES ON EDUCATIONAL SUCCESS",
+   "author": "Shigeru Yonezawa"
+  },
+  {
+   "book": "",
+   "page": 534,
+   "section": "d",
+   "line": 8,
+   "journal": "History of Philosophy Quarterly",
+   "year": "2016",
+   "iid": "23913065-e1c4-3f73-b76d-55d980fe861c",
+   "doi": "10.2307/44076604",
+   "title": "SOCRATES ON EDUCATIONAL SUCCESS",
+   "author": "Shigeru Yonezawa"
+  },
+  {
+   "book": "",
+   "page": 533,
+   "section": "e",
+   "line": 5,
+   "journal": "History of Philosophy Quarterly",
+   "year": "2016",
+   "iid": "23913065-e1c4-3f73-b76d-55d980fe861c",
+   "doi": "10.2307/44076604",
+   "title": "SOCRATES ON EDUCATIONAL SUCCESS",
+   "author": "Shigeru Yonezawa"
+  },
+  {
+   "book": "",
+   "page": 533,
+   "section": "e",
+   "line": 8,
+   "journal": "History of Philosophy Quarterly",
+   "year": "2016",
+   "iid": "23913065-e1c4-3f73-b76d-55d980fe861c",
+   "doi": "10.2307/44076604",
+   "title": "SOCRATES ON EDUCATIONAL SUCCESS",
+   "author": "Shigeru Yonezawa"
+  },
+  {
+   "book": "",
+   "page": 534,
+   "section": "a",
+   "line": 2,
+   "journal": "History of Philosophy Quarterly",
+   "year": "2016",
+   "iid": "23913065-e1c4-3f73-b76d-55d980fe861c",
+   "doi": "10.2307/44076604",
+   "title": "SOCRATES ON EDUCATIONAL SUCCESS",
+   "author": "Shigeru Yonezawa"
+  },
+  {
+   "book": "",
+   "page": 534,
+   "section": "b",
+   "line": 8,
+   "journal": "History of Philosophy Quarterly",
+   "year": "2016",
+   "iid": "23913065-e1c4-3f73-b76d-55d980fe861c",
+   "doi": "10.2307/44076604",
+   "title": "SOCRATES ON EDUCATIONAL SUCCESS",
+   "author": "Shigeru Yonezawa"
+  },
+  {
+   "book": "",
+   "page": 534,
+   "section": "a",
+   "line": 7,
+   "journal": "History of Philosophy Quarterly",
+   "year": "2016",
+   "iid": "23913065-e1c4-3f73-b76d-55d980fe861c",
+   "doi": "10.2307/44076604",
+   "title": "SOCRATES ON EDUCATIONAL SUCCESS",
+   "author": "Shigeru Yonezawa"
+  },
+  {
+   "book": "",
+   "page": 534,
+   "section": "a",
+   "line": 4,
+   "journal": "History of Philosophy Quarterly",
+   "year": "2016",
+   "iid": "23913065-e1c4-3f73-b76d-55d980fe861c",
+   "doi": "10.2307/44076604",
+   "title": "SOCRATES ON EDUCATIONAL SUCCESS",
+   "author": "Shigeru Yonezawa"
+  },
+  {
+   "book": "",
+   "page": 534,
+   "section": "b",
+   "line": 6,
+   "journal": "History of Philosophy Quarterly",
+   "year": "2016",
+   "iid": "23913065-e1c4-3f73-b76d-55d980fe861c",
+   "doi": "10.2307/44076604",
+   "title": "SOCRATES ON EDUCATIONAL SUCCESS",
+   "author": "Shigeru Yonezawa"
+  },
+  {
+   "book": "",
+   "page": 534,
+   "section": "b",
+   "line": 8,
+   "journal": "History of Philosophy Quarterly",
+   "year": "2016",
+   "iid": "23913065-e1c4-3f73-b76d-55d980fe861c",
+   "doi": "10.2307/44076604",
+   "title": "SOCRATES ON EDUCATIONAL SUCCESS",
+   "author": "Shigeru Yonezawa"
+  },
+  {
+   "book": "",
+   "page": 534,
+   "section": "a",
+   "line": null,
+   "journal": "History of Philosophy Quarterly",
+   "year": "2016",
+   "iid": "23913065-e1c4-3f73-b76d-55d980fe861c",
+   "doi": "10.2307/44076604",
+   "title": "SOCRATES ON EDUCATIONAL SUCCESS",
+   "author": "Shigeru Yonezawa"
+  },
+  {
+   "book": "",
+   "page": 533,
+   "section": "d",
+   "line": 3,
+   "journal": "History of Philosophy Quarterly",
+   "year": "2016",
+   "iid": "23913065-e1c4-3f73-b76d-55d980fe861c",
+   "doi": "10.2307/44076604",
+   "title": "SOCRATES ON EDUCATIONAL SUCCESS",
+   "author": "Shigeru Yonezawa"
+  },
+  {
+   "book": "",
+   "page": 533,
+   "section": "a",
+   "line": 2,
+   "journal": "Classical Philology",
+   "year": "2010",
+   "iid": "2c66d8cf-ab4b-3cb4-b2c3-1b5f1b1d2faf",
+   "doi": "10.1086/659328",
+   "title": "Response to Netz",
+   "author": "Alexander Lee"
+  },
+  {
+   "book": "",
+   "page": 530,
+   "section": "c",
+   "line": null,
+   "journal": "History of Philosophy Quarterly",
+   "year": "1995",
+   "iid": "2c44d1bc-e529-32d7-a79a-ac8e072324c3",
+   "doi": "10.2307/27744664",
+   "title": "How to Discriminate between Experts and Frauds: Some Problems for Socratic Peirastic",
+   "author": "Jyl Gentzler"
+  },
+  {
+   "book": "",
+   "page": 530,
+   "section": "c",
+   "line": null,
+   "journal": "History of Philosophy Quarterly",
+   "year": "1995",
+   "iid": "2c44d1bc-e529-32d7-a79a-ac8e072324c3",
+   "doi": "10.2307/27744664",
+   "title": "How to Discriminate between Experts and Frauds: Some Problems for Socratic Peirastic",
+   "author": "Jyl Gentzler"
+  },
+  {
+   "book": "",
+   "page": 536,
+   "section": "d",
+   "line": null,
+   "journal": "History of Philosophy Quarterly",
+   "year": "1995",
+   "iid": "2c44d1bc-e529-32d7-a79a-ac8e072324c3",
+   "doi": "10.2307/27744664",
+   "title": "How to Discriminate between Experts and Frauds: Some Problems for Socratic Peirastic",
+   "author": "Jyl Gentzler"
+  },
+  {
+   "book": "",
+   "page": 536,
+   "section": "e",
+   "line": null,
+   "journal": "History of Philosophy Quarterly",
+   "year": "1995",
+   "iid": "2c44d1bc-e529-32d7-a79a-ac8e072324c3",
+   "doi": "10.2307/27744664",
+   "title": "How to Discriminate between Experts and Frauds: Some Problems for Socratic Peirastic",
+   "author": "Jyl Gentzler"
+  },
+  {
+   "book": "",
+   "page": 530,
+   "section": "a",
+   "line": null,
+   "journal": "History of Philosophy Quarterly",
+   "year": "1995",
+   "iid": "2c44d1bc-e529-32d7-a79a-ac8e072324c3",
+   "doi": "10.2307/27744664",
+   "title": "How to Discriminate between Experts and Frauds: Some Problems for Socratic Peirastic",
+   "author": "Jyl Gentzler"
+  },
+  {
+   "book": "",
+   "page": 537,
+   "section": "c",
+   "line": null,
+   "journal": "History of Philosophy Quarterly",
+   "year": "1995",
+   "iid": "2c44d1bc-e529-32d7-a79a-ac8e072324c3",
+   "doi": "10.2307/27744664",
+   "title": "How to Discriminate between Experts and Frauds: Some Problems for Socratic Peirastic",
+   "author": "Jyl Gentzler"
+  },
+  {
+   "book": "",
+   "page": 540,
+   "section": "e",
+   "line": null,
+   "journal": "History of Philosophy Quarterly",
+   "year": "1995",
+   "iid": "2c44d1bc-e529-32d7-a79a-ac8e072324c3",
+   "doi": "10.2307/27744664",
+   "title": "How to Discriminate between Experts and Frauds: Some Problems for Socratic Peirastic",
+   "author": "Jyl Gentzler"
+  },
+  {
+   "book": "",
+   "page": 541,
+   "section": "c",
+   "line": null,
+   "journal": "History of Philosophy Quarterly",
+   "year": "1995",
+   "iid": "2c44d1bc-e529-32d7-a79a-ac8e072324c3",
+   "doi": "10.2307/27744664",
+   "title": "How to Discriminate between Experts and Frauds: Some Problems for Socratic Peirastic",
+   "author": "Jyl Gentzler"
+  },
+  {
+   "book": "",
+   "page": 538,
+   "section": "a",
+   "line": null,
+   "journal": "History of Philosophy Quarterly",
+   "year": "1995",
+   "iid": "2c44d1bc-e529-32d7-a79a-ac8e072324c3",
+   "doi": "10.2307/27744664",
+   "title": "How to Discriminate between Experts and Frauds: Some Problems for Socratic Peirastic",
+   "author": "Jyl Gentzler"
+  },
+  {
+   "book": "",
+   "page": 538,
+   "section": "b",
+   "line": null,
+   "journal": "History of Philosophy Quarterly",
+   "year": "1995",
+   "iid": "2c44d1bc-e529-32d7-a79a-ac8e072324c3",
+   "doi": "10.2307/27744664",
+   "title": "How to Discriminate between Experts and Frauds: Some Problems for Socratic Peirastic",
+   "author": "Jyl Gentzler"
+  },
+  {
+   "book": "",
+   "page": 541,
+   "section": "b",
+   "line": null,
+   "journal": "History of Philosophy Quarterly",
+   "year": "1995",
+   "iid": "2c44d1bc-e529-32d7-a79a-ac8e072324c3",
+   "doi": "10.2307/27744664",
+   "title": "How to Discriminate between Experts and Frauds: Some Problems for Socratic Peirastic",
+   "author": "Jyl Gentzler"
+  },
+  {
+   "book": "",
+   "page": 537,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1906",
+   "iid": "2e4bfdcb-c8ad-3cf1-93f1-b81a05d4a38a",
+   "doi": "10.2307/262258",
+   "title": "Bisected Trimeters in Attic Tragedy",
+   "author": "Thomas D. Goodell"
+  },
+  {
+   "book": "",
+   "page": 532,
+   "section": "c",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2015",
+   "iid": "32758165-3c73-35a2-8bd0-30b38ebc4af1",
+   "doi": "10.1086/678678",
+   "title": "The Purpose of Aristotle’s <em>Poetics</em>",
+   "author": "Andrew Ford"
+  },
+  {
+   "book": "",
+   "page": 536,
+   "section": "c",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2015",
+   "iid": "32758165-3c73-35a2-8bd0-30b38ebc4af1",
+   "doi": "10.1086/678678",
+   "title": "The Purpose of Aristotle’s <em>Poetics</em>",
+   "author": "Andrew Ford"
+  },
+  {
+   "book": "",
+   "page": 532,
+   "section": "d",
+   "line": 8,
+   "journal": "Phronesis",
+   "year": "2004",
+   "iid": "35aa961b-5263-3fae-807e-50a41982ef0d",
+   "doi": "10.2307/4182746",
+   "title": "Socrates' Avowals of Knowledge",
+   "author": "David Wolfsdorf"
+  },
+  {
+   "book": "",
+   "page": 532,
+   "section": "d",
+   "line": 8,
+   "journal": "Phronesis",
+   "year": "2004",
+   "iid": "35aa961b-5263-3fae-807e-50a41982ef0d",
+   "doi": "10.2307/4182746",
+   "title": "Socrates' Avowals of Knowledge",
+   "author": "David Wolfsdorf"
+  },
+  {
+   "book": "",
+   "page": 532,
+   "section": "d",
+   "line": 8,
+   "journal": "Phronesis",
+   "year": "2004",
+   "iid": "35aa961b-5263-3fae-807e-50a41982ef0d",
+   "doi": "10.2307/4182746",
+   "title": "Socrates' Avowals of Knowledge",
+   "author": "David Wolfsdorf"
+  },
+  {
+   "book": "",
+   "page": 541,
+   "section": "e",
+   "line": 7,
+   "journal": "Classical Philology",
+   "year": "2016",
+   "iid": "35cea185-f36d-3735-ad9d-a161562b47c0",
+   "doi": "10.2307/26543975",
+   "title": "PLATO’S PROTAGORAS THE HEDONIST",
+   "author": "JOSH WILBURN"
+  },
+  {
+   "book": "",
+   "page": 536,
+   "section": "c",
+   "line": 2,
+   "journal": "Phronesis",
+   "year": "2004",
+   "iid": "36f44a7a-39b9-3feb-b66d-895569c5a0eb",
+   "doi": "10.2307/4182748",
+   "title": "On (Mis)interpreting Plato's \"Ion\"",
+   "author": "Suzanne Stern-Gillet"
+  },
+  {
+   "book": "",
+   "page": 534,
+   "section": "b",
+   "line": 3,
+   "journal": "Phronesis",
+   "year": "2004",
+   "iid": "36f44a7a-39b9-3feb-b66d-895569c5a0eb",
+   "doi": "10.2307/4182748",
+   "title": "On (Mis)interpreting Plato's \"Ion\"",
+   "author": "Suzanne Stern-Gillet"
+  },
+  {
+   "book": "",
+   "page": 542,
+   "section": "a",
+   "line": 5,
+   "journal": "Phronesis",
+   "year": "2004",
+   "iid": "36f44a7a-39b9-3feb-b66d-895569c5a0eb",
+   "doi": "10.2307/4182748",
+   "title": "On (Mis)interpreting Plato's \"Ion\"",
+   "author": "Suzanne Stern-Gillet"
+  },
+  {
+   "book": "",
+   "page": 542,
+   "section": "a",
+   "line": 4,
+   "journal": "Phronesis",
+   "year": "2004",
+   "iid": "36f44a7a-39b9-3feb-b66d-895569c5a0eb",
+   "doi": "10.2307/4182748",
+   "title": "On (Mis)interpreting Plato's \"Ion\"",
+   "author": "Suzanne Stern-Gillet"
+  },
+  {
+   "book": "",
+   "page": 535,
+   "section": "a",
+   "line": 4,
+   "journal": "Phronesis",
+   "year": "2004",
+   "iid": "36f44a7a-39b9-3feb-b66d-895569c5a0eb",
+   "doi": "10.2307/4182748",
+   "title": "On (Mis)interpreting Plato's \"Ion\"",
+   "author": "Suzanne Stern-Gillet"
+  },
+  {
+   "book": "",
+   "page": 533,
+   "section": "c",
+   "line": 9,
+   "journal": "Phronesis",
+   "year": "2004",
+   "iid": "36f44a7a-39b9-3feb-b66d-895569c5a0eb",
+   "doi": "10.2307/4182748",
+   "title": "On (Mis)interpreting Plato's \"Ion\"",
+   "author": "Suzanne Stern-Gillet"
+  },
+  {
+   "book": "",
+   "page": 535,
+   "section": "a",
+   "line": 2,
+   "journal": "Phronesis",
+   "year": "2004",
+   "iid": "36f44a7a-39b9-3feb-b66d-895569c5a0eb",
+   "doi": "10.2307/4182748",
+   "title": "On (Mis)interpreting Plato's \"Ion\"",
+   "author": "Suzanne Stern-Gillet"
+  },
+  {
+   "book": "",
+   "page": 533,
+   "section": "e",
+   "line": 7,
+   "journal": "Phronesis",
+   "year": "2004",
+   "iid": "36f44a7a-39b9-3feb-b66d-895569c5a0eb",
+   "doi": "10.2307/4182748",
+   "title": "On (Mis)interpreting Plato's \"Ion\"",
+   "author": "Suzanne Stern-Gillet"
+  },
+  {
+   "book": "",
+   "page": 534,
+   "section": "a",
+   "line": 4,
+   "journal": "Phronesis",
+   "year": "2004",
+   "iid": "36f44a7a-39b9-3feb-b66d-895569c5a0eb",
+   "doi": "10.2307/4182748",
+   "title": "On (Mis)interpreting Plato's \"Ion\"",
+   "author": "Suzanne Stern-Gillet"
+  },
+  {
+   "book": "",
+   "page": 532,
+   "section": "c",
+   "line": 8,
+   "journal": "Phronesis",
+   "year": "2004",
+   "iid": "36f44a7a-39b9-3feb-b66d-895569c5a0eb",
+   "doi": "10.2307/4182748",
+   "title": "On (Mis)interpreting Plato's \"Ion\"",
+   "author": "Suzanne Stern-Gillet"
+  },
+  {
+   "book": "",
+   "page": 532,
+   "section": "c",
+   "line": 8,
+   "journal": "Phronesis",
+   "year": "2004",
+   "iid": "36f44a7a-39b9-3feb-b66d-895569c5a0eb",
+   "doi": "10.2307/4182748",
+   "title": "On (Mis)interpreting Plato's \"Ion\"",
+   "author": "Suzanne Stern-Gillet"
+  },
+  {
+   "book": "",
+   "page": 532,
+   "section": "c",
+   "line": 8,
+   "journal": "Phronesis",
+   "year": "2004",
+   "iid": "36f44a7a-39b9-3feb-b66d-895569c5a0eb",
+   "doi": "10.2307/4182748",
+   "title": "On (Mis)interpreting Plato's \"Ion\"",
+   "author": "Suzanne Stern-Gillet"
+  },
+  {
+   "book": "",
+   "page": 537,
+   "section": "c",
+   "line": 5,
+   "journal": "Phronesis",
+   "year": "2004",
+   "iid": "36f44a7a-39b9-3feb-b66d-895569c5a0eb",
+   "doi": "10.2307/4182748",
+   "title": "On (Mis)interpreting Plato's \"Ion\"",
+   "author": "Suzanne Stern-Gillet"
+  },
+  {
+   "book": "",
+   "page": 532,
+   "section": "c",
+   "line": 8,
+   "journal": "Phronesis",
+   "year": "2004",
+   "iid": "36f44a7a-39b9-3feb-b66d-895569c5a0eb",
+   "doi": "10.2307/4182748",
+   "title": "On (Mis)interpreting Plato's \"Ion\"",
+   "author": "Suzanne Stern-Gillet"
+  },
+  {
+   "book": "",
+   "page": 532,
+   "section": "c",
+   "line": 8,
+   "journal": "Phronesis",
+   "year": "2004",
+   "iid": "36f44a7a-39b9-3feb-b66d-895569c5a0eb",
+   "doi": "10.2307/4182748",
+   "title": "On (Mis)interpreting Plato's \"Ion\"",
+   "author": "Suzanne Stern-Gillet"
+  },
+  {
+   "book": "",
+   "page": 533,
+   "section": "e",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "2004",
+   "iid": "36f44a7a-39b9-3feb-b66d-895569c5a0eb",
+   "doi": "10.2307/4182748",
+   "title": "On (Mis)interpreting Plato's \"Ion\"",
+   "author": "Suzanne Stern-Gillet"
+  },
+  {
+   "book": "",
+   "page": 532,
+   "section": "c",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "1992",
+   "iid": "37254824-ffe8-36f3-9019-fcfc0946d33d",
+   "doi": "10.2307/24353900",
+   "title": "L'INVOCATION AUX MUSES ET LEUR REPONSE (Platon, \"Rép.\" VIII, 545d - 547c)",
+   "author": "Marcel Meulder"
+  },
+  {
+   "book": "",
+   "page": 542,
+   "section": "b",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "1992",
+   "iid": "37254824-ffe8-36f3-9019-fcfc0946d33d",
+   "doi": "10.2307/24353900",
+   "title": "L'INVOCATION AUX MUSES ET LEUR REPONSE (Platon, \"Rép.\" VIII, 545d - 547c)",
+   "author": "Marcel Meulder"
+  },
+  {
+   "book": "",
+   "page": 534,
+   "section": "b",
+   "line": 7,
+   "journal": "Classical Philology",
+   "year": "2002",
+   "iid": "39219bb7-c69b-3e5b-a709-ca56a942afc7",
+   "doi": "10.2307/1215523",
+   "title": "Rereading Callimachus' \"Aetia\" Fragment 1",
+   "author": "Susan A. Stephens, Benjamin Acosta-Hughes"
+  },
+  {
+   "book": "",
+   "page": 531,
+   "section": "c",
+   "line": 3,
+   "journal": "The Classical Review",
+   "year": "2006",
+   "iid": "3974d7c2-faa0-37cf-b319-a8b8d8b0cd8c",
+   "doi": "10.2307/3873488",
+   "title": "Homeric Megathemes",
+   "author": "D. N. Maronitis, D. Connolly, Malcolm Willcock"
+  },
+  {
+   "book": "",
+   "page": 535,
+   "section": "c",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2004",
+   "iid": "3c26b9e4-a942-3c02-8ebc-463a7f2a38d2",
+   "doi": "10.1086/423863",
+   "title": "",
+   "author": "Helene P. Foley, Edith Hall, Pat Easterling"
+  },
+  {
+   "book": "",
+   "page": 538,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1913",
+   "iid": "429ec38c-112a-3f7c-a27a-33695614466a",
+   "doi": "10.2307/701809",
+   "title": "On the 'Causal' Use of 'Ote' and 'Otan' in Sophocles",
+   "author": "J. T. Sheppard"
+  },
+  {
+   "book": "",
+   "page": 534,
+   "section": "e",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1928",
+   "iid": "45efac4b-5d16-3fe7-9641-542fa2c8b853",
+   "doi": "10.2307/635591",
+   "title": "Horace and the Moral Function of Poetry",
+   "author": "J. Tate"
+  },
+  {
+   "book": "",
+   "page": 535,
+   "section": "e",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2012",
+   "iid": "48fc0d83-90f9-3bdb-ae0b-9afc7dcfe596",
+   "doi": "10.2307/24358801",
+   "title": "L'EFFET POÉTIQUE CHEZ HOMÈRE ET PLATON : PLAISIR DES SENS ET PLAISIR DU SENS",
+   "author": "Catherine Collobert"
+  },
+  {
+   "book": "",
+   "page": 534,
+   "section": "a",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2012",
+   "iid": "48fc0d83-90f9-3bdb-ae0b-9afc7dcfe596",
+   "doi": "10.2307/24358801",
+   "title": "L'EFFET POÉTIQUE CHEZ HOMÈRE ET PLATON : PLAISIR DES SENS ET PLAISIR DU SENS",
+   "author": "Catherine Collobert"
+  },
+  {
+   "book": "",
+   "page": 530,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2002",
+   "iid": "5279b5f5-384b-3569-b48f-ffd8b079ea28",
+   "doi": "10.2307/3556444",
+   "title": "Sing, Muse ...: The Introit from Homer to Apollonius",
+   "author": "Graham Wheeler"
+  },
+  {
+   "book": "",
+   "page": 535,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1993",
+   "iid": "547afda7-c70d-348a-b5c6-0c816722abf0",
+   "doi": "10.2307/639181",
+   "title": "The Arousal of Emotion in Plato's Dialogues",
+   "author": "David L. Blank"
+  },
+  {
+   "book": "",
+   "page": 535,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2019",
+   "iid": "55966cb5-4ac1-3346-a866-67d3f67b1ff9",
+   "doi": "10.2307/26954943",
+   "title": "‘I WILL INTERPRET’",
+   "author": "CAROL ATACK"
+  },
+  {
+   "book": "",
+   "page": 535,
+   "section": "d",
+   "line": 6,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2003",
+   "iid": "5794f403-1600-3ccd-bc2e-049cab1db05b",
+   "doi": "10.2307/24354723",
+   "title": "\"PAR ZEUS!\". LES JURONS DE PLATON",
+   "author": "Aikaterini Lefka"
+  },
+  {
+   "book": "",
+   "page": 532,
+   "section": "d",
+   "line": 4,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2003",
+   "iid": "5794f403-1600-3ccd-bc2e-049cab1db05b",
+   "doi": "10.2307/24354723",
+   "title": "\"PAR ZEUS!\". LES JURONS DE PLATON",
+   "author": "Aikaterini Lefka"
+  },
+  {
+   "book": "",
+   "page": 532,
+   "section": "d",
+   "line": 4,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2003",
+   "iid": "5794f403-1600-3ccd-bc2e-049cab1db05b",
+   "doi": "10.2307/24354723",
+   "title": "\"PAR ZEUS!\". LES JURONS DE PLATON",
+   "author": "Aikaterini Lefka"
+  },
+  {
+   "book": "",
+   "page": 533,
+   "section": "a",
+   "line": 6,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2003",
+   "iid": "5794f403-1600-3ccd-bc2e-049cab1db05b",
+   "doi": "10.2307/24354723",
+   "title": "\"PAR ZEUS!\". LES JURONS DE PLATON",
+   "author": "Aikaterini Lefka"
+  },
+  {
+   "book": "",
+   "page": 534,
+   "section": "b",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1987",
+   "iid": "5ab04408-db4f-3f02-b707-dd61eb7f4277",
+   "doi": "10.2307/270027",
+   "title": "Some Passages in Maximus of Tyre",
+   "author": "R. Renehan"
+  },
+  {
+   "book": "",
+   "page": 535,
+   "section": "b",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1992",
+   "iid": "62505f64-32cc-39ae-b32b-8f2f7c5a5f0c",
+   "doi": "10.2307/270000",
+   "title": "Review Article: The New Oxford Sophocles",
+   "author": "H. Lloyd-Jones, N. G. Wilson, R. Renehan"
+  },
+  {
+   "book": "",
+   "page": 533,
+   "section": "d",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1929",
+   "iid": "62115cf9-e30f-3e82-ac51-6ae5f83857e9",
+   "doi": "10.2307/637325",
+   "title": "Plato and Allegorical Interpretation",
+   "author": "J. Tate"
+  },
+  {
+   "book": "",
+   "page": 533,
+   "section": "d",
+   "line": 3,
+   "journal": "Classical Philology",
+   "year": "2011",
+   "iid": "645722b9-fbed-38b4-a1fa-e1a28d9bb5ec",
+   "doi": "10.1086/661542",
+   "title": "Socrates and the True Political Craft",
+   "author": "J. Clerk Shaw"
+  },
+  {
+   "book": "",
+   "page": 534,
+   "section": "c",
+   "line": 6,
+   "journal": "Classical Philology",
+   "year": "2011",
+   "iid": "645722b9-fbed-38b4-a1fa-e1a28d9bb5ec",
+   "doi": "10.1086/661542",
+   "title": "Socrates and the True Political Craft",
+   "author": "J. Clerk Shaw"
+  },
+  {
+   "book": "",
+   "page": 535,
+   "section": "e",
+   "line": 9,
+   "journal": "Classical Philology",
+   "year": "2011",
+   "iid": "645722b9-fbed-38b4-a1fa-e1a28d9bb5ec",
+   "doi": "10.1086/661542",
+   "title": "Socrates and the True Political Craft",
+   "author": "J. Clerk Shaw"
+  },
+  {
+   "book": "",
+   "page": 537,
+   "section": "c",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2011",
+   "iid": "645722b9-fbed-38b4-a1fa-e1a28d9bb5ec",
+   "doi": "10.1086/661542",
+   "title": "Socrates and the True Political Craft",
+   "author": "J. Clerk Shaw"
+  },
+  {
+   "book": "",
+   "page": 535,
+   "section": "e",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2011",
+   "iid": "645722b9-fbed-38b4-a1fa-e1a28d9bb5ec",
+   "doi": "10.1086/661542",
+   "title": "Socrates and the True Political Craft",
+   "author": "J. Clerk Shaw"
+  },
+  {
+   "book": "",
+   "page": 533,
+   "section": "d",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2011",
+   "iid": "645722b9-fbed-38b4-a1fa-e1a28d9bb5ec",
+   "doi": "10.1086/661542",
+   "title": "Socrates and the True Political Craft",
+   "author": "J. Clerk Shaw"
+  },
+  {
+   "book": "",
+   "page": 536,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2011",
+   "iid": "645722b9-fbed-38b4-a1fa-e1a28d9bb5ec",
+   "doi": "10.1086/661542",
+   "title": "Socrates and the True Political Craft",
+   "author": "J. Clerk Shaw"
+  },
+  {
+   "book": "",
+   "page": 533,
+   "section": "e",
+   "line": 7,
+   "journal": "Phronesis",
+   "year": "2021",
+   "iid": "67c56b6f-3374-3150-96bd-29993835e48d",
+   "doi": "10.2307/27073988",
+   "title": "Owning Virtue",
+   "author": "Allison Piñeros Glasscock"
+  },
+  {
+   "book": "",
+   "page": 533,
+   "section": "e",
+   "line": 7,
+   "journal": "Phronesis",
+   "year": "2021",
+   "iid": "67c56b6f-3374-3150-96bd-29993835e48d",
+   "doi": "10.2307/27073988",
+   "title": "Owning Virtue",
+   "author": "Allison Piñeros Glasscock"
+  },
+  {
+   "book": "",
+   "page": 534,
+   "section": "e",
+   "line": 5,
+   "journal": "Phronesis",
+   "year": "2021",
+   "iid": "67c56b6f-3374-3150-96bd-29993835e48d",
+   "doi": "10.2307/27073988",
+   "title": "Owning Virtue",
+   "author": "Allison Piñeros Glasscock"
+  },
+  {
+   "book": "",
+   "page": 534,
+   "section": "d",
+   "line": 1,
+   "journal": "Phronesis",
+   "year": "2021",
+   "iid": "67c56b6f-3374-3150-96bd-29993835e48d",
+   "doi": "10.2307/27073988",
+   "title": "Owning Virtue",
+   "author": "Allison Piñeros Glasscock"
+  },
+  {
+   "book": "",
+   "page": 534,
+   "section": "d",
+   "line": 1,
+   "journal": "Phronesis",
+   "year": "2021",
+   "iid": "67c56b6f-3374-3150-96bd-29993835e48d",
+   "doi": "10.2307/27073988",
+   "title": "Owning Virtue",
+   "author": "Allison Piñeros Glasscock"
+  },
+  {
+   "book": "",
+   "page": 534,
+   "section": "c",
+   "line": 7,
+   "journal": "Phronesis",
+   "year": "2021",
+   "iid": "67c56b6f-3374-3150-96bd-29993835e48d",
+   "doi": "10.2307/27073988",
+   "title": "Owning Virtue",
+   "author": "Allison Piñeros Glasscock"
+  },
+  {
+   "book": "",
+   "page": 534,
+   "section": "b",
+   "line": 3,
+   "journal": "Phronesis",
+   "year": "2021",
+   "iid": "67c56b6f-3374-3150-96bd-29993835e48d",
+   "doi": "10.2307/27073988",
+   "title": "Owning Virtue",
+   "author": "Allison Piñeros Glasscock"
+  },
+  {
+   "book": "",
+   "page": 534,
+   "section": "b",
+   "line": 5,
+   "journal": "Phronesis",
+   "year": "2021",
+   "iid": "67c56b6f-3374-3150-96bd-29993835e48d",
+   "doi": "10.2307/27073988",
+   "title": "Owning Virtue",
+   "author": "Allison Piñeros Glasscock"
+  },
+  {
+   "book": "",
+   "page": 537,
+   "section": "c",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1993",
+   "iid": "6cce41df-3b71-3de6-b372-e7f7fcfec450",
+   "doi": "10.2307/639457",
+   "title": "Proleptic Composition in the Republic, or Why Book 1 Was Never a Separate Dialogue",
+   "author": "Charles H. Kahn"
+  },
+  {
+   "book": "",
+   "page": 538,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1993",
+   "iid": "6cce41df-3b71-3de6-b372-e7f7fcfec450",
+   "doi": "10.2307/639457",
+   "title": "Proleptic Composition in the Republic, or Why Book 1 Was Never a Separate Dialogue",
+   "author": "Charles H. Kahn"
+  },
+  {
+   "book": "",
+   "page": 540,
+   "section": "b",
+   "line": 5,
+   "journal": "The Classical Quarterly",
+   "year": "1993",
+   "iid": "6cce41df-3b71-3de6-b372-e7f7fcfec450",
+   "doi": "10.2307/639457",
+   "title": "Proleptic Composition in the Republic, or Why Book 1 Was Never a Separate Dialogue",
+   "author": "Charles H. Kahn"
+  },
+  {
+   "book": "",
+   "page": 532,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1993",
+   "iid": "6e28bd8d-0821-3ec9-b729-47b8b6372ee0",
+   "doi": "10.2307/270055",
+   "title": "Towards a New Doctrine of the Article in Greek: Some Observations on the Definite Article in Plato",
+   "author": "David Sansone"
+  },
+  {
+   "book": "",
+   "page": 535,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1993",
+   "iid": "6e28bd8d-0821-3ec9-b729-47b8b6372ee0",
+   "doi": "10.2307/270055",
+   "title": "Towards a New Doctrine of the Article in Greek: Some Observations on the Definite Article in Plato",
+   "author": "David Sansone"
+  },
+  {
+   "book": "",
+   "page": 533,
+   "section": "e",
+   "line": 5,
+   "journal": "Méthexis",
+   "year": "2009",
+   "iid": "6f7790e3-5490-3f5f-b304-cb181fc54213",
+   "doi": "10.2307/43738827",
+   "title": "Ἐξ ἐπιβονλη̂ς Φανάζεσθαι. dal divino inganno di Timeo alla fantasia plotiniana",
+   "author": "AGLAE PIZZONE"
+  },
+  {
+   "book": "",
+   "page": 533,
+   "section": "d",
+   "line": 3,
+   "journal": "Méthexis",
+   "year": "1998",
+   "iid": "71644654-9272-3cdc-b2e7-f3ff4fb2974d",
+   "doi": "10.2307/43738564",
+   "title": "\"POWERS THAT BE\": THE CONCEPT OF POTENCY IN PLATO AND ARISTOTLE",
+   "author": "JOHN J. CLEARY"
+  },
+  {
+   "book": "",
+   "page": 534,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "2008",
+   "iid": "769d717c-1807-3366-af0b-a70355d75770",
+   "doi": "10.2307/20482394",
+   "title": "Into the Woods",
+   "author": "B. Gibson, Bob Cowan, R. Cowan"
+  },
+  {
+   "book": "",
+   "page": 535,
+   "section": "b",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "1994",
+   "iid": "79690fcc-7cf2-3238-8882-3019e649cfaa",
+   "doi": "10.2307/24354332",
+   "title": "SUR LA CONNAISSANCE ESSENTIELLE SELON PLATON",
+   "author": "Roberta de Monticelli"
+  },
+  {
+   "book": "",
+   "page": 534,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2009",
+   "iid": "79f51f3a-41a5-393a-b031-df21f4db56f8",
+   "doi": "10.2307/20616693",
+   "title": "The Symbolism of Space in Euripidean Choral Fantasy (\"Hipp\". 732-75, \"Med.\" 824-65, \"Bacch.\" 370-433)",
+   "author": "L. A. Swift"
+  },
+  {
+   "book": "",
+   "page": 530,
+   "section": "c",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1992",
+   "iid": "807f86cc-c439-33ed-8b4e-1d0dba75f1cc",
+   "doi": "10.2307/4182412",
+   "title": "Vlastos's Socrates",
+   "author": "Gregory Vlastos, Charles H. Kahn"
+  },
+  {
+   "book": "",
+   "page": 532,
+   "section": "b",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1992",
+   "iid": "807f86cc-c439-33ed-8b4e-1d0dba75f1cc",
+   "doi": "10.2307/4182412",
+   "title": "Vlastos's Socrates",
+   "author": "Gregory Vlastos, Charles H. Kahn"
+  },
+  {
+   "book": "",
+   "page": 530,
+   "section": "b",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1992",
+   "iid": "807f86cc-c439-33ed-8b4e-1d0dba75f1cc",
+   "doi": "10.2307/4182412",
+   "title": "Vlastos's Socrates",
+   "author": "Gregory Vlastos, Charles H. Kahn"
+  },
+  {
+   "book": "",
+   "page": 530,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2006",
+   "iid": "836f8c70-5676-3f29-88a2-f26d798aef37",
+   "doi": "10.2307/4493424",
+   "title": "What Lobel Hath Joined Together: Sappho 49 LP",
+   "author": "Holt R. Parker"
+  },
+  {
+   "book": "",
+   "page": 535,
+   "section": "a",
+   "line": 3,
+   "journal": "The Classical Review",
+   "year": "1998",
+   "iid": "841709ef-3451-3e38-ab06-55a5ae70ebd4",
+   "doi": "10.2307/713680",
+   "title": "Plato on Poetry",
+   "author": "Elizabeth Belfiore, P. Murray"
+  },
+  {
+   "book": "",
+   "page": 533,
+   "section": "d",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1997",
+   "iid": "9179d923-15cd-3549-973e-f09d60e162c5",
+   "doi": "10.2307/639615",
+   "title": "Anth. Pal. 12.152",
+   "author": "Howard Jacobson"
+  },
+  {
+   "book": "",
+   "page": 534,
+   "section": "c",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1983",
+   "iid": "91d899a5-a69c-3f57-83ba-ad911ec9e5b5",
+   "doi": "10.2307/269726",
+   "title": "",
+   "author": "Edward Phinney, D. L. Clayman"
+  },
+  {
+   "book": "",
+   "page": 531,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1980",
+   "iid": "919b1652-4deb-35d7-8542-952296c7e608",
+   "doi": "10.2307/269603",
+   "title": "Review Article: Progress in Hesiod",
+   "author": "M. L. West, R. Renehan"
+  },
+  {
+   "book": "",
+   "page": 534,
+   "section": "a",
+   "line": 7,
+   "journal": "Classical Philology",
+   "year": "2020",
+   "iid": "934b5cd3-a38d-3f42-bd78-43556ab0f7a1",
+   "doi": "10.2307/48807145",
+   "title": "TRIPHIODORUS AND THE POETICS OF IMPERIAL GREEK EPIC",
+   "author": "CALUM A. MACIVER"
+  },
+  {
+   "book": "",
+   "page": 534,
+   "section": "b",
+   "line": 6,
+   "journal": "Classical Philology",
+   "year": "2020",
+   "iid": "934b5cd3-a38d-3f42-bd78-43556ab0f7a1",
+   "doi": "10.2307/48807145",
+   "title": "TRIPHIODORUS AND THE POETICS OF IMPERIAL GREEK EPIC",
+   "author": "CALUM A. MACIVER"
+  },
+  {
+   "book": "",
+   "page": 532,
+   "section": "e",
+   "line": 4,
+   "journal": "Méthexis",
+   "year": "2013",
+   "iid": "9547103b-7e23-3c49-926a-caa0f59fb621",
+   "doi": "10.2307/43739104",
+   "title": "LOS PARADIGMAS POÉTICOS DE REPÚBLICA A LA LUZ DE LAS TÉCNICAS MIMÉTICAS DEL SOFISTA",
+   "author": "LUCAS SOARES, LUCA SOARES"
+  },
+  {
+   "book": "",
+   "page": 533,
+   "section": "c",
+   "line": 3,
+   "journal": "Méthexis",
+   "year": "2013",
+   "iid": "9547103b-7e23-3c49-926a-caa0f59fb621",
+   "doi": "10.2307/43739104",
+   "title": "LOS PARADIGMAS POÉTICOS DE REPÚBLICA A LA LUZ DE LAS TÉCNICAS MIMÉTICAS DEL SOFISTA",
+   "author": "LUCAS SOARES, LUCA SOARES"
+  },
+  {
+   "book": "",
+   "page": 535,
+   "section": "b",
+   "line": null,
+   "journal": "Revue Internationale de Philosophie",
+   "year": "2009",
+   "iid": "982737ab-0085-3dae-bb38-edf83b336c7a",
+   "doi": "10.2307/23961002",
+   "title": "Disinheriting the Globe: On Hamlet's Fate",
+   "author": "Paul A. Kottman"
+  },
+  {
+   "book": "",
+   "page": 531,
+   "section": "c",
+   "line": null,
+   "journal": "History of Philosophy Quarterly",
+   "year": "1987",
+   "iid": "9bb61665-47da-3ca3-89bf-81d471a76eaa",
+   "doi": "10.2307/27743803",
+   "title": "The Erotics of Philosophical Discourse",
+   "author": "David L. Roochnik"
+  },
+  {
+   "book": "",
+   "page": 530,
+   "section": "d",
+   "line": 6,
+   "journal": "The Classical Quarterly",
+   "year": "2006",
+   "iid": "9c40d81e-92e3-30c6-890b-56f9812e9389",
+   "doi": "10.2307/4493385",
+   "title": "Corinna and Mythological Innovation",
+   "author": "Derek Collins"
+  },
+  {
+   "book": "",
+   "page": 534,
+   "section": "b",
+   "line": null,
+   "journal": "History of Philosophy Quarterly",
+   "year": "2012",
+   "iid": "9d5e6dfb-f530-3085-a3da-f6133da6469c",
+   "doi": "10.2307/43488050",
+   "title": "THE POWER OF SHAME CONSIDERATIONS IN PLATO'S \"GORGIAS\"",
+   "author": "Rod Jenks"
+  },
+  {
+   "book": "",
+   "page": 538,
+   "section": "c",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1922",
+   "iid": "9fcbe9d4-a8bf-349d-8c48-08e8d199b3d1",
+   "doi": "10.2307/636167",
+   "title": "On Causal ΟΤΑΝ",
+   "author": "A. G. Laird"
+  },
+  {
+   "book": "",
+   "page": 536,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2013",
+   "iid": "a194aa43-6b3a-311e-b9fe-a436c80206f3",
+   "doi": "10.2307/43905993",
+   "title": "POETS AND POETRY IN LATER GREEK COMEDY",
+   "author": "MATTHEW WRIGHT"
+  },
+  {
+   "book": "",
+   "page": 535,
+   "section": "d",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2018",
+   "iid": "a5915076-87bd-38af-8ac4-63d20ea72d9b",
+   "doi": "10.2307/26544014",
+   "title": "HELEN AND THE DIVINE DEFENSE",
+   "author": "RUBY BLONDELL"
+  },
+  {
+   "book": "",
+   "page": 535,
+   "section": "e",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2018",
+   "iid": "a5915076-87bd-38af-8ac4-63d20ea72d9b",
+   "doi": "10.2307/26544014",
+   "title": "HELEN AND THE DIVINE DEFENSE",
+   "author": "RUBY BLONDELL"
+  },
+  {
+   "book": "",
+   "page": 530,
+   "section": "b",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2018",
+   "iid": "a5915076-87bd-38af-8ac4-63d20ea72d9b",
+   "doi": "10.2307/26544014",
+   "title": "HELEN AND THE DIVINE DEFENSE",
+   "author": "RUBY BLONDELL"
+  },
+  {
+   "book": "",
+   "page": 535,
+   "section": "c",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2004",
+   "iid": "a4ea7ffa-3814-33d5-9e6f-b1f135fb3265",
+   "doi": "10.1086/423864",
+   "title": "",
+   "author": "Voula Tsouna, James Warren"
+  },
+  {
+   "book": "",
+   "page": 539,
+   "section": "d",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1989",
+   "iid": "a7c111a1-cc3f-3595-9682-ef49156f602e",
+   "doi": "10.2307/4182318",
+   "title": "\"Crito\" 51A-C: To What Does Socrates Owe Obedience?",
+   "author": "Darrel D. Colson"
+  },
+  {
+   "book": "",
+   "page": 535,
+   "section": "b",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1989",
+   "iid": "a7c111a1-cc3f-3595-9682-ef49156f602e",
+   "doi": "10.2307/4182318",
+   "title": "\"Crito\" 51A-C: To What Does Socrates Owe Obedience?",
+   "author": "Darrel D. Colson"
+  },
+  {
+   "book": "",
+   "page": 537,
+   "section": "a",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1989",
+   "iid": "a7c111a1-cc3f-3595-9682-ef49156f602e",
+   "doi": "10.2307/4182318",
+   "title": "\"Crito\" 51A-C: To What Does Socrates Owe Obedience?",
+   "author": "Darrel D. Colson"
+  },
+  {
+   "book": "",
+   "page": 533,
+   "section": "d",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1990",
+   "iid": "ac57e4a1-e6e9-3405-aa76-b58a989af089",
+   "doi": "10.2307/3065017",
+   "title": "Magnes Lapis",
+   "author": "A. Radl, John F. Healy"
+  },
+  {
+   "book": "",
+   "page": 541,
+   "section": "e",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1962",
+   "iid": "ad9be8ba-606f-31ad-9bf3-eead836f59be",
+   "doi": "10.2307/267284",
+   "title": "",
+   "author": "William M. Calder, <suffix>III</suffix>, J. C. Kamerbeek"
+  },
+  {
+   "book": "",
+   "page": 535,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1949",
+   "iid": "b13ca27b-0cff-3016-8191-1d29bf0bdb2a",
+   "doi": "10.2307/706124",
+   "title": "A Reconsideration of the Problem of the Axes in Odyssey XXI",
+   "author": "W. B. Stanford"
+  },
+  {
+   "book": "",
+   "page": 534,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1926",
+   "iid": "b565665b-5488-3a15-8229-34f944410efa",
+   "doi": "10.2307/698614",
+   "title": "Aristophanes, Acharnians 399 f.",
+   "author": "A. C. Pearson"
+  },
+  {
+   "book": "",
+   "page": 532,
+   "section": "c",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1974",
+   "iid": "be48d717-a30f-3bf8-8a1e-686f9e7a9b53",
+   "doi": "10.2307/268982",
+   "title": "",
+   "author": "Whitney J. Oates, Rosamond Kent Sprague"
+  },
+  {
+   "book": "",
+   "page": 536,
+   "section": "c",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2013",
+   "iid": "c1906d66-2428-3c29-814a-3e26d0f5c09f",
+   "doi": "10.2307/23470089",
+   "title": "TWO CONJECTURES IN HORACE: \"ODES\" 1.16.8 AND 1.35.25",
+   "author": "DAVID KOVACS"
+  },
+  {
+   "book": "",
+   "page": 536,
+   "section": "c",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2013",
+   "iid": "c1906d66-2428-3c29-814a-3e26d0f5c09f",
+   "doi": "10.2307/23470089",
+   "title": "TWO CONJECTURES IN HORACE: \"ODES\" 1.16.8 AND 1.35.25",
+   "author": "DAVID KOVACS"
+  },
+  {
+   "book": "",
+   "page": 533,
+   "section": "c",
+   "line": null,
+   "journal": "Méthexis",
+   "year": "1991",
+   "iid": "c1b5c845-ecfe-3f48-98ab-d84013bb30ce",
+   "doi": "10.2307/43773723",
+   "title": "LOS ESTUDIOS SOBRE EL ORFISMO CLASICO",
+   "author": "CONRADO EGGERS LAN"
+  },
+  {
+   "book": "",
+   "page": 532,
+   "section": "c",
+   "line": null,
+   "journal": "History of Philosophy Quarterly",
+   "year": "1993",
+   "iid": "c6ab659d-5d36-3eb0-af37-3c8f6174d87f",
+   "doi": "10.2307/27744070",
+   "title": "Does Apology 24C-25C Contain an Argument That Socrates Is Innocent?",
+   "author": "Scott W. Calef"
+  },
+  {
+   "book": "",
+   "page": 533,
+   "section": "c",
+   "line": null,
+   "journal": "History of Philosophy Quarterly",
+   "year": "1993",
+   "iid": "c6ab659d-5d36-3eb0-af37-3c8f6174d87f",
+   "doi": "10.2307/27744070",
+   "title": "Does Apology 24C-25C Contain an Argument That Socrates Is Innocent?",
+   "author": "Scott W. Calef"
+  },
+  {
+   "book": "",
+   "page": 535,
+   "section": "a",
+   "line": 3,
+   "journal": "The Classical Review",
+   "year": "1998",
+   "iid": "ca8c0f29-312c-3ddd-8930-827097614f34",
+   "doi": "10.2307/713679",
+   "title": "Andocides",
+   "author": "Edward M. Harris, M. J. Edwards"
+  },
+  {
+   "book": "",
+   "page": 537,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1993",
+   "iid": "ca90c50a-a44e-3dee-8049-394a9228717f",
+   "doi": "10.2307/639186",
+   "title": "Ovidiana",
+   "author": "E. J. Kenney"
+  },
+  {
+   "book": "",
+   "page": 535,
+   "section": "d",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "2014",
+   "iid": "d44b4c05-7df0-33ba-b815-4431e6d24940",
+   "doi": "10.2307/43301767",
+   "title": "DRAMA AND RHETORIC",
+   "author": "D. Sansone, EDMUND STEWART"
+  },
+  {
+   "book": "",
+   "page": 535,
+   "section": "e",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1932",
+   "iid": "d9e1f55d-6fdd-3b85-a73d-f69e59a7078e",
+   "doi": "10.2307/636999",
+   "title": "Aristotle, Physics 250a 9-19 and 266a 12-24",
+   "author": "A. Y. Campbell"
+  },
+  {
+   "book": "",
+   "page": 530,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1988",
+   "iid": "dfa7477f-29e8-3392-bf1d-5fdbcf9bbb75",
+   "doi": "10.2307/269508",
+   "title": "The Classical Definition of ΡΑΨΩΙΔΙΑ",
+   "author": "Andrew Ford"
+  },
+  {
+   "book": "",
+   "page": 536,
+   "section": "d",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1930",
+   "iid": "e113d7dd-05ec-34b2-b819-da3ebaec24f5",
+   "doi": "10.2307/263386",
+   "title": "",
+   "author": "Henry George Liddell, Robert Scott, Henry Stuart Jones, Paul Shorey"
+  },
+  {
+   "book": "",
+   "page": 541,
+   "section": "e",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1930",
+   "iid": "e113d7dd-05ec-34b2-b819-da3ebaec24f5",
+   "doi": "10.2307/263386",
+   "title": "",
+   "author": "Henry George Liddell, Robert Scott, Henry Stuart Jones, Paul Shorey"
+  },
+  {
+   "book": "",
+   "page": 535,
+   "section": "e",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2006",
+   "iid": "e159a4fe-e1d8-3afd-8094-ff0038cfd093",
+   "doi": "10.2307/24358478",
+   "title": "L'ESTHÉTIQUE DE LA PEUR CHEZ EMPÉDOCLE",
+   "author": "Renaud Gagné"
+  },
+  {
+   "book": "",
+   "page": 535,
+   "section": "e",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2006",
+   "iid": "e159a4fe-e1d8-3afd-8094-ff0038cfd093",
+   "doi": "10.2307/24358478",
+   "title": "L'ESTHÉTIQUE DE LA PEUR CHEZ EMPÉDOCLE",
+   "author": "Renaud Gagné"
+  },
+  {
+   "book": "",
+   "page": 535,
+   "section": "e",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2006",
+   "iid": "e159a4fe-e1d8-3afd-8094-ff0038cfd093",
+   "doi": "10.2307/24358478",
+   "title": "L'ESTHÉTIQUE DE LA PEUR CHEZ EMPÉDOCLE",
+   "author": "Renaud Gagné"
+  },
+  {
+   "book": "",
+   "page": 530,
+   "section": "d",
+   "line": 4,
+   "journal": "Phronesis",
+   "year": "1990",
+   "iid": "ea03d9e2-aee9-3625-ac43-993dfe525ec4",
+   "doi": "10.2307/4182354",
+   "title": "\"Meno\", the Slave Boy and the Elenchos",
+   "author": "Hugh H. Benson"
+  },
+  {
+   "book": "",
+   "page": 542,
+   "section": "b",
+   "line": 2,
+   "journal": "Phronesis",
+   "year": "1990",
+   "iid": "ea03d9e2-aee9-3625-ac43-993dfe525ec4",
+   "doi": "10.2307/4182354",
+   "title": "\"Meno\", the Slave Boy and the Elenchos",
+   "author": "Hugh H. Benson"
+  },
+  {
+   "book": "",
+   "page": 532,
+   "section": "c",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1927",
+   "iid": "eb50c04b-0056-3bce-9963-5ef29c99356b",
+   "doi": "10.2307/700273",
+   "title": "Four Passages in Demosthenes' De Chersoneso",
+   "author": "Marshall MacGregor"
+  },
+  {
+   "book": "",
+   "page": 536,
+   "section": "c",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1927",
+   "iid": "eb50c04b-0056-3bce-9963-5ef29c99356b",
+   "doi": "10.2307/700273",
+   "title": "Four Passages in Demosthenes' De Chersoneso",
+   "author": "Marshall MacGregor"
+  },
+  {
+   "book": "",
+   "page": 530,
+   "section": "b",
+   "line": 9,
+   "journal": "The Classical Quarterly",
+   "year": "2014",
+   "iid": "edb2d1ed-2105-3917-8ba5-c9d517f735f0",
+   "doi": "10.2307/26546282",
+   "title": "HESIOD’S PROEM AND PLATO’S <em>ION</em>",
+   "author": "SUZANNE STERN-GILLET"
+  },
+  {
+   "book": "",
+   "page": 531,
+   "section": "c",
+   "line": 1,
+   "journal": "The Classical Quarterly",
+   "year": "2014",
+   "iid": "edb2d1ed-2105-3917-8ba5-c9d517f735f0",
+   "doi": "10.2307/26546282",
+   "title": "HESIOD’S PROEM AND PLATO’S <em>ION</em>",
+   "author": "SUZANNE STERN-GILLET"
+  },
+  {
+   "book": "",
+   "page": 531,
+   "section": "c",
+   "line": 2,
+   "journal": "The Classical Quarterly",
+   "year": "2014",
+   "iid": "edb2d1ed-2105-3917-8ba5-c9d517f735f0",
+   "doi": "10.2307/26546282",
+   "title": "HESIOD’S PROEM AND PLATO’S <em>ION</em>",
+   "author": "SUZANNE STERN-GILLET"
+  },
+  {
+   "book": "",
+   "page": 532,
+   "section": "a",
+   "line": 5,
+   "journal": "The Classical Quarterly",
+   "year": "2014",
+   "iid": "edb2d1ed-2105-3917-8ba5-c9d517f735f0",
+   "doi": "10.2307/26546282",
+   "title": "HESIOD’S PROEM AND PLATO’S <em>ION</em>",
+   "author": "SUZANNE STERN-GILLET"
+  },
+  {
+   "book": "",
+   "page": 534,
+   "section": "d",
+   "line": 8,
+   "journal": "The Classical Quarterly",
+   "year": "2014",
+   "iid": "edb2d1ed-2105-3917-8ba5-c9d517f735f0",
+   "doi": "10.2307/26546282",
+   "title": "HESIOD’S PROEM AND PLATO’S <em>ION</em>",
+   "author": "SUZANNE STERN-GILLET"
+  },
+  {
+   "book": "",
+   "page": 534,
+   "section": "e",
+   "line": 2,
+   "journal": "The Classical Quarterly",
+   "year": "2014",
+   "iid": "edb2d1ed-2105-3917-8ba5-c9d517f735f0",
+   "doi": "10.2307/26546282",
+   "title": "HESIOD’S PROEM AND PLATO’S <em>ION</em>",
+   "author": "SUZANNE STERN-GILLET"
+  },
+  {
+   "book": "",
+   "page": 533,
+   "section": "d",
+   "line": 2,
+   "journal": "The Classical Quarterly",
+   "year": "2014",
+   "iid": "edb2d1ed-2105-3917-8ba5-c9d517f735f0",
+   "doi": "10.2307/26546282",
+   "title": "HESIOD’S PROEM AND PLATO’S <em>ION</em>",
+   "author": "SUZANNE STERN-GILLET"
+  },
+  {
+   "book": "",
+   "page": 534,
+   "section": "e",
+   "line": 4,
+   "journal": "The Classical Quarterly",
+   "year": "2014",
+   "iid": "edb2d1ed-2105-3917-8ba5-c9d517f735f0",
+   "doi": "10.2307/26546282",
+   "title": "HESIOD’S PROEM AND PLATO’S <em>ION</em>",
+   "author": "SUZANNE STERN-GILLET"
+  },
+  {
+   "book": "",
+   "page": 534,
+   "section": "c",
+   "line": 8,
+   "journal": "The Classical Quarterly",
+   "year": "2014",
+   "iid": "edb2d1ed-2105-3917-8ba5-c9d517f735f0",
+   "doi": "10.2307/26546282",
+   "title": "HESIOD’S PROEM AND PLATO’S <em>ION</em>",
+   "author": "SUZANNE STERN-GILLET"
+  },
+  {
+   "book": "",
+   "page": 533,
+   "section": "e",
+   "line": 4,
+   "journal": "The Classical Quarterly",
+   "year": "2014",
+   "iid": "edb2d1ed-2105-3917-8ba5-c9d517f735f0",
+   "doi": "10.2307/26546282",
+   "title": "HESIOD’S PROEM AND PLATO’S <em>ION</em>",
+   "author": "SUZANNE STERN-GILLET"
+  },
+  {
+   "book": "",
+   "page": 536,
+   "section": "b",
+   "line": 3,
+   "journal": "The Classical Quarterly",
+   "year": "2014",
+   "iid": "edb2d1ed-2105-3917-8ba5-c9d517f735f0",
+   "doi": "10.2307/26546282",
+   "title": "HESIOD’S PROEM AND PLATO’S <em>ION</em>",
+   "author": "SUZANNE STERN-GILLET"
+  },
+  {
+   "book": "",
+   "page": 533,
+   "section": "e",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1968",
+   "iid": "f0e01a05-e620-380c-9f34-3dfee715e209",
+   "doi": "10.2307/267593",
+   "title": "",
+   "author": "Winfried Bühler, James A. Coulter"
+  },
+  {
+   "book": "",
+   "page": 536,
+   "section": "b",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1968",
+   "iid": "f0e01a05-e620-380c-9f34-3dfee715e209",
+   "doi": "10.2307/267593",
+   "title": "",
+   "author": "Winfried Bühler, James A. Coulter"
+  },
+  {
+   "book": "",
+   "page": 536,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1968",
+   "iid": "f0e01a05-e620-380c-9f34-3dfee715e209",
+   "doi": "10.2307/267593",
+   "title": "",
+   "author": "Winfried Bühler, James A. Coulter"
+  },
+  {
+   "book": "",
+   "page": 530,
+   "section": "c",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "1992",
+   "iid": "f46596a5-fc5e-333b-87f1-14688fd8650a",
+   "doi": "10.2307/24353901",
+   "title": "DEUX CAVERNES — L'ÉCRITURE ALLÉGORIQUE",
+   "author": "Claude Gaudin"
+  },
+  {
+   "book": "",
+   "page": 533,
+   "section": "c",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2020",
+   "iid": "f6f4714c-7085-3582-a3cf-b2c427de0070",
+   "doi": "10.2307/26954989",
+   "title": "ΜΑΝΙΑ AND ΑΛΗΘΕΙΑ IN PLATO’S <em>PHAEDRVS</em>",
+   "author": "FÁBIO SERRANITO"
+  },
+  {
+   "book": "",
+   "page": 539,
+   "section": "d",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2020",
+   "iid": "f6f4714c-7085-3582-a3cf-b2c427de0070",
+   "doi": "10.2307/26954989",
+   "title": "ΜΑΝΙΑ AND ΑΛΗΘΕΙΑ IN PLATO’S <em>PHAEDRVS</em>",
+   "author": "FÁBIO SERRANITO"
+  },
+  {
+   "book": "",
+   "page": 536,
+   "section": "d",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2004",
+   "iid": "f7fbab2b-e143-3711-804b-d9d1359f1868",
+   "doi": "10.2307/24354836",
+   "title": "LA VERTU COMME \"CHOSE DIVINE\" CHEZ ALCINOOS",
+   "author": "José M. Zamora"
+  },
+  {
+   "book": "",
+   "page": 533,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1988",
+   "iid": "f77e0bb9-669f-3405-9731-3a5f02310e42",
+   "doi": "10.2307/639218",
+   "title": "Horace, Odes 3.7: An Erotic Odyssey?",
+   "author": "S. J. Harrison"
+  },
+  {
+   "book": "",
+   "page": 533,
+   "section": "e",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1982",
+   "iid": "f93c3fcb-9d2c-31f7-8985-95a748ab4c5f",
+   "doi": "10.2307/638736",
+   "title": "A Portrait of the Artist as a Young Woman",
+   "author": "Frances Muecke"
+  },
+  {
+   "book": "",
+   "page": 534,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1982",
+   "iid": "f93c3fcb-9d2c-31f7-8985-95a748ab4c5f",
+   "doi": "10.2307/638736",
+   "title": "A Portrait of the Artist as a Young Woman",
+   "author": "Frances Muecke"
+  },
+  {
+   "book": "",
+   "page": 540,
+   "section": "b",
+   "line": 3,
+   "journal": "The Classical Quarterly",
+   "year": "2000",
+   "iid": "fbd477cf-20db-312c-a37a-c052082f91cd",
+   "doi": "10.2307/1558937",
+   "title": "The Subjection of Muthos to Logos: Plato's Citations of the Poets",
+   "author": "S. Halliwell"
+  },
+  {
+   "book": "",
+   "page": 531,
+   "section": "a",
+   "line": 5,
+   "journal": "The Classical Quarterly",
+   "year": "2000",
+   "iid": "fbd477cf-20db-312c-a37a-c052082f91cd",
+   "doi": "10.2307/1558937",
+   "title": "The Subjection of Muthos to Logos: Plato's Citations of the Poets",
+   "author": "S. Halliwell"
+  },
+  {
+   "book": "",
+   "page": 530,
+   "section": "b",
+   "line": 10,
+   "journal": "The Classical Quarterly",
+   "year": "2000",
+   "iid": "fbd477cf-20db-312c-a37a-c052082f91cd",
+   "doi": "10.2307/1558937",
+   "title": "The Subjection of Muthos to Logos: Plato's Citations of the Poets",
+   "author": "S. Halliwell"
+  },
+  {
+   "book": "",
+   "page": 533,
+   "section": "d",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1938",
+   "iid": "fc6371c1-819b-3f3c-8283-c939c05a01cb",
+   "doi": "10.2307/264657",
+   "title": "φ α ν τ άσ μ α τ α  θ ε ι α  (Republic 532c)",
+   "author": "James A. Notopoulos"
+  }
+ ]
+}

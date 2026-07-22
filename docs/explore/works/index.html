@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Works over time — Footnotes to Plato</title>
+<meta name="description" content="A passage-level citation index of the ancient-philosophy scholarship">
+<meta name="robots" content="noindex,nofollow">
+<link rel="stylesheet" href="/static/site.css">
+<link rel="stylesheet" href="/filterbar.css">
+<link rel="stylesheet" href="/series.css">
+<style>
+  :root{
+    --paper:#f7f8fb; --ink:#1c2230; --ink-soft:#5b6478; --rule:#d7dced;
+    --lav:#8b86c9; --lav-deep:#5a5497;
+    /* Plato = indigo family */
+    --p-floor:#5a5497; --p-band:#8f8ad0; --p-fade:#c4c0e8;
+    /* Aristotle = brighter green-teal family */
+    --a-floor:#1f9e8a; --a-band:#5fc4ac; --a-fade:#b6e6d6;
+    --uncertain:#b06a3a; --uncertain-soft:#e7d3c4;
+    --shadow:0 1px 2px rgba(28,34,48,.06),0 4px 16px rgba(28,34,48,.06);
+    --serif:"Iowan Old Style","Palatino Linotype",Palatino,"Book Antiqua",Georgia,serif;
+    --sans:"Inter","Helvetica Neue",Arial,system-ui,sans-serif;
+    --mono:"SF Mono",ui-monospace,"Cascadia Mono",Menlo,Consolas,monospace;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0}
+  body{background:var(--paper); color:var(--ink); font-family:var(--sans); line-height:1.5;
+    -webkit-font-smoothing:antialiased;}
+  .wrap{max-width:1060px; margin:0 auto; padding:32px 28px 96px}
+
+  header.mast{border-bottom:2px solid var(--ink); padding-bottom:14px; margin-bottom:8px}
+  .mast .kicker{font-family:var(--mono); font-size:11px; letter-spacing:.18em; text-transform:uppercase;
+    color:var(--lav-deep); margin-bottom:6px;}
+  .mast h1{font-family:var(--serif); font-weight:600; font-size:44px; letter-spacing:.01em; margin:0 0 3px}
+  .mast .sub{font-family:var(--serif); font-style:italic; color:var(--ink-soft); font-size:15px}
+
+  .intro{font-size:14px; color:var(--ink-soft); max-width:76ch; margin:18px 0 6px}
+
+  /* legend explaining the three bar parts + author hues */
+  .barkey{display:flex; gap:20px; flex-wrap:wrap; align-items:center; margin:16px 0 4px;
+    font-size:12.5px; color:var(--ink-soft);}
+  .barkey .k{display:flex; align-items:center; gap:7px}
+  .barkey .sw{width:24px; height:13px; border-radius:2px; flex:none}
+  .barkey .authk{display:flex; align-items:center; gap:6px; margin-left:2px}
+  .authk .chip{width:13px; height:13px; border-radius:3px}
+  .chip.plato{background:var(--p-floor)} .chip.aris{background:var(--a-floor)}
+  .sw.floor{background:linear-gradient(90deg,var(--p-floor) 50%,var(--a-floor) 50%)}
+  .sw.band{background:linear-gradient(90deg,var(--p-band) 50%,var(--a-band) 50%)}
+  .sw.fade{background:linear-gradient(90deg,var(--p-floor),rgba(196,192,232,0))}
+
+  .tier-sec{margin:30px 0 8px}
+  .tier-h{display:flex; align-items:baseline; gap:12px; margin-bottom:4px}
+  .tier-h h2{font-family:var(--serif); font-weight:600; font-size:22px; margin:0}
+  .tier-h .tag{font-family:var(--mono); font-size:10px; letter-spacing:.14em; text-transform:uppercase;
+    padding:2px 8px; border-radius:5px;}
+  .tag.trust{color:var(--lav-deep); background:#eef1fa; border:1px solid var(--rule)}
+  .tag.unc{color:var(--uncertain); background:#faf1ea; border:1px solid var(--uncertain-soft)}
+  .tier-note{font-size:13px; color:var(--ink-soft); max-width:78ch; margin:2px 0 14px}
+  .tier-note b{color:var(--ink)}
+
+  /* the bar rows */
+  .rows{display:flex; flex-direction:column; gap:3px}
+  .row{display:grid; grid-template-columns:150px 1fr 78px; align-items:center; gap:12px;
+    padding:3px 6px; border-radius:6px; cursor:pointer;}
+  .row:hover{background:#fff; box-shadow:var(--shadow)}
+  .row .name{font-family:var(--serif); font-size:14.5px; text-align:right; color:var(--ink);
+    white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+  .bar-track{position:relative; height:20px; display:flex; align-items:center}
+  .bar-floor{height:20px; border-radius:2px 0 0 2px; min-width:1px}
+  .bar-band{height:20px}
+  /* fade: FULL height, a single smooth wash of the author hue that dissolves to
+     transparent — the gradient itself does the fade, no mask or arrow needed.   */
+  .bar-fade{height:20px; border-radius:0 3px 3px 0; position:relative;}
+  .row .val{font-family:var(--mono); font-size:12px; color:var(--ink-soft); text-align:right}
+
+  /* tooltip */
+  .tooltip{position:fixed; z-index:30; pointer-events:none; background:var(--ink); color:#fff;
+    font-size:12px; padding:8px 11px; border-radius:7px; opacity:0; transition:opacity .1s;
+    font-family:var(--sans); max-width:280px; line-height:1.45;}
+  .tooltip .tt-name{font-family:var(--serif); font-size:13.5px; margin-bottom:3px}
+  .tooltip .tt-row{color:#c7cdf0}
+  .tooltip .tt-col{color:var(--fade1); margin-top:4px; font-size:11px}
+  .tooltip b{color:#fff}
+  .footnote{font-size:12px; color:var(--ink-soft); max-width:80ch; margin:36px 0 0;
+    padding-top:14px; border-top:1px solid var(--rule); line-height:1.55;}
+  .seg{display:inline-flex; border:1px solid var(--rule); border-radius:7px; overflow:hidden;
+    box-shadow:var(--shadow); background:#fff}
+  .seg button{font-family:var(--sans); font-size:12.5px; color:var(--ink); background:#fff;
+    border:0; padding:5px 11px; cursor:pointer}
+  .seg button + button{border-left:1px solid var(--rule)}
+  .seg button[aria-pressed="true"]{background:var(--lav); color:#fff}
+  /* fade under an active filter: greyed, width unchanged, dashed edge to mark
+     that it is deliberately NOT participating in the filter */
+  .bar-fade.unfiltered{outline:1px dashed rgba(120,128,146,.35); outline-offset:-1px}
+  @media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="draftbar">Draft — figures and text are still being checked. Not indexed; please do not cite yet.</div>
+<header class="site">
+  <div class="bar">
+    <a class="brand" href="/"><span class="bt">Footnotes to Plato</span></a>
+    <button class="navtoggle" aria-label="Menu" aria-expanded="false">☰</button>
+    <nav class="mainnav"><a href="/">Home</a><a href="/explore/works/" class="on">Works over time</a><a href="/explore/passages/">Passages</a><a href="/methods/">Methods</a><a href="/data/">Data</a><a href="/about/">About</a><a href="/contact/">Contact</a></nav>
+  </div>
+</header>
+<main id="main" class="wide">
+  <div class="pagehead">
+    <h1>Works over time</h1>
+    <div class="sub">How attention to each work moved across 135 years of scholarship</div>
+  </div>
+  
+  <div class="prose">
+<div class="viewer-intro"><p>Plot how attention to a work or group moved across the journals. Add works or groups, compare them against each other, or switch to the field comparison to see where philosophy and classics journals diverge.</p>
+<p><strong>Solid lines are reliable; dashed lines are partial.</strong> A dashed series resolves below 80%, meaning much of its citation traffic could not be tied to a specific passage. The citations shown are as accurate as any other — the dash marks <em>coverage</em>, not correctness — but the missing mass is uneven across years, so read the shape rather than the height. Each legend entry states its placement rate. See <a href="/methods/#the-two-tiers">methods</a> for what that means.</p></div>
+
+<div class="wrap">
+  
+
+  <p class="intro">Each bar counts how often a work is cited across the ten journals. The solid
+  bar is what we could place with confidence — a floor. For many short dialogues, far more
+  citations exist but can't be pinned to one work, because their page-numbers collide with
+  others; that uncertain mass trails off as a fade rather than a false number.</p>
+
+  <div class="barkey">
+    <div class="k"><span class="sw floor"></span> confidently placed (floor)</div>
+    <div class="k"><span class="sw band"></span> reasonably sure</div>
+    <div class="k"><span class="sw fade"></span> detected but unplaceable — could be much more</div>
+    <div class="authk"><span class="chip plato"></span> Plato <span class="chip aris"></span> Aristotle</div>
+    <div class="seg" id="metric" style="margin-left:auto">
+      <button data-metric="count" aria-pressed="true">Citations</button>
+      <button data-metric="articles" aria-pressed="false">Distinct articles</button>
+    </div>
+  </div>
+
+  <div id="filterbar"></div>
+  <div class="fb-note" id="fbCaveat" style="display:none"></div>
+
+  <section class="sc" id="sc">
+    <div class="sc-head">
+      <h2>Attention over time</h2>
+      <div class="seg" id="scMode">
+        <button data-mode="works" aria-pressed="true">Compare works</button>
+        <button data-mode="field" aria-pressed="false">Philosophy vs classics</button>
+      </div>
+    </div>
+
+    <div class="sc-controls" id="scWorksCtl">
+      <div class="sc-picker">
+        <label id="scPickerLabel">Add a work or group</label>
+        <select id="scAdd"><option value="">Choose…</option></select>
+      </div>
+      <div class="sc-chips" id="scChips"></div>
+    </div>
+
+    <div class="sc-opts">
+      <div class="seg" id="scScale">
+        <button data-share="0" aria-pressed="true">Counts</button>
+        <button data-share="1" aria-pressed="false">Share of year</button>
+      </div>
+      <div class="seg" id="scSmooth">
+        <button data-w="1" aria-pressed="true">Raw</button>
+        <button data-w="5" aria-pressed="false">5-yr average</button>
+        <button data-w="11" aria-pressed="false">11-yr average</button>
+      </div>
+    </div>
+
+    <div class="sc-warn" id="scWarn" style="display:none"></div>
+    <div class="sc-scope" id="scScope" style="display:none"></div>
+    <div class="sc-legend" id="scLegend"></div>
+    <div class="sc-chart" id="scChart"></div>
+    <div class="sc-foot" id="scFoot"></div>
+  </section>
+
+  <div id="tiers"></div>
+
+  <p class="footnote">On author colouring: works are grouped by the reference edition their
+  citations use — Stephanus pagination (indigo) or Bekker pagination (teal) — which is how
+  the scholarship addresses them, not a position on authorship. Several works in each corpus
+  are of disputed or rejected authenticity; they are coloured by the edition that paginates
+  them, as traditionally ascribed, and no claim about who wrote them is intended.</p>
+</div>
+
+<div class="tooltip" id="tooltip"></div>
+
+
+
+
+
+  </div>
+</main>
+<footer class="site">
+  <div class="fwrap">
+    <div>
+      <strong>Footnotes to Plato</strong> · A passage-level citation index of the ancient-philosophy scholarship<br>
+      <span class="muted">Built 2026-07-22. Derived from a JSTOR
+      Text Analysis Support delivery; a finding aid that links out to the
+      articles, never a substitute for them.</span>
+    </div>
+    <div class="flinks"><a href="/">Home</a><a href="/explore/works/">Works over time</a><a href="/explore/passages/">Passages</a><a href="/methods/">Methods</a><a href="/data/">Data</a><a href="/about/">About</a><a href="/contact/">Contact</a></div>
+  </div>
+</footer>
+<script src="/static/site.js"></script>
+<script src="/filterbar.js"></script>
+<script src="/series.js"></script>
+<script>
+const $ = s=>document.querySelector(s);
+let DATA=null, SCALE=1, FILTER=null, METRIC="count";
+
+/* ---- filtering ------------------------------------------------------------
+   `view_a.json` carries only all-time totals, so filtering needs the separate
+   sparse matrix in `view_a_filter.json` (work -> journal -> year -> n). That
+   file is ~430 KB, so it is fetched lazily: View A paints instantly from the
+   20 KB summary, and the matrix arrives before the user can finish reading the
+   legend. Until it lands the filter bar is disabled rather than wrong.
+
+   IMPORTANT — the fade is NOT filtered. `unplaceable` is a whole-corpus
+   quantity with no year or journal dimension, because a citation we could not
+   attribute to a WORK cannot honestly be attributed to a year either. Scaling
+   it alongside the floor would manufacture a per-work-per-year number the
+   pipeline never computed. So under a filter the fade is held at its full
+   width and greyed, and the tooltip says so.                                 */
+function filteredFloor(w){
+  if(!FILTER || !window.FilterBar || FilterBar.isDefault()) {
+    return METRIC==="articles" ? w.distinct_articles : w.floor;
+  }
+  const m = FILTER[w.work];
+  if(!m) return 0;
+  const table = METRIC==="articles" ? m.articles : m.citations;
+  if(!table) return 0;
+  const st = FilterBar.state;
+  let n=0;
+  for(const j in table){
+    if(!st.journals.has(j)) continue;
+    const yrs=table[j];
+    for(const y in yrs){
+      const yi=+y;
+      if(yi>=st.y0 && yi<=st.y1) n+=yrs[y];
+    }
+  }
+  return n;
+}
+function isFiltered(){ return !!(FILTER && window.FilterBar && !FilterBar.isDefault()); }
+
+// Author/edition map baked in (68 works, ~1.4KB) so there is NOTHING external to
+// fetch — no silent 404, no misplaced file, colours always correct on load.
+// 'p' = Plato / Stephanus pagination (indigo); 'a' = Aristotle / Bekker (teal).
+const AUTHORS_INLINE = {"Magna_Moralia": "a", "Meno": "p", "De_Incessu_Animalium": "a", "Ion": "p", "Euthyphro": "p", "De_Generatione_Animalium": "a", "Hippias_Minor": "p", "De_Respiratione": "a", "Meteorology": "a", "Sophist": "p", "Prior_Analytics": "a", "De_Partibus_Animalium": "a", "Apology": "p", "Posterior_Analytics": "a", "Critias": "p", "Cratylus": "p", "Euthydemus": "p", "Lysis": "p", "Historia_Animalium": "a", "Menexenus": "p", "Parmenides": "p", "Hippias_Major": "p", "De_Insomniis": "a", "Alcibiades_2": "p", "Rival_Lovers": "p", "Nicomachean_Ethics": "a", "Metaphysics": "a", "De_Sensu": "a", "Rhetoric": "a", "Poetics": "a", "Hipparchus": "p", "Statesman": "p", "Topics": "a", "De_Divinatione_per_Somnum": "a", "Theages": "p", "Laches": "p", "De_Caelo": "a", "Clitophon": "p", "Crito": "p", "Philebus": "p", "Letters": "p", "De_Generatione_et_Corruptione": "a", "Alcibiades_1": "p", "Rhetorica_ad_Alexandrum": "a", "Charmides": "p", "Republic": "p", "Politics": "a", "De_Somno": "a", "De_Interpretatione": "a", "Gorgias": "p", "Eudemian_Ethics": "a", "De_Motu_Animalium": "a", "Symposium": "p", "De_Longitudine_Vitae": "a", "Phaedrus": "p", "Physics": "a", "Laws": "p", "Sophistical_Refutations": "a", "De_Juventute": "a", "Categories": "a", "De_Anima": "a", "Epinomis": "p", "Timaeus": "p", "De_Memoria": "a", "Minos": "p", "Phaedo": "p", "Protagoras": "p", "Theaetetus": "p"};
+
+fetch('/data/viewer/view_a.json').then(r=>r.json()).then(d=>{ DATA=d; render(); mountFilter(); });
+
+function mountFilter(){
+  Promise.all([
+    fetch('/data/viewer/meta.json').then(r=>r.json()),
+    fetch('/data/viewer/journal_groups.json').then(r=>r.json()).catch(()=>null)
+  ]).then(([meta, groups])=>{
+    FilterBar.mount($("#filterbar"), meta, ()=>{
+      if(!FILTER && !FilterBar.isDefault()){
+        // matrix not in yet: show progress instead of silently doing nothing
+        showCaveat("Loading filter data…");
+        return;
+      }
+      updateCaveat();
+      render();
+      if(FILTER) scRender();
+    }, groups);
+    // the heavy matrix arrives after the first paint
+    Promise.all([
+      fetch('/data/viewer/view_a_filter.json').then(r=>r.json()),
+      fetch('/data/viewer/work_groups.json').then(r=>r.json()).catch(()=>null)
+    ]).then(([m,wg])=>{
+      FILTER=m; WGROUPS=wg; updateCaveat(); render(); scInit();
+    }).catch(e=>{
+      console.warn("view_a_filter.json unavailable", e);
+      showCaveat("Filtering unavailable: view_a_filter.json could not be loaded. "+
+                 "Bars show all-time totals. Re-run build_viewer_data.py to generate it.");
+    });
+  }).catch(e=>{
+    console.warn("meta.json unavailable — filter bar disabled", e);
+    $("#filterbar").innerHTML =
+      `<div class="fb-note">Filter unavailable: meta.json could not be loaded.</div>`;
+  });
+}
+
+function showCaveat(msg){
+  const el=$("#fbCaveat"); el.style.display=""; el.innerHTML=msg;
+}
+function updateCaveat(){
+  const el=$("#fbCaveat");
+  const parts=[];
+  if(METRIC==="articles"){
+    parts.push(`Showing <b>distinct articles</b>. The uncertainty fade is not drawn on
+       this metric: unplaceable citations were never resolved to a work, so they
+       have no article count to show. The bars are a floor, as always.`);
+  }
+  if(isFiltered()){
+    parts.push(`Bars show only citations matching the filter, and the works are
+       re-ranked accordingly.` + (METRIC==="articles" ? "" : ` The <b>grey tail</b> is
+       <b>not filtered</b>: unplaceable citations couldn't be attributed to a work,
+       so they can't honestly be attributed to a year or journal either. It stays
+       at full width to show the ambiguity is still there — don't read it as a
+       filtered quantity. The "reasonably sure" band is hidden while filtering for
+       the same reason.`));
+  }
+  if(!parts.length){ el.style.display="none"; return; }
+  el.style.display="";
+  el.innerHTML = parts.join(" ");
+}
+
+function authorOf(work){ return AUTHORS_INLINE[work]==="a" ? "a" : "p"; } // default Plato
+function authorName(work){ return AUTHORS_INLINE[work]==="a" ? "Aristotle" : "Plato"; }
+
+function render(){
+  const host=$("#tiers");
+  host.innerHTML="";
+  const filt = isFiltered();
+  /* Scale policy — two different questions, two different answers:
+
+     FILTER changes must NOT rescale. If the track re-fitted to the filtered
+     maximum, narrowing a filter would make every bar grow, which reads as
+     "more citations" when it means the opposite. So the scale is pinned to
+     unfiltered totals and a filter genuinely shortens the bars.
+
+     METRIC changes MUST rescale. Citations and distinct articles are different
+     units — the largest work has 12,350 citations but 2,030 articles, so
+     holding the citations scale renders the whole articles view at 16% width,
+     wasting the track and making differences unreadable. Each metric gets its
+     own full-width scale.                                                    */
+  const maxTotal = METRIC==="articles"
+    ? Math.max(...DATA.map(w=>w.distinct_articles), 1)
+    : Math.max(...DATA.map(w=>w.floor + w.unplaceable), 1);
+  // px width available for the bar track (grid middle column ~ up to ~760)
+  const TRACK = 740;
+  SCALE = TRACK / maxTotal;
+
+  for(const tier of ["trustworthy","uncertain"]){
+    // sort by the CURRENT floor so filtering re-ranks the works — that
+    // re-ranking is one of the more interesting things the filter reveals.
+    const works = DATA.filter(w=>w.tier===tier)
+                      .sort((a,b)=>filteredFloor(b)-filteredFloor(a));
+    const sec=document.createElement("div"); sec.className="tier-sec";
+    const head=document.createElement("div"); head.className="tier-h";
+    if(tier==="trustworthy"){
+      head.innerHTML=`<h2>Trustworthy</h2><span class="tag trust">publication grade · ${works.length} works</span>`;
+    } else {
+      head.innerHTML=`<h2>Uncertain</h2><span class="tag unc">read with care · ${works.length} works</span>`;
+    }
+    sec.appendChild(head);
+
+    const note=document.createElement("div"); note.className="tier-note";
+    note.innerHTML = tier==="trustworthy"
+      ? `At least 80% of these works' citations resolve to a specific passage. Bar lengths
+         are reliable — you can compare how much these works are studied.`
+      : `Under 80% resolve. The solid floors are real lower bounds, but the long fades show
+         how much citation traffic couldn't be attributed. <b>A short floor here does not mean
+         a work is little-studied</b> — it means much of its attention is unplaceable. Don't
+         rank these by floor alone, and don't compare their floors against the trustworthy tier.`;
+    sec.appendChild(note);
+
+    const rows=document.createElement("div"); rows.className="rows";
+    for(const w of works) rows.appendChild(makeRow(w));
+    sec.appendChild(rows);
+    host.appendChild(sec);
+  }
+}
+
+function makeRow(w){
+  const row=document.createElement("div");
+  row.className="row";
+  const au = authorOf(w.work);                 // "p" or "a"
+  const floorC = `var(--${au}-floor)`;
+  const bandC  = `var(--${au}-band)`;
+  // rgb of each author's floor hue, for a smooth fade-to-transparent
+  const floorRGB = au==="a" ? "31,158,138" : "90,84,151";
+
+  const filt  = isFiltered();
+  const fl    = filteredFloor(w);
+  const floorW = Math.max(1, fl*SCALE);
+  // the band is a floor extension; under a filter we can't apportion it by
+  // year (queued rows are excluded from the matrix by design), so it is
+  // suppressed rather than guessed.
+  const bandW  = (filt || METRIC==="articles") ? 0 : Math.max(0, (w.band - w.floor)*SCALE);
+  // `unplaceable` is a count of CITATIONS. On the distinct-articles metric the
+  // track is scaled in articles, so drawing it here would render a citation
+  // count against an article axis — a category error that would make the fade
+  // ~6x too long. There is no article-equivalent of unplaceable (we never
+  // resolved those rows to a work, so we can't count their distinct articles
+  // either), so the fade is simply absent on this metric.
+  const fadeW  = METRIC==="articles" ? 0 : Math.max(0, w.unplaceable*SCALE);
+
+  // fade: ONE smooth wash from the author hue (semi-opaque) to fully transparent.
+  // No hard steps — so it reads as "trailing into the unknown", never as more bar.
+  // Under a filter it goes GREY at unchanged width: the ambiguity it represents
+  // has no year dimension, so it is neither scaled nor hidden, just marked as
+  // not participating in the filter.
+  const fadeRGB = filt ? "120,128,146" : floorRGB;
+  const fadeBg = `linear-gradient(90deg, rgba(${fadeRGB},${filt?0.30:0.55}) 0%, rgba(${fadeRGB},${filt?0.15:0.28}) 45%, rgba(${fadeRGB},0) 100%)`;
+
+  row.innerHTML =
+    `<div class="name">${w.work.replace(/_/g," ")}</div>`+
+    `<div class="bar-track">`+
+      `<div class="bar-floor" style="width:${floorW}px;background:${floorC}"></div>`+
+      (bandW>0.5?`<div class="bar-band" style="width:${bandW}px;background:${bandC}"></div>`:"")+
+      (fadeW>2?`<div class="bar-fade${filt?" unfiltered":""}" style="width:${Math.min(fadeW,320)}px;background:${fadeBg}">`+
+               `</div>`:"")+
+    `</div>`+
+    `<div class="val">${fl.toLocaleString()}</div>`;
+
+  const fadeEl = row.querySelector(".bar-fade");
+  if(fadeEl){ fadeEl.style.setProperty("--arrow", `rgba(${floorRGB},0.5)`); }
+
+  row.addEventListener("mousemove", e=>showTip(e,w));
+  row.addEventListener("mouseleave", hideTip);
+  return row;
+}
+
+const tip=$("#tooltip");
+function showTip(e,w){
+  const filt = isFiltered();
+  const fl = filteredFloor(w);
+  const total = w.floor + w.unplaceable;
+  let html = `<div class="tt-name">${w.work.replace(/_/g," ")}</div>`;
+  const auth = authorName(w.work);
+  if(auth) html += `<div class="tt-row" style="font-size:11px;margin-bottom:3px">${auth}</div>`;
+  if(filt){
+    const unit = METRIC==="articles" ? "articles" : "citations";
+    html += `<div class="tt-row">in filter <b>${fl.toLocaleString()}</b> ${unit}`+
+            ` <span style="opacity:.7">of ${(METRIC==="articles"?w.distinct_articles:w.floor).toLocaleString()} total</span></div>`;
+  } else {
+    html += `<div class="tt-row">floor <b>${w.floor.toLocaleString()}</b> confidently placed`;
+    if(w.band>w.floor) html += ` · +${(w.band-w.floor).toLocaleString()} reasonably sure`;
+    html += `</div>`;
+  }
+  if(w.unplaceable>0){
+    html += `<div class="tt-row">+<b>${w.unplaceable.toLocaleString()}</b> detected but unplaceable`;
+    if(filt){
+      // say plainly that this part ignores the filter, so nobody reads the
+      // grey tail as a filtered quantity
+      html += ` <span style="opacity:.7">(not filtered — this ambiguity has no year)</span></div>`;
+    } else {
+      html += ` <span style="opacity:.7">(≈${Math.round(total).toLocaleString()} if all belonged here)</span></div>`;
+    }
+  }
+  html += `<div class="tt-row" style="margin-top:3px">resolution rate <b>${Math.round(w.resolution_rate*100)}%</b> · ${w.distinct_articles.toLocaleString()} articles</div>`;
+  if(w.collides_with && w.collides_with.length){
+    html += `<div class="tt-col">collides with ${w.collides_with.slice(0,4).map(x=>x.replace(/_/g," ")).join(", ")}</div>`;
+  }
+  tip.innerHTML=html;
+  tip.style.opacity="1";
+  // keep tooltip on-screen
+  const x=Math.min(e.clientX+14, window.innerWidth-296);
+  tip.style.left=x+"px"; tip.style.top=(e.clientY+14)+"px";
+}
+function hideTip(){ tip.style.opacity="0"; }
+
+/* ===== series comparison ================================================= */
+let WGROUPS=null, SC_SEL=[], SC_MODE="works", SC_SHARE=false, SC_SMOOTH=1;
+
+function scInit(){
+  if(!window.Series){
+    // series.js missing: hide the panel rather than throwing and taking the
+    // bar chart down with it
+    const el=$("#sc"); if(el) el.style.display="none";
+    console.warn("series.js not loaded — time-series panel disabled");
+    return;
+  }
+  const sel=$("#scAdd");
+  // groups first (they're the interesting selections), then individual works
+  if(WGROUPS){
+    const og=document.createElement("optgroup"); og.label="Groups";
+    for(const k in WGROUPS.groups){
+      const g=WGROUPS.groups[k];
+      const o=document.createElement("option");
+      o.value="g:"+k;
+      o.textContent=g.label + (g.basis==="contested" ? "  ⚠ contested" : "");
+      og.appendChild(o);
+    }
+    sel.appendChild(og);
+  }
+  const ow=document.createElement("optgroup"); ow.label="Works";
+  for(const w of DATA.map(d=>d.work).sort()){
+    const o=document.createElement("option");
+    o.value="w:"+w; o.textContent=w.replace(/_/g," ");
+    ow.appendChild(o);
+  }
+  sel.appendChild(ow);
+
+  sel.addEventListener("change",()=>{
+    if(!sel.value) return;
+    if(SC_SEL.length>=6){ sel.value=""; return; }   // palette + legibility cap
+    if(!SC_SEL.includes(sel.value)) SC_SEL.push(sel.value);
+    sel.value="";
+    scRender();
+  });
+  $("#scMode").addEventListener("click",e=>{
+    if(!e.target.dataset.mode) return;
+    SC_MODE=e.target.dataset.mode;
+    for(const b of $("#scMode").children) b.setAttribute("aria-pressed", b.dataset.mode===SC_MODE);
+    scRender();
+  });
+  $("#scScale").addEventListener("click",e=>{
+    if(!e.target.dataset.share) return;
+    SC_SHARE=e.target.dataset.share==="1";
+    for(const b of $("#scScale").children) b.setAttribute("aria-pressed",(b.dataset.share==="1")===SC_SHARE);
+    scRender();
+  });
+  $("#scSmooth").addEventListener("click",e=>{
+    if(!e.target.dataset.w) return;
+    SC_SMOOTH=+e.target.dataset.w;
+    for(const b of $("#scSmooth").children) b.setAttribute("aria-pressed",+b.dataset.w===SC_SMOOTH);
+    scRender();
+  });
+
+  // a default that shows the feature working without asserting a thesis
+  SC_SEL=["w:Republic","w:Nicomachean_Ethics"];
+  scRender();
+}
+
+function scResolve(token){
+  if(token.startsWith("w:")) {
+    const w=token.slice(2);
+    return {label:w.replace(/_/g," "), works:[w], basis:"work"};
+  }
+  const k=token.slice(2), g=WGROUPS && WGROUPS.groups[k];
+  if(!g) return null;
+  return {label:g.label, works:g.works, basis:g.basis, note:g.note};
+}
+
+function scRender(){
+  if(!window.Series) return;
+  // The picker stays visible in BOTH modes — hiding it in field mode was the
+  // real reason the scope became invisible. Set the label here rather than in
+  // the click handler so init and programmatic mode changes stay in sync.
+  $("#scPickerLabel").textContent = SC_MODE==="field"
+    ? "Restrict to work or group (optional)"
+    : "Add a work or group";
+  const host=$("#scChart");
+  if(!FILTER){ host.innerHTML=`<div class="sc-empty">Loading time-series data…</div>`; return; }
+  const st = window.FilterBar ? FilterBar.state : null;
+  const opts = {metric:METRIC, journals:st?st.journals:null,
+                y0:st?st.y0:null, y1:st?st.y1:null};
+
+  let lines=[], warn=[], footNotes=[], scopeBanner=null;
+
+  if(SC_MODE==="field"){
+    // one set of works (everything currently selected, or the whole corpus),
+    // split by journal field — this is View B's comparison at corpus scale
+    const G = window.FilterBar && FilterBar._groups;
+    if(!G){ host.innerHTML=`<div class="sc-empty">No journal grouping available.</div>`; return; }
+    const sel = SC_SEL.length ? SC_SEL : null;
+    const works = sel
+      ? [...new Set(sel.flatMap(t=>{const r=scResolve(t); return r?r.works:[];}))]
+      : DATA.map(d=>d.work);
+    const scope = sel ? SC_SEL.map(t=>scResolve(t).label).join(" + ") : "the whole corpus";
+    /* Scope is the single most misreadable thing on this chart: the lines say
+       "Philosophy" and "Classics" but they are always ABOUT some set of works,
+       and if that set is still Republic+Laws from the previous mode the reader
+       will happily interpret the curves as a claim about the whole corpus.
+       So it goes in a banner above the chart, not a clause in the footnote. */
+    scopeBanner = sel
+      ? `Comparing how philosophy and classics journals cite <b>${scope}</b>.`
+      : `Comparing philosophy and classics journals across <b>the whole corpus</b>
+         — add a work or group above to narrow it.`;
+    let i=0;
+    for(const k in G.groups){
+      const grp=G.groups[k];
+      const jset=new Set(grp.journals.filter(j=>!st || st.journals.has(j)));
+      const s=Series.seriesFor(FILTER, works, Object.assign({},opts,{journals:jset}));
+      lines.push({label:grp.label, color:Series.COLORS[i++], series:s, _jset:jset});
+    }
+    if(!SC_SHARE){
+      warn.push(`These journals differ in size — philosophy journals carry about
+        1.5× the citations of the classics ones — so on raw counts the philosophy
+        line sits higher almost everywhere regardless of interest.
+        <b>Switch to “Share of year”</b> to compare where each field aims its attention.`);
+    } else if(!sel){
+      // Whole corpus / own-field denominator = 1.0 everywhere, by definition.
+      // Two flat lines at 100% tell the reader nothing, so say what to do.
+      warn.push(`Share mode divides each field by <b>its own</b> output, so with the
+        whole corpus selected both lines are flat at 100% by definition. Add a work
+        or group above to see what share of each field's attention it commands.`);
+    }
+  } else {
+    if(!SC_SEL.length){
+      host.innerHTML=`<div class="sc-empty">Add a work or group above to plot it.</div>`;
+      $("#scFoot").innerHTML=""; $("#scWarn").style.display="none"; return;
+    }
+    let i=0;
+    const tiers=new Set();
+    for(const t of SC_SEL){
+      const r=scResolve(t); if(!r) continue;
+      const s=Series.seriesFor(FILTER, r.works, opts);
+      /* A series' tier is a property of the WORKS in it, so a group spanning
+         both tiers needs a weighted answer rather than a majority vote: the
+         pooled resolution rate over the group's works, weighted by how many
+         citations each contributes. A group that is 90% Republic and 10%
+         Crito is mostly trustworthy and should not be dashed on Crito's
+         account; one that is mostly short dialogues should be.             */
+      let fl=0, qt=0, anyUnc=false, allUnc=true;
+      for(const w of r.works){
+        const rec=DATA.find(d=>d.work===w); if(!rec) continue;
+        fl+=rec.floor; qt+=rec.queued_total;
+        if(rec.tier==="uncertain") anyUnc=true; else allUnc=false;
+        tiers.add(rec.tier);
+      }
+      const rate = (fl+qt) ? fl/(fl+qt) : 1;
+      const tier = rate >= 0.80 ? "trustworthy" : "uncertain";
+      lines.push({label:r.label, color:Series.COLORS[i++], series:s,
+                  tier, rate, mixed:(anyUnc && !allUnc)});
+      if(r.basis==="contested"){
+        warn.push(`<b>${r.label}</b> is a contested grouping. ${r.note||""}`);
+      }
+      if(r.works.length>1) footNotes.push(`${r.label}: ${r.works.length} works.`);
+    }
+    const dashed = lines.filter(L=>L.tier==="uncertain");
+    if(dashed.length){
+      const names = dashed.map(L=>`<b>${L.label}</b> (${Math.round(L.rate*100)}%)`).join(", ");
+      warn.push(`${names} ${dashed.length===1?"resolves":"resolve"} below 80%, so
+        ${dashed.length===1?"that line is":"those lines are"} drawn dashed. The
+        citations plotted are as accurate as any other — the tier reflects
+        <i>coverage</i>, not correctness. But the missing mass is not evenly spread
+        across years, so a rising dashed line may partly track improving
+        resolvability rather than rising attention. Compare its shape, not its
+        height against a solid line.`);
+    }
+    const mixed = lines.filter(L=>L.mixed);
+    if(mixed.length){
+      warn.push(`${mixed.map(L=>`<b>${L.label}</b>`).join(", ")} mixes works from
+        both tiers, so its curve pools well-resolved and poorly-resolved works —
+        movement may come from either.`);
+    }
+  }
+
+  // share mode: divide by total corpus activity that year
+  if(SC_SHARE){
+    const denom = Series.corpusByYear(FILTER, opts);
+    for(const L of lines){
+      const out={};
+      for(const y in L.series){
+        const d = SC_MODE==="field" && L._jset
+          ? Series.corpusByYear(FILTER, Object.assign({},opts,{journals:L._jset}))[y]
+          : denom[y];
+        if(d) out[y]=L.series[y]/d;
+      }
+      L.series=out;
+    }
+  }
+  if(SC_SMOOTH>1) for(const L of lines) L.series=Series.smooth(L.series,SC_SMOOTH);
+
+  Series.render(host, lines, {metric:METRIC, share:SC_SHARE,
+                              y0:opts.y0, y1:opts.y1});
+
+  // legend lives OUTSIDE the chart container: the SVG is overflow:visible so a
+  // tall first data point used to ride up into the chips.
+  const leg=$("#scLegend"); leg.innerHTML="";
+  for(const L of lines){
+    const chip=document.createElement("span");
+    chip.className="sc-lchip"+(L.tier==="uncertain"?" unc":"");
+    const swatch = L.tier==="uncertain"
+      ? `<i class="dash" style="--c:${L.color}"></i>`
+      : `<i style="background:${L.color}"></i>`;
+    const rate = L.rate!=null
+      ? `<span class="sc-rate" title="share of this selection's detected citations that could be placed">${Math.round(L.rate*100)}% placed</span>`
+      : "";
+    chip.innerHTML = swatch + L.label + rate;
+    if(SC_MODE==="works"){
+      const tok=SC_SEL[lines.indexOf(L)];
+      const x=document.createElement("button"); x.className="sc-x"; x.textContent="×";
+      x.title="remove"; x.addEventListener("click",()=>{
+        SC_SEL=SC_SEL.filter(t=>t!==tok); scRender();
+      });
+      chip.appendChild(x);
+    }
+    leg.appendChild(chip);
+  }
+  if(lines.some(L=>L.tier==="uncertain")){
+    const k=document.createElement("span"); k.className="sc-dashkey";
+    k.innerHTML=`dashed = under 80% of citations could be placed; the line is a
+      partial floor, not a full count`;
+    leg.appendChild(k);
+  }
+  // In field mode the legend names the two FIELDS, so the works in scope need
+  // their own removable chips — otherwise a stale scope can only be seen, not
+  // undone.
+  if(SC_MODE==="field" && SC_SEL.length){
+    const sep=document.createElement("span"); sep.className="sc-lsep";
+    sep.textContent="scope:"; leg.appendChild(sep);
+    for(const tok of SC_SEL.slice()){
+      const r=scResolve(tok); if(!r) continue;
+      const chip=document.createElement("span"); chip.className="sc-lchip scope";
+      chip.textContent=r.label;
+      const x=document.createElement("button"); x.className="sc-x"; x.textContent="×";
+      x.title="remove from scope";
+      x.addEventListener("click",()=>{ SC_SEL=SC_SEL.filter(t=>t!==tok); scRender(); });
+      chip.appendChild(x);
+      leg.appendChild(chip);
+    }
+  }
+
+  const scEl=$("#scScope");
+  if(scopeBanner){ scEl.style.display=""; scEl.innerHTML=scopeBanner; }
+  else scEl.style.display="none";
+
+  const wEl=$("#scWarn");
+  if(warn.length){ wEl.style.display=""; wEl.innerHTML=warn.map(w=>`<div>${w}</div>`).join(""); }
+  else wEl.style.display="none";
+
+  const foot=[];
+  foot.push(`Floor only: these curves count citations we could place with
+    confidence. Unplaceable citations have no year and are absent here entirely.`);
+  if(SC_SMOOTH>1) foot.push(`<b>Smoothed</b> with a ${SC_SMOOTH}-year centred average —
+    the underlying yearly values are noisier, especially before 1950 when the
+    corpus is thin.`);
+  if(SC_SHARE) foot.push(`Share mode divides by all placed citations that year,
+    so a flat line means a work held its ground as the literature grew.`);
+  foot.push(...footNotes);
+  $("#scFoot").innerHTML=foot.join(" ");
+}
+
+$("#metric").addEventListener("click", e=>{
+  if(!e.target.dataset.metric) return;
+  METRIC=e.target.dataset.metric;
+  for(const b of $("#metric").children)
+    b.setAttribute("aria-pressed", b.dataset.metric===METRIC);
+  updateCaveat();
+  if(DATA) render();
+  if(FILTER) scRender();
+});
+</script>
+</body>
+</html>

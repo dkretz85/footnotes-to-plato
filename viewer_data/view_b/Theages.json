@@ -1,0 +1,673 @@
+{
+ "work": "Theages",
+ "faceted": false,
+ "tier": "trustworthy",
+ "cells": [
+  {
+   "book": "",
+   "page": 122,
+   "section": "a",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 123,
+   "section": "d",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Classical Philology": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 124,
+   "section": "b",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 124,
+   "section": "c",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Méthexis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 125,
+   "section": "a",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 126,
+   "section": "d",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 127,
+   "section": "b",
+   "count": 2,
+   "articles": 1,
+   "by_journal": {
+    "Classical Philology": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 127,
+   "section": "c",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 127,
+   "section": "e",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 128,
+   "section": "a",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 128,
+   "section": "b",
+   "count": 3,
+   "articles": 2,
+   "by_journal": {
+    "History of Philosophy Quarterly": 1,
+    "Méthexis": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 128,
+   "section": "c",
+   "count": 2,
+   "articles": 1,
+   "by_journal": {
+    "History of Philosophy Quarterly": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 128,
+   "section": "d",
+   "count": 8,
+   "articles": 3,
+   "by_journal": {
+    "History of Philosophy Quarterly": 1,
+    "Classical Philology": 1,
+    "The Classical Quarterly": 6
+   }
+  },
+  {
+   "book": "",
+   "page": 128,
+   "section": "e",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 129,
+   "section": "d",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 129,
+   "section": "e",
+   "count": 6,
+   "articles": 3,
+   "by_journal": {
+    "History of Philosophy Quarterly": 3,
+    "Classical Philology": 3
+   }
+  },
+  {
+   "book": "",
+   "page": 130,
+   "section": "a",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Méthexis": 1,
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 130,
+   "section": "c",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 130,
+   "section": "e",
+   "count": 2,
+   "articles": 1,
+   "by_journal": {
+    "History of Philosophy Quarterly": 2
+   }
+  }
+ ],
+ "dots": [
+  {
+   "book": "",
+   "page": 128,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1980",
+   "iid": "0898e761-ccfb-31e8-8bac-bda1ec761423",
+   "doi": "10.2307/269362",
+   "title": "Isocrates and Isaeus: Lesefrüchte",
+   "author": "Robert Renehan"
+  },
+  {
+   "book": "",
+   "page": 124,
+   "section": "c",
+   "line": null,
+   "journal": "Méthexis",
+   "year": "1992",
+   "iid": "0dba4e73-488f-3588-b33b-c1d72e48b31d",
+   "doi": "10.2307/43738376",
+   "title": "LA LENGUA DE SÓCRATES Y SU FILOSOFÍA",
+   "author": "FRANCISCO RODRÍGUEZ ADRADOS"
+  },
+  {
+   "book": "",
+   "page": 130,
+   "section": "a",
+   "line": null,
+   "journal": "Méthexis",
+   "year": "1992",
+   "iid": "0dba4e73-488f-3588-b33b-c1d72e48b31d",
+   "doi": "10.2307/43738376",
+   "title": "LA LENGUA DE SÓCRATES Y SU FILOSOFÍA",
+   "author": "FRANCISCO RODRÍGUEZ ADRADOS"
+  },
+  {
+   "book": "",
+   "page": 126,
+   "section": "d",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1976",
+   "iid": "149e528a-708f-3e64-927c-cbd2e81a6a54",
+   "doi": "10.2307/268762",
+   "title": "Polu pragmosune and \"Minding One's Own Business\": A Study in Greek Social and Political Values",
+   "author": "A. W. H. Adkins"
+  },
+  {
+   "book": "",
+   "page": 128,
+   "section": "c",
+   "line": null,
+   "journal": "History of Philosophy Quarterly",
+   "year": "2016",
+   "iid": "23913065-e1c4-3f73-b76d-55d980fe861c",
+   "doi": "10.2307/44076604",
+   "title": "SOCRATES ON EDUCATIONAL SUCCESS",
+   "author": "Shigeru Yonezawa"
+  },
+  {
+   "book": "",
+   "page": 128,
+   "section": "c",
+   "line": 7,
+   "journal": "History of Philosophy Quarterly",
+   "year": "2016",
+   "iid": "23913065-e1c4-3f73-b76d-55d980fe861c",
+   "doi": "10.2307/44076604",
+   "title": "SOCRATES ON EDUCATIONAL SUCCESS",
+   "author": "Shigeru Yonezawa"
+  },
+  {
+   "book": "",
+   "page": 128,
+   "section": "d",
+   "line": null,
+   "journal": "History of Philosophy Quarterly",
+   "year": "2016",
+   "iid": "23913065-e1c4-3f73-b76d-55d980fe861c",
+   "doi": "10.2307/44076604",
+   "title": "SOCRATES ON EDUCATIONAL SUCCESS",
+   "author": "Shigeru Yonezawa"
+  },
+  {
+   "book": "",
+   "page": 129,
+   "section": "e",
+   "line": 6,
+   "journal": "History of Philosophy Quarterly",
+   "year": "2016",
+   "iid": "23913065-e1c4-3f73-b76d-55d980fe861c",
+   "doi": "10.2307/44076604",
+   "title": "SOCRATES ON EDUCATIONAL SUCCESS",
+   "author": "Shigeru Yonezawa"
+  },
+  {
+   "book": "",
+   "page": 129,
+   "section": "e",
+   "line": 6,
+   "journal": "History of Philosophy Quarterly",
+   "year": "2016",
+   "iid": "23913065-e1c4-3f73-b76d-55d980fe861c",
+   "doi": "10.2307/44076604",
+   "title": "SOCRATES ON EDUCATIONAL SUCCESS",
+   "author": "Shigeru Yonezawa"
+  },
+  {
+   "book": "",
+   "page": 130,
+   "section": "e",
+   "line": 5,
+   "journal": "History of Philosophy Quarterly",
+   "year": "2016",
+   "iid": "23913065-e1c4-3f73-b76d-55d980fe861c",
+   "doi": "10.2307/44076604",
+   "title": "SOCRATES ON EDUCATIONAL SUCCESS",
+   "author": "Shigeru Yonezawa"
+  },
+  {
+   "book": "",
+   "page": 130,
+   "section": "e",
+   "line": null,
+   "journal": "History of Philosophy Quarterly",
+   "year": "2016",
+   "iid": "23913065-e1c4-3f73-b76d-55d980fe861c",
+   "doi": "10.2307/44076604",
+   "title": "SOCRATES ON EDUCATIONAL SUCCESS",
+   "author": "Shigeru Yonezawa"
+  },
+  {
+   "book": "",
+   "page": 129,
+   "section": "e",
+   "line": 8,
+   "journal": "History of Philosophy Quarterly",
+   "year": "2016",
+   "iid": "23913065-e1c4-3f73-b76d-55d980fe861c",
+   "doi": "10.2307/44076604",
+   "title": "SOCRATES ON EDUCATIONAL SUCCESS",
+   "author": "Shigeru Yonezawa"
+  },
+  {
+   "book": "",
+   "page": 127,
+   "section": "c",
+   "line": 3,
+   "journal": "Classical Philology",
+   "year": "2011",
+   "iid": "2ba2a36d-7ee6-3c90-8aed-1191264da7e6",
+   "doi": "10.1086/661544",
+   "title": "Doctrine, Anecdote, and Action: Reconsidering the Social\nHistory of the Last Platonists (c. 430–c. 550 C.E.)",
+   "author": "Edward Watts"
+  },
+  {
+   "book": "",
+   "page": 127,
+   "section": "b",
+   "line": 7,
+   "journal": "Classical Philology",
+   "year": "2011",
+   "iid": "2ba2a36d-7ee6-3c90-8aed-1191264da7e6",
+   "doi": "10.1086/661544",
+   "title": "Doctrine, Anecdote, and Action: Reconsidering the Social\nHistory of the Last Platonists (c. 430–c. 550 C.E.)",
+   "author": "Edward Watts"
+  },
+  {
+   "book": "",
+   "page": 127,
+   "section": "b",
+   "line": 8,
+   "journal": "Classical Philology",
+   "year": "2011",
+   "iid": "2ba2a36d-7ee6-3c90-8aed-1191264da7e6",
+   "doi": "10.1086/661544",
+   "title": "Doctrine, Anecdote, and Action: Reconsidering the Social\nHistory of the Last Platonists (c. 430–c. 550 C.E.)",
+   "author": "Edward Watts"
+  },
+  {
+   "book": "",
+   "page": 124,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1990",
+   "iid": "30390c6b-6992-3d53-9828-b62a78dfbfe1",
+   "doi": "10.2307/639118",
+   "title": "What Are the Topnoi in Philebus 51C?",
+   "author": "Todd Compton"
+  },
+  {
+   "book": "",
+   "page": 123,
+   "section": "d",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1982",
+   "iid": "45c4f858-e59d-3fb3-ae49-39d41260149a",
+   "doi": "10.2307/269389",
+   "title": "The Soul/Boatman Analogy in Aristotle's De anima",
+   "author": "Theodore Tracy"
+  },
+  {
+   "book": "",
+   "page": 128,
+   "section": "d",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2011",
+   "iid": "645722b9-fbed-38b4-a1fa-e1a28d9bb5ec",
+   "doi": "10.1086/661542",
+   "title": "Socrates and the True Political Craft",
+   "author": "J. Clerk Shaw"
+  },
+  {
+   "book": "",
+   "page": 129,
+   "section": "e",
+   "line": 7,
+   "journal": "Classical Philology",
+   "year": "2011",
+   "iid": "645722b9-fbed-38b4-a1fa-e1a28d9bb5ec",
+   "doi": "10.1086/661542",
+   "title": "Socrates and the True Political Craft",
+   "author": "J. Clerk Shaw"
+  },
+  {
+   "book": "",
+   "page": 129,
+   "section": "e",
+   "line": 1,
+   "journal": "Classical Philology",
+   "year": "2011",
+   "iid": "645722b9-fbed-38b4-a1fa-e1a28d9bb5ec",
+   "doi": "10.1086/661542",
+   "title": "Socrates and the True Political Craft",
+   "author": "J. Clerk Shaw"
+  },
+  {
+   "book": "",
+   "page": 130,
+   "section": "c",
+   "line": 8,
+   "journal": "Classical Philology",
+   "year": "2011",
+   "iid": "645722b9-fbed-38b4-a1fa-e1a28d9bb5ec",
+   "doi": "10.1086/661542",
+   "title": "Socrates and the True Political Craft",
+   "author": "J. Clerk Shaw"
+  },
+  {
+   "book": "",
+   "page": 130,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2011",
+   "iid": "645722b9-fbed-38b4-a1fa-e1a28d9bb5ec",
+   "doi": "10.1086/661542",
+   "title": "Socrates and the True Political Craft",
+   "author": "J. Clerk Shaw"
+  },
+  {
+   "book": "",
+   "page": 125,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1927",
+   "iid": "6795d334-7507-37cc-bd05-ada45d6f1399",
+   "doi": "10.2307/263516",
+   "title": "Modifiers That Reflect the Etymology of the Words Modified, with Special Reference to Lucretius",
+   "author": "Eugene S. McCartney"
+  },
+  {
+   "book": "",
+   "page": 127,
+   "section": "e",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1930",
+   "iid": "7a876b8c-55f4-373f-8838-cbc4f38558d0",
+   "doi": "10.2307/637053",
+   "title": "The Year of the Armistice, 423 B. C.",
+   "author": "H. T. Wade-Gery"
+  },
+  {
+   "book": "",
+   "page": 128,
+   "section": "e",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1960",
+   "iid": "8472f991-353a-3f61-aa08-3a811343a986",
+   "doi": "10.2307/265449",
+   "title": "",
+   "author": "Gilbert François, Joseph Fontenrose"
+  },
+  {
+   "book": "",
+   "page": 123,
+   "section": "d",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2009",
+   "iid": "8593e90b-749e-30b1-a195-6a15ceded5bb",
+   "doi": "10.1086/603569",
+   "title": "Wisdom for Sale? The Sophists and Money",
+   "author": "Håkan Tell"
+  },
+  {
+   "book": "",
+   "page": 129,
+   "section": "e",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2011",
+   "iid": "8f2b9140-5fb6-3a92-a734-7f33847daacf",
+   "doi": "10.1086/662042",
+   "title": "Don’t Blame Socrates (Xen. <em>Mem</em>. 1.2.40–46)",
+   "author": "Kirk R. Sanders"
+  },
+  {
+   "book": "",
+   "page": 128,
+   "section": "b",
+   "line": null,
+   "journal": "History of Philosophy Quarterly",
+   "year": "1987",
+   "iid": "9bb61665-47da-3ca3-89bf-81d471a76eaa",
+   "doi": "10.2307/27743803",
+   "title": "The Erotics of Philosophical Discourse",
+   "author": "David L. Roochnik"
+  },
+  {
+   "book": "",
+   "page": 128,
+   "section": "b",
+   "line": null,
+   "journal": "Méthexis",
+   "year": "2001",
+   "iid": "a70e55bb-dc75-36e8-9bb9-645f329c67d5",
+   "doi": "10.2307/43738647",
+   "title": "AMOUR, SEXUALITÉ ET BEAUTÉ CHEZ PLATON. LA LEÇON DE DIOTIME (BANQUET 201d-212c)",
+   "author": "JACQUES FOLLON"
+  },
+  {
+   "book": "",
+   "page": 128,
+   "section": "b",
+   "line": null,
+   "journal": "Méthexis",
+   "year": "2001",
+   "iid": "a70e55bb-dc75-36e8-9bb9-645f329c67d5",
+   "doi": "10.2307/43738647",
+   "title": "AMOUR, SEXUALITÉ ET BEAUTÉ CHEZ PLATON. LA LEÇON DE DIOTIME (BANQUET 201d-212c)",
+   "author": "JACQUES FOLLON"
+  },
+  {
+   "book": "",
+   "page": 128,
+   "section": "d",
+   "line": 2,
+   "journal": "The Classical Quarterly",
+   "year": "1996",
+   "iid": "adfa5638-9dc9-3d33-bf02-12e71157b4c0",
+   "doi": "10.2307/639583",
+   "title": "Aelian, Varia Historia 8.1 and the Transmission of [Plato], Theages\n              128d2-3",
+   "author": "M. A. Joyal"
+  },
+  {
+   "book": "",
+   "page": 128,
+   "section": "d",
+   "line": 2,
+   "journal": "The Classical Quarterly",
+   "year": "1996",
+   "iid": "adfa5638-9dc9-3d33-bf02-12e71157b4c0",
+   "doi": "10.2307/639583",
+   "title": "Aelian, Varia Historia 8.1 and the Transmission of [Plato], Theages\n              128d2-3",
+   "author": "M. A. Joyal"
+  },
+  {
+   "book": "",
+   "page": 128,
+   "section": "d",
+   "line": 2,
+   "journal": "The Classical Quarterly",
+   "year": "1996",
+   "iid": "adfa5638-9dc9-3d33-bf02-12e71157b4c0",
+   "doi": "10.2307/639583",
+   "title": "Aelian, Varia Historia 8.1 and the Transmission of [Plato], Theages\n              128d2-3",
+   "author": "M. A. Joyal"
+  },
+  {
+   "book": "",
+   "page": 128,
+   "section": "d",
+   "line": 2,
+   "journal": "The Classical Quarterly",
+   "year": "1996",
+   "iid": "adfa5638-9dc9-3d33-bf02-12e71157b4c0",
+   "doi": "10.2307/639583",
+   "title": "Aelian, Varia Historia 8.1 and the Transmission of [Plato], Theages\n              128d2-3",
+   "author": "M. A. Joyal"
+  },
+  {
+   "book": "",
+   "page": 128,
+   "section": "d",
+   "line": 2,
+   "journal": "The Classical Quarterly",
+   "year": "1996",
+   "iid": "adfa5638-9dc9-3d33-bf02-12e71157b4c0",
+   "doi": "10.2307/639583",
+   "title": "Aelian, Varia Historia 8.1 and the Transmission of [Plato], Theages\n              128d2-3",
+   "author": "M. A. Joyal"
+  },
+  {
+   "book": "",
+   "page": 128,
+   "section": "d",
+   "line": 2,
+   "journal": "The Classical Quarterly",
+   "year": "1996",
+   "iid": "adfa5638-9dc9-3d33-bf02-12e71157b4c0",
+   "doi": "10.2307/639583",
+   "title": "Aelian, Varia Historia 8.1 and the Transmission of [Plato], Theages\n              128d2-3",
+   "author": "M. A. Joyal"
+  },
+  {
+   "book": "",
+   "page": 129,
+   "section": "d",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1929",
+   "iid": "db866972-cfeb-3e72-b374-102cd6f332c2",
+   "doi": "10.2307/637173",
+   "title": "Sophoclea II",
+   "author": "A. C. Pearson"
+  },
+  {
+   "book": "",
+   "page": 129,
+   "section": "d",
+   "line": 4,
+   "journal": "Phronesis",
+   "year": "1998",
+   "iid": "eeea79b1-f5c8-3c34-ba8e-b5a22563798d",
+   "doi": "10.2307/4182577",
+   "title": "Plato",
+   "author": "Christopher Rowe"
+  },
+  {
+   "book": "",
+   "page": 122,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2020",
+   "iid": "f60ec858-b30a-36db-acc4-37d1fc2bb7f3",
+   "doi": "10.2307/48807132",
+   "title": "DELIBERATION IN ANCIENT GREEK ASSEMBLIES",
+   "author": "DANIELA CAMMACK"
+  }
+ ]
+}

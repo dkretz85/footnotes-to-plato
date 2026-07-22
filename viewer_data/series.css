@@ -1,0 +1,87 @@
+/* ===========================================================================
+   Footnotes to Plato — series comparison (attention over time)
+   Uses each view's :root tokens. Categorical line colours come from
+   Series.COLORS in series.js, not from here.
+   ======================================================================== */
+
+.sc{
+  background:#fff; border:1px solid var(--rule); border-radius:10px;
+  box-shadow:var(--shadow); padding:18px 20px 20px; margin:22px 0 10px;
+}
+.sc-head{display:flex; align-items:baseline; gap:14px; margin-bottom:14px}
+.sc-head h2{
+  font-family:var(--serif); font-weight:600; font-size:22px; margin:0; flex:1;
+}
+
+.sc-controls{display:flex; flex-wrap:wrap; gap:14px 20px; align-items:flex-end;
+  margin-bottom:12px}
+.sc-picker{display:flex; flex-direction:column; gap:5px}
+.sc-picker label{
+  font-family:var(--mono); font-size:10px; letter-spacing:.14em;
+  text-transform:uppercase; color:var(--ink-soft);
+}
+.sc-picker select{
+  font-family:var(--sans); font-size:13.5px; color:var(--ink); background:#fff;
+  border:1px solid var(--rule); border-radius:7px; padding:6px 10px;
+  min-width:250px; cursor:pointer;
+}
+.sc-opts{display:flex; flex-wrap:wrap; gap:10px 14px; margin:4px 0 12px}
+
+/* legend chips, with a remove affordance */
+.sc-legend{display:flex; flex-wrap:wrap; gap:8px 14px; margin-bottom:10px}
+.sc-lchip{
+  display:inline-flex; align-items:center; gap:6px; font-size:12.5px;
+  color:var(--ink); background:#f4f6fc; border:1px solid var(--rule);
+  border-radius:6px; padding:2px 6px 2px 7px;
+}
+.sc-lchip i{width:11px; height:11px; border-radius:3px; flex:none}
+.sc-x{
+  border:0; background:none; cursor:pointer; color:var(--ink-soft);
+  font-size:15px; line-height:1; padding:0 1px; margin-left:2px;
+}
+.sc-x:hover{color:var(--uncertain)}
+
+/* chart */
+.sc-chart{position:relative; min-height:60px}
+.sc-svg{display:block; width:100%; overflow:visible}
+.sc-line{fill:none; stroke-width:1.9; stroke-linejoin:round; stroke-linecap:round}
+.sc-grid{stroke:var(--rule); stroke-width:1}
+.sc-grid.faint{stroke:var(--rule); opacity:.4}
+.sc-axis{stroke:var(--ink); stroke-width:1.3}
+.sc-rule{stroke:var(--ink); stroke-width:1; stroke-dasharray:2 3; opacity:0}
+.sc-tick{font-family:var(--mono); font-size:10px; fill:var(--ink-soft)}
+.sc-axlabel{
+  font-family:var(--mono); font-size:10px; letter-spacing:.12em;
+  text-transform:uppercase; fill:var(--ink-soft);
+}
+.sc-empty{
+  font-family:var(--serif); font-style:italic; color:var(--ink-soft);
+  text-align:center; padding:32px 20px; font-size:13.5px;
+}
+
+/* hover readout under the chart */
+.sc-readout{
+  display:flex; flex-wrap:wrap; gap:6px 16px; align-items:center;
+  min-height:20px; margin-top:8px; font-size:12.5px; color:var(--ink-soft);
+}
+.sc-ryear{
+  font-family:var(--mono); font-size:12px; color:var(--lav-deep); font-weight:600;
+  min-width:38px;
+}
+.sc-ritem{display:inline-flex; align-items:center; gap:5px}
+.sc-ritem i{width:9px; height:9px; border-radius:2px; flex:none}
+.sc-ritem b{color:var(--ink)}
+
+/* warnings: clay, consistent with the uncertainty apparatus elsewhere */
+.sc-warn{
+  font-size:12.5px; color:var(--uncertain); background:#faf1ea;
+  border:1px solid var(--uncertain-soft); border-radius:8px;
+  padding:9px 13px; margin:2px 0 12px; line-height:1.5;
+}
+.sc-warn div + div{margin-top:6px; padding-top:6px; border-top:1px solid var(--uncertain-soft)}
+.sc-warn b{color:var(--uncertain)}
+
+.sc-foot{
+  font-size:11.5px; color:var(--ink-soft); line-height:1.5; margin-top:10px;
+  padding-top:9px; border-top:1px solid var(--rule); max-width:82ch;
+}
