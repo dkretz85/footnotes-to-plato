@@ -279,10 +279,42 @@
 let WORKS = [];                 // [{work, file, tier, citations, faceted}, ...]
 const FILES = {};               // work id -> path, populated from WORKS
 // textual book order (common books sit in their NE place; string sort won't do)
-const BOOK_ORDER = ["I","II","III","IV","V*","VI*","VII*","VIII","IX","X",
-                    "Α","α","Β","Γ","Δ","Ε","Ζ","Η","Θ","Ι","Κ","Λ","Μ","Ν",
-                    "XI","XII"];
 const SECTIONS = ["a","b","c","d","e"];
+
+/* Book ordering.
+
+   Two rules, in this order:
+
+   1. If the work declares a reading order, use it. This matters for exactly
+      one case, but that case is real: the COMMON BOOKS. NE V-VII and EE IV-VI
+      are the same three books, transmitted once and printed in the NE's Bekker
+      range (~1129-1154). So EE's reading order is I, II, III, IV*, V*, VI*,
+      VII, VIII — while its Bekker pages run 1214, 1220, 1228, then *back* to
+      1129-1154, then forward to 1234, 1246. Reading order and page order
+      genuinely diverge, and page order would print EE's borrowed middle before
+      its own opening books.
+
+   2. Otherwise sort by first page. Correct for every other faceted work —
+      Republic, Laws, NE, Metaphysics — regardless of whether books are labelled
+      with Roman numerals, Greek letters, or asterisked commons.
+
+   The previous implementation was a single hardcoded list built from NE, which
+   silently mis-sorted EE (its IV* was absent), Republic and Laws (XI/XII sat
+   after the Greek letters), leaving only NE correct. */
+const READING_ORDER = {
+  // the one work whose reading order is not its page order
+  "Eudemian_Ethics": ["I","II","III","IV*","V*","VI*","VII","VIII"],
+};
+
+function bookSortKeys(cells){
+  const first = new Map();
+  for(const c of cells){
+    const k = first.get(c.book);
+    const v = [c.page, c.section || "a"];
+    if(!k || v[0] < k[0] || (v[0] === k[0] && v[1] < k[1])) first.set(c.book, v);
+  }
+  return first;
+}
 
 let current = null;       // loaded work json
 let metric = "count";     // count | articles
@@ -451,10 +483,22 @@ function renderHead(){
 }
 
 function orderedBooks(){
-  const present = [...new Set(activeCells().map(c=>c.book))];
+  const cells = activeCells();
+  const first = bookSortKeys(cells);
+  const present = [...first.keys()];
+  const declared = current && READING_ORDER[current.work];
+  if(declared){
+    // declared order first, then anything unexpected (by page) so nothing is
+    // silently dropped if the reference tables and the data disagree
+    const known = declared.filter(b=>first.has(b));
+    const extra = present.filter(b=>declared.indexOf(b)<0)
+                         .sort((a,b)=>first.get(a)[0]-first.get(b)[0]);
+    return known.concat(extra);
+  }
   return present.sort((a,b)=>{
-    const ia=BOOK_ORDER.indexOf(a), ib=BOOK_ORDER.indexOf(b);
-    return (ia<0?999:ia)-(ib<0?999:ib);
+    const ka = first.get(a), kb = first.get(b);
+    if(ka[0] !== kb[0]) return ka[0] - kb[0];       // lowest page wins
+    return ka[1] < kb[1] ? -1 : ka[1] > kb[1] ? 1 : 0;
   });
 }
 
