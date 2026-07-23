@@ -203,6 +203,41 @@
     margin:8px 2px 0; max-width:80ch}
   .bandnote b{color:var(--ink); font-weight:600}
   .bandnote a{color:var(--lav-deep)}
+
+  /* ---- Perseus passage frame --------------------------------------------- */
+  .passage{margin:22px 0 0}
+  .pv-strip{display:flex; align-items:center; gap:10px; width:100%;
+    text-align:left; font-family:var(--sans); font-size:13px; color:var(--ink);
+    background:#fff; border:1px solid var(--rule); border-radius:9px;
+    padding:10px 13px; cursor:pointer; box-shadow:var(--shadow);}
+  .pv-strip:hover{border-color:var(--lav)}
+  .pv-label{font-weight:600; color:var(--lav-deep)}
+  .pv-ref{font-family:var(--mono); font-size:12px; color:var(--ink-soft)}
+  .pv-caret{margin-left:auto; color:var(--lav-deep); font-size:11px;
+    transition:transform .12s}
+  .pv-strip[aria-expanded="true"]{border-radius:9px 9px 0 0; border-bottom:0}
+  .pv-strip[aria-expanded="true"] .pv-caret{transform:rotate(90deg)}
+  .pv-body{border:1px solid var(--rule); border-top:0; border-radius:0 0 9px 9px;
+    background:#fff; overflow:hidden}
+  .pv-head{display:flex; align-items:center; gap:10px; flex-wrap:wrap;
+    padding:9px 13px; border-bottom:1px solid var(--rule); background:#fbfcfe}
+  .pv-ref2{font-family:var(--mono); font-size:12.5px; color:var(--ink)}
+  .pv-actions{margin-left:auto; display:flex; gap:8px}
+  .pv-btn{font-family:var(--sans); font-size:12px; color:var(--lav-deep);
+    background:#fff; border:1px solid var(--rule); border-radius:6px;
+    padding:4px 9px; cursor:pointer; text-decoration:none; line-height:1.4}
+  .pv-btn:hover{border-color:var(--lav)}
+  .pv-frame{position:relative; height:560px; background:#f2f4f9}
+  .pv-iframe{width:100%; height:100%; border:0; display:block}
+  .pv-fallback{position:absolute; inset:0; display:flex; align-items:center;
+    justify-content:center; text-align:center; padding:24px; font-size:13px;
+    color:var(--ink-soft); line-height:1.5}
+  .pv-fallback a{color:var(--lav-deep)}
+  .pv-credit{font-size:11px; color:var(--ink-soft); padding:8px 13px; line-height:1.5}
+  .pv-credit a{color:var(--lav-deep)}
+  .passage-none{margin:22px 0 0; font-size:12.5px; color:var(--ink-soft);
+    border:1px dashed var(--rule); border-radius:9px; padding:11px 13px;
+    background:#fbfcfe}
   @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 </style>
 </head>
@@ -239,7 +274,6 @@
 
   <div class="viewlabel" data-copy="view_b.chart_label"></div>
   <div class="chart" id="chart"></div>
-  <div id="bandnote" class="bandnote" style="display:none"></div>
 
   <div class="viewlabel" data-copy="view_b.heatmap_label"></div>
   <div class="legend">
@@ -248,6 +282,32 @@
     <span data-copy="view_b.legend.high"></span>
   </div>
   <div id="heatgrid" class="heatgrid"></div>
+  <div id="bandnote" class="bandnote" style="display:none"></div>
+
+  <!-- Passage frame: a collapsed strip below the heatmap that frames the Perseus
+       hopper page for the last-clicked locus. Context comes last, after the two
+       coupled data instruments (chart + heatmap). -->
+  <section class="passage" id="passage" hidden>
+    <button class="pv-strip" id="pvStrip" type="button" aria-expanded="false" aria-controls="pvBody">
+      <span class="pv-label">View passage on Perseus</span>
+      <span class="pv-ref" id="pvRefStrip"></span>
+      <span class="pv-caret" aria-hidden="true">▸</span>
+    </button>
+    <div class="pv-body" id="pvBody" hidden>
+      <div class="pv-head">
+        <span class="pv-ref2" id="pvRefHead"></span>
+        <span class="pv-actions">
+          <button class="pv-btn" id="pvReset" type="button">Reset to passage</button>
+          <a class="pv-btn" id="pvOpen" href="#" target="_blank" rel="noopener">Open on Perseus ↗</a>
+        </span>
+      </div>
+      <div class="pv-frame" id="pvFrame"></div>
+      <div class="pv-credit">Passage framed from the
+        <a href="https://www.perseus.tufts.edu/hopper/" target="_blank" rel="noopener">Perseus Digital Library</a>,
+        Tufts University — a finding-aid link; the text is neither hosted nor mirrored here.</div>
+    </div>
+  </section>
+  <div class="passage-none" id="pvNone" hidden>No Perseus text available for this work.</div>
 </div>
 
 <div class="scrim" id="scrim"></div>
@@ -289,6 +349,71 @@ let WORKS = [];                 // [{work, file, tier, citations, faceted, ...}]
 const BOOK_ORDER = ["I","II","III","IV","V","VI","VII","VIII","IX","X","XI","XII",
                     "Α","α","Β","Γ","Δ","Ε","Ζ","Η","Θ","Ι","Κ","Λ","Μ","Ν"];
 const SECTIONS = ["a","b","c","d","e"];
+const ROMAN = {I:1,II:2,III:3,IV:4,V:5,VI:6,VII:7,VIII:8,IX:9,X:10,XI:11,XII:12};
+
+// ---- Perseus passage frame ------------------------------------------------
+// Abbreviation each work is addressed by in the Perseus hopper's `searchresults`
+// query. These follow Perseus's own citation forms. null = Perseus holds no text
+// for this work (the nine partial-coverage Aristotle treatises); the frame then
+// shows an explicit "no text" note rather than a broken query. THE STRIP HEADER
+// ALWAYS SHOWS THE STRING IT BUILT, so a wrong abbreviation is visible on screen
+// and this dict is the single place to correct it. The high-traffic works
+// (Republic, Laws, NE, Metaphysics, Rhetoric, Politics, …) are the confident
+// ones; the short Parva Naturalia / Organon forms are best-effort and worth a
+// spot-check.
+const PERSEUS_ABBR = {
+  // Plato (Stephanus) — full coverage
+  "Apology":"Plat. Apol.", "Charmides":"Plat. Charm.", "Cratylus":"Plat. Crat.",
+  "Critias":"Plat. Criti.", "Crito":"Plat. Crito", "Euthydemus":"Plat. Euthyd.",
+  "Euthyphro":"Plat. Euthyph.", "Gorgias":"Plat. Gorg.",
+  "Hippias_Major":"Plat. Hipp. Maj.", "Hippias_Minor":"Plat. Hipp. Min.",
+  "Ion":"Plat. Ion", "Laches":"Plat. Lach.", "Laws":"Plat. Laws",
+  "Letters":"Plat. L.", "Lysis":"Plat. Lysis", "Menexenus":"Plat. Menex.",
+  "Meno":"Plat. Meno", "Parmenides":"Plat. Parm.", "Phaedo":"Plat. Phaedo",
+  "Phaedrus":"Plat. Phaedrus", "Philebus":"Plat. Phileb.",
+  "Protagoras":"Plat. Prot.", "Republic":"Plat. Rep.", "Sophist":"Plat. Soph.",
+  "Statesman":"Plat. Stat.", "Symposium":"Plat. Sym.", "Theaetetus":"Plat. Theaet.",
+  "Timaeus":"Plat. Tim.", "Alcibiades_1":"Plat. Alc. 1", "Alcibiades_2":"Plat. Alc. 2",
+  "Hipparchus":"Plat. Hipparch.", "Minos":"Plat. Minos",
+  "Rival_Lovers":"Plat. Rival Lovers", "Theages":"Plat. Theag.",
+  "Clitophon":"Plat. Clit.", "Epinomis":"Plat. Epin.",
+  // Aristotle (Bekker) — partial coverage
+  "Nicomachean_Ethics":"Aristot. Nic. Eth.", "Eudemian_Ethics":"Aristot. Eud. Eth.",
+  "Metaphysics":"Aristot. Met.", "Rhetoric":"Aristot. Rh.", "Poetics":"Aristot. Poet.",
+  "Politics":"Aristot. Pol.", "De_Caelo":"Aristot. Cael.",
+  "De_Generatione_et_Corruptione":"Aristot. Gen. Corr.",
+  "Historia_Animalium":"Aristot. Hist. An.", "De_Partibus_Animalium":"Aristot. Part. An.",
+  "De_Generatione_Animalium":"Aristot. Gen. An.", "De_Motu_Animalium":"Aristot. Mot. An.",
+  "De_Incessu_Animalium":"Aristot. Progr. An.", "De_Sensu":"Aristot. Sens.",
+  "De_Memoria":"Aristot. Mem.", "De_Somno":"Aristot. Somn.",
+  "De_Insomniis":"Aristot. Insomn.", "De_Divinatione_per_Somnum":"Aristot. Div. Somn.",
+  "De_Longitudine_Vitae":"Aristot. Long.", "De_Juventute":"Aristot. Juv.",
+  "De_Respiratione":"Aristot. Respir.", "De_Interpretatione":"Aristot. Int.",
+  "Rhetorica_ad_Alexandrum":"Aristot. Rh. Al.",
+  // Aristotle works Perseus has NO text for (8,118 citations, ~9%)
+  "Physics":null, "De_Anima":null, "Posterior_Analytics":null, "Topics":null,
+  "Prior_Analytics":null, "Meteorology":null, "Sophistical_Refutations":null,
+  "Magna_Moralia":null, "Categories":null
+};
+
+// Build the abbreviation string for a clicked locus, or null if the work has no
+// Perseus text. Aristotle/Bekker works address the Bekker page+column directly
+// (1097b); faceted Plato works (Republic, Laws) use <book>.<page> with the a–e
+// section dropped; other Plato works use <page><section> (81a).
+function perseusRefFor(book, page, section){
+  const abbr = PERSEUS_ABBR[current && current.work];
+  if(!abbr) return null;                    // null or undefined → no text
+  if(paginationOf(current.work)==="bekker") return `${abbr} ${page}${section||""}`;
+  if(current.faceted && book){
+    const bk = ROMAN[(book||"").replace("*","")];
+    if(bk) return `${abbr} ${bk}.${page}`;
+  }
+  return `${abbr} ${page}${section||""}`;
+}
+function perseusUrl(ref){
+  return "https://www.perseus.tufts.edu/hopper/searchresults?q="+encodeURIComponent(ref);
+}
+function workHasPerseus(work){ return !!PERSEUS_ABBR[work]; }
 
 // Author/edition map (68 works). Inlined deliberately: nothing external to fetch,
 // so no silent 404 can put a work on the wrong grid. 'a' = Bekker (Aristotle),
@@ -364,6 +489,7 @@ async function loadWork(id){
   }
   _secCache=null; _bandCache=null;
   render();
+  renderPassage();   // reset the Perseus strip for the newly-loaded work
 }
 
 // ---- section-grain values, built from DOTS (audit 2b) ----------------------
@@ -704,6 +830,7 @@ function openDrillBand(book,page,sec,band,agg){
   const bandLbl = !banded ? `${page}${sec}`
     : band===UNSPEC ? `${page}${sec} (no line given)`
     : `${page}${sec}${BAND_LABEL[band]}`;
+  setPassageLocus(book, page, sec);
   openDrillDots(dots, `${current.work.replace(/_/g," ")} ${bandLbl}`);
 }
 
@@ -725,6 +852,7 @@ function openDrill(cell){
   const dots = current.dots.filter(d =>
     d.page===cell.page && d.section===cell.section && d.book===cell.book
     && passesBar(d));
+  setPassageLocus(cell.book, cell.page, cell.section);
   openDrillDots(dots, `${current.work.replace(/_/g," ")} ${cell.page}${cell.section}`);
 }
 
@@ -785,6 +913,75 @@ function openDrillDots(dots, locLabel){
 }
 let currentDrillDots=[], currentDrillLoc="";
 function closeDrill(){ $("#drill").classList.remove("open"); $("#scrim").classList.remove("open"); }
+
+// ---- Perseus passage frame ------------------------------------------------
+// A collapsed strip below the heatmap that frames the Perseus hopper page for
+// the last-clicked locus. Collapsed by default so idle clicking never fires a
+// request to Tufts; it loads only when the reader expands it.
+let pvRef=null, pvExpanded=false, pvLoaded=null;
+
+// Called when a work loads: hide the strip entirely (showing an explicit note)
+// when Perseus has no text for it, otherwise collapse it and clear the locus.
+function renderPassage(){
+  const has = workHasPerseus(current && current.work);
+  $("#pvNone").hidden = has;
+  $("#passage").hidden = !has;
+  pvRef=null; pvExpanded=false; pvLoaded=null;
+  $("#pvStrip").setAttribute("aria-expanded","false");
+  $("#pvBody").hidden = true;
+  $("#pvFrame").innerHTML = "";
+  setPassageLabel();
+}
+
+function setPassageLabel(){
+  const hint = "— click a passage above";
+  $("#pvRefStrip").textContent = pvRef || hint;
+  $("#pvRefHead").textContent  = pvRef || hint;
+  const open = $("#pvOpen");
+  if(pvRef){ open.href = perseusUrl(pvRef); open.style.pointerEvents=""; open.style.opacity=""; }
+  else { open.removeAttribute("href"); open.style.pointerEvents="none"; open.style.opacity=".4"; }
+}
+
+// Remember the clicked locus; follow it in the frame only if already expanded.
+function setPassageLocus(book,page,section){
+  if(!workHasPerseus(current.work)) return;
+  const ref = perseusRefFor(book,page,section);
+  if(!ref) return;
+  pvRef = ref;
+  setPassageLabel();
+  if(pvExpanded && pvLoaded!==pvRef) pvLoadFrame(pvRef);
+}
+
+// `searchresults` is a search endpoint, so the strip always shows the exact
+// string queried; the fallback line keeps a plain external link visible in case
+// the frame does not load.
+function pvLoadFrame(ref){
+  const url = perseusUrl(ref);
+  $("#pvFrame").innerHTML =
+    `<div class="pv-fallback" id="pvFallback">Loading <b>${ref}</b> from Perseus…`+
+    ` If nothing appears, <a href="${url}" target="_blank" rel="noopener">open it on Perseus ↗</a>.</div>`+
+    `<iframe class="pv-iframe" title="Perseus passage: ${ref}" src="${url}"`+
+    ` referrerpolicy="no-referrer-when-downgrade"></iframe>`;
+  const fr = $("#pvFrame").querySelector("iframe");
+  fr.addEventListener("load", ()=>{ const f=$("#pvFallback"); if(f) f.style.display="none"; });
+  pvLoaded = ref;
+}
+
+function pvToggle(){
+  pvExpanded = !pvExpanded;
+  $("#pvStrip").setAttribute("aria-expanded", pvExpanded?"true":"false");
+  $("#pvBody").hidden = !pvExpanded;
+  if(pvExpanded){
+    if(pvRef && pvLoaded!==pvRef) pvLoadFrame(pvRef);
+    else if(!pvRef) $("#pvFrame").innerHTML =
+      `<div class="pv-fallback">Click a passage in the chart or heatmap above to load it here.</div>`;
+  }
+}
+
+function initPassage(){
+  $("#pvStrip").addEventListener("click", pvToggle);
+  $("#pvReset").addEventListener("click", ()=>{ if(pvRef) pvLoadFrame(pvRef); });
+}
 
 // ---- export ---------------------------------------------------------------
 function exportCsv(){
@@ -848,6 +1045,7 @@ function initControls(){
   $("#scrim").addEventListener("click", closeDrill);
   $("#exportBtn").addEventListener("click", exportCsv);
   document.addEventListener("keydown", e=>{ if(e.key==="Escape") closeDrill(); });
+  initPassage();
 }
 
 function applyCopy(root){

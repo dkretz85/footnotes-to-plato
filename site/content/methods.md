@@ -182,6 +182,24 @@ series are noisier before 1950, and why the smoothing options exist.
 - Several Aristotelian treatise boundaries remain to be verified; see the
   [full record](/methods/pipeline/#9-known-limitations--the-honest-to-do-list).
 
+## Passage links (Perseus)
+
+Each passage in the [passage viewer](/explore/passages/) carries a collapsed
+"View passage on Perseus" strip that frames the matching page of the
+[Perseus Digital Library](https://www.perseus.tufts.edu/hopper/), Tufts
+University. This is a **finding-aid pointer only**: the text is Perseus's, framed
+live, and is neither hosted nor mirrored here. The link is built directly from
+the work and locus, not from a stored mapping table.
+
+Two caveats attach to it. First, **Perseus's Aristotle holdings are partial** —
+nine treatises in the corpus (Physics, De Anima, the Prior and Posterior
+Analytics, Topics, Sophistical Refutations, Meteorology, Magna Moralia,
+Categories; about 9% of citations) have no Perseus text, and the strip states
+that explicitly rather than linking to nothing. Second, the link uses Perseus's
+`searchresults` endpoint, which is **undocumented and internal** and could change
+without notice — which is why the strip always shows the exact query string it
+built, so a misfire is visible rather than silent.
+
 ## Checking the work
 
 The [derived data is published](/data/) under CC BY 4.0, and the pipeline is
