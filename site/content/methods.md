@@ -188,17 +188,20 @@ Each passage in the [passage viewer](/explore/passages/) carries a collapsed
 "View passage on Perseus" strip that frames the matching page of the
 [Perseus Digital Library](https://www.perseus.tufts.edu/hopper/), Tufts
 University. This is a **finding-aid pointer only**: the text is Perseus's, framed
-live, and is neither hosted nor mirrored here. The link is built directly from
-the work and locus, not from a stored mapping table.
+live from its reading view, and is neither hosted nor mirrored here. Each work is
+mapped to its Perseus text-document ID, and the passage address is built from the
+locus — section-level (e.g. 80a) for the Platonic dialogues, Bekker page for the
+Aristotelian treatises.
 
-Two caveats attach to it. First, **Perseus's Aristotle holdings are partial** —
-nine treatises in the corpus (Physics, De Anima, the Prior and Posterior
-Analytics, Topics, Sophistical Refutations, Meteorology, Magna Moralia,
-Categories; about 9% of citations) have no Perseus text, and the strip states
-that explicitly rather than linking to nothing. Second, the link uses Perseus's
-`searchresults` endpoint, which is **undocumented and internal** and could change
-without notice — which is why the strip always shows the exact query string it
-built, so a misfire is visible rather than silent.
+One real limitation attaches to it: **Perseus's Aristotle coverage is thin.**
+All 36 Platonic works are present, but of the Aristotelian corpus Perseus holds
+only six — the *Nicomachean* and *Eudemian Ethics*, *Metaphysics*, *Rhetoric*,
+*Poetics* and *Politics*. The other 26 treatises (the *Physics*, *De Anima*, the
+*Organon*, the biological and *Parva Naturalia* works, and more — about **13% of
+all placed citations**) have no Perseus text at all, and the strip says so
+explicitly rather than linking to nothing. The strip also always shows the exact
+citation it built, so if a mapping is ever wrong it is visible on screen rather
+than silent.
 
 ## Checking the work
 

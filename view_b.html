@@ -164,12 +164,15 @@
     text-decoration:none; border-bottom:1px solid var(--rule);
   }
   .cite a.doi:hover{border-color:var(--lav)}
-  .drill-foot{padding:14px 22px; border-top:1px solid var(--rule)}
+  .drill-foot{padding:14px 22px; border-top:1px solid var(--rule);
+    display:flex; flex-direction:column; gap:8px}
   .btn{
     font-family:var(--sans); font-size:13.5px; font-weight:500; color:#fff;
     background:var(--lav-deep); border:0; border-radius:7px; padding:9px 15px; cursor:pointer; width:100%;
   }
   .btn:hover{background:var(--lav)}
+  .btn.ghost{background:#fff; color:var(--lav-deep); border:1px solid var(--rule)}
+  .btn.ghost:hover{background:#f4f6fc; border-color:var(--lav)}
   .scrim{position:fixed; inset:0; background:rgba(28,34,48,.18); opacity:0; pointer-events:none; transition:opacity .22s; z-index:15}
   .scrim.open{opacity:1; pointer-events:auto}
 
@@ -319,6 +322,7 @@
   </div>
   <div class="drill-body" id="drillBody"></div>
   <div class="drill-foot">
+    <button class="btn ghost" id="pvFromDrill" type="button" hidden>View passage on Perseus ↗</button>
     <button class="btn" id="exportBtn" data-copy="view_b.drill.export_button"></button>
   </div>
 </aside>
@@ -352,57 +356,70 @@ const SECTIONS = ["a","b","c","d","e"];
 const ROMAN = {I:1,II:2,III:3,IV:4,V:5,VI:6,VII:7,VIII:8,IX:9,X:10,XI:11,XII:12};
 
 // ---- Perseus passage frame ------------------------------------------------
-// Abbreviation each work is addressed by in the Perseus hopper's `searchresults`
-// query. These follow Perseus's own citation forms. null = Perseus holds no text
-// for this work (the nine partial-coverage Aristotle treatises); the frame then
-// shows an explicit "no text" note rather than a broken query. THE STRIP HEADER
-// ALWAYS SHOWS THE STRING IT BUILT, so a wrong abbreviation is visible on screen
-// and this dict is the single place to correct it. The high-traffic works
-// (Republic, Laws, NE, Metaphysics, Rhetoric, Politics, …) are the confident
-// ones; the short Parva Naturalia / Organon forms are best-effort and worth a
-// spot-check.
+// The frame points at Perseus's `text?doc=` reading view, which embeds cleanly
+// (the older `searchresults` endpoint redirected to a page that refused framing
+// for half the corpus). That needs each work's Perseus text-document ID, so the
+// two tables below are the whole dependency:
+//
+//   PERSEUS_DOC  — work_id → English text-doc, harvested from Perseus's own
+//                  Greco-Roman collection listing (bundled dialogues carry a
+//                  `:text=<sub>` component; standalone volumes do not). A work
+//                  absent here has no Perseus text and shows the "no text" note.
+//   PERSEUS_ABBR — work_id → the citation abbreviation shown to the reader in
+//                  the strip header (e.g. "Plat. Meno 80a"). Display only.
+//
+// Perseus covers all 36 Plato works but only six Aristotle treatises; the other
+// 26 (11,996 citations, ~13% of the corpus) simply are not in Perseus.
+const PERSEUS_DOC = {
+  // Plato (English translations; bundled dialogues carry a :text= sub-address)
+  "Alcibiades_1":"1999.01.0176:text=Alc.+1", "Alcibiades_2":"1999.01.0176:text=Alc.+2",
+  "Apology":"1999.01.0170:text=Apol.", "Charmides":"1999.01.0176:text=Charm.",
+  "Clitophon":"1999.01.0180:text=Cleit.", "Cratylus":"1999.01.0172:text=Crat.",
+  "Critias":"1999.01.0180:text=Criti.", "Crito":"1999.01.0170:text=Crito",
+  "Epinomis":"1999.01.0180:text=Epin.", "Euthydemus":"1999.01.0178:text=Euthyd.",
+  "Euthyphro":"1999.01.0170:text=Euthyph.", "Gorgias":"1999.01.0178:text=Gorg.",
+  "Hipparchus":"1999.01.0176:text=Hipparch.", "Hippias_Major":"1999.01.0180:text=Hipp.+Maj.",
+  "Hippias_Minor":"1999.01.0180:text=Hipp.+Min.", "Ion":"1999.01.0180:text=Ion",
+  "Laches":"1999.01.0176:text=Lach.", "Laws":"1999.01.0166", "Letters":"1999.01.0164",
+  "Lysis":"1999.01.0176:text=Lysis", "Menexenus":"1999.01.0180:text=Menex.",
+  "Meno":"1999.01.0178:text=Meno", "Minos":"1999.01.0180:text=Minos",
+  "Parmenides":"1999.01.0174:text=Parm.", "Phaedo":"1999.01.0170:text=Phaedo",
+  "Phaedrus":"1999.01.0174:text=Phaedrus", "Philebus":"1999.01.0174:text=Phileb.",
+  "Protagoras":"1999.01.0178:text=Prot.", "Republic":"1999.01.0168",
+  "Rival_Lovers":"1999.01.0176:text=Lovers", "Sophist":"1999.01.0172:text=Soph.",
+  "Statesman":"1999.01.0172:text=Stat.", "Symposium":"1999.01.0174:text=Sym.",
+  "Theaetetus":"1999.01.0172:text=Theaet.", "Theages":"1999.01.0176:text=Theag.",
+  "Timaeus":"1999.01.0180:text=Tim.",
+  // Aristotle (only these six are in Perseus)
+  "Eudemian_Ethics":"1999.01.0050", "Metaphysics":"1999.01.0052",
+  "Nicomachean_Ethics":"1999.01.0054", "Poetics":"1999.01.0056",
+  "Politics":"1999.01.0058", "Rhetoric":"1999.01.0060"
+};
 const PERSEUS_ABBR = {
-  // Plato (Stephanus) — full coverage
-  "Apology":"Plat. Apol.", "Charmides":"Plat. Charm.", "Cratylus":"Plat. Crat.",
-  "Critias":"Plat. Criti.", "Crito":"Plat. Crito", "Euthydemus":"Plat. Euthyd.",
-  "Euthyphro":"Plat. Euthyph.", "Gorgias":"Plat. Gorg.",
-  "Hippias_Major":"Plat. Hipp. Maj.", "Hippias_Minor":"Plat. Hipp. Min.",
-  "Ion":"Plat. Ion", "Laches":"Plat. Lach.", "Laws":"Plat. Laws",
-  "Letters":"Plat. L.", "Lysis":"Plat. Lysis", "Menexenus":"Plat. Menex.",
-  "Meno":"Plat. Meno", "Parmenides":"Plat. Parm.", "Phaedo":"Plat. Phaedo",
-  "Phaedrus":"Plat. Phaedrus", "Philebus":"Plat. Phileb.",
-  "Protagoras":"Plat. Prot.", "Republic":"Plat. Rep.", "Sophist":"Plat. Soph.",
-  "Statesman":"Plat. Stat.", "Symposium":"Plat. Sym.", "Theaetetus":"Plat. Theaet.",
-  "Timaeus":"Plat. Tim.", "Alcibiades_1":"Plat. Alc. 1", "Alcibiades_2":"Plat. Alc. 2",
-  "Hipparchus":"Plat. Hipparch.", "Minos":"Plat. Minos",
-  "Rival_Lovers":"Plat. Rival Lovers", "Theages":"Plat. Theag.",
-  "Clitophon":"Plat. Clit.", "Epinomis":"Plat. Epin.",
-  // Aristotle (Bekker) — partial coverage
-  "Nicomachean_Ethics":"Aristot. Nic. Eth.", "Eudemian_Ethics":"Aristot. Eud. Eth.",
-  "Metaphysics":"Aristot. Met.", "Rhetoric":"Aristot. Rh.", "Poetics":"Aristot. Poet.",
-  "Politics":"Aristot. Pol.", "De_Caelo":"Aristot. Cael.",
-  "De_Generatione_et_Corruptione":"Aristot. Gen. Corr.",
-  "Historia_Animalium":"Aristot. Hist. An.", "De_Partibus_Animalium":"Aristot. Part. An.",
-  "De_Generatione_Animalium":"Aristot. Gen. An.", "De_Motu_Animalium":"Aristot. Mot. An.",
-  "De_Incessu_Animalium":"Aristot. Progr. An.", "De_Sensu":"Aristot. Sens.",
-  "De_Memoria":"Aristot. Mem.", "De_Somno":"Aristot. Somn.",
-  "De_Insomniis":"Aristot. Insomn.", "De_Divinatione_per_Somnum":"Aristot. Div. Somn.",
-  "De_Longitudine_Vitae":"Aristot. Long.", "De_Juventute":"Aristot. Juv.",
-  "De_Respiratione":"Aristot. Respir.", "De_Interpretatione":"Aristot. Int.",
-  "Rhetorica_ad_Alexandrum":"Aristot. Rh. Al.",
-  // Aristotle works Perseus has NO text for (8,118 citations, ~9%)
-  "Physics":null, "De_Anima":null, "Posterior_Analytics":null, "Topics":null,
-  "Prior_Analytics":null, "Meteorology":null, "Sophistical_Refutations":null,
-  "Magna_Moralia":null, "Categories":null
+  "Alcibiades_1":"Plat. Alc. 1", "Alcibiades_2":"Plat. Alc. 2", "Apology":"Plat. Apol.",
+  "Charmides":"Plat. Charm.", "Clitophon":"Plat. Cleit.", "Cratylus":"Plat. Crat.",
+  "Critias":"Plat. Criti.", "Crito":"Plat. Crito", "Epinomis":"Plat. Epin.",
+  "Euthydemus":"Plat. Euthyd.", "Euthyphro":"Plat. Euthyph.", "Gorgias":"Plat. Gorg.",
+  "Hipparchus":"Plat. Hipparch.", "Hippias_Major":"Plat. Hipp. Maj.",
+  "Hippias_Minor":"Plat. Hipp. Min.", "Ion":"Plat. Ion", "Laches":"Plat. Lach.",
+  "Laws":"Plat. Laws", "Letters":"Plat. L.", "Lysis":"Plat. Lysis",
+  "Menexenus":"Plat. Menex.", "Meno":"Plat. Meno", "Minos":"Plat. Minos",
+  "Parmenides":"Plat. Parm.", "Phaedo":"Plat. Phaedo", "Phaedrus":"Plat. Phaedrus",
+  "Philebus":"Plat. Phileb.", "Protagoras":"Plat. Prot.", "Republic":"Plat. Rep.",
+  "Rival_Lovers":"Plat. Lovers", "Sophist":"Plat. Soph.", "Statesman":"Plat. Stat.",
+  "Symposium":"Plat. Sym.", "Theaetetus":"Plat. Theaet.", "Theages":"Plat. Theag.",
+  "Timaeus":"Plat. Tim.",
+  "Eudemian_Ethics":"Aristot. Eud. Eth.", "Metaphysics":"Aristot. Met.",
+  "Nicomachean_Ethics":"Aristot. Nic. Eth.", "Poetics":"Aristot. Poet.",
+  "Politics":"Aristot. Pol.", "Rhetoric":"Aristot. Rh."
 };
 
-// Build the abbreviation string for a clicked locus, or null if the work has no
-// Perseus text. Aristotle/Bekker works address the Bekker page+column directly
-// (1097b); faceted Plato works (Republic, Laws) use <book>.<page> with the a–e
-// section dropped; other Plato works use <page><section> (81a).
-function perseusRefFor(book, page, section){
+// The human-readable citation shown in the strip header, e.g. "Plat. Meno 80a".
+// Faceted Plato (Republic, Laws) reads <book>.<page> (section dropped); other
+// Plato reads <page><section>; Aristotle reads the Bekker page+column.
+function perseusLabel(book, page, section){
   const abbr = PERSEUS_ABBR[current && current.work];
-  if(!abbr) return null;                    // null or undefined → no text
+  if(!abbr) return null;
   if(paginationOf(current.work)==="bekker") return `${abbr} ${page}${section||""}`;
   if(current.faceted && book){
     const bk = ROMAN[(book||"").replace("*","")];
@@ -410,10 +427,29 @@ function perseusRefFor(book, page, section){
   }
   return `${abbr} ${page}${section||""}`;
 }
-function perseusUrl(ref){
-  return "https://www.perseus.tufts.edu/hopper/searchresults?q="+encodeURIComponent(ref);
+
+// The `doc=` parameter for Perseus's text?doc reading view. Address formats were
+// confirmed live: faceted Plato → book=N:page=STEPH; other Plato → section=<page><letter>
+// (section-level); Aristotle → bekker page=<page><column>. Spaces are %20-encoded;
+// colons/equals pass through, as Perseus's own links use them.
+function perseusDocParam(book, page, section){
+  const base = PERSEUS_DOC[current && current.work];
+  if(!base) return null;
+  let addr;
+  if(paginationOf(current.work)==="bekker"){
+    addr = `bekker%20page=${page}${section||""}`;
+  } else if(current.faceted && book){
+    const bk = ROMAN[(book||"").replace("*","")];
+    addr = bk ? `book=${bk}:page=${page}` : `section=${page}${section||""}`;
+  } else {
+    addr = `section=${page}${section||""}`;
+  }
+  return `Perseus:text:${base}:${addr}`;
 }
-function workHasPerseus(work){ return !!PERSEUS_ABBR[work]; }
+function perseusUrl(docParam){
+  return "https://www.perseus.tufts.edu/hopper/text?doc="+docParam;
+}
+function workHasPerseus(work){ return !!PERSEUS_DOC[work]; }
 
 // Author/edition map (68 works). Inlined deliberately: nothing external to fetch,
 // so no silent 404 can put a work on the wrong grid. 'a' = Bekker (Aristotle),
@@ -908,6 +944,8 @@ function openDrillDots(dots, locLabel){
   }
   currentDrillDots = dots;
   currentDrillLoc = locLabel;
+  // Offer the one-click route to the passage frame when Perseus covers this work.
+  $("#pvFromDrill").hidden = !(workHasPerseus(current.work) && pvDoc);
   $("#drill").classList.add("open");
   $("#scrim").classList.add("open");
 }
@@ -915,10 +953,12 @@ let currentDrillDots=[], currentDrillLoc="";
 function closeDrill(){ $("#drill").classList.remove("open"); $("#scrim").classList.remove("open"); }
 
 // ---- Perseus passage frame ------------------------------------------------
-// A collapsed strip below the heatmap that frames the Perseus hopper page for
+// A collapsed strip below the heatmap that frames the Perseus text?doc page for
 // the last-clicked locus. Collapsed by default so idle clicking never fires a
-// request to Tufts; it loads only when the reader expands it.
-let pvRef=null, pvExpanded=false, pvLoaded=null;
+// request to Tufts; it loads only when the reader expands it. pvRef is the
+// human label shown in the header; pvDoc is the doc= parameter the iframe loads;
+// pvLoaded tracks which doc is currently framed.
+let pvRef=null, pvDoc=null, pvExpanded=false, pvLoaded=null;
 
 // Called when a work loads: hide the strip entirely (showing an explicit note)
 // when Perseus has no text for it, otherwise collapse it and clear the locus.
@@ -926,7 +966,7 @@ function renderPassage(){
   const has = workHasPerseus(current && current.work);
   $("#pvNone").hidden = has;
   $("#passage").hidden = !has;
-  pvRef=null; pvExpanded=false; pvLoaded=null;
+  pvRef=null; pvDoc=null; pvExpanded=false; pvLoaded=null;
   $("#pvStrip").setAttribute("aria-expanded","false");
   $("#pvBody").hidden = true;
   $("#pvFrame").innerHTML = "";
@@ -938,33 +978,34 @@ function setPassageLabel(){
   $("#pvRefStrip").textContent = pvRef || hint;
   $("#pvRefHead").textContent  = pvRef || hint;
   const open = $("#pvOpen");
-  if(pvRef){ open.href = perseusUrl(pvRef); open.style.pointerEvents=""; open.style.opacity=""; }
+  if(pvDoc){ open.href = perseusUrl(pvDoc); open.style.pointerEvents=""; open.style.opacity=""; }
   else { open.removeAttribute("href"); open.style.pointerEvents="none"; open.style.opacity=".4"; }
 }
 
 // Remember the clicked locus; follow it in the frame only if already expanded.
 function setPassageLocus(book,page,section){
   if(!workHasPerseus(current.work)) return;
-  const ref = perseusRefFor(book,page,section);
-  if(!ref) return;
-  pvRef = ref;
+  const doc = perseusDocParam(book,page,section);
+  if(!doc) return;
+  pvRef = perseusLabel(book,page,section);
+  pvDoc = doc;
   setPassageLabel();
-  if(pvExpanded && pvLoaded!==pvRef) pvLoadFrame(pvRef);
+  if(pvExpanded && pvLoaded!==pvDoc) pvLoadFrame();
 }
 
-// `searchresults` is a search endpoint, so the strip always shows the exact
-// string queried; the fallback line keeps a plain external link visible in case
-// the frame does not load.
-function pvLoadFrame(ref){
-  const url = perseusUrl(ref);
+// The header always shows the citation and a working out-link, so even if the
+// frame itself fails to render the reader has the passage reference plus a link.
+function pvLoadFrame(){
+  if(!pvDoc) return;
+  const url = perseusUrl(pvDoc);
   $("#pvFrame").innerHTML =
-    `<div class="pv-fallback" id="pvFallback">Loading <b>${ref}</b> from Perseus…`+
+    `<div class="pv-fallback" id="pvFallback">Loading <b>${pvRef||""}</b> from Perseus…`+
     ` If nothing appears, <a href="${url}" target="_blank" rel="noopener">open it on Perseus ↗</a>.</div>`+
-    `<iframe class="pv-iframe" title="Perseus passage: ${ref}" src="${url}"`+
+    `<iframe class="pv-iframe" title="Perseus passage: ${pvRef||""}" src="${url}"`+
     ` referrerpolicy="no-referrer-when-downgrade"></iframe>`;
   const fr = $("#pvFrame").querySelector("iframe");
   fr.addEventListener("load", ()=>{ const f=$("#pvFallback"); if(f) f.style.display="none"; });
-  pvLoaded = ref;
+  pvLoaded = pvDoc;
 }
 
 function pvToggle(){
@@ -972,15 +1013,27 @@ function pvToggle(){
   $("#pvStrip").setAttribute("aria-expanded", pvExpanded?"true":"false");
   $("#pvBody").hidden = !pvExpanded;
   if(pvExpanded){
-    if(pvRef && pvLoaded!==pvRef) pvLoadFrame(pvRef);
-    else if(!pvRef) $("#pvFrame").innerHTML =
+    if(pvDoc && pvLoaded!==pvDoc) pvLoadFrame();
+    else if(!pvDoc) $("#pvFrame").innerHTML =
       `<div class="pv-fallback">Click a passage in the chart or heatmap above to load it here.</div>`;
   }
 }
 
+// Open the passage frame from inside the drill panel: close the drill, expand
+// the strip, load the current locus, and scroll it into view. This is the
+// one-click path from a cell to its passage — otherwise the drill overlay sits
+// on top of the strip and has to be dismissed first.
+function openPassageFromDrill(){
+  closeDrill();
+  if(!pvExpanded) pvToggle();
+  else if(pvDoc && pvLoaded!==pvDoc) pvLoadFrame();
+  const el=$("#passage"); if(el) el.scrollIntoView({behavior:"smooth", block:"start"});
+}
+
 function initPassage(){
   $("#pvStrip").addEventListener("click", pvToggle);
-  $("#pvReset").addEventListener("click", ()=>{ if(pvRef) pvLoadFrame(pvRef); });
+  $("#pvReset").addEventListener("click", ()=>{ if(pvDoc) pvLoadFrame(); });
+  $("#pvFromDrill").addEventListener("click", openPassageFromDrill);
 }
 
 // ---- export ---------------------------------------------------------------
