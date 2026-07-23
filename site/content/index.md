@@ -36,28 +36,24 @@ and links each mark back to the article that made it.</p>
 
 ## What it cannot tell you
 
-This is the part worth reading before the charts.
-
-<div class="callout warn">
-<h4>Coverage</h4>
-<p>Ten journals is not "the scholarship." The corpus is
-<strong>journal articles only</strong> — no monographs, no edited volumes, no
-commentaries, and no <em>Oxford Studies in Ancient Philosophy</em>. It skews
-Anglophone. A great deal of the most influential work on Plato and Aristotle has
-appeared in books, and none of that is here.</p>
-<p>What the tool measures precisely is <strong>citation traffic in these ten
-journals</strong>. Treat it as a large sample of the field's attention, not a
-census of it.</p>
-</div>
-
-<div class="callout warn">
-<h4>Placement, not accuracy</h4>
-<p>Of roughly 141,000 detected citations, <strong>90,502 could be placed</strong>
-to a specific work and passage. The rest could not — usually because page
-numbers collide between works, not because the citations are bad. A short bar
-below may mean "rarely cited" or it may mean "we could not place it." The
-difference is always shown, never hidden.</p>
-</div>
+Three limits shape everything below. First, the corpus is **ten journals**, not
+the field: journal articles only — no monographs, edited volumes, or
+commentaries — with an Anglophone skew, so much of the most influential work on
+Plato and Aristotle (which appeared in books) is simply absent. [The ten titles
+are listed on the methods page.](/methods/#coverage) Second, those journals are
+spread **unevenly across 1887–2022**: the early decades are thin and most of the
+citations fall after 1980, so a quiet early stretch reflects how little was
+published then, not a lapse in attention. Third, and most important, **every
+count here is a floor.** We placed {{placed_total}} citations to a specific
+passage, but {{queued_total}} more were detected and could not be uniquely
+resolved — usually because page numbers collide. A bare reference like *80b*,
+with no work named, fits *Meno*, *Apology* and several other dialogues at once
+(Stephanus pagination runs continuously across Plato), and does not even declare
+whether it is a Stephanus or a Bekker number to begin with; where the surrounding
+text does not settle it, we decline to guess. So a short bar can mean "rarely
+cited" or "we could not place it," the two are always shown apart, and no number
+on this site is ever a total. [How resolution works, in
+full →](/methods/#the-two-tiers)
 
 ## How much of the picture we actually have
 

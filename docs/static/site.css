@@ -228,9 +228,30 @@ footer.site{border-top:1px solid var(--rule); background:#fff; margin-top:40px}
 .lb-floor{height:15px; border-radius:2px 0 0 2px; min-width:1px; display:block}
 .lb-fade{height:15px; border-radius:0 3px 3px 0; display:block}
 .lb-val{font-family:var(--mono); font-size:11px; color:var(--ink-soft); text-align:right}
+.lb-row{cursor:default}
 @media (max-width:600px){
   .lb-row{grid-template-columns:96px 1fr 48px; gap:7px}
   .lb-name{font-size:12px}
+}
+
+/* hover readout for the landing tier chart — the richer per-work detail
+   (floor / band / unplaceable / placement rate / collisions / small-n) that
+   used to live on the Works-over-time copy of this chart */
+.lb-tip{
+  position:fixed; z-index:60; pointer-events:none; opacity:0;
+  transition:opacity .1s; background:var(--ink); color:#fff;
+  font-family:var(--sans); font-size:12px; line-height:1.45;
+  padding:9px 12px; border-radius:8px; max-width:288px; box-shadow:var(--shadow);
+}
+.lb-tip .tt-name{font-family:var(--serif); font-size:14px; margin-bottom:1px}
+.lb-tip .tt-sub{font-size:11px; color:#c7cdf0; margin-bottom:4px}
+.lb-tip .tt-row{color:#e8eaf6}
+.lb-tip .tt-row b{color:#fff}
+.lb-tip .tt-dim{color:#aab0d6}
+.lb-tip .tt-col{color:#aab0d6; font-size:11px; margin-top:4px}
+.lb-tip .tt-warn{
+  color:var(--uncertain-soft); font-size:11px; margin-top:6px;
+  border-top:1px solid rgba(255,255,255,.16); padding-top:5px;
 }
 
 /* draft banner: only rendered when built with --draft. Deliberately loud —

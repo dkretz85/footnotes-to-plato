@@ -7,7 +7,7 @@
     "page_title": "Footnotes to Plato — which works get attention",
     "heading": "Which works get attention",
     "subtitle": "Citation volume across the ancient-philosophy scholarship, work by work",
-    "intro": "Each bar counts how often a work is cited across the ten journals. The solid bar is what we could place with confidence — a floor. For many short dialogues, far more citations exist but can't be pinned to one work, because their page-numbers collide with others; that uncertain mass trails off as a fade rather than a false number.",
+    "intro": "Plot how attention to any work or group moved across the journals from 1887 to 2022. Add works to compare them, or switch to the field view to see where philosophy and classics journals diverge. Lines count citations we could place with confidence; a solid line resolves reliably, a dashed one under 80% — so read its shape rather than its height.",
     "legend": {
       "floor": "confidently placed (floor)",
       "band": "reasonably sure",
@@ -51,9 +51,6 @@
     "subtitle": "Which passages of a work the scholarship actually cites",
     "controls": {
       "work_label": "Work",
-      "journals_label": "Journals",
-      "journals_pooled": "Pooled",
-      "journals_split": "By journal",
       "intensity_label": "Intensity",
       "intensity_count": "Citations",
       "intensity_articles": "Distinct articles"
@@ -91,7 +88,7 @@
       "load_failed": "Could not load the citation data for this work. Reload the page; if it persists the data file may be missing."
     },
     "bands": {
-      "banner_html": "<b>Uneven coverage.</b> Some stretches of this work resolve worse than the rest, so the shape is misleading there, not just lower. The marked pages below are affected: {ranges}. Roughly {missing} citations in those pages could not be placed.",
+      "banner_html": "A few page-ranges resolve worse than the rest of this work (marked above): {ranges}. An estimated {missing} citations there could not be placed, so read those stretches as a floor. Full detail on the <a href=\"/methods/#collision-bands\">methods page</a>.",
       "marker_label": "under-resolved"
     }
   }

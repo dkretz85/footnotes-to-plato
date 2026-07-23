@@ -31,7 +31,7 @@ passthrough. It covers what the methods record actually uses. It is not a
 general Markdown engine and does not try to be; if a document needs more, the
 right move is to write that bit as HTML in the .md file, which passes through.
 """
-import argparse, html, http.server, os, re, shutil, socketserver, sys
+import argparse, html, http.server, json, os, re, shutil, socketserver, sys
 from datetime import date
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
@@ -262,6 +262,46 @@ def read_content(path):
     return meta, body
 
 
+# ---------------------------------------------------------------------------
+# Build-time figures. Numbers that must stay in step with the data (e.g. how
+# many detected citations could NOT be uniquely resolved) are pulled from the
+# aggregator's meta.json and substituted into content wherever `{{token}}`
+# appears, so they are never hand-typed into prose that can drift.
+# ---------------------------------------------------------------------------
+SUBS = {}
+
+
+def load_subs(viewer_data_dir):
+    """Read the aggregator's meta.json and return the {{token}} substitutions."""
+    subs = {}
+    meta_path = os.path.join(viewer_data_dir, "meta.json")
+    if os.path.exists(meta_path):
+        try:
+            m = json.load(open(meta_path, encoding="utf-8"))
+        except Exception as e:
+            print(f"  note: could not read meta.json for substitutions: {e}",
+                  file=sys.stderr)
+            return subs
+        placed = m.get("total_citations")
+        queued = m.get("total_queued")
+        journals = m.get("journals") or []
+        if placed is not None:
+            subs["placed_total"] = f"{placed:,}"
+        if queued is not None:
+            subs["queued_total"] = f"{queued:,}"
+        if journals:
+            subs["journal_count"] = str(len(journals))
+    return subs
+
+
+def subst(text):
+    """Replace {{token}} occurrences from SUBS; leave unknown tokens untouched."""
+    if not SUBS:
+        return text
+    return re.sub(r"\{\{(\w+)\}\}",
+                  lambda mm: SUBS.get(mm.group(1), mm.group(0)), text)
+
+
 def nav_html(current):
     items = []
     for url, label in NAV:
@@ -366,10 +406,16 @@ def build_viewer_page(out, src, url, title, subtitle, intro_md, current):
     links, styles, body, scripts = extract_viewer(src)
     intro, _ = markdown(intro_md)
     # asset paths are relative in the standalone files; make them absolute so
-    # they resolve from /explore/works/ and /explore/passages/ alike
+    # they resolve from /explore/works/ and /explore/passages/ alike.
+    # IMPORTANT: only rewrite src/href that belong to an actual <script>/<link>/
+    # <img> opening tag. A naive `(src|href)="..."` rewrite also mangles inline
+    # JS — e.g. the drill panel builds `href="${doi}"`, and prefixing that with
+    # "/" turned every DOI link into /https://doi.org/... (resolved against the
+    # site origin). Anchoring to the tag keeps runtime-generated markup untouched.
     def absolutize(s):
-        s = re.sub(r'(src|href)="(?!/|https?:|#)([^"]+)"', r'\1="/\2"', s)
-        return s
+        return re.sub(
+            r'(<(?:script|link|img)\b[^>]*?\b(?:src|href)=")(?!/|https?:|#)([^"]+")',
+            r'\1/\2', s)
     links, scripts = absolutize(links), absolutize(scripts)
     # Data fetches inside the viewer scripts point at viewer_data/. The current
     # viewers load everything through `const DATA_DIR = "viewer_data/"` and call
@@ -432,6 +478,14 @@ def main():
         else:
             print(f"  note: {f} not found — skipped", file=sys.stderr)
 
+    # build-time figures pulled from the aggregator output (see load_subs)
+    global SUBS
+    SUBS = load_subs(os.path.join(ROOT, args.viewer_data))
+    if SUBS:
+        print("  substitutions: " +
+              ", ".join(f"{{{{{k}}}}}={v}" for k, v in SUBS.items()),
+              file=sys.stderr)
+
     # published data
     vd = os.path.join(ROOT, args.viewer_data)
     if os.path.isdir(vd):
@@ -465,7 +519,7 @@ def main():
             print(f"  note: content/{fn} missing — skipped", file=sys.stderr)
             continue
         meta, body_md = read_content(path)
-        body, toc = markdown(body_md)
+        body, toc = markdown(subst(body_md))
         h = page(meta.get("title", fn),
                  body, url,
                  subtitle=meta.get("subtitle"),
@@ -479,7 +533,7 @@ def main():
     if os.path.exists(mrec):
         body_md = open(mrec, encoding="utf-8").read()
         body_md = re.sub(r"^# .*\n", "", body_md, count=1)   # title comes from the shell
-        body, toc = markdown(body_md)
+        body, toc = markdown(subst(body_md))
         write(out, "methods/pipeline/index.html",
               page("Pipeline & methods record", body, "/methods/",
                    subtitle="The build as actually executed — every decision, "

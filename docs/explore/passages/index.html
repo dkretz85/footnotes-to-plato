@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Passages — Footnotes to Plato</title>
 <meta name="description" content="A passage-level citation index of the ancient-philosophy scholarship">
-<meta name="robots" content="noindex,nofollow">
+
 <link rel="stylesheet" href="/static/site.css">
 <link rel="stylesheet" href="/filterbar.css">
 <style>
@@ -200,13 +200,18 @@
     height:2px;background:repeating-linear-gradient(90deg,var(--uncertain) 0 3px,
       transparent 3px 6px);border-radius:1px}
   .pgcol.underres .pnum{color:var(--uncertain)}
-  .bandnote{margin-top:-4px}
+  /* Collision bands are a minor, localised caveat (see methods), so they sit as
+     one quiet line beneath the chart rather than a banner above it. */
+  .bandnote{font-size:12px; color:var(--ink-soft); line-height:1.5;
+    margin:8px 2px 0; max-width:80ch}
+  .bandnote b{color:var(--ink); font-weight:600}
+  .bandnote a{color:var(--lav-deep)}
   @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 </style>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
-<div class="draftbar">Draft — figures and text are still being checked. Not indexed; please do not cite yet.</div>
+
 <header class="site">
   <div class="bar">
     <a class="brand" href="/"><span class="bt">Footnotes to Plato</span></a>
@@ -233,13 +238,6 @@
       <select id="work"></select>
     </div>
     <div class="ctl">
-      <label data-copy="view_b.controls.journals_label"></label>
-      <div class="seg" id="pool">
-        <button data-mode="pooled" aria-pressed="true" data-copy="view_b.controls.journals_pooled"></button>
-        <button data-mode="split" aria-pressed="false" data-copy="view_b.controls.journals_split"></button>
-      </div>
-    </div>
-    <div class="ctl">
       <label data-copy="view_b.controls.intensity_label"></label>
       <div class="seg" id="metric">
         <button data-metric="count" aria-pressed="true" data-copy="view_b.controls.intensity_count"></button>
@@ -251,7 +249,6 @@
   <div id="filterbar"></div>
 
   <div id="tier"></div>
-  <div id="bandnote" style="display:none"></div>
 
   <div class="profile-head">
     <h2 id="workname"></h2>
@@ -260,6 +257,7 @@
 
   <div class="viewlabel" data-copy="view_b.chart_label"></div>
   <div class="chart" id="chart"></div>
+  <div id="bandnote" class="bandnote" style="display:none"></div>
 
   <div class="viewlabel" data-copy="view_b.heatmap_label"></div>
   <div class="legend">
@@ -294,7 +292,7 @@
   <div class="fwrap">
     <div>
       <strong>Footnotes to Plato</strong> · A passage-level citation index of the ancient-philosophy scholarship<br>
-      <span class="muted">Built 2026-07-22. Derived from a JSTOR
+      <span class="muted">Built 2026-07-23. Derived from a JSTOR
       Text Analysis Support delivery; a finding aid that links out to the
       articles, never a substitute for them.</span>
     </div>
@@ -317,10 +315,14 @@ const DATA_DIR = "/data/viewer/";
 // works_index gives w.file like "view_b/Republic.json".
 let FILES = {};
 let WORKS = [];                 // [{work, file, tier, citations, faceted, ...}]
-// textual book order (common books sit in their NE place; string sort won't do)
-const BOOK_ORDER = ["I","II","III","IV","V*","VI*","VII*","VIII","IX","X",
-                    "Α","α","Β","Γ","Δ","Ε","Ζ","Η","Θ","Ι","Κ","Λ","Μ","Ν",
-                    "XI","XII"];
+// textual book order (string sort won't do: II<X alphabetically). Roman books
+// run I–XII, then the Greek-lettered Metaphysics books. The common books that
+// NE marks with a "*" (V*, VI*, VII*) share a rank with their un-starred form,
+// so the trailing "*" is stripped before lookup (see bookRank) — otherwise the
+// plain V/VI/VII used by Republic, Laws and the Eudemian Ethics would fall off
+// the end of this list and sort after everything else.
+const BOOK_ORDER = ["I","II","III","IV","V","VI","VII","VIII","IX","X","XI","XII",
+                    "Α","α","Β","Γ","Δ","Ε","Ζ","Η","Θ","Ι","Κ","Λ","Μ","Ν"];
 const SECTIONS = ["a","b","c","d","e"];
 
 // Author/edition map (68 works). Inlined deliberately: nothing external to fetch,
@@ -353,13 +355,11 @@ function bandsFor(work){
 function inBand(work,page){
   return bandsFor(work).some(b=>page>=b.band_start && page<=b.band_end);
 }
-let mode = "pooled";      // pooled | split
 let metric = "count";     // count | articles
-let activeJournals = null;// null = all (pooled uses all; split shows per-journal)
 
-// Shared journal/year filter bar (filterbar.js). Orthogonal to the pooled/split
-// control above: FilterBar narrows which citations count at all, by journal and
-// by year, across every surface. A dot must pass BOTH to be drawn or drilled.
+// Journal/year filtering is handled entirely by the shared filter bar
+// (filterbar.js): it narrows which citations count at all, by journal and by
+// year, across every surface. A dot must pass it to be drawn or drilled.
 function passesBar(d){
   return !window.FilterBar || FilterBar.isDefault() || FilterBar.matches(d);
 }
@@ -398,7 +398,6 @@ async function loadWork(id){
     return;
   }
   _secCache=null; _bandCache=null;
-  activeJournals = null;
   render();
 }
 
@@ -410,11 +409,10 @@ async function loadWork(id){
 // and the CSV export actually list.
 let _secCache=null, _secCacheKey="";
 function sectionCells(){
-  const ck = current.work+"|"+mode+"|"+(activeJournals?[...activeJournals].join(","):"all")+"|"+filterKey();
+  const ck = current.work+"|"+filterKey();
   if(_secCache && _secCacheKey===ck) return _secCache;
   const map=new Map();
   for(const d of current.dots){
-    if(mode==="split" && activeJournals && !activeJournals.has(d.journal)) continue;
     if(!passesBar(d)) continue;
     const k=`${d.book}|${d.page}|${d.section}`;
     let e=map.get(k);
@@ -443,9 +441,8 @@ function renderBands(){
   host.style.display="";
   const ranges = bs.map(b=>`${b.band_start}\u2013${b.band_end}`).join(", ");
   const missing = bs.reduce((a,b)=>a+(b.est_missing||0),0);
-  host.className="tier uncertain bandnote";
-  host.innerHTML=`<span class="dot"></span><div>`+
-    t("view_b.bands.banner_html",{ranges, missing: missing.toLocaleString()})+`</div>`;
+  host.className="bandnote";
+  host.innerHTML=t("view_b.bands.banner_html",{ranges, missing: missing.toLocaleString()});
 }
 
 function renderTier(){
@@ -471,12 +468,14 @@ function renderHead(){
     }) + (current.faceted ? t("view_b.work_meta_faceted_suffix") : "");
 }
 
+// rank a book label in reading order, tolerant of the "*" common-book marker
+function bookRank(b){
+  const i = BOOK_ORDER.indexOf((b||"").replace("*",""));
+  return i<0 ? 999 : i;
+}
 function orderedBooks(){
   const present = [...new Set([...sectionCells().values()].map(c=>c.book))];
-  return present.sort((a,b)=>{
-    const ia=BOOK_ORDER.indexOf(a), ib=BOOK_ORDER.indexOf(b);
-    return (ia<0?999:ia)-(ib<0?999:ib);
-  });
+  return present.sort((a,b)=> bookRank(a)-bookRank(b));
 }
 
 // section-grain sequence across all books, in reading order, for the bar chart
@@ -688,12 +687,11 @@ function renderHeatgrid(){
 // build line-band cells from dots: book|page|sec|band -> {count, articles, iids}
 let _bandCache=null, _bandCacheKey="";
 function buildBandCells(){
-  const ck = current.work+"|"+mode+"|"+(activeJournals?[...activeJournals].join(","):"all")+"|"+filterKey();
+  const ck = current.work+"|"+filterKey();
   if(_bandCache && _bandCacheKey===ck) return _bandCache;
   const map=new Map();
   const banded = hasLineBands(current.work);
   for(const d of current.dots){
-    if(mode==="split" && activeJournals && !activeJournals.has(d.journal)) continue;
     if(!passesBar(d)) continue;
     const band = banded ? bandOf(d.line) : 0;
     const k=`${d.book}|${d.page}|${d.section}|${band}`;
@@ -734,7 +732,6 @@ function openDrillBand(book,page,sec,band,agg){
   const banded = hasLineBands(current.work);
   const dots = current.dots.filter(d=>{
     if(d.book!==book||d.page!==page||d.section!==sec)return false;
-    if(mode==="split" && activeJournals && !activeJournals.has(d.journal)) return false;
     if(!passesBar(d)) return false;
     if(banded) return bandOf(d.line)===band;
     return true;
@@ -766,6 +763,17 @@ function openDrill(cell){
   openDrillDots(dots, `${current.work.replace(/_/g," ")} ${cell.page}${cell.section}`);
 }
 
+// Resolve a DOI to the most reliable landing page. The corpus is JSTOR-
+// delivered, and for JSTOR DOIs (10.2307/<id>) the suffix is the JSTOR stable
+// id, so jstor.org/stable/<id> lands on the article directly and sidesteps the
+// gaps in doi.org resolution for older JSTOR items. Non-JSTOR DOIs (e.g. 10.1086,
+// Chicago) keep the canonical doi.org link.
+function citeUrl(doi){
+  if(!doi) return null;
+  const m = /^10\.2307\/(.+)$/.exec(doi);
+  return m ? `https://www.jstor.org/stable/${m[1]}` : `https://doi.org/${doi}`;
+}
+
 function openDrillDots(dots, locLabel){
   // Audit 2a: the header used dots.length, so an article citing 1097b25 AND
   // 1097b33 was counted twice (91 reported vs 53 real at NE 1097b). Group by
@@ -794,13 +802,13 @@ function openDrillDots(dots, locLabel){
   for(const d of arts){
     const el = document.createElement("div");
     el.className = "cite";
-    const doi = d.doi ? `https://doi.org/${d.doi}` : null;
+    const url = citeUrl(d.doi);
     const loci = [...d.loci].sort();
     el.innerHTML =
       `<div class="t">${stripTags(d.title)||"(untitled)"}</div>`+
       (d.author?`<div class="a">${stripTags(d.author)}</div>`:"")+
       `<div class="j">${d.journal||""} · ${d.year||""}`+
-      (doi?` · <a class="doi" href="/${doi}" target="_blank" rel="noopener">${d.doi}</a>`:"")+
+      (url?` · <a class="doi" href="${url}" target="_blank" rel="noopener">${d.doi}</a>`:"")+
       `</div>`+
       (loci.length>1?`<div class="loci">cites ${loci.join(", ")}</div>`:"");
     body.appendChild(el);
@@ -826,7 +834,7 @@ function exportCsv(){
       `${d.page}${d.section}${line}`,
       d.journal||"", d.year||"",
       stripTags(d.author), stripTags(d.title),
-      d.doi?`https://doi.org/${d.doi}`:""
+      citeUrl(d.doi) || ""
     ]);
   }
   const csv = rows.map(r=>r.map(x=>{
@@ -865,12 +873,6 @@ function buildWorkSelector(){
 function initControls(){
   const sel = $("#work");
   sel.addEventListener("change", e=>loadWork(e.target.value));
-  $("#pool").addEventListener("click", e=>{
-    if(!e.target.dataset.mode) return;
-    mode=e.target.dataset.mode;
-    for(const b of $("#pool").children) b.setAttribute("aria-pressed", b.dataset.mode===mode);
-    render();
-  });
   $("#metric").addEventListener("click", e=>{
     if(!e.target.dataset.metric) return;
     metric=e.target.dataset.metric;
