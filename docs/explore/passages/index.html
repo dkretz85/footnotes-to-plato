@@ -16,14 +16,14 @@
      lavender (handoff); saturated colour RESERVED for the heat ramp and the
      uncertainty shading, so strong colour only ever means information.        */
   :root{
-    --paper:#f7f8fb;          /* cool near-white, like laid text-paper        */
+    --paper:#f1f0fb;          /* soft lavender ground, like laid text-paper   */
     --ink:#1c2230;            /* dark slate ink                                */
     --ink-soft:#5b6478;       /* secondary text                               */
-    --rule:#d7dced;           /* hairline blue-grey                            */
+    --rule:#ddd9ee;           /* hairline lavender-grey                        */
     --lav:#8b86c9;            /* lavender — structural accent                  */
     --lav-deep:#5a5497;       /* deeper lavender for emphasis                  */
     /* heat ramp: pale blue -> lavender -> deep indigo (the ONLY strong colour)*/
-    --h0:#eef1fa; --h1:#cfd8f4; --h2:#a7b3ea; --h3:#8388d6;
+    --h0:#eae7f7; --h1:#cfd8f4; --h2:#a7b3ea; --h3:#8388d6;
     --h4:#6a5fbf; --h5:#4e3f9c; --h6:#3a2a7d;
     --uncertain:#b06a3a;      /* warm clay — ONLY for the uncertainty apparatus*/
     --uncertain-soft:#e7d3c4;
@@ -74,22 +74,6 @@
   .seg button + button{border-left:1px solid var(--rule)}
   .seg button[aria-pressed="true"]{background:var(--lav); color:#fff}
 
-  /* ---- tier banner -------------------------------------------------------- */
-  .tier{
-    display:flex; gap:12px; align-items:flex-start;
-    border-radius:9px; padding:12px 15px; margin:18px 0 10px; font-size:13.5px;
-  }
-  .tier .dot{width:10px; height:10px; border-radius:50%; margin-top:5px; flex:none}
-  .tier.trustworthy{background:#eef1fa; border:1px solid var(--rule)}
-  .tier.trustworthy .dot{background:var(--h4)}
-  .tier.uncertain{background:#faf1ea; border:1px solid var(--uncertain-soft)}
-  .tier.uncertain .dot{background:var(--uncertain)}
-  .tier b{font-weight:600}
-  .tier .label{
-    font-family:var(--mono); font-size:10px; letter-spacing:.14em; text-transform:uppercase;
-  }
-  .tier.trustworthy .label{color:var(--lav-deep)}
-  .tier.uncertain .label{color:var(--uncertain)}
 
   /* ---- profile ------------------------------------------------------------ */
   .profile-head{display:flex; justify-content:space-between; align-items:baseline; margin:26px 0 4px}
@@ -286,8 +270,6 @@
 
   <div id="filterbar"></div>
 
-  <div id="tier"></div>
-
   <div class="profile-head">
     <h2 id="workname"></h2>
     <div class="meta" id="workmeta"></div>
@@ -356,7 +338,7 @@
   <div class="fwrap">
     <div>
       <strong>Footnotes to Plato</strong> · A passage-level citation index of the ancient-philosophy scholarship<br>
-      <span class="muted">Built 2026-07-23. Derived from a JSTOR
+      <span class="muted">Built 2026-07-24. Derived from a JSTOR
       Text Analysis Support delivery; a finding aid that links out to the
       articles, never a substitute for them.</span>
     </div>
@@ -589,7 +571,6 @@ function sectionCells(){
 function cellValue(cell){ return cell.articles; }
 
 function render(){
-  renderTier();
   renderBands();
   renderHead();
   renderChart();
@@ -605,15 +586,6 @@ function renderBands(){
   const missing = bs.reduce((a,b)=>a+(b.est_missing||0),0);
   host.className="bandnote";
   host.innerHTML=t("view_b.bands.banner_html",{ranges, missing: missing.toLocaleString()});
-}
-
-function renderTier(){
-  const el = $("#tier");
-  const key = (current.tier==="trustworthy") ? "trustworthy" : "uncertain";
-  el.className = "tier " + key;
-  el.innerHTML = `<span class="dot"></span><div>`+
-    `<div class="label">${t("view_b.tiers."+key+".label")}</div>`+
-    t("view_b.tiers."+key+".body_html")+`</div>`;
 }
 
 function renderHead(){
@@ -1098,25 +1070,18 @@ function exportCsv(){
 }
 
 // ---- wire up --------------------------------------------------------------
-// The work selector is grouped by tier so the distinction is visible before the
-// chart loads; within each group, most-cited first. Populated from works_index.
+// One flat list, most-cited first — the placed-citation floor is the ranking.
+// (The old tier grouping rested on an alphabetical resolution rate and was
+// retired.) Populated from works_index; the count shown is the confident floor.
 function buildWorkSelector(){
   const sel = $("#work");
   sel.innerHTML = "";
-  for(const [tier,label] of [["trustworthy","Reliable coverage (80%+ placed)"],
-                             ["uncertain","Partial coverage (under 80% placed)"]]){
-    const items = WORKS.filter(w=>w.tier===tier)
-                       .sort((a,b)=>b.citations-a.citations);
-    if(!items.length) continue;
-    const og = document.createElement("optgroup");
-    og.label = label;
-    for(const w of items){
-      const o=document.createElement("option");
-      o.value=w.work;
-      o.textContent=`${w.work.replace(/_/g," ")}  (${w.citations.toLocaleString()})`;
-      og.appendChild(o);
-    }
-    sel.appendChild(og);
+  const items = WORKS.slice().sort((a,b)=>b.citations-a.citations);
+  for(const w of items){
+    const o=document.createElement("option");
+    o.value=w.work;
+    o.textContent=`${w.work.replace(/_/g," ")}  (${w.citations.toLocaleString()})`;
+    sel.appendChild(o);
   }
 }
 
@@ -1191,9 +1156,8 @@ fetch(DATA_DIR+"copy.json")
         }, groups);
       }
 
-      // open the most-cited well-resolved work by default
-      const first = WORKS.filter(w=>w.tier==="trustworthy")
-                         .sort((a,b)=>b.citations-a.citations)[0] || WORKS[0];
+      // open the most-cited work by default
+      const first = WORKS.slice().sort((a,b)=>b.citations-a.citations)[0] || WORKS[0];
       if(first){ $("#work").value = first.work; loadWork(first.work); }
     }).catch(e=>{
       console.warn("viewer index unavailable — falling back to a single work", e);

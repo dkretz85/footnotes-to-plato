@@ -7,37 +7,24 @@
     "page_title": "Footnotes to Plato — which works get attention",
     "heading": "Which works get attention",
     "subtitle": "Citation volume across the ancient-philosophy scholarship, work by work",
-    "intro": "Plot how attention to any work or group moved across the journals from 1887 to 2022. Add works to compare them, or switch to the field view to see where philosophy and classics journals diverge. Lines count citations we could place with confidence; a solid line resolves reliably, a dashed one under 80% — so read its shape rather than its height.",
     "legend": {
       "floor": "confidently placed (floor)",
       "band": "reasonably sure",
       "fade": "detected but unplaceable — could be much more",
       "smalln": "few citations — rate is unstable"
     },
-    "tiers": {
-      "trustworthy": {
-        "heading": "Trustworthy",
-        "tag": "publication grade · {n} works",
-        "note_html": "At least 80% of these works' citations resolve to a specific passage. Bar lengths are reliable — you can compare how much these works are studied. Two cautions: works marked <b>small n</b> clear the threshold on very little evidence, and works marked <b>uneven coverage</b> have a specific stretch of pages that resolves worse than the rest, so their <i>shape</i> is less even than the bar suggests."
-      },
-      "uncertain": {
-        "heading": "Uncertain",
-        "tag": "read with care · {n} works",
-        "note_html": "Under 80% resolve. The solid floors are real lower bounds, but the long fades show how much citation traffic couldn't be attributed. <b>A short floor here does not mean a work is little-studied</b> — it means much of its attention is unplaceable. Don't rank these by floor alone, and don't compare their floors against the trustworthy tier."
-      }
-    },
     "tooltip": {
       "floor_label": "confidently placed",
       "band_label": "reasonably sure",
       "unplaceable_label": "detected but unplaceable",
-      "if_all_belonged": "(≈{total} if all belonged here)",
-      "rate_line": "resolution rate {pct}% · {articles} articles",
+      "if_all_belonged": "(shared with collision partners; at most ≈{total} if every one belonged here)",
+      "articles_line": "{articles} distinct articles",
       "collides_with": "collides with {works}"
     },
     "footnote": "On author colouring: works are grouped by the reference edition their citations use — Stephanus pagination (indigo) or Bekker pagination (teal) — which is how the scholarship addresses them, not a position on authorship. Several works in each corpus are of disputed or rejected authenticity; they are coloured by the edition that paginates them, as traditionally ascribed, and no claim about who wrote them is intended.",
     "smalln": {
       "badge": "small n",
-      "note_html": "Works marked <b>small n</b> have fewer than {threshold} placed citations. Their resolution rate is computed from so little evidence that it says more about chance than about how well the work resolves — a work with 30 citations can reach 100% by luck. Tier membership here is not a claim that the work is well studied, and these bars should not be compared with the long ones."
+      "note_html": "Works marked <b>small n</b> have fewer than {threshold} placed citations. Read them as an order of magnitude, not a precise count — a work resting on so few citations can swing on chance, and these short bars should not be compared closely with the long ones."
     },
     "bands": {
       "badge": "uneven coverage",
@@ -68,16 +55,6 @@
     },
     "work_meta": "{citations} placed citations · {sections} sections · {pages} pages",
     "work_meta_faceted_suffix": " · book-faceted",
-    "tiers": {
-      "trustworthy": {
-        "label": "Trustworthy tier · publication grade",
-        "body_html": "At least 80% of this work's detected citations resolve to a specific passage. The profile below is a reliable picture of where attention falls: you can compare section heights within this work and cite them with confidence."
-      },
-      "uncertain": {
-        "label": "Uncertain tier · read with care",
-        "body_html": "Fewer than 80% of this work's detected citations could be pinned to a specific passage — its page-numbers collide with other works, so much of its citation traffic is unplaceable. <b>What you see is a floor, not the full picture.</b> A short bar here means \"we couldn't place these,\" not \"few cite this.\" Trust the <i>shape</i> of what resolved, and don't read the absolute heights as complete or compare them against trustworthy-tier works."
-      }
-    },
     "drill": {
       "count_one": "1 article cites this passage",
       "count_many": "{n} articles cite this passage",

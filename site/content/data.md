@@ -21,9 +21,9 @@ any shareable file is written.</p>
 | File | Contents |
 | --- | --- |
 | [`meta.json`](/data/viewer/meta.json) | Journals, year range and histogram, corpus totals, thresholds used. |
-| [`view_a.json`](/data/viewer/view_a.json) | Per work: placed count, uncertainty band, unplaceable mass, placement rate, tier, distinct articles, collision partners. |
+| [`view_a.json`](/data/viewer/view_a.json) | Per work: placed count (the floor), uncertainty band, unplaceable mass, distinct articles, collision partners. Also carries an internal `resolution_rate` / `tier`, retained for provenance but no longer used by the site (see methods). |
 | [`view_a_filter.json`](/data/viewer/view_a_filter.json) | Per work: sparse journal × year matrix of placed citations. The time chart's source. |
-| [`works_index.json`](/data/viewer/works_index.json) | Work list with tiers and totals. |
+| [`works_index.json`](/data/viewer/works_index.json) | Work list with placed-citation totals (plus an unused internal `tier` field). |
 | `view_b/<work>.json` | Per work: section-level cells and per-citation records with DOI links. |
 
 ## Licence
@@ -48,7 +48,10 @@ two.
 
 ## Caveat before reuse
 
-Placement rates vary enormously across works, and a raw count from
-`view_a.json` means something different for *Republic* (95% placed) than for
-*Crito* (20% placed). If you reuse these numbers, carry the tier and placement
-rate with them. See [the two tiers](/methods/#the-two-tiers).
+Every `floor` in `view_a.json` is a **lower bound**, not a total, and how much a
+work loses to the queue varies enormously — a raw count means something different
+for *Republic*, whose page range is clean, than for *Crito*, whose Stephanus
+range is crowded. If you reuse these numbers, carry that with them: report the
+floor as a floor, and note that the `unplaceable` fade is shared candidate-set
+membership that **cannot be summed across works**. See
+[Floors, not totals](/methods/#floors-not-totals).

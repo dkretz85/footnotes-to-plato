@@ -53,7 +53,7 @@ whether it is a Stephanus or a Bekker number to begin with; where the surroundin
 text does not settle it, we decline to guess. So a short bar can mean "rarely
 cited" or "we could not place it," the two are always shown apart, and no number
 on this site is ever a total. [How resolution works, in
-full →](/methods/#the-two-tiers)
+full →](/methods/#floors-not-totals)
 
 ## How much of the picture we actually have
 
@@ -67,16 +67,18 @@ attention that belongs *somewhere*, but which we decline to assign.
     <noscript>The summary chart requires JavaScript. The underlying numbers are
     published on the <a href="/data/">data page</a>.</noscript>
   </div>
-  <div class="cap"><b>Reading this chart.</b> Works are split into two tiers.
-  For the <b>trustworthy</b> tier, at least 80% of detected citations resolve to
-  a passage, and bar lengths can be compared directly. For the
-  <b>uncertain</b> tier, fewer do — so a short solid bar means the placement
-  failed, <b>not</b> that the work is little studied. <em>Meno</em>,
-  <em>Crito</em> and <em>Apology</em> sit in the second tier because Stephanus
-  page numbers in their range collide with other dialogues, not because they are
-  neglected. Colour follows the reference edition a citation uses — Stephanus or
-  Bekker — which is how the scholarship addresses these texts, and is not a claim
-  about authorship.</div>
+  <div class="cap"><b>Reading this chart.</b> Works are ranked by their
+  <b>solid floor</b> — the citations we could place with confidence. The
+  <b>fade</b> is traffic we detected but could not attribute; it is shared among
+  the works a bare page number could belong to, so it is an upper gesture, never
+  a subtotal. Read the two together: a short solid bar with a <em>long</em> fade
+  (like <em>Meno</em> or <em>Apology</em>, whose Stephanus page numbers collide
+  with other dialogues) means "much of its traffic couldn't be placed," <b>not</b>
+  that the work is little studied — while a short bar with little fade really is
+  a quiet work. Because the fade is shared, don't compare bars by adding their
+  fades, and treat every solid length as a floor. Colour follows the reference
+  edition a citation uses — Stephanus or Bekker — which is how the scholarship
+  addresses these texts, and is not a claim about authorship.</div>
 </div>
 
 ## Explore
@@ -97,8 +99,8 @@ attention that belongs *somewhere*, but which we decline to assign.
   </a>
   <a class="card" href="/methods/">
     <h3>Methods</h3>
-    <p>How citations were extracted, resolved, and audited — including
-    everything that went wrong and what was done about it.</p>
+    <p>How citations were extracted, resolved, and audited — what the counts
+    can support, and where the picture is thin.</p>
     <span class="go">Read →</span>
   </a>
 </div>

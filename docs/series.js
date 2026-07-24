@@ -11,18 +11,16 @@
 
    Data comes from view_a_filter.json: work -> {citations,articles} -> journal
    -> year -> n. That is FLOOR ONLY (see AGGREGATOR_PATCH.md §2), so every
-   curve here is a lower bound, and curves for uncertain-tier works are a
-   lower bound with a large and unevenly-distributed hole in it. The chart
-   says so rather than letting the lines imply completeness.
+   curve here is a lower bound. Works whose page numbers collide lose more to
+   that floor than others, and unevenly across years; the intro caveat says so
+   rather than letting the lines imply completeness. (The old per-work tier
+   dashing was retired — its resolution rate rested on alphabetical filing.)
 
    Honesty constraints baked in:
      - Raw counts by default, but a "share of year" mode, because raw counts
        mostly track how much the journals published that year, not how much
        attention a work got. Both are offered; neither is hidden.
      - Smoothing is opt-in and labelled, never silently applied.
-     - A series mixing tiers is flagged: summing a trustworthy work and an
-       uncertain one produces a curve whose shape is partly an artifact of
-       differing resolution rates.
    ======================================================================== */
 (function (global) {
   "use strict";
@@ -210,18 +208,11 @@
         path.setAttribute("class", "sc-line");
         path.setAttribute("d", dPath);
         path.setAttribute("stroke", L.color);
-        /* Tier encoding. A line chart flattens a crucial distinction: a low
-           line can mean "rarely cited" or "we could only place a fraction of
-           its citations". Republic resolves at 95%, Crito at 20% — plotted
-           identically, the second looks like disinterest when it is mostly
-           unplaceable mass. So an under-resolved series is drawn DASHED, which
-           reads as provisional without implying a different quantity, and the
-           legend carries the resolution rate. The dash is not decorative: it
-           is the only place on this chart where coverage is visible.        */
-        if (L.tier === "uncertain") {
-          path.setAttribute("stroke-dasharray", "5 3");
-          path.setAttribute("stroke-opacity", "0.85");
-        }
+        /* Every line counts only placed citations, so every line is a floor —
+           a low line can mean "rarely cited" or "much of its traffic could not
+           be placed". That distinction is carried by the per-work fade on the
+           home chart and stated in the caveat above this chart, rather than by
+           a line style here (the old alphabetical-rate dashing was retired). */
         svg.appendChild(path);
       }
 

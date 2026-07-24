@@ -8,7 +8,7 @@
 <link rel="stylesheet" href="series.css">
 <style>
   :root{
-    --paper:#f7f8fb; --ink:#1c2230; --ink-soft:#5b6478; --rule:#d7dced;
+    --paper:#f1f0fb; --ink:#1c2230; --ink-soft:#5b6478; --rule:#ddd9ee;
     --lav:#8b86c9; --lav-deep:#5a5497;
     /* Plato = indigo family */
     --p-floor:#5a5497; --p-band:#8f8ad0; --p-fade:#c4c0e8;
@@ -34,17 +34,6 @@
 
   .intro{font-size:14px; color:var(--ink-soft); max-width:76ch; margin:18px 0 6px}
 
-  /* compact tier legend: orients the reader on solid vs dashed series without
-     re-showing the full tier bar chart, which now lives only on the home page */
-  .tierkey{display:flex; gap:8px 20px; flex-wrap:wrap; align-items:center;
-    margin:16px 0 4px; font-size:12.5px; color:var(--ink-soft);}
-  .tierkey .k{display:flex; align-items:center; gap:8px}
-  .tierkey .line{width:22px; flex:none}
-  .tierkey .line.solid{height:0; border-top:2px solid var(--lav-deep)}
-  .tierkey .line.dashed{height:0; border-top:2px dashed var(--uncertain)}
-  .tierkey .more{color:var(--lav-deep); text-decoration:none; font-size:12px}
-  .tierkey .more:hover{text-decoration:underline}
-
   /* segmented controls used by the time-series panel */
   .seg{display:inline-flex; border:1px solid var(--rule); border-radius:7px; overflow:hidden;
     box-shadow:var(--shadow); background:#fff}
@@ -63,14 +52,6 @@
     <h1 data-copy="view_a.heading"></h1>
     <div class="sub" data-copy="view_a.subtitle"></div>
   </header>
-
-  <p class="intro" data-copy="view_a.intro"></p>
-
-  <div class="tierkey">
-    <span class="k"><i class="line solid"></i> Reliable — 80%+ of citations placed</span>
-    <span class="k"><i class="line dashed"></i> Partial — under 80% placed; read the shape, not the height</span>
-    <a class="more" href="/methods/#the-two-tiers">What this means →</a>
-  </div>
 
   <div id="filterbar"></div>
 
@@ -147,10 +128,10 @@ function fatal(msg){
 }
 
 /* ---- data + filtering -----------------------------------------------------
-   `view_a.json` gives per-work tier/floor data used to classify each series as
-   trustworthy or uncertain. The time series itself is driven by the sparse
-   matrix in `view_a_filter.json` (work -> journal -> year -> n), fetched lazily
-   because it is ~430 KB; until it lands the chart shows a loading state.       */
+   `view_a.json` gives per-work floor data (the confident placed-citation count)
+   used to label and rank the series. The time series itself is driven by the
+   sparse matrix in `view_a_filter.json` (work -> journal -> year -> n), fetched
+   lazily because it is ~430 KB; until it lands the chart shows a loading state. */
 let _rz;
 window.addEventListener("resize", ()=>{
   clearTimeout(_rz);
@@ -335,49 +316,15 @@ function scRender(){
       $("#scFoot").innerHTML=""; $("#scWarn").style.display="none"; return;
     }
     let i=0;
-    const tiers=new Set();
     for(const tok of SC_SEL){
       const r=scResolve(tok); if(!r) continue;
       const s=Series.seriesFor(FILTER, r.works, opts);
-      /* A series' tier is a property of the WORKS in it, so a group spanning
-         both tiers needs a weighted answer rather than a majority vote: the
-         pooled resolution rate over the group's works, weighted by how many
-         citations each contributes. A group that is 90% Republic and 10%
-         Crito is mostly trustworthy and should not be dashed on Crito's
-         account; one that is mostly short dialogues should be.             */
-      let fl=0, qt=0, anyUnc=false, allUnc=true;
-      for(const w of r.works){
-        const rec=DATA.find(d=>d.work===w); if(!rec) continue;
-        fl+=rec.floor; qt+=rec.queued_total;
-        if(rec.tier==="uncertain") anyUnc=true; else allUnc=false;
-        tiers.add(rec.tier);
-      }
-      const rate = (fl+qt) ? fl/(fl+qt) : 1;
-      const tier = rate >= 0.80 ? "trustworthy" : "uncertain";
-      lines.push({label:r.label, color:Series.COLORS[i++], series:s,
-                  tier, rate, mixed:(anyUnc && !allUnc)});
+      lines.push({label:r.label, color:Series.COLORS[i++], series:s});
       // Contested groupings (developmentalist chronology, theoretical/practical)
       // carry a "⚠ contested" tag in the picker, which is enough for a scholarly
       // audience; the fuller discussion lives on the methods page rather than in
       // a warning box on the chart. (See the "grouping schemes" methods section.)
       if(r.works.length>1) footNotes.push(`${r.label}: ${r.works.length} works.`);
-    }
-    const dashed = lines.filter(L=>L.tier==="uncertain");
-    if(dashed.length){
-      const names = dashed.map(L=>`<b>${L.label}</b> (${Math.round(L.rate*100)}%)`).join(", ");
-      warn.push(`${names} ${dashed.length===1?"resolves":"resolve"} below 80%, so
-        ${dashed.length===1?"that line is":"those lines are"} drawn dashed. The
-        citations plotted are as accurate as any other — the tier reflects
-        <i>coverage</i>, not correctness. But the missing mass is not evenly spread
-        across years, so a rising dashed line may partly track improving
-        resolvability rather than rising attention. Compare its shape, not its
-        height against a solid line.`);
-    }
-    const mixed = lines.filter(L=>L.mixed);
-    if(mixed.length){
-      warn.push(`${mixed.map(L=>`<b>${L.label}</b>`).join(", ")} mixes works from
-        both tiers, so its curve pools well-resolved and poorly-resolved works —
-        movement may come from either.`);
     }
   }
 
@@ -405,14 +352,9 @@ function scRender(){
   const leg=$("#scLegend"); leg.innerHTML="";
   for(const L of lines){
     const chip=document.createElement("span");
-    chip.className="sc-lchip"+(L.tier==="uncertain"?" unc":"");
-    const swatch = L.tier==="uncertain"
-      ? `<i class="dash" style="--c:${L.color}"></i>`
-      : `<i style="background:${L.color}"></i>`;
-    const rate = L.rate!=null
-      ? `<span class="sc-rate" title="share of this selection's detected citations that could be placed">${Math.round(L.rate*100)}% placed</span>`
-      : "";
-    chip.innerHTML = swatch + L.label + rate;
+    chip.className="sc-lchip";
+    const swatch = `<i style="background:${L.color}"></i>`;
+    chip.innerHTML = swatch + L.label;
     if(SC_MODE==="works"){
       const tok=SC_SEL[lines.indexOf(L)];
       const x=document.createElement("button"); x.className="sc-x"; x.textContent="×";
@@ -422,12 +364,6 @@ function scRender(){
       chip.appendChild(x);
     }
     leg.appendChild(chip);
-  }
-  if(lines.some(L=>L.tier==="uncertain")){
-    const k=document.createElement("span"); k.className="sc-dashkey";
-    k.innerHTML=`dashed = under 80% of citations could be placed; the line is a
-      partial floor, not a full count`;
-    leg.appendChild(k);
   }
   // In field mode the legend names the two FIELDS, so the works in scope need
   // their own removable chips — otherwise a stale scope can only be seen, not
@@ -458,6 +394,9 @@ function scRender(){
   const foot=[];
   foot.push(`Floor only: these curves count citations we could place with
     confidence. Unplaceable citations have no year and are absent here entirely.`);
+  foot.push(`A low line can mean a work is cited on colliding pages we could not
+    place — <b>not</b> that it is little studied. The home chart's fade shows how
+    much each work loses this way.`);
   if(SC_SMOOTH>1) foot.push(`<b>Smoothed</b> with a ${SC_SMOOTH}-year centred average —
     the underlying yearly values are noisier, especially before 1950 when the
     corpus is thin.`);

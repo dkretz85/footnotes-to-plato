@@ -4,7 +4,7 @@
    mono for labels, calm blue-lavender, saturated colour reserved for data.
    ======================================================================== */
 :root{
-  --paper:#f7f8fb; --ink:#1c2230; --ink-soft:#5b6478; --rule:#d7dced;
+  --paper:#f1f0fb; --ink:#1c2230; --ink-soft:#5b6478; --rule:#ddd9ee;
   --lav:#8b86c9; --lav-deep:#5a5497;
   --p-floor:#5a5497; --p-band:#8f8ad0;
   --a-floor:#1f9e8a; --a-band:#5fc4ac;
@@ -28,7 +28,7 @@ body{
 
 /* ---- header -------------------------------------------------------------- */
 header.site{
-  position:sticky; top:0; z-index:40; background:rgba(247,248,251,.94);
+  position:sticky; top:0; z-index:40; background:rgba(241,240,251,.94);
   backdrop-filter:saturate(1.6) blur(8px);
   border-bottom:1px solid var(--rule);
 }
@@ -45,8 +45,8 @@ header.site .bar{
   font-size:13.5px; color:var(--ink-soft); text-decoration:none;
   padding:6px 10px; border-radius:6px;
 }
-.mainnav a:hover{color:var(--ink); background:#eef1fa}
-.mainnav a.on{color:var(--lav-deep); font-weight:600; background:#eef1fa}
+.mainnav a:hover{color:var(--ink); background:#eae7f7}
+.mainnav a.on{color:var(--lav-deep); font-weight:600; background:#eae7f7}
 .navtoggle{
   display:none; margin-left:auto; border:1px solid var(--rule); background:#fff;
   border-radius:7px; font-size:16px; padding:4px 10px; cursor:pointer;
@@ -92,7 +92,7 @@ main.wide{max-width:1120px}
 .prose a:hover{border-color:var(--lav)}
 .prose strong{font-weight:600}
 .prose code{
-  font-family:var(--mono); font-size:12.5px; background:#eef1fa;
+  font-family:var(--mono); font-size:12.5px; background:#eae7f7;
   border:1px solid var(--rule); border-radius:4px; padding:1px 5px;
 }
 .prose pre{
@@ -102,7 +102,7 @@ main.wide{max-width:1120px}
 .prose pre code{background:none; border:0; padding:0; font-size:12.5px; line-height:1.55}
 .prose blockquote{
   margin:0 0 16px; padding:10px 16px; border-left:3px solid var(--lav);
-  background:#eef1fa; border-radius:0 8px 8px 0; color:var(--ink-soft);
+  background:#eae7f7; border-radius:0 8px 8px 0; color:var(--ink-soft);
 }
 .prose hr{border:0; border-top:1px solid var(--rule); margin:28px 0}
 .prose img{max-width:100%; height:auto; border-radius:8px}
@@ -116,7 +116,7 @@ h1:hover .anchor,h2:hover .anchor,h3:hover .anchor{opacity:1}
 .prose table{border-collapse:collapse; width:100%; font-size:13.5px; background:#fff}
 .prose th,.prose td{border:1px solid var(--rule); padding:7px 10px; text-align:left;
   vertical-align:top}
-.prose th{background:#eef1fa; font-weight:600; font-family:var(--sans)}
+.prose th{background:#eae7f7; font-weight:600; font-family:var(--sans)}
 
 /* ---- table of contents --------------------------------------------------- */
 .toc{
@@ -156,7 +156,7 @@ a.card:hover{transform:translateY(-2px);
 
 .callout{
   border:1px solid var(--rule); border-left:3px solid var(--lav-deep);
-  background:#eef1fa; border-radius:0 9px 9px 0; padding:14px 18px; margin:22px 0;
+  background:#eae7f7; border-radius:0 9px 9px 0; padding:14px 18px; margin:22px 0;
   font-size:14.5px;
 }
 .callout.warn{border-left-color:var(--uncertain); background:#faf1ea;
@@ -213,7 +213,7 @@ footer.site{border-top:1px solid var(--rule); background:#fff; margin-top:40px}
 .lb-h h3{font-family:var(--serif); font-size:20px; margin:0; font-weight:600}
 .lb-h .tag{font-family:var(--mono); font-size:9.5px; letter-spacing:.13em;
   text-transform:uppercase; padding:2px 7px; border-radius:5px}
-.lb-h .tag.t{color:var(--lav-deep); background:#eef1fa; border:1px solid var(--rule)}
+.lb-h .tag.t{color:var(--lav-deep); background:#eae7f7; border:1px solid var(--rule)}
 .lb-h .tag.u{color:var(--uncertain); background:#faf1ea; border:1px solid var(--uncertain-soft)}
 .lb-note{font-size:12.5px; color:var(--ink-soft); margin:0 0 12px; max-width:76ch;
   line-height:1.5}

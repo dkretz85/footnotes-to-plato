@@ -285,12 +285,15 @@ def load_subs(viewer_data_dir):
         placed = m.get("total_citations")
         queued = m.get("total_queued")
         journals = m.get("journals") or []
+        n_articles = m.get("n_articles")
         if placed is not None:
             subs["placed_total"] = f"{placed:,}"
         if queued is not None:
             subs["queued_total"] = f"{queued:,}"
         if journals:
             subs["journal_count"] = str(len(journals))
+        if n_articles is not None:
+            subs["n_articles"] = f"{n_articles:,}"
     return subs
 
 
@@ -536,8 +539,8 @@ def main():
         body, toc = markdown(subst(body_md))
         write(out, "methods/pipeline/index.html",
               page("Pipeline & methods record", body, "/methods/",
-                   subtitle="The build as actually executed — every decision, "
-                            "assumption, and known limitation",
+                   subtitle="Extraction, resolution, and the data quality of "
+                            "the citation index",
                    toc=toc))
 
     # viewers

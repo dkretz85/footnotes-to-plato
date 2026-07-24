@@ -60,7 +60,13 @@ VIEW A MODEL (revised twice — see project decisions):
                         ambiguity; rendered as an open-ended fade, NOT a bar)
     - collides_with   = collision-partner works parsed from the queue `reason`
     - resolution_rate = resolved / (resolved + queued-FILED)  [exclusive]
+                        INTERNAL DIAGNOSTIC ONLY. The denominator is the
+                        alphabetically-filed count, so this rate (and the tier
+                        derived from it) tracks sort order as much as coverage.
+                        No view surfaces it; the honest per-work signal is the
+                        fade (unplaceable) plus the collision bands.
     - tier            = "trustworthy" if rate >= --tier-threshold else "uncertain"
+                        [RETIRED from the UI — see resolution_rate above]
 
 INPUTS (defaults point at ~/Downloads):
     resolved_with_books.tsv               citation rows (13 cols, tab-sep)
@@ -307,6 +313,11 @@ def main():
                          "flagged small_n: their resolution rate rests on too "
                          "little evidence to carry tier confidence (default 100)")
     ap.add_argument("--outdir", default="./viewer_data")
+    ap.add_argument("--n-articles", type=int, default=69177,
+                    help="delivered corpus size (documents), emitted into "
+                         "meta.json as n_articles for the methods pages. An "
+                         "extraction-stage figure not derivable from the "
+                         "resolved set; default is the July 2026 delivery.")
     ap.add_argument("--band-threshold", type=float, default=0.50,
                     help="queued rows with confidence >= this fold into the "
                          "narrow band above the floor (default 0.50)")
@@ -495,6 +506,10 @@ def main():
         cand_q = q_cand_total.get(work, 0)
         band_extra = q_cand_band.get(work, 0)
         unplaceable = q_cand_unpl.get(work, 0)
+        # INTERNAL DIAGNOSTIC ONLY — not surfaced in any view. Both fields rest
+        # on the exclusive, alphabetically-filed `filed_q`, so the tier is not a
+        # defensible per-work quality grade (see the sort comment below). Kept
+        # for the stderr rate histogram and tier-flip audit, not for the UI.
         tier = "trustworthy" if rate >= args.tier_threshold else "uncertain"
         partners = [w for w, _ in collides.get(work, Counter()).most_common(6)]
         view_a.append({
@@ -527,8 +542,13 @@ def main():
             # beside Republic (floor 12,350). A rate off 30 citations is noise.
             "small_n": resolved < args.small_n_threshold,
         })
-    # sort: tier first (trustworthy above), then floor desc
-    view_a.sort(key=lambda d: (d["tier"] != "trustworthy", -d["floor"]))
+    # sort by floor, descending. (The old tier-first ordering was retired from
+    # the UI: `resolution_rate`/`tier` rest on the EXCLUSIVE alphabetical filed
+    # count, so a work's tier tracked where its name fell in the alphabet more
+    # than how resolvable it was — e.g. Timaeus read 98% "trustworthy" while a
+    # symmetric allocation of its shared ambiguous mass puts it near 47%. The
+    # fields are kept below as internal diagnostics only; no view reads them.)
+    view_a.sort(key=lambda d: -d["floor"])
     with open(os.path.join(args.outdir, "view_a.json"), "w", encoding="utf-8") as f:
         json.dump(view_a, f, ensure_ascii=False, indent=1)
 
@@ -655,15 +675,21 @@ def main():
         "total_candidate_attributions": sum(q_cand_total.values()),
         "distinct_works": len(all_works),
         "faceted_works": sorted(locus.FACETED_WORKS),
+        # Corpus size (delivered documents). This is an extraction-stage fact,
+        # not derivable from the resolved set here, so it is passed in (default
+        # is the July 2026 delivery); the methods pages read it via {{n_articles}}
+        # rather than hard-coding the figure in prose.
+        "n_articles": args.n_articles,
         # Audit finding 5: this divided by len(meta) — the iids we MATCHED in
         # the catalogue — so unmatched iids vanished from the denominator and
         # coverage read high. The honest denominator is every iid the corpus
-        # needs a link for.
+        # needs a link for. Rounded to 4 dp, not 3: at 3 dp a genuine 99.9x%
+        # prints as 1.0 and reads as an absolute claim it does not support.
         "doi_coverage": (round(sum(1 for d in meta.values() if d["doi"]) /
-                               len(needed), 3) if needed else None),
+                               len(needed), 4) if needed else None),
         "doi_coverage_of_matched": (round(sum(1 for d in meta.values() if d["doi"]) /
-                               len(meta), 3) if meta else None),
-        "meta_match_rate": (round(len(meta) / len(needed), 3) if needed else None),
+                               len(meta), 4) if meta else None),
+        "meta_match_rate": (round(len(meta) / len(needed), 4) if needed else None),
     }
     with open(os.path.join(args.outdir, "meta.json"), "w", encoding="utf-8") as f:
         json.dump(meta_out, f, ensure_ascii=False, indent=1)
