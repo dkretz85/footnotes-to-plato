@@ -85,6 +85,13 @@
   }
 
   /* ---- BAR CHART (magnitude view, section grain) -------------------------- */
+  .chart-head{display:flex; align-items:baseline; justify-content:space-between; gap:12px}
+  .chart-zoom{
+    font-family:var(--mono); font-size:11px; letter-spacing:.04em; color:var(--lav-deep);
+    background:var(--h0); border:1px solid var(--rule); border-radius:6px;
+    padding:3px 10px; cursor:pointer; white-space:nowrap;
+  }
+  .chart-zoom:hover{background:#e2ddf3}
   .chart{position:relative; margin:6px 0 4px}
   .chart svg{display:block; width:100%; overflow:visible}
   .bar{cursor:pointer}
@@ -257,7 +264,10 @@
     <div class="meta" id="workmeta"></div>
   </div>
 
-  <div class="viewlabel" data-copy="view_b.chart_label"></div>
+  <div class="chart-head">
+    <div class="viewlabel" data-copy="view_b.chart_label"></div>
+    <button class="chart-zoom" id="chartZoom" type="button" hidden></button>
+  </div>
   <div class="chart" id="chart"></div>
 
   <div class="viewlabel" data-copy="view_b.heatmap_label"></div>
@@ -399,10 +409,36 @@ const PERSEUS_ABBR = {
 // The human-readable citation shown in the strip header, e.g. "Plat. Meno 80a".
 // Faceted Plato (Republic, Laws) reads <book>.<page> (section dropped); other
 // Plato reads <page><section>; Aristotle reads the Bekker page+column.
+// Metaphysics and Politics: their Perseus texts (0052, 0058) reject the
+// "bekker page=" scheme and are addressed as "<abbr> <book>.<bekker>", e.g.
+// "Aristot. Met. 1.985b". So they need the arabic book number. Metaphysics is
+// faceted by Greek letter (Perseus numbers little-alpha as book 2); Politics is
+// not faceted, so its book is read off the Bekker page's book-opening loci.
+const MET_BOOK_N = {"Α":1,"α":2,"Β":3,"Γ":4,"Δ":5,"Ε":6,"Ζ":7,"Η":8,"Θ":9,
+                    "Ι":10,"Κ":11,"Λ":12,"Μ":13,"Ν":14};
+const POL_BOOK_OPENINGS = [[1252,97,1],[1260,98,2],[1274,98,3],[1288,98,4],
+                           [1301,97,5],[1316,98,6],[1323,97,7],[1337,97,8]]; // [page, col-charCode, book]
+function perseusBekkerBook(work, book, page, section){
+  if(work==="Metaphysics") return MET_BOOK_N[(book||"").replace("*","")] || null;
+  if(work==="Politics"){
+    const p=parseInt(page,10), col=(section||"a").charCodeAt(0);
+    let bk=1;
+    for(const [op,oc,b] of POL_BOOK_OPENINGS){ if(p>op || (p===op && col>=oc)) bk=b; }
+    return bk;
+  }
+  return null;
+}
+const PERSEUS_ABBR_BOOK = {Metaphysics:1, Politics:1};   // works using the <abbr> book.bekker scheme
+
 function perseusLabel(book, page, section){
-  const abbr = PERSEUS_ABBR[current && current.work];
+  const work = current && current.work;
+  const abbr = PERSEUS_ABBR[work];
   if(!abbr) return null;
-  if(paginationOf(current.work)==="bekker") return `${abbr} ${page}${section||""}`;
+  if(PERSEUS_ABBR_BOOK[work]){
+    const bk = perseusBekkerBook(work, book, page, section);
+    return bk ? `${abbr} ${bk}.${page}${section||""}` : `${abbr} ${page}${section||""}`;
+  }
+  if(paginationOf(work)==="bekker") return `${abbr} ${page}${section||""}`;
   if(current.faceted && book){
     const bk = ROMAN[(book||"").replace("*","")];
     if(bk) return `${abbr} ${bk}.${page}`;
@@ -410,15 +446,23 @@ function perseusLabel(book, page, section){
   return `${abbr} ${page}${section||""}`;
 }
 
-// The `doc=` parameter for Perseus's text?doc reading view. Address formats were
-// confirmed live: faceted Plato → book=N:page=STEPH; other Plato → section=<page><letter>
-// (section-level); Aristotle → bekker page=<page><column>. Spaces are %20-encoded;
-// colons/equals pass through, as Perseus's own links use them.
+// The query for Perseus's text?doc reading view. Most texts take
+// doc=Perseus:text:<id>:<addr> (faceted Plato → book=N:page=STEPH; other Plato →
+// section=<page><letter>; most Aristotle → bekker page=<page><column>). Metaphysics
+// and Politics instead take doc=<abbr>+<book>.<bekker>&fromdoc=Perseus:text:<id>.
 function perseusDocParam(book, page, section){
-  const base = PERSEUS_DOC[current && current.work];
+  const work = current && current.work;
+  const base = PERSEUS_DOC[work];
   if(!base) return null;
+  if(PERSEUS_ABBR_BOOK[work]){
+    const bk = perseusBekkerBook(work, book, page, section);
+    if(!bk) return null;
+    const cite = `${PERSEUS_ABBR[work]} ${bk}.${page}${section||""}`;
+    return "doc="+encodeURIComponent(cite).replace(/%20/g,"+")+
+           "&fromdoc="+encodeURIComponent("Perseus:text:"+base);
+  }
   let addr;
-  if(paginationOf(current.work)==="bekker"){
+  if(paginationOf(work)==="bekker"){
     addr = `bekker%20page=${page}${section||""}`;
   } else if(current.faceted && book){
     const bk = ROMAN[(book||"").replace("*","")];
@@ -426,10 +470,10 @@ function perseusDocParam(book, page, section){
   } else {
     addr = `section=${page}${section||""}`;
   }
-  return `Perseus:text:${base}:${addr}`;
+  return "doc=Perseus:text:"+base+":"+addr;
 }
-function perseusUrl(docParam){
-  return "https://www.perseus.tufts.edu/hopper/text?doc="+docParam;
+function perseusUrl(query){
+  return "https://www.perseus.tufts.edu/hopper/text?"+query;
 }
 function workHasPerseus(work){ return !!PERSEUS_DOC[work]; }
 
@@ -464,6 +508,7 @@ function inBand(work,page){
   return bandsFor(work).some(b=>page>=b.band_start && page<=b.band_end);
 }
 let metric = "count";     // count | articles
+let chartExpanded = false; // bar chart: fit-to-width overview (false) vs wide scrollable (true)
 
 // Journal/year filtering is handled entirely by the shared filter bar
 // (filterbar.js): it narrows which citations count at all, by journal and by
@@ -493,6 +538,7 @@ function heatVar(v, max){
 function isHot(v,max){ return v>0 && Math.sqrt(v)/Math.sqrt(max) > 0.55; }
 
 async function loadWork(id){
+  chartExpanded = false;   // each work opens in the fit-to-width overview
   try{
     const res = await fetch(DATA_DIR+FILES[id]);
     if(!res.ok) throw new Error("HTTP "+res.status);
@@ -601,12 +647,29 @@ function renderChart(){
   let max=0; for(const s of seq){ const v=cellValue(s.cell); if(v>max)max=v; }
   max = Math.max(max,1);
 
-  const W = host.clientWidth || 1000;
   const H = 300;                       // generous height
   const padL = 46, padR = 12, padT = 14, padB = 40;
+  const n = seq.length;
+  // Fit-to-width by default: the whole work is one glance, spikes and all, even
+  // when bars go sub-pixel. Long works (Republic ~1,400 sections) can't be both
+  // an overview AND precisely clickable at one scale, so an "Expand" toggle
+  // switches to a wide, sideways-scrolling view where every section has a
+  // clickable slot. (Precise clicking is also always available in the passage
+  // map below.)
+  const MIN_SLOT = 7;
+  const naturalW = host.clientWidth || 1000;
+  const canExpand = n*MIN_SLOT > (naturalW - padL - padR);
+  const needScroll = canExpand && chartExpanded;
+  // wire the toggle: shown only when expanding would actually do something
+  const zb = $("#chartZoom");
+  if(zb){
+    zb.hidden = !canExpand;
+    zb.textContent = chartExpanded ? "Fit to width ⤡" : "Expand to click ⤢";
+    zb.onclick = () => { chartExpanded = !chartExpanded; renderChart(); };
+  }
+  const W = needScroll ? Math.ceil(padL + padR + n*MIN_SLOT) : naturalW;
   const plotW = W - padL - padR;
   const plotH = H - padT - padB;
-  const n = seq.length;
   const slot = plotW / n;
   const bw = Math.max(1.5, slot*0.82);
   const metricName = t("view_b.axis.count");
@@ -615,6 +678,11 @@ function renderChart(){
   const svg = document.createElementNS(NS,"svg");
   svg.setAttribute("viewBox",`0 0 ${W} ${H}`);
   svg.setAttribute("height",H);
+  // scroll mode: give the SVG an explicit pixel width (overriding the CSS
+  // width:100%) and let the container scroll; otherwise let it fill the width.
+  if(needScroll){ svg.style.width = W+"px"; svg.style.maxWidth = "none";
+                  host.style.overflowX = "auto"; }
+  else { svg.style.width = "100%"; host.style.overflowX = ""; }
 
   // y grid + ticks (nice round numbers)
   const ticks = niceTicks(max, 4);
@@ -1041,12 +1109,21 @@ function exportCsv(){
 function buildWorkSelector(){
   const sel = $("#work");
   sel.innerHTML = "";
-  const items = WORKS.slice().sort((a,b)=>b.citations-a.citations);
-  for(const w of items){
-    const o=document.createElement("option");
-    o.value=w.work;
-    o.textContent=`${w.work.replace(/_/g," ")}  (${w.citations.toLocaleString()})`;
-    sel.appendChild(o);
+  // Two groups, Plato then Aristotle (by reference edition), alphabetical within
+  // each — a flat citation-sorted list mixed the two authors into chaos.
+  const name = w => w.work.replace(/_/g," ");
+  for(const [edition,label] of [["stephanus","Plato"],["bekker","Aristotle"]]){
+    const items = WORKS.filter(w=>paginationOf(w.work)===edition)
+                       .sort((a,b)=>name(a).localeCompare(name(b)));
+    if(!items.length) continue;
+    const og=document.createElement("optgroup"); og.label=label;
+    for(const w of items){
+      const o=document.createElement("option");
+      o.value=w.work;
+      o.textContent=`${name(w)}  (${w.citations.toLocaleString()})`;
+      og.appendChild(o);
+    }
+    sel.appendChild(og);
   }
 }
 

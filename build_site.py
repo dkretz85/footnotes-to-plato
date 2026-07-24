@@ -49,7 +49,6 @@ NAV = [
     ("/explore/passages/",  "Passages"),
     ("/methods/",           "Methods"),
     ("/data/",              "Data"),
-    ("/about/",             "About"),
     ("/contact/",           "Contact"),
 ]
 
@@ -347,7 +346,7 @@ def page(title, body, current, *, subtitle=None, toc=None, head_extra="",
 {'<div class="draftbar">Draft — figures and text are still being checked. Not indexed; please do not cite yet.</div>' if DRAFT else ''}
 <header class="site">
   <div class="bar">
-    <a class="brand" href="/"><span class="bt">{SITE_TITLE}</span></a>
+    <a class="brand" href="/"><span class="bt">{SITE_TITLE}</span><i class="bt-and"> … and others</i></a>
     <button class="navtoggle" aria-label="Menu" aria-expanded="false">☰</button>
     <nav class="mainnav">{nav_html(current)}</nav>
   </div>
@@ -366,9 +365,11 @@ def page(title, body, current, *, subtitle=None, toc=None, head_extra="",
   <div class="fwrap">
     <div>
       <strong>{SITE_TITLE}</strong> · {SITE_TAGLINE}<br>
-      <span class="muted">Built {date.today().isoformat()}. Derived from a JSTOR
-      Text Analysis Support delivery; a finding aid that links out to the
-      articles, never a substitute for them.</span>
+      <span class="muted">Made by David Kretz (Yale University /
+      <a href="https://dkretz.com">dkretz.com</a>), with Claude Opus 4.8.
+      Built {date.today().isoformat()}. Derived from a JSTOR Text Analysis
+      Support delivery; a finding aid that links out to the articles, never a
+      substitute for them.</span>
     </div>
     <div class="flinks">{nav_html(None)}</div>
   </div>
@@ -511,7 +512,6 @@ def main():
     # content pages
     pages = {
         "index.md":    ("/",         False),
-        "about.md":    ("/about/",   False),
         "methods.md":  ("/methods/", True),
         "data.md":     ("/data/",    False),
         "contact.md":  ("/contact/", False),
@@ -530,18 +530,6 @@ def main():
                  description=meta.get("description"))
         rel = "index.html" if url == "/" else url.strip("/") + "/index.html"
         write(out, rel, h)
-
-    # the methods record, converted from the project's own Markdown
-    mrec = os.path.join(CONTENT, "citation-pipeline-methods.md")
-    if os.path.exists(mrec):
-        body_md = open(mrec, encoding="utf-8").read()
-        body_md = re.sub(r"^# .*\n", "", body_md, count=1)   # title comes from the shell
-        body, toc = markdown(subst(body_md))
-        write(out, "methods/pipeline/index.html",
-              page("Pipeline & methods record", body, "/methods/",
-                   subtitle="Extraction, resolution, and the data quality of "
-                            "the citation index",
-                   toc=toc))
 
     # viewers
     va = os.path.join(ROOT, "view_a.html")

@@ -40,6 +40,10 @@ header.site .bar{
 .brand .bt{
   font-family:var(--serif); font-size:19px; font-weight:600; letter-spacing:.01em;
 }
+.brand .bt-and{
+  font-family:var(--serif); font-size:19px; font-weight:400; font-style:italic;
+  color:var(--ink-soft);
+}
 .mainnav{display:flex; gap:2px; flex-wrap:wrap; margin-left:auto}
 .mainnav a{
   font-size:13.5px; color:var(--ink-soft); text-decoration:none;
@@ -171,6 +175,7 @@ a.card:hover{transform:translateY(-2px);
   padding-top:8px; border-top:1px solid var(--rule);
 }
 .figure .cap b{color:var(--ink)}
+.figure .cap.cap-lg{font-size:15.5px; color:var(--ink-soft); line-height:1.6}
 
 .statrow{display:flex; flex-wrap:wrap; gap:10px 30px; margin:20px 0 24px;
   padding:16px 0; border-top:1px solid var(--rule); border-bottom:1px solid var(--rule)}

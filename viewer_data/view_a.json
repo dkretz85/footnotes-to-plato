@@ -21,15 +21,8 @@
    "De_Anima"
   ],
   "filed_share_of_candidates": 0.022,
-  "collision_bands": [
-   {
-    "start": 60,
-    "end": 69,
-    "resolved_share": 0.0,
-    "est_missing": 37
-   }
-  ],
-  "band_est_missing": 37,
+  "collision_bands": [],
+  "band_est_missing": 0,
   "small_n": false
  },
  {

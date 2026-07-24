@@ -65,7 +65,7 @@
       "load_failed": "Could not load the citation data for this work. Reload the page; if it persists the data file may be missing."
     },
     "bands": {
-      "banner_html": "A few page-ranges resolve worse than the rest of this work (marked above): {ranges}. An estimated {missing} citations there could not be placed, so read those stretches as a floor. Full detail on the <a href=\"/methods/#collision-bands\">methods page</a>.",
+      "banner_html": "<b>Collision band.</b> Most of this work resolves evenly, but the marked page-ranges — {ranges} — sit on numbers that collide with another work, so they resolved worse than the rest and an estimated {missing} citations there could not be placed. Read those stretches as a floor: the citations shown are real, but there are more we could not attribute. Most works have no such band; <a href=\"/methods/#collision-bands\">what these are →</a>.",
       "marker_label": "under-resolved"
     }
   }

@@ -1,26 +1,32 @@
-Footnotes to Plato — files changed this session (upload to GitHub, preserving paths)
-Base: 8731719  Commits: 17ce90f, 1220098, 44705ce, 1096efa
+Footnotes to Plato — ALL changes vs base 8731719 (FINAL).
 
+DELETE these from the repo on upload:
+  docs/about/index.html
+  docs/methods/pipeline/index.html
+  site/content/about.md
+  site/content/citation-pipeline-methods.md
+
+Changed/added files:
 build_site.py
 build_viewer_data.py
 copy.json
-docs/about/index.html
 docs/contact/index.html
 docs/data/index.html
+docs/data/viewer/collision_bands.json
 docs/data/viewer/copy.json
 docs/data/viewer/meta.json
+docs/data/viewer/view_a.json
 docs/explore/passages/index.html
 docs/explore/works/index.html
 docs/index.html
 docs/methods/index.html
-docs/methods/pipeline/index.html
 docs/series.js
 docs/static/landing-bars.js
 docs/static/site.css
 estimate_within_set.py
 series.js
 site/content/_intro_works.md
-site/content/citation-pipeline-methods.md
+site/content/contact.md
 site/content/data.md
 site/content/index.md
 site/content/methods.md
@@ -28,4 +34,6 @@ site/static/landing-bars.js
 site/static/site.css
 view_a.html
 view_b.html
+viewer_data/collision_bands.json
 viewer_data/meta.json
+viewer_data/view_a.json

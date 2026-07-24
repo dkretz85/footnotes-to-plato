@@ -29,11 +29,13 @@ any shareable file is written.</p>
 ## Licence
 
 The derived data is **CC BY 4.0** — use it for anything, including commercially,
-provided you attribute the source. See [licensing](/about/#licensing) for the
-reasoning and for how the other components are licensed.
+provided you attribute the source. The pipeline and site code are **MIT**; the
+site prose is **CC BY 4.0** on the same terms as the data.
 
 The underlying JSTOR full text is **not redistributable** and is not available
-here. It never leaves the machine that processes it.
+here. It never leaves the machine that processes it: the verbatim context of
+each citation is dropped before anything is written to a shareable file, and
+what is published is derived facts only — work, passage, journal, year, DOI.
 
 ## Reproducing the build
 
@@ -43,8 +45,7 @@ above, and prints invariant self-checks so a bad run announces itself.
 
 Without the delivery you cannot regenerate the data from scratch — but you can
 verify every published number against these files, and the
-[methods record](/methods/pipeline/) documents each transformation between the
-two.
+[methods page](/methods/) documents each transformation between the two.
 
 ## Caveat before reuse
 
