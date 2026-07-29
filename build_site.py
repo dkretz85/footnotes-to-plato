@@ -55,6 +55,14 @@ NAV = [
 SITE_TITLE = "Footnotes to Plato"
 SITE_TAGLINE = "A passage-level citation index of the ancient-philosophy scholarship"
 
+# GoatCounter analytics (https://www.goatcounter.com). Injected into every page
+# by page() so traffic is tracked site-wide from a single source. The count.js
+# script is async, so its placement before </body> does not block rendering.
+ANALYTICS = (
+    '<script data-goatcounter="https://dkretz.goatcounter.com/count"\n'
+    '        async src="//gc.zgo.at/count.js"></script>'
+)
+
 
 # ---------------------------------------------------------------------------
 # Minimal Markdown
@@ -375,6 +383,7 @@ def page(title, body, current, *, subtitle=None, toc=None, head_extra="",
   </div>
 </footer>
 <script src="/static/site.js"></script>
+{ANALYTICS}
 </body>
 </html>
 """
