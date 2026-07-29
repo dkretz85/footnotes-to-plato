@@ -4,7 +4,7 @@ subtitle: Which passages of Plato and Aristotle the scholarship cites — and wh
 description: A passage-level citation index built from 135 years of ancient-philosophy journals. Explore which works and which passages draw scholarly attention, and see exactly how much of the picture is missing.
 ---
 
-<p class="lede">This tool shows which works—and which passages—by Plato and
+<p class="lede">This tool shows which works—and which individual passages—by Plato and
 Aristotle receive the most scholarly attention, and which are relatively
 understudied, for both philosophy and classics, for individual journals, across
 135 years.</p>
@@ -31,10 +31,10 @@ understudied, for both philosophy and classics, for individual journals, across
 
 ## What it cannot tell you
 
-- **Ten journals, not the field.** Journal articles only — no monographs, edited
-  volumes, or commentaries — with an Anglophone skew, so much of the most
-  influential work on Plato and Aristotle (which appeared in books) is simply
-  absent. [The ten titles are listed on the methods page.](/methods/#coverage)
+- **Ten journals, not the entire field.** Journal articles only — no monographs, edited
+  volumes, or commentaries — and with an Anglophone skew, so much influential
+  work on Plato and Aristotle is simply absent.
+  [The ten titles are listed on the methods page.](/methods/#coverage)
 - **Uneven across 1887–2022.** The early decades are thin and most of the
   citations fall after 1980, so a quiet early stretch reflects how little was
   published then, not a lapse in attention.
@@ -52,8 +52,8 @@ understudied, for both philosophy and classics, for individual journals, across
 
 Everything else on this site depends on this chart, so it comes first. Each bar
 is a work; solid length is what we could place with confidence. The tail that
-fades to nothing is citation traffic we detected but could not attribute — real
-attention that belongs *somewhere*, but which we decline to assign.
+fades to nothing are citations that *could* belong to this text, but which we were
+not able to resolve with certainty.
 
 <div class="figure">
   <div id="landing-bars">
@@ -62,8 +62,8 @@ attention that belongs *somewhere*, but which we decline to assign.
   </div>
   <div class="cap cap-lg"><b>Reading this chart.</b> Works are ranked by their
   <b>solid floor</b> — the citations we could place with confidence. The
-  <b>fade</b> is traffic we detected but could not attribute; it is shared among
-  the works a bare page number could belong to, so it is an upper gesture, never
+  <b>fade</b> is traffic we detected but could not attribute with certainty; it is shared among
+  the works a bare page number could, in principle, belong to. It is an upper limit, not
   a subtotal. Read the two together: a short solid bar with a <em>long</em> fade
   (like <em>Meno</em> or <em>Apology</em>, whose Stephanus page numbers collide
   with other dialogues) means "much of its traffic couldn't be placed," <b>not</b>
@@ -98,22 +98,18 @@ attention that belongs *somewhere*, but which we decline to assign.
 
 ## Citing and contributing
 
-If this contributed to published work, please cite it with the version you used
-— the corpus and the pipeline will both change, so a bare URL will not point a
-future reader at what you actually saw. The durable route is a DOI via
-[Zenodo](https://zenodo.org/), which archives a GitHub release and mints one;
-until then, cite the URL and version. A recommended form: *Kretz, David.
+If this contributed to published work, please cite as: *Kretz, David.
 Footnotes to Plato: A Passage-Level Citation Index of the Ancient-Philosophy
-Scholarship. Version 1.0, 2026.* The derived data is
+Scholarship. Version 1.0, date.* The derived data is
 [published for download](/data/) so results can be checked or reused.
 
 **Publish or edit a journal you would like to see included?** Please
-[write to me](/contact/)! Corrections, methodological objections, and feature
-suggestions are also all welcome.
+[write to me](/contact/)! Corrections, methodological objections, and suggestions
+for additional features are also all very welcome.
 
 ## Acknowledgements
 
-The pipeline, the analysis, and this site were developed with substantial
+The pipeline, the analysis, and this website were developed with substantial
 assistance from Claude Opus 4.8 (by Anthropic) throughout. The responsibility
 for methodological decisions remains mine. I would like to thank the team at
 JSTOR Text Analysis Support for sharing the data that made this possible, and
