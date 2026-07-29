@@ -99,7 +99,7 @@ not able to resolve with certainty.
 ## Citing and contributing
 
 If this contributed to published work, please cite as: *Kretz, David.
-Footnotes to Plato: A Passage-Level Citation Index of the Ancient-Philosophy
+Footnotes to Plato: A Passage-Level Citation Index of Ancient-Philosophy
 Scholarship. Version 1.0, date.* The derived data is
 [published for download](/data/) so results can be checked or reused.
 
