@@ -46,13 +46,3 @@ above, and prints invariant self-checks so a bad run announces itself.
 Without the delivery you cannot regenerate the data from scratch — but you can
 verify every published number against these files, and the
 [methods page](/methods/) documents each transformation between the two.
-
-## Caveat before reuse
-
-Every `floor` in `view_a.json` is a **lower bound**, not a total, and how much a
-work loses to the queue varies enormously — a raw count means something different
-for *Republic*, whose page range is clean, than for *Crito*, whose Stephanus
-range is crowded. If you reuse these numbers, carry that with them: report the
-floor as a floor, and note that the `unplaceable` fade is shared candidate-set
-membership that **cannot be summed across works**. See
-[Floors, not totals](/methods/#floors-not-totals).
