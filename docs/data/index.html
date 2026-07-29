@@ -36,8 +36,6 @@
 <h2 id="reproducing-the-build">Reproducing the build<a class="anchor" href="#reproducing-the-build" aria-label="link">#</a></h2>
 <p>The aggregator that produces these files runs locally against the JSTOR delivery. Given the delivery, <code>build_viewer_data.py</code> regenerates every file above, and prints invariant self-checks so a bad run announces itself.</p>
 <p>Without the delivery you cannot regenerate the data from scratch — but you can verify every published number against these files, and the <a href="/methods/">methods page</a> documents each transformation between the two.</p>
-<h2 id="caveat-before-reuse">Caveat before reuse<a class="anchor" href="#caveat-before-reuse" aria-label="link">#</a></h2>
-<p>Every <code>floor</code> in <code>view_a.json</code> is a <strong>lower bound</strong>, not a total, and how much a work loses to the queue varies enormously — a raw count means something different for <em>Republic</em>, whose page range is clean, than for <em>Crito</em>, whose Stephanus range is crowded. If you reuse these numbers, carry that with them: report the floor as a floor, and note that the <code>unplaceable</code> fade is shared candidate-set membership that <strong>cannot be summed across works</strong>. See <a href="/methods/#floors-not-totals">Floors, not totals</a>.</p>
   </div>
 </main>
 <footer class="site">
