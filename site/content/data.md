@@ -20,10 +20,10 @@ any shareable file is written.</p>
 
 | File | Contents |
 | --- | --- |
-| [`meta.json`](/data/viewer/meta.json) | Journals, year range and histogram, corpus totals, thresholds used. |
-| [`view_a.json`](/data/viewer/view_a.json) | Per work: placed count (the floor), uncertainty band, unplaceable mass, distinct articles, collision partners. Also carries an internal `resolution_rate` / `tier`, retained for provenance but no longer used by the site (see methods). |
-| [`view_a_filter.json`](/data/viewer/view_a_filter.json) | Per work: sparse journal × year matrix of placed citations. The time chart's source. |
-| [`works_index.json`](/data/viewer/works_index.json) | Work list with placed-citation totals (plus an unused internal `tier` field). |
+| <a href="/data/viewer/meta.json" download><code>meta.json</code></a> | Journals, year range and histogram, corpus totals, thresholds used. |
+| <a href="/data/viewer/view_a.json" download><code>view_a.json</code></a> | Per work: placed count (the floor), uncertainty band, unplaceable mass, distinct articles, collision partners. Also carries an internal `resolution_rate` / `tier`, retained for provenance but no longer used by the site (see methods). |
+| <a href="/data/viewer/view_a_filter.json" download><code>view_a_filter.json</code></a> | Per work: sparse journal × year matrix of placed citations. The time chart's source. |
+| <a href="/data/viewer/works_index.json" download><code>works_index.json</code></a> | Work list with placed-citation totals (plus an unused internal `tier` field). |
 | `view_b/<work>.json` | Per work: section-level cells and per-citation records with DOI links. |
 
 ## Licence
