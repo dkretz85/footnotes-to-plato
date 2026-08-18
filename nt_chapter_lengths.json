@@ -1,0 +1,24 @@
+{
+  "_meta": {
+    "purpose": "Verses-per-chapter for the Pauline corpus. Two uses: (1) expand cross-chapter verse ranges (Rom 7:25-8:2 needs to know Rom 7 ends at v.25); (2) reject out-of-range citations (Phlm 6:15 -> Philemon has 1 chapter -> divert).",
+    "scope": "Pauline corpus only (13 letters). Gospels/Acts/Catholic epistles excluded by design (versification variance).",
+    "versification": "KJV-inclusive: each value is the highest verse number of that chapter in standard versification. KJV chosen because it is the MAXIMAL common numbering (e.g. 2 Cor 13 = 14 verses; NA/UBS merge 13:13-14), so validation never falsely rejects a citation that uses a fuller numbering.",
+    "source": "github.com/aruljohn/Bible-kjv (KJV), verified per chapter",
+    "format": "books[canonical_name] = [last_verse_of_ch1, last_verse_of_ch2, ...]; array index = chapter - 1"
+  },
+  "books": {
+    "Romans":          [32, 29, 31, 25, 21, 23, 25, 39, 33, 21, 36, 21, 14, 23, 33, 27],
+    "1 Corinthians":   [31, 16, 23, 21, 13, 20, 40, 13, 27, 33, 34, 31, 13, 40, 58, 24],
+    "2 Corinthians":   [24, 17, 18, 18, 21, 18, 16, 24, 15, 18, 33, 21, 14],
+    "Galatians":       [24, 21, 29, 31, 26, 18],
+    "Ephesians":       [23, 22, 21, 32, 33, 24],
+    "Philippians":     [30, 30, 21, 23],
+    "Colossians":      [29, 23, 25, 18],
+    "1 Thessalonians": [10, 20, 13, 18, 28],
+    "2 Thessalonians": [12, 17, 18],
+    "1 Timothy":       [20, 15, 16, 16, 25, 21],
+    "2 Timothy":       [18, 26, 17, 22],
+    "Titus":           [16, 15, 15],
+    "Philemon":        [25]
+  }
+}

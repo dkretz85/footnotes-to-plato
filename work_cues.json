@@ -1,0 +1,32 @@
+{
+  "_meta": {
+    "purpose": "Map a normalised citation cue to its canonical work_id, for the new corpora (Homer/Pindar/NT) the resolver must route. Chains into nt_chapter_lengths.json: an NT cue -> book name -> verses-per-chapter.",
+    "normalisation": "Look up by norm(cue): lower-cased, accent-stripped, trailing-period-stripped, internal whitespace collapsed to one space. For NT, convert a Roman letter-number to Arabic FIRST (I->1, II->2), so 'II Cor.' -> '2 cor'. The Homer/Pindar expanders already emit canonical cues (Il/Od, Ol/Pyth/Nem/Isth), so those keys match directly.",
+    "scope": "homer: Iliad/Odyssey. pindar: the four ode collections as works. nt: the 13-letter Pauline corpus (keys match nt_chapter_lengths.json books)."
+  },
+  "homer": {
+    "il": "Iliad",
+    "od": "Odyssey"
+  },
+  "pindar": {
+    "ol": "Olympian",
+    "pyth": "Pythian",
+    "nem": "Nemean",
+    "isth": "Isthmian"
+  },
+  "nt": {
+    "rom": "Romans",
+    "1 cor": "1 Corinthians",
+    "2 cor": "2 Corinthians",
+    "gal": "Galatians",
+    "eph": "Ephesians",
+    "phil": "Philippians",
+    "col": "Colossians",
+    "1 thess": "1 Thessalonians",
+    "2 thess": "2 Thessalonians",
+    "1 tim": "1 Timothy",
+    "2 tim": "2 Timothy",
+    "tit": "Titus",
+    "phlm": "Philemon"
+  }
+}
