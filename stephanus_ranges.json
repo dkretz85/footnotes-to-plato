@@ -1,0 +1,484 @@
+{
+  "_meta": {
+    "system": "Stephanus",
+    "author": "Plato",
+    "purpose": "dialogue -> valid Stephanus page range, for the range-constraint step of citation resolution",
+    "edition_of_record": "Stephanus 1578 (3 vols); ranges standard in Burnet OCT (Platonis Opera, 5 vols, OUP)",
+    "reset_note": "Stephanus numbers reset per VOLUME in the 1578 edition, and by convention are quoted per dialogue with the dialogue name. Ranges below are the page spans each dialogue occupies. A bare number like 511 is ambiguous across all dialogues whose range contains 511; the parser uses these ranges to shortlist candidates and lets the abbreviation + scope-tracking disambiguate.",
+    "letter_note": "Stephanus pages subdivide a-e. Citations look like 511d or 327a. The page integer is what these ranges bound; the letter is within-page and does not affect range membership.",
+    "VERIFY": "Every start/end pair is marked verified:false. Check each against Burnet's OCT before production use. The values here are close approximations from standard references and WILL contain errors at the boundaries (dialogues abut and the exact hand-off page is easy to misremember). Overlapping/abutting ranges across volumes are EXPECTED because the reset means the same integer recurs in different volumes.",
+    "tetralogy_note": "Dialogues are grouped by Thrasyllus's 9 tetralogies as ordered in the 1578 edition / Burnet. Volume boundaries (I-III of Stephanus) noted where they fall.",
+    "verification_status": "Integer ranges VERIFIED against Wikipedia (all 36 matched an independent build). verified:true set. Burnet OCT check still advised for publication-grade certainty."
+  },
+  "dialogues": [
+    {
+      "id": "Euthyphro",
+      "stephanus_start": 2,
+      "stephanus_end": 16,
+      "verified": true,
+      "volume": 1,
+      "notes": "Tetralogy I. ~15 pp.",
+      "verified_source": "en.wikipedia Stephanus_pagination (1578 ordering); integer ranges cross-checked, all matched. NB still worth a final check vs Burnet OCT for publication."
+    },
+    {
+      "id": "Apology",
+      "stephanus_start": 17,
+      "stephanus_end": 42,
+      "verified": true,
+      "volume": 1,
+      "notes": "Tetralogy I.",
+      "verified_source": "en.wikipedia Stephanus_pagination (1578 ordering); integer ranges cross-checked, all matched. NB still worth a final check vs Burnet OCT for publication."
+    },
+    {
+      "id": "Crito",
+      "stephanus_start": 43,
+      "stephanus_end": 54,
+      "verified": true,
+      "volume": 1,
+      "notes": "Tetralogy I.",
+      "verified_source": "en.wikipedia Stephanus_pagination (1578 ordering); integer ranges cross-checked, all matched. NB still worth a final check vs Burnet OCT for publication."
+    },
+    {
+      "id": "Phaedo",
+      "stephanus_start": 57,
+      "stephanus_end": 118,
+      "verified": true,
+      "volume": 1,
+      "notes": "Tetralogy I.",
+      "verified_source": "en.wikipedia Stephanus_pagination (1578 ordering); integer ranges cross-checked, all matched. NB still worth a final check vs Burnet OCT for publication."
+    },
+    {
+      "id": "Cratylus",
+      "stephanus_start": 383,
+      "stephanus_end": 440,
+      "verified": true,
+      "volume": 1,
+      "notes": "Tetralogy II.",
+      "verified_source": "en.wikipedia Stephanus_pagination (1578 ordering); integer ranges cross-checked, all matched. NB still worth a final check vs Burnet OCT for publication."
+    },
+    {
+      "id": "Theaetetus",
+      "stephanus_start": 142,
+      "stephanus_end": 210,
+      "verified": true,
+      "volume": 1,
+      "notes": "Tetralogy II.",
+      "verified_source": "en.wikipedia Stephanus_pagination (1578 ordering); integer ranges cross-checked, all matched. NB still worth a final check vs Burnet OCT for publication."
+    },
+    {
+      "id": "Sophist",
+      "stephanus_start": 216,
+      "stephanus_end": 268,
+      "verified": true,
+      "volume": 1,
+      "notes": "Tetralogy II.",
+      "verified_source": "en.wikipedia Stephanus_pagination (1578 ordering); integer ranges cross-checked, all matched. NB still worth a final check vs Burnet OCT for publication."
+    },
+    {
+      "id": "Statesman",
+      "stephanus_start": 257,
+      "stephanus_end": 311,
+      "verified": true,
+      "volume": 1,
+      "notes": "Tetralogy II. AKA Politicus. CRITICAL: abbreviation 'Pol.' collides with Aristotle Politics (Bekker) AND older cites of Republic. Format routing helps: Statesman is Stephanus (3-digit+letter), Aristotle Politics is Bekker (4-digit+a/b).",
+      "verified_source": "en.wikipedia Stephanus_pagination (1578 ordering); integer ranges cross-checked, all matched. NB still worth a final check vs Burnet OCT for publication."
+    },
+    {
+      "id": "Parmenides",
+      "stephanus_start": 126,
+      "stephanus_end": 166,
+      "verified": true,
+      "volume": 3,
+      "notes": "Tetralogy III.",
+      "verified_source": "en.wikipedia Stephanus_pagination (1578 ordering); integer ranges cross-checked, all matched. NB still worth a final check vs Burnet OCT for publication."
+    },
+    {
+      "id": "Philebus",
+      "stephanus_start": 11,
+      "stephanus_end": 67,
+      "verified": true,
+      "volume": 2,
+      "notes": "Tetralogy III. The 'Philebus 30 desert-spot' payoff-1 test case lives here.",
+      "verified_source": "en.wikipedia Stephanus_pagination (1578 ordering); integer ranges cross-checked, all matched. NB still worth a final check vs Burnet OCT for publication."
+    },
+    {
+      "id": "Symposium",
+      "stephanus_start": 172,
+      "stephanus_end": 223,
+      "verified": true,
+      "volume": 3,
+      "notes": "Tetralogy III.",
+      "verified_source": "en.wikipedia Stephanus_pagination (1578 ordering); integer ranges cross-checked, all matched. NB still worth a final check vs Burnet OCT for publication."
+    },
+    {
+      "id": "Phaedrus",
+      "stephanus_start": 227,
+      "stephanus_end": 279,
+      "verified": true,
+      "volume": 3,
+      "notes": "Tetralogy III.",
+      "verified_source": "en.wikipedia Stephanus_pagination (1578 ordering); integer ranges cross-checked, all matched. NB still worth a final check vs Burnet OCT for publication."
+    },
+    {
+      "id": "Alcibiades_1",
+      "stephanus_start": 103,
+      "stephanus_end": 135,
+      "verified": true,
+      "volume": 2,
+      "notes": "Tetralogy IV. Authenticity disputed. AKA Alcibiades Major.",
+      "verified_source": "en.wikipedia Stephanus_pagination (1578 ordering); integer ranges cross-checked, all matched. NB still worth a final check vs Burnet OCT for publication."
+    },
+    {
+      "id": "Alcibiades_2",
+      "stephanus_start": 138,
+      "stephanus_end": 151,
+      "verified": true,
+      "volume": 2,
+      "notes": "Tetralogy IV. Spurious by most. AKA Alcibiades Minor.",
+      "verified_source": "en.wikipedia Stephanus_pagination (1578 ordering); integer ranges cross-checked, all matched. NB still worth a final check vs Burnet OCT for publication."
+    },
+    {
+      "id": "Hipparchus",
+      "stephanus_start": 225,
+      "stephanus_end": 232,
+      "verified": true,
+      "volume": 2,
+      "notes": "Tetralogy IV. Spurious.",
+      "verified_source": "en.wikipedia Stephanus_pagination (1578 ordering); integer ranges cross-checked, all matched. NB still worth a final check vs Burnet OCT for publication."
+    },
+    {
+      "id": "Rival_Lovers",
+      "stephanus_start": 132,
+      "stephanus_end": 139,
+      "verified": true,
+      "volume": 1,
+      "notes": "Tetralogy IV. AKA Amatores / Erastae / Rivals. Spurious.",
+      "verified_source": "en.wikipedia Stephanus_pagination (1578 ordering); integer ranges cross-checked, all matched. NB still worth a final check vs Burnet OCT for publication."
+    },
+    {
+      "id": "Theages",
+      "stephanus_start": 121,
+      "stephanus_end": 131,
+      "verified": true,
+      "volume": 1,
+      "notes": "Tetralogy V. Spurious.",
+      "verified_source": "en.wikipedia Stephanus_pagination (1578 ordering); integer ranges cross-checked, all matched. NB still worth a final check vs Burnet OCT for publication."
+    },
+    {
+      "id": "Charmides",
+      "stephanus_start": 153,
+      "stephanus_end": 176,
+      "verified": true,
+      "volume": 2,
+      "notes": "Tetralogy V.",
+      "verified_source": "en.wikipedia Stephanus_pagination (1578 ordering); integer ranges cross-checked, all matched. NB still worth a final check vs Burnet OCT for publication."
+    },
+    {
+      "id": "Laches",
+      "stephanus_start": 178,
+      "stephanus_end": 201,
+      "verified": true,
+      "volume": 2,
+      "notes": "Tetralogy V.",
+      "verified_source": "en.wikipedia Stephanus_pagination (1578 ordering); integer ranges cross-checked, all matched. NB still worth a final check vs Burnet OCT for publication."
+    },
+    {
+      "id": "Lysis",
+      "stephanus_start": 203,
+      "stephanus_end": 223,
+      "verified": true,
+      "volume": 2,
+      "notes": "Tetralogy V. NOTE range end abuts/overlaps Symposium region in vol 3 numbering - reset in action.",
+      "verified_source": "en.wikipedia Stephanus_pagination (1578 ordering); integer ranges cross-checked, all matched. NB still worth a final check vs Burnet OCT for publication."
+    },
+    {
+      "id": "Euthydemus",
+      "stephanus_start": 271,
+      "stephanus_end": 307,
+      "verified": true,
+      "volume": 1,
+      "notes": "Tetralogy VI.",
+      "verified_source": "en.wikipedia Stephanus_pagination (1578 ordering); integer ranges cross-checked, all matched. NB still worth a final check vs Burnet OCT for publication."
+    },
+    {
+      "id": "Protagoras",
+      "stephanus_start": 309,
+      "stephanus_end": 362,
+      "verified": true,
+      "volume": 1,
+      "notes": "Tetralogy VI.",
+      "verified_source": "en.wikipedia Stephanus_pagination (1578 ordering); integer ranges cross-checked, all matched. NB still worth a final check vs Burnet OCT for publication."
+    },
+    {
+      "id": "Gorgias",
+      "stephanus_start": 447,
+      "stephanus_end": 527,
+      "verified": true,
+      "volume": 1,
+      "notes": "Tetralogy VI.",
+      "verified_source": "en.wikipedia Stephanus_pagination (1578 ordering); integer ranges cross-checked, all matched. NB still worth a final check vs Burnet OCT for publication."
+    },
+    {
+      "id": "Meno",
+      "stephanus_start": 70,
+      "stephanus_end": 100,
+      "verified": true,
+      "volume": 2,
+      "notes": "Tetralogy VI.",
+      "verified_source": "en.wikipedia Stephanus_pagination (1578 ordering); integer ranges cross-checked, all matched. NB still worth a final check vs Burnet OCT for publication."
+    },
+    {
+      "id": "Hippias_Major",
+      "stephanus_start": 281,
+      "stephanus_end": 304,
+      "verified": true,
+      "volume": 3,
+      "notes": "Tetralogy VII. AKA Hippias Maior / Greater Hippias. 'Hp.Ma.' abbrev.",
+      "verified_source": "en.wikipedia Stephanus_pagination (1578 ordering); integer ranges cross-checked, all matched. NB still worth a final check vs Burnet OCT for publication."
+    },
+    {
+      "id": "Hippias_Minor",
+      "stephanus_start": 363,
+      "stephanus_end": 376,
+      "verified": true,
+      "volume": 1,
+      "notes": "Tetralogy VII. AKA Hippias Minor / Lesser Hippias. 'Hp.Mi.' abbrev.",
+      "verified_source": "en.wikipedia Stephanus_pagination (1578 ordering); integer ranges cross-checked, all matched. NB still worth a final check vs Burnet OCT for publication."
+    },
+    {
+      "id": "Ion",
+      "stephanus_start": 530,
+      "stephanus_end": 542,
+      "verified": true,
+      "volume": 1,
+      "notes": "Tetralogy VII.",
+      "verified_source": "en.wikipedia Stephanus_pagination (1578 ordering); integer ranges cross-checked, all matched. NB still worth a final check vs Burnet OCT for publication."
+    },
+    {
+      "id": "Menexenus",
+      "stephanus_start": 234,
+      "stephanus_end": 249,
+      "verified": true,
+      "volume": 2,
+      "notes": "Tetralogy VII.",
+      "verified_source": "en.wikipedia Stephanus_pagination (1578 ordering); integer ranges cross-checked, all matched. NB still worth a final check vs Burnet OCT for publication."
+    },
+    {
+      "id": "Clitophon",
+      "stephanus_start": 406,
+      "stephanus_end": 410,
+      "verified": true,
+      "volume": 3,
+      "notes": "Tetralogy VIII. Authenticity disputed.",
+      "verified_source": "en.wikipedia Stephanus_pagination (1578 ordering); integer ranges cross-checked, all matched. NB still worth a final check vs Burnet OCT for publication."
+    },
+    {
+      "id": "Republic",
+      "stephanus_start": 327,
+      "stephanus_end": 621,
+      "verified": true,
+      "volume": 2,
+      "notes": "Tetralogy VIII. The big one: ~294 Stephanus pages, dominates any raw passage-axis strip (per-page normalisation needed). Cited Rep./R./Resp. and in older/German lit sometimes Pol. or Staat. Books 1-10 map to sub-ranges within this span.",
+      "verified_source": "en.wikipedia Stephanus_pagination (1578 ordering); integer ranges cross-checked, all matched. NB still worth a final check vs Burnet OCT for publication.",
+      "books": [
+        {
+          "book": "I",
+          "start": 327,
+          "end": 354,
+          "verified": true
+        },
+        {
+          "book": "II",
+          "start": 357,
+          "end": 383,
+          "verified": true
+        },
+        {
+          "book": "III",
+          "start": 386,
+          "end": 417,
+          "verified": true
+        },
+        {
+          "book": "IV",
+          "start": 419,
+          "end": 445,
+          "verified": true
+        },
+        {
+          "book": "V",
+          "start": 449,
+          "end": 480,
+          "verified": true
+        },
+        {
+          "book": "VI",
+          "start": 484,
+          "end": 511,
+          "verified": true
+        },
+        {
+          "book": "VII",
+          "start": 514,
+          "end": 541,
+          "verified": true
+        },
+        {
+          "book": "VIII",
+          "start": 543,
+          "end": 569,
+          "verified": true
+        },
+        {
+          "book": "IX",
+          "start": 571,
+          "end": 592,
+          "verified": true
+        },
+        {
+          "book": "X",
+          "start": 595,
+          "end": 621,
+          "verified": true
+        }
+      ],
+      "book_gaps_note": "Gaps between books (e.g. 354->357) are Stephanus book-introduction pages, not text; a citation landing in a gap is suspect."
+    },
+    {
+      "id": "Timaeus",
+      "stephanus_start": 17,
+      "stephanus_end": 92,
+      "verified": true,
+      "volume": 3,
+      "notes": "Tetralogy VIII. 'Tim.' NOTE overlaps Philebus integer-range (both start ~17) - different volumes, reset in action; a bare '30' is ambiguous Philebus/Timaeus without scope.",
+      "verified_source": "en.wikipedia Stephanus_pagination (1578 ordering); integer ranges cross-checked, all matched. NB still worth a final check vs Burnet OCT for publication."
+    },
+    {
+      "id": "Critias",
+      "stephanus_start": 106,
+      "stephanus_end": 121,
+      "verified": true,
+      "volume": 3,
+      "notes": "Tetralogy VIII.",
+      "verified_source": "en.wikipedia Stephanus_pagination (1578 ordering); integer ranges cross-checked, all matched. NB still worth a final check vs Burnet OCT for publication."
+    },
+    {
+      "id": "Minos",
+      "stephanus_start": 313,
+      "stephanus_end": 321,
+      "verified": true,
+      "volume": 2,
+      "notes": "Tetralogy IX. Spurious.",
+      "verified_source": "en.wikipedia Stephanus_pagination (1578 ordering); integer ranges cross-checked, all matched. NB still worth a final check vs Burnet OCT for publication."
+    },
+    {
+      "id": "Laws",
+      "stephanus_start": 624,
+      "stephanus_end": 969,
+      "verified": true,
+      "volume": 2,
+      "notes": "Tetralogy IX. Second-longest. 'Leg.' (Leges) / 'Lg.' / Fr. 'Lois' / Ger. 'Gesetze'. Books 1-12.",
+      "verified_source": "en.wikipedia Stephanus_pagination (1578 ordering); integer ranges cross-checked, all matched. NB still worth a final check vs Burnet OCT for publication.",
+      "books": [
+        {
+          "book": "I",
+          "start": 624,
+          "end": 650,
+          "verified": true
+        },
+        {
+          "book": "II",
+          "start": 652,
+          "end": 674,
+          "verified": true
+        },
+        {
+          "book": "III",
+          "start": 676,
+          "end": 702,
+          "verified": true
+        },
+        {
+          "book": "IV",
+          "start": 704,
+          "end": 724,
+          "verified": true
+        },
+        {
+          "book": "V",
+          "start": 726,
+          "end": 747,
+          "verified": true
+        },
+        {
+          "book": "VI",
+          "start": 751,
+          "end": 785,
+          "verified": true
+        },
+        {
+          "book": "VII",
+          "start": 788,
+          "end": 824,
+          "verified": true
+        },
+        {
+          "book": "VIII",
+          "start": 828,
+          "end": 850,
+          "verified": true
+        },
+        {
+          "book": "IX",
+          "start": 853,
+          "end": 882,
+          "verified": true
+        },
+        {
+          "book": "X",
+          "start": 884,
+          "end": 910,
+          "verified": true
+        },
+        {
+          "book": "XI",
+          "start": 913,
+          "end": 938,
+          "verified": true
+        },
+        {
+          "book": "XII",
+          "start": 941,
+          "end": 969,
+          "verified": true
+        }
+      ],
+      "book_gaps_note": "Same book-introduction gaps as Republic."
+    },
+    {
+      "id": "Epinomis",
+      "stephanus_start": 973,
+      "stephanus_end": 992,
+      "verified": true,
+      "volume": 2,
+      "notes": "Tetralogy IX. Appendix to Laws. Authenticity disputed.",
+      "verified_source": "en.wikipedia Stephanus_pagination (1578 ordering); integer ranges cross-checked, all matched. NB still worth a final check vs Burnet OCT for publication."
+    },
+    {
+      "id": "Letters",
+      "stephanus_start": 309,
+      "stephanus_end": 363,
+      "verified": true,
+      "volume": 3,
+      "notes": "Tetralogy IX. AKA Epistles. Cited by letter number + Stephanus, e.g. 'Ep. 7 341c'. Seventh Letter most cited. Range overlaps Protagoras/Letters integer space - reset.",
+      "verified_source": "en.wikipedia Stephanus_pagination (1578 ordering); integer ranges cross-checked, all matched. NB still worth a final check vs Burnet OCT for publication."
+    }
+  ],
+  "_todo": [
+    "DONE: integer ranges verified against Wikipedia Stephanus_pagination. Final gold-standard check vs Burnet OCT still recommended before publication.",
+    "DONE: per-book sub-ranges added for Republic (I-X) and Laws (I-XII) from Wikipedia.",
+    "Decide policy on spurious/disputed dialogues: INCLUDED with abbreviations now added (Alcibiades I/II, Hipparchus, Rival Lovers, Theages, Minos, Clitophon, Epinomis). Authenticity flagged so heatmap can optionally filter - but per project owner, treat as authentic/understudied and KEEP.",
+    "Confirm Timaeus/Philebus and Letters/Protagoras integer overlaps handled by scope-tracking on real data.",
+    "Consider adding the fully-spurious appendix works (Axiochus, De Justitia, De Virtute, Demodocus, Sisyphus, Eryxias, Definitiones) if pilot data shows them cited - Wikipedia gives their ranges."
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "_meta": {
+    "purpose": "Map Nicomachean Ethics (NE) and Eudemian Ethics (EE) book numbers to Bekker sub-ranges, and handle the 'common books' that belong to BOTH works.",
+    "parent_ranges": {
+      "Nicomachean_Ethics": "Bekker 1094-1181 (see bekker_ranges.json)",
+      "Eudemian_Ethics": "Bekker 1214-1249 (see bekker_ranges.json)"
+    },
+    "common_books_note": "NE Books V, VI, VII are TEXTUALLY IDENTICAL to EE Books IV, V, VI - the same three books, transmitted once, printed in the NE in the Bekker edition (~1129-1154). They are cited under EITHER work. This creates a genuine double-mapping: a Bekker number in ~1129-1154 belongs to BOTH 'NE V-VII' and 'EE IV-VI'. Scholarship is divided on which work they 'really' belong to (the ordering-of-the-Ethics debate). For the heatmap this matters: a passage in the common books may be cited as 'NE VI 1140a' by one author and 'EE V 1140a' by another - SAME passage, two labels. Decide policy: (a) fold both onto the common-book passage (recommended - it's one text), or (b) keep NE-cited and EE-cited counts separate to STUDY the labelling split (arguably interesting for payoff-2, disciplinary history). Store enough to do either.",
+    "VERIFY": "NE start 1094a and EE start 1214a confirmed (Perseus, Hellenica, multiple). Per-book internal boundaries cross-checked against standard chapter/Bekker anchors (Philopedia: Book V justice 1130b-1136b, Book VI phronesis 1140a-1145a, Book VIII friendship 1156a-1158b, Book X contemplation 1176a-1179a) but exact book-to-book hand-off pages are approximate - verify against Bywater OCT (NE) and Walzer-Mingay OCT (EE) before publication. verified:false on internal boundaries."
+  },
+
+  "nicomachean_ethics": {
+    "work_id": "Nicomachean_Ethics",
+    "books": [
+      { "book": "I",    "bekker_start": 1094, "bekker_end": 1103, "verified": false, "common": false, "notes": "The good, eudaimonia, the function argument (1097b-1098a). Starts 1094a1." },
+      { "book": "II",   "bekker_start": 1103, "bekker_end": 1109, "verified": false, "common": false, "notes": "Moral virtue, habituation, the mean. 'NE II' is a BOILERPLATE-cited book (memo example). Starts 1103a." },
+      { "book": "III",  "bekker_start": 1109, "bekker_end": 1115, "verified": false, "common": false, "notes": "Voluntary/involuntary, choice, courage." },
+      { "book": "IV",   "bekker_start": 1119, "bekker_end": 1128, "verified": false, "common": false, "notes": "Other virtues of character (liberality, magnanimity...)." },
+      { "book": "V",    "bekker_start": 1129, "bekker_end": 1138, "verified": false, "common": true,  "common_ee_book": "IV", "notes": "COMMON BOOK. Justice (distributive/corrective, 1130b-1136b). = EE Book IV. Cited both 'NE V' and 'EE IV'." },
+      { "book": "VI",   "bekker_start": 1138, "bekker_end": 1145, "verified": false, "common": true,  "common_ee_book": "V",  "notes": "COMMON BOOK. Intellectual virtues; phronesis vs sophia (1140a-1145a). = EE Book V. Heavily cited." },
+      { "book": "VII",  "bekker_start": 1145, "bekker_end": 1154, "verified": false, "common": true,  "common_ee_book": "VI", "notes": "COMMON BOOK. Akrasia (weakness of will); pleasure. = EE Book VI." },
+      { "book": "VIII", "bekker_start": 1155, "bekker_end": 1163, "verified": false, "common": false, "notes": "Friendship (philia), part 1. Three kinds 1156a-1158b." },
+      { "book": "IX",   "bekker_start": 1163, "bekker_end": 1172, "verified": false, "common": false, "notes": "Friendship, part 2." },
+      { "book": "X",    "bekker_start": 1172, "bekker_end": 1181, "verified": false, "common": false, "notes": "Pleasure; the contemplative life (1176a-1179a); transition to Politics. Ends ~1181a." }
+    ]
+  },
+
+  "eudemian_ethics": {
+    "work_id": "Eudemian_Ethics",
+    "books": [
+      { "book": "I",    "bekker_start": 1214, "bekker_end": 1220, "verified": false, "common": false, "notes": "Eudaimonia, the goods. Starts 1214a1." },
+      { "book": "II",   "bekker_start": 1220, "bekker_end": 1228, "verified": false, "common": false, "notes": "Virtue, voluntariness, choice." },
+      { "book": "III",  "bekker_start": 1228, "bekker_end": 1234, "verified": false, "common": false, "notes": "Individual virtues of character." },
+      { "book": "IV",   "bekker_start": 1129, "bekker_end": 1138, "verified": false, "common": true,  "common_ne_book": "V",   "notes": "COMMON BOOK = NE V (justice). Bekker range is in the NE pagination (1129-1138) because the common books are printed there. An 'EE IV' cite points to the SAME text as 'NE V'." },
+      { "book": "V",    "bekker_start": 1138, "bekker_end": 1145, "verified": false, "common": true,  "common_ne_book": "VI",  "notes": "COMMON BOOK = NE VI (intellectual virtues). Range 1138-1145 (NE pagination)." },
+      { "book": "VI",   "bekker_start": 1145, "bekker_end": 1154, "verified": false, "common": true,  "common_ne_book": "VII", "notes": "COMMON BOOK = NE VII (akrasia). Range 1145-1154 (NE pagination)." },
+      { "book": "VII",  "bekker_start": 1234, "bekker_end": 1246, "verified": false, "common": false, "notes": "Friendship (the EE's own treatment, distinct from NE VIII-IX). Resumes EE-proper pagination after the common books." },
+      { "book": "VIII", "bekker_start": 1246, "bekker_end": 1249, "verified": false, "common": false, "notes": "Kalokagathia; fortune; the 'complete' good. Ends ~1249a. Short." }
+    ]
+  },
+
+  "_parser_guidance": [
+    "PRIMARY resolver is still the Bekker number via bekker_ranges.json (which routes 1094-1181 -> NE, 1214-1249 -> EE). This sub-table adds BOOK resolution and the common-books logic.",
+    "THE COMMON-BOOKS TRAP: a Bekker number in 1129-1154 lands in the NE's Bekker span, so bekker_ranges alone will always call it 'NE'. But it may have been CITED as 'EE IV/V/VI'. If the adjacent abbreviation says EE/Eth.Eud. AND the number is 1129-1154, record it as a common-book cite (belongs to both), not as a mislabelled NE cite. Do NOT 'correct' an EE-label to NE here - the label is data (who cited it how).",
+    "Recommended storage: tag each common-books occurrence with {passage: bekker, ne_book, ee_book, cited_as: 'NE'|'EE'|'ambiguous'}. Then the heatmap can either merge (one text) or split by cited_as (to study the labelling - a payoff-2 disciplinary-history signal: does journal/era X prefer NE or EE labels?).",
+    "A bare 'EE IV 1132a' with no Bekker number still resolves: EE IV -> common book -> 1129-1138, cited_as EE.",
+    "Watch: EE books VII-VIII jump BACK to 1234+ (after the common books at 1129-1154) - EE's own pagination is non-contiguous because the common books sit in NE's page-space. This is expected, not an error."
+  ]
+}

@@ -1,0 +1,2038 @@
+{
+  "_meta": {
+    "purpose": "Map any abbreviation/name form found adjacent to a Stephanus/Bekker number to a canonical work id (matching ids in stephanus_ranges.json and bekker_ranges.json). Used by the abbreviation-match step: score adjacent tokens against these variants; let the number's range membership disambiguate ties.",
+    "languages_covered": [
+      "en",
+      "la",
+      "fr",
+      "de",
+      "it"
+    ],
+    "language_rationale": "Corpus roster is multilingual: Phronesis (en/fr/de/it/la), Revue de Philosophie Ancienne + Les Etudes philosophiques + Revue Internationale de Philosophie (fr), Methexis + Archivio di Filosofia (it), Classical Review/Quarterly/Philology (en, occasional la/de). So French/Italian/German/Latin abbreviations must all resolve.",
+    "matching_guidance": [
+      "Match case-insensitively and strip trailing periods.",
+      "Match accent-insensitively for robustness (Rep./Rép./Repubblica) but PREFER an exact-accent match when scoring.",
+      "Many forms are ambiguous ACROSS works (esp. 'Pol.', 'Resp.', book-letters). Ambiguous forms are listed under EVERY work they can denote, each with an 'ambiguous': true flag. The parser MUST NOT resolve an ambiguous abbreviation on the abbreviation alone - it defers to range membership + scope.",
+      "The single worst collision is 'Pol.': Aristotle Politics (Bekker 1252+), Plato Statesman/Politicus (Stephanus 257-311), and older/Continental cites of Plato Republic. Format routing (Bekker vs Stephanus digit shape) resolves Aristotle-vs-Plato; range + scope resolves Statesman-vs-Republic on the Plato side.",
+      "'Resp.'/'Rep.' collision: usually Plato Republic, but Aristotle De Respiratione is also 'Resp.' - format routing (Stephanus 327-621 vs Bekker 470-480) resolves it."
+    ],
+    "VERIFY": "Abbreviation lists are hand-built from standard conventions (OCD, LSJ, journal house styles) but are NOT exhaustive and may contain errors. Treat 'verified':false as 'sanity-check against real citations in the pilot data before trusting'. Continental forms especially need checking against actual French/Italian/German article usage once n-grams arrive."
+  },
+  "plato": {
+    "_system": "Stephanus",
+    "author_names": {
+      "en": [
+        "Plato"
+      ],
+      "la": [
+        "Plato",
+        "Platonis",
+        "Plat."
+      ],
+      "fr": [
+        "Platon"
+      ],
+      "de": [
+        "Platon",
+        "Plato"
+      ],
+      "it": [
+        "Platone"
+      ]
+    },
+    "works": [
+      {
+        "id": "Republic",
+        "verified": false,
+        "variants": {
+          "en": [
+            "Republic",
+            "Rep.",
+            "R.",
+            "Resp."
+          ],
+          "la": [
+            "Respublica",
+            "Resp.",
+            "Rep.",
+            "de Rep.",
+            "de Republica"
+          ],
+          "fr": [
+            "République",
+            "Rép.",
+            "la République",
+            "Resp."
+          ],
+          "de": [
+            "Staat",
+            "der Staat",
+            "Politeia",
+            "Rep.",
+            "Pol."
+          ],
+          "it": [
+            "Repubblica",
+            "Repubb.",
+            "Rep."
+          ]
+        },
+        "ambiguous_forms": {
+          "Pol.": "German/older cites of Republic as Politeia collide with Aristotle Politics and Plato Statesman - defer to range+format",
+          "Resp.": "collides with Aristotle De Respiratione - defer to format (Stephanus vs Bekker)"
+        },
+        "notes": "Often cited with book number: 'Rep. VII 514a', 'Rép. VII 514a', 'Staat VII'. Roman/arabic book numeral may sit between abbrev and Stephanus number - parser must tolerate an intervening book numeral."
+      },
+      {
+        "id": "Laws",
+        "verified": false,
+        "variants": {
+          "en": [
+            "Laws",
+            "Leg.",
+            "Lg."
+          ],
+          "la": [
+            "Leges",
+            "Leg.",
+            "de Legibus"
+          ],
+          "fr": [
+            "Lois",
+            "les Lois",
+            "Lg."
+          ],
+          "de": [
+            "Gesetze",
+            "die Gesetze",
+            "Nomoi",
+            "Leg."
+          ],
+          "it": [
+            "Leggi",
+            "le Leggi",
+            "Legg."
+          ]
+        },
+        "notes": "Book-numbered like Republic."
+      },
+      {
+        "id": "Timaeus",
+        "verified": false,
+        "variants": {
+          "en": [
+            "Timaeus",
+            "Tim.",
+            "Ti."
+          ],
+          "la": [
+            "Timaeus",
+            "Tim."
+          ],
+          "fr": [
+            "Timée",
+            "Tim."
+          ],
+          "de": [
+            "Timaios",
+            "Tim."
+          ],
+          "it": [
+            "Timeo",
+            "Tim."
+          ]
+        },
+        "notes": "Integer-range overlaps Philebus (both ~17+) - reset case, scope carries it."
+      },
+      {
+        "id": "Philebus",
+        "verified": false,
+        "variants": {
+          "en": [
+            "Philebus",
+            "Phil.",
+            "Phlb."
+          ],
+          "la": [
+            "Philebus",
+            "Phil."
+          ],
+          "fr": [
+            "Philèbe",
+            "Phil."
+          ],
+          "de": [
+            "Philebos",
+            "Phil."
+          ],
+          "it": [
+            "Filebo",
+            "Fil."
+          ]
+        },
+        "notes": "'Phil.' can collide with Philosophy/Philosophus in running text - require adjacency to a Stephanus number."
+      },
+      {
+        "id": "Phaedo",
+        "verified": false,
+        "variants": {
+          "en": [
+            "Phaedo",
+            "Phd.",
+            "Phaed."
+          ],
+          "la": [
+            "Phaedo",
+            "Phd."
+          ],
+          "fr": [
+            "Phédon",
+            "Phéd."
+          ],
+          "de": [
+            "Phaidon",
+            "Phd."
+          ],
+          "it": [
+            "Fedone",
+            "Fed."
+          ]
+        }
+      },
+      {
+        "id": "Phaedrus",
+        "verified": false,
+        "variants": {
+          "en": [
+            "Phaedrus",
+            "Phdr.",
+            "Phaedr."
+          ],
+          "la": [
+            "Phaedrus",
+            "Phdr."
+          ],
+          "fr": [
+            "Phèdre",
+            "Phèdr."
+          ],
+          "de": [
+            "Phaidros",
+            "Phdr."
+          ],
+          "it": [
+            "Fedro",
+            "Fedr."
+          ]
+        },
+        "notes": "Phaedo vs Phaedrus: 'Phaed.' ambiguous between them - defer to range (Phaedo 57-118 vs Phaedrus 227-279)."
+      },
+      {
+        "id": "Symposium",
+        "verified": false,
+        "variants": {
+          "en": [
+            "Symposium",
+            "Symp.",
+            "Smp."
+          ],
+          "la": [
+            "Symposium",
+            "Symp.",
+            "Convivium",
+            "Conv."
+          ],
+          "fr": [
+            "Banquet",
+            "le Banquet",
+            "Sympos."
+          ],
+          "de": [
+            "Symposion",
+            "Gastmahl",
+            "Symp."
+          ],
+          "it": [
+            "Simposio",
+            "Simp."
+          ]
+        }
+      },
+      {
+        "id": "Theaetetus",
+        "verified": false,
+        "variants": {
+          "en": [
+            "Theaetetus",
+            "Tht.",
+            "Theaet."
+          ],
+          "la": [
+            "Theaetetus",
+            "Tht."
+          ],
+          "fr": [
+            "Théétète",
+            "Théét."
+          ],
+          "de": [
+            "Theaitetos",
+            "Tht."
+          ],
+          "it": [
+            "Teeteto",
+            "Teet."
+          ]
+        }
+      },
+      {
+        "id": "Sophist",
+        "verified": false,
+        "variants": {
+          "en": [
+            "Sophist",
+            "Soph.",
+            "Sph."
+          ],
+          "la": [
+            "Sophista",
+            "Soph."
+          ],
+          "fr": [
+            "Sophiste",
+            "Soph."
+          ],
+          "de": [
+            "Sophistes",
+            "Soph."
+          ],
+          "it": [
+            "Sofista",
+            "Sof."
+          ]
+        }
+      },
+      {
+        "id": "Statesman",
+        "verified": false,
+        "variants": {
+          "en": [
+            "Statesman",
+            "Plt.",
+            "Polit.",
+            "Pol.",
+            "Politicus"
+          ],
+          "la": [
+            "Politicus",
+            "Polit.",
+            "Pol."
+          ],
+          "fr": [
+            "Politique",
+            "le Politique",
+            "Polit."
+          ],
+          "de": [
+            "Politikos",
+            "Staatsmann",
+            "Polit."
+          ],
+          "it": [
+            "Politico",
+            "Polit."
+          ]
+        },
+        "ambiguous_forms": {
+          "Pol.": "collides with Aristotle Politics + Plato Republic - defer to range+format"
+        },
+        "notes": "AKA Politicus - THE source of the 'Pol.' chaos on the Plato side. Stephanus 257-311."
+      },
+      {
+        "id": "Parmenides",
+        "verified": false,
+        "variants": {
+          "en": [
+            "Parmenides",
+            "Prm.",
+            "Parm."
+          ],
+          "la": [
+            "Parmenides",
+            "Parm."
+          ],
+          "fr": [
+            "Parménide",
+            "Parm."
+          ],
+          "de": [
+            "Parmenides",
+            "Parm."
+          ],
+          "it": [
+            "Parmenide",
+            "Parm."
+          ]
+        }
+      },
+      {
+        "id": "Cratylus",
+        "verified": false,
+        "variants": {
+          "en": [
+            "Cratylus",
+            "Cra.",
+            "Crat."
+          ],
+          "la": [
+            "Cratylus",
+            "Crat."
+          ],
+          "fr": [
+            "Cratyle",
+            "Crat."
+          ],
+          "de": [
+            "Kratylos",
+            "Krat."
+          ],
+          "it": [
+            "Cratilo",
+            "Crat."
+          ]
+        }
+      },
+      {
+        "id": "Protagoras",
+        "verified": false,
+        "variants": {
+          "en": [
+            "Protagoras",
+            "Prt.",
+            "Protag."
+          ],
+          "la": [
+            "Protagoras",
+            "Prot."
+          ],
+          "fr": [
+            "Protagoras",
+            "Prot."
+          ],
+          "de": [
+            "Protagoras",
+            "Prot."
+          ],
+          "it": [
+            "Protagora",
+            "Prot."
+          ]
+        }
+      },
+      {
+        "id": "Gorgias",
+        "verified": false,
+        "variants": {
+          "en": [
+            "Gorgias",
+            "Grg.",
+            "Gorg."
+          ],
+          "la": [
+            "Gorgias",
+            "Gorg."
+          ],
+          "fr": [
+            "Gorgias",
+            "Gorg."
+          ],
+          "de": [
+            "Gorgias",
+            "Gorg."
+          ],
+          "it": [
+            "Gorgia",
+            "Gorg."
+          ]
+        }
+      },
+      {
+        "id": "Meno",
+        "verified": false,
+        "variants": {
+          "en": [
+            "Meno",
+            "Men."
+          ],
+          "la": [
+            "Meno",
+            "Men."
+          ],
+          "fr": [
+            "Ménon",
+            "Mén."
+          ],
+          "de": [
+            "Menon",
+            "Men."
+          ],
+          "it": [
+            "Menone",
+            "Men."
+          ]
+        }
+      },
+      {
+        "id": "Charmides",
+        "verified": false,
+        "variants": {
+          "en": [
+            "Charmides",
+            "Chrm.",
+            "Charm."
+          ],
+          "la": [
+            "Charmides",
+            "Charm."
+          ],
+          "fr": [
+            "Charmide",
+            "Charm."
+          ],
+          "de": [
+            "Charmides",
+            "Charm."
+          ],
+          "it": [
+            "Carmide",
+            "Carm."
+          ]
+        }
+      },
+      {
+        "id": "Laches",
+        "verified": false,
+        "variants": {
+          "en": [
+            "Laches",
+            "La.",
+            "Lach."
+          ],
+          "la": [
+            "Laches",
+            "Lach."
+          ],
+          "fr": [
+            "Lachès",
+            "Lach."
+          ],
+          "de": [
+            "Laches",
+            "Lach."
+          ],
+          "it": [
+            "Lachete",
+            "Lach."
+          ]
+        }
+      },
+      {
+        "id": "Lysis",
+        "verified": false,
+        "variants": {
+          "en": [
+            "Lysis",
+            "Ly."
+          ],
+          "la": [
+            "Lysis",
+            "Lys."
+          ],
+          "fr": [
+            "Lysis",
+            "Lys."
+          ],
+          "de": [
+            "Lysis",
+            "Lys."
+          ],
+          "it": [
+            "Liside",
+            "Lis."
+          ]
+        }
+      },
+      {
+        "id": "Euthyphro",
+        "verified": false,
+        "variants": {
+          "en": [
+            "Euthyphro",
+            "Euthphr.",
+            "Euth."
+          ],
+          "la": [
+            "Euthyphro",
+            "Euthyphr."
+          ],
+          "fr": [
+            "Euthyphron",
+            "Euthyphr."
+          ],
+          "de": [
+            "Euthyphron",
+            "Euthyphr."
+          ],
+          "it": [
+            "Eutifrone",
+            "Eutifr."
+          ]
+        },
+        "notes": "'Euth.' collides with Euthydemus - defer to range."
+      },
+      {
+        "id": "Euthydemus",
+        "verified": false,
+        "variants": {
+          "en": [
+            "Euthydemus",
+            "Euthd.",
+            "Euthyd."
+          ],
+          "la": [
+            "Euthydemus",
+            "Euthyd."
+          ],
+          "fr": [
+            "Euthydème",
+            "Euthyd."
+          ],
+          "de": [
+            "Euthydemos",
+            "Euthyd."
+          ],
+          "it": [
+            "Eutidemo",
+            "Eutid."
+          ]
+        }
+      },
+      {
+        "id": "Apology",
+        "verified": false,
+        "variants": {
+          "en": [
+            "Apology",
+            "Ap.",
+            "Apol."
+          ],
+          "la": [
+            "Apologia",
+            "Apol."
+          ],
+          "fr": [
+            "Apologie",
+            "Apol."
+          ],
+          "de": [
+            "Apologie",
+            "Apol."
+          ],
+          "it": [
+            "Apologia",
+            "Apol."
+          ]
+        }
+      },
+      {
+        "id": "Crito",
+        "verified": false,
+        "variants": {
+          "en": [
+            "Crito",
+            "Cri."
+          ],
+          "la": [
+            "Crito",
+            "Crit."
+          ],
+          "fr": [
+            "Criton",
+            "Crit."
+          ],
+          "de": [
+            "Kriton",
+            "Krit."
+          ],
+          "it": [
+            "Critone",
+            "Crit."
+          ]
+        },
+        "notes": "'Crit.' collides with Critias - defer to range (Crito 43-54 vs Critias 106-121)."
+      },
+      {
+        "id": "Critias",
+        "verified": false,
+        "variants": {
+          "en": [
+            "Critias",
+            "Criti."
+          ],
+          "la": [
+            "Critias",
+            "Criti."
+          ],
+          "fr": [
+            "Critias",
+            "Criti."
+          ],
+          "de": [
+            "Kritias",
+            "Kriti."
+          ],
+          "it": [
+            "Crizia"
+          ]
+        }
+      },
+      {
+        "id": "Ion",
+        "verified": false,
+        "variants": {
+          "en": [
+            "Ion"
+          ],
+          "la": [
+            "Ion"
+          ],
+          "fr": [
+            "Ion"
+          ],
+          "de": [
+            "Ion"
+          ],
+          "it": [
+            "Ione"
+          ]
+        },
+        "notes": "'Ion' is a common word/name - REQUIRE adjacency to a Stephanus number in 530-542."
+      },
+      {
+        "id": "Menexenus",
+        "verified": false,
+        "variants": {
+          "en": [
+            "Menexenus",
+            "Mx.",
+            "Menex."
+          ],
+          "la": [
+            "Menexenus",
+            "Menex."
+          ],
+          "fr": [
+            "Ménexène",
+            "Ménex."
+          ],
+          "de": [
+            "Menexenos",
+            "Menex."
+          ],
+          "it": [
+            "Menesseno",
+            "Menex."
+          ]
+        }
+      },
+      {
+        "id": "Hippias_Major",
+        "verified": false,
+        "variants": {
+          "en": [
+            "Hippias Major",
+            "Hp.Ma.",
+            "Hipp.Maj.",
+            "Greater Hippias"
+          ],
+          "la": [
+            "Hippias Maior",
+            "Hipp.Ma."
+          ],
+          "fr": [
+            "Hippias majeur",
+            "Hipp.maj."
+          ],
+          "de": [
+            "Hippias maior",
+            "Grosser Hippias"
+          ],
+          "it": [
+            "Ippia maggiore"
+          ]
+        }
+      },
+      {
+        "id": "Hippias_Minor",
+        "verified": false,
+        "variants": {
+          "en": [
+            "Hippias Minor",
+            "Hp.Mi.",
+            "Hipp.Min.",
+            "Lesser Hippias"
+          ],
+          "la": [
+            "Hippias Minor",
+            "Hipp.Mi."
+          ],
+          "fr": [
+            "Hippias mineur",
+            "Hipp.min."
+          ],
+          "de": [
+            "Hippias minor",
+            "Kleiner Hippias"
+          ],
+          "it": [
+            "Ippia minore"
+          ]
+        }
+      },
+      {
+        "id": "Letters",
+        "verified": false,
+        "variants": {
+          "en": [
+            "Letters",
+            "Epistles",
+            "Ep.",
+            "Epist."
+          ],
+          "la": [
+            "Epistulae",
+            "Ep.",
+            "Epist."
+          ],
+          "fr": [
+            "Lettres",
+            "Lettre",
+            "Ép."
+          ],
+          "de": [
+            "Briefe",
+            "Brief",
+            "Ep."
+          ],
+          "it": [
+            "Lettere",
+            "Lett."
+          ]
+        },
+        "notes": "Cited by letter number: 'Ep. 7 341c' / '7th Letter'. Seventh Letter dominates. Parser must tolerate a letter-number between abbrev and Stephanus number."
+      },
+      {
+        "id": "Alcibiades_1",
+        "verified": false,
+        "variants": {
+          "en": [
+            "Alcibiades I",
+            "Alcibiades",
+            "First Alcibiades",
+            "Alcibiades Major",
+            "Alc.",
+            "Alc. I",
+            "Alc. 1",
+            "Alcib.",
+            "Alcib. I",
+            "1Alc.",
+            "Alc.1"
+          ],
+          "la": [
+            "Alcibiades I",
+            "Alcibiades Maior",
+            "Alc.",
+            "Alc. I"
+          ],
+          "fr": [
+            "Alcibiade",
+            "Premier Alcibiade",
+            "Alcibiade I",
+            "Alc.",
+            "Alcib."
+          ],
+          "de": [
+            "Alkibiades I",
+            "Erster Alkibiades",
+            "Alk.",
+            "Alk. I"
+          ],
+          "it": [
+            "Alcibiade I",
+            "Primo Alcibiade",
+            "Alc. I"
+          ]
+        },
+        "ambiguous_forms": {
+          "Alc./Alcib./Alcibiades": "bare form ambiguous between Alcibiades I and II - defer to range (I=103-135, II=138-151)"
+        },
+        "notes": "Perseus: 'Plat. Alc. 1'. Bare 'Alcibiades' usually means I (the major, far more cited). Authenticity disputed but citations exist - was previously abbrev-less."
+      },
+      {
+        "id": "Alcibiades_2",
+        "verified": false,
+        "variants": {
+          "en": [
+            "Alcibiades II",
+            "Second Alcibiades",
+            "Alcibiades Minor",
+            "Alc. II",
+            "Alc. 2",
+            "Alcib. II",
+            "2Alc.",
+            "Alc.2"
+          ],
+          "la": [
+            "Alcibiades II",
+            "Alcibiades Minor",
+            "Alc. II"
+          ],
+          "fr": [
+            "Second Alcibiade",
+            "Alcibiade II",
+            "Alcib. II"
+          ],
+          "de": [
+            "Alkibiades II",
+            "Zweiter Alkibiades",
+            "Alk. II"
+          ],
+          "it": [
+            "Alcibiade II",
+            "Secondo Alcibiade",
+            "Alc. II"
+          ]
+        },
+        "notes": "Perseus lists under Alcibiades set. Requires the II/2 marker to distinguish from Alcibiades I."
+      },
+      {
+        "id": "Hipparchus",
+        "verified": false,
+        "variants": {
+          "en": [
+            "Hipparchus",
+            "Hipparch.",
+            "Hipp.",
+            "Hpparch."
+          ],
+          "la": [
+            "Hipparchus",
+            "Hipparch."
+          ],
+          "fr": [
+            "Hipparque",
+            "Hipparq."
+          ],
+          "de": [
+            "Hipparchos",
+            "Hipparch."
+          ],
+          "it": [
+            "Ipparco",
+            "Ipparc."
+          ]
+        },
+        "ambiguous_forms": {
+          "Hipp.": "collides with Hippias Major/Minor 'Hipp.' - defer to range (Hipparchus 225-232 vs Hippias Maj 281-304 / Min 363-376)"
+        },
+        "notes": "Perseus: 'Plat. Hipparch.'. Authenticity disputed. Previously abbrev-less."
+      },
+      {
+        "id": "Rival_Lovers",
+        "verified": false,
+        "variants": {
+          "en": [
+            "Rival Lovers",
+            "Lovers",
+            "Rivals",
+            "Amatores",
+            "Amat.",
+            "Riv."
+          ],
+          "la": [
+            "Amatores",
+            "Amat.",
+            "Rivales"
+          ],
+          "fr": [
+            "Les Rivaux",
+            "Rivaux",
+            "Amants",
+            "Amants rivaux"
+          ],
+          "de": [
+            "Nebenbuhler",
+            "Anterastai",
+            "Rivalen"
+          ],
+          "it": [
+            "Gli amanti",
+            "Amanti rivali",
+            "Rivali"
+          ]
+        },
+        "notes": "Perseus: 'Plat. Lovers'. AKA Amatores/Erastae/Anterastae. Authenticity disputed. Previously abbrev-less."
+      },
+      {
+        "id": "Theages",
+        "verified": false,
+        "variants": {
+          "en": [
+            "Theages",
+            "Theag.",
+            "Thg."
+          ],
+          "la": [
+            "Theages",
+            "Theag."
+          ],
+          "fr": [
+            "Théagès",
+            "Théag."
+          ],
+          "de": [
+            "Theages",
+            "Theag."
+          ],
+          "it": [
+            "Teage",
+            "Teag."
+          ]
+        },
+        "notes": "Perseus: 'Plat. Theag.'. Authenticity disputed. Previously abbrev-less."
+      },
+      {
+        "id": "Minos",
+        "verified": false,
+        "variants": {
+          "en": [
+            "Minos",
+            "Min."
+          ],
+          "la": [
+            "Minos",
+            "Min."
+          ],
+          "fr": [
+            "Minos"
+          ],
+          "de": [
+            "Minos"
+          ],
+          "it": [
+            "Minosse",
+            "Minos"
+          ]
+        },
+        "ambiguous_forms": {
+          "Min.": "risk of colliding with 'minor' abbreviations and Hippias Minor 'Hp.Mi.'/'min.' - require adjacency to Stephanus 313-321; bare word 'Minos' also a mythological name, require number adjacency"
+        },
+        "notes": "Perseus: 'Plat. Minos'. Authenticity disputed. Previously abbrev-less."
+      },
+      {
+        "id": "Clitophon",
+        "verified": false,
+        "variants": {
+          "en": [
+            "Clitophon",
+            "Clit.",
+            "Cleitophon",
+            "Clitopho"
+          ],
+          "la": [
+            "Clitopho",
+            "Clit."
+          ],
+          "fr": [
+            "Clitophon",
+            "Clit."
+          ],
+          "de": [
+            "Kleitophon",
+            "Klit."
+          ],
+          "it": [
+            "Clitofonte",
+            "Clitof."
+          ]
+        },
+        "ambiguous_forms": {
+          "Clit.": "risk of colliding with Critias 'Criti.' in careless rendering - defer to range (Clitophon 406-410 vs Critias 106-121)"
+        },
+        "notes": "Authenticity disputed. Previously abbrev-less."
+      },
+      {
+        "id": "Epinomis",
+        "verified": false,
+        "variants": {
+          "en": [
+            "Epinomis",
+            "Epin.",
+            "Epinom."
+          ],
+          "la": [
+            "Epinomis",
+            "Epin."
+          ],
+          "fr": [
+            "Épinomis",
+            "Épin."
+          ],
+          "de": [
+            "Epinomis",
+            "Epin."
+          ],
+          "it": [
+            "Epinomide",
+            "Epinom."
+          ]
+        },
+        "notes": "Appendix to Laws, authenticity disputed. Previously abbrev-less."
+      }
+    ]
+  },
+  "aristotle": {
+    "_system": "Bekker",
+    "author_names": {
+      "en": [
+        "Aristotle"
+      ],
+      "la": [
+        "Aristoteles",
+        "Aristotelis",
+        "Arist."
+      ],
+      "fr": [
+        "Aristote"
+      ],
+      "de": [
+        "Aristoteles"
+      ],
+      "it": [
+        "Aristotele"
+      ]
+    },
+    "works": [
+      {
+        "id": "Metaphysics",
+        "verified": false,
+        "variants": {
+          "en": [
+            "Metaphysics",
+            "Metaph.",
+            "Met.",
+            "Mp."
+          ],
+          "la": [
+            "Metaphysica",
+            "Metaph.",
+            "Met."
+          ],
+          "fr": [
+            "Métaphysique",
+            "Métaph.",
+            "Mét."
+          ],
+          "de": [
+            "Metaphysik",
+            "Metaph.",
+            "Met."
+          ],
+          "it": [
+            "Metafisica",
+            "Metaf.",
+            "Met."
+          ]
+        },
+        "notes": "Very often cited by GREEK BOOK-LETTER: 'Metaph. Gamma 1005b', 'Met. Λ', 'Met. Z'. Book-letters: A(Alpha)=I, alpha=II(little alpha), B(Beta)=III, Gamma=IV, Delta=V, E(Epsilon)=VI, Z(Zeta)=VII, H(Eta)=VIII, Theta=IX, I(Iota)=X, K(Kappa)=XI, Lambda=XII, M(Mu)=XIII, N(Nu)=XIV. Parser needs a book-letter sub-table to map letter->Bekker range for cites that give letter but the number confirms. Gamma (non-contradiction) heavily/boilerplate cited."
+      },
+      {
+        "id": "Nicomachean_Ethics",
+        "verified": false,
+        "variants": {
+          "en": [
+            "Nicomachean Ethics",
+            "NE",
+            "EN",
+            "Eth.Nic.",
+            "Nic.Eth."
+          ],
+          "la": [
+            "Ethica Nicomachea",
+            "Eth.Nic.",
+            "EN"
+          ],
+          "fr": [
+            "Éthique à Nicomaque",
+            "Eth. à Nic.",
+            "EN"
+          ],
+          "de": [
+            "Nikomachische Ethik",
+            "Nik.Eth.",
+            "NE",
+            "EN"
+          ],
+          "it": [
+            "Etica Nicomachea",
+            "Etica a Nicomaco",
+            "EN"
+          ]
+        },
+        "ambiguous_forms": {
+          "EN": "sometimes used loosely; EE is Eudemian - keep distinct",
+          "common_books": "NE V-VII = EE IV-VI; a common-book cite may appear under either"
+        },
+        "notes": "Book-numbered: 'NE II', 'EN 1103a'. 'NE II' habituation is boilerplate-cited."
+      },
+      {
+        "id": "Eudemian_Ethics",
+        "verified": false,
+        "variants": {
+          "en": [
+            "Eudemian Ethics",
+            "EE",
+            "Eth.Eud."
+          ],
+          "la": [
+            "Ethica Eudemia",
+            "Eth.Eud.",
+            "EE"
+          ],
+          "fr": [
+            "Éthique à Eudème",
+            "Eth. à Eud.",
+            "EE"
+          ],
+          "de": [
+            "Eudemische Ethik",
+            "EE"
+          ],
+          "it": [
+            "Etica Eudemia",
+            "EE"
+          ]
+        },
+        "notes": "Common-books overlap with NE - flag."
+      },
+      {
+        "id": "Politics",
+        "verified": false,
+        "variants": {
+          "en": [
+            "Politics",
+            "Pol.",
+            "Polit."
+          ],
+          "la": [
+            "Politica",
+            "Pol."
+          ],
+          "fr": [
+            "Politique",
+            "la Politique",
+            "Polit.",
+            "Pol."
+          ],
+          "de": [
+            "Politik",
+            "Pol."
+          ],
+          "it": [
+            "Politica",
+            "Pol."
+          ]
+        },
+        "ambiguous_forms": {
+          "Pol.": "THE big collision - Plato Statesman/Politicus + Plato Republic(old/German). Format routing (Bekker 1252+ vs Stephanus) is primary resolver; range confirms.",
+          "Politique": "fr 'Politique' also = Plato Statesman - defer to range+format"
+        },
+        "notes": "Bekker 1252-1342. Book-numbered."
+      },
+      {
+        "id": "Physics",
+        "verified": false,
+        "variants": {
+          "en": [
+            "Physics",
+            "Phys.",
+            "Ph."
+          ],
+          "la": [
+            "Physica",
+            "Phys."
+          ],
+          "fr": [
+            "Physique",
+            "la Physique",
+            "Phys."
+          ],
+          "de": [
+            "Physik",
+            "Phys."
+          ],
+          "it": [
+            "Fisica",
+            "Fis."
+          ]
+        }
+      },
+      {
+        "id": "De_Anima",
+        "verified": false,
+        "variants": {
+          "en": [
+            "De Anima",
+            "de An.",
+            "DA",
+            "On the Soul"
+          ],
+          "la": [
+            "De Anima",
+            "de An."
+          ],
+          "fr": [
+            "De l'âme",
+            "De Anima",
+            "de An."
+          ],
+          "de": [
+            "Über die Seele",
+            "De Anima",
+            "de An."
+          ],
+          "it": [
+            "Sull'anima",
+            "De Anima"
+          ]
+        }
+      },
+      {
+        "id": "Categories",
+        "verified": false,
+        "variants": {
+          "en": [
+            "Categories",
+            "Cat.",
+            "Categ."
+          ],
+          "la": [
+            "Categoriae",
+            "Cat."
+          ],
+          "fr": [
+            "Catégories",
+            "Catég.",
+            "Cat."
+          ],
+          "de": [
+            "Kategorien",
+            "Kat."
+          ],
+          "it": [
+            "Categorie",
+            "Cat."
+          ]
+        }
+      },
+      {
+        "id": "De_Interpretatione",
+        "verified": false,
+        "variants": {
+          "en": [
+            "De Interpretatione",
+            "Int.",
+            "de Int.",
+            "On Interpretation",
+            "Peri Hermeneias"
+          ],
+          "la": [
+            "De Interpretatione",
+            "Int."
+          ],
+          "fr": [
+            "De l'interprétation",
+            "de Int."
+          ],
+          "de": [
+            "De Interpretatione",
+            "Herm."
+          ],
+          "it": [
+            "Dell'interpretazione"
+          ]
+        }
+      },
+      {
+        "id": "Prior_Analytics",
+        "verified": false,
+        "variants": {
+          "en": [
+            "Prior Analytics",
+            "APr.",
+            "An.Pr.",
+            "Anal.Pr."
+          ],
+          "la": [
+            "Analytica Priora",
+            "An.Pr."
+          ],
+          "fr": [
+            "Premiers Analytiques",
+            "An.Pr."
+          ],
+          "de": [
+            "Erste Analytik",
+            "An.Pr."
+          ],
+          "it": [
+            "Analitici Primi",
+            "An.Pr."
+          ]
+        }
+      },
+      {
+        "id": "Posterior_Analytics",
+        "verified": false,
+        "variants": {
+          "en": [
+            "Posterior Analytics",
+            "APo.",
+            "An.Post.",
+            "Anal.Post."
+          ],
+          "la": [
+            "Analytica Posteriora",
+            "An.Post."
+          ],
+          "fr": [
+            "Seconds Analytiques",
+            "An.Post."
+          ],
+          "de": [
+            "Zweite Analytik",
+            "An.Post."
+          ],
+          "it": [
+            "Analitici Secondi",
+            "An.Post."
+          ]
+        }
+      },
+      {
+        "id": "Topics",
+        "verified": false,
+        "variants": {
+          "en": [
+            "Topics",
+            "Top."
+          ],
+          "la": [
+            "Topica",
+            "Top."
+          ],
+          "fr": [
+            "Topiques",
+            "Top."
+          ],
+          "de": [
+            "Topik",
+            "Top."
+          ],
+          "it": [
+            "Topici",
+            "Top."
+          ]
+        }
+      },
+      {
+        "id": "Sophistical_Refutations",
+        "verified": false,
+        "variants": {
+          "en": [
+            "Sophistical Refutations",
+            "SE",
+            "Soph.El."
+          ],
+          "la": [
+            "De Sophisticis Elenchis",
+            "Soph.El.",
+            "SE"
+          ],
+          "fr": [
+            "Réfutations sophistiques",
+            "Réf.soph.",
+            "SE"
+          ],
+          "de": [
+            "Sophistische Widerlegungen",
+            "SE"
+          ],
+          "it": [
+            "Confutazioni sofistiche",
+            "SE"
+          ]
+        }
+      },
+      {
+        "id": "Rhetoric",
+        "verified": false,
+        "variants": {
+          "en": [
+            "Rhetoric",
+            "Rh.",
+            "Rhet."
+          ],
+          "la": [
+            "Rhetorica",
+            "Rhet."
+          ],
+          "fr": [
+            "Rhétorique",
+            "Rhét."
+          ],
+          "de": [
+            "Rhetorik",
+            "Rhet."
+          ],
+          "it": [
+            "Retorica",
+            "Ret."
+          ]
+        }
+      },
+      {
+        "id": "Poetics",
+        "verified": false,
+        "variants": {
+          "en": [
+            "Poetics",
+            "Po.",
+            "Poet."
+          ],
+          "la": [
+            "Poetica",
+            "Poet."
+          ],
+          "fr": [
+            "Poétique",
+            "Poét."
+          ],
+          "de": [
+            "Poetik",
+            "Poet."
+          ],
+          "it": [
+            "Poetica",
+            "Poet."
+          ]
+        }
+      },
+      {
+        "id": "De_Caelo",
+        "verified": false,
+        "variants": {
+          "en": [
+            "De Caelo",
+            "Cael.",
+            "On the Heavens"
+          ],
+          "la": [
+            "De Caelo",
+            "Cael."
+          ],
+          "fr": [
+            "Du ciel",
+            "De Caelo",
+            "Cael."
+          ],
+          "de": [
+            "Über den Himmel",
+            "De Caelo"
+          ],
+          "it": [
+            "Il cielo",
+            "De Caelo"
+          ]
+        }
+      },
+      {
+        "id": "De_Generatione_et_Corruptione",
+        "verified": false,
+        "variants": {
+          "en": [
+            "De Generatione et Corruptione",
+            "GC",
+            "Gen.Corr."
+          ],
+          "la": [
+            "De Generatione et Corruptione",
+            "GC"
+          ],
+          "fr": [
+            "De la génération et de la corruption",
+            "GC"
+          ],
+          "de": [
+            "Über Werden und Vergehen",
+            "GC"
+          ],
+          "it": [
+            "La generazione e la corruzione",
+            "GC"
+          ]
+        }
+      },
+      {
+        "id": "Meteorology",
+        "verified": false,
+        "variants": {
+          "en": [
+            "Meteorology",
+            "Mete.",
+            "Meteor."
+          ],
+          "la": [
+            "Meteorologica",
+            "Meteor."
+          ],
+          "fr": [
+            "Météorologiques",
+            "Météor."
+          ],
+          "de": [
+            "Meteorologie",
+            "Meteor."
+          ],
+          "it": [
+            "Meteorologica",
+            "Meteor."
+          ]
+        }
+      },
+      {
+        "id": "Historia_Animalium",
+        "verified": false,
+        "variants": {
+          "en": [
+            "History of Animals",
+            "HA",
+            "Hist.An."
+          ],
+          "la": [
+            "Historia Animalium",
+            "HA"
+          ],
+          "fr": [
+            "Histoire des animaux",
+            "HA"
+          ],
+          "de": [
+            "Tiergeschichte",
+            "HA"
+          ],
+          "it": [
+            "Storia degli animali",
+            "HA"
+          ]
+        }
+      },
+      {
+        "id": "De_Partibus_Animalium",
+        "verified": false,
+        "variants": {
+          "en": [
+            "Parts of Animals",
+            "PA",
+            "Part.An."
+          ],
+          "la": [
+            "De Partibus Animalium",
+            "PA"
+          ],
+          "fr": [
+            "Parties des animaux",
+            "PA"
+          ],
+          "de": [
+            "Teile der Tiere",
+            "PA"
+          ],
+          "it": [
+            "Parti degli animali",
+            "PA"
+          ]
+        }
+      },
+      {
+        "id": "De_Generatione_Animalium",
+        "verified": false,
+        "variants": {
+          "en": [
+            "Generation of Animals",
+            "GA",
+            "Gen.An."
+          ],
+          "la": [
+            "De Generatione Animalium",
+            "GA"
+          ],
+          "fr": [
+            "Génération des animaux",
+            "GA"
+          ],
+          "de": [
+            "Zeugung der Tiere",
+            "GA"
+          ],
+          "it": [
+            "Generazione degli animali",
+            "GA"
+          ]
+        }
+      },
+      {
+        "id": "De_Sensu",
+        "verified": false,
+        "variants": {
+          "en": [
+            "De Sensu",
+            "On Sense",
+            "On Sense and Sensibilia",
+            "de Sensu",
+            "Sens."
+          ],
+          "la": [
+            "De Sensu et Sensibilibus",
+            "De Sensu",
+            "de Sens."
+          ],
+          "fr": [
+            "Du sens",
+            "De Sensu"
+          ],
+          "de": [
+            "Über die Sinneswahrnehmung",
+            "De Sensu"
+          ],
+          "it": [
+            "Il senso",
+            "De Sensu"
+          ]
+        }
+      },
+      {
+        "id": "De_Memoria",
+        "verified": false,
+        "variants": {
+          "en": [
+            "De Memoria",
+            "On Memory",
+            "On Memory and Recollection",
+            "de Mem.",
+            "Mem."
+          ],
+          "la": [
+            "De Memoria et Reminiscentia",
+            "De Memoria",
+            "de Mem."
+          ],
+          "fr": [
+            "De la mémoire",
+            "De Memoria"
+          ],
+          "de": [
+            "Über die Erinnerung",
+            "De Memoria"
+          ],
+          "it": [
+            "La memoria",
+            "De Memoria"
+          ]
+        }
+      },
+      {
+        "id": "De_Somno",
+        "verified": false,
+        "variants": {
+          "en": [
+            "De Somno",
+            "On Sleep",
+            "On Sleep and Waking",
+            "de Somn.",
+            "Somn."
+          ],
+          "la": [
+            "De Somno et Vigilia",
+            "De Somno",
+            "de Somn."
+          ],
+          "fr": [
+            "Du sommeil",
+            "De Somno"
+          ],
+          "de": [
+            "Über den Schlaf",
+            "De Somno"
+          ],
+          "it": [
+            "Il sonno",
+            "De Somno"
+          ]
+        }
+      },
+      {
+        "id": "De_Insomniis",
+        "verified": false,
+        "variants": {
+          "en": [
+            "De Insomniis",
+            "On Dreams",
+            "de Insomn.",
+            "Insomn."
+          ],
+          "la": [
+            "De Insomniis",
+            "de Insomn."
+          ],
+          "fr": [
+            "Des rêves",
+            "De Insomniis"
+          ],
+          "de": [
+            "Über Träume",
+            "De Insomniis"
+          ],
+          "it": [
+            "I sogni",
+            "De Insomniis"
+          ]
+        }
+      },
+      {
+        "id": "De_Divinatione_per_Somnum",
+        "verified": false,
+        "variants": {
+          "en": [
+            "De Divinatione per Somnum",
+            "On Divination in Sleep",
+            "de Div.",
+            "Div. Somn."
+          ],
+          "la": [
+            "De Divinatione per Somnum",
+            "de Div. per Somn."
+          ],
+          "fr": [
+            "De la divination dans le sommeil"
+          ],
+          "de": [
+            "Über die Weissagung im Schlaf"
+          ],
+          "it": [
+            "La divinazione nel sonno"
+          ]
+        }
+      },
+      {
+        "id": "De_Longitudine_Vitae",
+        "verified": false,
+        "variants": {
+          "en": [
+            "De Longitudine Vitae",
+            "On Length and Shortness of Life",
+            "de Long.",
+            "Long. Vit."
+          ],
+          "la": [
+            "De Longitudine et Brevitate Vitae",
+            "de Long. Vit."
+          ],
+          "fr": [
+            "De la longueur et de la brièveté de la vie"
+          ],
+          "de": [
+            "Über die Länge und Kürze des Lebens"
+          ],
+          "it": [
+            "La lunghezza e brevità della vita"
+          ]
+        }
+      },
+      {
+        "id": "De_Juventute",
+        "verified": false,
+        "variants": {
+          "en": [
+            "De Juventute",
+            "On Youth and Old Age",
+            "On Life and Death",
+            "de Juv.",
+            "Juv."
+          ],
+          "la": [
+            "De Juventute et Senectute",
+            "De Vita et Morte",
+            "de Juv."
+          ],
+          "fr": [
+            "De la jeunesse et de la vieillesse"
+          ],
+          "de": [
+            "Über Jugend und Alter"
+          ],
+          "it": [
+            "La giovinezza e la vecchiaia"
+          ]
+        }
+      },
+      {
+        "id": "De_Respiratione",
+        "verified": false,
+        "variants": {
+          "en": [
+            "De Respiratione",
+            "On Respiration",
+            "On Breathing",
+            "de Resp."
+          ],
+          "la": [
+            "De Respiratione",
+            "de Resp."
+          ],
+          "fr": [
+            "De la respiration",
+            "De Respiratione"
+          ],
+          "de": [
+            "Über die Atmung",
+            "De Respiratione"
+          ],
+          "it": [
+            "La respirazione",
+            "De Respiratione"
+          ]
+        }
+      },
+      {
+        "id": "De_Motu_Animalium",
+        "verified": false,
+        "variants": {
+          "en": [
+            "De Motu Animalium",
+            "On the Motion of Animals",
+            "de Motu",
+            "MA"
+          ],
+          "la": [
+            "De Motu Animalium",
+            "de Motu An."
+          ],
+          "fr": [
+            "Du mouvement des animaux"
+          ],
+          "de": [
+            "Über die Bewegung der Lebewesen"
+          ],
+          "it": [
+            "Il movimento degli animali"
+          ]
+        }
+      },
+      {
+        "id": "De_Incessu_Animalium",
+        "verified": false,
+        "variants": {
+          "en": [
+            "De Incessu Animalium",
+            "On the Progression of Animals",
+            "de Incessu",
+            "IA"
+          ],
+          "la": [
+            "De Incessu Animalium",
+            "de Incessu An."
+          ],
+          "fr": [
+            "De la marche des animaux"
+          ],
+          "de": [
+            "Über das Fortkommen der Lebewesen"
+          ],
+          "it": [
+            "Il cammino degli animali"
+          ]
+        }
+      },
+      {
+        "id": "Magna_Moralia",
+        "verified": false,
+        "variants": {
+          "en": [
+            "Magna Moralia",
+            "Great Ethics",
+            "MM",
+            "Mag. Mor."
+          ],
+          "la": [
+            "Magna Moralia",
+            "Mag. Mor."
+          ],
+          "fr": [
+            "Grande Morale",
+            "Magna Moralia"
+          ],
+          "de": [
+            "Große Ethik",
+            "Magna Moralia"
+          ],
+          "it": [
+            "Grande etica",
+            "Magna Moralia"
+          ]
+        }
+      },
+      {
+        "id": "Rhetorica_ad_Alexandrum",
+        "verified": false,
+        "variants": {
+          "en": [
+            "Rhetorica ad Alexandrum",
+            "Rhetoric to Alexander",
+            "Rhet. Alex.",
+            "Rh. Al."
+          ],
+          "la": [
+            "Rhetorica ad Alexandrum",
+            "Rhet. ad Alex."
+          ],
+          "fr": [
+            "Rhétorique à Alexandre"
+          ],
+          "de": [
+            "Rhetorik an Alexander"
+          ],
+          "it": [
+            "Retorica ad Alessandro"
+          ]
+        }
+      }
+    ]
+  },
+  "_global_todo": [
+    "Once pilot n-grams arrive, harvest ACTUAL abbreviation forms that appear adjacent to Stephanus/Bekker numbers and reconcile against this table - add any real forms missing here (esp. Continental variants and journal house-styles).",
+    "Build the two book-structure sub-tables referenced above: Metaphysics book-letter->Bekker-range, and NE/EE book->Bekker-range with common-book double-mapping.",
+    "For each 'ambiguous':true form, confirm the range-based tiebreak actually disambiguates in practice on real data.",
+    "Consider transliterated-Greek forms (Politeia, Nomoi, Nikomacheia) which appear in German and older scholarship - partially covered under 'de', may need their own bucket."
+  ]
+}

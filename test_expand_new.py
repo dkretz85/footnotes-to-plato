@@ -18,7 +18,17 @@ HOMER = [
     ("Il. 5, 385", ["Il. 5.385"]),                   # comma separator
     ("Ol. 1.111-12", None),                          # wrong corpus for homer -> handled in dispatch test
 ]
-HOMER_DIVERT = ["Il. 1.1-611"]                       # 611 lines > cap -> None
+HOMER_DIVERT = [
+    "Il. 1.1-611",   # 611 lines > cap -> None
+    "Il. 0.5",       # book 0 -> OCR noise
+    "Il. 25.1",      # book 25 > 24 -> OCR noise
+    "Il. 16.0",      # line 0 -> OCR noise
+    "Od. 0.0",       # both zero
+]
+HOMER_OK_EDGE = [
+    ("Il. 24.804", ["Il. 24.804"]),   # book 24 is valid (last Iliad book)
+]
+PINDAR_DIVERT = ["Ol. 0.1", "Pyth. 15.1"]  # ode 0 / ode 15 > 14 -> OCR noise
 
 PINDAR = [
     ("Ol. 1.111-12", ["Ol. 1.111","Ol. 1.112"]),     # abbreviated endpoint
@@ -51,6 +61,10 @@ def run():
         ok = check(f"homer  {cell!r}", locus.expand_homer(cell), exp); p += ok; f += not ok
     for cell in HOMER_DIVERT:
         ok = check(f"homer  {cell!r} -> divert", locus.expand_homer(cell), None); p += ok; f += not ok
+    for cell, exp in HOMER_OK_EDGE:
+        ok = check(f"homer  {cell!r} (valid edge)", locus.expand_homer(cell), exp); p += ok; f += not ok
+    for cell in PINDAR_DIVERT:
+        ok = check(f"pindar {cell!r} -> divert", locus.expand_pindar(cell), None); p += ok; f += not ok
     for cell, exp in PINDAR:
         ok = check(f"pindar {cell!r}", locus.expand_pindar(cell), exp); p += ok; f += not ok
     for cell, lengths, exp in NT:

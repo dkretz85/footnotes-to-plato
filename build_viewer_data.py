@@ -124,6 +124,37 @@ def safe_name(work):
     return "".join(ch if ch.isalnum() or ch in "-_" else "_" for ch in work)
 
 
+# The book.line / chapter:verse corpora don't fit locus.parse_locus (Greek page
+# grammar). Their FACET (book / ode / chapter) already lives in the `book`
+# column, set by the resolver; the within-facet coordinate (line / verse) is the
+# trailing number of the normalised unit cell ('Il. 16.7' -> 7, 'Rom. 7:25' ->
+# 25). We store that coordinate in the cell's `page` slot with an empty section,
+# so the existing (book, page, section) cell machinery carries all systems; the
+# per-work `system` tag tells the viewer how to label the axes.
+_CUED_SYSTEMS = ("homer", "pindar", "nt")
+
+def cued_coord(corpus, match):
+    """Within-facet coordinate (line for homer/pindar, verse for nt), or None."""
+    if corpus in ("homer", "pindar"):
+        m = re.search(r"\.(\d+)\s*$", match or "")
+    elif corpus == "nt":
+        m = re.search(r":(\d+)\s*$", match or "")
+    else:
+        return None
+    return int(m.group(1)) if m else None
+
+def work_system(corpus_counter):
+    """Label a work's reference system from the corpus tags on its rows.
+    A cued tag is decisive; otherwise it's Greek — prefer the unambiguous
+    stephanus/bekker tag over the shared 'ambiguous' one."""
+    for c in _CUED_SYSTEMS:
+        if corpus_counter.get(c):
+            return c
+    if corpus_counter.get("bekker") and not corpus_counter.get("stephanus"):
+        return "bekker"
+    return "stephanus"
+
+
 def parse_candidates(reason):
     """Pull the candidate work list out of a queue reason string.
     Returns a list of work names, or [] if the pattern isn't present."""
@@ -142,14 +173,19 @@ def parse_candidates(reason):
 # Pass 1: iids needed for the metadata join
 # ---------------------------------------------------------------------------
 def load_needed_iids(tsv_path):
+    """Collect distinct iids AND each work's corpus-tag histogram (so pass 4 can
+    label systems and band Aristotle cells before aggregating)."""
     iids = set()
+    work_corpora = defaultdict(Counter)
     with open(tsv_path, encoding="utf-8", newline="") as fh:
         r = csv.reader(fh, delimiter="\t")
         next(r, None)
         for row in r:
             if len(row) > C_IID and row[C_IID]:
                 iids.add(row[C_IID])
-    return iids
+            if len(row) > C_WORK and row[C_WORK]:
+                work_corpora[row[C_WORK]][row[C_CORPUS]] += 1
+    return iids, work_corpora
 
 
 def journal_title(rec):
@@ -267,7 +303,11 @@ def profile_queue(queue_path, band_threshold):
                 conf = float(row[C_CONF]) if len(row) > C_CONF else 0.0
             except ValueError:
                 conf = 0.0
-            reason = row[C_REASON] if len(row) > C_REASON else ""
+            # reason is the LAST column of review_queue.tsv. Read it as row[-1]
+            # rather than a fixed index: the resolver's span_src column (added for
+            # the range fan-out) sits before it, so a hardcoded C_REASON would now
+            # read span_src (empty) instead of the reason.
+            reason = row[-1] if row else ""
             cands = parse_candidates(reason)
             if cands:
                 stats["rows_with_candidates"] += 1
@@ -339,8 +379,10 @@ def main():
 
     # ---- pass 1: iids -------------------------------------------------------
     print("Pass 1/4: scanning TSV for iids ...", file=sys.stderr)
-    needed = load_needed_iids(args.tsv)
-    print(f"  {len(needed):,} distinct iids referenced", file=sys.stderr)
+    needed, work_corpora = load_needed_iids(args.tsv)
+    bekker_works = {w for w, cc in work_corpora.items() if work_system(cc) == "bekker"}
+    print(f"  {len(needed):,} distinct iids referenced; "
+          f"{len(bekker_works)} Bekker-system works (band-keyed)", file=sys.stderr)
 
     # ---- pass 2: metadata ---------------------------------------------------
     meta = {}
@@ -441,6 +483,7 @@ def main():
                 row = row + [""] * (C_CONTEXT + 1 - len(row))
             iid = row[C_IID]; journal = row[C_JOURNAL]; year = row[C_YEAR]
             work = row[C_WORK]; book = row[C_BOOK] or ""; match = row[C_MATCH]
+            corpus = row[C_CORPUS]
             # row[C_CONTEXT] is deliberately never read into any output.
             if not work:
                 continue
@@ -450,11 +493,25 @@ def main():
             work_resolved[work] += 1
             if iid:
                 work_iids[work].add(iid)
-            page, sec, line = locus.parse_locus(match)
-            if page is None:
-                continue
-            sec = sec or "a"
-            cell = section_cells[work][(book, page, sec)]
+            if corpus in _CUED_SYSTEMS:
+                # book.line / chapter:verse: facet is `book`, coordinate is the
+                # trailing number; stored in the page slot with empty section.
+                coord = cued_coord(corpus, match)
+                if coord is None:
+                    continue
+                page, sec, line, band = coord, "", coord, 0
+            else:
+                page, sec, line = locus.parse_locus(match)
+                if page is None:
+                    continue
+                sec = sec or "a"
+                # Aristotle displays in 15-line bands: split each column by
+                # line//15 so a range's band-representative units land in
+                # distinct cells (one citation, one count per band) instead of
+                # collapsing — and over-counting — at page+column. Plato keeps
+                # page+section (band 0; its short sections carry few lines).
+                band = ((line or 0) // 15) if work in bekker_works else 0
+            cell = section_cells[work][(book, page, sec, band)]
             cell["pooled"] += 1
             cell["by_journal"][journal] += 1
             if iid:
@@ -621,6 +678,7 @@ def main():
         "work": w, "citations": all_works[w],
         "distinct_articles": len(work_iids[w]),
         "faceted": w in locus.FACETED_WORKS,
+        "system": work_system(work_corpora[w]),
         "tier": next(d["tier"] for d in view_a if d["work"] == w),
         "file": f"view_b/{safe_name(w)}.json",
     } for w, _ in all_works.most_common()]
@@ -632,13 +690,13 @@ def main():
     for work in all_works:
         cells = section_cells[work]
         cell_list = []
-        for (book, page, sec), c in cells.items():
+        for (book, page, sec, band), c in cells.items():
             cell_list.append({
-                "book": book, "page": page, "section": sec,
+                "book": book, "page": page, "section": sec, "band": band,
                 "count": c["pooled"], "articles": len(c["iids"]),
                 "by_journal": dict(c["by_journal"]),
             })
-        cell_list.sort(key=lambda d: (d["book"], d["page"], d["section"]))
+        cell_list.sort(key=lambda d: (str(d["book"]), d["page"], d["section"], d["band"]))
         seen = set(); dot_list = []
         for d in dots[work]:
             k = (d["iid"], d["page"], d["section"], d["line"])
@@ -647,6 +705,7 @@ def main():
             seen.add(k); dot_list.append(d)
         out = {
             "work": work, "faceted": work in locus.FACETED_WORKS,
+            "system": work_system(work_corpora[work]),
             "tier": next(d["tier"] for d in view_a if d["work"] == work),
             "cells": cell_list, "dots": dot_list,
         }

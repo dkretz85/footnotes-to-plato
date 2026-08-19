@@ -234,11 +234,18 @@ _PINDAR_PARSE = re.compile(
     r"^\s*(Ol|Pyth|Nem|Isth|Olympian|Pythian|Nemean|Isthmian)\.?\s*"
     r"(\d{1,2})\.(\d{1,3})(?:\s*[-–—]\s*(\d{1,3}))?", re.I)
 
-def _expand_bookline(match_cell, parse_re, canon, max_units, book_conv):
+# Valid book/ode ranges — anything outside is OCR noise (e.g. 'Il. 0.5', where
+# the cue is real but the numbers are garbage). Homer: 24 books each for Iliad
+# and Odyssey. Pindar: the largest ode collection is Olympian (14 odes), so 1-14
+# covers all four books. Lines/verses are 1-based, so line 0 is noise too.
+HOMER_BOOK_MAX = 24
+PINDAR_ODE_MAX = 14
+
+def _expand_bookline(match_cell, parse_re, canon, max_units, book_conv, book_max):
     """Shared Homer/Pindar expander: parse cue + book/ode + line(-range),
     normalise (cue canonical, book Arabic), enumerate lines. Returns [cell]
-    verbatim if unparseable (resolver may still divert); None if over-cap or
-    incoherent."""
+    verbatim if unparseable (resolver may still divert); None to divert (over-cap,
+    incoherent, or out-of-range book/line — the OCR-noise guard)."""
     m = parse_re.match(match_cell or "")
     if not m:
         return [match_cell]
@@ -247,6 +254,8 @@ def _expand_bookline(match_cell, parse_re, canon, max_units, book_conv):
     if cue is None or book is None:
         return [match_cell]
     start = int(m.group(3))
+    if not (1 <= book <= book_max) or start < 1:
+        return None                     # OCR noise (book/line out of range)
     if m.group(4) is None:
         return ["%s. %d.%d" % (cue, book, start)]
     end = _expand_line_end(start, m.group(4))
@@ -256,11 +265,11 @@ def _expand_bookline(match_cell, parse_re, canon, max_units, book_conv):
 
 def expand_homer(match_cell, max_units=HOMER_MAX_LINES):
     return _expand_bookline(match_cell, _HOMER_PARSE, _HOMER_CANON,
-                            max_units, _book_to_int)
+                            max_units, _book_to_int, HOMER_BOOK_MAX)
 
 def expand_pindar(match_cell, max_units=PINDAR_MAX_LINES):
     return _expand_bookline(match_cell, _PINDAR_PARSE, _PINDAR_CANON,
-                            max_units, int)
+                            max_units, int, PINDAR_ODE_MAX)
 
 # --- chapter:verse system (Pauline NT): verse grain -------------------------
 # Cross-chapter ranges (Rom 7:25-8:2) need verses-per-chapter, and the same
@@ -402,6 +411,36 @@ def expand_range(match_cell, corpus=None, nt_lengths=None, max_units=None):
     if corpus == "nt":
         return expand_nt(match_cell, nt_lengths, max_units or NT_MAX_VERSES)
     return [match_cell]
+
+
+# --- cue -> work_cues.json lookup key ---------------------------------------
+# The resolver routes a cued cell (homer/pindar/nt) to a work by parsing its cue
+# and looking the normalised key up in work_cues.json. We reuse the same parse
+# regexes the expanders use, so the Roman-book fusion ('IlI, 715' = Il + book I)
+# and NT Roman letter-numbers ('II Cor' -> '2 cor') are handled consistently.
+
+_NT_CUE = re.compile(r"\s*([12]|II?)?\s*([A-Za-z]+)\.?\s*\d{1,3}:\d")
+
+def work_cue_key(match_cell, corpus):
+    """Return the normalised work_cues key for a cued cell, or None.
+    homer/pindar -> canonical short cue ('il','od','ol','pyth','nem','isth');
+    nt -> 'rom' / '1 cor' / '2 tim' / ... (Roman letter-number folded to Arabic)."""
+    if corpus == "homer":
+        m = _HOMER_PARSE.match(match_cell or "")
+        return _HOMER_CANON[m.group(1).lower()].lower() if m else None
+    if corpus == "pindar":
+        m = _PINDAR_PARSE.match(match_cell or "")
+        return _PINDAR_CANON[m.group(1).lower()].lower() if m else None
+    if corpus == "nt":
+        m = _NT_CUE.match(match_cell or "")
+        if not m:
+            return None
+        num, book = m.group(1), m.group(2).lower()
+        if num:
+            num = {"1": "1", "2": "2", "i": "1", "ii": "2"}[num.lower()]
+            return "%s %s" % (num, book)
+        return book
+    return None
 
 def assign(work, match_cell):
     """Return (book_label, is_common_book) for a faceted work, else (None, False)."""

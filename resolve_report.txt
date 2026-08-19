@@ -1,0 +1,52 @@
+CITATION RESOLUTION REPORT
+  input candidates      : 603,196
+  excluded (diverted)   : 130,927 (21.7% of input)
+  genuine P/A citations : 472,269
+  auto-resolved : 258,673 (54.8% of genuine)
+  unit rows emitted (after span fan-out) : 493,233
+  review queue  : 213,596 (45.2% of genuine)
+  exclusions by reason (diverted to excluded.tsv):
+    excluded_doctype     75,844
+    modern_year          36,147
+    book_section_ref     14,381
+    foreign_text         4,228
+    dk_fragment          327
+  resolved by corpus:
+    ambiguous  64,685
+    nt         60,049
+    stephanus  57,025
+    bekker     37,961
+    homer      34,360
+    pindar     4,593
+  method distribution:
+    cue_work                     101,845
+    cross_system_unresolved      95,471
+    name_range_conflict          73,621
+    cross_system_resolved_by_name 44,986
+    range+name                   28,268
+    range_unique+name            24,791
+    unresolved                   23,733
+    range_unique                 22,967
+    scope_inherited              22,165
+    range_unique_name_mentioned  14,081
+    scope_range_mismatch         10,064
+    title_prior                  4,750
+    name_multi_candidate         4,672
+    boundary_resolved_by_name    741
+    cue_unresolved               114
+  top reasons for queueing:
+    no decisive name, no scope; candidates ['Apology', 'Philebus', 'Prior_Analytics', 'Timaeus'] 16,775
+    no decisive name, no scope; candidates ['Apology', 'De_Interpretatione', 'Philebus', 'Timaeus'] 15,459
+    no decisive name, no scope; candidates ['Categories', 'Euthyphro', 'Philebus'] 11,632
+    no decisive name, no scope; candidates ['Apology', 'Philebus', 'Timaeus'] 5,770
+    no decisive name, no scope; candidates ['Crito', 'Philebus', 'Prior_Analytics', 'Timaeus'] 5,740
+    span_diverted                            4,357
+    no decisive name, no scope; candidates ['Meno', 'Phaedo', 'Posterior_Analytics', 'Timaeus'] 4,279
+    no decisive name, no scope; candidates ['Phaedo', 'Philebus', 'Prior_Analytics', 'Timaeus'] 3,091
+    no decisive name, no scope; candidates ['Categories', 'Euthyphro'] 2,945
+    no decisive name, no scope; candidates ['De_Interpretatione', 'Euthyphro', 'Philebus'] 2,710
+    no decisive name, no scope; candidates ['Euthyphro', 'Philebus'] 2,451
+    no decisive name, no scope; candidates ['Historia_Animalium', 'Republic'] 1,914
+    no decisive name, no scope; candidates ['Meno', 'Phaedo', 'Timaeus'] 1,750
+    no decisive name, no scope; candidates ['Apology', 'De_Interpretatione', 'Philebus', 'Prior_Analytics', 'Timaeus'] 1,676
+    no decisive name, no scope; candidates ['Gorgias', 'Republic'] 1,663

@@ -1,0 +1,414 @@
+{
+  "_meta": {
+    "system": "Bekker",
+    "author": "Aristotle",
+    "purpose": "Bekker page -> treatise, for resolving Aristotelian citations. Because Bekker pagination is CONTINUOUS and globally unique across the corpus (1831 Berlin edition, pp. 1-1462), a bare number like 1094a self-identifies its treatise via this lookup. This is the easy sub-project.",
+    "edition_of_record": "Bekker, Aristotelis Opera, Berlin 1831 (2 vols of Greek text, continuous pagination cols a/b)",
+    "format_note": "Bekker cites look like 1094a1 or 980b25: 3-4 digit page + a/b column + optional line number. Format routing distinguishes from Stephanus (Aristotle = 4-digit-ish + a/b; Plato = 3-digit + a-e).",
+    "uniqueness_note": "Unlike Stephanus, NO reset. Each page integer belongs to exactly one treatise. This table is therefore authoritative on its own; scope-tracking and abbreviation-matching are only needed to (a) catch OCR/tokenisation garble and (b) handle the boundary pages where two treatises share a page.",
+    "caveats": [
+      "Pseudo-Aristotelian works ARE in the Bekker pagination (e.g. De Mundo, Problems, Magna Moralia disputed, De Coloribus, etc.) - included below, flagged authenticity where relevant. They still get cited.",
+      "Fragments use ROSE numbers, NOT Bekker - out of scope for this table; a Rose-numbered cite will not match any Bekker page and should route to a separate handler or the review queue.",
+      "The Athenaion Politeia (Constitution of the Athenians) is NOT in Bekker pagination (papyrus discovered 1879, post-Bekker) - cited by chapter/section, so it will not appear here and should be handled separately.",
+      "A handful of pages carry two treatises (one ends, next begins on same page). Boundary pages flagged VERIFY - the parser may need the abbreviation to break ties on exactly those pages."
+    ],
+    "VERIFY": "All start/end pages verified:false. Check against a Bekker concordance (e.g. the page ranges in the Revised Oxford Translation, or Bekker 1831 directly). Boundary pages are approximate and are the likely error sites. Treatise ORDER follows the traditional Bekker sequence (Organon first, etc.)."
+  },
+  "treatises": [
+    {
+      "id": "Categories",
+      "abbr_latin": "Cat.",
+      "bekker_start": 1,
+      "bekker_end": 15,
+      "verified": false,
+      "group": "Organon"
+    },
+    {
+      "id": "De_Interpretatione",
+      "abbr_latin": "Int.",
+      "bekker_start": 16,
+      "bekker_end": 24,
+      "verified": false,
+      "group": "Organon",
+      "notes": "AKA On Interpretation / Peri Hermeneias."
+    },
+    {
+      "id": "Prior_Analytics",
+      "abbr_latin": "APr.",
+      "bekker_start": 24,
+      "bekker_end": 70,
+      "verified": false,
+      "group": "Organon",
+      "notes": "Boundary: shares p.24 with De Int. VERIFY exact column hand-off."
+    },
+    {
+      "id": "Posterior_Analytics",
+      "abbr_latin": "APo.",
+      "bekker_start": 71,
+      "bekker_end": 100,
+      "verified": false,
+      "group": "Organon"
+    },
+    {
+      "id": "Topics",
+      "abbr_latin": "Top.",
+      "bekker_start": 100,
+      "bekker_end": 164,
+      "verified": false,
+      "group": "Organon",
+      "notes": "Boundary: shares p.100 with APo."
+    },
+    {
+      "id": "Sophistical_Refutations",
+      "abbr_latin": "SE",
+      "bekker_start": 164,
+      "bekker_end": 184,
+      "verified": false,
+      "group": "Organon",
+      "notes": "AKA De Sophisticis Elenchis. Boundary: shares p.164 with Topics."
+    },
+    {
+      "id": "Physics",
+      "abbr_latin": "Phys.",
+      "bekker_start": 184,
+      "bekker_end": 267,
+      "verified": false,
+      "group": "Natural",
+      "notes": "Boundary: shares p.184 with SE."
+    },
+    {
+      "id": "De_Caelo",
+      "abbr_latin": "Cael.",
+      "bekker_start": 268,
+      "bekker_end": 313,
+      "verified": false,
+      "group": "Natural",
+      "notes": "On the Heavens."
+    },
+    {
+      "id": "De_Generatione_et_Corruptione",
+      "abbr_latin": "GC",
+      "bekker_start": 314,
+      "bekker_end": 338,
+      "verified": false,
+      "group": "Natural",
+      "notes": "On Generation and Corruption."
+    },
+    {
+      "id": "Meteorology",
+      "abbr_latin": "Mete.",
+      "bekker_start": 338,
+      "bekker_end": 390,
+      "verified": false,
+      "group": "Natural",
+      "notes": "Meteorologica. Boundary: shares p.338 with GC."
+    },
+    {
+      "id": "De_Mundo",
+      "abbr_latin": "Mu.",
+      "bekker_start": 391,
+      "bekker_end": 401,
+      "verified": false,
+      "group": "Natural",
+      "notes": "On the Cosmos. SPURIOUS (pseudo-Aristotelian) but in Bekker pagination and cited."
+    },
+    {
+      "id": "De_Anima",
+      "abbr_latin": "de An.",
+      "bekker_start": 402,
+      "bekker_end": 435,
+      "verified": false,
+      "group": "Psychology",
+      "notes": "On the Soul. Heavily cited."
+    },
+    {
+      "id": "De_Sensu",
+      "abbr_latin": "Sens.",
+      "bekker_start": 436,
+      "bekker_end": 449,
+      "verified": true,
+      "group": "Parva Naturalia",
+      "start_precise": {
+        "page": 436,
+        "col": "a",
+        "line": 0
+      },
+      "end_precise": {
+        "page": 449,
+        "col": "a",
+        "line": 34
+      },
+      "boundary_source": "Ross 1931 (Works of Aristotle, Oxford)"
+    },
+    {
+      "id": "De_Memoria",
+      "abbr_latin": "Mem.",
+      "bekker_start": 449,
+      "bekker_end": 453,
+      "verified": true,
+      "group": "Parva Naturalia",
+      "notes": "Boundary: shares p.449 with De Sensu.",
+      "start_precise": {
+        "page": 449,
+        "col": "b",
+        "line": 3
+      },
+      "end_precise": {
+        "page": 453,
+        "col": "b",
+        "line": 10
+      },
+      "boundary_source": "Ross 1931 (Works of Aristotle, Oxford)"
+    },
+    {
+      "id": "De_Somno",
+      "abbr_latin": "Somn.",
+      "bekker_start": 453,
+      "bekker_end": 458,
+      "verified": true,
+      "group": "Parva Naturalia",
+      "notes": "On Sleep. Boundary shares p.453.",
+      "start_precise": {
+        "page": 453,
+        "col": "b",
+        "line": 11
+      },
+      "end_precise": {
+        "page": 458,
+        "col": "a",
+        "line": 33
+      },
+      "boundary_source": "Ross 1931 (Works of Aristotle, Oxford)"
+    },
+    {
+      "id": "De_Insomniis",
+      "abbr_latin": "Insomn.",
+      "bekker_start": 458,
+      "bekker_end": 462,
+      "verified": true,
+      "group": "Parva Naturalia",
+      "notes": "On Dreams. Boundary shares p.458.",
+      "start_precise": {
+        "page": 458,
+        "col": "b",
+        "line": 0
+      },
+      "end_precise": {
+        "page": 462,
+        "col": "b",
+        "line": 12
+      },
+      "boundary_source": "Ross 1931 (Works of Aristotle, Oxford)"
+    },
+    {
+      "id": "De_Divinatione_per_Somnum",
+      "abbr_latin": "Div.Somn.",
+      "bekker_start": 462,
+      "bekker_end": 464,
+      "verified": true,
+      "group": "Parva Naturalia",
+      "start_precise": {
+        "page": 462,
+        "col": "b",
+        "line": 13
+      },
+      "end_precise": {
+        "page": 464,
+        "col": "b",
+        "line": 18
+      },
+      "boundary_source": "Ross 1931 (Works of Aristotle, Oxford)"
+    },
+    {
+      "id": "De_Longitudine_Vitae",
+      "abbr_latin": "Long.",
+      "bekker_start": 464,
+      "bekker_end": 467,
+      "verified": true,
+      "group": "Parva Naturalia",
+      "start_precise": {
+        "page": 464,
+        "col": "b",
+        "line": 19
+      },
+      "end_precise": {
+        "page": 467,
+        "col": "b",
+        "line": 9
+      },
+      "boundary_source": "Ross 1931 (Works of Aristotle, Oxford)"
+    },
+    {
+      "id": "De_Juventute",
+      "abbr_latin": "Juv.",
+      "bekker_start": 467,
+      "bekker_end": 480,
+      "verified": true,
+      "group": "Parva Naturalia",
+      "notes": "Ross groups De Juventute/De Vita et Morte/De Respiratione as one continuous block 467b10-480b30; citations may use any of these labels for this span.",
+      "start_precise": {
+        "page": 467,
+        "col": "b",
+        "line": 10
+      },
+      "end_precise": {
+        "page": 480,
+        "col": "b",
+        "line": 30
+      },
+      "boundary_source": "Ross 1931 (Works of Aristotle, Oxford)"
+    },
+    {
+      "id": "De_Respiratione",
+      "abbr_latin": "Resp.",
+      "bekker_start": 467,
+      "bekker_end": 480,
+      "verified": true,
+      "group": "Parva Naturalia",
+      "notes": "Ross groups De Juventute/De Vita et Morte/De Respiratione as one continuous block 467b10-480b30; citations may use any of these labels for this span.",
+      "start_precise": {
+        "page": 467,
+        "col": "b",
+        "line": 10
+      },
+      "end_precise": {
+        "page": 480,
+        "col": "b",
+        "line": 30
+      },
+      "boundary_source": "Ross 1931 (Works of Aristotle, Oxford)"
+    },
+    {
+      "id": "Historia_Animalium",
+      "abbr_latin": "HA",
+      "bekker_start": 486,
+      "bekker_end": 638,
+      "verified": false,
+      "group": "Biology"
+    },
+    {
+      "id": "De_Partibus_Animalium",
+      "abbr_latin": "PA",
+      "bekker_start": 639,
+      "bekker_end": 697,
+      "verified": false,
+      "group": "Biology",
+      "notes": "Parts of Animals."
+    },
+    {
+      "id": "De_Motu_Animalium",
+      "abbr_latin": "MA",
+      "bekker_start": 698,
+      "bekker_end": 704,
+      "verified": false,
+      "group": "Biology",
+      "notes": "Movement of Animals."
+    },
+    {
+      "id": "De_Incessu_Animalium",
+      "abbr_latin": "IA",
+      "bekker_start": 704,
+      "bekker_end": 714,
+      "verified": false,
+      "group": "Biology",
+      "notes": "Progression of Animals. Boundary shares p.704 with MA."
+    },
+    {
+      "id": "De_Generatione_Animalium",
+      "abbr_latin": "GA",
+      "bekker_start": 715,
+      "bekker_end": 789,
+      "verified": false,
+      "group": "Biology",
+      "notes": "Generation of Animals."
+    },
+    {
+      "id": "Problems",
+      "abbr_latin": "Pr.",
+      "bekker_start": 859,
+      "bekker_end": 967,
+      "verified": false,
+      "group": "Biology",
+      "notes": "Problemata. Authenticity largely spurious/compiled but in Bekker and cited."
+    },
+    {
+      "id": "Metaphysics",
+      "abbr_latin": "Metaph.",
+      "bekker_start": 980,
+      "bekker_end": 1093,
+      "verified": false,
+      "group": "Metaphysics",
+      "notes": "The other big one. Cited by BOOK-LETTER (Alpha, Beta, Gamma...Nu) as well as Bekker: 'Metaph. Gamma 4 1006a' = book Gamma = book IV. Gamma on non-contradiction (1005b-1006a) is a boilerplate-cited passage (the memo's caveat about high-frequency = settled, not contested). Book-letter <-> Bekker-range mapping needed as a sub-table."
+    },
+    {
+      "id": "Nicomachean_Ethics",
+      "abbr_latin": "EN",
+      "bekker_start": 1094,
+      "bekker_end": 1181,
+      "verified": false,
+      "group": "Ethics",
+      "notes": "NE / EN / Eth.Nic. Fr. 'Eth. a Nic.' Ger. 'Nik. Eth.' It. 'Etica Nicomachea'. 'NE II' on habituation is boilerplate-cited (the memo's example)."
+    },
+    {
+      "id": "Magna_Moralia",
+      "abbr_latin": "MM",
+      "bekker_start": 1181,
+      "bekker_end": 1213,
+      "verified": false,
+      "group": "Ethics",
+      "notes": "Authenticity disputed. Boundary shares p.1181 with EN."
+    },
+    {
+      "id": "Eudemian_Ethics",
+      "abbr_latin": "EE",
+      "bekker_start": 1214,
+      "bekker_end": 1249,
+      "verified": false,
+      "group": "Ethics",
+      "notes": "Eth.Eud. Books 4-6 shared with NE 5-7 (the 'common books') - a citation-resolution subtlety: a 'common book' passage may be cited under EITHER work. Flag for the parser."
+    },
+    {
+      "id": "Politics",
+      "abbr_latin": "Pol.",
+      "bekker_start": 1252,
+      "bekker_end": 1342,
+      "verified": false,
+      "group": "Politics",
+      "notes": "CRITICAL abbr collision: 'Pol.' = Aristotle Politics (Bekker, here) vs Plato Politicus/Statesman (Stephanus) vs older Plato Republic. Format routing is the primary resolver: Politics is 4-digit Bekker (1252a), Statesman is 3-digit Stephanus (257-311). The memo's worked example: 'Pol. 1252a' -> HERE, correctly, via format."
+    },
+    {
+      "id": "Rhetoric",
+      "abbr_latin": "Rh.",
+      "bekker_start": 1354,
+      "bekker_end": 1420,
+      "verified": false,
+      "group": "Rhetoric-Poetics",
+      "notes": "Rhetorica. Fr. 'Rhét.'"
+    },
+    {
+      "id": "Rhetorica_ad_Alexandrum",
+      "abbr_latin": "Rh.Al.",
+      "bekker_start": 1420,
+      "bekker_end": 1447,
+      "verified": false,
+      "group": "Rhetoric-Poetics",
+      "notes": "SPURIOUS. Boundary shares p.1420 with Rhetoric."
+    },
+    {
+      "id": "Poetics",
+      "abbr_latin": "Po.",
+      "bekker_start": 1447,
+      "bekker_end": 1462,
+      "verified": false,
+      "group": "Rhetoric-Poetics",
+      "notes": "Poetica. Boundary shares p.1447 with Rh.Al. Last treatise in Bekker (~1462)."
+    }
+  ],
+  "_todo": [
+    "VERIFY every start/end against a Bekker concordance. Boundary/shared pages flagged in notes are the priority checks.",
+    "Build the Metaphysics book-letter -> Bekker-range sub-table (Alpha=980, alpha(little)=993, Beta=995, Gamma=1003, ... Nu ends 1093). Needed because Metaphysics is very often cited by Greek book-letter, not bare Bekker.",
+    "Build NE / EE book-number -> Bekker sub-ranges, and FLAG the common books (NE V-VII = EE IV-VI) which double-map.",
+    "Add a 'this is a Rose fragment, not Bekker' fast-reject so fragment citations route to the review queue instead of silently mismatching.",
+    "Note Athenaion Politeia handled separately (chapter/section, not Bekker)."
+  ]
+}
