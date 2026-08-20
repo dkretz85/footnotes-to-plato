@@ -1,0 +1,239 @@
+{
+ "work": "Minos",
+ "system": "stephanus",
+ "bin_years": 5,
+ "grain": "passage",
+ "journals_filter": "theology",
+ "movers_min_articles": 15,
+ "mover_min_early": 8,
+ "n_passages_tested": 0,
+ "n_significant_movers": 0,
+ "n_significant_movers_fdr": 0,
+ "n_fdr_movers_solid": 0,
+ "n_movers_expected_by_chance": 0.0,
+ "n_citations": 10,
+ "n_articles": 4,
+ "n_passages": 9,
+ "year_range": [
+  1974,
+  2011
+ ],
+ "split_year": 2004,
+ "verdict": "stable",
+ "stability_powered": false,
+ "min_stable_articles": 100,
+ "two_bin_flat_only": false,
+ "two_bin_understates": false,
+ "near_threshold": false,
+ "shape_change": {
+  "spearman_rho": -0.7559,
+  "tvd": 0.8571,
+  "n_passages_compared": 9,
+  "early_article_incidences": 3,
+  "late_article_incidences": 7,
+  "null": {
+   "n_perm": 200,
+   "rho_mean": -0.8471,
+   "rho_sd": 0.0899,
+   "tvd_mean": 0.9314,
+   "tvd_sd": 0.0714,
+   "rho_z": 1.01,
+   "tvd_z": -1.04,
+   "tvd_percentile": 48.0
+  }
+ },
+ "multibin_structure": {
+  "n_periods": 3,
+  "periods": [],
+  "dispersion": null,
+  "null_mean": null,
+  "null_sd": null,
+  "z": null,
+  "concentration": {}
+ },
+ "multibin_movers": [],
+ "sparsity": {
+  "cell_article_hist": {
+   "1": 10
+  },
+  "drawable_passages": {
+   "ge5": 0,
+   "ge10": 0,
+   "ge20": 0
+  }
+ },
+ "bin_totals": {
+  "1970": 3,
+  "2000": 6,
+  "2010": 1
+ },
+ "top_passages": [
+  {
+   "passage": "319c",
+   "book": "",
+   "total_articles": 2,
+   "by_bin": {
+    "1970": 1,
+    "2000": 1
+   }
+  },
+  {
+   "passage": "320c",
+   "book": "",
+   "total_articles": 1,
+   "by_bin": {
+    "2000": 1
+   }
+  },
+  {
+   "passage": "318d",
+   "book": "",
+   "total_articles": 1,
+   "by_bin": {
+    "1970": 1
+   }
+  },
+  {
+   "passage": "319e",
+   "book": "",
+   "total_articles": 1,
+   "by_bin": {
+    "1970": 1
+   }
+  },
+  {
+   "passage": "318e",
+   "book": "",
+   "total_articles": 1,
+   "by_bin": {
+    "2000": 1
+   }
+  },
+  {
+   "passage": "319a",
+   "book": "",
+   "total_articles": 1,
+   "by_bin": {
+    "2000": 1
+   }
+  },
+  {
+   "passage": "319b",
+   "book": "",
+   "total_articles": 1,
+   "by_bin": {
+    "2000": 1
+   }
+  },
+  {
+   "passage": "319d",
+   "book": "",
+   "total_articles": 1,
+   "by_bin": {
+    "2000": 1
+   }
+  },
+  {
+   "passage": "316c",
+   "book": "",
+   "total_articles": 1,
+   "by_bin": {
+    "2010": 1
+   }
+  }
+ ],
+ "top_movers": [],
+ "units": [
+  {
+   "passage": "319c",
+   "book": "",
+   "early_articles": 1,
+   "late_articles": 1,
+   "early_share": 0.3333,
+   "late_share": 0.1429,
+   "delta": -0.1905,
+   "total_articles": 2
+  },
+  {
+   "passage": "316c",
+   "book": "",
+   "early_articles": 0,
+   "late_articles": 1,
+   "early_share": 0.0,
+   "late_share": 0.1429,
+   "delta": 0.1429,
+   "total_articles": 1
+  },
+  {
+   "passage": "318d",
+   "book": "",
+   "early_articles": 1,
+   "late_articles": 0,
+   "early_share": 0.3333,
+   "late_share": 0.0,
+   "delta": -0.3333,
+   "total_articles": 1
+  },
+  {
+   "passage": "318e",
+   "book": "",
+   "early_articles": 0,
+   "late_articles": 1,
+   "early_share": 0.0,
+   "late_share": 0.1429,
+   "delta": 0.1429,
+   "total_articles": 1
+  },
+  {
+   "passage": "319a",
+   "book": "",
+   "early_articles": 0,
+   "late_articles": 1,
+   "early_share": 0.0,
+   "late_share": 0.1429,
+   "delta": 0.1429,
+   "total_articles": 1
+  },
+  {
+   "passage": "319b",
+   "book": "",
+   "early_articles": 0,
+   "late_articles": 1,
+   "early_share": 0.0,
+   "late_share": 0.1429,
+   "delta": 0.1429,
+   "total_articles": 1
+  },
+  {
+   "passage": "319d",
+   "book": "",
+   "early_articles": 0,
+   "late_articles": 1,
+   "early_share": 0.0,
+   "late_share": 0.1429,
+   "delta": 0.1429,
+   "total_articles": 1
+  },
+  {
+   "passage": "319e",
+   "book": "",
+   "early_articles": 1,
+   "late_articles": 0,
+   "early_share": 0.3333,
+   "late_share": 0.0,
+   "delta": -0.3333,
+   "total_articles": 1
+  },
+  {
+   "passage": "320c",
+   "book": "",
+   "early_articles": 0,
+   "late_articles": 1,
+   "early_share": 0.0,
+   "late_share": 0.1429,
+   "delta": 0.1429,
+   "total_articles": 1
+  }
+ ],
+ "focus": {}
+}

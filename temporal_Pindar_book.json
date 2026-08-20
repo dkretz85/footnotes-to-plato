@@ -23,6 +23,7 @@
  "stability_powered": false,
  "min_stable_articles": 100,
  "two_bin_flat_only": false,
+ "two_bin_understates": false,
  "near_threshold": false,
  "shape_change": {
   "spearman_rho": 0.6998,
@@ -60,8 +61,246 @@
   "dispersion": 0.2025,
   "null_mean": 0.0611,
   "null_sd": 0.0049,
-  "z": 28.69
+  "z": 28.69,
+  "concentration": {
+   "n_structure_movers_fdr": 30,
+   "n_tested": 40,
+   "tested_dispersion_total": 0.1949,
+   "share_of_whole": 0.963,
+   "top1_share": 0.089,
+   "top3_share": 0.199,
+   "top5_share": 0.277,
+   "top10_share": 0.456,
+   "n_passages_to_50pct": 12
+  }
  },
+ "multibin_movers": [
+  {
+   "passage": "O.1",
+   "book": "O.1",
+   "dispersion": 0.01726,
+   "total_articles": 100,
+   "p_value": 0.005,
+   "q_value": 0.007,
+   "significant_fdr": true
+  },
+  {
+   "passage": "O.2",
+   "book": "O.2",
+   "dispersion": 0.01343,
+   "total_articles": 77,
+   "p_value": 0.005,
+   "q_value": 0.007,
+   "significant_fdr": true
+  },
+  {
+   "passage": "P.2",
+   "book": "P.2",
+   "dispersion": 0.00812,
+   "total_articles": 129,
+   "p_value": 0.005,
+   "q_value": 0.007,
+   "significant_fdr": true
+  },
+  {
+   "passage": "P.4",
+   "book": "P.4",
+   "dispersion": 0.00757,
+   "total_articles": 230,
+   "p_value": 0.005,
+   "q_value": 0.007,
+   "significant_fdr": true
+  },
+  {
+   "passage": "O.6",
+   "book": "O.6",
+   "dispersion": 0.00754,
+   "total_articles": 72,
+   "p_value": 0.005,
+   "q_value": 0.007,
+   "significant_fdr": true
+  },
+  {
+   "passage": "N.7",
+   "book": "N.7",
+   "dispersion": 0.00752,
+   "total_articles": 130,
+   "p_value": 0.005,
+   "q_value": 0.007,
+   "significant_fdr": true
+  },
+  {
+   "passage": "I.8",
+   "book": "I.8",
+   "dispersion": 0.00719,
+   "total_articles": 51,
+   "p_value": 0.005,
+   "q_value": 0.007,
+   "significant_fdr": true
+  },
+  {
+   "passage": "N.3",
+   "book": "N.3",
+   "dispersion": 0.00687,
+   "total_articles": 125,
+   "p_value": 0.005,
+   "q_value": 0.007,
+   "significant_fdr": true
+  },
+  {
+   "passage": "O.7",
+   "book": "O.7",
+   "dispersion": 0.00682,
+   "total_articles": 46,
+   "p_value": 0.005,
+   "q_value": 0.007,
+   "significant_fdr": true
+  },
+  {
+   "passage": "O.9",
+   "book": "O.9",
+   "dispersion": 0.00645,
+   "total_articles": 45,
+   "p_value": 0.005,
+   "q_value": 0.007,
+   "significant_fdr": true
+  },
+  {
+   "passage": "O.3",
+   "book": "O.3",
+   "dispersion": 0.00633,
+   "total_articles": 33,
+   "p_value": 0.005,
+   "q_value": 0.007,
+   "significant_fdr": true
+  },
+  {
+   "passage": "P.8",
+   "book": "P.8",
+   "dispersion": 0.0061,
+   "total_articles": 98,
+   "p_value": 0.005,
+   "q_value": 0.007,
+   "significant_fdr": true
+  },
+  {
+   "passage": "P.9",
+   "book": "P.9",
+   "dispersion": 0.00595,
+   "total_articles": 103,
+   "p_value": 0.005,
+   "q_value": 0.007,
+   "significant_fdr": true
+  },
+  {
+   "passage": "O.10",
+   "book": "O.10",
+   "dispersion": 0.00573,
+   "total_articles": 42,
+   "p_value": 0.005,
+   "q_value": 0.007,
+   "significant_fdr": true
+  },
+  {
+   "passage": "N.6",
+   "book": "N.6",
+   "dispersion": 0.00556,
+   "total_articles": 80,
+   "p_value": 0.005,
+   "q_value": 0.007,
+   "significant_fdr": true
+  },
+  {
+   "passage": "O.13",
+   "book": "O.13",
+   "dispersion": 0.00548,
+   "total_articles": 44,
+   "p_value": 0.005,
+   "q_value": 0.007,
+   "significant_fdr": true
+  },
+  {
+   "passage": "P.1",
+   "book": "P.1",
+   "dispersion": 0.00527,
+   "total_articles": 151,
+   "p_value": 0.005,
+   "q_value": 0.007,
+   "significant_fdr": true
+  },
+  {
+   "passage": "O.5",
+   "book": "O.5",
+   "dispersion": 0.00476,
+   "total_articles": 16,
+   "p_value": 0.005,
+   "q_value": 0.007,
+   "significant_fdr": true
+  },
+  {
+   "passage": "O.8",
+   "book": "O.8",
+   "dispersion": 0.00471,
+   "total_articles": 30,
+   "p_value": 0.005,
+   "q_value": 0.007,
+   "significant_fdr": true
+  },
+  {
+   "passage": "P.11",
+   "book": "P.11",
+   "dispersion": 0.00461,
+   "total_articles": 58,
+   "p_value": 0.005,
+   "q_value": 0.007,
+   "significant_fdr": true
+  },
+  {
+   "passage": "I.7",
+   "book": "I.7",
+   "dispersion": 0.00408,
+   "total_articles": 26,
+   "p_value": 0.005,
+   "q_value": 0.007,
+   "significant_fdr": true
+  },
+  {
+   "passage": "P.3",
+   "book": "P.3",
+   "dispersion": 0.00397,
+   "total_articles": 139,
+   "p_value": 0.085,
+   "q_value": 0.109,
+   "significant_fdr": false
+  },
+  {
+   "passage": "N.1",
+   "book": "N.1",
+   "dispersion": 0.00396,
+   "total_articles": 83,
+   "p_value": 0.02,
+   "q_value": 0.027,
+   "significant_fdr": true
+  },
+  {
+   "passage": "P.5",
+   "book": "P.5",
+   "dispersion": 0.00368,
+   "total_articles": 78,
+   "p_value": 0.005,
+   "q_value": 0.007,
+   "significant_fdr": true
+  },
+  {
+   "passage": "O.11",
+   "book": "O.11",
+   "dispersion": 0.00367,
+   "total_articles": 15,
+   "p_value": 0.005,
+   "q_value": 0.007,
+   "significant_fdr": true
+  }
+ ],
  "sparsity": {
   "cell_article_hist": {
    "5+": 232,

@@ -1,0 +1,135 @@
+{
+ "work": "2 Thessalonians",
+ "system": "nt",
+ "bin_years": 5,
+ "grain": "book",
+ "journals_filter": "classics",
+ "movers_min_articles": 15,
+ "mover_min_early": 8,
+ "n_passages_tested": 0,
+ "n_significant_movers": 0,
+ "n_significant_movers_fdr": 0,
+ "n_fdr_movers_solid": 0,
+ "n_movers_expected_by_chance": 0.0,
+ "n_citations": 12,
+ "n_articles": 6,
+ "n_passages": 3,
+ "year_range": [
+  1919,
+  2004
+ ],
+ "split_year": 2004,
+ "verdict": "stable",
+ "stability_powered": false,
+ "min_stable_articles": 100,
+ "two_bin_flat_only": false,
+ "two_bin_understates": false,
+ "near_threshold": false,
+ "shape_change": {
+  "spearman_rho": 0.866,
+  "tvd": 0.25,
+  "n_passages_compared": 3,
+  "early_article_incidences": 3,
+  "late_article_incidences": 4,
+  "null": {
+   "n_perm": 200,
+   "rho_mean": NaN,
+   "rho_sd": NaN,
+   "tvd_mean": 0.322,
+   "tvd_sd": 0.1429,
+   "rho_z": NaN,
+   "tvd_z": -0.5,
+   "tvd_percentile": 32.0
+  }
+ },
+ "multibin_structure": {
+  "n_periods": 3,
+  "periods": [],
+  "dispersion": null,
+  "null_mean": null,
+  "null_sd": null,
+  "z": null,
+  "concentration": {}
+ },
+ "multibin_movers": [],
+ "sparsity": {
+  "cell_article_hist": {
+   "1": 5,
+   "2": 1
+  },
+  "drawable_passages": {
+   "ge5": 0,
+   "ge10": 0,
+   "ge20": 0
+  }
+ },
+ "bin_totals": {
+  "1915": 1,
+  "1955": 1,
+  "1965": 1,
+  "2000": 4
+ },
+ "top_passages": [
+  {
+   "passage": "2",
+   "book": "2",
+   "total_articles": 4,
+   "by_bin": {
+    "1955": 1,
+    "1965": 1,
+    "2000": 2
+   }
+  },
+  {
+   "passage": "3",
+   "book": "3",
+   "total_articles": 2,
+   "by_bin": {
+    "1915": 1,
+    "2000": 1
+   }
+  },
+  {
+   "passage": "1",
+   "book": "1",
+   "total_articles": 1,
+   "by_bin": {
+    "2000": 1
+   }
+  }
+ ],
+ "top_movers": [],
+ "units": [
+  {
+   "passage": "2",
+   "book": "2",
+   "early_articles": 2,
+   "late_articles": 2,
+   "early_share": 0.6667,
+   "late_share": 0.5,
+   "delta": -0.1667,
+   "total_articles": 4
+  },
+  {
+   "passage": "3",
+   "book": "3",
+   "early_articles": 1,
+   "late_articles": 1,
+   "early_share": 0.3333,
+   "late_share": 0.25,
+   "delta": -0.0833,
+   "total_articles": 2
+  },
+  {
+   "passage": "1",
+   "book": "1",
+   "early_articles": 0,
+   "late_articles": 1,
+   "early_share": 0.0,
+   "late_share": 0.25,
+   "delta": 0.25,
+   "total_articles": 1
+  }
+ ],
+ "focus": {}
+}

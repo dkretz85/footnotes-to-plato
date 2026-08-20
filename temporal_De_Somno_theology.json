@@ -1,0 +1,204 @@
+{
+ "work": "De_Somno",
+ "system": "stephanus",
+ "bin_years": 5,
+ "grain": "passage",
+ "journals_filter": "theology",
+ "movers_min_articles": 15,
+ "mover_min_early": 8,
+ "n_passages_tested": 0,
+ "n_significant_movers": 0,
+ "n_significant_movers_fdr": 0,
+ "n_fdr_movers_solid": 0,
+ "n_movers_expected_by_chance": 0.0,
+ "n_citations": 8,
+ "n_articles": 5,
+ "n_passages": 7,
+ "year_range": [
+  1935,
+  2021
+ ],
+ "split_year": 2016,
+ "verdict": "stable",
+ "stability_powered": false,
+ "min_stable_articles": 100,
+ "two_bin_flat_only": false,
+ "two_bin_understates": false,
+ "near_threshold": false,
+ "shape_change": {
+  "spearman_rho": -0.75,
+  "tvd": 0.75,
+  "n_passages_compared": 7,
+  "early_article_incidences": 4,
+  "late_article_incidences": 4,
+  "null": {
+   "n_perm": 200,
+   "rho_mean": -0.8451,
+   "rho_sd": 0.1073,
+   "tvd_mean": 0.86,
+   "tvd_sd": 0.1241,
+   "rho_z": 0.89,
+   "tvd_z": -0.89,
+   "tvd_percentile": 56.0
+  }
+ },
+ "multibin_structure": {
+  "n_periods": 3,
+  "periods": [],
+  "dispersion": null,
+  "null_mean": null,
+  "null_sd": null,
+  "z": null,
+  "concentration": {}
+ },
+ "multibin_movers": [],
+ "sparsity": {
+  "cell_article_hist": {
+   "1": 8
+  },
+  "drawable_passages": {
+   "ge5": 0,
+   "ge10": 0,
+   "ge20": 0
+  }
+ },
+ "bin_totals": {
+  "1935": 1,
+  "2005": 3,
+  "2015": 3,
+  "2020": 1
+ },
+ "top_passages": [
+  {
+   "passage": "458a",
+   "book": "",
+   "total_articles": 2,
+   "by_bin": {
+    "2005": 1,
+    "2015": 1
+   }
+  },
+  {
+   "passage": "453b",
+   "book": "",
+   "total_articles": 1,
+   "by_bin": {
+    "2015": 1
+   }
+  },
+  {
+   "passage": "456a",
+   "book": "",
+   "total_articles": 1,
+   "by_bin": {
+    "2015": 1
+   }
+  },
+  {
+   "passage": "457a",
+   "book": "",
+   "total_articles": 1,
+   "by_bin": {
+    "2020": 1
+   }
+  },
+  {
+   "passage": "454a",
+   "book": "",
+   "total_articles": 1,
+   "by_bin": {
+    "2005": 1
+   }
+  },
+  {
+   "passage": "457b",
+   "book": "",
+   "total_articles": 1,
+   "by_bin": {
+    "2005": 1
+   }
+  },
+  {
+   "passage": "455a",
+   "book": "",
+   "total_articles": 1,
+   "by_bin": {
+    "1935": 1
+   }
+  }
+ ],
+ "top_movers": [],
+ "units": [
+  {
+   "passage": "458a",
+   "book": "",
+   "early_articles": 1,
+   "late_articles": 1,
+   "early_share": 0.25,
+   "late_share": 0.25,
+   "delta": 0.0,
+   "total_articles": 2
+  },
+  {
+   "passage": "453b",
+   "book": "",
+   "early_articles": 0,
+   "late_articles": 1,
+   "early_share": 0.0,
+   "late_share": 0.25,
+   "delta": 0.25,
+   "total_articles": 1
+  },
+  {
+   "passage": "454a",
+   "book": "",
+   "early_articles": 1,
+   "late_articles": 0,
+   "early_share": 0.25,
+   "late_share": 0.0,
+   "delta": -0.25,
+   "total_articles": 1
+  },
+  {
+   "passage": "455a",
+   "book": "",
+   "early_articles": 1,
+   "late_articles": 0,
+   "early_share": 0.25,
+   "late_share": 0.0,
+   "delta": -0.25,
+   "total_articles": 1
+  },
+  {
+   "passage": "456a",
+   "book": "",
+   "early_articles": 0,
+   "late_articles": 1,
+   "early_share": 0.0,
+   "late_share": 0.25,
+   "delta": 0.25,
+   "total_articles": 1
+  },
+  {
+   "passage": "457a",
+   "book": "",
+   "early_articles": 0,
+   "late_articles": 1,
+   "early_share": 0.0,
+   "late_share": 0.25,
+   "delta": 0.25,
+   "total_articles": 1
+  },
+  {
+   "passage": "457b",
+   "book": "",
+   "early_articles": 1,
+   "late_articles": 0,
+   "early_share": 0.25,
+   "late_share": 0.0,
+   "delta": -0.25,
+   "total_articles": 1
+  }
+ ],
+ "focus": {}
+}

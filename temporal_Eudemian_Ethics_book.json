@@ -5,9 +5,11 @@
  "grain": "book",
  "journals_filter": "all",
  "movers_min_articles": 15,
+ "mover_min_early": 8,
  "n_passages_tested": 5,
  "n_significant_movers": 1,
  "n_significant_movers_fdr": 1,
+ "n_fdr_movers_solid": 1,
  "n_movers_expected_by_chance": 0.2,
  "n_citations": 2018,
  "n_articles": 595,
@@ -17,6 +19,12 @@
   2022
  ],
  "split_year": 1998,
+ "verdict": "stable",
+ "stability_powered": true,
+ "min_stable_articles": 100,
+ "two_bin_flat_only": false,
+ "two_bin_understates": false,
+ "near_threshold": true,
  "shape_change": {
   "spearman_rho": 0.9,
   "tvd": 0.0491,
@@ -34,6 +42,85 @@
    "tvd_percentile": 80.0
   }
  },
+ "multibin_structure": {
+  "n_periods": 3,
+  "periods": [
+   [
+    1859,
+    1990
+   ],
+   [
+    1990,
+    2011
+   ],
+   [
+    2011,
+    2022
+   ]
+  ],
+  "dispersion": 0.0737,
+  "null_mean": 0.0448,
+  "null_sd": 0.0125,
+  "z": 2.32,
+  "concentration": {
+   "n_structure_movers_fdr": 3,
+   "n_tested": 5,
+   "tested_dispersion_total": 0.0737,
+   "share_of_whole": 1.0,
+   "top1_share": 0.329,
+   "top3_share": 0.868,
+   "top5_share": 1.0,
+   "top10_share": 1.0,
+   "n_passages_to_50pct": 2
+  }
+ },
+ "multibin_movers": [
+  {
+   "passage": "II",
+   "book": "II",
+   "dispersion": 0.02425,
+   "total_articles": 227,
+   "p_value": 0.025,
+   "q_value": 0.05,
+   "significant_fdr": true
+  },
+  {
+   "passage": "I",
+   "book": "I",
+   "dispersion": 0.02354,
+   "total_articles": 159,
+   "p_value": 0.005,
+   "q_value": 0.025,
+   "significant_fdr": true
+  },
+  {
+   "passage": "III",
+   "book": "III",
+   "dispersion": 0.01618,
+   "total_articles": 123,
+   "p_value": 0.03,
+   "q_value": 0.05,
+   "significant_fdr": true
+  },
+  {
+   "passage": "VIII",
+   "book": "VIII",
+   "dispersion": 0.00566,
+   "total_articles": 110,
+   "p_value": 0.607,
+   "q_value": 0.759,
+   "significant_fdr": false
+  },
+  {
+   "passage": "VII",
+   "book": "VII",
+   "dispersion": 0.0041,
+   "total_articles": 203,
+   "p_value": 0.846,
+   "q_value": 0.846,
+   "significant_fdr": false
+  }
+ ],
  "sparsity": {
   "cell_article_hist": {
    "5+": 54,
@@ -247,7 +334,8 @@
    "p_value": 0.02,
    "q_value": 0.1,
    "significant": true,
-   "significant_fdr": true
+   "significant_fdr": true,
+   "floor_fail_early": false
   },
   {
    "passage": "II",
@@ -260,7 +348,8 @@
    "p_value": 0.08,
    "q_value": 0.199,
    "significant": false,
-   "significant_fdr": false
+   "significant_fdr": false,
+   "floor_fail_early": false
   },
   {
    "passage": "I",
@@ -273,7 +362,8 @@
    "p_value": 0.697,
    "q_value": 0.883,
    "significant": false,
-   "significant_fdr": false
+   "significant_fdr": false,
+   "floor_fail_early": false
   },
   {
    "passage": "VIII",
@@ -286,7 +376,8 @@
    "p_value": 0.706,
    "q_value": 0.883,
    "significant": false,
-   "significant_fdr": false
+   "significant_fdr": false,
+   "floor_fail_early": false
   },
   {
    "passage": "VII",
@@ -299,7 +390,60 @@
    "p_value": 0.93,
    "q_value": 0.93,
    "significant": false,
-   "significant_fdr": false
+   "significant_fdr": false,
+   "floor_fail_early": false
+  }
+ ],
+ "units": [
+  {
+   "passage": "II",
+   "book": "II",
+   "early_articles": 114,
+   "late_articles": 113,
+   "early_share": 0.2573,
+   "late_share": 0.2982,
+   "delta": 0.0408,
+   "total_articles": 227
+  },
+  {
+   "passage": "VII",
+   "book": "VII",
+   "early_articles": 109,
+   "late_articles": 94,
+   "early_share": 0.246,
+   "late_share": 0.248,
+   "delta": 0.002,
+   "total_articles": 203
+  },
+  {
+   "passage": "I",
+   "book": "I",
+   "early_articles": 87,
+   "late_articles": 72,
+   "early_share": 0.1964,
+   "late_share": 0.19,
+   "delta": -0.0064,
+   "total_articles": 159
+  },
+  {
+   "passage": "III",
+   "book": "III",
+   "early_articles": 75,
+   "late_articles": 48,
+   "early_share": 0.1693,
+   "late_share": 0.1266,
+   "delta": -0.0427,
+   "total_articles": 123
+  },
+  {
+   "passage": "VIII",
+   "book": "VIII",
+   "early_articles": 58,
+   "late_articles": 52,
+   "early_share": 0.1309,
+   "late_share": 0.1372,
+   "delta": 0.0063,
+   "total_articles": 110
   }
  ],
  "focus": {}

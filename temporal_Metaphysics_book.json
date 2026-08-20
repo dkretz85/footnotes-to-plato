@@ -5,9 +5,11 @@
  "grain": "book",
  "journals_filter": "all",
  "movers_min_articles": 15,
+ "mover_min_early": 8,
  "n_passages_tested": 14,
  "n_significant_movers": 3,
  "n_significant_movers_fdr": 3,
+ "n_fdr_movers_solid": 3,
  "n_movers_expected_by_chance": 0.7,
  "n_citations": 10440,
  "n_articles": 2330,
@@ -17,6 +19,12 @@
   2022
  ],
  "split_year": 1998,
+ "verdict": "REAL",
+ "stability_powered": false,
+ "min_stable_articles": 100,
+ "two_bin_flat_only": false,
+ "two_bin_understates": false,
+ "near_threshold": false,
  "shape_change": {
   "spearman_rho": 0.9549,
   "tvd": 0.0521,
@@ -34,6 +42,166 @@
    "tvd_percentile": 100.0
   }
  },
+ "multibin_structure": {
+  "n_periods": 3,
+  "periods": [
+   [
+    1861,
+    1990
+   ],
+   [
+    1990,
+    2008
+   ],
+   [
+    2008,
+    2022
+   ]
+  ],
+  "dispersion": 0.0618,
+  "null_mean": 0.0343,
+  "null_sd": 0.0046,
+  "z": 5.91,
+  "concentration": {
+   "n_structure_movers_fdr": 2,
+   "n_tested": 14,
+   "tested_dispersion_total": 0.0618,
+   "share_of_whole": 1.0,
+   "top1_share": 0.174,
+   "top3_share": 0.355,
+   "top5_share": 0.52,
+   "top10_share": 0.854,
+   "n_passages_to_50pct": 5
+  }
+ },
+ "multibin_movers": [
+  {
+   "passage": "Α",
+   "book": "Α",
+   "dispersion": 0.01076,
+   "total_articles": 626,
+   "p_value": 0.005,
+   "q_value": 0.035,
+   "significant_fdr": true
+  },
+  {
+   "passage": "α",
+   "book": "α",
+   "dispersion": 0.00572,
+   "total_articles": 133,
+   "p_value": 0.005,
+   "q_value": 0.035,
+   "significant_fdr": true
+  },
+  {
+   "passage": "Θ",
+   "book": "Θ",
+   "dispersion": 0.00544,
+   "total_articles": 294,
+   "p_value": 0.025,
+   "q_value": 0.104,
+   "significant_fdr": false
+  },
+  {
+   "passage": "Μ",
+   "book": "Μ",
+   "dispersion": 0.00532,
+   "total_articles": 318,
+   "p_value": 0.04,
+   "q_value": 0.111,
+   "significant_fdr": false
+  },
+  {
+   "passage": "Δ",
+   "book": "Δ",
+   "dispersion": 0.00488,
+   "total_articles": 440,
+   "p_value": 0.109,
+   "q_value": 0.192,
+   "significant_fdr": false
+  },
+  {
+   "passage": "Γ",
+   "book": "Γ",
+   "dispersion": 0.00479,
+   "total_articles": 332,
+   "p_value": 0.065,
+   "q_value": 0.129,
+   "significant_fdr": false
+  },
+  {
+   "passage": "Λ",
+   "book": "Λ",
+   "dispersion": 0.00415,
+   "total_articles": 424,
+   "p_value": 0.179,
+   "q_value": 0.234,
+   "significant_fdr": false
+  },
+  {
+   "passage": "Κ",
+   "book": "Κ",
+   "dispersion": 0.00405,
+   "total_articles": 215,
+   "p_value": 0.03,
+   "q_value": 0.104,
+   "significant_fdr": false
+  },
+  {
+   "passage": "Ζ",
+   "book": "Ζ",
+   "dispersion": 0.00392,
+   "total_articles": 515,
+   "p_value": 0.234,
+   "q_value": 0.273,
+   "significant_fdr": false
+  },
+  {
+   "passage": "Η",
+   "book": "Η",
+   "dispersion": 0.0037,
+   "total_articles": 191,
+   "p_value": 0.065,
+   "q_value": 0.129,
+   "significant_fdr": false
+  },
+  {
+   "passage": "Ε",
+   "book": "Ε",
+   "dispersion": 0.0033,
+   "total_articles": 185,
+   "p_value": 0.139,
+   "q_value": 0.217,
+   "significant_fdr": false
+  },
+  {
+   "passage": "Ι",
+   "book": "Ι",
+   "dispersion": 0.0031,
+   "total_articles": 198,
+   "p_value": 0.184,
+   "q_value": 0.234,
+   "significant_fdr": false
+  },
+  {
+   "passage": "Ν",
+   "book": "Ν",
+   "dispersion": 0.00214,
+   "total_articles": 218,
+   "p_value": 0.448,
+   "q_value": 0.482,
+   "significant_fdr": false
+  },
+  {
+   "passage": "Β",
+   "book": "Β",
+   "dispersion": 0.00051,
+   "total_articles": 348,
+   "p_value": 0.975,
+   "q_value": 0.975,
+   "significant_fdr": false
+  }
+ ],
  "sparsity": {
   "cell_article_hist": {
    "5+": 194,
@@ -563,7 +731,8 @@
    "p_value": 0.005,
    "q_value": 0.023,
    "significant": true,
-   "significant_fdr": true
+   "significant_fdr": true,
+   "floor_fail_early": false
   },
   {
    "passage": "Μ",
@@ -576,7 +745,8 @@
    "p_value": 0.005,
    "q_value": 0.023,
    "significant": true,
-   "significant_fdr": true
+   "significant_fdr": true,
+   "floor_fail_early": false
   },
   {
    "passage": "α",
@@ -589,7 +759,8 @@
    "p_value": 0.005,
    "q_value": 0.023,
    "significant": true,
-   "significant_fdr": true
+   "significant_fdr": true,
+   "floor_fail_early": false
   },
   {
    "passage": "Θ",
@@ -602,7 +773,8 @@
    "p_value": 0.06,
    "q_value": 0.209,
    "significant": false,
-   "significant_fdr": false
+   "significant_fdr": false,
+   "floor_fail_early": false
   },
   {
    "passage": "Λ",
@@ -615,7 +787,8 @@
    "p_value": 0.164,
    "q_value": 0.46,
    "significant": false,
-   "significant_fdr": false
+   "significant_fdr": false,
+   "floor_fail_early": false
   },
   {
    "passage": "Δ",
@@ -628,7 +801,8 @@
    "p_value": 0.328,
    "q_value": 0.508,
    "significant": false,
-   "significant_fdr": false
+   "significant_fdr": false,
+   "floor_fail_early": false
   },
   {
    "passage": "Κ",
@@ -641,7 +815,8 @@
    "p_value": 0.284,
    "q_value": 0.508,
    "significant": false,
-   "significant_fdr": false
+   "significant_fdr": false,
+   "floor_fail_early": false
   },
   {
    "passage": "Η",
@@ -654,7 +829,8 @@
    "p_value": 0.224,
    "q_value": 0.508,
    "significant": false,
-   "significant_fdr": false
+   "significant_fdr": false,
+   "floor_fail_early": false
   },
   {
    "passage": "Ν",
@@ -667,7 +843,8 @@
    "p_value": 0.328,
    "q_value": 0.508,
    "significant": false,
-   "significant_fdr": false
+   "significant_fdr": false,
+   "floor_fail_early": false
   },
   {
    "passage": "Ε",
@@ -680,7 +857,8 @@
    "p_value": 0.363,
    "q_value": 0.508,
    "significant": false,
-   "significant_fdr": false
+   "significant_fdr": false,
+   "floor_fail_early": false
   },
   {
    "passage": "Γ",
@@ -693,7 +871,8 @@
    "p_value": 0.453,
    "q_value": 0.576,
    "significant": false,
-   "significant_fdr": false
+   "significant_fdr": false,
+   "floor_fail_early": false
   },
   {
    "passage": "Ζ",
@@ -706,7 +885,8 @@
    "p_value": 0.741,
    "q_value": 0.865,
    "significant": false,
-   "significant_fdr": false
+   "significant_fdr": false,
+   "floor_fail_early": false
   },
   {
    "passage": "Ι",
@@ -719,7 +899,8 @@
    "p_value": 0.836,
    "q_value": 0.9,
    "significant": false,
-   "significant_fdr": false
+   "significant_fdr": false,
+   "floor_fail_early": false
   },
   {
    "passage": "Β",
@@ -732,7 +913,150 @@
    "p_value": 0.9,
    "q_value": 0.9,
    "significant": false,
-   "significant_fdr": false
+   "significant_fdr": false,
+   "floor_fail_early": false
+  }
+ ],
+ "units": [
+  {
+   "passage": "Α",
+   "book": "Α",
+   "early_articles": 359,
+   "late_articles": 267,
+   "early_share": 0.1509,
+   "late_share": 0.1297,
+   "delta": -0.0212,
+   "total_articles": 626
+  },
+  {
+   "passage": "Ζ",
+   "book": "Ζ",
+   "early_articles": 274,
+   "late_articles": 241,
+   "early_share": 0.1152,
+   "late_share": 0.1171,
+   "delta": 0.0019,
+   "total_articles": 515
+  },
+  {
+   "passage": "Δ",
+   "book": "Δ",
+   "early_articles": 243,
+   "late_articles": 197,
+   "early_share": 0.1021,
+   "late_share": 0.0957,
+   "delta": -0.0064,
+   "total_articles": 440
+  },
+  {
+   "passage": "Λ",
+   "book": "Λ",
+   "early_articles": 218,
+   "late_articles": 206,
+   "early_share": 0.0916,
+   "late_share": 0.1001,
+   "delta": 0.0085,
+   "total_articles": 424
+  },
+  {
+   "passage": "Β",
+   "book": "Β",
+   "early_articles": 186,
+   "late_articles": 162,
+   "early_share": 0.0782,
+   "late_share": 0.0787,
+   "delta": 0.0005,
+   "total_articles": 348
+  },
+  {
+   "passage": "Γ",
+   "book": "Γ",
+   "early_articles": 174,
+   "late_articles": 158,
+   "early_share": 0.0731,
+   "late_share": 0.0768,
+   "delta": 0.0036,
+   "total_articles": 332
+  },
+  {
+   "passage": "Μ",
+   "book": "Μ",
+   "early_articles": 191,
+   "late_articles": 127,
+   "early_share": 0.0803,
+   "late_share": 0.0617,
+   "delta": -0.0186,
+   "total_articles": 318
+  },
+  {
+   "passage": "Θ",
+   "book": "Θ",
+   "early_articles": 148,
+   "late_articles": 146,
+   "early_share": 0.0622,
+   "late_share": 0.0709,
+   "delta": 0.0087,
+   "total_articles": 294
+  },
+  {
+   "passage": "Ν",
+   "book": "Ν",
+   "early_articles": 112,
+   "late_articles": 106,
+   "early_share": 0.0471,
+   "late_share": 0.0515,
+   "delta": 0.0044,
+   "total_articles": 218
+  },
+  {
+   "passage": "Κ",
+   "book": "Κ",
+   "early_articles": 121,
+   "late_articles": 94,
+   "early_share": 0.0509,
+   "late_share": 0.0457,
+   "delta": -0.0052,
+   "total_articles": 215
+  },
+  {
+   "passage": "Ι",
+   "book": "Ι",
+   "early_articles": 107,
+   "late_articles": 91,
+   "early_share": 0.045,
+   "late_share": 0.0442,
+   "delta": -0.0008,
+   "total_articles": 198
+  },
+  {
+   "passage": "Η",
+   "book": "Η",
+   "early_articles": 97,
+   "late_articles": 94,
+   "early_share": 0.0408,
+   "late_share": 0.0457,
+   "delta": 0.0049,
+   "total_articles": 191
+  },
+  {
+   "passage": "Ε",
+   "book": "Ε",
+   "early_articles": 95,
+   "late_articles": 90,
+   "early_share": 0.0399,
+   "late_share": 0.0437,
+   "delta": 0.0038,
+   "total_articles": 185
+  },
+  {
+   "passage": "α",
+   "book": "α",
+   "early_articles": 54,
+   "late_articles": 79,
+   "early_share": 0.0227,
+   "late_share": 0.0384,
+   "delta": 0.0157,
+   "total_articles": 133
   }
  ],
  "focus": {}

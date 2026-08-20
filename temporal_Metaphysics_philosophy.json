@@ -2,11 +2,14 @@
  "work": "Metaphysics",
  "system": "stephanus",
  "bin_years": 5,
+ "grain": "passage",
  "journals_filter": "philosophy",
  "movers_min_articles": 15,
+ "mover_min_early": 8,
  "n_passages_tested": 97,
  "n_significant_movers": 19,
  "n_significant_movers_fdr": 6,
+ "n_fdr_movers_solid": 3,
  "n_movers_expected_by_chance": 4.9,
  "n_citations": 5306,
  "n_articles": 723,
@@ -16,6 +19,12 @@
   2022
  ],
  "split_year": 2004,
+ "verdict": "REAL",
+ "stability_powered": false,
+ "min_stable_articles": 100,
+ "two_bin_flat_only": false,
+ "two_bin_understates": false,
+ "near_threshold": false,
  "shape_change": {
   "spearman_rho": 0.6631,
   "tvd": 0.2161,
@@ -33,6 +42,265 @@
    "tvd_percentile": 100.0
   }
  },
+ "multibin_structure": {
+  "n_periods": 3,
+  "periods": [
+   [
+    1955,
+    1996
+   ],
+   [
+    1996,
+    2013
+   ],
+   [
+    2013,
+    2022
+   ]
+  ],
+  "dispersion": 0.2574,
+  "null_mean": 0.1864,
+  "null_sd": 0.0065,
+  "z": 10.87,
+  "concentration": {
+   "n_structure_movers_fdr": 5,
+   "n_tested": 97,
+   "tested_dispersion_total": 0.1511,
+   "share_of_whole": 0.587,
+   "top1_share": 0.036,
+   "top3_share": 0.086,
+   "top5_share": 0.13,
+   "top10_share": 0.22,
+   "n_passages_to_50pct": 30
+  }
+ },
+ "multibin_movers": [
+  {
+   "passage": "1072b",
+   "book": "Λ",
+   "dispersion": 0.00549,
+   "total_articles": 48,
+   "p_value": 0.005,
+   "q_value": 0.097,
+   "significant_fdr": true
+  },
+  {
+   "passage": "1038b",
+   "book": "Ζ",
+   "dispersion": 0.00402,
+   "total_articles": 31,
+   "p_value": 0.005,
+   "q_value": 0.097,
+   "significant_fdr": true
+  },
+  {
+   "passage": "1048a",
+   "book": "Θ",
+   "dispersion": 0.00354,
+   "total_articles": 35,
+   "p_value": 0.005,
+   "q_value": 0.097,
+   "significant_fdr": true
+  },
+  {
+   "passage": "1072a",
+   "book": "Λ",
+   "dispersion": 0.00354,
+   "total_articles": 32,
+   "p_value": 0.005,
+   "q_value": 0.097,
+   "significant_fdr": true
+  },
+  {
+   "passage": "1029a",
+   "book": "Ζ",
+   "dispersion": 0.00299,
+   "total_articles": 38,
+   "p_value": 0.035,
+   "q_value": 0.188,
+   "significant_fdr": false
+  },
+  {
+   "passage": "1050a",
+   "book": "Θ",
+   "dispersion": 0.00295,
+   "total_articles": 30,
+   "p_value": 0.02,
+   "q_value": 0.161,
+   "significant_fdr": false
+  },
+  {
+   "passage": "1048b",
+   "book": "Θ",
+   "dispersion": 0.00274,
+   "total_articles": 28,
+   "p_value": 0.01,
+   "q_value": 0.121,
+   "significant_fdr": false
+  },
+  {
+   "passage": "1013a",
+   "book": "Δ",
+   "dispersion": 0.00266,
+   "total_articles": 21,
+   "p_value": 0.01,
+   "q_value": 0.121,
+   "significant_fdr": false
+  },
+  {
+   "passage": "981a",
+   "book": "Α",
+   "dispersion": 0.00266,
+   "total_articles": 20,
+   "p_value": 0.015,
+   "q_value": 0.161,
+   "significant_fdr": false
+  },
+  {
+   "passage": "1045a",
+   "book": "Η",
+   "dispersion": 0.00261,
+   "total_articles": 26,
+   "p_value": 0.01,
+   "q_value": 0.121,
+   "significant_fdr": false
+  },
+  {
+   "passage": "1030a",
+   "book": "Ζ",
+   "dispersion": 0.00247,
+   "total_articles": 26,
+   "p_value": 0.035,
+   "q_value": 0.188,
+   "significant_fdr": false
+  },
+  {
+   "passage": "1035b",
+   "book": "Ζ",
+   "dispersion": 0.00247,
+   "total_articles": 28,
+   "p_value": 0.045,
+   "q_value": 0.207,
+   "significant_fdr": false
+  },
+  {
+   "passage": "1049b",
+   "book": "Θ",
+   "dispersion": 0.00246,
+   "total_articles": 28,
+   "p_value": 0.045,
+   "q_value": 0.207,
+   "significant_fdr": false
+  },
+  {
+   "passage": "1037a",
+   "book": "Ζ",
+   "dispersion": 0.00245,
+   "total_articles": 33,
+   "p_value": 0.03,
+   "q_value": 0.188,
+   "significant_fdr": false
+  },
+  {
+   "passage": "1044b",
+   "book": "Η",
+   "dispersion": 0.00239,
+   "total_articles": 22,
+   "p_value": 0.02,
+   "q_value": 0.161,
+   "significant_fdr": false
+  },
+  {
+   "passage": "997b",
+   "book": "Β",
+   "dispersion": 0.00238,
+   "total_articles": 24,
+   "p_value": 0.045,
+   "q_value": 0.207,
+   "significant_fdr": false
+  },
+  {
+   "passage": "1076a",
+   "book": "Λ",
+   "dispersion": 0.00235,
+   "total_articles": 21,
+   "p_value": 0.02,
+   "q_value": 0.161,
+   "significant_fdr": false
+  },
+  {
+   "passage": "1040a",
+   "book": "Ζ",
+   "dispersion": 0.00223,
+   "total_articles": 16,
+   "p_value": 0.005,
+   "q_value": 0.097,
+   "significant_fdr": true
+  },
+  {
+   "passage": "1078b",
+   "book": "Μ",
+   "dispersion": 0.00215,
+   "total_articles": 34,
+   "p_value": 0.134,
+   "q_value": 0.352,
+   "significant_fdr": false
+  },
+  {
+   "passage": "1042a",
+   "book": "Η",
+   "dispersion": 0.00212,
+   "total_articles": 32,
+   "p_value": 0.109,
+   "q_value": 0.322,
+   "significant_fdr": false
+  },
+  {
+   "passage": "1028b",
+   "book": "Ζ",
+   "dispersion": 0.00206,
+   "total_articles": 42,
+   "p_value": 0.174,
+   "q_value": 0.375,
+   "significant_fdr": false
+  },
+  {
+   "passage": "1046b",
+   "book": "Θ",
+   "dispersion": 0.00206,
+   "total_articles": 22,
+   "p_value": 0.055,
+   "q_value": 0.221,
+   "significant_fdr": false
+  },
+  {
+   "passage": "1074b",
+   "book": "Λ",
+   "dispersion": 0.00205,
+   "total_articles": 27,
+   "p_value": 0.06,
+   "q_value": 0.223,
+   "significant_fdr": false
+  },
+  {
+   "passage": "1041a",
+   "book": "Ζ",
+   "dispersion": 0.002,
+   "total_articles": 18,
+   "p_value": 0.025,
+   "q_value": 0.186,
+   "significant_fdr": false
+  },
+  {
+   "passage": "1042b",
+   "book": "Η",
+   "dispersion": 0.00198,
+   "total_articles": 16,
+   "p_value": 0.03,
+   "q_value": 0.188,
+   "significant_fdr": false
+  }
+ ],
  "sparsity": {
   "cell_article_hist": {
    "2": 439,
@@ -500,7 +768,8 @@
    "p_value": 0.005,
    "q_value": 0.08,
    "significant": true,
-   "significant_fdr": true
+   "significant_fdr": true,
+   "floor_fail_early": true
   },
   {
    "passage": "1038b",
@@ -513,7 +782,8 @@
    "p_value": 0.01,
    "q_value": 0.138,
    "significant": true,
-   "significant_fdr": false
+   "significant_fdr": false,
+   "floor_fail_early": false
   },
   {
    "passage": "1050a",
@@ -526,7 +796,8 @@
    "p_value": 0.005,
    "q_value": 0.08,
    "significant": true,
-   "significant_fdr": true
+   "significant_fdr": true,
+   "floor_fail_early": false
   },
   {
    "passage": "1045a",
@@ -539,7 +810,8 @@
    "p_value": 0.005,
    "q_value": 0.08,
    "significant": true,
-   "significant_fdr": true
+   "significant_fdr": true,
+   "floor_fail_early": false
   },
   {
    "passage": "997b",
@@ -552,7 +824,8 @@
    "p_value": 0.005,
    "q_value": 0.08,
    "significant": true,
-   "significant_fdr": true
+   "significant_fdr": true,
+   "floor_fail_early": true
   },
   {
    "passage": "1042b",
@@ -565,7 +838,8 @@
    "p_value": 0.005,
    "q_value": 0.08,
    "significant": true,
-   "significant_fdr": true
+   "significant_fdr": true,
+   "floor_fail_early": true
   },
   {
    "passage": "1029a",
@@ -578,7 +852,8 @@
    "p_value": 0.005,
    "q_value": 0.08,
    "significant": true,
-   "significant_fdr": true
+   "significant_fdr": true,
+   "floor_fail_early": false
   },
   {
    "passage": "1040b",
@@ -591,7 +866,8 @@
    "p_value": 0.02,
    "q_value": 0.148,
    "significant": true,
-   "significant_fdr": false
+   "significant_fdr": false,
+   "floor_fail_early": false
   },
   {
    "passage": "1070a",
@@ -604,7 +880,8 @@
    "p_value": 0.015,
    "q_value": 0.145,
    "significant": true,
-   "significant_fdr": false
+   "significant_fdr": false,
+   "floor_fail_early": false
   },
   {
    "passage": "1005b",
@@ -617,7 +894,8 @@
    "p_value": 0.05,
    "q_value": 0.241,
    "significant": true,
-   "significant_fdr": false
+   "significant_fdr": false,
+   "floor_fail_early": false
   },
   {
    "passage": "1048a",
@@ -630,7 +908,8 @@
    "p_value": 0.055,
    "q_value": 0.241,
    "significant": false,
-   "significant_fdr": false
+   "significant_fdr": false,
+   "floor_fail_early": false
   },
   {
    "passage": "1034b",
@@ -643,7 +922,8 @@
    "p_value": 0.015,
    "q_value": 0.145,
    "significant": true,
-   "significant_fdr": false
+   "significant_fdr": false,
+   "floor_fail_early": true
   },
   {
    "passage": "1071b",
@@ -656,7 +936,8 @@
    "p_value": 0.03,
    "q_value": 0.193,
    "significant": true,
-   "significant_fdr": false
+   "significant_fdr": false,
+   "floor_fail_early": false
   },
   {
    "passage": "1072a",
@@ -669,7 +950,8 @@
    "p_value": 0.055,
    "q_value": 0.241,
    "significant": false,
-   "significant_fdr": false
+   "significant_fdr": false,
+   "floor_fail_early": false
   },
   {
    "passage": "1033b",
@@ -682,7 +964,8 @@
    "p_value": 0.02,
    "q_value": 0.148,
    "significant": true,
-   "significant_fdr": false
+   "significant_fdr": false,
+   "floor_fail_early": false
   },
   {
    "passage": "1027b",
@@ -695,7 +978,8 @@
    "p_value": 0.02,
    "q_value": 0.148,
    "significant": true,
-   "significant_fdr": false
+   "significant_fdr": false,
+   "floor_fail_early": true
   },
   {
    "passage": "1037a",
@@ -708,7 +992,8 @@
    "p_value": 0.09,
    "q_value": 0.334,
    "significant": false,
-   "significant_fdr": false
+   "significant_fdr": false,
+   "floor_fail_early": false
   },
   {
    "passage": "985b",
@@ -721,7 +1006,8 @@
    "p_value": 0.015,
    "q_value": 0.145,
    "significant": true,
-   "significant_fdr": false
+   "significant_fdr": false,
+   "floor_fail_early": false
   },
   {
    "passage": "1035a",
@@ -734,7 +1020,8 @@
    "p_value": 0.04,
    "q_value": 0.214,
    "significant": true,
-   "significant_fdr": false
+   "significant_fdr": false,
+   "floor_fail_early": false
   },
   {
    "passage": "1071a",
@@ -747,7 +1034,8 @@
    "p_value": 0.025,
    "q_value": 0.172,
    "significant": true,
-   "significant_fdr": false
+   "significant_fdr": false,
+   "floor_fail_early": false
   },
   {
    "passage": "1039b",
@@ -760,7 +1048,8 @@
    "p_value": 0.065,
    "q_value": 0.261,
    "significant": false,
-   "significant_fdr": false
+   "significant_fdr": false,
+   "floor_fail_early": false
   },
   {
    "passage": "998a",
@@ -773,7 +1062,8 @@
    "p_value": 0.055,
    "q_value": 0.241,
    "significant": false,
-   "significant_fdr": false
+   "significant_fdr": false,
+   "floor_fail_early": false
   },
   {
    "passage": "1022a",
@@ -786,7 +1076,8 @@
    "p_value": 0.04,
    "q_value": 0.214,
    "significant": true,
-   "significant_fdr": false
+   "significant_fdr": false,
+   "floor_fail_early": true
   },
   {
    "passage": "1003b",
@@ -799,7 +1090,8 @@
    "p_value": 0.129,
    "q_value": 0.392,
    "significant": false,
-   "significant_fdr": false
+   "significant_fdr": false,
+   "floor_fail_early": false
   },
   {
    "passage": "1007a",
@@ -812,7 +1104,2280 @@
    "p_value": 0.035,
    "q_value": 0.211,
    "significant": true,
-   "significant_fdr": false
+   "significant_fdr": false,
+   "floor_fail_early": false
+  }
+ ],
+ "units": [
+  {
+   "passage": "1072b",
+   "book": "Λ",
+   "early_articles": 22,
+   "late_articles": 26,
+   "early_share": 0.0124,
+   "late_share": 0.0159,
+   "delta": 0.0036,
+   "total_articles": 48
+  },
+  {
+   "passage": "1028b",
+   "book": "Ζ",
+   "early_articles": 19,
+   "late_articles": 23,
+   "early_share": 0.0107,
+   "late_share": 0.0141,
+   "delta": 0.0034,
+   "total_articles": 42
+  },
+  {
+   "passage": "987b",
+   "book": "Α",
+   "early_articles": 21,
+   "late_articles": 21,
+   "early_share": 0.0118,
+   "late_share": 0.0129,
+   "delta": 0.0011,
+   "total_articles": 42
+  },
+  {
+   "passage": "1029a",
+   "book": "Ζ",
+   "early_articles": 25,
+   "late_articles": 13,
+   "early_share": 0.0141,
+   "late_share": 0.008,
+   "delta": -0.0061,
+   "total_articles": 38
+  },
+  {
+   "passage": "1003a",
+   "book": "Γ",
+   "early_articles": 17,
+   "late_articles": 20,
+   "early_share": 0.0096,
+   "late_share": 0.0123,
+   "delta": 0.0027,
+   "total_articles": 37
+  },
+  {
+   "passage": "1003b",
+   "book": "Γ",
+   "early_articles": 15,
+   "late_articles": 20,
+   "early_share": 0.0084,
+   "late_share": 0.0123,
+   "delta": 0.0038,
+   "total_articles": 35
+  },
+  {
+   "passage": "1017a",
+   "book": "Δ",
+   "early_articles": 21,
+   "late_articles": 14,
+   "early_share": 0.0118,
+   "late_share": 0.0086,
+   "delta": -0.0032,
+   "total_articles": 35
+  },
+  {
+   "passage": "1048a",
+   "book": "Θ",
+   "early_articles": 23,
+   "late_articles": 12,
+   "early_share": 0.0129,
+   "late_share": 0.0074,
+   "delta": -0.0056,
+   "total_articles": 35
+  },
+  {
+   "passage": "1078b",
+   "book": "Μ",
+   "early_articles": 15,
+   "late_articles": 19,
+   "early_share": 0.0084,
+   "late_share": 0.0116,
+   "delta": 0.0032,
+   "total_articles": 34
+  },
+  {
+   "passage": "1005b",
+   "book": "Γ",
+   "early_articles": 22,
+   "late_articles": 11,
+   "early_share": 0.0124,
+   "late_share": 0.0067,
+   "delta": -0.0056,
+   "total_articles": 33
+  },
+  {
+   "passage": "1032b",
+   "book": "Ζ",
+   "early_articles": 17,
+   "late_articles": 16,
+   "early_share": 0.0096,
+   "late_share": 0.0098,
+   "delta": 0.0003,
+   "total_articles": 33
+  },
+  {
+   "passage": "1037a",
+   "book": "Ζ",
+   "early_articles": 21,
+   "late_articles": 12,
+   "early_share": 0.0118,
+   "late_share": 0.0074,
+   "delta": -0.0044,
+   "total_articles": 33
+  },
+  {
+   "passage": "1028a",
+   "book": "Ζ",
+   "early_articles": 19,
+   "late_articles": 13,
+   "early_share": 0.0107,
+   "late_share": 0.008,
+   "delta": -0.0027,
+   "total_articles": 32
+  },
+  {
+   "passage": "1042a",
+   "book": "Η",
+   "early_articles": 18,
+   "late_articles": 14,
+   "early_share": 0.0101,
+   "late_share": 0.0086,
+   "delta": -0.0015,
+   "total_articles": 32
+  },
+  {
+   "passage": "1072a",
+   "book": "Λ",
+   "early_articles": 21,
+   "late_articles": 11,
+   "early_share": 0.0118,
+   "late_share": 0.0067,
+   "delta": -0.0051,
+   "total_articles": 32
+  },
+  {
+   "passage": "1032a",
+   "book": "Ζ",
+   "early_articles": 18,
+   "late_articles": 13,
+   "early_share": 0.0101,
+   "late_share": 0.008,
+   "delta": -0.0021,
+   "total_articles": 31
+  },
+  {
+   "passage": "1038b",
+   "book": "Ζ",
+   "early_articles": 23,
+   "late_articles": 8,
+   "early_share": 0.0129,
+   "late_share": 0.0049,
+   "delta": -0.008,
+   "total_articles": 31
+  },
+  {
+   "passage": "1070a",
+   "book": "Λ",
+   "early_articles": 21,
+   "late_articles": 10,
+   "early_share": 0.0118,
+   "late_share": 0.0061,
+   "delta": -0.0057,
+   "total_articles": 31
+  },
+  {
+   "passage": "1043b",
+   "book": "Η",
+   "early_articles": 17,
+   "late_articles": 13,
+   "early_share": 0.0096,
+   "late_share": 0.008,
+   "delta": -0.0016,
+   "total_articles": 30
+  },
+  {
+   "passage": "1050a",
+   "book": "Θ",
+   "early_articles": 22,
+   "late_articles": 8,
+   "early_share": 0.0124,
+   "late_share": 0.0049,
+   "delta": -0.0075,
+   "total_articles": 30
+  },
+  {
+   "passage": "1043a",
+   "book": "Η",
+   "early_articles": 14,
+   "late_articles": 15,
+   "early_share": 0.0079,
+   "late_share": 0.0092,
+   "delta": 0.0013,
+   "total_articles": 29
+  },
+  {
+   "passage": "1026b",
+   "book": "Ε",
+   "early_articles": 13,
+   "late_articles": 15,
+   "early_share": 0.0073,
+   "late_share": 0.0092,
+   "delta": 0.0019,
+   "total_articles": 28
+  },
+  {
+   "passage": "1035b",
+   "book": "Ζ",
+   "early_articles": 16,
+   "late_articles": 12,
+   "early_share": 0.009,
+   "late_share": 0.0074,
+   "delta": -0.0016,
+   "total_articles": 28
+  },
+  {
+   "passage": "1045b",
+   "book": "Η",
+   "early_articles": 14,
+   "late_articles": 14,
+   "early_share": 0.0079,
+   "late_share": 0.0086,
+   "delta": 0.0007,
+   "total_articles": 28
+  },
+  {
+   "passage": "1048b",
+   "book": "Θ",
+   "early_articles": 17,
+   "late_articles": 11,
+   "early_share": 0.0096,
+   "late_share": 0.0067,
+   "delta": -0.0028,
+   "total_articles": 28
+  },
+  {
+   "passage": "1049b",
+   "book": "Θ",
+   "early_articles": 16,
+   "late_articles": 12,
+   "early_share": 0.009,
+   "late_share": 0.0074,
+   "delta": -0.0016,
+   "total_articles": 28
+  },
+  {
+   "passage": "1069a",
+   "book": "Λ",
+   "early_articles": 12,
+   "late_articles": 16,
+   "early_share": 0.0067,
+   "late_share": 0.0098,
+   "delta": 0.0031,
+   "total_articles": 28
+  },
+  {
+   "passage": "1026a",
+   "book": "Ε",
+   "early_articles": 15,
+   "late_articles": 12,
+   "early_share": 0.0084,
+   "late_share": 0.0074,
+   "delta": -0.0011,
+   "total_articles": 27
+  },
+  {
+   "passage": "1029b",
+   "book": "Ζ",
+   "early_articles": 15,
+   "late_articles": 12,
+   "early_share": 0.0084,
+   "late_share": 0.0074,
+   "delta": -0.0011,
+   "total_articles": 27
+  },
+  {
+   "passage": "1040b",
+   "book": "Ζ",
+   "early_articles": 19,
+   "late_articles": 8,
+   "early_share": 0.0107,
+   "late_share": 0.0049,
+   "delta": -0.0058,
+   "total_articles": 27
+  },
+  {
+   "passage": "1074b",
+   "book": "Λ",
+   "early_articles": 12,
+   "late_articles": 15,
+   "early_share": 0.0067,
+   "late_share": 0.0092,
+   "delta": 0.0025,
+   "total_articles": 27
+  },
+  {
+   "passage": "1025b",
+   "book": "Ε",
+   "early_articles": 16,
+   "late_articles": 10,
+   "early_share": 0.009,
+   "late_share": 0.0061,
+   "delta": -0.0029,
+   "total_articles": 26
+  },
+  {
+   "passage": "1030a",
+   "book": "Ζ",
+   "early_articles": 15,
+   "late_articles": 11,
+   "early_share": 0.0084,
+   "late_share": 0.0067,
+   "delta": -0.0017,
+   "total_articles": 26
+  },
+  {
+   "passage": "1045a",
+   "book": "Η",
+   "early_articles": 8,
+   "late_articles": 18,
+   "early_share": 0.0045,
+   "late_share": 0.011,
+   "delta": 0.0065,
+   "total_articles": 26
+  },
+  {
+   "passage": "1069b",
+   "book": "Λ",
+   "early_articles": 13,
+   "late_articles": 13,
+   "early_share": 0.0073,
+   "late_share": 0.008,
+   "delta": 0.0007,
+   "total_articles": 26
+  },
+  {
+   "passage": "1017b",
+   "book": "Δ",
+   "early_articles": 16,
+   "late_articles": 9,
+   "early_share": 0.009,
+   "late_share": 0.0055,
+   "delta": -0.0035,
+   "total_articles": 25
+  },
+  {
+   "passage": "1041b",
+   "book": "Ζ",
+   "early_articles": 13,
+   "late_articles": 12,
+   "early_share": 0.0073,
+   "late_share": 0.0074,
+   "delta": 0.0,
+   "total_articles": 25
+  },
+  {
+   "passage": "1050b",
+   "book": "Θ",
+   "early_articles": 14,
+   "late_articles": 11,
+   "early_share": 0.0079,
+   "late_share": 0.0067,
+   "delta": -0.0011,
+   "total_articles": 25
+  },
+  {
+   "passage": "995b",
+   "book": "Β",
+   "early_articles": 15,
+   "late_articles": 10,
+   "early_share": 0.0084,
+   "late_share": 0.0061,
+   "delta": -0.0023,
+   "total_articles": 25
+  },
+  {
+   "passage": "1016b",
+   "book": "Δ",
+   "early_articles": 13,
+   "late_articles": 11,
+   "early_share": 0.0073,
+   "late_share": 0.0067,
+   "delta": -0.0006,
+   "total_articles": 24
+  },
+  {
+   "passage": "1034a",
+   "book": "Ζ",
+   "early_articles": 13,
+   "late_articles": 11,
+   "early_share": 0.0073,
+   "late_share": 0.0067,
+   "delta": -0.0006,
+   "total_articles": 24
+  },
+  {
+   "passage": "1036b",
+   "book": "Ζ",
+   "early_articles": 15,
+   "late_articles": 9,
+   "early_share": 0.0084,
+   "late_share": 0.0055,
+   "delta": -0.0029,
+   "total_articles": 24
+  },
+  {
+   "passage": "1071b",
+   "book": "Λ",
+   "early_articles": 17,
+   "late_articles": 7,
+   "early_share": 0.0096,
+   "late_share": 0.0043,
+   "delta": -0.0053,
+   "total_articles": 24
+  },
+  {
+   "passage": "1075a",
+   "book": "Λ",
+   "early_articles": 11,
+   "late_articles": 13,
+   "early_share": 0.0062,
+   "late_share": 0.008,
+   "delta": 0.0018,
+   "total_articles": 24
+  },
+  {
+   "passage": "997b",
+   "book": "Β",
+   "early_articles": 7,
+   "late_articles": 17,
+   "early_share": 0.0039,
+   "late_share": 0.0104,
+   "delta": 0.0065,
+   "total_articles": 24
+  },
+  {
+   "passage": "998a",
+   "book": "Β",
+   "early_articles": 9,
+   "late_articles": 15,
+   "early_share": 0.0051,
+   "late_share": 0.0092,
+   "delta": 0.0041,
+   "total_articles": 24
+  },
+  {
+   "passage": "1025a",
+   "book": "Δ",
+   "early_articles": 9,
+   "late_articles": 14,
+   "early_share": 0.0051,
+   "late_share": 0.0086,
+   "delta": 0.0035,
+   "total_articles": 23
+  },
+  {
+   "passage": "1033b",
+   "book": "Ζ",
+   "early_articles": 16,
+   "late_articles": 7,
+   "early_share": 0.009,
+   "late_share": 0.0043,
+   "delta": -0.0047,
+   "total_articles": 23
+  },
+  {
+   "passage": "1036a",
+   "book": "Ζ",
+   "early_articles": 11,
+   "late_articles": 12,
+   "early_share": 0.0062,
+   "late_share": 0.0074,
+   "delta": 0.0012,
+   "total_articles": 23
+  },
+  {
+   "passage": "1006a",
+   "book": "Γ",
+   "early_articles": 12,
+   "late_articles": 10,
+   "early_share": 0.0067,
+   "late_share": 0.0061,
+   "delta": -0.0006,
+   "total_articles": 22
+  },
+  {
+   "passage": "1034b",
+   "book": "Ζ",
+   "early_articles": 7,
+   "late_articles": 15,
+   "early_share": 0.0039,
+   "late_share": 0.0092,
+   "delta": 0.0053,
+   "total_articles": 22
+  },
+  {
+   "passage": "1039b",
+   "book": "Ζ",
+   "early_articles": 15,
+   "late_articles": 7,
+   "early_share": 0.0084,
+   "late_share": 0.0043,
+   "delta": -0.0041,
+   "total_articles": 22
+  },
+  {
+   "passage": "1044b",
+   "book": "Η",
+   "early_articles": 14,
+   "late_articles": 8,
+   "early_share": 0.0079,
+   "late_share": 0.0049,
+   "delta": -0.003,
+   "total_articles": 22
+  },
+  {
+   "passage": "1046b",
+   "book": "Θ",
+   "early_articles": 9,
+   "late_articles": 13,
+   "early_share": 0.0051,
+   "late_share": 0.008,
+   "delta": 0.0029,
+   "total_articles": 22
+  },
+  {
+   "passage": "983b",
+   "book": "Α",
+   "early_articles": 13,
+   "late_articles": 9,
+   "early_share": 0.0073,
+   "late_share": 0.0055,
+   "delta": -0.0018,
+   "total_articles": 22
+  },
+  {
+   "passage": "1013a",
+   "book": "Δ",
+   "early_articles": 8,
+   "late_articles": 13,
+   "early_share": 0.0045,
+   "late_share": 0.008,
+   "delta": 0.0035,
+   "total_articles": 21
+  },
+  {
+   "passage": "1030b",
+   "book": "Ζ",
+   "early_articles": 9,
+   "late_articles": 12,
+   "early_share": 0.0051,
+   "late_share": 0.0074,
+   "delta": 0.0023,
+   "total_articles": 21
+  },
+  {
+   "passage": "1051b",
+   "book": "Θ",
+   "early_articles": 9,
+   "late_articles": 12,
+   "early_share": 0.0051,
+   "late_share": 0.0074,
+   "delta": 0.0023,
+   "total_articles": 21
+  },
+  {
+   "passage": "1076a",
+   "book": "Λ",
+   "early_articles": 8,
+   "late_articles": 13,
+   "early_share": 0.0045,
+   "late_share": 0.008,
+   "delta": 0.0035,
+   "total_articles": 21
+  },
+  {
+   "passage": "1078a",
+   "book": "Μ",
+   "early_articles": 9,
+   "late_articles": 12,
+   "early_share": 0.0051,
+   "late_share": 0.0074,
+   "delta": 0.0023,
+   "total_articles": 21
+  },
+  {
+   "passage": "995a",
+   "book": "α",
+   "early_articles": 11,
+   "late_articles": 10,
+   "early_share": 0.0062,
+   "late_share": 0.0061,
+   "delta": -0.0001,
+   "total_articles": 21
+  },
+  {
+   "passage": "996a",
+   "book": "Β",
+   "early_articles": 12,
+   "late_articles": 9,
+   "early_share": 0.0067,
+   "late_share": 0.0055,
+   "delta": -0.0012,
+   "total_articles": 21
+  },
+  {
+   "passage": "1046a",
+   "book": "Θ",
+   "early_articles": 9,
+   "late_articles": 11,
+   "early_share": 0.0051,
+   "late_share": 0.0067,
+   "delta": 0.0017,
+   "total_articles": 20
+  },
+  {
+   "passage": "1073a",
+   "book": "Λ",
+   "early_articles": 13,
+   "late_articles": 7,
+   "early_share": 0.0073,
+   "late_share": 0.0043,
+   "delta": -0.003,
+   "total_articles": 20
+  },
+  {
+   "passage": "1077b",
+   "book": "Μ",
+   "early_articles": 11,
+   "late_articles": 9,
+   "early_share": 0.0062,
+   "late_share": 0.0055,
+   "delta": -0.0007,
+   "total_articles": 20
+  },
+  {
+   "passage": "981a",
+   "book": "Α",
+   "early_articles": 3,
+   "late_articles": 17,
+   "early_share": 0.0017,
+   "late_share": 0.0104,
+   "delta": 0.0087,
+   "total_articles": 20
+  },
+  {
+   "passage": "1004a",
+   "book": "Γ",
+   "early_articles": 9,
+   "late_articles": 10,
+   "early_share": 0.0051,
+   "late_share": 0.0061,
+   "delta": 0.0011,
+   "total_articles": 19
+  },
+  {
+   "passage": "1005a",
+   "book": "Γ",
+   "early_articles": 11,
+   "late_articles": 8,
+   "early_share": 0.0062,
+   "late_share": 0.0049,
+   "delta": -0.0013,
+   "total_articles": 19
+  },
+  {
+   "passage": "1070b",
+   "book": "Λ",
+   "early_articles": 11,
+   "late_articles": 8,
+   "early_share": 0.0062,
+   "late_share": 0.0049,
+   "delta": -0.0013,
+   "total_articles": 19
+  },
+  {
+   "passage": "1035a",
+   "book": "Ζ",
+   "early_articles": 13,
+   "late_articles": 5,
+   "early_share": 0.0073,
+   "late_share": 0.0031,
+   "delta": -0.0042,
+   "total_articles": 18
+  },
+  {
+   "passage": "1039a",
+   "book": "Ζ",
+   "early_articles": 9,
+   "late_articles": 9,
+   "early_share": 0.0051,
+   "late_share": 0.0055,
+   "delta": 0.0005,
+   "total_articles": 18
+  },
+  {
+   "passage": "1041a",
+   "book": "Ζ",
+   "early_articles": 9,
+   "late_articles": 9,
+   "early_share": 0.0051,
+   "late_share": 0.0055,
+   "delta": 0.0005,
+   "total_articles": 18
+  },
+  {
+   "passage": "1053b",
+   "book": "Ι",
+   "early_articles": 11,
+   "late_articles": 7,
+   "early_share": 0.0062,
+   "late_share": 0.0043,
+   "delta": -0.0019,
+   "total_articles": 18
+  },
+  {
+   "passage": "1071a",
+   "book": "Λ",
+   "early_articles": 13,
+   "late_articles": 5,
+   "early_share": 0.0073,
+   "late_share": 0.0031,
+   "delta": -0.0042,
+   "total_articles": 18
+  },
+  {
+   "passage": "1086b",
+   "book": "Μ",
+   "early_articles": 12,
+   "late_articles": 6,
+   "early_share": 0.0067,
+   "late_share": 0.0037,
+   "delta": -0.0031,
+   "total_articles": 18
+  },
+  {
+   "passage": "1009b",
+   "book": "Γ",
+   "early_articles": 10,
+   "late_articles": 7,
+   "early_share": 0.0056,
+   "late_share": 0.0043,
+   "delta": -0.0013,
+   "total_articles": 17
+  },
+  {
+   "passage": "1024b",
+   "book": "Δ",
+   "early_articles": 9,
+   "late_articles": 8,
+   "early_share": 0.0051,
+   "late_share": 0.0049,
+   "delta": -0.0002,
+   "total_articles": 17
+  },
+  {
+   "passage": "1027a",
+   "book": "Ε",
+   "early_articles": 12,
+   "late_articles": 5,
+   "early_share": 0.0067,
+   "late_share": 0.0031,
+   "delta": -0.0037,
+   "total_articles": 17
+  },
+  {
+   "passage": "1027b",
+   "book": "Ε",
+   "early_articles": 5,
+   "late_articles": 12,
+   "early_share": 0.0028,
+   "late_share": 0.0074,
+   "delta": 0.0045,
+   "total_articles": 17
+  },
+  {
+   "passage": "1049a",
+   "book": "Θ",
+   "early_articles": 9,
+   "late_articles": 8,
+   "early_share": 0.0051,
+   "late_share": 0.0049,
+   "delta": -0.0002,
+   "total_articles": 17
+  },
+  {
+   "passage": "1054b",
+   "book": "Ι",
+   "early_articles": 10,
+   "late_articles": 7,
+   "early_share": 0.0056,
+   "late_share": 0.0043,
+   "delta": -0.0013,
+   "total_articles": 17
+  },
+  {
+   "passage": "1075b",
+   "book": "Λ",
+   "early_articles": 9,
+   "late_articles": 8,
+   "early_share": 0.0051,
+   "late_share": 0.0049,
+   "delta": -0.0002,
+   "total_articles": 17
+  },
+  {
+   "passage": "1022a",
+   "book": "Δ",
+   "early_articles": 5,
+   "late_articles": 11,
+   "early_share": 0.0028,
+   "late_share": 0.0067,
+   "delta": 0.0039,
+   "total_articles": 16
+  },
+  {
+   "passage": "1038a",
+   "book": "Ζ",
+   "early_articles": 7,
+   "late_articles": 9,
+   "early_share": 0.0039,
+   "late_share": 0.0055,
+   "delta": 0.0016,
+   "total_articles": 16
+  },
+  {
+   "passage": "1040a",
+   "book": "Ζ",
+   "early_articles": 10,
+   "late_articles": 6,
+   "early_share": 0.0056,
+   "late_share": 0.0037,
+   "delta": -0.0019,
+   "total_articles": 16
+  },
+  {
+   "passage": "1042b",
+   "book": "Η",
+   "early_articles": 3,
+   "late_articles": 13,
+   "early_share": 0.0017,
+   "late_share": 0.008,
+   "delta": 0.0063,
+   "total_articles": 16
+  },
+  {
+   "passage": "1047a",
+   "book": "Θ",
+   "early_articles": 10,
+   "late_articles": 6,
+   "early_share": 0.0056,
+   "late_share": 0.0037,
+   "delta": -0.0019,
+   "total_articles": 16
+  },
+  {
+   "passage": "1074a",
+   "book": "Λ",
+   "early_articles": 10,
+   "late_articles": 6,
+   "early_share": 0.0056,
+   "late_share": 0.0037,
+   "delta": -0.0019,
+   "total_articles": 16
+  },
+  {
+   "passage": "1091a",
+   "book": "Ν",
+   "early_articles": 8,
+   "late_articles": 8,
+   "early_share": 0.0045,
+   "late_share": 0.0049,
+   "delta": 0.0004,
+   "total_articles": 16
+  },
+  {
+   "passage": "985b",
+   "book": "Α",
+   "early_articles": 12,
+   "late_articles": 4,
+   "early_share": 0.0067,
+   "late_share": 0.0025,
+   "delta": -0.0043,
+   "total_articles": 16
+  },
+  {
+   "passage": "1002b",
+   "book": "Β",
+   "early_articles": 6,
+   "late_articles": 9,
+   "early_share": 0.0034,
+   "late_share": 0.0055,
+   "delta": 0.0021,
+   "total_articles": 15
+  },
+  {
+   "passage": "1004b",
+   "book": "Γ",
+   "early_articles": 8,
+   "late_articles": 7,
+   "early_share": 0.0045,
+   "late_share": 0.0043,
+   "delta": -0.0002,
+   "total_articles": 15
+  },
+  {
+   "passage": "1007a",
+   "book": "Γ",
+   "early_articles": 11,
+   "late_articles": 4,
+   "early_share": 0.0062,
+   "late_share": 0.0025,
+   "delta": -0.0037,
+   "total_articles": 15
+  },
+  {
+   "passage": "1009a",
+   "book": "Γ",
+   "early_articles": 7,
+   "late_articles": 8,
+   "early_share": 0.0039,
+   "late_share": 0.0049,
+   "delta": 0.001,
+   "total_articles": 15
+  },
+  {
+   "passage": "1019a",
+   "book": "Δ",
+   "early_articles": 5,
+   "late_articles": 10,
+   "early_share": 0.0028,
+   "late_share": 0.0061,
+   "delta": 0.0033,
+   "total_articles": 15
+  },
+  {
+   "passage": "1037b",
+   "book": "Ζ",
+   "early_articles": 9,
+   "late_articles": 6,
+   "early_share": 0.0051,
+   "late_share": 0.0037,
+   "delta": -0.0014,
+   "total_articles": 15
+  },
+  {
+   "passage": "998b",
+   "book": "Β",
+   "early_articles": 8,
+   "late_articles": 7,
+   "early_share": 0.0045,
+   "late_share": 0.0043,
+   "delta": -0.0002,
+   "total_articles": 15
+  },
+  {
+   "passage": "1033a",
+   "book": "Ζ",
+   "early_articles": 7,
+   "late_articles": 7,
+   "early_share": 0.0039,
+   "late_share": 0.0043,
+   "delta": 0.0004,
+   "total_articles": 14
+  },
+  {
+   "passage": "1052a",
+   "book": "Ι",
+   "early_articles": 6,
+   "late_articles": 8,
+   "early_share": 0.0034,
+   "late_share": 0.0049,
+   "delta": 0.0015,
+   "total_articles": 14
+  },
+  {
+   "passage": "1086a",
+   "book": "Μ",
+   "early_articles": 8,
+   "late_articles": 6,
+   "early_share": 0.0045,
+   "late_share": 0.0037,
+   "delta": -0.0008,
+   "total_articles": 14
+  },
+  {
+   "passage": "1087a",
+   "book": "Μ",
+   "early_articles": 10,
+   "late_articles": 4,
+   "early_share": 0.0056,
+   "late_share": 0.0025,
+   "delta": -0.0032,
+   "total_articles": 14
+  },
+  {
+   "passage": "1090b",
+   "book": "Ν",
+   "early_articles": 5,
+   "late_articles": 9,
+   "early_share": 0.0028,
+   "late_share": 0.0055,
+   "delta": 0.0027,
+   "total_articles": 14
+  },
+  {
+   "passage": "982b",
+   "book": "Α",
+   "early_articles": 9,
+   "late_articles": 5,
+   "early_share": 0.0051,
+   "late_share": 0.0031,
+   "delta": -0.002,
+   "total_articles": 14
+  },
+  {
+   "passage": "987a",
+   "book": "Α",
+   "early_articles": 10,
+   "late_articles": 4,
+   "early_share": 0.0056,
+   "late_share": 0.0025,
+   "delta": -0.0032,
+   "total_articles": 14
+  },
+  {
+   "passage": "1010b",
+   "book": "Γ",
+   "early_articles": 10,
+   "late_articles": 3,
+   "early_share": 0.0056,
+   "late_share": 0.0018,
+   "delta": -0.0038,
+   "total_articles": 13
+  },
+  {
+   "passage": "1020a",
+   "book": "Δ",
+   "early_articles": 6,
+   "late_articles": 7,
+   "early_share": 0.0034,
+   "late_share": 0.0043,
+   "delta": 0.0009,
+   "total_articles": 13
+  },
+  {
+   "passage": "1059b",
+   "book": "Κ",
+   "early_articles": 5,
+   "late_articles": 8,
+   "early_share": 0.0028,
+   "late_share": 0.0049,
+   "delta": 0.0021,
+   "total_articles": 13
+  },
+  {
+   "passage": "1079b",
+   "book": "Μ",
+   "early_articles": 6,
+   "late_articles": 7,
+   "early_share": 0.0034,
+   "late_share": 0.0043,
+   "delta": 0.0009,
+   "total_articles": 13
+  },
+  {
+   "passage": "1080a",
+   "book": "Μ",
+   "early_articles": 7,
+   "late_articles": 6,
+   "early_share": 0.0039,
+   "late_share": 0.0037,
+   "delta": -0.0003,
+   "total_articles": 13
+  },
+  {
+   "passage": "986a",
+   "book": "Α",
+   "early_articles": 10,
+   "late_articles": 3,
+   "early_share": 0.0056,
+   "late_share": 0.0018,
+   "delta": -0.0038,
+   "total_articles": 13
+  },
+  {
+   "passage": "988a",
+   "book": "Α",
+   "early_articles": 9,
+   "late_articles": 4,
+   "early_share": 0.0051,
+   "late_share": 0.0025,
+   "delta": -0.0026,
+   "total_articles": 13
+  },
+  {
+   "passage": "993b",
+   "book": "α",
+   "early_articles": 6,
+   "late_articles": 7,
+   "early_share": 0.0034,
+   "late_share": 0.0043,
+   "delta": 0.0009,
+   "total_articles": 13
+  },
+  {
+   "passage": "1018a",
+   "book": "Δ",
+   "early_articles": 8,
+   "late_articles": 4,
+   "early_share": 0.0045,
+   "late_share": 0.0025,
+   "delta": -0.002,
+   "total_articles": 12
+  },
+  {
+   "passage": "1023b",
+   "book": "Δ",
+   "early_articles": 5,
+   "late_articles": 7,
+   "early_share": 0.0028,
+   "late_share": 0.0043,
+   "delta": 0.0015,
+   "total_articles": 12
+  },
+  {
+   "passage": "1047b",
+   "book": "Θ",
+   "early_articles": 6,
+   "late_articles": 6,
+   "early_share": 0.0034,
+   "late_share": 0.0037,
+   "delta": 0.0003,
+   "total_articles": 12
+  },
+  {
+   "passage": "1076b",
+   "book": "Μ",
+   "early_articles": 4,
+   "late_articles": 8,
+   "early_share": 0.0022,
+   "late_share": 0.0049,
+   "delta": 0.0027,
+   "total_articles": 12
+  },
+  {
+   "passage": "1079a",
+   "book": "Μ",
+   "early_articles": 2,
+   "late_articles": 10,
+   "early_share": 0.0011,
+   "late_share": 0.0061,
+   "delta": 0.005,
+   "total_articles": 12
+  },
+  {
+   "passage": "1087b",
+   "book": "Ν",
+   "early_articles": 8,
+   "late_articles": 4,
+   "early_share": 0.0045,
+   "late_share": 0.0025,
+   "delta": -0.002,
+   "total_articles": 12
+  },
+  {
+   "passage": "1088a",
+   "book": "Ν",
+   "early_articles": 8,
+   "late_articles": 4,
+   "early_share": 0.0045,
+   "late_share": 0.0025,
+   "delta": -0.002,
+   "total_articles": 12
+  },
+  {
+   "passage": "980a",
+   "book": "Α",
+   "early_articles": 6,
+   "late_articles": 6,
+   "early_share": 0.0034,
+   "late_share": 0.0037,
+   "delta": 0.0003,
+   "total_articles": 12
+  },
+  {
+   "passage": "980b",
+   "book": "Α",
+   "early_articles": 6,
+   "late_articles": 6,
+   "early_share": 0.0034,
+   "late_share": 0.0037,
+   "delta": 0.0003,
+   "total_articles": 12
+  },
+  {
+   "passage": "986b",
+   "book": "Α",
+   "early_articles": 6,
+   "late_articles": 6,
+   "early_share": 0.0034,
+   "late_share": 0.0037,
+   "delta": 0.0003,
+   "total_articles": 12
+  },
+  {
+   "passage": "990b",
+   "book": "Α",
+   "early_articles": 6,
+   "late_articles": 6,
+   "early_share": 0.0034,
+   "late_share": 0.0037,
+   "delta": 0.0003,
+   "total_articles": 12
+  },
+  {
+   "passage": "994b",
+   "book": "α",
+   "early_articles": 7,
+   "late_articles": 5,
+   "early_share": 0.0039,
+   "late_share": 0.0031,
+   "delta": -0.0009,
+   "total_articles": 12
+  },
+  {
+   "passage": "996b",
+   "book": "Β",
+   "early_articles": 9,
+   "late_articles": 3,
+   "early_share": 0.0051,
+   "late_share": 0.0018,
+   "delta": -0.0032,
+   "total_articles": 12
+  },
+  {
+   "passage": "1021b",
+   "book": "Δ",
+   "early_articles": 6,
+   "late_articles": 5,
+   "early_share": 0.0034,
+   "late_share": 0.0031,
+   "delta": -0.0003,
+   "total_articles": 11
+  },
+  {
+   "passage": "1031a",
+   "book": "Ζ",
+   "early_articles": 7,
+   "late_articles": 4,
+   "early_share": 0.0039,
+   "late_share": 0.0025,
+   "delta": -0.0015,
+   "total_articles": 11
+  },
+  {
+   "passage": "1053a",
+   "book": "Ι",
+   "early_articles": 5,
+   "late_articles": 6,
+   "early_share": 0.0028,
+   "late_share": 0.0037,
+   "delta": 0.0009,
+   "total_articles": 11
+  },
+  {
+   "passage": "1054a",
+   "book": "Ι",
+   "early_articles": 7,
+   "late_articles": 4,
+   "early_share": 0.0039,
+   "late_share": 0.0025,
+   "delta": -0.0015,
+   "total_articles": 11
+  },
+  {
+   "passage": "1058a",
+   "book": "Ι",
+   "early_articles": 6,
+   "late_articles": 5,
+   "early_share": 0.0034,
+   "late_share": 0.0031,
+   "delta": -0.0003,
+   "total_articles": 11
+  },
+  {
+   "passage": "1088b",
+   "book": "Ν",
+   "early_articles": 8,
+   "late_articles": 3,
+   "early_share": 0.0045,
+   "late_share": 0.0018,
+   "delta": -0.0027,
+   "total_articles": 11
+  },
+  {
+   "passage": "1090a",
+   "book": "Ν",
+   "early_articles": 5,
+   "late_articles": 6,
+   "early_share": 0.0028,
+   "late_share": 0.0037,
+   "delta": 0.0009,
+   "total_articles": 11
+  },
+  {
+   "passage": "1091b",
+   "book": "Ν",
+   "early_articles": 4,
+   "late_articles": 7,
+   "early_share": 0.0022,
+   "late_share": 0.0043,
+   "delta": 0.002,
+   "total_articles": 11
+  },
+  {
+   "passage": "981b",
+   "book": "Α",
+   "early_articles": 4,
+   "late_articles": 7,
+   "early_share": 0.0022,
+   "late_share": 0.0043,
+   "delta": 0.002,
+   "total_articles": 11
+  },
+  {
+   "passage": "983a",
+   "book": "Α",
+   "early_articles": 4,
+   "late_articles": 7,
+   "early_share": 0.0022,
+   "late_share": 0.0043,
+   "delta": 0.002,
+   "total_articles": 11
+  },
+  {
+   "passage": "992b",
+   "book": "Α",
+   "early_articles": 7,
+   "late_articles": 4,
+   "early_share": 0.0039,
+   "late_share": 0.0025,
+   "delta": -0.0015,
+   "total_articles": 11
+  },
+  {
+   "passage": "999a",
+   "book": "Β",
+   "early_articles": 5,
+   "late_articles": 6,
+   "early_share": 0.0028,
+   "late_share": 0.0037,
+   "delta": 0.0009,
+   "total_articles": 11
+  },
+  {
+   "passage": "1001a",
+   "book": "Β",
+   "early_articles": 4,
+   "late_articles": 6,
+   "early_share": 0.0022,
+   "late_share": 0.0037,
+   "delta": 0.0014,
+   "total_articles": 10
+  },
+  {
+   "passage": "1002a",
+   "book": "Β",
+   "early_articles": 4,
+   "late_articles": 6,
+   "early_share": 0.0022,
+   "late_share": 0.0037,
+   "delta": 0.0014,
+   "total_articles": 10
+  },
+  {
+   "passage": "1007b",
+   "book": "Γ",
+   "early_articles": 4,
+   "late_articles": 6,
+   "early_share": 0.0022,
+   "late_share": 0.0037,
+   "delta": 0.0014,
+   "total_articles": 10
+  },
+  {
+   "passage": "1044a",
+   "book": "Η",
+   "early_articles": 3,
+   "late_articles": 7,
+   "early_share": 0.0017,
+   "late_share": 0.0043,
+   "delta": 0.0026,
+   "total_articles": 10
+  },
+  {
+   "passage": "1051a",
+   "book": "Θ",
+   "early_articles": 4,
+   "late_articles": 6,
+   "early_share": 0.0022,
+   "late_share": 0.0037,
+   "delta": 0.0014,
+   "total_articles": 10
+  },
+  {
+   "passage": "1057a",
+   "book": "Ι",
+   "early_articles": 3,
+   "late_articles": 7,
+   "early_share": 0.0017,
+   "late_share": 0.0043,
+   "delta": 0.0026,
+   "total_articles": 10
+  },
+  {
+   "passage": "1077a",
+   "book": "Μ",
+   "early_articles": 4,
+   "late_articles": 6,
+   "early_share": 0.0022,
+   "late_share": 0.0037,
+   "delta": 0.0014,
+   "total_articles": 10
+  },
+  {
+   "passage": "991a",
+   "book": "Α",
+   "early_articles": 6,
+   "late_articles": 4,
+   "early_share": 0.0034,
+   "late_share": 0.0025,
+   "delta": -0.0009,
+   "total_articles": 10
+  },
+  {
+   "passage": "991b",
+   "book": "Α",
+   "early_articles": 4,
+   "late_articles": 6,
+   "early_share": 0.0022,
+   "late_share": 0.0037,
+   "delta": 0.0014,
+   "total_articles": 10
+  },
+  {
+   "passage": "994a",
+   "book": "α",
+   "early_articles": 5,
+   "late_articles": 5,
+   "early_share": 0.0028,
+   "late_share": 0.0031,
+   "delta": 0.0003,
+   "total_articles": 10
+  },
+  {
+   "passage": "997a",
+   "book": "Β",
+   "early_articles": 5,
+   "late_articles": 5,
+   "early_share": 0.0028,
+   "late_share": 0.0031,
+   "delta": 0.0003,
+   "total_articles": 10
+  },
+  {
+   "passage": "999b",
+   "book": "Β",
+   "early_articles": 7,
+   "late_articles": 3,
+   "early_share": 0.0039,
+   "late_share": 0.0018,
+   "delta": -0.0021,
+   "total_articles": 10
+  },
+  {
+   "passage": "1000a",
+   "book": "Β",
+   "early_articles": 5,
+   "late_articles": 4,
+   "early_share": 0.0028,
+   "late_share": 0.0025,
+   "delta": -0.0004,
+   "total_articles": 9
+  },
+  {
+   "passage": "1000b",
+   "book": "Β",
+   "early_articles": 3,
+   "late_articles": 6,
+   "early_share": 0.0017,
+   "late_share": 0.0037,
+   "delta": 0.002,
+   "total_articles": 9
+  },
+  {
+   "passage": "1010a",
+   "book": "Γ",
+   "early_articles": 6,
+   "late_articles": 3,
+   "early_share": 0.0034,
+   "late_share": 0.0018,
+   "delta": -0.0015,
+   "total_articles": 9
+  },
+  {
+   "passage": "1013b",
+   "book": "Δ",
+   "early_articles": 4,
+   "late_articles": 5,
+   "early_share": 0.0022,
+   "late_share": 0.0031,
+   "delta": 0.0008,
+   "total_articles": 9
+  },
+  {
+   "passage": "1015a",
+   "book": "Δ",
+   "early_articles": 2,
+   "late_articles": 7,
+   "early_share": 0.0011,
+   "late_share": 0.0043,
+   "delta": 0.0032,
+   "total_articles": 9
+  },
+  {
+   "passage": "1016a",
+   "book": "Δ",
+   "early_articles": 3,
+   "late_articles": 6,
+   "early_share": 0.0017,
+   "late_share": 0.0037,
+   "delta": 0.002,
+   "total_articles": 9
+  },
+  {
+   "passage": "1018b",
+   "book": "Δ",
+   "early_articles": 3,
+   "late_articles": 6,
+   "early_share": 0.0017,
+   "late_share": 0.0037,
+   "delta": 0.002,
+   "total_articles": 9
+  },
+  {
+   "passage": "1024a",
+   "book": "Δ",
+   "early_articles": 5,
+   "late_articles": 4,
+   "early_share": 0.0028,
+   "late_share": 0.0025,
+   "delta": -0.0004,
+   "total_articles": 9
+  },
+  {
+   "passage": "1031b",
+   "book": "Ζ",
+   "early_articles": 6,
+   "late_articles": 3,
+   "early_share": 0.0034,
+   "late_share": 0.0018,
+   "delta": -0.0015,
+   "total_articles": 9
+  },
+  {
+   "passage": "1057b",
+   "book": "Ι",
+   "early_articles": 1,
+   "late_articles": 8,
+   "early_share": 0.0006,
+   "late_share": 0.0049,
+   "delta": 0.0043,
+   "total_articles": 9
+  },
+  {
+   "passage": "1058b",
+   "book": "Ι",
+   "early_articles": 2,
+   "late_articles": 7,
+   "early_share": 0.0011,
+   "late_share": 0.0043,
+   "delta": 0.0032,
+   "total_articles": 9
+  },
+  {
+   "passage": "1060b",
+   "book": "Κ",
+   "early_articles": 5,
+   "late_articles": 4,
+   "early_share": 0.0028,
+   "late_share": 0.0025,
+   "delta": -0.0004,
+   "total_articles": 9
+  },
+  {
+   "passage": "1064b",
+   "book": "Κ",
+   "early_articles": 5,
+   "late_articles": 4,
+   "early_share": 0.0028,
+   "late_share": 0.0025,
+   "delta": -0.0004,
+   "total_articles": 9
+  },
+  {
+   "passage": "1065a",
+   "book": "Κ",
+   "early_articles": 5,
+   "late_articles": 4,
+   "early_share": 0.0028,
+   "late_share": 0.0025,
+   "delta": -0.0004,
+   "total_articles": 9
+  },
+  {
+   "passage": "1083b",
+   "book": "Μ",
+   "early_articles": 5,
+   "late_articles": 4,
+   "early_share": 0.0028,
+   "late_share": 0.0025,
+   "delta": -0.0004,
+   "total_articles": 9
+  },
+  {
+   "passage": "1089a",
+   "book": "Ν",
+   "early_articles": 7,
+   "late_articles": 2,
+   "early_share": 0.0039,
+   "late_share": 0.0012,
+   "delta": -0.0027,
+   "total_articles": 9
+  },
+  {
+   "passage": "984a",
+   "book": "Α",
+   "early_articles": 4,
+   "late_articles": 5,
+   "early_share": 0.0022,
+   "late_share": 0.0031,
+   "delta": 0.0008,
+   "total_articles": 9
+  },
+  {
+   "passage": "1019b",
+   "book": "Δ",
+   "early_articles": 4,
+   "late_articles": 4,
+   "early_share": 0.0022,
+   "late_share": 0.0025,
+   "delta": 0.0002,
+   "total_articles": 8
+  },
+  {
+   "passage": "1052b",
+   "book": "Ι",
+   "early_articles": 5,
+   "late_articles": 3,
+   "early_share": 0.0028,
+   "late_share": 0.0018,
+   "delta": -0.001,
+   "total_articles": 8
+  },
+  {
+   "passage": "1055a",
+   "book": "Ι",
+   "early_articles": 4,
+   "late_articles": 4,
+   "early_share": 0.0022,
+   "late_share": 0.0025,
+   "delta": 0.0002,
+   "total_articles": 8
+  },
+  {
+   "passage": "1055b",
+   "book": "Ι",
+   "early_articles": 3,
+   "late_articles": 5,
+   "early_share": 0.0017,
+   "late_share": 0.0031,
+   "delta": 0.0014,
+   "total_articles": 8
+  },
+  {
+   "passage": "1061a",
+   "book": "Κ",
+   "early_articles": 3,
+   "late_articles": 5,
+   "early_share": 0.0017,
+   "late_share": 0.0031,
+   "delta": 0.0014,
+   "total_articles": 8
+  },
+  {
+   "passage": "1083a",
+   "book": "Μ",
+   "early_articles": 3,
+   "late_articles": 5,
+   "early_share": 0.0017,
+   "late_share": 0.0031,
+   "delta": 0.0014,
+   "total_articles": 8
+  },
+  {
+   "passage": "1084b",
+   "book": "Μ",
+   "early_articles": 4,
+   "late_articles": 4,
+   "early_share": 0.0022,
+   "late_share": 0.0025,
+   "delta": 0.0002,
+   "total_articles": 8
+  },
+  {
+   "passage": "1085a",
+   "book": "Μ",
+   "early_articles": 4,
+   "late_articles": 4,
+   "early_share": 0.0022,
+   "late_share": 0.0025,
+   "delta": 0.0002,
+   "total_articles": 8
+  },
+  {
+   "passage": "1092a",
+   "book": "Ν",
+   "early_articles": 4,
+   "late_articles": 4,
+   "early_share": 0.0022,
+   "late_share": 0.0025,
+   "delta": 0.0002,
+   "total_articles": 8
+  },
+  {
+   "passage": "982a",
+   "book": "Α",
+   "early_articles": 3,
+   "late_articles": 5,
+   "early_share": 0.0017,
+   "late_share": 0.0031,
+   "delta": 0.0014,
+   "total_articles": 8
+  },
+  {
+   "passage": "1008b",
+   "book": "Γ",
+   "early_articles": 4,
+   "late_articles": 3,
+   "early_share": 0.0022,
+   "late_share": 0.0018,
+   "delta": -0.0004,
+   "total_articles": 7
+  },
+  {
+   "passage": "1011a",
+   "book": "Γ",
+   "early_articles": 1,
+   "late_articles": 6,
+   "early_share": 0.0006,
+   "late_share": 0.0037,
+   "delta": 0.0031,
+   "total_articles": 7
+  },
+  {
+   "passage": "1011b",
+   "book": "Γ",
+   "early_articles": 1,
+   "late_articles": 6,
+   "early_share": 0.0006,
+   "late_share": 0.0037,
+   "delta": 0.0031,
+   "total_articles": 7
+  },
+  {
+   "passage": "1012b",
+   "book": "Γ",
+   "early_articles": 3,
+   "late_articles": 4,
+   "early_share": 0.0017,
+   "late_share": 0.0025,
+   "delta": 0.0008,
+   "total_articles": 7
+  },
+  {
+   "passage": "1020b",
+   "book": "Δ",
+   "early_articles": 2,
+   "late_articles": 5,
+   "early_share": 0.0011,
+   "late_share": 0.0031,
+   "delta": 0.0019,
+   "total_articles": 7
+  },
+  {
+   "passage": "1059a",
+   "book": "Κ",
+   "early_articles": 2,
+   "late_articles": 5,
+   "early_share": 0.0011,
+   "late_share": 0.0031,
+   "delta": 0.0019,
+   "total_articles": 7
+  },
+  {
+   "passage": "1062b",
+   "book": "Κ",
+   "early_articles": 3,
+   "late_articles": 4,
+   "early_share": 0.0017,
+   "late_share": 0.0025,
+   "delta": 0.0008,
+   "total_articles": 7
+  },
+  {
+   "passage": "1064a",
+   "book": "Κ",
+   "early_articles": 4,
+   "late_articles": 3,
+   "early_share": 0.0022,
+   "late_share": 0.0018,
+   "delta": -0.0004,
+   "total_articles": 7
+  },
+  {
+   "passage": "1065b",
+   "book": "Κ",
+   "early_articles": 3,
+   "late_articles": 4,
+   "early_share": 0.0017,
+   "late_share": 0.0025,
+   "delta": 0.0008,
+   "total_articles": 7
+  },
+  {
+   "passage": "1080b",
+   "book": "Μ",
+   "early_articles": 2,
+   "late_articles": 5,
+   "early_share": 0.0011,
+   "late_share": 0.0031,
+   "delta": 0.0019,
+   "total_articles": 7
+  },
+  {
+   "passage": "1081b",
+   "book": "Μ",
+   "early_articles": 3,
+   "late_articles": 4,
+   "early_share": 0.0017,
+   "late_share": 0.0025,
+   "delta": 0.0008,
+   "total_articles": 7
+  },
+  {
+   "passage": "1092b",
+   "book": "Ν",
+   "early_articles": 3,
+   "late_articles": 4,
+   "early_share": 0.0017,
+   "late_share": 0.0025,
+   "delta": 0.0008,
+   "total_articles": 7
+  },
+  {
+   "passage": "1001b",
+   "book": "Β",
+   "early_articles": 2,
+   "late_articles": 4,
+   "early_share": 0.0011,
+   "late_share": 0.0025,
+   "delta": 0.0013,
+   "total_articles": 6
+  },
+  {
+   "passage": "1008a",
+   "book": "Γ",
+   "early_articles": 4,
+   "late_articles": 2,
+   "early_share": 0.0022,
+   "late_share": 0.0012,
+   "delta": -0.001,
+   "total_articles": 6
+  },
+  {
+   "passage": "1021a",
+   "book": "Δ",
+   "early_articles": 3,
+   "late_articles": 3,
+   "early_share": 0.0017,
+   "late_share": 0.0018,
+   "delta": 0.0002,
+   "total_articles": 6
+  },
+  {
+   "passage": "1056b",
+   "book": "Ι",
+   "early_articles": 2,
+   "late_articles": 4,
+   "early_share": 0.0011,
+   "late_share": 0.0025,
+   "delta": 0.0013,
+   "total_articles": 6
+  },
+  {
+   "passage": "1073b",
+   "book": "Λ",
+   "early_articles": 2,
+   "late_articles": 4,
+   "early_share": 0.0011,
+   "late_share": 0.0025,
+   "delta": 0.0013,
+   "total_articles": 6
+  },
+  {
+   "passage": "1081a",
+   "book": "Μ",
+   "early_articles": 3,
+   "late_articles": 3,
+   "early_share": 0.0017,
+   "late_share": 0.0018,
+   "delta": 0.0002,
+   "total_articles": 6
+  },
+  {
+   "passage": "1084a",
+   "book": "Μ",
+   "early_articles": 3,
+   "late_articles": 3,
+   "early_share": 0.0017,
+   "late_share": 0.0018,
+   "delta": 0.0002,
+   "total_articles": 6
+  },
+  {
+   "passage": "990a",
+   "book": "Α",
+   "early_articles": 0,
+   "late_articles": 6,
+   "early_share": 0.0,
+   "late_share": 0.0037,
+   "delta": 0.0037,
+   "total_articles": 6
+  },
+  {
+   "passage": "992a",
+   "book": "Α",
+   "early_articles": 5,
+   "late_articles": 1,
+   "early_share": 0.0028,
+   "late_share": 0.0006,
+   "delta": -0.0022,
+   "total_articles": 6
+  },
+  {
+   "passage": "993a",
+   "book": "α",
+   "early_articles": 3,
+   "late_articles": 3,
+   "early_share": 0.0017,
+   "late_share": 0.0018,
+   "delta": 0.0002,
+   "total_articles": 6
+  },
+  {
+   "passage": "1006b",
+   "book": "Γ",
+   "early_articles": 2,
+   "late_articles": 3,
+   "early_share": 0.0011,
+   "late_share": 0.0018,
+   "delta": 0.0007,
+   "total_articles": 5
+  },
+  {
+   "passage": "1012a",
+   "book": "Γ",
+   "early_articles": 3,
+   "late_articles": 2,
+   "early_share": 0.0017,
+   "late_share": 0.0012,
+   "delta": -0.0005,
+   "total_articles": 5
+  },
+  {
+   "passage": "1014a",
+   "book": "Δ",
+   "early_articles": 3,
+   "late_articles": 2,
+   "early_share": 0.0017,
+   "late_share": 0.0012,
+   "delta": -0.0005,
+   "total_articles": 5
+  },
+  {
+   "passage": "1014b",
+   "book": "Δ",
+   "early_articles": 0,
+   "late_articles": 5,
+   "early_share": 0.0,
+   "late_share": 0.0031,
+   "delta": 0.0031,
+   "total_articles": 5
+  },
+  {
+   "passage": "1015b",
+   "book": "Δ",
+   "early_articles": 3,
+   "late_articles": 2,
+   "early_share": 0.0017,
+   "late_share": 0.0012,
+   "delta": -0.0005,
+   "total_articles": 5
+  },
+  {
+   "passage": "1060a",
+   "book": "Κ",
+   "early_articles": 3,
+   "late_articles": 2,
+   "early_share": 0.0017,
+   "late_share": 0.0012,
+   "delta": -0.0005,
+   "total_articles": 5
+  },
+  {
+   "passage": "1093b",
+   "book": "Ν",
+   "early_articles": 4,
+   "late_articles": 1,
+   "early_share": 0.0022,
+   "late_share": 0.0006,
+   "delta": -0.0016,
+   "total_articles": 5
+  },
+  {
+   "passage": "984b",
+   "book": "Α",
+   "early_articles": 4,
+   "late_articles": 1,
+   "early_share": 0.0022,
+   "late_share": 0.0006,
+   "delta": -0.0016,
+   "total_articles": 5
+  },
+  {
+   "passage": "985a",
+   "book": "Α",
+   "early_articles": 4,
+   "late_articles": 1,
+   "early_share": 0.0022,
+   "late_share": 0.0006,
+   "delta": -0.0016,
+   "total_articles": 5
+  },
+  {
+   "passage": "988b",
+   "book": "Α",
+   "early_articles": 4,
+   "late_articles": 1,
+   "early_share": 0.0022,
+   "late_share": 0.0006,
+   "delta": -0.0016,
+   "total_articles": 5
+  },
+  {
+   "passage": "989b",
+   "book": "Α",
+   "early_articles": 2,
+   "late_articles": 3,
+   "early_share": 0.0011,
+   "late_share": 0.0018,
+   "delta": 0.0007,
+   "total_articles": 5
+  },
+  {
+   "passage": "1061b",
+   "book": "Κ",
+   "early_articles": 1,
+   "late_articles": 3,
+   "early_share": 0.0006,
+   "late_share": 0.0018,
+   "delta": 0.0013,
+   "total_articles": 4
+  },
+  {
+   "passage": "1066a",
+   "book": "Κ",
+   "early_articles": 2,
+   "late_articles": 2,
+   "early_share": 0.0011,
+   "late_share": 0.0012,
+   "delta": 0.0001,
+   "total_articles": 4
+  },
+  {
+   "passage": "1067b",
+   "book": "Κ",
+   "early_articles": 2,
+   "late_articles": 2,
+   "early_share": 0.0011,
+   "late_share": 0.0012,
+   "delta": 0.0001,
+   "total_articles": 4
+  },
+  {
+   "passage": "1068b",
+   "book": "Κ",
+   "early_articles": 2,
+   "late_articles": 2,
+   "early_share": 0.0011,
+   "late_share": 0.0012,
+   "delta": 0.0001,
+   "total_articles": 4
+  },
+  {
+   "passage": "1085b",
+   "book": "Μ",
+   "early_articles": 3,
+   "late_articles": 1,
+   "early_share": 0.0017,
+   "late_share": 0.0006,
+   "delta": -0.0011,
+   "total_articles": 4
+  },
+  {
+   "passage": "1089b",
+   "book": "Ν",
+   "early_articles": 3,
+   "late_articles": 1,
+   "early_share": 0.0017,
+   "late_share": 0.0006,
+   "delta": -0.0011,
+   "total_articles": 4
+  },
+  {
+   "passage": "1022b",
+   "book": "Δ",
+   "early_articles": 1,
+   "late_articles": 2,
+   "early_share": 0.0006,
+   "late_share": 0.0012,
+   "delta": 0.0007,
+   "total_articles": 3
+  },
+  {
+   "passage": "1063a",
+   "book": "Κ",
+   "early_articles": 0,
+   "late_articles": 3,
+   "early_share": 0.0,
+   "late_share": 0.0018,
+   "delta": 0.0018,
+   "total_articles": 3
+  },
+  {
+   "passage": "1066b",
+   "book": "Κ",
+   "early_articles": 1,
+   "late_articles": 2,
+   "early_share": 0.0006,
+   "late_share": 0.0012,
+   "delta": 0.0007,
+   "total_articles": 3
+  },
+  {
+   "passage": "1067a",
+   "book": "Κ",
+   "early_articles": 1,
+   "late_articles": 2,
+   "early_share": 0.0006,
+   "late_share": 0.0012,
+   "delta": 0.0007,
+   "total_articles": 3
+  },
+  {
+   "passage": "989a",
+   "book": "Α",
+   "early_articles": 1,
+   "late_articles": 2,
+   "early_share": 0.0006,
+   "late_share": 0.0012,
+   "delta": 0.0007,
+   "total_articles": 3
+  },
+  {
+   "passage": "1023a",
+   "book": "Δ",
+   "early_articles": 0,
+   "late_articles": 2,
+   "early_share": 0.0,
+   "late_share": 0.0012,
+   "delta": 0.0012,
+   "total_articles": 2
+  },
+  {
+   "passage": "1056a",
+   "book": "Ι",
+   "early_articles": 0,
+   "late_articles": 2,
+   "early_share": 0.0,
+   "late_share": 0.0012,
+   "delta": 0.0012,
+   "total_articles": 2
+  },
+  {
+   "passage": "1063b",
+   "book": "Κ",
+   "early_articles": 1,
+   "late_articles": 1,
+   "early_share": 0.0006,
+   "late_share": 0.0006,
+   "delta": 0.0001,
+   "total_articles": 2
+  },
+  {
+   "passage": "1068a",
+   "book": "Κ",
+   "early_articles": 0,
+   "late_articles": 2,
+   "early_share": 0.0,
+   "late_share": 0.0012,
+   "delta": 0.0012,
+   "total_articles": 2
+  },
+  {
+   "passage": "1082b",
+   "book": "Μ",
+   "early_articles": 1,
+   "late_articles": 1,
+   "early_share": 0.0006,
+   "late_share": 0.0006,
+   "delta": 0.0001,
+   "total_articles": 2
+  },
+  {
+   "passage": "1093a",
+   "book": "Ν",
+   "early_articles": 1,
+   "late_articles": 1,
+   "early_share": 0.0006,
+   "late_share": 0.0006,
+   "delta": 0.0001,
+   "total_articles": 2
+  },
+  {
+   "passage": "1062a",
+   "book": "Κ",
+   "early_articles": 1,
+   "late_articles": 0,
+   "early_share": 0.0006,
+   "late_share": 0.0,
+   "delta": -0.0006,
+   "total_articles": 1
   }
  ],
  "focus": {

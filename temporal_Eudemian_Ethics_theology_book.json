@@ -1,0 +1,361 @@
+{
+ "work": "Eudemian_Ethics",
+ "system": "bekker",
+ "bin_years": 5,
+ "grain": "book",
+ "journals_filter": "theology",
+ "movers_min_articles": 15,
+ "mover_min_early": 8,
+ "n_passages_tested": 4,
+ "n_significant_movers": 1,
+ "n_significant_movers_fdr": 0,
+ "n_fdr_movers_solid": 0,
+ "n_movers_expected_by_chance": 0.2,
+ "n_citations": 140,
+ "n_articles": 87,
+ "n_passages": 5,
+ "year_range": [
+  1901,
+  2020
+ ],
+ "split_year": 1976,
+ "verdict": "stable",
+ "stability_powered": false,
+ "min_stable_articles": 100,
+ "two_bin_flat_only": false,
+ "two_bin_understates": false,
+ "near_threshold": false,
+ "shape_change": {
+  "spearman_rho": 0.703,
+  "tvd": 0.1508,
+  "n_passages_compared": 5,
+  "early_article_incidences": 42,
+  "late_article_incidences": 63,
+  "null": {
+   "n_perm": 200,
+   "rho_mean": 0.6803,
+   "rho_sd": 0.1887,
+   "tvd_mean": 0.13,
+   "tvd_sd": 0.0469,
+   "rho_z": 0.12,
+   "tvd_z": 0.44,
+   "tvd_percentile": 69.5
+  }
+ },
+ "multibin_structure": {
+  "n_periods": 3,
+  "periods": [
+   [
+    1901,
+    1967
+   ],
+   [
+    1967,
+    1995
+   ],
+   [
+    1995,
+    2020
+   ]
+  ],
+  "dispersion": 0.2246,
+  "null_mean": 0.1536,
+  "null_sd": 0.0382,
+  "z": 1.86,
+  "concentration": {
+   "n_structure_movers_fdr": 1,
+   "n_tested": 4,
+   "tested_dispersion_total": 0.1943,
+   "share_of_whole": 0.865,
+   "top1_share": 0.408,
+   "top3_share": 0.896,
+   "top5_share": 1.0,
+   "top10_share": 1.0,
+   "n_passages_to_50pct": 2
+  }
+ },
+ "multibin_movers": [
+  {
+   "passage": "II",
+   "book": "II",
+   "dispersion": 0.07925,
+   "total_articles": 27,
+   "p_value": 0.01,
+   "q_value": 0.04,
+   "significant_fdr": true
+  },
+  {
+   "passage": "VII",
+   "book": "VII",
+   "dispersion": 0.06449,
+   "total_articles": 34,
+   "p_value": 0.119,
+   "q_value": 0.239,
+   "significant_fdr": false
+  },
+  {
+   "passage": "I",
+   "book": "I",
+   "dispersion": 0.0303,
+   "total_articles": 15,
+   "p_value": 0.408,
+   "q_value": 0.544,
+   "significant_fdr": false
+  },
+  {
+   "passage": "III",
+   "book": "III",
+   "dispersion": 0.0202,
+   "total_articles": 16,
+   "p_value": 0.677,
+   "q_value": 0.677,
+   "significant_fdr": false
+  }
+ ],
+ "sparsity": {
+  "cell_article_hist": {
+   "2": 17,
+   "5+": 2,
+   "3-4": 9,
+   "1": 32
+  },
+  "drawable_passages": {
+   "ge5": 5,
+   "ge10": 5,
+   "ge20": 2
+  }
+ },
+ "bin_totals": {
+  "1900": 2,
+  "1910": 1,
+  "1915": 1,
+  "1920": 1,
+  "1930": 1,
+  "1935": 2,
+  "1940": 1,
+  "1945": 2,
+  "1950": 4,
+  "1955": 7,
+  "1960": 5,
+  "1965": 12,
+  "1970": 2,
+  "1975": 11,
+  "1980": 6,
+  "1985": 1,
+  "1990": 7,
+  "1995": 5,
+  "2000": 7,
+  "2005": 7,
+  "2010": 10,
+  "2015": 9,
+  "2020": 1
+ },
+ "top_passages": [
+  {
+   "passage": "VII",
+   "book": "VII",
+   "total_articles": 34,
+   "by_bin": {
+    "1900": 1,
+    "1935": 1,
+    "1940": 1,
+    "1950": 3,
+    "1955": 3,
+    "1960": 2,
+    "1965": 5,
+    "1975": 3,
+    "1980": 3,
+    "1985": 1,
+    "1990": 2,
+    "2000": 3,
+    "2005": 1,
+    "2010": 2,
+    "2015": 2,
+    "2020": 1
+   }
+  },
+  {
+   "passage": "II",
+   "book": "II",
+   "total_articles": 27,
+   "by_bin": {
+    "1915": 1,
+    "1960": 2,
+    "1965": 2,
+    "1970": 1,
+    "1975": 3,
+    "1990": 4,
+    "1995": 2,
+    "2000": 2,
+    "2005": 1,
+    "2010": 5,
+    "2015": 4
+   }
+  },
+  {
+   "passage": "III",
+   "book": "III",
+   "total_articles": 16,
+   "by_bin": {
+    "1930": 1,
+    "1945": 1,
+    "1955": 2,
+    "1960": 1,
+    "1965": 2,
+    "1975": 2,
+    "1990": 1,
+    "1995": 1,
+    "2000": 1,
+    "2005": 1,
+    "2010": 2,
+    "2015": 1
+   }
+  },
+  {
+   "passage": "I",
+   "book": "I",
+   "total_articles": 15,
+   "by_bin": {
+    "1900": 1,
+    "1910": 1,
+    "1920": 1,
+    "1935": 1,
+    "1945": 1,
+    "1950": 1,
+    "1975": 1,
+    "1980": 2,
+    "1995": 1,
+    "2000": 1,
+    "2005": 2,
+    "2010": 1,
+    "2015": 1
+   }
+  },
+  {
+   "passage": "VIII",
+   "book": "VIII",
+   "total_articles": 13,
+   "by_bin": {
+    "1955": 2,
+    "1965": 3,
+    "1970": 1,
+    "1975": 2,
+    "1980": 1,
+    "1995": 1,
+    "2005": 2,
+    "2015": 1
+   }
+  }
+ ],
+ "top_movers": [
+  {
+   "passage": "II",
+   "book": "II",
+   "early_share": 0.1667,
+   "late_share": 0.3175,
+   "delta": 0.1508,
+   "early_articles": 7,
+   "late_articles": 20,
+   "p_value": 0.05,
+   "q_value": 0.199,
+   "significant": true,
+   "significant_fdr": false,
+   "floor_fail_early": true
+  },
+  {
+   "passage": "VII",
+   "book": "VII",
+   "early_share": 0.381,
+   "late_share": 0.2857,
+   "delta": -0.0952,
+   "early_articles": 16,
+   "late_articles": 18,
+   "p_value": 0.229,
+   "q_value": 0.458,
+   "significant": false,
+   "significant_fdr": false,
+   "floor_fail_early": false
+  },
+  {
+   "passage": "III",
+   "book": "III",
+   "early_share": 0.1667,
+   "late_share": 0.1429,
+   "delta": -0.0238,
+   "early_articles": 7,
+   "late_articles": 9,
+   "p_value": 0.706,
+   "q_value": 0.942,
+   "significant": false,
+   "significant_fdr": false,
+   "floor_fail_early": true
+  },
+  {
+   "passage": "I",
+   "book": "I",
+   "early_share": 0.1429,
+   "late_share": 0.1429,
+   "delta": 0.0,
+   "early_articles": 6,
+   "late_articles": 9,
+   "p_value": 1.0,
+   "q_value": 1.0,
+   "significant": false,
+   "significant_fdr": false,
+   "floor_fail_early": true
+  }
+ ],
+ "units": [
+  {
+   "passage": "VII",
+   "book": "VII",
+   "early_articles": 16,
+   "late_articles": 18,
+   "early_share": 0.381,
+   "late_share": 0.2857,
+   "delta": -0.0952,
+   "total_articles": 34
+  },
+  {
+   "passage": "II",
+   "book": "II",
+   "early_articles": 7,
+   "late_articles": 20,
+   "early_share": 0.1667,
+   "late_share": 0.3175,
+   "delta": 0.1508,
+   "total_articles": 27
+  },
+  {
+   "passage": "III",
+   "book": "III",
+   "early_articles": 7,
+   "late_articles": 9,
+   "early_share": 0.1667,
+   "late_share": 0.1429,
+   "delta": -0.0238,
+   "total_articles": 16
+  },
+  {
+   "passage": "I",
+   "book": "I",
+   "early_articles": 6,
+   "late_articles": 9,
+   "early_share": 0.1429,
+   "late_share": 0.1429,
+   "delta": 0.0,
+   "total_articles": 15
+  },
+  {
+   "passage": "VIII",
+   "book": "VIII",
+   "early_articles": 6,
+   "late_articles": 7,
+   "early_share": 0.1429,
+   "late_share": 0.1111,
+   "delta": -0.0317,
+   "total_articles": 13
+  }
+ ],
+ "focus": {}
+}

@@ -1,0 +1,110 @@
+{
+ "work": "Romans",
+ "system": "nt",
+ "bin_years": 5,
+ "grain": "book",
+ "journals_filter": "philosophy",
+ "movers_min_articles": 15,
+ "mover_min_early": 8,
+ "n_passages_tested": 0,
+ "n_significant_movers": 0,
+ "n_significant_movers_fdr": 0,
+ "n_fdr_movers_solid": 0,
+ "n_movers_expected_by_chance": 0.0,
+ "n_citations": 2,
+ "n_articles": 2,
+ "n_passages": 2,
+ "year_range": [
+  2008,
+  2008
+ ],
+ "split_year": 2008,
+ "verdict": "stable",
+ "stability_powered": false,
+ "min_stable_articles": 100,
+ "two_bin_flat_only": false,
+ "two_bin_understates": false,
+ "near_threshold": false,
+ "shape_change": {
+  "spearman_rho": NaN,
+  "tvd": 0.5,
+  "n_passages_compared": 2,
+  "early_article_incidences": 1,
+  "late_article_incidences": 2,
+  "null": {
+   "n_perm": 200,
+   "rho_mean": NaN,
+   "rho_sd": NaN,
+   "tvd_mean": 0.5,
+   "tvd_sd": 0.0,
+   "rho_z": NaN,
+   "tvd_z": NaN,
+   "tvd_percentile": 100.0
+  }
+ },
+ "multibin_structure": {
+  "n_periods": 3,
+  "periods": [],
+  "dispersion": null,
+  "null_mean": null,
+  "null_sd": null,
+  "z": null,
+  "concentration": {}
+ },
+ "multibin_movers": [],
+ "sparsity": {
+  "cell_article_hist": {
+   "1": 2
+  },
+  "drawable_passages": {
+   "ge5": 0,
+   "ge10": 0,
+   "ge20": 0
+  }
+ },
+ "bin_totals": {
+  "2005": 2
+ },
+ "top_passages": [
+  {
+   "passage": "12",
+   "book": "12",
+   "total_articles": 1,
+   "by_bin": {
+    "2005": 1
+   }
+  },
+  {
+   "passage": "8",
+   "book": "8",
+   "total_articles": 1,
+   "by_bin": {
+    "2005": 1
+   }
+  }
+ ],
+ "top_movers": [],
+ "units": [
+  {
+   "passage": "12",
+   "book": "12",
+   "early_articles": 0,
+   "late_articles": 1,
+   "early_share": 0.0,
+   "late_share": 0.5,
+   "delta": 0.5,
+   "total_articles": 1
+  },
+  {
+   "passage": "8",
+   "book": "8",
+   "early_articles": 0,
+   "late_articles": 1,
+   "early_share": 0.0,
+   "late_share": 0.5,
+   "delta": 0.5,
+   "total_articles": 1
+  }
+ ],
+ "focus": {}
+}
