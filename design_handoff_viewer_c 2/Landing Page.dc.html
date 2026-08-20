@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<style>
+html,body{margin:0;padding:0;background:#f1f0fb}
+*{box-sizing:border-box}
+a{color:#5a5497;text-decoration:none}
+a:hover{color:#403b78;text-decoration:underline}
+</style>
+</helmet>
+
+<div style="min-height:100vh;font-family:'Inter','Helvetica Neue',Arial,system-ui,sans-serif;color:#1c2230;line-height:1.6">
+
+  <div style="position:sticky;top:0;z-index:40;background:rgba(241,240,251,.94);backdrop-filter:saturate(1.6) blur(8px);border-bottom:1px solid #ddd9ee">
+    <div style="max-width:1120px;margin:0 auto;padding:10px 24px;display:flex;align-items:center;gap:22px">
+      <a href="#" style="text-decoration:none;color:#1c2230;flex:none"><span style="font-family:'Iowan Old Style','Palatino Linotype',Palatino,'Book Antiqua',Georgia,serif;font-size:19px;font-weight:600;letter-spacing:.01em">Footnotes to Plato</span><i style="font-family:'Iowan Old Style','Palatino Linotype',Palatino,'Book Antiqua',Georgia,serif;font-size:19px;font-weight:400;font-style:italic;color:#5b6478"> … and others</i></a>
+      <nav style="display:flex;gap:2px;flex-wrap:wrap;margin-left:auto">
+        <a href="#" style="font-size:13.5px;color:#5a5497;font-weight:600;background:#eae7f7;padding:6px 10px;border-radius:6px">Home</a>
+        <a href="#" style="font-size:13.5px;color:#5b6478;padding:6px 10px;border-radius:6px">Texts over time</a>
+        <a href="#" style="font-size:13.5px;color:#5b6478;padding:6px 10px;border-radius:6px">Passages</a>
+        <a href="#" style="font-size:13.5px;color:#5b6478;padding:6px 10px;border-radius:6px">Passages over time</a>
+        <a href="#" style="font-size:13.5px;color:#5b6478;padding:6px 10px;border-radius:6px">Methods</a>
+        <a href="#" style="font-size:13.5px;color:#5b6478;padding:6px 10px;border-radius:6px">Data</a>
+        <a href="#" style="font-size:13.5px;color:#5b6478;padding:6px 10px;border-radius:6px">Contact</a>
+      </nav>
+    </div>
+  </div>
+
+  <div style="max-width:1120px;margin:0 auto;padding:44px 24px 90px;display:flex;flex-direction:column;gap:30px">
+
+    <div style="max-width:74ch">
+      <h1 style="font-family:'Iowan Old Style','Palatino Linotype',Palatino,'Book Antiqua',Georgia,serif;font-size:44px;font-weight:600;line-height:1.1;margin:0">Footnotes to Plato <i style="font-weight:400;color:#5b6478">(and Others)</i></h1>
+      <div style="font-size:15px;color:#5b6478;margin-top:10px">A passage-level citation index of five ancient authors across {{ nJournals }} academic journals</div>
+    </div>
+
+    <div style="background:#fff;border:1px solid #ddd9ee;border-radius:10px;box-shadow:0 1px 2px rgba(28,34,48,.06),0 4px 16px rgba(28,34,48,.06);padding:34px 38px 36px">
+      <div style="max-width:96ch;display:flex;flex-direction:column;gap:15px;font-size:16.5px;line-height:1.7;text-wrap:pretty">
+        <p style="margin:0;font-size:19px;line-height:1.6;font-family:'Iowan Old Style','Palatino Linotype',Palatino,'Book Antiqua',Georgia,serif">Welcome! <b>Footnotes to Plato (and Others)</b> is a tool for scholars in ancient philosophy, classics, theology, reception studies, intellectual history, history of the humanities, and digital humanities.</p>
+        <p style="margin:0">It tracks citations to five ancient authors—Homer, Pindar, Plato, Aristotle, and Paul—across a corpus of {{ nJournals }} academic journals, published between {{ yearFrom }} and {{ yearTo }}. Shoutout to the folks at JSTOR who kindly provided the data!</p>
+        <p style="margin:0">Three visualization tools allow you, between them, to analyze (1) how scholarly attention distributes between texts, text-clusters, but also within text, at passage-level granularity, (2) how all this shifts over time, and (3) how it differs from journal to journal, discipline to discipline.</p>
+        <p style="margin:0">Below is a short introduction to the three visualization tools, and some important-to-know caveats to keep in mind as you use these tools.</p>
+        <p style="margin:0">For the list of journals covered see <a href="#methods-journals" title="Methods → Journals covered">here</a>; for the full method &amp; technical implementation details see <a href="#">here</a>; for downloading the data see <a href="#">here</a>; for contacting me to suggest further features, or ask questions, see <a href="#">here</a>.</p>
+        <p style="margin:0">Happy researching!</p>
+      </div>
+    </div>
+
+    <div style="display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:14px">
+      <sc-for list="{{ stats }}" as="s" hint-placeholder-count="5">
+        <div style="background:#fff;border:1px solid #ddd9ee;border-radius:10px;padding:18px 20px 16px">
+          <div style="font-family:'Iowan Old Style','Palatino Linotype',Palatino,'Book Antiqua',Georgia,serif;font-size:29px;font-weight:600;line-height:1.1;letter-spacing:-.01em">{{ s.n }}</div>
+          <div style="font-family:'SF Mono',ui-monospace,'Cascadia Mono',Menlo,Consolas,monospace;font-size:9.5px;letter-spacing:.11em;text-transform:uppercase;color:#5b6478;margin-top:8px;line-height:1.5">{{ s.l }}</div>
+        </div>
+      </sc-for>
+    </div>
+
+    <div style="display:flex;flex-direction:column;gap:14px;margin-top:8px">
+      <div style="font-family:'SF Mono',ui-monospace,'Cascadia Mono',Menlo,Consolas,monospace;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#5b6478">The three tools</div>
+      <sc-for list="{{ viewers }}" as="v" hint-placeholder-count="3">
+        <a href="#" style="text-decoration:none;color:inherit;display:grid;grid-template-columns:300px 1fr;gap:0 30px;align-items:center;background:#fff;border:1px solid #ddd9ee;border-radius:10px;box-shadow:0 1px 2px rgba(28,34,48,.06);padding:24px 30px">
+          <div style="{{ v.thumb }}">
+            <sc-for list="{{ v.rows }}" as="r" hint-placeholder-count="6">
+              <div style="{{ r.wrap }}">
+                <sc-for list="{{ r.cells }}" as="c" hint-placeholder-count="8">
+                  <div style="{{ c.st }}"></div>
+                </sc-for>
+              </div>
+            </sc-for>
+          </div>
+          <div>
+            <div style="display:flex;align-items:baseline;gap:12px">
+              <div style="font-family:'Iowan Old Style','Palatino Linotype',Palatino,'Book Antiqua',Georgia,serif;font-size:23px;font-weight:600;line-height:1.2;min-width:0">{{ v.title }}</div>
+              <div style="font-family:'SF Mono',ui-monospace,'Cascadia Mono',Menlo,Consolas,monospace;font-size:9.5px;letter-spacing:.11em;text-transform:uppercase;color:#8a90a0;flex:none;white-space:nowrap">{{ v.kicker }}</div>
+            </div>
+            <p style="margin:9px 0 0;font-size:14.5px;line-height:1.65;color:#3d4453;max-width:64ch;text-wrap:pretty">{{ v.body }}</p>
+            <div style="font-family:'SF Mono',ui-monospace,'Cascadia Mono',Menlo,Consolas,monospace;font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:#5a5497;margin-top:13px">Open →</div>
+          </div>
+        </a>
+      </sc-for>
+    </div>
+
+    <div style="background:#fff;border:1px solid #ddd9ee;border-radius:10px;box-shadow:0 1px 2px rgba(28,34,48,.06),0 4px 16px rgba(28,34,48,.06);padding:30px 34px 34px;margin-top:8px">
+      <div style="font-family:'Iowan Old Style','Palatino Linotype',Palatino,'Book Antiqua',Georgia,serif;font-size:28px;font-weight:600;line-height:1.2">Three caveats, before you start</div>
+      <div style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;margin-top:20px">
+        <sc-for list="{{ caveats }}" as="c" hint-placeholder-count="3">
+          <div style="border-top:2px solid #ddd9ee;padding-top:13px">
+            <div style="font-family:'Iowan Old Style','Palatino Linotype',Palatino,'Book Antiqua',Georgia,serif;font-size:17px;font-weight:600;line-height:1.3">{{ c.h }}</div>
+            <p style="margin:7px 0 0;font-size:13.5px;line-height:1.65;color:#5b6478;text-wrap:pretty">{{ c.p }}</p>
+          </div>
+        </sc-for>
+      </div>
+
+      <sc-if value="{{ showFadeSamples }}" hint-placeholder-val="{{ true }}">
+        <div style="margin-top:28px;background:#faf1ea;border:1px solid #e7d3c4;border-radius:9px;padding:22px 24px 24px">
+          <div style="display:flex;align-items:baseline;gap:12px;flex-wrap:wrap">
+            <div style="font-family:'Iowan Old Style','Palatino Linotype',Palatino,'Book Antiqua',Georgia,serif;font-size:19px;font-weight:600">What a floor looks like</div>
+            <div style="font-family:'SF Mono',ui-monospace,'Cascadia Mono',Menlo,Consolas,monospace;font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:#b06a3a">eight texts of {{ nWorks }}</div>
+          </div>
+          <p style="margin:8px 0 18px;font-size:13.5px;line-height:1.65;color:#5b6478;max-width:80ch;text-wrap:pretty">Solid is what we could place with confidence. The fade is traffic we detected but could not attribute — shared among the texts a bare page number could belong to, so it is an upper limit, never a subtotal. A short solid bar with a long fade means "much of its traffic couldn't be placed," not "little studied."</p>
+          <div style="display:flex;flex-direction:column;gap:7px">
+            <sc-for list="{{ bars }}" as="b" hint-placeholder-count="8">
+              <div style="display:grid;grid-template-columns:150px 1fr 62px;gap:14px;align-items:center">
+                <div style="font-family:'Iowan Old Style','Palatino Linotype',Palatino,'Book Antiqua',Georgia,serif;font-size:14.5px;text-align:right;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">{{ b.name }}</div>
+                <div style="display:flex;align-items:center;height:15px">
+                  <div style="{{ b.solid }}"></div>
+                  <div style="{{ b.fade }}"></div>
+                </div>
+                <div style="font-family:'SF Mono',ui-monospace,'Cascadia Mono',Menlo,Consolas,monospace;font-size:10px;color:#5b6478;text-align:right">{{ b.n }}</div>
+              </div>
+            </sc-for>
+          </div>
+          <div style="display:flex;gap:20px;align-items:center;margin-top:16px;padding-top:14px;border-top:1px solid #e7d3c4;flex-wrap:wrap">
+            <div style="display:flex;align-items:center;gap:8px"><div style="width:26px;height:9px;border-radius:2px;background:#5a5497"></div><span style="font-family:'SF Mono',ui-monospace,'Cascadia Mono',Menlo,Consolas,monospace;font-size:10px;color:#5b6478">placed with confidence</span></div>
+            <div style="display:flex;align-items:center;gap:8px"><div style="width:26px;height:9px;border-radius:2px;background:linear-gradient(90deg,rgba(176,106,58,.5),rgba(176,106,58,0))"></div><span style="font-family:'SF Mono',ui-monospace,'Cascadia Mono',Menlo,Consolas,monospace;font-size:10px;color:#5b6478">detected, unresolvable</span></div>
+            <a href="#" style="font-family:'SF Mono',ui-monospace,'Cascadia Mono',Menlo,Consolas,monospace;font-size:10px;letter-spacing:.08em;text-transform:uppercase;margin-left:auto;white-space:nowrap">All {{ nWorks }} texts, in Methods →</a>
+          </div>
+        </div>
+      </sc-if>
+    </div>
+
+    <div style="background:#fff;border:1px solid #ddd9ee;border-radius:10px;padding:28px 34px 30px;display:flex;flex-direction:column;gap:14px">
+      <div style="font-family:'Iowan Old Style','Palatino Linotype',Palatino,'Book Antiqua',Georgia,serif;font-size:22px;font-weight:600">Citing and contributing</div>
+      <p style="margin:0;font-size:14.5px;line-height:1.7;color:#3d4453;max-width:96ch">If this contributed to published work, please cite as: <i>Kretz, David, Footnotes to Plato: A Passage-Level Citation Index for Ancient Texts,</i> Version 2.0, date. The derived data is <a href="#">published for download</a> so results can be checked or reused.</p>
+      <p style="margin:0;font-size:14.5px;line-height:1.7;color:#3d4453;max-width:96ch"><b>Publish or edit a journal you would like to see included?</b> Please <a href="#">write to me</a>! Corrections, methodological objections, and suggestions for additional features are also all very welcome.</p>
+      <div style="font-family:'Iowan Old Style','Palatino Linotype',Palatino,'Book Antiqua',Georgia,serif;font-size:22px;font-weight:600;margin-top:8px">Acknowledgements</div>
+      <p style="margin:0;font-size:14.5px;line-height:1.7;color:#3d4453;max-width:96ch">The pipeline, the analysis, and this website were developed with substantial assistance from Claude Opus 4.8 (by Anthropic) throughout. The responsibility for methodological decisions remains mine. I would like to thank the team at JSTOR Text Analysis Support for sharing the data that made this possible, and Joshua Mendelsohn for feedback on an earlier version.</p>
+    </div>
+
+  </div>
+
+  <div style="border-top:1px solid #ddd9ee;background:#eceafa">
+    <div style="max-width:1120px;margin:0 auto;padding:26px 24px 34px;display:flex;gap:30px;flex-wrap:wrap;font-size:13px;color:#5b6478">
+      <div style="flex:1;min-width:280px;max-width:62ch">
+        <strong>Footnotes to Plato</strong> · A passage-level citation index of the ancient-philosophy scholarship
+        <span style="font-size:12px;line-height:1.5;display:block;margin-top:5px">A finding aid that links out to the articles, never a substitute for them. Every count is a floor, not a total.</span>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:3px">
+        <a href="#" style="font-size:12.5px">Methods</a>
+        <a href="#" style="font-size:12.5px">Data</a>
+        <a href="#" style="font-size:12.5px">Contact</a>
+      </div>
+    </div>
+  </div>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;:{&quot;width&quot;:1180},&quot;journalCount&quot;:{&quot;editor&quot;:&quot;int&quot;,&quot;default&quot;:48,&quot;tsType&quot;:&quot;number&quot;,&quot;min&quot;:1,&quot;max&quot;:200,&quot;section&quot;:&quot;Corpus&quot;},&quot;showFadeSamples&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Caveats&quot;}}">
+// Corpus figures from viewer_data/meta.json and works_index.json (48 journals,
+// 88 texts, 493,233 placed citations, 1827-2022). The floor/fade sample bars are
+// illustrative: per-work unresolved totals come from the collision pass.
+const SAMPLES = [
+  ["Odyssey", 53805, 7200], ["Romans", 43094, 5900], ["Republic", 39932, 4100],
+  ["Iliad", 34087, 6400], ["Timaeus", 14208, 9800], ["Phaedo", 11518, 12400],
+  ["Apology", 6059, 10300], ["Meno", 4268, 11900]
+];
+
+class Component extends DCLogic {
+  thumb(kind, accent) {
+    const box = "background:#fbfaff;border:1px solid #ddd9ee;border-radius:8px;padding:16px 18px;height:150px;display:flex;flex-direction:column;justify-content:center;gap:";
+    const h = (s) => { let x = 2166136261; for (let i = 0; i < s.length; i++) { x ^= s.charCodeAt(i); x = Math.imul(x, 16777619); } return ((x >>> 0) % 1000) / 1000; };
+    if (kind === "bars") {
+      return {
+        thumb: box + "7px",
+        rows: [0, 1, 2, 3, 4, 5].map(i => ({
+          wrap: "display:flex;align-items:center;gap:6px",
+          cells: [
+            { st: "height:9px;border-radius:2px;background:" + accent + ";opacity:" + (1 - i * .11).toFixed(2) + ";width:" + Math.round(96 - i * 13 - h("b" + i) * 9) + "%" }
+          ]
+        }))
+      };
+    }
+    if (kind === "series") {
+      // two texts tracked across the same decades
+      return {
+        thumb: box + "0px;justify-content:flex-end;padding-bottom:20px",
+        rows: [0, 1].map(s => ({
+          wrap: "display:flex;align-items:flex-end;gap:3px;height:" + (s ? 42 : 54) + "px;margin-bottom:" + (s ? 0 : 6) + "px",
+          cells: Array.from({ length: 18 }, (_, c) => {
+            const v = .12 + (c / 17) * (s ? .55 : .9) + h(s + "s" + c) * .22;
+            return { st: "flex:1;border-radius:1.5px 1.5px 0 0;background:" + (s ? "#b06a3a" : accent) + ";opacity:" + (s ? .55 : .8) + ";height:" + Math.round(Math.min(1, v) * 100) + "%" };
+          })
+        }))
+      };
+    }
+    if (kind === "grid") {
+      return {
+        thumb: box + "3px",
+        rows: [0, 1, 2, 3, 4, 5, 6, 7].map(r => ({
+          wrap: "display:grid;grid-template-columns:repeat(14,1fr);gap:3px",
+          cells: Array.from({ length: 14 }, (_, c) => {
+            const v = Math.min(1, .05 + h(r + "x" + c) * .5 + (c / 13) * (r === 2 || r === 5 ? .85 : .3));
+            return { st: "height:9px;border-radius:1.5px;background:rgba(90,84,151," + v.toFixed(2) + ")" };
+          })
+        }))
+      };
+    }
+    return {
+      thumb: box + "7px",
+      rows: [0, 1, 2, 3, 4, 5].map(i => {
+        const l = 20 + h("l" + i) * 30, r = 20 + h("r" + i) * 30;
+        return {
+          wrap: "display:flex;align-items:center;justify-content:center;gap:3px",
+          cells: [
+            { st: "height:10px;border-radius:2px 0 0 2px;background:#5a5497;opacity:.8;width:" + l.toFixed(0) + "%" },
+            { st: "height:10px;width:1px;background:#c9c5e4" },
+            { st: "height:10px;border-radius:0 2px 2px 0;background:" + accent + ";opacity:.8;width:" + r.toFixed(0) + "%" }
+          ]
+        };
+      })
+    };
+  }
+
+  renderVals() {
+    const nJournals = this.props.journalCount ?? 48;
+    const showFadeSamples = this.props.showFadeSamples ?? true;
+    const max = SAMPLES.reduce((m, s) => Math.max(m, s[1] + s[2]), 0);
+    return {
+      nJournals: String(nJournals), yearFrom: "1827", yearTo: "2022", nWorks: "88",
+      showFadeSamples: showFadeSamples,
+      stats: [
+        { n: "5", l: "ancient authors" },
+        { n: "88", l: "texts indexed" },
+        { n: "493,233", l: "citations placed to a passage" },
+        { n: String(nJournals), l: "journals included" },
+        { n: "1827–2022", l: "period covered" }
+      ],
+      viewers: [
+        Object.assign({
+          kicker: "Viewer A", title: "Attention to text (clusters) over time",
+          body: "Plot whole texts, or clusters of them, against each other across two centuries. Set Republic beside Laws, the Platonic corpus beside the Aristotelian, or the philosophy journals beside the classics and theology ones on the same text."
+        }, this.thumb("series", "#5a5497")),
+        Object.assign({
+          kicker: "Viewer B", title: "Passage-level attention distribution",
+          body: "Inside a single text: which pages, sections and lines the literature keeps returning to, and which it leaves alone. Drill through any passage to the articles that cite it, and export the list as a bibliography."
+        }, this.thumb("bars", "#5a5497")),
+        Object.assign({
+          kicker: "Viewer C", title: "Passage-level attention shifts over time",
+          body: "A text's passages down the page, decades across it. Each map comes with a plain statement of what the measurement found — moved in one direction, rose and fell, held steady, or too thinly cited to tell."
+        }, this.thumb("grid", "#5a5497"))
+      ],
+      caveats: [
+        { h: "Select journals ≠ the whole field", p: "Journal articles only — no monographs, edited volumes or commentaries, and with an Anglophone and European skew. Much influential work is simply absent from these counts." },
+        { h: "Uneven across two centuries", p: "The early decades are thin and most citations fall after 1980. A quiet early stretch reflects how little was published and digitized then, not a lapse in scholarly attention." },
+        { h: "Every count is a floor", p: "A bare reference like 80b fits Meno, Phaedo, Timaeus or Posterior Analytics at once, and does not even declare which pagination it uses. Where the surrounding text does not settle it, we decline to guess." }
+      ],
+      bars: SAMPLES.map(([name, solid, fade]) => ({
+        name: name, n: solid.toLocaleString(),
+        solid: "height:13px;border-radius:2px 0 0 2px;background:#5a5497;width:" + (solid / max * 100).toFixed(1) + "%",
+        fade: "height:13px;border-radius:0 2px 2px 0;background:linear-gradient(90deg,rgba(176,106,58,.5),rgba(176,106,58,0));width:" + (fade / max * 100).toFixed(1) + "%"
+      }))
+    };
+  }
+}
+</script>
+</body>
+</html>
