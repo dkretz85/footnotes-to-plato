@@ -1,0 +1,5196 @@
+{
+ "work": "Epinomis",
+ "faceted": false,
+ "tier": "uncertain",
+ "cells": [
+  {
+   "book": "",
+   "page": 973,
+   "section": "a",
+   "count": 4,
+   "articles": 4,
+   "by_journal": {
+    "The Classical Quarterly": 2,
+    "Classical Philology": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 973,
+   "section": "b",
+   "count": 5,
+   "articles": 5,
+   "by_journal": {
+    "Les Études philosophiques": 1,
+    "The Classical Quarterly": 1,
+    "Classical Philology": 3
+   }
+  },
+  {
+   "book": "",
+   "page": 973,
+   "section": "c",
+   "count": 3,
+   "articles": 2,
+   "by_journal": {
+    "Méthexis": 2,
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 973,
+   "section": "d",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Review": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 973,
+   "section": "e",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "History of Philosophy Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 974,
+   "section": "a",
+   "count": 15,
+   "articles": 11,
+   "by_journal": {
+    "The Classical Review": 9,
+    "Méthexis": 1,
+    "Classical Philology": 1,
+    "The Classical Quarterly": 3,
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 974,
+   "section": "b",
+   "count": 7,
+   "articles": 6,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 2,
+    "The Classical Quarterly": 2,
+    "The Classical Review": 2,
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 974,
+   "section": "d",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Classical Philology": 1,
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 975,
+   "section": "a",
+   "count": 8,
+   "articles": 5,
+   "by_journal": {
+    "The Classical Review": 6,
+    "The Classical Quarterly": 1,
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 975,
+   "section": "b",
+   "count": 7,
+   "articles": 7,
+   "by_journal": {
+    "The Classical Review": 6,
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 975,
+   "section": "c",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 975,
+   "section": "d",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Méthexis": 1,
+    "The Classical Review": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 975,
+   "section": "e",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 976,
+   "section": "a",
+   "count": 13,
+   "articles": 9,
+   "by_journal": {
+    "The Classical Review": 9,
+    "Classical Philology": 4
+   }
+  },
+  {
+   "book": "",
+   "page": 976,
+   "section": "b",
+   "count": 16,
+   "articles": 8,
+   "by_journal": {
+    "The Classical Review": 11,
+    "Classical Philology": 3,
+    "Revue Internationale de Philosophie": 1,
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 976,
+   "section": "d",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "The Classical Quarterly": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 976,
+   "section": "e",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Classical Philology": 1,
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 977,
+   "section": "a",
+   "count": 20,
+   "articles": 10,
+   "by_journal": {
+    "The Classical Review": 14,
+    "Classical Philology": 5,
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 977,
+   "section": "b",
+   "count": 5,
+   "articles": 4,
+   "by_journal": {
+    "The Classical Review": 2,
+    "The Classical Quarterly": 1,
+    "Classical Philology": 1,
+    "History of Philosophy Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 977,
+   "section": "c",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Méthexis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 977,
+   "section": "e",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Review": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 978,
+   "section": "a",
+   "count": 7,
+   "articles": 3,
+   "by_journal": {
+    "The Classical Review": 5,
+    "Classical Philology": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 978,
+   "section": "b",
+   "count": 17,
+   "articles": 7,
+   "by_journal": {
+    "The Classical Review": 14,
+    "Classical Philology": 2,
+    "Revue de Philosophie Ancienne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 978,
+   "section": "c",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Les Études philosophiques": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 978,
+   "section": "d",
+   "count": 3,
+   "articles": 2,
+   "by_journal": {
+    "Les Études philosophiques": 1,
+    "Classical Philology": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 978,
+   "section": "e",
+   "count": 3,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 1,
+    "Classical Philology": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 979,
+   "section": "a",
+   "count": 34,
+   "articles": 10,
+   "by_journal": {
+    "The Classical Quarterly": 10,
+    "Phronesis": 8,
+    "Classical Philology": 5,
+    "Méthexis": 1,
+    "The Classical Review": 6,
+    "Revue de Philosophie Ancienne": 4
+   }
+  },
+  {
+   "book": "",
+   "page": 979,
+   "section": "b",
+   "count": 32,
+   "articles": 9,
+   "by_journal": {
+    "The Classical Review": 18,
+    "The Classical Quarterly": 8,
+    "Phronesis": 4,
+    "Revue de Philosophie Ancienne": 1,
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 979,
+   "section": "c",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 979,
+   "section": "d",
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "The Classical Review": 1,
+    "The Classical Quarterly": 1,
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 979,
+   "section": "e",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 980,
+   "section": "a",
+   "count": 6,
+   "articles": 3,
+   "by_journal": {
+    "The Classical Quarterly": 4,
+    "The Classical Review": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 980,
+   "section": "b",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Classical Philology": 1,
+    "The Classical Review": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 980,
+   "section": "c",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Classical Philology": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 980,
+   "section": "d",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Classical Philology": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 981,
+   "section": "a",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 981,
+   "section": "c",
+   "count": 5,
+   "articles": 3,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "Méthexis": 3,
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 981,
+   "section": "e",
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "The Classical Quarterly": 2,
+    "Revue de Philosophie Ancienne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 982,
+   "section": "a",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 982,
+   "section": "b",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Méthexis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 982,
+   "section": "c",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Review": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 982,
+   "section": "d",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "Méthexis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 982,
+   "section": "e",
+   "count": 4,
+   "articles": 4,
+   "by_journal": {
+    "The Classical Quarterly": 2,
+    "Classical Philology": 1,
+    "Revue de Philosophie Ancienne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 983,
+   "section": "a",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Review": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 983,
+   "section": "b",
+   "count": 3,
+   "articles": 2,
+   "by_journal": {
+    "Méthexis": 3
+   }
+  },
+  {
+   "book": "",
+   "page": 983,
+   "section": "c",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 983,
+   "section": "d",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Méthexis": 1,
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 983,
+   "section": "e",
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "Phronesis": 1,
+    "Revue de Philosophie Ancienne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 984,
+   "section": "a",
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "Classical Philology": 1,
+    "The Classical Review": 1,
+    "Revue de Philosophie Ancienne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 984,
+   "section": "b",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 984,
+   "section": "c",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Méthexis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 984,
+   "section": "d",
+   "count": 9,
+   "articles": 6,
+   "by_journal": {
+    "The Classical Quarterly": 3,
+    "Phronesis": 1,
+    "Méthexis": 1,
+    "Classical Philology": 4
+   }
+  },
+  {
+   "book": "",
+   "page": 984,
+   "section": "e",
+   "count": 8,
+   "articles": 6,
+   "by_journal": {
+    "The Classical Quarterly": 4,
+    "Phronesis": 2,
+    "Classical Philology": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 985,
+   "section": "a",
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "The Classical Quarterly": 2,
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 985,
+   "section": "b",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 985,
+   "section": "c",
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "Méthexis": 1,
+    "Classical Philology": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 985,
+   "section": "d",
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "The Classical Review": 3
+   }
+  },
+  {
+   "book": "",
+   "page": 985,
+   "section": "e",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Classical Philology": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 986,
+   "section": "a",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 986,
+   "section": "b",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 986,
+   "section": "c",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 986,
+   "section": "d",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 986,
+   "section": "e",
+   "count": 4,
+   "articles": 3,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 1,
+    "The Classical Review": 1,
+    "Classical Philology": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 987,
+   "section": "a",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Classical Philology": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 987,
+   "section": "b",
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "Phronesis": 1,
+    "Classical Philology": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 987,
+   "section": "d",
+   "count": 6,
+   "articles": 4,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 1,
+    "Classical Philology": 4,
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 987,
+   "section": "e",
+   "count": 4,
+   "articles": 3,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 1,
+    "The Classical Quarterly": 1,
+    "Classical Philology": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 988,
+   "section": "a",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Méthexis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 988,
+   "section": "c",
+   "count": 2,
+   "articles": 1,
+   "by_journal": {
+    "Classical Philology": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 989,
+   "section": "b",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 989,
+   "section": "d",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "The Classical Review": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 989,
+   "section": "e",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Classical Philology": 1,
+    "The Classical Review": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 990,
+   "section": "a",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Méthexis": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 990,
+   "section": "c",
+   "count": 8,
+   "articles": 7,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "The Classical Review": 1,
+    "Les Études philosophiques": 3,
+    "Classical Philology": 2,
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 990,
+   "section": "d",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 990,
+   "section": "e",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Archivio di Filosofia": 1,
+    "Revue de Philosophie Ancienne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 991,
+   "section": "a",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 991,
+   "section": "b",
+   "count": 4,
+   "articles": 4,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "Classical Philology": 1,
+    "The Classical Review": 1,
+    "Les Études philosophiques": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 991,
+   "section": "c",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Review": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 991,
+   "section": "d",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "The Classical Review": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 991,
+   "section": "e",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Méthexis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 992,
+   "section": "a",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Classical Philology": 1,
+    "The Classical Review": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 992,
+   "section": "b",
+   "count": 5,
+   "articles": 5,
+   "by_journal": {
+    "Classical Philology": 2,
+    "The Classical Quarterly": 2,
+    "Méthexis": 1
+   }
+  }
+ ],
+ "dots": [
+  {
+   "book": "",
+   "page": 976,
+   "section": "a",
+   "line": 11,
+   "journal": "The Classical Review",
+   "year": "1892",
+   "iid": "008f978c-2f53-392f-b211-d5ea5a19cfc7",
+   "doi": "10.2307/693548",
+   "title": "Apelt's Pseudo-Aristotelian Treatises. (Continued)",
+   "author": "Otto Apelt, J. Cook Wilson"
+  },
+  {
+   "book": "",
+   "page": 976,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1892",
+   "iid": "008f978c-2f53-392f-b211-d5ea5a19cfc7",
+   "doi": "10.2307/693548",
+   "title": "Apelt's Pseudo-Aristotelian Treatises. (Continued)",
+   "author": "Otto Apelt, J. Cook Wilson"
+  },
+  {
+   "book": "",
+   "page": 974,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1892",
+   "iid": "008f978c-2f53-392f-b211-d5ea5a19cfc7",
+   "doi": "10.2307/693548",
+   "title": "Apelt's Pseudo-Aristotelian Treatises. (Continued)",
+   "author": "Otto Apelt, J. Cook Wilson"
+  },
+  {
+   "book": "",
+   "page": 976,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1892",
+   "iid": "008f978c-2f53-392f-b211-d5ea5a19cfc7",
+   "doi": "10.2307/693548",
+   "title": "Apelt's Pseudo-Aristotelian Treatises. (Continued)",
+   "author": "Otto Apelt, J. Cook Wilson"
+  },
+  {
+   "book": "",
+   "page": 976,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1892",
+   "iid": "008f978c-2f53-392f-b211-d5ea5a19cfc7",
+   "doi": "10.2307/693548",
+   "title": "Apelt's Pseudo-Aristotelian Treatises. (Continued)",
+   "author": "Otto Apelt, J. Cook Wilson"
+  },
+  {
+   "book": "",
+   "page": 976,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1892",
+   "iid": "008f978c-2f53-392f-b211-d5ea5a19cfc7",
+   "doi": "10.2307/693548",
+   "title": "Apelt's Pseudo-Aristotelian Treatises. (Continued)",
+   "author": "Otto Apelt, J. Cook Wilson"
+  },
+  {
+   "book": "",
+   "page": 975,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1892",
+   "iid": "008f978c-2f53-392f-b211-d5ea5a19cfc7",
+   "doi": "10.2307/693548",
+   "title": "Apelt's Pseudo-Aristotelian Treatises. (Continued)",
+   "author": "Otto Apelt, J. Cook Wilson"
+  },
+  {
+   "book": "",
+   "page": 975,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1892",
+   "iid": "008f978c-2f53-392f-b211-d5ea5a19cfc7",
+   "doi": "10.2307/693548",
+   "title": "Apelt's Pseudo-Aristotelian Treatises. (Continued)",
+   "author": "Otto Apelt, J. Cook Wilson"
+  },
+  {
+   "book": "",
+   "page": 976,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1892",
+   "iid": "008f978c-2f53-392f-b211-d5ea5a19cfc7",
+   "doi": "10.2307/693548",
+   "title": "Apelt's Pseudo-Aristotelian Treatises. (Continued)",
+   "author": "Otto Apelt, J. Cook Wilson"
+  },
+  {
+   "book": "",
+   "page": 976,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1892",
+   "iid": "008f978c-2f53-392f-b211-d5ea5a19cfc7",
+   "doi": "10.2307/693548",
+   "title": "Apelt's Pseudo-Aristotelian Treatises. (Continued)",
+   "author": "Otto Apelt, J. Cook Wilson"
+  },
+  {
+   "book": "",
+   "page": 978,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1892",
+   "iid": "008f978c-2f53-392f-b211-d5ea5a19cfc7",
+   "doi": "10.2307/693548",
+   "title": "Apelt's Pseudo-Aristotelian Treatises. (Continued)",
+   "author": "Otto Apelt, J. Cook Wilson"
+  },
+  {
+   "book": "",
+   "page": 977,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1892",
+   "iid": "008f978c-2f53-392f-b211-d5ea5a19cfc7",
+   "doi": "10.2307/693548",
+   "title": "Apelt's Pseudo-Aristotelian Treatises. (Continued)",
+   "author": "Otto Apelt, J. Cook Wilson"
+  },
+  {
+   "book": "",
+   "page": 974,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1892",
+   "iid": "008f978c-2f53-392f-b211-d5ea5a19cfc7",
+   "doi": "10.2307/693548",
+   "title": "Apelt's Pseudo-Aristotelian Treatises. (Continued)",
+   "author": "Otto Apelt, J. Cook Wilson"
+  },
+  {
+   "book": "",
+   "page": 990,
+   "section": "a",
+   "line": null,
+   "journal": "Méthexis",
+   "year": "1996",
+   "iid": "02a30e24-9325-305e-8add-cc6268933555",
+   "doi": "10.2307/43738883",
+   "title": "PLATO'S \"THEOLOGÍA\" REVISITED",
+   "author": "GERARD NADDAF"
+  },
+  {
+   "book": "",
+   "page": 985,
+   "section": "d",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "2002",
+   "iid": "07f75a25-e478-3fc4-969c-cea7824c13f0",
+   "doi": "10.2307/3662045",
+   "title": "Book Review : \n        Plutarco. Del mangiare carne. Trattati sugli animali\n        D. Magini\n        Plutarch",
+   "author": "Gillian Clark, D. Magini, Plutarch"
+  },
+  {
+   "book": "",
+   "page": 976,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1934",
+   "iid": "08f831ba-bdc1-30d5-a31e-f1d77ff6e362",
+   "doi": "10.2307/701485",
+   "title": "Magnum de Particulis Opus",
+   "author": "W. L. Lorimer, J. D. Denniston"
+  },
+  {
+   "book": "",
+   "page": 977,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1892",
+   "iid": "12ee82b6-5947-3e00-91e2-3ecc10179948",
+   "doi": "10.2307/692562",
+   "title": "Apelt's Pseudo-Aristotelian Treatises. (Continued)",
+   "author": "Otto Apelt, J. Cook Wilson"
+  },
+  {
+   "book": "",
+   "page": 977,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1892",
+   "iid": "12ee82b6-5947-3e00-91e2-3ecc10179948",
+   "doi": "10.2307/692562",
+   "title": "Apelt's Pseudo-Aristotelian Treatises. (Continued)",
+   "author": "Otto Apelt, J. Cook Wilson"
+  },
+  {
+   "book": "",
+   "page": 977,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1892",
+   "iid": "12ee82b6-5947-3e00-91e2-3ecc10179948",
+   "doi": "10.2307/692562",
+   "title": "Apelt's Pseudo-Aristotelian Treatises. (Continued)",
+   "author": "Otto Apelt, J. Cook Wilson"
+  },
+  {
+   "book": "",
+   "page": 977,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1892",
+   "iid": "12ee82b6-5947-3e00-91e2-3ecc10179948",
+   "doi": "10.2307/692562",
+   "title": "Apelt's Pseudo-Aristotelian Treatises. (Continued)",
+   "author": "Otto Apelt, J. Cook Wilson"
+  },
+  {
+   "book": "",
+   "page": 977,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1892",
+   "iid": "12ee82b6-5947-3e00-91e2-3ecc10179948",
+   "doi": "10.2307/692562",
+   "title": "Apelt's Pseudo-Aristotelian Treatises. (Continued)",
+   "author": "Otto Apelt, J. Cook Wilson"
+  },
+  {
+   "book": "",
+   "page": 975,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1892",
+   "iid": "12ee82b6-5947-3e00-91e2-3ecc10179948",
+   "doi": "10.2307/692562",
+   "title": "Apelt's Pseudo-Aristotelian Treatises. (Continued)",
+   "author": "Otto Apelt, J. Cook Wilson"
+  },
+  {
+   "book": "",
+   "page": 977,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1892",
+   "iid": "12ee82b6-5947-3e00-91e2-3ecc10179948",
+   "doi": "10.2307/692562",
+   "title": "Apelt's Pseudo-Aristotelian Treatises. (Continued)",
+   "author": "Otto Apelt, J. Cook Wilson"
+  },
+  {
+   "book": "",
+   "page": 978,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1892",
+   "iid": "12ee82b6-5947-3e00-91e2-3ecc10179948",
+   "doi": "10.2307/692562",
+   "title": "Apelt's Pseudo-Aristotelian Treatises. (Continued)",
+   "author": "Otto Apelt, J. Cook Wilson"
+  },
+  {
+   "book": "",
+   "page": 978,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1892",
+   "iid": "12ee82b6-5947-3e00-91e2-3ecc10179948",
+   "doi": "10.2307/692562",
+   "title": "Apelt's Pseudo-Aristotelian Treatises. (Continued)",
+   "author": "Otto Apelt, J. Cook Wilson"
+  },
+  {
+   "book": "",
+   "page": 978,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1892",
+   "iid": "12ee82b6-5947-3e00-91e2-3ecc10179948",
+   "doi": "10.2307/692562",
+   "title": "Apelt's Pseudo-Aristotelian Treatises. (Continued)",
+   "author": "Otto Apelt, J. Cook Wilson"
+  },
+  {
+   "book": "",
+   "page": 978,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1892",
+   "iid": "12ee82b6-5947-3e00-91e2-3ecc10179948",
+   "doi": "10.2307/692562",
+   "title": "Apelt's Pseudo-Aristotelian Treatises. (Continued)",
+   "author": "Otto Apelt, J. Cook Wilson"
+  },
+  {
+   "book": "",
+   "page": 978,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1892",
+   "iid": "12ee82b6-5947-3e00-91e2-3ecc10179948",
+   "doi": "10.2307/692562",
+   "title": "Apelt's Pseudo-Aristotelian Treatises. (Continued)",
+   "author": "Otto Apelt, J. Cook Wilson"
+  },
+  {
+   "book": "",
+   "page": 978,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1892",
+   "iid": "12ee82b6-5947-3e00-91e2-3ecc10179948",
+   "doi": "10.2307/692562",
+   "title": "Apelt's Pseudo-Aristotelian Treatises. (Continued)",
+   "author": "Otto Apelt, J. Cook Wilson"
+  },
+  {
+   "book": "",
+   "page": 978,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1892",
+   "iid": "12ee82b6-5947-3e00-91e2-3ecc10179948",
+   "doi": "10.2307/692562",
+   "title": "Apelt's Pseudo-Aristotelian Treatises. (Continued)",
+   "author": "Otto Apelt, J. Cook Wilson"
+  },
+  {
+   "book": "",
+   "page": 978,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1892",
+   "iid": "12ee82b6-5947-3e00-91e2-3ecc10179948",
+   "doi": "10.2307/692562",
+   "title": "Apelt's Pseudo-Aristotelian Treatises. (Continued)",
+   "author": "Otto Apelt, J. Cook Wilson"
+  },
+  {
+   "book": "",
+   "page": 978,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1892",
+   "iid": "12ee82b6-5947-3e00-91e2-3ecc10179948",
+   "doi": "10.2307/692562",
+   "title": "Apelt's Pseudo-Aristotelian Treatises. (Continued)",
+   "author": "Otto Apelt, J. Cook Wilson"
+  },
+  {
+   "book": "",
+   "page": 976,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1892",
+   "iid": "12ee82b6-5947-3e00-91e2-3ecc10179948",
+   "doi": "10.2307/692562",
+   "title": "Apelt's Pseudo-Aristotelian Treatises. (Continued)",
+   "author": "Otto Apelt, J. Cook Wilson"
+  },
+  {
+   "book": "",
+   "page": 977,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1892",
+   "iid": "12ee82b6-5947-3e00-91e2-3ecc10179948",
+   "doi": "10.2307/692562",
+   "title": "Apelt's Pseudo-Aristotelian Treatises. (Continued)",
+   "author": "Otto Apelt, J. Cook Wilson"
+  },
+  {
+   "book": "",
+   "page": 978,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1892",
+   "iid": "12ee82b6-5947-3e00-91e2-3ecc10179948",
+   "doi": "10.2307/692562",
+   "title": "Apelt's Pseudo-Aristotelian Treatises. (Continued)",
+   "author": "Otto Apelt, J. Cook Wilson"
+  },
+  {
+   "book": "",
+   "page": 978,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1892",
+   "iid": "12ee82b6-5947-3e00-91e2-3ecc10179948",
+   "doi": "10.2307/692562",
+   "title": "Apelt's Pseudo-Aristotelian Treatises. (Continued)",
+   "author": "Otto Apelt, J. Cook Wilson"
+  },
+  {
+   "book": "",
+   "page": 978,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1892",
+   "iid": "12ee82b6-5947-3e00-91e2-3ecc10179948",
+   "doi": "10.2307/692562",
+   "title": "Apelt's Pseudo-Aristotelian Treatises. (Continued)",
+   "author": "Otto Apelt, J. Cook Wilson"
+  },
+  {
+   "book": "",
+   "page": 978,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1892",
+   "iid": "12ee82b6-5947-3e00-91e2-3ecc10179948",
+   "doi": "10.2307/692562",
+   "title": "Apelt's Pseudo-Aristotelian Treatises. (Continued)",
+   "author": "Otto Apelt, J. Cook Wilson"
+  },
+  {
+   "book": "",
+   "page": 978,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1892",
+   "iid": "12ee82b6-5947-3e00-91e2-3ecc10179948",
+   "doi": "10.2307/692562",
+   "title": "Apelt's Pseudo-Aristotelian Treatises. (Continued)",
+   "author": "Otto Apelt, J. Cook Wilson"
+  },
+  {
+   "book": "",
+   "page": 978,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1892",
+   "iid": "12ee82b6-5947-3e00-91e2-3ecc10179948",
+   "doi": "10.2307/692562",
+   "title": "Apelt's Pseudo-Aristotelian Treatises. (Continued)",
+   "author": "Otto Apelt, J. Cook Wilson"
+  },
+  {
+   "book": "",
+   "page": 978,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1892",
+   "iid": "12ee82b6-5947-3e00-91e2-3ecc10179948",
+   "doi": "10.2307/692562",
+   "title": "Apelt's Pseudo-Aristotelian Treatises. (Continued)",
+   "author": "Otto Apelt, J. Cook Wilson"
+  },
+  {
+   "book": "",
+   "page": 977,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1892",
+   "iid": "12ee82b6-5947-3e00-91e2-3ecc10179948",
+   "doi": "10.2307/692562",
+   "title": "Apelt's Pseudo-Aristotelian Treatises. (Continued)",
+   "author": "Otto Apelt, J. Cook Wilson"
+  },
+  {
+   "book": "",
+   "page": 979,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1986",
+   "iid": "16cdb4bd-a33a-3b25-89a5-d1de6af146f2",
+   "doi": "10.2307/3064266",
+   "title": "",
+   "author": "R. H. Martin, Heinz Heubner"
+  },
+  {
+   "book": "",
+   "page": 990,
+   "section": "e",
+   "line": 4,
+   "journal": "Archivio di Filosofia",
+   "year": "2016",
+   "iid": "1785f1e1-9636-31bf-840c-db0ef2acdba2",
+   "doi": "10.2307/26572168",
+   "title": "ΑΝΑΛΟΓIA IN PLATONE",
+   "author": "Francesco Fronterotta"
+  },
+  {
+   "book": "",
+   "page": 990,
+   "section": "c",
+   "line": 5,
+   "journal": "The Classical Quarterly",
+   "year": "1983",
+   "iid": "1818f7b9-cc89-3ec2-a283-7e5d81203a6b",
+   "doi": "10.2307/638781",
+   "title": "Plato's Theory of Number",
+   "author": "Ivor Bulmer-Thomas"
+  },
+  {
+   "book": "",
+   "page": 991,
+   "section": "b",
+   "line": 4,
+   "journal": "The Classical Quarterly",
+   "year": "1983",
+   "iid": "1818f7b9-cc89-3ec2-a283-7e5d81203a6b",
+   "doi": "10.2307/638781",
+   "title": "Plato's Theory of Number",
+   "author": "Ivor Bulmer-Thomas"
+  },
+  {
+   "book": "",
+   "page": 979,
+   "section": "a",
+   "line": 12,
+   "journal": "The Classical Quarterly",
+   "year": "2019",
+   "iid": "18295254-93a1-3539-93ed-c64fa146c781",
+   "doi": "10.2307/26852155",
+   "title": "UNTYING THE GORGIANIC ‘NOT’",
+   "author": "EVAN RODRIGUEZ"
+  },
+  {
+   "book": "",
+   "page": 979,
+   "section": "a",
+   "line": 23,
+   "journal": "The Classical Quarterly",
+   "year": "2019",
+   "iid": "18295254-93a1-3539-93ed-c64fa146c781",
+   "doi": "10.2307/26852155",
+   "title": "UNTYING THE GORGIANIC ‘NOT’",
+   "author": "EVAN RODRIGUEZ"
+  },
+  {
+   "book": "",
+   "page": 980,
+   "section": "a",
+   "line": 3,
+   "journal": "The Classical Quarterly",
+   "year": "2019",
+   "iid": "18295254-93a1-3539-93ed-c64fa146c781",
+   "doi": "10.2307/26852155",
+   "title": "UNTYING THE GORGIANIC ‘NOT’",
+   "author": "EVAN RODRIGUEZ"
+  },
+  {
+   "book": "",
+   "page": 979,
+   "section": "a",
+   "line": 13,
+   "journal": "The Classical Quarterly",
+   "year": "2019",
+   "iid": "18295254-93a1-3539-93ed-c64fa146c781",
+   "doi": "10.2307/26852155",
+   "title": "UNTYING THE GORGIANIC ‘NOT’",
+   "author": "EVAN RODRIGUEZ"
+  },
+  {
+   "book": "",
+   "page": 979,
+   "section": "a",
+   "line": 22,
+   "journal": "The Classical Quarterly",
+   "year": "2019",
+   "iid": "18295254-93a1-3539-93ed-c64fa146c781",
+   "doi": "10.2307/26852155",
+   "title": "UNTYING THE GORGIANIC ‘NOT’",
+   "author": "EVAN RODRIGUEZ"
+  },
+  {
+   "book": "",
+   "page": 979,
+   "section": "b",
+   "line": 22,
+   "journal": "The Classical Quarterly",
+   "year": "2019",
+   "iid": "18295254-93a1-3539-93ed-c64fa146c781",
+   "doi": "10.2307/26852155",
+   "title": "UNTYING THE GORGIANIC ‘NOT’",
+   "author": "EVAN RODRIGUEZ"
+  },
+  {
+   "book": "",
+   "page": 979,
+   "section": "b",
+   "line": 25,
+   "journal": "The Classical Quarterly",
+   "year": "2019",
+   "iid": "18295254-93a1-3539-93ed-c64fa146c781",
+   "doi": "10.2307/26852155",
+   "title": "UNTYING THE GORGIANIC ‘NOT’",
+   "author": "EVAN RODRIGUEZ"
+  },
+  {
+   "book": "",
+   "page": 979,
+   "section": "a",
+   "line": 25,
+   "journal": "The Classical Quarterly",
+   "year": "2019",
+   "iid": "18295254-93a1-3539-93ed-c64fa146c781",
+   "doi": "10.2307/26852155",
+   "title": "UNTYING THE GORGIANIC ‘NOT’",
+   "author": "EVAN RODRIGUEZ"
+  },
+  {
+   "book": "",
+   "page": 980,
+   "section": "a",
+   "line": 1,
+   "journal": "The Classical Quarterly",
+   "year": "2019",
+   "iid": "18295254-93a1-3539-93ed-c64fa146c781",
+   "doi": "10.2307/26852155",
+   "title": "UNTYING THE GORGIANIC ‘NOT’",
+   "author": "EVAN RODRIGUEZ"
+  },
+  {
+   "book": "",
+   "page": 979,
+   "section": "a",
+   "line": 31,
+   "journal": "The Classical Quarterly",
+   "year": "2019",
+   "iid": "18295254-93a1-3539-93ed-c64fa146c781",
+   "doi": "10.2307/26852155",
+   "title": "UNTYING THE GORGIANIC ‘NOT’",
+   "author": "EVAN RODRIGUEZ"
+  },
+  {
+   "book": "",
+   "page": 979,
+   "section": "b",
+   "line": 21,
+   "journal": "The Classical Quarterly",
+   "year": "2019",
+   "iid": "18295254-93a1-3539-93ed-c64fa146c781",
+   "doi": "10.2307/26852155",
+   "title": "UNTYING THE GORGIANIC ‘NOT’",
+   "author": "EVAN RODRIGUEZ"
+  },
+  {
+   "book": "",
+   "page": 979,
+   "section": "b",
+   "line": 26,
+   "journal": "The Classical Quarterly",
+   "year": "2019",
+   "iid": "18295254-93a1-3539-93ed-c64fa146c781",
+   "doi": "10.2307/26852155",
+   "title": "UNTYING THE GORGIANIC ‘NOT’",
+   "author": "EVAN RODRIGUEZ"
+  },
+  {
+   "book": "",
+   "page": 979,
+   "section": "b",
+   "line": 35,
+   "journal": "The Classical Quarterly",
+   "year": "2019",
+   "iid": "18295254-93a1-3539-93ed-c64fa146c781",
+   "doi": "10.2307/26852155",
+   "title": "UNTYING THE GORGIANIC ‘NOT’",
+   "author": "EVAN RODRIGUEZ"
+  },
+  {
+   "book": "",
+   "page": 980,
+   "section": "a",
+   "line": 1,
+   "journal": "The Classical Quarterly",
+   "year": "2019",
+   "iid": "18295254-93a1-3539-93ed-c64fa146c781",
+   "doi": "10.2307/26852155",
+   "title": "UNTYING THE GORGIANIC ‘NOT’",
+   "author": "EVAN RODRIGUEZ"
+  },
+  {
+   "book": "",
+   "page": 979,
+   "section": "a",
+   "line": 30,
+   "journal": "The Classical Quarterly",
+   "year": "2019",
+   "iid": "18295254-93a1-3539-93ed-c64fa146c781",
+   "doi": "10.2307/26852155",
+   "title": "UNTYING THE GORGIANIC ‘NOT’",
+   "author": "EVAN RODRIGUEZ"
+  },
+  {
+   "book": "",
+   "page": 979,
+   "section": "a",
+   "line": 31,
+   "journal": "The Classical Quarterly",
+   "year": "2019",
+   "iid": "18295254-93a1-3539-93ed-c64fa146c781",
+   "doi": "10.2307/26852155",
+   "title": "UNTYING THE GORGIANIC ‘NOT’",
+   "author": "EVAN RODRIGUEZ"
+  },
+  {
+   "book": "",
+   "page": 979,
+   "section": "a",
+   "line": 34,
+   "journal": "The Classical Quarterly",
+   "year": "2019",
+   "iid": "18295254-93a1-3539-93ed-c64fa146c781",
+   "doi": "10.2307/26852155",
+   "title": "UNTYING THE GORGIANIC ‘NOT’",
+   "author": "EVAN RODRIGUEZ"
+  },
+  {
+   "book": "",
+   "page": 979,
+   "section": "a",
+   "line": 33,
+   "journal": "The Classical Quarterly",
+   "year": "2019",
+   "iid": "18295254-93a1-3539-93ed-c64fa146c781",
+   "doi": "10.2307/26852155",
+   "title": "UNTYING THE GORGIANIC ‘NOT’",
+   "author": "EVAN RODRIGUEZ"
+  },
+  {
+   "book": "",
+   "page": 979,
+   "section": "b",
+   "line": 34,
+   "journal": "The Classical Quarterly",
+   "year": "2019",
+   "iid": "18295254-93a1-3539-93ed-c64fa146c781",
+   "doi": "10.2307/26852155",
+   "title": "UNTYING THE GORGIANIC ‘NOT’",
+   "author": "EVAN RODRIGUEZ"
+  },
+  {
+   "book": "",
+   "page": 980,
+   "section": "a",
+   "line": 1,
+   "journal": "The Classical Quarterly",
+   "year": "2019",
+   "iid": "18295254-93a1-3539-93ed-c64fa146c781",
+   "doi": "10.2307/26852155",
+   "title": "UNTYING THE GORGIANIC ‘NOT’",
+   "author": "EVAN RODRIGUEZ"
+  },
+  {
+   "book": "",
+   "page": 979,
+   "section": "b",
+   "line": 10,
+   "journal": "The Classical Quarterly",
+   "year": "2019",
+   "iid": "18295254-93a1-3539-93ed-c64fa146c781",
+   "doi": "10.2307/26852155",
+   "title": "UNTYING THE GORGIANIC ‘NOT’",
+   "author": "EVAN RODRIGUEZ"
+  },
+  {
+   "book": "",
+   "page": 979,
+   "section": "b",
+   "line": 8,
+   "journal": "The Classical Quarterly",
+   "year": "2019",
+   "iid": "18295254-93a1-3539-93ed-c64fa146c781",
+   "doi": "10.2307/26852155",
+   "title": "UNTYING THE GORGIANIC ‘NOT’",
+   "author": "EVAN RODRIGUEZ"
+  },
+  {
+   "book": "",
+   "page": 986,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1971",
+   "iid": "1815e8be-e8a6-31d1-a249-0d007d7a7f35",
+   "doi": "10.2307/637788",
+   "title": "The Cosmology of 'Hippocrates', De Hebdomadibus",
+   "author": "M. L. West"
+  },
+  {
+   "book": "",
+   "page": 981,
+   "section": "e",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2018",
+   "iid": "19ae2346-0a5a-3dbd-94e0-81101813c753",
+   "doi": "10.2307/26670610",
+   "title": "A CONJECTURE ON THE ‘NEW APULEIUS’",
+   "author": "MIKHAIL SHUMILIN"
+  },
+  {
+   "book": "",
+   "page": 982,
+   "section": "d",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2018",
+   "iid": "19ae2346-0a5a-3dbd-94e0-81101813c753",
+   "doi": "10.2307/26670610",
+   "title": "A CONJECTURE ON THE ‘NEW APULEIUS’",
+   "author": "MIKHAIL SHUMILIN"
+  },
+  {
+   "book": "",
+   "page": 982,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2018",
+   "iid": "19ae2346-0a5a-3dbd-94e0-81101813c753",
+   "doi": "10.2307/26670610",
+   "title": "A CONJECTURE ON THE ‘NEW APULEIUS’",
+   "author": "MIKHAIL SHUMILIN"
+  },
+  {
+   "book": "",
+   "page": 984,
+   "section": "e",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1993",
+   "iid": "19f97049-b9aa-3a5f-8336-650bb6c64b87",
+   "doi": "10.2307/639458",
+   "title": "Xenocrates' Daemons and the Irrational Soul",
+   "author": "Hermann S. Schibli"
+  },
+  {
+   "book": "",
+   "page": 977,
+   "section": "b",
+   "line": 2,
+   "journal": "The Classical Quarterly",
+   "year": "1993",
+   "iid": "19f97049-b9aa-3a5f-8336-650bb6c64b87",
+   "doi": "10.2307/639458",
+   "title": "Xenocrates' Daemons and the Irrational Soul",
+   "author": "Hermann S. Schibli"
+  },
+  {
+   "book": "",
+   "page": 985,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1993",
+   "iid": "19f97049-b9aa-3a5f-8336-650bb6c64b87",
+   "doi": "10.2307/639458",
+   "title": "Xenocrates' Daemons and the Irrational Soul",
+   "author": "Hermann S. Schibli"
+  },
+  {
+   "book": "",
+   "page": 984,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1993",
+   "iid": "19f97049-b9aa-3a5f-8336-650bb6c64b87",
+   "doi": "10.2307/639458",
+   "title": "Xenocrates' Daemons and the Irrational Soul",
+   "author": "Hermann S. Schibli"
+  },
+  {
+   "book": "",
+   "page": 976,
+   "section": "d",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1983",
+   "iid": "19daf326-d24f-3aa6-af76-983751d60aba",
+   "doi": "10.2307/638775",
+   "title": "LSJ and the Problem of Poetic Archaism: From Meanings to Iconyms",
+   "author": "M. S. Silk"
+  },
+  {
+   "book": "",
+   "page": 975,
+   "section": "b",
+   "line": 7,
+   "journal": "The Classical Quarterly",
+   "year": "2017",
+   "iid": "1a8002e4-0899-3594-a004-7a2dd34dbe8e",
+   "doi": "10.2307/26292400",
+   "title": "EMPEDOCLES' \"ON NATURE\" FRR. B 8–9 IN THE CONTEXT OF PLUTARCH'S \"AGAINST COLOTES\"",
+   "author": "RICHARD JANKO"
+  },
+  {
+   "book": "",
+   "page": 978,
+   "section": "d",
+   "line": null,
+   "journal": "Les Études philosophiques",
+   "year": "2013",
+   "iid": "1b1eb571-36ea-3726-afb0-6b0151532460",
+   "doi": "10.2307/41806197",
+   "title": "LE \"PERIPHYSEON\" D'ÉRIGÈNE COMME UNE EXTRAPOLATION DE \"L'AMBIGUUM\" 41 DE MAXIME LE CONFESSEUR",
+   "author": "Juliette Lemaire, Adrian Guiu"
+  },
+  {
+   "book": "",
+   "page": 977,
+   "section": "b",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1951",
+   "iid": "1b2b4d00-66e3-365b-8dd3-36f972be929f",
+   "doi": "10.2307/265624",
+   "title": "Notes on Plutarch's De facie in orbe lunae",
+   "author": "Harold Cherniss"
+  },
+  {
+   "book": "",
+   "page": 979,
+   "section": "a",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1958",
+   "iid": "22e504e0-16ce-358d-bb9a-0d5c5e06bdb8",
+   "doi": "10.2307/4181627",
+   "title": "οὐ μᾶλλον and the Antecedents of Ancient Scepticism",
+   "author": "Phillip DeLacy"
+  },
+  {
+   "book": "",
+   "page": 973,
+   "section": "d",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1961",
+   "iid": "235e70fe-b5a1-3d2f-9bca-3744464d3bcb",
+   "doi": "10.2307/709524",
+   "title": "",
+   "author": "D. Mervyn Jones, D. Holwerda"
+  },
+  {
+   "book": "",
+   "page": 982,
+   "section": "e",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2002",
+   "iid": "2ab080a2-fb86-34f9-911a-f6c99175a1f5",
+   "doi": "10.2307/3556426",
+   "title": "Neglected Evidence for Diodorus Cronus",
+   "author": "Nicholas Denyer"
+  },
+  {
+   "book": "",
+   "page": 974,
+   "section": "b",
+   "line": 8,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "1988",
+   "iid": "2c658474-677e-32ea-a515-241d5502a1b7",
+   "doi": "10.2307/24354394",
+   "title": "L'ÉPISTÉMOLOGIE DU PRINCIPE DE CONTRADICTION CHEZ ARISTOTE",
+   "author": "D.S. HUTCHINSON"
+  },
+  {
+   "book": "",
+   "page": 974,
+   "section": "b",
+   "line": 9,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "1988",
+   "iid": "2c658474-677e-32ea-a515-241d5502a1b7",
+   "doi": "10.2307/24354394",
+   "title": "L'ÉPISTÉMOLOGIE DU PRINCIPE DE CONTRADICTION CHEZ ARISTOTE",
+   "author": "D.S. HUTCHINSON"
+  },
+  {
+   "book": "",
+   "page": 978,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1957",
+   "iid": "2d595801-8c8c-3d83-b5dd-f3827bde50c1",
+   "doi": "10.2307/265696",
+   "title": "",
+   "author": "Rosamond Kent Sprague, Mario Untersteiner"
+  },
+  {
+   "book": "",
+   "page": 991,
+   "section": "b",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2010",
+   "iid": "2e6d452e-4e62-35f2-89df-d45bd85a60ff",
+   "doi": "10.1086/657028",
+   "title": "Mathematical Beauty Made Audible: Musical Aesthetics\nin Ptolemy’s <em>Harmonics</em>",
+   "author": "Andrew Barker"
+  },
+  {
+   "book": "",
+   "page": 979,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1906",
+   "iid": "2e4bfdcb-c8ad-3cf1-93f1-b81a05d4a38a",
+   "doi": "10.2307/262258",
+   "title": "Bisected Trimeters in Attic Tragedy",
+   "author": "Thomas D. Goodell"
+  },
+  {
+   "book": "",
+   "page": 979,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1906",
+   "iid": "2e4bfdcb-c8ad-3cf1-93f1-b81a05d4a38a",
+   "doi": "10.2307/262258",
+   "title": "Bisected Trimeters in Attic Tragedy",
+   "author": "Thomas D. Goodell"
+  },
+  {
+   "book": "",
+   "page": 980,
+   "section": "b",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1906",
+   "iid": "2e4bfdcb-c8ad-3cf1-93f1-b81a05d4a38a",
+   "doi": "10.2307/262258",
+   "title": "Bisected Trimeters in Attic Tragedy",
+   "author": "Thomas D. Goodell"
+  },
+  {
+   "book": "",
+   "page": 987,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1906",
+   "iid": "2e4bfdcb-c8ad-3cf1-93f1-b81a05d4a38a",
+   "doi": "10.2307/262258",
+   "title": "Bisected Trimeters in Attic Tragedy",
+   "author": "Thomas D. Goodell"
+  },
+  {
+   "book": "",
+   "page": 984,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1906",
+   "iid": "2e4bfdcb-c8ad-3cf1-93f1-b81a05d4a38a",
+   "doi": "10.2307/262258",
+   "title": "Bisected Trimeters in Attic Tragedy",
+   "author": "Thomas D. Goodell"
+  },
+  {
+   "book": "",
+   "page": 980,
+   "section": "a",
+   "line": 5,
+   "journal": "The Classical Review",
+   "year": "1987",
+   "iid": "2ece0ac2-0bbb-3616-8857-9bcce279ae16",
+   "doi": "10.2307/3064175",
+   "title": "",
+   "author": "John Glucker, Kent F. Moors"
+  },
+  {
+   "book": "",
+   "page": 974,
+   "section": "a",
+   "line": null,
+   "journal": "Méthexis",
+   "year": "2003",
+   "iid": "2fdd6629-1350-3def-a0b9-0ffabaf21b51",
+   "doi": "10.2307/43738693",
+   "title": "GENERACIÓN Y TIEMPO EN EL POEMA DE PARMÉNIDES",
+   "author": "JOSÉ SOLANA"
+  },
+  {
+   "book": "",
+   "page": 975,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1981",
+   "iid": "31f8eeed-0d93-31c3-90c0-fb05852cb1c1",
+   "doi": "10.2307/638547",
+   "title": "Remarks on Moschion's Account of Progress",
+   "author": "G. Xanthakis-Karamanos"
+  },
+  {
+   "book": "",
+   "page": 976,
+   "section": "b",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1949",
+   "iid": "33e0d5ab-5496-3160-9465-45814c0b20f3",
+   "doi": "10.2307/266761",
+   "title": "The Short Forms of the Text of Diogenes Laërtius",
+   "author": "Herbert S. Long"
+  },
+  {
+   "book": "",
+   "page": 976,
+   "section": "b",
+   "line": null,
+   "journal": "Revue Internationale de Philosophie",
+   "year": "1980",
+   "iid": "3b6cbb1b-b934-39c5-a5ff-259f73d1e75e",
+   "doi": "10.2307/23944216",
+   "title": "FROM JUSTIFYING A THEORY TO COMPARING THEORIES AND SELECTING QUESTIONS: POPPER'S ALTERNATIVE TO FOUNDATIONALISM AND SCEPTICISM",
+   "author": "Gérard RADNITZKY"
+  },
+  {
+   "book": "",
+   "page": 979,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1986",
+   "iid": "3d8c9f8c-2edf-39fb-9c24-b87ad653259d",
+   "doi": "10.2307/3064265",
+   "title": "",
+   "author": "Leofranc Holford-Strevens, Nigidius Fiuilus, Dora Liuzzi"
+  },
+  {
+   "book": "",
+   "page": 987,
+   "section": "d",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "1993",
+   "iid": "407fdedf-48db-33d2-b3b0-a7343dd58415",
+   "doi": "10.2307/24354370",
+   "title": "L'ATLANTIDE OU PLATON FACE À L'EXOTISME (\"Critias\", 112 e sqq.)",
+   "author": "Marcel Meulder"
+  },
+  {
+   "book": "",
+   "page": 974,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1982",
+   "iid": "4178644c-c03d-355d-832d-fd5993796270",
+   "doi": "10.2307/638738",
+   "title": "The 'Choriambic Dimeter' of Euripides",
+   "author": "Kiichiro Itsumi"
+  },
+  {
+   "book": "",
+   "page": 989,
+   "section": "e",
+   "line": 8,
+   "journal": "Classical Philology",
+   "year": "1957",
+   "iid": "424a747a-9cf8-3b16-8a0a-6dfaa30b832a",
+   "doi": "10.2307/265707",
+   "title": "",
+   "author": "Benedict Einarson, A. Diès"
+  },
+  {
+   "book": "",
+   "page": 986,
+   "section": "c",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1938",
+   "iid": "43344057-46ee-3d19-b4e4-5b3b7b8ba0ad",
+   "doi": "10.2307/636954",
+   "title": "The Gods in Plato, Plotinus, Epicurus",
+   "author": "A. H. Armstrong"
+  },
+  {
+   "book": "",
+   "page": 987,
+   "section": "d",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2020",
+   "iid": "44df5603-0c17-3a99-9cd8-eea69cb8dffb",
+   "doi": "10.2307/48807144",
+   "title": "REINVENTING THE BARBARIAN",
+   "author": "THOMAS HARRISON"
+  },
+  {
+   "book": "",
+   "page": 987,
+   "section": "d",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2020",
+   "iid": "44df5603-0c17-3a99-9cd8-eea69cb8dffb",
+   "doi": "10.2307/48807144",
+   "title": "REINVENTING THE BARBARIAN",
+   "author": "THOMAS HARRISON"
+  },
+  {
+   "book": "",
+   "page": 975,
+   "section": "c",
+   "line": 6,
+   "journal": "The Classical Quarterly",
+   "year": "1986",
+   "iid": "467705bf-fb6e-35d9-8888-3136d6e7bfb5",
+   "doi": "10.2307/639274",
+   "title": "Pindar, O. 2.83-90",
+   "author": "Glenn W. Most"
+  },
+  {
+   "book": "",
+   "page": 984,
+   "section": "e",
+   "line": 2,
+   "journal": "The Classical Quarterly",
+   "year": "1986",
+   "iid": "467705bf-fb6e-35d9-8888-3136d6e7bfb5",
+   "doi": "10.2307/639274",
+   "title": "Pindar, O. 2.83-90",
+   "author": "Glenn W. Most"
+  },
+  {
+   "book": "",
+   "page": 984,
+   "section": "d",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1997",
+   "iid": "45e75e97-699e-3576-8ad7-b08c0a8d72b1",
+   "doi": "10.2307/639610",
+   "title": "Plutarch on the Probable Principle of Cold: Epistemology and the De Primo Frigido",
+   "author": "George Boys-Stones"
+  },
+  {
+   "book": "",
+   "page": 979,
+   "section": "b",
+   "line": 23,
+   "journal": "Phronesis",
+   "year": "1987",
+   "iid": "48e79ef1-79d3-35ea-936d-e1294ede3108",
+   "doi": "10.2307/4182276",
+   "title": "Topoi on Topos: The Development of Aristotle's Concept of Place",
+   "author": "Henry Mendell"
+  },
+  {
+   "book": "",
+   "page": 992,
+   "section": "b",
+   "line": 8,
+   "journal": "Classical Philology",
+   "year": "1977",
+   "iid": "49f99fb4-f236-39f9-801b-722d242ff1b4",
+   "doi": "10.2307/267878",
+   "title": "The Genre of the Atlantis Story",
+   "author": "Christopher Gill"
+  },
+  {
+   "book": "",
+   "page": 978,
+   "section": "b",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1933",
+   "iid": "4b8b3d77-fc83-3483-ab0b-a052ed5aec0f",
+   "doi": "10.2307/264245",
+   "title": "On Hoc Age, Plautus Capt. 444",
+   "author": "John C. Rolfe"
+  },
+  {
+   "book": "",
+   "page": 986,
+   "section": "e",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2014",
+   "iid": "4cf5b0fa-7bd1-339f-895e-b758f08473f4",
+   "doi": "10.2307/24358722",
+   "title": "LA QUESTION BARBARE : PLATON OU ARISTOTE?",
+   "author": "Fulcran Teisserenc"
+  },
+  {
+   "book": "",
+   "page": 987,
+   "section": "e",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2014",
+   "iid": "4cf5b0fa-7bd1-339f-895e-b758f08473f4",
+   "doi": "10.2307/24358722",
+   "title": "LA QUESTION BARBARE : PLATON OU ARISTOTE?",
+   "author": "Fulcran Teisserenc"
+  },
+  {
+   "book": "",
+   "page": 985,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2001",
+   "iid": "4d277d32-7abe-3ff5-9b9b-3e4beba80e1b",
+   "doi": "10.2307/3556522",
+   "title": "Plato's Last Words on Pleasure",
+   "author": "F. C. White"
+  },
+  {
+   "book": "",
+   "page": 980,
+   "section": "a",
+   "line": 5,
+   "journal": "The Classical Review",
+   "year": "1987",
+   "iid": "510c0d45-aa3b-339a-9d41-e5b4ac862d8a",
+   "doi": "10.2307/3064174",
+   "title": "",
+   "author": "J. M. Alonso-Núñez, Conrado Eggers Lan"
+  },
+  {
+   "book": "",
+   "page": 976,
+   "section": "b",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "2006",
+   "iid": "51fc977a-54a3-347a-9330-5b72420423e3",
+   "doi": "10.2307/4182799",
+   "title": "Reading the περιτροπή: \"Theaetetus\" 170c-171c",
+   "author": "T. D. J. Chappell"
+  },
+  {
+   "book": "",
+   "page": 979,
+   "section": "a",
+   "line": null,
+   "journal": "Méthexis",
+   "year": "2012",
+   "iid": "51f342b5-95f3-39b5-81b3-b13dba06f235",
+   "doi": "10.2307/43738868",
+   "title": "EL \"ENCOMIO DE HELENA\" Y LA RESPONSABILIDAD MORAL",
+   "author": "JAVIER ECHEÑIQUE"
+  },
+  {
+   "book": "",
+   "page": 981,
+   "section": "e",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1942",
+   "iid": "56186324-bfea-3729-9d81-cec3fb6bb9bc",
+   "doi": "10.2307/636717",
+   "title": "The Stars in the Prologue of the Rudens",
+   "author": "Eduard Fraenkel"
+  },
+  {
+   "book": "",
+   "page": 983,
+   "section": "e",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1942",
+   "iid": "56186324-bfea-3729-9d81-cec3fb6bb9bc",
+   "doi": "10.2307/636717",
+   "title": "The Stars in the Prologue of the Rudens",
+   "author": "Eduard Fraenkel"
+  },
+  {
+   "book": "",
+   "page": 984,
+   "section": "d",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1942",
+   "iid": "56186324-bfea-3729-9d81-cec3fb6bb9bc",
+   "doi": "10.2307/636717",
+   "title": "The Stars in the Prologue of the Rudens",
+   "author": "Eduard Fraenkel"
+  },
+  {
+   "book": "",
+   "page": 981,
+   "section": "c",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1942",
+   "iid": "56186324-bfea-3729-9d81-cec3fb6bb9bc",
+   "doi": "10.2307/636717",
+   "title": "The Stars in the Prologue of the Rudens",
+   "author": "Eduard Fraenkel"
+  },
+  {
+   "book": "",
+   "page": 986,
+   "section": "a",
+   "line": 8,
+   "journal": "The Classical Quarterly",
+   "year": "2018",
+   "iid": "55e22dfa-b523-3a2e-8b5e-e05d57523210",
+   "doi": "10.2307/26670598",
+   "title": "NOTES ON THE ‘NEW APULEIUS’",
+   "author": "GREGORY HAYS"
+  },
+  {
+   "book": "",
+   "page": 990,
+   "section": "c",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1999",
+   "iid": "5a3eacfc-501c-319d-bf76-af2b4e9765c5",
+   "doi": "10.2307/714123",
+   "title": "Plato on Principles",
+   "author": "Christopher Rowe, M. Hoffmann"
+  },
+  {
+   "book": "",
+   "page": 991,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1999",
+   "iid": "5a3eacfc-501c-319d-bf76-af2b4e9765c5",
+   "doi": "10.2307/714123",
+   "title": "Plato on Principles",
+   "author": "Christopher Rowe, M. Hoffmann"
+  },
+  {
+   "book": "",
+   "page": 978,
+   "section": "e",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1962",
+   "iid": "5ace1d2f-bf7b-37ed-ad49-d455e9604f37",
+   "doi": "10.2307/4181701",
+   "title": "Development of Biology in Aristotle and Theophrastus: Theory of Spontaneous Generation",
+   "author": "D. M. Balme"
+  },
+  {
+   "book": "",
+   "page": 992,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1999",
+   "iid": "5bbb7d68-8e16-3098-925f-9d5af073eaaf",
+   "doi": "10.2307/639869",
+   "title": "Thucydides 5.26.3-5: The Verb ἰσχυρίζεσθαι and a Contrast in Methodology",
+   "author": "John E. Thorburn, <suffix>Jr.</suffix>"
+  },
+  {
+   "book": "",
+   "page": 989,
+   "section": "e",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1959",
+   "iid": "5e8d46bf-0231-35f8-944e-499bb69a524a",
+   "doi": "10.2307/702131",
+   "title": "The Loeb Plutarch",
+   "author": "Harold Cherniss, William C. Helmbold, D. A. Russell, Plutarch"
+  },
+  {
+   "book": "",
+   "page": 984,
+   "section": "d",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2011",
+   "iid": "5ed91a15-dd6e-3787-8d39-61bd418570d7",
+   "doi": "10.2307/41301542",
+   "title": "A NOTE ON THE DATING OF HESIOD",
+   "author": "MAIT KÕIV"
+  },
+  {
+   "book": "",
+   "page": 991,
+   "section": "d",
+   "line": 3,
+   "journal": "The Classical Quarterly",
+   "year": "1983",
+   "iid": "5fcdc0f3-30d6-3c1f-9447-aa632aca3a46",
+   "doi": "10.2307/638646",
+   "title": "Πανcompounds in plato",
+   "author": "R. S. W. Hawtrey"
+  },
+  {
+   "book": "",
+   "page": 979,
+   "section": "c",
+   "line": 2,
+   "journal": "The Classical Quarterly",
+   "year": "1983",
+   "iid": "5fcdc0f3-30d6-3c1f-9447-aa632aca3a46",
+   "doi": "10.2307/638646",
+   "title": "Πανcompounds in plato",
+   "author": "R. S. W. Hawtrey"
+  },
+  {
+   "book": "",
+   "page": 990,
+   "section": "c",
+   "line": null,
+   "journal": "Les Études philosophiques",
+   "year": "2018",
+   "iid": "60091211-79fe-379e-95d3-661a60c65c8a",
+   "doi": "10.2307/44956182",
+   "title": "LA THÉORIE PLATONICIENNE DES NOMBRES",
+   "author": "Ivor Bulmer-Thomas"
+  },
+  {
+   "book": "",
+   "page": 977,
+   "section": "b",
+   "line": null,
+   "journal": "History of Philosophy Quarterly",
+   "year": "1992",
+   "iid": "632b51c8-79bc-3e74-b589-d340b3e8e09b",
+   "doi": "10.2307/27744032",
+   "title": "Plato and the Method of Science",
+   "author": "Pirmin Stekeler Weithofer"
+  },
+  {
+   "book": "",
+   "page": 977,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1913",
+   "iid": "6252002a-57b2-3bcc-b703-aa39300f9ce7",
+   "doi": "10.2307/700875",
+   "title": "A Note on the Vague Use of ΘΕΟΣ",
+   "author": "W. H. S. Jones"
+  },
+  {
+   "book": "",
+   "page": 974,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1892",
+   "iid": "636535d6-4b93-3612-a31f-dc0bbcef8b69",
+   "doi": "10.2307/693174",
+   "title": "Apelt's Pseudo-Aristotelian Treatises. Second Notice. (Continued)",
+   "author": "Otto Apelt, J. Cook Wilson"
+  },
+  {
+   "book": "",
+   "page": 975,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1892",
+   "iid": "636535d6-4b93-3612-a31f-dc0bbcef8b69",
+   "doi": "10.2307/693174",
+   "title": "Apelt's Pseudo-Aristotelian Treatises. Second Notice. (Continued)",
+   "author": "Otto Apelt, J. Cook Wilson"
+  },
+  {
+   "book": "",
+   "page": 976,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1892",
+   "iid": "636535d6-4b93-3612-a31f-dc0bbcef8b69",
+   "doi": "10.2307/693174",
+   "title": "Apelt's Pseudo-Aristotelian Treatises. Second Notice. (Continued)",
+   "author": "Otto Apelt, J. Cook Wilson"
+  },
+  {
+   "book": "",
+   "page": 976,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1892",
+   "iid": "636535d6-4b93-3612-a31f-dc0bbcef8b69",
+   "doi": "10.2307/693174",
+   "title": "Apelt's Pseudo-Aristotelian Treatises. Second Notice. (Continued)",
+   "author": "Otto Apelt, J. Cook Wilson"
+  },
+  {
+   "book": "",
+   "page": 974,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1892",
+   "iid": "636535d6-4b93-3612-a31f-dc0bbcef8b69",
+   "doi": "10.2307/693174",
+   "title": "Apelt's Pseudo-Aristotelian Treatises. Second Notice. (Continued)",
+   "author": "Otto Apelt, J. Cook Wilson"
+  },
+  {
+   "book": "",
+   "page": 977,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1892",
+   "iid": "636535d6-4b93-3612-a31f-dc0bbcef8b69",
+   "doi": "10.2307/693174",
+   "title": "Apelt's Pseudo-Aristotelian Treatises. Second Notice. (Continued)",
+   "author": "Otto Apelt, J. Cook Wilson"
+  },
+  {
+   "book": "",
+   "page": 974,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1892",
+   "iid": "636535d6-4b93-3612-a31f-dc0bbcef8b69",
+   "doi": "10.2307/693174",
+   "title": "Apelt's Pseudo-Aristotelian Treatises. Second Notice. (Continued)",
+   "author": "Otto Apelt, J. Cook Wilson"
+  },
+  {
+   "book": "",
+   "page": 975,
+   "section": "a",
+   "line": 5,
+   "journal": "The Classical Review",
+   "year": "1892",
+   "iid": "636535d6-4b93-3612-a31f-dc0bbcef8b69",
+   "doi": "10.2307/693174",
+   "title": "Apelt's Pseudo-Aristotelian Treatises. Second Notice. (Continued)",
+   "author": "Otto Apelt, J. Cook Wilson"
+  },
+  {
+   "book": "",
+   "page": 975,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1892",
+   "iid": "636535d6-4b93-3612-a31f-dc0bbcef8b69",
+   "doi": "10.2307/693174",
+   "title": "Apelt's Pseudo-Aristotelian Treatises. Second Notice. (Continued)",
+   "author": "Otto Apelt, J. Cook Wilson"
+  },
+  {
+   "book": "",
+   "page": 975,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1892",
+   "iid": "636535d6-4b93-3612-a31f-dc0bbcef8b69",
+   "doi": "10.2307/693174",
+   "title": "Apelt's Pseudo-Aristotelian Treatises. Second Notice. (Continued)",
+   "author": "Otto Apelt, J. Cook Wilson"
+  },
+  {
+   "book": "",
+   "page": 975,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1892",
+   "iid": "636535d6-4b93-3612-a31f-dc0bbcef8b69",
+   "doi": "10.2307/693174",
+   "title": "Apelt's Pseudo-Aristotelian Treatises. Second Notice. (Continued)",
+   "author": "Otto Apelt, J. Cook Wilson"
+  },
+  {
+   "book": "",
+   "page": 974,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1936",
+   "iid": "67f5b193-a8c9-3d3c-82ec-c55f730c8c49",
+   "doi": "10.2307/702359",
+   "title": "The Noble Savage",
+   "author": "A. O. Lovejoy, G. Boas, A. W. Gomme"
+  },
+  {
+   "book": "",
+   "page": 974,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1958",
+   "iid": "6849aaa0-ff21-30e4-9808-60b1274940d6",
+   "doi": "10.2307/266651",
+   "title": "\"Imitation\" in the Fifth Century",
+   "author": "Gerald F. Else"
+  },
+  {
+   "book": "",
+   "page": 973,
+   "section": "e",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1994",
+   "iid": "6c6f84b7-106e-3ba5-806f-68a0b9e191f5",
+   "doi": "10.2307/639649",
+   "title": "A Sacred Ceremony in Honour of the Buttocks: Petronius, Satyrica 140.1-11",
+   "author": "Costas Panayotakis"
+  },
+  {
+   "book": "",
+   "page": 974,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1994",
+   "iid": "6c6f84b7-106e-3ba5-806f-68a0b9e191f5",
+   "doi": "10.2307/639649",
+   "title": "A Sacred Ceremony in Honour of the Buttocks: Petronius, Satyrica 140.1-11",
+   "author": "Costas Panayotakis"
+  },
+  {
+   "book": "",
+   "page": 976,
+   "section": "d",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1997",
+   "iid": "7005e7ca-1e7e-3e88-a255-cf737608db88",
+   "doi": "10.2307/639621",
+   "title": "Scents and Sensibility in Plautus' Casina",
+   "author": "Catherine Connors"
+  },
+  {
+   "book": "",
+   "page": 980,
+   "section": "c",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2013",
+   "iid": "744806d1-c536-30d7-b0a2-7fe3a41ab6af",
+   "doi": "10.1086/671417",
+   "title": "Imagery and Education In Plutarch",
+   "author": "Sophia A. Xenophontos"
+  },
+  {
+   "book": "",
+   "page": 990,
+   "section": "d",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1995",
+   "iid": "7aa04d31-158b-3943-8de6-c4ed686fb8ff",
+   "doi": "10.2307/270691",
+   "title": "Longus' Werewolves",
+   "author": "Stephen J. Epstein"
+  },
+  {
+   "book": "",
+   "page": 978,
+   "section": "c",
+   "line": null,
+   "journal": "Les Études philosophiques",
+   "year": "2013",
+   "iid": "7ec203bd-ba8c-3b63-af7b-d00a851aeb6c",
+   "doi": "10.2307/41806198",
+   "title": "LA FORME DIALOGIQUE DANS LE \"PERIPHYSEON\" : RECRÉER L'ESPRIT",
+   "author": "Lila Lamrani, Elizabeth Kendig"
+  },
+  {
+   "book": "",
+   "page": 973,
+   "section": "b",
+   "line": null,
+   "journal": "Les Études philosophiques",
+   "year": "2013",
+   "iid": "7ec203bd-ba8c-3b63-af7b-d00a851aeb6c",
+   "doi": "10.2307/41806198",
+   "title": "LA FORME DIALOGIQUE DANS LE \"PERIPHYSEON\" : RECRÉER L'ESPRIT",
+   "author": "Lila Lamrani, Elizabeth Kendig"
+  },
+  {
+   "book": "",
+   "page": 984,
+   "section": "e",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1998",
+   "iid": "7f919011-93c6-32b9-bda3-dd823e920a5c",
+   "doi": "10.2307/4182598",
+   "title": "Communication, Human and Divine: Saloustious Reconsidered",
+   "author": "Emma C. Clarke"
+  },
+  {
+   "book": "",
+   "page": 985,
+   "section": "a",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1998",
+   "iid": "7f919011-93c6-32b9-bda3-dd823e920a5c",
+   "doi": "10.2307/4182598",
+   "title": "Communication, Human and Divine: Saloustious Reconsidered",
+   "author": "Emma C. Clarke"
+  },
+  {
+   "book": "",
+   "page": 984,
+   "section": "e",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1998",
+   "iid": "7f919011-93c6-32b9-bda3-dd823e920a5c",
+   "doi": "10.2307/4182598",
+   "title": "Communication, Human and Divine: Saloustious Reconsidered",
+   "author": "Emma C. Clarke"
+  },
+  {
+   "book": "",
+   "page": 991,
+   "section": "c",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "2004",
+   "iid": "855c03ef-4e3b-3351-a468-2980a6358b65",
+   "doi": "10.2307/3661640",
+   "title": "Ecce Itervm Stephanvs",
+   "author": "James Diggle, R. Regtuit, A. Harder, G. Wakker, P. Stork"
+  },
+  {
+   "book": "",
+   "page": 976,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2009",
+   "iid": "8593e90b-749e-30b1-a195-6a15ceded5bb",
+   "doi": "10.1086/603569",
+   "title": "Wisdom for Sale? The Sophists and Money",
+   "author": "Håkan Tell"
+  },
+  {
+   "book": "",
+   "page": 992,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1940",
+   "iid": "89d2fea1-a92c-32fe-93ba-d3ebf957fa14",
+   "doi": "10.2307/264959",
+   "title": "Plato in Cicero",
+   "author": "Thelma B. Degraff"
+  },
+  {
+   "book": "",
+   "page": 992,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1936",
+   "iid": "89e9090a-2432-3c88-ae71-dc9992728de6",
+   "doi": "10.2307/637088",
+   "title": "Notes on the Oresteia",
+   "author": "George Thomson"
+  },
+  {
+   "book": "",
+   "page": 982,
+   "section": "e",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1930",
+   "iid": "89abf40d-8f3a-352f-bbe0-1e72503fba7b",
+   "doi": "10.2307/637134",
+   "title": "Plotinus and Posidonius",
+   "author": "R. E. Witt"
+  },
+  {
+   "book": "",
+   "page": 984,
+   "section": "e",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1930",
+   "iid": "89abf40d-8f3a-352f-bbe0-1e72503fba7b",
+   "doi": "10.2307/637134",
+   "title": "Plotinus and Posidonius",
+   "author": "R. E. Witt"
+  },
+  {
+   "book": "",
+   "page": 977,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1930",
+   "iid": "8a28a855-93c3-3f3a-bf86-05926a039f47",
+   "doi": "10.2307/262605",
+   "title": "The Athenian Proedroi",
+   "author": "Stanley Barney Smith"
+  },
+  {
+   "book": "",
+   "page": 983,
+   "section": "e",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1960",
+   "iid": "8c4dccab-e4bd-3967-aa4a-defdbf9228da",
+   "doi": "10.2307/4181667",
+   "title": "Traditional and Personal Elements in Aristotle's Religion",
+   "author": "W. J. Verdenius"
+  },
+  {
+   "book": "",
+   "page": 984,
+   "section": "d",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1960",
+   "iid": "8c4dccab-e4bd-3967-aa4a-defdbf9228da",
+   "doi": "10.2307/4181667",
+   "title": "Traditional and Personal Elements in Aristotle's Religion",
+   "author": "W. J. Verdenius"
+  },
+  {
+   "book": "",
+   "page": 987,
+   "section": "d",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1960",
+   "iid": "8c4dccab-e4bd-3967-aa4a-defdbf9228da",
+   "doi": "10.2307/4181667",
+   "title": "Traditional and Personal Elements in Aristotle's Religion",
+   "author": "W. J. Verdenius"
+  },
+  {
+   "book": "",
+   "page": 977,
+   "section": "e",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1928",
+   "iid": "979eb157-5e2c-36db-aa9c-9c6b53f6f4ac",
+   "doi": "10.2307/700609",
+   "title": "",
+   "author": "A. E. Taylor, W. R. M. Lamb"
+  },
+  {
+   "book": "",
+   "page": 979,
+   "section": "d",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1928",
+   "iid": "979eb157-5e2c-36db-aa9c-9c6b53f6f4ac",
+   "doi": "10.2307/700609",
+   "title": "",
+   "author": "A. E. Taylor, W. R. M. Lamb"
+  },
+  {
+   "book": "",
+   "page": 986,
+   "section": "e",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1928",
+   "iid": "979eb157-5e2c-36db-aa9c-9c6b53f6f4ac",
+   "doi": "10.2307/700609",
+   "title": "",
+   "author": "A. E. Taylor, W. R. M. Lamb"
+  },
+  {
+   "book": "",
+   "page": 989,
+   "section": "d",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1928",
+   "iid": "979eb157-5e2c-36db-aa9c-9c6b53f6f4ac",
+   "doi": "10.2307/700609",
+   "title": "",
+   "author": "A. E. Taylor, W. R. M. Lamb"
+  },
+  {
+   "book": "",
+   "page": 991,
+   "section": "d",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1928",
+   "iid": "979eb157-5e2c-36db-aa9c-9c6b53f6f4ac",
+   "doi": "10.2307/700609",
+   "title": "",
+   "author": "A. E. Taylor, W. R. M. Lamb"
+  },
+  {
+   "book": "",
+   "page": 975,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1928",
+   "iid": "979eb157-5e2c-36db-aa9c-9c6b53f6f4ac",
+   "doi": "10.2307/700609",
+   "title": "",
+   "author": "A. E. Taylor, W. R. M. Lamb"
+  },
+  {
+   "book": "",
+   "page": 976,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1928",
+   "iid": "979eb157-5e2c-36db-aa9c-9c6b53f6f4ac",
+   "doi": "10.2307/700609",
+   "title": "",
+   "author": "A. E. Taylor, W. R. M. Lamb"
+  },
+  {
+   "book": "",
+   "page": 977,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1928",
+   "iid": "979eb157-5e2c-36db-aa9c-9c6b53f6f4ac",
+   "doi": "10.2307/700609",
+   "title": "",
+   "author": "A. E. Taylor, W. R. M. Lamb"
+  },
+  {
+   "book": "",
+   "page": 984,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1928",
+   "iid": "979eb157-5e2c-36db-aa9c-9c6b53f6f4ac",
+   "doi": "10.2307/700609",
+   "title": "",
+   "author": "A. E. Taylor, W. R. M. Lamb"
+  },
+  {
+   "book": "",
+   "page": 981,
+   "section": "c",
+   "line": 6,
+   "journal": "Méthexis",
+   "year": "2020",
+   "iid": "9844c43f-1b5b-3925-ae94-b54fc379990b",
+   "doi": "10.2307/27140757",
+   "title": "Under the Auspices of Plato",
+   "author": "Vera Calchi"
+  },
+  {
+   "book": "",
+   "page": 990,
+   "section": "a",
+   "line": 7,
+   "journal": "Méthexis",
+   "year": "2020",
+   "iid": "9844c43f-1b5b-3925-ae94-b54fc379990b",
+   "doi": "10.2307/27140757",
+   "title": "Under the Auspices of Plato",
+   "author": "Vera Calchi"
+  },
+  {
+   "book": "",
+   "page": 983,
+   "section": "d",
+   "line": null,
+   "journal": "Méthexis",
+   "year": "2020",
+   "iid": "9844c43f-1b5b-3925-ae94-b54fc379990b",
+   "doi": "10.2307/27140757",
+   "title": "Under the Auspices of Plato",
+   "author": "Vera Calchi"
+  },
+  {
+   "book": "",
+   "page": 981,
+   "section": "c",
+   "line": 5,
+   "journal": "Méthexis",
+   "year": "2020",
+   "iid": "9844c43f-1b5b-3925-ae94-b54fc379990b",
+   "doi": "10.2307/27140757",
+   "title": "Under the Auspices of Plato",
+   "author": "Vera Calchi"
+  },
+  {
+   "book": "",
+   "page": 981,
+   "section": "c",
+   "line": 8,
+   "journal": "Méthexis",
+   "year": "2020",
+   "iid": "9844c43f-1b5b-3925-ae94-b54fc379990b",
+   "doi": "10.2307/27140757",
+   "title": "Under the Auspices of Plato",
+   "author": "Vera Calchi"
+  },
+  {
+   "book": "",
+   "page": 984,
+   "section": "d",
+   "line": 2,
+   "journal": "Méthexis",
+   "year": "2020",
+   "iid": "9844c43f-1b5b-3925-ae94-b54fc379990b",
+   "doi": "10.2307/27140757",
+   "title": "Under the Auspices of Plato",
+   "author": "Vera Calchi"
+  },
+  {
+   "book": "",
+   "page": 985,
+   "section": "c",
+   "line": null,
+   "journal": "Méthexis",
+   "year": "2020",
+   "iid": "9844c43f-1b5b-3925-ae94-b54fc379990b",
+   "doi": "10.2307/27140757",
+   "title": "Under the Auspices of Plato",
+   "author": "Vera Calchi"
+  },
+  {
+   "book": "",
+   "page": 982,
+   "section": "d",
+   "line": null,
+   "journal": "Méthexis",
+   "year": "2020",
+   "iid": "9844c43f-1b5b-3925-ae94-b54fc379990b",
+   "doi": "10.2307/27140757",
+   "title": "Under the Auspices of Plato",
+   "author": "Vera Calchi"
+  },
+  {
+   "book": "",
+   "page": 983,
+   "section": "b",
+   "line": null,
+   "journal": "Méthexis",
+   "year": "2020",
+   "iid": "9844c43f-1b5b-3925-ae94-b54fc379990b",
+   "doi": "10.2307/27140757",
+   "title": "Under the Auspices of Plato",
+   "author": "Vera Calchi"
+  },
+  {
+   "book": "",
+   "page": 982,
+   "section": "b",
+   "line": 1,
+   "journal": "Méthexis",
+   "year": "2020",
+   "iid": "9844c43f-1b5b-3925-ae94-b54fc379990b",
+   "doi": "10.2307/27140757",
+   "title": "Under the Auspices of Plato",
+   "author": "Vera Calchi"
+  },
+  {
+   "book": "",
+   "page": 973,
+   "section": "c",
+   "line": null,
+   "journal": "Méthexis",
+   "year": "2020",
+   "iid": "9844c43f-1b5b-3925-ae94-b54fc379990b",
+   "doi": "10.2307/27140757",
+   "title": "Under the Auspices of Plato",
+   "author": "Vera Calchi"
+  },
+  {
+   "book": "",
+   "page": 992,
+   "section": "b",
+   "line": 2,
+   "journal": "Méthexis",
+   "year": "2020",
+   "iid": "9844c43f-1b5b-3925-ae94-b54fc379990b",
+   "doi": "10.2307/27140757",
+   "title": "Under the Auspices of Plato",
+   "author": "Vera Calchi"
+  },
+  {
+   "book": "",
+   "page": 973,
+   "section": "c",
+   "line": null,
+   "journal": "Méthexis",
+   "year": "2020",
+   "iid": "9844c43f-1b5b-3925-ae94-b54fc379990b",
+   "doi": "10.2307/27140757",
+   "title": "Under the Auspices of Plato",
+   "author": "Vera Calchi"
+  },
+  {
+   "book": "",
+   "page": 991,
+   "section": "e",
+   "line": 5,
+   "journal": "Méthexis",
+   "year": "2020",
+   "iid": "9844c43f-1b5b-3925-ae94-b54fc379990b",
+   "doi": "10.2307/27140757",
+   "title": "Under the Auspices of Plato",
+   "author": "Vera Calchi"
+  },
+  {
+   "book": "",
+   "page": 988,
+   "section": "a",
+   "line": null,
+   "journal": "Méthexis",
+   "year": "2020",
+   "iid": "9844c43f-1b5b-3925-ae94-b54fc379990b",
+   "doi": "10.2307/27140757",
+   "title": "Under the Auspices of Plato",
+   "author": "Vera Calchi"
+  },
+  {
+   "book": "",
+   "page": 977,
+   "section": "c",
+   "line": 3,
+   "journal": "Méthexis",
+   "year": "2020",
+   "iid": "9844c43f-1b5b-3925-ae94-b54fc379990b",
+   "doi": "10.2307/27140757",
+   "title": "Under the Auspices of Plato",
+   "author": "Vera Calchi"
+  },
+  {
+   "book": "",
+   "page": 979,
+   "section": "a",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "2001",
+   "iid": "99a52bc1-2578-3915-8c39-367bb9b39af9",
+   "doi": "10.2307/4182662",
+   "title": "The Case of \"Theaetetus\"",
+   "author": "Gokhan Adalier"
+  },
+  {
+   "book": "",
+   "page": 979,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1892",
+   "iid": "9f9bca58-7209-31f8-9312-0c75481c51c9",
+   "doi": "10.2307/691507",
+   "title": "Apelt's Pseudo-Aristotelian Treatises. (Continued)",
+   "author": "Otto Apelt, J. Cook Wilson"
+  },
+  {
+   "book": "",
+   "page": 979,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1892",
+   "iid": "9f9bca58-7209-31f8-9312-0c75481c51c9",
+   "doi": "10.2307/691507",
+   "title": "Apelt's Pseudo-Aristotelian Treatises. (Continued)",
+   "author": "Otto Apelt, J. Cook Wilson"
+  },
+  {
+   "book": "",
+   "page": 979,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1892",
+   "iid": "9f9bca58-7209-31f8-9312-0c75481c51c9",
+   "doi": "10.2307/691507",
+   "title": "Apelt's Pseudo-Aristotelian Treatises. (Continued)",
+   "author": "Otto Apelt, J. Cook Wilson"
+  },
+  {
+   "book": "",
+   "page": 979,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1892",
+   "iid": "9f9bca58-7209-31f8-9312-0c75481c51c9",
+   "doi": "10.2307/691507",
+   "title": "Apelt's Pseudo-Aristotelian Treatises. (Continued)",
+   "author": "Otto Apelt, J. Cook Wilson"
+  },
+  {
+   "book": "",
+   "page": 979,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1892",
+   "iid": "9f9bca58-7209-31f8-9312-0c75481c51c9",
+   "doi": "10.2307/691507",
+   "title": "Apelt's Pseudo-Aristotelian Treatises. (Continued)",
+   "author": "Otto Apelt, J. Cook Wilson"
+  },
+  {
+   "book": "",
+   "page": 979,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1892",
+   "iid": "9f9bca58-7209-31f8-9312-0c75481c51c9",
+   "doi": "10.2307/691507",
+   "title": "Apelt's Pseudo-Aristotelian Treatises. (Continued)",
+   "author": "Otto Apelt, J. Cook Wilson"
+  },
+  {
+   "book": "",
+   "page": 979,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1892",
+   "iid": "9f9bca58-7209-31f8-9312-0c75481c51c9",
+   "doi": "10.2307/691507",
+   "title": "Apelt's Pseudo-Aristotelian Treatises. (Continued)",
+   "author": "Otto Apelt, J. Cook Wilson"
+  },
+  {
+   "book": "",
+   "page": 979,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1892",
+   "iid": "9f9bca58-7209-31f8-9312-0c75481c51c9",
+   "doi": "10.2307/691507",
+   "title": "Apelt's Pseudo-Aristotelian Treatises. (Continued)",
+   "author": "Otto Apelt, J. Cook Wilson"
+  },
+  {
+   "book": "",
+   "page": 979,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1892",
+   "iid": "9f9bca58-7209-31f8-9312-0c75481c51c9",
+   "doi": "10.2307/691507",
+   "title": "Apelt's Pseudo-Aristotelian Treatises. (Continued)",
+   "author": "Otto Apelt, J. Cook Wilson"
+  },
+  {
+   "book": "",
+   "page": 979,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1892",
+   "iid": "9f9bca58-7209-31f8-9312-0c75481c51c9",
+   "doi": "10.2307/691507",
+   "title": "Apelt's Pseudo-Aristotelian Treatises. (Continued)",
+   "author": "Otto Apelt, J. Cook Wilson"
+  },
+  {
+   "book": "",
+   "page": 979,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1892",
+   "iid": "9f9bca58-7209-31f8-9312-0c75481c51c9",
+   "doi": "10.2307/691507",
+   "title": "Apelt's Pseudo-Aristotelian Treatises. (Continued)",
+   "author": "Otto Apelt, J. Cook Wilson"
+  },
+  {
+   "book": "",
+   "page": 979,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1892",
+   "iid": "9f9bca58-7209-31f8-9312-0c75481c51c9",
+   "doi": "10.2307/691507",
+   "title": "Apelt's Pseudo-Aristotelian Treatises. (Continued)",
+   "author": "Otto Apelt, J. Cook Wilson"
+  },
+  {
+   "book": "",
+   "page": 979,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1892",
+   "iid": "9f9bca58-7209-31f8-9312-0c75481c51c9",
+   "doi": "10.2307/691507",
+   "title": "Apelt's Pseudo-Aristotelian Treatises. (Continued)",
+   "author": "Otto Apelt, J. Cook Wilson"
+  },
+  {
+   "book": "",
+   "page": 979,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1892",
+   "iid": "9f9bca58-7209-31f8-9312-0c75481c51c9",
+   "doi": "10.2307/691507",
+   "title": "Apelt's Pseudo-Aristotelian Treatises. (Continued)",
+   "author": "Otto Apelt, J. Cook Wilson"
+  },
+  {
+   "book": "",
+   "page": 976,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1892",
+   "iid": "9f9bca58-7209-31f8-9312-0c75481c51c9",
+   "doi": "10.2307/691507",
+   "title": "Apelt's Pseudo-Aristotelian Treatises. (Continued)",
+   "author": "Otto Apelt, J. Cook Wilson"
+  },
+  {
+   "book": "",
+   "page": 976,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1892",
+   "iid": "9f9bca58-7209-31f8-9312-0c75481c51c9",
+   "doi": "10.2307/691507",
+   "title": "Apelt's Pseudo-Aristotelian Treatises. (Continued)",
+   "author": "Otto Apelt, J. Cook Wilson"
+  },
+  {
+   "book": "",
+   "page": 979,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1892",
+   "iid": "9f9bca58-7209-31f8-9312-0c75481c51c9",
+   "doi": "10.2307/691507",
+   "title": "Apelt's Pseudo-Aristotelian Treatises. (Continued)",
+   "author": "Otto Apelt, J. Cook Wilson"
+  },
+  {
+   "book": "",
+   "page": 979,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1892",
+   "iid": "9f9bca58-7209-31f8-9312-0c75481c51c9",
+   "doi": "10.2307/691507",
+   "title": "Apelt's Pseudo-Aristotelian Treatises. (Continued)",
+   "author": "Otto Apelt, J. Cook Wilson"
+  },
+  {
+   "book": "",
+   "page": 979,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1892",
+   "iid": "9f9bca58-7209-31f8-9312-0c75481c51c9",
+   "doi": "10.2307/691507",
+   "title": "Apelt's Pseudo-Aristotelian Treatises. (Continued)",
+   "author": "Otto Apelt, J. Cook Wilson"
+  },
+  {
+   "book": "",
+   "page": 979,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1892",
+   "iid": "9f9bca58-7209-31f8-9312-0c75481c51c9",
+   "doi": "10.2307/691507",
+   "title": "Apelt's Pseudo-Aristotelian Treatises. (Continued)",
+   "author": "Otto Apelt, J. Cook Wilson"
+  },
+  {
+   "book": "",
+   "page": 976,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1892",
+   "iid": "9f9bca58-7209-31f8-9312-0c75481c51c9",
+   "doi": "10.2307/691507",
+   "title": "Apelt's Pseudo-Aristotelian Treatises. (Continued)",
+   "author": "Otto Apelt, J. Cook Wilson"
+  },
+  {
+   "book": "",
+   "page": 979,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1892",
+   "iid": "9f9bca58-7209-31f8-9312-0c75481c51c9",
+   "doi": "10.2307/691507",
+   "title": "Apelt's Pseudo-Aristotelian Treatises. (Continued)",
+   "author": "Otto Apelt, J. Cook Wilson"
+  },
+  {
+   "book": "",
+   "page": 979,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1892",
+   "iid": "9f9bca58-7209-31f8-9312-0c75481c51c9",
+   "doi": "10.2307/691507",
+   "title": "Apelt's Pseudo-Aristotelian Treatises. (Continued)",
+   "author": "Otto Apelt, J. Cook Wilson"
+  },
+  {
+   "book": "",
+   "page": 987,
+   "section": "b",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1965",
+   "iid": "a77b99c6-ca4b-3f62-8347-1caae0bf3998",
+   "doi": "10.2307/4181767",
+   "title": "The \"Timaeus Locrus\"",
+   "author": "G. Ryle"
+  },
+  {
+   "book": "",
+   "page": 985,
+   "section": "d",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "2002",
+   "iid": "a9e68ca2-b557-32b3-bc73-19a50c708ff4",
+   "doi": "10.2307/3662044",
+   "title": "Book Review : \n        Inference from Signs: Ancient Debates about the Nature of Evidence\n        J. Allen",
+   "author": "J. Allen, Jonathan Barnes"
+  },
+  {
+   "book": "",
+   "page": 974,
+   "section": "a",
+   "line": 18,
+   "journal": "Phronesis",
+   "year": "2017",
+   "iid": "aae6de6a-87b0-3b90-ac73-079d8846e122",
+   "doi": "10.2307/26566205",
+   "title": "A Battle Against Pain? Aristotle, Theophrastus and the <em>Physiologoi</em> in Aspasius, <em>On Nicomachean Ethics</em> 156.14-20",
+   "author": "Wei Cheng"
+  },
+  {
+   "book": "",
+   "page": 990,
+   "section": "e",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2022",
+   "iid": "ab42514c-7cdf-3d50-8315-c55e78be8682",
+   "doi": "10.2307/27264376",
+   "title": "ARISTOTLE’S INTERMEDIATES AND XENOCRATES’ MATHEMATICALS",
+   "author": "Phillip Sidney Horky"
+  },
+  {
+   "book": "",
+   "page": 991,
+   "section": "a",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2022",
+   "iid": "ab42514c-7cdf-3d50-8315-c55e78be8682",
+   "doi": "10.2307/27264376",
+   "title": "ARISTOTLE’S INTERMEDIATES AND XENOCRATES’ MATHEMATICALS",
+   "author": "Phillip Sidney Horky"
+  },
+  {
+   "book": "",
+   "page": 987,
+   "section": "e",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1925",
+   "iid": "ac7175ed-0e15-32d8-a230-8055f78e2c0f",
+   "doi": "10.2307/636277",
+   "title": "The Text of the Epistles of Themistocles",
+   "author": "J. Jackson"
+  },
+  {
+   "book": "",
+   "page": 989,
+   "section": "d",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "2002",
+   "iid": "ad49e176-7068-3375-9e55-4b2b279cd825",
+   "doi": "10.2307/3662524",
+   "title": "Credo in Unum Deum",
+   "author": "P. Athanassiadi, M. Frede, Christopher Kelly"
+  },
+  {
+   "book": "",
+   "page": 992,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "2002",
+   "iid": "ad49e176-7068-3375-9e55-4b2b279cd825",
+   "doi": "10.2307/3662524",
+   "title": "Credo in Unum Deum",
+   "author": "P. Athanassiadi, M. Frede, Christopher Kelly"
+  },
+  {
+   "book": "",
+   "page": 975,
+   "section": "d",
+   "line": null,
+   "journal": "Méthexis",
+   "year": "2011",
+   "iid": "b0b68ddc-61c3-3705-9877-fd3333a5000b",
+   "doi": "10.2307/43738844",
+   "title": "L'ARTE DEI DISCORSI NELL'ANONIMO DI GIAMBLICO (AN. IAMBL. 2.7 DK)",
+   "author": "WALTER LAPINI"
+  },
+  {
+   "book": "",
+   "page": 973,
+   "section": "a",
+   "line": 7,
+   "journal": "The Classical Quarterly",
+   "year": "2005",
+   "iid": "b401d02f-5fe7-39fb-9817-003fc1c54e0e",
+   "doi": "10.2307/3556258",
+   "title": "Ephorus(?) on the Spartan Constitution",
+   "author": "David Whitehead"
+  },
+  {
+   "book": "",
+   "page": 974,
+   "section": "a",
+   "line": 4,
+   "journal": "The Classical Quarterly",
+   "year": "2005",
+   "iid": "b401d02f-5fe7-39fb-9817-003fc1c54e0e",
+   "doi": "10.2307/3556258",
+   "title": "Ephorus(?) on the Spartan Constitution",
+   "author": "David Whitehead"
+  },
+  {
+   "book": "",
+   "page": 974,
+   "section": "b",
+   "line": 27,
+   "journal": "The Classical Quarterly",
+   "year": "2005",
+   "iid": "b401d02f-5fe7-39fb-9817-003fc1c54e0e",
+   "doi": "10.2307/3556258",
+   "title": "Ephorus(?) on the Spartan Constitution",
+   "author": "David Whitehead"
+  },
+  {
+   "book": "",
+   "page": 973,
+   "section": "b",
+   "line": 20,
+   "journal": "The Classical Quarterly",
+   "year": "2005",
+   "iid": "b401d02f-5fe7-39fb-9817-003fc1c54e0e",
+   "doi": "10.2307/3556258",
+   "title": "Ephorus(?) on the Spartan Constitution",
+   "author": "David Whitehead"
+  },
+  {
+   "book": "",
+   "page": 974,
+   "section": "a",
+   "line": 6,
+   "journal": "The Classical Quarterly",
+   "year": "2004",
+   "iid": "b51955aa-067e-3bac-9ba3-eb8712c89e44",
+   "doi": "10.2307/3556383",
+   "title": "Priestly Proclamations and Sacred Laws",
+   "author": "M. K. Dickie"
+  },
+  {
+   "book": "",
+   "page": 979,
+   "section": "a",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1955",
+   "iid": "b5e459a9-98ea-3b4b-9c9c-368ce36a5229",
+   "doi": "10.2307/4181593",
+   "title": "Gorgias on Nature or That Which Is Not",
+   "author": "G. B. Kerferd"
+  },
+  {
+   "book": "",
+   "page": 979,
+   "section": "a",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1955",
+   "iid": "b5e459a9-98ea-3b4b-9c9c-368ce36a5229",
+   "doi": "10.2307/4181593",
+   "title": "Gorgias on Nature or That Which Is Not",
+   "author": "G. B. Kerferd"
+  },
+  {
+   "book": "",
+   "page": 979,
+   "section": "b",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1955",
+   "iid": "b5e459a9-98ea-3b4b-9c9c-368ce36a5229",
+   "doi": "10.2307/4181593",
+   "title": "Gorgias on Nature or That Which Is Not",
+   "author": "G. B. Kerferd"
+  },
+  {
+   "book": "",
+   "page": 979,
+   "section": "a",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1955",
+   "iid": "b5e459a9-98ea-3b4b-9c9c-368ce36a5229",
+   "doi": "10.2307/4181593",
+   "title": "Gorgias on Nature or That Which Is Not",
+   "author": "G. B. Kerferd"
+  },
+  {
+   "book": "",
+   "page": 979,
+   "section": "b",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1955",
+   "iid": "b5e459a9-98ea-3b4b-9c9c-368ce36a5229",
+   "doi": "10.2307/4181593",
+   "title": "Gorgias on Nature or That Which Is Not",
+   "author": "G. B. Kerferd"
+  },
+  {
+   "book": "",
+   "page": 979,
+   "section": "a",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1955",
+   "iid": "b5e459a9-98ea-3b4b-9c9c-368ce36a5229",
+   "doi": "10.2307/4181593",
+   "title": "Gorgias on Nature or That Which Is Not",
+   "author": "G. B. Kerferd"
+  },
+  {
+   "book": "",
+   "page": 979,
+   "section": "a",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1955",
+   "iid": "b5e459a9-98ea-3b4b-9c9c-368ce36a5229",
+   "doi": "10.2307/4181593",
+   "title": "Gorgias on Nature or That Which Is Not",
+   "author": "G. B. Kerferd"
+  },
+  {
+   "book": "",
+   "page": 979,
+   "section": "a",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1955",
+   "iid": "b5e459a9-98ea-3b4b-9c9c-368ce36a5229",
+   "doi": "10.2307/4181593",
+   "title": "Gorgias on Nature or That Which Is Not",
+   "author": "G. B. Kerferd"
+  },
+  {
+   "book": "",
+   "page": 979,
+   "section": "b",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1955",
+   "iid": "b5e459a9-98ea-3b4b-9c9c-368ce36a5229",
+   "doi": "10.2307/4181593",
+   "title": "Gorgias on Nature or That Which Is Not",
+   "author": "G. B. Kerferd"
+  },
+  {
+   "book": "",
+   "page": 975,
+   "section": "a",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1955",
+   "iid": "b5e459a9-98ea-3b4b-9c9c-368ce36a5229",
+   "doi": "10.2307/4181593",
+   "title": "Gorgias on Nature or That Which Is Not",
+   "author": "G. B. Kerferd"
+  },
+  {
+   "book": "",
+   "page": 977,
+   "section": "a",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1955",
+   "iid": "b5e459a9-98ea-3b4b-9c9c-368ce36a5229",
+   "doi": "10.2307/4181593",
+   "title": "Gorgias on Nature or That Which Is Not",
+   "author": "G. B. Kerferd"
+  },
+  {
+   "book": "",
+   "page": 975,
+   "section": "d",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1928",
+   "iid": "b791a0cb-880f-304a-abec-ea18f92b2994",
+   "doi": "10.2307/700611",
+   "title": "",
+   "author": "H. Box, J. Harward"
+  },
+  {
+   "book": "",
+   "page": 982,
+   "section": "c",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1928",
+   "iid": "b791a0cb-880f-304a-abec-ea18f92b2994",
+   "doi": "10.2307/700611",
+   "title": "",
+   "author": "H. Box, J. Harward"
+  },
+  {
+   "book": "",
+   "page": 975,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1928",
+   "iid": "b791a0cb-880f-304a-abec-ea18f92b2994",
+   "doi": "10.2307/700611",
+   "title": "",
+   "author": "H. Box, J. Harward"
+  },
+  {
+   "book": "",
+   "page": 983,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1928",
+   "iid": "b791a0cb-880f-304a-abec-ea18f92b2994",
+   "doi": "10.2307/700611",
+   "title": "",
+   "author": "H. Box, J. Harward"
+  },
+  {
+   "book": "",
+   "page": 984,
+   "section": "b",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1974",
+   "iid": "b6896400-2db0-3962-8b61-3e182c2fc49f",
+   "doi": "10.2307/4181934",
+   "title": "Speusippus' Ontological Classification",
+   "author": "H. A. S. Tarrant"
+  },
+  {
+   "book": "",
+   "page": 974,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1893",
+   "iid": "b975c8af-3203-33c4-aa85-bf6ce99dc051",
+   "doi": "10.2307/691365",
+   "title": "Apelt's Pseudo-Aristotelian Treatises. (Continued)",
+   "author": "Otto Apelt, J. Cook Wilson"
+  },
+  {
+   "book": "",
+   "page": 980,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1893",
+   "iid": "b975c8af-3203-33c4-aa85-bf6ce99dc051",
+   "doi": "10.2307/691365",
+   "title": "Apelt's Pseudo-Aristotelian Treatises. (Continued)",
+   "author": "Otto Apelt, J. Cook Wilson"
+  },
+  {
+   "book": "",
+   "page": 990,
+   "section": "c",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1970",
+   "iid": "c11a6946-b0eb-3fde-9bc1-0385a8e80838",
+   "doi": "10.2307/269180",
+   "title": "The Generation of Numbers in Plato's Parmenides",
+   "author": "R. E. Allen"
+  },
+  {
+   "book": "",
+   "page": 984,
+   "section": "e",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1939",
+   "iid": "c2115ad3-2bbb-38de-a961-68f1d9bc6574",
+   "doi": "10.2307/637149",
+   "title": "The Disorderly Motion in the Timaios",
+   "author": "Gregory Vlastos"
+  },
+  {
+   "book": "",
+   "page": 985,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1939",
+   "iid": "c2115ad3-2bbb-38de-a961-68f1d9bc6574",
+   "doi": "10.2307/637149",
+   "title": "The Disorderly Motion in the Timaios",
+   "author": "Gregory Vlastos"
+  },
+  {
+   "book": "",
+   "page": 980,
+   "section": "d",
+   "line": 3,
+   "journal": "Classical Philology",
+   "year": "1958",
+   "iid": "c2d206d5-a85b-3cea-83f0-0577d7f4bbd6",
+   "doi": "10.2307/266652",
+   "title": "A New Edition of the Epinomis: Review Article",
+   "author": "E. des Places, Benedict Einarson, A. Diès"
+  },
+  {
+   "book": "",
+   "page": 985,
+   "section": "e",
+   "line": 2,
+   "journal": "Classical Philology",
+   "year": "1958",
+   "iid": "c2d206d5-a85b-3cea-83f0-0577d7f4bbd6",
+   "doi": "10.2307/266652",
+   "title": "A New Edition of the Epinomis: Review Article",
+   "author": "E. des Places, Benedict Einarson, A. Diès"
+  },
+  {
+   "book": "",
+   "page": 984,
+   "section": "d",
+   "line": 5,
+   "journal": "Classical Philology",
+   "year": "1958",
+   "iid": "c2d206d5-a85b-3cea-83f0-0577d7f4bbd6",
+   "doi": "10.2307/266652",
+   "title": "A New Edition of the Epinomis: Review Article",
+   "author": "E. des Places, Benedict Einarson, A. Diès"
+  },
+  {
+   "book": "",
+   "page": 981,
+   "section": "c",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1958",
+   "iid": "c2d206d5-a85b-3cea-83f0-0577d7f4bbd6",
+   "doi": "10.2307/266652",
+   "title": "A New Edition of the Epinomis: Review Article",
+   "author": "E. des Places, Benedict Einarson, A. Diès"
+  },
+  {
+   "book": "",
+   "page": 980,
+   "section": "c",
+   "line": 7,
+   "journal": "Classical Philology",
+   "year": "1958",
+   "iid": "c2d206d5-a85b-3cea-83f0-0577d7f4bbd6",
+   "doi": "10.2307/266652",
+   "title": "A New Edition of the Epinomis: Review Article",
+   "author": "E. des Places, Benedict Einarson, A. Diès"
+  },
+  {
+   "book": "",
+   "page": 984,
+   "section": "e",
+   "line": 4,
+   "journal": "Classical Philology",
+   "year": "1958",
+   "iid": "c2d206d5-a85b-3cea-83f0-0577d7f4bbd6",
+   "doi": "10.2307/266652",
+   "title": "A New Edition of the Epinomis: Review Article",
+   "author": "E. des Places, Benedict Einarson, A. Diès"
+  },
+  {
+   "book": "",
+   "page": 984,
+   "section": "d",
+   "line": 4,
+   "journal": "Classical Philology",
+   "year": "1958",
+   "iid": "c2d206d5-a85b-3cea-83f0-0577d7f4bbd6",
+   "doi": "10.2307/266652",
+   "title": "A New Edition of the Epinomis: Review Article",
+   "author": "E. des Places, Benedict Einarson, A. Diès"
+  },
+  {
+   "book": "",
+   "page": 985,
+   "section": "c",
+   "line": 1,
+   "journal": "Classical Philology",
+   "year": "1958",
+   "iid": "c2d206d5-a85b-3cea-83f0-0577d7f4bbd6",
+   "doi": "10.2307/266652",
+   "title": "A New Edition of the Epinomis: Review Article",
+   "author": "E. des Places, Benedict Einarson, A. Diès"
+  },
+  {
+   "book": "",
+   "page": 984,
+   "section": "e",
+   "line": 4,
+   "journal": "Classical Philology",
+   "year": "1958",
+   "iid": "c2d206d5-a85b-3cea-83f0-0577d7f4bbd6",
+   "doi": "10.2307/266652",
+   "title": "A New Edition of the Epinomis: Review Article",
+   "author": "E. des Places, Benedict Einarson, A. Diès"
+  },
+  {
+   "book": "",
+   "page": 984,
+   "section": "d",
+   "line": 2,
+   "journal": "Classical Philology",
+   "year": "1958",
+   "iid": "c2d206d5-a85b-3cea-83f0-0577d7f4bbd6",
+   "doi": "10.2307/266652",
+   "title": "A New Edition of the Epinomis: Review Article",
+   "author": "E. des Places, Benedict Einarson, A. Diès"
+  },
+  {
+   "book": "",
+   "page": 975,
+   "section": "e",
+   "line": 1,
+   "journal": "Classical Philology",
+   "year": "1958",
+   "iid": "c2d206d5-a85b-3cea-83f0-0577d7f4bbd6",
+   "doi": "10.2307/266652",
+   "title": "A New Edition of the Epinomis: Review Article",
+   "author": "E. des Places, Benedict Einarson, A. Diès"
+  },
+  {
+   "book": "",
+   "page": 976,
+   "section": "e",
+   "line": 3,
+   "journal": "Classical Philology",
+   "year": "1958",
+   "iid": "c2d206d5-a85b-3cea-83f0-0577d7f4bbd6",
+   "doi": "10.2307/266652",
+   "title": "A New Edition of the Epinomis: Review Article",
+   "author": "E. des Places, Benedict Einarson, A. Diès"
+  },
+  {
+   "book": "",
+   "page": 986,
+   "section": "e",
+   "line": 9,
+   "journal": "Classical Philology",
+   "year": "1958",
+   "iid": "c2d206d5-a85b-3cea-83f0-0577d7f4bbd6",
+   "doi": "10.2307/266652",
+   "title": "A New Edition of the Epinomis: Review Article",
+   "author": "E. des Places, Benedict Einarson, A. Diès"
+  },
+  {
+   "book": "",
+   "page": 973,
+   "section": "a",
+   "line": 6,
+   "journal": "Classical Philology",
+   "year": "1958",
+   "iid": "c2d206d5-a85b-3cea-83f0-0577d7f4bbd6",
+   "doi": "10.2307/266652",
+   "title": "A New Edition of the Epinomis: Review Article",
+   "author": "E. des Places, Benedict Einarson, A. Diès"
+  },
+  {
+   "book": "",
+   "page": 973,
+   "section": "b",
+   "line": 4,
+   "journal": "Classical Philology",
+   "year": "1958",
+   "iid": "c2d206d5-a85b-3cea-83f0-0577d7f4bbd6",
+   "doi": "10.2307/266652",
+   "title": "A New Edition of the Epinomis: Review Article",
+   "author": "E. des Places, Benedict Einarson, A. Diès"
+  },
+  {
+   "book": "",
+   "page": 976,
+   "section": "b",
+   "line": 4,
+   "journal": "Classical Philology",
+   "year": "1958",
+   "iid": "c2d206d5-a85b-3cea-83f0-0577d7f4bbd6",
+   "doi": "10.2307/266652",
+   "title": "A New Edition of the Epinomis: Review Article",
+   "author": "E. des Places, Benedict Einarson, A. Diès"
+  },
+  {
+   "book": "",
+   "page": 976,
+   "section": "b",
+   "line": 4,
+   "journal": "Classical Philology",
+   "year": "1958",
+   "iid": "c2d206d5-a85b-3cea-83f0-0577d7f4bbd6",
+   "doi": "10.2307/266652",
+   "title": "A New Edition of the Epinomis: Review Article",
+   "author": "E. des Places, Benedict Einarson, A. Diès"
+  },
+  {
+   "book": "",
+   "page": 974,
+   "section": "d",
+   "line": 5,
+   "journal": "Classical Philology",
+   "year": "1958",
+   "iid": "c2d206d5-a85b-3cea-83f0-0577d7f4bbd6",
+   "doi": "10.2307/266652",
+   "title": "A New Edition of the Epinomis: Review Article",
+   "author": "E. des Places, Benedict Einarson, A. Diès"
+  },
+  {
+   "book": "",
+   "page": 988,
+   "section": "c",
+   "line": 2,
+   "journal": "Classical Philology",
+   "year": "1958",
+   "iid": "c2d206d5-a85b-3cea-83f0-0577d7f4bbd6",
+   "doi": "10.2307/266652",
+   "title": "A New Edition of the Epinomis: Review Article",
+   "author": "E. des Places, Benedict Einarson, A. Diès"
+  },
+  {
+   "book": "",
+   "page": 978,
+   "section": "d",
+   "line": 7,
+   "journal": "Classical Philology",
+   "year": "1958",
+   "iid": "c2d206d5-a85b-3cea-83f0-0577d7f4bbd6",
+   "doi": "10.2307/266652",
+   "title": "A New Edition of the Epinomis: Review Article",
+   "author": "E. des Places, Benedict Einarson, A. Diès"
+  },
+  {
+   "book": "",
+   "page": 987,
+   "section": "d",
+   "line": 1,
+   "journal": "Classical Philology",
+   "year": "1958",
+   "iid": "c2d206d5-a85b-3cea-83f0-0577d7f4bbd6",
+   "doi": "10.2307/266652",
+   "title": "A New Edition of the Epinomis: Review Article",
+   "author": "E. des Places, Benedict Einarson, A. Diès"
+  },
+  {
+   "book": "",
+   "page": 978,
+   "section": "e",
+   "line": 5,
+   "journal": "Classical Philology",
+   "year": "1958",
+   "iid": "c2d206d5-a85b-3cea-83f0-0577d7f4bbd6",
+   "doi": "10.2307/266652",
+   "title": "A New Edition of the Epinomis: Review Article",
+   "author": "E. des Places, Benedict Einarson, A. Diès"
+  },
+  {
+   "book": "",
+   "page": 987,
+   "section": "b",
+   "line": 4,
+   "journal": "Classical Philology",
+   "year": "1958",
+   "iid": "c2d206d5-a85b-3cea-83f0-0577d7f4bbd6",
+   "doi": "10.2307/266652",
+   "title": "A New Edition of the Epinomis: Review Article",
+   "author": "E. des Places, Benedict Einarson, A. Diès"
+  },
+  {
+   "book": "",
+   "page": 987,
+   "section": "a",
+   "line": 2,
+   "journal": "Classical Philology",
+   "year": "1958",
+   "iid": "c2d206d5-a85b-3cea-83f0-0577d7f4bbd6",
+   "doi": "10.2307/266652",
+   "title": "A New Edition of the Epinomis: Review Article",
+   "author": "E. des Places, Benedict Einarson, A. Diès"
+  },
+  {
+   "book": "",
+   "page": 976,
+   "section": "a",
+   "line": 5,
+   "journal": "Classical Philology",
+   "year": "1958",
+   "iid": "c2d206d5-a85b-3cea-83f0-0577d7f4bbd6",
+   "doi": "10.2307/266652",
+   "title": "A New Edition of the Epinomis: Review Article",
+   "author": "E. des Places, Benedict Einarson, A. Diès"
+  },
+  {
+   "book": "",
+   "page": 977,
+   "section": "a",
+   "line": 2,
+   "journal": "Classical Philology",
+   "year": "1958",
+   "iid": "c2d206d5-a85b-3cea-83f0-0577d7f4bbd6",
+   "doi": "10.2307/266652",
+   "title": "A New Edition of the Epinomis: Review Article",
+   "author": "E. des Places, Benedict Einarson, A. Diès"
+  },
+  {
+   "book": "",
+   "page": 978,
+   "section": "b",
+   "line": 8,
+   "journal": "Classical Philology",
+   "year": "1958",
+   "iid": "c2d206d5-a85b-3cea-83f0-0577d7f4bbd6",
+   "doi": "10.2307/266652",
+   "title": "A New Edition of the Epinomis: Review Article",
+   "author": "E. des Places, Benedict Einarson, A. Diès"
+  },
+  {
+   "book": "",
+   "page": 979,
+   "section": "a",
+   "line": 5,
+   "journal": "Classical Philology",
+   "year": "1958",
+   "iid": "c2d206d5-a85b-3cea-83f0-0577d7f4bbd6",
+   "doi": "10.2307/266652",
+   "title": "A New Edition of the Epinomis: Review Article",
+   "author": "E. des Places, Benedict Einarson, A. Diès"
+  },
+  {
+   "book": "",
+   "page": 979,
+   "section": "a",
+   "line": 3,
+   "journal": "Classical Philology",
+   "year": "1958",
+   "iid": "c2d206d5-a85b-3cea-83f0-0577d7f4bbd6",
+   "doi": "10.2307/266652",
+   "title": "A New Edition of the Epinomis: Review Article",
+   "author": "E. des Places, Benedict Einarson, A. Diès"
+  },
+  {
+   "book": "",
+   "page": 979,
+   "section": "a",
+   "line": 5,
+   "journal": "Classical Philology",
+   "year": "1958",
+   "iid": "c2d206d5-a85b-3cea-83f0-0577d7f4bbd6",
+   "doi": "10.2307/266652",
+   "title": "A New Edition of the Epinomis: Review Article",
+   "author": "E. des Places, Benedict Einarson, A. Diès"
+  },
+  {
+   "book": "",
+   "page": 986,
+   "section": "e",
+   "line": 6,
+   "journal": "Classical Philology",
+   "year": "1958",
+   "iid": "c2d206d5-a85b-3cea-83f0-0577d7f4bbd6",
+   "doi": "10.2307/266652",
+   "title": "A New Edition of the Epinomis: Review Article",
+   "author": "E. des Places, Benedict Einarson, A. Diès"
+  },
+  {
+   "book": "",
+   "page": 987,
+   "section": "d",
+   "line": 8,
+   "journal": "Classical Philology",
+   "year": "1958",
+   "iid": "c2d206d5-a85b-3cea-83f0-0577d7f4bbd6",
+   "doi": "10.2307/266652",
+   "title": "A New Edition of the Epinomis: Review Article",
+   "author": "E. des Places, Benedict Einarson, A. Diès"
+  },
+  {
+   "book": "",
+   "page": 973,
+   "section": "c",
+   "line": 2,
+   "journal": "Classical Philology",
+   "year": "1958",
+   "iid": "c2d206d5-a85b-3cea-83f0-0577d7f4bbd6",
+   "doi": "10.2307/266652",
+   "title": "A New Edition of the Epinomis: Review Article",
+   "author": "E. des Places, Benedict Einarson, A. Diès"
+  },
+  {
+   "book": "",
+   "page": 988,
+   "section": "c",
+   "line": 6,
+   "journal": "Classical Philology",
+   "year": "1958",
+   "iid": "c2d206d5-a85b-3cea-83f0-0577d7f4bbd6",
+   "doi": "10.2307/266652",
+   "title": "A New Edition of the Epinomis: Review Article",
+   "author": "E. des Places, Benedict Einarson, A. Diès"
+  },
+  {
+   "book": "",
+   "page": 984,
+   "section": "d",
+   "line": 6,
+   "journal": "Classical Philology",
+   "year": "1958",
+   "iid": "c2d206d5-a85b-3cea-83f0-0577d7f4bbd6",
+   "doi": "10.2307/266652",
+   "title": "A New Edition of the Epinomis: Review Article",
+   "author": "E. des Places, Benedict Einarson, A. Diès"
+  },
+  {
+   "book": "",
+   "page": 976,
+   "section": "a",
+   "line": 3,
+   "journal": "Classical Philology",
+   "year": "1958",
+   "iid": "c2d206d5-a85b-3cea-83f0-0577d7f4bbd6",
+   "doi": "10.2307/266652",
+   "title": "A New Edition of the Epinomis: Review Article",
+   "author": "E. des Places, Benedict Einarson, A. Diès"
+  },
+  {
+   "book": "",
+   "page": 978,
+   "section": "d",
+   "line": 5,
+   "journal": "Classical Philology",
+   "year": "1958",
+   "iid": "c2d206d5-a85b-3cea-83f0-0577d7f4bbd6",
+   "doi": "10.2307/266652",
+   "title": "A New Edition of the Epinomis: Review Article",
+   "author": "E. des Places, Benedict Einarson, A. Diès"
+  },
+  {
+   "book": "",
+   "page": 978,
+   "section": "e",
+   "line": 1,
+   "journal": "Classical Philology",
+   "year": "1958",
+   "iid": "c2d206d5-a85b-3cea-83f0-0577d7f4bbd6",
+   "doi": "10.2307/266652",
+   "title": "A New Edition of the Epinomis: Review Article",
+   "author": "E. des Places, Benedict Einarson, A. Diès"
+  },
+  {
+   "book": "",
+   "page": 983,
+   "section": "c",
+   "line": 7,
+   "journal": "Classical Philology",
+   "year": "1958",
+   "iid": "c2d206d5-a85b-3cea-83f0-0577d7f4bbd6",
+   "doi": "10.2307/266652",
+   "title": "A New Edition of the Epinomis: Review Article",
+   "author": "E. des Places, Benedict Einarson, A. Diès"
+  },
+  {
+   "book": "",
+   "page": 983,
+   "section": "d",
+   "line": 8,
+   "journal": "Classical Philology",
+   "year": "1958",
+   "iid": "c2d206d5-a85b-3cea-83f0-0577d7f4bbd6",
+   "doi": "10.2307/266652",
+   "title": "A New Edition of the Epinomis: Review Article",
+   "author": "E. des Places, Benedict Einarson, A. Diès"
+  },
+  {
+   "book": "",
+   "page": 973,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1955",
+   "iid": "c30f8d22-8947-38be-9d29-5cf9ca9b0fef",
+   "doi": "10.2307/266259",
+   "title": "Alcuin on Sophistry",
+   "author": "Luitpold Wallach"
+  },
+  {
+   "book": "",
+   "page": 976,
+   "section": "e",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1989",
+   "iid": "c5e8a23c-16f2-3040-a894-42e1cba54a6e",
+   "doi": "10.2307/4182317",
+   "title": "Platonic Chronology",
+   "author": "Holger Thesleff"
+  },
+  {
+   "book": "",
+   "page": 979,
+   "section": "c",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1989",
+   "iid": "c5e8a23c-16f2-3040-a894-42e1cba54a6e",
+   "doi": "10.2307/4182317",
+   "title": "Platonic Chronology",
+   "author": "Holger Thesleff"
+  },
+  {
+   "book": "",
+   "page": 978,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1904",
+   "iid": "c63ab827-c0d9-310e-ad64-198fd6176240",
+   "doi": "10.2307/694613",
+   "title": "Abbott's from Letter to Spirit",
+   "author": "T. Nicklin, Edwin A. Abbott"
+  },
+  {
+   "book": "",
+   "page": 990,
+   "section": "c",
+   "line": 5,
+   "journal": "Les Études philosophiques",
+   "year": "2018",
+   "iid": "c5d95dd6-fe71-3b0e-814d-bb3b3d631b55",
+   "doi": "10.2307/44956180",
+   "title": "APRÈS LES NOMBRES, APRÈS LES IDÉES : LE STATUT DES GRANDEURS AU SEIN DU PLATONISME",
+   "author": "Justin Winzenrieth"
+  },
+  {
+   "book": "",
+   "page": 990,
+   "section": "c",
+   "line": 5,
+   "journal": "Les Études philosophiques",
+   "year": "2018",
+   "iid": "c5d95dd6-fe71-3b0e-814d-bb3b3d631b55",
+   "doi": "10.2307/44956180",
+   "title": "APRÈS LES NOMBRES, APRÈS LES IDÉES : LE STATUT DES GRANDEURS AU SEIN DU PLATONISME",
+   "author": "Justin Winzenrieth"
+  },
+  {
+   "book": "",
+   "page": 991,
+   "section": "b",
+   "line": 5,
+   "journal": "Les Études philosophiques",
+   "year": "2018",
+   "iid": "c5d95dd6-fe71-3b0e-814d-bb3b3d631b55",
+   "doi": "10.2307/44956180",
+   "title": "APRÈS LES NOMBRES, APRÈS LES IDÉES : LE STATUT DES GRANDEURS AU SEIN DU PLATONISME",
+   "author": "Justin Winzenrieth"
+  },
+  {
+   "book": "",
+   "page": 983,
+   "section": "b",
+   "line": null,
+   "journal": "Méthexis",
+   "year": "1994",
+   "iid": "c59a182d-e254-3bdf-8438-1537e6567e60",
+   "doi": "10.2307/43738437",
+   "title": "TWO KEY CONCEPTS IN PLATO'S COSMOLOGY",
+   "author": "THOMAS M. ROBINSON"
+  },
+  {
+   "book": "",
+   "page": 983,
+   "section": "b",
+   "line": null,
+   "journal": "Méthexis",
+   "year": "1994",
+   "iid": "c59a182d-e254-3bdf-8438-1537e6567e60",
+   "doi": "10.2307/43738437",
+   "title": "TWO KEY CONCEPTS IN PLATO'S COSMOLOGY",
+   "author": "THOMAS M. ROBINSON"
+  },
+  {
+   "book": "",
+   "page": 987,
+   "section": "b",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1962",
+   "iid": "c6a5ffa9-a24b-324a-9721-44642fe50f10",
+   "doi": "10.2307/266429",
+   "title": "",
+   "author": "Charles Mugler, Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 977,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1945",
+   "iid": "cb9652cc-f34b-3eb7-a65c-e5128ae34602",
+   "doi": "10.2307/265805",
+   "title": "ΝΟΥΣ, Noein, and Their Derivatives in Pre-Socratic Philosophy (Excluding Anaxagoras): Part I. From the Beginnings to Parmenides",
+   "author": "Kurt von Fritz"
+  },
+  {
+   "book": "",
+   "page": 977,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1945",
+   "iid": "cb9652cc-f34b-3eb7-a65c-e5128ae34602",
+   "doi": "10.2307/265805",
+   "title": "ΝΟΥΣ, Noein, and Their Derivatives in Pre-Socratic Philosophy (Excluding Anaxagoras): Part I. From the Beginnings to Parmenides",
+   "author": "Kurt von Fritz"
+  },
+  {
+   "book": "",
+   "page": 977,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1945",
+   "iid": "cb9652cc-f34b-3eb7-a65c-e5128ae34602",
+   "doi": "10.2307/265805",
+   "title": "ΝΟΥΣ, Noein, and Their Derivatives in Pre-Socratic Philosophy (Excluding Anaxagoras): Part I. From the Beginnings to Parmenides",
+   "author": "Kurt von Fritz"
+  },
+  {
+   "book": "",
+   "page": 978,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1945",
+   "iid": "cb9652cc-f34b-3eb7-a65c-e5128ae34602",
+   "doi": "10.2307/265805",
+   "title": "ΝΟΥΣ, Noein, and Their Derivatives in Pre-Socratic Philosophy (Excluding Anaxagoras): Part I. From the Beginnings to Parmenides",
+   "author": "Kurt von Fritz"
+  },
+  {
+   "book": "",
+   "page": 985,
+   "section": "e",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1918",
+   "iid": "d062ebbe-9629-32a0-bdec-0f8b2291016e",
+   "doi": "10.2307/263751",
+   "title": "Studies in Greek Noun-Formation: Dental Terminations I. 4",
+   "author": "Carl D. Buck"
+  },
+  {
+   "book": "",
+   "page": 979,
+   "section": "d",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1991",
+   "iid": "cf86593f-c47a-3d9b-b3e1-a87157b9fe7a",
+   "doi": "10.2307/638901",
+   "title": "The Compleat Angler: Observations on the Rise of Peisistratos in Herodotos (1.59-64)",
+   "author": "B. M. Lavelle"
+  },
+  {
+   "book": "",
+   "page": 978,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1892",
+   "iid": "d27137da-c4c1-31c0-8d8b-f13bc5f0690e",
+   "doi": "10.2307/692242",
+   "title": "Apelt's Pseudo-Aristotelian Treatises",
+   "author": "Otto Apelt, J. Cook Wilson"
+  },
+  {
+   "book": "",
+   "page": 974,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1892",
+   "iid": "d27137da-c4c1-31c0-8d8b-f13bc5f0690e",
+   "doi": "10.2307/692242",
+   "title": "Apelt's Pseudo-Aristotelian Treatises",
+   "author": "Otto Apelt, J. Cook Wilson"
+  },
+  {
+   "book": "",
+   "page": 974,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1892",
+   "iid": "d27137da-c4c1-31c0-8d8b-f13bc5f0690e",
+   "doi": "10.2307/692242",
+   "title": "Apelt's Pseudo-Aristotelian Treatises",
+   "author": "Otto Apelt, J. Cook Wilson"
+  },
+  {
+   "book": "",
+   "page": 975,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1892",
+   "iid": "d27137da-c4c1-31c0-8d8b-f13bc5f0690e",
+   "doi": "10.2307/692242",
+   "title": "Apelt's Pseudo-Aristotelian Treatises",
+   "author": "Otto Apelt, J. Cook Wilson"
+  },
+  {
+   "book": "",
+   "page": 974,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1892",
+   "iid": "d27137da-c4c1-31c0-8d8b-f13bc5f0690e",
+   "doi": "10.2307/692242",
+   "title": "Apelt's Pseudo-Aristotelian Treatises",
+   "author": "Otto Apelt, J. Cook Wilson"
+  },
+  {
+   "book": "",
+   "page": 974,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1892",
+   "iid": "d27137da-c4c1-31c0-8d8b-f13bc5f0690e",
+   "doi": "10.2307/692242",
+   "title": "Apelt's Pseudo-Aristotelian Treatises",
+   "author": "Otto Apelt, J. Cook Wilson"
+  },
+  {
+   "book": "",
+   "page": 977,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1892",
+   "iid": "d27137da-c4c1-31c0-8d8b-f13bc5f0690e",
+   "doi": "10.2307/692242",
+   "title": "Apelt's Pseudo-Aristotelian Treatises",
+   "author": "Otto Apelt, J. Cook Wilson"
+  },
+  {
+   "book": "",
+   "page": 976,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1892",
+   "iid": "d27137da-c4c1-31c0-8d8b-f13bc5f0690e",
+   "doi": "10.2307/692242",
+   "title": "Apelt's Pseudo-Aristotelian Treatises",
+   "author": "Otto Apelt, J. Cook Wilson"
+  },
+  {
+   "book": "",
+   "page": 976,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1892",
+   "iid": "d27137da-c4c1-31c0-8d8b-f13bc5f0690e",
+   "doi": "10.2307/692242",
+   "title": "Apelt's Pseudo-Aristotelian Treatises",
+   "author": "Otto Apelt, J. Cook Wilson"
+  },
+  {
+   "book": "",
+   "page": 977,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1892",
+   "iid": "d27137da-c4c1-31c0-8d8b-f13bc5f0690e",
+   "doi": "10.2307/692242",
+   "title": "Apelt's Pseudo-Aristotelian Treatises",
+   "author": "Otto Apelt, J. Cook Wilson"
+  },
+  {
+   "book": "",
+   "page": 976,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1892",
+   "iid": "d27137da-c4c1-31c0-8d8b-f13bc5f0690e",
+   "doi": "10.2307/692242",
+   "title": "Apelt's Pseudo-Aristotelian Treatises",
+   "author": "Otto Apelt, J. Cook Wilson"
+  },
+  {
+   "book": "",
+   "page": 976,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1892",
+   "iid": "d27137da-c4c1-31c0-8d8b-f13bc5f0690e",
+   "doi": "10.2307/692242",
+   "title": "Apelt's Pseudo-Aristotelian Treatises",
+   "author": "Otto Apelt, J. Cook Wilson"
+  },
+  {
+   "book": "",
+   "page": 976,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1892",
+   "iid": "d27137da-c4c1-31c0-8d8b-f13bc5f0690e",
+   "doi": "10.2307/692242",
+   "title": "Apelt's Pseudo-Aristotelian Treatises",
+   "author": "Otto Apelt, J. Cook Wilson"
+  },
+  {
+   "book": "",
+   "page": 977,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1892",
+   "iid": "d27137da-c4c1-31c0-8d8b-f13bc5f0690e",
+   "doi": "10.2307/692242",
+   "title": "Apelt's Pseudo-Aristotelian Treatises",
+   "author": "Otto Apelt, J. Cook Wilson"
+  },
+  {
+   "book": "",
+   "page": 977,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1892",
+   "iid": "d27137da-c4c1-31c0-8d8b-f13bc5f0690e",
+   "doi": "10.2307/692242",
+   "title": "Apelt's Pseudo-Aristotelian Treatises",
+   "author": "Otto Apelt, J. Cook Wilson"
+  },
+  {
+   "book": "",
+   "page": 979,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1892",
+   "iid": "d27137da-c4c1-31c0-8d8b-f13bc5f0690e",
+   "doi": "10.2307/692242",
+   "title": "Apelt's Pseudo-Aristotelian Treatises",
+   "author": "Otto Apelt, J. Cook Wilson"
+  },
+  {
+   "book": "",
+   "page": 979,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1892",
+   "iid": "d27137da-c4c1-31c0-8d8b-f13bc5f0690e",
+   "doi": "10.2307/692242",
+   "title": "Apelt's Pseudo-Aristotelian Treatises",
+   "author": "Otto Apelt, J. Cook Wilson"
+  },
+  {
+   "book": "",
+   "page": 986,
+   "section": "d",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1926",
+   "iid": "d43814b9-6fb3-3d95-8c83-fe811fc1188f",
+   "doi": "10.2307/262678",
+   "title": "Posidonius and the Flight of the Mind through the Universe",
+   "author": "Roger Miller Jones"
+  },
+  {
+   "book": "",
+   "page": 992,
+   "section": "b",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1926",
+   "iid": "d43814b9-6fb3-3d95-8c83-fe811fc1188f",
+   "doi": "10.2307/262678",
+   "title": "Posidonius and the Flight of the Mind through the Universe",
+   "author": "Roger Miller Jones"
+  },
+  {
+   "book": "",
+   "page": 982,
+   "section": "e",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1926",
+   "iid": "d43814b9-6fb3-3d95-8c83-fe811fc1188f",
+   "doi": "10.2307/262678",
+   "title": "Posidonius and the Flight of the Mind through the Universe",
+   "author": "Roger Miller Jones"
+  },
+  {
+   "book": "",
+   "page": 990,
+   "section": "c",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1947",
+   "iid": "d77a17cf-307c-3203-9dc1-5c2495621043",
+   "doi": "10.2307/266000",
+   "title": "",
+   "author": "Phillip de Lacy, Willem van der Wielen"
+  },
+  {
+   "book": "",
+   "page": 973,
+   "section": "e",
+   "line": null,
+   "journal": "History of Philosophy Quarterly",
+   "year": "2012",
+   "iid": "d8e6fa18-40d5-3a6e-8958-40f1eebb61d1",
+   "doi": "10.2307/23212824",
+   "title": "FOOLS AND MALICIOUS PLEASURE IN PLATO'S \"PHILEBUS\"",
+   "author": "Emily A. Austin"
+  },
+  {
+   "book": "",
+   "page": 985,
+   "section": "d",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "2002",
+   "iid": "d9ff8c9a-fc33-3fe3-b6f1-1f25b0885d96",
+   "doi": "10.2307/3662046",
+   "title": "Book Review : \n        The Mother of the Sophists. La tragedia nei trattati greci di retorica\n        C. Castelli",
+   "author": "C. Castelli, Orlando Poltera"
+  },
+  {
+   "book": "",
+   "page": 973,
+   "section": "b",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2020",
+   "iid": "dc89c162-9bde-3bdd-a715-2399ab1b5890",
+   "doi": "10.2307/26905291",
+   "title": "PETRONIUS’ TALKING BIRDS",
+   "author": "BARBARA BLYTHE"
+  },
+  {
+   "book": "",
+   "page": 974,
+   "section": "b",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1984",
+   "iid": "dc918d93-1724-3558-a159-6b4ba578abb6",
+   "doi": "10.2307/269677",
+   "title": "",
+   "author": "David Sansone, J. Diggle"
+  },
+  {
+   "book": "",
+   "page": 974,
+   "section": "d",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1987",
+   "iid": "df0cd16c-aa8d-3788-b977-ecd4a5e9a408",
+   "doi": "10.2307/638855",
+   "title": "Three Ciceroniana",
+   "author": "Heikki Solin"
+  },
+  {
+   "book": "",
+   "page": 979,
+   "section": "a",
+   "line": 23,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2019",
+   "iid": "dec400b6-dd62-33d3-85b4-e857ca1de57e",
+   "doi": "10.2307/26731344",
+   "title": "MÉLISSOS, GORGIAS ET PLATON DANS LA PREMIÈRE HYPOTHÈSE DU <em>PARMÉNIDE</em>",
+   "author": "Mathilde Brémond"
+  },
+  {
+   "book": "",
+   "page": 979,
+   "section": "a",
+   "line": 18,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2019",
+   "iid": "dec400b6-dd62-33d3-85b4-e857ca1de57e",
+   "doi": "10.2307/26731344",
+   "title": "MÉLISSOS, GORGIAS ET PLATON DANS LA PREMIÈRE HYPOTHÈSE DU <em>PARMÉNIDE</em>",
+   "author": "Mathilde Brémond"
+  },
+  {
+   "book": "",
+   "page": 979,
+   "section": "a",
+   "line": 25,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2019",
+   "iid": "dec400b6-dd62-33d3-85b4-e857ca1de57e",
+   "doi": "10.2307/26731344",
+   "title": "MÉLISSOS, GORGIAS ET PLATON DANS LA PREMIÈRE HYPOTHÈSE DU <em>PARMÉNIDE</em>",
+   "author": "Mathilde Brémond"
+  },
+  {
+   "book": "",
+   "page": 978,
+   "section": "b",
+   "line": 36,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2019",
+   "iid": "dec400b6-dd62-33d3-85b4-e857ca1de57e",
+   "doi": "10.2307/26731344",
+   "title": "MÉLISSOS, GORGIAS ET PLATON DANS LA PREMIÈRE HYPOTHÈSE DU <em>PARMÉNIDE</em>",
+   "author": "Mathilde Brémond"
+  },
+  {
+   "book": "",
+   "page": 979,
+   "section": "a",
+   "line": 1,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2019",
+   "iid": "dec400b6-dd62-33d3-85b4-e857ca1de57e",
+   "doi": "10.2307/26731344",
+   "title": "MÉLISSOS, GORGIAS ET PLATON DANS LA PREMIÈRE HYPOTHÈSE DU <em>PARMÉNIDE</em>",
+   "author": "Mathilde Brémond"
+  },
+  {
+   "book": "",
+   "page": 979,
+   "section": "b",
+   "line": 25,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2019",
+   "iid": "dec400b6-dd62-33d3-85b4-e857ca1de57e",
+   "doi": "10.2307/26731344",
+   "title": "MÉLISSOS, GORGIAS ET PLATON DANS LA PREMIÈRE HYPOTHÈSE DU <em>PARMÉNIDE</em>",
+   "author": "Mathilde Brémond"
+  },
+  {
+   "book": "",
+   "page": 990,
+   "section": "c",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1957",
+   "iid": "e005ed24-4fb9-3489-af80-586663c55815",
+   "doi": "10.2307/4181621",
+   "title": "Two Points of Translation in Plato \"Epinomis\" 990 c 5-991 b 4",
+   "author": "N. B. Booth"
+  },
+  {
+   "book": "",
+   "page": 973,
+   "section": "a",
+   "line": 15,
+   "journal": "The Classical Quarterly",
+   "year": "1948",
+   "iid": "df0670a5-01ae-3a10-ac7f-743f1f5fcdda",
+   "doi": "10.2307/636706",
+   "title": "Thucydides Notes",
+   "author": "A. W. Gomme"
+  },
+  {
+   "book": "",
+   "page": 985,
+   "section": "c",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2019",
+   "iid": "e04ce61d-1719-33c8-9cb4-06607521ab4f",
+   "doi": "10.2307/26850712",
+   "title": "SOMETHING TO DO WITH DIONYSUS? DOLPHINS AND DITHYRAMB IN PINDAR FRAGMENT 236 SM",
+   "author": "Jessica Lightfoot"
+  },
+  {
+   "book": "",
+   "page": 989,
+   "section": "b",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1958",
+   "iid": "e76ab427-1eb0-3307-b70c-fcb7bb27768d",
+   "doi": "10.2307/4181633",
+   "title": "Plato's \"Euthyphro\"",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 983,
+   "section": "e",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "1998",
+   "iid": "e90a57e8-a3b9-3940-bbbc-ed784238ae49",
+   "doi": "10.2307/24354619",
+   "title": "PIÉTÉ ET \"THEOPHILIA\"",
+   "author": "Marie-France Hazebroucq"
+  },
+  {
+   "book": "",
+   "page": 984,
+   "section": "a",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "1998",
+   "iid": "e90a57e8-a3b9-3940-bbbc-ed784238ae49",
+   "doi": "10.2307/24354619",
+   "title": "PIÉTÉ ET \"THEOPHILIA\"",
+   "author": "Marie-France Hazebroucq"
+  },
+  {
+   "book": "",
+   "page": 981,
+   "section": "a",
+   "line": 7,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2022",
+   "iid": "ece77783-29b1-37ee-8557-04e5629bc95e",
+   "doi": "10.2307/27264375",
+   "title": "FROM MATHEMATICAL INTERMEDIATES TO AN INTERMEDIATE POSITION? THE CASE OF SPEUSIPPUS’ SOUL",
+   "author": "Giulia De Cesaris"
+  },
+  {
+   "book": "",
+   "page": 984,
+   "section": "c",
+   "line": 2,
+   "journal": "Méthexis",
+   "year": "2014",
+   "iid": "eeaa7bba-8de7-307a-bc6c-b3f921dfe925",
+   "doi": "10.2307/44820263",
+   "title": "MODELLO, COPIA, RICETTACOLO: MONISMO, DUALISMO O TRIADE DI PRINCIPI NEL \"TIMEO\"?",
+   "author": "FRANCESCO FRONTEROTTA"
+  },
+  {
+   "book": "",
+   "page": 981,
+   "section": "e",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "1992",
+   "iid": "f46596a5-fc5e-333b-87f1-14688fd8650a",
+   "doi": "10.2307/24353901",
+   "title": "DEUX CAVERNES — L'ÉCRITURE ALLÉGORIQUE",
+   "author": "Claude Gaudin"
+  },
+  {
+   "book": "",
+   "page": 982,
+   "section": "e",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "1992",
+   "iid": "f46596a5-fc5e-333b-87f1-14688fd8650a",
+   "doi": "10.2307/24353901",
+   "title": "DEUX CAVERNES — L'ÉCRITURE ALLÉGORIQUE",
+   "author": "Claude Gaudin"
+  },
+  {
+   "book": "",
+   "page": 979,
+   "section": "e",
+   "line": 2,
+   "journal": "Classical Philology",
+   "year": "1961",
+   "iid": "f50413f4-e6bb-3a89-8ed0-87adb2861063",
+   "doi": "10.2307/265469",
+   "title": "Epinomis 979E2",
+   "author": "Friedrich Solmsen"
+  },
+  {
+   "book": "",
+   "page": 979,
+   "section": "d",
+   "line": 2,
+   "journal": "Classical Philology",
+   "year": "1961",
+   "iid": "f50413f4-e6bb-3a89-8ed0-87adb2861063",
+   "doi": "10.2307/265469",
+   "title": "Epinomis 979E2",
+   "author": "Friedrich Solmsen"
+  },
+  {
+   "book": "",
+   "page": 979,
+   "section": "b",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1961",
+   "iid": "f50413f4-e6bb-3a89-8ed0-87adb2861063",
+   "doi": "10.2307/265469",
+   "title": "Epinomis 979E2",
+   "author": "Friedrich Solmsen"
+  },
+  {
+   "book": "",
+   "page": 980,
+   "section": "d",
+   "line": 5,
+   "journal": "Classical Philology",
+   "year": "1961",
+   "iid": "f50413f4-e6bb-3a89-8ed0-87adb2861063",
+   "doi": "10.2307/265469",
+   "title": "Epinomis 979E2",
+   "author": "Friedrich Solmsen"
+  },
+  {
+   "book": "",
+   "page": 973,
+   "section": "b",
+   "line": 7,
+   "journal": "Classical Philology",
+   "year": "1961",
+   "iid": "f50413f4-e6bb-3a89-8ed0-87adb2861063",
+   "doi": "10.2307/265469",
+   "title": "Epinomis 979E2",
+   "author": "Friedrich Solmsen"
+  },
+  {
+   "book": "",
+   "page": 987,
+   "section": "e",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1997",
+   "iid": "fbb9afa8-e4a6-34fd-bbb3-db1e84f2ef53",
+   "doi": "10.2307/270589",
+   "title": "Euripides Heracles 1351 and the Hero's Encounter with Death",
+   "author": "John C. Gibert"
+  },
+  {
+   "book": "",
+   "page": 987,
+   "section": "e",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1997",
+   "iid": "fbb9afa8-e4a6-34fd-bbb3-db1e84f2ef53",
+   "doi": "10.2307/270589",
+   "title": "Euripides Heracles 1351 and the Hero's Encounter with Death",
+   "author": "John C. Gibert"
+  },
+  {
+   "book": "",
+   "page": 975,
+   "section": "b",
+   "line": 6,
+   "journal": "The Classical Review",
+   "year": "1965",
+   "iid": "fbc12344-0a8c-3730-9f1f-1d24fe105c31",
+   "doi": "10.2307/710075",
+   "title": "Empedocles fr. 35. 14-15",
+   "author": "Denis O'Brien"
+  },
+  {
+   "book": "",
+   "page": 976,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1937",
+   "iid": "fb8fc74c-5e3d-31d1-83e5-dd256600f4f6",
+   "doi": "10.2307/264424",
+   "title": "A Paris Fragment of Codex Bern 207",
+   "author": "Blanche B. Boyer"
+  }
+ ]
+}

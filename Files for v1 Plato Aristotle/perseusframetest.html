@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Perseus framing test — which URL forms embed the passage?</title>
+<style>
+  body{font:15px/1.5 system-ui,sans-serif;margin:0;padding:24px;background:#f4f5f8;color:#1c2230}
+  h1{font-size:20px;margin:0 0 6px}
+  .lede{max-width:70ch;color:#4a4f5e;margin:0 0 20px}
+  .lede b{color:#1c2230}
+  .grid{display:grid;grid-template-columns:1fr;gap:22px;max-width:1000px}
+  .test{background:#fff;border:1px solid #d7dced;border-radius:10px;overflow:hidden;
+    box-shadow:0 1px 3px rgba(0,0,0,.05)}
+  .cap{padding:10px 14px;border-bottom:1px solid #eef1fa}
+  .cap .tag{display:inline-block;font-weight:700;color:#5a5497;margin-right:8px}
+  .cap .what{font-weight:600}
+  .cap .url{font-family:ui-monospace,Menlo,monospace;font-size:11.5px;color:#5b6478;
+    word-break:break-all;display:block;margin-top:3px}
+  iframe{width:100%;height:420px;border:0;display:block;background:#fbfcfe}
+  .note{max-width:70ch;margin:22px 0 0;padding:14px 16px;background:#fff;
+    border:1px solid #d7dced;border-radius:10px}
+  .note b{color:#5a5497}
+  code{background:#eef1fa;padding:1px 5px;border-radius:4px;font-size:13px}
+</style>
+</head>
+<body>
+  <h1>Perseus framing test — <em>Plato, Laws</em> 11.918</h1>
+  <p class="lede">Each box below frames the <b>same passage</b> through a different
+  Perseus URL. Note which ones actually show the <b>Greek/English text of Laws 918</b>
+  (not a search box, not "no results", not a blank box). The winner — if any — is the
+  URL form the site should use. If <b>C, D, or E</b> shows the passage, the in-page
+  embed is fixable and worth building. If only <b>A</b> shows anything (a search page)
+  and <b>B–E</b> are blank, Perseus is blocking passage framing and a link-out is the
+  honest call. Screenshot the row of results, or just tell me which letters rendered
+  the passage.</p>
+
+  <div class="grid">
+    <div class="test">
+      <div class="cap"><span class="tag">A</span><span class="what">searchresults — what the site uses now (a search page, not the passage)</span>
+        <span class="url">https://www.perseus.tufts.edu/hopper/searchresults?q=Plat.%20Laws%2011.918</span></div>
+      <iframe src="https://www.perseus.tufts.edu/hopper/searchresults?q=Plat.%20Laws%2011.918"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <div class="test">
+      <div class="cap"><span class="tag">B</span><span class="what">text page (English doc, .0166) — the full chrome reading view</span>
+        <span class="url">https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0166:book=11:page=918</span></div>
+      <iframe src="https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0166:book=11:page=918"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <div class="test">
+      <div class="cap"><span class="tag">C</span><span class="what">loadquery (English doc, .0166) — the bare-text endpoint from the deferred plan</span>
+        <span class="url">https://www.perseus.tufts.edu/hopper/loadquery?query=Perseus:text:1999.01.0166:book=11:page=918</span></div>
+      <iframe src="https://www.perseus.tufts.edu/hopper/loadquery?query=Perseus:text:1999.01.0166:book=11:page=918"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <div class="test">
+      <div class="cap"><span class="tag">D</span><span class="what">loadquery (Greek doc, .0165)</span>
+        <span class="url">https://www.perseus.tufts.edu/hopper/loadquery?query=Perseus:text:1999.01.0165:book=11:page=918</span></div>
+      <iframe src="https://www.perseus.tufts.edu/hopper/loadquery?query=Perseus:text:1999.01.0165:book=11:page=918"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <div class="test">
+      <div class="cap"><span class="tag">E</span><span class="what">text page (Greek doc, .0165)</span>
+        <span class="url">https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0165:book=11:page=918</span></div>
+      <iframe src="https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0165:book=11:page=918"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+
+  <div class="note">
+    <p><b>If any of B–E shows the passage text</b>, the embed is fixable — reply with
+    which letter(s), and I'll switch the frame to that URL form. Note that the
+    doc-ID forms (B–E) need a per-work ID table (Republic is <code>1999.01.0168</code>,
+    Laws is <code>0165</code>/<code>0166</code>), so confirming they frame is what
+    decides whether that table is worth building.</p>
+    <p><b>Cross-check (optional but decisive):</b> open your browser's DevTools →
+    Network tab, reload, click the <code>text?doc=…</code> request, and look at the
+    Response Headers for <code>x-frame-options</code> or a
+    <code>content-security-policy: frame-ancestors …</code>. If those are present on
+    the text page but absent on <code>loadquery</code>, that confirms loadquery is the
+    way in.</p>
+  </div>
+</body>
+</html>

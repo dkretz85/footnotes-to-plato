@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Footnotes to Plato — which works get attention</title>
+<link rel="stylesheet" href="filterbar.css">
+<link rel="stylesheet" href="series.css">
+<style>
+  :root{
+    --paper:#f1f0fb; --ink:#1c2230; --ink-soft:#5b6478; --rule:#ddd9ee;
+    --lav:#8b86c9; --lav-deep:#5a5497;
+    /* Plato = indigo family */
+    --p-floor:#5a5497; --p-band:#8f8ad0; --p-fade:#c4c0e8;
+    /* Aristotle = brighter green-teal family */
+    --a-floor:#1f9e8a; --a-band:#5fc4ac; --a-fade:#b6e6d6;
+    --uncertain:#b06a3a; --uncertain-soft:#e7d3c4;
+    --shadow:0 1px 2px rgba(28,34,48,.06),0 4px 16px rgba(28,34,48,.06);
+    --serif:"Iowan Old Style","Palatino Linotype",Palatino,"Book Antiqua",Georgia,serif;
+    --sans:"Inter","Helvetica Neue",Arial,system-ui,sans-serif;
+    --mono:"SF Mono",ui-monospace,"Cascadia Mono",Menlo,Consolas,monospace;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0}
+  body{background:var(--paper); color:var(--ink); font-family:var(--sans); line-height:1.5;
+    -webkit-font-smoothing:antialiased;}
+  .wrap{max-width:1060px; margin:0 auto; padding:32px 28px 96px}
+
+  header.mast{border-bottom:2px solid var(--ink); padding-bottom:14px; margin-bottom:8px}
+  .mast .kicker{font-family:var(--mono); font-size:11px; letter-spacing:.18em; text-transform:uppercase;
+    color:var(--lav-deep); margin-bottom:6px;}
+  .mast h1{font-family:var(--serif); font-weight:600; font-size:44px; letter-spacing:.01em; margin:0 0 3px}
+  .mast .sub{font-family:var(--serif); font-style:italic; color:var(--ink-soft); font-size:15px}
+
+  .intro{font-size:14px; color:var(--ink-soft); max-width:76ch; margin:18px 0 6px}
+
+  /* segmented controls used by the time-series panel */
+  .seg{display:inline-flex; border:1px solid var(--rule); border-radius:7px; overflow:hidden;
+    box-shadow:var(--shadow); background:#fff}
+  .seg button{font-family:var(--sans); font-size:12.5px; color:var(--ink); background:#fff;
+    border:0; padding:5px 11px; cursor:pointer}
+  .seg button + button{border-left:1px solid var(--rule)}
+  .seg button[aria-pressed="true"]{background:var(--lav); color:#fff}
+
+  @media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="mast">
+    <div class="kicker" data-copy="site.kicker"></div>
+    <h1 data-copy="view_a.heading"></h1>
+    <div class="sub" data-copy="view_a.subtitle"></div>
+  </header>
+
+  <div id="filterbar"></div>
+
+  <section class="sc" id="sc">
+    <div class="sc-head">
+      <h2>Attention over time</h2>
+      <div class="seg" id="scMode">
+        <button data-mode="works" aria-pressed="true">Compare works</button>
+        <button data-mode="field" aria-pressed="false">Philosophy vs classics</button>
+      </div>
+    </div>
+
+    <div class="sc-controls" id="scWorksCtl">
+      <div class="sc-picker">
+        <label id="scPickerLabel">Add a work or group</label>
+        <select id="scAdd"><option value="">Choose…</option></select>
+      </div>
+      <div class="sc-chips" id="scChips"></div>
+    </div>
+
+    <div class="sc-opts">
+      <div class="seg" id="scScale">
+        <button data-share="0" aria-pressed="true">Counts</button>
+        <button data-share="1" aria-pressed="false">Share of year</button>
+      </div>
+      <div class="seg" id="scSmooth">
+        <button data-w="1" aria-pressed="true">Raw</button>
+        <button data-w="5" aria-pressed="false">5-yr average</button>
+        <button data-w="11" aria-pressed="false">11-yr average</button>
+      </div>
+    </div>
+
+    <div class="sc-warn" id="scWarn" style="display:none"></div>
+    <div class="sc-scope" id="scScope" style="display:none"></div>
+    <div class="sc-legend" id="scLegend"></div>
+    <div class="sc-chart" id="scChart"></div>
+    <div class="sc-foot" id="scFoot"></div>
+  </section>
+</div>
+
+<script src="filterbar.js"></script>
+<script src="series.js"></script>
+<script>
+const $ = s=>document.querySelector(s);
+// Where the generated JSON lives, RELATIVE TO THIS HTML FILE.
+// Repo layout is: view_a.html at root, data in viewer_data/.
+// build_site.py rewrites this to "/data/viewer/" when it publishes the page.
+// Must end with a slash when non-empty.
+const DATA_DIR = "viewer_data/";
+
+let DATA=null, FILTER=null, WGROUPS=null;
+
+// ---- externalised prose ---------------------------------------------------
+// NB: the time-series panel's warnings are still authored inline below.
+// Externalising them into copy.json is a deferred follow-up.
+let COPY=null;
+function t(path, vars){
+  let v = path.split(".").reduce((o,k)=>(o||{})[k], COPY);
+  if(typeof v!=="string") return "";
+  if(vars) for(const k in vars) v = v.split("{"+k+"}").join(vars[k]);
+  return v;
+}
+function applyCopy(){
+  for(const el of document.querySelectorAll("[data-copy]")){
+    const v=t(el.dataset.copy);
+    if(v){ if(/_html$/.test(el.dataset.copy)) el.innerHTML=v; else el.textContent=v; }
+  }
+  document.title = t("view_a.page_title") || document.title;
+}
+function fatal(msg){
+  document.body.innerHTML =
+    '<div style="max-width:44ch;margin:18vh auto;font:15px/1.55 system-ui;color:#5b6478">'+
+    '<b style="color:#b06a3a">Could not start.</b><br>'+msg+'</div>';
+}
+
+/* ---- data + filtering -----------------------------------------------------
+   `view_a.json` gives per-work floor data (the confident placed-citation count)
+   used to label and rank the series. The time series itself is driven by the
+   sparse matrix in `view_a_filter.json` (work -> journal -> year -> n), fetched
+   lazily because it is ~430 KB; until it lands the chart shows a loading state. */
+let _rz;
+window.addEventListener("resize", ()=>{
+  clearTimeout(_rz);
+  _rz=setTimeout(()=>{ if(FILTER) scRender(); },150);
+});
+
+Promise.all([
+  fetch(DATA_DIR+'copy.json').then(r=>{ if(!r.ok) throw new Error("copy.json HTTP "+r.status); return r.json(); }),
+  fetch(DATA_DIR+'view_a.json').then(r=>{ if(!r.ok) throw new Error("view_a.json HTTP "+r.status); return r.json(); })
+]).then(([c,d])=>{
+  COPY=c; DATA=d;
+  applyCopy();
+  mountFilter();
+}).catch(err=>{
+  console.error(err);
+  fatal(String(err).indexOf("copy.json")>=0
+    ? "The text file <code>copy.json</code> could not be loaded or is not valid JSON. "+
+      "If you just edited it, check for a stray comma or quote."
+    : "The data file <code>view_a.json</code> could not be loaded.");
+});
+
+function mountFilter(){
+  Promise.all([
+    fetch(DATA_DIR+'meta.json').then(r=>r.json()),
+    fetch(DATA_DIR+'journal_groups.json').then(r=>r.json()).catch(()=>null)
+  ]).then(([meta, groups])=>{
+    FilterBar.mount($("#filterbar"), meta, ()=>{ scRender(); }, groups);
+    // the heavy matrix arrives after the first paint
+    Promise.all([
+      fetch(DATA_DIR+'view_a_filter.json').then(r=>r.json()),
+      fetch(DATA_DIR+'work_groups.json').then(r=>r.json()).catch(()=>null)
+    ]).then(([m,wg])=>{
+      FILTER=m; WGROUPS=wg; scInit();
+    }).catch(e=>{
+      console.warn("view_a_filter.json unavailable", e);
+      $("#scChart").innerHTML =
+        `<div class="sc-empty">Time-series data (view_a_filter.json) could not be `+
+        `loaded. Re-run build_viewer_data.py to generate it.</div>`;
+    });
+  }).catch(e=>{
+    console.warn("meta.json unavailable — filter bar disabled", e);
+    $("#filterbar").innerHTML =
+      `<div class="fb-note">Filter unavailable: meta.json could not be loaded.</div>`;
+  });
+}
+
+/* ===== series comparison =================================================
+   Time-series panel — the whole of this page. Uses series.js (Series.*) and the
+   view_a_filter.json matrix; the metric is always the citation floor (placed
+   citations, which are the only ones with a year). Prose here is authored
+   inline, pending the copy.json prose pass.                                   */
+let SC_SEL=[], SC_MODE="works", SC_SHARE=false, SC_SMOOTH=1;
+const SC_METRIC="count";
+
+function scInit(){
+  if(!window.Series){
+    // series.js missing: hide the panel rather than throwing and taking the
+    // bar chart down with it
+    const el=$("#sc"); if(el) el.style.display="none";
+    console.warn("series.js not loaded — time-series panel disabled");
+    return;
+  }
+  const sel=$("#scAdd");
+  // groups first (they're the interesting selections), then individual works
+  if(WGROUPS){
+    const og=document.createElement("optgroup"); og.label="Groups";
+    for(const k in WGROUPS.groups){
+      const g=WGROUPS.groups[k];
+      const o=document.createElement("option");
+      o.value="g:"+k;
+      o.textContent=g.label + (g.basis==="contested" ? "  ⚠ contested" : "");
+      og.appendChild(o);
+    }
+    sel.appendChild(og);
+  }
+  const ow=document.createElement("optgroup"); ow.label="Works";
+  for(const w of DATA.map(d=>d.work).sort()){
+    const o=document.createElement("option");
+    o.value="w:"+w; o.textContent=w.replace(/_/g," ");
+    ow.appendChild(o);
+  }
+  sel.appendChild(ow);
+
+  sel.addEventListener("change",()=>{
+    if(!sel.value) return;
+    if(SC_SEL.length>=6){ sel.value=""; return; }   // palette + legibility cap
+    if(!SC_SEL.includes(sel.value)) SC_SEL.push(sel.value);
+    sel.value="";
+    scRender();
+  });
+  $("#scMode").addEventListener("click",e=>{
+    if(!e.target.dataset.mode) return;
+    SC_MODE=e.target.dataset.mode;
+    for(const b of $("#scMode").children) b.setAttribute("aria-pressed", b.dataset.mode===SC_MODE);
+    scRender();
+  });
+  $("#scScale").addEventListener("click",e=>{
+    if(!e.target.dataset.share) return;
+    SC_SHARE=e.target.dataset.share==="1";
+    for(const b of $("#scScale").children) b.setAttribute("aria-pressed",(b.dataset.share==="1")===SC_SHARE);
+    scRender();
+  });
+  $("#scSmooth").addEventListener("click",e=>{
+    if(!e.target.dataset.w) return;
+    SC_SMOOTH=+e.target.dataset.w;
+    for(const b of $("#scSmooth").children) b.setAttribute("aria-pressed",+b.dataset.w===SC_SMOOTH);
+    scRender();
+  });
+
+  // a default that shows the feature working without asserting a thesis
+  SC_SEL=["w:Republic","w:Nicomachean_Ethics"];
+  scRender();
+}
+
+function scResolve(token){
+  if(token.startsWith("w:")) {
+    const w=token.slice(2);
+    return {label:w.replace(/_/g," "), works:[w], basis:"work"};
+  }
+  const k=token.slice(2), g=WGROUPS && WGROUPS.groups[k];
+  if(!g) return null;
+  return {label:g.label, works:g.works, basis:g.basis, note:g.note};
+}
+
+function scRender(){
+  if(!window.Series) return;
+  // The picker stays visible in BOTH modes — hiding it in field mode was the
+  // real reason the scope became invisible. Set the label here rather than in
+  // the click handler so init and programmatic mode changes stay in sync.
+  $("#scPickerLabel").textContent = SC_MODE==="field"
+    ? "Restrict to work or group (optional)"
+    : "Add a work or group";
+  const host=$("#scChart");
+  if(!FILTER){ host.innerHTML=`<div class="sc-empty">Loading time-series data…</div>`; return; }
+  const st = window.FilterBar ? FilterBar.state : null;
+  const opts = {metric:SC_METRIC, journals:st?st.journals:null,
+                y0:st?st.y0:null, y1:st?st.y1:null};
+
+  let lines=[], warn=[], footNotes=[], scopeBanner=null;
+
+  if(SC_MODE==="field"){
+    // one set of works (everything currently selected, or the whole corpus),
+    // split by journal field — this is View B's comparison at corpus scale
+    const G = window.FilterBar && FilterBar._groups;
+    if(!G){ host.innerHTML=`<div class="sc-empty">No journal grouping available.</div>`; return; }
+    const sel = SC_SEL.length ? SC_SEL : null;
+    const works = sel
+      ? [...new Set(sel.flatMap(t=>{const r=scResolve(t); return r?r.works:[];}))]
+      : DATA.map(d=>d.work);
+    const scope = sel ? SC_SEL.map(t=>scResolve(t).label).join(" + ") : "the whole corpus";
+    /* Scope is the single most misreadable thing on this chart: the lines say
+       "Philosophy" and "Classics" but they are always ABOUT some set of works,
+       and if that set is still Republic+Laws from the previous mode the reader
+       will happily interpret the curves as a claim about the whole corpus.
+       So it goes in a banner above the chart, not a clause in the footnote. */
+    scopeBanner = sel
+      ? `Comparing how philosophy and classics journals cite <b>${scope}</b>.`
+      : `Comparing philosophy and classics journals across <b>the whole corpus</b>
+         — add a work or group above to narrow it.`;
+    let i=0;
+    for(const k in G.groups){
+      const grp=G.groups[k];
+      const jset=new Set(grp.journals.filter(j=>!st || st.journals.has(j)));
+      const s=Series.seriesFor(FILTER, works, Object.assign({},opts,{journals:jset}));
+      lines.push({label:grp.label, color:Series.COLORS[i++], series:s, _jset:jset});
+    }
+    if(!SC_SHARE){
+      warn.push(`These journals differ in size — philosophy journals carry about
+        1.5× the citations of the classics ones — so on raw counts the philosophy
+        line sits higher almost everywhere regardless of interest.
+        <b>Switch to “Share of year”</b> to compare where each field aims its attention.`);
+    } else if(!sel){
+      // Whole corpus / own-field denominator = 1.0 everywhere, by definition.
+      // Two flat lines at 100% tell the reader nothing, so say what to do.
+      warn.push(`Share mode divides each field by <b>its own</b> output, so with the
+        whole corpus selected both lines are flat at 100% by definition. Add a work
+        or group above to see what share of each field's attention it commands.`);
+    }
+  } else {
+    if(!SC_SEL.length){
+      host.innerHTML=`<div class="sc-empty">Add a work or group above to plot it.</div>`;
+      $("#scFoot").innerHTML=""; $("#scWarn").style.display="none"; return;
+    }
+    let i=0;
+    for(const tok of SC_SEL){
+      const r=scResolve(tok); if(!r) continue;
+      const s=Series.seriesFor(FILTER, r.works, opts);
+      lines.push({label:r.label, color:Series.COLORS[i++], series:s});
+      // Contested groupings (developmentalist chronology, theoretical/practical)
+      // carry a "⚠ contested" tag in the picker, which is enough for a scholarly
+      // audience; the fuller discussion lives on the methods page rather than in
+      // a warning box on the chart. (See the "grouping schemes" methods section.)
+      if(r.works.length>1) footNotes.push(`${r.label}: ${r.works.length} works.`);
+    }
+  }
+
+  // share mode: divide by total corpus activity that year
+  if(SC_SHARE){
+    const denom = Series.corpusByYear(FILTER, opts);
+    for(const L of lines){
+      const out={};
+      for(const y in L.series){
+        const d = SC_MODE==="field" && L._jset
+          ? Series.corpusByYear(FILTER, Object.assign({},opts,{journals:L._jset}))[y]
+          : denom[y];
+        if(d) out[y]=L.series[y]/d;
+      }
+      L.series=out;
+    }
+  }
+  if(SC_SMOOTH>1) for(const L of lines) L.series=Series.smooth(L.series,SC_SMOOTH);
+
+  Series.render(host, lines, {metric:SC_METRIC, share:SC_SHARE,
+                              y0:opts.y0, y1:opts.y1});
+
+  // legend lives OUTSIDE the chart container: the SVG is overflow:visible so a
+  // tall first data point used to ride up into the chips.
+  const leg=$("#scLegend"); leg.innerHTML="";
+  for(const L of lines){
+    const chip=document.createElement("span");
+    chip.className="sc-lchip";
+    const swatch = `<i style="background:${L.color}"></i>`;
+    chip.innerHTML = swatch + L.label;
+    if(SC_MODE==="works"){
+      const tok=SC_SEL[lines.indexOf(L)];
+      const x=document.createElement("button"); x.className="sc-x"; x.textContent="×";
+      x.title="remove"; x.addEventListener("click",()=>{
+        SC_SEL=SC_SEL.filter(t=>t!==tok); scRender();
+      });
+      chip.appendChild(x);
+    }
+    leg.appendChild(chip);
+  }
+  // In field mode the legend names the two FIELDS, so the works in scope need
+  // their own removable chips — otherwise a stale scope can only be seen, not
+  // undone.
+  if(SC_MODE==="field" && SC_SEL.length){
+    const sep=document.createElement("span"); sep.className="sc-lsep";
+    sep.textContent="scope:"; leg.appendChild(sep);
+    for(const tok of SC_SEL.slice()){
+      const r=scResolve(tok); if(!r) continue;
+      const chip=document.createElement("span"); chip.className="sc-lchip scope";
+      chip.textContent=r.label;
+      const x=document.createElement("button"); x.className="sc-x"; x.textContent="×";
+      x.title="remove from scope";
+      x.addEventListener("click",()=>{ SC_SEL=SC_SEL.filter(t=>t!==tok); scRender(); });
+      chip.appendChild(x);
+      leg.appendChild(chip);
+    }
+  }
+
+  const scEl=$("#scScope");
+  if(scopeBanner){ scEl.style.display=""; scEl.innerHTML=scopeBanner; }
+  else scEl.style.display="none";
+
+  const wEl=$("#scWarn");
+  if(warn.length){ wEl.style.display=""; wEl.innerHTML=warn.map(w=>`<div>${w}</div>`).join(""); }
+  else wEl.style.display="none";
+
+  const foot=[];
+  foot.push(`Floor only: these curves count citations we could place with
+    confidence. Unplaceable citations have no year and are absent here entirely.`);
+  foot.push(`A low line can mean a work is cited on colliding pages we could not
+    place — <b>not</b> that it is little studied. The home chart's fade shows how
+    much each work loses this way.`);
+  if(SC_SMOOTH>1) foot.push(`<b>Smoothed</b> with a ${SC_SMOOTH}-year centred average —
+    the underlying yearly values are noisier, especially before 1950 when the
+    corpus is thin.`);
+  if(SC_SHARE) foot.push(`Share mode divides by all placed citations that year,
+    so a flat line means a work held its ground as the literature grew.`);
+  foot.push(...footNotes);
+  $("#scFoot").innerHTML=foot.join(" ");
+}
+</script>
+</body>
+</html>

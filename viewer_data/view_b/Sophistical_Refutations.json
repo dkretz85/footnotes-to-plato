@@ -1,276 +1,432 @@
 {
  "work": "Sophistical_Refutations",
  "faceted": false,
+ "system": "stephanus",
  "tier": "uncertain",
  "cells": [
   {
    "book": "",
    "page": 164,
    "section": "a",
-   "count": 1,
-   "articles": 1,
+   "band": 0,
+   "count": 8,
+   "articles": 7,
    "by_journal": {
-    "Revue de Philosophie Ancienne": 1
+    "Revue de Philosophie Ancienne": 1,
+    "Hermes": 3,
+    "Novum Testamentum": 1,
+    "Mnemosyne": 1,
+    "Vigiliae Christianae": 1,
+    "Recherches de théologie ancienne et médiévale": 1
    }
   },
   {
    "book": "",
    "page": 164,
    "section": "b",
-   "count": 6,
-   "articles": 4,
+   "band": 0,
+   "count": 9,
+   "articles": 6,
    "by_journal": {
     "The Classical Review": 1,
-    "The Classical Quarterly": 2,
+    "The Classical Quarterly": 3,
     "Les Études philosophiques": 1,
-    "Méthexis": 2
+    "Méthexis": 2,
+    "Recherches de théologie et philosophie médiévales": 1,
+    "Rheinisches Museum für Philologie": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 164,
+   "section": "e",
+   "band": 0,
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Rheinisches Museum für Philologie": 1,
+    "Mnemosyne": 1
    }
   },
   {
    "book": "",
    "page": 165,
    "section": "a",
-   "count": 17,
-   "articles": 15,
+   "band": 0,
+   "count": 26,
+   "articles": 22,
    "by_journal": {
     "Phronesis": 6,
     "Méthexis": 4,
     "Revue de Philosophie Ancienne": 3,
     "The Classical Quarterly": 3,
-    "Revue Internationale de Philosophie": 1
+    "Revue Internationale de Philosophie": 1,
+    "Quaderni Urbinati di Cultura Classica": 1,
+    "Rheinisches Museum für Philologie": 2,
+    "Journal of Biblical Literature": 1,
+    "Hermes": 2,
+    "Revue de Théologie et de Philosophie": 1,
+    "Recherches de théologie ancienne et médiévale": 2
    }
   },
   {
    "book": "",
    "page": 165,
    "section": "b",
-   "count": 18,
-   "articles": 13,
+   "band": 0,
+   "count": 30,
+   "articles": 19,
    "by_journal": {
     "Revue de Philosophie Ancienne": 2,
+    "Phronesis": 3,
     "History of Philosophy Quarterly": 2,
-    "The Classical Quarterly": 3,
+    "The Classical Quarterly": 6,
     "Méthexis": 6,
-    "Phronesis": 2,
-    "Classical Philology": 3
+    "Classical Philology": 3,
+    "Novum Testamentum": 1,
+    "Rheinisches Museum für Philologie": 3,
+    "Recherches de théologie ancienne et médiévale": 2,
+    "Hermes": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 165,
+   "section": "d",
+   "band": 0,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Phronesis": 1
    }
   },
   {
    "book": "",
    "page": 166,
    "section": "a",
-   "count": 15,
-   "articles": 7,
+   "band": 0,
+   "count": 24,
+   "articles": 10,
    "by_journal": {
+    "The Classical Quarterly": 3,
     "The Classical Review": 1,
     "History of Philosophy Quarterly": 2,
-    "Méthexis": 9,
+    "Méthexis": 11,
     "Phronesis": 2,
-    "Archivio di Filosofia": 1
+    "Archivio di Filosofia": 1,
+    "Harvard Studies in Classical Philology": 3,
+    "Novum Testamentum": 1
    }
   },
   {
    "book": "",
    "page": 166,
    "section": "b",
-   "count": 6,
-   "articles": 5,
+   "band": 0,
+   "count": 11,
+   "articles": 8,
    "by_journal": {
     "The Classical Quarterly": 1,
     "Phronesis": 3,
     "Revue de Philosophie Ancienne": 1,
-    "Archivio di Filosofia": 1
+    "Archivio di Filosofia": 1,
+    "Méthexis": 3,
+    "Rheinisches Museum für Philologie": 2
    }
   },
   {
    "book": "",
    "page": 167,
    "section": "a",
-   "count": 6,
-   "articles": 6,
+   "band": 0,
+   "count": 10,
+   "articles": 10,
    "by_journal": {
     "Phronesis": 1,
-    "Méthexis": 4,
-    "Revue de Philosophie Ancienne": 1
+    "Méthexis": 5,
+    "Revue de Philosophie Ancienne": 1,
+    "Church History": 1,
+    "Rheinisches Museum für Philologie": 1,
+    "Mnemosyne": 1
    }
   },
   {
    "book": "",
    "page": 167,
    "section": "b",
-   "count": 1,
-   "articles": 1,
+   "band": 0,
+   "count": 10,
+   "articles": 6,
    "by_journal": {
-    "Revue de Philosophie Ancienne": 1
+    "Revue de Philosophie Ancienne": 1,
+    "Hermes": 3,
+    "Rheinisches Museum für Philologie": 1,
+    "The American Journal of Philology": 2,
+    "Mnemosyne": 1,
+    "Recherches de théologie ancienne et médiévale": 2
    }
   },
   {
    "book": "",
    "page": 168,
    "section": "a",
-   "count": 5,
-   "articles": 5,
+   "band": 0,
+   "count": 7,
+   "articles": 6,
    "by_journal": {
     "Classical Philology": 1,
     "The Classical Quarterly": 2,
-    "Méthexis": 2
+    "Méthexis": 2,
+    "Vigiliae Christianae": 2
    }
   },
   {
    "book": "",
    "page": 168,
    "section": "b",
-   "count": 2,
-   "articles": 2,
+   "band": 0,
+   "count": 5,
+   "articles": 5,
    "by_journal": {
     "Revue Internationale de Philosophie": 1,
-    "Classical Philology": 1
+    "Classical Philology": 1,
+    "Quaderni Urbinati di Cultura Classica": 2,
+    "Vigiliae Christianae": 1
    }
   },
   {
    "book": "",
    "page": 169,
    "section": "a",
-   "count": 3,
-   "articles": 3,
+   "band": 0,
+   "count": 6,
+   "articles": 5,
    "by_journal": {
     "Revue de Philosophie Ancienne": 1,
     "Revue Internationale de Philosophie": 1,
-    "Méthexis": 1
+    "Méthexis": 2,
+    "Mnemosyne": 1,
+    "The American Journal of Philology": 1
    }
   },
   {
    "book": "",
    "page": 169,
    "section": "b",
-   "count": 5,
-   "articles": 4,
+   "band": 0,
+   "count": 14,
+   "articles": 11,
    "by_journal": {
     "History of Philosophy Quarterly": 1,
     "The Classical Quarterly": 1,
-    "Méthexis": 2,
-    "Revue de Philosophie Ancienne": 1
+    "Méthexis": 4,
+    "Revue de Philosophie Ancienne": 1,
+    "Harvard Studies in Classical Philology": 2,
+    "Mnemosyne": 2,
+    "Hermes": 2,
+    "Vigiliae Christianae": 1
    }
   },
   {
    "book": "",
-   "page": 170,
-   "section": "a",
-   "count": 2,
-   "articles": 2,
-   "by_journal": {
-    "Méthexis": 1,
-    "The Classical Quarterly": 1
-   }
-  },
-  {
-   "book": "",
-   "page": 170,
-   "section": "b",
-   "count": 15,
-   "articles": 5,
-   "by_journal": {
-    "The Classical Quarterly": 3,
-    "Méthexis": 12
-   }
-  },
-  {
-   "book": "",
-   "page": 171,
-   "section": "a",
+   "page": 169,
+   "section": "e",
+   "band": 0,
    "count": 1,
    "articles": 1,
    "by_journal": {
-    "Méthexis": 1
+    "Mnemosyne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 170,
+   "section": "a",
+   "band": 0,
+   "count": 4,
+   "articles": 4,
+   "by_journal": {
+    "Méthexis": 1,
+    "The Classical Quarterly": 1,
+    "Mnemosyne": 1,
+    "Recherches de théologie ancienne et médiévale": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 170,
+   "section": "b",
+   "band": 0,
+   "count": 18,
+   "articles": 8,
+   "by_journal": {
+    "The Classical Quarterly": 3,
+    "Méthexis": 12,
+    "Recherches de théologie et philosophie médiévales": 1,
+    "Recherches de théologie ancienne et médiévale": 1,
+    "Quaderni Urbinati di Cultura Classica": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 171,
+   "section": "a",
+   "band": 0,
+   "count": 4,
+   "articles": 4,
+   "by_journal": {
+    "Méthexis": 1,
+    "Mnemosyne": 1,
+    "Classical Antiquity": 1,
+    "Quaderni Urbinati di Cultura Classica": 1
    }
   },
   {
    "book": "",
    "page": 171,
    "section": "b",
-   "count": 4,
-   "articles": 3,
+   "band": 0,
+   "count": 6,
+   "articles": 5,
    "by_journal": {
+    "Méthexis": 3,
     "History of Philosophy Quarterly": 1,
     "Phronesis": 1,
-    "Méthexis": 2
+    "Recherches de théologie et philosophie médiévales": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 171,
+   "section": "d",
+   "band": 0,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Mnemosyne": 1
    }
   },
   {
    "book": "",
    "page": 172,
    "section": "a",
-   "count": 9,
-   "articles": 7,
+   "band": 0,
+   "count": 16,
+   "articles": 12,
    "by_journal": {
     "History of Philosophy Quarterly": 1,
     "Les Études philosophiques": 2,
     "Phronesis": 2,
-    "Méthexis": 4
+    "Méthexis": 4,
+    "Transactions of the American Philological Association (1974-2014)": 3,
+    "Hermes": 3,
+    "Vigiliae Christianae": 1
    }
   },
   {
    "book": "",
    "page": 172,
    "section": "b",
-   "count": 9,
-   "articles": 5,
+   "band": 0,
+   "count": 19,
+   "articles": 11,
    "by_journal": {
     "Phronesis": 1,
-    "Méthexis": 3,
-    "Revue de Philosophie Ancienne": 5
+    "Méthexis": 2,
+    "Revue de Philosophie Ancienne": 5,
+    "Vigiliae Christianae": 3,
+    "Zeitschrift für katholische Theologie": 2,
+    "Novum Testamentum": 2,
+    "Transactions of the American Philological Association (1974-2014)": 1,
+    "The American Journal of Philology": 1,
+    "Harvard Studies in Classical Philology": 1,
+    "Recherches de théologie ancienne et médiévale": 1
    }
   },
   {
    "book": "",
    "page": 173,
    "section": "a",
-   "count": 8,
-   "articles": 6,
+   "band": 0,
+   "count": 11,
+   "articles": 8,
    "by_journal": {
-    "Revue de Philosophie Ancienne": 4,
+    "Revue de Philosophie Ancienne": 3,
     "The Classical Quarterly": 1,
-    "Méthexis": 3
+    "Méthexis": 1,
+    "Vigiliae Christianae": 2,
+    "Novum Testamentum": 2,
+    "Mnemosyne": 1,
+    "The Classical World": 1
    }
   },
   {
    "book": "",
    "page": 173,
    "section": "b",
-   "count": 13,
-   "articles": 2,
+   "band": 0,
+   "count": 14,
+   "articles": 3,
    "by_journal": {
     "Méthexis": 12,
-    "Phronesis": 1
+    "Phronesis": 1,
+    "Mnemosyne": 1
    }
   },
   {
    "book": "",
    "page": 174,
    "section": "a",
-   "count": 5,
-   "articles": 4,
+   "band": 0,
+   "count": 6,
+   "articles": 5,
    "by_journal": {
     "The Classical Quarterly": 1,
     "Revue de Philosophie Ancienne": 2,
     "Phronesis": 1,
-    "Méthexis": 1
+    "Rheinisches Museum für Philologie": 1,
+    "Mnemosyne": 1
    }
   },
   {
    "book": "",
    "page": 174,
    "section": "b",
-   "count": 2,
+   "band": 0,
+   "count": 4,
+   "articles": 2,
+   "by_journal": {
+    "Méthexis": 2,
+    "Novum Testamentum": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 174,
+   "section": "c",
+   "band": 0,
+   "count": 1,
    "articles": 1,
    "by_journal": {
-    "Méthexis": 2
+    "Recherches de théologie ancienne et médiévale": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 174,
+   "section": "d",
+   "band": 0,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Mnemosyne": 1
    }
   },
   {
    "book": "",
    "page": 175,
    "section": "a",
+   "band": 0,
    "count": 4,
    "articles": 2,
    "by_journal": {
@@ -282,31 +438,49 @@
    "book": "",
    "page": 175,
    "section": "b",
-   "count": 4,
-   "articles": 4,
+   "band": 0,
+   "count": 8,
+   "articles": 6,
    "by_journal": {
-    "Revue de Philosophie Ancienne": 1,
     "The Classical Quarterly": 1,
     "Les Études philosophiques": 1,
-    "Phronesis": 1
+    "Phronesis": 1,
+    "Recherches de théologie ancienne et médiévale": 1,
+    "The Harvard Theological Review": 3,
+    "The American Journal of Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 176,
+   "section": "a",
+   "band": 0,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Harvard Theological Review": 1
    }
   },
   {
    "book": "",
    "page": 176,
    "section": "b",
-   "count": 5,
-   "articles": 4,
+   "band": 0,
+   "count": 8,
+   "articles": 6,
    "by_journal": {
     "The Classical Quarterly": 1,
     "Phronesis": 1,
-    "Méthexis": 3
+    "Méthexis": 3,
+    "Vigiliae Christianae": 1,
+    "Mnemosyne": 2
    }
   },
   {
    "book": "",
    "page": 177,
    "section": "a",
+   "band": 0,
    "count": 3,
    "articles": 3,
    "by_journal": {
@@ -319,82 +493,122 @@
    "book": "",
    "page": 177,
    "section": "b",
+   "band": 0,
    "count": 6,
    "articles": 6,
    "by_journal": {
     "Méthexis": 3,
-    "Phronesis": 2,
-    "Classical Philology": 1
+    "Phronesis": 1,
+    "Classical Philology": 1,
+    "The American Journal of Philology": 1
    }
   },
   {
    "book": "",
    "page": 178,
    "section": "a",
-   "count": 2,
-   "articles": 2,
+   "band": 0,
+   "count": 3,
+   "articles": 3,
    "by_journal": {
-    "Phronesis": 2
+    "Phronesis": 2,
+    "Mnemosyne": 1
    }
   },
   {
    "book": "",
    "page": 178,
    "section": "b",
-   "count": 3,
-   "articles": 2,
+   "band": 0,
+   "count": 7,
+   "articles": 4,
    "by_journal": {
     "Phronesis": 1,
-    "Les Études philosophiques": 2
+    "Les Études philosophiques": 2,
+    "Recherches de théologie et philosophie médiévales": 3,
+    "Hermes": 1
    }
   },
   {
    "book": "",
    "page": 179,
    "section": "a",
-   "count": 5,
-   "articles": 5,
+   "band": 0,
+   "count": 8,
+   "articles": 8,
    "by_journal": {
     "Phronesis": 3,
     "Revue de Philosophie Ancienne": 1,
-    "History of Philosophy Quarterly": 1
+    "History of Philosophy Quarterly": 1,
+    "The Journal of Religion": 1,
+    "Recherches de théologie et philosophie médiévales": 1,
+    "Neotestamentica": 1
    }
   },
   {
    "book": "",
    "page": 179,
    "section": "b",
-   "count": 8,
-   "articles": 3,
+   "band": 0,
+   "count": 10,
+   "articles": 5,
    "by_journal": {
     "The Classical Quarterly": 7,
-    "Phronesis": 1
+    "Phronesis": 1,
+    "Neotestamentica": 1,
+    "Quaderni Urbinati di Cultura Classica": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 180,
+   "section": "a",
+   "band": 0,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Rheinisches Museum für Philologie": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 180,
+   "section": "b",
+   "band": 0,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The American Journal of Philology": 1
    }
   },
   {
    "book": "",
    "page": 181,
    "section": "b",
-   "count": 11,
-   "articles": 1,
+   "band": 0,
+   "count": 15,
+   "articles": 2,
    "by_journal": {
-    "Méthexis": 11
+    "Méthexis": 11,
+    "Harvard Studies in Classical Philology": 4
    }
   },
   {
    "book": "",
    "page": 182,
    "section": "a",
-   "count": 10,
+   "band": 0,
+   "count": 9,
    "articles": 2,
    "by_journal": {
-    "Méthexis": 10
+    "Méthexis": 9
    }
   },
   {
    "book": "",
    "page": 182,
    "section": "b",
+   "band": 0,
    "count": 1,
    "articles": 1,
    "by_journal": {
@@ -405,35 +619,106 @@
    "book": "",
    "page": 183,
    "section": "a",
-   "count": 6,
-   "articles": 4,
+   "band": 0,
+   "count": 8,
+   "articles": 6,
    "by_journal": {
     "Revue de Philosophie Ancienne": 1,
     "Méthexis": 2,
-    "Phronesis": 3
+    "Phronesis": 3,
+    "The Classical World": 1,
+    "Harvard Studies in Classical Philology": 1
    }
   },
   {
    "book": "",
    "page": 183,
    "section": "b",
-   "count": 5,
-   "articles": 5,
+   "band": 0,
+   "count": 12,
+   "articles": 11,
    "by_journal": {
     "Phronesis": 1,
     "The Classical Quarterly": 2,
     "Méthexis": 1,
-    "Classical Philology": 1
+    "Classical Philology": 1,
+    "Rheinisches Museum für Philologie": 2,
+    "Revue de Théologie et de Philosophie": 1,
+    "Hermes": 1,
+    "Transactions of the American Philological Association (1974-2014)": 1,
+    "The American Journal of Philology": 1,
+    "The Classical World": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 184,
+   "section": "a",
+   "band": 0,
+   "count": 6,
+   "articles": 4,
+   "by_journal": {
+    "Revue de Théologie et de Philosophie": 1,
+    "Rheinisches Museum für Philologie": 3,
+    "The Classical World": 1,
+    "The American Journal of Philology": 1
    }
   },
   {
    "book": "",
    "page": 184,
    "section": "b",
+   "band": 0,
+   "count": 5,
+   "articles": 3,
+   "by_journal": {
+    "Méthexis": 1,
+    "Mnemosyne": 3,
+    "Rheinisches Museum für Philologie": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 185,
+   "section": "a",
+   "band": 0,
+   "count": 3,
+   "articles": 1,
+   "by_journal": {
+    "Mnemosyne": 3
+   }
+  },
+  {
+   "book": "",
+   "page": 185,
+   "section": "b",
+   "band": 0,
+   "count": 3,
+   "articles": 1,
+   "by_journal": {
+    "Mnemosyne": 3
+   }
+  },
+  {
+   "book": "",
+   "page": 186,
+   "section": "a",
+   "band": 0,
+   "count": 3,
+   "articles": 1,
+   "by_journal": {
+    "Mnemosyne": 3
+   }
+  },
+  {
+   "book": "",
+   "page": 186,
+   "section": "b",
+   "band": 0,
    "count": 1,
    "articles": 1,
    "by_journal": {
-    "Méthexis": 1
+    "Mnemosyne": 1
    }
   }
  ],
@@ -464,8 +749,8 @@
   },
   {
    "book": "",
-   "page": 173,
-   "section": "a",
+   "page": 167,
+   "section": "b",
    "line": null,
    "journal": "Revue de Philosophie Ancienne",
    "year": "1993",
@@ -476,8 +761,8 @@
   },
   {
    "book": "",
-   "page": 167,
-   "section": "b",
+   "page": 173,
+   "section": "a",
    "line": null,
    "journal": "Revue de Philosophie Ancienne",
    "year": "1993",
@@ -502,7 +787,19 @@
    "book": "",
    "page": 165,
    "section": "a",
-   "line": 38,
+   "line": 30,
+   "journal": "Phronesis",
+   "year": "2019",
+   "iid": "01d6ef36-5b66-3a92-bf2b-f855e320d57d",
+   "doi": "10.2307/26675270",
+   "title": "Aristotle",
+   "author": "Paolo Crivelli"
+  },
+  {
+   "book": "",
+   "page": 165,
+   "section": "b",
+   "line": null,
    "journal": "Phronesis",
    "year": "2019",
    "iid": "01d6ef36-5b66-3a92-bf2b-f855e320d57d",
@@ -634,7 +931,19 @@
    "book": "",
    "page": 171,
    "section": "a",
-   "line": 38,
+   "line": 30,
+   "journal": "Méthexis",
+   "year": "2000",
+   "iid": "1758e4a8-b43a-3b98-b5fb-376928451431",
+   "doi": "10.2307/43738626",
+   "title": "EL MÉTODO DEL SILOGISMO DIALÉCTICO. A PROPÓSITO DE UNA INTERPRETACIÓN RECIENTE DE LOS \"TÓPICOS\" DE ARISTÓTELES",
+   "author": "GRACIELA M. CHICHI"
+  },
+  {
+   "book": "",
+   "page": 171,
+   "section": "b",
+   "line": null,
    "journal": "Méthexis",
    "year": "2000",
    "iid": "1758e4a8-b43a-3b98-b5fb-376928451431",
@@ -764,18 +1073,6 @@
   },
   {
    "book": "",
-   "page": 175,
-   "section": "b",
-   "line": null,
-   "journal": "Revue de Philosophie Ancienne",
-   "year": "1992",
-   "iid": "37254824-ffe8-36f3-9019-fcfc0946d33d",
-   "doi": "10.2307/24353900",
-   "title": "L'INVOCATION AUX MUSES ET LEUR REPONSE (Platon, \"Rép.\" VIII, 545d - 547c)",
-   "author": "Marcel Meulder"
-  },
-  {
-   "book": "",
    "page": 179,
    "section": "a",
    "line": 37,
@@ -815,6 +1112,66 @@
    "page": 165,
    "section": "b",
    "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2012",
+   "iid": "3e86fc32-240b-3872-846d-f19b886acb80",
+   "doi": "10.2307/23470131",
+   "title": "TERENTIUS ORATOR AN POETA: THE ENDINGS OF \"EUNUCHUS\" AND \"ADELPHOE\"",
+   "author": "BENJAMIN VICTOR"
+  },
+  {
+   "book": "",
+   "page": 165,
+   "section": "b",
+   "line": 15,
+   "journal": "The Classical Quarterly",
+   "year": "2012",
+   "iid": "3e86fc32-240b-3872-846d-f19b886acb80",
+   "doi": "10.2307/23470131",
+   "title": "TERENTIUS ORATOR AN POETA: THE ENDINGS OF \"EUNUCHUS\" AND \"ADELPHOE\"",
+   "author": "BENJAMIN VICTOR"
+  },
+  {
+   "book": "",
+   "page": 165,
+   "section": "b",
+   "line": 30,
+   "journal": "The Classical Quarterly",
+   "year": "2012",
+   "iid": "3e86fc32-240b-3872-846d-f19b886acb80",
+   "doi": "10.2307/23470131",
+   "title": "TERENTIUS ORATOR AN POETA: THE ENDINGS OF \"EUNUCHUS\" AND \"ADELPHOE\"",
+   "author": "BENJAMIN VICTOR"
+  },
+  {
+   "book": "",
+   "page": 166,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2012",
+   "iid": "3e86fc32-240b-3872-846d-f19b886acb80",
+   "doi": "10.2307/23470131",
+   "title": "TERENTIUS ORATOR AN POETA: THE ENDINGS OF \"EUNUCHUS\" AND \"ADELPHOE\"",
+   "author": "BENJAMIN VICTOR"
+  },
+  {
+   "book": "",
+   "page": 166,
+   "section": "a",
+   "line": 15,
+   "journal": "The Classical Quarterly",
+   "year": "2012",
+   "iid": "3e86fc32-240b-3872-846d-f19b886acb80",
+   "doi": "10.2307/23470131",
+   "title": "TERENTIUS ORATOR AN POETA: THE ENDINGS OF \"EUNUCHUS\" AND \"ADELPHOE\"",
+   "author": "BENJAMIN VICTOR"
+  },
+  {
+   "book": "",
+   "page": 166,
+   "section": "a",
+   "line": 30,
    "journal": "The Classical Quarterly",
    "year": "2012",
    "iid": "3e86fc32-240b-3872-846d-f19b886acb80",
@@ -992,30 +1349,6 @@
   },
   {
    "book": "",
-   "page": 177,
-   "section": "b",
-   "line": null,
-   "journal": "Phronesis",
-   "year": "2006",
-   "iid": "51fc977a-54a3-347a-9330-5b72420423e3",
-   "doi": "10.2307/4182799",
-   "title": "Reading the περιτροπή: \"Theaetetus\" 170c-171c",
-   "author": "T. D. J. Chappell"
-  },
-  {
-   "book": "",
-   "page": 179,
-   "section": "b",
-   "line": null,
-   "journal": "Phronesis",
-   "year": "2006",
-   "iid": "51fc977a-54a3-347a-9330-5b72420423e3",
-   "doi": "10.2307/4182799",
-   "title": "Reading the περιτροπή: \"Theaetetus\" 170c-171c",
-   "author": "T. D. J. Chappell"
-  },
-  {
-   "book": "",
    "page": 165,
    "section": "b",
    "line": 2,
@@ -1030,7 +1363,19 @@
    "book": "",
    "page": 165,
    "section": "a",
-   "line": 37,
+   "line": 30,
+   "journal": "The Classical Quarterly",
+   "year": "1993",
+   "iid": "547afda7-c70d-348a-b5c6-0c816722abf0",
+   "doi": "10.2307/639181",
+   "title": "The Arousal of Emotion in Plato's Dialogues",
+   "author": "David L. Blank"
+  },
+  {
+   "book": "",
+   "page": 165,
+   "section": "b",
+   "line": null,
    "journal": "The Classical Quarterly",
    "year": "1993",
    "iid": "547afda7-c70d-348a-b5c6-0c816722abf0",
@@ -1126,7 +1471,19 @@
    "book": "",
    "page": 164,
    "section": "b",
-   "line": 28,
+   "line": 15,
+   "journal": "The Classical Quarterly",
+   "year": "1983",
+   "iid": "5a442c69-915f-3028-bb77-195c5abf2d47",
+   "doi": "10.2307/638780",
+   "title": "Criteria of Fallacy and Sophistry for Use in the Analysis of Platonic Dialogues",
+   "author": "G. Klosko"
+  },
+  {
+   "book": "",
+   "page": 164,
+   "section": "b",
+   "line": 30,
    "journal": "The Classical Quarterly",
    "year": "1983",
    "iid": "5a442c69-915f-3028-bb77-195c5abf2d47",
@@ -1138,7 +1495,7 @@
    "book": "",
    "page": 165,
    "section": "a",
-   "line": 3,
+   "line": null,
    "journal": "The Classical Quarterly",
    "year": "1983",
    "iid": "5a442c69-915f-3028-bb77-195c5abf2d47",
@@ -1222,7 +1579,7 @@
    "book": "",
    "page": 182,
    "section": "b",
-   "line": 37,
+   "line": 30,
    "journal": "Phronesis",
    "year": "2022",
    "iid": "684f902c-35ac-34e0-b594-f4c6a0eb60d1",
@@ -1234,7 +1591,7 @@
    "book": "",
    "page": 183,
    "section": "a",
-   "line": 2,
+   "line": null,
    "journal": "Phronesis",
    "year": "2022",
    "iid": "684f902c-35ac-34e0-b594-f4c6a0eb60d1",
@@ -1292,6 +1649,18 @@
   },
   {
    "book": "",
+   "page": 165,
+   "section": "d",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1978",
+   "iid": "6bfc2909-6b7c-3949-ac70-119360796f42",
+   "doi": "10.2307/4182037",
+   "title": "Plato's \"Parmenides\": Why the Eight Hypotheses Are Not Contradictory",
+   "author": "K. M. Sayre"
+  },
+  {
+   "book": "",
    "page": 183,
    "section": "b",
    "line": 34,
@@ -1330,7 +1699,43 @@
    "book": "",
    "page": 169,
    "section": "a",
-   "line": 21,
+   "line": 15,
+   "journal": "Méthexis",
+   "year": "2016",
+   "iid": "6fa91c6d-f3ad-3220-b134-b18bcdd88e6a",
+   "doi": "10.2307/26416797",
+   "title": "Antilogía y gimnasia intelectual",
+   "author": "Mariana Gardella"
+  },
+  {
+   "book": "",
+   "page": 169,
+   "section": "a",
+   "line": 30,
+   "journal": "Méthexis",
+   "year": "2016",
+   "iid": "6fa91c6d-f3ad-3220-b134-b18bcdd88e6a",
+   "doi": "10.2307/26416797",
+   "title": "Antilogía y gimnasia intelectual",
+   "author": "Mariana Gardella"
+  },
+  {
+   "book": "",
+   "page": 169,
+   "section": "b",
+   "line": null,
+   "journal": "Méthexis",
+   "year": "2016",
+   "iid": "6fa91c6d-f3ad-3220-b134-b18bcdd88e6a",
+   "doi": "10.2307/26416797",
+   "title": "Antilogía y gimnasia intelectual",
+   "author": "Mariana Gardella"
+  },
+  {
+   "book": "",
+   "page": 169,
+   "section": "b",
+   "line": 15,
    "journal": "Méthexis",
    "year": "2016",
    "iid": "6fa91c6d-f3ad-3220-b134-b18bcdd88e6a",
@@ -1366,7 +1771,19 @@
    "book": "",
    "page": 179,
    "section": "a",
-   "line": 35,
+   "line": 30,
+   "journal": "Phronesis",
+   "year": "1986",
+   "iid": "7781c65c-3370-32e2-b8a1-d0f5c2c2f566",
+   "doi": "10.2307/4182250",
+   "title": "Aristotle's Definitions of Relatives in \"Cat.\" 7",
+   "author": "Mario Mignucci"
+  },
+  {
+   "book": "",
+   "page": 179,
+   "section": "b",
+   "line": null,
    "journal": "Phronesis",
    "year": "1986",
    "iid": "7781c65c-3370-32e2-b8a1-d0f5c2c2f566",
@@ -2120,30 +2537,6 @@
   },
   {
    "book": "",
-   "page": 172,
-   "section": "b",
-   "line": 36,
-   "journal": "Méthexis",
-   "year": "2014",
-   "iid": "a5ca1c5d-5b28-33b7-a6c0-5d20b16a9b6f",
-   "doi": "10.2307/44820260",
-   "title": "DIVISION, DIALECTIQUE ET DÉFINITION CHEZ PLATON ET ARISTOTE",
-   "author": "SYLVAIN DELCOMMINETTE"
-  },
-  {
-   "book": "",
-   "page": 173,
-   "section": "a",
-   "line": 2,
-   "journal": "Méthexis",
-   "year": "2014",
-   "iid": "a5ca1c5d-5b28-33b7-a6c0-5d20b16a9b6f",
-   "doi": "10.2307/44820260",
-   "title": "DIVISION, DIALECTIQUE ET DÉFINITION CHEZ PLATON ET ARISTOTE",
-   "author": "SYLVAIN DELCOMMINETTE"
-  },
-  {
-   "book": "",
    "page": 179,
    "section": "a",
    "line": null,
@@ -2348,18 +2741,6 @@
   },
   {
    "book": "",
-   "page": 174,
-   "section": "a",
-   "line": 2,
-   "journal": "Méthexis",
-   "year": "2019",
-   "iid": "ae41843b-1bc6-3fd1-a07e-7d411048f481",
-   "doi": "10.2307/26730261",
-   "title": "Felicità, piacere e politica nel tardo Platone",
-   "author": "Filippo Forcignanò"
-  },
-  {
-   "book": "",
    "page": 179,
    "section": "a",
    "line": 37,
@@ -2369,18 +2750,6 @@
    "doi": "10.2307/27743917",
    "title": "Referential Opacity in Aristotle",
    "author": "Lynne Spellman"
-  },
-  {
-   "book": "",
-   "page": 173,
-   "section": "a",
-   "line": 8,
-   "journal": "Méthexis",
-   "year": "2020",
-   "iid": "b55df561-092a-3c88-838e-f675a1f0ebf0",
-   "doi": "10.2307/27140752",
-   "title": "Refutation, Democracy and Epistemocracy in Plato’s <em>Charmides</em>",
-   "author": "Don Adams"
   },
   {
    "book": "",
@@ -2648,6 +3017,78 @@
   },
   {
    "book": "",
+   "page": 166,
+   "section": "a",
+   "line": 15,
+   "journal": "Méthexis",
+   "year": "2004",
+   "iid": "e4adbca1-cb89-3a0c-9d6e-796cf3b1ba74",
+   "doi": "10.2307/43738715",
+   "title": "EL NACIMIENTO DE LA VERDAD",
+   "author": "JOSÉ TRINDADE SANTOS"
+  },
+  {
+   "book": "",
+   "page": 166,
+   "section": "a",
+   "line": 30,
+   "journal": "Méthexis",
+   "year": "2004",
+   "iid": "e4adbca1-cb89-3a0c-9d6e-796cf3b1ba74",
+   "doi": "10.2307/43738715",
+   "title": "EL NACIMIENTO DE LA VERDAD",
+   "author": "JOSÉ TRINDADE SANTOS"
+  },
+  {
+   "book": "",
+   "page": 166,
+   "section": "b",
+   "line": null,
+   "journal": "Méthexis",
+   "year": "2004",
+   "iid": "e4adbca1-cb89-3a0c-9d6e-796cf3b1ba74",
+   "doi": "10.2307/43738715",
+   "title": "EL NACIMIENTO DE LA VERDAD",
+   "author": "JOSÉ TRINDADE SANTOS"
+  },
+  {
+   "book": "",
+   "page": 166,
+   "section": "b",
+   "line": 15,
+   "journal": "Méthexis",
+   "year": "2004",
+   "iid": "e4adbca1-cb89-3a0c-9d6e-796cf3b1ba74",
+   "doi": "10.2307/43738715",
+   "title": "EL NACIMIENTO DE LA VERDAD",
+   "author": "JOSÉ TRINDADE SANTOS"
+  },
+  {
+   "book": "",
+   "page": 166,
+   "section": "b",
+   "line": 30,
+   "journal": "Méthexis",
+   "year": "2004",
+   "iid": "e4adbca1-cb89-3a0c-9d6e-796cf3b1ba74",
+   "doi": "10.2307/43738715",
+   "title": "EL NACIMIENTO DE LA VERDAD",
+   "author": "JOSÉ TRINDADE SANTOS"
+  },
+  {
+   "book": "",
+   "page": 167,
+   "section": "a",
+   "line": null,
+   "journal": "Méthexis",
+   "year": "2004",
+   "iid": "e4adbca1-cb89-3a0c-9d6e-796cf3b1ba74",
+   "doi": "10.2307/43738715",
+   "title": "EL NACIMIENTO DE LA VERDAD",
+   "author": "JOSÉ TRINDADE SANTOS"
+  },
+  {
+   "book": "",
    "page": 172,
    "section": "b",
    "line": null,
@@ -2729,6 +3170,1722 @@
    "doi": "10.2307/20720827",
    "title": "Truth and Contradiction in Aristotle's\n              De Interpretatione\n              6-9",
    "author": "Russell E. Jones"
+  },
+  {
+   "book": "",
+   "page": 172,
+   "section": "b",
+   "line": 30,
+   "journal": "Vigiliae Christianae",
+   "year": "2022",
+   "iid": "01c1b5e4-2f3e-33b7-bc86-0448335dcc22",
+   "doi": "10.2307/27370995",
+   "title": "Antithesis and Paradox in the <em>Epistle to Diognetus</em>",
+   "author": "Michelle Freeman"
+  },
+  {
+   "book": "",
+   "page": 173,
+   "section": "a",
+   "line": null,
+   "journal": "Vigiliae Christianae",
+   "year": "2022",
+   "iid": "01c1b5e4-2f3e-33b7-bc86-0448335dcc22",
+   "doi": "10.2307/27370995",
+   "title": "Antithesis and Paradox in the <em>Epistle to Diognetus</em>",
+   "author": "Michelle Freeman"
+  },
+  {
+   "book": "",
+   "page": 173,
+   "section": "a",
+   "line": 15,
+   "journal": "Vigiliae Christianae",
+   "year": "2022",
+   "iid": "01c1b5e4-2f3e-33b7-bc86-0448335dcc22",
+   "doi": "10.2307/27370995",
+   "title": "Antithesis and Paradox in the <em>Epistle to Diognetus</em>",
+   "author": "Michelle Freeman"
+  },
+  {
+   "book": "",
+   "page": 172,
+   "section": "b",
+   "line": 35,
+   "journal": "Vigiliae Christianae",
+   "year": "2022",
+   "iid": "01c1b5e4-2f3e-33b7-bc86-0448335dcc22",
+   "doi": "10.2307/27370995",
+   "title": "Antithesis and Paradox in the <em>Epistle to Diognetus</em>",
+   "author": "Michelle Freeman"
+  },
+  {
+   "book": "",
+   "page": 164,
+   "section": "b",
+   "line": 19,
+   "journal": "Recherches de théologie et philosophie médiévales",
+   "year": "2020",
+   "iid": "02bdd5d4-9729-3b02-8e03-b1cb890f9a5d",
+   "doi": "10.2307/27347190",
+   "title": "Book Review : Commentarium in Sophisticos Elenchos Aristotelis, Series H, Humanistica 8, vol. 19",
+   "author": "Anonymus Cantabrigiensis, Scientia Danica, Sten Ebbesen, Luca Gili"
+  },
+  {
+   "book": "",
+   "page": 181,
+   "section": "b",
+   "line": 37,
+   "journal": "Harvard Studies in Classical Philology",
+   "year": "1985",
+   "iid": "08006a22-1425-3baf-bd66-52a1c610343b",
+   "doi": "10.2307/311270",
+   "title": "Χωριστός in Aristotle",
+   "author": "Donald Morrison"
+  },
+  {
+   "book": "",
+   "page": 169,
+   "section": "b",
+   "line": 8,
+   "journal": "Harvard Studies in Classical Philology",
+   "year": "1985",
+   "iid": "08006a22-1425-3baf-bd66-52a1c610343b",
+   "doi": "10.2307/311270",
+   "title": "Χωριστός in Aristotle",
+   "author": "Donald Morrison"
+  },
+  {
+   "book": "",
+   "page": 181,
+   "section": "b",
+   "line": 27,
+   "journal": "Harvard Studies in Classical Philology",
+   "year": "1985",
+   "iid": "08006a22-1425-3baf-bd66-52a1c610343b",
+   "doi": "10.2307/311270",
+   "title": "Χωριστός in Aristotle",
+   "author": "Donald Morrison"
+  },
+  {
+   "book": "",
+   "page": 166,
+   "section": "a",
+   "line": 18,
+   "journal": "Harvard Studies in Classical Philology",
+   "year": "1985",
+   "iid": "08006a22-1425-3baf-bd66-52a1c610343b",
+   "doi": "10.2307/311270",
+   "title": "Χωριστός in Aristotle",
+   "author": "Donald Morrison"
+  },
+  {
+   "book": "",
+   "page": 169,
+   "section": "b",
+   "line": 9,
+   "journal": "Harvard Studies in Classical Philology",
+   "year": "1985",
+   "iid": "08006a22-1425-3baf-bd66-52a1c610343b",
+   "doi": "10.2307/311270",
+   "title": "Χωριστός in Aristotle",
+   "author": "Donald Morrison"
+  },
+  {
+   "book": "",
+   "page": 167,
+   "section": "b",
+   "line": 2,
+   "journal": "Hermes",
+   "year": "2005",
+   "iid": "0f95bfa4-a1da-3ec6-b3e1-bc7611cb7754",
+   "doi": "10.2307/4477675",
+   "title": "ΑΝΑΓΝΩΡΙΣΙΣ ek ΠΑΡΑΛΟΓΙΣΜΟΥ",
+   "author": "M. M. Pozdnev"
+  },
+  {
+   "book": "",
+   "page": 167,
+   "section": "b",
+   "line": null,
+   "journal": "Hermes",
+   "year": "2005",
+   "iid": "0f95bfa4-a1da-3ec6-b3e1-bc7611cb7754",
+   "doi": "10.2307/4477675",
+   "title": "ΑΝΑΓΝΩΡΙΣΙΣ ek ΠΑΡΑΛΟΓΙΣΜΟΥ",
+   "author": "M. M. Pozdnev"
+  },
+  {
+   "book": "",
+   "page": 164,
+   "section": "a",
+   "line": 25,
+   "journal": "Hermes",
+   "year": "2005",
+   "iid": "0f95bfa4-a1da-3ec6-b3e1-bc7611cb7754",
+   "doi": "10.2307/4477675",
+   "title": "ΑΝΑΓΝΩΡΙΣΙΣ ek ΠΑΡΑΛΟΓΙΣΜΟΥ",
+   "author": "M. M. Pozdnev"
+  },
+  {
+   "book": "",
+   "page": 167,
+   "section": "b",
+   "line": 5,
+   "journal": "Hermes",
+   "year": "2005",
+   "iid": "0f95bfa4-a1da-3ec6-b3e1-bc7611cb7754",
+   "doi": "10.2307/4477675",
+   "title": "ΑΝΑΓΝΩΡΙΣΙΣ ek ΠΑΡΑΛΟΓΙΣΜΟΥ",
+   "author": "M. M. Pozdnev"
+  },
+  {
+   "book": "",
+   "page": 164,
+   "section": "a",
+   "line": 23,
+   "journal": "Hermes",
+   "year": "2005",
+   "iid": "0f95bfa4-a1da-3ec6-b3e1-bc7611cb7754",
+   "doi": "10.2307/4477675",
+   "title": "ΑΝΑΓΝΩΡΙΣΙΣ ek ΠΑΡΑΛΟΓΙΣΜΟΥ",
+   "author": "M. M. Pozdnev"
+  },
+  {
+   "book": "",
+   "page": 180,
+   "section": "b",
+   "line": 31,
+   "journal": "The American Journal of Philology",
+   "year": "1988",
+   "iid": "102c5785-ae29-3ca0-b6d4-ddef244f5014",
+   "doi": "10.2307/294756",
+   "title": "From ΠΛeoneΞia to ΠoΛyΠpaΓmoΣynh: A Conflation of Possession and Action in Plato's Republic",
+   "author": "John Gutglueck"
+  },
+  {
+   "book": "",
+   "page": 167,
+   "section": "b",
+   "line": null,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "2002",
+   "iid": "14b33307-a8c6-3f02-a816-3688d909fc1d",
+   "doi": "10.2307/41234537",
+   "title": "ZUR LATEINISCHEN ÜBERLIEFERUNG VON SEXTUS EMPIRICUS' ΠΥΡΡΩΝΕΙΟΙ ΥΠΟΤΥΠΩΣΕΙΣ",
+   "author": "Roland Wittwer"
+  },
+  {
+   "book": "",
+   "page": 172,
+   "section": "b",
+   "line": null,
+   "journal": "Zeitschrift für katholische Theologie",
+   "year": "1961",
+   "iid": "16538e5d-5fd2-3a7c-bdf1-4ee00a766a27",
+   "doi": "10.2307/24176611",
+   "title": "DER WERT DER MESSE: in der Diskussion der Theologen vom Mittelalter bis zum 16. Jahrhundert",
+   "author": "Erwin Iserloh"
+  },
+  {
+   "book": "",
+   "page": 184,
+   "section": "a",
+   "line": null,
+   "journal": "Revue de Théologie et de Philosophie",
+   "year": "1923",
+   "iid": "1e26c85d-d61d-370b-85ac-4215b7af1bcd",
+   "doi": "10.2307/44349921",
+   "title": "LE MANUSCRIT DE L' ESSAI SUR LA MANIFESTATION DES CONVICTIONS RELIGIEUSES D'ALEXANDRE VINET",
+   "author": "Aimé Chavan"
+  },
+  {
+   "book": "",
+   "page": 174,
+   "section": "a",
+   "line": 20,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "2000",
+   "iid": "26f1b86b-7eae-373a-acd3-9e53fc472f7a",
+   "doi": "10.2307/41234453",
+   "title": "DIODOTUS’ PARADOX AND THE MYTILENE DEBATE (THUCYDIDES 3.37-49)",
+   "author": "Paula A. Debnar"
+  },
+  {
+   "book": "",
+   "page": 168,
+   "section": "b",
+   "line": null,
+   "journal": "Quaderni Urbinati di Cultura Classica",
+   "year": "2014",
+   "iid": "2db3a78e-b150-3929-8b5c-0d436f65cbbe",
+   "doi": "10.2307/24645219",
+   "title": "CASE DI UOMINI, CASE DI DÈI. PER UN CONTESTO DI ALC. FR. 140 V.",
+   "author": "Stefano Caciagli"
+  },
+  {
+   "book": "",
+   "page": 179,
+   "section": "a",
+   "line": 36,
+   "journal": "The Journal of Religion",
+   "year": "1978",
+   "iid": "2e34020f-b97c-39e0-a1f4-e06d8968093d",
+   "doi": "10.2307/1201874",
+   "title": "Identity and Trinity",
+   "author": "A. P. Martinich"
+  },
+  {
+   "book": "",
+   "page": 184,
+   "section": "b",
+   "line": null,
+   "journal": "Mnemosyne",
+   "year": "1916",
+   "iid": "2f347821-f5fb-3288-91df-6e1910bcfe1d",
+   "doi": "10.2307/4425862",
+   "title": "De ordine, quo Platonis dialogi inter se succedunt",
+   "author": "H. D. Verdam"
+  },
+  {
+   "book": "",
+   "page": 184,
+   "section": "b",
+   "line": 15,
+   "journal": "Mnemosyne",
+   "year": "1916",
+   "iid": "2f347821-f5fb-3288-91df-6e1910bcfe1d",
+   "doi": "10.2307/4425862",
+   "title": "De ordine, quo Platonis dialogi inter se succedunt",
+   "author": "H. D. Verdam"
+  },
+  {
+   "book": "",
+   "page": 184,
+   "section": "b",
+   "line": 30,
+   "journal": "Mnemosyne",
+   "year": "1916",
+   "iid": "2f347821-f5fb-3288-91df-6e1910bcfe1d",
+   "doi": "10.2307/4425862",
+   "title": "De ordine, quo Platonis dialogi inter se succedunt",
+   "author": "H. D. Verdam"
+  },
+  {
+   "book": "",
+   "page": 185,
+   "section": "a",
+   "line": null,
+   "journal": "Mnemosyne",
+   "year": "1916",
+   "iid": "2f347821-f5fb-3288-91df-6e1910bcfe1d",
+   "doi": "10.2307/4425862",
+   "title": "De ordine, quo Platonis dialogi inter se succedunt",
+   "author": "H. D. Verdam"
+  },
+  {
+   "book": "",
+   "page": 185,
+   "section": "a",
+   "line": 15,
+   "journal": "Mnemosyne",
+   "year": "1916",
+   "iid": "2f347821-f5fb-3288-91df-6e1910bcfe1d",
+   "doi": "10.2307/4425862",
+   "title": "De ordine, quo Platonis dialogi inter se succedunt",
+   "author": "H. D. Verdam"
+  },
+  {
+   "book": "",
+   "page": 185,
+   "section": "a",
+   "line": 30,
+   "journal": "Mnemosyne",
+   "year": "1916",
+   "iid": "2f347821-f5fb-3288-91df-6e1910bcfe1d",
+   "doi": "10.2307/4425862",
+   "title": "De ordine, quo Platonis dialogi inter se succedunt",
+   "author": "H. D. Verdam"
+  },
+  {
+   "book": "",
+   "page": 185,
+   "section": "b",
+   "line": null,
+   "journal": "Mnemosyne",
+   "year": "1916",
+   "iid": "2f347821-f5fb-3288-91df-6e1910bcfe1d",
+   "doi": "10.2307/4425862",
+   "title": "De ordine, quo Platonis dialogi inter se succedunt",
+   "author": "H. D. Verdam"
+  },
+  {
+   "book": "",
+   "page": 185,
+   "section": "b",
+   "line": 15,
+   "journal": "Mnemosyne",
+   "year": "1916",
+   "iid": "2f347821-f5fb-3288-91df-6e1910bcfe1d",
+   "doi": "10.2307/4425862",
+   "title": "De ordine, quo Platonis dialogi inter se succedunt",
+   "author": "H. D. Verdam"
+  },
+  {
+   "book": "",
+   "page": 185,
+   "section": "b",
+   "line": 30,
+   "journal": "Mnemosyne",
+   "year": "1916",
+   "iid": "2f347821-f5fb-3288-91df-6e1910bcfe1d",
+   "doi": "10.2307/4425862",
+   "title": "De ordine, quo Platonis dialogi inter se succedunt",
+   "author": "H. D. Verdam"
+  },
+  {
+   "book": "",
+   "page": 186,
+   "section": "a",
+   "line": null,
+   "journal": "Mnemosyne",
+   "year": "1916",
+   "iid": "2f347821-f5fb-3288-91df-6e1910bcfe1d",
+   "doi": "10.2307/4425862",
+   "title": "De ordine, quo Platonis dialogi inter se succedunt",
+   "author": "H. D. Verdam"
+  },
+  {
+   "book": "",
+   "page": 186,
+   "section": "a",
+   "line": 15,
+   "journal": "Mnemosyne",
+   "year": "1916",
+   "iid": "2f347821-f5fb-3288-91df-6e1910bcfe1d",
+   "doi": "10.2307/4425862",
+   "title": "De ordine, quo Platonis dialogi inter se succedunt",
+   "author": "H. D. Verdam"
+  },
+  {
+   "book": "",
+   "page": 186,
+   "section": "a",
+   "line": 30,
+   "journal": "Mnemosyne",
+   "year": "1916",
+   "iid": "2f347821-f5fb-3288-91df-6e1910bcfe1d",
+   "doi": "10.2307/4425862",
+   "title": "De ordine, quo Platonis dialogi inter se succedunt",
+   "author": "H. D. Verdam"
+  },
+  {
+   "book": "",
+   "page": 186,
+   "section": "b",
+   "line": null,
+   "journal": "Mnemosyne",
+   "year": "1916",
+   "iid": "2f347821-f5fb-3288-91df-6e1910bcfe1d",
+   "doi": "10.2307/4425862",
+   "title": "De ordine, quo Platonis dialogi inter se succedunt",
+   "author": "H. D. Verdam"
+  },
+  {
+   "book": "",
+   "page": 168,
+   "section": "b",
+   "line": null,
+   "journal": "Quaderni Urbinati di Cultura Classica",
+   "year": "1986",
+   "iid": "30281493-6e5d-3973-ad50-d8b05257c81e",
+   "doi": "10.2307/20538949",
+   "title": "Somnus and Amor: The Play of Statius, \"Silvae\" 5,4",
+   "author": "Arthur J. Pomeroy"
+  },
+  {
+   "book": "",
+   "page": 171,
+   "section": "a",
+   "line": null,
+   "journal": "Mnemosyne",
+   "year": "1896",
+   "iid": "30d436db-ad6b-3889-a676-03ce4308cd12",
+   "doi": "10.2307/4425118",
+   "title": "De Plutarchi Moralium codicibus praecipueque de codice Parisino D. n. 1956",
+   "author": "G. N. Bernardakis"
+  },
+  {
+   "book": "",
+   "page": 170,
+   "section": "a",
+   "line": 3,
+   "journal": "Mnemosyne",
+   "year": "2007",
+   "iid": "3a0db3fc-3daa-3a13-a854-7e3fe9babfdf",
+   "doi": "10.2307/4433815",
+   "title": "Critical Notes on Plato's \"Charmides\"",
+   "author": "D. J. Murphy"
+  },
+  {
+   "book": "",
+   "page": 169,
+   "section": "b",
+   "line": 8,
+   "journal": "Mnemosyne",
+   "year": "2007",
+   "iid": "3a0db3fc-3daa-3a13-a854-7e3fe9babfdf",
+   "doi": "10.2307/4433815",
+   "title": "Critical Notes on Plato's \"Charmides\"",
+   "author": "D. J. Murphy"
+  },
+  {
+   "book": "",
+   "page": 171,
+   "section": "d",
+   "line": 3,
+   "journal": "Mnemosyne",
+   "year": "2007",
+   "iid": "3a0db3fc-3daa-3a13-a854-7e3fe9babfdf",
+   "doi": "10.2307/4433815",
+   "title": "Critical Notes on Plato's \"Charmides\"",
+   "author": "D. J. Murphy"
+  },
+  {
+   "book": "",
+   "page": 169,
+   "section": "e",
+   "line": null,
+   "journal": "Mnemosyne",
+   "year": "2007",
+   "iid": "3a0db3fc-3daa-3a13-a854-7e3fe9babfdf",
+   "doi": "10.2307/4433815",
+   "title": "Critical Notes on Plato's \"Charmides\"",
+   "author": "D. J. Murphy"
+  },
+  {
+   "book": "",
+   "page": 165,
+   "section": "a",
+   "line": null,
+   "journal": "Quaderni Urbinati di Cultura Classica",
+   "year": "2000",
+   "iid": "3b340927-603e-308d-8a5a-dce744f31bf1",
+   "doi": "10.2307/20546638",
+   "title": "Il problema dell'imitare in Aristotele",
+   "author": "Claudio William Veloso"
+  },
+  {
+   "book": "",
+   "page": 175,
+   "section": "b",
+   "line": null,
+   "journal": "Recherches de théologie ancienne et médiévale",
+   "year": "1964",
+   "iid": "4b3a69f3-6fd8-381c-bc03-0a98543efd30",
+   "doi": "10.2307/26187743",
+   "title": "Pierre d'Ailly, Jean XXIII et Thierry de Nieheim",
+   "author": "P. Glorieux"
+  },
+  {
+   "book": "",
+   "page": 173,
+   "section": "b",
+   "line": 17,
+   "journal": "Mnemosyne",
+   "year": "2018",
+   "iid": "50182740-3925-3aea-8190-f3e51d84d61a",
+   "doi": "10.2307/26572975",
+   "title": "Protagoras’ <em>Homo-Mensura</em> Doctrine and Literary Interpretation in <em>Certamen Homeri et Hesiodi</em>",
+   "author": "Peter Osorio"
+  },
+  {
+   "book": "",
+   "page": 172,
+   "section": "b",
+   "line": null,
+   "journal": "Novum Testamentum",
+   "year": "2001",
+   "iid": "52ce5707-391b-319d-957f-82461f5989cb",
+   "doi": "10.2307/1561047",
+   "title": "Sophistische Argumentation im Römerbrief des Apostels Paulus",
+   "author": "Johan S. Vos"
+  },
+  {
+   "book": "",
+   "page": 173,
+   "section": "a",
+   "line": null,
+   "journal": "Novum Testamentum",
+   "year": "2001",
+   "iid": "52ce5707-391b-319d-957f-82461f5989cb",
+   "doi": "10.2307/1561047",
+   "title": "Sophistische Argumentation im Römerbrief des Apostels Paulus",
+   "author": "Johan S. Vos"
+  },
+  {
+   "book": "",
+   "page": 164,
+   "section": "a",
+   "line": null,
+   "journal": "Novum Testamentum",
+   "year": "2001",
+   "iid": "52ce5707-391b-319d-957f-82461f5989cb",
+   "doi": "10.2307/1561047",
+   "title": "Sophistische Argumentation im Römerbrief des Apostels Paulus",
+   "author": "Johan S. Vos"
+  },
+  {
+   "book": "",
+   "page": 174,
+   "section": "b",
+   "line": null,
+   "journal": "Novum Testamentum",
+   "year": "2001",
+   "iid": "52ce5707-391b-319d-957f-82461f5989cb",
+   "doi": "10.2307/1561047",
+   "title": "Sophistische Argumentation im Römerbrief des Apostels Paulus",
+   "author": "Johan S. Vos"
+  },
+  {
+   "book": "",
+   "page": 165,
+   "section": "b",
+   "line": null,
+   "journal": "Novum Testamentum",
+   "year": "2001",
+   "iid": "52ce5707-391b-319d-957f-82461f5989cb",
+   "doi": "10.2307/1561047",
+   "title": "Sophistische Argumentation im Römerbrief des Apostels Paulus",
+   "author": "Johan S. Vos"
+  },
+  {
+   "book": "",
+   "page": 166,
+   "section": "a",
+   "line": null,
+   "journal": "Novum Testamentum",
+   "year": "2001",
+   "iid": "52ce5707-391b-319d-957f-82461f5989cb",
+   "doi": "10.2307/1561047",
+   "title": "Sophistische Argumentation im Römerbrief des Apostels Paulus",
+   "author": "Johan S. Vos"
+  },
+  {
+   "book": "",
+   "page": 172,
+   "section": "a",
+   "line": 15,
+   "journal": "Transactions of the American Philological Association (1974-2014)",
+   "year": "1985",
+   "iid": "53b6efc1-abe8-3d26-83af-608d8a9547f6",
+   "doi": "10.2307/284190",
+   "title": "Socratic Self-Knowledge and \"Knowledge of Knowledge\" in Plato's Charmides",
+   "author": "Richard McKim"
+  },
+  {
+   "book": "",
+   "page": 172,
+   "section": "a",
+   "line": 30,
+   "journal": "Transactions of the American Philological Association (1974-2014)",
+   "year": "1985",
+   "iid": "53b6efc1-abe8-3d26-83af-608d8a9547f6",
+   "doi": "10.2307/284190",
+   "title": "Socratic Self-Knowledge and \"Knowledge of Knowledge\" in Plato's Charmides",
+   "author": "Richard McKim"
+  },
+  {
+   "book": "",
+   "page": 172,
+   "section": "b",
+   "line": null,
+   "journal": "Transactions of the American Philological Association (1974-2014)",
+   "year": "1985",
+   "iid": "53b6efc1-abe8-3d26-83af-608d8a9547f6",
+   "doi": "10.2307/284190",
+   "title": "Socratic Self-Knowledge and \"Knowledge of Knowledge\" in Plato's Charmides",
+   "author": "Richard McKim"
+  },
+  {
+   "book": "",
+   "page": 172,
+   "section": "a",
+   "line": 25,
+   "journal": "Transactions of the American Philological Association (1974-2014)",
+   "year": "1985",
+   "iid": "53b6efc1-abe8-3d26-83af-608d8a9547f6",
+   "doi": "10.2307/284190",
+   "title": "Socratic Self-Knowledge and \"Knowledge of Knowledge\" in Plato's Charmides",
+   "author": "Richard McKim"
+  },
+  {
+   "book": "",
+   "page": 167,
+   "section": "a",
+   "line": null,
+   "journal": "Church History",
+   "year": "1984",
+   "iid": "574826ca-0d18-399e-801b-2926ed7096ec",
+   "doi": "10.2307/3166116",
+   "title": "Of Thorns and Roses: The Logic of Belief in Gregory Nazianzen",
+   "author": "Frederick W. Norris"
+  },
+  {
+   "book": "",
+   "page": 180,
+   "section": "a",
+   "line": null,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "2017",
+   "iid": "58fc8260-4cb8-32d7-8303-63bf288ddeca",
+   "doi": "10.2307/26315630",
+   "title": "ERACLITO IN PLOTINO",
+   "author": "Max Bergamo"
+  },
+  {
+   "book": "",
+   "page": 183,
+   "section": "b",
+   "line": 15,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1998",
+   "iid": "5a0012ee-ecd3-3938-a91b-b36e5b45bc6d",
+   "doi": "10.2307/41234301",
+   "title": "PLATO AND PHTOPIKH",
+   "author": "Gerard J. Pendrick"
+  },
+  {
+   "book": "",
+   "page": 183,
+   "section": "b",
+   "line": 30,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1998",
+   "iid": "5a0012ee-ecd3-3938-a91b-b36e5b45bc6d",
+   "doi": "10.2307/41234301",
+   "title": "PLATO AND PHTOPIKH",
+   "author": "Gerard J. Pendrick"
+  },
+  {
+   "book": "",
+   "page": 184,
+   "section": "a",
+   "line": null,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1998",
+   "iid": "5a0012ee-ecd3-3938-a91b-b36e5b45bc6d",
+   "doi": "10.2307/41234301",
+   "title": "PLATO AND PHTOPIKH",
+   "author": "Gerard J. Pendrick"
+  },
+  {
+   "book": "",
+   "page": 184,
+   "section": "a",
+   "line": 15,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1998",
+   "iid": "5a0012ee-ecd3-3938-a91b-b36e5b45bc6d",
+   "doi": "10.2307/41234301",
+   "title": "PLATO AND PHTOPIKH",
+   "author": "Gerard J. Pendrick"
+  },
+  {
+   "book": "",
+   "page": 184,
+   "section": "a",
+   "line": 30,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1998",
+   "iid": "5a0012ee-ecd3-3938-a91b-b36e5b45bc6d",
+   "doi": "10.2307/41234301",
+   "title": "PLATO AND PHTOPIKH",
+   "author": "Gerard J. Pendrick"
+  },
+  {
+   "book": "",
+   "page": 184,
+   "section": "b",
+   "line": null,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1998",
+   "iid": "5a0012ee-ecd3-3938-a91b-b36e5b45bc6d",
+   "doi": "10.2307/41234301",
+   "title": "PLATO AND PHTOPIKH",
+   "author": "Gerard J. Pendrick"
+  },
+  {
+   "book": "",
+   "page": 164,
+   "section": "a",
+   "line": null,
+   "journal": "Mnemosyne",
+   "year": "1973",
+   "iid": "5bb36280-a3b6-345e-9348-beeaafe5e7b2",
+   "doi": "10.2307/4430221",
+   "title": "",
+   "author": "W. J. W. Koster, W. de Sousa Medeiros"
+  },
+  {
+   "book": "",
+   "page": 169,
+   "section": "a",
+   "line": null,
+   "journal": "Mnemosyne",
+   "year": "1973",
+   "iid": "5bb36280-a3b6-345e-9348-beeaafe5e7b2",
+   "doi": "10.2307/4430221",
+   "title": "",
+   "author": "W. J. W. Koster, W. de Sousa Medeiros"
+  },
+  {
+   "book": "",
+   "page": 178,
+   "section": "a",
+   "line": null,
+   "journal": "Mnemosyne",
+   "year": "1973",
+   "iid": "5bb36280-a3b6-345e-9348-beeaafe5e7b2",
+   "doi": "10.2307/4430221",
+   "title": "",
+   "author": "W. J. W. Koster, W. de Sousa Medeiros"
+  },
+  {
+   "book": "",
+   "page": 178,
+   "section": "b",
+   "line": null,
+   "journal": "Recherches de théologie et philosophie médiévales",
+   "year": "2019",
+   "iid": "64c0c06c-3bc6-3ff9-84ba-df20593fdc67",
+   "doi": "10.2307/26897284",
+   "title": "GERALD OT (D. 1349) ON PRIME MATTER WITH AN EDITION OF HIS II <em>SENTENCES</em>, DISTINCTION 12",
+   "author": "William O. Duba, Russell L. Friedman"
+  },
+  {
+   "book": "",
+   "page": 178,
+   "section": "b",
+   "line": 15,
+   "journal": "Recherches de théologie et philosophie médiévales",
+   "year": "2019",
+   "iid": "64c0c06c-3bc6-3ff9-84ba-df20593fdc67",
+   "doi": "10.2307/26897284",
+   "title": "GERALD OT (D. 1349) ON PRIME MATTER WITH AN EDITION OF HIS II <em>SENTENCES</em>, DISTINCTION 12",
+   "author": "William O. Duba, Russell L. Friedman"
+  },
+  {
+   "book": "",
+   "page": 178,
+   "section": "b",
+   "line": 30,
+   "journal": "Recherches de théologie et philosophie médiévales",
+   "year": "2019",
+   "iid": "64c0c06c-3bc6-3ff9-84ba-df20593fdc67",
+   "doi": "10.2307/26897284",
+   "title": "GERALD OT (D. 1349) ON PRIME MATTER WITH AN EDITION OF HIS II <em>SENTENCES</em>, DISTINCTION 12",
+   "author": "William O. Duba, Russell L. Friedman"
+  },
+  {
+   "book": "",
+   "page": 179,
+   "section": "a",
+   "line": null,
+   "journal": "Recherches de théologie et philosophie médiévales",
+   "year": "2019",
+   "iid": "64c0c06c-3bc6-3ff9-84ba-df20593fdc67",
+   "doi": "10.2307/26897284",
+   "title": "GERALD OT (D. 1349) ON PRIME MATTER WITH AN EDITION OF HIS II <em>SENTENCES</em>, DISTINCTION 12",
+   "author": "William O. Duba, Russell L. Friedman"
+  },
+  {
+   "book": "",
+   "page": 179,
+   "section": "a",
+   "line": null,
+   "journal": "Neotestamentica",
+   "year": "1992",
+   "iid": "6cc6fd64-7c68-3136-ae1a-3ddf3ea8f1af",
+   "doi": "10.2307/43048099",
+   "title": "ADDENDUM TO NEOTESTAMENTICA 26(2) 1992: DISCOURSE ANALYSIS OF GALATIANS",
+   "author": "J H ROBERTS, M A KRUGER, G M M PELSER, H R LEMMER, A B DU TOIT"
+  },
+  {
+   "book": "",
+   "page": 179,
+   "section": "b",
+   "line": null,
+   "journal": "Neotestamentica",
+   "year": "1992",
+   "iid": "6cc6fd64-7c68-3136-ae1a-3ddf3ea8f1af",
+   "doi": "10.2307/43048099",
+   "title": "ADDENDUM TO NEOTESTAMENTICA 26(2) 1992: DISCOURSE ANALYSIS OF GALATIANS",
+   "author": "J H ROBERTS, M A KRUGER, G M M PELSER, H R LEMMER, A B DU TOIT"
+  },
+  {
+   "book": "",
+   "page": 164,
+   "section": "a",
+   "line": null,
+   "journal": "Vigiliae Christianae",
+   "year": "1968",
+   "iid": "6dbc1a6f-3361-3669-854c-c3dba617f776",
+   "doi": "10.2307/1581931",
+   "title": "L'Épître à Marcellinus sur les Psaumes",
+   "author": "M. J. Rondeau"
+  },
+  {
+   "book": "",
+   "page": 176,
+   "section": "b",
+   "line": null,
+   "journal": "Vigiliae Christianae",
+   "year": "1968",
+   "iid": "6dbc1a6f-3361-3669-854c-c3dba617f776",
+   "doi": "10.2307/1581931",
+   "title": "L'Épître à Marcellinus sur les Psaumes",
+   "author": "M. J. Rondeau"
+  },
+  {
+   "book": "",
+   "page": 169,
+   "section": "a",
+   "line": null,
+   "journal": "The American Journal of Philology",
+   "year": "1988",
+   "iid": "76f8b42d-8f0a-3303-b55f-2cee22472da1",
+   "doi": "10.2307/294891",
+   "title": "Elenchus and Mathematics: A Turning-Point in Plato's Philosophical Development",
+   "author": "Gregory Vlastos"
+  },
+  {
+   "book": "",
+   "page": 170,
+   "section": "b",
+   "line": null,
+   "journal": "Recherches de théologie et philosophie médiévales",
+   "year": "2018",
+   "iid": "792aeabe-53de-308a-a9ec-27cb67ff750f",
+   "doi": "10.2307/26786278",
+   "title": "PIERRE CEFFONS ON DIVINE SIMPLICITY, PART II",
+   "author": "Andrea Nannini, Chris Schabel"
+  },
+  {
+   "book": "",
+   "page": 171,
+   "section": "b",
+   "line": null,
+   "journal": "Recherches de théologie et philosophie médiévales",
+   "year": "2018",
+   "iid": "792aeabe-53de-308a-a9ec-27cb67ff750f",
+   "doi": "10.2307/26786278",
+   "title": "PIERRE CEFFONS ON DIVINE SIMPLICITY, PART II",
+   "author": "Andrea Nannini, Chris Schabel"
+  },
+  {
+   "book": "",
+   "page": 165,
+   "section": "b",
+   "line": 3,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "2021",
+   "iid": "7ad6428b-f36a-3e60-b4f9-757ac514f8d2",
+   "doi": "10.2307/45473502",
+   "title": "DE PLATONIS \"PARMENIDIS\" CODICIBUS QUAESTIONES",
+   "author": "Carolus M. Lucarini"
+  },
+  {
+   "book": "",
+   "page": 165,
+   "section": "a",
+   "line": 4,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "2021",
+   "iid": "7ad6428b-f36a-3e60-b4f9-757ac514f8d2",
+   "doi": "10.2307/45473502",
+   "title": "DE PLATONIS \"PARMENIDIS\" CODICIBUS QUAESTIONES",
+   "author": "Carolus M. Lucarini"
+  },
+  {
+   "book": "",
+   "page": 164,
+   "section": "e",
+   "line": 3,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "2021",
+   "iid": "7ad6428b-f36a-3e60-b4f9-757ac514f8d2",
+   "doi": "10.2307/45473502",
+   "title": "DE PLATONIS \"PARMENIDIS\" CODICIBUS QUAESTIONES",
+   "author": "Carolus M. Lucarini"
+  },
+  {
+   "book": "",
+   "page": 165,
+   "section": "a",
+   "line": 7,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "2021",
+   "iid": "7ad6428b-f36a-3e60-b4f9-757ac514f8d2",
+   "doi": "10.2307/45473502",
+   "title": "DE PLATONIS \"PARMENIDIS\" CODICIBUS QUAESTIONES",
+   "author": "Carolus M. Lucarini"
+  },
+  {
+   "book": "",
+   "page": 166,
+   "section": "b",
+   "line": 2,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "2021",
+   "iid": "7ad6428b-f36a-3e60-b4f9-757ac514f8d2",
+   "doi": "10.2307/45473502",
+   "title": "DE PLATONIS \"PARMENIDIS\" CODICIBUS QUAESTIONES",
+   "author": "Carolus M. Lucarini"
+  },
+  {
+   "book": "",
+   "page": 164,
+   "section": "b",
+   "line": 4,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "2021",
+   "iid": "7ad6428b-f36a-3e60-b4f9-757ac514f8d2",
+   "doi": "10.2307/45473502",
+   "title": "DE PLATONIS \"PARMENIDIS\" CODICIBUS QUAESTIONES",
+   "author": "Carolus M. Lucarini"
+  },
+  {
+   "book": "",
+   "page": 165,
+   "section": "b",
+   "line": 5,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "2021",
+   "iid": "7ad6428b-f36a-3e60-b4f9-757ac514f8d2",
+   "doi": "10.2307/45473502",
+   "title": "DE PLATONIS \"PARMENIDIS\" CODICIBUS QUAESTIONES",
+   "author": "Carolus M. Lucarini"
+  },
+  {
+   "book": "",
+   "page": 172,
+   "section": "a",
+   "line": null,
+   "journal": "Hermes",
+   "year": "1972",
+   "iid": "7cd6c285-5880-3cab-be8d-8810c6bed8d5",
+   "doi": "10.2307/4475716",
+   "title": "Über den Sophisten Polyxenos",
+   "author": "Klaus Döring"
+  },
+  {
+   "book": "",
+   "page": 178,
+   "section": "b",
+   "line": null,
+   "journal": "Hermes",
+   "year": "1972",
+   "iid": "7cd6c285-5880-3cab-be8d-8810c6bed8d5",
+   "doi": "10.2307/4475716",
+   "title": "Über den Sophisten Polyxenos",
+   "author": "Klaus Döring"
+  },
+  {
+   "book": "",
+   "page": 166,
+   "section": "b",
+   "line": 30,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1988",
+   "iid": "7ddba4fb-8f6c-388e-8039-6e54c4dc32df",
+   "doi": "10.2307/41233689",
+   "title": "DE MELISSO XENOPHANE GORGIA: Pyrrhonizing Aristotelianism",
+   "author": "Jaap Mansfeld"
+  },
+  {
+   "book": "",
+   "page": 167,
+   "section": "a",
+   "line": null,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1988",
+   "iid": "7ddba4fb-8f6c-388e-8039-6e54c4dc32df",
+   "doi": "10.2307/41233689",
+   "title": "DE MELISSO XENOPHANE GORGIA: Pyrrhonizing Aristotelianism",
+   "author": "Jaap Mansfeld"
+  },
+  {
+   "book": "",
+   "page": 165,
+   "section": "a",
+   "line": null,
+   "journal": "Journal of Biblical Literature",
+   "year": "1973",
+   "iid": "85c75af6-9c52-318d-84cf-5a2c45e16e46",
+   "doi": "10.2307/3263123",
+   "title": "The Background and Significance of the Polemic of the Pastoral Epistles",
+   "author": "Robert J. Karris"
+  },
+  {
+   "book": "",
+   "page": 183,
+   "section": "b",
+   "line": 7,
+   "journal": "Revue de Théologie et de Philosophie",
+   "year": "2018",
+   "iid": "896cc863-73e7-39af-9a92-921fdbd482e4",
+   "doi": "10.2307/45465142",
+   "title": "DE QUELQUES FIGURES DU SILENCE DANS L'ŒUVRE DE PLATON",
+   "author": "David Lévystone"
+  },
+  {
+   "book": "",
+   "page": 171,
+   "section": "a",
+   "line": 6,
+   "journal": "Classical Antiquity",
+   "year": "2005",
+   "iid": "92649cf2-217f-3514-9ff8-e981540ed798",
+   "doi": "10.1525/ca.2005.24.1.1",
+   "title": "Helen <em>Epigrammatopoios</em>",
+   "author": "David F. Elmer"
+  },
+  {
+   "book": "",
+   "page": 172,
+   "section": "b",
+   "line": null,
+   "journal": "The American Journal of Philology",
+   "year": "1946",
+   "iid": "983db15d-b53b-3ca4-b65d-7db151df9bec",
+   "doi": "10.2307/290987",
+   "title": "Relics of Mergus, Mergulus, and Mūcrō in Ibero-Romance",
+   "author": "Yakov Malkiel"
+  },
+  {
+   "book": "",
+   "page": 165,
+   "section": "b",
+   "line": 30,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "2004",
+   "iid": "9b0efe69-4df2-37a3-8330-1be66a26e01c",
+   "doi": "10.2307/41234601",
+   "title": "PLATONS ‚PROTREPTIKOS‘: Gesprächsgeschehen und Gesprächsgegenstand in Platons Euthydemos",
+   "author": "Vittorio Hösle"
+  },
+  {
+   "book": "",
+   "page": 169,
+   "section": "b",
+   "line": null,
+   "journal": "Hermes",
+   "year": "2016",
+   "iid": "a0d9f59a-de7f-3cf8-8089-b29c6da222a5",
+   "doi": "10.2307/26649580",
+   "title": "Ἀπορία und ἀπάτη in der aristotelischen Dialektik",
+   "author": "GEORGIOS E. PAPATSIMPAS"
+  },
+  {
+   "book": "",
+   "page": 165,
+   "section": "a",
+   "line": null,
+   "journal": "Hermes",
+   "year": "2016",
+   "iid": "a0d9f59a-de7f-3cf8-8089-b29c6da222a5",
+   "doi": "10.2307/26649580",
+   "title": "Ἀπορία und ἀπάτη in der aristotelischen Dialektik",
+   "author": "GEORGIOS E. PAPATSIMPAS"
+  },
+  {
+   "book": "",
+   "page": 179,
+   "section": "b",
+   "line": null,
+   "journal": "Quaderni Urbinati di Cultura Classica",
+   "year": "1969",
+   "iid": "a7e180d6-897f-3879-aa5d-b6fcd5f4357c",
+   "doi": "10.2307/20537602",
+   "title": "La versificazione anglosassone: Ricerche e proposte",
+   "author": "Anna Maria Luiselli Fadda"
+  },
+  {
+   "book": "",
+   "page": 183,
+   "section": "b",
+   "line": null,
+   "journal": "Hermes",
+   "year": "1984",
+   "iid": "a83bf1b0-102e-3b11-a163-58548143f984",
+   "doi": "10.2307/4476402",
+   "title": "Die Logische Form der sokratischen Argumentation in Xenophons Memorabilien 3, 9, 4-5",
+   "author": "Heinz Neitzel"
+  },
+  {
+   "book": "",
+   "page": 183,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical World",
+   "year": "1975",
+   "iid": "abf5d7b7-dee6-3836-90df-4afc07308fc8",
+   "doi": "10.2307/4348397",
+   "title": "Periodical Literature on Teaching the Classics in Translation, 1924-1975: An Annotated Bibliography",
+   "author": "Edward V. George"
+  },
+  {
+   "book": "",
+   "page": 184,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical World",
+   "year": "1975",
+   "iid": "abf5d7b7-dee6-3836-90df-4afc07308fc8",
+   "doi": "10.2307/4348397",
+   "title": "Periodical Literature on Teaching the Classics in Translation, 1924-1975: An Annotated Bibliography",
+   "author": "Edward V. George"
+  },
+  {
+   "book": "",
+   "page": 165,
+   "section": "a",
+   "line": null,
+   "journal": "Revue de Théologie et de Philosophie",
+   "year": "1994",
+   "iid": "b31bca89-66d4-3b3f-8b1f-20da263ad2d9",
+   "doi": "10.2307/44357472",
+   "title": "Book Review : \n        Semiosis, Essai sur les théories du signe de Platon et d'Aristote\n        \n          Curzio\n          Chiesa",
+   "author": "Stefan Imhoof, Curzio Chiesa"
+  },
+  {
+   "book": "",
+   "page": 172,
+   "section": "b",
+   "line": null,
+   "journal": "Harvard Studies in Classical Philology",
+   "year": "1965",
+   "iid": "b4e529a5-0f29-39e5-9f3d-a9925cfb3387",
+   "doi": "10.2307/310904",
+   "title": "Beauty and the Fine Arts in Plato: Some Aporiai",
+   "author": "Joseph P. Maguire"
+  },
+  {
+   "book": "",
+   "page": 183,
+   "section": "a",
+   "line": null,
+   "journal": "Harvard Studies in Classical Philology",
+   "year": "1993",
+   "iid": "b7815072-4324-320c-b096-c5d0bba0a3a7",
+   "doi": "10.2307/311376",
+   "title": "The Fragments of Heliodorus Homericus",
+   "author": "Andrew R. Dyck"
+  },
+  {
+   "book": "",
+   "page": 172,
+   "section": "b",
+   "line": null,
+   "journal": "Recherches de théologie ancienne et médiévale",
+   "year": "1936",
+   "iid": "ba15e90a-690d-3afa-9f87-a720cfdfe794",
+   "doi": "10.2307/26182939",
+   "title": "Le Manuscrit d'Assise, Bibl. comm. 158: Date et mode de composition",
+   "author": "P. Glorieux"
+  },
+  {
+   "book": "",
+   "page": 172,
+   "section": "a",
+   "line": null,
+   "journal": "Hermes",
+   "year": "1926",
+   "iid": "ba15fc88-4507-3f8f-b470-869e65364414",
+   "doi": "10.2307/4473983",
+   "title": "Ammonios Sakkas und der Ursprung des Neuplatonismus",
+   "author": "Fritz Heinemann"
+  },
+  {
+   "book": "",
+   "page": 175,
+   "section": "b",
+   "line": null,
+   "journal": "The Harvard Theological Review",
+   "year": "2017",
+   "iid": "ba5fec6d-19e3-3291-b29a-e8e0eec92284",
+   "doi": "10.2307/26357911",
+   "title": "\"Wissen und Lomdus\": Idealism, Modernity, and History in some Nineteenth-Century Rabbinic and Philosophical Responses to the \"Wissenschaft des Judentums\"",
+   "author": "Paul E. Nahme"
+  },
+  {
+   "book": "",
+   "page": 175,
+   "section": "b",
+   "line": 15,
+   "journal": "The Harvard Theological Review",
+   "year": "2017",
+   "iid": "ba5fec6d-19e3-3291-b29a-e8e0eec92284",
+   "doi": "10.2307/26357911",
+   "title": "\"Wissen und Lomdus\": Idealism, Modernity, and History in some Nineteenth-Century Rabbinic and Philosophical Responses to the \"Wissenschaft des Judentums\"",
+   "author": "Paul E. Nahme"
+  },
+  {
+   "book": "",
+   "page": 175,
+   "section": "b",
+   "line": 30,
+   "journal": "The Harvard Theological Review",
+   "year": "2017",
+   "iid": "ba5fec6d-19e3-3291-b29a-e8e0eec92284",
+   "doi": "10.2307/26357911",
+   "title": "\"Wissen und Lomdus\": Idealism, Modernity, and History in some Nineteenth-Century Rabbinic and Philosophical Responses to the \"Wissenschaft des Judentums\"",
+   "author": "Paul E. Nahme"
+  },
+  {
+   "book": "",
+   "page": 176,
+   "section": "a",
+   "line": null,
+   "journal": "The Harvard Theological Review",
+   "year": "2017",
+   "iid": "ba5fec6d-19e3-3291-b29a-e8e0eec92284",
+   "doi": "10.2307/26357911",
+   "title": "\"Wissen und Lomdus\": Idealism, Modernity, and History in some Nineteenth-Century Rabbinic and Philosophical Responses to the \"Wissenschaft des Judentums\"",
+   "author": "Paul E. Nahme"
+  },
+  {
+   "book": "",
+   "page": 164,
+   "section": "a",
+   "line": null,
+   "journal": "Hermes",
+   "year": "1983",
+   "iid": "bf53dad5-29b8-398c-9921-d5ce46eacd2d",
+   "doi": "10.2307/4476296",
+   "title": "Aspetti Organizzativi di Alcune Scuole Filosofiche Ateniesi",
+   "author": "Carlo Natali"
+  },
+  {
+   "book": "",
+   "page": 168,
+   "section": "a",
+   "line": null,
+   "journal": "Vigiliae Christianae",
+   "year": "1980",
+   "iid": "c9537702-ec85-356c-b675-b09d4a7dfaa2",
+   "doi": "10.2307/1583642",
+   "title": "La croissance de l'âme selon le \"De Infantibus\" de Grégoire de Nysse",
+   "author": "Marguerite Harl"
+  },
+  {
+   "book": "",
+   "page": 172,
+   "section": "a",
+   "line": null,
+   "journal": "Vigiliae Christianae",
+   "year": "1980",
+   "iid": "c9537702-ec85-356c-b675-b09d4a7dfaa2",
+   "doi": "10.2307/1583642",
+   "title": "La croissance de l'âme selon le \"De Infantibus\" de Grégoire de Nysse",
+   "author": "Marguerite Harl"
+  },
+  {
+   "book": "",
+   "page": 168,
+   "section": "b",
+   "line": null,
+   "journal": "Vigiliae Christianae",
+   "year": "1980",
+   "iid": "c9537702-ec85-356c-b675-b09d4a7dfaa2",
+   "doi": "10.2307/1583642",
+   "title": "La croissance de l'âme selon le \"De Infantibus\" de Grégoire de Nysse",
+   "author": "Marguerite Harl"
+  },
+  {
+   "book": "",
+   "page": 169,
+   "section": "b",
+   "line": null,
+   "journal": "Vigiliae Christianae",
+   "year": "1980",
+   "iid": "c9537702-ec85-356c-b675-b09d4a7dfaa2",
+   "doi": "10.2307/1583642",
+   "title": "La croissance de l'âme selon le \"De Infantibus\" de Grégoire de Nysse",
+   "author": "Marguerite Harl"
+  },
+  {
+   "book": "",
+   "page": 173,
+   "section": "a",
+   "line": null,
+   "journal": "Mnemosyne",
+   "year": "1987",
+   "iid": "cbbde782-5c3e-36d5-9186-be907a3b1c9b",
+   "doi": "10.2307/4431645",
+   "title": "Labour in the Golden Age a Unifying Theme in Vergil's Poems",
+   "author": "J. J. L. Smolenaars"
+  },
+  {
+   "book": "",
+   "page": 167,
+   "section": "b",
+   "line": 8,
+   "journal": "The American Journal of Philology",
+   "year": "1980",
+   "iid": "d6218a5b-8241-366c-aca2-a752da6e6ae8",
+   "doi": "10.2307/293663",
+   "title": "Semeion, Tekmerion, Eikos in Aristotle's Rhetoric",
+   "author": "W. M. A. Grimaldi"
+  },
+  {
+   "book": "",
+   "page": 183,
+   "section": "b",
+   "line": 22,
+   "journal": "Transactions of the American Philological Association (1974-2014)",
+   "year": "1981",
+   "iid": "dac7395f-a91e-3c9e-aaa3-21dd02ce98ab",
+   "doi": "10.2307/284128",
+   "title": "Some Puns in Aristotle",
+   "author": "Kenneth Quandt"
+  },
+  {
+   "book": "",
+   "page": 176,
+   "section": "b",
+   "line": 3,
+   "journal": "Mnemosyne",
+   "year": "1990",
+   "iid": "e5aeb694-ed5b-38e6-94b4-59019bc4010f",
+   "doi": "10.2307/4431955",
+   "title": "The Manuscripts of Plato's \"Charmides\"",
+   "author": "D. J. Murphy"
+  },
+  {
+   "book": "",
+   "page": 176,
+   "section": "b",
+   "line": 4,
+   "journal": "Mnemosyne",
+   "year": "1990",
+   "iid": "e5aeb694-ed5b-38e6-94b4-59019bc4010f",
+   "doi": "10.2307/4431955",
+   "title": "The Manuscripts of Plato's \"Charmides\"",
+   "author": "D. J. Murphy"
+  },
+  {
+   "book": "",
+   "page": 167,
+   "section": "b",
+   "line": 2,
+   "journal": "Mnemosyne",
+   "year": "1990",
+   "iid": "e5aeb694-ed5b-38e6-94b4-59019bc4010f",
+   "doi": "10.2307/4431955",
+   "title": "The Manuscripts of Plato's \"Charmides\"",
+   "author": "D. J. Murphy"
+  },
+  {
+   "book": "",
+   "page": 164,
+   "section": "a",
+   "line": null,
+   "journal": "Recherches de théologie ancienne et médiévale",
+   "year": "1995",
+   "iid": "e7e218f7-b04d-3fba-a155-9fb9fe954c8d",
+   "doi": "10.2307/26189088",
+   "title": "LA CIENCIA HUMANA DE JESUCRISTO SEGUN ODÓN RIGALDO",
+   "author": "F. Martínez Fresneda"
+  },
+  {
+   "book": "",
+   "page": 165,
+   "section": "a",
+   "line": null,
+   "journal": "Recherches de théologie ancienne et médiévale",
+   "year": "1995",
+   "iid": "e7e218f7-b04d-3fba-a155-9fb9fe954c8d",
+   "doi": "10.2307/26189088",
+   "title": "LA CIENCIA HUMANA DE JESUCRISTO SEGUN ODÓN RIGALDO",
+   "author": "F. Martínez Fresneda"
+  },
+  {
+   "book": "",
+   "page": 174,
+   "section": "c",
+   "line": null,
+   "journal": "Recherches de théologie ancienne et médiévale",
+   "year": "1995",
+   "iid": "e7e218f7-b04d-3fba-a155-9fb9fe954c8d",
+   "doi": "10.2307/26189088",
+   "title": "LA CIENCIA HUMANA DE JESUCRISTO SEGUN ODÓN RIGALDO",
+   "author": "F. Martínez Fresneda"
+  },
+  {
+   "book": "",
+   "page": 167,
+   "section": "b",
+   "line": null,
+   "journal": "Recherches de théologie ancienne et médiévale",
+   "year": "1995",
+   "iid": "e7e218f7-b04d-3fba-a155-9fb9fe954c8d",
+   "doi": "10.2307/26189088",
+   "title": "LA CIENCIA HUMANA DE JESUCRISTO SEGUN ODÓN RIGALDO",
+   "author": "F. Martínez Fresneda"
+  },
+  {
+   "book": "",
+   "page": 165,
+   "section": "b",
+   "line": null,
+   "journal": "Recherches de théologie ancienne et médiévale",
+   "year": "1995",
+   "iid": "e7e218f7-b04d-3fba-a155-9fb9fe954c8d",
+   "doi": "10.2307/26189088",
+   "title": "LA CIENCIA HUMANA DE JESUCRISTO SEGUN ODÓN RIGALDO",
+   "author": "F. Martínez Fresneda"
+  },
+  {
+   "book": "",
+   "page": 170,
+   "section": "a",
+   "line": null,
+   "journal": "Recherches de théologie ancienne et médiévale",
+   "year": "1995",
+   "iid": "e7e218f7-b04d-3fba-a155-9fb9fe954c8d",
+   "doi": "10.2307/26189088",
+   "title": "LA CIENCIA HUMANA DE JESUCRISTO SEGUN ODÓN RIGALDO",
+   "author": "F. Martínez Fresneda"
+  },
+  {
+   "book": "",
+   "page": 170,
+   "section": "b",
+   "line": null,
+   "journal": "Recherches de théologie ancienne et médiévale",
+   "year": "1995",
+   "iid": "e7e218f7-b04d-3fba-a155-9fb9fe954c8d",
+   "doi": "10.2307/26189088",
+   "title": "LA CIENCIA HUMANA DE JESUCRISTO SEGUN ODÓN RIGALDO",
+   "author": "F. Martínez Fresneda"
+  },
+  {
+   "book": "",
+   "page": 183,
+   "section": "b",
+   "line": 30,
+   "journal": "The American Journal of Philology",
+   "year": "1987",
+   "iid": "ecdcfa31-2ca1-3dc2-9797-07bf8d41fbd1",
+   "doi": "10.2307/294782",
+   "title": "Plato and the Morality of Fallacy",
+   "author": "George Klosko"
+  },
+  {
+   "book": "",
+   "page": 184,
+   "section": "a",
+   "line": null,
+   "journal": "The American Journal of Philology",
+   "year": "1987",
+   "iid": "ecdcfa31-2ca1-3dc2-9797-07bf8d41fbd1",
+   "doi": "10.2307/294782",
+   "title": "Plato and the Morality of Fallacy",
+   "author": "George Klosko"
+  },
+  {
+   "book": "",
+   "page": 177,
+   "section": "b",
+   "line": 12,
+   "journal": "The American Journal of Philology",
+   "year": "1987",
+   "iid": "ecdcfa31-2ca1-3dc2-9797-07bf8d41fbd1",
+   "doi": "10.2307/294782",
+   "title": "Plato and the Morality of Fallacy",
+   "author": "George Klosko"
+  },
+  {
+   "book": "",
+   "page": 175,
+   "section": "b",
+   "line": 8,
+   "journal": "The American Journal of Philology",
+   "year": "1987",
+   "iid": "ecdcfa31-2ca1-3dc2-9797-07bf8d41fbd1",
+   "doi": "10.2307/294782",
+   "title": "Plato and the Morality of Fallacy",
+   "author": "George Klosko"
+  },
+  {
+   "book": "",
+   "page": 169,
+   "section": "b",
+   "line": 8,
+   "journal": "Mnemosyne",
+   "year": "2002",
+   "iid": "eee21168-10da-3dae-970f-771fb8dfbd29",
+   "doi": "10.2307/4433315",
+   "title": "The Basis of the Text of Plato's \"Charmides\"",
+   "author": "David J. Murphy"
+  },
+  {
+   "book": "",
+   "page": 164,
+   "section": "e",
+   "line": 6,
+   "journal": "Mnemosyne",
+   "year": "2002",
+   "iid": "eee21168-10da-3dae-970f-771fb8dfbd29",
+   "doi": "10.2307/4433315",
+   "title": "The Basis of the Text of Plato's \"Charmides\"",
+   "author": "David J. Murphy"
+  },
+  {
+   "book": "",
+   "page": 167,
+   "section": "a",
+   "line": 4,
+   "journal": "Mnemosyne",
+   "year": "2002",
+   "iid": "eee21168-10da-3dae-970f-771fb8dfbd29",
+   "doi": "10.2307/4433315",
+   "title": "The Basis of the Text of Plato's \"Charmides\"",
+   "author": "David J. Murphy"
+  },
+  {
+   "book": "",
+   "page": 174,
+   "section": "a",
+   "line": 6,
+   "journal": "Mnemosyne",
+   "year": "2002",
+   "iid": "eee21168-10da-3dae-970f-771fb8dfbd29",
+   "doi": "10.2307/4433315",
+   "title": "The Basis of the Text of Plato's \"Charmides\"",
+   "author": "David J. Murphy"
+  },
+  {
+   "book": "",
+   "page": 174,
+   "section": "d",
+   "line": 6,
+   "journal": "Mnemosyne",
+   "year": "2002",
+   "iid": "eee21168-10da-3dae-970f-771fb8dfbd29",
+   "doi": "10.2307/4433315",
+   "title": "The Basis of the Text of Plato's \"Charmides\"",
+   "author": "David J. Murphy"
+  },
+  {
+   "book": "",
+   "page": 165,
+   "section": "b",
+   "line": 5,
+   "journal": "Hermes",
+   "year": "2021",
+   "iid": "f16046f1-b8b0-308a-81fc-fdc2cd961cfc",
+   "doi": "10.2307/48643730",
+   "title": "Plato’s <em>Protagoras</em> as an ἀγὼν λόγων",
+   "author": "DALE PARKER"
+  },
+  {
+   "book": "",
+   "page": 169,
+   "section": "b",
+   "line": 23,
+   "journal": "Hermes",
+   "year": "2021",
+   "iid": "f16046f1-b8b0-308a-81fc-fdc2cd961cfc",
+   "doi": "10.2307/48643730",
+   "title": "Plato’s <em>Protagoras</em> as an ἀγὼν λόγων",
+   "author": "DALE PARKER"
+  },
+  {
+   "book": "",
+   "page": 172,
+   "section": "a",
+   "line": 31,
+   "journal": "Hermes",
+   "year": "2021",
+   "iid": "f16046f1-b8b0-308a-81fc-fdc2cd961cfc",
+   "doi": "10.2307/48643730",
+   "title": "Plato’s <em>Protagoras</em> as an ἀγὼν λόγων",
+   "author": "DALE PARKER"
+  },
+  {
+   "book": "",
+   "page": 165,
+   "section": "a",
+   "line": 19,
+   "journal": "Hermes",
+   "year": "2021",
+   "iid": "f16046f1-b8b0-308a-81fc-fdc2cd961cfc",
+   "doi": "10.2307/48643730",
+   "title": "Plato’s <em>Protagoras</em> as an ἀγὼν λόγων",
+   "author": "DALE PARKER"
+  },
+  {
+   "book": "",
+   "page": 165,
+   "section": "b",
+   "line": 3,
+   "journal": "Hermes",
+   "year": "2021",
+   "iid": "f16046f1-b8b0-308a-81fc-fdc2cd961cfc",
+   "doi": "10.2307/48643730",
+   "title": "Plato’s <em>Protagoras</em> as an ἀγὼν λόγων",
+   "author": "DALE PARKER"
+  },
+  {
+   "book": "",
+   "page": 170,
+   "section": "b",
+   "line": null,
+   "journal": "Quaderni Urbinati di Cultura Classica",
+   "year": "2013",
+   "iid": "f46e02b2-3c6b-34fd-9224-0fe3c8ccfdc2",
+   "doi": "10.2307/24645057",
+   "title": "EL USO DE LA DIALÉCTICA EN LA METODOLOGÍA CIENTÍFICA DE ARISTÓTELES. LA ALTERNATIVA EMPIRISTA DE ARISTÓTELES A LA DICOTOMÍA ENTRE COHERENTISMO Y FUNDACIONISMO. II",
+   "author": "Fabián Mié"
+  },
+  {
+   "book": "",
+   "page": 171,
+   "section": "a",
+   "line": null,
+   "journal": "Quaderni Urbinati di Cultura Classica",
+   "year": "2013",
+   "iid": "f46e02b2-3c6b-34fd-9224-0fe3c8ccfdc2",
+   "doi": "10.2307/24645057",
+   "title": "EL USO DE LA DIALÉCTICA EN LA METODOLOGÍA CIENTÍFICA DE ARISTÓTELES. LA ALTERNATIVA EMPIRISTA DE ARISTÓTELES A LA DICOTOMÍA ENTRE COHERENTISMO Y FUNDACIONISMO. II",
+   "author": "Fabián Mié"
+  },
+  {
+   "book": "",
+   "page": 173,
+   "section": "a",
+   "line": 27,
+   "journal": "The Classical World",
+   "year": "1978",
+   "iid": "ff170c2b-75a0-3c21-8da6-63424a400cc2",
+   "doi": "10.2307/4348993",
+   "title": "Plato's Use of Dialogue",
+   "author": "Kent F. Moors"
+  },
+  {
+   "book": "",
+   "page": 183,
+   "section": "b",
+   "line": 7,
+   "journal": "The Classical World",
+   "year": "1978",
+   "iid": "ff170c2b-75a0-3c21-8da6-63424a400cc2",
+   "doi": "10.2307/4348993",
+   "title": "Plato's Use of Dialogue",
+   "author": "Kent F. Moors"
   }
  ]
 }

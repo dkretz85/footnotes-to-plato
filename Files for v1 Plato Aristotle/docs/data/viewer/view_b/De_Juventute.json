@@ -1,0 +1,379 @@
+{
+ "work": "De_Juventute",
+ "faceted": false,
+ "tier": "uncertain",
+ "cells": [
+  {
+   "book": "",
+   "page": 467,
+   "section": "b",
+   "count": 4,
+   "articles": 4,
+   "by_journal": {
+    "Phronesis": 4
+   }
+  },
+  {
+   "book": "",
+   "page": 468,
+   "section": "a",
+   "count": 3,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 3
+   }
+  },
+  {
+   "book": "",
+   "page": 468,
+   "section": "b",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 1,
+    "Revue de Philosophie Ancienne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 469,
+   "section": "a",
+   "count": 4,
+   "articles": 4,
+   "by_journal": {
+    "Phronesis": 3,
+    "Méthexis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 469,
+   "section": "b",
+   "count": 6,
+   "articles": 5,
+   "by_journal": {
+    "Phronesis": 4,
+    "Classical Philology": 1,
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 470,
+   "section": "a",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 472,
+   "section": "a",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 479,
+   "section": "b",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 480,
+   "section": "b",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Phronesis": 1
+   }
+  }
+ ],
+ "dots": [
+  {
+   "book": "",
+   "page": 472,
+   "section": "a",
+   "line": 3,
+   "journal": "The Classical Quarterly",
+   "year": "2011",
+   "iid": "10263c96-80c7-37dc-8704-dc85c325fe60",
+   "doi": "10.2307/41301521",
+   "title": "'UNDER THE INFLUENCE' - THE PHYSIOLOGY AND THERAPEUTICS OF \"AKRASIA\" IN ARISTOTLE'S ETHICS",
+   "author": "SARAH FRANCIS"
+  },
+  {
+   "book": "",
+   "page": 467,
+   "section": "b",
+   "line": 28,
+   "journal": "Phronesis",
+   "year": "1995",
+   "iid": "1b40c0c5-2678-34f3-9314-4a869d904b03",
+   "doi": "10.2307/4182505",
+   "title": "Proper Sensibles and Καθ᾽ Αὑτά Causes",
+   "author": "Stephen Everson"
+  },
+  {
+   "book": "",
+   "page": 469,
+   "section": "a",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1995",
+   "iid": "1b40c0c5-2678-34f3-9314-4a869d904b03",
+   "doi": "10.2307/4182505",
+   "title": "Proper Sensibles and Καθ᾽ Αὑτά Causes",
+   "author": "Stephen Everson"
+  },
+  {
+   "book": "",
+   "page": 469,
+   "section": "b",
+   "line": 3,
+   "journal": "Phronesis",
+   "year": "2020",
+   "iid": "29d45ff2-5679-3926-8d77-ef21d3374bd9",
+   "doi": "10.2307/26952099",
+   "title": "Nutritive and Sentient Soul in Aristotle’s <em>Generation of Animals</em> 2.5",
+   "author": "Sophia M. Connell"
+  },
+  {
+   "book": "",
+   "page": 467,
+   "section": "b",
+   "line": 27,
+   "journal": "Phronesis",
+   "year": "2020",
+   "iid": "29d45ff2-5679-3926-8d77-ef21d3374bd9",
+   "doi": "10.2307/26952099",
+   "title": "Nutritive and Sentient Soul in Aristotle’s <em>Generation of Animals</em> 2.5",
+   "author": "Sophia M. Connell"
+  },
+  {
+   "book": "",
+   "page": 468,
+   "section": "a",
+   "line": 21,
+   "journal": "Phronesis",
+   "year": "2020",
+   "iid": "29d45ff2-5679-3926-8d77-ef21d3374bd9",
+   "doi": "10.2307/26952099",
+   "title": "Nutritive and Sentient Soul in Aristotle’s <em>Generation of Animals</em> 2.5",
+   "author": "Sophia M. Connell"
+  },
+  {
+   "book": "",
+   "page": 468,
+   "section": "b",
+   "line": 28,
+   "journal": "Phronesis",
+   "year": "2020",
+   "iid": "29d45ff2-5679-3926-8d77-ef21d3374bd9",
+   "doi": "10.2307/26952099",
+   "title": "Nutritive and Sentient Soul in Aristotle’s <em>Generation of Animals</em> 2.5",
+   "author": "Sophia M. Connell"
+  },
+  {
+   "book": "",
+   "page": 469,
+   "section": "b",
+   "line": 7,
+   "journal": "Phronesis",
+   "year": "2020",
+   "iid": "29d45ff2-5679-3926-8d77-ef21d3374bd9",
+   "doi": "10.2307/26952099",
+   "title": "Nutritive and Sentient Soul in Aristotle’s <em>Generation of Animals</em> 2.5",
+   "author": "Sophia M. Connell"
+  },
+  {
+   "book": "",
+   "page": 469,
+   "section": "a",
+   "line": 5,
+   "journal": "Phronesis",
+   "year": "2020",
+   "iid": "29d45ff2-5679-3926-8d77-ef21d3374bd9",
+   "doi": "10.2307/26952099",
+   "title": "Nutritive and Sentient Soul in Aristotle’s <em>Generation of Animals</em> 2.5",
+   "author": "Sophia M. Connell"
+  },
+  {
+   "book": "",
+   "page": 469,
+   "section": "b",
+   "line": 1,
+   "journal": "Phronesis",
+   "year": "2018",
+   "iid": "46d4a716-f171-3541-a0fd-da8382d5798e",
+   "doi": "10.2307/26566213",
+   "title": "Two Ways of Being for an End",
+   "author": "Jessica Gelber"
+  },
+  {
+   "book": "",
+   "page": 467,
+   "section": "b",
+   "line": 18,
+   "journal": "Phronesis",
+   "year": "2018",
+   "iid": "46d4a716-f171-3541-a0fd-da8382d5798e",
+   "doi": "10.2307/26566213",
+   "title": "Two Ways of Being for an End",
+   "author": "Jessica Gelber"
+  },
+  {
+   "book": "",
+   "page": 480,
+   "section": "b",
+   "line": 22,
+   "journal": "Phronesis",
+   "year": "1999",
+   "iid": "5e613d34-856e-3497-9329-11db2fca4dc8",
+   "doi": "10.2307/4182620",
+   "title": "Aristotle against the Hippocratics on Sexual Generation: A Reply to Coles",
+   "author": "Daryl McGowan Tress"
+  },
+  {
+   "book": "",
+   "page": 469,
+   "section": "b",
+   "line": 3,
+   "journal": "Phronesis",
+   "year": "2020",
+   "iid": "70e39e31-e773-39ab-b858-784dc6371bd7",
+   "doi": "10.2307/26952098",
+   "title": "Living without a Soul",
+   "author": "Caleb Cohoe"
+  },
+  {
+   "book": "",
+   "page": 469,
+   "section": "a",
+   "line": 3,
+   "journal": "Méthexis",
+   "year": "1998",
+   "iid": "71644654-9272-3cdc-b2e7-f3ff4fb2974d",
+   "doi": "10.2307/43738564",
+   "title": "\"POWERS THAT BE\": THE CONCEPT OF POTENCY IN PLATO AND ARISTOTLE",
+   "author": "JOHN J. CLEARY"
+  },
+  {
+   "book": "",
+   "page": 467,
+   "section": "b",
+   "line": 28,
+   "journal": "Phronesis",
+   "year": "2013",
+   "iid": "9bcd3a26-2c60-36a3-a5cd-3f02ef52ac23",
+   "doi": "10.2307/42000153",
+   "title": "Aristotle's Model of Animal Motion",
+   "author": "Pavel Gregoric, Klaus Corcilius"
+  },
+  {
+   "book": "",
+   "page": 479,
+   "section": "b",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "2013",
+   "iid": "9bcd3a26-2c60-36a3-a5cd-3f02ef52ac23",
+   "doi": "10.2307/42000153",
+   "title": "Aristotle's Model of Animal Motion",
+   "author": "Pavel Gregoric, Klaus Corcilius"
+  },
+  {
+   "book": "",
+   "page": 470,
+   "section": "a",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2002",
+   "iid": "a1919d94-b195-3aaf-974a-13422339f1e8",
+   "doi": "10.2307/24354677",
+   "title": "LA PRÉSERVATION (σωτηϱία), OBJET DES \"PARVA NATURALIA\" ET RUSE DE LA NATURE",
+   "author": "M. Rashed"
+  },
+  {
+   "book": "",
+   "page": 468,
+   "section": "a",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1961",
+   "iid": "bc3f0a65-5c8d-300a-9d95-e2d3dbf6e94f",
+   "doi": "10.2307/4181685",
+   "title": "The Development of Aristotle's Theory of the Classification of Animals",
+   "author": "G. E. R. Lloyd"
+  },
+  {
+   "book": "",
+   "page": 468,
+   "section": "a",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1961",
+   "iid": "bc3f0a65-5c8d-300a-9d95-e2d3dbf6e94f",
+   "doi": "10.2307/4181685",
+   "title": "The Development of Aristotle's Theory of the Classification of Animals",
+   "author": "G. E. R. Lloyd"
+  },
+  {
+   "book": "",
+   "page": 469,
+   "section": "a",
+   "line": 3,
+   "journal": "Phronesis",
+   "year": "1995",
+   "iid": "c7503168-0dec-3f92-bb80-56faca879003",
+   "doi": "10.2307/4182487",
+   "title": "Biomedical Models of Reproduction in the Fifth Century BC and Aristotle's \"Generation of Animals\"",
+   "author": "Andrew Coles"
+  },
+  {
+   "book": "",
+   "page": 468,
+   "section": "b",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2002",
+   "iid": "cd6d19d4-8a94-38a4-9a13-4854115145e2",
+   "doi": "10.2307/24354678",
+   "title": "LES \"PARVA NATURALIA\" D'ARISTOTE ET LE MOUVEMENT ANIMAL",
+   "author": "Pierre-Marie Morel"
+  },
+  {
+   "book": "",
+   "page": 469,
+   "section": "b",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1983",
+   "iid": "d39dc81b-9cef-3a7e-b5ab-c60daa6b17a3",
+   "doi": "10.2307/269714",
+   "title": "Aristotle and Happiness after Death: Nicomachean Ethics 1. 10-11",
+   "author": "Kurt Pritzl"
+  },
+  {
+   "book": "",
+   "page": 469,
+   "section": "b",
+   "line": 6,
+   "journal": "The Classical Quarterly",
+   "year": "2020",
+   "iid": "e2314f9c-6ce4-3992-9a6c-36d31d2aa339",
+   "doi": "10.2307/26954992",
+   "title": "BLOOD FLOW IN ARISTOTLE",
+   "author": "CLAIRE BUBB"
+  }
+ ]
+}

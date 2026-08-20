@@ -1,0 +1,98 @@
+{
+  "_readme": "All user-facing prose for Footnotes to Plato. Edit the string values; do NOT rename or remove keys — the views look them up by name. Keys marked _html accept inline tags (<b>, <i>, <em>); all others are plain text and any tags will show literally. Placeholders in {braces} are filled in by the page and must be kept exactly as written.",
+  "site": {
+    "kicker": "Footnotes to Plato"
+  },
+  "view_a": {
+    "page_title": "Footnotes to Plato — which works get attention",
+    "heading": "Which works get attention",
+    "subtitle": "Citation volume across the ancient-philosophy scholarship, work by work",
+    "intro": "Each bar counts how often a work is cited across the ten journals. The solid bar is what we could place with confidence — a floor. For many short dialogues, far more citations exist but can't be pinned to one work, because their page-numbers collide with others; that uncertain mass trails off as a fade rather than a false number.",
+    "legend": {
+      "floor": "confidently placed (floor)",
+      "band": "reasonably sure",
+      "fade": "detected but unplaceable — could be much more",
+      "smalln": "few citations — rate is unstable"
+    },
+    "tiers": {
+      "trustworthy": {
+        "heading": "Trustworthy",
+        "tag": "publication grade · {n} works",
+        "note_html": "At least 80% of these works' citations resolve to a specific passage. Bar lengths are reliable — you can compare how much these works are studied. Two cautions: works marked <b>small n</b> clear the threshold on very little evidence, and works marked <b>uneven coverage</b> have a specific stretch of pages that resolves worse than the rest, so their <i>shape</i> is less even than the bar suggests."
+      },
+      "uncertain": {
+        "heading": "Uncertain",
+        "tag": "read with care · {n} works",
+        "note_html": "Under 80% resolve. The solid floors are real lower bounds, but the long fades show how much citation traffic couldn't be attributed. <b>A short floor here does not mean a work is little-studied</b> — it means much of its attention is unplaceable. Don't rank these by floor alone, and don't compare their floors against the trustworthy tier."
+      }
+    },
+    "tooltip": {
+      "floor_label": "confidently placed",
+      "band_label": "reasonably sure",
+      "unplaceable_label": "detected but unplaceable",
+      "if_all_belonged": "(≈{total} if all belonged here)",
+      "rate_line": "resolution rate {pct}% · {articles} articles",
+      "collides_with": "collides with {works}"
+    },
+    "footnote": "On author colouring: works are grouped by the reference edition their citations use — Stephanus pagination (indigo) or Bekker pagination (teal) — which is how the scholarship addresses them, not a position on authorship. Several works in each corpus are of disputed or rejected authenticity; they are coloured by the edition that paginates them, as traditionally ascribed, and no claim about who wrote them is intended.",
+    "smalln": {
+      "badge": "small n",
+      "note_html": "Works marked <b>small n</b> have fewer than {threshold} placed citations. Their resolution rate is computed from so little evidence that it says more about chance than about how well the work resolves — a work with 30 citations can reach 100% by luck. Tier membership here is not a claim that the work is well studied, and these bars should not be compared with the long ones."
+    },
+    "bands": {
+      "badge": "uneven coverage",
+      "tooltip": "under-resolved pages {ranges} — roughly {missing} citations there could not be placed",
+      "legend": "a stretch of pages resolving worse than the rest of the work"
+    }
+  },
+  "view_b": {
+    "page_title": "Footnotes to Plato — passage-level attention",
+    "heading": "Passage-level attention",
+    "subtitle": "Which passages of a work the scholarship actually cites",
+    "controls": {
+      "work_label": "Work",
+      "journals_label": "Journals",
+      "journals_pooled": "Pooled",
+      "journals_split": "By journal",
+      "intensity_label": "Intensity",
+      "intensity_count": "Citations",
+      "intensity_articles": "Distinct articles"
+    },
+    "chart_label": "Citation profile · by section",
+    "heatmap_label": "Passage map · line-band detail",
+    "legend": {
+      "low": "fewer",
+      "high": "more citing articles per section"
+    },
+    "axis": {
+      "count": "citing articles",
+      "articles": "distinct articles",
+      "book_caption": "Book"
+    },
+    "work_meta": "{citations} placed citations · {sections} sections · {pages} pages",
+    "work_meta_faceted_suffix": " · book-faceted",
+    "tiers": {
+      "trustworthy": {
+        "label": "Trustworthy tier · publication grade",
+        "body_html": "At least 80% of this work's detected citations resolve to a specific passage. The profile below is a reliable picture of where attention falls: you can compare section heights within this work and cite them with confidence."
+      },
+      "uncertain": {
+        "label": "Uncertain tier · read with care",
+        "body_html": "Fewer than 80% of this work's detected citations could be pinned to a specific passage — its page-numbers collide with other works, so much of its citation traffic is unplaceable. <b>What you see is a floor, not the full picture.</b> A short bar here means \"we couldn't place these,\" not \"few cite this.\" Trust the <i>shape</i> of what resolved, and don't read the absolute heights as complete or compare them against trustworthy-tier works."
+      }
+    },
+    "drill": {
+      "count_one": "1 article cites this passage",
+      "count_many": "{n} articles cite this passage",
+      "export_button": "Export these citations (.csv)",
+      "empty": "No citing articles found for this passage."
+    },
+    "errors": {
+      "load_failed": "Could not load the citation data for this work. Reload the page; if it persists the data file may be missing."
+    },
+    "bands": {
+      "banner_html": "<b>Uneven coverage.</b> Some stretches of this work resolve worse than the rest, so the shape is misleading there, not just lower. The marked pages below are affected: {ranges}. Roughly {missing} citations in those pages could not be placed.",
+      "marker_label": "under-resolved"
+    }
+  }
+}

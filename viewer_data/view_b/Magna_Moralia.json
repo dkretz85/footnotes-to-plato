@@ -1,12 +1,92 @@
 {
  "work": "Magna_Moralia",
  "faceted": false,
+ "system": "bekker",
  "tier": "trustworthy",
  "cells": [
   {
    "book": "",
    "page": 1181,
    "section": "a",
+   "band": 0,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Biblica": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1181,
+   "section": "a",
+   "band": 1,
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 1,
+    "Transactions of the American Philological Association (1974-2014)": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1181,
+   "section": "a",
+   "band": 2,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1181,
+   "section": "b",
+   "band": 0,
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 1,
+    "Classical Antiquity": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1182,
+   "section": "a",
+   "band": 0,
+   "count": 7,
+   "articles": 7,
+   "by_journal": {
+    "Revue Internationale de Philosophie": 1,
+    "Archivio di Filosofia": 1,
+    "History of Philosophy Quarterly": 1,
+    "Rheinisches Museum für Philologie": 1,
+    "The Harvard Theological Review": 1,
+    "Hermes": 1,
+    "Biblica": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1182,
+   "section": "a",
+   "band": 1,
+   "count": 8,
+   "articles": 8,
+   "by_journal": {
+    "Méthexis": 3,
+    "The Classical Quarterly": 2,
+    "Revue de Philosophie Ancienne": 1,
+    "Phronesis": 1,
+    "Hermes": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1182,
+   "section": "a",
+   "band": 2,
    "count": 1,
    "articles": 1,
    "by_journal": {
@@ -16,120 +96,345 @@
   {
    "book": "",
    "page": 1182,
-   "section": "a",
-   "count": 11,
-   "articles": 11,
+   "section": "b",
+   "band": 0,
+   "count": 5,
+   "articles": 4,
    "by_journal": {
-    "Méthexis": 3,
-    "The Classical Quarterly": 2,
-    "Phronesis": 2,
-    "Revue de Philosophie Ancienne": 1,
-    "Revue Internationale de Philosophie": 1,
-    "Archivio di Filosofia": 1,
-    "History of Philosophy Quarterly": 1
+    "Classical Philology": 2,
+    "Illinois Classical Studies": 1,
+    "Rheinisches Museum für Philologie": 1,
+    "Biblica": 1
    }
   },
   {
    "book": "",
    "page": 1182,
    "section": "b",
-   "count": 3,
-   "articles": 2,
+   "band": 1,
+   "count": 1,
+   "articles": 1,
    "by_journal": {
-    "Phronesis": 1,
-    "Classical Philology": 2
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1182,
+   "section": "b",
+   "band": 2,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Classical Philology": 1
    }
   },
   {
    "book": "",
    "page": 1183,
    "section": "a",
-   "count": 4,
+   "band": 0,
+   "count": 6,
+   "articles": 4,
+   "by_journal": {
+    "Classical Philology": 2,
+    "Illinois Classical Studies": 1,
+    "Recherches de théologie ancienne et médiévale": 1,
+    "Biblica": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 1183,
+   "section": "a",
+   "band": 1,
+   "count": 3,
    "articles": 2,
    "by_journal": {
     "Phronesis": 2,
-    "Classical Philology": 2
+    "Rheinisches Museum für Philologie": 1
    }
   },
   {
    "book": "",
    "page": 1183,
    "section": "b",
-   "count": 3,
-   "articles": 3,
+   "band": 0,
+   "count": 9,
+   "articles": 8,
    "by_journal": {
     "Les Études philosophiques": 1,
     "Archivio di Filosofia": 1,
-    "Phronesis": 1
+    "Phronesis": 1,
+    "Recherches de théologie ancienne et médiévale": 1,
+    "Rheinisches Museum für Philologie": 2,
+    "Biblica": 2,
+    "Vigiliae Christianae": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1183,
+   "section": "b",
+   "band": 2,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Hermes": 1
    }
   },
   {
    "book": "",
    "page": 1184,
    "section": "a",
+   "band": 0,
+   "count": 10,
+   "articles": 10,
+   "by_journal": {
+    "Classical Philology": 1,
+    "The Classical World": 1,
+    "Biblica": 2,
+    "Rheinisches Museum für Philologie": 1,
+    "Vigiliae Christianae": 2,
+    "Hermes": 1,
+    "Journal of Biblical Literature": 1,
+    "Quaderni Urbinati di Cultura Classica": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1184,
+   "section": "a",
+   "band": 1,
+   "count": 5,
+   "articles": 4,
+   "by_journal": {
+    "Phronesis": 1,
+    "The Classical World": 1,
+    "Harvard Studies in Classical Philology": 2,
+    "Quaderni Urbinati di Cultura Classica": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1184,
+   "section": "a",
+   "band": 2,
    "count": 2,
    "articles": 2,
    "by_journal": {
-    "Classical Philology": 1,
-    "Phronesis": 1
+    "The Classical World": 1,
+    "Quaderni Urbinati di Cultura Classica": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1184,
+   "section": "b",
+   "band": 0,
+   "count": 12,
+   "articles": 12,
+   "by_journal": {
+    "The Classical World": 1,
+    "Rheinisches Museum für Philologie": 1,
+    "Quaderni Urbinati di Cultura Classica": 4,
+    "Hermes": 1,
+    "Zeitschrift für katholische Theologie": 1,
+    "Vigiliae Christianae": 2,
+    "Biblica": 1,
+    "Illinois Classical Studies": 1
    }
   },
   {
    "book": "",
    "page": 1185,
    "section": "a",
-   "count": 1,
-   "articles": 1,
+   "band": 0,
+   "count": 9,
+   "articles": 9,
    "by_journal": {
-    "The Classical Quarterly": 1
+    "The Classical Quarterly": 1,
+    "Journal of Biblical Literature": 1,
+    "Rheinisches Museum für Philologie": 2,
+    "Hermes": 2,
+    "Mnemosyne": 1,
+    "Zeitschrift für katholische Theologie": 2
    }
   },
   {
    "book": "",
    "page": 1185,
    "section": "b",
-   "count": 5,
-   "articles": 5,
+   "band": 0,
+   "count": 14,
+   "articles": 12,
    "by_journal": {
     "Phronesis": 2,
     "Archivio di Filosofia": 1,
     "The Classical Review": 1,
-    "Classical Philology": 1
+    "Classical Philology": 1,
+    "Rheinisches Museum für Philologie": 3,
+    "Hermes": 2,
+    "Quaderni Urbinati di Cultura Classica": 1,
+    "Recherches de théologie ancienne et médiévale": 1,
+    "Mnemosyne": 1,
+    "Vigiliae Christianae": 1
    }
   },
   {
    "book": "",
    "page": 1186,
    "section": "a",
-   "count": 4,
-   "articles": 4,
+   "band": 0,
+   "count": 9,
+   "articles": 8,
    "by_journal": {
-    "Phronesis": 1,
     "The Classical Quarterly": 2,
+    "Rheinisches Museum für Philologie": 3,
+    "Hermes": 2,
+    "Journal of Biblical Literature": 1,
+    "Biblica": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1186,
+   "section": "a",
+   "band": 1,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
     "Méthexis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1186,
+   "section": "a",
+   "band": 2,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1186,
+   "section": "b",
+   "band": 0,
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Biblica": 2
    }
   },
   {
    "book": "",
    "page": 1187,
    "section": "a",
-   "count": 4,
-   "articles": 3,
+   "band": 0,
+   "count": 6,
+   "articles": 5,
    "by_journal": {
     "Les Études philosophiques": 1,
     "Archivio di Filosofia": 1,
-    "History of Philosophy Quarterly": 2
+    "Hermes": 1,
+    "Illinois Classical Studies": 2,
+    "Biblica": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1187,
+   "section": "a",
+   "band": 1,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "History of Philosophy Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1187,
+   "section": "a",
+   "band": 2,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "History of Philosophy Quarterly": 1
    }
   },
   {
    "book": "",
    "page": 1187,
    "section": "b",
-   "count": 4,
-   "articles": 4,
+   "band": 0,
+   "count": 2,
+   "articles": 2,
    "by_journal": {
-    "The Classical Review": 2,
+    "Rheinisches Museum für Philologie": 1,
+    "Biblica": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1187,
+   "section": "b",
+   "band": 1,
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "The Classical Review": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 1187,
+   "section": "b",
+   "band": 2,
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
     "History of Philosophy Quarterly": 1,
+    "Classical Philology": 1,
+    "Rheinisches Museum für Philologie": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1188,
+   "section": "a",
+   "band": 0,
+   "count": 5,
+   "articles": 5,
+   "by_journal": {
+    "Classical Philology": 1,
+    "Biblica": 1,
+    "The Harvard Theological Review": 1,
+    "Vigiliae Christianae": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 1188,
+   "section": "a",
+   "band": 1,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1188,
+   "section": "a",
+   "band": 2,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
     "Classical Philology": 1
    }
   },
@@ -137,89 +442,285 @@
    "book": "",
    "page": 1188,
    "section": "b",
+   "band": 0,
    "count": 5,
+   "articles": 4,
+   "by_journal": {
+    "Classical Philology": 1,
+    "Revue Internationale de Philosophie": 1,
+    "Hermes": 1,
+    "Transactions of the American Philological Association (1974-2014)": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 1188,
+   "section": "b",
+   "band": 1,
+   "count": 4,
+   "articles": 4,
+   "by_journal": {
+    "Classical Philology": 1,
+    "The Classical Quarterly": 1,
+    "The American Journal of Philology": 1,
+    "Rheinisches Museum für Philologie": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1188,
+   "section": "b",
+   "band": 2,
+   "count": 4,
    "articles": 3,
    "by_journal": {
     "Classical Philology": 2,
-    "Revue Internationale de Philosophie": 1,
-    "The Classical Quarterly": 2
+    "The Classical Quarterly": 1,
+    "Harvard Studies in Classical Philology": 1
    }
   },
   {
    "book": "",
    "page": 1189,
    "section": "a",
-   "count": 1,
-   "articles": 1,
+   "band": 0,
+   "count": 2,
+   "articles": 2,
    "by_journal": {
-    "Classical Philology": 1
+    "Classical Philology": 1,
+    "Zeitschrift für katholische Theologie": 1
    }
   },
   {
    "book": "",
    "page": 1189,
    "section": "b",
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Revue Internationale de Philosophie": 1
-   }
-  },
-  {
-   "book": "",
-   "page": 1190,
-   "section": "a",
-   "count": 7,
+   "band": 0,
+   "count": 4,
    "articles": 4,
    "by_journal": {
+    "Revue Internationale de Philosophie": 1,
+    "The Harvard Theological Review": 1,
+    "Quaderni Urbinati di Cultura Classica": 1,
+    "Biblica": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1190,
+   "section": "a",
+   "band": 0,
+   "count": 9,
+   "articles": 5,
+   "by_journal": {
     "History of Philosophy Quarterly": 1,
-    "Classical Philology": 5,
-    "Revue Internationale de Philosophie": 1
+    "Classical Philology": 1,
+    "Revue Internationale de Philosophie": 1,
+    "The Classical Journal": 5,
+    "Journal of Biblical Literature": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1190,
+   "section": "a",
+   "band": 1,
+   "count": 2,
+   "articles": 1,
+   "by_journal": {
+    "Classical Philology": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 1190,
+   "section": "a",
+   "band": 2,
+   "count": 2,
+   "articles": 1,
+   "by_journal": {
+    "Classical Philology": 2
    }
   },
   {
    "book": "",
    "page": 1190,
    "section": "b",
+   "band": 0,
    "count": 9,
-   "articles": 9,
+   "articles": 7,
    "by_journal": {
     "The Classical Quarterly": 2,
-    "Les Études philosophiques": 1,
-    "Revue de Philosophie Ancienne": 1,
     "Archivio di Filosofia": 1,
     "Classical Philology": 1,
-    "History of Philosophy Quarterly": 1,
     "Revue Internationale de Philosophie": 1,
+    "The Classical Journal": 3,
+    "Mnemosyne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1190,
+   "section": "b",
+   "band": 1,
+   "count": 5,
+   "articles": 5,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "Les Études philosophiques": 1,
+    "Revue de Philosophie Ancienne": 1,
+    "History of Philosophy Quarterly": 1,
     "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1190,
+   "section": "b",
+   "band": 2,
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "Revue de Philosophie Ancienne": 1
    }
   },
   {
    "book": "",
    "page": 1191,
    "section": "a",
-   "count": 5,
+   "band": 0,
+   "count": 4,
+   "articles": 4,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "Revue de Philosophie Ancienne": 1,
+    "Biblica": 1,
+    "Quaderni Urbinati di Cultura Classica": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1191,
+   "section": "a",
+   "band": 1,
+   "count": 4,
    "articles": 2,
    "by_journal": {
-    "The Classical Quarterly": 2,
+    "The Classical Quarterly": 1,
     "Revue de Philosophie Ancienne": 3
+   }
+  },
+  {
+   "book": "",
+   "page": 1191,
+   "section": "a",
+   "band": 2,
+   "count": 2,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Quarterly": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 1191,
+   "section": "b",
+   "band": 0,
+   "count": 7,
+   "articles": 5,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "Rheinisches Museum für Philologie": 1,
+    "The American Journal of Philology": 1,
+    "Transactions and Proceedings of the American Philological Association": 1,
+    "Biblica": 3
+   }
+  },
+  {
+   "book": "",
+   "page": 1191,
+   "section": "b",
+   "band": 1,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1192,
+   "section": "a",
+   "band": 0,
+   "count": 8,
+   "articles": 8,
+   "by_journal": {
+    "Biblica": 2,
+    "Rheinisches Museum für Philologie": 2,
+    "Quaderni Urbinati di Cultura Classica": 1,
+    "The American Journal of Philology": 2,
+    "Transactions of the American Philological Association (1869-1896)": 1
    }
   },
   {
    "book": "",
    "page": 1192,
    "section": "b",
-   "count": 3,
-   "articles": 3,
+   "band": 0,
+   "count": 9,
+   "articles": 4,
+   "by_journal": {
+    "Phronesis": 1,
+    "Biblica": 4,
+    "Hermes": 1,
+    "Rheinisches Museum für Philologie": 3
+   }
+  },
+  {
+   "book": "",
+   "page": 1192,
+   "section": "b",
+   "band": 1,
+   "count": 2,
+   "articles": 2,
    "by_journal": {
     "The Classical Quarterly": 1,
-    "Phronesis": 2
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1192,
+   "section": "b",
+   "band": 2,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Rheinisches Museum für Philologie": 1
    }
   },
   {
    "book": "",
    "page": 1193,
    "section": "a",
+   "band": 0,
+   "count": 9,
+   "articles": 9,
+   "by_journal": {
+    "Rheinisches Museum für Philologie": 3,
+    "Quaderni Urbinati di Cultura Classica": 2,
+    "Transactions and Proceedings of the American Philological Association": 1,
+    "Zeitschrift für katholische Theologie": 1,
+    "Vigiliae Christianae": 1,
+    "Biblica": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1193,
+   "section": "a",
+   "band": 1,
    "count": 1,
    "articles": 1,
    "by_journal": {
@@ -230,6 +731,19 @@
    "book": "",
    "page": 1193,
    "section": "b",
+   "band": 0,
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "The American Journal of Philology": 1,
+    "Biblica": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1193,
+   "section": "b",
+   "band": 2,
    "count": 1,
    "articles": 1,
    "by_journal": {
@@ -240,31 +754,65 @@
    "book": "",
    "page": 1194,
    "section": "a",
-   "count": 4,
-   "articles": 3,
+   "band": 0,
+   "count": 10,
+   "articles": 7,
+   "by_journal": {
+    "Les Études philosophiques": 1,
+    "The Classical Review": 2,
+    "The Catholic Biblical Quarterly": 1,
+    "Zeitschrift für katholische Theologie": 1,
+    "Quaderni Urbinati di Cultura Classica": 3,
+    "The American Journal of Philology": 1,
+    "Biblica": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1194,
+   "section": "a",
+   "band": 1,
+   "count": 2,
+   "articles": 2,
    "by_journal": {
     "The Classical Quarterly": 1,
-    "Les Études philosophiques": 1,
-    "The Classical Review": 2
+    "Transactions of the American Philological Association (1974-2014)": 1
    }
   },
   {
    "book": "",
    "page": 1194,
    "section": "b",
-   "count": 5,
-   "articles": 4,
+   "band": 0,
+   "count": 8,
+   "articles": 7,
    "by_journal": {
     "Méthexis": 2,
     "Phronesis": 1,
-    "The Classical Quarterly": 1,
-    "The Classical Review": 1
+    "The Classical Review": 1,
+    "Rheinisches Museum für Philologie": 1,
+    "Transactions and Proceedings of the American Philological Association": 1,
+    "Mnemosyne": 1,
+    "Quaderni Urbinati di Cultura Classica": 1
    }
   },
   {
    "book": "",
-   "page": 1195,
-   "section": "a",
+   "page": 1194,
+   "section": "b",
+   "band": 1,
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Harvard Studies in Classical Philology": 1,
+    "Hermes": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1194,
+   "section": "b",
+   "band": 2,
    "count": 1,
    "articles": 1,
    "by_journal": {
@@ -274,137 +822,454 @@
   {
    "book": "",
    "page": 1195,
-   "section": "b",
+   "section": "a",
+   "band": 0,
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "Church History": 1,
+    "Vigiliae Christianae": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1195,
+   "section": "a",
+   "band": 1,
    "count": 1,
    "articles": 1,
    "by_journal": {
-    "History of Philosophy Quarterly": 1
+    "Recherches de théologie et philosophie médiévales": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1195,
+   "section": "b",
+   "band": 0,
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "History of Philosophy Quarterly": 1,
+    "Rheinisches Museum für Philologie": 1,
+    "Biblica": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1196,
+   "section": "a",
+   "band": 0,
+   "count": 9,
+   "articles": 7,
+   "by_journal": {
+    "Biblica": 5,
+    "Vigiliae Christianae": 1,
+    "Zeitschrift für katholische Theologie": 2,
+    "Recherches de théologie ancienne et médiévale": 1
    }
   },
   {
    "book": "",
    "page": 1196,
    "section": "b",
-   "count": 3,
-   "articles": 2,
+   "band": 0,
+   "count": 6,
+   "articles": 6,
    "by_journal": {
-    "The Classical Quarterly": 1,
-    "Revue de Philosophie Ancienne": 2
+    "Rheinisches Museum für Philologie": 1,
+    "History of Religions": 1,
+    "Transactions and Proceedings of the American Philological Association": 1,
+    "Church History": 1,
+    "Vigiliae Christianae": 1,
+    "Biblica": 1
    }
   },
   {
    "book": "",
-   "page": 1197,
-   "section": "a",
-   "count": 4,
-   "articles": 4,
+   "page": 1196,
+   "section": "b",
+   "band": 1,
+   "count": 2,
+   "articles": 2,
    "by_journal": {
     "The Classical Quarterly": 1,
-    "Phronesis": 1,
-    "History of Philosophy Quarterly": 1,
+    "Revue de Philosophie Ancienne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1196,
+   "section": "b",
+   "band": 2,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
     "Revue de Philosophie Ancienne": 1
    }
   },
   {
    "book": "",
    "page": 1197,
-   "section": "b",
-   "count": 1,
-   "articles": 1,
+   "section": "a",
+   "band": 0,
+   "count": 11,
+   "articles": 10,
    "by_journal": {
-    "The Classical Review": 1
+    "The Classical Quarterly": 1,
+    "Phronesis": 1,
+    "History of Philosophy Quarterly": 1,
+    "Revue de Philosophie Ancienne": 1,
+    "Mnemosyne": 1,
+    "Zeitschrift für Theologie und Kirche": 1,
+    "Theologische Rundschau": 1,
+    "Recherches de théologie et philosophie médiévales": 1,
+    "Quaderni Urbinati di Cultura Classica": 2,
+    "Transactions of the American Philological Association (1974-2014)": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1197,
+   "section": "b",
+   "band": 0,
+   "count": 5,
+   "articles": 5,
+   "by_journal": {
+    "The Classical Review": 1,
+    "Zeitschrift für katholische Theologie": 1,
+    "Recherches de théologie ancienne et médiévale": 1,
+    "Novum Testamentum": 1,
+    "The American Journal of Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1197,
+   "section": "b",
+   "band": 1,
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Harvard Studies in Classical Philology": 1,
+    "Illinois Classical Studies": 1
    }
   },
   {
    "book": "",
    "page": 1198,
    "section": "a",
-   "count": 7,
-   "articles": 6,
+   "band": 0,
+   "count": 12,
+   "articles": 10,
    "by_journal": {
     "Revue de Philosophie Ancienne": 2,
-    "Méthexis": 1,
     "Archivio di Filosofia": 1,
-    "Phronesis": 1,
-    "Classical Philology": 2
+    "Classical Philology": 1,
+    "Harvard Studies in Classical Philology": 1,
+    "Hermes": 1,
+    "Rheinisches Museum für Philologie": 4,
+    "Church History": 1,
+    "Quaderni Urbinati di Cultura Classica": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1198,
+   "section": "a",
+   "band": 1,
+   "count": 4,
+   "articles": 4,
+   "by_journal": {
+    "Méthexis": 1,
+    "Classical Philology": 1,
+    "Hermes": 1,
+    "Rheinisches Museum für Philologie": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1198,
+   "section": "a",
+   "band": 2,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Rheinisches Museum für Philologie": 1
    }
   },
   {
    "book": "",
    "page": 1198,
    "section": "b",
+   "band": 0,
+   "count": 6,
+   "articles": 5,
+   "by_journal": {
+    "Journal of Biblical Literature": 1,
+    "Quaderni Urbinati di Cultura Classica": 1,
+    "The American Journal of Philology": 1,
+    "Mnemosyne": 1,
+    "Hermes": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 1198,
+   "section": "b",
+   "band": 1,
    "count": 2,
    "articles": 2,
    "by_journal": {
     "Méthexis": 1,
-    "Phronesis": 1
+    "Mnemosyne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1198,
+   "section": "b",
+   "band": 2,
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "Phronesis": 1,
+    "Recherches de théologie et philosophie médiévales": 1,
+    "Mnemosyne": 1
    }
   },
   {
    "book": "",
    "page": 1199,
    "section": "a",
-   "count": 2,
-   "articles": 2,
+   "band": 0,
+   "count": 5,
+   "articles": 5,
    "by_journal": {
-    "Phronesis": 2
+    "Mnemosyne": 2,
+    "Recherches de théologie et philosophie médiévales": 1,
+    "The American Journal of Philology": 1,
+    "Quaderni Urbinati di Cultura Classica": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1199,
+   "section": "a",
+   "band": 1,
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "Phronesis": 2,
+    "Mnemosyne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1199,
+   "section": "a",
+   "band": 2,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Mnemosyne": 1
    }
   },
   {
    "book": "",
    "page": 1199,
    "section": "b",
+   "band": 0,
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "Mnemosyne": 1,
+    "Quaderni Urbinati di Cultura Classica": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1199,
+   "section": "b",
+   "band": 1,
    "count": 1,
    "articles": 1,
    "by_journal": {
-    "The Classical Quarterly": 1
+    "Mnemosyne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1199,
+   "section": "b",
+   "band": 2,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Mnemosyne": 1
    }
   },
   {
    "book": "",
    "page": 1200,
    "section": "a",
+   "band": 0,
+   "count": 9,
+   "articles": 8,
+   "by_journal": {
+    "History of Philosophy Quarterly": 1,
+    "Recherches de théologie ancienne et médiévale": 4,
+    "The Classical Journal": 1,
+    "Mnemosyne": 1,
+    "Quaderni Urbinati di Cultura Classica": 1,
+    "Vigiliae Christianae": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1200,
+   "section": "a",
+   "band": 1,
    "count": 1,
    "articles": 1,
    "by_journal": {
-    "History of Philosophy Quarterly": 1
+    "Recherches de théologie ancienne et médiévale": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1200,
+   "section": "a",
+   "band": 2,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Recherches de théologie ancienne et médiévale": 1
    }
   },
   {
    "book": "",
    "page": 1200,
    "section": "b",
-   "count": 2,
-   "articles": 2,
+   "band": 0,
+   "count": 6,
+   "articles": 5,
+   "by_journal": {
+    "The American Journal of Philology": 1,
+    "Recherches de théologie ancienne et médiévale": 1,
+    "Zeitschrift für katholische Theologie": 1,
+    "Rheinisches Museum für Philologie": 1,
+    "Quaderni Urbinati di Cultura Classica": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 1200,
+   "section": "b",
+   "band": 1,
+   "count": 4,
+   "articles": 4,
    "by_journal": {
     "Les Études philosophiques": 1,
-    "Phronesis": 1
+    "Mnemosyne": 1,
+    "Recherches de théologie ancienne et médiévale": 1,
+    "Classical Antiquity": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1200,
+   "section": "b",
+   "band": 2,
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 1,
+    "Recherches de théologie ancienne et médiévale": 1
    }
   },
   {
    "book": "",
    "page": 1201,
    "section": "a",
+   "band": 0,
+   "count": 4,
+   "articles": 4,
+   "by_journal": {
+    "Biblica": 1,
+    "Vigiliae Christianae": 2,
+    "Recherches de théologie ancienne et médiévale": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1201,
+   "section": "a",
+   "band": 1,
    "count": 1,
    "articles": 1,
    "by_journal": {
-    "The Classical Quarterly": 1
+    "Recherches de théologie ancienne et médiévale": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1201,
+   "section": "a",
+   "band": 2,
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "Recherches de théologie ancienne et médiévale": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1201,
+   "section": "b",
+   "band": 0,
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "Rheinisches Museum für Philologie": 1,
+    "Recherches de théologie ancienne et médiévale": 1,
+    "Zeitschrift für katholische Theologie": 1
    }
   },
   {
    "book": "",
    "page": 1202,
    "section": "a",
-   "count": 1,
-   "articles": 1,
+   "band": 0,
+   "count": 2,
+   "articles": 2,
    "by_journal": {
-    "Classical Philology": 1
+    "Classical Philology": 1,
+    "Zeitschrift für katholische Theologie": 1
    }
   },
   {
    "book": "",
    "page": 1202,
    "section": "b",
+   "band": 0,
+   "count": 6,
+   "articles": 5,
+   "by_journal": {
+    "Church History": 3,
+    "The Harvard Theological Review": 1,
+    "Recherches de théologie et philosophie médiévales": 1,
+    "Hermes": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1202,
+   "section": "b",
+   "band": 1,
    "count": 1,
    "articles": 1,
    "by_journal": {
@@ -414,131 +1279,88 @@
   {
    "book": "",
    "page": 1203,
-   "section": "b",
-   "count": 1,
+   "section": "a",
+   "band": 0,
+   "count": 3,
    "articles": 1,
    "by_journal": {
-    "Classical Philology": 1
+    "Quaderni Urbinati di Cultura Classica": 3
+   }
+  },
+  {
+   "book": "",
+   "page": 1203,
+   "section": "a",
+   "band": 1,
+   "count": 3,
+   "articles": 1,
+   "by_journal": {
+    "Quaderni Urbinati di Cultura Classica": 3
+   }
+  },
+  {
+   "book": "",
+   "page": 1203,
+   "section": "a",
+   "band": 2,
+   "count": 3,
+   "articles": 1,
+   "by_journal": {
+    "Quaderni Urbinati di Cultura Classica": 3
+   }
+  },
+  {
+   "book": "",
+   "page": 1203,
+   "section": "b",
+   "band": 0,
+   "count": 11,
+   "articles": 7,
+   "by_journal": {
+    "Classical Philology": 1,
+    "Vigiliae Christianae": 1,
+    "Transactions and Proceedings of the American Philological Association": 1,
+    "Rheinisches Museum für Philologie": 1,
+    "Quaderni Urbinati di Cultura Classica": 4,
+    "Mnemosyne": 1,
+    "Illinois Classical Studies": 2
    }
   },
   {
    "book": "",
    "page": 1204,
    "section": "a",
-   "count": 2,
-   "articles": 1,
+   "band": 0,
+   "count": 22,
+   "articles": 6,
    "by_journal": {
-    "Classical Philology": 2
+    "Classical Philology": 2,
+    "Vigiliae Christianae": 1,
+    "Rheinisches Museum für Philologie": 8,
+    "Hermes": 1,
+    "Biblica": 10
    }
   },
   {
    "book": "",
    "page": 1204,
    "section": "b",
-   "count": 3,
-   "articles": 3,
-   "by_journal": {
-    "Phronesis": 3
-   }
-  },
-  {
-   "book": "",
-   "page": 1205,
-   "section": "a",
-   "count": 3,
-   "articles": 2,
+   "band": 0,
+   "count": 8,
+   "articles": 5,
    "by_journal": {
     "Phronesis": 1,
-    "Classical Philology": 2
+    "Vigiliae Christianae": 1,
+    "Hermes": 1,
+    "The American Journal of Philology": 1,
+    "Biblica": 4
    }
   },
   {
    "book": "",
-   "page": 1206,
-   "section": "a",
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Classical Philology": 1
-   }
-  },
-  {
-   "book": "",
-   "page": 1206,
+   "page": 1204,
    "section": "b",
-   "count": 2,
-   "articles": 2,
-   "by_journal": {
-    "The Classical Quarterly": 1,
-    "Phronesis": 1
-   }
-  },
-  {
-   "book": "",
-   "page": 1207,
-   "section": "b",
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical Quarterly": 1
-   }
-  },
-  {
-   "book": "",
-   "page": 1208,
-   "section": "a",
-   "count": 4,
-   "articles": 3,
-   "by_journal": {
-    "Phronesis": 3,
-    "Classical Philology": 1
-   }
-  },
-  {
-   "book": "",
-   "page": 1208,
-   "section": "b",
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical Quarterly": 1
-   }
-  },
-  {
-   "book": "",
-   "page": 1209,
-   "section": "a",
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Classical Philology": 1
-   }
-  },
-  {
-   "book": "",
-   "page": 1209,
-   "section": "b",
-   "count": 3,
-   "articles": 2,
-   "by_journal": {
-    "The Classical Quarterly": 1,
-    "Classical Philology": 2
-   }
-  },
-  {
-   "book": "",
-   "page": 1211,
-   "section": "a",
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Méthexis": 1
-   }
-  },
-  {
-   "book": "",
-   "page": 1211,
-   "section": "b",
+   "band": 1,
    "count": 2,
    "articles": 2,
    "by_journal": {
@@ -547,37 +1369,485 @@
   },
   {
    "book": "",
-   "page": 1212,
+   "page": 1204,
    "section": "b",
+   "band": 2,
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 1205,
+   "section": "a",
+   "band": 0,
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "Phronesis": 1,
+    "Hermes": 1,
+    "Rheinisches Museum für Philologie": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1205,
+   "section": "a",
+   "band": 1,
    "count": 1,
    "articles": 1,
    "by_journal": {
-    "History of Philosophy Quarterly": 1
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1205,
+   "section": "a",
+   "band": 2,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1205,
+   "section": "b",
+   "band": 0,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Zeitschrift für katholische Theologie": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1205,
+   "section": "b",
+   "band": 1,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Zeitschrift für katholische Theologie": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1205,
+   "section": "b",
+   "band": 2,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Zeitschrift für katholische Theologie": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1206,
+   "section": "a",
+   "band": 0,
+   "count": 10,
+   "articles": 8,
+   "by_journal": {
+    "Rheinisches Museum für Philologie": 4,
+    "Church History": 1,
+    "Zeitschrift für katholische Theologie": 1,
+    "Quaderni Urbinati di Cultura Classica": 1,
+    "Recherches de théologie ancienne et médiévale": 1,
+    "Biblica": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 1206,
+   "section": "a",
+   "band": 1,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Zeitschrift für katholische Theologie": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1206,
+   "section": "a",
+   "band": 2,
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Classical Philology": 1,
+    "Zeitschrift für katholische Theologie": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1206,
+   "section": "b",
+   "band": 0,
+   "count": 5,
+   "articles": 4,
+   "by_journal": {
+    "Rheinisches Museum für Philologie": 1,
+    "Zeitschrift für katholische Theologie": 1,
+    "Hermes": 1,
+    "Biblica": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 1206,
+   "section": "b",
+   "band": 1,
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 1,
+    "Zeitschrift für katholische Theologie": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1206,
+   "section": "b",
+   "band": 2,
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "Zeitschrift für katholische Theologie": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1207,
+   "section": "a",
+   "band": 0,
+   "count": 8,
+   "articles": 7,
+   "by_journal": {
+    "Recherches de théologie ancienne et médiévale": 2,
+    "Hermes": 2,
+    "Rheinisches Museum für Philologie": 2,
+    "Zeitschrift für katholische Theologie": 1,
+    "The Catholic Biblical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1207,
+   "section": "a",
+   "band": 1,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Zeitschrift für katholische Theologie": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1207,
+   "section": "a",
+   "band": 2,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Zeitschrift für katholische Theologie": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1207,
+   "section": "b",
+   "band": 0,
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "Rheinisches Museum für Philologie": 1,
+    "Zeitschrift für katholische Theologie": 1,
+    "Biblica": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1207,
+   "section": "b",
+   "band": 1,
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "Zeitschrift für katholische Theologie": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1207,
+   "section": "b",
+   "band": 2,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Zeitschrift für katholische Theologie": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1208,
+   "section": "a",
+   "band": 0,
+   "count": 11,
+   "articles": 7,
+   "by_journal": {
+    "Phronesis": 2,
+    "Classical Philology": 1,
+    "Rheinisches Museum für Philologie": 4,
+    "Illinois Classical Studies": 2,
+    "Zeitschrift für katholische Theologie": 1,
+    "The American Journal of Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1208,
+   "section": "a",
+   "band": 1,
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 1,
+    "The American Journal of Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1208,
+   "section": "a",
+   "band": 2,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The American Journal of Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1208,
+   "section": "b",
+   "band": 0,
+   "count": 5,
+   "articles": 5,
+   "by_journal": {
+    "Transactions and Proceedings of the American Philological Association": 1,
+    "Novum Testamentum": 1,
+    "Zeitschrift für katholische Theologie": 1,
+    "Rheinisches Museum für Philologie": 1,
+    "The American Journal of Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1208,
+   "section": "b",
+   "band": 1,
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "The Classical World": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1209,
+   "section": "a",
+   "band": 0,
+   "count": 9,
+   "articles": 8,
+   "by_journal": {
+    "Classical Philology": 1,
+    "Zeitschrift für katholische Theologie": 1,
+    "Rheinisches Museum für Philologie": 1,
+    "The American Journal of Philology": 2,
+    "The Classical Journal": 1,
+    "Transactions of the American Philological Association (1974-2014)": 1,
+    "Recherches de théologie et philosophie médiévales": 1,
+    "Vigiliae Christianae": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1209,
+   "section": "b",
+   "band": 0,
+   "count": 7,
+   "articles": 5,
+   "by_journal": {
+    "Classical Philology": 1,
+    "Rheinisches Museum für Philologie": 1,
+    "Illinois Classical Studies": 3,
+    "Transactions and Proceedings of the American Philological Association": 1,
+    "Vigiliae Christianae": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1209,
+   "section": "b",
+   "band": 2,
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1210,
+   "section": "a",
+   "band": 0,
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "Rheinisches Museum für Philologie": 1,
+    "Illinois Classical Studies": 1,
+    "Quaderni Urbinati di Cultura Classica": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1210,
+   "section": "b",
+   "band": 0,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The American Journal of Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1211,
+   "section": "a",
+   "band": 0,
+   "count": 5,
+   "articles": 2,
+   "by_journal": {
+    "Méthexis": 1,
+    "Rheinisches Museum für Philologie": 4
+   }
+  },
+  {
+   "book": "",
+   "page": 1211,
+   "section": "b",
+   "band": 0,
+   "count": 8,
+   "articles": 5,
+   "by_journal": {
+    "Phronesis": 2,
+    "Rheinisches Museum für Philologie": 5,
+    "The American Journal of Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1212,
+   "section": "a",
+   "band": 0,
+   "count": 5,
+   "articles": 4,
+   "by_journal": {
+    "Harvard Studies in Classical Philology": 1,
+    "Rheinisches Museum für Philologie": 2,
+    "The Harvard Theological Review": 1,
+    "Recherches de théologie ancienne et médiévale": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1212,
+   "section": "b",
+   "band": 0,
+   "count": 4,
+   "articles": 4,
+   "by_journal": {
+    "History of Philosophy Quarterly": 1,
+    "Harvard Studies in Classical Philology": 1,
+    "Hermes": 1,
+    "Zeitschrift für katholische Theologie": 1
    }
   },
   {
    "book": "",
    "page": 1213,
    "section": "a",
-   "count": 8,
-   "articles": 6,
+   "band": 0,
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Revue Internationale de Philosophie": 1,
+    "The Classical World": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1213,
+   "section": "a",
+   "band": 1,
+   "count": 5,
+   "articles": 5,
    "by_journal": {
     "Phronesis": 1,
     "History of Philosophy Quarterly": 2,
-    "Revue Internationale de Philosophie": 2,
-    "Classical Philology": 2,
+    "Revue Internationale de Philosophie": 1,
     "Revue de Philosophie Ancienne": 1
    }
   },
   {
    "book": "",
    "page": 1213,
-   "section": "b",
+   "section": "a",
+   "band": 2,
    "count": 3,
    "articles": 3,
    "by_journal": {
+    "Phronesis": 1,
+    "Revue Internationale de Philosophie": 1,
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1213,
+   "section": "a",
+   "band": 3,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1213,
+   "section": "b",
+   "band": 0,
+   "count": 8,
+   "articles": 7,
+   "by_journal": {
+    "Phronesis": 1,
     "The Classical Quarterly": 1,
-    "Revue Internationale de Philosophie": 2
+    "Revue Internationale de Philosophie": 2,
+    "Classical Antiquity": 2,
+    "The Harvard Theological Review": 1,
+    "Church History": 1
    }
   }
  ],
@@ -622,7 +1892,31 @@
    "book": "",
    "page": 1181,
    "section": "a",
-   "line": 19,
+   "line": 15,
+   "journal": "Phronesis",
+   "year": "1988",
+   "iid": "029ee75a-1525-398a-a06b-0d82df926d36",
+   "doi": "10.2307/4182309",
+   "title": "Horos (Limit) in Aristotle's \"Nicomachean Ethics\"",
+   "author": "Sandra Peterson"
+  },
+  {
+   "book": "",
+   "page": 1181,
+   "section": "a",
+   "line": 30,
+   "journal": "Phronesis",
+   "year": "1988",
+   "iid": "029ee75a-1525-398a-a06b-0d82df926d36",
+   "doi": "10.2307/4182309",
+   "title": "Horos (Limit) in Aristotle's \"Nicomachean Ethics\"",
+   "author": "Sandra Peterson"
+  },
+  {
+   "book": "",
+   "page": 1181,
+   "section": "b",
+   "line": null,
    "journal": "Phronesis",
    "year": "1988",
    "iid": "029ee75a-1525-398a-a06b-0d82df926d36",
@@ -646,7 +1940,31 @@
    "book": "",
    "page": 1213,
    "section": "a",
-   "line": 27,
+   "line": 15,
+   "journal": "Phronesis",
+   "year": "1994",
+   "iid": "052a00d3-378e-36ea-ab6d-29def8b657eb",
+   "doi": "10.2307/4182479",
+   "title": "Aristotle on Loving Another for His Own Sake",
+   "author": "Kelly Rogers"
+  },
+  {
+   "book": "",
+   "page": 1213,
+   "section": "a",
+   "line": 30,
+   "journal": "Phronesis",
+   "year": "1994",
+   "iid": "052a00d3-378e-36ea-ab6d-29def8b657eb",
+   "doi": "10.2307/4182479",
+   "title": "Aristotle on Loving Another for His Own Sake",
+   "author": "Kelly Rogers"
+  },
+  {
+   "book": "",
+   "page": 1213,
+   "section": "b",
+   "line": null,
    "journal": "Phronesis",
    "year": "1994",
    "iid": "052a00d3-378e-36ea-ab6d-29def8b657eb",
@@ -718,7 +2036,31 @@
    "book": "",
    "page": 1190,
    "section": "b",
-   "line": 9,
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2008",
+   "iid": "1070c8f8-9b19-31cf-89bd-f8706e38c0c9",
+   "doi": "10.2307/27564125",
+   "title": "Music and the Education of the Soul in Plato and Aristotle: Homoeopathy and the Formation of Character",
+   "author": "Frédérique Woerther"
+  },
+  {
+   "book": "",
+   "page": 1190,
+   "section": "b",
+   "line": 15,
+   "journal": "The Classical Quarterly",
+   "year": "2008",
+   "iid": "1070c8f8-9b19-31cf-89bd-f8706e38c0c9",
+   "doi": "10.2307/27564125",
+   "title": "Music and the Education of the Soul in Plato and Aristotle: Homoeopathy and the Formation of Character",
+   "author": "Frédérique Woerther"
+  },
+  {
+   "book": "",
+   "page": 1190,
+   "section": "b",
+   "line": 30,
    "journal": "The Classical Quarterly",
    "year": "2008",
    "iid": "1070c8f8-9b19-31cf-89bd-f8706e38c0c9",
@@ -730,7 +2072,7 @@
    "book": "",
    "page": 1191,
    "section": "a",
-   "line": 35,
+   "line": null,
    "journal": "The Classical Quarterly",
    "year": "2008",
    "iid": "1070c8f8-9b19-31cf-89bd-f8706e38c0c9",
@@ -742,7 +2084,43 @@
    "book": "",
    "page": 1191,
    "section": "a",
-   "line": 36,
+   "line": 15,
+   "journal": "The Classical Quarterly",
+   "year": "2008",
+   "iid": "1070c8f8-9b19-31cf-89bd-f8706e38c0c9",
+   "doi": "10.2307/27564125",
+   "title": "Music and the Education of the Soul in Plato and Aristotle: Homoeopathy and the Formation of Character",
+   "author": "Frédérique Woerther"
+  },
+  {
+   "book": "",
+   "page": 1191,
+   "section": "a",
+   "line": 30,
+   "journal": "The Classical Quarterly",
+   "year": "2008",
+   "iid": "1070c8f8-9b19-31cf-89bd-f8706e38c0c9",
+   "doi": "10.2307/27564125",
+   "title": "Music and the Education of the Soul in Plato and Aristotle: Homoeopathy and the Formation of Character",
+   "author": "Frédérique Woerther"
+  },
+  {
+   "book": "",
+   "page": 1191,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2008",
+   "iid": "1070c8f8-9b19-31cf-89bd-f8706e38c0c9",
+   "doi": "10.2307/27564125",
+   "title": "Music and the Education of the Soul in Plato and Aristotle: Homoeopathy and the Formation of Character",
+   "author": "Frédérique Woerther"
+  },
+  {
+   "book": "",
+   "page": 1191,
+   "section": "b",
+   "line": 15,
    "journal": "The Classical Quarterly",
    "year": "2008",
    "iid": "1070c8f8-9b19-31cf-89bd-f8706e38c0c9",
@@ -1053,18 +2431,6 @@
   {
    "book": "",
    "page": 1182,
-   "section": "b",
-   "line": 31,
-   "journal": "Phronesis",
-   "year": "1992",
-   "iid": "31fbaccb-d4d9-30a8-8ecc-999065d971c9",
-   "doi": "10.2307/4182401",
-   "title": "In Defense of an Alternative View of the Foundation of Aristotle's Moral Theory",
-   "author": "Timothy D. Roche"
-  },
-  {
-   "book": "",
-   "page": 1182,
    "section": "a",
    "line": 34,
    "journal": "Phronesis",
@@ -1294,7 +2660,19 @@
    "book": "",
    "page": 1213,
    "section": "a",
-   "line": 20,
+   "line": 15,
+   "journal": "Revue Internationale de Philosophie",
+   "year": "2014",
+   "iid": "6844437d-e6b2-37e9-80f3-35d37047984c",
+   "doi": "10.2307/24776785",
+   "title": "Aristotle, Friendship and Virtue",
+   "author": "Dean Cocking"
+  },
+  {
+   "book": "",
+   "page": 1213,
+   "section": "a",
+   "line": 30,
    "journal": "Revue Internationale de Philosophie",
    "year": "2014",
    "iid": "6844437d-e6b2-37e9-80f3-35d37047984c",
@@ -1402,7 +2780,19 @@
    "book": "",
    "page": 1190,
    "section": "b",
-   "line": 21,
+   "line": 15,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2020",
+   "iid": "73f50a44-7c38-39f3-91b1-df9380eab900",
+   "doi": "10.2307/27142056",
+   "title": "COURAGE",
+   "author": "Marguerite Deslauriers"
+  },
+  {
+   "book": "",
+   "page": 1190,
+   "section": "b",
+   "line": 30,
    "journal": "Revue de Philosophie Ancienne",
    "year": "2020",
    "iid": "73f50a44-7c38-39f3-91b1-df9380eab900",
@@ -1414,7 +2804,19 @@
    "book": "",
    "page": 1191,
    "section": "a",
-   "line": 17,
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2020",
+   "iid": "73f50a44-7c38-39f3-91b1-df9380eab900",
+   "doi": "10.2307/27142056",
+   "title": "COURAGE",
+   "author": "Marguerite Deslauriers"
+  },
+  {
+   "book": "",
+   "page": 1191,
+   "section": "a",
+   "line": 15,
    "journal": "Revue de Philosophie Ancienne",
    "year": "2020",
    "iid": "73f50a44-7c38-39f3-91b1-df9380eab900",
@@ -1520,21 +2922,33 @@
   },
   {
    "book": "",
-   "page": 1198,
-   "section": "a",
-   "line": 22,
+   "page": 1204,
+   "section": "b",
+   "line": null,
    "journal": "Phronesis",
-   "year": "1987",
-   "iid": "7f7c5219-1a8e-3d8e-b3a1-b2b6d30a0b3e",
-   "doi": "10.2307/4182267",
-   "title": "Three Fundamental Theorems in Aristotle's \"Politics\"",
-   "author": "David Keyt"
+   "year": "2001",
+   "iid": "815bb584-3270-3e64-b349-8ce0915285fc",
+   "doi": "10.2307/4182681",
+   "title": "Epicurus on Pleasure",
+   "author": "Boris Nikolsky"
   },
   {
    "book": "",
    "page": 1204,
    "section": "b",
-   "line": null,
+   "line": 15,
+   "journal": "Phronesis",
+   "year": "2001",
+   "iid": "815bb584-3270-3e64-b349-8ce0915285fc",
+   "doi": "10.2307/4182681",
+   "title": "Epicurus on Pleasure",
+   "author": "Boris Nikolsky"
+  },
+  {
+   "book": "",
+   "page": 1204,
+   "section": "b",
+   "line": 30,
    "journal": "Phronesis",
    "year": "2001",
    "iid": "815bb584-3270-3e64-b349-8ce0915285fc",
@@ -1832,6 +3246,30 @@
   },
   {
    "book": "",
+   "page": 1182,
+   "section": "b",
+   "line": 15,
+   "journal": "Classical Philology",
+   "year": "2006",
+   "iid": "af05bf8e-ad82-3c31-a3af-3b568e707396",
+   "doi": "10.1086/511018",
+   "title": "Troy Destroyed (Plautus <em>Bacchides</em> 973–74 and 1053)",
+   "author": "Michael Fontaine"
+  },
+  {
+   "book": "",
+   "page": 1182,
+   "section": "b",
+   "line": 30,
+   "journal": "Classical Philology",
+   "year": "2006",
+   "iid": "af05bf8e-ad82-3c31-a3af-3b568e707396",
+   "doi": "10.1086/511018",
+   "title": "Troy Destroyed (Plautus <em>Bacchides</em> 973–74 and 1053)",
+   "author": "Michael Fontaine"
+  },
+  {
+   "book": "",
    "page": 1183,
    "section": "a",
    "line": null,
@@ -1858,7 +3296,7 @@
    "book": "",
    "page": 1195,
    "section": "a",
-   "line": 8,
+   "line": null,
    "journal": "The Classical Quarterly",
    "year": "1987",
    "iid": "bc8e16c9-8610-3104-b432-af71e72aaea2",
@@ -2002,7 +3440,43 @@
    "book": "",
    "page": 1187,
    "section": "b",
-   "line": 31,
+   "line": 30,
+   "journal": "Classical Philology",
+   "year": "1983",
+   "iid": "d1d12772-50cc-3046-be1c-3ea170f980a3",
+   "doi": "10.2307/269956",
+   "title": "The Athenian Courts for Homicide",
+   "author": "Raphael Sealey"
+  },
+  {
+   "book": "",
+   "page": 1188,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1983",
+   "iid": "d1d12772-50cc-3046-be1c-3ea170f980a3",
+   "doi": "10.2307/269956",
+   "title": "The Athenian Courts for Homicide",
+   "author": "Raphael Sealey"
+  },
+  {
+   "book": "",
+   "page": 1188,
+   "section": "a",
+   "line": 15,
+   "journal": "Classical Philology",
+   "year": "1983",
+   "iid": "d1d12772-50cc-3046-be1c-3ea170f980a3",
+   "doi": "10.2307/269956",
+   "title": "The Athenian Courts for Homicide",
+   "author": "Raphael Sealey"
+  },
+  {
+   "book": "",
+   "page": 1188,
+   "section": "a",
+   "line": 30,
    "journal": "Classical Philology",
    "year": "1983",
    "iid": "d1d12772-50cc-3046-be1c-3ea170f980a3",
@@ -2014,7 +3488,31 @@
    "book": "",
    "page": 1188,
    "section": "b",
-   "line": 38,
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1983",
+   "iid": "d1d12772-50cc-3046-be1c-3ea170f980a3",
+   "doi": "10.2307/269956",
+   "title": "The Athenian Courts for Homicide",
+   "author": "Raphael Sealey"
+  },
+  {
+   "book": "",
+   "page": 1188,
+   "section": "b",
+   "line": 15,
+   "journal": "Classical Philology",
+   "year": "1983",
+   "iid": "d1d12772-50cc-3046-be1c-3ea170f980a3",
+   "doi": "10.2307/269956",
+   "title": "The Athenian Courts for Homicide",
+   "author": "Raphael Sealey"
+  },
+  {
+   "book": "",
+   "page": 1188,
+   "section": "b",
+   "line": 30,
    "journal": "Classical Philology",
    "year": "1983",
    "iid": "d1d12772-50cc-3046-be1c-3ea170f980a3",
@@ -2230,7 +3728,7 @@
    "book": "",
    "page": 1196,
    "section": "b",
-   "line": 38,
+   "line": 30,
    "journal": "Revue de Philosophie Ancienne",
    "year": "2011",
    "iid": "f9a821cb-4d34-3931-b6ef-c895a8a25491",
@@ -2242,7 +3740,7 @@
    "book": "",
    "page": 1197,
    "section": "a",
-   "line": 2,
+   "line": null,
    "journal": "Revue de Philosophie Ancienne",
    "year": "2011",
    "iid": "f9a821cb-4d34-3931-b6ef-c895a8a25491",
@@ -2285,6 +3783,3894 @@
    "doi": "10.2307/4182459",
    "title": "Due libri su eudaimonia in Aristotele",
    "author": "Pierluigi Donini, Stephen A. White, Anthony Kenny"
+  },
+  {
+   "book": "",
+   "page": 1192,
+   "section": "a",
+   "line": null,
+   "journal": "Biblica",
+   "year": "1967",
+   "iid": "01f20594-dc34-3932-8250-132bd0404e9a",
+   "doi": "10.2307/42629719",
+   "title": "[Elenchus bibliographicus biblicus]",
+   "author": "P. Nober"
+  },
+  {
+   "book": "",
+   "page": 1191,
+   "section": "a",
+   "line": null,
+   "journal": "Biblica",
+   "year": "1967",
+   "iid": "01f20594-dc34-3932-8250-132bd0404e9a",
+   "doi": "10.2307/42629719",
+   "title": "[Elenchus bibliographicus biblicus]",
+   "author": "P. Nober"
+  },
+  {
+   "book": "",
+   "page": 1192,
+   "section": "b",
+   "line": null,
+   "journal": "Biblica",
+   "year": "1967",
+   "iid": "01f20594-dc34-3932-8250-132bd0404e9a",
+   "doi": "10.2307/42629719",
+   "title": "[Elenchus bibliographicus biblicus]",
+   "author": "P. Nober"
+  },
+  {
+   "book": "",
+   "page": 1194,
+   "section": "a",
+   "line": null,
+   "journal": "The Catholic Biblical Quarterly",
+   "year": "1953",
+   "iid": "047b751d-d99c-3ad5-805b-e159e07a9e87",
+   "doi": "10.2307/43724019",
+   "title": "SURVEY OF PERIODICALS",
+   "author": ""
+  },
+  {
+   "book": "",
+   "page": 1207,
+   "section": "a",
+   "line": null,
+   "journal": "Recherches de théologie ancienne et médiévale",
+   "year": "1959",
+   "iid": "04d7ad92-8c6c-33d2-9ab0-0e3a311ef0b8",
+   "doi": "10.2307/26187078",
+   "title": "Saint Bernard et le Pseudo-Aréopagite",
+   "author": "Edmond Boissard"
+  },
+  {
+   "book": "",
+   "page": 1199,
+   "section": "a",
+   "line": 13,
+   "journal": "Mnemosyne",
+   "year": "2022",
+   "iid": "05a87cfd-b1ca-33de-a116-e4b437f4564e",
+   "doi": "10.2307/27298894",
+   "title": "Philosophical vs. Biographical",
+   "author": "Graziano Ranocchia"
+  },
+  {
+   "book": "",
+   "page": 1184,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical World",
+   "year": "1976",
+   "iid": "0635949e-987e-346a-b2d4-930c3220982c",
+   "doi": "10.2307/4348599",
+   "title": "Studies in Greek Lyric Poetry: 1967-1975",
+   "author": "Douglas E. Gerber"
+  },
+  {
+   "book": "",
+   "page": 1184,
+   "section": "a",
+   "line": 15,
+   "journal": "The Classical World",
+   "year": "1976",
+   "iid": "0635949e-987e-346a-b2d4-930c3220982c",
+   "doi": "10.2307/4348599",
+   "title": "Studies in Greek Lyric Poetry: 1967-1975",
+   "author": "Douglas E. Gerber"
+  },
+  {
+   "book": "",
+   "page": 1184,
+   "section": "a",
+   "line": 30,
+   "journal": "The Classical World",
+   "year": "1976",
+   "iid": "0635949e-987e-346a-b2d4-930c3220982c",
+   "doi": "10.2307/4348599",
+   "title": "Studies in Greek Lyric Poetry: 1967-1975",
+   "author": "Douglas E. Gerber"
+  },
+  {
+   "book": "",
+   "page": 1184,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical World",
+   "year": "1976",
+   "iid": "0635949e-987e-346a-b2d4-930c3220982c",
+   "doi": "10.2307/4348599",
+   "title": "Studies in Greek Lyric Poetry: 1967-1975",
+   "author": "Douglas E. Gerber"
+  },
+  {
+   "book": "",
+   "page": 1209,
+   "section": "a",
+   "line": null,
+   "journal": "Zeitschrift für katholische Theologie",
+   "year": "1935",
+   "iid": "06a9b366-d4ce-3f7f-8b1a-d72dc15a38bf",
+   "doi": "10.2307/24226871",
+   "title": "Hippolyt von Rom als Zeuge für den Ausdruck θεοτόϰος",
+   "author": "Hugo Rahner"
+  },
+  {
+   "book": "",
+   "page": 1184,
+   "section": "a",
+   "line": 25,
+   "journal": "Harvard Studies in Classical Philology",
+   "year": "1985",
+   "iid": "08006a22-1425-3baf-bd66-52a1c610343b",
+   "doi": "10.2307/311270",
+   "title": "Χωριστός in Aristotle",
+   "author": "Donald Morrison"
+  },
+  {
+   "book": "",
+   "page": 1197,
+   "section": "b",
+   "line": 18,
+   "journal": "Harvard Studies in Classical Philology",
+   "year": "1985",
+   "iid": "08006a22-1425-3baf-bd66-52a1c610343b",
+   "doi": "10.2307/311270",
+   "title": "Χωριστός in Aristotle",
+   "author": "Donald Morrison"
+  },
+  {
+   "book": "",
+   "page": 1198,
+   "section": "a",
+   "line": 4,
+   "journal": "Harvard Studies in Classical Philology",
+   "year": "1985",
+   "iid": "08006a22-1425-3baf-bd66-52a1c610343b",
+   "doi": "10.2307/311270",
+   "title": "Χωριστός in Aristotle",
+   "author": "Donald Morrison"
+  },
+  {
+   "book": "",
+   "page": 1212,
+   "section": "a",
+   "line": 13,
+   "journal": "Harvard Studies in Classical Philology",
+   "year": "1985",
+   "iid": "08006a22-1425-3baf-bd66-52a1c610343b",
+   "doi": "10.2307/311270",
+   "title": "Χωριστός in Aristotle",
+   "author": "Donald Morrison"
+  },
+  {
+   "book": "",
+   "page": 1194,
+   "section": "b",
+   "line": 16,
+   "journal": "Harvard Studies in Classical Philology",
+   "year": "1985",
+   "iid": "08006a22-1425-3baf-bd66-52a1c610343b",
+   "doi": "10.2307/311270",
+   "title": "Χωριστός in Aristotle",
+   "author": "Donald Morrison"
+  },
+  {
+   "book": "",
+   "page": 1184,
+   "section": "a",
+   "line": null,
+   "journal": "Biblica",
+   "year": "1955",
+   "iid": "08ddd373-2380-35dc-96e4-0a79e47efd3d",
+   "doi": "10.2307/42619118",
+   "title": "ELENCHUS BIBLIOGRAPHICUS BIBLICUS",
+   "author": "P. PETRO NOBER"
+  },
+  {
+   "book": "",
+   "page": 1188,
+   "section": "a",
+   "line": null,
+   "journal": "Biblica",
+   "year": "1955",
+   "iid": "08ddd373-2380-35dc-96e4-0a79e47efd3d",
+   "doi": "10.2307/42619118",
+   "title": "ELENCHUS BIBLIOGRAPHICUS BIBLICUS",
+   "author": "P. PETRO NOBER"
+  },
+  {
+   "book": "",
+   "page": 1201,
+   "section": "a",
+   "line": null,
+   "journal": "Biblica",
+   "year": "1955",
+   "iid": "08ddd373-2380-35dc-96e4-0a79e47efd3d",
+   "doi": "10.2307/42619118",
+   "title": "ELENCHUS BIBLIOGRAPHICUS BIBLICUS",
+   "author": "P. PETRO NOBER"
+  },
+  {
+   "book": "",
+   "page": 1205,
+   "section": "a",
+   "line": null,
+   "journal": "Hermes",
+   "year": "1928",
+   "iid": "0c0902d9-b3d8-319b-b75d-f1fbe3b00a06",
+   "doi": "10.2307/4474079",
+   "title": "Neleus von Skepsis",
+   "author": "H. v. Arnim"
+  },
+  {
+   "book": "",
+   "page": 1198,
+   "section": "a",
+   "line": null,
+   "journal": "Hermes",
+   "year": "1917",
+   "iid": "0bf043e0-6834-36ff-a0f8-3702953fb95e",
+   "doi": "10.2307/4473607",
+   "title": "Plotinische Studien",
+   "author": "H. F. Müller"
+  },
+  {
+   "book": "",
+   "page": 1196,
+   "section": "a",
+   "line": null,
+   "journal": "Biblica",
+   "year": "1957",
+   "iid": "0d1de667-bbcc-3a26-8a6a-26647849bbdd",
+   "doi": "10.2307/42629715",
+   "title": "[Elenchus bibliographicus biblicus]",
+   "author": "P. Nober"
+  },
+  {
+   "book": "",
+   "page": 1185,
+   "section": "a",
+   "line": null,
+   "journal": "Journal of Biblical Literature",
+   "year": "2018",
+   "iid": "0eaa71ee-1385-3e21-8e5a-5ea307f1d678",
+   "doi": "10.15699/jbl.1374.2018.454697",
+   "title": "Is It Valid? A Case for the Repunctuation of Hebrews 9:17",
+   "author": "Daniel Stevens"
+  },
+  {
+   "book": "",
+   "page": 1196,
+   "section": "a",
+   "line": null,
+   "journal": "Biblica",
+   "year": "1952",
+   "iid": "0eceaadb-249d-3907-8c25-1211d5d65411",
+   "doi": "10.2307/42618753",
+   "title": "[Elenchus bibliographicus]",
+   "author": "P. Nober"
+  },
+  {
+   "book": "",
+   "page": 1197,
+   "section": "a",
+   "line": null,
+   "journal": "Mnemosyne",
+   "year": "2017",
+   "iid": "121ae659-795b-3602-bf76-04e6893deeda",
+   "doi": "10.2307/26572868",
+   "title": "Is All That Glitters the <em>Lex Oppia</em>?",
+   "author": "Radd K. Ehrman"
+  },
+  {
+   "book": "",
+   "page": 1208,
+   "section": "b",
+   "line": 26,
+   "journal": "The Classical World",
+   "year": "2018",
+   "iid": "1791ac9b-c922-3565-b3f4-85b4c3bcc4fe",
+   "doi": "10.2307/48553422",
+   "title": "Traditional Religion and Its Natural Function in Aristotle",
+   "author": "MOR SEGEV"
+  },
+  {
+   "book": "",
+   "page": 1183,
+   "section": "b",
+   "line": null,
+   "journal": "Recherches de théologie ancienne et médiévale",
+   "year": "1996",
+   "iid": "19a8584c-dec6-3184-8c2d-2bdd593752fc",
+   "doi": "10.2307/26189052",
+   "title": "CHRISTOLOGICAL NIHILIANISM IN THE SECOND HALF OF THE TWELFTH CENTURY",
+   "author": "Marcia L. Colish"
+  },
+  {
+   "book": "",
+   "page": 1196,
+   "section": "a",
+   "line": null,
+   "journal": "Vigiliae Christianae",
+   "year": "1976",
+   "iid": "1c8cfa57-720a-3f4a-9ac8-f1824dd9d7b6",
+   "doi": "10.2307/1582977",
+   "title": "Ein bildhafter Vergleich bei Seneca, Themistios, Gregor von Nazianz und sein kynisch-stoischer Hintergrund",
+   "author": "Manfred Kertsch"
+  },
+  {
+   "book": "",
+   "page": 1204,
+   "section": "b",
+   "line": null,
+   "journal": "Vigiliae Christianae",
+   "year": "1976",
+   "iid": "1c8cfa57-720a-3f4a-9ac8-f1824dd9d7b6",
+   "doi": "10.2307/1582977",
+   "title": "Ein bildhafter Vergleich bei Seneca, Themistios, Gregor von Nazianz und sein kynisch-stoischer Hintergrund",
+   "author": "Manfred Kertsch"
+  },
+  {
+   "book": "",
+   "page": 1204,
+   "section": "a",
+   "line": null,
+   "journal": "Vigiliae Christianae",
+   "year": "1970",
+   "iid": "1eb853b6-e0aa-344a-879f-2ffd11609e9a",
+   "doi": "10.2307/1583093",
+   "title": "Die antinizänische Synodalaktensammlung des Sabinus von Heraklea",
+   "author": "Wolf-Dieter Hauschild"
+  },
+  {
+   "book": "",
+   "page": 1182,
+   "section": "b",
+   "line": null,
+   "journal": "Illinois Classical Studies",
+   "year": "1991",
+   "iid": "1ded9eb7-2033-36dd-a15a-ffc0532fd3cf",
+   "doi": "10.2307/23064365",
+   "title": "The Plan and Intention of Aristotle's Ethical and Political Writings",
+   "author": "PAUL A. VANDER WAERDT"
+  },
+  {
+   "book": "",
+   "page": 1183,
+   "section": "a",
+   "line": 3,
+   "journal": "Illinois Classical Studies",
+   "year": "1991",
+   "iid": "1ded9eb7-2033-36dd-a15a-ffc0532fd3cf",
+   "doi": "10.2307/23064365",
+   "title": "The Plan and Intention of Aristotle's Ethical and Political Writings",
+   "author": "PAUL A. VANDER WAERDT"
+  },
+  {
+   "book": "",
+   "page": 1197,
+   "section": "b",
+   "line": 28,
+   "journal": "Illinois Classical Studies",
+   "year": "1991",
+   "iid": "1ded9eb7-2033-36dd-a15a-ffc0532fd3cf",
+   "doi": "10.2307/23064365",
+   "title": "The Plan and Intention of Aristotle's Ethical and Political Writings",
+   "author": "PAUL A. VANDER WAERDT"
+  },
+  {
+   "book": "",
+   "page": 1198,
+   "section": "b",
+   "line": null,
+   "journal": "Journal of Biblical Literature",
+   "year": "2016",
+   "iid": "1e5e8170-789b-32d6-9ef0-436bcc4fc953",
+   "doi": "10.15699/jbl.1352.2016.2991",
+   "title": "A Diachronic Study of the Language of Haggai, Zechariah, and Malachi",
+   "author": "Seoung-Yun Shin"
+  },
+  {
+   "book": "",
+   "page": 1206,
+   "section": "b",
+   "line": null,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1927",
+   "iid": "1e7e0052-8aaa-3745-bd07-79e08aea6303",
+   "doi": "10.2307/41245326",
+   "title": "DIE ECHTHEIT DER GROSSEN ETHIK DES ARISTOTELES",
+   "author": "H. v. Arnim"
+  },
+  {
+   "book": "",
+   "page": 1208,
+   "section": "a",
+   "line": 4,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1927",
+   "iid": "1e7e0052-8aaa-3745-bd07-79e08aea6303",
+   "doi": "10.2307/41245326",
+   "title": "DIE ECHTHEIT DER GROSSEN ETHIK DES ARISTOTELES",
+   "author": "H. v. Arnim"
+  },
+  {
+   "book": "",
+   "page": 1208,
+   "section": "a",
+   "line": null,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1927",
+   "iid": "1e7e0052-8aaa-3745-bd07-79e08aea6303",
+   "doi": "10.2307/41245326",
+   "title": "DIE ECHTHEIT DER GROSSEN ETHIK DES ARISTOTELES",
+   "author": "H. v. Arnim"
+  },
+  {
+   "book": "",
+   "page": 1206,
+   "section": "a",
+   "line": null,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1927",
+   "iid": "1e7e0052-8aaa-3745-bd07-79e08aea6303",
+   "doi": "10.2307/41245326",
+   "title": "DIE ECHTHEIT DER GROSSEN ETHIK DES ARISTOTELES",
+   "author": "H. v. Arnim"
+  },
+  {
+   "book": "",
+   "page": 1204,
+   "section": "a",
+   "line": null,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1927",
+   "iid": "1e7e0052-8aaa-3745-bd07-79e08aea6303",
+   "doi": "10.2307/41245326",
+   "title": "DIE ECHTHEIT DER GROSSEN ETHIK DES ARISTOTELES",
+   "author": "H. v. Arnim"
+  },
+  {
+   "book": "",
+   "page": 1182,
+   "section": "a",
+   "line": null,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1927",
+   "iid": "1e7e0052-8aaa-3745-bd07-79e08aea6303",
+   "doi": "10.2307/41245326",
+   "title": "DIE ECHTHEIT DER GROSSEN ETHIK DES ARISTOTELES",
+   "author": "H. v. Arnim"
+  },
+  {
+   "book": "",
+   "page": 1198,
+   "section": "a",
+   "line": null,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1927",
+   "iid": "1e7e0052-8aaa-3745-bd07-79e08aea6303",
+   "doi": "10.2307/41245326",
+   "title": "DIE ECHTHEIT DER GROSSEN ETHIK DES ARISTOTELES",
+   "author": "H. v. Arnim"
+  },
+  {
+   "book": "",
+   "page": 1184,
+   "section": "b",
+   "line": null,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1927",
+   "iid": "1e7e0052-8aaa-3745-bd07-79e08aea6303",
+   "doi": "10.2307/41245326",
+   "title": "DIE ECHTHEIT DER GROSSEN ETHIK DES ARISTOTELES",
+   "author": "H. v. Arnim"
+  },
+  {
+   "book": "",
+   "page": 1185,
+   "section": "a",
+   "line": null,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1927",
+   "iid": "1e7e0052-8aaa-3745-bd07-79e08aea6303",
+   "doi": "10.2307/41245326",
+   "title": "DIE ECHTHEIT DER GROSSEN ETHIK DES ARISTOTELES",
+   "author": "H. v. Arnim"
+  },
+  {
+   "book": "",
+   "page": 1183,
+   "section": "b",
+   "line": null,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1927",
+   "iid": "1e7e0052-8aaa-3745-bd07-79e08aea6303",
+   "doi": "10.2307/41245326",
+   "title": "DIE ECHTHEIT DER GROSSEN ETHIK DES ARISTOTELES",
+   "author": "H. v. Arnim"
+  },
+  {
+   "book": "",
+   "page": 1208,
+   "section": "a",
+   "line": 5,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1927",
+   "iid": "1e7e0052-8aaa-3745-bd07-79e08aea6303",
+   "doi": "10.2307/41245326",
+   "title": "DIE ECHTHEIT DER GROSSEN ETHIK DES ARISTOTELES",
+   "author": "H. v. Arnim"
+  },
+  {
+   "book": "",
+   "page": 1196,
+   "section": "b",
+   "line": 4,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1927",
+   "iid": "1e7e0052-8aaa-3745-bd07-79e08aea6303",
+   "doi": "10.2307/41245326",
+   "title": "DIE ECHTHEIT DER GROSSEN ETHIK DES ARISTOTELES",
+   "author": "H. v. Arnim"
+  },
+  {
+   "book": "",
+   "page": 1189,
+   "section": "a",
+   "line": null,
+   "journal": "Zeitschrift für katholische Theologie",
+   "year": "1983",
+   "iid": "1f56ee49-2fbe-3ec1-b7f6-00f5c449147e",
+   "doi": "10.2307/24164658",
+   "title": "DAS MYSTERIUM DER ÜBERNATÜRLICHEN NATUR-LEHRE: Zur Erlösungslehre des Maximus Confessor",
+   "author": "Raymund Schwager"
+  },
+  {
+   "book": "",
+   "page": 1184,
+   "section": "b",
+   "line": null,
+   "journal": "Quaderni Urbinati di Cultura Classica",
+   "year": "1973",
+   "iid": "1fad604e-6bce-3bb7-b042-edc41f24c35b",
+   "doi": "10.2307/20537687",
+   "title": "Espressioni formulari nell'elegia greca arcaica",
+   "author": "Pietro Giannini"
+  },
+  {
+   "book": "",
+   "page": 1196,
+   "section": "b",
+   "line": null,
+   "journal": "History of Religions",
+   "year": "1994",
+   "iid": "24277318-ba71-333c-8ee5-498b5d2e578c",
+   "doi": "10.2307/1062739",
+   "title": "Sacred and Human Components in Ancient near Eastern Law",
+   "author": "Carlo Zaccagnini"
+  },
+  {
+   "book": "",
+   "page": 1182,
+   "section": "a",
+   "line": null,
+   "journal": "The Harvard Theological Review",
+   "year": "1945",
+   "iid": "256bac69-a4d6-3aa6-8ac7-055926784f96",
+   "doi": "10.2307/1508224",
+   "title": "Vir Bonus Quadrato Lapidi Comparatur",
+   "author": "Arnold Ehrhardt"
+  },
+  {
+   "book": "",
+   "page": 1185,
+   "section": "a",
+   "line": null,
+   "journal": "Hermes",
+   "year": "1867",
+   "iid": "251fc3aa-90b8-331a-a85c-c3ce6d47e984",
+   "doi": "10.2307/4471022",
+   "title": "Zu Platons Phädon 62 A",
+   "author": "H. Bonitz"
+  },
+  {
+   "book": "",
+   "page": 1197,
+   "section": "a",
+   "line": 3,
+   "journal": "Zeitschrift für Theologie und Kirche",
+   "year": "1986",
+   "iid": "25d66eaa-1d96-36b7-ad28-c64e36039cb4",
+   "doi": "10.2307/23584863",
+   "title": "»Theologia poetica«: Begriff und Aufgabe: Walter Bernet zum 60. Geburtstag",
+   "author": "Günter Bader"
+  },
+  {
+   "book": "",
+   "page": 1212,
+   "section": "a",
+   "line": null,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1927",
+   "iid": "282e9316-60f1-370d-9eab-facc471b0243",
+   "doi": "10.2307/41245335",
+   "title": "DIE ECHTHEIT DER GROSSEN ETHIK DES ARISTOTELES",
+   "author": "H. von Arnim"
+  },
+  {
+   "book": "",
+   "page": 1211,
+   "section": "b",
+   "line": null,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1927",
+   "iid": "282e9316-60f1-370d-9eab-facc471b0243",
+   "doi": "10.2307/41245335",
+   "title": "DIE ECHTHEIT DER GROSSEN ETHIK DES ARISTOTELES",
+   "author": "H. von Arnim"
+  },
+  {
+   "book": "",
+   "page": 1185,
+   "section": "b",
+   "line": null,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1927",
+   "iid": "282e9316-60f1-370d-9eab-facc471b0243",
+   "doi": "10.2307/41245335",
+   "title": "DIE ECHTHEIT DER GROSSEN ETHIK DES ARISTOTELES",
+   "author": "H. von Arnim"
+  },
+  {
+   "book": "",
+   "page": 1191,
+   "section": "b",
+   "line": null,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1927",
+   "iid": "282e9316-60f1-370d-9eab-facc471b0243",
+   "doi": "10.2307/41245335",
+   "title": "DIE ECHTHEIT DER GROSSEN ETHIK DES ARISTOTELES",
+   "author": "H. von Arnim"
+  },
+  {
+   "book": "",
+   "page": 1192,
+   "section": "b",
+   "line": 31,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1927",
+   "iid": "282e9316-60f1-370d-9eab-facc471b0243",
+   "doi": "10.2307/41245335",
+   "title": "DIE ECHTHEIT DER GROSSEN ETHIK DES ARISTOTELES",
+   "author": "H. von Arnim"
+  },
+  {
+   "book": "",
+   "page": 1193,
+   "section": "a",
+   "line": null,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1927",
+   "iid": "282e9316-60f1-370d-9eab-facc471b0243",
+   "doi": "10.2307/41245335",
+   "title": "DIE ECHTHEIT DER GROSSEN ETHIK DES ARISTOTELES",
+   "author": "H. von Arnim"
+  },
+  {
+   "book": "",
+   "page": 1186,
+   "section": "a",
+   "line": null,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1927",
+   "iid": "282e9316-60f1-370d-9eab-facc471b0243",
+   "doi": "10.2307/41245335",
+   "title": "DIE ECHTHEIT DER GROSSEN ETHIK DES ARISTOTELES",
+   "author": "H. von Arnim"
+  },
+  {
+   "book": "",
+   "page": 1183,
+   "section": "b",
+   "line": null,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1927",
+   "iid": "282e9316-60f1-370d-9eab-facc471b0243",
+   "doi": "10.2307/41245335",
+   "title": "DIE ECHTHEIT DER GROSSEN ETHIK DES ARISTOTELES",
+   "author": "H. von Arnim"
+  },
+  {
+   "book": "",
+   "page": 1184,
+   "section": "a",
+   "line": null,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1927",
+   "iid": "282e9316-60f1-370d-9eab-facc471b0243",
+   "doi": "10.2307/41245335",
+   "title": "DIE ECHTHEIT DER GROSSEN ETHIK DES ARISTOTELES",
+   "author": "H. von Arnim"
+  },
+  {
+   "book": "",
+   "page": 1204,
+   "section": "a",
+   "line": null,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1927",
+   "iid": "282e9316-60f1-370d-9eab-facc471b0243",
+   "doi": "10.2307/41245335",
+   "title": "DIE ECHTHEIT DER GROSSEN ETHIK DES ARISTOTELES",
+   "author": "H. von Arnim"
+  },
+  {
+   "book": "",
+   "page": 1204,
+   "section": "a",
+   "line": 8,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1927",
+   "iid": "282e9316-60f1-370d-9eab-facc471b0243",
+   "doi": "10.2307/41245335",
+   "title": "DIE ECHTHEIT DER GROSSEN ETHIK DES ARISTOTELES",
+   "author": "H. von Arnim"
+  },
+  {
+   "book": "",
+   "page": 1206,
+   "section": "a",
+   "line": null,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1927",
+   "iid": "282e9316-60f1-370d-9eab-facc471b0243",
+   "doi": "10.2307/41245335",
+   "title": "DIE ECHTHEIT DER GROSSEN ETHIK DES ARISTOTELES",
+   "author": "H. von Arnim"
+  },
+  {
+   "book": "",
+   "page": 1210,
+   "section": "a",
+   "line": 6,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1927",
+   "iid": "282e9316-60f1-370d-9eab-facc471b0243",
+   "doi": "10.2307/41245335",
+   "title": "DIE ECHTHEIT DER GROSSEN ETHIK DES ARISTOTELES",
+   "author": "H. von Arnim"
+  },
+  {
+   "book": "",
+   "page": 1209,
+   "section": "b",
+   "line": null,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1927",
+   "iid": "282e9316-60f1-370d-9eab-facc471b0243",
+   "doi": "10.2307/41245335",
+   "title": "DIE ECHTHEIT DER GROSSEN ETHIK DES ARISTOTELES",
+   "author": "H. von Arnim"
+  },
+  {
+   "book": "",
+   "page": 1209,
+   "section": "a",
+   "line": null,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1927",
+   "iid": "282e9316-60f1-370d-9eab-facc471b0243",
+   "doi": "10.2307/41245335",
+   "title": "DIE ECHTHEIT DER GROSSEN ETHIK DES ARISTOTELES",
+   "author": "H. von Arnim"
+  },
+  {
+   "book": "",
+   "page": 1211,
+   "section": "a",
+   "line": null,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1927",
+   "iid": "282e9316-60f1-370d-9eab-facc471b0243",
+   "doi": "10.2307/41245335",
+   "title": "DIE ECHTHEIT DER GROSSEN ETHIK DES ARISTOTELES",
+   "author": "H. von Arnim"
+  },
+  {
+   "book": "",
+   "page": 1192,
+   "section": "a",
+   "line": null,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1888",
+   "iid": "2928e165-f47a-352b-9a47-4a73fe628d8c",
+   "doi": "10.2307/41259186",
+   "title": "De Loxi physiognomonia",
+   "author": "Richardus Foerster"
+  },
+  {
+   "book": "",
+   "page": 1198,
+   "section": "a",
+   "line": null,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1998",
+   "iid": "2a694d87-a4e9-3023-b92a-e5636cbd9701",
+   "doi": "10.2307/41234300",
+   "title": "ILIAD 24.547-549: BLAMELESS ACHILLES",
+   "author": "Ronald Knox"
+  },
+  {
+   "book": "",
+   "page": 1187,
+   "section": "a",
+   "line": null,
+   "journal": "Hermes",
+   "year": "1911",
+   "iid": "2cf9846d-8b08-38bb-a4a5-e3756c72cd4a",
+   "doi": "10.2307/4473309",
+   "title": "Exegetische Bemerkungen",
+   "author": "J. L. Heiberg"
+  },
+  {
+   "book": "",
+   "page": 1203,
+   "section": "b",
+   "line": null,
+   "journal": "Vigiliae Christianae",
+   "year": "2005",
+   "iid": "2e28cc3d-6818-326b-844f-2537b0b24bfb",
+   "doi": "10.2307/1584678",
+   "title": "Nitor omnibus unus? Beobachtungen zur Farbgestaltung im 'Martinellus'",
+   "author": "M. Vielberg"
+  },
+  {
+   "book": "",
+   "page": 1185,
+   "section": "b",
+   "line": null,
+   "journal": "Hermes",
+   "year": "2009",
+   "iid": "2f0f163e-f15f-38dd-ae5d-c36733e38da9",
+   "doi": "10.2307/40379094",
+   "title": "Notes on an Unknown Witness of the Mixed Thoman-Triclinian Recension of Aristophanes",
+   "author": "Guillermo Galán Vioque"
+  },
+  {
+   "book": "",
+   "page": 1192,
+   "section": "b",
+   "line": null,
+   "journal": "Hermes",
+   "year": "2009",
+   "iid": "2f0f163e-f15f-38dd-ae5d-c36733e38da9",
+   "doi": "10.2307/40379094",
+   "title": "Notes on an Unknown Witness of the Mixed Thoman-Triclinian Recension of Aristophanes",
+   "author": "Guillermo Galán Vioque"
+  },
+  {
+   "book": "",
+   "page": 1197,
+   "section": "b",
+   "line": null,
+   "journal": "Zeitschrift für katholische Theologie",
+   "year": "1960",
+   "iid": "2ff276b1-bdda-3fb3-a158-f62bda9731b9",
+   "doi": "10.2307/24176487",
+   "title": "DER BEGRIFF DER SUBSISTENZ BEIM DIAKON RUSTICUS",
+   "author": "Eugen Wojtacha"
+  },
+  {
+   "book": "",
+   "page": 1197,
+   "section": "a",
+   "line": null,
+   "journal": "Theologische Rundschau",
+   "year": "1967",
+   "iid": "32940fc0-eb5e-3423-8668-0f31459cd2e5",
+   "doi": "10.2307/26153001",
+   "title": "Die Erforschung der orthodoxen Kirchen und der Kirchen des Ostens",
+   "author": "Wilhelm Kahle"
+  },
+  {
+   "book": "",
+   "page": 1198,
+   "section": "b",
+   "line": 31,
+   "journal": "Recherches de théologie et philosophie médiévales",
+   "year": "2019",
+   "iid": "32e05e6e-15a8-351a-9ae3-b88f42a29760",
+   "doi": "10.2307/26897285",
+   "title": "‘RENAISSANCE SCHOLASTICISM’ STRIKES AGAIN",
+   "author": "Amos Edelheit"
+  },
+  {
+   "book": "",
+   "page": 1198,
+   "section": "a",
+   "line": null,
+   "journal": "Church History",
+   "year": "1951",
+   "iid": "34b4b0aa-2f2d-3383-be26-7eaf6e1bb7cb",
+   "doi": "10.2307/3161894",
+   "title": "The Personality of Amalarius",
+   "author": "Allen Cabaniss"
+  },
+  {
+   "book": "",
+   "page": 1200,
+   "section": "b",
+   "line": 9,
+   "journal": "The American Journal of Philology",
+   "year": "1983",
+   "iid": "352f874a-f8b1-34cc-8707-358fde76ca41",
+   "doi": "10.2307/294561",
+   "title": "On the Programmatic Formula ΠpΩton AΠo TΩn ΠpΩtΩn in Aristotle",
+   "author": "Kenneth Quandt"
+  },
+  {
+   "book": "",
+   "page": 1207,
+   "section": "a",
+   "line": null,
+   "journal": "Hermes",
+   "year": "1989",
+   "iid": "35495bba-33cf-313b-88a0-c2a71a3cb5e9",
+   "doi": "10.2307/4476665",
+   "title": "Divine Movement and Human Nature in Eudemian Ethics 8, 2",
+   "author": "Ph. J. van der Eijk"
+  },
+  {
+   "book": "",
+   "page": 1185,
+   "section": "a",
+   "line": null,
+   "journal": "Hermes",
+   "year": "1989",
+   "iid": "35495bba-33cf-313b-88a0-c2a71a3cb5e9",
+   "doi": "10.2307/4476665",
+   "title": "Divine Movement and Human Nature in Eudemian Ethics 8, 2",
+   "author": "Ph. J. van der Eijk"
+  },
+  {
+   "book": "",
+   "page": 1190,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Journal",
+   "year": "1986",
+   "iid": "36041f4f-8dd3-3985-aa57-72dd52778cce",
+   "doi": "10.2307/3297215",
+   "title": "Games and a Lupanar: Prosopography of a Neighborhood in Ancient Pompeii",
+   "author": "James L. Franklin, <suffix>Jr.</suffix>"
+  },
+  {
+   "book": "",
+   "page": 1190,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Journal",
+   "year": "1986",
+   "iid": "36041f4f-8dd3-3985-aa57-72dd52778cce",
+   "doi": "10.2307/3297215",
+   "title": "Games and a Lupanar: Prosopography of a Neighborhood in Ancient Pompeii",
+   "author": "James L. Franklin, <suffix>Jr.</suffix>"
+  },
+  {
+   "book": "",
+   "page": 1196,
+   "section": "a",
+   "line": null,
+   "journal": "Zeitschrift für katholische Theologie",
+   "year": "1935",
+   "iid": "3b75ee24-1175-3ddd-9608-3c5101501abb",
+   "doi": "10.2307/24226994",
+   "title": "Die Gottesgeburt: Die Lehre der Kirchenväter von der Geburt Christi im Herzen des Gläubigen",
+   "author": "Hugo Rahner"
+  },
+  {
+   "book": "",
+   "page": 1201,
+   "section": "b",
+   "line": null,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1930",
+   "iid": "3e23fe3d-b2bf-3f2a-9ff1-63f58384770c",
+   "doi": "10.2307/41243330",
+   "title": "HERAKLTT VON EPHESUS, DER ENTDECKER DES EMPIRISCH-PHYSIKALISCHEN WEGES DER FORSCHUNG",
+   "author": "Emanuel Loew"
+  },
+  {
+   "book": "",
+   "page": 1191,
+   "section": "b",
+   "line": null,
+   "journal": "The American Journal of Philology",
+   "year": "1996",
+   "iid": "3e784a88-b26b-3bc3-8015-ce21dc466416",
+   "doi": "10.2307/1561836",
+   "title": "The Characterization of Hanno in Plautus' Poenulus",
+   "author": "George Fredric Franko"
+  },
+  {
+   "book": "",
+   "page": 1209,
+   "section": "a",
+   "line": null,
+   "journal": "The American Journal of Philology",
+   "year": "1980",
+   "iid": "3ead966d-85be-316f-9cec-32a4822e59a9",
+   "doi": "10.2307/294422",
+   "title": "The Aischylean Tetralogy: Attested and Conjectured Groups",
+   "author": "Timothy Gantz"
+  },
+  {
+   "book": "",
+   "page": 1184,
+   "section": "a",
+   "line": 12,
+   "journal": "Vigiliae Christianae",
+   "year": "2005",
+   "iid": "438e9879-5b1d-3177-87cf-a9eadad19646",
+   "doi": "10.2307/1584575",
+   "title": "\"Anonyma Testimonia Adversus Iudaeos\" Critical Edition of an Antijudaic Treatise",
+   "author": "Marc De Groote"
+  },
+  {
+   "book": "",
+   "page": 1184,
+   "section": "b",
+   "line": null,
+   "journal": "Hermes",
+   "year": "1899",
+   "iid": "42d6c8bc-e17a-3a50-b7dc-be93947ae778",
+   "doi": "10.2307/4472712",
+   "title": "Theognidea",
+   "author": "J. Heinemann"
+  },
+  {
+   "book": "",
+   "page": 1200,
+   "section": "b",
+   "line": 29,
+   "journal": "Mnemosyne",
+   "year": "2001",
+   "iid": "44633c52-2f3f-32b4-8bad-51484a260d48",
+   "doi": "10.2307/4433208",
+   "title": "",
+   "author": "J. Mansfeld, J. Leonhardt"
+  },
+  {
+   "book": "",
+   "page": 1184,
+   "section": "b",
+   "line": null,
+   "journal": "Zeitschrift für katholische Theologie",
+   "year": "1965",
+   "iid": "44ab294b-3546-3b95-af38-85da3d8acc43",
+   "doi": "10.2307/24175154",
+   "title": "DER ENDZWECK DES MENSCHEN NACH THOMAS VON A QUIN EINE KRITISCH-WEITERFÜHRENDE STUDIE",
+   "author": "J. Santeler"
+  },
+  {
+   "book": "",
+   "page": 1199,
+   "section": "a",
+   "line": null,
+   "journal": "Recherches de théologie et philosophie médiévales",
+   "year": "2006",
+   "iid": "4666a1b8-f69e-3c76-94c9-167cc69038e6",
+   "doi": "10.2307/26170244",
+   "title": "SCHOLASTIK UND SEELSORGE IN DEN PREDIGTEN DER SAMMLUNG PARADISUS ANIME INTELLIGENTIS: Ein Beitrag zur Wissensvermittlung im Mittelalter",
+   "author": "Maarten J.F.M. Hoenen"
+  },
+  {
+   "book": "",
+   "page": 1194,
+   "section": "b",
+   "line": null,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "2008",
+   "iid": "498ba095-f881-3dfb-9bbd-c1d558647365",
+   "doi": "10.2307/41234755",
+   "title": "GÖTTLICHES UND MENSCHLICHES DENKEN BEI THEMISTIOS",
+   "author": "Michael Schramm"
+  },
+  {
+   "book": "",
+   "page": 1204,
+   "section": "a",
+   "line": null,
+   "journal": "Hermes",
+   "year": "1996",
+   "iid": "4bae0192-f7ad-3f22-af3c-5ad87c0de4c5",
+   "doi": "10.2307/4477116",
+   "title": "Zur Personenverteilung in Aristophanes' 'Rittern'",
+   "author": "Ruth E. Harder"
+  },
+  {
+   "book": "",
+   "page": 1204,
+   "section": "b",
+   "line": null,
+   "journal": "Hermes",
+   "year": "1996",
+   "iid": "4bae0192-f7ad-3f22-af3c-5ad87c0de4c5",
+   "doi": "10.2307/4477116",
+   "title": "Zur Personenverteilung in Aristophanes' 'Rittern'",
+   "author": "Ruth E. Harder"
+  },
+  {
+   "book": "",
+   "page": 1213,
+   "section": "b",
+   "line": null,
+   "journal": "Classical Antiquity",
+   "year": "1990",
+   "iid": "4f1245f6-ac60-3669-b505-663da69dae87",
+   "doi": "10.2307/25010920",
+   "title": "Those Athenian Bastards",
+   "author": "Cynthia B. Patterson"
+  },
+  {
+   "book": "",
+   "page": 1196,
+   "section": "b",
+   "line": null,
+   "journal": "Transactions and Proceedings of the American Philological Association",
+   "year": "1934",
+   "iid": "501eec56-4734-3faa-8a0c-dd83ca503c43",
+   "doi": "10.2307/283024",
+   "title": "Inscriptions from Olynthus, 1934",
+   "author": "David Moore Robinson"
+  },
+  {
+   "book": "",
+   "page": 1203,
+   "section": "b",
+   "line": null,
+   "journal": "Transactions and Proceedings of the American Philological Association",
+   "year": "1934",
+   "iid": "501eec56-4734-3faa-8a0c-dd83ca503c43",
+   "doi": "10.2307/283024",
+   "title": "Inscriptions from Olynthus, 1934",
+   "author": "David Moore Robinson"
+  },
+  {
+   "book": "",
+   "page": 1191,
+   "section": "b",
+   "line": null,
+   "journal": "Transactions and Proceedings of the American Philological Association",
+   "year": "1934",
+   "iid": "501eec56-4734-3faa-8a0c-dd83ca503c43",
+   "doi": "10.2307/283024",
+   "title": "Inscriptions from Olynthus, 1934",
+   "author": "David Moore Robinson"
+  },
+  {
+   "book": "",
+   "page": 1202,
+   "section": "b",
+   "line": null,
+   "journal": "Church History",
+   "year": "2005",
+   "iid": "52f48938-9c88-3f1d-a7e9-ff79fd452af7",
+   "doi": "10.2307/27644606",
+   "title": "The Council of Sens Reconsidered: Masters, Monks, or Judges?",
+   "author": "Wim Verball"
+  },
+  {
+   "book": "",
+   "page": 1185,
+   "section": "a",
+   "line": null,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1992",
+   "iid": "5610acb6-bd89-3268-9d6a-407194b9e074",
+   "doi": "10.2307/41233865",
+   "title": "DIONYSIOS DER DIALEKTIKER UND ARISTOTELES ÜBER DIE DEFINITION DES LEBENS",
+   "author": "Oliver Primavesi"
+  },
+  {
+   "book": "",
+   "page": 1210,
+   "section": "a",
+   "line": null,
+   "journal": "Illinois Classical Studies",
+   "year": "1996",
+   "iid": "60580424-acb3-3656-bbe9-bc7584323811",
+   "doi": "10.2307/23065386",
+   "title": "Manuscript Indications of Change of Speaker in Aristophanes' \"Peace\"",
+   "author": "S. DOUGLAS OLSON"
+  },
+  {
+   "book": "",
+   "page": 1202,
+   "section": "b",
+   "line": null,
+   "journal": "Church History",
+   "year": "2013",
+   "iid": "61f11ed5-5a7e-33e5-8560-1b18155d4b4b",
+   "doi": "10.2307/23358905",
+   "title": "Signs of Salvation: The Evolution of Stigmatic Spirituality Before Francis of Assisi",
+   "author": "Carolyn Muessig"
+  },
+  {
+   "book": "",
+   "page": 1194,
+   "section": "b",
+   "line": 15,
+   "journal": "Hermes",
+   "year": "1991",
+   "iid": "64dc2ce6-6557-34e6-ab07-d2d2bb83a191",
+   "doi": "10.2307/4476828",
+   "title": "Supplementary Notes on the 'De mundo'",
+   "author": "A. P. Bos"
+  },
+  {
+   "book": "",
+   "page": 1198,
+   "section": "a",
+   "line": 27,
+   "journal": "Hermes",
+   "year": "1991",
+   "iid": "64dc2ce6-6557-34e6-ab07-d2d2bb83a191",
+   "doi": "10.2307/4476828",
+   "title": "Supplementary Notes on the 'De mundo'",
+   "author": "A. P. Bos"
+  },
+  {
+   "book": "",
+   "page": 1183,
+   "section": "b",
+   "line": 35,
+   "journal": "Hermes",
+   "year": "1991",
+   "iid": "64dc2ce6-6557-34e6-ab07-d2d2bb83a191",
+   "doi": "10.2307/4476828",
+   "title": "Supplementary Notes on the 'De mundo'",
+   "author": "A. P. Bos"
+  },
+  {
+   "book": "",
+   "page": 1184,
+   "section": "a",
+   "line": null,
+   "journal": "Hermes",
+   "year": "1884",
+   "iid": "657ca373-6eef-34e1-a1ad-9ca7d172acbb",
+   "doi": "10.2307/4471899",
+   "title": "Bemerkungen zur Reconstruction der Philoneischen Skeuothek",
+   "author": "Bruno Keil"
+  },
+  {
+   "book": "",
+   "page": 1209,
+   "section": "b",
+   "line": null,
+   "journal": "Illinois Classical Studies",
+   "year": "1993",
+   "iid": "65fde646-37d1-3c09-a487-8208156a3a2c",
+   "doi": "10.2307/23064452",
+   "title": "Les Transitions dans le Style d'Eusèbe de Césarée Apologiste",
+   "author": "ÉDOUARD DES PLACES"
+  },
+  {
+   "book": "",
+   "page": 1210,
+   "section": "a",
+   "line": null,
+   "journal": "Quaderni Urbinati di Cultura Classica",
+   "year": "2002",
+   "iid": "678ddd00-e216-3526-88c9-32badd6747b9",
+   "doi": "10.2307/20546730",
+   "title": "Il termine πεϱίοδοϛ nella dottrina metrica e ritmica antica",
+   "author": "Giovanna Pace"
+  },
+  {
+   "book": "",
+   "page": 1206,
+   "section": "a",
+   "line": null,
+   "journal": "Church History",
+   "year": "2017",
+   "iid": "68cdadcc-4eba-3ab1-91b5-82f9096b0c9a",
+   "doi": "10.2307/26292209",
+   "title": "Penitents and Their Proxies: Penance for Others in Early Medieval Europe",
+   "author": "Gavin Fort"
+  },
+  {
+   "book": "",
+   "page": 1196,
+   "section": "b",
+   "line": null,
+   "journal": "Church History",
+   "year": "2017",
+   "iid": "68cdadcc-4eba-3ab1-91b5-82f9096b0c9a",
+   "doi": "10.2307/26292209",
+   "title": "Penitents and Their Proxies: Penance for Others in Early Medieval Europe",
+   "author": "Gavin Fort"
+  },
+  {
+   "book": "",
+   "page": 1201,
+   "section": "a",
+   "line": null,
+   "journal": "Vigiliae Christianae",
+   "year": "1990",
+   "iid": "6d6ab200-e273-35ee-a9ba-8e47ea5463bd",
+   "doi": "10.2307/1584329",
+   "title": "Non-Being and Evil in Gregory of Nyssa",
+   "author": "Alden A. Mosshammer"
+  },
+  {
+   "book": "",
+   "page": 1193,
+   "section": "a",
+   "line": null,
+   "journal": "Quaderni Urbinati di Cultura Classica",
+   "year": "1985",
+   "iid": "6e110807-40e4-345d-9547-0f4155aa12f2",
+   "doi": "10.2307/20538862",
+   "title": "L'incomparabile pudore dei giovani Spartani (Senofonte, \"Costituzione degli Spartani,\" III 5)",
+   "author": "Luigi Spina"
+  },
+  {
+   "book": "",
+   "page": 1188,
+   "section": "b",
+   "line": 29,
+   "journal": "The American Journal of Philology",
+   "year": "1993",
+   "iid": "6e3d2689-1244-3905-98ff-5902f892cdc8",
+   "doi": "10.2307/295314",
+   "title": "The Tetralogies and Athenian Homicide Trials",
+   "author": "Edwin Carawan"
+  },
+  {
+   "book": "",
+   "page": 1208,
+   "section": "b",
+   "line": null,
+   "journal": "Transactions and Proceedings of the American Philological Association",
+   "year": "1906",
+   "iid": "701b6173-13ad-3fd8-8edf-151667956f06",
+   "doi": "10.2307/282707",
+   "title": "Victorius and Codex Γ of Aristophanes",
+   "author": "Earnest Cary"
+  },
+  {
+   "book": "",
+   "page": 1209,
+   "section": "b",
+   "line": null,
+   "journal": "Transactions and Proceedings of the American Philological Association",
+   "year": "1906",
+   "iid": "701b6173-13ad-3fd8-8edf-151667956f06",
+   "doi": "10.2307/282707",
+   "title": "Victorius and Codex Γ of Aristophanes",
+   "author": "Earnest Cary"
+  },
+  {
+   "book": "",
+   "page": 1194,
+   "section": "b",
+   "line": null,
+   "journal": "Transactions and Proceedings of the American Philological Association",
+   "year": "1906",
+   "iid": "701b6173-13ad-3fd8-8edf-151667956f06",
+   "doi": "10.2307/282707",
+   "title": "Victorius and Codex Γ of Aristophanes",
+   "author": "Earnest Cary"
+  },
+  {
+   "book": "",
+   "page": 1199,
+   "section": "a",
+   "line": null,
+   "journal": "The American Journal of Philology",
+   "year": "1963",
+   "iid": "723db225-1709-39d5-8488-04b892240f32",
+   "doi": "10.2307/293111",
+   "title": "Lyrical Meters and Chronology in Sophocles",
+   "author": "Hans A. Pohlsander"
+  },
+  {
+   "book": "",
+   "page": 1204,
+   "section": "b",
+   "line": null,
+   "journal": "The American Journal of Philology",
+   "year": "1963",
+   "iid": "723db225-1709-39d5-8488-04b892240f32",
+   "doi": "10.2307/293111",
+   "title": "Lyrical Meters and Chronology in Sophocles",
+   "author": "Hans A. Pohlsander"
+  },
+  {
+   "book": "",
+   "page": 1209,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Journal",
+   "year": "1978",
+   "iid": "71f28cba-b417-32d5-87af-05fda2da69a5",
+   "doi": "10.2307/3296931",
+   "title": "Aeschylus' \"Dictyulci\" and Diphilus' \"Epitrope\"",
+   "author": "Dana Ferrin Sutton"
+  },
+  {
+   "book": "",
+   "page": 1193,
+   "section": "a",
+   "line": 13,
+   "journal": "Transactions and Proceedings of the American Philological Association",
+   "year": "1945",
+   "iid": "73d94776-4e72-3ba4-a012-de9a125bcf9e",
+   "doi": "10.2307/283322",
+   "title": "The Epilogue of Pindar's Second Pythian",
+   "author": "Leonard Woodbury"
+  },
+  {
+   "book": "",
+   "page": 1209,
+   "section": "a",
+   "line": null,
+   "journal": "Transactions of the American Philological Association (1974-2014)",
+   "year": "2006",
+   "iid": "752f51cd-dd38-33e6-9f6c-82a63ae05e58",
+   "doi": "10.2307/4543285",
+   "title": "The Meaning and Function of Phantasia in Aristotle's \"Rhetoric\" III.1",
+   "author": "José M. González"
+  },
+  {
+   "book": "",
+   "page": 1184,
+   "section": "b",
+   "line": null,
+   "journal": "Quaderni Urbinati di Cultura Classica",
+   "year": "2012",
+   "iid": "7512cdd7-3fdc-3745-b5ef-474d8ed4aea2",
+   "doi": "10.2307/23347420",
+   "title": "L'INNO DELLE ERINNI E IL LAMENTO DI CASSANDRA: CANTI \"PERFORMATIVI\" NELL'\"ORESTEA\" DI ESCHILO",
+   "author": "Marianna Tomasello"
+  },
+  {
+   "book": "",
+   "page": 1185,
+   "section": "b",
+   "line": null,
+   "journal": "Quaderni Urbinati di Cultura Classica",
+   "year": "2012",
+   "iid": "7512cdd7-3fdc-3745-b5ef-474d8ed4aea2",
+   "doi": "10.2307/23347420",
+   "title": "L'INNO DELLE ERINNI E IL LAMENTO DI CASSANDRA: CANTI \"PERFORMATIVI\" NELL'\"ORESTEA\" DI ESCHILO",
+   "author": "Marianna Tomasello"
+  },
+  {
+   "book": "",
+   "page": 1197,
+   "section": "a",
+   "line": null,
+   "journal": "Recherches de théologie et philosophie médiévales",
+   "year": "2012",
+   "iid": "753897e1-d0c7-3a55-88d6-e42a3b49fb54",
+   "doi": "10.2307/26485560",
+   "title": "THE TRAPS OF REALISM: THE DEBATE OVER UNIVERSALS IN THE FIFTEENTH CENTURY AND THE THOMISTS OF COLOGNE",
+   "author": "Silvia Negri"
+  },
+  {
+   "book": "",
+   "page": 1209,
+   "section": "a",
+   "line": null,
+   "journal": "Recherches de théologie et philosophie médiévales",
+   "year": "2000",
+   "iid": "75aa89df-055b-30a9-850a-594a0404b551",
+   "doi": "10.2307/26170041",
+   "title": "ST THOMAS AND THE «LAW OF SIN»",
+   "author": "Mark Johnson"
+  },
+  {
+   "book": "",
+   "page": 1187,
+   "section": "b",
+   "line": 36,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "2022",
+   "iid": "7802a14c-0f51-3490-8c66-077609a898b5",
+   "doi": "10.2307/45473518",
+   "title": "EN 1113A12: SOME TEXTUAL REMARKS BASED ON ASPASIUS",
+   "author": "Giulio Di Basilio"
+  },
+  {
+   "book": "",
+   "page": 1187,
+   "section": "a",
+   "line": null,
+   "journal": "Illinois Classical Studies",
+   "year": "1977",
+   "iid": "7a401bb9-42e0-36db-b422-ded93c1f1803",
+   "doi": "10.2307/23061172",
+   "title": "Ancient Interpolation in Aristophanes",
+   "author": "KENNETH J. DOVER"
+  },
+  {
+   "book": "",
+   "page": 1200,
+   "section": "a",
+   "line": null,
+   "journal": "Recherches de théologie ancienne et médiévale",
+   "year": "1963",
+   "iid": "799a8d7d-0a43-3dd9-9b93-c18df2f6cd3f",
+   "doi": "10.2307/26187605",
+   "title": "La théologie de la condition charnelle chez les Maîtres du haut moyen âge",
+   "author": "Pierre Daubercies"
+  },
+  {
+   "book": "",
+   "page": 1213,
+   "section": "b",
+   "line": 7,
+   "journal": "The Harvard Theological Review",
+   "year": "2015",
+   "iid": "7d041970-ee6a-3d75-bd76-b1d74a7c4cdc",
+   "doi": "10.2307/43948457",
+   "title": "\"ONE NATURE OF THE WORD ENFLESHED\"",
+   "author": "Mark Edwards"
+  },
+  {
+   "book": "",
+   "page": 1202,
+   "section": "b",
+   "line": null,
+   "journal": "The Harvard Theological Review",
+   "year": "2015",
+   "iid": "7d041970-ee6a-3d75-bd76-b1d74a7c4cdc",
+   "doi": "10.2307/43948457",
+   "title": "\"ONE NATURE OF THE WORD ENFLESHED\"",
+   "author": "Mark Edwards"
+  },
+  {
+   "book": "",
+   "page": 1212,
+   "section": "a",
+   "line": 5,
+   "journal": "The Harvard Theological Review",
+   "year": "2015",
+   "iid": "7d041970-ee6a-3d75-bd76-b1d74a7c4cdc",
+   "doi": "10.2307/43948457",
+   "title": "\"ONE NATURE OF THE WORD ENFLESHED\"",
+   "author": "Mark Edwards"
+  },
+  {
+   "book": "",
+   "page": 1202,
+   "section": "b",
+   "line": null,
+   "journal": "Recherches de théologie et philosophie médiévales",
+   "year": "2007",
+   "iid": "7cd06c89-f638-30d5-b42c-77afe2bcb2d4",
+   "doi": "10.2307/26172288",
+   "title": "GUILLAUME D'AUVERGNE OU JACQUES DE VITRY? ENCORE À PROPOS DU \"DE CONFESSIONE\"",
+   "author": "Franco Morenzoni"
+  },
+  {
+   "book": "",
+   "page": 1198,
+   "section": "b",
+   "line": null,
+   "journal": "Quaderni Urbinati di Cultura Classica",
+   "year": "2019",
+   "iid": "7e9b92d8-b3bc-3479-8151-85396b13b79a",
+   "doi": "10.2307/48539306",
+   "title": "SCHIAVITÙ E <em>OIKONOMIA</em> NEL I LIBRO DEGLI <em>ECONOMICI</em> DELLO PS.-ARISTOTELE",
+   "author": "Ennio Biondi"
+  },
+  {
+   "book": "",
+   "page": 1185,
+   "section": "b",
+   "line": null,
+   "journal": "Recherches de théologie ancienne et médiévale",
+   "year": "1967",
+   "iid": "818b221d-0b60-3c07-a541-04ed3a084d0a",
+   "doi": "10.2307/26188037",
+   "title": "Um den Zusammenhang zwischen « Speculum virginum », « Dialogus de mundi contemptu vel amore » und verwandten Schriften",
+   "author": "Matthäus Bernards"
+  },
+  {
+   "book": "",
+   "page": 1197,
+   "section": "b",
+   "line": null,
+   "journal": "Recherches de théologie ancienne et médiévale",
+   "year": "1967",
+   "iid": "818b221d-0b60-3c07-a541-04ed3a084d0a",
+   "doi": "10.2307/26188037",
+   "title": "Um den Zusammenhang zwischen « Speculum virginum », « Dialogus de mundi contemptu vel amore » und verwandten Schriften",
+   "author": "Matthäus Bernards"
+  },
+  {
+   "book": "",
+   "page": 1190,
+   "section": "a",
+   "line": null,
+   "journal": "Journal of Biblical Literature",
+   "year": "2020",
+   "iid": "82d235bd-7202-3a6e-899f-881d27c3af0a",
+   "doi": "10.15699/jbl.1392.2020.8",
+   "title": "Reading James 2:18–20 with Anti-Donatist Eyes: Untangling Augustine’s Exegetical Legacy",
+   "author": "Kenneth M. Wilson"
+  },
+  {
+   "book": "",
+   "page": 1195,
+   "section": "a",
+   "line": null,
+   "journal": "Church History",
+   "year": "1969",
+   "iid": "86fbfb27-8a04-391f-a3c1-0c28732d0f45",
+   "doi": "10.2307/3162703",
+   "title": "Some Aspects of the Influence of the Byzantine Maximos the Confessor on the Theology of East and West",
+   "author": "Deno J. Geanakoplos"
+  },
+  {
+   "book": "",
+   "page": 1208,
+   "section": "b",
+   "line": 10,
+   "journal": "Novum Testamentum",
+   "year": "1993",
+   "iid": "88702999-2708-3c8a-9d7e-f5d419e077e5",
+   "doi": "10.2307/1561127",
+   "title": "From Hesiod to Jesus: Laws of Human Nature in the Ancient World",
+   "author": "John Pairman Brown"
+  },
+  {
+   "book": "",
+   "page": 1200,
+   "section": "a",
+   "line": null,
+   "journal": "Recherches de théologie ancienne et médiévale",
+   "year": "1967",
+   "iid": "88c50f65-0ed9-38aa-8459-17929b57f22c",
+   "doi": "10.2307/26188039",
+   "title": "Peter Abailard's Contribution to Medieval Sacramentology",
+   "author": "Richard E. Weingart"
+  },
+  {
+   "book": "",
+   "page": 1200,
+   "section": "a",
+   "line": 15,
+   "journal": "Recherches de théologie ancienne et médiévale",
+   "year": "1967",
+   "iid": "88c50f65-0ed9-38aa-8459-17929b57f22c",
+   "doi": "10.2307/26188039",
+   "title": "Peter Abailard's Contribution to Medieval Sacramentology",
+   "author": "Richard E. Weingart"
+  },
+  {
+   "book": "",
+   "page": 1200,
+   "section": "a",
+   "line": 30,
+   "journal": "Recherches de théologie ancienne et médiévale",
+   "year": "1967",
+   "iid": "88c50f65-0ed9-38aa-8459-17929b57f22c",
+   "doi": "10.2307/26188039",
+   "title": "Peter Abailard's Contribution to Medieval Sacramentology",
+   "author": "Richard E. Weingart"
+  },
+  {
+   "book": "",
+   "page": 1200,
+   "section": "b",
+   "line": null,
+   "journal": "Recherches de théologie ancienne et médiévale",
+   "year": "1967",
+   "iid": "88c50f65-0ed9-38aa-8459-17929b57f22c",
+   "doi": "10.2307/26188039",
+   "title": "Peter Abailard's Contribution to Medieval Sacramentology",
+   "author": "Richard E. Weingart"
+  },
+  {
+   "book": "",
+   "page": 1200,
+   "section": "b",
+   "line": 15,
+   "journal": "Recherches de théologie ancienne et médiévale",
+   "year": "1967",
+   "iid": "88c50f65-0ed9-38aa-8459-17929b57f22c",
+   "doi": "10.2307/26188039",
+   "title": "Peter Abailard's Contribution to Medieval Sacramentology",
+   "author": "Richard E. Weingart"
+  },
+  {
+   "book": "",
+   "page": 1200,
+   "section": "b",
+   "line": 30,
+   "journal": "Recherches de théologie ancienne et médiévale",
+   "year": "1967",
+   "iid": "88c50f65-0ed9-38aa-8459-17929b57f22c",
+   "doi": "10.2307/26188039",
+   "title": "Peter Abailard's Contribution to Medieval Sacramentology",
+   "author": "Richard E. Weingart"
+  },
+  {
+   "book": "",
+   "page": 1201,
+   "section": "a",
+   "line": null,
+   "journal": "Recherches de théologie ancienne et médiévale",
+   "year": "1967",
+   "iid": "88c50f65-0ed9-38aa-8459-17929b57f22c",
+   "doi": "10.2307/26188039",
+   "title": "Peter Abailard's Contribution to Medieval Sacramentology",
+   "author": "Richard E. Weingart"
+  },
+  {
+   "book": "",
+   "page": 1201,
+   "section": "a",
+   "line": 15,
+   "journal": "Recherches de théologie ancienne et médiévale",
+   "year": "1967",
+   "iid": "88c50f65-0ed9-38aa-8459-17929b57f22c",
+   "doi": "10.2307/26188039",
+   "title": "Peter Abailard's Contribution to Medieval Sacramentology",
+   "author": "Richard E. Weingart"
+  },
+  {
+   "book": "",
+   "page": 1201,
+   "section": "a",
+   "line": 30,
+   "journal": "Recherches de théologie ancienne et médiévale",
+   "year": "1967",
+   "iid": "88c50f65-0ed9-38aa-8459-17929b57f22c",
+   "doi": "10.2307/26188039",
+   "title": "Peter Abailard's Contribution to Medieval Sacramentology",
+   "author": "Richard E. Weingart"
+  },
+  {
+   "book": "",
+   "page": 1201,
+   "section": "b",
+   "line": null,
+   "journal": "Recherches de théologie ancienne et médiévale",
+   "year": "1967",
+   "iid": "88c50f65-0ed9-38aa-8459-17929b57f22c",
+   "doi": "10.2307/26188039",
+   "title": "Peter Abailard's Contribution to Medieval Sacramentology",
+   "author": "Richard E. Weingart"
+  },
+  {
+   "book": "",
+   "page": 1183,
+   "section": "a",
+   "line": 24,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "2012",
+   "iid": "8992f64a-2c08-3d93-8c75-63963b966a5b",
+   "doi": "10.2307/41697824",
+   "title": "ΟΨΙΣ Α∆ΗΛΩΝ ΤΑ ΦΘΕΓΓΟΜΕΝΑ",
+   "author": "Thielko Wolbergs"
+  },
+  {
+   "book": "",
+   "page": 1181,
+   "section": "b",
+   "line": 12,
+   "journal": "Classical Antiquity",
+   "year": "1983",
+   "iid": "8a97f505-b1a4-396c-bf92-b76c1c99f09b",
+   "doi": "10.2307/25010799",
+   "title": "Αἱ γὰρ τω̑ν ἐναντίων ἀποδείξεις ἀπορίαι περὶ τω̑ν ἐναντίων εἰσίν Philosophical Program and Expository Practice in Aristotle",
+   "author": "Kenneth Quandt"
+  },
+  {
+   "book": "",
+   "page": 1200,
+   "section": "b",
+   "line": 20,
+   "journal": "Classical Antiquity",
+   "year": "1983",
+   "iid": "8a97f505-b1a4-396c-bf92-b76c1c99f09b",
+   "doi": "10.2307/25010799",
+   "title": "Αἱ γὰρ τω̑ν ἐναντίων ἀποδείξεις ἀπορίαι περὶ τω̑ν ἐναντίων εἰσίν Philosophical Program and Expository Practice in Aristotle",
+   "author": "Kenneth Quandt"
+  },
+  {
+   "book": "",
+   "page": 1209,
+   "section": "a",
+   "line": null,
+   "journal": "Vigiliae Christianae",
+   "year": "1977",
+   "iid": "8b38750b-2579-356c-b80e-a268dfe74c91",
+   "doi": "10.2307/1583574",
+   "title": "Ergänzende Bemerkungen zum Aufsatz \"Ein Bildhafter Vergleich bei Seneca, Themistios, Gregor von Nazianz und sein kynisch-stoischer Hintergrund\"",
+   "author": "Manfred Kertsch"
+  },
+  {
+   "book": "",
+   "page": 1195,
+   "section": "a",
+   "line": null,
+   "journal": "Vigiliae Christianae",
+   "year": "1977",
+   "iid": "8b38750b-2579-356c-b80e-a268dfe74c91",
+   "doi": "10.2307/1583574",
+   "title": "Ergänzende Bemerkungen zum Aufsatz \"Ein Bildhafter Vergleich bei Seneca, Themistios, Gregor von Nazianz und sein kynisch-stoischer Hintergrund\"",
+   "author": "Manfred Kertsch"
+  },
+  {
+   "book": "",
+   "page": 1198,
+   "section": "b",
+   "line": 8,
+   "journal": "The American Journal of Philology",
+   "year": "1988",
+   "iid": "927bc6e8-fb84-3e76-a2d9-efdd309193a0",
+   "doi": "10.2307/294589",
+   "title": "Book Review : \n        On Stoic and Peripatetic Ethics: The Work of Arius Didymus\n        \n          William W.\n          Fortenbaugh\n        \n        \n          Arius\n          Didymus",
+   "author": "P. A. Vander Waerdt, Arius Didymus, William W. Fortenbaugh"
+  },
+  {
+   "book": "",
+   "page": 1188,
+   "section": "a",
+   "line": null,
+   "journal": "The Harvard Theological Review",
+   "year": "2008",
+   "iid": "944e6d8f-cd50-32bd-8c78-1ec8d1da1a50",
+   "doi": "10.2307/40211950",
+   "title": "The Beauty of the Redemption of the World: The Theological Aesthetics of Maximus the Confessor and Jonathan Edwards",
+   "author": "Michael D. Gibson"
+  },
+  {
+   "book": "",
+   "page": 1189,
+   "section": "b",
+   "line": null,
+   "journal": "The Harvard Theological Review",
+   "year": "2008",
+   "iid": "944e6d8f-cd50-32bd-8c78-1ec8d1da1a50",
+   "doi": "10.2307/40211950",
+   "title": "The Beauty of the Redemption of the World: The Theological Aesthetics of Maximus the Confessor and Jonathan Edwards",
+   "author": "Michael D. Gibson"
+  },
+  {
+   "book": "",
+   "page": 1188,
+   "section": "a",
+   "line": null,
+   "journal": "Vigiliae Christianae",
+   "year": "1995",
+   "iid": "9500ba70-63e5-38d4-9fab-c180c65c0d6e",
+   "doi": "10.2307/1583825",
+   "title": "Augustins ekklesiologische Christologie im Spiegel seiner Hermeneutik. Die Bildstruktur der \"Enarratio in Ps 44\"",
+   "author": "Elisabeth Grünbeck"
+  },
+  {
+   "book": "",
+   "page": 1197,
+   "section": "b",
+   "line": null,
+   "journal": "Novum Testamentum",
+   "year": "2007",
+   "iid": "9616c09e-0bce-360e-b307-90f775e8ca0f",
+   "doi": "10.2307/25442558",
+   "title": "Ἐὰν μή in Galatians 2:16: A Look at Greek Literature",
+   "author": "Debbie Hunn"
+  },
+  {
+   "book": "",
+   "page": 1207,
+   "section": "b",
+   "line": null,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "2003",
+   "iid": "95b260a7-786e-3ce3-9b4b-5b1d35e19664",
+   "doi": "10.2307/41234717",
+   "title": "WHAT WAS EMPEROR AUGUSTUS DOING AT A CAROLINGIAN BANQUET (ANTH. LAT. 719)?",
+   "author": "John J. Contreni"
+  },
+  {
+   "book": "",
+   "page": 1188,
+   "section": "b",
+   "line": 25,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "2013",
+   "iid": "9797b3b2-77f2-3536-b87b-ea086f46a910",
+   "doi": "10.2307/24392768",
+   "title": "DER STIEFSOHN IN ANTIPHONS REDE GEGEN DIE STIEFMUTTER",
+   "author": "Joachim Dingel"
+  },
+  {
+   "book": "",
+   "page": 1208,
+   "section": "a",
+   "line": null,
+   "journal": "Illinois Classical Studies",
+   "year": "1981",
+   "iid": "9e0f12ed-d09d-3cb1-8b3f-1b9681800c31",
+   "doi": "10.2307/23061970",
+   "title": "Versumstellungen in der griechischen Tragoedie",
+   "author": "HARTMUT ERBSE"
+  },
+  {
+   "book": "",
+   "page": 1188,
+   "section": "b",
+   "line": null,
+   "journal": "Hermes",
+   "year": "1982",
+   "iid": "9e276518-a78b-341b-9591-82bc75905930",
+   "doi": "10.2307/4476279",
+   "title": "Human and Divine Action in Euripides' Hippolytus",
+   "author": "Jerker Blomqvist"
+  },
+  {
+   "book": "",
+   "page": 1195,
+   "section": "b",
+   "line": null,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1886",
+   "iid": "9f2d5132-b498-3ef6-a84e-4bb43f7ceb7d",
+   "doi": "10.2307/41251738",
+   "title": "Scholien zur Nikomachischen Ethik",
+   "author": "G. Heylbut"
+  },
+  {
+   "book": "",
+   "page": 1200,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Journal",
+   "year": "2019",
+   "iid": "9f335a90-73e6-3e2f-a58e-48195b71e99b",
+   "doi": "10.5184/classicalj.114.4.0464",
+   "title": "Julia Domna and her Divine Motherhood: A Re-examination of the Evidence from Imperial Coins",
+   "author": "Riccardo Bertolazzi"
+  },
+  {
+   "book": "",
+   "page": 1192,
+   "section": "a",
+   "line": null,
+   "journal": "Quaderni Urbinati di Cultura Classica",
+   "year": "1978",
+   "iid": "9f53fc48-7d9d-33a4-a610-7d944fbfdced",
+   "doi": "10.2307/20537863",
+   "title": "Κίμβιξ ϰαὶ σοφός: Simonides in the Anecdotal Tradition",
+   "author": "J. M. Bell"
+  },
+  {
+   "book": "",
+   "page": 1193,
+   "section": "a",
+   "line": null,
+   "journal": "Quaderni Urbinati di Cultura Classica",
+   "year": "1978",
+   "iid": "9f53fc48-7d9d-33a4-a610-7d944fbfdced",
+   "doi": "10.2307/20537863",
+   "title": "Κίμβιξ ϰαὶ σοφός: Simonides in the Anecdotal Tradition",
+   "author": "J. M. Bell"
+  },
+  {
+   "book": "",
+   "page": 1192,
+   "section": "a",
+   "line": null,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1888",
+   "iid": "a031f16d-f598-3c54-91d1-faa9ba97d2ee",
+   "doi": "10.2307/41259193",
+   "title": "Zu Aristoteles",
+   "author": "H. Rassow"
+  },
+  {
+   "book": "",
+   "page": 1181,
+   "section": "a",
+   "line": 28,
+   "journal": "Transactions of the American Philological Association (1974-2014)",
+   "year": "1984",
+   "iid": "a1cd0750-95ea-36dd-a96d-c8a6bc3e6fde",
+   "doi": "10.2307/284145",
+   "title": "&#x03A3;&#x03A0;&#x039F;&#x03D2;&#x0394;&#x0391;&#x0399;&#x039F;&#x03A3 ; and Teleology in the Poetics",
+   "author": "George F. Held"
+  },
+  {
+   "book": "",
+   "page": 1192,
+   "section": "a",
+   "line": 10,
+   "journal": "The American Journal of Philology",
+   "year": "2019",
+   "iid": "a1e88249-a036-3ef9-9ecb-65a28edf7793",
+   "doi": "10.2307/48637452",
+   "title": "NAMING THE PLAGUE IN HOMER, SOPHOCLES, AND THUCYDIDES",
+   "author": "Pantelis Michelakis"
+  },
+  {
+   "book": "",
+   "page": 1188,
+   "section": "a",
+   "line": null,
+   "journal": "Vigiliae Christianae",
+   "year": "1992",
+   "iid": "a3e886fd-eb1f-3577-85b9-558e7d19bc93",
+   "doi": "10.2307/1583788",
+   "title": "Maximus the Confessor, Gregory of Nyssa, and the Concept of \"Perpetual Progress\"",
+   "author": "Paul M. Blowers"
+  },
+  {
+   "book": "",
+   "page": 1184,
+   "section": "b",
+   "line": null,
+   "journal": "Vigiliae Christianae",
+   "year": "1992",
+   "iid": "a3e886fd-eb1f-3577-85b9-558e7d19bc93",
+   "doi": "10.2307/1583788",
+   "title": "Maximus the Confessor, Gregory of Nyssa, and the Concept of \"Perpetual Progress\"",
+   "author": "Paul M. Blowers"
+  },
+  {
+   "book": "",
+   "page": 1185,
+   "section": "a",
+   "line": null,
+   "journal": "Mnemosyne",
+   "year": "1998",
+   "iid": "a68c0793-8f48-3a22-becc-99ff306321c0",
+   "doi": "10.2307/4432908",
+   "title": "Zu Hipponax 51 W",
+   "author": "Klaus Lennartz"
+  },
+  {
+   "book": "",
+   "page": 1185,
+   "section": "b",
+   "line": null,
+   "journal": "Mnemosyne",
+   "year": "1998",
+   "iid": "a68c0793-8f48-3a22-becc-99ff306321c0",
+   "doi": "10.2307/4432908",
+   "title": "Zu Hipponax 51 W",
+   "author": "Klaus Lennartz"
+  },
+  {
+   "book": "",
+   "page": 1184,
+   "section": "a",
+   "line": null,
+   "journal": "Vigiliae Christianae",
+   "year": "1955",
+   "iid": "a75d153f-d1f3-3615-a26a-8863c2da5d24",
+   "doi": "10.2307/1582664",
+   "title": "Zur Gotteslehre Gregors von Nyssa",
+   "author": "Walther Völker"
+  },
+  {
+   "book": "",
+   "page": 1184,
+   "section": "b",
+   "line": null,
+   "journal": "Quaderni Urbinati di Cultura Classica",
+   "year": "1969",
+   "iid": "a7e180d6-897f-3879-aa5d-b6fcd5f4357c",
+   "doi": "10.2307/20537602",
+   "title": "La versificazione anglosassone: Ricerche e proposte",
+   "author": "Anna Maria Luiselli Fadda"
+  },
+  {
+   "book": "",
+   "page": 1198,
+   "section": "a",
+   "line": null,
+   "journal": "Quaderni Urbinati di Cultura Classica",
+   "year": "1969",
+   "iid": "a7e180d6-897f-3879-aa5d-b6fcd5f4357c",
+   "doi": "10.2307/20537602",
+   "title": "La versificazione anglosassone: Ricerche e proposte",
+   "author": "Anna Maria Luiselli Fadda"
+  },
+  {
+   "book": "",
+   "page": 1189,
+   "section": "b",
+   "line": null,
+   "journal": "Quaderni Urbinati di Cultura Classica",
+   "year": "1969",
+   "iid": "a7e180d6-897f-3879-aa5d-b6fcd5f4357c",
+   "doi": "10.2307/20537602",
+   "title": "La versificazione anglosassone: Ricerche e proposte",
+   "author": "Anna Maria Luiselli Fadda"
+  },
+  {
+   "book": "",
+   "page": 1193,
+   "section": "a",
+   "line": null,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1975",
+   "iid": "a87aed22-59d7-3bf9-adba-5e70906f14e7",
+   "doi": "10.2307/41244806",
+   "title": "DIE CHARAKTERE THEOPHRASTS: Verhaltensregelmäßigkeiten und aristotelische Laster",
+   "author": "W. W. Fortenbaugh"
+  },
+  {
+   "book": "",
+   "page": 1192,
+   "section": "b",
+   "line": null,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1975",
+   "iid": "a87aed22-59d7-3bf9-adba-5e70906f14e7",
+   "doi": "10.2307/41244806",
+   "title": "DIE CHARAKTERE THEOPHRASTS: Verhaltensregelmäßigkeiten und aristotelische Laster",
+   "author": "W. W. Fortenbaugh"
+  },
+  {
+   "book": "",
+   "page": 1207,
+   "section": "a",
+   "line": null,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1975",
+   "iid": "a87aed22-59d7-3bf9-adba-5e70906f14e7",
+   "doi": "10.2307/41244806",
+   "title": "DIE CHARAKTERE THEOPHRASTS: Verhaltensregelmäßigkeiten und aristotelische Laster",
+   "author": "W. W. Fortenbaugh"
+  },
+  {
+   "book": "",
+   "page": 1201,
+   "section": "b",
+   "line": null,
+   "journal": "Zeitschrift für katholische Theologie",
+   "year": "1951",
+   "iid": "a92b5ec4-6402-3e04-889f-10f5deb6f478",
+   "doi": "10.2307/24179943",
+   "title": "EPITHALAMIUM VIRGINUM, JUNGFRAUENSPIEGEL UND PSEUDO-MARBOD",
+   "author": "M. Bernards"
+  },
+  {
+   "book": "",
+   "page": 1202,
+   "section": "a",
+   "line": null,
+   "journal": "Zeitschrift für katholische Theologie",
+   "year": "1951",
+   "iid": "a92b5ec4-6402-3e04-889f-10f5deb6f478",
+   "doi": "10.2307/24179943",
+   "title": "EPITHALAMIUM VIRGINUM, JUNGFRAUENSPIEGEL UND PSEUDO-MARBOD",
+   "author": "M. Bernards"
+  },
+  {
+   "book": "",
+   "page": 1196,
+   "section": "a",
+   "line": null,
+   "journal": "Zeitschrift für katholische Theologie",
+   "year": "1951",
+   "iid": "a92b5ec4-6402-3e04-889f-10f5deb6f478",
+   "doi": "10.2307/24179943",
+   "title": "EPITHALAMIUM VIRGINUM, JUNGFRAUENSPIEGEL UND PSEUDO-MARBOD",
+   "author": "M. Bernards"
+  },
+  {
+   "book": "",
+   "page": 1205,
+   "section": "b",
+   "line": null,
+   "journal": "Zeitschrift für katholische Theologie",
+   "year": "1951",
+   "iid": "a92b5ec4-6402-3e04-889f-10f5deb6f478",
+   "doi": "10.2307/24179943",
+   "title": "EPITHALAMIUM VIRGINUM, JUNGFRAUENSPIEGEL UND PSEUDO-MARBOD",
+   "author": "M. Bernards"
+  },
+  {
+   "book": "",
+   "page": 1205,
+   "section": "b",
+   "line": 15,
+   "journal": "Zeitschrift für katholische Theologie",
+   "year": "1951",
+   "iid": "a92b5ec4-6402-3e04-889f-10f5deb6f478",
+   "doi": "10.2307/24179943",
+   "title": "EPITHALAMIUM VIRGINUM, JUNGFRAUENSPIEGEL UND PSEUDO-MARBOD",
+   "author": "M. Bernards"
+  },
+  {
+   "book": "",
+   "page": 1205,
+   "section": "b",
+   "line": 30,
+   "journal": "Zeitschrift für katholische Theologie",
+   "year": "1951",
+   "iid": "a92b5ec4-6402-3e04-889f-10f5deb6f478",
+   "doi": "10.2307/24179943",
+   "title": "EPITHALAMIUM VIRGINUM, JUNGFRAUENSPIEGEL UND PSEUDO-MARBOD",
+   "author": "M. Bernards"
+  },
+  {
+   "book": "",
+   "page": 1206,
+   "section": "a",
+   "line": null,
+   "journal": "Zeitschrift für katholische Theologie",
+   "year": "1951",
+   "iid": "a92b5ec4-6402-3e04-889f-10f5deb6f478",
+   "doi": "10.2307/24179943",
+   "title": "EPITHALAMIUM VIRGINUM, JUNGFRAUENSPIEGEL UND PSEUDO-MARBOD",
+   "author": "M. Bernards"
+  },
+  {
+   "book": "",
+   "page": 1206,
+   "section": "a",
+   "line": 15,
+   "journal": "Zeitschrift für katholische Theologie",
+   "year": "1951",
+   "iid": "a92b5ec4-6402-3e04-889f-10f5deb6f478",
+   "doi": "10.2307/24179943",
+   "title": "EPITHALAMIUM VIRGINUM, JUNGFRAUENSPIEGEL UND PSEUDO-MARBOD",
+   "author": "M. Bernards"
+  },
+  {
+   "book": "",
+   "page": 1206,
+   "section": "a",
+   "line": 30,
+   "journal": "Zeitschrift für katholische Theologie",
+   "year": "1951",
+   "iid": "a92b5ec4-6402-3e04-889f-10f5deb6f478",
+   "doi": "10.2307/24179943",
+   "title": "EPITHALAMIUM VIRGINUM, JUNGFRAUENSPIEGEL UND PSEUDO-MARBOD",
+   "author": "M. Bernards"
+  },
+  {
+   "book": "",
+   "page": 1206,
+   "section": "b",
+   "line": null,
+   "journal": "Zeitschrift für katholische Theologie",
+   "year": "1951",
+   "iid": "a92b5ec4-6402-3e04-889f-10f5deb6f478",
+   "doi": "10.2307/24179943",
+   "title": "EPITHALAMIUM VIRGINUM, JUNGFRAUENSPIEGEL UND PSEUDO-MARBOD",
+   "author": "M. Bernards"
+  },
+  {
+   "book": "",
+   "page": 1206,
+   "section": "b",
+   "line": 15,
+   "journal": "Zeitschrift für katholische Theologie",
+   "year": "1951",
+   "iid": "a92b5ec4-6402-3e04-889f-10f5deb6f478",
+   "doi": "10.2307/24179943",
+   "title": "EPITHALAMIUM VIRGINUM, JUNGFRAUENSPIEGEL UND PSEUDO-MARBOD",
+   "author": "M. Bernards"
+  },
+  {
+   "book": "",
+   "page": 1206,
+   "section": "b",
+   "line": 30,
+   "journal": "Zeitschrift für katholische Theologie",
+   "year": "1951",
+   "iid": "a92b5ec4-6402-3e04-889f-10f5deb6f478",
+   "doi": "10.2307/24179943",
+   "title": "EPITHALAMIUM VIRGINUM, JUNGFRAUENSPIEGEL UND PSEUDO-MARBOD",
+   "author": "M. Bernards"
+  },
+  {
+   "book": "",
+   "page": 1207,
+   "section": "a",
+   "line": null,
+   "journal": "Zeitschrift für katholische Theologie",
+   "year": "1951",
+   "iid": "a92b5ec4-6402-3e04-889f-10f5deb6f478",
+   "doi": "10.2307/24179943",
+   "title": "EPITHALAMIUM VIRGINUM, JUNGFRAUENSPIEGEL UND PSEUDO-MARBOD",
+   "author": "M. Bernards"
+  },
+  {
+   "book": "",
+   "page": 1207,
+   "section": "a",
+   "line": 15,
+   "journal": "Zeitschrift für katholische Theologie",
+   "year": "1951",
+   "iid": "a92b5ec4-6402-3e04-889f-10f5deb6f478",
+   "doi": "10.2307/24179943",
+   "title": "EPITHALAMIUM VIRGINUM, JUNGFRAUENSPIEGEL UND PSEUDO-MARBOD",
+   "author": "M. Bernards"
+  },
+  {
+   "book": "",
+   "page": 1207,
+   "section": "a",
+   "line": 30,
+   "journal": "Zeitschrift für katholische Theologie",
+   "year": "1951",
+   "iid": "a92b5ec4-6402-3e04-889f-10f5deb6f478",
+   "doi": "10.2307/24179943",
+   "title": "EPITHALAMIUM VIRGINUM, JUNGFRAUENSPIEGEL UND PSEUDO-MARBOD",
+   "author": "M. Bernards"
+  },
+  {
+   "book": "",
+   "page": 1207,
+   "section": "b",
+   "line": null,
+   "journal": "Zeitschrift für katholische Theologie",
+   "year": "1951",
+   "iid": "a92b5ec4-6402-3e04-889f-10f5deb6f478",
+   "doi": "10.2307/24179943",
+   "title": "EPITHALAMIUM VIRGINUM, JUNGFRAUENSPIEGEL UND PSEUDO-MARBOD",
+   "author": "M. Bernards"
+  },
+  {
+   "book": "",
+   "page": 1207,
+   "section": "b",
+   "line": 15,
+   "journal": "Zeitschrift für katholische Theologie",
+   "year": "1951",
+   "iid": "a92b5ec4-6402-3e04-889f-10f5deb6f478",
+   "doi": "10.2307/24179943",
+   "title": "EPITHALAMIUM VIRGINUM, JUNGFRAUENSPIEGEL UND PSEUDO-MARBOD",
+   "author": "M. Bernards"
+  },
+  {
+   "book": "",
+   "page": 1207,
+   "section": "b",
+   "line": 30,
+   "journal": "Zeitschrift für katholische Theologie",
+   "year": "1951",
+   "iid": "a92b5ec4-6402-3e04-889f-10f5deb6f478",
+   "doi": "10.2307/24179943",
+   "title": "EPITHALAMIUM VIRGINUM, JUNGFRAUENSPIEGEL UND PSEUDO-MARBOD",
+   "author": "M. Bernards"
+  },
+  {
+   "book": "",
+   "page": 1208,
+   "section": "a",
+   "line": null,
+   "journal": "Zeitschrift für katholische Theologie",
+   "year": "1951",
+   "iid": "a92b5ec4-6402-3e04-889f-10f5deb6f478",
+   "doi": "10.2307/24179943",
+   "title": "EPITHALAMIUM VIRGINUM, JUNGFRAUENSPIEGEL UND PSEUDO-MARBOD",
+   "author": "M. Bernards"
+  },
+  {
+   "book": "",
+   "page": 1194,
+   "section": "a",
+   "line": null,
+   "journal": "Zeitschrift für katholische Theologie",
+   "year": "1939",
+   "iid": "aa3576bd-322a-3363-8015-135ec8a48794",
+   "doi": "10.2307/45433034",
+   "title": "DIE HIERA DES EVAGRIUS",
+   "author": "HANS URS VON BALTHASAR"
+  },
+  {
+   "book": "",
+   "page": 1200,
+   "section": "b",
+   "line": null,
+   "journal": "Zeitschrift für katholische Theologie",
+   "year": "1939",
+   "iid": "aa3576bd-322a-3363-8015-135ec8a48794",
+   "doi": "10.2307/45433034",
+   "title": "DIE HIERA DES EVAGRIUS",
+   "author": "HANS URS VON BALTHASAR"
+  },
+  {
+   "book": "",
+   "page": 1184,
+   "section": "a",
+   "line": null,
+   "journal": "Journal of Biblical Literature",
+   "year": "1974",
+   "iid": "aa8fc2d1-2ccb-3b72-888b-529b87fa50bf",
+   "doi": "10.2307/3263868",
+   "title": "Georgi's \"Envoys\" in 2 Cor 11:23",
+   "author": "John N. Collins"
+  },
+  {
+   "book": "",
+   "page": 1208,
+   "section": "b",
+   "line": null,
+   "journal": "Zeitschrift für katholische Theologie",
+   "year": "1962",
+   "iid": "adaff509-6ee5-36ac-8be3-b974d1f48aa1",
+   "doi": "10.2307/24176669",
+   "title": "ÜBER DAS LATEIN ALS KIRCHENSPRACHE",
+   "author": "Karl Rahner"
+  },
+  {
+   "book": "",
+   "page": 1198,
+   "section": "a",
+   "line": null,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1885",
+   "iid": "ae0fbceb-a29d-377b-99b9-181c2f7b08a2",
+   "doi": "10.2307/41247980",
+   "title": "Zu Aristoteles",
+   "author": "H. Rassow"
+  },
+  {
+   "book": "",
+   "page": 1198,
+   "section": "a",
+   "line": 31,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1885",
+   "iid": "ae0fbceb-a29d-377b-99b9-181c2f7b08a2",
+   "doi": "10.2307/41247980",
+   "title": "Zu Aristoteles",
+   "author": "H. Rassow"
+  },
+  {
+   "book": "",
+   "page": 1198,
+   "section": "a",
+   "line": 21,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1885",
+   "iid": "ae0fbceb-a29d-377b-99b9-181c2f7b08a2",
+   "doi": "10.2307/41247980",
+   "title": "Zu Aristoteles",
+   "author": "H. Rassow"
+  },
+  {
+   "book": "",
+   "page": 1206,
+   "section": "a",
+   "line": null,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1885",
+   "iid": "ae0fbceb-a29d-377b-99b9-181c2f7b08a2",
+   "doi": "10.2307/41247980",
+   "title": "Zu Aristoteles",
+   "author": "H. Rassow"
+  },
+  {
+   "book": "",
+   "page": 1207,
+   "section": "a",
+   "line": null,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1885",
+   "iid": "ae0fbceb-a29d-377b-99b9-181c2f7b08a2",
+   "doi": "10.2307/41247980",
+   "title": "Zu Aristoteles",
+   "author": "H. Rassow"
+  },
+  {
+   "book": "",
+   "page": 1198,
+   "section": "b",
+   "line": null,
+   "journal": "Mnemosyne",
+   "year": "2011",
+   "iid": "b04f1c4a-cc8d-3917-b89f-75d9d7b44b99",
+   "doi": "10.2307/23054352",
+   "title": "Book Review : \n        Aristophanis fabulae, I-II (OCT)\n        \n          N.G.\n          Wilson",
+   "author": "R.F. Regtuit, N.G. Wilson"
+  },
+  {
+   "book": "",
+   "page": 1198,
+   "section": "b",
+   "line": 15,
+   "journal": "Mnemosyne",
+   "year": "2011",
+   "iid": "b04f1c4a-cc8d-3917-b89f-75d9d7b44b99",
+   "doi": "10.2307/23054352",
+   "title": "Book Review : \n        Aristophanis fabulae, I-II (OCT)\n        \n          N.G.\n          Wilson",
+   "author": "R.F. Regtuit, N.G. Wilson"
+  },
+  {
+   "book": "",
+   "page": 1198,
+   "section": "b",
+   "line": 30,
+   "journal": "Mnemosyne",
+   "year": "2011",
+   "iid": "b04f1c4a-cc8d-3917-b89f-75d9d7b44b99",
+   "doi": "10.2307/23054352",
+   "title": "Book Review : \n        Aristophanis fabulae, I-II (OCT)\n        \n          N.G.\n          Wilson",
+   "author": "R.F. Regtuit, N.G. Wilson"
+  },
+  {
+   "book": "",
+   "page": 1199,
+   "section": "a",
+   "line": null,
+   "journal": "Mnemosyne",
+   "year": "2011",
+   "iid": "b04f1c4a-cc8d-3917-b89f-75d9d7b44b99",
+   "doi": "10.2307/23054352",
+   "title": "Book Review : \n        Aristophanis fabulae, I-II (OCT)\n        \n          N.G.\n          Wilson",
+   "author": "R.F. Regtuit, N.G. Wilson"
+  },
+  {
+   "book": "",
+   "page": 1199,
+   "section": "a",
+   "line": 15,
+   "journal": "Mnemosyne",
+   "year": "2011",
+   "iid": "b04f1c4a-cc8d-3917-b89f-75d9d7b44b99",
+   "doi": "10.2307/23054352",
+   "title": "Book Review : \n        Aristophanis fabulae, I-II (OCT)\n        \n          N.G.\n          Wilson",
+   "author": "R.F. Regtuit, N.G. Wilson"
+  },
+  {
+   "book": "",
+   "page": 1199,
+   "section": "a",
+   "line": 30,
+   "journal": "Mnemosyne",
+   "year": "2011",
+   "iid": "b04f1c4a-cc8d-3917-b89f-75d9d7b44b99",
+   "doi": "10.2307/23054352",
+   "title": "Book Review : \n        Aristophanis fabulae, I-II (OCT)\n        \n          N.G.\n          Wilson",
+   "author": "R.F. Regtuit, N.G. Wilson"
+  },
+  {
+   "book": "",
+   "page": 1199,
+   "section": "b",
+   "line": null,
+   "journal": "Mnemosyne",
+   "year": "2011",
+   "iid": "b04f1c4a-cc8d-3917-b89f-75d9d7b44b99",
+   "doi": "10.2307/23054352",
+   "title": "Book Review : \n        Aristophanis fabulae, I-II (OCT)\n        \n          N.G.\n          Wilson",
+   "author": "R.F. Regtuit, N.G. Wilson"
+  },
+  {
+   "book": "",
+   "page": 1199,
+   "section": "b",
+   "line": 15,
+   "journal": "Mnemosyne",
+   "year": "2011",
+   "iid": "b04f1c4a-cc8d-3917-b89f-75d9d7b44b99",
+   "doi": "10.2307/23054352",
+   "title": "Book Review : \n        Aristophanis fabulae, I-II (OCT)\n        \n          N.G.\n          Wilson",
+   "author": "R.F. Regtuit, N.G. Wilson"
+  },
+  {
+   "book": "",
+   "page": 1199,
+   "section": "b",
+   "line": 30,
+   "journal": "Mnemosyne",
+   "year": "2011",
+   "iid": "b04f1c4a-cc8d-3917-b89f-75d9d7b44b99",
+   "doi": "10.2307/23054352",
+   "title": "Book Review : \n        Aristophanis fabulae, I-II (OCT)\n        \n          N.G.\n          Wilson",
+   "author": "R.F. Regtuit, N.G. Wilson"
+  },
+  {
+   "book": "",
+   "page": 1200,
+   "section": "a",
+   "line": null,
+   "journal": "Mnemosyne",
+   "year": "2011",
+   "iid": "b04f1c4a-cc8d-3917-b89f-75d9d7b44b99",
+   "doi": "10.2307/23054352",
+   "title": "Book Review : \n        Aristophanis fabulae, I-II (OCT)\n        \n          N.G.\n          Wilson",
+   "author": "R.F. Regtuit, N.G. Wilson"
+  },
+  {
+   "book": "",
+   "page": 1206,
+   "section": "a",
+   "line": null,
+   "journal": "Quaderni Urbinati di Cultura Classica",
+   "year": "2014",
+   "iid": "b0808577-d8cd-3b06-a799-49ec750e6b45",
+   "doi": "10.2307/24645267",
+   "title": "NOTE AL \"POXY\" 5159",
+   "author": "Giampaolo Galvani, Liana Lomiento"
+  },
+  {
+   "book": "",
+   "page": 1206,
+   "section": "b",
+   "line": null,
+   "journal": "Hermes",
+   "year": "1983",
+   "iid": "b225a4cf-2db8-368c-9a9e-fecd7782b9fb",
+   "doi": "10.2307/4476321",
+   "title": "Aristotle's Dichotomy of Eytyxia (Eudemian Ethics Θ, 2, 1247b18-1248a15)",
+   "author": "Michael J. Mills"
+  },
+  {
+   "book": "",
+   "page": 1200,
+   "section": "a",
+   "line": null,
+   "journal": "Recherches de théologie ancienne et médiévale",
+   "year": "1976",
+   "iid": "b378680e-e904-3dfe-b38a-5ac19791711c",
+   "doi": "10.2307/26188436",
+   "title": "Présence de Grégoire le Grand chez Défensor de Ligugé et Julien de Vézelay",
+   "author": "Patrick Catry"
+  },
+  {
+   "book": "",
+   "page": 1212,
+   "section": "a",
+   "line": null,
+   "journal": "Recherches de théologie ancienne et médiévale",
+   "year": "1976",
+   "iid": "b378680e-e904-3dfe-b38a-5ac19791711c",
+   "doi": "10.2307/26188436",
+   "title": "Présence de Grégoire le Grand chez Défensor de Ligugé et Julien de Vézelay",
+   "author": "Patrick Catry"
+  },
+  {
+   "book": "",
+   "page": 1182,
+   "section": "b",
+   "line": null,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1967",
+   "iid": "b47acbc0-a93a-34d2-b9b1-cd6678019755",
+   "doi": "10.2307/41244342",
+   "title": "ZWEI PROTREPTIKOS-ZITATE IN DER EUDEMISCHEN ETHIK DES ARISTOTELES",
+   "author": "Konrad Gaiser"
+  },
+  {
+   "book": "",
+   "page": 1200,
+   "section": "b",
+   "line": null,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1967",
+   "iid": "b47acbc0-a93a-34d2-b9b1-cd6678019755",
+   "doi": "10.2307/41244342",
+   "title": "ZWEI PROTREPTIKOS-ZITATE IN DER EUDEMISCHEN ETHIK DES ARISTOTELES",
+   "author": "Konrad Gaiser"
+  },
+  {
+   "book": "",
+   "page": 1208,
+   "section": "b",
+   "line": null,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1967",
+   "iid": "b47acbc0-a93a-34d2-b9b1-cd6678019755",
+   "doi": "10.2307/41244342",
+   "title": "ZWEI PROTREPTIKOS-ZITATE IN DER EUDEMISCHEN ETHIK DES ARISTOTELES",
+   "author": "Konrad Gaiser"
+  },
+  {
+   "book": "",
+   "page": 1195,
+   "section": "a",
+   "line": 25,
+   "journal": "Recherches de théologie et philosophie médiévales",
+   "year": "2018",
+   "iid": "b55219a5-2e43-3252-8fc2-ee484200287e",
+   "doi": "10.2307/26786237",
+   "title": "DOPPELTE UNWISSENHEIT VOM DÜNKEL DER SELBSTWEISHEIT",
+   "author": "Theo Kobusch"
+  },
+  {
+   "book": "",
+   "page": 1186,
+   "section": "a",
+   "line": null,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1880",
+   "iid": "b5c63e0f-b803-320f-9432-fc3a1daae435",
+   "doi": "10.2307/41245784",
+   "title": "Zur pseudo-aristotelischen gr. Moral und eudem. Ethik",
+   "author": "Fr. Susemihl"
+  },
+  {
+   "book": "",
+   "page": 1187,
+   "section": "b",
+   "line": null,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1880",
+   "iid": "b5c63e0f-b803-320f-9432-fc3a1daae435",
+   "doi": "10.2307/41245784",
+   "title": "Zur pseudo-aristotelischen gr. Moral und eudem. Ethik",
+   "author": "Fr. Susemihl"
+  },
+  {
+   "book": "",
+   "page": 1203,
+   "section": "b",
+   "line": null,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1880",
+   "iid": "b5c63e0f-b803-320f-9432-fc3a1daae435",
+   "doi": "10.2307/41245784",
+   "title": "Zur pseudo-aristotelischen gr. Moral und eudem. Ethik",
+   "author": "Fr. Susemihl"
+  },
+  {
+   "book": "",
+   "page": 1211,
+   "section": "b",
+   "line": null,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1880",
+   "iid": "b5c63e0f-b803-320f-9432-fc3a1daae435",
+   "doi": "10.2307/41245784",
+   "title": "Zur pseudo-aristotelischen gr. Moral und eudem. Ethik",
+   "author": "Fr. Susemihl"
+  },
+  {
+   "book": "",
+   "page": 1196,
+   "section": "a",
+   "line": null,
+   "journal": "Recherches de théologie ancienne et médiévale",
+   "year": "1996",
+   "iid": "b65d986a-a3c9-3772-97f8-e6880ed11bc5",
+   "doi": "10.2307/26189054",
+   "title": "EL HOMBRE COMO MICROCOSMOS EN EL PENSAMIENTO DE SAN MAXIMO EL CONFESOR",
+   "author": "Pablo Argárate"
+  },
+  {
+   "book": "",
+   "page": 1194,
+   "section": "b",
+   "line": null,
+   "journal": "Mnemosyne",
+   "year": "1964",
+   "iid": "b7ff1331-ecb6-31d7-a15a-2282bc790fc9",
+   "doi": "10.2307/4428990",
+   "title": "De priore recensione thomana Aristophanis",
+   "author": "W. J. W. Koster"
+  },
+  {
+   "book": "",
+   "page": 1188,
+   "section": "b",
+   "line": 31,
+   "journal": "Harvard Studies in Classical Philology",
+   "year": "1989",
+   "iid": "b914143a-9b59-3c55-beb1-bbe5c4752827",
+   "doi": "10.2307/311356",
+   "title": "Traditional Elements in the Concept of Hamartia in Aristotle's Poetics",
+   "author": "Eckart Schütrumpf"
+  },
+  {
+   "book": "",
+   "page": 1205,
+   "section": "a",
+   "line": null,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1887",
+   "iid": "ba4c5e76-2b4d-31fc-aa17-6ff9a492b9fa",
+   "doi": "10.2307/41248098",
+   "title": "Zur Ueberlieferung der Politik des Aristoteles",
+   "author": "G. Heylbut"
+  },
+  {
+   "book": "",
+   "page": 1185,
+   "section": "a",
+   "line": null,
+   "journal": "Zeitschrift für katholische Theologie",
+   "year": "1941",
+   "iid": "bae073ee-9b3b-3e00-9381-4cab0fbd8f09",
+   "doi": "10.2307/45430947",
+   "title": "ANTENNA CRUCIS: I. ODYSSEUS AM MASTBAUM",
+   "author": "HUGO RAHNER"
+  },
+  {
+   "book": "",
+   "page": 1184,
+   "section": "a",
+   "line": null,
+   "journal": "Quaderni Urbinati di Cultura Classica",
+   "year": "2019",
+   "iid": "bbac6288-9ab7-342c-811f-61c299d86340",
+   "doi": "10.2307/48567021",
+   "title": "UNA SECONDA ELEGIA TEOGNIDEA SULLA ΣΦΡΗΓΙΣ (<em>AP</em> 10, 42)",
+   "author": "Giulio Colesanti"
+  },
+  {
+   "book": "",
+   "page": 1184,
+   "section": "a",
+   "line": 15,
+   "journal": "Quaderni Urbinati di Cultura Classica",
+   "year": "2019",
+   "iid": "bbac6288-9ab7-342c-811f-61c299d86340",
+   "doi": "10.2307/48567021",
+   "title": "UNA SECONDA ELEGIA TEOGNIDEA SULLA ΣΦΡΗΓΙΣ (<em>AP</em> 10, 42)",
+   "author": "Giulio Colesanti"
+  },
+  {
+   "book": "",
+   "page": 1184,
+   "section": "a",
+   "line": 30,
+   "journal": "Quaderni Urbinati di Cultura Classica",
+   "year": "2019",
+   "iid": "bbac6288-9ab7-342c-811f-61c299d86340",
+   "doi": "10.2307/48567021",
+   "title": "UNA SECONDA ELEGIA TEOGNIDEA SULLA ΣΦΡΗΓΙΣ (<em>AP</em> 10, 42)",
+   "author": "Giulio Colesanti"
+  },
+  {
+   "book": "",
+   "page": 1184,
+   "section": "b",
+   "line": null,
+   "journal": "Quaderni Urbinati di Cultura Classica",
+   "year": "2019",
+   "iid": "bbac6288-9ab7-342c-811f-61c299d86340",
+   "doi": "10.2307/48567021",
+   "title": "UNA SECONDA ELEGIA TEOGNIDEA SULLA ΣΦΡΗΓΙΣ (<em>AP</em> 10, 42)",
+   "author": "Giulio Colesanti"
+  },
+  {
+   "book": "",
+   "page": 1193,
+   "section": "a",
+   "line": null,
+   "journal": "Zeitschrift für katholische Theologie",
+   "year": "2000",
+   "iid": "bcdc9840-0871-3b82-aea5-a72a68426e85",
+   "doi": "10.2307/24169955",
+   "title": "TOD UND AUFERSTEHUNG IN DER BYZANTINISCHEN THEOLOGIE",
+   "author": "Gerhard Podskalsky"
+  },
+  {
+   "book": "",
+   "page": 1183,
+   "section": "a",
+   "line": null,
+   "journal": "Recherches de théologie ancienne et médiévale",
+   "year": "1985",
+   "iid": "bd9850fa-b64e-3765-b043-03e42f343fbb",
+   "doi": "10.2307/26188859",
+   "title": "Esse, Vivere, Intelligere: The Noetic Triad and the Image of God",
+   "author": "David N. Bell"
+  },
+  {
+   "book": "",
+   "page": 1192,
+   "section": "a",
+   "line": null,
+   "journal": "The American Journal of Philology",
+   "year": "2004",
+   "iid": "c19b4912-24be-310a-ad3f-8dd70972b4aa",
+   "doi": "10.2307/1562209",
+   "title": "Ensemble Scenes in Plautus",
+   "author": "George Fredric Franko"
+  },
+  {
+   "book": "",
+   "page": 1213,
+   "section": "b",
+   "line": null,
+   "journal": "Church History",
+   "year": "1976",
+   "iid": "c3eae7bf-024f-3547-b582-68e5ae847264",
+   "doi": "10.2307/3164562",
+   "title": "What Was the Iconoclastic Controversy about?",
+   "author": "Patrick Henry"
+  },
+  {
+   "book": "",
+   "page": 1194,
+   "section": "a",
+   "line": null,
+   "journal": "Quaderni Urbinati di Cultura Classica",
+   "year": "2009",
+   "iid": "c534ddb8-bf07-3927-9414-beed32fc5079",
+   "doi": "10.2307/25676830",
+   "title": "NOTA A SOPH. OT 1194A-1195∼1203A-1203B",
+   "author": "Francesco G. Giannachi"
+  },
+  {
+   "book": "",
+   "page": 1203,
+   "section": "a",
+   "line": null,
+   "journal": "Quaderni Urbinati di Cultura Classica",
+   "year": "2009",
+   "iid": "c534ddb8-bf07-3927-9414-beed32fc5079",
+   "doi": "10.2307/25676830",
+   "title": "NOTA A SOPH. OT 1194A-1195∼1203A-1203B",
+   "author": "Francesco G. Giannachi"
+  },
+  {
+   "book": "",
+   "page": 1203,
+   "section": "a",
+   "line": 15,
+   "journal": "Quaderni Urbinati di Cultura Classica",
+   "year": "2009",
+   "iid": "c534ddb8-bf07-3927-9414-beed32fc5079",
+   "doi": "10.2307/25676830",
+   "title": "NOTA A SOPH. OT 1194A-1195∼1203A-1203B",
+   "author": "Francesco G. Giannachi"
+  },
+  {
+   "book": "",
+   "page": 1203,
+   "section": "a",
+   "line": 30,
+   "journal": "Quaderni Urbinati di Cultura Classica",
+   "year": "2009",
+   "iid": "c534ddb8-bf07-3927-9414-beed32fc5079",
+   "doi": "10.2307/25676830",
+   "title": "NOTA A SOPH. OT 1194A-1195∼1203A-1203B",
+   "author": "Francesco G. Giannachi"
+  },
+  {
+   "book": "",
+   "page": 1203,
+   "section": "b",
+   "line": null,
+   "journal": "Quaderni Urbinati di Cultura Classica",
+   "year": "2009",
+   "iid": "c534ddb8-bf07-3927-9414-beed32fc5079",
+   "doi": "10.2307/25676830",
+   "title": "NOTA A SOPH. OT 1194A-1195∼1203A-1203B",
+   "author": "Francesco G. Giannachi"
+  },
+  {
+   "book": "",
+   "page": 1194,
+   "section": "b",
+   "line": null,
+   "journal": "Quaderni Urbinati di Cultura Classica",
+   "year": "2009",
+   "iid": "c534ddb8-bf07-3927-9414-beed32fc5079",
+   "doi": "10.2307/25676830",
+   "title": "NOTA A SOPH. OT 1194A-1195∼1203A-1203B",
+   "author": "Francesco G. Giannachi"
+  },
+  {
+   "book": "",
+   "page": 1199,
+   "section": "a",
+   "line": null,
+   "journal": "Quaderni Urbinati di Cultura Classica",
+   "year": "2009",
+   "iid": "c534ddb8-bf07-3927-9414-beed32fc5079",
+   "doi": "10.2307/25676830",
+   "title": "NOTA A SOPH. OT 1194A-1195∼1203A-1203B",
+   "author": "Francesco G. Giannachi"
+  },
+  {
+   "book": "",
+   "page": 1199,
+   "section": "b",
+   "line": null,
+   "journal": "Quaderni Urbinati di Cultura Classica",
+   "year": "2009",
+   "iid": "c534ddb8-bf07-3927-9414-beed32fc5079",
+   "doi": "10.2307/25676830",
+   "title": "NOTA A SOPH. OT 1194A-1195∼1203A-1203B",
+   "author": "Francesco G. Giannachi"
+  },
+  {
+   "book": "",
+   "page": 1200,
+   "section": "a",
+   "line": null,
+   "journal": "Quaderni Urbinati di Cultura Classica",
+   "year": "2009",
+   "iid": "c534ddb8-bf07-3927-9414-beed32fc5079",
+   "doi": "10.2307/25676830",
+   "title": "NOTA A SOPH. OT 1194A-1195∼1203A-1203B",
+   "author": "Francesco G. Giannachi"
+  },
+  {
+   "book": "",
+   "page": 1200,
+   "section": "b",
+   "line": null,
+   "journal": "Quaderni Urbinati di Cultura Classica",
+   "year": "2009",
+   "iid": "c534ddb8-bf07-3927-9414-beed32fc5079",
+   "doi": "10.2307/25676830",
+   "title": "NOTA A SOPH. OT 1194A-1195∼1203A-1203B",
+   "author": "Francesco G. Giannachi"
+  },
+  {
+   "book": "",
+   "page": 1206,
+   "section": "a",
+   "line": null,
+   "journal": "Recherches de théologie ancienne et médiévale",
+   "year": "1959",
+   "iid": "c5536e9d-63ff-3b07-bdf5-d35e769d53ac",
+   "doi": "10.2307/26189520",
+   "title": "Autour des « Enarrationes in Evangelium S. Matthaei » attribuées à Geoffroi Babion",
+   "author": "Damien Van den Eynde"
+  },
+  {
+   "book": "",
+   "page": 1182,
+   "section": "a",
+   "line": null,
+   "journal": "Hermes",
+   "year": "1940",
+   "iid": "c7bab1a7-f60c-3c9a-869f-68d1add48e75",
+   "doi": "10.2307/4474632",
+   "title": "Reste Verlorener Aristotelesschriften bei Alexander von Aphrodisias",
+   "author": "Paul Wilpert"
+  },
+  {
+   "book": "",
+   "page": 1186,
+   "section": "a",
+   "line": null,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "2010",
+   "iid": "ca9d207d-4e4a-3e71-b129-b7fa66cedcc2",
+   "doi": "10.2307/41234828",
+   "title": "IRONIE UND LÜGE: Antike Vorstellungen zur ‚Ironie‘ in Melchior Canos De locis theologicis",
+   "author": "Boris Hogenmüller"
+  },
+  {
+   "book": "",
+   "page": 1193,
+   "section": "a",
+   "line": null,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "2010",
+   "iid": "ca9d207d-4e4a-3e71-b129-b7fa66cedcc2",
+   "doi": "10.2307/41234828",
+   "title": "IRONIE UND LÜGE: Antike Vorstellungen zur ‚Ironie‘ in Melchior Canos De locis theologicis",
+   "author": "Boris Hogenmüller"
+  },
+  {
+   "book": "",
+   "page": 1194,
+   "section": "a",
+   "line": 28,
+   "journal": "Transactions of the American Philological Association (1974-2014)",
+   "year": "1984",
+   "iid": "cd73920e-2069-3ba5-ba0e-eaa06760e792",
+   "doi": "10.2307/284139",
+   "title": "Teiresias as Mantis and Intellectual in Euripides' Bacchae",
+   "author": "Paul Roth"
+  },
+  {
+   "book": "",
+   "page": 1185,
+   "section": "a",
+   "line": null,
+   "journal": "Zeitschrift für katholische Theologie",
+   "year": "1981",
+   "iid": "cddfd7b1-bb47-316f-aed7-54176e5861b8",
+   "doi": "10.2307/24163731",
+   "title": "DER SIEG CHRISTI ÜBER DEN TEUFEL: Zur Geschichte der Erlösungslehre",
+   "author": "Raymund Schwager"
+  },
+  {
+   "book": "",
+   "page": 1184,
+   "section": "b",
+   "line": null,
+   "journal": "Vigiliae Christianae",
+   "year": "2011",
+   "iid": "ce389cbc-7455-39d0-b40a-2f52256056b3",
+   "doi": "10.2307/41291367",
+   "title": "The Dialectics and Therapeutics of Desire in Maximus the Confessor",
+   "author": "Paul M. Blowers"
+  },
+  {
+   "book": "",
+   "page": 1185,
+   "section": "b",
+   "line": null,
+   "journal": "Vigiliae Christianae",
+   "year": "2011",
+   "iid": "ce389cbc-7455-39d0-b40a-2f52256056b3",
+   "doi": "10.2307/41291367",
+   "title": "The Dialectics and Therapeutics of Desire in Maximus the Confessor",
+   "author": "Paul M. Blowers"
+  },
+  {
+   "book": "",
+   "page": 1196,
+   "section": "b",
+   "line": null,
+   "journal": "Vigiliae Christianae",
+   "year": "2011",
+   "iid": "ce389cbc-7455-39d0-b40a-2f52256056b3",
+   "doi": "10.2307/41291367",
+   "title": "The Dialectics and Therapeutics of Desire in Maximus the Confessor",
+   "author": "Paul M. Blowers"
+  },
+  {
+   "book": "",
+   "page": 1209,
+   "section": "b",
+   "line": null,
+   "journal": "Vigiliae Christianae",
+   "year": "2011",
+   "iid": "ce389cbc-7455-39d0-b40a-2f52256056b3",
+   "doi": "10.2307/41291367",
+   "title": "The Dialectics and Therapeutics of Desire in Maximus the Confessor",
+   "author": "Paul M. Blowers"
+  },
+  {
+   "book": "",
+   "page": 1197,
+   "section": "a",
+   "line": null,
+   "journal": "Quaderni Urbinati di Cultura Classica",
+   "year": "1985",
+   "iid": "ce7336e7-01b9-3d4a-b21b-db3fbe5204ee",
+   "doi": "10.2307/20538855",
+   "title": "\"Praxis e Mythos\" nella \"Poetica\" di Aristotele",
+   "author": "Viviana Cessi"
+  },
+  {
+   "book": "",
+   "page": 1192,
+   "section": "a",
+   "line": null,
+   "journal": "Transactions of the American Philological Association (1869-1896)",
+   "year": "1886",
+   "iid": "d034db6b-180d-3644-bbb5-34321d209a9b",
+   "doi": "10.2307/2935745",
+   "title": "The Dative Case in Sophokles",
+   "author": "Arthur Fairbanks"
+  },
+  {
+   "book": "",
+   "page": 1211,
+   "section": "b",
+   "line": null,
+   "journal": "The American Journal of Philology",
+   "year": "1995",
+   "iid": "d1641772-613c-3160-a429-569f3b5fca10",
+   "doi": "10.2307/295404",
+   "title": "Two Complementary Festivals in Aristophanes' Acharnians",
+   "author": "Martha Habash"
+  },
+  {
+   "book": "",
+   "page": 1186,
+   "section": "a",
+   "line": null,
+   "journal": "Hermes",
+   "year": "1982",
+   "iid": "d27cae9a-d406-3b08-933e-8e6ef1572b5b",
+   "doi": "10.2307/4476280",
+   "title": "Aristotle's Treatment of the Concept of ΠΡΑΟΤΗΣ",
+   "author": "A. G. Nikolaidis"
+  },
+  {
+   "book": "",
+   "page": 1208,
+   "section": "a",
+   "line": null,
+   "journal": "The American Journal of Philology",
+   "year": "1983",
+   "iid": "d6281376-6107-381f-869a-4f4c9bea4ff2",
+   "doi": "10.2307/294559",
+   "title": "Apuleius, Platonic Dualism, and Eleven",
+   "author": "Steven Heller"
+  },
+  {
+   "book": "",
+   "page": 1208,
+   "section": "a",
+   "line": 15,
+   "journal": "The American Journal of Philology",
+   "year": "1983",
+   "iid": "d6281376-6107-381f-869a-4f4c9bea4ff2",
+   "doi": "10.2307/294559",
+   "title": "Apuleius, Platonic Dualism, and Eleven",
+   "author": "Steven Heller"
+  },
+  {
+   "book": "",
+   "page": 1208,
+   "section": "a",
+   "line": 30,
+   "journal": "The American Journal of Philology",
+   "year": "1983",
+   "iid": "d6281376-6107-381f-869a-4f4c9bea4ff2",
+   "doi": "10.2307/294559",
+   "title": "Apuleius, Platonic Dualism, and Eleven",
+   "author": "Steven Heller"
+  },
+  {
+   "book": "",
+   "page": 1208,
+   "section": "b",
+   "line": null,
+   "journal": "The American Journal of Philology",
+   "year": "1983",
+   "iid": "d6281376-6107-381f-869a-4f4c9bea4ff2",
+   "doi": "10.2307/294559",
+   "title": "Apuleius, Platonic Dualism, and Eleven",
+   "author": "Steven Heller"
+  },
+  {
+   "book": "",
+   "page": 1212,
+   "section": "b",
+   "line": null,
+   "journal": "Harvard Studies in Classical Philology",
+   "year": "1947",
+   "iid": "d6d8be78-536f-3406-b1a8-14a1f33e69e8",
+   "doi": "10.2307/310746",
+   "title": "The Roman Brick-Stamps not Published in Volume XV 1 of the \"Corpus Inscriptionum Latinarum\"",
+   "author": "Herbert Bloch"
+  },
+  {
+   "book": "",
+   "page": 1193,
+   "section": "b",
+   "line": null,
+   "journal": "The American Journal of Philology",
+   "year": "1939",
+   "iid": "da206c4a-27e2-306a-8b8a-a51f43aa4e1b",
+   "doi": "10.2307/290855",
+   "title": "Aristotle's Theory of Value",
+   "author": "Van Johnson"
+  },
+  {
+   "book": "",
+   "page": 1194,
+   "section": "a",
+   "line": null,
+   "journal": "The American Journal of Philology",
+   "year": "1939",
+   "iid": "da206c4a-27e2-306a-8b8a-a51f43aa4e1b",
+   "doi": "10.2307/290855",
+   "title": "Aristotle's Theory of Value",
+   "author": "Van Johnson"
+  },
+  {
+   "book": "",
+   "page": 1193,
+   "section": "a",
+   "line": null,
+   "journal": "Vigiliae Christianae",
+   "year": "2018",
+   "iid": "dafb0e89-2aa0-312d-9e97-abbdfd516f50",
+   "doi": "10.2307/26566950",
+   "title": "Die arithmetische Feinstruktur im Traktat <em>De oratione</em> des Evagrios Pontikos",
+   "author": "Christoph Joest"
+  },
+  {
+   "book": "",
+   "page": 1200,
+   "section": "a",
+   "line": null,
+   "journal": "Vigiliae Christianae",
+   "year": "2018",
+   "iid": "dafb0e89-2aa0-312d-9e97-abbdfd516f50",
+   "doi": "10.2307/26566950",
+   "title": "Die arithmetische Feinstruktur im Traktat <em>De oratione</em> des Evagrios Pontikos",
+   "author": "Christoph Joest"
+  },
+  {
+   "book": "",
+   "page": 1188,
+   "section": "b",
+   "line": null,
+   "journal": "Transactions of the American Philological Association (1974-2014)",
+   "year": "2000",
+   "iid": "de9a17c4-bfe2-34d5-a17a-217f91716acd",
+   "doi": "10.2307/284310",
+   "title": "Deianira's Guilt",
+   "author": "Edwin Carawan"
+  },
+  {
+   "book": "",
+   "page": 1207,
+   "section": "a",
+   "line": null,
+   "journal": "Recherches de théologie ancienne et médiévale",
+   "year": "1959",
+   "iid": "df7a5094-f538-3f96-9272-4431dd4ada1c",
+   "doi": "10.2307/26189521",
+   "title": "The Trinitarian Aspect of the Ascent of the Soul to God in the Theology of William of St Thierry",
+   "author": "O. Brooke"
+  },
+  {
+   "book": "",
+   "page": 1210,
+   "section": "b",
+   "line": null,
+   "journal": "The American Journal of Philology",
+   "year": "1957",
+   "iid": "df75a1e9-a3c4-363f-b2b3-828c81c81f01",
+   "doi": "10.2307/291727",
+   "title": "Modern Greek Corrections to Buck's Dictionary",
+   "author": "Donald C. Swanson"
+  },
+  {
+   "book": "",
+   "page": 1186,
+   "section": "a",
+   "line": null,
+   "journal": "Journal of Biblical Literature",
+   "year": "2012",
+   "iid": "dfd7ca56-48c9-39cb-92f7-ec3c36db7985",
+   "doi": "10.2307/23488267",
+   "title": "Misdirected Emulation and Paradoxical Zeal: Paul's Redefinition of \"The Good\" as Object of ζῆλος in Galatians 4:12—20",
+   "author": "BENJAMIN J. LAPPENGA"
+  },
+  {
+   "book": "",
+   "page": 1186,
+   "section": "b",
+   "line": null,
+   "journal": "Biblica",
+   "year": "1994",
+   "iid": "e0cc5c08-4bf5-3e89-b43b-bd2008e1e637",
+   "doi": "10.2307/42611387",
+   "title": "Book Review : \n        Jahwe gestaltet sein Volk neu. Zur Sicht der Zukunft Israels nach Ez 11,14-21; 20,1-44; 36,16-38; 37,1-14. 15-28 (Forschung zur Bibel 64)\n        \n          Stefan\n          Ohnesorge",
+   "author": "Leslie C. Allen, Stefan Ohnesorge"
+  },
+  {
+   "book": "",
+   "page": 1204,
+   "section": "a",
+   "line": null,
+   "journal": "Biblica",
+   "year": "1966",
+   "iid": "e1cad0b3-9f1f-371a-a9be-a8d31a7c0936",
+   "doi": "10.2307/43595232",
+   "title": "[Elenchus bibliographicus biblicus]",
+   "author": "P. Nober"
+  },
+  {
+   "book": "",
+   "page": 1183,
+   "section": "a",
+   "line": null,
+   "journal": "Biblica",
+   "year": "1966",
+   "iid": "e1cad0b3-9f1f-371a-a9be-a8d31a7c0936",
+   "doi": "10.2307/43595232",
+   "title": "[Elenchus bibliographicus biblicus]",
+   "author": "P. Nober"
+  },
+  {
+   "book": "",
+   "page": 1183,
+   "section": "b",
+   "line": null,
+   "journal": "Biblica",
+   "year": "1966",
+   "iid": "e1cad0b3-9f1f-371a-a9be-a8d31a7c0936",
+   "doi": "10.2307/43595232",
+   "title": "[Elenchus bibliographicus biblicus]",
+   "author": "P. Nober"
+  },
+  {
+   "book": "",
+   "page": 1184,
+   "section": "a",
+   "line": null,
+   "journal": "Biblica",
+   "year": "1966",
+   "iid": "e1cad0b3-9f1f-371a-a9be-a8d31a7c0936",
+   "doi": "10.2307/43595232",
+   "title": "[Elenchus bibliographicus biblicus]",
+   "author": "P. Nober"
+  },
+  {
+   "book": "",
+   "page": 1186,
+   "section": "a",
+   "line": null,
+   "journal": "Biblica",
+   "year": "1966",
+   "iid": "e1cad0b3-9f1f-371a-a9be-a8d31a7c0936",
+   "doi": "10.2307/43595232",
+   "title": "[Elenchus bibliographicus biblicus]",
+   "author": "P. Nober"
+  },
+  {
+   "book": "",
+   "page": 1196,
+   "section": "a",
+   "line": null,
+   "journal": "Biblica",
+   "year": "1966",
+   "iid": "e1cad0b3-9f1f-371a-a9be-a8d31a7c0936",
+   "doi": "10.2307/43595232",
+   "title": "[Elenchus bibliographicus biblicus]",
+   "author": "P. Nober"
+  },
+  {
+   "book": "",
+   "page": 1206,
+   "section": "b",
+   "line": null,
+   "journal": "Biblica",
+   "year": "1966",
+   "iid": "e1cad0b3-9f1f-371a-a9be-a8d31a7c0936",
+   "doi": "10.2307/43595232",
+   "title": "[Elenchus bibliographicus biblicus]",
+   "author": "P. Nober"
+  },
+  {
+   "book": "",
+   "page": 1186,
+   "section": "b",
+   "line": null,
+   "journal": "Biblica",
+   "year": "1966",
+   "iid": "e1cad0b3-9f1f-371a-a9be-a8d31a7c0936",
+   "doi": "10.2307/43595232",
+   "title": "[Elenchus bibliographicus biblicus]",
+   "author": "P. Nober"
+  },
+  {
+   "book": "",
+   "page": 1189,
+   "section": "b",
+   "line": null,
+   "journal": "Biblica",
+   "year": "1966",
+   "iid": "e1cad0b3-9f1f-371a-a9be-a8d31a7c0936",
+   "doi": "10.2307/43595232",
+   "title": "[Elenchus bibliographicus biblicus]",
+   "author": "P. Nober"
+  },
+  {
+   "book": "",
+   "page": 1192,
+   "section": "a",
+   "line": null,
+   "journal": "Biblica",
+   "year": "1966",
+   "iid": "e1cad0b3-9f1f-371a-a9be-a8d31a7c0936",
+   "doi": "10.2307/43595232",
+   "title": "[Elenchus bibliographicus biblicus]",
+   "author": "P. Nober"
+  },
+  {
+   "book": "",
+   "page": 1193,
+   "section": "a",
+   "line": null,
+   "journal": "Biblica",
+   "year": "1966",
+   "iid": "e1cad0b3-9f1f-371a-a9be-a8d31a7c0936",
+   "doi": "10.2307/43595232",
+   "title": "[Elenchus bibliographicus biblicus]",
+   "author": "P. Nober"
+  },
+  {
+   "book": "",
+   "page": 1187,
+   "section": "a",
+   "line": null,
+   "journal": "Biblica",
+   "year": "1966",
+   "iid": "e1cad0b3-9f1f-371a-a9be-a8d31a7c0936",
+   "doi": "10.2307/43595232",
+   "title": "[Elenchus bibliographicus biblicus]",
+   "author": "P. Nober"
+  },
+  {
+   "book": "",
+   "page": 1193,
+   "section": "b",
+   "line": null,
+   "journal": "Biblica",
+   "year": "1966",
+   "iid": "e1cad0b3-9f1f-371a-a9be-a8d31a7c0936",
+   "doi": "10.2307/43595232",
+   "title": "[Elenchus bibliographicus biblicus]",
+   "author": "P. Nober"
+  },
+  {
+   "book": "",
+   "page": 1181,
+   "section": "a",
+   "line": null,
+   "journal": "Biblica",
+   "year": "1966",
+   "iid": "e1cad0b3-9f1f-371a-a9be-a8d31a7c0936",
+   "doi": "10.2307/43595232",
+   "title": "[Elenchus bibliographicus biblicus]",
+   "author": "P. Nober"
+  },
+  {
+   "book": "",
+   "page": 1195,
+   "section": "b",
+   "line": null,
+   "journal": "Biblica",
+   "year": "1966",
+   "iid": "e1cad0b3-9f1f-371a-a9be-a8d31a7c0936",
+   "doi": "10.2307/43595232",
+   "title": "[Elenchus bibliographicus biblicus]",
+   "author": "P. Nober"
+  },
+  {
+   "book": "",
+   "page": 1187,
+   "section": "b",
+   "line": null,
+   "journal": "Biblica",
+   "year": "1966",
+   "iid": "e1cad0b3-9f1f-371a-a9be-a8d31a7c0936",
+   "doi": "10.2307/43595232",
+   "title": "[Elenchus bibliographicus biblicus]",
+   "author": "P. Nober"
+  },
+  {
+   "book": "",
+   "page": 1207,
+   "section": "b",
+   "line": null,
+   "journal": "Biblica",
+   "year": "1966",
+   "iid": "e1cad0b3-9f1f-371a-a9be-a8d31a7c0936",
+   "doi": "10.2307/43595232",
+   "title": "[Elenchus bibliographicus biblicus]",
+   "author": "P. Nober"
+  },
+  {
+   "book": "",
+   "page": 1206,
+   "section": "a",
+   "line": null,
+   "journal": "Biblica",
+   "year": "1966",
+   "iid": "e1cad0b3-9f1f-371a-a9be-a8d31a7c0936",
+   "doi": "10.2307/43595232",
+   "title": "[Elenchus bibliographicus biblicus]",
+   "author": "P. Nober"
+  },
+  {
+   "book": "",
+   "page": 1191,
+   "section": "b",
+   "line": null,
+   "journal": "Biblica",
+   "year": "1966",
+   "iid": "e1cad0b3-9f1f-371a-a9be-a8d31a7c0936",
+   "doi": "10.2307/43595232",
+   "title": "[Elenchus bibliographicus biblicus]",
+   "author": "P. Nober"
+  },
+  {
+   "book": "",
+   "page": 1204,
+   "section": "b",
+   "line": null,
+   "journal": "Biblica",
+   "year": "1966",
+   "iid": "e1cad0b3-9f1f-371a-a9be-a8d31a7c0936",
+   "doi": "10.2307/43595232",
+   "title": "[Elenchus bibliographicus biblicus]",
+   "author": "P. Nober"
+  },
+  {
+   "book": "",
+   "page": 1184,
+   "section": "b",
+   "line": null,
+   "journal": "Biblica",
+   "year": "1966",
+   "iid": "e1cad0b3-9f1f-371a-a9be-a8d31a7c0936",
+   "doi": "10.2307/43595232",
+   "title": "[Elenchus bibliographicus biblicus]",
+   "author": "P. Nober"
+  },
+  {
+   "book": "",
+   "page": 1182,
+   "section": "a",
+   "line": null,
+   "journal": "Biblica",
+   "year": "1966",
+   "iid": "e1cad0b3-9f1f-371a-a9be-a8d31a7c0936",
+   "doi": "10.2307/43595232",
+   "title": "[Elenchus bibliographicus biblicus]",
+   "author": "P. Nober"
+  },
+  {
+   "book": "",
+   "page": 1194,
+   "section": "a",
+   "line": null,
+   "journal": "Biblica",
+   "year": "1966",
+   "iid": "e1cad0b3-9f1f-371a-a9be-a8d31a7c0936",
+   "doi": "10.2307/43595232",
+   "title": "[Elenchus bibliographicus biblicus]",
+   "author": "P. Nober"
+  },
+  {
+   "book": "",
+   "page": 1196,
+   "section": "b",
+   "line": null,
+   "journal": "Biblica",
+   "year": "1966",
+   "iid": "e1cad0b3-9f1f-371a-a9be-a8d31a7c0936",
+   "doi": "10.2307/43595232",
+   "title": "[Elenchus bibliographicus biblicus]",
+   "author": "P. Nober"
+  },
+  {
+   "book": "",
+   "page": 1182,
+   "section": "b",
+   "line": null,
+   "journal": "Biblica",
+   "year": "1966",
+   "iid": "e1cad0b3-9f1f-371a-a9be-a8d31a7c0936",
+   "doi": "10.2307/43595232",
+   "title": "[Elenchus bibliographicus biblicus]",
+   "author": "P. Nober"
+  },
+  {
+   "book": "",
+   "page": 1182,
+   "section": "a",
+   "line": 17,
+   "journal": "Hermes",
+   "year": "1984",
+   "iid": "e53cd169-5ad5-34ff-881b-154802652128",
+   "doi": "10.2307/4476368",
+   "title": "Why Aristotle Called Ethics Ethics: The Definition of ᾗϑος Eudemian Ethics 2,2",
+   "author": "Charles Chamberlain"
+  },
+  {
+   "book": "",
+   "page": 1207,
+   "section": "a",
+   "line": null,
+   "journal": "The Catholic Biblical Quarterly",
+   "year": "1951",
+   "iid": "e7a55aa5-15eb-3e9f-a5c0-1bcacbd785a9",
+   "doi": "10.2307/43720335",
+   "title": "HISTORICAL NOTES ON THE INTERPRETATION OF JOHN 13:10",
+   "author": "N. M. Haring"
+  },
+  {
+   "book": "",
+   "page": 1203,
+   "section": "b",
+   "line": null,
+   "journal": "Mnemosyne",
+   "year": "1921",
+   "iid": "e89aa8eb-80bb-32a3-b3eb-0ebc465135df",
+   "doi": "10.2307/4426127",
+   "title": "Observationes ad scriptores latinos",
+   "author": "Paulus Thomas"
+  },
+  {
+   "book": "",
+   "page": 1184,
+   "section": "b",
+   "line": null,
+   "journal": "Illinois Classical Studies",
+   "year": "1997",
+   "iid": "eab20038-0a36-3a34-9d64-69090746814e",
+   "doi": "10.2307/23065329",
+   "title": "Suspense in the Phaeacian Episode of Apollonius' \"Argonautica\"",
+   "author": "CALVIN S. BYRE"
+  },
+  {
+   "book": "",
+   "page": 1203,
+   "section": "b",
+   "line": null,
+   "journal": "Illinois Classical Studies",
+   "year": "1997",
+   "iid": "eab20038-0a36-3a34-9d64-69090746814e",
+   "doi": "10.2307/23065329",
+   "title": "Suspense in the Phaeacian Episode of Apollonius' \"Argonautica\"",
+   "author": "CALVIN S. BYRE"
+  },
+  {
+   "book": "",
+   "page": 1201,
+   "section": "a",
+   "line": null,
+   "journal": "Vigiliae Christianae",
+   "year": "2010",
+   "iid": "ef2f3e8b-8553-3626-8022-a5d12e6a09e8",
+   "doi": "10.2307/41062523",
+   "title": "Cyrille d'Alexandrie aux prises avec un exégète allégoriste au début de son In Oseam: Didyme l'Aveugle ou Piérius d'Alexandrie?",
+   "author": "Dimitrios Zaganas"
+  },
+  {
+   "book": "",
+   "page": 1198,
+   "section": "b",
+   "line": null,
+   "journal": "Hermes",
+   "year": "1929",
+   "iid": "ef760c07-11a2-36a3-996d-4f06614756fe",
+   "doi": "10.2307/4474137",
+   "title": "Ein Theophrastzitat in der Grossen Ethik",
+   "author": "Werner Jaeger"
+  },
+  {
+   "book": "",
+   "page": 1185,
+   "section": "b",
+   "line": null,
+   "journal": "Hermes",
+   "year": "1929",
+   "iid": "ef760c07-11a2-36a3-996d-4f06614756fe",
+   "doi": "10.2307/4474137",
+   "title": "Ein Theophrastzitat in der Grossen Ethik",
+   "author": "Werner Jaeger"
+  },
+  {
+   "book": "",
+   "page": 1212,
+   "section": "b",
+   "line": null,
+   "journal": "Hermes",
+   "year": "1929",
+   "iid": "ef760c07-11a2-36a3-996d-4f06614756fe",
+   "doi": "10.2307/4474137",
+   "title": "Ein Theophrastzitat in der Grossen Ethik",
+   "author": "Werner Jaeger"
+  },
+  {
+   "book": "",
+   "page": 1213,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical World",
+   "year": "2009",
+   "iid": "f16e05be-0017-3a84-b448-e92c2e3db2f5",
+   "doi": "10.2307/40599908",
+   "title": "Words and Silence: Atticus as the Dedicatee of de Amicitia",
+   "author": "SANDRA CITRONI MARCHETTI"
+  },
+  {
+   "book": "",
+   "page": 1190,
+   "section": "b",
+   "line": null,
+   "journal": "Mnemosyne",
+   "year": "2020",
+   "iid": "f0b986e8-f0b8-325e-8fad-c122be5a2ba7",
+   "doi": "10.2307/26989161",
+   "title": "Quelques précisions sur Thucydide 4.121.1",
+   "author": "Gauthier Liberman"
+  },
+  {
+   "book": "",
+   "page": 1191,
+   "section": "a",
+   "line": null,
+   "journal": "Quaderni Urbinati di Cultura Classica",
+   "year": "1971",
+   "iid": "f1225fed-75a9-338d-bedd-39008a246051",
+   "doi": "10.2307/20537637",
+   "title": "L'origine degli Slavi e il loro nome nella letteratura greco-latina",
+   "author": "Tuomo Pekkanen"
+  },
+  {
+   "book": "",
+   "page": 1212,
+   "section": "b",
+   "line": null,
+   "journal": "Zeitschrift für katholische Theologie",
+   "year": "1922",
+   "iid": "f12c70d5-dc7a-3002-ad87-ab0554b17d8c",
+   "doi": "10.2307/24184398",
+   "title": "Die Magdalenenfrage in der kirchlichen Überlieferung: II. Wurde Magdalena im christlichen Altertum als die salbende Sünderin oder als die Schwester des Lazarus angesehen?",
+   "author": "Urban Holzmeister"
+  },
+  {
+   "book": "",
+   "page": 1202,
+   "section": "b",
+   "line": null,
+   "journal": "Hermes",
+   "year": "1900",
+   "iid": "f384e04c-f6e4-30bf-b590-ae0e622c894c",
+   "doi": "10.2307/4472724",
+   "title": "Kallisthenes Hellenika",
+   "author": "Eduard Schwartz"
+  },
+  {
+   "book": "",
+   "page": 1183,
+   "section": "b",
+   "line": null,
+   "journal": "Vigiliae Christianae",
+   "year": "1968",
+   "iid": "f933fde8-94eb-3b6f-bc3b-49a748f5720c",
+   "doi": "10.2307/1581932",
+   "title": "Zur literarischen Eigenart von Eucherius' Schrift De Laude Eremi",
+   "author": "Ilona Opelt"
+  },
+  {
+   "book": "",
+   "page": 1197,
+   "section": "a",
+   "line": null,
+   "journal": "Transactions of the American Philological Association (1974-2014)",
+   "year": "1980",
+   "iid": "fe3e0858-dbc8-31c7-8789-f5c5f99708df",
+   "doi": "10.2307/284215",
+   "title": "Poenulus I, 2 and Roman Women",
+   "author": "Patricia A. Johnston"
+  },
+  {
+   "book": "",
+   "page": 1197,
+   "section": "b",
+   "line": 14,
+   "journal": "The American Journal of Philology",
+   "year": "1962",
+   "iid": "ff2ae4f2-d291-3d13-89b2-162f2a0061c1",
+   "doi": "10.2307/292925",
+   "title": "Book Review : \n        \n          Aristote, L'Éthique a Nicomaque\n        \n        \n          \n            René Antoine\n            Gauthier\n          \n        \n        \n          Jean Yves\n          Jolif",
+   "author": "Richard Robinson, Jean Yves Jolif, René Antoine Gauthier"
   }
  ]
 }

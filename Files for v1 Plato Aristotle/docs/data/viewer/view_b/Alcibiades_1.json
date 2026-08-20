@@ -1,0 +1,5357 @@
+{
+ "work": "Alcibiades_1",
+ "faceted": false,
+ "tier": "uncertain",
+ "cells": [
+  {
+   "book": "",
+   "page": 103,
+   "section": "a",
+   "count": 8,
+   "articles": 8,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 1,
+    "History of Philosophy Quarterly": 1,
+    "The Classical Quarterly": 3,
+    "Phronesis": 1,
+    "Classical Philology": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 104,
+   "section": "a",
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "Revue de Philosophie Ancienne": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 104,
+   "section": "b",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 104,
+   "section": "c",
+   "count": 2,
+   "articles": 1,
+   "by_journal": {
+    "History of Philosophy Quarterly": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 104,
+   "section": "d",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "History of Philosophy Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 105,
+   "section": "a",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 105,
+   "section": "b",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 105,
+   "section": "c",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "History of Philosophy Quarterly": 1,
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 105,
+   "section": "d",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 105,
+   "section": "e",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 1,
+    "History of Philosophy Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 106,
+   "section": "a",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 1,
+    "History of Philosophy Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 106,
+   "section": "b",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 106,
+   "section": "c",
+   "count": 3,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 1,
+    "Revue de Philosophie Ancienne": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 106,
+   "section": "d",
+   "count": 2,
+   "articles": 1,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 106,
+   "section": "e",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 107,
+   "section": "c",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 107,
+   "section": "e",
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "Phronesis": 1,
+    "The Classical Review": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 108,
+   "section": "a",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 1,
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 108,
+   "section": "e",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 109,
+   "section": "a",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 109,
+   "section": "c",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 109,
+   "section": "d",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 1,
+    "Revue de Philosophie Ancienne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 109,
+   "section": "e",
+   "count": 3,
+   "articles": 1,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 3
+   }
+  },
+  {
+   "book": "",
+   "page": 110,
+   "section": "b",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 110,
+   "section": "c",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Classical Philology": 1,
+    "Revue de Philosophie Ancienne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 110,
+   "section": "e",
+   "count": 3,
+   "articles": 2,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 2,
+    "The Classical Review": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 112,
+   "section": "b",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 1,
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 112,
+   "section": "c",
+   "count": 4,
+   "articles": 4,
+   "by_journal": {
+    "Classical Philology": 2,
+    "The Classical Quarterly": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 112,
+   "section": "d",
+   "count": 5,
+   "articles": 3,
+   "by_journal": {
+    "Phronesis": 2,
+    "Revue de Philosophie Ancienne": 2,
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 112,
+   "section": "e",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 113,
+   "section": "a",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "The Classical Quarterly": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 113,
+   "section": "b",
+   "count": 4,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 3,
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 113,
+   "section": "c",
+   "count": 2,
+   "articles": 1,
+   "by_journal": {
+    "Classical Philology": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 113,
+   "section": "d",
+   "count": 2,
+   "articles": 1,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 114,
+   "section": "b",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 114,
+   "section": "e",
+   "count": 2,
+   "articles": 1,
+   "by_journal": {
+    "Phronesis": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 115,
+   "section": "a",
+   "count": 5,
+   "articles": 3,
+   "by_journal": {
+    "Classical Philology": 1,
+    "Phronesis": 4
+   }
+  },
+  {
+   "book": "",
+   "page": 115,
+   "section": "b",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 115,
+   "section": "c",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 115,
+   "section": "d",
+   "count": 8,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 7,
+    "Revue de Philosophie Ancienne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 115,
+   "section": "e",
+   "count": 4,
+   "articles": 1,
+   "by_journal": {
+    "Phronesis": 4
+   }
+  },
+  {
+   "book": "",
+   "page": 116,
+   "section": "a",
+   "count": 7,
+   "articles": 2,
+   "by_journal": {
+    "Classical Philology": 1,
+    "Phronesis": 6
+   }
+  },
+  {
+   "book": "",
+   "page": 116,
+   "section": "b",
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "Phronesis": 1,
+    "The Classical Review": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 116,
+   "section": "c",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 116,
+   "section": "d",
+   "count": 4,
+   "articles": 4,
+   "by_journal": {
+    "Phronesis": 1,
+    "The Classical Quarterly": 2,
+    "Revue de Philosophie Ancienne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 116,
+   "section": "e",
+   "count": 8,
+   "articles": 3,
+   "by_journal": {
+    "Phronesis": 2,
+    "Revue de Philosophie Ancienne": 6
+   }
+  },
+  {
+   "book": "",
+   "page": 117,
+   "section": "a",
+   "count": 7,
+   "articles": 4,
+   "by_journal": {
+    "Phronesis": 6,
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 117,
+   "section": "b",
+   "count": 5,
+   "articles": 4,
+   "by_journal": {
+    "Phronesis": 2,
+    "Revue de Philosophie Ancienne": 1,
+    "Classical Philology": 1,
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 118,
+   "section": "a",
+   "count": 4,
+   "articles": 4,
+   "by_journal": {
+    "Phronesis": 3,
+    "History of Philosophy Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 118,
+   "section": "b",
+   "count": 6,
+   "articles": 5,
+   "by_journal": {
+    "The Classical Quarterly": 4,
+    "Classical Philology": 1,
+    "Revue de Philosophie Ancienne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 118,
+   "section": "c",
+   "count": 10,
+   "articles": 6,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 2,
+    "Phronesis": 5,
+    "Classical Philology": 3
+   }
+  },
+  {
+   "book": "",
+   "page": 119,
+   "section": "a",
+   "count": 9,
+   "articles": 4,
+   "by_journal": {
+    "Phronesis": 1,
+    "Méthexis": 1,
+    "Classical Philology": 2,
+    "Revue de Philosophie Ancienne": 5
+   }
+  },
+  {
+   "book": "",
+   "page": 119,
+   "section": "b",
+   "count": 3,
+   "articles": 2,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "Revue de Philosophie Ancienne": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 119,
+   "section": "c",
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "Classical Philology": 2,
+    "Revue de Philosophie Ancienne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 120,
+   "section": "a",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "The Classical Quarterly": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 120,
+   "section": "b",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 120,
+   "section": "c",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 121,
+   "section": "a",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 1,
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 121,
+   "section": "e",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 122,
+   "section": "a",
+   "count": 4,
+   "articles": 3,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 2,
+    "Classical Philology": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 122,
+   "section": "b",
+   "count": 5,
+   "articles": 5,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "Phronesis": 3,
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 122,
+   "section": "c",
+   "count": 2,
+   "articles": 1,
+   "by_journal": {
+    "Classical Philology": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 122,
+   "section": "d",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "The Classical Quarterly": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 122,
+   "section": "e",
+   "count": 3,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 1,
+    "The Classical Quarterly": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 123,
+   "section": "a",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 1,
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 123,
+   "section": "b",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 123,
+   "section": "d",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 1,
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 124,
+   "section": "a",
+   "count": 3,
+   "articles": 1,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 3
+   }
+  },
+  {
+   "book": "",
+   "page": 124,
+   "section": "b",
+   "count": 10,
+   "articles": 4,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 5,
+    "Phronesis": 5
+   }
+  },
+  {
+   "book": "",
+   "page": 124,
+   "section": "c",
+   "count": 4,
+   "articles": 3,
+   "by_journal": {
+    "Phronesis": 2,
+    "History of Philosophy Quarterly": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 124,
+   "section": "d",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 126,
+   "section": "b",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 126,
+   "section": "d",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 126,
+   "section": "e",
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "The Classical Quarterly": 2,
+    "Revue de Philosophie Ancienne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 127,
+   "section": "a",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 127,
+   "section": "c",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 127,
+   "section": "d",
+   "count": 12,
+   "articles": 3,
+   "by_journal": {
+    "Phronesis": 2,
+    "Méthexis": 1,
+    "Revue de Philosophie Ancienne": 9
+   }
+  },
+  {
+   "book": "",
+   "page": 127,
+   "section": "e",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 128,
+   "section": "a",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 1,
+    "Méthexis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 128,
+   "section": "b",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Classical Philology": 1,
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 128,
+   "section": "e",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 1,
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 129,
+   "section": "a",
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "Phronesis": 2,
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 129,
+   "section": "b",
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "Phronesis": 2,
+    "Revue de Philosophie Ancienne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 129,
+   "section": "c",
+   "count": 2,
+   "articles": 1,
+   "by_journal": {
+    "Phronesis": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 129,
+   "section": "e",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 130,
+   "section": "b",
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "The Classical Review": 1,
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 130,
+   "section": "c",
+   "count": 5,
+   "articles": 5,
+   "by_journal": {
+    "Phronesis": 2,
+    "Revue de Philosophie Ancienne": 1,
+    "The Classical Quarterly": 1,
+    "Méthexis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 130,
+   "section": "d",
+   "count": 3,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 3
+   }
+  },
+  {
+   "book": "",
+   "page": 130,
+   "section": "e",
+   "count": 3,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 1,
+    "Classical Philology": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 131,
+   "section": "b",
+   "count": 3,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 2,
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 131,
+   "section": "c",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Méthexis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 131,
+   "section": "d",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 131,
+   "section": "e",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "The Classical Quarterly": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 132,
+   "section": "a",
+   "count": 6,
+   "articles": 4,
+   "by_journal": {
+    "Classical Philology": 4,
+    "Revue de Philosophie Ancienne": 1,
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 132,
+   "section": "b",
+   "count": 4,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 3,
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 132,
+   "section": "c",
+   "count": 9,
+   "articles": 4,
+   "by_journal": {
+    "Phronesis": 8,
+    "The Classical Review": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 132,
+   "section": "d",
+   "count": 4,
+   "articles": 3,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "Phronesis": 3
+   }
+  },
+  {
+   "book": "",
+   "page": 132,
+   "section": "e",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 1,
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 133,
+   "section": "a",
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "The Classical Quarterly": 2,
+    "Revue de Philosophie Ancienne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 133,
+   "section": "b",
+   "count": 6,
+   "articles": 5,
+   "by_journal": {
+    "Phronesis": 3,
+    "The Classical Quarterly": 2,
+    "Revue de Philosophie Ancienne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 133,
+   "section": "c",
+   "count": 24,
+   "articles": 6,
+   "by_journal": {
+    "Phronesis": 21,
+    "Revue de Philosophie Ancienne": 1,
+    "The Classical Review": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 133,
+   "section": "d",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 1,
+    "Revue de Philosophie Ancienne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 134,
+   "section": "a",
+   "count": 2,
+   "articles": 1,
+   "by_journal": {
+    "Phronesis": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 134,
+   "section": "c",
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "Phronesis": 2,
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 134,
+   "section": "d",
+   "count": 9,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 9
+   }
+  },
+  {
+   "book": "",
+   "page": 135,
+   "section": "c",
+   "count": 2,
+   "articles": 1,
+   "by_journal": {
+    "Phronesis": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 135,
+   "section": "d",
+   "count": 3,
+   "articles": 2,
+   "by_journal": {
+    "History of Philosophy Quarterly": 2,
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 135,
+   "section": "e",
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "History of Philosophy Quarterly": 1,
+    "Revue de Philosophie Ancienne": 1,
+    "The Classical Quarterly": 1
+   }
+  }
+ ],
+ "dots": [
+  {
+   "book": "",
+   "page": 132,
+   "section": "d",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1921",
+   "iid": "037ffe05-27a5-397b-99c2-0efddfa2c885",
+   "doi": "10.2307/635861",
+   "title": "Plato's Simile of Light. Part I. The Similes of the Sun and the Line",
+   "author": "A. S. Ferguson"
+  },
+  {
+   "book": "",
+   "page": 130,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2002",
+   "iid": "045733a5-bad6-3d1e-91bc-b2ed43d7a63e",
+   "doi": "10.2307/3556416",
+   "title": "The Publication and Individuality of Horace's \"Odes\" Books 1-3",
+   "author": "G. O. Hutchinson"
+  },
+  {
+   "book": "",
+   "page": 110,
+   "section": "e",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2000",
+   "iid": "0d697dd1-5c8a-3c9b-8881-2e1990b0f9d4",
+   "doi": "10.2307/24354664",
+   "title": "UN JEU CLEF: LA PETTEIA",
+   "author": "Philippe G. Guéniot"
+  },
+  {
+   "book": "",
+   "page": 110,
+   "section": "e",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2000",
+   "iid": "0d697dd1-5c8a-3c9b-8881-2e1990b0f9d4",
+   "doi": "10.2307/24354664",
+   "title": "UN JEU CLEF: LA PETTEIA",
+   "author": "Philippe G. Guéniot"
+  },
+  {
+   "book": "",
+   "page": 106,
+   "section": "e",
+   "line": 4,
+   "journal": "The Classical Quarterly",
+   "year": "2008",
+   "iid": "1070c8f8-9b19-31cf-89bd-f8706e38c0c9",
+   "doi": "10.2307/27564125",
+   "title": "Music and the Education of the Soul in Plato and Aristotle: Homoeopathy and the Formation of Character",
+   "author": "Frédérique Woerther"
+  },
+  {
+   "book": "",
+   "page": 105,
+   "section": "d",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2009",
+   "iid": "14295ec5-a074-357b-a88b-7b9ec04cca79",
+   "doi": "10.2307/24358485",
+   "title": "L'INTERVENTION DIVINE DU PROLOGUE DU \"PHÉDON\" DE PLATON : SOCRATE, NOUVEAU DIEU TUTÉLAIRE D'ATHÈNES",
+   "author": "Martin Marier"
+  },
+  {
+   "book": "",
+   "page": 103,
+   "section": "a",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2009",
+   "iid": "14295ec5-a074-357b-a88b-7b9ec04cca79",
+   "doi": "10.2307/24358485",
+   "title": "L'INTERVENTION DIVINE DU PROLOGUE DU \"PHÉDON\" DE PLATON : SOCRATE, NOUVEAU DIEU TUTÉLAIRE D'ATHÈNES",
+   "author": "Martin Marier"
+  },
+  {
+   "book": "",
+   "page": 118,
+   "section": "c",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2007",
+   "iid": "208c13e2-0f52-33a1-b6b0-b6f7473ef929",
+   "doi": "10.2307/24357998",
+   "title": "MUSIQUE ET \"LOGOS\" CHEZ LES SOPHISTES",
+   "author": "Joël FIGARI"
+  },
+  {
+   "book": "",
+   "page": 118,
+   "section": "c",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2007",
+   "iid": "208c13e2-0f52-33a1-b6b0-b6f7473ef929",
+   "doi": "10.2307/24357998",
+   "title": "MUSIQUE ET \"LOGOS\" CHEZ LES SOPHISTES",
+   "author": "Joël FIGARI"
+  },
+  {
+   "book": "",
+   "page": 132,
+   "section": "d",
+   "line": 5,
+   "journal": "Phronesis",
+   "year": "2019",
+   "iid": "21f42e2b-c8bd-3478-971b-690eb863afec",
+   "doi": "10.2307/26832220",
+   "title": "Self-Knowledge in the Eye-Soul Analogy of the <em>Alcibiades</em>",
+   "author": "Daniel Ferguson"
+  },
+  {
+   "book": "",
+   "page": 133,
+   "section": "c",
+   "line": 7,
+   "journal": "Phronesis",
+   "year": "2019",
+   "iid": "21f42e2b-c8bd-3478-971b-690eb863afec",
+   "doi": "10.2307/26832220",
+   "title": "Self-Knowledge in the Eye-Soul Analogy of the <em>Alcibiades</em>",
+   "author": "Daniel Ferguson"
+  },
+  {
+   "book": "",
+   "page": 133,
+   "section": "c",
+   "line": 1,
+   "journal": "Phronesis",
+   "year": "2019",
+   "iid": "21f42e2b-c8bd-3478-971b-690eb863afec",
+   "doi": "10.2307/26832220",
+   "title": "Self-Knowledge in the Eye-Soul Analogy of the <em>Alcibiades</em>",
+   "author": "Daniel Ferguson"
+  },
+  {
+   "book": "",
+   "page": 132,
+   "section": "d",
+   "line": 5,
+   "journal": "Phronesis",
+   "year": "2019",
+   "iid": "21f42e2b-c8bd-3478-971b-690eb863afec",
+   "doi": "10.2307/26832220",
+   "title": "Self-Knowledge in the Eye-Soul Analogy of the <em>Alcibiades</em>",
+   "author": "Daniel Ferguson"
+  },
+  {
+   "book": "",
+   "page": 133,
+   "section": "c",
+   "line": 7,
+   "journal": "Phronesis",
+   "year": "2019",
+   "iid": "21f42e2b-c8bd-3478-971b-690eb863afec",
+   "doi": "10.2307/26832220",
+   "title": "Self-Knowledge in the Eye-Soul Analogy of the <em>Alcibiades</em>",
+   "author": "Daniel Ferguson"
+  },
+  {
+   "book": "",
+   "page": 130,
+   "section": "c",
+   "line": 8,
+   "journal": "Phronesis",
+   "year": "2019",
+   "iid": "21f42e2b-c8bd-3478-971b-690eb863afec",
+   "doi": "10.2307/26832220",
+   "title": "Self-Knowledge in the Eye-Soul Analogy of the <em>Alcibiades</em>",
+   "author": "Daniel Ferguson"
+  },
+  {
+   "book": "",
+   "page": 130,
+   "section": "d",
+   "line": 5,
+   "journal": "Phronesis",
+   "year": "2019",
+   "iid": "21f42e2b-c8bd-3478-971b-690eb863afec",
+   "doi": "10.2307/26832220",
+   "title": "Self-Knowledge in the Eye-Soul Analogy of the <em>Alcibiades</em>",
+   "author": "Daniel Ferguson"
+  },
+  {
+   "book": "",
+   "page": 128,
+   "section": "e",
+   "line": 4,
+   "journal": "Phronesis",
+   "year": "2019",
+   "iid": "21f42e2b-c8bd-3478-971b-690eb863afec",
+   "doi": "10.2307/26832220",
+   "title": "Self-Knowledge in the Eye-Soul Analogy of the <em>Alcibiades</em>",
+   "author": "Daniel Ferguson"
+  },
+  {
+   "book": "",
+   "page": 132,
+   "section": "c",
+   "line": 1,
+   "journal": "Phronesis",
+   "year": "2019",
+   "iid": "21f42e2b-c8bd-3478-971b-690eb863afec",
+   "doi": "10.2307/26832220",
+   "title": "Self-Knowledge in the Eye-Soul Analogy of the <em>Alcibiades</em>",
+   "author": "Daniel Ferguson"
+  },
+  {
+   "book": "",
+   "page": 134,
+   "section": "c",
+   "line": 5,
+   "journal": "Phronesis",
+   "year": "2019",
+   "iid": "21f42e2b-c8bd-3478-971b-690eb863afec",
+   "doi": "10.2307/26832220",
+   "title": "Self-Knowledge in the Eye-Soul Analogy of the <em>Alcibiades</em>",
+   "author": "Daniel Ferguson"
+  },
+  {
+   "book": "",
+   "page": 130,
+   "section": "d",
+   "line": 4,
+   "journal": "Phronesis",
+   "year": "2019",
+   "iid": "21f42e2b-c8bd-3478-971b-690eb863afec",
+   "doi": "10.2307/26832220",
+   "title": "Self-Knowledge in the Eye-Soul Analogy of the <em>Alcibiades</em>",
+   "author": "Daniel Ferguson"
+  },
+  {
+   "book": "",
+   "page": 132,
+   "section": "b",
+   "line": 7,
+   "journal": "Phronesis",
+   "year": "2019",
+   "iid": "21f42e2b-c8bd-3478-971b-690eb863afec",
+   "doi": "10.2307/26832220",
+   "title": "Self-Knowledge in the Eye-Soul Analogy of the <em>Alcibiades</em>",
+   "author": "Daniel Ferguson"
+  },
+  {
+   "book": "",
+   "page": 132,
+   "section": "b",
+   "line": 7,
+   "journal": "Phronesis",
+   "year": "2019",
+   "iid": "21f42e2b-c8bd-3478-971b-690eb863afec",
+   "doi": "10.2307/26832220",
+   "title": "Self-Knowledge in the Eye-Soul Analogy of the <em>Alcibiades</em>",
+   "author": "Daniel Ferguson"
+  },
+  {
+   "book": "",
+   "page": 129,
+   "section": "a",
+   "line": 1,
+   "journal": "Phronesis",
+   "year": "2019",
+   "iid": "21f42e2b-c8bd-3478-971b-690eb863afec",
+   "doi": "10.2307/26832220",
+   "title": "Self-Knowledge in the Eye-Soul Analogy of the <em>Alcibiades</em>",
+   "author": "Daniel Ferguson"
+  },
+  {
+   "book": "",
+   "page": 133,
+   "section": "b",
+   "line": 9,
+   "journal": "Phronesis",
+   "year": "2019",
+   "iid": "21f42e2b-c8bd-3478-971b-690eb863afec",
+   "doi": "10.2307/26832220",
+   "title": "Self-Knowledge in the Eye-Soul Analogy of the <em>Alcibiades</em>",
+   "author": "Daniel Ferguson"
+  },
+  {
+   "book": "",
+   "page": 132,
+   "section": "b",
+   "line": 7,
+   "journal": "Phronesis",
+   "year": "2019",
+   "iid": "21f42e2b-c8bd-3478-971b-690eb863afec",
+   "doi": "10.2307/26832220",
+   "title": "Self-Knowledge in the Eye-Soul Analogy of the <em>Alcibiades</em>",
+   "author": "Daniel Ferguson"
+  },
+  {
+   "book": "",
+   "page": 132,
+   "section": "c",
+   "line": 7,
+   "journal": "Phronesis",
+   "year": "2019",
+   "iid": "21f42e2b-c8bd-3478-971b-690eb863afec",
+   "doi": "10.2307/26832220",
+   "title": "Self-Knowledge in the Eye-Soul Analogy of the <em>Alcibiades</em>",
+   "author": "Daniel Ferguson"
+  },
+  {
+   "book": "",
+   "page": 127,
+   "section": "d",
+   "line": 1,
+   "journal": "Phronesis",
+   "year": "2019",
+   "iid": "21f42e2b-c8bd-3478-971b-690eb863afec",
+   "doi": "10.2307/26832220",
+   "title": "Self-Knowledge in the Eye-Soul Analogy of the <em>Alcibiades</em>",
+   "author": "Daniel Ferguson"
+  },
+  {
+   "book": "",
+   "page": 127,
+   "section": "d",
+   "line": 9,
+   "journal": "Phronesis",
+   "year": "2019",
+   "iid": "21f42e2b-c8bd-3478-971b-690eb863afec",
+   "doi": "10.2307/26832220",
+   "title": "Self-Knowledge in the Eye-Soul Analogy of the <em>Alcibiades</em>",
+   "author": "Daniel Ferguson"
+  },
+  {
+   "book": "",
+   "page": 135,
+   "section": "c",
+   "line": 10,
+   "journal": "Phronesis",
+   "year": "2019",
+   "iid": "21f42e2b-c8bd-3478-971b-690eb863afec",
+   "doi": "10.2307/26832220",
+   "title": "Self-Knowledge in the Eye-Soul Analogy of the <em>Alcibiades</em>",
+   "author": "Daniel Ferguson"
+  },
+  {
+   "book": "",
+   "page": 135,
+   "section": "c",
+   "line": 12,
+   "journal": "Phronesis",
+   "year": "2019",
+   "iid": "21f42e2b-c8bd-3478-971b-690eb863afec",
+   "doi": "10.2307/26832220",
+   "title": "Self-Knowledge in the Eye-Soul Analogy of the <em>Alcibiades</em>",
+   "author": "Daniel Ferguson"
+  },
+  {
+   "book": "",
+   "page": 132,
+   "section": "c",
+   "line": 7,
+   "journal": "Phronesis",
+   "year": "2019",
+   "iid": "21f42e2b-c8bd-3478-971b-690eb863afec",
+   "doi": "10.2307/26832220",
+   "title": "Self-Knowledge in the Eye-Soul Analogy of the <em>Alcibiades</em>",
+   "author": "Daniel Ferguson"
+  },
+  {
+   "book": "",
+   "page": 132,
+   "section": "c",
+   "line": 7,
+   "journal": "Phronesis",
+   "year": "2019",
+   "iid": "21f42e2b-c8bd-3478-971b-690eb863afec",
+   "doi": "10.2307/26832220",
+   "title": "Self-Knowledge in the Eye-Soul Analogy of the <em>Alcibiades</em>",
+   "author": "Daniel Ferguson"
+  },
+  {
+   "book": "",
+   "page": 132,
+   "section": "c",
+   "line": 1,
+   "journal": "Phronesis",
+   "year": "2019",
+   "iid": "21f42e2b-c8bd-3478-971b-690eb863afec",
+   "doi": "10.2307/26832220",
+   "title": "Self-Knowledge in the Eye-Soul Analogy of the <em>Alcibiades</em>",
+   "author": "Daniel Ferguson"
+  },
+  {
+   "book": "",
+   "page": 118,
+   "section": "a",
+   "line": 7,
+   "journal": "Phronesis",
+   "year": "2019",
+   "iid": "21f42e2b-c8bd-3478-971b-690eb863afec",
+   "doi": "10.2307/26832220",
+   "title": "Self-Knowledge in the Eye-Soul Analogy of the <em>Alcibiades</em>",
+   "author": "Daniel Ferguson"
+  },
+  {
+   "book": "",
+   "page": 119,
+   "section": "a",
+   "line": 8,
+   "journal": "Phronesis",
+   "year": "2019",
+   "iid": "21f42e2b-c8bd-3478-971b-690eb863afec",
+   "doi": "10.2307/26832220",
+   "title": "Self-Knowledge in the Eye-Soul Analogy of the <em>Alcibiades</em>",
+   "author": "Daniel Ferguson"
+  },
+  {
+   "book": "",
+   "page": 133,
+   "section": "c",
+   "line": 18,
+   "journal": "Phronesis",
+   "year": "2019",
+   "iid": "21f42e2b-c8bd-3478-971b-690eb863afec",
+   "doi": "10.2307/26832220",
+   "title": "Self-Knowledge in the Eye-Soul Analogy of the <em>Alcibiades</em>",
+   "author": "Daniel Ferguson"
+  },
+  {
+   "book": "",
+   "page": 133,
+   "section": "c",
+   "line": 18,
+   "journal": "Phronesis",
+   "year": "2019",
+   "iid": "21f42e2b-c8bd-3478-971b-690eb863afec",
+   "doi": "10.2307/26832220",
+   "title": "Self-Knowledge in the Eye-Soul Analogy of the <em>Alcibiades</em>",
+   "author": "Daniel Ferguson"
+  },
+  {
+   "book": "",
+   "page": 134,
+   "section": "a",
+   "line": 4,
+   "journal": "Phronesis",
+   "year": "2019",
+   "iid": "21f42e2b-c8bd-3478-971b-690eb863afec",
+   "doi": "10.2307/26832220",
+   "title": "Self-Knowledge in the Eye-Soul Analogy of the <em>Alcibiades</em>",
+   "author": "Daniel Ferguson"
+  },
+  {
+   "book": "",
+   "page": 131,
+   "section": "b",
+   "line": 4,
+   "journal": "Phronesis",
+   "year": "2019",
+   "iid": "21f42e2b-c8bd-3478-971b-690eb863afec",
+   "doi": "10.2307/26832220",
+   "title": "Self-Knowledge in the Eye-Soul Analogy of the <em>Alcibiades</em>",
+   "author": "Daniel Ferguson"
+  },
+  {
+   "book": "",
+   "page": 131,
+   "section": "b",
+   "line": 4,
+   "journal": "Phronesis",
+   "year": "2019",
+   "iid": "21f42e2b-c8bd-3478-971b-690eb863afec",
+   "doi": "10.2307/26832220",
+   "title": "Self-Knowledge in the Eye-Soul Analogy of the <em>Alcibiades</em>",
+   "author": "Daniel Ferguson"
+  },
+  {
+   "book": "",
+   "page": 133,
+   "section": "d",
+   "line": 1,
+   "journal": "Phronesis",
+   "year": "2019",
+   "iid": "21f42e2b-c8bd-3478-971b-690eb863afec",
+   "doi": "10.2307/26832220",
+   "title": "Self-Knowledge in the Eye-Soul Analogy of the <em>Alcibiades</em>",
+   "author": "Daniel Ferguson"
+  },
+  {
+   "book": "",
+   "page": 133,
+   "section": "c",
+   "line": 21,
+   "journal": "Phronesis",
+   "year": "2019",
+   "iid": "21f42e2b-c8bd-3478-971b-690eb863afec",
+   "doi": "10.2307/26832220",
+   "title": "Self-Knowledge in the Eye-Soul Analogy of the <em>Alcibiades</em>",
+   "author": "Daniel Ferguson"
+  },
+  {
+   "book": "",
+   "page": 133,
+   "section": "c",
+   "line": 21,
+   "journal": "Phronesis",
+   "year": "2019",
+   "iid": "21f42e2b-c8bd-3478-971b-690eb863afec",
+   "doi": "10.2307/26832220",
+   "title": "Self-Knowledge in the Eye-Soul Analogy of the <em>Alcibiades</em>",
+   "author": "Daniel Ferguson"
+  },
+  {
+   "book": "",
+   "page": 134,
+   "section": "a",
+   "line": 4,
+   "journal": "Phronesis",
+   "year": "2019",
+   "iid": "21f42e2b-c8bd-3478-971b-690eb863afec",
+   "doi": "10.2307/26832220",
+   "title": "Self-Knowledge in the Eye-Soul Analogy of the <em>Alcibiades</em>",
+   "author": "Daniel Ferguson"
+  },
+  {
+   "book": "",
+   "page": 132,
+   "section": "e",
+   "line": 2,
+   "journal": "Phronesis",
+   "year": "2019",
+   "iid": "21f42e2b-c8bd-3478-971b-690eb863afec",
+   "doi": "10.2307/26832220",
+   "title": "Self-Knowledge in the Eye-Soul Analogy of the <em>Alcibiades</em>",
+   "author": "Daniel Ferguson"
+  },
+  {
+   "book": "",
+   "page": 134,
+   "section": "d",
+   "line": 4,
+   "journal": "Phronesis",
+   "year": "2019",
+   "iid": "21f42e2b-c8bd-3478-971b-690eb863afec",
+   "doi": "10.2307/26832220",
+   "title": "Self-Knowledge in the Eye-Soul Analogy of the <em>Alcibiades</em>",
+   "author": "Daniel Ferguson"
+  },
+  {
+   "book": "",
+   "page": 134,
+   "section": "d",
+   "line": 1,
+   "journal": "Phronesis",
+   "year": "2019",
+   "iid": "21f42e2b-c8bd-3478-971b-690eb863afec",
+   "doi": "10.2307/26832220",
+   "title": "Self-Knowledge in the Eye-Soul Analogy of the <em>Alcibiades</em>",
+   "author": "Daniel Ferguson"
+  },
+  {
+   "book": "",
+   "page": 133,
+   "section": "c",
+   "line": 4,
+   "journal": "Phronesis",
+   "year": "2019",
+   "iid": "21f42e2b-c8bd-3478-971b-690eb863afec",
+   "doi": "10.2307/26832220",
+   "title": "Self-Knowledge in the Eye-Soul Analogy of the <em>Alcibiades</em>",
+   "author": "Daniel Ferguson"
+  },
+  {
+   "book": "",
+   "page": 118,
+   "section": "c",
+   "line": 3,
+   "journal": "Phronesis",
+   "year": "2019",
+   "iid": "21f42e2b-c8bd-3478-971b-690eb863afec",
+   "doi": "10.2307/26832220",
+   "title": "Self-Knowledge in the Eye-Soul Analogy of the <em>Alcibiades</em>",
+   "author": "Daniel Ferguson"
+  },
+  {
+   "book": "",
+   "page": 133,
+   "section": "c",
+   "line": 4,
+   "journal": "Phronesis",
+   "year": "2019",
+   "iid": "21f42e2b-c8bd-3478-971b-690eb863afec",
+   "doi": "10.2307/26832220",
+   "title": "Self-Knowledge in the Eye-Soul Analogy of the <em>Alcibiades</em>",
+   "author": "Daniel Ferguson"
+  },
+  {
+   "book": "",
+   "page": 134,
+   "section": "d",
+   "line": 4,
+   "journal": "Phronesis",
+   "year": "2019",
+   "iid": "21f42e2b-c8bd-3478-971b-690eb863afec",
+   "doi": "10.2307/26832220",
+   "title": "Self-Knowledge in the Eye-Soul Analogy of the <em>Alcibiades</em>",
+   "author": "Daniel Ferguson"
+  },
+  {
+   "book": "",
+   "page": 133,
+   "section": "b",
+   "line": 9,
+   "journal": "Phronesis",
+   "year": "2019",
+   "iid": "21f42e2b-c8bd-3478-971b-690eb863afec",
+   "doi": "10.2307/26832220",
+   "title": "Self-Knowledge in the Eye-Soul Analogy of the <em>Alcibiades</em>",
+   "author": "Daniel Ferguson"
+  },
+  {
+   "book": "",
+   "page": 117,
+   "section": "a",
+   "line": 5,
+   "journal": "Phronesis",
+   "year": "2019",
+   "iid": "21f42e2b-c8bd-3478-971b-690eb863afec",
+   "doi": "10.2307/26832220",
+   "title": "Self-Knowledge in the Eye-Soul Analogy of the <em>Alcibiades</em>",
+   "author": "Daniel Ferguson"
+  },
+  {
+   "book": "",
+   "page": 133,
+   "section": "c",
+   "line": 4,
+   "journal": "Phronesis",
+   "year": "2019",
+   "iid": "21f42e2b-c8bd-3478-971b-690eb863afec",
+   "doi": "10.2307/26832220",
+   "title": "Self-Knowledge in the Eye-Soul Analogy of the <em>Alcibiades</em>",
+   "author": "Daniel Ferguson"
+  },
+  {
+   "book": "",
+   "page": 105,
+   "section": "e",
+   "line": 5,
+   "journal": "Phronesis",
+   "year": "2019",
+   "iid": "21f42e2b-c8bd-3478-971b-690eb863afec",
+   "doi": "10.2307/26832220",
+   "title": "Self-Knowledge in the Eye-Soul Analogy of the <em>Alcibiades</em>",
+   "author": "Daniel Ferguson"
+  },
+  {
+   "book": "",
+   "page": 124,
+   "section": "c",
+   "line": 8,
+   "journal": "Phronesis",
+   "year": "2019",
+   "iid": "21f42e2b-c8bd-3478-971b-690eb863afec",
+   "doi": "10.2307/26832220",
+   "title": "Self-Knowledge in the Eye-Soul Analogy of the <em>Alcibiades</em>",
+   "author": "Daniel Ferguson"
+  },
+  {
+   "book": "",
+   "page": 134,
+   "section": "d",
+   "line": 1,
+   "journal": "Phronesis",
+   "year": "2019",
+   "iid": "21f42e2b-c8bd-3478-971b-690eb863afec",
+   "doi": "10.2307/26832220",
+   "title": "Self-Knowledge in the Eye-Soul Analogy of the <em>Alcibiades</em>",
+   "author": "Daniel Ferguson"
+  },
+  {
+   "book": "",
+   "page": 106,
+   "section": "a",
+   "line": 1,
+   "journal": "Phronesis",
+   "year": "2019",
+   "iid": "21f42e2b-c8bd-3478-971b-690eb863afec",
+   "doi": "10.2307/26832220",
+   "title": "Self-Knowledge in the Eye-Soul Analogy of the <em>Alcibiades</em>",
+   "author": "Daniel Ferguson"
+  },
+  {
+   "book": "",
+   "page": 133,
+   "section": "c",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "2019",
+   "iid": "21f42e2b-c8bd-3478-971b-690eb863afec",
+   "doi": "10.2307/26832220",
+   "title": "Self-Knowledge in the Eye-Soul Analogy of the <em>Alcibiades</em>",
+   "author": "Daniel Ferguson"
+  },
+  {
+   "book": "",
+   "page": 133,
+   "section": "c",
+   "line": 1,
+   "journal": "Phronesis",
+   "year": "2019",
+   "iid": "21f42e2b-c8bd-3478-971b-690eb863afec",
+   "doi": "10.2307/26832220",
+   "title": "Self-Knowledge in the Eye-Soul Analogy of the <em>Alcibiades</em>",
+   "author": "Daniel Ferguson"
+  },
+  {
+   "book": "",
+   "page": 119,
+   "section": "c",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1944",
+   "iid": "22525e8c-b010-3ab2-b32c-d63f132c6b94",
+   "doi": "10.2307/263900",
+   "title": "Π APΩ IΔ IA",
+   "author": "Fred W. Householder, <suffix>Jr.</suffix>"
+  },
+  {
+   "book": "",
+   "page": 113,
+   "section": "c",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1944",
+   "iid": "22525e8c-b010-3ab2-b32c-d63f132c6b94",
+   "doi": "10.2307/263900",
+   "title": "Π APΩ IΔ IA",
+   "author": "Fred W. Householder, <suffix>Jr.</suffix>"
+  },
+  {
+   "book": "",
+   "page": 113,
+   "section": "c",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1944",
+   "iid": "22525e8c-b010-3ab2-b32c-d63f132c6b94",
+   "doi": "10.2307/263900",
+   "title": "Π APΩ IΔ IA",
+   "author": "Fred W. Householder, <suffix>Jr.</suffix>"
+  },
+  {
+   "book": "",
+   "page": 132,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1944",
+   "iid": "22525e8c-b010-3ab2-b32c-d63f132c6b94",
+   "doi": "10.2307/263900",
+   "title": "Π APΩ IΔ IA",
+   "author": "Fred W. Householder, <suffix>Jr.</suffix>"
+  },
+  {
+   "book": "",
+   "page": 132,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1944",
+   "iid": "22525e8c-b010-3ab2-b32c-d63f132c6b94",
+   "doi": "10.2307/263900",
+   "title": "Π APΩ IΔ IA",
+   "author": "Fred W. Householder, <suffix>Jr.</suffix>"
+  },
+  {
+   "book": "",
+   "page": 132,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1944",
+   "iid": "22525e8c-b010-3ab2-b32c-d63f132c6b94",
+   "doi": "10.2307/263900",
+   "title": "Π APΩ IΔ IA",
+   "author": "Fred W. Householder, <suffix>Jr.</suffix>"
+  },
+  {
+   "book": "",
+   "page": 105,
+   "section": "c",
+   "line": null,
+   "journal": "History of Philosophy Quarterly",
+   "year": "2016",
+   "iid": "23913065-e1c4-3f73-b76d-55d980fe861c",
+   "doi": "10.2307/44076604",
+   "title": "SOCRATES ON EDUCATIONAL SUCCESS",
+   "author": "Shigeru Yonezawa"
+  },
+  {
+   "book": "",
+   "page": 105,
+   "section": "e",
+   "line": 5,
+   "journal": "History of Philosophy Quarterly",
+   "year": "2016",
+   "iid": "23913065-e1c4-3f73-b76d-55d980fe861c",
+   "doi": "10.2307/44076604",
+   "title": "SOCRATES ON EDUCATIONAL SUCCESS",
+   "author": "Shigeru Yonezawa"
+  },
+  {
+   "book": "",
+   "page": 135,
+   "section": "d",
+   "line": 6,
+   "journal": "History of Philosophy Quarterly",
+   "year": "2016",
+   "iid": "23913065-e1c4-3f73-b76d-55d980fe861c",
+   "doi": "10.2307/44076604",
+   "title": "SOCRATES ON EDUCATIONAL SUCCESS",
+   "author": "Shigeru Yonezawa"
+  },
+  {
+   "book": "",
+   "page": 135,
+   "section": "d",
+   "line": null,
+   "journal": "History of Philosophy Quarterly",
+   "year": "2016",
+   "iid": "23913065-e1c4-3f73-b76d-55d980fe861c",
+   "doi": "10.2307/44076604",
+   "title": "SOCRATES ON EDUCATIONAL SUCCESS",
+   "author": "Shigeru Yonezawa"
+  },
+  {
+   "book": "",
+   "page": 103,
+   "section": "a",
+   "line": null,
+   "journal": "History of Philosophy Quarterly",
+   "year": "2016",
+   "iid": "23913065-e1c4-3f73-b76d-55d980fe861c",
+   "doi": "10.2307/44076604",
+   "title": "SOCRATES ON EDUCATIONAL SUCCESS",
+   "author": "Shigeru Yonezawa"
+  },
+  {
+   "book": "",
+   "page": 104,
+   "section": "c",
+   "line": 5,
+   "journal": "History of Philosophy Quarterly",
+   "year": "2016",
+   "iid": "23913065-e1c4-3f73-b76d-55d980fe861c",
+   "doi": "10.2307/44076604",
+   "title": "SOCRATES ON EDUCATIONAL SUCCESS",
+   "author": "Shigeru Yonezawa"
+  },
+  {
+   "book": "",
+   "page": 104,
+   "section": "d",
+   "line": 3,
+   "journal": "History of Philosophy Quarterly",
+   "year": "2016",
+   "iid": "23913065-e1c4-3f73-b76d-55d980fe861c",
+   "doi": "10.2307/44076604",
+   "title": "SOCRATES ON EDUCATIONAL SUCCESS",
+   "author": "Shigeru Yonezawa"
+  },
+  {
+   "book": "",
+   "page": 106,
+   "section": "a",
+   "line": 3,
+   "journal": "History of Philosophy Quarterly",
+   "year": "2016",
+   "iid": "23913065-e1c4-3f73-b76d-55d980fe861c",
+   "doi": "10.2307/44076604",
+   "title": "SOCRATES ON EDUCATIONAL SUCCESS",
+   "author": "Shigeru Yonezawa"
+  },
+  {
+   "book": "",
+   "page": 124,
+   "section": "c",
+   "line": 8,
+   "journal": "History of Philosophy Quarterly",
+   "year": "2016",
+   "iid": "23913065-e1c4-3f73-b76d-55d980fe861c",
+   "doi": "10.2307/44076604",
+   "title": "SOCRATES ON EDUCATIONAL SUCCESS",
+   "author": "Shigeru Yonezawa"
+  },
+  {
+   "book": "",
+   "page": 124,
+   "section": "c",
+   "line": 5,
+   "journal": "History of Philosophy Quarterly",
+   "year": "2016",
+   "iid": "23913065-e1c4-3f73-b76d-55d980fe861c",
+   "doi": "10.2307/44076604",
+   "title": "SOCRATES ON EDUCATIONAL SUCCESS",
+   "author": "Shigeru Yonezawa"
+  },
+  {
+   "book": "",
+   "page": 104,
+   "section": "c",
+   "line": 2,
+   "journal": "History of Philosophy Quarterly",
+   "year": "2016",
+   "iid": "23913065-e1c4-3f73-b76d-55d980fe861c",
+   "doi": "10.2307/44076604",
+   "title": "SOCRATES ON EDUCATIONAL SUCCESS",
+   "author": "Shigeru Yonezawa"
+  },
+  {
+   "book": "",
+   "page": 135,
+   "section": "e",
+   "line": 7,
+   "journal": "History of Philosophy Quarterly",
+   "year": "2016",
+   "iid": "23913065-e1c4-3f73-b76d-55d980fe861c",
+   "doi": "10.2307/44076604",
+   "title": "SOCRATES ON EDUCATIONAL SUCCESS",
+   "author": "Shigeru Yonezawa"
+  },
+  {
+   "book": "",
+   "page": 110,
+   "section": "c",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1966",
+   "iid": "2c50949f-f7d0-3c75-926a-24f3bade7a1d",
+   "doi": "10.2307/267918",
+   "title": "",
+   "author": "John M. Rist, Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 121,
+   "section": "e",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1985",
+   "iid": "2e67206d-7c65-357e-8815-6735d7f54b6d",
+   "doi": "10.2307/639066",
+   "title": "Some Types of Abnormal Word-Order in Attic Comedy",
+   "author": "K. J. Dover"
+  },
+  {
+   "book": "",
+   "page": 122,
+   "section": "a",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2018",
+   "iid": "335c56f9-ded0-327e-bdcd-9ec88404d67b",
+   "doi": "10.2307/26501831",
+   "title": "<em>ENKRATEIA</em> ET PARTITION DE L’ÂME CHEZ PLATON",
+   "author": "Louis-André Dorion"
+  },
+  {
+   "book": "",
+   "page": 121,
+   "section": "a",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2018",
+   "iid": "335c56f9-ded0-327e-bdcd-9ec88404d67b",
+   "doi": "10.2307/26501831",
+   "title": "<em>ENKRATEIA</em> ET PARTITION DE L’ÂME CHEZ PLATON",
+   "author": "Louis-André Dorion"
+  },
+  {
+   "book": "",
+   "page": 124,
+   "section": "b",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2018",
+   "iid": "335c56f9-ded0-327e-bdcd-9ec88404d67b",
+   "doi": "10.2307/26501831",
+   "title": "<em>ENKRATEIA</em> ET PARTITION DE L’ÂME CHEZ PLATON",
+   "author": "Louis-André Dorion"
+  },
+  {
+   "book": "",
+   "page": 122,
+   "section": "a",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2018",
+   "iid": "335c56f9-ded0-327e-bdcd-9ec88404d67b",
+   "doi": "10.2307/26501831",
+   "title": "<em>ENKRATEIA</em> ET PARTITION DE L’ÂME CHEZ PLATON",
+   "author": "Louis-André Dorion"
+  },
+  {
+   "book": "",
+   "page": 122,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1998",
+   "iid": "3a57d32f-618f-33d0-a63b-3c18e00290e9",
+   "doi": "10.2307/639753",
+   "title": "Notes on Pseudo-Plutarch's Life of Antiphon",
+   "author": "Michael J. Edwards"
+  },
+  {
+   "book": "",
+   "page": 115,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2010",
+   "iid": "3d2a870e-5d7e-3e55-a8ea-7f48b00d51d1",
+   "doi": "10.1086/657026",
+   "title": "Notes on Plato on the <em>Kalon</em> and the\nGood",
+   "author": "Rachel Barney"
+  },
+  {
+   "book": "",
+   "page": 116,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2010",
+   "iid": "3d2a870e-5d7e-3e55-a8ea-7f48b00d51d1",
+   "doi": "10.1086/657026",
+   "title": "Notes on Plato on the <em>Kalon</em> and the\nGood",
+   "author": "Rachel Barney"
+  },
+  {
+   "book": "",
+   "page": 106,
+   "section": "c",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "2020",
+   "iid": "3dac4568-0762-3f30-ba39-9f08db200ea4",
+   "doi": "10.2307/26952097",
+   "title": "Self-Knowledge, Elenchus and Authority in Early Plato",
+   "author": "Fiona Leigh"
+  },
+  {
+   "book": "",
+   "page": 109,
+   "section": "d",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "2020",
+   "iid": "3dac4568-0762-3f30-ba39-9f08db200ea4",
+   "doi": "10.2307/26952097",
+   "title": "Self-Knowledge, Elenchus and Authority in Early Plato",
+   "author": "Fiona Leigh"
+  },
+  {
+   "book": "",
+   "page": 112,
+   "section": "d",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "2020",
+   "iid": "3dac4568-0762-3f30-ba39-9f08db200ea4",
+   "doi": "10.2307/26952097",
+   "title": "Self-Knowledge, Elenchus and Authority in Early Plato",
+   "author": "Fiona Leigh"
+  },
+  {
+   "book": "",
+   "page": 112,
+   "section": "e",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "2020",
+   "iid": "3dac4568-0762-3f30-ba39-9f08db200ea4",
+   "doi": "10.2307/26952097",
+   "title": "Self-Knowledge, Elenchus and Authority in Early Plato",
+   "author": "Fiona Leigh"
+  },
+  {
+   "book": "",
+   "page": 114,
+   "section": "e",
+   "line": 7,
+   "journal": "Phronesis",
+   "year": "2020",
+   "iid": "3dac4568-0762-3f30-ba39-9f08db200ea4",
+   "doi": "10.2307/26952097",
+   "title": "Self-Knowledge, Elenchus and Authority in Early Plato",
+   "author": "Fiona Leigh"
+  },
+  {
+   "book": "",
+   "page": 115,
+   "section": "d",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "2020",
+   "iid": "3dac4568-0762-3f30-ba39-9f08db200ea4",
+   "doi": "10.2307/26952097",
+   "title": "Self-Knowledge, Elenchus and Authority in Early Plato",
+   "author": "Fiona Leigh"
+  },
+  {
+   "book": "",
+   "page": 113,
+   "section": "b",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "2020",
+   "iid": "3dac4568-0762-3f30-ba39-9f08db200ea4",
+   "doi": "10.2307/26952097",
+   "title": "Self-Knowledge, Elenchus and Authority in Early Plato",
+   "author": "Fiona Leigh"
+  },
+  {
+   "book": "",
+   "page": 113,
+   "section": "b",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "2020",
+   "iid": "3dac4568-0762-3f30-ba39-9f08db200ea4",
+   "doi": "10.2307/26952097",
+   "title": "Self-Knowledge, Elenchus and Authority in Early Plato",
+   "author": "Fiona Leigh"
+  },
+  {
+   "book": "",
+   "page": 113,
+   "section": "b",
+   "line": 5,
+   "journal": "Phronesis",
+   "year": "2020",
+   "iid": "3dac4568-0762-3f30-ba39-9f08db200ea4",
+   "doi": "10.2307/26952097",
+   "title": "Self-Knowledge, Elenchus and Authority in Early Plato",
+   "author": "Fiona Leigh"
+  },
+  {
+   "book": "",
+   "page": 116,
+   "section": "a",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "2020",
+   "iid": "3dac4568-0762-3f30-ba39-9f08db200ea4",
+   "doi": "10.2307/26952097",
+   "title": "Self-Knowledge, Elenchus and Authority in Early Plato",
+   "author": "Fiona Leigh"
+  },
+  {
+   "book": "",
+   "page": 115,
+   "section": "d",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "2020",
+   "iid": "3dac4568-0762-3f30-ba39-9f08db200ea4",
+   "doi": "10.2307/26952097",
+   "title": "Self-Knowledge, Elenchus and Authority in Early Plato",
+   "author": "Fiona Leigh"
+  },
+  {
+   "book": "",
+   "page": 115,
+   "section": "e",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "2020",
+   "iid": "3dac4568-0762-3f30-ba39-9f08db200ea4",
+   "doi": "10.2307/26952097",
+   "title": "Self-Knowledge, Elenchus and Authority in Early Plato",
+   "author": "Fiona Leigh"
+  },
+  {
+   "book": "",
+   "page": 116,
+   "section": "e",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "2020",
+   "iid": "3dac4568-0762-3f30-ba39-9f08db200ea4",
+   "doi": "10.2307/26952097",
+   "title": "Self-Knowledge, Elenchus and Authority in Early Plato",
+   "author": "Fiona Leigh"
+  },
+  {
+   "book": "",
+   "page": 112,
+   "section": "d",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "2020",
+   "iid": "3dac4568-0762-3f30-ba39-9f08db200ea4",
+   "doi": "10.2307/26952097",
+   "title": "Self-Knowledge, Elenchus and Authority in Early Plato",
+   "author": "Fiona Leigh"
+  },
+  {
+   "book": "",
+   "page": 116,
+   "section": "d",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "2020",
+   "iid": "3dac4568-0762-3f30-ba39-9f08db200ea4",
+   "doi": "10.2307/26952097",
+   "title": "Self-Knowledge, Elenchus and Authority in Early Plato",
+   "author": "Fiona Leigh"
+  },
+  {
+   "book": "",
+   "page": 115,
+   "section": "e",
+   "line": 9,
+   "journal": "Phronesis",
+   "year": "2020",
+   "iid": "3dac4568-0762-3f30-ba39-9f08db200ea4",
+   "doi": "10.2307/26952097",
+   "title": "Self-Knowledge, Elenchus and Authority in Early Plato",
+   "author": "Fiona Leigh"
+  },
+  {
+   "book": "",
+   "page": 115,
+   "section": "c",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "2020",
+   "iid": "3dac4568-0762-3f30-ba39-9f08db200ea4",
+   "doi": "10.2307/26952097",
+   "title": "Self-Knowledge, Elenchus and Authority in Early Plato",
+   "author": "Fiona Leigh"
+  },
+  {
+   "book": "",
+   "page": 115,
+   "section": "e",
+   "line": 11,
+   "journal": "Phronesis",
+   "year": "2020",
+   "iid": "3dac4568-0762-3f30-ba39-9f08db200ea4",
+   "doi": "10.2307/26952097",
+   "title": "Self-Knowledge, Elenchus and Authority in Early Plato",
+   "author": "Fiona Leigh"
+  },
+  {
+   "book": "",
+   "page": 115,
+   "section": "e",
+   "line": 9,
+   "journal": "Phronesis",
+   "year": "2020",
+   "iid": "3dac4568-0762-3f30-ba39-9f08db200ea4",
+   "doi": "10.2307/26952097",
+   "title": "Self-Knowledge, Elenchus and Authority in Early Plato",
+   "author": "Fiona Leigh"
+  },
+  {
+   "book": "",
+   "page": 115,
+   "section": "a",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "2020",
+   "iid": "3dac4568-0762-3f30-ba39-9f08db200ea4",
+   "doi": "10.2307/26952097",
+   "title": "Self-Knowledge, Elenchus and Authority in Early Plato",
+   "author": "Fiona Leigh"
+  },
+  {
+   "book": "",
+   "page": 117,
+   "section": "a",
+   "line": 10,
+   "journal": "Phronesis",
+   "year": "2020",
+   "iid": "3dac4568-0762-3f30-ba39-9f08db200ea4",
+   "doi": "10.2307/26952097",
+   "title": "Self-Knowledge, Elenchus and Authority in Early Plato",
+   "author": "Fiona Leigh"
+  },
+  {
+   "book": "",
+   "page": 116,
+   "section": "a",
+   "line": 6,
+   "journal": "Phronesis",
+   "year": "2020",
+   "iid": "3dac4568-0762-3f30-ba39-9f08db200ea4",
+   "doi": "10.2307/26952097",
+   "title": "Self-Knowledge, Elenchus and Authority in Early Plato",
+   "author": "Fiona Leigh"
+  },
+  {
+   "book": "",
+   "page": 116,
+   "section": "a",
+   "line": 10,
+   "journal": "Phronesis",
+   "year": "2020",
+   "iid": "3dac4568-0762-3f30-ba39-9f08db200ea4",
+   "doi": "10.2307/26952097",
+   "title": "Self-Knowledge, Elenchus and Authority in Early Plato",
+   "author": "Fiona Leigh"
+  },
+  {
+   "book": "",
+   "page": 115,
+   "section": "a",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "2020",
+   "iid": "3dac4568-0762-3f30-ba39-9f08db200ea4",
+   "doi": "10.2307/26952097",
+   "title": "Self-Knowledge, Elenchus and Authority in Early Plato",
+   "author": "Fiona Leigh"
+  },
+  {
+   "book": "",
+   "page": 116,
+   "section": "a",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "2020",
+   "iid": "3dac4568-0762-3f30-ba39-9f08db200ea4",
+   "doi": "10.2307/26952097",
+   "title": "Self-Knowledge, Elenchus and Authority in Early Plato",
+   "author": "Fiona Leigh"
+  },
+  {
+   "book": "",
+   "page": 115,
+   "section": "a",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "2020",
+   "iid": "3dac4568-0762-3f30-ba39-9f08db200ea4",
+   "doi": "10.2307/26952097",
+   "title": "Self-Knowledge, Elenchus and Authority in Early Plato",
+   "author": "Fiona Leigh"
+  },
+  {
+   "book": "",
+   "page": 115,
+   "section": "b",
+   "line": 5,
+   "journal": "Phronesis",
+   "year": "2020",
+   "iid": "3dac4568-0762-3f30-ba39-9f08db200ea4",
+   "doi": "10.2307/26952097",
+   "title": "Self-Knowledge, Elenchus and Authority in Early Plato",
+   "author": "Fiona Leigh"
+  },
+  {
+   "book": "",
+   "page": 115,
+   "section": "d",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "2020",
+   "iid": "3dac4568-0762-3f30-ba39-9f08db200ea4",
+   "doi": "10.2307/26952097",
+   "title": "Self-Knowledge, Elenchus and Authority in Early Plato",
+   "author": "Fiona Leigh"
+  },
+  {
+   "book": "",
+   "page": 115,
+   "section": "d",
+   "line": 8,
+   "journal": "Phronesis",
+   "year": "2020",
+   "iid": "3dac4568-0762-3f30-ba39-9f08db200ea4",
+   "doi": "10.2307/26952097",
+   "title": "Self-Knowledge, Elenchus and Authority in Early Plato",
+   "author": "Fiona Leigh"
+  },
+  {
+   "book": "",
+   "page": 115,
+   "section": "d",
+   "line": 5,
+   "journal": "Phronesis",
+   "year": "2020",
+   "iid": "3dac4568-0762-3f30-ba39-9f08db200ea4",
+   "doi": "10.2307/26952097",
+   "title": "Self-Knowledge, Elenchus and Authority in Early Plato",
+   "author": "Fiona Leigh"
+  },
+  {
+   "book": "",
+   "page": 115,
+   "section": "d",
+   "line": 5,
+   "journal": "Phronesis",
+   "year": "2020",
+   "iid": "3dac4568-0762-3f30-ba39-9f08db200ea4",
+   "doi": "10.2307/26952097",
+   "title": "Self-Knowledge, Elenchus and Authority in Early Plato",
+   "author": "Fiona Leigh"
+  },
+  {
+   "book": "",
+   "page": 115,
+   "section": "d",
+   "line": 7,
+   "journal": "Phronesis",
+   "year": "2020",
+   "iid": "3dac4568-0762-3f30-ba39-9f08db200ea4",
+   "doi": "10.2307/26952097",
+   "title": "Self-Knowledge, Elenchus and Authority in Early Plato",
+   "author": "Fiona Leigh"
+  },
+  {
+   "book": "",
+   "page": 116,
+   "section": "a",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "2020",
+   "iid": "3dac4568-0762-3f30-ba39-9f08db200ea4",
+   "doi": "10.2307/26952097",
+   "title": "Self-Knowledge, Elenchus and Authority in Early Plato",
+   "author": "Fiona Leigh"
+  },
+  {
+   "book": "",
+   "page": 116,
+   "section": "b",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "2020",
+   "iid": "3dac4568-0762-3f30-ba39-9f08db200ea4",
+   "doi": "10.2307/26952097",
+   "title": "Self-Knowledge, Elenchus and Authority in Early Plato",
+   "author": "Fiona Leigh"
+  },
+  {
+   "book": "",
+   "page": 116,
+   "section": "a",
+   "line": 2,
+   "journal": "Phronesis",
+   "year": "2020",
+   "iid": "3dac4568-0762-3f30-ba39-9f08db200ea4",
+   "doi": "10.2307/26952097",
+   "title": "Self-Knowledge, Elenchus and Authority in Early Plato",
+   "author": "Fiona Leigh"
+  },
+  {
+   "book": "",
+   "page": 120,
+   "section": "c",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "2020",
+   "iid": "3dac4568-0762-3f30-ba39-9f08db200ea4",
+   "doi": "10.2307/26952097",
+   "title": "Self-Knowledge, Elenchus and Authority in Early Plato",
+   "author": "Fiona Leigh"
+  },
+  {
+   "book": "",
+   "page": 124,
+   "section": "b",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "2020",
+   "iid": "3dac4568-0762-3f30-ba39-9f08db200ea4",
+   "doi": "10.2307/26952097",
+   "title": "Self-Knowledge, Elenchus and Authority in Early Plato",
+   "author": "Fiona Leigh"
+  },
+  {
+   "book": "",
+   "page": 124,
+   "section": "b",
+   "line": 7,
+   "journal": "Phronesis",
+   "year": "2020",
+   "iid": "3dac4568-0762-3f30-ba39-9f08db200ea4",
+   "doi": "10.2307/26952097",
+   "title": "Self-Knowledge, Elenchus and Authority in Early Plato",
+   "author": "Fiona Leigh"
+  },
+  {
+   "book": "",
+   "page": 130,
+   "section": "e",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "2020",
+   "iid": "3dac4568-0762-3f30-ba39-9f08db200ea4",
+   "doi": "10.2307/26952097",
+   "title": "Self-Knowledge, Elenchus and Authority in Early Plato",
+   "author": "Fiona Leigh"
+  },
+  {
+   "book": "",
+   "page": 132,
+   "section": "c",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "2020",
+   "iid": "3dac4568-0762-3f30-ba39-9f08db200ea4",
+   "doi": "10.2307/26952097",
+   "title": "Self-Knowledge, Elenchus and Authority in Early Plato",
+   "author": "Fiona Leigh"
+  },
+  {
+   "book": "",
+   "page": 132,
+   "section": "c",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "2020",
+   "iid": "3dac4568-0762-3f30-ba39-9f08db200ea4",
+   "doi": "10.2307/26952097",
+   "title": "Self-Knowledge, Elenchus and Authority in Early Plato",
+   "author": "Fiona Leigh"
+  },
+  {
+   "book": "",
+   "page": 133,
+   "section": "c",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "2020",
+   "iid": "3dac4568-0762-3f30-ba39-9f08db200ea4",
+   "doi": "10.2307/26952097",
+   "title": "Self-Knowledge, Elenchus and Authority in Early Plato",
+   "author": "Fiona Leigh"
+  },
+  {
+   "book": "",
+   "page": 129,
+   "section": "a",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "2020",
+   "iid": "3dac4568-0762-3f30-ba39-9f08db200ea4",
+   "doi": "10.2307/26952097",
+   "title": "Self-Knowledge, Elenchus and Authority in Early Plato",
+   "author": "Fiona Leigh"
+  },
+  {
+   "book": "",
+   "page": 133,
+   "section": "b",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "2020",
+   "iid": "3dac4568-0762-3f30-ba39-9f08db200ea4",
+   "doi": "10.2307/26952097",
+   "title": "Self-Knowledge, Elenchus and Authority in Early Plato",
+   "author": "Fiona Leigh"
+  },
+  {
+   "book": "",
+   "page": 124,
+   "section": "b",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "2020",
+   "iid": "3dac4568-0762-3f30-ba39-9f08db200ea4",
+   "doi": "10.2307/26952097",
+   "title": "Self-Knowledge, Elenchus and Authority in Early Plato",
+   "author": "Fiona Leigh"
+  },
+  {
+   "book": "",
+   "page": 123,
+   "section": "d",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "2020",
+   "iid": "3dac4568-0762-3f30-ba39-9f08db200ea4",
+   "doi": "10.2307/26952097",
+   "title": "Self-Knowledge, Elenchus and Authority in Early Plato",
+   "author": "Fiona Leigh"
+  },
+  {
+   "book": "",
+   "page": 124,
+   "section": "b",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "2020",
+   "iid": "3dac4568-0762-3f30-ba39-9f08db200ea4",
+   "doi": "10.2307/26952097",
+   "title": "Self-Knowledge, Elenchus and Authority in Early Plato",
+   "author": "Fiona Leigh"
+  },
+  {
+   "book": "",
+   "page": 132,
+   "section": "d",
+   "line": 1,
+   "journal": "Phronesis",
+   "year": "2020",
+   "iid": "3dac4568-0762-3f30-ba39-9f08db200ea4",
+   "doi": "10.2307/26952097",
+   "title": "Self-Knowledge, Elenchus and Authority in Early Plato",
+   "author": "Fiona Leigh"
+  },
+  {
+   "book": "",
+   "page": 133,
+   "section": "c",
+   "line": 7,
+   "journal": "Phronesis",
+   "year": "2020",
+   "iid": "3dac4568-0762-3f30-ba39-9f08db200ea4",
+   "doi": "10.2307/26952097",
+   "title": "Self-Knowledge, Elenchus and Authority in Early Plato",
+   "author": "Fiona Leigh"
+  },
+  {
+   "book": "",
+   "page": 134,
+   "section": "d",
+   "line": 5,
+   "journal": "Phronesis",
+   "year": "2020",
+   "iid": "3dac4568-0762-3f30-ba39-9f08db200ea4",
+   "doi": "10.2307/26952097",
+   "title": "Self-Knowledge, Elenchus and Authority in Early Plato",
+   "author": "Fiona Leigh"
+  },
+  {
+   "book": "",
+   "page": 134,
+   "section": "d",
+   "line": 5,
+   "journal": "Phronesis",
+   "year": "2020",
+   "iid": "3dac4568-0762-3f30-ba39-9f08db200ea4",
+   "doi": "10.2307/26952097",
+   "title": "Self-Knowledge, Elenchus and Authority in Early Plato",
+   "author": "Fiona Leigh"
+  },
+  {
+   "book": "",
+   "page": 134,
+   "section": "d",
+   "line": 1,
+   "journal": "Phronesis",
+   "year": "2020",
+   "iid": "3dac4568-0762-3f30-ba39-9f08db200ea4",
+   "doi": "10.2307/26952097",
+   "title": "Self-Knowledge, Elenchus and Authority in Early Plato",
+   "author": "Fiona Leigh"
+  },
+  {
+   "book": "",
+   "page": 133,
+   "section": "c",
+   "line": 1,
+   "journal": "Phronesis",
+   "year": "2020",
+   "iid": "3dac4568-0762-3f30-ba39-9f08db200ea4",
+   "doi": "10.2307/26952097",
+   "title": "Self-Knowledge, Elenchus and Authority in Early Plato",
+   "author": "Fiona Leigh"
+  },
+  {
+   "book": "",
+   "page": 134,
+   "section": "d",
+   "line": 4,
+   "journal": "Phronesis",
+   "year": "2020",
+   "iid": "3dac4568-0762-3f30-ba39-9f08db200ea4",
+   "doi": "10.2307/26952097",
+   "title": "Self-Knowledge, Elenchus and Authority in Early Plato",
+   "author": "Fiona Leigh"
+  },
+  {
+   "book": "",
+   "page": 134,
+   "section": "d",
+   "line": 5,
+   "journal": "Phronesis",
+   "year": "2020",
+   "iid": "3dac4568-0762-3f30-ba39-9f08db200ea4",
+   "doi": "10.2307/26952097",
+   "title": "Self-Knowledge, Elenchus and Authority in Early Plato",
+   "author": "Fiona Leigh"
+  },
+  {
+   "book": "",
+   "page": 133,
+   "section": "c",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "2020",
+   "iid": "3dac4568-0762-3f30-ba39-9f08db200ea4",
+   "doi": "10.2307/26952097",
+   "title": "Self-Knowledge, Elenchus and Authority in Early Plato",
+   "author": "Fiona Leigh"
+  },
+  {
+   "book": "",
+   "page": 130,
+   "section": "d",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "2020",
+   "iid": "3dac4568-0762-3f30-ba39-9f08db200ea4",
+   "doi": "10.2307/26952097",
+   "title": "Self-Knowledge, Elenchus and Authority in Early Plato",
+   "author": "Fiona Leigh"
+  },
+  {
+   "book": "",
+   "page": 129,
+   "section": "b",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "2020",
+   "iid": "3dac4568-0762-3f30-ba39-9f08db200ea4",
+   "doi": "10.2307/26952097",
+   "title": "Self-Knowledge, Elenchus and Authority in Early Plato",
+   "author": "Fiona Leigh"
+  },
+  {
+   "book": "",
+   "page": 117,
+   "section": "a",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "2020",
+   "iid": "3dac4568-0762-3f30-ba39-9f08db200ea4",
+   "doi": "10.2307/26952097",
+   "title": "Self-Knowledge, Elenchus and Authority in Early Plato",
+   "author": "Fiona Leigh"
+  },
+  {
+   "book": "",
+   "page": 118,
+   "section": "a",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "2020",
+   "iid": "3dac4568-0762-3f30-ba39-9f08db200ea4",
+   "doi": "10.2307/26952097",
+   "title": "Self-Knowledge, Elenchus and Authority in Early Plato",
+   "author": "Fiona Leigh"
+  },
+  {
+   "book": "",
+   "page": 114,
+   "section": "e",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "2020",
+   "iid": "3dac4568-0762-3f30-ba39-9f08db200ea4",
+   "doi": "10.2307/26952097",
+   "title": "Self-Knowledge, Elenchus and Authority in Early Plato",
+   "author": "Fiona Leigh"
+  },
+  {
+   "book": "",
+   "page": 133,
+   "section": "c",
+   "line": 1,
+   "journal": "Phronesis",
+   "year": "2020",
+   "iid": "3dac4568-0762-3f30-ba39-9f08db200ea4",
+   "doi": "10.2307/26952097",
+   "title": "Self-Knowledge, Elenchus and Authority in Early Plato",
+   "author": "Fiona Leigh"
+  },
+  {
+   "book": "",
+   "page": 105,
+   "section": "c",
+   "line": 3,
+   "journal": "The Classical Quarterly",
+   "year": "2013",
+   "iid": "42854bc5-0ebf-3266-aedc-bc09dbb6e18f",
+   "doi": "10.2307/43905988",
+   "title": "THE MEMORY OF VIRTUE: ACHIEVING IMMORTALITY IN PLATO'S \"SYMPOSIUM\"",
+   "author": "ANTHONY HOOPER"
+  },
+  {
+   "book": "",
+   "page": 119,
+   "section": "c",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1925",
+   "iid": "427b2ca0-d450-3357-addb-1e1f20646fd5",
+   "doi": "10.2307/263461",
+   "title": "",
+   "author": "A. M. Harmon, Paul Shorey"
+  },
+  {
+   "book": "",
+   "page": 104,
+   "section": "b",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2022",
+   "iid": "49354682-0785-3434-8f15-9906ebf7b4bf",
+   "doi": "10.2307/27264531",
+   "title": "LA PRÉMISSE MOBILISTE DE LA PERCEPTION SENSIBLE DANS LE <em>THÉÉTÈTE</em> DE PLATON",
+   "author": "Tatjana Aleknienė"
+  },
+  {
+   "book": "",
+   "page": 118,
+   "section": "a",
+   "line": 4,
+   "journal": "Phronesis",
+   "year": "2022",
+   "iid": "4fc9ec93-541c-3678-b7d6-4b0cee18376f",
+   "doi": "10.2307/27363945",
+   "title": "Ignorance in Plato's <em>Protagoras</em>",
+   "author": "Wenjin Liu"
+  },
+  {
+   "book": "",
+   "page": 116,
+   "section": "e",
+   "line": 2,
+   "journal": "Phronesis",
+   "year": "2022",
+   "iid": "4fc9ec93-541c-3678-b7d6-4b0cee18376f",
+   "doi": "10.2307/27363945",
+   "title": "Ignorance in Plato's <em>Protagoras</em>",
+   "author": "Wenjin Liu"
+  },
+  {
+   "book": "",
+   "page": 118,
+   "section": "c",
+   "line": 2,
+   "journal": "Phronesis",
+   "year": "2022",
+   "iid": "4fc9ec93-541c-3678-b7d6-4b0cee18376f",
+   "doi": "10.2307/27363945",
+   "title": "Ignorance in Plato's <em>Protagoras</em>",
+   "author": "Wenjin Liu"
+  },
+  {
+   "book": "",
+   "page": 117,
+   "section": "b",
+   "line": 2,
+   "journal": "Phronesis",
+   "year": "2022",
+   "iid": "4fc9ec93-541c-3678-b7d6-4b0cee18376f",
+   "doi": "10.2307/27363945",
+   "title": "Ignorance in Plato's <em>Protagoras</em>",
+   "author": "Wenjin Liu"
+  },
+  {
+   "book": "",
+   "page": 107,
+   "section": "e",
+   "line": 9,
+   "journal": "Phronesis",
+   "year": "2022",
+   "iid": "4fc9ec93-541c-3678-b7d6-4b0cee18376f",
+   "doi": "10.2307/27363945",
+   "title": "Ignorance in Plato's <em>Protagoras</em>",
+   "author": "Wenjin Liu"
+  },
+  {
+   "book": "",
+   "page": 108,
+   "section": "a",
+   "line": 4,
+   "journal": "Phronesis",
+   "year": "2022",
+   "iid": "4fc9ec93-541c-3678-b7d6-4b0cee18376f",
+   "doi": "10.2307/27363945",
+   "title": "Ignorance in Plato's <em>Protagoras</em>",
+   "author": "Wenjin Liu"
+  },
+  {
+   "book": "",
+   "page": 118,
+   "section": "c",
+   "line": 2,
+   "journal": "Phronesis",
+   "year": "2022",
+   "iid": "4fc9ec93-541c-3678-b7d6-4b0cee18376f",
+   "doi": "10.2307/27363945",
+   "title": "Ignorance in Plato's <em>Protagoras</em>",
+   "author": "Wenjin Liu"
+  },
+  {
+   "book": "",
+   "page": 117,
+   "section": "a",
+   "line": 3,
+   "journal": "Phronesis",
+   "year": "2022",
+   "iid": "4fc9ec93-541c-3678-b7d6-4b0cee18376f",
+   "doi": "10.2307/27363945",
+   "title": "Ignorance in Plato's <em>Protagoras</em>",
+   "author": "Wenjin Liu"
+  },
+  {
+   "book": "",
+   "page": 118,
+   "section": "c",
+   "line": 2,
+   "journal": "Phronesis",
+   "year": "2022",
+   "iid": "4fc9ec93-541c-3678-b7d6-4b0cee18376f",
+   "doi": "10.2307/27363945",
+   "title": "Ignorance in Plato's <em>Protagoras</em>",
+   "author": "Wenjin Liu"
+  },
+  {
+   "book": "",
+   "page": 117,
+   "section": "a",
+   "line": 3,
+   "journal": "Phronesis",
+   "year": "2022",
+   "iid": "4fc9ec93-541c-3678-b7d6-4b0cee18376f",
+   "doi": "10.2307/27363945",
+   "title": "Ignorance in Plato's <em>Protagoras</em>",
+   "author": "Wenjin Liu"
+  },
+  {
+   "book": "",
+   "page": 118,
+   "section": "c",
+   "line": 2,
+   "journal": "Phronesis",
+   "year": "2022",
+   "iid": "4fc9ec93-541c-3678-b7d6-4b0cee18376f",
+   "doi": "10.2307/27363945",
+   "title": "Ignorance in Plato's <em>Protagoras</em>",
+   "author": "Wenjin Liu"
+  },
+  {
+   "book": "",
+   "page": 117,
+   "section": "a",
+   "line": 3,
+   "journal": "Phronesis",
+   "year": "2022",
+   "iid": "4fc9ec93-541c-3678-b7d6-4b0cee18376f",
+   "doi": "10.2307/27363945",
+   "title": "Ignorance in Plato's <em>Protagoras</em>",
+   "author": "Wenjin Liu"
+  },
+  {
+   "book": "",
+   "page": 117,
+   "section": "b",
+   "line": 2,
+   "journal": "Phronesis",
+   "year": "2022",
+   "iid": "4fc9ec93-541c-3678-b7d6-4b0cee18376f",
+   "doi": "10.2307/27363945",
+   "title": "Ignorance in Plato's <em>Protagoras</em>",
+   "author": "Wenjin Liu"
+  },
+  {
+   "book": "",
+   "page": 133,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1934",
+   "iid": "538191c7-4268-3829-9aa2-268a4a12433a",
+   "doi": "10.2307/636803",
+   "title": "Plato's Simile of Light Again",
+   "author": "A. S. Ferguson"
+  },
+  {
+   "book": "",
+   "page": 112,
+   "section": "c",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1977",
+   "iid": "53e346b7-1d58-3ac9-b3e3-8f2154a5c659",
+   "doi": "10.2307/267879",
+   "title": "Thucydides 1. 113 and the Leadership of Orchomenus",
+   "author": "Clifford J. Dull"
+  },
+  {
+   "book": "",
+   "page": 130,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1977",
+   "iid": "57660593-5512-3259-8b43-82e53678db3b",
+   "doi": "10.2307/712879",
+   "title": "Sappho and Alcaeus",
+   "author": "Eva-Maria Voigt, M. L. West"
+  },
+  {
+   "book": "",
+   "page": 110,
+   "section": "b",
+   "line": 9,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2003",
+   "iid": "5794f403-1600-3ccd-bc2e-049cab1db05b",
+   "doi": "10.2307/24354723",
+   "title": "\"PAR ZEUS!\". LES JURONS DE PLATON",
+   "author": "Aikaterini Lefka"
+  },
+  {
+   "book": "",
+   "page": 133,
+   "section": "d",
+   "line": 4,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2003",
+   "iid": "5794f403-1600-3ccd-bc2e-049cab1db05b",
+   "doi": "10.2307/24354723",
+   "title": "\"PAR ZEUS!\". LES JURONS DE PLATON",
+   "author": "Aikaterini Lefka"
+  },
+  {
+   "book": "",
+   "page": 109,
+   "section": "d",
+   "line": 7,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2003",
+   "iid": "5794f403-1600-3ccd-bc2e-049cab1db05b",
+   "doi": "10.2307/24354723",
+   "title": "\"PAR ZEUS!\". LES JURONS DE PLATON",
+   "author": "Aikaterini Lefka"
+  },
+  {
+   "book": "",
+   "page": 130,
+   "section": "c",
+   "line": 7,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2003",
+   "iid": "5794f403-1600-3ccd-bc2e-049cab1db05b",
+   "doi": "10.2307/24354723",
+   "title": "\"PAR ZEUS!\". LES JURONS DE PLATON",
+   "author": "Aikaterini Lefka"
+  },
+  {
+   "book": "",
+   "page": 117,
+   "section": "b",
+   "line": 6,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2003",
+   "iid": "5794f403-1600-3ccd-bc2e-049cab1db05b",
+   "doi": "10.2307/24354723",
+   "title": "\"PAR ZEUS!\". LES JURONS DE PLATON",
+   "author": "Aikaterini Lefka"
+  },
+  {
+   "book": "",
+   "page": 112,
+   "section": "c",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1983",
+   "iid": "5a442c69-915f-3028-bb77-195c5abf2d47",
+   "doi": "10.2307/638780",
+   "title": "Criteria of Fallacy and Sophistry for Use in the Analysis of Platonic Dialogues",
+   "author": "G. Klosko"
+  },
+  {
+   "book": "",
+   "page": 116,
+   "section": "d",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1983",
+   "iid": "5a442c69-915f-3028-bb77-195c5abf2d47",
+   "doi": "10.2307/638780",
+   "title": "Criteria of Fallacy and Sophistry for Use in the Analysis of Platonic Dialogues",
+   "author": "G. Klosko"
+  },
+  {
+   "book": "",
+   "page": 118,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1983",
+   "iid": "5a442c69-915f-3028-bb77-195c5abf2d47",
+   "doi": "10.2307/638780",
+   "title": "Criteria of Fallacy and Sophistry for Use in the Analysis of Platonic Dialogues",
+   "author": "G. Klosko"
+  },
+  {
+   "book": "",
+   "page": 113,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1983",
+   "iid": "5a442c69-915f-3028-bb77-195c5abf2d47",
+   "doi": "10.2307/638780",
+   "title": "Criteria of Fallacy and Sophistry for Use in the Analysis of Platonic Dialogues",
+   "author": "G. Klosko"
+  },
+  {
+   "book": "",
+   "page": 118,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1983",
+   "iid": "5a442c69-915f-3028-bb77-195c5abf2d47",
+   "doi": "10.2307/638780",
+   "title": "Criteria of Fallacy and Sophistry for Use in the Analysis of Platonic Dialogues",
+   "author": "G. Klosko"
+  },
+  {
+   "book": "",
+   "page": 107,
+   "section": "e",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1988",
+   "iid": "5bb1f11a-318d-35e2-99f1-c38c30e6105a",
+   "doi": "10.2307/3065972",
+   "title": "",
+   "author": "J. Neville Birdsall, Miroslav Marcovich, Hippolytus"
+  },
+  {
+   "book": "",
+   "page": 116,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1988",
+   "iid": "5bb1f11a-318d-35e2-99f1-c38c30e6105a",
+   "doi": "10.2307/3065972",
+   "title": "",
+   "author": "J. Neville Birdsall, Miroslav Marcovich, Hippolytus"
+  },
+  {
+   "book": "",
+   "page": 122,
+   "section": "c",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1917",
+   "iid": "5e25038e-86a4-3cc6-8d8a-0072ed4d9763",
+   "doi": "10.2307/263346",
+   "title": "A Lost Platonic Joke",
+   "author": "Paul Shorey"
+  },
+  {
+   "book": "",
+   "page": 122,
+   "section": "c",
+   "line": 0,
+   "journal": "Classical Philology",
+   "year": "1917",
+   "iid": "5e25038e-86a4-3cc6-8d8a-0072ed4d9763",
+   "doi": "10.2307/263346",
+   "title": "A Lost Platonic Joke",
+   "author": "Paul Shorey"
+  },
+  {
+   "book": "",
+   "page": 130,
+   "section": "e",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1992",
+   "iid": "62505f64-32cc-39ae-b32b-8f2f7c5a5f0c",
+   "doi": "10.2307/270000",
+   "title": "Review Article: The New Oxford Sophocles",
+   "author": "H. Lloyd-Jones, N. G. Wilson, R. Renehan"
+  },
+  {
+   "book": "",
+   "page": 130,
+   "section": "e",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1992",
+   "iid": "62505f64-32cc-39ae-b32b-8f2f7c5a5f0c",
+   "doi": "10.2307/270000",
+   "title": "Review Article: The New Oxford Sophocles",
+   "author": "H. Lloyd-Jones, N. G. Wilson, R. Renehan"
+  },
+  {
+   "book": "",
+   "page": 130,
+   "section": "b",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1992",
+   "iid": "62505f64-32cc-39ae-b32b-8f2f7c5a5f0c",
+   "doi": "10.2307/270000",
+   "title": "Review Article: The New Oxford Sophocles",
+   "author": "H. Lloyd-Jones, N. G. Wilson, R. Renehan"
+  },
+  {
+   "book": "",
+   "page": 134,
+   "section": "c",
+   "line": 5,
+   "journal": "Phronesis",
+   "year": "2014",
+   "iid": "6259a6ed-9d10-3a93-90e8-aafe9997ba2c",
+   "doi": "10.2307/24767949",
+   "title": "Dialectic and Who We Are in the \"Alcibiades\"",
+   "author": "Albert Joosse"
+  },
+  {
+   "book": "",
+   "page": 133,
+   "section": "c",
+   "line": 8,
+   "journal": "Phronesis",
+   "year": "2014",
+   "iid": "6259a6ed-9d10-3a93-90e8-aafe9997ba2c",
+   "doi": "10.2307/24767949",
+   "title": "Dialectic and Who We Are in the \"Alcibiades\"",
+   "author": "Albert Joosse"
+  },
+  {
+   "book": "",
+   "page": 129,
+   "section": "c",
+   "line": 6,
+   "journal": "Phronesis",
+   "year": "2014",
+   "iid": "6259a6ed-9d10-3a93-90e8-aafe9997ba2c",
+   "doi": "10.2307/24767949",
+   "title": "Dialectic and Who We Are in the \"Alcibiades\"",
+   "author": "Albert Joosse"
+  },
+  {
+   "book": "",
+   "page": 129,
+   "section": "c",
+   "line": 6,
+   "journal": "Phronesis",
+   "year": "2014",
+   "iid": "6259a6ed-9d10-3a93-90e8-aafe9997ba2c",
+   "doi": "10.2307/24767949",
+   "title": "Dialectic and Who We Are in the \"Alcibiades\"",
+   "author": "Albert Joosse"
+  },
+  {
+   "book": "",
+   "page": 132,
+   "section": "c",
+   "line": 7,
+   "journal": "Phronesis",
+   "year": "2014",
+   "iid": "6259a6ed-9d10-3a93-90e8-aafe9997ba2c",
+   "doi": "10.2307/24767949",
+   "title": "Dialectic and Who We Are in the \"Alcibiades\"",
+   "author": "Albert Joosse"
+  },
+  {
+   "book": "",
+   "page": 124,
+   "section": "c",
+   "line": 5,
+   "journal": "Phronesis",
+   "year": "2014",
+   "iid": "6259a6ed-9d10-3a93-90e8-aafe9997ba2c",
+   "doi": "10.2307/24767949",
+   "title": "Dialectic and Who We Are in the \"Alcibiades\"",
+   "author": "Albert Joosse"
+  },
+  {
+   "book": "",
+   "page": 133,
+   "section": "c",
+   "line": 4,
+   "journal": "Phronesis",
+   "year": "2014",
+   "iid": "6259a6ed-9d10-3a93-90e8-aafe9997ba2c",
+   "doi": "10.2307/24767949",
+   "title": "Dialectic and Who We Are in the \"Alcibiades\"",
+   "author": "Albert Joosse"
+  },
+  {
+   "book": "",
+   "page": 133,
+   "section": "c",
+   "line": 4,
+   "journal": "Phronesis",
+   "year": "2014",
+   "iid": "6259a6ed-9d10-3a93-90e8-aafe9997ba2c",
+   "doi": "10.2307/24767949",
+   "title": "Dialectic and Who We Are in the \"Alcibiades\"",
+   "author": "Albert Joosse"
+  },
+  {
+   "book": "",
+   "page": 103,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1994",
+   "iid": "62c8edc0-9bcc-3c12-b943-bc1aacf30b5d",
+   "doi": "10.2307/639642",
+   "title": "A Platonist Ars Amatoria",
+   "author": "John Dillon"
+  },
+  {
+   "book": "",
+   "page": 104,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1994",
+   "iid": "62c8edc0-9bcc-3c12-b943-bc1aacf30b5d",
+   "doi": "10.2307/639642",
+   "title": "A Platonist Ars Amatoria",
+   "author": "John Dillon"
+  },
+  {
+   "book": "",
+   "page": 128,
+   "section": "e",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2019",
+   "iid": "640ed53f-8428-385c-b4c8-e7570cdcc65e",
+   "doi": "10.2307/26954962",
+   "title": "DISJUNCTIONS AND NATURAL PHILOSOPHY IN MARCUS AURELIUS",
+   "author": "BENJAMIN HARRIMAN"
+  },
+  {
+   "book": "",
+   "page": 130,
+   "section": "c",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2019",
+   "iid": "640ed53f-8428-385c-b4c8-e7570cdcc65e",
+   "doi": "10.2307/26954962",
+   "title": "DISJUNCTIONS AND NATURAL PHILOSOPHY IN MARCUS AURELIUS",
+   "author": "BENJAMIN HARRIMAN"
+  },
+  {
+   "book": "",
+   "page": 132,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2011",
+   "iid": "645722b9-fbed-38b4-a1fa-e1a28d9bb5ec",
+   "doi": "10.1086/661542",
+   "title": "Socrates and the True Political Craft",
+   "author": "J. Clerk Shaw"
+  },
+  {
+   "book": "",
+   "page": 116,
+   "section": "c",
+   "line": 10,
+   "journal": "Phronesis",
+   "year": "2020",
+   "iid": "67b99b2f-e74d-32fd-aa39-ebdf2adce442",
+   "doi": "10.2307/26952092",
+   "title": "The Guise of the Beautiful",
+   "author": "Jonathan Fine"
+  },
+  {
+   "book": "",
+   "page": 115,
+   "section": "a",
+   "line": 10,
+   "journal": "Phronesis",
+   "year": "2020",
+   "iid": "67b99b2f-e74d-32fd-aa39-ebdf2adce442",
+   "doi": "10.2307/26952092",
+   "title": "The Guise of the Beautiful",
+   "author": "Jonathan Fine"
+  },
+  {
+   "book": "",
+   "page": 118,
+   "section": "c",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1958",
+   "iid": "6849aaa0-ff21-30e4-9808-60b1274940d6",
+   "doi": "10.2307/266651",
+   "title": "\"Imitation\" in the Fifth Century",
+   "author": "Gerald F. Else"
+  },
+  {
+   "book": "",
+   "page": 118,
+   "section": "a",
+   "line": null,
+   "journal": "History of Philosophy Quarterly",
+   "year": "1998",
+   "iid": "67e5b69c-8310-3cfc-93cd-eea2f31da4ae",
+   "doi": "10.2307/27744764",
+   "title": "Socrates' Loyalty to Athens and His Radical Critique of the Athenians",
+   "author": "Timothy A. Mahoney"
+  },
+  {
+   "book": "",
+   "page": 129,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1926",
+   "iid": "6a2d5eec-257d-3fe6-8c91-bcb1ccd2b079",
+   "doi": "10.2307/635784",
+   "title": "ΤΥΓΧΑΝΩ for ΤΥΓΧΑΝΩ ΩΝ in Attic Prose",
+   "author": "W. L. Lorimer"
+  },
+  {
+   "book": "",
+   "page": 133,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1926",
+   "iid": "6a2d5eec-257d-3fe6-8c91-bcb1ccd2b079",
+   "doi": "10.2307/635784",
+   "title": "ΤΥΓΧΑΝΩ for ΤΥΓΧΑΝΩ ΩΝ in Attic Prose",
+   "author": "W. L. Lorimer"
+  },
+  {
+   "book": "",
+   "page": 133,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1926",
+   "iid": "6a2d5eec-257d-3fe6-8c91-bcb1ccd2b079",
+   "doi": "10.2307/635784",
+   "title": "ΤΥΓΧΑΝΩ for ΤΥΓΧΑΝΩ ΩΝ in Attic Prose",
+   "author": "W. L. Lorimer"
+  },
+  {
+   "book": "",
+   "page": 112,
+   "section": "b",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "2005",
+   "iid": "6b914eb9-37f9-37e6-b691-ae7a7d5e2046",
+   "doi": "10.2307/4182778",
+   "title": "La figure d'Ulysse chez les Socratiques: Socrate polutropos",
+   "author": "David Lévystone"
+  },
+  {
+   "book": "",
+   "page": 112,
+   "section": "c",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1970",
+   "iid": "6f5a4080-b0f7-399a-9638-dab4dabbcd49",
+   "doi": "10.2307/268599",
+   "title": "The Athenian Domination of Boeotia",
+   "author": "R. J. Buck"
+  },
+  {
+   "book": "",
+   "page": 119,
+   "section": "a",
+   "line": 1,
+   "journal": "Méthexis",
+   "year": "2016",
+   "iid": "6fa91c6d-f3ad-3220-b134-b18bcdd88e6a",
+   "doi": "10.2307/26416797",
+   "title": "Antilogía y gimnasia intelectual",
+   "author": "Mariana Gardella"
+  },
+  {
+   "book": "",
+   "page": 128,
+   "section": "b",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2003",
+   "iid": "702a6cdb-b789-3950-bd98-7d74574efce8",
+   "doi": "10.1086/420717",
+   "title": "Simon the Shoemaker and the Problem of Socrates",
+   "author": "John Sellars"
+  },
+  {
+   "book": "",
+   "page": 104,
+   "section": "a",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2019",
+   "iid": "757c0758-bff1-39a9-a6b6-a49684bceeb1",
+   "doi": "10.2307/26731343",
+   "title": "<em>RÉPUBLIQUE</em> VII 537D-539D",
+   "author": "Anthony Bonnemaison"
+  },
+  {
+   "book": "",
+   "page": 119,
+   "section": "b",
+   "line": 16,
+   "journal": "The Classical Quarterly",
+   "year": "2006",
+   "iid": "75a62f5b-129b-353c-a53d-41cdf8e3aa2f",
+   "doi": "10.2307/4493461",
+   "title": "A Greek Miscellanist as a Libidinous Thessalian Witch? Pamphile in Apuleius' Metamorphoses 2-3",
+   "author": "Hendrik Müller-Reineke"
+  },
+  {
+   "book": "",
+   "page": 120,
+   "section": "a",
+   "line": 4,
+   "journal": "The Classical Quarterly",
+   "year": "2006",
+   "iid": "75a62f5b-129b-353c-a53d-41cdf8e3aa2f",
+   "doi": "10.2307/4493461",
+   "title": "A Greek Miscellanist as a Libidinous Thessalian Witch? Pamphile in Apuleius' Metamorphoses 2-3",
+   "author": "Hendrik Müller-Reineke"
+  },
+  {
+   "book": "",
+   "page": 128,
+   "section": "a",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "1994",
+   "iid": "79690fcc-7cf2-3238-8882-3019e649cfaa",
+   "doi": "10.2307/24354332",
+   "title": "SUR LA CONNAISSANCE ESSENTIELLE SELON PLATON",
+   "author": "Roberta de Monticelli"
+  },
+  {
+   "book": "",
+   "page": 112,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1992",
+   "iid": "801b4823-4a1c-3de7-864e-777f070e8d70",
+   "doi": "10.2307/639149",
+   "title": "Prose Usages of Ἀκούειν 'To Read'",
+   "author": "Dirk M. Schenkeveld"
+  },
+  {
+   "book": "",
+   "page": 103,
+   "section": "a",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1998",
+   "iid": "7f919011-93c6-32b9-bda3-dd823e920a5c",
+   "doi": "10.2307/4182598",
+   "title": "Communication, Human and Divine: Saloustious Reconsidered",
+   "author": "Emma C. Clarke"
+  },
+  {
+   "book": "",
+   "page": 108,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1931",
+   "iid": "823beabe-6420-34d8-bae5-e5da45937063",
+   "doi": "10.2307/264500",
+   "title": "The Cleitophon of Plato",
+   "author": "G. M. A. Grube"
+  },
+  {
+   "book": "",
+   "page": 103,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2006",
+   "iid": "836f8c70-5676-3f29-88a2-f26d798aef37",
+   "doi": "10.2307/4493424",
+   "title": "What Lobel Hath Joined Together: Sappho 49 LP",
+   "author": "Holt R. Parker"
+  },
+  {
+   "book": "",
+   "page": 119,
+   "section": "a",
+   "line": 4,
+   "journal": "Classical Philology",
+   "year": "2009",
+   "iid": "8593e90b-749e-30b1-a195-6a15ceded5bb",
+   "doi": "10.1086/603569",
+   "title": "Wisdom for Sale? The Sophists and Money",
+   "author": "Håkan Tell"
+  },
+  {
+   "book": "",
+   "page": 119,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2009",
+   "iid": "8593e90b-749e-30b1-a195-6a15ceded5bb",
+   "doi": "10.1086/603569",
+   "title": "Wisdom for Sale? The Sophists and Money",
+   "author": "Håkan Tell"
+  },
+  {
+   "book": "",
+   "page": 131,
+   "section": "c",
+   "line": null,
+   "journal": "Méthexis",
+   "year": "2016",
+   "iid": "87b8fa83-807f-3c73-bc6f-61af6bed1a23",
+   "doi": "10.2307/26416805",
+   "title": "Book Review : Indagine su Socrate. Persona, filosofo, cittadino",
+   "author": "M.M Sassi, Filippo Forcignan�1�"
+  },
+  {
+   "book": "",
+   "page": 131,
+   "section": "b",
+   "line": 3,
+   "journal": "Classical Philology",
+   "year": "2020",
+   "iid": "898fdec9-5ca4-32ae-b4e5-46cdc6b290b4",
+   "doi": "10.2307/48807227",
+   "title": "HERMENEUTIC RECOLLECTIONS",
+   "author": "JEFFREY P. ULRICH"
+  },
+  {
+   "book": "",
+   "page": 118,
+   "section": "c",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2011",
+   "iid": "8f2b9140-5fb6-3a92-a734-7f33847daacf",
+   "doi": "10.1086/662042",
+   "title": "Don’t Blame Socrates (Xen. <em>Mem</em>. 1.2.40–46)",
+   "author": "Kirk R. Sanders"
+  },
+  {
+   "book": "",
+   "page": 123,
+   "section": "d",
+   "line": 6,
+   "journal": "Classical Philology",
+   "year": "2011",
+   "iid": "8f2b9140-5fb6-3a92-a734-7f33847daacf",
+   "doi": "10.1086/662042",
+   "title": "Don’t Blame Socrates (Xen. <em>Mem</em>. 1.2.40–46)",
+   "author": "Kirk R. Sanders"
+  },
+  {
+   "book": "",
+   "page": 103,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2011",
+   "iid": "8f2b9140-5fb6-3a92-a734-7f33847daacf",
+   "doi": "10.1086/662042",
+   "title": "Don’t Blame Socrates (Xen. <em>Mem</em>. 1.2.40–46)",
+   "author": "Kirk R. Sanders"
+  },
+  {
+   "book": "",
+   "page": 105,
+   "section": "a",
+   "line": 7,
+   "journal": "Classical Philology",
+   "year": "2011",
+   "iid": "8f2b9140-5fb6-3a92-a734-7f33847daacf",
+   "doi": "10.1086/662042",
+   "title": "Don’t Blame Socrates (Xen. <em>Mem</em>. 1.2.40–46)",
+   "author": "Kirk R. Sanders"
+  },
+  {
+   "book": "",
+   "page": 126,
+   "section": "e",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1981",
+   "iid": "914a9b4c-c163-3c40-951f-8c3c96ab5dc3",
+   "doi": "10.2307/638462",
+   "title": "Spartan Wives: Liberation or Licence?",
+   "author": "Paul Cartledge"
+  },
+  {
+   "book": "",
+   "page": 127,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1981",
+   "iid": "914a9b4c-c163-3c40-951f-8c3c96ab5dc3",
+   "doi": "10.2307/638462",
+   "title": "Spartan Wives: Liberation or Licence?",
+   "author": "Paul Cartledge"
+  },
+  {
+   "book": "",
+   "page": 122,
+   "section": "e",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "2004",
+   "iid": "999971fa-180a-3adb-b260-e558ec226d50",
+   "doi": "10.2307/4182741",
+   "title": "Phaedo of Elis and Plato on the Soul",
+   "author": "George Boys-Stones"
+  },
+  {
+   "book": "",
+   "page": 123,
+   "section": "a",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "2004",
+   "iid": "999971fa-180a-3adb-b260-e558ec226d50",
+   "doi": "10.2307/4182741",
+   "title": "Phaedo of Elis and Plato on the Soul",
+   "author": "George Boys-Stones"
+  },
+  {
+   "book": "",
+   "page": 122,
+   "section": "b",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "2004",
+   "iid": "999971fa-180a-3adb-b260-e558ec226d50",
+   "doi": "10.2307/4182741",
+   "title": "Phaedo of Elis and Plato on the Soul",
+   "author": "George Boys-Stones"
+  },
+  {
+   "book": "",
+   "page": 122,
+   "section": "b",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "2003",
+   "iid": "99a6b7ed-16cd-30d4-85d4-03dccdbbe4cb",
+   "doi": "10.2307/4182715",
+   "title": "Du vin pour le Collège de veille? Mise en lumière d'un lien occulté entre le Choeur de Dionysos et le νυκτερινὸς σύλλογος dans les Lois de Platon",
+   "author": "Annie Larivée"
+  },
+  {
+   "book": "",
+   "page": 118,
+   "section": "c",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1968",
+   "iid": "9d659b5b-9521-3126-92e8-ed71bcb8dc37",
+   "doi": "10.2307/269126",
+   "title": "Plato's Laches",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 103,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2001",
+   "iid": "a0573aee-f99d-33f0-8ec2-b13b418cbe65",
+   "doi": "10.2307/3556348",
+   "title": "Chaldean Triads in Neoplatonic Exegesis: Some Reconsiderations",
+   "author": "R. Majercik"
+  },
+  {
+   "book": "",
+   "page": 127,
+   "section": "d",
+   "line": null,
+   "journal": "Méthexis",
+   "year": "2001",
+   "iid": "a70e55bb-dc75-36e8-9bb9-645f329c67d5",
+   "doi": "10.2307/43738647",
+   "title": "AMOUR, SEXUALITÉ ET BEAUTÉ CHEZ PLATON. LA LEÇON DE DIOTIME (BANQUET 201d-212c)",
+   "author": "JACQUES FOLLON"
+  },
+  {
+   "book": "",
+   "page": 130,
+   "section": "c",
+   "line": null,
+   "journal": "Méthexis",
+   "year": "2001",
+   "iid": "a70e55bb-dc75-36e8-9bb9-645f329c67d5",
+   "doi": "10.2307/43738647",
+   "title": "AMOUR, SEXUALITÉ ET BEAUTÉ CHEZ PLATON. LA LEÇON DE DIOTIME (BANQUET 201d-212c)",
+   "author": "JACQUES FOLLON"
+  },
+  {
+   "book": "",
+   "page": 133,
+   "section": "c",
+   "line": 8,
+   "journal": "Phronesis",
+   "year": "2002",
+   "iid": "a7dcb165-ebe2-39fe-a40c-8314c5fade9f",
+   "doi": "10.2307/4182710",
+   "title": "Neoplatonism",
+   "author": "Anne Sheppard"
+  },
+  {
+   "book": "",
+   "page": 131,
+   "section": "e",
+   "line": 11,
+   "journal": "The Classical Quarterly",
+   "year": "2019",
+   "iid": "b1e54bd1-f5fd-3021-a1d4-88d796ae864b",
+   "doi": "10.2307/26852186",
+   "title": "PRESBYOPIC CORRUPTION",
+   "author": "ARCHIBALD ALLEN"
+  },
+  {
+   "book": "",
+   "page": 126,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1959",
+   "iid": "b22f8a88-22c7-3ce8-8e6c-e435492804dc",
+   "doi": "10.2307/637642",
+   "title": "Gnomologium Vatopedianum: The Euripidean Section",
+   "author": "G. A. Longman"
+  },
+  {
+   "book": "",
+   "page": 128,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1959",
+   "iid": "b22f8a88-22c7-3ce8-8e6c-e435492804dc",
+   "doi": "10.2307/637642",
+   "title": "Gnomologium Vatopedianum: The Euripidean Section",
+   "author": "G. A. Longman"
+  },
+  {
+   "book": "",
+   "page": 106,
+   "section": "c",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2012",
+   "iid": "b302c8f4-12f0-3318-83f9-0fe63d223f01",
+   "doi": "10.2307/24358488",
+   "title": "L'\"ALCIBIADE\" : ENTRE RÉFUTATION ET ENSEIGNEMENT",
+   "author": "Geneviève Lachance"
+  },
+  {
+   "book": "",
+   "page": 119,
+   "section": "a",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2012",
+   "iid": "b302c8f4-12f0-3318-83f9-0fe63d223f01",
+   "doi": "10.2307/24358488",
+   "title": "L'\"ALCIBIADE\" : ENTRE RÉFUTATION ET ENSEIGNEMENT",
+   "author": "Geneviève Lachance"
+  },
+  {
+   "book": "",
+   "page": 119,
+   "section": "a",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2012",
+   "iid": "b302c8f4-12f0-3318-83f9-0fe63d223f01",
+   "doi": "10.2307/24358488",
+   "title": "L'\"ALCIBIADE\" : ENTRE RÉFUTATION ET ENSEIGNEMENT",
+   "author": "Geneviève Lachance"
+  },
+  {
+   "book": "",
+   "page": 124,
+   "section": "a",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2012",
+   "iid": "b302c8f4-12f0-3318-83f9-0fe63d223f01",
+   "doi": "10.2307/24358488",
+   "title": "L'\"ALCIBIADE\" : ENTRE RÉFUTATION ET ENSEIGNEMENT",
+   "author": "Geneviève Lachance"
+  },
+  {
+   "book": "",
+   "page": 124,
+   "section": "a",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2012",
+   "iid": "b302c8f4-12f0-3318-83f9-0fe63d223f01",
+   "doi": "10.2307/24358488",
+   "title": "L'\"ALCIBIADE\" : ENTRE RÉFUTATION ET ENSEIGNEMENT",
+   "author": "Geneviève Lachance"
+  },
+  {
+   "book": "",
+   "page": 112,
+   "section": "d",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2012",
+   "iid": "b302c8f4-12f0-3318-83f9-0fe63d223f01",
+   "doi": "10.2307/24358488",
+   "title": "L'\"ALCIBIADE\" : ENTRE RÉFUTATION ET ENSEIGNEMENT",
+   "author": "Geneviève Lachance"
+  },
+  {
+   "book": "",
+   "page": 113,
+   "section": "d",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2012",
+   "iid": "b302c8f4-12f0-3318-83f9-0fe63d223f01",
+   "doi": "10.2307/24358488",
+   "title": "L'\"ALCIBIADE\" : ENTRE RÉFUTATION ET ENSEIGNEMENT",
+   "author": "Geneviève Lachance"
+  },
+  {
+   "book": "",
+   "page": 116,
+   "section": "e",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2012",
+   "iid": "b302c8f4-12f0-3318-83f9-0fe63d223f01",
+   "doi": "10.2307/24358488",
+   "title": "L'\"ALCIBIADE\" : ENTRE RÉFUTATION ET ENSEIGNEMENT",
+   "author": "Geneviève Lachance"
+  },
+  {
+   "book": "",
+   "page": 127,
+   "section": "d",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2012",
+   "iid": "b302c8f4-12f0-3318-83f9-0fe63d223f01",
+   "doi": "10.2307/24358488",
+   "title": "L'\"ALCIBIADE\" : ENTRE RÉFUTATION ET ENSEIGNEMENT",
+   "author": "Geneviève Lachance"
+  },
+  {
+   "book": "",
+   "page": 109,
+   "section": "c",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2012",
+   "iid": "b302c8f4-12f0-3318-83f9-0fe63d223f01",
+   "doi": "10.2307/24358488",
+   "title": "L'\"ALCIBIADE\" : ENTRE RÉFUTATION ET ENSEIGNEMENT",
+   "author": "Geneviève Lachance"
+  },
+  {
+   "book": "",
+   "page": 109,
+   "section": "e",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2012",
+   "iid": "b302c8f4-12f0-3318-83f9-0fe63d223f01",
+   "doi": "10.2307/24358488",
+   "title": "L'\"ALCIBIADE\" : ENTRE RÉFUTATION ET ENSEIGNEMENT",
+   "author": "Geneviève Lachance"
+  },
+  {
+   "book": "",
+   "page": 106,
+   "section": "d",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2012",
+   "iid": "b302c8f4-12f0-3318-83f9-0fe63d223f01",
+   "doi": "10.2307/24358488",
+   "title": "L'\"ALCIBIADE\" : ENTRE RÉFUTATION ET ENSEIGNEMENT",
+   "author": "Geneviève Lachance"
+  },
+  {
+   "book": "",
+   "page": 109,
+   "section": "e",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2012",
+   "iid": "b302c8f4-12f0-3318-83f9-0fe63d223f01",
+   "doi": "10.2307/24358488",
+   "title": "L'\"ALCIBIADE\" : ENTRE RÉFUTATION ET ENSEIGNEMENT",
+   "author": "Geneviève Lachance"
+  },
+  {
+   "book": "",
+   "page": 106,
+   "section": "d",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2012",
+   "iid": "b302c8f4-12f0-3318-83f9-0fe63d223f01",
+   "doi": "10.2307/24358488",
+   "title": "L'\"ALCIBIADE\" : ENTRE RÉFUTATION ET ENSEIGNEMENT",
+   "author": "Geneviève Lachance"
+  },
+  {
+   "book": "",
+   "page": 109,
+   "section": "e",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2012",
+   "iid": "b302c8f4-12f0-3318-83f9-0fe63d223f01",
+   "doi": "10.2307/24358488",
+   "title": "L'\"ALCIBIADE\" : ENTRE RÉFUTATION ET ENSEIGNEMENT",
+   "author": "Geneviève Lachance"
+  },
+  {
+   "book": "",
+   "page": 110,
+   "section": "c",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2012",
+   "iid": "b302c8f4-12f0-3318-83f9-0fe63d223f01",
+   "doi": "10.2307/24358488",
+   "title": "L'\"ALCIBIADE\" : ENTRE RÉFUTATION ET ENSEIGNEMENT",
+   "author": "Geneviève Lachance"
+  },
+  {
+   "book": "",
+   "page": 124,
+   "section": "b",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2012",
+   "iid": "b302c8f4-12f0-3318-83f9-0fe63d223f01",
+   "doi": "10.2307/24358488",
+   "title": "L'\"ALCIBIADE\" : ENTRE RÉFUTATION ET ENSEIGNEMENT",
+   "author": "Geneviève Lachance"
+  },
+  {
+   "book": "",
+   "page": 112,
+   "section": "d",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2012",
+   "iid": "b302c8f4-12f0-3318-83f9-0fe63d223f01",
+   "doi": "10.2307/24358488",
+   "title": "L'\"ALCIBIADE\" : ENTRE RÉFUTATION ET ENSEIGNEMENT",
+   "author": "Geneviève Lachance"
+  },
+  {
+   "book": "",
+   "page": 106,
+   "section": "c",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2012",
+   "iid": "b302c8f4-12f0-3318-83f9-0fe63d223f01",
+   "doi": "10.2307/24358488",
+   "title": "L'\"ALCIBIADE\" : ENTRE RÉFUTATION ET ENSEIGNEMENT",
+   "author": "Geneviève Lachance"
+  },
+  {
+   "book": "",
+   "page": 113,
+   "section": "d",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2012",
+   "iid": "b302c8f4-12f0-3318-83f9-0fe63d223f01",
+   "doi": "10.2307/24358488",
+   "title": "L'\"ALCIBIADE\" : ENTRE RÉFUTATION ET ENSEIGNEMENT",
+   "author": "Geneviève Lachance"
+  },
+  {
+   "book": "",
+   "page": 116,
+   "section": "d",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2012",
+   "iid": "b302c8f4-12f0-3318-83f9-0fe63d223f01",
+   "doi": "10.2307/24358488",
+   "title": "L'\"ALCIBIADE\" : ENTRE RÉFUTATION ET ENSEIGNEMENT",
+   "author": "Geneviève Lachance"
+  },
+  {
+   "book": "",
+   "page": 119,
+   "section": "a",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2012",
+   "iid": "b302c8f4-12f0-3318-83f9-0fe63d223f01",
+   "doi": "10.2307/24358488",
+   "title": "L'\"ALCIBIADE\" : ENTRE RÉFUTATION ET ENSEIGNEMENT",
+   "author": "Geneviève Lachance"
+  },
+  {
+   "book": "",
+   "page": 127,
+   "section": "d",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2012",
+   "iid": "b302c8f4-12f0-3318-83f9-0fe63d223f01",
+   "doi": "10.2307/24358488",
+   "title": "L'\"ALCIBIADE\" : ENTRE RÉFUTATION ET ENSEIGNEMENT",
+   "author": "Geneviève Lachance"
+  },
+  {
+   "book": "",
+   "page": 126,
+   "section": "d",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2012",
+   "iid": "b302c8f4-12f0-3318-83f9-0fe63d223f01",
+   "doi": "10.2307/24358488",
+   "title": "L'\"ALCIBIADE\" : ENTRE RÉFUTATION ET ENSEIGNEMENT",
+   "author": "Geneviève Lachance"
+  },
+  {
+   "book": "",
+   "page": 126,
+   "section": "e",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2012",
+   "iid": "b302c8f4-12f0-3318-83f9-0fe63d223f01",
+   "doi": "10.2307/24358488",
+   "title": "L'\"ALCIBIADE\" : ENTRE RÉFUTATION ET ENSEIGNEMENT",
+   "author": "Geneviève Lachance"
+  },
+  {
+   "book": "",
+   "page": 127,
+   "section": "c",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2012",
+   "iid": "b302c8f4-12f0-3318-83f9-0fe63d223f01",
+   "doi": "10.2307/24358488",
+   "title": "L'\"ALCIBIADE\" : ENTRE RÉFUTATION ET ENSEIGNEMENT",
+   "author": "Geneviève Lachance"
+  },
+  {
+   "book": "",
+   "page": 119,
+   "section": "a",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2012",
+   "iid": "b302c8f4-12f0-3318-83f9-0fe63d223f01",
+   "doi": "10.2307/24358488",
+   "title": "L'\"ALCIBIADE\" : ENTRE RÉFUTATION ET ENSEIGNEMENT",
+   "author": "Geneviève Lachance"
+  },
+  {
+   "book": "",
+   "page": 124,
+   "section": "b",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2012",
+   "iid": "b302c8f4-12f0-3318-83f9-0fe63d223f01",
+   "doi": "10.2307/24358488",
+   "title": "L'\"ALCIBIADE\" : ENTRE RÉFUTATION ET ENSEIGNEMENT",
+   "author": "Geneviève Lachance"
+  },
+  {
+   "book": "",
+   "page": 127,
+   "section": "d",
+   "line": 9,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2012",
+   "iid": "b302c8f4-12f0-3318-83f9-0fe63d223f01",
+   "doi": "10.2307/24358488",
+   "title": "L'\"ALCIBIADE\" : ENTRE RÉFUTATION ET ENSEIGNEMENT",
+   "author": "Geneviève Lachance"
+  },
+  {
+   "book": "",
+   "page": 127,
+   "section": "e",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2012",
+   "iid": "b302c8f4-12f0-3318-83f9-0fe63d223f01",
+   "doi": "10.2307/24358488",
+   "title": "L'\"ALCIBIADE\" : ENTRE RÉFUTATION ET ENSEIGNEMENT",
+   "author": "Geneviève Lachance"
+  },
+  {
+   "book": "",
+   "page": 133,
+   "section": "c",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2012",
+   "iid": "b302c8f4-12f0-3318-83f9-0fe63d223f01",
+   "doi": "10.2307/24358488",
+   "title": "L'\"ALCIBIADE\" : ENTRE RÉFUTATION ET ENSEIGNEMENT",
+   "author": "Geneviève Lachance"
+  },
+  {
+   "book": "",
+   "page": 129,
+   "section": "b",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2012",
+   "iid": "b302c8f4-12f0-3318-83f9-0fe63d223f01",
+   "doi": "10.2307/24358488",
+   "title": "L'\"ALCIBIADE\" : ENTRE RÉFUTATION ET ENSEIGNEMENT",
+   "author": "Geneviève Lachance"
+  },
+  {
+   "book": "",
+   "page": 108,
+   "section": "e",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2012",
+   "iid": "b302c8f4-12f0-3318-83f9-0fe63d223f01",
+   "doi": "10.2307/24358488",
+   "title": "L'\"ALCIBIADE\" : ENTRE RÉFUTATION ET ENSEIGNEMENT",
+   "author": "Geneviève Lachance"
+  },
+  {
+   "book": "",
+   "page": 127,
+   "section": "d",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2012",
+   "iid": "b302c8f4-12f0-3318-83f9-0fe63d223f01",
+   "doi": "10.2307/24358488",
+   "title": "L'\"ALCIBIADE\" : ENTRE RÉFUTATION ET ENSEIGNEMENT",
+   "author": "Geneviève Lachance"
+  },
+  {
+   "book": "",
+   "page": 116,
+   "section": "e",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2012",
+   "iid": "b302c8f4-12f0-3318-83f9-0fe63d223f01",
+   "doi": "10.2307/24358488",
+   "title": "L'\"ALCIBIADE\" : ENTRE RÉFUTATION ET ENSEIGNEMENT",
+   "author": "Geneviève Lachance"
+  },
+  {
+   "book": "",
+   "page": 104,
+   "section": "a",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2012",
+   "iid": "b302c8f4-12f0-3318-83f9-0fe63d223f01",
+   "doi": "10.2307/24358488",
+   "title": "L'\"ALCIBIADE\" : ENTRE RÉFUTATION ET ENSEIGNEMENT",
+   "author": "Geneviève Lachance"
+  },
+  {
+   "book": "",
+   "page": 109,
+   "section": "a",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2012",
+   "iid": "b302c8f4-12f0-3318-83f9-0fe63d223f01",
+   "doi": "10.2307/24358488",
+   "title": "L'\"ALCIBIADE\" : ENTRE RÉFUTATION ET ENSEIGNEMENT",
+   "author": "Geneviève Lachance"
+  },
+  {
+   "book": "",
+   "page": 124,
+   "section": "d",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2012",
+   "iid": "b302c8f4-12f0-3318-83f9-0fe63d223f01",
+   "doi": "10.2307/24358488",
+   "title": "L'\"ALCIBIADE\" : ENTRE RÉFUTATION ET ENSEIGNEMENT",
+   "author": "Geneviève Lachance"
+  },
+  {
+   "book": "",
+   "page": 124,
+   "section": "b",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2012",
+   "iid": "b302c8f4-12f0-3318-83f9-0fe63d223f01",
+   "doi": "10.2307/24358488",
+   "title": "L'\"ALCIBIADE\" : ENTRE RÉFUTATION ET ENSEIGNEMENT",
+   "author": "Geneviève Lachance"
+  },
+  {
+   "book": "",
+   "page": 116,
+   "section": "e",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2012",
+   "iid": "b302c8f4-12f0-3318-83f9-0fe63d223f01",
+   "doi": "10.2307/24358488",
+   "title": "L'\"ALCIBIADE\" : ENTRE RÉFUTATION ET ENSEIGNEMENT",
+   "author": "Geneviève Lachance"
+  },
+  {
+   "book": "",
+   "page": 119,
+   "section": "c",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2012",
+   "iid": "b302c8f4-12f0-3318-83f9-0fe63d223f01",
+   "doi": "10.2307/24358488",
+   "title": "L'\"ALCIBIADE\" : ENTRE RÉFUTATION ET ENSEIGNEMENT",
+   "author": "Geneviève Lachance"
+  },
+  {
+   "book": "",
+   "page": 119,
+   "section": "b",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2012",
+   "iid": "b302c8f4-12f0-3318-83f9-0fe63d223f01",
+   "doi": "10.2307/24358488",
+   "title": "L'\"ALCIBIADE\" : ENTRE RÉFUTATION ET ENSEIGNEMENT",
+   "author": "Geneviève Lachance"
+  },
+  {
+   "book": "",
+   "page": 120,
+   "section": "b",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2012",
+   "iid": "b302c8f4-12f0-3318-83f9-0fe63d223f01",
+   "doi": "10.2307/24358488",
+   "title": "L'\"ALCIBIADE\" : ENTRE RÉFUTATION ET ENSEIGNEMENT",
+   "author": "Geneviève Lachance"
+  },
+  {
+   "book": "",
+   "page": 106,
+   "section": "b",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2012",
+   "iid": "b302c8f4-12f0-3318-83f9-0fe63d223f01",
+   "doi": "10.2307/24358488",
+   "title": "L'\"ALCIBIADE\" : ENTRE RÉFUTATION ET ENSEIGNEMENT",
+   "author": "Geneviève Lachance"
+  },
+  {
+   "book": "",
+   "page": 124,
+   "section": "b",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2012",
+   "iid": "b302c8f4-12f0-3318-83f9-0fe63d223f01",
+   "doi": "10.2307/24358488",
+   "title": "L'\"ALCIBIADE\" : ENTRE RÉFUTATION ET ENSEIGNEMENT",
+   "author": "Geneviève Lachance"
+  },
+  {
+   "book": "",
+   "page": 127,
+   "section": "d",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2012",
+   "iid": "b302c8f4-12f0-3318-83f9-0fe63d223f01",
+   "doi": "10.2307/24358488",
+   "title": "L'\"ALCIBIADE\" : ENTRE RÉFUTATION ET ENSEIGNEMENT",
+   "author": "Geneviève Lachance"
+  },
+  {
+   "book": "",
+   "page": 127,
+   "section": "d",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2012",
+   "iid": "b302c8f4-12f0-3318-83f9-0fe63d223f01",
+   "doi": "10.2307/24358488",
+   "title": "L'\"ALCIBIADE\" : ENTRE RÉFUTATION ET ENSEIGNEMENT",
+   "author": "Geneviève Lachance"
+  },
+  {
+   "book": "",
+   "page": 116,
+   "section": "e",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2012",
+   "iid": "b302c8f4-12f0-3318-83f9-0fe63d223f01",
+   "doi": "10.2307/24358488",
+   "title": "L'\"ALCIBIADE\" : ENTRE RÉFUTATION ET ENSEIGNEMENT",
+   "author": "Geneviève Lachance"
+  },
+  {
+   "book": "",
+   "page": 116,
+   "section": "e",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2012",
+   "iid": "b302c8f4-12f0-3318-83f9-0fe63d223f01",
+   "doi": "10.2307/24358488",
+   "title": "L'\"ALCIBIADE\" : ENTRE RÉFUTATION ET ENSEIGNEMENT",
+   "author": "Geneviève Lachance"
+  },
+  {
+   "book": "",
+   "page": 127,
+   "section": "d",
+   "line": 18,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2012",
+   "iid": "b302c8f4-12f0-3318-83f9-0fe63d223f01",
+   "doi": "10.2307/24358488",
+   "title": "L'\"ALCIBIADE\" : ENTRE RÉFUTATION ET ENSEIGNEMENT",
+   "author": "Geneviève Lachance"
+  },
+  {
+   "book": "",
+   "page": 127,
+   "section": "d",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2012",
+   "iid": "b302c8f4-12f0-3318-83f9-0fe63d223f01",
+   "doi": "10.2307/24358488",
+   "title": "L'\"ALCIBIADE\" : ENTRE RÉFUTATION ET ENSEIGNEMENT",
+   "author": "Geneviève Lachance"
+  },
+  {
+   "book": "",
+   "page": 116,
+   "section": "e",
+   "line": 4,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2012",
+   "iid": "b302c8f4-12f0-3318-83f9-0fe63d223f01",
+   "doi": "10.2307/24358488",
+   "title": "L'\"ALCIBIADE\" : ENTRE RÉFUTATION ET ENSEIGNEMENT",
+   "author": "Geneviève Lachance"
+  },
+  {
+   "book": "",
+   "page": 119,
+   "section": "a",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2012",
+   "iid": "b302c8f4-12f0-3318-83f9-0fe63d223f01",
+   "doi": "10.2307/24358488",
+   "title": "L'\"ALCIBIADE\" : ENTRE RÉFUTATION ET ENSEIGNEMENT",
+   "author": "Geneviève Lachance"
+  },
+  {
+   "book": "",
+   "page": 124,
+   "section": "a",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2012",
+   "iid": "b302c8f4-12f0-3318-83f9-0fe63d223f01",
+   "doi": "10.2307/24358488",
+   "title": "L'\"ALCIBIADE\" : ENTRE RÉFUTATION ET ENSEIGNEMENT",
+   "author": "Geneviève Lachance"
+  },
+  {
+   "book": "",
+   "page": 127,
+   "section": "d",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2012",
+   "iid": "b302c8f4-12f0-3318-83f9-0fe63d223f01",
+   "doi": "10.2307/24358488",
+   "title": "L'\"ALCIBIADE\" : ENTRE RÉFUTATION ET ENSEIGNEMENT",
+   "author": "Geneviève Lachance"
+  },
+  {
+   "book": "",
+   "page": 135,
+   "section": "e",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2012",
+   "iid": "b302c8f4-12f0-3318-83f9-0fe63d223f01",
+   "doi": "10.2307/24358488",
+   "title": "L'\"ALCIBIADE\" : ENTRE RÉFUTATION ET ENSEIGNEMENT",
+   "author": "Geneviève Lachance"
+  },
+  {
+   "book": "",
+   "page": 107,
+   "section": "c",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2012",
+   "iid": "b302c8f4-12f0-3318-83f9-0fe63d223f01",
+   "doi": "10.2307/24358488",
+   "title": "L'\"ALCIBIADE\" : ENTRE RÉFUTATION ET ENSEIGNEMENT",
+   "author": "Geneviève Lachance"
+  },
+  {
+   "book": "",
+   "page": 119,
+   "section": "b",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2012",
+   "iid": "b302c8f4-12f0-3318-83f9-0fe63d223f01",
+   "doi": "10.2307/24358488",
+   "title": "L'\"ALCIBIADE\" : ENTRE RÉFUTATION ET ENSEIGNEMENT",
+   "author": "Geneviève Lachance"
+  },
+  {
+   "book": "",
+   "page": 133,
+   "section": "a",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "1992",
+   "iid": "b39abb09-496f-332d-8921-6875a186444a",
+   "doi": "10.2307/24353903",
+   "title": "SPECULUM COGITAGTIONIS: \"SOL.\" II, 20, 35",
+   "author": "Dominique Doucet"
+  },
+  {
+   "book": "",
+   "page": 133,
+   "section": "b",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "1992",
+   "iid": "b39abb09-496f-332d-8921-6875a186444a",
+   "doi": "10.2307/24353903",
+   "title": "SPECULUM COGITAGTIONIS: \"SOL.\" II, 20, 35",
+   "author": "Dominique Doucet"
+  },
+  {
+   "book": "",
+   "page": 132,
+   "section": "b",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2020",
+   "iid": "b606a28c-c782-3dae-83c3-692eab6f30c2",
+   "doi": "10.2307/48807135",
+   "title": "SOCRATES’ LESSON TO HIPPOTHALES IN PLATO’S <em>LYSIS</em>",
+   "author": "Matthew D. Walker"
+  },
+  {
+   "book": "",
+   "page": 135,
+   "section": "d",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2020",
+   "iid": "b606a28c-c782-3dae-83c3-692eab6f30c2",
+   "doi": "10.2307/48807135",
+   "title": "SOCRATES’ LESSON TO HIPPOTHALES IN PLATO’S <em>LYSIS</em>",
+   "author": "Matthew D. Walker"
+  },
+  {
+   "book": "",
+   "page": 103,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2020",
+   "iid": "b606a28c-c782-3dae-83c3-692eab6f30c2",
+   "doi": "10.2307/48807135",
+   "title": "SOCRATES’ LESSON TO HIPPOTHALES IN PLATO’S <em>LYSIS</em>",
+   "author": "Matthew D. Walker"
+  },
+  {
+   "book": "",
+   "page": 112,
+   "section": "d",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2020",
+   "iid": "b606a28c-c782-3dae-83c3-692eab6f30c2",
+   "doi": "10.2307/48807135",
+   "title": "SOCRATES’ LESSON TO HIPPOTHALES IN PLATO’S <em>LYSIS</em>",
+   "author": "Matthew D. Walker"
+  },
+  {
+   "book": "",
+   "page": 113,
+   "section": "b",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2020",
+   "iid": "b606a28c-c782-3dae-83c3-692eab6f30c2",
+   "doi": "10.2307/48807135",
+   "title": "SOCRATES’ LESSON TO HIPPOTHALES IN PLATO’S <em>LYSIS</em>",
+   "author": "Matthew D. Walker"
+  },
+  {
+   "book": "",
+   "page": 117,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2017",
+   "iid": "baf045b3-26bc-3d74-a239-00f650b97fcf",
+   "doi": "10.2307/26543449",
+   "title": "THE WANDERING HERO OF THE <em>HIPPIAS MINOR</em>",
+   "author": "RUSSELL E. JONES, RAVI SHARMA"
+  },
+  {
+   "book": "",
+   "page": 118,
+   "section": "b",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2017",
+   "iid": "baf045b3-26bc-3d74-a239-00f650b97fcf",
+   "doi": "10.2307/26543449",
+   "title": "THE WANDERING HERO OF THE <em>HIPPIAS MINOR</em>",
+   "author": "RUSSELL E. JONES, RAVI SHARMA"
+  },
+  {
+   "book": "",
+   "page": 117,
+   "section": "b",
+   "line": 5,
+   "journal": "Classical Philology",
+   "year": "2017",
+   "iid": "baf045b3-26bc-3d74-a239-00f650b97fcf",
+   "doi": "10.2307/26543449",
+   "title": "THE WANDERING HERO OF THE <em>HIPPIAS MINOR</em>",
+   "author": "RUSSELL E. JONES, RAVI SHARMA"
+  },
+  {
+   "book": "",
+   "page": 120,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1996",
+   "iid": "bc7eefba-9b1a-398a-a801-f91517f74f09",
+   "doi": "10.2307/639791",
+   "title": "How to Avoid Being a Komodoumenos",
+   "author": "Alan H. Sommerstein"
+  },
+  {
+   "book": "",
+   "page": 122,
+   "section": "b",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1993",
+   "iid": "c2723ed9-ad9f-3386-8116-b00ef8efc27b",
+   "doi": "10.2307/270018",
+   "title": "",
+   "author": "Barry S. Strauss, Mark Golden"
+  },
+  {
+   "book": "",
+   "page": 132,
+   "section": "a",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2012",
+   "iid": "c37f9d76-4997-3784-86d5-317f71b7829d",
+   "doi": "10.2307/24358489",
+   "title": "FATHER OF THE DISCOURSE: PHAEDRUS' SPEECH IN THE \"SYMPOSIUM\"",
+   "author": "Robert Wardy"
+  },
+  {
+   "book": "",
+   "page": 105,
+   "section": "b",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2012",
+   "iid": "c37f9d76-4997-3784-86d5-317f71b7829d",
+   "doi": "10.2307/24358489",
+   "title": "FATHER OF THE DISCOURSE: PHAEDRUS' SPEECH IN THE \"SYMPOSIUM\"",
+   "author": "Robert Wardy"
+  },
+  {
+   "book": "",
+   "page": 126,
+   "section": "e",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1994",
+   "iid": "c658eb83-b267-3ab2-9788-cec4a07e0193",
+   "doi": "10.2307/639638",
+   "title": "The Labour of Women in Classical Athens",
+   "author": "Roger Brock"
+  },
+  {
+   "book": "",
+   "page": 132,
+   "section": "c",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "2013",
+   "iid": "c8cf5929-f495-3496-b4ac-008746e9cf20",
+   "doi": "10.2307/43301281",
+   "title": "SOCRATES AND ALCIBIADES",
+   "author": "DAVID M. JOHNSON, M. Johnson, H. Tarrant"
+  },
+  {
+   "book": "",
+   "page": 110,
+   "section": "e",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "2013",
+   "iid": "c8cf5929-f495-3496-b4ac-008746e9cf20",
+   "doi": "10.2307/43301281",
+   "title": "SOCRATES AND ALCIBIADES",
+   "author": "DAVID M. JOHNSON, M. Johnson, H. Tarrant"
+  },
+  {
+   "book": "",
+   "page": 122,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2008",
+   "iid": "cb6211c1-05cd-3821-a877-243bc7c4d5d1",
+   "doi": "10.1086/590092",
+   "title": "Extra‐Ordinary People: <em>Mystai</em> and <em>Magoi</em>, Magicians and Orphics in the Derveni Papyrus",
+   "author": "Radcliffe G. Edmonds III"
+  },
+  {
+   "book": "",
+   "page": 122,
+   "section": "b",
+   "line": 5,
+   "journal": "Phronesis",
+   "year": "2012",
+   "iid": "cd82fc69-d3ad-35ef-b325-6b13ed3046bd",
+   "doi": "10.2307/23249126",
+   "title": "The \"Symposium\" and Platonic Ethics: Plato, Vlastos, and a Misguided Debate",
+   "author": "Frisbee Sheffield"
+  },
+  {
+   "book": "",
+   "page": 124,
+   "section": "b",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "2012",
+   "iid": "cd82fc69-d3ad-35ef-b325-6b13ed3046bd",
+   "doi": "10.2307/23249126",
+   "title": "The \"Symposium\" and Platonic Ethics: Plato, Vlastos, and a Misguided Debate",
+   "author": "Frisbee Sheffield"
+  },
+  {
+   "book": "",
+   "page": 133,
+   "section": "c",
+   "line": 8,
+   "journal": "The Classical Review",
+   "year": "2001",
+   "iid": "d18bc48c-4f5b-3f0a-867b-44010f4f8e18",
+   "doi": "10.2307/3065776",
+   "title": "Honouring John Dillon",
+   "author": "Han Baltussen, J. J. Cleary"
+  },
+  {
+   "book": "",
+   "page": 133,
+   "section": "c",
+   "line": 8,
+   "journal": "The Classical Review",
+   "year": "2001",
+   "iid": "d18bc48c-4f5b-3f0a-867b-44010f4f8e18",
+   "doi": "10.2307/3065776",
+   "title": "Honouring John Dillon",
+   "author": "Han Baltussen, J. J. Cleary"
+  },
+  {
+   "book": "",
+   "page": 122,
+   "section": "d",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2003",
+   "iid": "d5dcd523-6c00-3da9-98b8-df71cdfa81c2",
+   "doi": "10.2307/3556481",
+   "title": "Xenelasia and Social Control in Classical Sparta",
+   "author": "Thomas J. Figueira"
+  },
+  {
+   "book": "",
+   "page": 123,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2003",
+   "iid": "d5dcd523-6c00-3da9-98b8-df71cdfa81c2",
+   "doi": "10.2307/3556481",
+   "title": "Xenelasia and Social Control in Classical Sparta",
+   "author": "Thomas J. Figueira"
+  },
+  {
+   "book": "",
+   "page": 112,
+   "section": "c",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2020",
+   "iid": "d8e91380-3366-3313-8be2-85d6d9dca887",
+   "doi": "10.2307/27340942",
+   "title": "WHAT SOCRATES SAYS, AND DOES NOT SAY",
+   "author": "GEORGE KLOSKO"
+  },
+  {
+   "book": "",
+   "page": 116,
+   "section": "d",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2020",
+   "iid": "d8e91380-3366-3313-8be2-85d6d9dca887",
+   "doi": "10.2307/27340942",
+   "title": "WHAT SOCRATES SAYS, AND DOES NOT SAY",
+   "author": "GEORGE KLOSKO"
+  },
+  {
+   "book": "",
+   "page": 118,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2020",
+   "iid": "d8e91380-3366-3313-8be2-85d6d9dca887",
+   "doi": "10.2307/27340942",
+   "title": "WHAT SOCRATES SAYS, AND DOES NOT SAY",
+   "author": "GEORGE KLOSKO"
+  },
+  {
+   "book": "",
+   "page": 113,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2020",
+   "iid": "d8e91380-3366-3313-8be2-85d6d9dca887",
+   "doi": "10.2307/27340942",
+   "title": "WHAT SOCRATES SAYS, AND DOES NOT SAY",
+   "author": "GEORGE KLOSKO"
+  },
+  {
+   "book": "",
+   "page": 114,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2018",
+   "iid": "d7cfac93-60fa-305b-9a98-a4b1850cbedc",
+   "doi": "10.2307/26670619",
+   "title": "THE HORTATIVE AORIST",
+   "author": "MICHAEL LLOYD"
+  },
+  {
+   "book": "",
+   "page": 107,
+   "section": "e",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1988",
+   "iid": "d926701a-9a52-368c-955a-f5968a9f2c11",
+   "doi": "10.2307/3065973",
+   "title": "",
+   "author": "A. Ph. Segonds, Anne Sheppard, Proclus"
+  },
+  {
+   "book": "",
+   "page": 116,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1988",
+   "iid": "d926701a-9a52-368c-955a-f5968a9f2c11",
+   "doi": "10.2307/3065973",
+   "title": "",
+   "author": "A. Ph. Segonds, Anne Sheppard, Proclus"
+  },
+  {
+   "book": "",
+   "page": 131,
+   "section": "e",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1987",
+   "iid": "db9b04d8-d84c-321d-a944-1bdda909e281",
+   "doi": "10.2307/639347",
+   "title": "Socratic Midwifery",
+   "author": "Julius Tomin"
+  },
+  {
+   "book": "",
+   "page": 130,
+   "section": "c",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1980",
+   "iid": "dd0d1f50-e45d-3aa6-afa4-0dce222cb946",
+   "doi": "10.2307/4182100",
+   "title": "Plato's Semantics and Plato's \"Cratylus\"",
+   "author": "Thomas Wheaton Bestor"
+  },
+  {
+   "book": "",
+   "page": 129,
+   "section": "b",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1980",
+   "iid": "dd0d1f50-e45d-3aa6-afa4-0dce222cb946",
+   "doi": "10.2307/4182100",
+   "title": "Plato's Semantics and Plato's \"Cratylus\"",
+   "author": "Thomas Wheaton Bestor"
+  },
+  {
+   "book": "",
+   "page": 122,
+   "section": "d",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1995",
+   "iid": "dca4688e-0260-327a-9f69-366eed5d1015",
+   "doi": "10.2307/639718",
+   "title": "Early Greek Tyranny and the People",
+   "author": "G. L. Cawkwell"
+  },
+  {
+   "book": "",
+   "page": 123,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1995",
+   "iid": "dca4688e-0260-327a-9f69-366eed5d1015",
+   "doi": "10.2307/639718",
+   "title": "Early Greek Tyranny and the People",
+   "author": "G. L. Cawkwell"
+  },
+  {
+   "book": "",
+   "page": 122,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1930",
+   "iid": "e113d7dd-05ec-34b2-b819-da3ebaec24f5",
+   "doi": "10.2307/263386",
+   "title": "",
+   "author": "Henry George Liddell, Robert Scott, Henry Stuart Jones, Paul Shorey"
+  },
+  {
+   "book": "",
+   "page": 134,
+   "section": "c",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2019",
+   "iid": "e290e606-8c6c-3693-a6dd-ec0d288891af",
+   "doi": "10.2307/26621112",
+   "title": "“LIVING AS ONE WISHES” IN ATHENS",
+   "author": "JAKUB FILONIK"
+  },
+  {
+   "book": "",
+   "page": 115,
+   "section": "d",
+   "line": 8,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2018",
+   "iid": "e29a1a39-17a8-31fe-9fa1-2ac4cca50db5",
+   "doi": "10.2307/26501555",
+   "title": "DAMASCIUS ON ARISTOTLE AND THEOPHRASTUS ON PLATO ON FALSE PLEASURE",
+   "author": "James Warren"
+  },
+  {
+   "book": "",
+   "page": 118,
+   "section": "b",
+   "line": 6,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2018",
+   "iid": "e29a1a39-17a8-31fe-9fa1-2ac4cca50db5",
+   "doi": "10.2307/26501555",
+   "title": "DAMASCIUS ON ARISTOTLE AND THEOPHRASTUS ON PLATO ON FALSE PLEASURE",
+   "author": "James Warren"
+  },
+  {
+   "book": "",
+   "page": 129,
+   "section": "e",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1990",
+   "iid": "e79e95c2-a6b7-3bf5-89d5-4359a2b0ef8f",
+   "doi": "10.2307/639309",
+   "title": "Democritus on Politics and the Care of the Soul: Appendix",
+   "author": "J. F. Procopé"
+  },
+  {
+   "book": "",
+   "page": 135,
+   "section": "e",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1990",
+   "iid": "e79e95c2-a6b7-3bf5-89d5-4359a2b0ef8f",
+   "doi": "10.2307/639309",
+   "title": "Democritus on Politics and the Care of the Soul: Appendix",
+   "author": "J. F. Procopé"
+  },
+  {
+   "book": "",
+   "page": 132,
+   "section": "e",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2002",
+   "iid": "e9447fd4-9900-352a-97bb-60c7c537b218",
+   "doi": "10.2307/3556466",
+   "title": "Seventeen Distorted Mirrors in Plato",
+   "author": "M. L. West"
+  },
+  {
+   "book": "",
+   "page": 133,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2002",
+   "iid": "e9447fd4-9900-352a-97bb-60c7c537b218",
+   "doi": "10.2307/3556466",
+   "title": "Seventeen Distorted Mirrors in Plato",
+   "author": "M. L. West"
+  },
+  {
+   "book": "",
+   "page": 128,
+   "section": "a",
+   "line": null,
+   "journal": "Méthexis",
+   "year": "2010",
+   "iid": "f3f3ad83-ad50-3478-9e5f-ee0b8b618139",
+   "doi": "10.2307/43739087",
+   "title": "From Irony to Enigma: Discovering Double Ignorance and Socrates' Divine Knowledge",
+   "author": "DANIELLE A. LAYNE"
+  },
+  {
+   "book": "",
+   "page": 131,
+   "section": "d",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1988",
+   "iid": "f69343a5-9183-39ec-9064-f0d1408c2f12",
+   "doi": "10.2307/639215",
+   "title": "Socrates in Hellenistic Philosophy",
+   "author": "A. A. Long"
+  },
+  {
+   "book": "",
+   "page": 117,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2020",
+   "iid": "f6f4714c-7085-3582-a3cf-b2c427de0070",
+   "doi": "10.2307/26954989",
+   "title": "ΜΑΝΙΑ AND ΑΛΗΘΕΙΑ IN PLATO’S <em>PHAEDRVS</em>",
+   "author": "FÁBIO SERRANITO"
+  },
+  {
+   "book": "",
+   "page": 118,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2020",
+   "iid": "f6f4714c-7085-3582-a3cf-b2c427de0070",
+   "doi": "10.2307/26954989",
+   "title": "ΜΑΝΙΑ AND ΑΛΗΘΕΙΑ IN PLATO’S <em>PHAEDRVS</em>",
+   "author": "FÁBIO SERRANITO"
+  },
+  {
+   "book": "",
+   "page": 122,
+   "section": "e",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2008",
+   "iid": "fcebbfcc-26e8-3850-a719-1f91d61a8472",
+   "doi": "10.2307/27564195",
+   "title": "Plato, \"Alcibiades I\" 122e",
+   "author": "N. Hopkinson"
+  },
+  {
+   "book": "",
+   "page": 122,
+   "section": "e",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2008",
+   "iid": "fcebbfcc-26e8-3850-a719-1f91d61a8472",
+   "doi": "10.2307/27564195",
+   "title": "Plato, \"Alcibiades I\" 122e",
+   "author": "N. Hopkinson"
+  },
+  {
+   "book": "",
+   "page": 132,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2008",
+   "iid": "fcebbfcc-26e8-3850-a719-1f91d61a8472",
+   "doi": "10.2307/27564195",
+   "title": "Plato, \"Alcibiades I\" 122e",
+   "author": "N. Hopkinson"
+  },
+  {
+   "book": "",
+   "page": 121,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2008",
+   "iid": "fcebbfcc-26e8-3850-a719-1f91d61a8472",
+   "doi": "10.2307/27564195",
+   "title": "Plato, \"Alcibiades I\" 122e",
+   "author": "N. Hopkinson"
+  }
+ ]
+}

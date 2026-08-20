@@ -1,0 +1,141 @@
+{
+ "work": "Alcibiades_2",
+ "faceted": false,
+ "tier": "uncertain",
+ "cells": [
+  {
+   "book": "",
+   "page": 147,
+   "section": "a",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Review": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 147,
+   "section": "e",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 148,
+   "section": "b",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 149,
+   "section": "e",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 150,
+   "section": "d",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 151,
+   "section": "b",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Phronesis": 1
+   }
+  }
+ ],
+ "dots": [
+  {
+   "book": "",
+   "page": 149,
+   "section": "e",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2015",
+   "iid": "25d9dc07-630e-3432-bfee-b963cc2acdd4",
+   "doi": "10.2307/26387851",
+   "title": "L’AVORTEMENT CHEZ ARISTOTE",
+   "author": "Yiannis Panidis"
+  },
+  {
+   "book": "",
+   "page": 147,
+   "section": "e",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1928",
+   "iid": "2c5b3ea0-40fa-354f-8c0c-1f19e525874d",
+   "doi": "10.2307/263720",
+   "title": "The Pathos and Humor of αὖ",
+   "author": "Paul Shorey"
+  },
+  {
+   "book": "",
+   "page": 148,
+   "section": "b",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1928",
+   "iid": "2c5b3ea0-40fa-354f-8c0c-1f19e525874d",
+   "doi": "10.2307/263720",
+   "title": "The Pathos and Humor of αὖ",
+   "author": "Paul Shorey"
+  },
+  {
+   "book": "",
+   "page": 151,
+   "section": "b",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "2001",
+   "iid": "686d1689-4a53-3fa9-9ad5-fbf16f41a70c",
+   "doi": "10.2307/4182672",
+   "title": "Themistius on Evil",
+   "author": "Guy Guldentops"
+  },
+  {
+   "book": "",
+   "page": 147,
+   "section": "a",
+   "line": 1,
+   "journal": "The Classical Review",
+   "year": "2018",
+   "iid": "994e3f45-5924-3d83-9507-e832a13364b2",
+   "doi": "10.2307/26796269",
+   "title": "READINGS OF PLATO",
+   "author": "ELI DIAMOND, D. Nails, H. Tarrant"
+  },
+  {
+   "book": "",
+   "page": 150,
+   "section": "d",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1926",
+   "iid": "d43814b9-6fb3-3d95-8c83-fe811fc1188f",
+   "doi": "10.2307/262678",
+   "title": "Posidonius and the Flight of the Mind through the Universe",
+   "author": "Roger Miller Jones"
+  }
+ ]
+}

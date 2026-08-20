@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Perseus address-format test — text?doc</title>
+<style>
+  body{font:15px/1.5 system-ui,sans-serif;margin:0;padding:24px;background:#f4f5f8;color:#1c2230}
+  h1{font-size:20px;margin:0 0 6px} h2{font-size:16px;margin:26px 0 4px;color:#5a5497}
+  .lede{max-width:74ch;color:#4a4f5e;margin:0 0 8px}
+  .lede b{color:#1c2230}
+  .test{background:#fff;border:1px solid #d7dced;border-radius:10px;overflow:hidden;
+    box-shadow:0 1px 3px rgba(0,0,0,.05);margin:14px 0;max-width:1000px}
+  .cap{padding:9px 13px;border-bottom:1px solid #eef1fa}
+  .cap .tag{font-weight:700;color:#5a5497;margin-right:8px}
+  .cap .url{font-family:ui-monospace,Menlo,monospace;font-size:11.5px;color:#5b6478;
+    word-break:break-all;display:block;margin-top:3px}
+  iframe{width:100%;height:360px;border:0;display:block;background:#fbfcfe}
+  .note{max-width:74ch;margin:22px 0 0;padding:14px 16px;background:#fff;
+    border:1px solid #d7dced;border-radius:10px}
+  .note b{color:#5a5497}
+</style>
+</head>
+<body>
+  <h1>Perseus <code>text?doc</code> address-format test</h1>
+  <p class="lede">Two pagination shapes still need their address format confirmed.
+  For each group below, tell me <b>which letter shows the right passage</b> (and
+  whether it's English). The <b>W</b> row in each group is the whole-work baseline —
+  it should at least load the dialogue/treatise, confirming the doc ID is right even
+  if the passage-addressing letters fail.</p>
+
+  <h2>Group 1 — bundled Plato dialogue: <em>Meno</em> 80a (doc 1999.01.0178:text=Meno)</h2>
+  <p class="lede">Meno 80a is the "torpedo-fish" passage — you'll know it if it lands right.</p>
+
+  <div class="test"><div class="cap"><span class="tag">1A</span>section=80a
+    <span class="url">text?doc=Perseus:text:1999.01.0178:text=Meno:section=80a</span></div>
+    <iframe src="https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0178:text=Meno:section=80a"></iframe></div>
+
+  <div class="test"><div class="cap"><span class="tag">1B</span>page=80:section=a
+    <span class="url">text?doc=Perseus:text:1999.01.0178:text=Meno:page=80:section=a</span></div>
+    <iframe src="https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0178:text=Meno:page=80:section=a"></iframe></div>
+
+  <div class="test"><div class="cap"><span class="tag">1C</span>page=80
+    <span class="url">text?doc=Perseus:text:1999.01.0178:text=Meno:page=80</span></div>
+    <iframe src="https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0178:text=Meno:page=80"></iframe></div>
+
+  <div class="test"><div class="cap"><span class="tag">1W</span>whole work (baseline)
+    <span class="url">text?doc=Perseus:text:1999.01.0178:text=Meno</span></div>
+    <iframe src="https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0178:text=Meno"></iframe></div>
+
+  <h2>Group 2 — Aristotle / Bekker: <em>Nicomachean Ethics</em> 1097b (doc 1999.01.0054)</h2>
+
+  <div class="test"><div class="cap"><span class="tag">2A</span>bekker page=1097b
+    <span class="url">text?doc=Perseus:text:1999.01.0054:bekker page=1097b</span></div>
+    <iframe src="https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0054:bekker%20page=1097b"></iframe></div>
+
+  <div class="test"><div class="cap"><span class="tag">2B</span>section=1097b
+    <span class="url">text?doc=Perseus:text:1999.01.0054:section=1097b</span></div>
+    <iframe src="https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0054:section=1097b"></iframe></div>
+
+  <div class="test"><div class="cap"><span class="tag">2C</span>page=1097b
+    <span class="url">text?doc=Perseus:text:1999.01.0054:page=1097b</span></div>
+    <iframe src="https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0054:page=1097b"></iframe></div>
+
+  <div class="test"><div class="cap"><span class="tag">2D</span>bekker page=1097b, book=1
+    <span class="url">text?doc=Perseus:text:1999.01.0054:book=1:bekker page=1097b</span></div>
+    <iframe src="https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0054:book=1:bekker%20page=1097b"></iframe></div>
+
+  <div class="test"><div class="cap"><span class="tag">2W</span>whole work (baseline)
+    <span class="url">text?doc=Perseus:text:1999.01.0054</span></div>
+    <iframe src="https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0054"></iframe></div>
+
+  <div class="note">
+    <p><b>Reply with:</b> the winning letter in Group 1 (Meno) and Group 2 (NE), and
+    confirm the whole-work baselines (1W, 2W) are English. That's everything I need to
+    build the full <code>text?doc</code> table for all 42 covered works.</p>
+    <p>If none of the passage letters in a group work but the <b>W</b> baseline does, I'll
+    fall back to whole-work framing for that shape (still lands the reader in the right
+    text, just not scrolled to the exact page).</p>
+  </div>
+</body>
+</html>

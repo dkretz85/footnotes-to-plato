@@ -1,0 +1,822 @@
+{
+ "work": "Metaphysics",
+ "system": "stephanus",
+ "bin_years": 5,
+ "journals_filter": "classics",
+ "n_significant_movers": 69,
+ "n_significant_movers_fdr": 57,
+ "n_movers_expected_by_chance": 11.0,
+ "n_citations": 1500,
+ "n_articles": 416,
+ "n_passages": 220,
+ "year_range": [
+  1891,
+  2020
+ ],
+ "split_year": 1992,
+ "shape_change": {
+  "spearman_rho": 0.1943,
+  "tvd": 0.3936,
+  "n_passages_compared": 220,
+  "early_article_incidences": 609,
+  "late_article_incidences": 544,
+  "null": {
+   "n_perm": 200,
+   "rho_mean": 0.4456,
+   "rho_sd": 0.0389,
+   "tvd_mean": 0.2854,
+   "tvd_sd": 0.0157,
+   "rho_z": -6.46,
+   "tvd_z": 6.87,
+   "tvd_percentile": 100.0
+  }
+ },
+ "sparsity": {
+  "cell_article_hist": {
+   "2": 142,
+   "3-4": 38,
+   "5+": 2,
+   "1": 738
+  },
+  "drawable_passages": {
+   "ge5": 103,
+   "ge10": 25,
+   "ge20": 3
+  }
+ },
+ "bin_totals": {
+  "1890": 10,
+  "1895": 4,
+  "1900": 33,
+  "1905": 22,
+  "1910": 10,
+  "1915": 9,
+  "1920": 8,
+  "1925": 19,
+  "1930": 14,
+  "1935": 7,
+  "1940": 15,
+  "1945": 54,
+  "1950": 12,
+  "1955": 21,
+  "1960": 33,
+  "1965": 17,
+  "1970": 27,
+  "1975": 49,
+  "1980": 145,
+  "1985": 76,
+  "1990": 79,
+  "1995": 59,
+  "2000": 117,
+  "2005": 110,
+  "2010": 110,
+  "2015": 75,
+  "2020": 18
+ },
+ "top_passages": [
+  {
+   "passage": "987b",
+   "book": "Α",
+   "total_articles": 32,
+   "by_bin": {
+    "1895": 1,
+    "1900": 1,
+    "1915": 2,
+    "1920": 1,
+    "1925": 2,
+    "1930": 1,
+    "1940": 2,
+    "1945": 2,
+    "1955": 1,
+    "1965": 2,
+    "1970": 2,
+    "1980": 4,
+    "1985": 1,
+    "1995": 3,
+    "2000": 2,
+    "2005": 1,
+    "2010": 3,
+    "2015": 1
+   }
+  },
+  {
+   "passage": "1074b",
+   "book": "Λ",
+   "total_articles": 23,
+   "by_bin": {
+    "1925": 2,
+    "1945": 1,
+    "1965": 1,
+    "1975": 1,
+    "1980": 2,
+    "1985": 1,
+    "1990": 2,
+    "1995": 2,
+    "2000": 4,
+    "2005": 4,
+    "2010": 1,
+    "2015": 2
+   }
+  },
+  {
+   "passage": "987a",
+   "book": "Α",
+   "total_articles": 20,
+   "by_bin": {
+    "1905": 1,
+    "1915": 2,
+    "1920": 1,
+    "1925": 2,
+    "1930": 1,
+    "1945": 1,
+    "1975": 1,
+    "1990": 1,
+    "2000": 2,
+    "2005": 3,
+    "2010": 3,
+    "2015": 1,
+    "2020": 1
+   }
+  },
+  {
+   "passage": "984a",
+   "book": "Α",
+   "total_articles": 19,
+   "by_bin": {
+    "1900": 1,
+    "1925": 2,
+    "1930": 2,
+    "1955": 1,
+    "1960": 3,
+    "1970": 1,
+    "1980": 2,
+    "1985": 1,
+    "1995": 1,
+    "2000": 1,
+    "2005": 2,
+    "2010": 2
+   }
+  },
+  {
+   "passage": "985b",
+   "book": "Α",
+   "total_articles": 19,
+   "by_bin": {
+    "1890": 1,
+    "1925": 1,
+    "1930": 1,
+    "1935": 1,
+    "1955": 1,
+    "1960": 3,
+    "1970": 2,
+    "1975": 1,
+    "1980": 1,
+    "1985": 1,
+    "1995": 2,
+    "2005": 2,
+    "2010": 1,
+    "2015": 1
+   }
+  },
+  {
+   "passage": "1029a",
+   "book": "Ζ",
+   "total_articles": 15,
+   "by_bin": {
+    "1900": 1,
+    "1975": 2,
+    "1980": 2,
+    "1985": 2,
+    "1990": 2,
+    "2000": 3,
+    "2010": 2,
+    "2015": 1
+   }
+  },
+  {
+   "passage": "986a",
+   "book": "Α",
+   "total_articles": 15,
+   "by_bin": {
+    "1900": 1,
+    "1920": 1,
+    "1925": 1,
+    "1950": 1,
+    "1955": 1,
+    "1960": 1,
+    "1965": 2,
+    "1970": 1,
+    "1975": 2,
+    "1995": 1,
+    "2005": 1,
+    "2015": 2
+   }
+  },
+  {
+   "passage": "983b",
+   "book": "Α",
+   "total_articles": 14,
+   "by_bin": {
+    "1930": 1,
+    "1955": 3,
+    "1975": 1,
+    "1990": 1,
+    "2000": 2,
+    "2005": 1,
+    "2010": 3,
+    "2015": 2
+   }
+  },
+  {
+   "passage": "1072b",
+   "book": "Λ",
+   "total_articles": 14,
+   "by_bin": {
+    "1935": 1,
+    "1955": 1,
+    "1965": 1,
+    "1990": 3,
+    "2000": 1,
+    "2005": 1,
+    "2010": 3,
+    "2015": 1,
+    "2020": 2
+   }
+  },
+  {
+   "passage": "1028b",
+   "book": "Ζ",
+   "total_articles": 14,
+   "by_bin": {
+    "1900": 1,
+    "1905": 1,
+    "1945": 1,
+    "1975": 1,
+    "1980": 2,
+    "1985": 4,
+    "1990": 2,
+    "2000": 2
+   }
+  },
+  {
+   "passage": "1078b",
+   "book": "Μ",
+   "total_articles": 13,
+   "by_bin": {
+    "1910": 2,
+    "1915": 1,
+    "1980": 1,
+    "1990": 2,
+    "2000": 1,
+    "2005": 2,
+    "2010": 4
+   }
+  },
+  {
+   "passage": "1038b",
+   "book": "Ζ",
+   "total_articles": 12,
+   "by_bin": {
+    "1900": 1,
+    "1960": 1,
+    "1975": 1,
+    "1980": 3,
+    "1985": 1,
+    "1990": 3,
+    "2000": 1,
+    "2015": 1
+   }
+  },
+  {
+   "passage": "1072a",
+   "book": "Λ",
+   "total_articles": 12,
+   "by_bin": {
+    "1975": 1,
+    "1980": 2,
+    "1990": 1,
+    "1995": 1,
+    "2000": 1,
+    "2010": 5,
+    "2015": 1
+   }
+  },
+  {
+   "passage": "1050b",
+   "book": "Θ",
+   "total_articles": 12,
+   "by_bin": {
+    "1955": 1,
+    "1965": 1,
+    "1980": 3,
+    "1990": 1,
+    "2000": 3,
+    "2005": 1,
+    "2010": 1,
+    "2015": 1
+   }
+  },
+  {
+   "passage": "993b",
+   "book": "α",
+   "total_articles": 12,
+   "by_bin": {
+    "1960": 1,
+    "1970": 1,
+    "1990": 1,
+    "1995": 3,
+    "2000": 2,
+    "2005": 1,
+    "2010": 1,
+    "2020": 2
+   }
+  },
+  {
+   "passage": "1070a",
+   "book": "Λ",
+   "total_articles": 12,
+   "by_bin": {
+    "1890": 1,
+    "1940": 1,
+    "1945": 1,
+    "1965": 1,
+    "1980": 3,
+    "1990": 2,
+    "2000": 1,
+    "2005": 1,
+    "2020": 1
+   }
+  },
+  {
+   "passage": "986b",
+   "book": "Α",
+   "total_articles": 11,
+   "by_bin": {
+    "1900": 1,
+    "1930": 1,
+    "1940": 1,
+    "1955": 1,
+    "1960": 1,
+    "1965": 1,
+    "1990": 1,
+    "2005": 1,
+    "2010": 2,
+    "2015": 1
+   }
+  },
+  {
+   "passage": "1026a",
+   "book": "Ε",
+   "total_articles": 11,
+   "by_bin": {
+    "1975": 1,
+    "1980": 1,
+    "1985": 3,
+    "1990": 1,
+    "2000": 1,
+    "2005": 2,
+    "2010": 1,
+    "2015": 1
+   }
+  },
+  {
+   "passage": "985a",
+   "book": "Α",
+   "total_articles": 11,
+   "by_bin": {
+    "1895": 1,
+    "1910": 1,
+    "1950": 1,
+    "1970": 2,
+    "1980": 1,
+    "1985": 2,
+    "2005": 1,
+    "2010": 1,
+    "2015": 1
+   }
+  },
+  {
+   "passage": "1040b",
+   "book": "Ζ",
+   "total_articles": 10,
+   "by_bin": {
+    "1905": 1,
+    "1980": 5,
+    "1985": 2,
+    "2000": 2
+   }
+  },
+  {
+   "passage": "1039b",
+   "book": "Ζ",
+   "total_articles": 10,
+   "by_bin": {
+    "1910": 1,
+    "1945": 1,
+    "1980": 3,
+    "1985": 1,
+    "1990": 1,
+    "2000": 2,
+    "2005": 1
+   }
+  },
+  {
+   "passage": "988a",
+   "book": "Α",
+   "total_articles": 10,
+   "by_bin": {
+    "1925": 2,
+    "1955": 1,
+    "1965": 1,
+    "2000": 1,
+    "2005": 3,
+    "2010": 2
+   }
+  },
+  {
+   "passage": "984b",
+   "book": "Α",
+   "total_articles": 10,
+   "by_bin": {
+    "1925": 1,
+    "1960": 2,
+    "1980": 1,
+    "1985": 1,
+    "1995": 1,
+    "2010": 3,
+    "2020": 1
+   }
+  },
+  {
+   "passage": "993a",
+   "book": "Α",
+   "total_articles": 10,
+   "by_bin": {
+    "1925": 1,
+    "1945": 1,
+    "1960": 1,
+    "1970": 1,
+    "1985": 1,
+    "2000": 3,
+    "2005": 1,
+    "2020": 1
+   }
+  },
+  {
+   "passage": "1093a",
+   "book": "Ν",
+   "total_articles": 10,
+   "by_bin": {
+    "1915": 1,
+    "1960": 1,
+    "1970": 1,
+    "1980": 2,
+    "1990": 1,
+    "2005": 2,
+    "2010": 1,
+    "2015": 1
+   }
+  }
+ ],
+ "top_movers": [
+  {
+   "passage": "987b",
+   "book": "Α",
+   "early_share": 0.0361,
+   "late_share": 0.0184,
+   "delta": -0.0177,
+   "early_articles": 22,
+   "late_articles": 10,
+   "p_value": 0.045,
+   "q_value": 0.149,
+   "significant": true,
+   "significant_fdr": false
+  },
+  {
+   "passage": "993b",
+   "book": "α",
+   "early_share": 0.0033,
+   "late_share": 0.0184,
+   "delta": 0.0151,
+   "early_articles": 2,
+   "late_articles": 10,
+   "p_value": 0.005,
+   "q_value": 0.031,
+   "significant": true,
+   "significant_fdr": true
+  },
+  {
+   "passage": "1074b",
+   "book": "Λ",
+   "early_share": 0.0131,
+   "late_share": 0.0276,
+   "delta": 0.0144,
+   "early_articles": 8,
+   "late_articles": 15,
+   "p_value": 0.065,
+   "q_value": 0.195,
+   "significant": false,
+   "significant_fdr": false
+  },
+  {
+   "passage": "999a",
+   "book": "Β",
+   "early_share": 0.0131,
+   "late_share": 0.0,
+   "delta": -0.0131,
+   "early_articles": 8,
+   "late_articles": 0,
+   "p_value": 0.005,
+   "q_value": 0.031,
+   "significant": true,
+   "significant_fdr": true
+  },
+  {
+   "passage": "1072b",
+   "book": "Λ",
+   "early_share": 0.0066,
+   "late_share": 0.0184,
+   "delta": 0.0118,
+   "early_articles": 4,
+   "late_articles": 10,
+   "p_value": 0.015,
+   "q_value": 0.066,
+   "significant": true,
+   "significant_fdr": true
+  },
+  {
+   "passage": "1072a",
+   "book": "Λ",
+   "early_share": 0.0049,
+   "late_share": 0.0165,
+   "delta": 0.0116,
+   "early_articles": 3,
+   "late_articles": 9,
+   "p_value": 0.02,
+   "q_value": 0.077,
+   "significant": true,
+   "significant_fdr": true
+  },
+  {
+   "passage": "1089a",
+   "book": "Ν",
+   "early_share": 0.0,
+   "late_share": 0.011,
+   "delta": 0.011,
+   "early_articles": 0,
+   "late_articles": 6,
+   "p_value": 0.005,
+   "q_value": 0.031,
+   "significant": true,
+   "significant_fdr": true
+  },
+  {
+   "passage": "986a",
+   "book": "Α",
+   "early_share": 0.0181,
+   "late_share": 0.0074,
+   "delta": -0.0107,
+   "early_articles": 11,
+   "late_articles": 4,
+   "p_value": 0.04,
+   "q_value": 0.135,
+   "significant": true,
+   "significant_fdr": false
+  },
+  {
+   "passage": "984a",
+   "book": "Α",
+   "early_share": 0.0213,
+   "late_share": 0.011,
+   "delta": -0.0103,
+   "early_articles": 13,
+   "late_articles": 6,
+   "p_value": 0.124,
+   "q_value": 0.326,
+   "significant": false,
+   "significant_fdr": false
+  },
+  {
+   "passage": "985b",
+   "book": "Α",
+   "early_share": 0.0213,
+   "late_share": 0.011,
+   "delta": -0.0103,
+   "early_articles": 13,
+   "late_articles": 6,
+   "p_value": 0.109,
+   "q_value": 0.297,
+   "significant": false,
+   "significant_fdr": false
+  },
+  {
+   "passage": "1078b",
+   "book": "Μ",
+   "early_share": 0.0066,
+   "late_share": 0.0165,
+   "delta": 0.01,
+   "early_articles": 4,
+   "late_articles": 9,
+   "p_value": 0.08,
+   "q_value": 0.227,
+   "significant": false,
+   "significant_fdr": false
+  },
+  {
+   "passage": "1016b",
+   "book": "Δ",
+   "early_share": 0.0099,
+   "late_share": 0.0,
+   "delta": -0.0099,
+   "early_articles": 6,
+   "late_articles": 0,
+   "p_value": 0.005,
+   "q_value": 0.031,
+   "significant": true,
+   "significant_fdr": true
+  },
+  {
+   "passage": "1041b",
+   "book": "Ζ",
+   "early_share": 0.0033,
+   "late_share": 0.0129,
+   "delta": 0.0096,
+   "early_articles": 2,
+   "late_articles": 7,
+   "p_value": 0.03,
+   "q_value": 0.109,
+   "significant": true,
+   "significant_fdr": false
+  },
+  {
+   "passage": "1091a",
+   "book": "Ν",
+   "early_share": 0.0033,
+   "late_share": 0.0129,
+   "delta": 0.0096,
+   "early_articles": 2,
+   "late_articles": 7,
+   "p_value": 0.035,
+   "q_value": 0.124,
+   "significant": true,
+   "significant_fdr": false
+  },
+  {
+   "passage": "1040b",
+   "book": "Ζ",
+   "early_share": 0.0131,
+   "late_share": 0.0037,
+   "delta": -0.0095,
+   "early_articles": 8,
+   "late_articles": 2,
+   "p_value": 0.035,
+   "q_value": 0.124,
+   "significant": true,
+   "significant_fdr": false
+  },
+  {
+   "passage": "1071b",
+   "book": "Λ",
+   "early_share": 0.0016,
+   "late_share": 0.011,
+   "delta": 0.0094,
+   "early_articles": 1,
+   "late_articles": 6,
+   "p_value": 0.005,
+   "q_value": 0.031,
+   "significant": true,
+   "significant_fdr": true
+  },
+  {
+   "passage": "1078a",
+   "book": "Μ",
+   "early_share": 0.0016,
+   "late_share": 0.011,
+   "delta": 0.0094,
+   "early_articles": 1,
+   "late_articles": 6,
+   "p_value": 0.02,
+   "q_value": 0.077,
+   "significant": true,
+   "significant_fdr": true
+  },
+  {
+   "passage": "1070a",
+   "book": "Λ",
+   "early_share": 0.0148,
+   "late_share": 0.0055,
+   "delta": -0.0093,
+   "early_articles": 9,
+   "late_articles": 3,
+   "p_value": 0.09,
+   "q_value": 0.253,
+   "significant": false,
+   "significant_fdr": false
+  },
+  {
+   "passage": "1028b",
+   "book": "Ζ",
+   "early_share": 0.0164,
+   "late_share": 0.0074,
+   "delta": -0.0091,
+   "early_articles": 10,
+   "late_articles": 4,
+   "p_value": 0.159,
+   "q_value": 0.389,
+   "significant": false,
+   "significant_fdr": false
+  },
+  {
+   "passage": "1086b",
+   "book": "Μ",
+   "early_share": 0.0082,
+   "late_share": 0.0,
+   "delta": -0.0082,
+   "early_articles": 5,
+   "late_articles": 0,
+   "p_value": 0.005,
+   "q_value": 0.031,
+   "significant": true,
+   "significant_fdr": true
+  },
+  {
+   "passage": "990b",
+   "book": "Α",
+   "early_share": 0.0082,
+   "late_share": 0.0,
+   "delta": -0.0082,
+   "early_articles": 5,
+   "late_articles": 0,
+   "p_value": 0.005,
+   "q_value": 0.031,
+   "significant": true,
+   "significant_fdr": true
+  },
+  {
+   "passage": "1029b",
+   "book": "Ζ",
+   "early_share": 0.0099,
+   "late_share": 0.0018,
+   "delta": -0.008,
+   "early_articles": 6,
+   "late_articles": 1,
+   "p_value": 0.055,
+   "q_value": 0.172,
+   "significant": false,
+   "significant_fdr": false
+  },
+  {
+   "passage": "1052a",
+   "book": "Ι",
+   "early_share": 0.0099,
+   "late_share": 0.0018,
+   "delta": -0.008,
+   "early_articles": 6,
+   "late_articles": 1,
+   "p_value": 0.03,
+   "q_value": 0.109,
+   "significant": true,
+   "significant_fdr": false
+  },
+  {
+   "passage": "1039a",
+   "book": "Ζ",
+   "early_share": 0.0115,
+   "late_share": 0.0037,
+   "delta": -0.0078,
+   "early_articles": 7,
+   "late_articles": 2,
+   "p_value": 0.07,
+   "q_value": 0.207,
+   "significant": false,
+   "significant_fdr": false
+  },
+  {
+   "passage": "1041a",
+   "book": "Ζ",
+   "early_share": 0.0033,
+   "late_share": 0.011,
+   "delta": 0.0077,
+   "early_articles": 2,
+   "late_articles": 6,
+   "p_value": 0.04,
+   "q_value": 0.135,
+   "significant": true,
+   "significant_fdr": false
+  }
+ ],
+ "focus": {
+  "1029": {
+   "1900": 1,
+   "1945": 1,
+   "1970": 1,
+   "1975": 3,
+   "1980": 5,
+   "1985": 2,
+   "1990": 2,
+   "2000": 3,
+   "2010": 3,
+   "2015": 1
+  }
+ }
+}

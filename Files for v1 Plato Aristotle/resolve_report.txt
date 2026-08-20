@@ -1,0 +1,46 @@
+CITATION RESOLUTION REPORT
+  input candidates      : 205,746
+  excluded (diverted)   : 64,658 (31.4% of input)
+  genuine P/A citations : 141,088
+  auto-resolved : 90,502 (64.1% of genuine)
+  review queue  : 50,586 (35.9% of genuine)
+  exclusions by reason (diverted to excluded.tsv):
+    excluded_doctype     54,409
+    modern_year          4,762
+    book_section_ref     4,227
+    foreign_text         1,070
+    dk_fragment          190
+  resolved by corpus:
+    ambiguous  38,264
+    stephanus  30,234
+    bekker     22,004
+  method distribution:
+    cross_system_resolved_by_name 26,908
+    name_range_conflict          24,458
+    range+name                   15,896
+    range_unique+name            14,031
+    cross_system_unresolved      13,202
+    scope_inherited              12,641
+    range_unique                 11,175
+    range_unique_name_mentioned  6,729
+    unresolved                   5,392
+    title_prior                  3,960
+    scope_range_mismatch         3,668
+    name_multi_candidate         2,624
+    boundary_resolved_by_name    404
+  top reasons for queueing:
+    scope_conf_below_threshold               1,242
+    no decisive name, no scope; candidates ['Apology', 'Philebus', 'Prior_Analytics', 'Timaeus'] 1,016
+    no decisive name, no scope; candidates ['Meno', 'Phaedo', 'Posterior_Analytics', 'Timaeus'] 852
+    no decisive name, no scope; candidates ['Crito', 'Philebus', 'Prior_Analytics', 'Timaeus'] 834
+    no decisive name, no scope; candidates ['Gorgias', 'Republic'] 690
+    no decisive name, no scope; candidates ['Cratylus', 'De_Anima', 'Republic'] 619
+    no decisive name, no scope; candidates ['Historia_Animalium', 'Republic'] 598
+    no decisive name, no scope; candidates ['Apology', 'Philebus', 'Timaeus'] 596
+    no decisive name, no scope; candidates ['Apology', 'De_Interpretatione', 'Philebus', 'Timaeus'] 540
+    no decisive name, no scope; candidates ['Categories', 'Euthyphro', 'Philebus'] 512
+    no decisive name, no scope; candidates ['Phaedo', 'Philebus', 'Prior_Analytics', 'Timaeus'] 495
+    no decisive name, no scope; candidates ['Meno', 'Phaedo', 'Timaeus'] 477
+    no decisive name, no scope; candidates ['Gorgias', 'Historia_Animalium', 'Republic'] 438
+    no decisive name, no scope; candidates ['Letters', 'Protagoras', 'Republic'] 387
+    no decisive name, no scope; candidates ['Laws', 'Problems'] 365

@@ -1,0 +1,108 @@
+{
+  "_comment": [
+    "Named sets of works, used by View A's series comparison ('plot Republic vs",
+    "Laws over time', 'Plato vs Aristotle', 'theoretical vs practical').",
+    "",
+    "Kept as DATA because most of these groupings are EDITORIAL CLAIMS, not",
+    "facts about the corpus. They are sorted below by how contestable they are,",
+    "and each carries a `basis` the viewer surfaces in the UI so a reader can",
+    "see what kind of claim a curve rests on.",
+    "",
+    "basis values:",
+    "  'edition'  — mechanical, from the reference edition the citations use",
+    "               (Stephanus/Bekker). Not an authorship claim. Uncontested.",
+    "  'received' — the standard scholarly grouping, stable across handbooks",
+    "               (the Organon, the biological works, the ethical treatises).",
+    "               Mild disagreement at the edges only.",
+    "  'contested'— a real scholarly dispute. Plotting these is plotting an",
+    "               interpretation. The UI marks these clearly.",
+    "",
+    "Groups with basis 'contested' are DISABLED by default in the UI. David:",
+    "these are the ones to review or replace with your own scheme — I've",
+    "included the common textbook versions as a starting point, not as an",
+    "endorsement. In particular the Plato chronology (early/middle/late) is",
+    "the standard developmentalist ordering, which unitarians reject outright;",
+    "and 'theoretical vs practical' is Aristotle's own distinction being",
+    "retrofitted onto Plato, which is defensible but not neutral.",
+    "",
+    "Spuria/dubia membership follows citation-pipeline-methods.md, which names",
+    "Alcibiades 2, Hipparchus and Clitophon and notes they resolve poorly and",
+    "are marginal to most attention narratives.",
+    "",
+    "Works may appear in several groups. Groups need not be exhaustive."
+  ],
+  "groups": {
+    "plato": {
+      "label": "Plato (Stephanus)",
+      "basis": "edition",
+      "note": "Everything paginated by Stephanus, as traditionally ascribed. Not an authorship claim.",
+      "works": ["Alcibiades_1","Alcibiades_2","Apology","Charmides","Clitophon","Cratylus","Critias","Crito","Epinomis","Euthydemus","Euthyphro","Gorgias","Hipparchus","Hippias_Major","Hippias_Minor","Ion","Laches","Laws","Letters","Lysis","Menexenus","Meno","Minos","Parmenides","Phaedo","Phaedrus","Philebus","Protagoras","Republic","Rival_Lovers","Sophist","Statesman","Symposium","Theaetetus","Theages","Timaeus"]
+    },
+    "aristotle": {
+      "label": "Aristotle (Bekker)",
+      "basis": "edition",
+      "note": "Everything paginated by Bekker, as traditionally ascribed. Not an authorship claim.",
+      "works": ["Categories","De_Anima","De_Caelo","De_Divinatione_per_Somnum","De_Generatione_Animalium","De_Generatione_et_Corruptione","De_Incessu_Animalium","De_Insomniis","De_Interpretatione","De_Juventute","De_Longitudine_Vitae","De_Memoria","De_Motu_Animalium","De_Partibus_Animalium","De_Respiratione","De_Sensu","De_Somno","Eudemian_Ethics","Historia_Animalium","Magna_Moralia","Metaphysics","Meteorology","Nicomachean_Ethics","Physics","Poetics","Politics","Posterior_Analytics","Prior_Analytics","Rhetoric","Rhetorica_ad_Alexandrum","Sophistical_Refutations","Topics"]
+    },
+    "organon": {
+      "label": "Organon",
+      "basis": "received",
+      "note": "The logical works, in their traditional order.",
+      "works": ["Categories","De_Interpretatione","Prior_Analytics","Posterior_Analytics","Topics","Sophistical_Refutations"]
+    },
+    "biology": {
+      "label": "Biological works",
+      "basis": "received",
+      "note": "Aristotle's zoology and the Parva Naturalia.",
+      "works": ["Historia_Animalium","De_Partibus_Animalium","De_Generatione_Animalium","De_Incessu_Animalium","De_Motu_Animalium","De_Sensu","De_Memoria","De_Somno","De_Insomniis","De_Divinatione_per_Somnum","De_Longitudine_Vitae","De_Juventute","De_Respiratione"]
+    },
+    "aristotle_practical": {
+      "label": "Aristotle: ethics & politics",
+      "basis": "received",
+      "note": "The practical treatises. Magna Moralia's authenticity is disputed.",
+      "works": ["Nicomachean_Ethics","Eudemian_Ethics","Magna_Moralia","Politics","Rhetoric"]
+    },
+    "aristotle_theoretical": {
+      "label": "Aristotle: physics & metaphysics",
+      "basis": "received",
+      "note": "The theoretical treatises on nature and being.",
+      "works": ["Physics","Metaphysics","De_Caelo","De_Generatione_et_Corruptione","Meteorology","De_Anima"]
+    },
+    "spuria": {
+      "label": "Spuria & dubia",
+      "basis": "received",
+      "note": "Works of disputed or rejected authenticity. Per methods §: these resolve poorly (~1%) and are marginal to most attention narratives — read their curves with the tier caveat firmly in mind.",
+      "works": ["Alcibiades_2","Hipparchus","Clitophon","Minos","Theages","Rival_Lovers","Epinomis","Magna_Moralia","Rhetorica_ad_Alexandrum"]
+    },
+    "plato_early": {
+      "label": "Plato: early (developmentalist)",
+      "basis": "contested",
+      "note": "The standard developmentalist chronology. Unitarian readers reject the ordering entirely; stylometric and doctrinal datings disagree at the edges. Plotting this plots an interpretation.",
+      "works": ["Apology","Charmides","Crito","Euthyphro","Gorgias","Hippias_Minor","Ion","Laches","Lysis","Protagoras","Euthydemus"]
+    },
+    "plato_middle": {
+      "label": "Plato: middle (developmentalist)",
+      "basis": "contested",
+      "note": "See the early-period note — same dispute.",
+      "works": ["Cratylus","Meno","Phaedo","Republic","Symposium","Phaedrus","Parmenides","Theaetetus"]
+    },
+    "plato_late": {
+      "label": "Plato: late (developmentalist)",
+      "basis": "contested",
+      "note": "See the early-period note — same dispute.",
+      "works": ["Sophist","Statesman","Philebus","Timaeus","Critias","Laws"]
+    },
+    "plato_practical": {
+      "label": "Plato: ethics & politics",
+      "basis": "contested",
+      "note": "Applies Aristotle's theoretical/practical division to Plato, which Plato does not draw himself. Defensible as a heuristic, not neutral. Many dialogues resist the split (Republic is both).",
+      "works": ["Republic","Laws","Gorgias","Crito","Statesman","Protagoras","Meno","Philebus"]
+    },
+    "plato_theoretical": {
+      "label": "Plato: metaphysics & epistemology",
+      "basis": "contested",
+      "note": "Same caveat as the practical group — Republic and Meno sit in both, which is the point rather than a bug.",
+      "works": ["Timaeus","Parmenides","Sophist","Theaetetus","Phaedo","Cratylus","Philebus","Republic"]
+    }
+  }
+}

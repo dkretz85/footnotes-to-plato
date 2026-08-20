@@ -1,0 +1,1180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Footnotes to Plato — passage view</title>
+<link rel="stylesheet" href="filterbar.css">
+<style>
+  /* ---- design tokens -------------------------------------------------------
+     Subject: a scholarly instrument for ancient-philosophy researchers. The
+     "world" is the printed critical edition — Stephanus/Bekker margin numbers
+     running down a column of text. Palette: calm light-blue drifting to
+     lavender (handoff); saturated colour RESERVED for the heat ramp and the
+     uncertainty shading, so strong colour only ever means information.        */
+  :root{
+    --paper:#f7f8fb;          /* cool near-white, like laid text-paper        */
+    --ink:#1c2230;            /* dark slate ink                                */
+    --ink-soft:#5b6478;       /* secondary text                               */
+    --rule:#d7dced;           /* hairline blue-grey                            */
+    --lav:#8b86c9;            /* lavender — structural accent                  */
+    --lav-deep:#5a5497;       /* deeper lavender for emphasis                  */
+    /* heat ramp: pale blue -> lavender -> deep indigo (the ONLY strong colour)*/
+    --h0:#eef1fa; --h1:#cfd8f4; --h2:#a7b3ea; --h3:#8388d6;
+    --h4:#6a5fbf; --h5:#4e3f9c; --h6:#3a2a7d;
+    --uncertain:#b06a3a;      /* warm clay — ONLY for the uncertainty apparatus*/
+    --uncertain-soft:#e7d3c4;
+    --shadow:0 1px 2px rgba(28,34,48,.06),0 4px 16px rgba(28,34,48,.06);
+    --serif:"Iowan Old Style","Palatino Linotype",Palatino,"Book Antiqua",Georgia,serif;
+    --sans:"Inter","Helvetica Neue",Arial,system-ui,sans-serif;
+    --mono:"SF Mono",ui-monospace,"Cascadia Mono",Menlo,Consolas,monospace;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0}
+  body{
+    background:var(--paper); color:var(--ink);
+    font-family:var(--sans); line-height:1.5;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:1060px; margin:0 auto; padding:32px 28px 96px}
+
+  /* ---- masthead ----------------------------------------------------------- */
+  header.mast{border-bottom:2px solid var(--ink); padding-bottom:14px; margin-bottom:8px}
+  .mast h1{
+    font-family:var(--serif); font-weight:600; font-size:44px; letter-spacing:.01em;
+    margin:0 0 3px;
+  }
+  .mast .sub{font-family:var(--serif); font-style:italic; color:var(--ink-soft); font-size:15px}
+  .mast .kicker{
+    font-family:var(--mono); font-size:11px; letter-spacing:.18em; text-transform:uppercase;
+    color:var(--lav-deep); margin-bottom:6px;
+  }
+
+  /* ---- controls ----------------------------------------------------------- */
+  .controls{
+    display:flex; flex-wrap:wrap; gap:18px 26px; align-items:flex-end;
+    padding:18px 0 20px; border-bottom:1px solid var(--rule); margin-bottom:8px;
+  }
+  .ctl{display:flex; flex-direction:column; gap:5px}
+  .ctl label{
+    font-family:var(--mono); font-size:10px; letter-spacing:.14em; text-transform:uppercase;
+    color:var(--ink-soft);
+  }
+  select, .seg button{
+    font-family:var(--sans); font-size:14px; color:var(--ink);
+    background:#fff; border:1px solid var(--rule); border-radius:7px;
+    padding:7px 11px; cursor:pointer;
+  }
+  select{min-width:230px; box-shadow:var(--shadow)}
+  .seg{display:inline-flex; border:1px solid var(--rule); border-radius:7px; overflow:hidden; box-shadow:var(--shadow)}
+  .seg button{border:0; border-radius:0; background:#fff; padding:7px 13px}
+  .seg button + button{border-left:1px solid var(--rule)}
+  .seg button[aria-pressed="true"]{background:var(--lav); color:#fff}
+
+  /* ---- tier banner -------------------------------------------------------- */
+  .tier{
+    display:flex; gap:12px; align-items:flex-start;
+    border-radius:9px; padding:12px 15px; margin:18px 0 10px; font-size:13.5px;
+  }
+  .tier .dot{width:10px; height:10px; border-radius:50%; margin-top:5px; flex:none}
+  .tier.trustworthy{background:#eef1fa; border:1px solid var(--rule)}
+  .tier.trustworthy .dot{background:var(--h4)}
+  .tier.uncertain{background:#faf1ea; border:1px solid var(--uncertain-soft)}
+  .tier.uncertain .dot{background:var(--uncertain)}
+  .tier b{font-weight:600}
+  .tier .label{
+    font-family:var(--mono); font-size:10px; letter-spacing:.14em; text-transform:uppercase;
+  }
+  .tier.trustworthy .label{color:var(--lav-deep)}
+  .tier.uncertain .label{color:var(--uncertain)}
+
+  /* ---- profile ------------------------------------------------------------ */
+  .profile-head{display:flex; justify-content:space-between; align-items:baseline; margin:26px 0 4px}
+  .profile-head h2{font-family:var(--serif); font-weight:600; font-size:24px; margin:0}
+  .profile-head .meta{font-size:13px; color:var(--ink-soft)}
+  .legend{display:flex; align-items:center; gap:10px; font-size:12px; color:var(--ink-soft); margin:10px 0 2px}
+  .ramp{display:flex; height:11px; width:150px; border-radius:3px; overflow:hidden; border:1px solid var(--rule)}
+  .ramp i{flex:1}
+  .viewlabel{
+    font-family:var(--mono); font-size:10px; letter-spacing:.15em; text-transform:uppercase;
+    color:var(--lav-deep); margin:26px 0 8px;
+  }
+
+  /* ---- BAR CHART (magnitude view, section grain) -------------------------- */
+  .chart{position:relative; margin:6px 0 4px}
+  .chart svg{display:block; width:100%; overflow:visible}
+  .bar{cursor:pointer}
+  .bar:hover{outline:2px solid var(--lav)}
+  .axis-line{stroke:var(--ink); stroke-width:1.4}
+  .grid-line{stroke:var(--rule); stroke-width:1}
+  .ytick{font-family:var(--mono); font-size:10px; fill:var(--ink-soft)}
+  .ylabel{font-family:var(--mono); font-size:10px; letter-spacing:.12em; text-transform:uppercase; fill:var(--ink-soft)}
+  .bookdiv{stroke:var(--rule); stroke-width:1; stroke-dasharray:2 3}
+  .booktag{font-family:var(--serif); font-size:13px; fill:var(--lav-deep); font-weight:600}
+  .booktag.common{fill:var(--uncertain)}
+
+  /* ---- HEATMAP GRID (map view, line-band grain) --------------------------- */
+  .heatgrid{display:grid; grid-template-columns:repeat(5,1fr); gap:20px 22px; margin-top:8px}
+  .heatgrid.single{grid-template-columns:1fr}
+  .book-label{
+    font-family:var(--serif); font-size:14px; color:var(--lav-deep); font-weight:600;
+    display:flex; align-items:center; gap:7px; margin-bottom:6px;
+  }
+  .book-label .common{
+    font-family:var(--mono); font-size:8.5px; letter-spacing:.1em; color:var(--uncertain);
+    border:1px solid var(--uncertain-soft); border-radius:4px; padding:1px 4px; text-transform:uppercase;
+  }
+  .strip{display:flex; flex-wrap:wrap; gap:7px 5px; align-items:flex-start}
+  .pgcol{display:flex; flex-direction:column; align-items:center; gap:2px}
+  .pgcol .sections{display:flex; flex-direction:column; gap:1px}
+  .seccol{display:flex; gap:1px}          /* a-column and b-column side by side */
+  .bandstack{display:flex; flex-direction:column; gap:1px}
+  .cell{
+    position:relative; width:11px; height:11px; border-radius:2px; cursor:pointer;
+    border:1px solid rgba(28,34,48,.06); transition:transform .08s, box-shadow .08s;
+  }
+  .cell:hover{transform:scale(1.5); box-shadow:var(--shadow); outline:2px solid var(--lav); z-index:2}
+  .cell.empty{background:transparent!important; border-style:dashed; border-color:rgba(28,34,48,.07); cursor:default}
+  .cell.empty:hover{transform:none; outline:none; box-shadow:none}
+  .pgcol .pnum{
+    font-family:var(--mono); font-size:8px; color:var(--ink-soft); margin-top:1px;
+  }
+  .pgcol.mark .pnum{color:var(--lav-deep); font-weight:600}
+  .seclabel{font-family:var(--mono); font-size:7px; color:rgba(28,34,48,.4); text-align:center}
+
+  /* ---- drill-in panel ----------------------------------------------------- */
+  .drill{
+    position:fixed; top:0; right:0; height:100vh; width:min(430px,92vw);
+    background:#fff; border-left:1px solid var(--rule); box-shadow:-8px 0 30px rgba(28,34,48,.12);
+    transform:translateX(100%); transition:transform .22s cubic-bezier(.4,0,.2,1);
+    display:flex; flex-direction:column; z-index:20;
+  }
+  .drill.open{transform:translateX(0)}
+  .drill-head{padding:20px 22px 14px; border-bottom:1px solid var(--rule)}
+  .drill-head .loc{font-family:var(--serif); font-size:21px; font-weight:600}
+  .drill-head .cnt{font-size:13px; color:var(--ink-soft); margin-top:2px}
+  .drill-close{position:absolute; top:16px; right:18px; border:0; background:none; font-size:22px; cursor:pointer; color:var(--ink-soft); line-height:1}
+  .drill-body{overflow-y:auto; padding:8px 0}
+  .cite{padding:12px 22px; border-bottom:1px solid var(--rule); font-size:13.5px}
+  .cite .t{font-family:var(--serif); color:var(--ink); line-height:1.35}
+  .cite .a{color:var(--ink-soft); margin-top:3px}
+  .cite .j{color:var(--lav-deep); font-size:12.5px; margin-top:3px}
+  .cite a.doi{
+    font-family:var(--mono); font-size:11.5px; color:var(--lav-deep);
+    text-decoration:none; border-bottom:1px solid var(--rule);
+  }
+  .cite a.doi:hover{border-color:var(--lav)}
+  .drill-foot{padding:14px 22px; border-top:1px solid var(--rule);
+    display:flex; flex-direction:column; gap:8px}
+  .btn{
+    font-family:var(--sans); font-size:13.5px; font-weight:500; color:#fff;
+    background:var(--lav-deep); border:0; border-radius:7px; padding:9px 15px; cursor:pointer; width:100%;
+  }
+  .btn:hover{background:var(--lav)}
+  .btn.ghost{background:#fff; color:var(--lav-deep); border:1px solid var(--rule)}
+  .btn.ghost:hover{background:#f4f6fc; border-color:var(--lav)}
+  .scrim{position:fixed; inset:0; background:rgba(28,34,48,.18); opacity:0; pointer-events:none; transition:opacity .22s; z-index:15}
+  .scrim.open{opacity:1; pointer-events:auto}
+
+  .tooltip{
+    position:fixed; z-index:30; pointer-events:none; background:var(--ink); color:#fff;
+    font-size:12px; padding:6px 9px; border-radius:6px; opacity:0; transition:opacity .1s;
+    font-family:var(--sans); white-space:nowrap;
+  }
+  .tooltip .tt-loc{font-family:var(--mono); font-size:11px; color:#c7cdf0}
+
+  /* line-band with NO line number given: hatched, so it never reads as a
+     line-specific measurement (audit 2c) */
+  .cell.unspec{position:relative}
+  .cell.unspec::after{content:"";position:absolute;inset:0;border-radius:inherit;
+    background:repeating-linear-gradient(45deg,rgba(255,255,255,.55) 0 1.5px,
+      rgba(255,255,255,0) 1.5px 4px);pointer-events:none}
+  /* loci list under a drill entry when one article cites several points */
+  .cite .loci{font-family:var(--mono);font-size:10.5px;color:var(--ink-soft);
+    margin-top:3px;opacity:.85}
+
+  /* pages whose citations resolve worse than the rest of the work
+     (collision_bands.json). Clay, dashed: an uncertainty mark, not data. */
+  .pgcol.underres{position:relative}
+  .pgcol.underres::before{content:"";position:absolute;left:0;right:0;top:-3px;
+    height:2px;background:repeating-linear-gradient(90deg,var(--uncertain) 0 3px,
+      transparent 3px 6px);border-radius:1px}
+  .pgcol.underres .pnum{color:var(--uncertain)}
+  /* Collision bands are a minor, localised caveat (see methods), so they sit as
+     one quiet line beneath the chart rather than a banner above it. */
+  .bandnote{font-size:12px; color:var(--ink-soft); line-height:1.5;
+    margin:8px 2px 0; max-width:80ch}
+  .bandnote b{color:var(--ink); font-weight:600}
+  .bandnote a{color:var(--lav-deep)}
+
+  /* ---- Perseus passage frame --------------------------------------------- */
+  .passage{margin:22px 0 0}
+  .pv-strip{display:flex; align-items:center; gap:10px; width:100%;
+    text-align:left; font-family:var(--sans); font-size:13px; color:var(--ink);
+    background:#fff; border:1px solid var(--rule); border-radius:9px;
+    padding:10px 13px; cursor:pointer; box-shadow:var(--shadow);}
+  .pv-strip:hover{border-color:var(--lav)}
+  .pv-label{font-weight:600; color:var(--lav-deep)}
+  .pv-ref{font-family:var(--mono); font-size:12px; color:var(--ink-soft)}
+  .pv-caret{margin-left:auto; color:var(--lav-deep); font-size:11px;
+    transition:transform .12s}
+  .pv-strip[aria-expanded="true"]{border-radius:9px 9px 0 0; border-bottom:0}
+  .pv-strip[aria-expanded="true"] .pv-caret{transform:rotate(90deg)}
+  .pv-body{border:1px solid var(--rule); border-top:0; border-radius:0 0 9px 9px;
+    background:#fff; overflow:hidden}
+  .pv-head{display:flex; align-items:center; gap:10px; flex-wrap:wrap;
+    padding:9px 13px; border-bottom:1px solid var(--rule); background:#fbfcfe}
+  .pv-ref2{font-family:var(--mono); font-size:12.5px; color:var(--ink)}
+  .pv-actions{margin-left:auto; display:flex; gap:8px}
+  .pv-btn{font-family:var(--sans); font-size:12px; color:var(--lav-deep);
+    background:#fff; border:1px solid var(--rule); border-radius:6px;
+    padding:4px 9px; cursor:pointer; text-decoration:none; line-height:1.4}
+  .pv-btn:hover{border-color:var(--lav)}
+  .pv-frame{position:relative; height:560px; background:#f2f4f9}
+  .pv-iframe{width:100%; height:100%; border:0; display:block}
+  .pv-fallback{position:absolute; inset:0; display:flex; align-items:center;
+    justify-content:center; text-align:center; padding:24px; font-size:13px;
+    color:var(--ink-soft); line-height:1.5}
+  .pv-fallback a{color:var(--lav-deep)}
+  .pv-credit{font-size:11px; color:var(--ink-soft); padding:8px 13px; line-height:1.5}
+  .pv-credit a{color:var(--lav-deep)}
+  .passage-none{margin:22px 0 0; font-size:12.5px; color:var(--ink-soft);
+    border:1px dashed var(--rule); border-radius:9px; padding:11px 13px;
+    background:#fbfcfe}
+  @media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="mast">
+    <div class="kicker" data-copy="site.kicker"></div>
+    <h1 data-copy="view_b.heading"></h1>
+    <div class="sub" data-copy="view_b.subtitle"></div>
+  </header>
+
+  <div class="controls">
+    <div class="ctl">
+      <label for="work" data-copy="view_b.controls.work_label"></label>
+      <select id="work"></select>
+    </div>
+    <div class="ctl">
+      <label data-copy="view_b.controls.intensity_label"></label>
+      <div class="seg" id="metric">
+        <button data-metric="count" aria-pressed="true" data-copy="view_b.controls.intensity_count"></button>
+        <button data-metric="articles" aria-pressed="false" data-copy="view_b.controls.intensity_articles"></button>
+      </div>
+    </div>
+  </div>
+
+  <div id="filterbar"></div>
+
+  <div id="tier"></div>
+
+  <div class="profile-head">
+    <h2 id="workname"></h2>
+    <div class="meta" id="workmeta"></div>
+  </div>
+
+  <div class="viewlabel" data-copy="view_b.chart_label"></div>
+  <div class="chart" id="chart"></div>
+
+  <div class="viewlabel" data-copy="view_b.heatmap_label"></div>
+  <div class="legend">
+    <span data-copy="view_b.legend.low"></span>
+    <div class="ramp"><i style="background:var(--h0)"></i><i style="background:var(--h1)"></i><i style="background:var(--h2)"></i><i style="background:var(--h3)"></i><i style="background:var(--h4)"></i><i style="background:var(--h5)"></i><i style="background:var(--h6)"></i></div>
+    <span data-copy="view_b.legend.high"></span>
+  </div>
+  <div id="heatgrid" class="heatgrid"></div>
+  <div id="bandnote" class="bandnote" style="display:none"></div>
+
+  <!-- Passage frame: a collapsed strip below the heatmap that frames the Perseus
+       hopper page for the last-clicked locus. Context comes last, after the two
+       coupled data instruments (chart + heatmap). -->
+  <section class="passage" id="passage" hidden>
+    <button class="pv-strip" id="pvStrip" type="button" aria-expanded="false" aria-controls="pvBody">
+      <span class="pv-label">View passage on Perseus</span>
+      <span class="pv-ref" id="pvRefStrip"></span>
+      <span class="pv-caret" aria-hidden="true">▸</span>
+    </button>
+    <div class="pv-body" id="pvBody" hidden>
+      <div class="pv-head">
+        <span class="pv-ref2" id="pvRefHead"></span>
+        <span class="pv-actions">
+          <button class="pv-btn" id="pvReset" type="button">Reset to passage</button>
+          <a class="pv-btn" id="pvOpen" href="#" target="_blank" rel="noopener">Open on Perseus ↗</a>
+        </span>
+      </div>
+      <div class="pv-frame" id="pvFrame"></div>
+      <div class="pv-credit">Passage framed from the
+        <a href="https://www.perseus.tufts.edu/hopper/" target="_blank" rel="noopener">Perseus Digital Library</a>,
+        Tufts University — a finding-aid link; the text is neither hosted nor mirrored here.</div>
+    </div>
+  </section>
+  <div class="passage-none" id="pvNone" hidden>No Perseus text available for this work.</div>
+</div>
+
+<div class="scrim" id="scrim"></div>
+<aside class="drill" id="drill">
+  <div class="drill-head">
+    <button class="drill-close" id="drillClose">×</button>
+    <div class="loc" id="drillLoc"></div>
+    <div class="cnt" id="drillCnt"></div>
+  </div>
+  <div class="drill-body" id="drillBody"></div>
+  <div class="drill-foot">
+    <button class="btn ghost" id="pvFromDrill" type="button" hidden>View passage on Perseus ↗</button>
+    <button class="btn" id="exportBtn" data-copy="view_b.drill.export_button"></button>
+  </div>
+</aside>
+
+<div class="tooltip" id="tooltip"></div>
+
+<script src="filterbar.js"></script>
+<script>
+// ---- data files present in this standalone build --------------------------
+// Where the generated JSON lives, RELATIVE TO THIS HTML FILE.
+// Repo layout is: view_b.html at root, data in viewer_data/.
+// If you ever move the HTML into viewer_data/ alongside the data, set this to "".
+// Must end with a slash when non-empty.
+const DATA_DIR = "viewer_data/";
+
+// Populated from works_index.json at boot, so every work is available rather
+// than a hardcoded pair. Kept as `let {}` (not `const {}`) so the site build
+// leaves it alone; paths stay relative to DATA_DIR, which loadWork prepends.
+// works_index gives w.file like "view_b/Republic.json".
+let FILES = {};
+let WORKS = [];                 // [{work, file, tier, citations, faceted, ...}]
+// textual book order (string sort won't do: II<X alphabetically). Roman books
+// run I–XII, then the Greek-lettered Metaphysics books. The common books that
+// NE marks with a "*" (V*, VI*, VII*) share a rank with their un-starred form,
+// so the trailing "*" is stripped before lookup (see bookRank) — otherwise the
+// plain V/VI/VII used by Republic, Laws and the Eudemian Ethics would fall off
+// the end of this list and sort after everything else.
+const BOOK_ORDER = ["I","II","III","IV","V","VI","VII","VIII","IX","X","XI","XII",
+                    "Α","α","Β","Γ","Δ","Ε","Ζ","Η","Θ","Ι","Κ","Λ","Μ","Ν"];
+const SECTIONS = ["a","b","c","d","e"];
+const ROMAN = {I:1,II:2,III:3,IV:4,V:5,VI:6,VII:7,VIII:8,IX:9,X:10,XI:11,XII:12};
+
+// ---- Perseus passage frame ------------------------------------------------
+// The frame points at Perseus's `text?doc=` reading view, which embeds cleanly
+// (the older `searchresults` endpoint redirected to a page that refused framing
+// for half the corpus). That needs each work's Perseus text-document ID, so the
+// two tables below are the whole dependency:
+//
+//   PERSEUS_DOC  — work_id → English text-doc, harvested from Perseus's own
+//                  Greco-Roman collection listing (bundled dialogues carry a
+//                  `:text=<sub>` component; standalone volumes do not). A work
+//                  absent here has no Perseus text and shows the "no text" note.
+//   PERSEUS_ABBR — work_id → the citation abbreviation shown to the reader in
+//                  the strip header (e.g. "Plat. Meno 80a"). Display only.
+//
+// Perseus covers all 36 Plato works but only six Aristotle treatises; the other
+// 26 (11,996 citations, ~13% of the corpus) simply are not in Perseus.
+const PERSEUS_DOC = {
+  // Plato (English translations; bundled dialogues carry a :text= sub-address)
+  "Alcibiades_1":"1999.01.0176:text=Alc.+1", "Alcibiades_2":"1999.01.0176:text=Alc.+2",
+  "Apology":"1999.01.0170:text=Apol.", "Charmides":"1999.01.0176:text=Charm.",
+  "Clitophon":"1999.01.0180:text=Cleit.", "Cratylus":"1999.01.0172:text=Crat.",
+  "Critias":"1999.01.0180:text=Criti.", "Crito":"1999.01.0170:text=Crito",
+  "Epinomis":"1999.01.0180:text=Epin.", "Euthydemus":"1999.01.0178:text=Euthyd.",
+  "Euthyphro":"1999.01.0170:text=Euthyph.", "Gorgias":"1999.01.0178:text=Gorg.",
+  "Hipparchus":"1999.01.0176:text=Hipparch.", "Hippias_Major":"1999.01.0180:text=Hipp.+Maj.",
+  "Hippias_Minor":"1999.01.0180:text=Hipp.+Min.", "Ion":"1999.01.0180:text=Ion",
+  "Laches":"1999.01.0176:text=Lach.", "Laws":"1999.01.0166", "Letters":"1999.01.0164",
+  "Lysis":"1999.01.0176:text=Lysis", "Menexenus":"1999.01.0180:text=Menex.",
+  "Meno":"1999.01.0178:text=Meno", "Minos":"1999.01.0180:text=Minos",
+  "Parmenides":"1999.01.0174:text=Parm.", "Phaedo":"1999.01.0170:text=Phaedo",
+  "Phaedrus":"1999.01.0174:text=Phaedrus", "Philebus":"1999.01.0174:text=Phileb.",
+  "Protagoras":"1999.01.0178:text=Prot.", "Republic":"1999.01.0168",
+  "Rival_Lovers":"1999.01.0176:text=Lovers", "Sophist":"1999.01.0172:text=Soph.",
+  "Statesman":"1999.01.0172:text=Stat.", "Symposium":"1999.01.0174:text=Sym.",
+  "Theaetetus":"1999.01.0172:text=Theaet.", "Theages":"1999.01.0176:text=Theag.",
+  "Timaeus":"1999.01.0180:text=Tim.",
+  // Aristotle (only these six are in Perseus)
+  "Eudemian_Ethics":"1999.01.0050", "Metaphysics":"1999.01.0052",
+  "Nicomachean_Ethics":"1999.01.0054", "Poetics":"1999.01.0056",
+  "Politics":"1999.01.0058", "Rhetoric":"1999.01.0060"
+};
+const PERSEUS_ABBR = {
+  "Alcibiades_1":"Plat. Alc. 1", "Alcibiades_2":"Plat. Alc. 2", "Apology":"Plat. Apol.",
+  "Charmides":"Plat. Charm.", "Clitophon":"Plat. Cleit.", "Cratylus":"Plat. Crat.",
+  "Critias":"Plat. Criti.", "Crito":"Plat. Crito", "Epinomis":"Plat. Epin.",
+  "Euthydemus":"Plat. Euthyd.", "Euthyphro":"Plat. Euthyph.", "Gorgias":"Plat. Gorg.",
+  "Hipparchus":"Plat. Hipparch.", "Hippias_Major":"Plat. Hipp. Maj.",
+  "Hippias_Minor":"Plat. Hipp. Min.", "Ion":"Plat. Ion", "Laches":"Plat. Lach.",
+  "Laws":"Plat. Laws", "Letters":"Plat. L.", "Lysis":"Plat. Lysis",
+  "Menexenus":"Plat. Menex.", "Meno":"Plat. Meno", "Minos":"Plat. Minos",
+  "Parmenides":"Plat. Parm.", "Phaedo":"Plat. Phaedo", "Phaedrus":"Plat. Phaedrus",
+  "Philebus":"Plat. Phileb.", "Protagoras":"Plat. Prot.", "Republic":"Plat. Rep.",
+  "Rival_Lovers":"Plat. Lovers", "Sophist":"Plat. Soph.", "Statesman":"Plat. Stat.",
+  "Symposium":"Plat. Sym.", "Theaetetus":"Plat. Theaet.", "Theages":"Plat. Theag.",
+  "Timaeus":"Plat. Tim.",
+  "Eudemian_Ethics":"Aristot. Eud. Eth.", "Metaphysics":"Aristot. Met.",
+  "Nicomachean_Ethics":"Aristot. Nic. Eth.", "Poetics":"Aristot. Poet.",
+  "Politics":"Aristot. Pol.", "Rhetoric":"Aristot. Rh."
+};
+
+// The human-readable citation shown in the strip header, e.g. "Plat. Meno 80a".
+// Faceted Plato (Republic, Laws) reads <book>.<page> (section dropped); other
+// Plato reads <page><section>; Aristotle reads the Bekker page+column.
+function perseusLabel(book, page, section){
+  const abbr = PERSEUS_ABBR[current && current.work];
+  if(!abbr) return null;
+  if(paginationOf(current.work)==="bekker") return `${abbr} ${page}${section||""}`;
+  if(current.faceted && book){
+    const bk = ROMAN[(book||"").replace("*","")];
+    if(bk) return `${abbr} ${bk}.${page}`;
+  }
+  return `${abbr} ${page}${section||""}`;
+}
+
+// The `doc=` parameter for Perseus's text?doc reading view. Address formats were
+// confirmed live: faceted Plato → book=N:page=STEPH; other Plato → section=<page><letter>
+// (section-level); Aristotle → bekker page=<page><column>. Spaces are %20-encoded;
+// colons/equals pass through, as Perseus's own links use them.
+function perseusDocParam(book, page, section){
+  const base = PERSEUS_DOC[current && current.work];
+  if(!base) return null;
+  let addr;
+  if(paginationOf(current.work)==="bekker"){
+    addr = `bekker%20page=${page}${section||""}`;
+  } else if(current.faceted && book){
+    const bk = ROMAN[(book||"").replace("*","")];
+    addr = bk ? `book=${bk}:page=${page}` : `section=${page}${section||""}`;
+  } else {
+    addr = `section=${page}${section||""}`;
+  }
+  return `Perseus:text:${base}:${addr}`;
+}
+function perseusUrl(docParam){
+  return "https://www.perseus.tufts.edu/hopper/text?doc="+docParam;
+}
+function workHasPerseus(work){ return !!PERSEUS_DOC[work]; }
+
+// Author/edition map (68 works). Inlined deliberately: nothing external to fetch,
+// so no silent 404 can put a work on the wrong grid. 'a' = Bekker (Aristotle),
+// 'p' = Stephanus (Plato). Grouping is by the edition that paginates the work as
+// traditionally ascribed; it is not a claim about authorship.
+const EDITIONS = {"Magna_Moralia":"a","Meno":"p","De_Incessu_Animalium":"a","Ion":"p","Euthyphro":"p","De_Generatione_Animalium":"a","Hippias_Minor":"p","De_Respiratione":"a","Meteorology":"a","Sophist":"p","Prior_Analytics":"a","De_Partibus_Animalium":"a","Apology":"p","Posterior_Analytics":"a","Critias":"p","Cratylus":"p","Euthydemus":"p","Lysis":"p","Historia_Animalium":"a","Menexenus":"p","Parmenides":"p","Hippias_Major":"p","De_Insomniis":"a","Alcibiades_2":"p","Rival_Lovers":"p","Nicomachean_Ethics":"a","Metaphysics":"a","De_Sensu":"a","Rhetoric":"a","Poetics":"a","Hipparchus":"p","Statesman":"p","Topics":"a","De_Divinatione_per_Somnum":"a","Theages":"p","Laches":"p","De_Caelo":"a","Clitophon":"p","Crito":"p","Philebus":"p","Letters":"p","De_Generatione_et_Corruptione":"a","Alcibiades_1":"p","Rhetorica_ad_Alexandrum":"a","Charmides":"p","Republic":"p","Politics":"a","De_Somno":"a","De_Interpretatione":"a","Gorgias":"p","Eudemian_Ethics":"a","De_Motu_Animalium":"a","Symposium":"p","De_Longitudine_Vitae":"a","Phaedrus":"p","Physics":"a","Laws":"p","Sophistical_Refutations":"a","De_Juventute":"a","Categories":"a","De_Anima":"a","Epinomis":"p","Timaeus":"p","De_Memoria":"a","Minos":"p","Phaedo":"p","Protagoras":"p","Theaetetus":"p"};
+
+// ---- externalised prose ---------------------------------------------------
+let COPY = null;
+function t(path, vars){
+  let v = path.split(".").reduce((o,k)=> (o||{})[k], COPY);
+  if(typeof v !== "string") return "";
+  if(vars) for(const k in vars) v = v.split("{"+k+"}").join(vars[k]);
+  return v;
+}
+function fatal(msg){
+  document.body.innerHTML =
+    '<div style="max-width:44ch;margin:18vh auto;font:15px/1.55 system-ui;color:#5b6478">'+
+    '<b style="color:#b06a3a">Could not start.</b><br>'+msg+'</div>';
+}
+
+let current = null;       // loaded work json
+let BANDS = null;         // collision_bands.json, keyed by work
+function bandsFor(work){
+  if(!BANDS) return [];
+  return (BANDS.bands||[]).filter(b=>b.work===work)
+    .sort((a,b)=>a.band_start-b.band_start);
+}
+function inBand(work,page){
+  return bandsFor(work).some(b=>page>=b.band_start && page<=b.band_end);
+}
+let metric = "count";     // count | articles
+
+// Journal/year filtering is handled entirely by the shared filter bar
+// (filterbar.js): it narrows which citations count at all, by journal and by
+// year, across every surface. A dot must pass it to be drawn or drilled.
+function passesBar(d){
+  return !window.FilterBar || FilterBar.isDefault() || FilterBar.matches(d);
+}
+function filterKey(){
+  if(!window.FilterBar || FilterBar.isDefault()) return "ALL";
+  const s=FilterBar.state;
+  return [...s.journals].sort().join(",")+"|"+s.y0+"-"+s.y1;
+}
+
+const $ = s => document.querySelector(s);
+
+function stripTags(s){ return (s||"").replace(/<[^>]+>/g," ").replace(/\s+/g," ").trim(); }
+
+// heat ramp: map a value in [0,max] to one of 7 buckets
+const RAMP = ["--h0","--h1","--h2","--h3","--h4","--h5","--h6"];
+function heatVar(v, max){
+  if(v<=0) return "--h0";
+  // perceptual-ish: sqrt so mid values aren't all washed out
+  const t = Math.sqrt(v)/Math.sqrt(max);
+  const i = Math.min(RAMP.length-1, Math.max(1, Math.round(t*(RAMP.length-1))));
+  return RAMP[i];
+}
+function isHot(v,max){ return v>0 && Math.sqrt(v)/Math.sqrt(max) > 0.55; }
+
+async function loadWork(id){
+  try{
+    const res = await fetch(DATA_DIR+FILES[id]);
+    if(!res.ok) throw new Error("HTTP "+res.status);
+    current = await res.json();
+  }catch(err){
+    console.error("loadWork", id, err);
+    $("#chart").innerHTML =
+      '<div style="padding:22px;color:var(--uncertain);font-size:13px">'+
+      t("view_b.errors.load_failed")+'</div>';
+    $("#heatgrid").innerHTML = "";
+    return;
+  }
+  _secCache=null; _bandCache=null;
+  render();
+  renderPassage();   // reset the Perseus strip for the newly-loaded work
+}
+
+// ---- section-grain values, built from DOTS (audit 2b) ----------------------
+// Formerly the bars read cells[].count (raw TSV rows, so an article citing both
+// 1097b25 and 1097b33 counted twice) while the heatmap read deduped dots. The two
+// disagreed on 159 of NE's 183 sections — 179 vs 91 at 1097b. Both surfaces now
+// resolve to distinct-article-per-locus, which is the quantity the drill panel
+// and the CSV export actually list.
+let _secCache=null, _secCacheKey="";
+function sectionCells(){
+  const ck = current.work+"|"+filterKey();
+  if(_secCache && _secCacheKey===ck) return _secCache;
+  const map=new Map();
+  for(const d of current.dots){
+    if(!passesBar(d)) continue;
+    const k=`${d.book}|${d.page}|${d.section}`;
+    let e=map.get(k);
+    if(!e){ e={book:d.book,page:d.page,section:d.section,iids:new Set(),loci:new Set()}; map.set(k,e); }
+    if(d.iid) e.iids.add(d.iid);
+    e.loci.add(`${d.iid}|${d.line==null?"":d.line}`);
+  }
+  for(const e of map.values()){ e.articles=e.iids.size; e.count=e.articles; }
+  _secCache=map; _secCacheKey=ck;
+  return map;
+}
+function cellValue(cell){ return cell.articles; }
+
+function render(){
+  renderTier();
+  renderBands();
+  renderHead();
+  renderChart();
+  renderHeatgrid();
+}
+
+function renderBands(){
+  const host=$("#bandnote");
+  const bs = bandsFor(current.work);
+  if(!bs.length){ host.innerHTML=""; host.style.display="none"; return; }
+  host.style.display="";
+  const ranges = bs.map(b=>`${b.band_start}\u2013${b.band_end}`).join(", ");
+  const missing = bs.reduce((a,b)=>a+(b.est_missing||0),0);
+  host.className="bandnote";
+  host.innerHTML=t("view_b.bands.banner_html",{ranges, missing: missing.toLocaleString()});
+}
+
+function renderTier(){
+  const el = $("#tier");
+  const key = (current.tier==="trustworthy") ? "trustworthy" : "uncertain";
+  el.className = "tier " + key;
+  el.innerHTML = `<span class="dot"></span><div>`+
+    `<div class="label">${t("view_b.tiers."+key+".label")}</div>`+
+    t("view_b.tiers."+key+".body_html")+`</div>`;
+}
+
+function renderHead(){
+  const name = current.work.replace(/_/g," ");
+  $("#workname").textContent = name;
+  const cells = [...sectionCells().values()];
+  const totalCites = cells.reduce((a,c)=>a+c.articles,0);
+  const pages = new Set(cells.map(c=>c.page)).size;
+  $("#workmeta").textContent =
+    t("view_b.work_meta", {
+      citations: totalCites.toLocaleString(),
+      sections: cells.length.toLocaleString(),
+      pages: pages.toLocaleString()
+    }) + (current.faceted ? t("view_b.work_meta_faceted_suffix") : "");
+}
+
+// rank a book label in reading order, tolerant of the "*" common-book marker
+function bookRank(b){
+  const i = BOOK_ORDER.indexOf((b||"").replace("*",""));
+  return i<0 ? 999 : i;
+}
+function orderedBooks(){
+  const present = [...new Set([...sectionCells().values()].map(c=>c.book))];
+  return present.sort((a,b)=> bookRank(a)-bookRank(b));
+}
+
+// section-grain sequence across all books, in reading order, for the bar chart
+function sectionSequence(){
+  const books = orderedBooks();
+  const seq = [];
+  const all=[...sectionCells().values()];
+  for(const book of books){
+    const cells = all
+      .filter(c=>c.book===book)
+      .sort((a,b)=> a.page-b.page || SECTIONS.indexOf(a.section)-SECTIONS.indexOf(b.section));
+    for(const c of cells) seq.push({cell:c, book});
+  }
+  return {seq, books};
+}
+
+// ---- BAR CHART (section grain, magnitude view) ----------------------------
+function renderChart(){
+  const host = $("#chart");
+  host.innerHTML = "";
+  const {seq, books} = sectionSequence();
+  if(!seq.length) return;
+
+  let max=0; for(const s of seq){ const v=cellValue(s.cell); if(v>max)max=v; }
+  max = Math.max(max,1);
+
+  const W = host.clientWidth || 1000;
+  const H = 300;                       // generous height
+  const padL = 46, padR = 12, padT = 14, padB = 40;
+  const plotW = W - padL - padR;
+  const plotH = H - padT - padB;
+  const n = seq.length;
+  const slot = plotW / n;
+  const bw = Math.max(1.5, slot*0.82);
+  const metricName = t("view_b.axis.count");
+
+  const NS="http://www.w3.org/2000/svg";
+  const svg = document.createElementNS(NS,"svg");
+  svg.setAttribute("viewBox",`0 0 ${W} ${H}`);
+  svg.setAttribute("height",H);
+
+  // y grid + ticks (nice round numbers)
+  const ticks = niceTicks(max, 4);
+  for(const t of ticks){
+    const y = padT + plotH - (t/max)*plotH;
+    const gl=document.createElementNS(NS,"line");
+    gl.setAttribute("class","grid-line");
+    gl.setAttribute("x1",padL); gl.setAttribute("x2",W-padR);
+    gl.setAttribute("y1",y); gl.setAttribute("y2",y);
+    svg.appendChild(gl);
+    const tx=document.createElementNS(NS,"text");
+    tx.setAttribute("class","ytick");
+    tx.setAttribute("x",padL-7); tx.setAttribute("y",y+3);
+    tx.setAttribute("text-anchor","end"); tx.textContent=t;
+    svg.appendChild(tx);
+  }
+  // y axis label
+  const yl=document.createElementNS(NS,"text");
+  yl.setAttribute("class","ylabel");
+  yl.setAttribute("transform",`rotate(-90)`);
+  yl.setAttribute("x",-(padT+plotH/2)); yl.setAttribute("y",13);
+  yl.setAttribute("text-anchor","middle"); yl.textContent=metricName;
+  svg.appendChild(yl);
+
+  // baseline
+  const base=document.createElementNS(NS,"line");
+  base.setAttribute("class","axis-line");
+  base.setAttribute("x1",padL); base.setAttribute("x2",W-padR);
+  base.setAttribute("y1",padT+plotH); base.setAttribute("y2",padT+plotH);
+  svg.appendChild(base);
+
+  // bars, tracking book boundaries for x-axis dividers/labels
+  let idx=0;
+  const bookStartIdx={};
+  for(const s of seq){
+    if(bookStartIdx[s.book]===undefined) bookStartIdx[s.book]=idx;
+    const v = cellValue(s.cell);
+    const x = padL + idx*slot + (slot-bw)/2;
+    const h = (v/max)*plotH;
+    const y = padT + plotH - h;
+    const bar=document.createElementNS(NS,"rect");
+    bar.setAttribute("class","bar");
+    bar.setAttribute("x",x); bar.setAttribute("y",y);
+    bar.setAttribute("width",bw); bar.setAttribute("height",Math.max(0,h));
+    bar.setAttribute("rx",Math.min(1.5,bw/2));
+    bar.setAttribute("fill",`var(${heatVar(v,max)})`);
+    const c=s.cell;
+    bar.addEventListener("click",()=>openDrill(c));
+    bar.addEventListener("mousemove",e=>showTipRaw(e,`${c.page}${c.section}`,v,c.articles));
+    bar.addEventListener("mouseleave",hideTip);
+    svg.appendChild(bar);
+    idx++;
+  }
+
+  // book dividers + labels (only for faceted works with real books)
+  if(current.faceted){
+    for(const book of books){
+      const startI = bookStartIdx[book];
+      if(startI===undefined) continue;
+      const x = padL + startI*slot;
+      if(startI>0){
+        const dv=document.createElementNS(NS,"line");
+        dv.setAttribute("class","bookdiv");
+        dv.setAttribute("x1",x); dv.setAttribute("x2",x);
+        dv.setAttribute("y1",padT); dv.setAttribute("y2",padT+plotH+6);
+        svg.appendChild(dv);
+      }
+      // label centered over this book's span
+      const nextBook = books[books.indexOf(book)+1];
+      const endI = nextBook!==undefined && bookStartIdx[nextBook]!==undefined
+                   ? bookStartIdx[nextBook] : n;
+      const cx = padL + ((startI+endI)/2)*slot;
+      const tg=document.createElementNS(NS,"text");
+      tg.setAttribute("class","booktag"+(book.endsWith("*")?" common":""));
+      tg.setAttribute("x",cx); tg.setAttribute("y",padT+plotH+26);
+      tg.setAttribute("text-anchor","middle");
+      tg.textContent = book.replace("*","");
+      svg.appendChild(tg);
+    }
+    // "Book" caption at far left of the axis row
+    const cap=document.createElementNS(NS,"text");
+    cap.setAttribute("class","ylabel");
+    cap.setAttribute("x",padL-40); cap.setAttribute("y",padT+plotH+26);
+    cap.textContent="Book";
+    svg.appendChild(cap);
+  }
+
+  host.appendChild(svg);
+}
+
+function niceTicks(max, count){
+  const raw = max/count;
+  const mag = Math.pow(10, Math.floor(Math.log10(raw)));
+  const norm = raw/mag;
+  const step = (norm>=5?5:norm>=2?2:1)*mag;
+  const ticks=[];
+  for(let t=0;t<=max;t+=step) ticks.push(Math.round(t));
+  return ticks;   // audit: no tick above the plot top
+}
+
+// ---- HEATMAP GRID (line-band grain, map view) -----------------------------
+function renderHeatgrid(){
+  const host = $("#heatgrid");
+  host.innerHTML = "";
+  const books = orderedBooks();
+  host.className = "heatgrid" + ((!current.faceted || books.length<=1) ? " single" : "");
+
+  // colour scale from line-band values (built from dots)
+  const bandCells = buildBandCells();   // book|page|sec|band -> {count,articles}
+  let max=0; for(const v of bandCells.values()){ const val=metric==="articles"?v.articles:v.count; if(val>max)max=val; }
+  max=Math.max(max,1);
+
+  for(const book of books){
+    const panel=document.createElement("div");
+    if(current.faceted && book){
+      const common=book.endsWith("*");
+      panel.innerHTML=`<div class="book-label">Book ${book.replace("*","")}
+        ${common?'<span class="common">common</span>':''}</div>`;
+    }
+    const strip=document.createElement("div"); strip.className="strip";
+    const pages=[...new Set([...bandCells.keys()]
+      .filter(k=>k.startsWith(book+"|")).map(k=>+k.split("|")[1]))].sort((a,b)=>a-b);
+
+    for(const page of pages){
+      const col=document.createElement("div");
+      const flagged = inBand(current.work, page);
+      col.className="pgcol"+(page%5===0?" mark":"")+(flagged?" underres":"");
+      if(flagged) col.title = t("view_b.bands.marker_label");
+      const secrow=document.createElement("div"); secrow.className="seccol";
+      // for Plato: a-e each as single band; for Bekker: a,b each split into 3 bands
+      const secs = sectionsFor(current.work);
+      const banded = hasLineBands(current.work);
+      const bandList = banded ? [0,1,2,UNSPEC] : [0];
+      for(const sec of secs){
+        const stack=document.createElement("div"); stack.className="bandstack";
+        for(const band of bandList){
+          const key=`${book}|${page}|${sec}|${band}`;
+          const v=bandCells.get(key);
+          const cell=document.createElement("div");
+          if(v){
+            const val=v.articles;
+            cell.className="cell"+(band===UNSPEC?" unspec":"");
+            cell.style.background=`var(${heatVar(val,max)})`;
+            const bandLbl = banded ? `${sec}${BAND_LABEL[band]}` : sec;
+            const locTip = band===UNSPEC
+              ? `${page}${sec} · no line given`
+              : `${page}${bandLbl}`;
+            cell.addEventListener("click",()=>openDrillBand(book,page,sec,band,v));
+            cell.addEventListener("mousemove",e=>showTipRaw(e,locTip,val));
+            cell.addEventListener("mouseleave",hideTip);
+            cell.addEventListener("touchstart",e=>showTipRaw(e.touches[0],locTip,val),{passive:true});
+          } else {
+            cell.className="cell empty";
+          }
+          stack.appendChild(cell);
+        }
+        secrow.appendChild(stack);
+      }
+      col.appendChild(secrow);
+      const pnum=document.createElement("div"); pnum.className="pnum"; pnum.textContent=page;
+      col.appendChild(pnum);
+      strip.appendChild(col);
+    }
+    panel.appendChild(strip);
+    host.appendChild(panel);
+  }
+}
+
+// build line-band cells from dots: book|page|sec|band -> {count, articles, iids}
+let _bandCache=null, _bandCacheKey="";
+function buildBandCells(){
+  const ck = current.work+"|"+filterKey();
+  if(_bandCache && _bandCacheKey===ck) return _bandCache;
+  const map=new Map();
+  const banded = hasLineBands(current.work);
+  for(const d of current.dots){
+    if(!passesBar(d)) continue;
+    const band = banded ? bandOf(d.line) : 0;
+    const k=`${d.book}|${d.page}|${d.section}|${band}`;
+    let e=map.get(k); if(!e){ e={count:0,articles:0,iids:new Set()}; map.set(k,e); }
+    e.count++; if(d.iid) e.iids.add(d.iid);
+  }
+  for(const e of map.values()) e.articles=e.iids.size;
+  _bandCache=map; _bandCacheKey=ck;
+  return map;
+}
+
+// Line bands. Index 0..2 are real line ranges; UNSPEC is a distinct fourth band
+// for citations carrying NO line number (13.5% of NE). Folding those into band 0
+// claimed a precision the source never had — see audit 2c.
+const LINEBANDS=[[1,15],[16,30],[31,99]];
+const UNSPEC = 3;
+function bandOf(line){
+  if(line==null) return UNSPEC;
+  for(let i=0;i<LINEBANDS.length;i++){ if(line>=LINEBANDS[i][0]&&line<=LINEBANDS[i][1])return i; }
+  return 2; }
+const BAND_LABEL = ['\u2081','\u2082','\u2083','\u2093'];   // ₁ ₂ ₃ ₓ
+
+// Two independent questions, formerly conflated in one hardcoded list of three
+// (audit 2d): which PAGINATION SYSTEM the work uses — a property of the edition,
+// true of all 32 Aristotle works — and whether we draw LINE BANDS, a display
+// choice for the big faceted treatises. Conflating them put 29 Aristotle works
+// (18,815 citations: Politics, Physics, De Anima, Rhetoric, Poetics, Posterior
+// Analytics ...) on a Stephanus a-e grid with three permanently empty columns.
+function paginationOf(work){
+  return (typeof EDITIONS!=="undefined" && EDITIONS[work]==="a") ? "bekker" : "stephanus"; }
+function sectionsFor(work){
+  return paginationOf(work)==="bekker" ? ["a","b"] : SECTIONS; }
+function hasLineBands(work){
+  return paginationOf(work)==="bekker" && !!(current && current.faceted); }
+
+function openDrillBand(book,page,sec,band,agg){
+  // reuse the section drill but scope to this line-band
+  const banded = hasLineBands(current.work);
+  const dots = current.dots.filter(d=>{
+    if(d.book!==book||d.page!==page||d.section!==sec)return false;
+    if(!passesBar(d)) return false;
+    if(banded) return bandOf(d.line)===band;
+    return true;
+  });
+  const bandLbl = !banded ? `${page}${sec}`
+    : band===UNSPEC ? `${page}${sec} (no line given)`
+    : `${page}${sec}${BAND_LABEL[band]}`;
+  setPassageLocus(book, page, sec);
+  openDrillDots(dots, `${current.work.replace(/_/g," ")} ${bandLbl}`);
+}
+
+// ---- tooltip --------------------------------------------------------------
+const tip = $("#tooltip");
+function showTipRaw(e,locLabel,v){
+  tip.innerHTML = `<span class="tt-loc">${locLabel}</span> · ${v} `
+    + t("view_b.axis.count");
+  tip.style.opacity="1";
+  tip.style.left=(e.clientX+12)+"px";
+  tip.style.top=(e.clientY+12)+"px";
+}
+function hideTip(){ tip.style.opacity="0"; }
+
+// ---- drill-in -------------------------------------------------------------
+function openDrill(cell){
+  // section-grain drill (from a bar): all dots at this book/page/section that
+  // pass the active journal/year filter, so the drill count matches the bar.
+  const dots = current.dots.filter(d =>
+    d.page===cell.page && d.section===cell.section && d.book===cell.book
+    && passesBar(d));
+  setPassageLocus(cell.book, cell.page, cell.section);
+  openDrillDots(dots, `${current.work.replace(/_/g," ")} ${cell.page}${cell.section}`);
+}
+
+// Resolve a DOI to the most reliable landing page. The corpus is JSTOR-
+// delivered, and for JSTOR DOIs (10.2307/<id>) the suffix is the JSTOR stable
+// id, so jstor.org/stable/<id> lands on the article directly and sidesteps the
+// gaps in doi.org resolution for older JSTOR items. Non-JSTOR DOIs (e.g. 10.1086,
+// Chicago) keep the canonical doi.org link.
+function citeUrl(doi){
+  if(!doi) return null;
+  const m = /^10\.2307\/(.+)$/.exec(doi);
+  return m ? `https://www.jstor.org/stable/${m[1]}` : `https://doi.org/${doi}`;
+}
+
+function openDrillDots(dots, locLabel){
+  // Audit 2a: the header used dots.length, so an article citing 1097b25 AND
+  // 1097b33 was counted twice (91 reported vs 53 real at NE 1097b). Group by
+  // article; show each once with all of its loci in that passage.
+  const byArticle = new Map();
+  for(const d of dots){
+    const k = d.iid || (stripTags(d.title)+"|"+(d.year||""));
+    let e = byArticle.get(k);
+    if(!e){ e={...d, loci:new Set()}; byArticle.set(k,e); }
+    e.loci.add(`${d.page}${d.section}${d.line==null?"":d.line}`);
+  }
+  const arts = [...byArticle.values()]
+    .sort((a,b)=> String(b.year||"").localeCompare(String(a.year||"")));
+
+  $("#drillLoc").textContent = locLabel.replace(/\s(\d)/, " · $1");
+  $("#drillCnt").textContent = arts.length===1
+    ? t("view_b.drill.count_one")
+    : t("view_b.drill.count_many", {n: arts.length.toLocaleString()});
+
+  const body = $("#drillBody");
+  body.innerHTML = "";
+  if(!arts.length){
+    const e=document.createElement("div"); e.className="cite";
+    e.textContent = t("view_b.drill.empty"); body.appendChild(e);
+  }
+  for(const d of arts){
+    const el = document.createElement("div");
+    el.className = "cite";
+    const url = citeUrl(d.doi);
+    const loci = [...d.loci].sort();
+    el.innerHTML =
+      `<div class="t">${stripTags(d.title)||"(untitled)"}</div>`+
+      (d.author?`<div class="a">${stripTags(d.author)}</div>`:"")+
+      `<div class="j">${d.journal||""} · ${d.year||""}`+
+      (url?` · <a class="doi" href="${url}" target="_blank" rel="noopener">${d.doi}</a>`:"")+
+      `</div>`+
+      (loci.length>1?`<div class="loci">cites ${loci.join(", ")}</div>`:"");
+    body.appendChild(el);
+  }
+  currentDrillDots = dots;
+  currentDrillLoc = locLabel;
+  // Offer the one-click route to the passage frame when Perseus covers this work.
+  $("#pvFromDrill").hidden = !(workHasPerseus(current.work) && pvDoc);
+  $("#drill").classList.add("open");
+  $("#scrim").classList.add("open");
+}
+let currentDrillDots=[], currentDrillLoc="";
+function closeDrill(){ $("#drill").classList.remove("open"); $("#scrim").classList.remove("open"); }
+
+// ---- Perseus passage frame ------------------------------------------------
+// A collapsed strip below the heatmap that frames the Perseus text?doc page for
+// the last-clicked locus. Collapsed by default so idle clicking never fires a
+// request to Tufts; it loads only when the reader expands it. pvRef is the
+// human label shown in the header; pvDoc is the doc= parameter the iframe loads;
+// pvLoaded tracks which doc is currently framed.
+let pvRef=null, pvDoc=null, pvExpanded=false, pvLoaded=null;
+
+// Called when a work loads: hide the strip entirely (showing an explicit note)
+// when Perseus has no text for it, otherwise collapse it and clear the locus.
+function renderPassage(){
+  const has = workHasPerseus(current && current.work);
+  $("#pvNone").hidden = has;
+  $("#passage").hidden = !has;
+  pvRef=null; pvDoc=null; pvExpanded=false; pvLoaded=null;
+  $("#pvStrip").setAttribute("aria-expanded","false");
+  $("#pvBody").hidden = true;
+  $("#pvFrame").innerHTML = "";
+  setPassageLabel();
+}
+
+function setPassageLabel(){
+  const hint = "— click a passage above";
+  $("#pvRefStrip").textContent = pvRef || hint;
+  $("#pvRefHead").textContent  = pvRef || hint;
+  const open = $("#pvOpen");
+  if(pvDoc){ open.href = perseusUrl(pvDoc); open.style.pointerEvents=""; open.style.opacity=""; }
+  else { open.removeAttribute("href"); open.style.pointerEvents="none"; open.style.opacity=".4"; }
+}
+
+// Remember the clicked locus; follow it in the frame only if already expanded.
+function setPassageLocus(book,page,section){
+  if(!workHasPerseus(current.work)) return;
+  const doc = perseusDocParam(book,page,section);
+  if(!doc) return;
+  pvRef = perseusLabel(book,page,section);
+  pvDoc = doc;
+  setPassageLabel();
+  if(pvExpanded && pvLoaded!==pvDoc) pvLoadFrame();
+}
+
+// The header always shows the citation and a working out-link, so even if the
+// frame itself fails to render the reader has the passage reference plus a link.
+function pvLoadFrame(){
+  if(!pvDoc) return;
+  const url = perseusUrl(pvDoc);
+  $("#pvFrame").innerHTML =
+    `<div class="pv-fallback" id="pvFallback">Loading <b>${pvRef||""}</b> from Perseus…`+
+    ` If nothing appears, <a href="${url}" target="_blank" rel="noopener">open it on Perseus ↗</a>.</div>`+
+    `<iframe class="pv-iframe" title="Perseus passage: ${pvRef||""}" src="${url}"`+
+    ` referrerpolicy="no-referrer-when-downgrade"></iframe>`;
+  const fr = $("#pvFrame").querySelector("iframe");
+  fr.addEventListener("load", ()=>{ const f=$("#pvFallback"); if(f) f.style.display="none"; });
+  pvLoaded = pvDoc;
+}
+
+function pvToggle(){
+  pvExpanded = !pvExpanded;
+  $("#pvStrip").setAttribute("aria-expanded", pvExpanded?"true":"false");
+  $("#pvBody").hidden = !pvExpanded;
+  if(pvExpanded){
+    if(pvDoc && pvLoaded!==pvDoc) pvLoadFrame();
+    else if(!pvDoc) $("#pvFrame").innerHTML =
+      `<div class="pv-fallback">Click a passage in the chart or heatmap above to load it here.</div>`;
+  }
+}
+
+// Open the passage frame from inside the drill panel: close the drill, expand
+// the strip, load the current locus, and scroll it into view. This is the
+// one-click path from a cell to its passage — otherwise the drill overlay sits
+// on top of the strip and has to be dismissed first.
+function openPassageFromDrill(){
+  closeDrill();
+  if(!pvExpanded) pvToggle();
+  else if(pvDoc && pvLoaded!==pvDoc) pvLoadFrame();
+  const el=$("#passage"); if(el) el.scrollIntoView({behavior:"smooth", block:"start"});
+}
+
+function initPassage(){
+  $("#pvStrip").addEventListener("click", pvToggle);
+  $("#pvReset").addEventListener("click", ()=>{ if(pvDoc) pvLoadFrame(); });
+  $("#pvFromDrill").addEventListener("click", openPassageFromDrill);
+}
+
+// ---- export ---------------------------------------------------------------
+function exportCsv(){
+  // Audit finding 5: book and line were dropped, so a band-level export lost the
+  // very distinction that scoped it. Both are now columns, and `locus` is full.
+  const rows = [["work","book","page","section","line","locus",
+                 "journal","year","author","title","doi"]];
+  for(const d of currentDrillDots){
+    const line = (d.line==null ? "" : d.line);
+    rows.push([
+      current.work, d.book||"", d.page, d.section, line,
+      `${d.page}${d.section}${line}`,
+      d.journal||"", d.year||"",
+      stripTags(d.author), stripTags(d.title),
+      citeUrl(d.doi) || ""
+    ]);
+  }
+  const csv = rows.map(r=>r.map(x=>{
+    const s=String(x); return /[",\n]/.test(s)?'"'+s.replace(/"/g,'""')+'"':s;
+  }).join(",")).join("\n");
+  const blob = new Blob([csv],{type:"text/csv"});
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(blob);
+  a.download = `${current.work}_${currentDrillLoc.replace(/[^\w]/g,"")}.csv`;
+  a.click();
+}
+
+// ---- wire up --------------------------------------------------------------
+// The work selector is grouped by tier so the distinction is visible before the
+// chart loads; within each group, most-cited first. Populated from works_index.
+function buildWorkSelector(){
+  const sel = $("#work");
+  sel.innerHTML = "";
+  for(const [tier,label] of [["trustworthy","Reliable coverage (80%+ placed)"],
+                             ["uncertain","Partial coverage (under 80% placed)"]]){
+    const items = WORKS.filter(w=>w.tier===tier)
+                       .sort((a,b)=>b.citations-a.citations);
+    if(!items.length) continue;
+    const og = document.createElement("optgroup");
+    og.label = label;
+    for(const w of items){
+      const o=document.createElement("option");
+      o.value=w.work;
+      o.textContent=`${w.work.replace(/_/g," ")}  (${w.citations.toLocaleString()})`;
+      og.appendChild(o);
+    }
+    sel.appendChild(og);
+  }
+}
+
+function initControls(){
+  const sel = $("#work");
+  sel.addEventListener("change", e=>loadWork(e.target.value));
+  $("#metric").addEventListener("click", e=>{
+    if(!e.target.dataset.metric) return;
+    metric=e.target.dataset.metric;
+    for(const b of $("#metric").children) b.setAttribute("aria-pressed", b.dataset.metric===metric);
+    render();
+  });
+  $("#drillClose").addEventListener("click", closeDrill);
+  $("#scrim").addEventListener("click", closeDrill);
+  $("#exportBtn").addEventListener("click", exportCsv);
+  document.addEventListener("keydown", e=>{ if(e.key==="Escape") closeDrill(); });
+  initPassage();
+}
+
+function applyCopy(root){
+  for(const el of (root||document).querySelectorAll("[data-copy]")){
+    const v = t(el.dataset.copy);
+    if(v) el.textContent = v;
+  }
+  document.title = t("view_b.page_title") || document.title;
+}
+
+// After 2b both surfaces show distinct-article-per-locus, so a citations vs
+// distinct-articles toggle would offer two labels for one quantity. Hidden
+// rather than left as a control that does nothing.
+function retireMetricToggle(){
+  const m = $("#metric");
+  if(m && m.parentElement) m.parentElement.style.display = "none";
+}
+
+// Re-render on resize: the SVG is laid out in px against host.clientWidth.
+let _rz;
+window.addEventListener("resize", ()=>{
+  clearTimeout(_rz);
+  _rz = setTimeout(()=>{ if(current) { renderChart(); renderHeatgrid(); } }, 150);
+});
+
+fetch(DATA_DIR+"copy.json")
+  .then(r=>{ if(!r.ok) throw new Error("HTTP "+r.status); return r.json(); })
+  .then(c=>{
+    COPY = c;
+    applyCopy();
+    // Non-fatal: without bands the overlay is absent, but the page still works.
+    fetch(DATA_DIR+"collision_bands.json")
+      .then(r=>r.ok?r.json():null)
+      .then(b=>{ BANDS=b; if(current) renderBands(), renderHeatgrid(); })
+      .catch(e=>console.warn("collision_bands.json unavailable", e));
+    retireMetricToggle();
+    initControls();
+
+    // Load the work index, filter metadata and journal grouping together, then
+    // populate the selector, mount the filter bar and open a default work. The
+    // index is what makes every work available rather than a hardcoded pair.
+    Promise.all([
+      fetch(DATA_DIR+"works_index.json").then(r=>r.json()),
+      fetch(DATA_DIR+"meta.json").then(r=>r.json()),
+      fetch(DATA_DIR+"journal_groups.json").then(r=>r.json()).catch(()=>null)
+    ]).then(([index, meta, groups])=>{
+      WORKS = index;
+      for(const w of WORKS) FILES[w.work] = w.file;   // relative to DATA_DIR
+      buildWorkSelector();
+
+      if(window.FilterBar){
+        FilterBar.mount($("#filterbar"), meta, ()=>{
+          _secCache=null; _bandCache=null;   // filter changed: drop derived caches
+          if(current) render();
+        }, groups);
+      }
+
+      // open the most-cited well-resolved work by default
+      const first = WORKS.filter(w=>w.tier==="trustworthy")
+                         .sort((a,b)=>b.citations-a.citations)[0] || WORKS[0];
+      if(first){ $("#work").value = first.work; loadWork(first.work); }
+    }).catch(e=>{
+      console.warn("viewer index unavailable — falling back to a single work", e);
+      // last-ditch fallback so the page is never blank
+      FILES["Nicomachean_Ethics"] = "view_b/Nicomachean_Ethics.json";
+      const o=document.createElement("option");
+      o.value="Nicomachean_Ethics"; o.textContent="Nicomachean Ethics";
+      $("#work").appendChild(o);
+      loadWork("Nicomachean_Ethics");
+    });
+  })
+  .catch(err=>{
+    console.error("copy.json", err);
+    fatal("The text file <code>copy.json</code> could not be loaded or is not "+
+          "valid JSON. If you just edited it, check for a stray comma or quote.");
+  });
+</script>
+</body>
+</html>

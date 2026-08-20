@@ -1,16 +1,32 @@
 {
  "work": "De_Generatione_et_Corruptione",
  "faceted": false,
+ "system": "bekker",
  "tier": "uncertain",
  "cells": [
   {
    "book": "",
    "page": 314,
    "section": "a",
-   "count": 4,
-   "articles": 4,
+   "band": 0,
+   "count": 6,
+   "articles": 5,
    "by_journal": {
-    "Phronesis": 3,
+    "Phronesis": 2,
+    "Harvard Studies in Classical Philology": 1,
+    "Hermes": 2,
+    "Mnemosyne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 314,
+   "section": "a",
+   "band": 1,
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 1,
     "Méthexis": 1
    }
   },
@@ -18,6 +34,7 @@
    "book": "",
    "page": 314,
    "section": "b",
+   "band": 1,
    "count": 1,
    "articles": 1,
    "by_journal": {
@@ -28,17 +45,45 @@
    "book": "",
    "page": 315,
    "section": "a",
-   "count": 2,
-   "articles": 2,
+   "band": 0,
+   "count": 4,
+   "articles": 3,
    "by_journal": {
     "History of Philosophy Quarterly": 1,
-    "The Classical Quarterly": 1
+    "The Classical Quarterly": 1,
+    "Harvard Studies in Classical Philology": 2
    }
   },
   {
    "book": "",
    "page": 315,
    "section": "b",
+   "band": 1,
+   "count": 6,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 1,
+    "Rheinisches Museum für Philologie": 5
+   }
+  },
+  {
+   "book": "",
+   "page": 316,
+   "section": "a",
+   "band": 0,
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 1,
+    "Méthexis": 1,
+    "Hermes": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 316,
+   "section": "a",
+   "band": 1,
    "count": 1,
    "articles": 1,
    "by_journal": {
@@ -48,49 +93,89 @@
   {
    "book": "",
    "page": 316,
+   "section": "b",
+   "band": 0,
+   "count": 9,
+   "articles": 2,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 1,
+    "Harvard Studies in Classical Philology": 8
+   }
+  },
+  {
+   "book": "",
+   "page": 316,
+   "section": "b",
+   "band": 1,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Harvard Studies in Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 316,
+   "section": "b",
+   "band": 2,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Mnemosyne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 317,
    "section": "a",
-   "count": 3,
+   "band": 1,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 317,
+   "section": "a",
+   "band": 2,
+   "count": 2,
+   "articles": 1,
+   "by_journal": {
+    "Phronesis": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 317,
+   "section": "b",
+   "band": 0,
+   "count": 4,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 2,
+    "Harvard Studies in Classical Philology": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 317,
+   "section": "b",
+   "band": 1,
+   "count": 5,
    "articles": 3,
    "by_journal": {
     "Phronesis": 1,
-    "Revue de Philosophie Ancienne": 1,
-    "Méthexis": 1
-   }
-  },
-  {
-   "book": "",
-   "page": 316,
-   "section": "b",
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Revue de Philosophie Ancienne": 1
-   }
-  },
-  {
-   "book": "",
-   "page": 317,
-   "section": "a",
-   "count": 3,
-   "articles": 2,
-   "by_journal": {
-    "Phronesis": 3
-   }
-  },
-  {
-   "book": "",
-   "page": 317,
-   "section": "b",
-   "count": 3,
-   "articles": 2,
-   "by_journal": {
-    "Phronesis": 3
+    "Harvard Studies in Classical Philology": 3,
+    "Mnemosyne": 1
    }
   },
   {
    "book": "",
    "page": 318,
    "section": "a",
+   "band": 1,
    "count": 2,
    "articles": 2,
    "by_journal": {
@@ -101,10 +186,33 @@
    "book": "",
    "page": 318,
    "section": "b",
-   "count": 3,
-   "articles": 3,
+   "band": 0,
+   "count": 2,
+   "articles": 2,
    "by_journal": {
     "The Classical Review": 1,
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 318,
+   "section": "b",
+   "band": 1,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 318,
+   "section": "b",
+   "band": 2,
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
     "History of Philosophy Quarterly": 1,
     "Phronesis": 1
    }
@@ -113,36 +221,145 @@
    "book": "",
    "page": 319,
    "section": "a",
-   "count": 5,
+   "band": 0,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 319,
+   "section": "a",
+   "band": 1,
+   "count": 3,
    "articles": 2,
    "by_journal": {
-    "Phronesis": 5
+    "Phronesis": 3
+   }
+  },
+  {
+   "book": "",
+   "page": 319,
+   "section": "a",
+   "band": 2,
+   "count": 2,
+   "articles": 1,
+   "by_journal": {
+    "Phronesis": 2
    }
   },
   {
    "book": "",
    "page": 319,
    "section": "b",
-   "count": 2,
-   "articles": 2,
+   "band": 0,
+   "count": 5,
+   "articles": 5,
    "by_journal": {
-    "Phronesis": 2
+    "Phronesis": 3,
+    "Rheinisches Museum für Philologie": 1,
+    "Illinois Classical Studies": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 319,
+   "section": "b",
+   "band": 1,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Rheinisches Museum für Philologie": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 319,
+   "section": "b",
+   "band": 2,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Rheinisches Museum für Philologie": 1
    }
   },
   {
    "book": "",
    "page": 320,
    "section": "a",
-   "count": 2,
-   "articles": 2,
+   "band": 0,
+   "count": 3,
+   "articles": 3,
    "by_journal": {
-    "Phronesis": 2
+    "Phronesis": 2,
+    "Rheinisches Museum für Philologie": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 320,
+   "section": "a",
+   "band": 1,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Rheinisches Museum für Philologie": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 320,
+   "section": "a",
+   "band": 2,
+   "count": 2,
+   "articles": 1,
+   "by_journal": {
+    "Harvard Studies in Classical Philology": 2
    }
   },
   {
    "book": "",
    "page": 320,
    "section": "b",
+   "band": 0,
+   "count": 3,
+   "articles": 1,
+   "by_journal": {
+    "Harvard Studies in Classical Philology": 3
+   }
+  },
+  {
+   "book": "",
+   "page": 320,
+   "section": "b",
+   "band": 1,
+   "count": 7,
+   "articles": 3,
+   "by_journal": {
+    "Phronesis": 1,
+    "Harvard Studies in Classical Philology": 5,
+    "Rheinisches Museum für Philologie": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 321,
+   "section": "a",
+   "band": 0,
+   "count": 6,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 1,
+    "Harvard Studies in Classical Philology": 5
+   }
+  },
+  {
+   "book": "",
+   "page": 321,
+   "section": "a",
+   "band": 1,
    "count": 1,
    "articles": 1,
    "by_journal": {
@@ -153,61 +370,151 @@
    "book": "",
    "page": 321,
    "section": "a",
-   "count": 2,
-   "articles": 2,
+   "band": 2,
+   "count": 1,
+   "articles": 1,
    "by_journal": {
-    "Phronesis": 2
+    "Phronesis": 1
    }
   },
   {
    "book": "",
    "page": 321,
    "section": "b",
-   "count": 3,
-   "articles": 3,
+   "band": 0,
+   "count": 2,
+   "articles": 2,
    "by_journal": {
-    "Revue Internationale de Philosophie": 1,
     "Phronesis": 1,
     "History of Philosophy Quarterly": 1
    }
   },
   {
    "book": "",
-   "page": 322,
-   "section": "a",
-   "count": 4,
-   "articles": 3,
+   "page": 321,
+   "section": "b",
+   "band": 1,
+   "count": 2,
+   "articles": 2,
    "by_journal": {
     "Revue Internationale de Philosophie": 1,
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 322,
+   "section": "a",
+   "band": 0,
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
     "Phronesis": 1,
-    "History of Philosophy Quarterly": 2
+    "History of Philosophy Quarterly": 1,
+    "Harvard Studies in Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 322,
+   "section": "a",
+   "band": 1,
+   "count": 4,
+   "articles": 4,
+   "by_journal": {
+    "Revue Internationale de Philosophie": 1,
+    "History of Philosophy Quarterly": 1,
+    "Illinois Classical Studies": 1,
+    "Mnemosyne": 1
    }
   },
   {
    "book": "",
    "page": 322,
    "section": "b",
-   "count": 5,
+   "band": 0,
+   "count": 4,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 3,
+    "Mnemosyne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 322,
+   "section": "b",
+   "band": 1,
+   "count": 2,
    "articles": 1,
    "by_journal": {
-    "Phronesis": 5
+    "Phronesis": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 322,
+   "section": "b",
+   "band": 2,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Hermes": 1
    }
   },
   {
    "book": "",
    "page": 323,
    "section": "a",
+   "band": 0,
+   "count": 4,
+   "articles": 3,
+   "by_journal": {
+    "Phronesis": 1,
+    "Méthexis": 1,
+    "Harvard Studies in Classical Philology": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 323,
+   "section": "b",
+   "band": 0,
    "count": 2,
    "articles": 2,
    "by_journal": {
     "Phronesis": 1,
-    "Méthexis": 1
+    "Revue de Théologie et de Philosophie": 1
    }
   },
   {
    "book": "",
    "page": 323,
    "section": "b",
+   "band": 1,
+   "count": 3,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 2,
+    "Mnemosyne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 323,
+   "section": "b",
+   "band": 2,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 324,
+   "section": "a",
+   "band": 0,
    "count": 3,
    "articles": 2,
    "by_journal": {
@@ -218,20 +525,56 @@
    "book": "",
    "page": 324,
    "section": "a",
-   "count": 6,
-   "articles": 4,
+   "band": 1,
+   "count": 2,
+   "articles": 2,
    "by_journal": {
-    "Phronesis": 6
+    "Phronesis": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 324,
+   "section": "a",
+   "band": 2,
+   "count": 3,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 3
    }
   },
   {
    "book": "",
    "page": 324,
    "section": "b",
-   "count": 3,
-   "articles": 3,
+   "band": 0,
+   "count": 4,
+   "articles": 4,
    "by_journal": {
+    "Phronesis": 2,
     "The Classical Quarterly": 1,
+    "Hermes": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 324,
+   "section": "b",
+   "band": 1,
+   "count": 5,
+   "articles": 1,
+   "by_journal": {
+    "Harvard Studies in Classical Philology": 5
+   }
+  },
+  {
+   "book": "",
+   "page": 324,
+   "section": "b",
+   "band": 2,
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
     "The Classical Review": 2
    }
   },
@@ -239,10 +582,37 @@
    "book": "",
    "page": 325,
    "section": "a",
-   "count": 2,
-   "articles": 2,
+   "band": 0,
+   "count": 5,
+   "articles": 4,
+   "by_journal": {
+    "The Classical Review": 2,
+    "Harvard Studies in Classical Philology": 2,
+    "Hermes": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 325,
+   "section": "a",
+   "band": 1,
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "The Classical Review": 2,
+    "Méthexis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 325,
+   "section": "a",
+   "band": 2,
+   "count": 4,
+   "articles": 4,
    "by_journal": {
     "Phronesis": 1,
+    "The Classical Review": 2,
     "Méthexis": 1
    }
   },
@@ -250,6 +620,19 @@
    "book": "",
    "page": 325,
    "section": "b",
+   "band": 0,
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "The Classical Review": 2,
+    "Méthexis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 325,
+   "section": "b",
+   "band": 1,
    "count": 3,
    "articles": 3,
    "by_journal": {
@@ -258,8 +641,32 @@
   },
   {
    "book": "",
+   "page": 326,
+   "section": "a",
+   "band": 2,
+   "count": 3,
+   "articles": 1,
+   "by_journal": {
+    "Harvard Studies in Classical Philology": 3
+   }
+  },
+  {
+   "book": "",
+   "page": 326,
+   "section": "b",
+   "band": 1,
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Harvard Studies in Classical Philology": 1,
+    "The American Journal of Philology": 1
+   }
+  },
+  {
+   "book": "",
    "page": 327,
    "section": "a",
+   "band": 2,
    "count": 3,
    "articles": 2,
    "by_journal": {
@@ -270,57 +677,198 @@
    "book": "",
    "page": 327,
    "section": "b",
-   "count": 14,
-   "articles": 5,
+   "band": 0,
+   "count": 7,
+   "articles": 2,
    "by_journal": {
-    "Phronesis": 14
+    "Phronesis": 7
+   }
+  },
+  {
+   "book": "",
+   "page": 327,
+   "section": "b",
+   "band": 1,
+   "count": 17,
+   "articles": 6,
+   "by_journal": {
+    "Phronesis": 8,
+    "Harvard Studies in Classical Philology": 9
+   }
+  },
+  {
+   "book": "",
+   "page": 327,
+   "section": "b",
+   "band": 2,
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 2
    }
   },
   {
    "book": "",
    "page": 328,
    "section": "a",
-   "count": 13,
+   "band": 0,
+   "count": 3,
    "articles": 3,
    "by_journal": {
-    "Phronesis": 13
+    "Phronesis": 2,
+    "Hermes": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 328,
+   "section": "a",
+   "band": 1,
+   "count": 7,
+   "articles": 3,
+   "by_journal": {
+    "Phronesis": 7
+   }
+  },
+  {
+   "book": "",
+   "page": 328,
+   "section": "a",
+   "band": 2,
+   "count": 5,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 5
    }
   },
   {
    "book": "",
    "page": 328,
    "section": "b",
+   "band": 0,
    "count": 4,
-   "articles": 2,
+   "articles": 3,
    "by_journal": {
-    "Phronesis": 4
+    "Phronesis": 2,
+    "Hermes": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 328,
+   "section": "b",
+   "band": 1,
+   "count": 2,
+   "articles": 1,
+   "by_journal": {
+    "Phronesis": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 328,
+   "section": "b",
+   "band": 2,
+   "count": 4,
+   "articles": 3,
+   "by_journal": {
+    "Phronesis": 1,
+    "Harvard Studies in Classical Philology": 2,
+    "Transactions of the American Philological Association (1974-2014)": 1
    }
   },
   {
    "book": "",
    "page": 329,
    "section": "a",
+   "band": 0,
+   "count": 8,
+   "articles": 4,
+   "by_journal": {
+    "Phronesis": 5,
+    "Harvard Studies in Classical Philology": 2,
+    "Transactions of the American Philological Association (1974-2014)": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 329,
+   "section": "a",
+   "band": 1,
    "count": 6,
    "articles": 3,
    "by_journal": {
-    "Phronesis": 6
+    "Phronesis": 1,
+    "Harvard Studies in Classical Philology": 4,
+    "Transactions of the American Philological Association (1974-2014)": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 329,
+   "section": "a",
+   "band": 2,
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Harvard Studies in Classical Philology": 1,
+    "Transactions of the American Philological Association (1974-2014)": 1
    }
   },
   {
    "book": "",
    "page": 329,
    "section": "b",
+   "band": 0,
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "History of Philosophy Quarterly": 1,
+    "Mnemosyne": 1,
+    "Transactions of the American Philological Association (1974-2014)": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 329,
+   "section": "b",
+   "band": 1,
    "count": 2,
    "articles": 2,
    "by_journal": {
     "Phronesis": 1,
-    "History of Philosophy Quarterly": 1
+    "Mnemosyne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 329,
+   "section": "b",
+   "band": 2,
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Harvard Studies in Classical Philology": 1,
+    "Mnemosyne": 1
    }
   },
   {
    "book": "",
    "page": 330,
    "section": "a",
+   "band": 0,
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Mnemosyne": 1,
+    "The Harvard Theological Review": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 330,
+   "section": "a",
+   "band": 2,
    "count": 2,
    "articles": 2,
    "by_journal": {
@@ -332,28 +880,43 @@
    "book": "",
    "page": 330,
    "section": "b",
-   "count": 3,
-   "articles": 3,
+   "band": 0,
+   "count": 4,
+   "articles": 4,
    "by_journal": {
     "History of Philosophy Quarterly": 1,
-    "Phronesis": 2
+    "Phronesis": 3
    }
   },
   {
    "book": "",
    "page": 331,
    "section": "a",
+   "band": 0,
    "count": 3,
    "articles": 3,
    "by_journal": {
-    "Phronesis": 2,
-    "History of Philosophy Quarterly": 1
+    "History of Philosophy Quarterly": 1,
+    "Phronesis": 1,
+    "Mnemosyne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 331,
+   "section": "a",
+   "band": 1,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Phronesis": 1
    }
   },
   {
    "book": "",
    "page": 331,
    "section": "b",
+   "band": 0,
    "count": 2,
    "articles": 1,
    "by_journal": {
@@ -364,21 +927,67 @@
    "book": "",
    "page": 332,
    "section": "a",
-   "count": 3,
+   "band": 0,
+   "count": 6,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 1,
+    "Hermes": 5
+   }
+  },
+  {
+   "book": "",
+   "page": 332,
+   "section": "a",
+   "band": 1,
+   "count": 2,
    "articles": 2,
    "by_journal": {
     "Méthexis": 1,
-    "Phronesis": 2
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 332,
+   "section": "b",
+   "band": 2,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The American Journal of Philology": 1
    }
   },
   {
    "book": "",
    "page": 333,
    "section": "a",
-   "count": 2,
-   "articles": 2,
+   "band": 0,
+   "count": 1,
+   "articles": 1,
    "by_journal": {
-    "Phronesis": 1,
+    "Mnemosyne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 333,
+   "section": "a",
+   "band": 1,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 333,
+   "section": "a",
+   "band": 2,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
     "History of Philosophy Quarterly": 1
    }
   },
@@ -386,6 +995,7 @@
    "book": "",
    "page": 333,
    "section": "b",
+   "band": 0,
    "count": 1,
    "articles": 1,
    "by_journal": {
@@ -394,39 +1004,77 @@
   },
   {
    "book": "",
-   "page": 334,
-   "section": "a",
-   "count": 6,
-   "articles": 3,
-   "by_journal": {
-    "Phronesis": 6
-   }
-  },
-  {
-   "book": "",
-   "page": 334,
+   "page": 333,
    "section": "b",
-   "count": 7,
-   "articles": 3,
+   "band": 1,
+   "count": 1,
+   "articles": 1,
    "by_journal": {
-    "History of Philosophy Quarterly": 1,
-    "Phronesis": 6
+    "Mnemosyne": 1
    }
   },
   {
    "book": "",
-   "page": 335,
+   "page": 333,
+   "section": "b",
+   "band": 2,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Mnemosyne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 334,
    "section": "a",
+   "band": 0,
+   "count": 6,
+   "articles": 4,
+   "by_journal": {
+    "Phronesis": 2,
+    "Mnemosyne": 3,
+    "The American Journal of Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 334,
+   "section": "a",
+   "band": 1,
    "count": 2,
-   "articles": 2,
+   "articles": 1,
    "by_journal": {
     "Phronesis": 2
    }
   },
   {
    "book": "",
-   "page": 335,
+   "page": 334,
+   "section": "a",
+   "band": 2,
+   "count": 3,
+   "articles": 1,
+   "by_journal": {
+    "Phronesis": 3
+   }
+  },
+  {
+   "book": "",
+   "page": 334,
    "section": "b",
+   "band": 0,
+   "count": 5,
+   "articles": 1,
+   "by_journal": {
+    "Phronesis": 5
+   }
+  },
+  {
+   "book": "",
+   "page": 334,
+   "section": "b",
+   "band": 1,
    "count": 4,
    "articles": 2,
    "by_journal": {
@@ -435,8 +1083,102 @@
   },
   {
    "book": "",
+   "page": 334,
+   "section": "b",
+   "band": 2,
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "History of Philosophy Quarterly": 1,
+    "Mnemosyne": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 335,
+   "section": "a",
+   "band": 0,
+   "count": 3,
+   "articles": 2,
+   "by_journal": {
+    "Mnemosyne": 3
+   }
+  },
+  {
+   "book": "",
+   "page": 335,
+   "section": "a",
+   "band": 1,
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 1,
+    "Mnemosyne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 335,
+   "section": "a",
+   "band": 2,
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 1,
+    "Mnemosyne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 335,
+   "section": "b",
+   "band": 0,
+   "count": 3,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 2,
+    "Mnemosyne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 335,
+   "section": "b",
+   "band": 1,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 335,
+   "section": "b",
+   "band": 2,
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 1,
+    "Mnemosyne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 336,
+   "section": "a",
+   "band": 0,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Mnemosyne": 1
+   }
+  },
+  {
+   "book": "",
    "page": 336,
    "section": "b",
+   "band": 1,
    "count": 3,
    "articles": 2,
    "by_journal": {
@@ -445,8 +1187,20 @@
   },
   {
    "book": "",
+   "page": 336,
+   "section": "b",
+   "band": 2,
+   "count": 2,
+   "articles": 1,
+   "by_journal": {
+    "Phronesis": 2
+   }
+  },
+  {
+   "book": "",
    "page": 337,
    "section": "a",
+   "band": 0,
    "count": 3,
    "articles": 2,
    "by_journal": {
@@ -457,7 +1211,30 @@
   {
    "book": "",
    "page": 337,
+   "section": "a",
+   "band": 1,
+   "count": 2,
+   "articles": 1,
+   "by_journal": {
+    "Harvard Studies in Classical Philology": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 337,
+   "section": "a",
+   "band": 2,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Mnemosyne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 337,
    "section": "b",
+   "band": 0,
    "count": 2,
    "articles": 2,
    "by_journal": {
@@ -469,6 +1246,7 @@
    "book": "",
    "page": 338,
    "section": "a",
+   "band": 0,
    "count": 1,
    "articles": 1,
    "by_journal": {
@@ -479,11 +1257,23 @@
    "book": "",
    "page": 338,
    "section": "b",
-   "count": 4,
-   "articles": 3,
+   "band": 0,
+   "count": 2,
+   "articles": 2,
    "by_journal": {
-    "Phronesis": 3,
+    "Phronesis": 1,
     "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 338,
+   "section": "b",
+   "band": 1,
+   "count": 2,
+   "articles": 1,
+   "by_journal": {
+    "Phronesis": 2
    }
   }
  ],
@@ -708,7 +1498,7 @@
    "book": "",
    "page": 327,
    "section": "a",
-   "line": 34,
+   "line": 30,
    "journal": "Phronesis",
    "year": "2018",
    "iid": "1a04b421-ae37-32b6-986a-410dd1075616",
@@ -720,7 +1510,19 @@
    "book": "",
    "page": 327,
    "section": "b",
-   "line": 33,
+   "line": null,
+   "journal": "Phronesis",
+   "year": "2018",
+   "iid": "1a04b421-ae37-32b6-986a-410dd1075616",
+   "doi": "10.2307/26566214",
+   "title": "Hierocles and the Stoic Theory of Blending",
+   "author": "Reier Helle"
+  },
+  {
+   "book": "",
+   "page": 327,
+   "section": "b",
+   "line": 30,
    "journal": "Phronesis",
    "year": "2018",
    "iid": "1a04b421-ae37-32b6-986a-410dd1075616",
@@ -732,7 +1534,19 @@
    "book": "",
    "page": 328,
    "section": "a",
-   "line": 17,
+   "line": null,
+   "journal": "Phronesis",
+   "year": "2018",
+   "iid": "1a04b421-ae37-32b6-986a-410dd1075616",
+   "doi": "10.2307/26566214",
+   "title": "Hierocles and the Stoic Theory of Blending",
+   "author": "Reier Helle"
+  },
+  {
+   "book": "",
+   "page": 328,
+   "section": "a",
+   "line": 15,
    "journal": "Phronesis",
    "year": "2018",
    "iid": "1a04b421-ae37-32b6-986a-410dd1075616",
@@ -816,7 +1630,31 @@
    "book": "",
    "page": 321,
    "section": "a",
-   "line": 29,
+   "line": 15,
+   "journal": "Phronesis",
+   "year": "2020",
+   "iid": "46290712-cf8b-3db0-b3d3-03e5309a6b98",
+   "doi": "10.2307/27073973",
+   "title": "Aristotle on the Unity of the Nutritive and Reproductive Functions",
+   "author": "James G. Lennox, Cameron F. Coates"
+  },
+  {
+   "book": "",
+   "page": 321,
+   "section": "a",
+   "line": 30,
+   "journal": "Phronesis",
+   "year": "2020",
+   "iid": "46290712-cf8b-3db0-b3d3-03e5309a6b98",
+   "doi": "10.2307/27073973",
+   "title": "Aristotle on the Unity of the Nutritive and Reproductive Functions",
+   "author": "James G. Lennox, Cameron F. Coates"
+  },
+  {
+   "book": "",
+   "page": 321,
+   "section": "b",
+   "line": null,
    "journal": "Phronesis",
    "year": "2020",
    "iid": "46290712-cf8b-3db0-b3d3-03e5309a6b98",
@@ -864,7 +1702,31 @@
    "book": "",
    "page": 324,
    "section": "a",
-   "line": 24,
+   "line": 15,
+   "journal": "Phronesis",
+   "year": "2018",
+   "iid": "556c11cc-bfdd-339a-9b74-ee80b4398201",
+   "doi": "10.2307/26566212",
+   "title": "Does the Soul Weave? Reconsidering <em>De Anima</em> 1.4, 408a29-b18",
+   "author": "Jason W. Carter"
+  },
+  {
+   "book": "",
+   "page": 324,
+   "section": "a",
+   "line": 30,
+   "journal": "Phronesis",
+   "year": "2018",
+   "iid": "556c11cc-bfdd-339a-9b74-ee80b4398201",
+   "doi": "10.2307/26566212",
+   "title": "Does the Soul Weave? Reconsidering <em>De Anima</em> 1.4, 408a29-b18",
+   "author": "Jason W. Carter"
+  },
+  {
+   "book": "",
+   "page": 324,
+   "section": "b",
+   "line": null,
    "journal": "Phronesis",
    "year": "2018",
    "iid": "556c11cc-bfdd-339a-9b74-ee80b4398201",
@@ -900,7 +1762,19 @@
    "book": "",
    "page": 328,
    "section": "a",
-   "line": 33,
+   "line": 30,
+   "journal": "Phronesis",
+   "year": "1984",
+   "iid": "5bf76e1f-0098-3a23-b749-d53cc084e1f7",
+   "doi": "10.2307/4182185",
+   "title": "Aristotle's Rationalist Account of Qualitative Interaction",
+   "author": "Alexander P. D. Mourelatos"
+  },
+  {
+   "book": "",
+   "page": 328,
+   "section": "b",
+   "line": null,
    "journal": "Phronesis",
    "year": "1984",
    "iid": "5bf76e1f-0098-3a23-b749-d53cc084e1f7",
@@ -925,6 +1799,18 @@
    "page": 328,
    "section": "a",
    "line": 26,
+   "journal": "Phronesis",
+   "year": "1984",
+   "iid": "5bf76e1f-0098-3a23-b749-d53cc084e1f7",
+   "doi": "10.2307/4182185",
+   "title": "Aristotle's Rationalist Account of Qualitative Interaction",
+   "author": "Alexander P. D. Mourelatos"
+  },
+  {
+   "book": "",
+   "page": 328,
+   "section": "a",
+   "line": 33,
    "journal": "Phronesis",
    "year": "1984",
    "iid": "5bf76e1f-0098-3a23-b749-d53cc084e1f7",
@@ -960,7 +1846,31 @@
    "book": "",
    "page": 324,
    "section": "a",
-   "line": 24,
+   "line": 15,
+   "journal": "Phronesis",
+   "year": "2017",
+   "iid": "60db6609-7572-3e4f-982d-c3be1fea2451",
+   "doi": "10.2307/44645971",
+   "title": "ἡ ϰίυησις τη̑ς τέχυης: Crafts and Souls as Principles of Change",
+   "author": "Jorge Mittelmann, Patricio A. Fernandez"
+  },
+  {
+   "book": "",
+   "page": 324,
+   "section": "a",
+   "line": 30,
+   "journal": "Phronesis",
+   "year": "2017",
+   "iid": "60db6609-7572-3e4f-982d-c3be1fea2451",
+   "doi": "10.2307/44645971",
+   "title": "ἡ ϰίυησις τη̑ς τέχυης: Crafts and Souls as Principles of Change",
+   "author": "Jorge Mittelmann, Patricio A. Fernandez"
+  },
+  {
+   "book": "",
+   "page": 324,
+   "section": "b",
+   "line": null,
    "journal": "Phronesis",
    "year": "2017",
    "iid": "60db6609-7572-3e4f-982d-c3be1fea2451",
@@ -996,7 +1906,19 @@
    "book": "",
    "page": 336,
    "section": "b",
-   "line": 25,
+   "line": 15,
+   "journal": "Phronesis",
+   "year": "2020",
+   "iid": "70e39e31-e773-39ab-b858-784dc6371bd7",
+   "doi": "10.2307/26952098",
+   "title": "Living without a Soul",
+   "author": "Caleb Cohoe"
+  },
+  {
+   "book": "",
+   "page": 336,
+   "section": "b",
+   "line": 30,
    "journal": "Phronesis",
    "year": "2020",
    "iid": "70e39e31-e773-39ab-b858-784dc6371bd7",
@@ -1008,7 +1930,7 @@
    "book": "",
    "page": 337,
    "section": "a",
-   "line": 8,
+   "line": null,
    "journal": "Phronesis",
    "year": "2020",
    "iid": "70e39e31-e773-39ab-b858-784dc6371bd7",
@@ -1152,7 +2074,43 @@
    "book": "",
    "page": 324,
    "section": "b",
-   "line": 34,
+   "line": 30,
+   "journal": "The Classical Review",
+   "year": "1980",
+   "iid": "81ea102d-a53e-3145-a0d1-2112213375a7",
+   "doi": "10.2307/3064378",
+   "title": "",
+   "author": "Rudolf Löbl, Edward Hussey"
+  },
+  {
+   "book": "",
+   "page": 325,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1980",
+   "iid": "81ea102d-a53e-3145-a0d1-2112213375a7",
+   "doi": "10.2307/3064378",
+   "title": "",
+   "author": "Rudolf Löbl, Edward Hussey"
+  },
+  {
+   "book": "",
+   "page": 325,
+   "section": "a",
+   "line": 15,
+   "journal": "The Classical Review",
+   "year": "1980",
+   "iid": "81ea102d-a53e-3145-a0d1-2112213375a7",
+   "doi": "10.2307/3064378",
+   "title": "",
+   "author": "Rudolf Löbl, Edward Hussey"
+  },
+  {
+   "book": "",
+   "page": 325,
+   "section": "a",
+   "line": 30,
    "journal": "The Classical Review",
    "year": "1980",
    "iid": "81ea102d-a53e-3145-a0d1-2112213375a7",
@@ -1164,7 +2122,19 @@
    "book": "",
    "page": 325,
    "section": "b",
-   "line": 20,
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1980",
+   "iid": "81ea102d-a53e-3145-a0d1-2112213375a7",
+   "doi": "10.2307/3064378",
+   "title": "",
+   "author": "Rudolf Löbl, Edward Hussey"
+  },
+  {
+   "book": "",
+   "page": 325,
+   "section": "b",
+   "line": 15,
    "journal": "The Classical Review",
    "year": "1980",
    "iid": "81ea102d-a53e-3145-a0d1-2112213375a7",
@@ -1260,19 +2230,7 @@
    "book": "",
    "page": 319,
    "section": "a",
-   "line": 29,
-   "journal": "Phronesis",
-   "year": "1983",
-   "iid": "a83739df-9fb0-3296-b1f8-0be6ea725329",
-   "doi": "10.2307/4182173",
-   "title": "Prime Matter: A Rejoinder",
-   "author": "William Charlton"
-  },
-  {
-   "book": "",
-   "page": 318,
-   "section": "b",
-   "line": 2,
+   "line": 15,
    "journal": "Phronesis",
    "year": "1983",
    "iid": "a83739df-9fb0-3296-b1f8-0be6ea725329",
@@ -1284,7 +2242,67 @@
    "book": "",
    "page": 319,
    "section": "a",
-   "line": 3,
+   "line": 30,
+   "journal": "Phronesis",
+   "year": "1983",
+   "iid": "a83739df-9fb0-3296-b1f8-0be6ea725329",
+   "doi": "10.2307/4182173",
+   "title": "Prime Matter: A Rejoinder",
+   "author": "William Charlton"
+  },
+  {
+   "book": "",
+   "page": 319,
+   "section": "b",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1983",
+   "iid": "a83739df-9fb0-3296-b1f8-0be6ea725329",
+   "doi": "10.2307/4182173",
+   "title": "Prime Matter: A Rejoinder",
+   "author": "William Charlton"
+  },
+  {
+   "book": "",
+   "page": 318,
+   "section": "b",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1983",
+   "iid": "a83739df-9fb0-3296-b1f8-0be6ea725329",
+   "doi": "10.2307/4182173",
+   "title": "Prime Matter: A Rejoinder",
+   "author": "William Charlton"
+  },
+  {
+   "book": "",
+   "page": 318,
+   "section": "b",
+   "line": 15,
+   "journal": "Phronesis",
+   "year": "1983",
+   "iid": "a83739df-9fb0-3296-b1f8-0be6ea725329",
+   "doi": "10.2307/4182173",
+   "title": "Prime Matter: A Rejoinder",
+   "author": "William Charlton"
+  },
+  {
+   "book": "",
+   "page": 318,
+   "section": "b",
+   "line": 30,
+   "journal": "Phronesis",
+   "year": "1983",
+   "iid": "a83739df-9fb0-3296-b1f8-0be6ea725329",
+   "doi": "10.2307/4182173",
+   "title": "Prime Matter: A Rejoinder",
+   "author": "William Charlton"
+  },
+  {
+   "book": "",
+   "page": 319,
+   "section": "a",
+   "line": null,
    "journal": "Phronesis",
    "year": "1983",
    "iid": "a83739df-9fb0-3296-b1f8-0be6ea725329",
@@ -1344,7 +2362,31 @@
    "book": "",
    "page": 325,
    "section": "a",
-   "line": 23,
+   "line": 15,
+   "journal": "Méthexis",
+   "year": "2021",
+   "iid": "a9b92e01-5ee3-3b54-86ed-709236e7abfb",
+   "doi": "10.2307/27140731",
+   "title": "Was Democritus a Pythagorean? The Case of <em>psychē</em>",
+   "author": "Gabriele Cornelli, Gustavo Laet Gomes"
+  },
+  {
+   "book": "",
+   "page": 325,
+   "section": "a",
+   "line": 30,
+   "journal": "Méthexis",
+   "year": "2021",
+   "iid": "a9b92e01-5ee3-3b54-86ed-709236e7abfb",
+   "doi": "10.2307/27140731",
+   "title": "Was Democritus a Pythagorean? The Case of <em>psychē</em>",
+   "author": "Gabriele Cornelli, Gustavo Laet Gomes"
+  },
+  {
+   "book": "",
+   "page": 325,
+   "section": "b",
+   "line": null,
    "journal": "Méthexis",
    "year": "2021",
    "iid": "a9b92e01-5ee3-3b54-86ed-709236e7abfb",
@@ -1513,6 +2555,18 @@
    "page": 330,
    "section": "a",
    "line": 30,
+   "journal": "Phronesis",
+   "year": "1996",
+   "iid": "ce9e3cf6-c315-3e51-af72-02adb641b0e8",
+   "doi": "10.2307/4182513",
+   "title": "Aristotle on the Sense of Smell",
+   "author": "Thomas K. Johansen"
+  },
+  {
+   "book": "",
+   "page": 330,
+   "section": "b",
+   "line": null,
    "journal": "Phronesis",
    "year": "1996",
    "iid": "ce9e3cf6-c315-3e51-af72-02adb641b0e8",
@@ -1704,7 +2758,7 @@
    "book": "",
    "page": 327,
    "section": "a",
-   "line": 34,
+   "line": 30,
    "journal": "Phronesis",
    "year": "2021",
    "iid": "d9246404-3489-3510-9999-c7fec480e412",
@@ -1715,8 +2769,8 @@
   {
    "book": "",
    "page": 327,
-   "section": "a",
-   "line": 35,
+   "section": "b",
+   "line": null,
    "journal": "Phronesis",
    "year": "2021",
    "iid": "d9246404-3489-3510-9999-c7fec480e412",
@@ -1860,7 +2914,19 @@
    "book": "",
    "page": 334,
    "section": "a",
-   "line": 31,
+   "line": 30,
+   "journal": "Phronesis",
+   "year": "2021",
+   "iid": "d9246404-3489-3510-9999-c7fec480e412",
+   "doi": "10.2307/27073983",
+   "title": "Mixture, Generation and the First <em>Aporia</em> of Aristotle's <em>GC</em> 1.10",
+   "author": "Andreas Anagnostopoulos"
+  },
+  {
+   "book": "",
+   "page": 334,
+   "section": "b",
+   "line": null,
    "journal": "Phronesis",
    "year": "2021",
    "iid": "d9246404-3489-3510-9999-c7fec480e412",
@@ -1920,7 +2986,19 @@
    "book": "",
    "page": 323,
    "section": "b",
-   "line": 29,
+   "line": 15,
+   "journal": "Phronesis",
+   "year": "2021",
+   "iid": "d9246404-3489-3510-9999-c7fec480e412",
+   "doi": "10.2307/27073983",
+   "title": "Mixture, Generation and the First <em>Aporia</em> of Aristotle's <em>GC</em> 1.10",
+   "author": "Andreas Anagnostopoulos"
+  },
+  {
+   "book": "",
+   "page": 323,
+   "section": "b",
+   "line": 30,
    "journal": "Phronesis",
    "year": "2021",
    "iid": "d9246404-3489-3510-9999-c7fec480e412",
@@ -1932,7 +3010,7 @@
    "book": "",
    "page": 324,
    "section": "a",
-   "line": 3,
+   "line": null,
    "journal": "Phronesis",
    "year": "2021",
    "iid": "d9246404-3489-3510-9999-c7fec480e412",
@@ -2110,18 +3188,6 @@
   },
   {
    "book": "",
-   "page": 334,
-   "section": "a",
-   "line": 26,
-   "journal": "Phronesis",
-   "year": "2021",
-   "iid": "d9246404-3489-3510-9999-c7fec480e412",
-   "doi": "10.2307/27073983",
-   "title": "Mixture, Generation and the First <em>Aporia</em> of Aristotle's <em>GC</em> 1.10",
-   "author": "Andreas Anagnostopoulos"
-  },
-  {
-   "book": "",
    "page": 322,
    "section": "a",
    "line": 4,
@@ -2160,7 +3226,43 @@
    "book": "",
    "page": 324,
    "section": "b",
-   "line": 34,
+   "line": 30,
+   "journal": "The Classical Review",
+   "year": "1980",
+   "iid": "e33f2b43-10f9-3dcd-a73b-09b4133ffd17",
+   "doi": "10.2307/3064379",
+   "title": "",
+   "author": "A. D. Woozley, Norman Gulley"
+  },
+  {
+   "book": "",
+   "page": 325,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1980",
+   "iid": "e33f2b43-10f9-3dcd-a73b-09b4133ffd17",
+   "doi": "10.2307/3064379",
+   "title": "",
+   "author": "A. D. Woozley, Norman Gulley"
+  },
+  {
+   "book": "",
+   "page": 325,
+   "section": "a",
+   "line": 15,
+   "journal": "The Classical Review",
+   "year": "1980",
+   "iid": "e33f2b43-10f9-3dcd-a73b-09b4133ffd17",
+   "doi": "10.2307/3064379",
+   "title": "",
+   "author": "A. D. Woozley, Norman Gulley"
+  },
+  {
+   "book": "",
+   "page": 325,
+   "section": "a",
+   "line": 30,
    "journal": "The Classical Review",
    "year": "1980",
    "iid": "e33f2b43-10f9-3dcd-a73b-09b4133ffd17",
@@ -2172,7 +3274,19 @@
    "book": "",
    "page": 325,
    "section": "b",
-   "line": 20,
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1980",
+   "iid": "e33f2b43-10f9-3dcd-a73b-09b4133ffd17",
+   "doi": "10.2307/3064379",
+   "title": "",
+   "author": "A. D. Woozley, Norman Gulley"
+  },
+  {
+   "book": "",
+   "page": 325,
+   "section": "b",
+   "line": 15,
    "journal": "The Classical Review",
    "year": "1980",
    "iid": "e33f2b43-10f9-3dcd-a73b-09b4133ffd17",
@@ -2215,6 +3329,1038 @@
    "doi": "10.2307/27743674",
    "title": "Teleology and Natural Necessity in Aristotle",
    "author": "Fred D. Miller, <suffix>Jr.</suffix>, Michael Bradie"
+  },
+  {
+   "book": "",
+   "page": 317,
+   "section": "b",
+   "line": 28,
+   "journal": "Harvard Studies in Classical Philology",
+   "year": "1985",
+   "iid": "08006a22-1425-3baf-bd66-52a1c610343b",
+   "doi": "10.2307/311270",
+   "title": "Χωριστός in Aristotle",
+   "author": "Donald Morrison"
+  },
+  {
+   "book": "",
+   "page": 320,
+   "section": "b",
+   "line": 13,
+   "journal": "Harvard Studies in Classical Philology",
+   "year": "1985",
+   "iid": "08006a22-1425-3baf-bd66-52a1c610343b",
+   "doi": "10.2307/311270",
+   "title": "Χωριστός in Aristotle",
+   "author": "Donald Morrison"
+  },
+  {
+   "book": "",
+   "page": 321,
+   "section": "a",
+   "line": 6,
+   "journal": "Harvard Studies in Classical Philology",
+   "year": "1985",
+   "iid": "08006a22-1425-3baf-bd66-52a1c610343b",
+   "doi": "10.2307/311270",
+   "title": "Χωριστός in Aristotle",
+   "author": "Donald Morrison"
+  },
+  {
+   "book": "",
+   "page": 324,
+   "section": "b",
+   "line": 19,
+   "journal": "Harvard Studies in Classical Philology",
+   "year": "1985",
+   "iid": "08006a22-1425-3baf-bd66-52a1c610343b",
+   "doi": "10.2307/311270",
+   "title": "Χωριστός in Aristotle",
+   "author": "Donald Morrison"
+  },
+  {
+   "book": "",
+   "page": 327,
+   "section": "b",
+   "line": 21,
+   "journal": "Harvard Studies in Classical Philology",
+   "year": "1985",
+   "iid": "08006a22-1425-3baf-bd66-52a1c610343b",
+   "doi": "10.2307/311270",
+   "title": "Χωριστός in Aristotle",
+   "author": "Donald Morrison"
+  },
+  {
+   "book": "",
+   "page": 316,
+   "section": "b",
+   "line": 3,
+   "journal": "Harvard Studies in Classical Philology",
+   "year": "1985",
+   "iid": "08006a22-1425-3baf-bd66-52a1c610343b",
+   "doi": "10.2307/311270",
+   "title": "Χωριστός in Aristotle",
+   "author": "Donald Morrison"
+  },
+  {
+   "book": "",
+   "page": 327,
+   "section": "b",
+   "line": 19,
+   "journal": "Harvard Studies in Classical Philology",
+   "year": "1985",
+   "iid": "08006a22-1425-3baf-bd66-52a1c610343b",
+   "doi": "10.2307/311270",
+   "title": "Χωριστός in Aristotle",
+   "author": "Donald Morrison"
+  },
+  {
+   "book": "",
+   "page": 329,
+   "section": "a",
+   "line": 25,
+   "journal": "Harvard Studies in Classical Philology",
+   "year": "1985",
+   "iid": "08006a22-1425-3baf-bd66-52a1c610343b",
+   "doi": "10.2307/311270",
+   "title": "Χωριστός in Aristotle",
+   "author": "Donald Morrison"
+  },
+  {
+   "book": "",
+   "page": 337,
+   "section": "a",
+   "line": 23,
+   "journal": "Harvard Studies in Classical Philology",
+   "year": "1985",
+   "iid": "08006a22-1425-3baf-bd66-52a1c610343b",
+   "doi": "10.2307/311270",
+   "title": "Χωριστός in Aristotle",
+   "author": "Donald Morrison"
+  },
+  {
+   "book": "",
+   "page": 317,
+   "section": "b",
+   "line": 10,
+   "journal": "Harvard Studies in Classical Philology",
+   "year": "1985",
+   "iid": "08006a22-1425-3baf-bd66-52a1c610343b",
+   "doi": "10.2307/311270",
+   "title": "Χωριστός in Aristotle",
+   "author": "Donald Morrison"
+  },
+  {
+   "book": "",
+   "page": 328,
+   "section": "b",
+   "line": 35,
+   "journal": "Harvard Studies in Classical Philology",
+   "year": "1985",
+   "iid": "08006a22-1425-3baf-bd66-52a1c610343b",
+   "doi": "10.2307/311270",
+   "title": "Χωριστός in Aristotle",
+   "author": "Donald Morrison"
+  },
+  {
+   "book": "",
+   "page": 329,
+   "section": "a",
+   "line": 10,
+   "journal": "Harvard Studies in Classical Philology",
+   "year": "1985",
+   "iid": "08006a22-1425-3baf-bd66-52a1c610343b",
+   "doi": "10.2307/311270",
+   "title": "Χωριστός in Aristotle",
+   "author": "Donald Morrison"
+  },
+  {
+   "book": "",
+   "page": 326,
+   "section": "a",
+   "line": 32,
+   "journal": "Harvard Studies in Classical Philology",
+   "year": "1985",
+   "iid": "08006a22-1425-3baf-bd66-52a1c610343b",
+   "doi": "10.2307/311270",
+   "title": "Χωριστός in Aristotle",
+   "author": "Donald Morrison"
+  },
+  {
+   "book": "",
+   "page": 315,
+   "section": "a",
+   "line": 9,
+   "journal": "Harvard Studies in Classical Philology",
+   "year": "1985",
+   "iid": "08006a22-1425-3baf-bd66-52a1c610343b",
+   "doi": "10.2307/311270",
+   "title": "Χωριστός in Aristotle",
+   "author": "Donald Morrison"
+  },
+  {
+   "book": "",
+   "page": 316,
+   "section": "b",
+   "line": 14,
+   "journal": "Harvard Studies in Classical Philology",
+   "year": "1985",
+   "iid": "08006a22-1425-3baf-bd66-52a1c610343b",
+   "doi": "10.2307/311270",
+   "title": "Χωριστός in Aristotle",
+   "author": "Donald Morrison"
+  },
+  {
+   "book": "",
+   "page": 326,
+   "section": "b",
+   "line": 28,
+   "journal": "Harvard Studies in Classical Philology",
+   "year": "1985",
+   "iid": "08006a22-1425-3baf-bd66-52a1c610343b",
+   "doi": "10.2307/311270",
+   "title": "Χωριστός in Aristotle",
+   "author": "Donald Morrison"
+  },
+  {
+   "book": "",
+   "page": 327,
+   "section": "b",
+   "line": 28,
+   "journal": "Harvard Studies in Classical Philology",
+   "year": "1985",
+   "iid": "08006a22-1425-3baf-bd66-52a1c610343b",
+   "doi": "10.2307/311270",
+   "title": "Χωριστός in Aristotle",
+   "author": "Donald Morrison"
+  },
+  {
+   "book": "",
+   "page": 329,
+   "section": "a",
+   "line": 15,
+   "journal": "Harvard Studies in Classical Philology",
+   "year": "1985",
+   "iid": "08006a22-1425-3baf-bd66-52a1c610343b",
+   "doi": "10.2307/311270",
+   "title": "Χωριστός in Aristotle",
+   "author": "Donald Morrison"
+  },
+  {
+   "book": "",
+   "page": 316,
+   "section": "b",
+   "line": 29,
+   "journal": "Harvard Studies in Classical Philology",
+   "year": "1985",
+   "iid": "08006a22-1425-3baf-bd66-52a1c610343b",
+   "doi": "10.2307/311270",
+   "title": "Χωριστός in Aristotle",
+   "author": "Donald Morrison"
+  },
+  {
+   "book": "",
+   "page": 320,
+   "section": "a",
+   "line": 33,
+   "journal": "Harvard Studies in Classical Philology",
+   "year": "1985",
+   "iid": "08006a22-1425-3baf-bd66-52a1c610343b",
+   "doi": "10.2307/311270",
+   "title": "Χωριστός in Aristotle",
+   "author": "Donald Morrison"
+  },
+  {
+   "book": "",
+   "page": 320,
+   "section": "b",
+   "line": 6,
+   "journal": "Harvard Studies in Classical Philology",
+   "year": "1985",
+   "iid": "08006a22-1425-3baf-bd66-52a1c610343b",
+   "doi": "10.2307/311270",
+   "title": "Χωριστός in Aristotle",
+   "author": "Donald Morrison"
+  },
+  {
+   "book": "",
+   "page": 323,
+   "section": "a",
+   "line": 2,
+   "journal": "Harvard Studies in Classical Philology",
+   "year": "1985",
+   "iid": "08006a22-1425-3baf-bd66-52a1c610343b",
+   "doi": "10.2307/311270",
+   "title": "Χωριστός in Aristotle",
+   "author": "Donald Morrison"
+  },
+  {
+   "book": "",
+   "page": 325,
+   "section": "a",
+   "line": 5,
+   "journal": "Harvard Studies in Classical Philology",
+   "year": "1985",
+   "iid": "08006a22-1425-3baf-bd66-52a1c610343b",
+   "doi": "10.2307/311270",
+   "title": "Χωριστός in Aristotle",
+   "author": "Donald Morrison"
+  },
+  {
+   "book": "",
+   "page": 329,
+   "section": "a",
+   "line": 30,
+   "journal": "Harvard Studies in Classical Philology",
+   "year": "1985",
+   "iid": "08006a22-1425-3baf-bd66-52a1c610343b",
+   "doi": "10.2307/311270",
+   "title": "Χωριστός in Aristotle",
+   "author": "Donald Morrison"
+  },
+  {
+   "book": "",
+   "page": 324,
+   "section": "b",
+   "line": 21,
+   "journal": "Harvard Studies in Classical Philology",
+   "year": "1985",
+   "iid": "08006a22-1425-3baf-bd66-52a1c610343b",
+   "doi": "10.2307/311270",
+   "title": "Χωριστός in Aristotle",
+   "author": "Donald Morrison"
+  },
+  {
+   "book": "",
+   "page": 320,
+   "section": "b",
+   "line": 24,
+   "journal": "Harvard Studies in Classical Philology",
+   "year": "1985",
+   "iid": "08006a22-1425-3baf-bd66-52a1c610343b",
+   "doi": "10.2307/311270",
+   "title": "Χωριστός in Aristotle",
+   "author": "Donald Morrison"
+  },
+  {
+   "book": "",
+   "page": 321,
+   "section": "a",
+   "line": 7,
+   "journal": "Harvard Studies in Classical Philology",
+   "year": "1985",
+   "iid": "08006a22-1425-3baf-bd66-52a1c610343b",
+   "doi": "10.2307/311270",
+   "title": "Χωριστός in Aristotle",
+   "author": "Donald Morrison"
+  },
+  {
+   "book": "",
+   "page": 320,
+   "section": "b",
+   "line": 25,
+   "journal": "Harvard Studies in Classical Philology",
+   "year": "1985",
+   "iid": "08006a22-1425-3baf-bd66-52a1c610343b",
+   "doi": "10.2307/311270",
+   "title": "Χωριστός in Aristotle",
+   "author": "Donald Morrison"
+  },
+  {
+   "book": "",
+   "page": 314,
+   "section": "a",
+   "line": 5,
+   "journal": "Harvard Studies in Classical Philology",
+   "year": "1985",
+   "iid": "08006a22-1425-3baf-bd66-52a1c610343b",
+   "doi": "10.2307/311270",
+   "title": "Χωριστός in Aristotle",
+   "author": "Donald Morrison"
+  },
+  {
+   "book": "",
+   "page": 320,
+   "section": "b",
+   "line": 27,
+   "journal": "Harvard Studies in Classical Philology",
+   "year": "1985",
+   "iid": "08006a22-1425-3baf-bd66-52a1c610343b",
+   "doi": "10.2307/311270",
+   "title": "Χωριστός in Aristotle",
+   "author": "Donald Morrison"
+  },
+  {
+   "book": "",
+   "page": 322,
+   "section": "a",
+   "line": 14,
+   "journal": "Harvard Studies in Classical Philology",
+   "year": "1985",
+   "iid": "08006a22-1425-3baf-bd66-52a1c610343b",
+   "doi": "10.2307/311270",
+   "title": "Χωριστός in Aristotle",
+   "author": "Donald Morrison"
+  },
+  {
+   "book": "",
+   "page": 329,
+   "section": "b",
+   "line": 7,
+   "journal": "Mnemosyne",
+   "year": "2003",
+   "iid": "0c0184e0-2a14-317d-bdf7-a599a0e47849",
+   "doi": "10.2307/4433448",
+   "title": "Colour Mixtures According to Democritus and Plato",
+   "author": "P. Struycken"
+  },
+  {
+   "book": "",
+   "page": 333,
+   "section": "a",
+   "line": null,
+   "journal": "Mnemosyne",
+   "year": "2003",
+   "iid": "0c0184e0-2a14-317d-bdf7-a599a0e47849",
+   "doi": "10.2307/4433448",
+   "title": "Colour Mixtures According to Democritus and Plato",
+   "author": "P. Struycken"
+  },
+  {
+   "book": "",
+   "page": 336,
+   "section": "a",
+   "line": null,
+   "journal": "Mnemosyne",
+   "year": "2003",
+   "iid": "0c0184e0-2a14-317d-bdf7-a599a0e47849",
+   "doi": "10.2307/4433448",
+   "title": "Colour Mixtures According to Democritus and Plato",
+   "author": "P. Struycken"
+  },
+  {
+   "book": "",
+   "page": 337,
+   "section": "a",
+   "line": 34,
+   "journal": "Mnemosyne",
+   "year": "2003",
+   "iid": "0c0184e0-2a14-317d-bdf7-a599a0e47849",
+   "doi": "10.2307/4433448",
+   "title": "Colour Mixtures According to Democritus and Plato",
+   "author": "P. Struycken"
+  },
+  {
+   "book": "",
+   "page": 334,
+   "section": "b",
+   "line": 30,
+   "journal": "Mnemosyne",
+   "year": "2003",
+   "iid": "0c0184e0-2a14-317d-bdf7-a599a0e47849",
+   "doi": "10.2307/4433448",
+   "title": "Colour Mixtures According to Democritus and Plato",
+   "author": "P. Struycken"
+  },
+  {
+   "book": "",
+   "page": 335,
+   "section": "a",
+   "line": null,
+   "journal": "Mnemosyne",
+   "year": "2003",
+   "iid": "0c0184e0-2a14-317d-bdf7-a599a0e47849",
+   "doi": "10.2307/4433448",
+   "title": "Colour Mixtures According to Democritus and Plato",
+   "author": "P. Struycken"
+  },
+  {
+   "book": "",
+   "page": 335,
+   "section": "a",
+   "line": 3,
+   "journal": "Mnemosyne",
+   "year": "2003",
+   "iid": "0c0184e0-2a14-317d-bdf7-a599a0e47849",
+   "doi": "10.2307/4433448",
+   "title": "Colour Mixtures According to Democritus and Plato",
+   "author": "P. Struycken"
+  },
+  {
+   "book": "",
+   "page": 322,
+   "section": "b",
+   "line": 31,
+   "journal": "Hermes",
+   "year": "2005",
+   "iid": "0f95bfa4-a1da-3ec6-b3e1-bc7611cb7754",
+   "doi": "10.2307/4477675",
+   "title": "ΑΝΑΓΝΩΡΙΣΙΣ ek ΠΑΡΑΛΟΓΙΣΜΟΥ",
+   "author": "M. M. Pozdnev"
+  },
+  {
+   "book": "",
+   "page": 335,
+   "section": "a",
+   "line": 30,
+   "journal": "Mnemosyne",
+   "year": "2007",
+   "iid": "102e8b32-ad5d-3c28-af0d-57b4732fe0a7",
+   "doi": "10.2307/27736171",
+   "title": "Aristotle's \"De spiritu\" as a Critique of the Doctrine of pneuma in Plato and His Predecessors",
+   "author": "R. Ferwerda, A. P. Bos"
+  },
+  {
+   "book": "",
+   "page": 335,
+   "section": "b",
+   "line": 8,
+   "journal": "Mnemosyne",
+   "year": "2007",
+   "iid": "102e8b32-ad5d-3c28-af0d-57b4732fe0a7",
+   "doi": "10.2307/27736171",
+   "title": "Aristotle's \"De spiritu\" as a Critique of the Doctrine of pneuma in Plato and His Predecessors",
+   "author": "R. Ferwerda, A. P. Bos"
+  },
+  {
+   "book": "",
+   "page": 322,
+   "section": "a",
+   "line": 25,
+   "journal": "Illinois Classical Studies",
+   "year": "1991",
+   "iid": "19db6f4d-223c-3dfe-9197-2993e24d25ac",
+   "doi": "10.2307/23064363",
+   "title": "Plants as Aristotelian Substances",
+   "author": "ROSAMOND KENT SPRAGUE"
+  },
+  {
+   "book": "",
+   "page": 329,
+   "section": "b",
+   "line": 30,
+   "journal": "Harvard Studies in Classical Philology",
+   "year": "1989",
+   "iid": "2fc3473e-5eb2-3448-a4d0-69030317887a",
+   "doi": "10.2307/311351",
+   "title": "Χαοσ and the Hesiodic Cosmogony",
+   "author": "Robert Mondi"
+  },
+  {
+   "book": "",
+   "page": 326,
+   "section": "b",
+   "line": 29,
+   "journal": "The American Journal of Philology",
+   "year": "1983",
+   "iid": "352f874a-f8b1-34cc-8707-358fde76ca41",
+   "doi": "10.2307/294561",
+   "title": "On the Programmatic Formula ΠpΩton AΠo TΩn ΠpΩtΩn in Aristotle",
+   "author": "Kenneth Quandt"
+  },
+  {
+   "book": "",
+   "page": 328,
+   "section": "b",
+   "line": null,
+   "journal": "Hermes",
+   "year": "1962",
+   "iid": "46db1e79-29eb-38c5-af6d-9711634f1279",
+   "doi": "10.2307/4475204",
+   "title": "Anaximander",
+   "author": "C. Joachim Classen"
+  },
+  {
+   "book": "",
+   "page": 332,
+   "section": "a",
+   "line": null,
+   "journal": "Hermes",
+   "year": "1962",
+   "iid": "46db1e79-29eb-38c5-af6d-9711634f1279",
+   "doi": "10.2307/4475204",
+   "title": "Anaximander",
+   "author": "C. Joachim Classen"
+  },
+  {
+   "book": "",
+   "page": 333,
+   "section": "b",
+   "line": 15,
+   "journal": "Mnemosyne",
+   "year": "2003",
+   "iid": "680cb966-4369-3629-9bb8-f9cc3e996e73",
+   "doi": "10.2307/4433465",
+   "title": "'We' and Empedocles' Cosmic Lottery: \"P. Strasb. gr. Inv. 1665-1666\", ensemble a",
+   "author": "S. Trépanier"
+  },
+  {
+   "book": "",
+   "page": 333,
+   "section": "b",
+   "line": 30,
+   "journal": "Mnemosyne",
+   "year": "2003",
+   "iid": "680cb966-4369-3629-9bb8-f9cc3e996e73",
+   "doi": "10.2307/4433465",
+   "title": "'We' and Empedocles' Cosmic Lottery: \"P. Strasb. gr. Inv. 1665-1666\", ensemble a",
+   "author": "S. Trépanier"
+  },
+  {
+   "book": "",
+   "page": 334,
+   "section": "a",
+   "line": null,
+   "journal": "Mnemosyne",
+   "year": "2003",
+   "iid": "680cb966-4369-3629-9bb8-f9cc3e996e73",
+   "doi": "10.2307/4433465",
+   "title": "'We' and Empedocles' Cosmic Lottery: \"P. Strasb. gr. Inv. 1665-1666\", ensemble a",
+   "author": "S. Trépanier"
+  },
+  {
+   "book": "",
+   "page": 334,
+   "section": "a",
+   "line": 5,
+   "journal": "Mnemosyne",
+   "year": "2003",
+   "iid": "680cb966-4369-3629-9bb8-f9cc3e996e73",
+   "doi": "10.2307/4433465",
+   "title": "'We' and Empedocles' Cosmic Lottery: \"P. Strasb. gr. Inv. 1665-1666\", ensemble a",
+   "author": "S. Trépanier"
+  },
+  {
+   "book": "",
+   "page": 328,
+   "section": "a",
+   "line": null,
+   "journal": "Hermes",
+   "year": "1968",
+   "iid": "721322a2-e007-3ad4-adcc-e57383de9aeb",
+   "doi": "10.2307/4475532",
+   "title": "The De Audibilibus and Peripatetic Acoustics",
+   "author": "H. B. Gottschalk"
+  },
+  {
+   "book": "",
+   "page": 324,
+   "section": "b",
+   "line": null,
+   "journal": "Hermes",
+   "year": "1968",
+   "iid": "721322a2-e007-3ad4-adcc-e57383de9aeb",
+   "doi": "10.2307/4475532",
+   "title": "The De Audibilibus and Peripatetic Acoustics",
+   "author": "H. B. Gottschalk"
+  },
+  {
+   "book": "",
+   "page": 314,
+   "section": "a",
+   "line": null,
+   "journal": "Hermes",
+   "year": "1981",
+   "iid": "7fd22e8c-e06c-3c26-8cf0-fb38ea0120b0",
+   "doi": "10.2307/4476213",
+   "title": "Zum Problem des Geometrischen Atomismus bei Demokrit",
+   "author": "Reinhard Seide"
+  },
+  {
+   "book": "",
+   "page": 325,
+   "section": "a",
+   "line": null,
+   "journal": "Hermes",
+   "year": "1981",
+   "iid": "7fd22e8c-e06c-3c26-8cf0-fb38ea0120b0",
+   "doi": "10.2307/4476213",
+   "title": "Zum Problem des Geometrischen Atomismus bei Demokrit",
+   "author": "Reinhard Seide"
+  },
+  {
+   "book": "",
+   "page": 316,
+   "section": "a",
+   "line": null,
+   "journal": "Hermes",
+   "year": "1981",
+   "iid": "7fd22e8c-e06c-3c26-8cf0-fb38ea0120b0",
+   "doi": "10.2307/4476213",
+   "title": "Zum Problem des Geometrischen Atomismus bei Demokrit",
+   "author": "Reinhard Seide"
+  },
+  {
+   "book": "",
+   "page": 332,
+   "section": "b",
+   "line": 32,
+   "journal": "The American Journal of Philology",
+   "year": "1986",
+   "iid": "8206e919-17db-33aa-b981-c793504f2c6c",
+   "doi": "10.2307/295102",
+   "title": "The Moving Posset Stands Still: Heraclitus Fr. 125",
+   "author": "Mary Margaret MacKenzie"
+  },
+  {
+   "book": "",
+   "page": 316,
+   "section": "b",
+   "line": 30,
+   "journal": "Mnemosyne",
+   "year": "1996",
+   "iid": "84c0b7f7-8a9f-34b7-a115-f115a660a527",
+   "doi": "10.2307/4432608",
+   "title": "Empedocles' Fragment 20 DK: Some Suggestions",
+   "author": "N. van der Ben"
+  },
+  {
+   "book": "",
+   "page": 314,
+   "section": "a",
+   "line": 8,
+   "journal": "Mnemosyne",
+   "year": "2019",
+   "iid": "8a3c0f9f-1387-3a7f-9a74-243ceccb1144",
+   "doi": "10.2307/26675802",
+   "title": "How to Think the Infinite",
+   "author": "Mirjam E. Kotwick, Christian Pfeiffer"
+  },
+  {
+   "book": "",
+   "page": 334,
+   "section": "a",
+   "line": null,
+   "journal": "The American Journal of Philology",
+   "year": "2017",
+   "iid": "9528cf18-4655-3b5e-aec9-87e209abf066",
+   "doi": "10.2307/26360895",
+   "title": "EMPEDOCLES' \"ROOTS\" IN LUCRETIUS' \"DE RERUM NATURA\"",
+   "author": "Jason S. Nethercut"
+  },
+  {
+   "book": "",
+   "page": 329,
+   "section": "b",
+   "line": 15,
+   "journal": "Mnemosyne",
+   "year": "2003",
+   "iid": "a6fcdd51-a02e-3aaa-be13-3e36887d07cc",
+   "doi": "10.2307/4433468",
+   "title": "Aristotle on Geometric Perfection in the Physical World",
+   "author": "Theokritos Kouremenos"
+  },
+  {
+   "book": "",
+   "page": 329,
+   "section": "b",
+   "line": 30,
+   "journal": "Mnemosyne",
+   "year": "2003",
+   "iid": "a6fcdd51-a02e-3aaa-be13-3e36887d07cc",
+   "doi": "10.2307/4433468",
+   "title": "Aristotle on Geometric Perfection in the Physical World",
+   "author": "Theokritos Kouremenos"
+  },
+  {
+   "book": "",
+   "page": 330,
+   "section": "a",
+   "line": null,
+   "journal": "Mnemosyne",
+   "year": "2003",
+   "iid": "a6fcdd51-a02e-3aaa-be13-3e36887d07cc",
+   "doi": "10.2307/4433468",
+   "title": "Aristotle on Geometric Perfection in the Physical World",
+   "author": "Theokritos Kouremenos"
+  },
+  {
+   "book": "",
+   "page": 331,
+   "section": "a",
+   "line": 3,
+   "journal": "Mnemosyne",
+   "year": "2003",
+   "iid": "a6fcdd51-a02e-3aaa-be13-3e36887d07cc",
+   "doi": "10.2307/4433468",
+   "title": "Aristotle on Geometric Perfection in the Physical World",
+   "author": "Theokritos Kouremenos"
+  },
+  {
+   "book": "",
+   "page": 334,
+   "section": "b",
+   "line": 30,
+   "journal": "Mnemosyne",
+   "year": "2003",
+   "iid": "a6fcdd51-a02e-3aaa-be13-3e36887d07cc",
+   "doi": "10.2307/4433468",
+   "title": "Aristotle on Geometric Perfection in the Physical World",
+   "author": "Theokritos Kouremenos"
+  },
+  {
+   "book": "",
+   "page": 335,
+   "section": "a",
+   "line": null,
+   "journal": "Mnemosyne",
+   "year": "2003",
+   "iid": "a6fcdd51-a02e-3aaa-be13-3e36887d07cc",
+   "doi": "10.2307/4433468",
+   "title": "Aristotle on Geometric Perfection in the Physical World",
+   "author": "Theokritos Kouremenos"
+  },
+  {
+   "book": "",
+   "page": 335,
+   "section": "a",
+   "line": 15,
+   "journal": "Mnemosyne",
+   "year": "2003",
+   "iid": "a6fcdd51-a02e-3aaa-be13-3e36887d07cc",
+   "doi": "10.2307/4433468",
+   "title": "Aristotle on Geometric Perfection in the Physical World",
+   "author": "Theokritos Kouremenos"
+  },
+  {
+   "book": "",
+   "page": 330,
+   "section": "a",
+   "line": 0,
+   "journal": "The Harvard Theological Review",
+   "year": "1932",
+   "iid": "aaf6645e-209b-3ed9-bfb7-d3a4b95d3491",
+   "doi": "10.2307/1508315",
+   "title": "Khanmeti Palimpsest Fragments of the Old Georgian Version of Jeremiah",
+   "author": "Robert P. Blake"
+  },
+  {
+   "book": "",
+   "page": 319,
+   "section": "b",
+   "line": null,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "2014",
+   "iid": "b2fedb4e-f757-32dc-be84-9705a2e3e300",
+   "doi": "10.2307/24392702",
+   "title": "ELEMENTS AND ELEMENTAL PROPERTIES IN TIMAEUS LOCRUS",
+   "author": "Angela Ulacco, Jan Opsomer"
+  },
+  {
+   "book": "",
+   "page": 319,
+   "section": "b",
+   "line": 15,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "2014",
+   "iid": "b2fedb4e-f757-32dc-be84-9705a2e3e300",
+   "doi": "10.2307/24392702",
+   "title": "ELEMENTS AND ELEMENTAL PROPERTIES IN TIMAEUS LOCRUS",
+   "author": "Angela Ulacco, Jan Opsomer"
+  },
+  {
+   "book": "",
+   "page": 319,
+   "section": "b",
+   "line": 30,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "2014",
+   "iid": "b2fedb4e-f757-32dc-be84-9705a2e3e300",
+   "doi": "10.2307/24392702",
+   "title": "ELEMENTS AND ELEMENTAL PROPERTIES IN TIMAEUS LOCRUS",
+   "author": "Angela Ulacco, Jan Opsomer"
+  },
+  {
+   "book": "",
+   "page": 320,
+   "section": "a",
+   "line": null,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "2014",
+   "iid": "b2fedb4e-f757-32dc-be84-9705a2e3e300",
+   "doi": "10.2307/24392702",
+   "title": "ELEMENTS AND ELEMENTAL PROPERTIES IN TIMAEUS LOCRUS",
+   "author": "Angela Ulacco, Jan Opsomer"
+  },
+  {
+   "book": "",
+   "page": 320,
+   "section": "a",
+   "line": 22,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "2014",
+   "iid": "b2fedb4e-f757-32dc-be84-9705a2e3e300",
+   "doi": "10.2307/24392702",
+   "title": "ELEMENTS AND ELEMENTAL PROPERTIES IN TIMAEUS LOCRUS",
+   "author": "Angela Ulacco, Jan Opsomer"
+  },
+  {
+   "book": "",
+   "page": 320,
+   "section": "b",
+   "line": 29,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "2014",
+   "iid": "b2fedb4e-f757-32dc-be84-9705a2e3e300",
+   "doi": "10.2307/24392702",
+   "title": "ELEMENTS AND ELEMENTAL PROPERTIES IN TIMAEUS LOCRUS",
+   "author": "Angela Ulacco, Jan Opsomer"
+  },
+  {
+   "book": "",
+   "page": 317,
+   "section": "b",
+   "line": 24,
+   "journal": "Mnemosyne",
+   "year": "2008",
+   "iid": "d789cc06-73e9-3e72-bcd4-f09677c82aa9",
+   "doi": "10.2307/27736227",
+   "title": "Book Review : \n        Aristote, De la génération et la corruption\n        \n          M.\n          Rashed",
+   "author": "M. Rashed, T. Dorandi"
+  },
+  {
+   "book": "",
+   "page": 322,
+   "section": "a",
+   "line": 28,
+   "journal": "Mnemosyne",
+   "year": "2008",
+   "iid": "d789cc06-73e9-3e72-bcd4-f09677c82aa9",
+   "doi": "10.2307/27736227",
+   "title": "Book Review : \n        Aristote, De la génération et la corruption\n        \n          M.\n          Rashed",
+   "author": "M. Rashed, T. Dorandi"
+  },
+  {
+   "book": "",
+   "page": 322,
+   "section": "b",
+   "line": null,
+   "journal": "Mnemosyne",
+   "year": "2008",
+   "iid": "d789cc06-73e9-3e72-bcd4-f09677c82aa9",
+   "doi": "10.2307/27736227",
+   "title": "Book Review : \n        Aristote, De la génération et la corruption\n        \n          M.\n          Rashed",
+   "author": "M. Rashed, T. Dorandi"
+  },
+  {
+   "book": "",
+   "page": 323,
+   "section": "b",
+   "line": 22,
+   "journal": "Mnemosyne",
+   "year": "2008",
+   "iid": "d789cc06-73e9-3e72-bcd4-f09677c82aa9",
+   "doi": "10.2307/27736227",
+   "title": "Book Review : \n        Aristote, De la génération et la corruption\n        \n          M.\n          Rashed",
+   "author": "M. Rashed, T. Dorandi"
+  },
+  {
+   "book": "",
+   "page": 335,
+   "section": "b",
+   "line": 31,
+   "journal": "Mnemosyne",
+   "year": "1993",
+   "iid": "e6f3ff5e-1d46-3fa8-a0f0-9c21f25a33fa",
+   "doi": "10.2307/4432270",
+   "title": "Aristotle's Philosophical \"Poetics\"",
+   "author": "Poulheria Kyriakou"
+  },
+  {
+   "book": "",
+   "page": 319,
+   "section": "b",
+   "line": null,
+   "journal": "Illinois Classical Studies",
+   "year": "2002",
+   "iid": "e92c66f9-377f-38f1-8d6c-2260639a42cf",
+   "doi": "10.2307/23065461",
+   "title": "Philologists or Philosophers?",
+   "author": "J. K. NEWMAN"
+  },
+  {
+   "book": "",
+   "page": 328,
+   "section": "b",
+   "line": 30,
+   "journal": "Transactions of the American Philological Association (1974-2014)",
+   "year": "1984",
+   "iid": "f0ff46c8-f77d-355e-9432-ad7867bf6467",
+   "doi": "10.2307/284146",
+   "title": "The Presocratics in Book One of Lucretius' De Rerum Natura",
+   "author": "W. Jeffrey Tatum"
+  },
+  {
+   "book": "",
+   "page": 329,
+   "section": "a",
+   "line": null,
+   "journal": "Transactions of the American Philological Association (1974-2014)",
+   "year": "1984",
+   "iid": "f0ff46c8-f77d-355e-9432-ad7867bf6467",
+   "doi": "10.2307/284146",
+   "title": "The Presocratics in Book One of Lucretius' De Rerum Natura",
+   "author": "W. Jeffrey Tatum"
+  },
+  {
+   "book": "",
+   "page": 329,
+   "section": "a",
+   "line": 15,
+   "journal": "Transactions of the American Philological Association (1974-2014)",
+   "year": "1984",
+   "iid": "f0ff46c8-f77d-355e-9432-ad7867bf6467",
+   "doi": "10.2307/284146",
+   "title": "The Presocratics in Book One of Lucretius' De Rerum Natura",
+   "author": "W. Jeffrey Tatum"
+  },
+  {
+   "book": "",
+   "page": 329,
+   "section": "a",
+   "line": 30,
+   "journal": "Transactions of the American Philological Association (1974-2014)",
+   "year": "1984",
+   "iid": "f0ff46c8-f77d-355e-9432-ad7867bf6467",
+   "doi": "10.2307/284146",
+   "title": "The Presocratics in Book One of Lucretius' De Rerum Natura",
+   "author": "W. Jeffrey Tatum"
+  },
+  {
+   "book": "",
+   "page": 329,
+   "section": "b",
+   "line": null,
+   "journal": "Transactions of the American Philological Association (1974-2014)",
+   "year": "1984",
+   "iid": "f0ff46c8-f77d-355e-9432-ad7867bf6467",
+   "doi": "10.2307/284146",
+   "title": "The Presocratics in Book One of Lucretius' De Rerum Natura",
+   "author": "W. Jeffrey Tatum"
+  },
+  {
+   "book": "",
+   "page": 323,
+   "section": "b",
+   "line": null,
+   "journal": "Revue de Théologie et de Philosophie",
+   "year": "1986",
+   "iid": "f34c58df-db72-390e-bf45-16b31d8cf16b",
+   "doi": "10.2307/44356528",
+   "title": "SENSUS EST QUODAMMODO IPSA SENSIBILIA: Le réalisme aristotélicien et le problème des erreurs des sens",
+   "author": "Bernard Baertschi"
+  },
+  {
+   "book": "",
+   "page": 315,
+   "section": "b",
+   "line": 24,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "2003",
+   "iid": "fd1cdf19-d4b9-3565-9ee9-e335f5519729",
+   "doi": "10.2307/41234714",
+   "title": "WHY DOES PLATO'S ELEMENT THEORY CONFLICT WITH MATHEMATICS (ARIST. CAEL. 299a2-6)?",
+   "author": "Theokritos Kouremenos"
   }
  ]
 }

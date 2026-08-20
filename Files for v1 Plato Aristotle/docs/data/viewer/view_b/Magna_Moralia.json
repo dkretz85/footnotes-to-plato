@@ -1,0 +1,2374 @@
+{
+ "work": "Magna_Moralia",
+ "faceted": false,
+ "tier": "trustworthy",
+ "cells": [
+  {
+   "book": "",
+   "page": 1181,
+   "section": "a",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1182,
+   "section": "a",
+   "count": 11,
+   "articles": 11,
+   "by_journal": {
+    "Méthexis": 3,
+    "The Classical Quarterly": 2,
+    "Phronesis": 2,
+    "Revue de Philosophie Ancienne": 1,
+    "Revue Internationale de Philosophie": 1,
+    "Archivio di Filosofia": 1,
+    "History of Philosophy Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1182,
+   "section": "b",
+   "count": 3,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 1,
+    "Classical Philology": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 1183,
+   "section": "a",
+   "count": 4,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 2,
+    "Classical Philology": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 1183,
+   "section": "b",
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "Les Études philosophiques": 1,
+    "Archivio di Filosofia": 1,
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1184,
+   "section": "a",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Classical Philology": 1,
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1185,
+   "section": "a",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1185,
+   "section": "b",
+   "count": 5,
+   "articles": 5,
+   "by_journal": {
+    "Phronesis": 2,
+    "Archivio di Filosofia": 1,
+    "The Classical Review": 1,
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1186,
+   "section": "a",
+   "count": 4,
+   "articles": 4,
+   "by_journal": {
+    "Phronesis": 1,
+    "The Classical Quarterly": 2,
+    "Méthexis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1187,
+   "section": "a",
+   "count": 4,
+   "articles": 3,
+   "by_journal": {
+    "Les Études philosophiques": 1,
+    "Archivio di Filosofia": 1,
+    "History of Philosophy Quarterly": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 1187,
+   "section": "b",
+   "count": 4,
+   "articles": 4,
+   "by_journal": {
+    "The Classical Review": 2,
+    "History of Philosophy Quarterly": 1,
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1188,
+   "section": "b",
+   "count": 5,
+   "articles": 3,
+   "by_journal": {
+    "Classical Philology": 2,
+    "Revue Internationale de Philosophie": 1,
+    "The Classical Quarterly": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 1189,
+   "section": "a",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1189,
+   "section": "b",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Revue Internationale de Philosophie": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1190,
+   "section": "a",
+   "count": 7,
+   "articles": 4,
+   "by_journal": {
+    "History of Philosophy Quarterly": 1,
+    "Classical Philology": 5,
+    "Revue Internationale de Philosophie": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1190,
+   "section": "b",
+   "count": 9,
+   "articles": 9,
+   "by_journal": {
+    "The Classical Quarterly": 2,
+    "Les Études philosophiques": 1,
+    "Revue de Philosophie Ancienne": 1,
+    "Archivio di Filosofia": 1,
+    "Classical Philology": 1,
+    "History of Philosophy Quarterly": 1,
+    "Revue Internationale de Philosophie": 1,
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1191,
+   "section": "a",
+   "count": 5,
+   "articles": 2,
+   "by_journal": {
+    "The Classical Quarterly": 2,
+    "Revue de Philosophie Ancienne": 3
+   }
+  },
+  {
+   "book": "",
+   "page": 1192,
+   "section": "b",
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "Phronesis": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 1193,
+   "section": "a",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1193,
+   "section": "b",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1194,
+   "section": "a",
+   "count": 4,
+   "articles": 3,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "Les Études philosophiques": 1,
+    "The Classical Review": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 1194,
+   "section": "b",
+   "count": 5,
+   "articles": 4,
+   "by_journal": {
+    "Méthexis": 2,
+    "Phronesis": 1,
+    "The Classical Quarterly": 1,
+    "The Classical Review": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1195,
+   "section": "a",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1195,
+   "section": "b",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "History of Philosophy Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1196,
+   "section": "b",
+   "count": 3,
+   "articles": 2,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "Revue de Philosophie Ancienne": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 1197,
+   "section": "a",
+   "count": 4,
+   "articles": 4,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "Phronesis": 1,
+    "History of Philosophy Quarterly": 1,
+    "Revue de Philosophie Ancienne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1197,
+   "section": "b",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Review": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1198,
+   "section": "a",
+   "count": 7,
+   "articles": 6,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 2,
+    "Méthexis": 1,
+    "Archivio di Filosofia": 1,
+    "Phronesis": 1,
+    "Classical Philology": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 1198,
+   "section": "b",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Méthexis": 1,
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1199,
+   "section": "a",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 1199,
+   "section": "b",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1200,
+   "section": "a",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "History of Philosophy Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1200,
+   "section": "b",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Les Études philosophiques": 1,
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1201,
+   "section": "a",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1202,
+   "section": "a",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1202,
+   "section": "b",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1203,
+   "section": "b",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1204,
+   "section": "a",
+   "count": 2,
+   "articles": 1,
+   "by_journal": {
+    "Classical Philology": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 1204,
+   "section": "b",
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "Phronesis": 3
+   }
+  },
+  {
+   "book": "",
+   "page": 1205,
+   "section": "a",
+   "count": 3,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 1,
+    "Classical Philology": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 1206,
+   "section": "a",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1206,
+   "section": "b",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1207,
+   "section": "b",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1208,
+   "section": "a",
+   "count": 4,
+   "articles": 3,
+   "by_journal": {
+    "Phronesis": 3,
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1208,
+   "section": "b",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1209,
+   "section": "a",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1209,
+   "section": "b",
+   "count": 3,
+   "articles": 2,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "Classical Philology": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 1211,
+   "section": "a",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Méthexis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1211,
+   "section": "b",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 1212,
+   "section": "b",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "History of Philosophy Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1213,
+   "section": "a",
+   "count": 8,
+   "articles": 6,
+   "by_journal": {
+    "Phronesis": 1,
+    "History of Philosophy Quarterly": 2,
+    "Revue Internationale de Philosophie": 2,
+    "Classical Philology": 2,
+    "Revue de Philosophie Ancienne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1213,
+   "section": "b",
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "Revue Internationale de Philosophie": 2
+   }
+  }
+ ],
+ "dots": [
+  {
+   "book": "",
+   "page": 1208,
+   "section": "a",
+   "line": 10,
+   "journal": "Phronesis",
+   "year": "1988",
+   "iid": "029ee75a-1525-398a-a06b-0d82df926d36",
+   "doi": "10.2307/4182309",
+   "title": "Horos (Limit) in Aristotle's \"Nicomachean Ethics\"",
+   "author": "Sandra Peterson"
+  },
+  {
+   "book": "",
+   "page": 1199,
+   "section": "a",
+   "line": 28,
+   "journal": "Phronesis",
+   "year": "1988",
+   "iid": "029ee75a-1525-398a-a06b-0d82df926d36",
+   "doi": "10.2307/4182309",
+   "title": "Horos (Limit) in Aristotle's \"Nicomachean Ethics\"",
+   "author": "Sandra Peterson"
+  },
+  {
+   "book": "",
+   "page": 1208,
+   "section": "a",
+   "line": 22,
+   "journal": "Phronesis",
+   "year": "1988",
+   "iid": "029ee75a-1525-398a-a06b-0d82df926d36",
+   "doi": "10.2307/4182309",
+   "title": "Horos (Limit) in Aristotle's \"Nicomachean Ethics\"",
+   "author": "Sandra Peterson"
+  },
+  {
+   "book": "",
+   "page": 1181,
+   "section": "a",
+   "line": 19,
+   "journal": "Phronesis",
+   "year": "1988",
+   "iid": "029ee75a-1525-398a-a06b-0d82df926d36",
+   "doi": "10.2307/4182309",
+   "title": "Horos (Limit) in Aristotle's \"Nicomachean Ethics\"",
+   "author": "Sandra Peterson"
+  },
+  {
+   "book": "",
+   "page": 1198,
+   "section": "a",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "1988",
+   "iid": "03342fbd-b725-3486-b5a0-2a1b4bc83d57",
+   "doi": "10.2307/24353817",
+   "title": "LES FINS ET LES MOYENS: UN PUZZLE ARISTOTÉLICIEN",
+   "author": "Carlo Natali, Anne-Marie Roviello"
+  },
+  {
+   "book": "",
+   "page": 1198,
+   "section": "a",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "1988",
+   "iid": "03342fbd-b725-3486-b5a0-2a1b4bc83d57",
+   "doi": "10.2307/24353817",
+   "title": "LES FINS ET LES MOYENS: UN PUZZLE ARISTOTÉLICIEN",
+   "author": "Carlo Natali, Anne-Marie Roviello"
+  },
+  {
+   "book": "",
+   "page": 1213,
+   "section": "a",
+   "line": 27,
+   "journal": "Phronesis",
+   "year": "1994",
+   "iid": "052a00d3-378e-36ea-ab6d-29def8b657eb",
+   "doi": "10.2307/4182479",
+   "title": "Aristotle on Loving Another for His Own Sake",
+   "author": "Kelly Rogers"
+  },
+  {
+   "book": "",
+   "page": 1185,
+   "section": "b",
+   "line": 3,
+   "journal": "Phronesis",
+   "year": "1984",
+   "iid": "0709bcd8-73dd-37e7-a90b-52124f931c13",
+   "doi": "10.2307/4182187",
+   "title": "Virtù o scienza? Aspetti della φρόνησις nei Topici e nelle Etiche di Aristotele",
+   "author": "Carlo Natali"
+  },
+  {
+   "book": "",
+   "page": 1182,
+   "section": "a",
+   "line": 23,
+   "journal": "Méthexis",
+   "year": "1993",
+   "iid": "098b98f7-a2b2-3593-9a7a-1d7289f59a85",
+   "doi": "10.2307/43738858",
+   "title": "PLATÓN Y EL PROBLEMA DE LOS \"ÁGRAPHA\"",
+   "author": "M. ISNARDI PARENTE, Ivana Costa, MARGHERITA ISNARDI PARENTI"
+  },
+  {
+   "book": "",
+   "page": 1213,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2000",
+   "iid": "0b35eeee-6d21-3f99-8afb-959877618fac",
+   "doi": "10.2307/1558932",
+   "title": "Creative Rhetoric in Euripides' \"Troades\": Some Notes on Hecuba's Speech",
+   "author": "Ra'Anana Meridor"
+  },
+  {
+   "book": "",
+   "page": 1185,
+   "section": "b",
+   "line": 5,
+   "journal": "Phronesis",
+   "year": "2011",
+   "iid": "0c400724-d643-316c-8035-dd6cde4d39bd",
+   "doi": "10.2307/23056294",
+   "title": "\"Virtue Makes the Goal Right\": Virtue and \"Phronesis\" in Aristotle's Ethics",
+   "author": "Jessica Moss"
+  },
+  {
+   "book": "",
+   "page": 1192,
+   "section": "b",
+   "line": 23,
+   "journal": "The Classical Quarterly",
+   "year": "2008",
+   "iid": "1070c8f8-9b19-31cf-89bd-f8706e38c0c9",
+   "doi": "10.2307/27564125",
+   "title": "Music and the Education of the Soul in Plato and Aristotle: Homoeopathy and the Formation of Character",
+   "author": "Frédérique Woerther"
+  },
+  {
+   "book": "",
+   "page": 1190,
+   "section": "b",
+   "line": 9,
+   "journal": "The Classical Quarterly",
+   "year": "2008",
+   "iid": "1070c8f8-9b19-31cf-89bd-f8706e38c0c9",
+   "doi": "10.2307/27564125",
+   "title": "Music and the Education of the Soul in Plato and Aristotle: Homoeopathy and the Formation of Character",
+   "author": "Frédérique Woerther"
+  },
+  {
+   "book": "",
+   "page": 1191,
+   "section": "a",
+   "line": 35,
+   "journal": "The Classical Quarterly",
+   "year": "2008",
+   "iid": "1070c8f8-9b19-31cf-89bd-f8706e38c0c9",
+   "doi": "10.2307/27564125",
+   "title": "Music and the Education of the Soul in Plato and Aristotle: Homoeopathy and the Formation of Character",
+   "author": "Frédérique Woerther"
+  },
+  {
+   "book": "",
+   "page": 1191,
+   "section": "a",
+   "line": 36,
+   "journal": "The Classical Quarterly",
+   "year": "2008",
+   "iid": "1070c8f8-9b19-31cf-89bd-f8706e38c0c9",
+   "doi": "10.2307/27564125",
+   "title": "Music and the Education of the Soul in Plato and Aristotle: Homoeopathy and the Formation of Character",
+   "author": "Frédérique Woerther"
+  },
+  {
+   "book": "",
+   "page": 1208,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1951",
+   "iid": "10cfa68b-db49-323a-96e4-d91512ed0662",
+   "doi": "10.2307/267240",
+   "title": "The Location of Cellae and the Route of the via Egnatia in Western Macedonia",
+   "author": "Charles Edson"
+  },
+  {
+   "book": "",
+   "page": 1199,
+   "section": "a",
+   "line": 23,
+   "journal": "Phronesis",
+   "year": "2021",
+   "iid": "1660b270-8d4b-3145-bb62-954662a8a0ba",
+   "doi": "10.2307/27285980",
+   "title": "The Doing of Justice and the Priority of Acting from Virtue",
+   "author": "Patricio A. Fernandez"
+  },
+  {
+   "book": "",
+   "page": 1182,
+   "section": "a",
+   "line": 24,
+   "journal": "The Classical Quarterly",
+   "year": "1993",
+   "iid": "19f97049-b9aa-3a5f-8336-650bb6c64b87",
+   "doi": "10.2307/639458",
+   "title": "Xenocrates' Daemons and the Irrational Soul",
+   "author": "Hermann S. Schibli"
+  },
+  {
+   "book": "",
+   "page": 1192,
+   "section": "b",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1994",
+   "iid": "1bf9e8c0-b3c9-3314-92d0-3d54b45a8f5f",
+   "doi": "10.2307/4182465",
+   "title": "Aristotle on Elemental Motion",
+   "author": "Sheldon M. Cohen"
+  },
+  {
+   "book": "",
+   "page": 1212,
+   "section": "b",
+   "line": 8,
+   "journal": "History of Philosophy Quarterly",
+   "year": "2011",
+   "iid": "1cd881f0-8646-35c3-8a0c-0fa78885b5f0",
+   "doi": "10.2307/23032377",
+   "title": "ARISTOTLE ON FRIENDSHIP AND SELF-KNOWLEDGE: THE FRIEND BEYOND THE MIRROR",
+   "author": "Mavis Biss"
+  },
+  {
+   "book": "",
+   "page": 1185,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1981",
+   "iid": "1cd7864b-cd43-3a0f-8734-01840be8978d",
+   "doi": "10.2307/638543",
+   "title": "Horace, Epistles 2. 2: Introspection and Retrospective",
+   "author": "R. B. Rutherford"
+  },
+  {
+   "book": "",
+   "page": 1197,
+   "section": "a",
+   "line": 3,
+   "journal": "The Classical Quarterly",
+   "year": "1999",
+   "iid": "2158d5fe-1760-3086-b37f-588dc5cf23a6",
+   "doi": "10.2307/639874",
+   "title": "On Sterility ('HA X'), A Medical Work by Aristotle?",
+   "author": "Philip J. van der Eijk"
+  },
+  {
+   "book": "",
+   "page": 1211,
+   "section": "b",
+   "line": 1,
+   "journal": "Phronesis",
+   "year": "2019",
+   "iid": "279874c3-e4ab-33bc-ac49-def633f26dff",
+   "doi": "10.2307/26566229",
+   "title": "Aristotle on Virtue of Character and the Authority of Reason",
+   "author": "Jozef Müller"
+  },
+  {
+   "book": "",
+   "page": 1197,
+   "section": "a",
+   "line": 14,
+   "journal": "Phronesis",
+   "year": "2019",
+   "iid": "279874c3-e4ab-33bc-ac49-def633f26dff",
+   "doi": "10.2307/26566229",
+   "title": "Aristotle on Virtue of Character and the Authority of Reason",
+   "author": "Jozef Müller"
+  },
+  {
+   "book": "",
+   "page": 1186,
+   "section": "a",
+   "line": 33,
+   "journal": "Phronesis",
+   "year": "2019",
+   "iid": "279874c3-e4ab-33bc-ac49-def633f26dff",
+   "doi": "10.2307/26566229",
+   "title": "Aristotle on Virtue of Character and the Authority of Reason",
+   "author": "Jozef Müller"
+  },
+  {
+   "book": "",
+   "page": 1208,
+   "section": "a",
+   "line": 10,
+   "journal": "Phronesis",
+   "year": "2019",
+   "iid": "279874c3-e4ab-33bc-ac49-def633f26dff",
+   "doi": "10.2307/26566229",
+   "title": "Aristotle on Virtue of Character and the Authority of Reason",
+   "author": "Jozef Müller"
+  },
+  {
+   "book": "",
+   "page": 1190,
+   "section": "a",
+   "line": null,
+   "journal": "History of Philosophy Quarterly",
+   "year": "1986",
+   "iid": "28c0f934-149a-3b3b-97d2-df9ce7eb2916",
+   "doi": "10.2307/27743773",
+   "title": "Aristotle on Function and Virtue",
+   "author": "Christine M. Korsgaard"
+  },
+  {
+   "book": "",
+   "page": 1194,
+   "section": "a",
+   "line": 21,
+   "journal": "The Classical Quarterly",
+   "year": "2006",
+   "iid": "28f4bca4-577d-3af0-b142-cef45020bed5",
+   "doi": "10.2307/4493391",
+   "title": "Aristotle and Individual Forms: The Grammar of the Possessive Pronouns at Metaphysics Λ.5, 1071a27-9",
+   "author": "David Konstan, Ilaria Ramelli"
+  },
+  {
+   "book": "",
+   "page": 1201,
+   "section": "a",
+   "line": 36,
+   "journal": "The Classical Quarterly",
+   "year": "2006",
+   "iid": "28f4bca4-577d-3af0-b142-cef45020bed5",
+   "doi": "10.2307/4493391",
+   "title": "Aristotle and Individual Forms: The Grammar of the Possessive Pronouns at Metaphysics Λ.5, 1071a27-9",
+   "author": "David Konstan, Ilaria Ramelli"
+  },
+  {
+   "book": "",
+   "page": 1186,
+   "section": "a",
+   "line": 5,
+   "journal": "The Classical Quarterly",
+   "year": "2006",
+   "iid": "28f4bca4-577d-3af0-b142-cef45020bed5",
+   "doi": "10.2307/4493391",
+   "title": "Aristotle and Individual Forms: The Grammar of the Possessive Pronouns at Metaphysics Λ.5, 1071a27-9",
+   "author": "David Konstan, Ilaria Ramelli"
+  },
+  {
+   "book": "",
+   "page": 1196,
+   "section": "b",
+   "line": 18,
+   "journal": "The Classical Quarterly",
+   "year": "2006",
+   "iid": "28f4bca4-577d-3af0-b142-cef45020bed5",
+   "doi": "10.2307/4493391",
+   "title": "Aristotle and Individual Forms: The Grammar of the Possessive Pronouns at Metaphysics Λ.5, 1071a27-9",
+   "author": "David Konstan, Ilaria Ramelli"
+  },
+  {
+   "book": "",
+   "page": 1190,
+   "section": "b",
+   "line": 10,
+   "journal": "The Classical Quarterly",
+   "year": "2006",
+   "iid": "28f4bca4-577d-3af0-b142-cef45020bed5",
+   "doi": "10.2307/4493391",
+   "title": "Aristotle and Individual Forms: The Grammar of the Possessive Pronouns at Metaphysics Λ.5, 1071a27-9",
+   "author": "David Konstan, Ilaria Ramelli"
+  },
+  {
+   "book": "",
+   "page": 1202,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1987",
+   "iid": "2c08012a-da5d-351c-a60f-01bfba4bcc05",
+   "doi": "10.2307/269654",
+   "title": "The Way of a God with a Maid in Aeschylus' \"Agamemnon\"",
+   "author": "David Kovacs"
+  },
+  {
+   "book": "",
+   "page": 1204,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1987",
+   "iid": "2c08012a-da5d-351c-a60f-01bfba4bcc05",
+   "doi": "10.2307/269654",
+   "title": "The Way of a God with a Maid in Aeschylus' \"Agamemnon\"",
+   "author": "David Kovacs"
+  },
+  {
+   "book": "",
+   "page": 1204,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1987",
+   "iid": "2c08012a-da5d-351c-a60f-01bfba4bcc05",
+   "doi": "10.2307/269654",
+   "title": "The Way of a God with a Maid in Aeschylus' \"Agamemnon\"",
+   "author": "David Kovacs"
+  },
+  {
+   "book": "",
+   "page": 1213,
+   "section": "b",
+   "line": null,
+   "journal": "Revue Internationale de Philosophie",
+   "year": "1997",
+   "iid": "2c230cee-8887-3aa1-91c2-1528129104b9",
+   "doi": "10.2307/23954512",
+   "title": "ARISTOTELIAN SUBSTANCES AND STOIC SUBJECTS",
+   "author": "Terence H. IRWIN"
+  },
+  {
+   "book": "",
+   "page": 1194,
+   "section": "a",
+   "line": null,
+   "journal": "Les Études philosophiques",
+   "year": "2013",
+   "iid": "2d6f33eb-6023-3aaa-989f-d6ea67a9ac33",
+   "doi": "10.2307/41806195",
+   "title": "JEAN SCOT ÉRIGÈNE, LA CONNAISSANCE DE SOI ET LA TRADITION IDÉALISTE",
+   "author": "Juliette Lemaire, Dermot Moran"
+  },
+  {
+   "book": "",
+   "page": 1190,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1906",
+   "iid": "2e4bfdcb-c8ad-3cf1-93f1-b81a05d4a38a",
+   "doi": "10.2307/262258",
+   "title": "Bisected Trimeters in Attic Tragedy",
+   "author": "Thomas D. Goodell"
+  },
+  {
+   "book": "",
+   "page": 1189,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1906",
+   "iid": "2e4bfdcb-c8ad-3cf1-93f1-b81a05d4a38a",
+   "doi": "10.2307/262258",
+   "title": "Bisected Trimeters in Attic Tragedy",
+   "author": "Thomas D. Goodell"
+  },
+  {
+   "book": "",
+   "page": 1198,
+   "section": "a",
+   "line": 20,
+   "journal": "Méthexis",
+   "year": "2007",
+   "iid": "2eca8321-b492-3f4f-81b1-b6e9857d7b67",
+   "doi": "10.2307/43739183",
+   "title": "LA UNIDAD DE LA NOCIÓN DE ΦΙΛΙΑ EN ARISTÓTELES",
+   "author": "TOMÁS CALVO-MARTÍNEZ"
+  },
+  {
+   "book": "",
+   "page": 1206,
+   "section": "b",
+   "line": 30,
+   "journal": "The Classical Quarterly",
+   "year": "2008",
+   "iid": "2f47c007-abbd-3ce5-9731-211186828b8e",
+   "doi": "10.2307/27564126",
+   "title": "The \"Pythagorean Precepts\" of Aristoxenus: Crucial Evidence for Pythagorean Moral Philosophy",
+   "author": "Carl A. Huffman"
+  },
+  {
+   "book": "",
+   "page": 1182,
+   "section": "b",
+   "line": 31,
+   "journal": "Phronesis",
+   "year": "1992",
+   "iid": "31fbaccb-d4d9-30a8-8ecc-999065d971c9",
+   "doi": "10.2307/4182401",
+   "title": "In Defense of an Alternative View of the Foundation of Aristotle's Moral Theory",
+   "author": "Timothy D. Roche"
+  },
+  {
+   "book": "",
+   "page": 1182,
+   "section": "a",
+   "line": 34,
+   "journal": "Phronesis",
+   "year": "1992",
+   "iid": "31fbaccb-d4d9-30a8-8ecc-999065d971c9",
+   "doi": "10.2307/4182401",
+   "title": "In Defense of an Alternative View of the Foundation of Aristotle's Moral Theory",
+   "author": "Timothy D. Roche"
+  },
+  {
+   "book": "",
+   "page": 1183,
+   "section": "a",
+   "line": 29,
+   "journal": "Phronesis",
+   "year": "1992",
+   "iid": "31fbaccb-d4d9-30a8-8ecc-999065d971c9",
+   "doi": "10.2307/4182401",
+   "title": "In Defense of an Alternative View of the Foundation of Aristotle's Moral Theory",
+   "author": "Timothy D. Roche"
+  },
+  {
+   "book": "",
+   "page": 1183,
+   "section": "a",
+   "line": 29,
+   "journal": "Phronesis",
+   "year": "1992",
+   "iid": "31fbaccb-d4d9-30a8-8ecc-999065d971c9",
+   "doi": "10.2307/4182401",
+   "title": "In Defense of an Alternative View of the Foundation of Aristotle's Moral Theory",
+   "author": "Timothy D. Roche"
+  },
+  {
+   "book": "",
+   "page": 1194,
+   "section": "b",
+   "line": 5,
+   "journal": "Méthexis",
+   "year": "2006",
+   "iid": "3348a4ff-93dc-34f4-996e-73dea75e9a4a",
+   "doi": "10.2307/43738767",
+   "title": "ARISTOTLE ON THE UNITY OF THE JUST",
+   "author": "WILLIAM A. HAINES"
+  },
+  {
+   "book": "",
+   "page": 1211,
+   "section": "a",
+   "line": 6,
+   "journal": "Méthexis",
+   "year": "2006",
+   "iid": "3348a4ff-93dc-34f4-996e-73dea75e9a4a",
+   "doi": "10.2307/43738767",
+   "title": "ARISTOTLE ON THE UNITY OF THE JUST",
+   "author": "WILLIAM A. HAINES"
+  },
+  {
+   "book": "",
+   "page": 1198,
+   "section": "b",
+   "line": 26,
+   "journal": "Méthexis",
+   "year": "2006",
+   "iid": "3348a4ff-93dc-34f4-996e-73dea75e9a4a",
+   "doi": "10.2307/43738767",
+   "title": "ARISTOTLE ON THE UNITY OF THE JUST",
+   "author": "WILLIAM A. HAINES"
+  },
+  {
+   "book": "",
+   "page": 1194,
+   "section": "b",
+   "line": 5,
+   "journal": "Méthexis",
+   "year": "2006",
+   "iid": "3348a4ff-93dc-34f4-996e-73dea75e9a4a",
+   "doi": "10.2307/43738767",
+   "title": "ARISTOTLE ON THE UNITY OF THE JUST",
+   "author": "WILLIAM A. HAINES"
+  },
+  {
+   "book": "",
+   "page": 1182,
+   "section": "a",
+   "line": 16,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2018",
+   "iid": "335c56f9-ded0-327e-bdcd-9ec88404d67b",
+   "doi": "10.2307/26501831",
+   "title": "<em>ENKRATEIA</em> ET PARTITION DE L’ÂME CHEZ PLATON",
+   "author": "Louis-André Dorion"
+  },
+  {
+   "book": "",
+   "page": 1186,
+   "section": "a",
+   "line": 16,
+   "journal": "Méthexis",
+   "year": "2018",
+   "iid": "350e9184-b5ba-37ae-a241-ef6058b60ae3",
+   "doi": "10.2307/26416814",
+   "title": "The Method of Aristotle’s Inquiry on φαντασία in <em>De Anima</em> III 3",
+   "author": "Diego Zucca"
+  },
+  {
+   "book": "",
+   "page": 1200,
+   "section": "a",
+   "line": 5,
+   "journal": "History of Philosophy Quarterly",
+   "year": "2011",
+   "iid": "34765faf-aaeb-3230-bd39-b78b7bbfece9",
+   "doi": "10.2307/23032340",
+   "title": "HUME ON TESTIMONY: A VIRTUE-THEORETIC DEFENSE",
+   "author": "Sarah Wright"
+  },
+  {
+   "book": "",
+   "page": 1213,
+   "section": "a",
+   "line": 20,
+   "journal": "History of Philosophy Quarterly",
+   "year": "2012",
+   "iid": "3a9df75d-42df-386d-9cad-9b25a6eafc1a",
+   "doi": "10.2307/43488047",
+   "title": "ARISTOTLE ON OTHER-SELFHOOD AND RECIPROCAL SHAPING",
+   "author": "Anthony Carreras"
+  },
+  {
+   "book": "",
+   "page": 1193,
+   "section": "b",
+   "line": 37,
+   "journal": "Phronesis",
+   "year": "2011",
+   "iid": "42c6c6a9-98e4-3cc3-9415-78535497676b",
+   "doi": "10.2307/23056335",
+   "title": "Senses of \"Dunamis\" and the Structure of Aristotle's \"Metaphysics\" Θ",
+   "author": "Andreas Anagnostopoulos"
+  },
+  {
+   "book": "",
+   "page": 1183,
+   "section": "b",
+   "line": 8,
+   "journal": "Les Études philosophiques",
+   "year": "2011",
+   "iid": "48fa8221-d9ab-30c0-bc29-2fcbfc73ee1e",
+   "doi": "10.2307/41418749",
+   "title": "ARISTOTE ET \"L'ELENCHOS\" SOCRATIQUE",
+   "author": "Louis-André Dorion"
+  },
+  {
+   "book": "",
+   "page": 1187,
+   "section": "a",
+   "line": 5,
+   "journal": "Les Études philosophiques",
+   "year": "2011",
+   "iid": "48fa8221-d9ab-30c0-bc29-2fcbfc73ee1e",
+   "doi": "10.2307/41418749",
+   "title": "ARISTOTE ET \"L'ELENCHOS\" SOCRATIQUE",
+   "author": "Louis-André Dorion"
+  },
+  {
+   "book": "",
+   "page": 1190,
+   "section": "b",
+   "line": 27,
+   "journal": "Les Études philosophiques",
+   "year": "2011",
+   "iid": "48fa8221-d9ab-30c0-bc29-2fcbfc73ee1e",
+   "doi": "10.2307/41418749",
+   "title": "ARISTOTE ET \"L'ELENCHOS\" SOCRATIQUE",
+   "author": "Louis-André Dorion"
+  },
+  {
+   "book": "",
+   "page": 1200,
+   "section": "b",
+   "line": 25,
+   "journal": "Les Études philosophiques",
+   "year": "2011",
+   "iid": "48fa8221-d9ab-30c0-bc29-2fcbfc73ee1e",
+   "doi": "10.2307/41418749",
+   "title": "ARISTOTE ET \"L'ELENCHOS\" SOCRATIQUE",
+   "author": "Louis-André Dorion"
+  },
+  {
+   "book": "",
+   "page": 1199,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1991",
+   "iid": "4add4b30-ec6b-3d74-aedb-509f5a618777",
+   "doi": "10.2307/638912",
+   "title": "The Transmission of Florus and the Periochae Again",
+   "author": "M. D. Reeve"
+  },
+  {
+   "book": "",
+   "page": 1187,
+   "section": "b",
+   "line": 29,
+   "journal": "The Classical Review",
+   "year": "1991",
+   "iid": "4f9f1767-31bd-304d-bf4b-db9d0b16fed3",
+   "doi": "10.2307/711409",
+   "title": "Matter and Form",
+   "author": "Mary Louise Gill, M. J. Inwood"
+  },
+  {
+   "book": "",
+   "page": 1184,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1969",
+   "iid": "55de3502-ddee-3b6b-b69d-67f8194eecc2",
+   "doi": "10.2307/268157",
+   "title": "Four Notes on the Text of Babrius",
+   "author": "John Vaio"
+  },
+  {
+   "book": "",
+   "page": 1182,
+   "section": "a",
+   "line": null,
+   "journal": "Revue Internationale de Philosophie",
+   "year": "1993",
+   "iid": "58caa8a9-55b3-3b64-881b-4455149386e2",
+   "doi": "10.2307/23949452",
+   "title": "PERSUASION AND MORAL REFORM IN PLATO AND ARISTOTLE",
+   "author": "George KLOSKO"
+  },
+  {
+   "book": "",
+   "page": 1182,
+   "section": "a",
+   "line": 23,
+   "journal": "Méthexis",
+   "year": "1993",
+   "iid": "6662aa82-5b42-3714-b0c1-d9e1e8d2b297",
+   "doi": "10.2307/43738405",
+   "title": "PLATONE E IL PROBLEMA DEGLI ÁGRAPHA",
+   "author": "MARGHERITA ISNARDI PARENTE"
+  },
+  {
+   "book": "",
+   "page": 1213,
+   "section": "a",
+   "line": 20,
+   "journal": "Revue Internationale de Philosophie",
+   "year": "2014",
+   "iid": "6844437d-e6b2-37e9-80f3-35d37047984c",
+   "doi": "10.2307/24776785",
+   "title": "Aristotle, Friendship and Virtue",
+   "author": "Dean Cocking"
+  },
+  {
+   "book": "",
+   "page": 1213,
+   "section": "b",
+   "line": null,
+   "journal": "Revue Internationale de Philosophie",
+   "year": "2014",
+   "iid": "6844437d-e6b2-37e9-80f3-35d37047984c",
+   "doi": "10.2307/24776785",
+   "title": "Aristotle, Friendship and Virtue",
+   "author": "Dean Cocking"
+  },
+  {
+   "book": "",
+   "page": 1213,
+   "section": "a",
+   "line": null,
+   "journal": "Revue Internationale de Philosophie",
+   "year": "2014",
+   "iid": "6844437d-e6b2-37e9-80f3-35d37047984c",
+   "doi": "10.2307/24776785",
+   "title": "Aristotle, Friendship and Virtue",
+   "author": "Dean Cocking"
+  },
+  {
+   "book": "",
+   "page": 1209,
+   "section": "b",
+   "line": 34,
+   "journal": "The Classical Quarterly",
+   "year": "1997",
+   "iid": "68575f40-581a-348e-b29c-d832e4c625a8",
+   "doi": "10.2307/639616",
+   "title": "A Fragment of Simonides?",
+   "author": "Hugh Johnstone"
+  },
+  {
+   "book": "",
+   "page": 1208,
+   "section": "b",
+   "line": 16,
+   "journal": "The Classical Quarterly",
+   "year": "1997",
+   "iid": "68575f40-581a-348e-b29c-d832e4c625a8",
+   "doi": "10.2307/639616",
+   "title": "A Fragment of Simonides?",
+   "author": "Hugh Johnstone"
+  },
+  {
+   "book": "",
+   "page": 1194,
+   "section": "b",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1968",
+   "iid": "6b1c5dd7-bb7a-34ab-ac92-c6a934c19bfc",
+   "doi": "10.2307/4181807",
+   "title": "The Role of Medical and Biological Analogies in Aristotle's Ethics",
+   "author": "G. E. R. Lloyd"
+  },
+  {
+   "book": "",
+   "page": 1193,
+   "section": "a",
+   "line": 28,
+   "journal": "Classical Philology",
+   "year": "1968",
+   "iid": "6e65ae5e-aa75-3473-b973-451e9d704fd8",
+   "doi": "10.2307/268100",
+   "title": "Aristotle, Horace, and the Ironic Man",
+   "author": "Zoja Pavlovskis"
+  },
+  {
+   "book": "",
+   "page": 1204,
+   "section": "b",
+   "line": 21,
+   "journal": "Phronesis",
+   "year": "1988",
+   "iid": "6eaa782e-2a5d-3c94-b87b-bc763ef42083",
+   "doi": "10.2307/4182310",
+   "title": "Pleasure and Activity in Aristotle's Ethics",
+   "author": "David Bostock"
+  },
+  {
+   "book": "",
+   "page": 1191,
+   "section": "a",
+   "line": 22,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2020",
+   "iid": "73f50a44-7c38-39f3-91b1-df9380eab900",
+   "doi": "10.2307/27142056",
+   "title": "COURAGE",
+   "author": "Marguerite Deslauriers"
+  },
+  {
+   "book": "",
+   "page": 1190,
+   "section": "b",
+   "line": 21,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2020",
+   "iid": "73f50a44-7c38-39f3-91b1-df9380eab900",
+   "doi": "10.2307/27142056",
+   "title": "COURAGE",
+   "author": "Marguerite Deslauriers"
+  },
+  {
+   "book": "",
+   "page": 1191,
+   "section": "a",
+   "line": 17,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2020",
+   "iid": "73f50a44-7c38-39f3-91b1-df9380eab900",
+   "doi": "10.2307/27142056",
+   "title": "COURAGE",
+   "author": "Marguerite Deslauriers"
+  },
+  {
+   "book": "",
+   "page": 1191,
+   "section": "a",
+   "line": 21,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2020",
+   "iid": "73f50a44-7c38-39f3-91b1-df9380eab900",
+   "doi": "10.2307/27142056",
+   "title": "COURAGE",
+   "author": "Marguerite Deslauriers"
+  },
+  {
+   "book": "",
+   "page": 1182,
+   "section": "a",
+   "line": 23,
+   "journal": "Méthexis",
+   "year": "1993",
+   "iid": "73e5c453-fba7-36e5-be73-6f6863ff346f",
+   "doi": "10.2307/43738863",
+   "title": "APÉNDICE: SELECCIÓN DE TEXTOS PARA LA DISCUSIÓN SOBRE LAS ENSEÑANZAS ORALES",
+   "author": "C. E. L."
+  },
+  {
+   "book": "",
+   "page": 1182,
+   "section": "a",
+   "line": null,
+   "journal": "Archivio di Filosofia",
+   "year": "2020",
+   "iid": "793ad031-aaef-3a34-94e7-10dce6b7780e",
+   "doi": "10.2307/27326524",
+   "title": "L’EREDITÀ DI JACOBI. HEGEL E LA CRITICA AL PRINCIPIO MORALE DELLA RAGIONE",
+   "author": "Emanuele Cafagna"
+  },
+  {
+   "book": "",
+   "page": 1183,
+   "section": "b",
+   "line": null,
+   "journal": "Archivio di Filosofia",
+   "year": "2020",
+   "iid": "793ad031-aaef-3a34-94e7-10dce6b7780e",
+   "doi": "10.2307/27326524",
+   "title": "L’EREDITÀ DI JACOBI. HEGEL E LA CRITICA AL PRINCIPIO MORALE DELLA RAGIONE",
+   "author": "Emanuele Cafagna"
+  },
+  {
+   "book": "",
+   "page": 1187,
+   "section": "a",
+   "line": null,
+   "journal": "Archivio di Filosofia",
+   "year": "2020",
+   "iid": "793ad031-aaef-3a34-94e7-10dce6b7780e",
+   "doi": "10.2307/27326524",
+   "title": "L’EREDITÀ DI JACOBI. HEGEL E LA CRITICA AL PRINCIPIO MORALE DELLA RAGIONE",
+   "author": "Emanuele Cafagna"
+  },
+  {
+   "book": "",
+   "page": 1190,
+   "section": "b",
+   "line": null,
+   "journal": "Archivio di Filosofia",
+   "year": "2020",
+   "iid": "793ad031-aaef-3a34-94e7-10dce6b7780e",
+   "doi": "10.2307/27326524",
+   "title": "L’EREDITÀ DI JACOBI. HEGEL E LA CRITICA AL PRINCIPIO MORALE DELLA RAGIONE",
+   "author": "Emanuele Cafagna"
+  },
+  {
+   "book": "",
+   "page": 1198,
+   "section": "a",
+   "line": null,
+   "journal": "Archivio di Filosofia",
+   "year": "2020",
+   "iid": "793ad031-aaef-3a34-94e7-10dce6b7780e",
+   "doi": "10.2307/27326524",
+   "title": "L’EREDITÀ DI JACOBI. HEGEL E LA CRITICA AL PRINCIPIO MORALE DELLA RAGIONE",
+   "author": "Emanuele Cafagna"
+  },
+  {
+   "book": "",
+   "page": 1185,
+   "section": "b",
+   "line": null,
+   "journal": "Archivio di Filosofia",
+   "year": "2020",
+   "iid": "793ad031-aaef-3a34-94e7-10dce6b7780e",
+   "doi": "10.2307/27326524",
+   "title": "L’EREDITÀ DI JACOBI. HEGEL E LA CRITICA AL PRINCIPIO MORALE DELLA RAGIONE",
+   "author": "Emanuele Cafagna"
+  },
+  {
+   "book": "",
+   "page": 1198,
+   "section": "a",
+   "line": 22,
+   "journal": "Phronesis",
+   "year": "1987",
+   "iid": "7f7c5219-1a8e-3d8e-b3a1-b2b6d30a0b3e",
+   "doi": "10.2307/4182267",
+   "title": "Three Fundamental Theorems in Aristotle's \"Politics\"",
+   "author": "David Keyt"
+  },
+  {
+   "book": "",
+   "page": 1204,
+   "section": "b",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "2001",
+   "iid": "815bb584-3270-3e64-b349-8ce0915285fc",
+   "doi": "10.2307/4182681",
+   "title": "Epicurus on Pleasure",
+   "author": "Boris Nikolsky"
+  },
+  {
+   "book": "",
+   "page": 1205,
+   "section": "a",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "2001",
+   "iid": "815bb584-3270-3e64-b349-8ce0915285fc",
+   "doi": "10.2307/4182681",
+   "title": "Epicurus on Pleasure",
+   "author": "Boris Nikolsky"
+  },
+  {
+   "book": "",
+   "page": 1198,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1921",
+   "iid": "85c7da19-6c8e-306e-9cb6-2b5f55d0155a",
+   "doi": "10.2307/262828",
+   "title": "The Tradition of Greek Arithmology",
+   "author": "Frank Egleston Robbins"
+  },
+  {
+   "book": "",
+   "page": 1185,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1895",
+   "iid": "9431feb5-7ce2-334c-ba57-19690712df29",
+   "doi": "10.2307/692761",
+   "title": "Testimonia for the Text of Aristotle's 'Nicomachean Ethics', for the 'Metaphysics' and for the 'Posterior Analytics'",
+   "author": "J. Cook Wilson"
+  },
+  {
+   "book": "",
+   "page": 1197,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1895",
+   "iid": "9431feb5-7ce2-334c-ba57-19690712df29",
+   "doi": "10.2307/692761",
+   "title": "Testimonia for the Text of Aristotle's 'Nicomachean Ethics', for the 'Metaphysics' and for the 'Posterior Analytics'",
+   "author": "J. Cook Wilson"
+  },
+  {
+   "book": "",
+   "page": 1190,
+   "section": "a",
+   "line": 28,
+   "journal": "Classical Philology",
+   "year": "1960",
+   "iid": "97cd8c84-e428-3e24-8197-de9d11ef6aed",
+   "doi": "10.2307/265448",
+   "title": "",
+   "author": "Arthur Stanley Pease, Phillip de Lacy"
+  },
+  {
+   "book": "",
+   "page": 1190,
+   "section": "a",
+   "line": 29,
+   "journal": "Classical Philology",
+   "year": "1960",
+   "iid": "97cd8c84-e428-3e24-8197-de9d11ef6aed",
+   "doi": "10.2307/265448",
+   "title": "",
+   "author": "Arthur Stanley Pease, Phillip de Lacy"
+  },
+  {
+   "book": "",
+   "page": 1190,
+   "section": "a",
+   "line": 35,
+   "journal": "Classical Philology",
+   "year": "1960",
+   "iid": "97cd8c84-e428-3e24-8197-de9d11ef6aed",
+   "doi": "10.2307/265448",
+   "title": "",
+   "author": "Arthur Stanley Pease, Phillip de Lacy"
+  },
+  {
+   "book": "",
+   "page": 1190,
+   "section": "a",
+   "line": 37,
+   "journal": "Classical Philology",
+   "year": "1960",
+   "iid": "97cd8c84-e428-3e24-8197-de9d11ef6aed",
+   "doi": "10.2307/265448",
+   "title": "",
+   "author": "Arthur Stanley Pease, Phillip de Lacy"
+  },
+  {
+   "book": "",
+   "page": 1198,
+   "section": "a",
+   "line": 28,
+   "journal": "Classical Philology",
+   "year": "1960",
+   "iid": "97cd8c84-e428-3e24-8197-de9d11ef6aed",
+   "doi": "10.2307/265448",
+   "title": "",
+   "author": "Arthur Stanley Pease, Phillip de Lacy"
+  },
+  {
+   "book": "",
+   "page": 1203,
+   "section": "b",
+   "line": 6,
+   "journal": "Classical Philology",
+   "year": "1960",
+   "iid": "97cd8c84-e428-3e24-8197-de9d11ef6aed",
+   "doi": "10.2307/265448",
+   "title": "",
+   "author": "Arthur Stanley Pease, Phillip de Lacy"
+  },
+  {
+   "book": "",
+   "page": 1205,
+   "section": "a",
+   "line": 22,
+   "journal": "Classical Philology",
+   "year": "1960",
+   "iid": "97cd8c84-e428-3e24-8197-de9d11ef6aed",
+   "doi": "10.2307/265448",
+   "title": "",
+   "author": "Arthur Stanley Pease, Phillip de Lacy"
+  },
+  {
+   "book": "",
+   "page": 1205,
+   "section": "a",
+   "line": 39,
+   "journal": "Classical Philology",
+   "year": "1960",
+   "iid": "97cd8c84-e428-3e24-8197-de9d11ef6aed",
+   "doi": "10.2307/265448",
+   "title": "",
+   "author": "Arthur Stanley Pease, Phillip de Lacy"
+  },
+  {
+   "book": "",
+   "page": 1206,
+   "section": "a",
+   "line": 36,
+   "journal": "Classical Philology",
+   "year": "1960",
+   "iid": "97cd8c84-e428-3e24-8197-de9d11ef6aed",
+   "doi": "10.2307/265448",
+   "title": "",
+   "author": "Arthur Stanley Pease, Phillip de Lacy"
+  },
+  {
+   "book": "",
+   "page": 1213,
+   "section": "a",
+   "line": 42,
+   "journal": "Classical Philology",
+   "year": "1960",
+   "iid": "97cd8c84-e428-3e24-8197-de9d11ef6aed",
+   "doi": "10.2307/265448",
+   "title": "",
+   "author": "Arthur Stanley Pease, Phillip de Lacy"
+  },
+  {
+   "book": "",
+   "page": 1213,
+   "section": "a",
+   "line": 46,
+   "journal": "Classical Philology",
+   "year": "1960",
+   "iid": "97cd8c84-e428-3e24-8197-de9d11ef6aed",
+   "doi": "10.2307/265448",
+   "title": "",
+   "author": "Arthur Stanley Pease, Phillip de Lacy"
+  },
+  {
+   "book": "",
+   "page": 1209,
+   "section": "b",
+   "line": 13,
+   "journal": "Classical Philology",
+   "year": "1960",
+   "iid": "97cd8c84-e428-3e24-8197-de9d11ef6aed",
+   "doi": "10.2307/265448",
+   "title": "",
+   "author": "Arthur Stanley Pease, Phillip de Lacy"
+  },
+  {
+   "book": "",
+   "page": 1209,
+   "section": "b",
+   "line": 32,
+   "journal": "Classical Philology",
+   "year": "1960",
+   "iid": "97cd8c84-e428-3e24-8197-de9d11ef6aed",
+   "doi": "10.2307/265448",
+   "title": "",
+   "author": "Arthur Stanley Pease, Phillip de Lacy"
+  },
+  {
+   "book": "",
+   "page": 1190,
+   "section": "b",
+   "line": 6,
+   "journal": "Classical Philology",
+   "year": "1960",
+   "iid": "97cd8c84-e428-3e24-8197-de9d11ef6aed",
+   "doi": "10.2307/265448",
+   "title": "",
+   "author": "Arthur Stanley Pease, Phillip de Lacy"
+  },
+  {
+   "book": "",
+   "page": 1198,
+   "section": "b",
+   "line": 34,
+   "journal": "Phronesis",
+   "year": "1990",
+   "iid": "97b9fb57-e5e3-3243-a545-8d16a776b8f9",
+   "doi": "10.2307/4182365",
+   "title": "'Domina et Regina Virtutum': Justice and Societas in \"De Officiis\"",
+   "author": "E. M. Atkins"
+  },
+  {
+   "book": "",
+   "page": 1204,
+   "section": "b",
+   "line": 38,
+   "journal": "Phronesis",
+   "year": "1965",
+   "iid": "a77b99c6-ca4b-3f62-8347-1caae0bf3998",
+   "doi": "10.2307/4181767",
+   "title": "The \"Timaeus Locrus\"",
+   "author": "G. Ryle"
+  },
+  {
+   "book": "",
+   "page": 1192,
+   "section": "b",
+   "line": 21,
+   "journal": "Phronesis",
+   "year": "1985",
+   "iid": "ac2dd94e-055d-382a-89b0-0a827785e719",
+   "doi": "10.2307/4182214",
+   "title": "ΦΘΟΝΟΣ and Its Related ΠΑΘΗ in Plato and Aristotle",
+   "author": "Michael J. Mills"
+  },
+  {
+   "book": "",
+   "page": 1190,
+   "section": "b",
+   "line": 28,
+   "journal": "History of Philosophy Quarterly",
+   "year": "1984",
+   "iid": "aea738c8-1949-3532-830d-da654ea570cd",
+   "doi": "10.2307/27743663",
+   "title": "Plato's Theory of Human Motivation",
+   "author": "John M. Cooper"
+  },
+  {
+   "book": "",
+   "page": 1187,
+   "section": "b",
+   "line": 36,
+   "journal": "History of Philosophy Quarterly",
+   "year": "1984",
+   "iid": "aea738c8-1949-3532-830d-da654ea570cd",
+   "doi": "10.2307/27743663",
+   "title": "Plato's Theory of Human Motivation",
+   "author": "John M. Cooper"
+  },
+  {
+   "book": "",
+   "page": 1182,
+   "section": "b",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2006",
+   "iid": "af05bf8e-ad82-3c31-a3af-3b568e707396",
+   "doi": "10.1086/511018",
+   "title": "Troy Destroyed (Plautus <em>Bacchides</em> 973–74 and 1053)",
+   "author": "Michael Fontaine"
+  },
+  {
+   "book": "",
+   "page": 1183,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2006",
+   "iid": "af05bf8e-ad82-3c31-a3af-3b568e707396",
+   "doi": "10.1086/511018",
+   "title": "Troy Destroyed (Plautus <em>Bacchides</em> 973–74 and 1053)",
+   "author": "Michael Fontaine"
+  },
+  {
+   "book": "",
+   "page": 1182,
+   "section": "b",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2006",
+   "iid": "af05bf8e-ad82-3c31-a3af-3b568e707396",
+   "doi": "10.1086/511018",
+   "title": "Troy Destroyed (Plautus <em>Bacchides</em> 973–74 and 1053)",
+   "author": "Michael Fontaine"
+  },
+  {
+   "book": "",
+   "page": 1183,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2006",
+   "iid": "af05bf8e-ad82-3c31-a3af-3b568e707396",
+   "doi": "10.1086/511018",
+   "title": "Troy Destroyed (Plautus <em>Bacchides</em> 973–74 and 1053)",
+   "author": "Michael Fontaine"
+  },
+  {
+   "book": "",
+   "page": 1194,
+   "section": "b",
+   "line": 30,
+   "journal": "The Classical Quarterly",
+   "year": "1987",
+   "iid": "bc8e16c9-8610-3104-b432-af71e72aaea2",
+   "doi": "10.2307/638838",
+   "title": "The Justice of the Epicurean Wise Man",
+   "author": "P. A. Vander Waerdt"
+  },
+  {
+   "book": "",
+   "page": 1195,
+   "section": "a",
+   "line": 8,
+   "journal": "The Classical Quarterly",
+   "year": "1987",
+   "iid": "bc8e16c9-8610-3104-b432-af71e72aaea2",
+   "doi": "10.2307/638838",
+   "title": "The Justice of the Epicurean Wise Man",
+   "author": "P. A. Vander Waerdt"
+  },
+  {
+   "book": "",
+   "page": 1206,
+   "section": "b",
+   "line": 20,
+   "journal": "Phronesis",
+   "year": "1994",
+   "iid": "bbb35566-0afe-3f75-bd90-34a96c052c61",
+   "doi": "10.2307/4182478",
+   "title": "Aristotle on Dividing the Soul and Uniting the Virtues",
+   "author": "Paula Gottlieb"
+  },
+  {
+   "book": "",
+   "page": 1182,
+   "section": "a",
+   "line": 20,
+   "journal": "Phronesis",
+   "year": "1994",
+   "iid": "bbb35566-0afe-3f75-bd90-34a96c052c61",
+   "doi": "10.2307/4182478",
+   "title": "Aristotle on Dividing the Soul and Uniting the Virtues",
+   "author": "Paula Gottlieb"
+  },
+  {
+   "book": "",
+   "page": 1211,
+   "section": "b",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1995",
+   "iid": "c7503168-0dec-3f92-bb80-56faca879003",
+   "doi": "10.2307/4182487",
+   "title": "Biomedical Models of Reproduction in the Fifth Century BC and Aristotle's \"Generation of Animals\"",
+   "author": "Andrew Coles"
+  },
+  {
+   "book": "",
+   "page": 1187,
+   "section": "a",
+   "line": 33,
+   "journal": "History of Philosophy Quarterly",
+   "year": "1989",
+   "iid": "c8c3f0ba-8184-3268-87d2-40deff4d0572",
+   "doi": "10.2307/27743898",
+   "title": "The Contribution of \"Nicomachean Ethics\" iii 5 to Aristotle's Theory of Responsibility",
+   "author": "Randall R. Curren"
+  },
+  {
+   "book": "",
+   "page": 1187,
+   "section": "a",
+   "line": 23,
+   "journal": "History of Philosophy Quarterly",
+   "year": "1989",
+   "iid": "c8c3f0ba-8184-3268-87d2-40deff4d0572",
+   "doi": "10.2307/27743898",
+   "title": "The Contribution of \"Nicomachean Ethics\" iii 5 to Aristotle's Theory of Responsibility",
+   "author": "Randall R. Curren"
+  },
+  {
+   "book": "",
+   "page": 1197,
+   "section": "a",
+   "line": 4,
+   "journal": "History of Philosophy Quarterly",
+   "year": "1987",
+   "iid": "cda4181a-3963-30d6-af15-bc7e9e5a363d",
+   "doi": "10.2307/27743818",
+   "title": "Aristotle and the Identity of Actions",
+   "author": "Robert Heinaman"
+  },
+  {
+   "book": "",
+   "page": 1207,
+   "section": "b",
+   "line": 25,
+   "journal": "The Classical Quarterly",
+   "year": "1953",
+   "iid": "ce3b2bd0-1126-39a8-b778-20d3feedf2bc",
+   "doi": "10.2307/637164",
+   "title": "The Interpretation of ΚΑΛΟΙ ΚΑΓΑΘΟΙ in Thucydides 4. 40. 2",
+   "author": "A. W. Gomme"
+  },
+  {
+   "book": "",
+   "page": 1194,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1894",
+   "iid": "ced9bcc9-a175-3314-bdfb-a0cf2d212af0",
+   "doi": "10.2307/690503",
+   "title": "Aristotle's Subdivisions of 'Particular Justice'",
+   "author": "D. G. Ritchie"
+  },
+  {
+   "book": "",
+   "page": 1194,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1894",
+   "iid": "ced9bcc9-a175-3314-bdfb-a0cf2d212af0",
+   "doi": "10.2307/690503",
+   "title": "Aristotle's Subdivisions of 'Particular Justice'",
+   "author": "D. G. Ritchie"
+  },
+  {
+   "book": "",
+   "page": 1194,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1894",
+   "iid": "ced9bcc9-a175-3314-bdfb-a0cf2d212af0",
+   "doi": "10.2307/690503",
+   "title": "Aristotle's Subdivisions of 'Particular Justice'",
+   "author": "D. G. Ritchie"
+  },
+  {
+   "book": "",
+   "page": 1187,
+   "section": "b",
+   "line": 29,
+   "journal": "The Classical Review",
+   "year": "1991",
+   "iid": "d00550da-a626-39c8-bcd5-328756b86dd2",
+   "doi": "10.2307/711408",
+   "title": "Aristotle and Determinism",
+   "author": "Pier Luigi Donini, Pamela M. Huby"
+  },
+  {
+   "book": "",
+   "page": 1188,
+   "section": "b",
+   "line": 31,
+   "journal": "Classical Philology",
+   "year": "1983",
+   "iid": "d1d12772-50cc-3046-be1c-3ea170f980a3",
+   "doi": "10.2307/269956",
+   "title": "The Athenian Courts for Homicide",
+   "author": "Raphael Sealey"
+  },
+  {
+   "book": "",
+   "page": 1187,
+   "section": "b",
+   "line": 31,
+   "journal": "Classical Philology",
+   "year": "1983",
+   "iid": "d1d12772-50cc-3046-be1c-3ea170f980a3",
+   "doi": "10.2307/269956",
+   "title": "The Athenian Courts for Homicide",
+   "author": "Raphael Sealey"
+  },
+  {
+   "book": "",
+   "page": 1188,
+   "section": "b",
+   "line": 38,
+   "journal": "Classical Philology",
+   "year": "1983",
+   "iid": "d1d12772-50cc-3046-be1c-3ea170f980a3",
+   "doi": "10.2307/269956",
+   "title": "The Athenian Courts for Homicide",
+   "author": "Raphael Sealey"
+  },
+  {
+   "book": "",
+   "page": 1189,
+   "section": "b",
+   "line": null,
+   "journal": "Revue Internationale de Philosophie",
+   "year": "2018",
+   "iid": "d32651d2-bee0-3dfd-a7ac-492e3c84700d",
+   "doi": "10.2307/26863739",
+   "title": "Practical reasoning and the act of naming reality",
+   "author": "Fabrizio Macagno, Douglas Walton"
+  },
+  {
+   "book": "",
+   "page": 1190,
+   "section": "a",
+   "line": null,
+   "journal": "Revue Internationale de Philosophie",
+   "year": "2018",
+   "iid": "d32651d2-bee0-3dfd-a7ac-492e3c84700d",
+   "doi": "10.2307/26863739",
+   "title": "Practical reasoning and the act of naming reality",
+   "author": "Fabrizio Macagno, Douglas Walton"
+  },
+  {
+   "book": "",
+   "page": 1190,
+   "section": "b",
+   "line": null,
+   "journal": "Revue Internationale de Philosophie",
+   "year": "2018",
+   "iid": "d32651d2-bee0-3dfd-a7ac-492e3c84700d",
+   "doi": "10.2307/26863739",
+   "title": "Practical reasoning and the act of naming reality",
+   "author": "Fabrizio Macagno, Douglas Walton"
+  },
+  {
+   "book": "",
+   "page": 1209,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1926",
+   "iid": "d43814b9-6fb3-3d95-8c83-fe811fc1188f",
+   "doi": "10.2307/262678",
+   "title": "Posidonius and the Flight of the Mind through the Universe",
+   "author": "Roger Miller Jones"
+  },
+  {
+   "book": "",
+   "page": 1213,
+   "section": "a",
+   "line": 22,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2018",
+   "iid": "d5b20a95-5130-305f-8368-4d649ccc024f",
+   "doi": "10.2307/26501553",
+   "title": "ARISTOTLE ON FRIENDSHIP IN THE <em>NICOMACHEAN</em> AND <em>EUDEMIAN ETHICS</em>",
+   "author": "Anthony Kenny"
+  },
+  {
+   "book": "",
+   "page": 1186,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1984",
+   "iid": "d938641e-57e7-3309-8faa-ab1d1278ff62",
+   "doi": "10.2307/638343",
+   "title": "Eudemian Ethics 1220b 11-13",
+   "author": "Stephen R. Leighton"
+  },
+  {
+   "book": "",
+   "page": 1202,
+   "section": "b",
+   "line": 26,
+   "journal": "The Classical Quarterly",
+   "year": "1984",
+   "iid": "d938641e-57e7-3309-8faa-ab1d1278ff62",
+   "doi": "10.2307/638343",
+   "title": "Eudemian Ethics 1220b 11-13",
+   "author": "Stephen R. Leighton"
+  },
+  {
+   "book": "",
+   "page": 1188,
+   "section": "b",
+   "line": null,
+   "journal": "Revue Internationale de Philosophie",
+   "year": "2014",
+   "iid": "dfe306d3-c283-362f-9d5c-5a51b74bbdec",
+   "doi": "10.2307/24776955",
+   "title": "Analogical Reasoning and Semantic Rules of Inference",
+   "author": "Christopher W. Tindale, Fabrizio Macagno, Douglas Walton"
+  },
+  {
+   "book": "",
+   "page": 1195,
+   "section": "b",
+   "line": 2,
+   "journal": "History of Philosophy Quarterly",
+   "year": "2002",
+   "iid": "e1c6b579-b8c4-374d-84ef-984a26815d2f",
+   "doi": "10.2307/27744905",
+   "title": "Aristotle on Necessity and Voluntariness",
+   "author": "Dennis Klimchuk"
+  },
+  {
+   "book": "",
+   "page": 1200,
+   "section": "b",
+   "line": 38,
+   "journal": "Phronesis",
+   "year": "1966",
+   "iid": "e0d5b364-0fe2-3a69-803c-5ba030cf1ac6",
+   "doi": "10.2307/4181785",
+   "title": "The Practical Syllogism and Incontinence",
+   "author": "A. Kenny"
+  },
+  {
+   "book": "",
+   "page": 1182,
+   "section": "a",
+   "line": null,
+   "journal": "History of Philosophy Quarterly",
+   "year": "2003",
+   "iid": "e271fe62-1936-326d-b875-b33af6b340e5",
+   "doi": "10.2307/27744947",
+   "title": "Socratic Wisdom",
+   "author": "Emmanuel Kofi Ackah"
+  },
+  {
+   "book": "",
+   "page": 1185,
+   "section": "b",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1942",
+   "iid": "e507d376-76e1-379c-ac32-308d46df8418",
+   "doi": "10.2307/264632",
+   "title": "IG, II\n          <sup>2</sup>\n          , 2839+2844",
+   "author": "Anton E. Raubitschek"
+  },
+  {
+   "book": "",
+   "page": 1183,
+   "section": "b",
+   "line": 8,
+   "journal": "Phronesis",
+   "year": "1985",
+   "iid": "ec8463c9-a61d-3762-bfe0-046326100222",
+   "doi": "10.2307/4182233",
+   "title": "Kingship and Philosophy in Aristotle's Best Regime",
+   "author": "P. A. Vander Waerdt"
+  },
+  {
+   "book": "",
+   "page": 1190,
+   "section": "b",
+   "line": 28,
+   "journal": "Phronesis",
+   "year": "1985",
+   "iid": "ec8463c9-a61d-3762-bfe0-046326100222",
+   "doi": "10.2307/4182233",
+   "title": "Kingship and Philosophy in Aristotle's Best Regime",
+   "author": "P. A. Vander Waerdt"
+  },
+  {
+   "book": "",
+   "page": 1182,
+   "section": "a",
+   "line": 15,
+   "journal": "The Classical Quarterly",
+   "year": "1988",
+   "iid": "f69343a5-9183-39ec-9064-f0d1408c2f12",
+   "doi": "10.2307/639215",
+   "title": "Socrates in Hellenistic Philosophy",
+   "author": "A. A. Long"
+  },
+  {
+   "book": "",
+   "page": 1188,
+   "section": "b",
+   "line": 29,
+   "journal": "The Classical Quarterly",
+   "year": "2001",
+   "iid": "f6e991ca-93bc-3de7-9d96-5b437288d385",
+   "doi": "10.2307/3556523",
+   "title": "Theoris of Lemnos and the Criminalization of Magic in Fourth-Century Athens",
+   "author": "Derek Collins"
+  },
+  {
+   "book": "",
+   "page": 1188,
+   "section": "b",
+   "line": 30,
+   "journal": "The Classical Quarterly",
+   "year": "2001",
+   "iid": "f6e991ca-93bc-3de7-9d96-5b437288d385",
+   "doi": "10.2307/3556523",
+   "title": "Theoris of Lemnos and the Criminalization of Magic in Fourth-Century Athens",
+   "author": "Derek Collins"
+  },
+  {
+   "book": "",
+   "page": 1196,
+   "section": "b",
+   "line": 38,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2011",
+   "iid": "f9a821cb-4d34-3931-b6ef-c895a8a25491",
+   "doi": "10.2307/24358755",
+   "title": "L'ACTION ET SON « OBJET » : LE \"PRAKTON\" DANS L'\"ÉTHIQUE À NICOMAQUE\"",
+   "author": "Charlotte Murgier"
+  },
+  {
+   "book": "",
+   "page": 1197,
+   "section": "a",
+   "line": 2,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2011",
+   "iid": "f9a821cb-4d34-3931-b6ef-c895a8a25491",
+   "doi": "10.2307/24358755",
+   "title": "L'ACTION ET SON « OBJET » : LE \"PRAKTON\" DANS L'\"ÉTHIQUE À NICOMAQUE\"",
+   "author": "Charlotte Murgier"
+  },
+  {
+   "book": "",
+   "page": 1196,
+   "section": "b",
+   "line": 25,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2011",
+   "iid": "f9a821cb-4d34-3931-b6ef-c895a8a25491",
+   "doi": "10.2307/24358755",
+   "title": "L'ACTION ET SON « OBJET » : LE \"PRAKTON\" DANS L'\"ÉTHIQUE À NICOMAQUE\"",
+   "author": "Charlotte Murgier"
+  },
+  {
+   "book": "",
+   "page": 1213,
+   "section": "a",
+   "line": 20,
+   "journal": "History of Philosophy Quarterly",
+   "year": "2005",
+   "iid": "f9f92028-6179-3f40-bd82-579c550a63ad",
+   "doi": "10.2307/27745033",
+   "title": "Confucius' Relational Self and Aristotle's Political Animal",
+   "author": "Jiyuan Yu"
+  },
+  {
+   "book": "",
+   "page": 1184,
+   "section": "a",
+   "line": 27,
+   "journal": "Phronesis",
+   "year": "1994",
+   "iid": "fcd3ed3c-f956-3234-ac84-b6c22fa890df",
+   "doi": "10.2307/4182459",
+   "title": "Due libri su eudaimonia in Aristotele",
+   "author": "Pierluigi Donini, Stephen A. White, Anthony Kenny"
+  }
+ ]
+}

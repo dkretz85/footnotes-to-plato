@@ -1,0 +1,2364 @@
+{
+ "work": "De_Generatione_et_Corruptione",
+ "faceted": false,
+ "tier": "uncertain",
+ "cells": [
+  {
+   "book": "",
+   "page": 314,
+   "section": "a",
+   "count": 4,
+   "articles": 4,
+   "by_journal": {
+    "Phronesis": 3,
+    "Méthexis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 314,
+   "section": "b",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 315,
+   "section": "a",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "History of Philosophy Quarterly": 1,
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 315,
+   "section": "b",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 316,
+   "section": "a",
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "Phronesis": 1,
+    "Revue de Philosophie Ancienne": 1,
+    "Méthexis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 316,
+   "section": "b",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 317,
+   "section": "a",
+   "count": 3,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 3
+   }
+  },
+  {
+   "book": "",
+   "page": 317,
+   "section": "b",
+   "count": 3,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 3
+   }
+  },
+  {
+   "book": "",
+   "page": 318,
+   "section": "a",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 318,
+   "section": "b",
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "The Classical Review": 1,
+    "History of Philosophy Quarterly": 1,
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 319,
+   "section": "a",
+   "count": 5,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 5
+   }
+  },
+  {
+   "book": "",
+   "page": 319,
+   "section": "b",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 320,
+   "section": "a",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 320,
+   "section": "b",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 321,
+   "section": "a",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 321,
+   "section": "b",
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "Revue Internationale de Philosophie": 1,
+    "Phronesis": 1,
+    "History of Philosophy Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 322,
+   "section": "a",
+   "count": 4,
+   "articles": 3,
+   "by_journal": {
+    "Revue Internationale de Philosophie": 1,
+    "Phronesis": 1,
+    "History of Philosophy Quarterly": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 322,
+   "section": "b",
+   "count": 5,
+   "articles": 1,
+   "by_journal": {
+    "Phronesis": 5
+   }
+  },
+  {
+   "book": "",
+   "page": 323,
+   "section": "a",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 1,
+    "Méthexis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 323,
+   "section": "b",
+   "count": 3,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 3
+   }
+  },
+  {
+   "book": "",
+   "page": 324,
+   "section": "a",
+   "count": 6,
+   "articles": 4,
+   "by_journal": {
+    "Phronesis": 6
+   }
+  },
+  {
+   "book": "",
+   "page": 324,
+   "section": "b",
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "The Classical Review": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 325,
+   "section": "a",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 1,
+    "Méthexis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 325,
+   "section": "b",
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "The Classical Review": 3
+   }
+  },
+  {
+   "book": "",
+   "page": 327,
+   "section": "a",
+   "count": 3,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 3
+   }
+  },
+  {
+   "book": "",
+   "page": 327,
+   "section": "b",
+   "count": 14,
+   "articles": 5,
+   "by_journal": {
+    "Phronesis": 14
+   }
+  },
+  {
+   "book": "",
+   "page": 328,
+   "section": "a",
+   "count": 13,
+   "articles": 3,
+   "by_journal": {
+    "Phronesis": 13
+   }
+  },
+  {
+   "book": "",
+   "page": 328,
+   "section": "b",
+   "count": 4,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 4
+   }
+  },
+  {
+   "book": "",
+   "page": 329,
+   "section": "a",
+   "count": 6,
+   "articles": 3,
+   "by_journal": {
+    "Phronesis": 6
+   }
+  },
+  {
+   "book": "",
+   "page": 329,
+   "section": "b",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 1,
+    "History of Philosophy Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 330,
+   "section": "a",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "History of Philosophy Quarterly": 1,
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 330,
+   "section": "b",
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "History of Philosophy Quarterly": 1,
+    "Phronesis": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 331,
+   "section": "a",
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "Phronesis": 2,
+    "History of Philosophy Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 331,
+   "section": "b",
+   "count": 2,
+   "articles": 1,
+   "by_journal": {
+    "Phronesis": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 332,
+   "section": "a",
+   "count": 3,
+   "articles": 2,
+   "by_journal": {
+    "Méthexis": 1,
+    "Phronesis": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 333,
+   "section": "a",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 1,
+    "History of Philosophy Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 333,
+   "section": "b",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Review": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 334,
+   "section": "a",
+   "count": 6,
+   "articles": 3,
+   "by_journal": {
+    "Phronesis": 6
+   }
+  },
+  {
+   "book": "",
+   "page": 334,
+   "section": "b",
+   "count": 7,
+   "articles": 3,
+   "by_journal": {
+    "History of Philosophy Quarterly": 1,
+    "Phronesis": 6
+   }
+  },
+  {
+   "book": "",
+   "page": 335,
+   "section": "a",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 335,
+   "section": "b",
+   "count": 4,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 4
+   }
+  },
+  {
+   "book": "",
+   "page": 336,
+   "section": "b",
+   "count": 3,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 3
+   }
+  },
+  {
+   "book": "",
+   "page": 337,
+   "section": "a",
+   "count": 3,
+   "articles": 2,
+   "by_journal": {
+    "Les Études philosophiques": 1,
+    "Phronesis": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 337,
+   "section": "b",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Les Études philosophiques": 1,
+    "History of Philosophy Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 338,
+   "section": "a",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "History of Philosophy Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 338,
+   "section": "b",
+   "count": 4,
+   "articles": 3,
+   "by_journal": {
+    "Phronesis": 3,
+    "The Classical Quarterly": 1
+   }
+  }
+ ],
+ "dots": [
+  {
+   "book": "",
+   "page": 321,
+   "section": "a",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1982",
+   "iid": "05812345-c6eb-3620-be04-975aa760d7db",
+   "doi": "10.2307/4182156",
+   "title": "The Stoic Criterion of Identity",
+   "author": "David Sedley"
+  },
+  {
+   "book": "",
+   "page": 315,
+   "section": "b",
+   "line": 26,
+   "journal": "Phronesis",
+   "year": "2020",
+   "iid": "06e9f4ad-9c56-3679-a7c9-655ea6ba9d80",
+   "doi": "10.2307/27073974",
+   "title": "Zeno Beach",
+   "author": "Jacob Rosen"
+  },
+  {
+   "book": "",
+   "page": 317,
+   "section": "a",
+   "line": 27,
+   "journal": "Phronesis",
+   "year": "2020",
+   "iid": "06e9f4ad-9c56-3679-a7c9-655ea6ba9d80",
+   "doi": "10.2307/27073974",
+   "title": "Zeno Beach",
+   "author": "Jacob Rosen"
+  },
+  {
+   "book": "",
+   "page": 314,
+   "section": "a",
+   "line": 22,
+   "journal": "Phronesis",
+   "year": "2020",
+   "iid": "06e9f4ad-9c56-3679-a7c9-655ea6ba9d80",
+   "doi": "10.2307/27073974",
+   "title": "Zeno Beach",
+   "author": "Jacob Rosen"
+  },
+  {
+   "book": "",
+   "page": 325,
+   "section": "a",
+   "line": 30,
+   "journal": "Phronesis",
+   "year": "2020",
+   "iid": "06e9f4ad-9c56-3679-a7c9-655ea6ba9d80",
+   "doi": "10.2307/27073974",
+   "title": "Zeno Beach",
+   "author": "Jacob Rosen"
+  },
+  {
+   "book": "",
+   "page": 316,
+   "section": "a",
+   "line": 16,
+   "journal": "Phronesis",
+   "year": "2020",
+   "iid": "06e9f4ad-9c56-3679-a7c9-655ea6ba9d80",
+   "doi": "10.2307/27073974",
+   "title": "Zeno Beach",
+   "author": "Jacob Rosen"
+  },
+  {
+   "book": "",
+   "page": 331,
+   "section": "a",
+   "line": 19,
+   "journal": "Phronesis",
+   "year": "1991",
+   "iid": "079fd1e4-5bfe-39ac-8268-f45fcfbd4845",
+   "doi": "10.2307/4182374",
+   "title": "Cosmic Justice in Anaximander",
+   "author": "Joyce Engmann"
+  },
+  {
+   "book": "",
+   "page": 329,
+   "section": "a",
+   "line": 20,
+   "journal": "Phronesis",
+   "year": "1987",
+   "iid": "081098ce-5440-33c6-87f2-3cb12bebdc67",
+   "doi": "10.2307/4182284",
+   "title": "Aristotelian Powers",
+   "author": "William Charlton"
+  },
+  {
+   "book": "",
+   "page": 334,
+   "section": "b",
+   "line": 31,
+   "journal": "History of Philosophy Quarterly",
+   "year": "2013",
+   "iid": "084bb54a-5fb3-3165-9d62-ac2c74183e68",
+   "doi": "10.2307/43488076",
+   "title": "SUBSTANTIAL CHANGE AND THE LIMITING CASE OF ARISTOTELIAN MATTER",
+   "author": "Mary Krizan"
+  },
+  {
+   "book": "",
+   "page": 330,
+   "section": "b",
+   "line": null,
+   "journal": "History of Philosophy Quarterly",
+   "year": "2013",
+   "iid": "084bb54a-5fb3-3165-9d62-ac2c74183e68",
+   "doi": "10.2307/43488076",
+   "title": "SUBSTANTIAL CHANGE AND THE LIMITING CASE OF ARISTOTELIAN MATTER",
+   "author": "Mary Krizan"
+  },
+  {
+   "book": "",
+   "page": 331,
+   "section": "a",
+   "line": 3,
+   "journal": "History of Philosophy Quarterly",
+   "year": "2013",
+   "iid": "084bb54a-5fb3-3165-9d62-ac2c74183e68",
+   "doi": "10.2307/43488076",
+   "title": "SUBSTANTIAL CHANGE AND THE LIMITING CASE OF ARISTOTELIAN MATTER",
+   "author": "Mary Krizan"
+  },
+  {
+   "book": "",
+   "page": 330,
+   "section": "a",
+   "line": 30,
+   "journal": "History of Philosophy Quarterly",
+   "year": "2013",
+   "iid": "084bb54a-5fb3-3165-9d62-ac2c74183e68",
+   "doi": "10.2307/43488076",
+   "title": "SUBSTANTIAL CHANGE AND THE LIMITING CASE OF ARISTOTELIAN MATTER",
+   "author": "Mary Krizan"
+  },
+  {
+   "book": "",
+   "page": 317,
+   "section": "b",
+   "line": 7,
+   "journal": "Phronesis",
+   "year": "1981",
+   "iid": "192bdfe9-2444-3491-a4bf-0431e4f95186",
+   "doi": "10.2307/4182127",
+   "title": "Aristotle on Thises, Suches and the Third Man Argument",
+   "author": "Joan Kung"
+  },
+  {
+   "book": "",
+   "page": 317,
+   "section": "b",
+   "line": 7,
+   "journal": "Phronesis",
+   "year": "1981",
+   "iid": "192bdfe9-2444-3491-a4bf-0431e4f95186",
+   "doi": "10.2307/4182127",
+   "title": "Aristotle on Thises, Suches and the Third Man Argument",
+   "author": "Joan Kung"
+  },
+  {
+   "book": "",
+   "page": 335,
+   "section": "b",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1981",
+   "iid": "192bdfe9-2444-3491-a4bf-0431e4f95186",
+   "doi": "10.2307/4182127",
+   "title": "Aristotle on Thises, Suches and the Third Man Argument",
+   "author": "Joan Kung"
+  },
+  {
+   "book": "",
+   "page": 335,
+   "section": "b",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1981",
+   "iid": "192bdfe9-2444-3491-a4bf-0431e4f95186",
+   "doi": "10.2307/4182127",
+   "title": "Aristotle on Thises, Suches and the Third Man Argument",
+   "author": "Joan Kung"
+  },
+  {
+   "book": "",
+   "page": 335,
+   "section": "b",
+   "line": 18,
+   "journal": "Phronesis",
+   "year": "1981",
+   "iid": "192bdfe9-2444-3491-a4bf-0431e4f95186",
+   "doi": "10.2307/4182127",
+   "title": "Aristotle on Thises, Suches and the Third Man Argument",
+   "author": "Joan Kung"
+  },
+  {
+   "book": "",
+   "page": 327,
+   "section": "b",
+   "line": 15,
+   "journal": "Phronesis",
+   "year": "1981",
+   "iid": "192bdfe9-2444-3491-a4bf-0431e4f95186",
+   "doi": "10.2307/4182127",
+   "title": "Aristotle on Thises, Suches and the Third Man Argument",
+   "author": "Joan Kung"
+  },
+  {
+   "book": "",
+   "page": 327,
+   "section": "b",
+   "line": 27,
+   "journal": "Phronesis",
+   "year": "2018",
+   "iid": "1a04b421-ae37-32b6-986a-410dd1075616",
+   "doi": "10.2307/26566214",
+   "title": "Hierocles and the Stoic Theory of Blending",
+   "author": "Reier Helle"
+  },
+  {
+   "book": "",
+   "page": 327,
+   "section": "b",
+   "line": 22,
+   "journal": "Phronesis",
+   "year": "2018",
+   "iid": "1a04b421-ae37-32b6-986a-410dd1075616",
+   "doi": "10.2307/26566214",
+   "title": "Hierocles and the Stoic Theory of Blending",
+   "author": "Reier Helle"
+  },
+  {
+   "book": "",
+   "page": 327,
+   "section": "a",
+   "line": 34,
+   "journal": "Phronesis",
+   "year": "2018",
+   "iid": "1a04b421-ae37-32b6-986a-410dd1075616",
+   "doi": "10.2307/26566214",
+   "title": "Hierocles and the Stoic Theory of Blending",
+   "author": "Reier Helle"
+  },
+  {
+   "book": "",
+   "page": 327,
+   "section": "b",
+   "line": 33,
+   "journal": "Phronesis",
+   "year": "2018",
+   "iid": "1a04b421-ae37-32b6-986a-410dd1075616",
+   "doi": "10.2307/26566214",
+   "title": "Hierocles and the Stoic Theory of Blending",
+   "author": "Reier Helle"
+  },
+  {
+   "book": "",
+   "page": 328,
+   "section": "a",
+   "line": 17,
+   "journal": "Phronesis",
+   "year": "2018",
+   "iid": "1a04b421-ae37-32b6-986a-410dd1075616",
+   "doi": "10.2307/26566214",
+   "title": "Hierocles and the Stoic Theory of Blending",
+   "author": "Reier Helle"
+  },
+  {
+   "book": "",
+   "page": 338,
+   "section": "b",
+   "line": 7,
+   "journal": "Phronesis",
+   "year": "2020",
+   "iid": "29d45ff2-5679-3926-8d77-ef21d3374bd9",
+   "doi": "10.2307/26952099",
+   "title": "Nutritive and Sentient Soul in Aristotle’s <em>Generation of Animals</em> 2.5",
+   "author": "Sophia M. Connell"
+  },
+  {
+   "book": "",
+   "page": 321,
+   "section": "b",
+   "line": 24,
+   "journal": "Revue Internationale de Philosophie",
+   "year": "1997",
+   "iid": "2c230cee-8887-3aa1-91c2-1528129104b9",
+   "doi": "10.2307/23954512",
+   "title": "ARISTOTELIAN SUBSTANCES AND STOIC SUBJECTS",
+   "author": "Terence H. IRWIN"
+  },
+  {
+   "book": "",
+   "page": 322,
+   "section": "a",
+   "line": 28,
+   "journal": "Revue Internationale de Philosophie",
+   "year": "1997",
+   "iid": "2c230cee-8887-3aa1-91c2-1528129104b9",
+   "doi": "10.2307/23954512",
+   "title": "ARISTOTELIAN SUBSTANCES AND STOIC SUBJECTS",
+   "author": "Terence H. IRWIN"
+  },
+  {
+   "book": "",
+   "page": 332,
+   "section": "a",
+   "line": 20,
+   "journal": "Méthexis",
+   "year": "2003",
+   "iid": "2fdd6629-1350-3def-a0b9-0ffabaf21b51",
+   "doi": "10.2307/43738693",
+   "title": "GENERACIÓN Y TIEMPO EN EL POEMA DE PARMÉNIDES",
+   "author": "JOSÉ SOLANA"
+  },
+  {
+   "book": "",
+   "page": 337,
+   "section": "a",
+   "line": 2,
+   "journal": "Les Études philosophiques",
+   "year": "2022",
+   "iid": "379bf999-436c-3aca-be13-ed5084858867",
+   "doi": "10.2307/27399622",
+   "title": "ENTRE HYPERPLATONISME ET HUMANISME. L’ARISTOTE DE PIERRE AUBENQUE",
+   "author": "David Lefebvre"
+  },
+  {
+   "book": "",
+   "page": 335,
+   "section": "a",
+   "line": 15,
+   "journal": "Phronesis",
+   "year": "2020",
+   "iid": "46290712-cf8b-3db0-b3d3-03e5309a6b98",
+   "doi": "10.2307/27073973",
+   "title": "Aristotle on the Unity of the Nutritive and Reproductive Functions",
+   "author": "James G. Lennox, Cameron F. Coates"
+  },
+  {
+   "book": "",
+   "page": 321,
+   "section": "a",
+   "line": 29,
+   "journal": "Phronesis",
+   "year": "2020",
+   "iid": "46290712-cf8b-3db0-b3d3-03e5309a6b98",
+   "doi": "10.2307/27073973",
+   "title": "Aristotle on the Unity of the Nutritive and Reproductive Functions",
+   "author": "James G. Lennox, Cameron F. Coates"
+  },
+  {
+   "book": "",
+   "page": 321,
+   "section": "b",
+   "line": 16,
+   "journal": "Phronesis",
+   "year": "2020",
+   "iid": "46290712-cf8b-3db0-b3d3-03e5309a6b98",
+   "doi": "10.2307/27073973",
+   "title": "Aristotle on the Unity of the Nutritive and Reproductive Functions",
+   "author": "James G. Lennox, Cameron F. Coates"
+  },
+  {
+   "book": "",
+   "page": 319,
+   "section": "a",
+   "line": 20,
+   "journal": "Phronesis",
+   "year": "2011",
+   "iid": "4f5aefdc-c29b-31c4-9f00-ecfe2b556bcc",
+   "doi": "10.2307/41057453",
+   "title": "Anaximander's Fragment: Another Attempt",
+   "author": "Jaap Mansfeld"
+  },
+  {
+   "book": "",
+   "page": 334,
+   "section": "a",
+   "line": 10,
+   "journal": "Phronesis",
+   "year": "2018",
+   "iid": "556c11cc-bfdd-339a-9b74-ee80b4398201",
+   "doi": "10.2307/26566212",
+   "title": "Does the Soul Weave? Reconsidering <em>De Anima</em> 1.4, 408a29-b18",
+   "author": "Jason W. Carter"
+  },
+  {
+   "book": "",
+   "page": 324,
+   "section": "a",
+   "line": 24,
+   "journal": "Phronesis",
+   "year": "2018",
+   "iid": "556c11cc-bfdd-339a-9b74-ee80b4398201",
+   "doi": "10.2307/26566212",
+   "title": "Does the Soul Weave? Reconsidering <em>De Anima</em> 1.4, 408a29-b18",
+   "author": "Jason W. Carter"
+  },
+  {
+   "book": "",
+   "page": 329,
+   "section": "b",
+   "line": 26,
+   "journal": "Phronesis",
+   "year": "1984",
+   "iid": "5bf76e1f-0098-3a23-b749-d53cc084e1f7",
+   "doi": "10.2307/4182185",
+   "title": "Aristotle's Rationalist Account of Qualitative Interaction",
+   "author": "Alexander P. D. Mourelatos"
+  },
+  {
+   "book": "",
+   "page": 334,
+   "section": "b",
+   "line": 25,
+   "journal": "Phronesis",
+   "year": "1984",
+   "iid": "5bf76e1f-0098-3a23-b749-d53cc084e1f7",
+   "doi": "10.2307/4182185",
+   "title": "Aristotle's Rationalist Account of Qualitative Interaction",
+   "author": "Alexander P. D. Mourelatos"
+  },
+  {
+   "book": "",
+   "page": 328,
+   "section": "a",
+   "line": 33,
+   "journal": "Phronesis",
+   "year": "1984",
+   "iid": "5bf76e1f-0098-3a23-b749-d53cc084e1f7",
+   "doi": "10.2307/4182185",
+   "title": "Aristotle's Rationalist Account of Qualitative Interaction",
+   "author": "Alexander P. D. Mourelatos"
+  },
+  {
+   "book": "",
+   "page": 328,
+   "section": "a",
+   "line": 27,
+   "journal": "Phronesis",
+   "year": "1984",
+   "iid": "5bf76e1f-0098-3a23-b749-d53cc084e1f7",
+   "doi": "10.2307/4182185",
+   "title": "Aristotle's Rationalist Account of Qualitative Interaction",
+   "author": "Alexander P. D. Mourelatos"
+  },
+  {
+   "book": "",
+   "page": 328,
+   "section": "a",
+   "line": 26,
+   "journal": "Phronesis",
+   "year": "1984",
+   "iid": "5bf76e1f-0098-3a23-b749-d53cc084e1f7",
+   "doi": "10.2307/4182185",
+   "title": "Aristotle's Rationalist Account of Qualitative Interaction",
+   "author": "Alexander P. D. Mourelatos"
+  },
+  {
+   "book": "",
+   "page": 328,
+   "section": "a",
+   "line": 33,
+   "journal": "Phronesis",
+   "year": "1984",
+   "iid": "5bf76e1f-0098-3a23-b749-d53cc084e1f7",
+   "doi": "10.2307/4182185",
+   "title": "Aristotle's Rationalist Account of Qualitative Interaction",
+   "author": "Alexander P. D. Mourelatos"
+  },
+  {
+   "book": "",
+   "page": 327,
+   "section": "b",
+   "line": 22,
+   "journal": "Phronesis",
+   "year": "1984",
+   "iid": "5bf76e1f-0098-3a23-b749-d53cc084e1f7",
+   "doi": "10.2307/4182185",
+   "title": "Aristotle's Rationalist Account of Qualitative Interaction",
+   "author": "Alexander P. D. Mourelatos"
+  },
+  {
+   "book": "",
+   "page": 320,
+   "section": "a",
+   "line": 2,
+   "journal": "Phronesis",
+   "year": "2019",
+   "iid": "5e53f7a7-c4c6-3cd6-a6d9-e16f0b54569c",
+   "doi": "10.2307/26832223",
+   "title": "Geometrical Objects as Properties of Sensibles",
+   "author": "Emily Katz"
+  },
+  {
+   "book": "",
+   "page": 324,
+   "section": "a",
+   "line": 24,
+   "journal": "Phronesis",
+   "year": "2017",
+   "iid": "60db6609-7572-3e4f-982d-c3be1fea2451",
+   "doi": "10.2307/44645971",
+   "title": "ἡ ϰίυησις τη̑ς τέχυης: Crafts and Souls as Principles of Change",
+   "author": "Jorge Mittelmann, Patricio A. Fernandez"
+  },
+  {
+   "book": "",
+   "page": 324,
+   "section": "a",
+   "line": 34,
+   "journal": "Phronesis",
+   "year": "2017",
+   "iid": "60db6609-7572-3e4f-982d-c3be1fea2451",
+   "doi": "10.2307/44645971",
+   "title": "ἡ ϰίυησις τη̑ς τέχυης: Crafts and Souls as Principles of Change",
+   "author": "Jorge Mittelmann, Patricio A. Fernandez"
+  },
+  {
+   "book": "",
+   "page": 335,
+   "section": "b",
+   "line": 35,
+   "journal": "Phronesis",
+   "year": "2015",
+   "iid": "705eb0f0-cc44-3fcb-b3bb-f0fe3e451ce4",
+   "doi": "10.2307/24767937",
+   "title": "Capacities and the Eternal in \"Metaphysics\" Θ.8 and \"De Caelo\"",
+   "author": "Christopher Frey"
+  },
+  {
+   "book": "",
+   "page": 336,
+   "section": "b",
+   "line": 25,
+   "journal": "Phronesis",
+   "year": "2020",
+   "iid": "70e39e31-e773-39ab-b858-784dc6371bd7",
+   "doi": "10.2307/26952098",
+   "title": "Living without a Soul",
+   "author": "Caleb Cohoe"
+  },
+  {
+   "book": "",
+   "page": 337,
+   "section": "a",
+   "line": 8,
+   "journal": "Phronesis",
+   "year": "2020",
+   "iid": "70e39e31-e773-39ab-b858-784dc6371bd7",
+   "doi": "10.2307/26952098",
+   "title": "Living without a Soul",
+   "author": "Caleb Cohoe"
+  },
+  {
+   "book": "",
+   "page": 336,
+   "section": "b",
+   "line": 25,
+   "journal": "Phronesis",
+   "year": "2020",
+   "iid": "70e39e31-e773-39ab-b858-784dc6371bd7",
+   "doi": "10.2307/26952098",
+   "title": "Living without a Soul",
+   "author": "Caleb Cohoe"
+  },
+  {
+   "book": "",
+   "page": 337,
+   "section": "a",
+   "line": 8,
+   "journal": "Phronesis",
+   "year": "2020",
+   "iid": "70e39e31-e773-39ab-b858-784dc6371bd7",
+   "doi": "10.2307/26952098",
+   "title": "Living without a Soul",
+   "author": "Caleb Cohoe"
+  },
+  {
+   "book": "",
+   "page": 324,
+   "section": "b",
+   "line": 13,
+   "journal": "The Classical Quarterly",
+   "year": "2009",
+   "iid": "72c8962c-956d-3af9-bf01-a918e283d3da",
+   "doi": "10.2307/20616715",
+   "title": "On a Causal Notion in Philodemus' \"On Anger\"",
+   "author": "Kirk R. Sanders"
+  },
+  {
+   "book": "",
+   "page": 337,
+   "section": "b",
+   "line": null,
+   "journal": "Les Études philosophiques",
+   "year": "2014",
+   "iid": "7b4dd3b8-fd5e-3f93-af0e-7e5cae131c30",
+   "doi": "10.2307/43901162",
+   "title": "LA CHAIR ET LE BRONZE. REMARQUES SUR \"MÉTAPHYSIQUE\" Z, 11 ET L'INTERPRÉTATION DE M. FREDE ET G. PATZIG",
+   "author": "Riccardo Chiaradonna"
+  },
+  {
+   "book": "",
+   "page": 337,
+   "section": "b",
+   "line": null,
+   "journal": "History of Philosophy Quarterly",
+   "year": "1997",
+   "iid": "7d607906-fc56-3f54-aae5-2fec977dcf5a",
+   "doi": "10.2307/27744731",
+   "title": "Four-Eighths Hephaistos: Artifacts and Living Things in Aristotle",
+   "author": "Kathrin Koslicki"
+  },
+  {
+   "book": "",
+   "page": 338,
+   "section": "a",
+   "line": null,
+   "journal": "History of Philosophy Quarterly",
+   "year": "1997",
+   "iid": "7d607906-fc56-3f54-aae5-2fec977dcf5a",
+   "doi": "10.2307/27744731",
+   "title": "Four-Eighths Hephaistos: Artifacts and Living Things in Aristotle",
+   "author": "Kathrin Koslicki"
+  },
+  {
+   "book": "",
+   "page": 321,
+   "section": "b",
+   "line": null,
+   "journal": "History of Philosophy Quarterly",
+   "year": "1997",
+   "iid": "7d607906-fc56-3f54-aae5-2fec977dcf5a",
+   "doi": "10.2307/27744731",
+   "title": "Four-Eighths Hephaistos: Artifacts and Living Things in Aristotle",
+   "author": "Kathrin Koslicki"
+  },
+  {
+   "book": "",
+   "page": 329,
+   "section": "b",
+   "line": null,
+   "journal": "History of Philosophy Quarterly",
+   "year": "1997",
+   "iid": "7d607906-fc56-3f54-aae5-2fec977dcf5a",
+   "doi": "10.2307/27744731",
+   "title": "Four-Eighths Hephaistos: Artifacts and Living Things in Aristotle",
+   "author": "Kathrin Koslicki"
+  },
+  {
+   "book": "",
+   "page": 335,
+   "section": "a",
+   "line": 32,
+   "journal": "Phronesis",
+   "year": "2021",
+   "iid": "7e4cccae-5b76-31bb-8c2e-6b31539e3589",
+   "doi": "10.2307/27073978",
+   "title": "The Supposed Material Cause in <em>Posterior Analytics</em> 2.11",
+   "author": "Nathanael Stein"
+  },
+  {
+   "book": "",
+   "page": 320,
+   "section": "b",
+   "line": 18,
+   "journal": "Phronesis",
+   "year": "2021",
+   "iid": "7e4cccae-5b76-31bb-8c2e-6b31539e3589",
+   "doi": "10.2307/27073978",
+   "title": "The Supposed Material Cause in <em>Posterior Analytics</em> 2.11",
+   "author": "Nathanael Stein"
+  },
+  {
+   "book": "",
+   "page": 320,
+   "section": "a",
+   "line": 2,
+   "journal": "Phronesis",
+   "year": "2021",
+   "iid": "7e4cccae-5b76-31bb-8c2e-6b31539e3589",
+   "doi": "10.2307/27073978",
+   "title": "The Supposed Material Cause in <em>Posterior Analytics</em> 2.11",
+   "author": "Nathanael Stein"
+  },
+  {
+   "book": "",
+   "page": 329,
+   "section": "a",
+   "line": 10,
+   "journal": "Phronesis",
+   "year": "2021",
+   "iid": "7e4cccae-5b76-31bb-8c2e-6b31539e3589",
+   "doi": "10.2307/27073978",
+   "title": "The Supposed Material Cause in <em>Posterior Analytics</em> 2.11",
+   "author": "Nathanael Stein"
+  },
+  {
+   "book": "",
+   "page": 329,
+   "section": "a",
+   "line": 13,
+   "journal": "Phronesis",
+   "year": "2021",
+   "iid": "7e4cccae-5b76-31bb-8c2e-6b31539e3589",
+   "doi": "10.2307/27073978",
+   "title": "The Supposed Material Cause in <em>Posterior Analytics</em> 2.11",
+   "author": "Nathanael Stein"
+  },
+  {
+   "book": "",
+   "page": 324,
+   "section": "b",
+   "line": 34,
+   "journal": "The Classical Review",
+   "year": "1980",
+   "iid": "81ea102d-a53e-3145-a0d1-2112213375a7",
+   "doi": "10.2307/3064378",
+   "title": "",
+   "author": "Rudolf Löbl, Edward Hussey"
+  },
+  {
+   "book": "",
+   "page": 325,
+   "section": "b",
+   "line": 20,
+   "journal": "The Classical Review",
+   "year": "1980",
+   "iid": "81ea102d-a53e-3145-a0d1-2112213375a7",
+   "doi": "10.2307/3064378",
+   "title": "",
+   "author": "Rudolf Löbl, Edward Hussey"
+  },
+  {
+   "book": "",
+   "page": 328,
+   "section": "b",
+   "line": 35,
+   "journal": "Phronesis",
+   "year": "1965",
+   "iid": "87cb0ce9-e1d4-339f-921b-ab299701576c",
+   "doi": "10.2307/4181755",
+   "title": "Anaximander's \"Apeiron\"",
+   "author": "H. B. Gottschalk"
+  },
+  {
+   "book": "",
+   "page": 316,
+   "section": "a",
+   "line": 5,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2015",
+   "iid": "8a243dca-f913-3bf7-a1fb-59dcb9e0a911",
+   "doi": "10.2307/26394451",
+   "title": "ΕΙ ΕΣΤΙΝ. DES HYPOTHÈSES D’EXISTENCE CHEZ ARISTOTE ?",
+   "author": "António Pedro Mesquita"
+  },
+  {
+   "book": "",
+   "page": 318,
+   "section": "b",
+   "line": 6,
+   "journal": "The Classical Review",
+   "year": "2012",
+   "iid": "8c58413c-f64d-3c89-8bbe-1901bc0c2977",
+   "doi": "10.2307/23270791",
+   "title": "PARMENIDES",
+   "author": "EDWARD P. BUTLER, V. Adluri"
+  },
+  {
+   "book": "",
+   "page": 318,
+   "section": "b",
+   "line": 32,
+   "journal": "History of Philosophy Quarterly",
+   "year": "1986",
+   "iid": "8cc6b961-ccfc-355e-8939-68d7878730a5",
+   "doi": "10.2307/27743783",
+   "title": "Form and Individuation in Aristotle",
+   "author": "Jennifer E. Whiting"
+  },
+  {
+   "book": "",
+   "page": 325,
+   "section": "b",
+   "line": 24,
+   "journal": "The Classical Review",
+   "year": "2007",
+   "iid": "9914bfb6-c19b-37a9-8239-f62aaec6abca",
+   "doi": "10.2307/4497550",
+   "title": "Ancient Philosophy and Alchemy",
+   "author": "C. Viano, Inna Kupreeva"
+  },
+  {
+   "book": "",
+   "page": 330,
+   "section": "b",
+   "line": 4,
+   "journal": "Phronesis",
+   "year": "2019",
+   "iid": "9f03d081-5102-3b9e-a92d-2f4869ac5396",
+   "doi": "10.2307/26675264",
+   "title": "The Aristotelian Psychology of Tragic Mimesis",
+   "author": "José M. González"
+  },
+  {
+   "book": "",
+   "page": 331,
+   "section": "a",
+   "line": 12,
+   "journal": "Phronesis",
+   "year": "2019",
+   "iid": "9f03d081-5102-3b9e-a92d-2f4869ac5396",
+   "doi": "10.2307/26675264",
+   "title": "The Aristotelian Psychology of Tragic Mimesis",
+   "author": "José M. González"
+  },
+  {
+   "book": "",
+   "page": 319,
+   "section": "a",
+   "line": 29,
+   "journal": "Phronesis",
+   "year": "1983",
+   "iid": "a83739df-9fb0-3296-b1f8-0be6ea725329",
+   "doi": "10.2307/4182173",
+   "title": "Prime Matter: A Rejoinder",
+   "author": "William Charlton"
+  },
+  {
+   "book": "",
+   "page": 318,
+   "section": "b",
+   "line": 2,
+   "journal": "Phronesis",
+   "year": "1983",
+   "iid": "a83739df-9fb0-3296-b1f8-0be6ea725329",
+   "doi": "10.2307/4182173",
+   "title": "Prime Matter: A Rejoinder",
+   "author": "William Charlton"
+  },
+  {
+   "book": "",
+   "page": 319,
+   "section": "a",
+   "line": 3,
+   "journal": "Phronesis",
+   "year": "1983",
+   "iid": "a83739df-9fb0-3296-b1f8-0be6ea725329",
+   "doi": "10.2307/4182173",
+   "title": "Prime Matter: A Rejoinder",
+   "author": "William Charlton"
+  },
+  {
+   "book": "",
+   "page": 318,
+   "section": "a",
+   "line": 23,
+   "journal": "Phronesis",
+   "year": "1983",
+   "iid": "a83739df-9fb0-3296-b1f8-0be6ea725329",
+   "doi": "10.2307/4182173",
+   "title": "Prime Matter: A Rejoinder",
+   "author": "William Charlton"
+  },
+  {
+   "book": "",
+   "page": 319,
+   "section": "a",
+   "line": 33,
+   "journal": "Phronesis",
+   "year": "1983",
+   "iid": "a83739df-9fb0-3296-b1f8-0be6ea725329",
+   "doi": "10.2307/4182173",
+   "title": "Prime Matter: A Rejoinder",
+   "author": "William Charlton"
+  },
+  {
+   "book": "",
+   "page": 314,
+   "section": "a",
+   "line": 8,
+   "journal": "Phronesis",
+   "year": "1983",
+   "iid": "a83739df-9fb0-3296-b1f8-0be6ea725329",
+   "doi": "10.2307/4182173",
+   "title": "Prime Matter: A Rejoinder",
+   "author": "William Charlton"
+  },
+  {
+   "book": "",
+   "page": 319,
+   "section": "a",
+   "line": 26,
+   "journal": "Phronesis",
+   "year": "1983",
+   "iid": "a83739df-9fb0-3296-b1f8-0be6ea725329",
+   "doi": "10.2307/4182173",
+   "title": "Prime Matter: A Rejoinder",
+   "author": "William Charlton"
+  },
+  {
+   "book": "",
+   "page": 325,
+   "section": "a",
+   "line": 23,
+   "journal": "Méthexis",
+   "year": "2021",
+   "iid": "a9b92e01-5ee3-3b54-86ed-709236e7abfb",
+   "doi": "10.2307/27140731",
+   "title": "Was Democritus a Pythagorean? The Case of <em>psychē</em>",
+   "author": "Gabriele Cornelli, Gustavo Laet Gomes"
+  },
+  {
+   "book": "",
+   "page": 314,
+   "section": "a",
+   "line": 29,
+   "journal": "Méthexis",
+   "year": "2021",
+   "iid": "a9b92e01-5ee3-3b54-86ed-709236e7abfb",
+   "doi": "10.2307/27140731",
+   "title": "Was Democritus a Pythagorean? The Case of <em>psychē</em>",
+   "author": "Gabriele Cornelli, Gustavo Laet Gomes"
+  },
+  {
+   "book": "",
+   "page": 333,
+   "section": "b",
+   "line": 3,
+   "journal": "The Classical Review",
+   "year": "1983",
+   "iid": "aca6e655-3b36-3407-8e04-58b45204dac5",
+   "doi": "10.2307/3063959",
+   "title": "Aristotle's Metaphysics of Nature",
+   "author": "Sarah Waterlow, Lindsay Judson"
+  },
+  {
+   "book": "",
+   "page": 316,
+   "section": "b",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2005",
+   "iid": "b1f614a7-6fa2-3507-956b-5d1256a579d6",
+   "doi": "10.2307/24354821",
+   "title": "L'ÉCRITURE ET LES PRÉSOCRATIQUES: ANALYSE DE L'INTERPRÉTATION DE ERIC HAVELOCK",
+   "author": "Chiara Palù"
+  },
+  {
+   "book": "",
+   "page": 330,
+   "section": "b",
+   "line": 7,
+   "journal": "Phronesis",
+   "year": "2018",
+   "iid": "b7dbbab5-635d-3659-bb39-4799249cf86d",
+   "doi": "10.2307/26566211",
+   "title": "Air as <em>Noēsis</em> and Soul in Diogenes of Apollonia",
+   "author": "Rhodes Pinto"
+  },
+  {
+   "book": "",
+   "page": 317,
+   "section": "a",
+   "line": 32,
+   "journal": "Phronesis",
+   "year": "2006",
+   "iid": "bf1fda0b-3007-3f2d-9fe6-5788ca13c542",
+   "doi": "10.2307/4182814",
+   "title": "Aristotle \"Physics\" I 8",
+   "author": "Sean Kelsey"
+  },
+  {
+   "book": "",
+   "page": 317,
+   "section": "a",
+   "line": 32,
+   "journal": "Phronesis",
+   "year": "2006",
+   "iid": "bf1fda0b-3007-3f2d-9fe6-5788ca13c542",
+   "doi": "10.2307/4182814",
+   "title": "Aristotle \"Physics\" I 8",
+   "author": "Sean Kelsey"
+  },
+  {
+   "book": "",
+   "page": 324,
+   "section": "a",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "2002",
+   "iid": "c62a3c0f-c108-3810-acae-7fb3ab7b30ee",
+   "doi": "10.2307/4182688",
+   "title": "\"De Anima\" II 5",
+   "author": "M. F. Burnyeat"
+  },
+  {
+   "book": "",
+   "page": 323,
+   "section": "b",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "2002",
+   "iid": "c62a3c0f-c108-3810-acae-7fb3ab7b30ee",
+   "doi": "10.2307/4182688",
+   "title": "\"De Anima\" II 5",
+   "author": "M. F. Burnyeat"
+  },
+  {
+   "book": "",
+   "page": 334,
+   "section": "a",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "2002",
+   "iid": "c62a3c0f-c108-3810-acae-7fb3ab7b30ee",
+   "doi": "10.2307/4182688",
+   "title": "\"De Anima\" II 5",
+   "author": "M. F. Burnyeat"
+  },
+  {
+   "book": "",
+   "page": 319,
+   "section": "b",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "2002",
+   "iid": "c62a3c0f-c108-3810-acae-7fb3ab7b30ee",
+   "doi": "10.2307/4182688",
+   "title": "\"De Anima\" II 5",
+   "author": "M. F. Burnyeat"
+  },
+  {
+   "book": "",
+   "page": 315,
+   "section": "a",
+   "line": 4,
+   "journal": "History of Philosophy Quarterly",
+   "year": "2001",
+   "iid": "c8ab0bb8-29a6-3c30-80d6-84c61a73a2d3",
+   "doi": "10.2307/27744879",
+   "title": "Aristotle on \"Eudaimonia\": after Plato's \"Republic\"",
+   "author": "Jiyuan Yu"
+  },
+  {
+   "book": "",
+   "page": 323,
+   "section": "a",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "2011",
+   "iid": "cbd419fd-b2df-3c8e-90b4-22b0bdba55ec",
+   "doi": "10.2307/23056316",
+   "title": "Aristotle and his followers",
+   "author": ""
+  },
+  {
+   "book": "",
+   "page": 323,
+   "section": "a",
+   "line": 3,
+   "journal": "Méthexis",
+   "year": "2006",
+   "iid": "cc065bc4-2a97-3d6f-adba-2b4952f832a4",
+   "doi": "10.2307/43738772",
+   "title": "UNA NOTA SOBRE LA DEFINICIÓN DE “CONTACTO” DE \"FÍSICA\" V 3",
+   "author": "JOAQUÍN PERERA"
+  },
+  {
+   "book": "",
+   "page": 336,
+   "section": "b",
+   "line": 22,
+   "journal": "Phronesis",
+   "year": "2008",
+   "iid": "cc1e0f0d-ffb9-3de3-b7cf-2f6cf70e0c33",
+   "doi": "10.2307/40387968",
+   "title": "The Private Parts of Animals: Aristotle on the Teleology of Sexual Difference",
+   "author": "Karen M. Nielsen"
+  },
+  {
+   "book": "",
+   "page": 330,
+   "section": "a",
+   "line": 30,
+   "journal": "Phronesis",
+   "year": "1996",
+   "iid": "ce9e3cf6-c315-3e51-af72-02adb641b0e8",
+   "doi": "10.2307/4182513",
+   "title": "Aristotle on the Sense of Smell",
+   "author": "Thomas K. Johansen"
+  },
+  {
+   "book": "",
+   "page": 327,
+   "section": "b",
+   "line": 23,
+   "journal": "Phronesis",
+   "year": "1996",
+   "iid": "ce9e3cf6-c315-3e51-af72-02adb641b0e8",
+   "doi": "10.2307/4182513",
+   "title": "Aristotle on the Sense of Smell",
+   "author": "Thomas K. Johansen"
+  },
+  {
+   "book": "",
+   "page": 316,
+   "section": "a",
+   "line": 8,
+   "journal": "Méthexis",
+   "year": "2006",
+   "iid": "d4cb55b7-9242-314c-b5db-9838cc287df6",
+   "doi": "10.2307/43738768",
+   "title": "DESANUDANDO ARGUMENTOS. LAS APLICACIONES FILÓSOFICAS DE LA DIALÉCTICA SEGÚN LAS \"REFUTACIONES SOFÍSTICAS\"",
+   "author": "GABRIELA ROSSI"
+  },
+  {
+   "book": "",
+   "page": 328,
+   "section": "a",
+   "line": 23,
+   "journal": "Phronesis",
+   "year": "2021",
+   "iid": "d9246404-3489-3510-9999-c7fec480e412",
+   "doi": "10.2307/27073983",
+   "title": "Mixture, Generation and the First <em>Aporia</em> of Aristotle's <em>GC</em> 1.10",
+   "author": "Andreas Anagnostopoulos"
+  },
+  {
+   "book": "",
+   "page": 327,
+   "section": "b",
+   "line": 13,
+   "journal": "Phronesis",
+   "year": "2021",
+   "iid": "d9246404-3489-3510-9999-c7fec480e412",
+   "doi": "10.2307/27073983",
+   "title": "Mixture, Generation and the First <em>Aporia</em> of Aristotle's <em>GC</em> 1.10",
+   "author": "Andreas Anagnostopoulos"
+  },
+  {
+   "book": "",
+   "page": 314,
+   "section": "a",
+   "line": 1,
+   "journal": "Phronesis",
+   "year": "2021",
+   "iid": "d9246404-3489-3510-9999-c7fec480e412",
+   "doi": "10.2307/27073983",
+   "title": "Mixture, Generation and the First <em>Aporia</em> of Aristotle's <em>GC</em> 1.10",
+   "author": "Andreas Anagnostopoulos"
+  },
+  {
+   "book": "",
+   "page": 314,
+   "section": "b",
+   "line": 26,
+   "journal": "Phronesis",
+   "year": "2021",
+   "iid": "d9246404-3489-3510-9999-c7fec480e412",
+   "doi": "10.2307/27073983",
+   "title": "Mixture, Generation and the First <em>Aporia</em> of Aristotle's <em>GC</em> 1.10",
+   "author": "Andreas Anagnostopoulos"
+  },
+  {
+   "book": "",
+   "page": 322,
+   "section": "b",
+   "line": 25,
+   "journal": "Phronesis",
+   "year": "2021",
+   "iid": "d9246404-3489-3510-9999-c7fec480e412",
+   "doi": "10.2307/27073983",
+   "title": "Mixture, Generation and the First <em>Aporia</em> of Aristotle's <em>GC</em> 1.10",
+   "author": "Andreas Anagnostopoulos"
+  },
+  {
+   "book": "",
+   "page": 322,
+   "section": "b",
+   "line": 1,
+   "journal": "Phronesis",
+   "year": "2021",
+   "iid": "d9246404-3489-3510-9999-c7fec480e412",
+   "doi": "10.2307/27073983",
+   "title": "Mixture, Generation and the First <em>Aporia</em> of Aristotle's <em>GC</em> 1.10",
+   "author": "Andreas Anagnostopoulos"
+  },
+  {
+   "book": "",
+   "page": 334,
+   "section": "a",
+   "line": 15,
+   "journal": "Phronesis",
+   "year": "2021",
+   "iid": "d9246404-3489-3510-9999-c7fec480e412",
+   "doi": "10.2307/27073983",
+   "title": "Mixture, Generation and the First <em>Aporia</em> of Aristotle's <em>GC</em> 1.10",
+   "author": "Andreas Anagnostopoulos"
+  },
+  {
+   "book": "",
+   "page": 322,
+   "section": "b",
+   "line": 6,
+   "journal": "Phronesis",
+   "year": "2021",
+   "iid": "d9246404-3489-3510-9999-c7fec480e412",
+   "doi": "10.2307/27073983",
+   "title": "Mixture, Generation and the First <em>Aporia</em> of Aristotle's <em>GC</em> 1.10",
+   "author": "Andreas Anagnostopoulos"
+  },
+  {
+   "book": "",
+   "page": 329,
+   "section": "a",
+   "line": 3,
+   "journal": "Phronesis",
+   "year": "2021",
+   "iid": "d9246404-3489-3510-9999-c7fec480e412",
+   "doi": "10.2307/27073983",
+   "title": "Mixture, Generation and the First <em>Aporia</em> of Aristotle's <em>GC</em> 1.10",
+   "author": "Andreas Anagnostopoulos"
+  },
+  {
+   "book": "",
+   "page": 329,
+   "section": "a",
+   "line": 7,
+   "journal": "Phronesis",
+   "year": "2021",
+   "iid": "d9246404-3489-3510-9999-c7fec480e412",
+   "doi": "10.2307/27073983",
+   "title": "Mixture, Generation and the First <em>Aporia</em> of Aristotle's <em>GC</em> 1.10",
+   "author": "Andreas Anagnostopoulos"
+  },
+  {
+   "book": "",
+   "page": 329,
+   "section": "a",
+   "line": 5,
+   "journal": "Phronesis",
+   "year": "2021",
+   "iid": "d9246404-3489-3510-9999-c7fec480e412",
+   "doi": "10.2307/27073983",
+   "title": "Mixture, Generation and the First <em>Aporia</em> of Aristotle's <em>GC</em> 1.10",
+   "author": "Andreas Anagnostopoulos"
+  },
+  {
+   "book": "",
+   "page": 322,
+   "section": "b",
+   "line": 9,
+   "journal": "Phronesis",
+   "year": "2021",
+   "iid": "d9246404-3489-3510-9999-c7fec480e412",
+   "doi": "10.2307/27073983",
+   "title": "Mixture, Generation and the First <em>Aporia</em> of Aristotle's <em>GC</em> 1.10",
+   "author": "Andreas Anagnostopoulos"
+  },
+  {
+   "book": "",
+   "page": 319,
+   "section": "b",
+   "line": 6,
+   "journal": "Phronesis",
+   "year": "2021",
+   "iid": "d9246404-3489-3510-9999-c7fec480e412",
+   "doi": "10.2307/27073983",
+   "title": "Mixture, Generation and the First <em>Aporia</em> of Aristotle's <em>GC</em> 1.10",
+   "author": "Andreas Anagnostopoulos"
+  },
+  {
+   "book": "",
+   "page": 327,
+   "section": "a",
+   "line": 34,
+   "journal": "Phronesis",
+   "year": "2021",
+   "iid": "d9246404-3489-3510-9999-c7fec480e412",
+   "doi": "10.2307/27073983",
+   "title": "Mixture, Generation and the First <em>Aporia</em> of Aristotle's <em>GC</em> 1.10",
+   "author": "Andreas Anagnostopoulos"
+  },
+  {
+   "book": "",
+   "page": 327,
+   "section": "a",
+   "line": 35,
+   "journal": "Phronesis",
+   "year": "2021",
+   "iid": "d9246404-3489-3510-9999-c7fec480e412",
+   "doi": "10.2307/27073983",
+   "title": "Mixture, Generation and the First <em>Aporia</em> of Aristotle's <em>GC</em> 1.10",
+   "author": "Andreas Anagnostopoulos"
+  },
+  {
+   "book": "",
+   "page": 328,
+   "section": "b",
+   "line": 22,
+   "journal": "Phronesis",
+   "year": "2021",
+   "iid": "d9246404-3489-3510-9999-c7fec480e412",
+   "doi": "10.2307/27073983",
+   "title": "Mixture, Generation and the First <em>Aporia</em> of Aristotle's <em>GC</em> 1.10",
+   "author": "Andreas Anagnostopoulos"
+  },
+  {
+   "book": "",
+   "page": 332,
+   "section": "a",
+   "line": 2,
+   "journal": "Phronesis",
+   "year": "2021",
+   "iid": "d9246404-3489-3510-9999-c7fec480e412",
+   "doi": "10.2307/27073983",
+   "title": "Mixture, Generation and the First <em>Aporia</em> of Aristotle's <em>GC</em> 1.10",
+   "author": "Andreas Anagnostopoulos"
+  },
+  {
+   "book": "",
+   "page": 328,
+   "section": "a",
+   "line": 30,
+   "journal": "Phronesis",
+   "year": "2021",
+   "iid": "d9246404-3489-3510-9999-c7fec480e412",
+   "doi": "10.2307/27073983",
+   "title": "Mixture, Generation and the First <em>Aporia</em> of Aristotle's <em>GC</em> 1.10",
+   "author": "Andreas Anagnostopoulos"
+  },
+  {
+   "book": "",
+   "page": 327,
+   "section": "b",
+   "line": 22,
+   "journal": "Phronesis",
+   "year": "2021",
+   "iid": "d9246404-3489-3510-9999-c7fec480e412",
+   "doi": "10.2307/27073983",
+   "title": "Mixture, Generation and the First <em>Aporia</em> of Aristotle's <em>GC</em> 1.10",
+   "author": "Andreas Anagnostopoulos"
+  },
+  {
+   "book": "",
+   "page": 328,
+   "section": "b",
+   "line": 17,
+   "journal": "Phronesis",
+   "year": "2021",
+   "iid": "d9246404-3489-3510-9999-c7fec480e412",
+   "doi": "10.2307/27073983",
+   "title": "Mixture, Generation and the First <em>Aporia</em> of Aristotle's <em>GC</em> 1.10",
+   "author": "Andreas Anagnostopoulos"
+  },
+  {
+   "book": "",
+   "page": 328,
+   "section": "a",
+   "line": 21,
+   "journal": "Phronesis",
+   "year": "2021",
+   "iid": "d9246404-3489-3510-9999-c7fec480e412",
+   "doi": "10.2307/27073983",
+   "title": "Mixture, Generation and the First <em>Aporia</em> of Aristotle's <em>GC</em> 1.10",
+   "author": "Andreas Anagnostopoulos"
+  },
+  {
+   "book": "",
+   "page": 331,
+   "section": "b",
+   "line": 12,
+   "journal": "Phronesis",
+   "year": "2021",
+   "iid": "d9246404-3489-3510-9999-c7fec480e412",
+   "doi": "10.2307/27073983",
+   "title": "Mixture, Generation and the First <em>Aporia</em> of Aristotle's <em>GC</em> 1.10",
+   "author": "Andreas Anagnostopoulos"
+  },
+  {
+   "book": "",
+   "page": 331,
+   "section": "b",
+   "line": 12,
+   "journal": "Phronesis",
+   "year": "2021",
+   "iid": "d9246404-3489-3510-9999-c7fec480e412",
+   "doi": "10.2307/27073983",
+   "title": "Mixture, Generation and the First <em>Aporia</em> of Aristotle's <em>GC</em> 1.10",
+   "author": "Andreas Anagnostopoulos"
+  },
+  {
+   "book": "",
+   "page": 318,
+   "section": "a",
+   "line": 23,
+   "journal": "Phronesis",
+   "year": "2021",
+   "iid": "d9246404-3489-3510-9999-c7fec480e412",
+   "doi": "10.2307/27073983",
+   "title": "Mixture, Generation and the First <em>Aporia</em> of Aristotle's <em>GC</em> 1.10",
+   "author": "Andreas Anagnostopoulos"
+  },
+  {
+   "book": "",
+   "page": 327,
+   "section": "b",
+   "line": 30,
+   "journal": "Phronesis",
+   "year": "2021",
+   "iid": "d9246404-3489-3510-9999-c7fec480e412",
+   "doi": "10.2307/27073983",
+   "title": "Mixture, Generation and the First <em>Aporia</em> of Aristotle's <em>GC</em> 1.10",
+   "author": "Andreas Anagnostopoulos"
+  },
+  {
+   "book": "",
+   "page": 327,
+   "section": "b",
+   "line": 24,
+   "journal": "Phronesis",
+   "year": "2021",
+   "iid": "d9246404-3489-3510-9999-c7fec480e412",
+   "doi": "10.2307/27073983",
+   "title": "Mixture, Generation and the First <em>Aporia</em> of Aristotle's <em>GC</em> 1.10",
+   "author": "Andreas Anagnostopoulos"
+  },
+  {
+   "book": "",
+   "page": 338,
+   "section": "b",
+   "line": 17,
+   "journal": "Phronesis",
+   "year": "2021",
+   "iid": "d9246404-3489-3510-9999-c7fec480e412",
+   "doi": "10.2307/27073983",
+   "title": "Mixture, Generation and the First <em>Aporia</em> of Aristotle's <em>GC</em> 1.10",
+   "author": "Andreas Anagnostopoulos"
+  },
+  {
+   "book": "",
+   "page": 334,
+   "section": "a",
+   "line": 31,
+   "journal": "Phronesis",
+   "year": "2021",
+   "iid": "d9246404-3489-3510-9999-c7fec480e412",
+   "doi": "10.2307/27073983",
+   "title": "Mixture, Generation and the First <em>Aporia</em> of Aristotle's <em>GC</em> 1.10",
+   "author": "Andreas Anagnostopoulos"
+  },
+  {
+   "book": "",
+   "page": 328,
+   "section": "a",
+   "line": 5,
+   "journal": "Phronesis",
+   "year": "2021",
+   "iid": "d9246404-3489-3510-9999-c7fec480e412",
+   "doi": "10.2307/27073983",
+   "title": "Mixture, Generation and the First <em>Aporia</em> of Aristotle's <em>GC</em> 1.10",
+   "author": "Andreas Anagnostopoulos"
+  },
+  {
+   "book": "",
+   "page": 328,
+   "section": "a",
+   "line": 30,
+   "journal": "Phronesis",
+   "year": "2021",
+   "iid": "d9246404-3489-3510-9999-c7fec480e412",
+   "doi": "10.2307/27073983",
+   "title": "Mixture, Generation and the First <em>Aporia</em> of Aristotle's <em>GC</em> 1.10",
+   "author": "Andreas Anagnostopoulos"
+  },
+  {
+   "book": "",
+   "page": 328,
+   "section": "a",
+   "line": 31,
+   "journal": "Phronesis",
+   "year": "2021",
+   "iid": "d9246404-3489-3510-9999-c7fec480e412",
+   "doi": "10.2307/27073983",
+   "title": "Mixture, Generation and the First <em>Aporia</em> of Aristotle's <em>GC</em> 1.10",
+   "author": "Andreas Anagnostopoulos"
+  },
+  {
+   "book": "",
+   "page": 334,
+   "section": "b",
+   "line": 20,
+   "journal": "Phronesis",
+   "year": "2021",
+   "iid": "d9246404-3489-3510-9999-c7fec480e412",
+   "doi": "10.2307/27073983",
+   "title": "Mixture, Generation and the First <em>Aporia</em> of Aristotle's <em>GC</em> 1.10",
+   "author": "Andreas Anagnostopoulos"
+  },
+  {
+   "book": "",
+   "page": 334,
+   "section": "b",
+   "line": 21,
+   "journal": "Phronesis",
+   "year": "2021",
+   "iid": "d9246404-3489-3510-9999-c7fec480e412",
+   "doi": "10.2307/27073983",
+   "title": "Mixture, Generation and the First <em>Aporia</em> of Aristotle's <em>GC</em> 1.10",
+   "author": "Andreas Anagnostopoulos"
+  },
+  {
+   "book": "",
+   "page": 334,
+   "section": "b",
+   "line": 21,
+   "journal": "Phronesis",
+   "year": "2021",
+   "iid": "d9246404-3489-3510-9999-c7fec480e412",
+   "doi": "10.2307/27073983",
+   "title": "Mixture, Generation and the First <em>Aporia</em> of Aristotle's <em>GC</em> 1.10",
+   "author": "Andreas Anagnostopoulos"
+  },
+  {
+   "book": "",
+   "page": 323,
+   "section": "b",
+   "line": 29,
+   "journal": "Phronesis",
+   "year": "2021",
+   "iid": "d9246404-3489-3510-9999-c7fec480e412",
+   "doi": "10.2307/27073983",
+   "title": "Mixture, Generation and the First <em>Aporia</em> of Aristotle's <em>GC</em> 1.10",
+   "author": "Andreas Anagnostopoulos"
+  },
+  {
+   "book": "",
+   "page": 324,
+   "section": "a",
+   "line": 3,
+   "journal": "Phronesis",
+   "year": "2021",
+   "iid": "d9246404-3489-3510-9999-c7fec480e412",
+   "doi": "10.2307/27073983",
+   "title": "Mixture, Generation and the First <em>Aporia</em> of Aristotle's <em>GC</em> 1.10",
+   "author": "Andreas Anagnostopoulos"
+  },
+  {
+   "book": "",
+   "page": 324,
+   "section": "a",
+   "line": 13,
+   "journal": "Phronesis",
+   "year": "2021",
+   "iid": "d9246404-3489-3510-9999-c7fec480e412",
+   "doi": "10.2307/27073983",
+   "title": "Mixture, Generation and the First <em>Aporia</em> of Aristotle's <em>GC</em> 1.10",
+   "author": "Andreas Anagnostopoulos"
+  },
+  {
+   "book": "",
+   "page": 322,
+   "section": "b",
+   "line": 16,
+   "journal": "Phronesis",
+   "year": "2021",
+   "iid": "d9246404-3489-3510-9999-c7fec480e412",
+   "doi": "10.2307/27073983",
+   "title": "Mixture, Generation and the First <em>Aporia</em> of Aristotle's <em>GC</em> 1.10",
+   "author": "Andreas Anagnostopoulos"
+  },
+  {
+   "book": "",
+   "page": 323,
+   "section": "b",
+   "line": 28,
+   "journal": "Phronesis",
+   "year": "2021",
+   "iid": "d9246404-3489-3510-9999-c7fec480e412",
+   "doi": "10.2307/27073983",
+   "title": "Mixture, Generation and the First <em>Aporia</em> of Aristotle's <em>GC</em> 1.10",
+   "author": "Andreas Anagnostopoulos"
+  },
+  {
+   "book": "",
+   "page": 338,
+   "section": "b",
+   "line": 17,
+   "journal": "Phronesis",
+   "year": "2021",
+   "iid": "d9246404-3489-3510-9999-c7fec480e412",
+   "doi": "10.2307/27073983",
+   "title": "Mixture, Generation and the First <em>Aporia</em> of Aristotle's <em>GC</em> 1.10",
+   "author": "Andreas Anagnostopoulos"
+  },
+  {
+   "book": "",
+   "page": 334,
+   "section": "a",
+   "line": 31,
+   "journal": "Phronesis",
+   "year": "2021",
+   "iid": "d9246404-3489-3510-9999-c7fec480e412",
+   "doi": "10.2307/27073983",
+   "title": "Mixture, Generation and the First <em>Aporia</em> of Aristotle's <em>GC</em> 1.10",
+   "author": "Andreas Anagnostopoulos"
+  },
+  {
+   "book": "",
+   "page": 317,
+   "section": "b",
+   "line": 19,
+   "journal": "Phronesis",
+   "year": "2021",
+   "iid": "d9246404-3489-3510-9999-c7fec480e412",
+   "doi": "10.2307/27073983",
+   "title": "Mixture, Generation and the First <em>Aporia</em> of Aristotle's <em>GC</em> 1.10",
+   "author": "Andreas Anagnostopoulos"
+  },
+  {
+   "book": "",
+   "page": 327,
+   "section": "b",
+   "line": 2,
+   "journal": "Phronesis",
+   "year": "2021",
+   "iid": "d9246404-3489-3510-9999-c7fec480e412",
+   "doi": "10.2307/27073983",
+   "title": "Mixture, Generation and the First <em>Aporia</em> of Aristotle's <em>GC</em> 1.10",
+   "author": "Andreas Anagnostopoulos"
+  },
+  {
+   "book": "",
+   "page": 328,
+   "section": "a",
+   "line": 28,
+   "journal": "Phronesis",
+   "year": "2021",
+   "iid": "d9246404-3489-3510-9999-c7fec480e412",
+   "doi": "10.2307/27073983",
+   "title": "Mixture, Generation and the First <em>Aporia</em> of Aristotle's <em>GC</em> 1.10",
+   "author": "Andreas Anagnostopoulos"
+  },
+  {
+   "book": "",
+   "page": 333,
+   "section": "a",
+   "line": 28,
+   "journal": "Phronesis",
+   "year": "2021",
+   "iid": "d9246404-3489-3510-9999-c7fec480e412",
+   "doi": "10.2307/27073983",
+   "title": "Mixture, Generation and the First <em>Aporia</em> of Aristotle's <em>GC</em> 1.10",
+   "author": "Andreas Anagnostopoulos"
+  },
+  {
+   "book": "",
+   "page": 334,
+   "section": "b",
+   "line": 8,
+   "journal": "Phronesis",
+   "year": "2021",
+   "iid": "d9246404-3489-3510-9999-c7fec480e412",
+   "doi": "10.2307/27073983",
+   "title": "Mixture, Generation and the First <em>Aporia</em> of Aristotle's <em>GC</em> 1.10",
+   "author": "Andreas Anagnostopoulos"
+  },
+  {
+   "book": "",
+   "page": 327,
+   "section": "b",
+   "line": 6,
+   "journal": "Phronesis",
+   "year": "2021",
+   "iid": "d9246404-3489-3510-9999-c7fec480e412",
+   "doi": "10.2307/27073983",
+   "title": "Mixture, Generation and the First <em>Aporia</em> of Aristotle's <em>GC</em> 1.10",
+   "author": "Andreas Anagnostopoulos"
+  },
+  {
+   "book": "",
+   "page": 327,
+   "section": "b",
+   "line": 26,
+   "journal": "Phronesis",
+   "year": "2021",
+   "iid": "d9246404-3489-3510-9999-c7fec480e412",
+   "doi": "10.2307/27073983",
+   "title": "Mixture, Generation and the First <em>Aporia</em> of Aristotle's <em>GC</em> 1.10",
+   "author": "Andreas Anagnostopoulos"
+  },
+  {
+   "book": "",
+   "page": 328,
+   "section": "b",
+   "line": 10,
+   "journal": "Phronesis",
+   "year": "2021",
+   "iid": "d9246404-3489-3510-9999-c7fec480e412",
+   "doi": "10.2307/27073983",
+   "title": "Mixture, Generation and the First <em>Aporia</em> of Aristotle's <em>GC</em> 1.10",
+   "author": "Andreas Anagnostopoulos"
+  },
+  {
+   "book": "",
+   "page": 327,
+   "section": "b",
+   "line": 8,
+   "journal": "Phronesis",
+   "year": "2021",
+   "iid": "d9246404-3489-3510-9999-c7fec480e412",
+   "doi": "10.2307/27073983",
+   "title": "Mixture, Generation and the First <em>Aporia</em> of Aristotle's <em>GC</em> 1.10",
+   "author": "Andreas Anagnostopoulos"
+  },
+  {
+   "book": "",
+   "page": 328,
+   "section": "a",
+   "line": 18,
+   "journal": "Phronesis",
+   "year": "2021",
+   "iid": "d9246404-3489-3510-9999-c7fec480e412",
+   "doi": "10.2307/27073983",
+   "title": "Mixture, Generation and the First <em>Aporia</em> of Aristotle's <em>GC</em> 1.10",
+   "author": "Andreas Anagnostopoulos"
+  },
+  {
+   "book": "",
+   "page": 334,
+   "section": "b",
+   "line": 8,
+   "journal": "Phronesis",
+   "year": "2021",
+   "iid": "d9246404-3489-3510-9999-c7fec480e412",
+   "doi": "10.2307/27073983",
+   "title": "Mixture, Generation and the First <em>Aporia</em> of Aristotle's <em>GC</em> 1.10",
+   "author": "Andreas Anagnostopoulos"
+  },
+  {
+   "book": "",
+   "page": 332,
+   "section": "a",
+   "line": 21,
+   "journal": "Phronesis",
+   "year": "2021",
+   "iid": "d9246404-3489-3510-9999-c7fec480e412",
+   "doi": "10.2307/27073983",
+   "title": "Mixture, Generation and the First <em>Aporia</em> of Aristotle's <em>GC</em> 1.10",
+   "author": "Andreas Anagnostopoulos"
+  },
+  {
+   "book": "",
+   "page": 334,
+   "section": "a",
+   "line": 26,
+   "journal": "Phronesis",
+   "year": "2021",
+   "iid": "d9246404-3489-3510-9999-c7fec480e412",
+   "doi": "10.2307/27073983",
+   "title": "Mixture, Generation and the First <em>Aporia</em> of Aristotle's <em>GC</em> 1.10",
+   "author": "Andreas Anagnostopoulos"
+  },
+  {
+   "book": "",
+   "page": 322,
+   "section": "a",
+   "line": 4,
+   "journal": "Phronesis",
+   "year": "2021",
+   "iid": "d9246404-3489-3510-9999-c7fec480e412",
+   "doi": "10.2307/27073983",
+   "title": "Mixture, Generation and the First <em>Aporia</em> of Aristotle's <em>GC</em> 1.10",
+   "author": "Andreas Anagnostopoulos"
+  },
+  {
+   "book": "",
+   "page": 315,
+   "section": "a",
+   "line": 3,
+   "journal": "The Classical Quarterly",
+   "year": "1987",
+   "iid": "dbf1a693-ba59-36c7-a008-d3dce75c9491",
+   "doi": "10.2307/639342",
+   "title": "Empedocles Recycled",
+   "author": "Catherine Osborne"
+  },
+  {
+   "book": "",
+   "page": 338,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1976",
+   "iid": "e1d2d3de-ceba-3ef0-8827-f4534f4597f7",
+   "doi": "10.2307/638272",
+   "title": "Aristotle, Menaechmus, and Circular Proof",
+   "author": "Jonathan Barnes"
+  },
+  {
+   "book": "",
+   "page": 324,
+   "section": "b",
+   "line": 34,
+   "journal": "The Classical Review",
+   "year": "1980",
+   "iid": "e33f2b43-10f9-3dcd-a73b-09b4133ffd17",
+   "doi": "10.2307/3064379",
+   "title": "",
+   "author": "A. D. Woozley, Norman Gulley"
+  },
+  {
+   "book": "",
+   "page": 325,
+   "section": "b",
+   "line": 20,
+   "journal": "The Classical Review",
+   "year": "1980",
+   "iid": "e33f2b43-10f9-3dcd-a73b-09b4133ffd17",
+   "doi": "10.2307/3064379",
+   "title": "",
+   "author": "A. D. Woozley, Norman Gulley"
+  },
+  {
+   "book": "",
+   "page": 333,
+   "section": "a",
+   "line": 35,
+   "journal": "History of Philosophy Quarterly",
+   "year": "1984",
+   "iid": "e8597c7e-469c-3d81-a8cc-e63879a58c33",
+   "doi": "10.2307/27743674",
+   "title": "Teleology and Natural Necessity in Aristotle",
+   "author": "Fred D. Miller, <suffix>Jr.</suffix>, Michael Bradie"
+  },
+  {
+   "book": "",
+   "page": 322,
+   "section": "a",
+   "line": 4,
+   "journal": "History of Philosophy Quarterly",
+   "year": "1984",
+   "iid": "e8597c7e-469c-3d81-a8cc-e63879a58c33",
+   "doi": "10.2307/27743674",
+   "title": "Teleology and Natural Necessity in Aristotle",
+   "author": "Fred D. Miller, <suffix>Jr.</suffix>, Michael Bradie"
+  },
+  {
+   "book": "",
+   "page": 322,
+   "section": "a",
+   "line": 28,
+   "journal": "History of Philosophy Quarterly",
+   "year": "1984",
+   "iid": "e8597c7e-469c-3d81-a8cc-e63879a58c33",
+   "doi": "10.2307/27743674",
+   "title": "Teleology and Natural Necessity in Aristotle",
+   "author": "Fred D. Miller, <suffix>Jr.</suffix>, Michael Bradie"
+  }
+ ]
+}

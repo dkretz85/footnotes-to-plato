@@ -1,0 +1,48 @@
+{
+  "_comment": [
+    "Field classification for the 10 journals in the corpus. Kept as DATA, not",
+    "code, because it is an editorial judgement about disciplinary culture and a",
+    "user may reasonably disagree. Edit here; both views pick it up.",
+    "",
+    "'classics'   = general classical-studies journals, where ancient philosophy",
+    "               sits alongside literature, history, papyrology, epigraphy.",
+    "'philosophy' = philosophy journals, including ancient-philosophy specialist",
+    "               journals housed in philosophy rather than classics.",
+    "",
+    "Arguable cases, stated openly rather than hidden:",
+    "  Phronesis — the flagship ancient-philosophy journal, read across both",
+    "    camps. Filed under philosophy (philosophy-department milieu), but a",
+    "    classicist might reasonably file it the other way. It is also the",
+    "    single largest source (26,703 citations, 29% of the corpus), so this",
+    "    one assignment moves the philosophy/classics comparison more than any",
+    "    other. Treat any philosophy-vs-classics contrast as partly a claim",
+    "    about where Phronesis belongs.",
+    "  Methexis, Revue de Philosophie Ancienne — ancient-philosophy specialists;",
+    "    same reasoning as Phronesis, smaller volume so lower stakes.",
+    "  Revue Internationale de Philosophie, Les Etudes philosophiques,",
+    "    Archivio di Filosofia — general philosophy journals that publish",
+    "    ancient material; unambiguously philosophy."
+  ],
+  "groups": {
+    "philosophy": {
+      "label": "Philosophy",
+      "journals": [
+        "Phronesis",
+        "M\u00e9thexis",
+        "Revue de Philosophie Ancienne",
+        "History of Philosophy Quarterly",
+        "Revue Internationale de Philosophie",
+        "Les \u00c9tudes philosophiques",
+        "Archivio di Filosofia"
+      ]
+    },
+    "classics": {
+      "label": "Classics",
+      "journals": [
+        "The Classical Quarterly",
+        "Classical Philology",
+        "The Classical Review"
+      ]
+    }
+  }
+}

@@ -1,0 +1,9 @@
+COVERAGE — delivered vs requested
+  requested : 69,178
+  delivered : 69,177
+  matched   : 69,177
+  missing   : 1
+  extra     : 0
+
+  flagged drop ab0e7253-8739-3667-b98e-025ad9fd37f5: CONFIRMED missing
+  No silent drops: flagged item is the only omission.

@@ -1,0 +1,5496 @@
+{
+ "work": "Letters",
+ "faceted": false,
+ "tier": "uncertain",
+ "cells": [
+  {
+   "book": "",
+   "page": 309,
+   "section": "a",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Review": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 310,
+   "section": "a",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Review": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 310,
+   "section": "b",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 310,
+   "section": "e",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 311,
+   "section": "a",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 312,
+   "section": "a",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 1,
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 312,
+   "section": "d",
+   "count": 5,
+   "articles": 4,
+   "by_journal": {
+    "Phronesis": 3,
+    "The Classical Review": 1,
+    "Revue Internationale de Philosophie": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 312,
+   "section": "e",
+   "count": 7,
+   "articles": 4,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "Les Études philosophiques": 3,
+    "Phronesis": 2,
+    "Revue de Philosophie Ancienne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 313,
+   "section": "a",
+   "count": 4,
+   "articles": 4,
+   "by_journal": {
+    "Revue Internationale de Philosophie": 1,
+    "The Classical Quarterly": 2,
+    "Les Études philosophiques": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 313,
+   "section": "b",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Méthexis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 313,
+   "section": "d",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "The Classical Review": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 314,
+   "section": "a",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Classical Philology": 1,
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 314,
+   "section": "c",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "The Classical Review": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 314,
+   "section": "e",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Review": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 315,
+   "section": "c",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 315,
+   "section": "d",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 1,
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 316,
+   "section": "b",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Review": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 317,
+   "section": "c",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 318,
+   "section": "e",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Classical Philology": 1,
+    "The Classical Review": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 319,
+   "section": "a",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Review": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 319,
+   "section": "d",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 322,
+   "section": "b",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 322,
+   "section": "c",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 322,
+   "section": "d",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 322,
+   "section": "e",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Review": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 323,
+   "section": "a",
+   "count": 3,
+   "articles": 2,
+   "by_journal": {
+    "The Classical Quarterly": 2,
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 323,
+   "section": "c",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "The Classical Review": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 323,
+   "section": "d",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Revue Internationale de Philosophie": 1,
+    "Méthexis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 323,
+   "section": "e",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Review": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 324,
+   "section": "a",
+   "count": 6,
+   "articles": 5,
+   "by_journal": {
+    "The Classical Quarterly": 3,
+    "The Classical Review": 2,
+    "Méthexis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 324,
+   "section": "b",
+   "count": 5,
+   "articles": 5,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 1,
+    "Classical Philology": 1,
+    "Méthexis": 1,
+    "Phronesis": 1,
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 324,
+   "section": "c",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 324,
+   "section": "d",
+   "count": 4,
+   "articles": 4,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 1,
+    "The Classical Review": 1,
+    "Classical Philology": 1,
+    "Méthexis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 324,
+   "section": "e",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 1,
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 325,
+   "section": "a",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 1,
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 325,
+   "section": "c",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "Méthexis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 325,
+   "section": "e",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Classical Philology": 1,
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 326,
+   "section": "a",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Classical Philology": 1,
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 326,
+   "section": "b",
+   "count": 7,
+   "articles": 6,
+   "by_journal": {
+    "The Classical Quarterly": 2,
+    "Phronesis": 3,
+    "Classical Philology": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 327,
+   "section": "a",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 327,
+   "section": "b",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 1,
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 327,
+   "section": "c",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Review": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 328,
+   "section": "b",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Review": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 328,
+   "section": "c",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 1,
+    "The Classical Review": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 329,
+   "section": "a",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 329,
+   "section": "b",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "The Classical Review": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 329,
+   "section": "e",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 330,
+   "section": "a",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Review": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 330,
+   "section": "b",
+   "count": 5,
+   "articles": 3,
+   "by_journal": {
+    "The Classical Quarterly": 2,
+    "Méthexis": 3
+   }
+  },
+  {
+   "book": "",
+   "page": 331,
+   "section": "a",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 331,
+   "section": "b",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "The Classical Review": 1,
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 331,
+   "section": "e",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 332,
+   "section": "a",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 332,
+   "section": "b",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "The Classical Review": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 332,
+   "section": "c",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 332,
+   "section": "d",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Review": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 333,
+   "section": "a",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 333,
+   "section": "b",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 333,
+   "section": "e",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 334,
+   "section": "a",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Classical Philology": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 334,
+   "section": "b",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 334,
+   "section": "c",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 334,
+   "section": "d",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 335,
+   "section": "a",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "The Classical Review": 1,
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 335,
+   "section": "b",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "The Classical Review": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 335,
+   "section": "e",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 336,
+   "section": "a",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Review": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 336,
+   "section": "b",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 336,
+   "section": "c",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Review": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 336,
+   "section": "d",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 337,
+   "section": "e",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 338,
+   "section": "a",
+   "count": 4,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 1,
+    "Méthexis": 3
+   }
+  },
+  {
+   "book": "",
+   "page": 338,
+   "section": "b",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 338,
+   "section": "d",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "The Classical Review": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 339,
+   "section": "a",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 339,
+   "section": "b",
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "Phronesis": 1,
+    "The Classical Review": 1,
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 339,
+   "section": "c",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Review": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 339,
+   "section": "d",
+   "count": 3,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 2,
+    "The Classical Review": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 340,
+   "section": "b",
+   "count": 4,
+   "articles": 4,
+   "by_journal": {
+    "The Classical Quarterly": 2,
+    "Phronesis": 1,
+    "Méthexis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 340,
+   "section": "c",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Les Études philosophiques": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 340,
+   "section": "d",
+   "count": 2,
+   "articles": 1,
+   "by_journal": {
+    "Phronesis": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 341,
+   "section": "a",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 341,
+   "section": "b",
+   "count": 6,
+   "articles": 6,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 1,
+    "Méthexis": 2,
+    "Phronesis": 2,
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 341,
+   "section": "c",
+   "count": 9,
+   "articles": 7,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 3,
+    "Méthexis": 2,
+    "Phronesis": 3,
+    "The Classical Review": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 341,
+   "section": "d",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Méthexis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 341,
+   "section": "e",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 1,
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 342,
+   "section": "a",
+   "count": 7,
+   "articles": 6,
+   "by_journal": {
+    "Méthexis": 1,
+    "Revue de Philosophie Ancienne": 1,
+    "Phronesis": 4,
+    "Revue Internationale de Philosophie": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 342,
+   "section": "b",
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "Phronesis": 2,
+    "Revue de Philosophie Ancienne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 342,
+   "section": "c",
+   "count": 4,
+   "articles": 4,
+   "by_journal": {
+    "The Classical Quarterly": 2,
+    "Phronesis": 1,
+    "Revue de Philosophie Ancienne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 342,
+   "section": "d",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 1,
+    "Méthexis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 342,
+   "section": "e",
+   "count": 8,
+   "articles": 5,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "Phronesis": 3,
+    "Méthexis": 4
+   }
+  },
+  {
+   "book": "",
+   "page": 343,
+   "section": "a",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 343,
+   "section": "b",
+   "count": 8,
+   "articles": 6,
+   "by_journal": {
+    "Phronesis": 2,
+    "Archivio di Filosofia": 1,
+    "Méthexis": 5
+   }
+  },
+  {
+   "book": "",
+   "page": 343,
+   "section": "c",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 343,
+   "section": "d",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 1,
+    "Méthexis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 343,
+   "section": "e",
+   "count": 5,
+   "articles": 3,
+   "by_journal": {
+    "Phronesis": 4,
+    "The Classical Review": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 344,
+   "section": "a",
+   "count": 8,
+   "articles": 6,
+   "by_journal": {
+    "Classical Philology": 1,
+    "Phronesis": 4,
+    "Revue de Philosophie Ancienne": 1,
+    "The Classical Quarterly": 1,
+    "Méthexis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 344,
+   "section": "b",
+   "count": 4,
+   "articles": 4,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 1,
+    "The Classical Review": 1,
+    "Méthexis": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 344,
+   "section": "c",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 344,
+   "section": "d",
+   "count": 4,
+   "articles": 4,
+   "by_journal": {
+    "Méthexis": 2,
+    "Phronesis": 1,
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 345,
+   "section": "a",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Review": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 345,
+   "section": "b",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 345,
+   "section": "c",
+   "count": 6,
+   "articles": 3,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 3,
+    "Phronesis": 2,
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 345,
+   "section": "d",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Review": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 345,
+   "section": "e",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 346,
+   "section": "a",
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "Méthexis": 1,
+    "The Classical Quarterly": 1,
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 346,
+   "section": "c",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 347,
+   "section": "a",
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "Classical Philology": 1,
+    "The Classical Review": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 347,
+   "section": "c",
+   "count": 2,
+   "articles": 1,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 348,
+   "section": "a",
+   "count": 4,
+   "articles": 2,
+   "by_journal": {
+    "Classical Philology": 3,
+    "Les Études philosophiques": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 348,
+   "section": "b",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 348,
+   "section": "c",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Review": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 349,
+   "section": "b",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 349,
+   "section": "c",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 349,
+   "section": "d",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 350,
+   "section": "a",
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "Classical Philology": 1,
+    "Phronesis": 1,
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 351,
+   "section": "a",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 351,
+   "section": "d",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Revue Internationale de Philosophie": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 352,
+   "section": "a",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Review": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 352,
+   "section": "b",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "The Classical Quarterly": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 352,
+   "section": "c",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 352,
+   "section": "d",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 353,
+   "section": "b",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 353,
+   "section": "c",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 353,
+   "section": "e",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "The Classical Quarterly": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 354,
+   "section": "a",
+   "count": 2,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Quarterly": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 354,
+   "section": "b",
+   "count": 3,
+   "articles": 2,
+   "by_journal": {
+    "The Classical Quarterly": 2,
+    "The Classical Review": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 354,
+   "section": "c",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 355,
+   "section": "a",
+   "count": 2,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Quarterly": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 355,
+   "section": "b",
+   "count": 3,
+   "articles": 2,
+   "by_journal": {
+    "The Classical Quarterly": 2,
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 355,
+   "section": "d",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 355,
+   "section": "e",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "The Classical Review": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 356,
+   "section": "a",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "The Classical Quarterly": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 356,
+   "section": "d",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 356,
+   "section": "e",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 357,
+   "section": "a",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "The Classical Review": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 357,
+   "section": "c",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Classical Philology": 1,
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 357,
+   "section": "d",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 357,
+   "section": "e",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 358,
+   "section": "a",
+   "count": 3,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 3
+   }
+  },
+  {
+   "book": "",
+   "page": 358,
+   "section": "b",
+   "count": 2,
+   "articles": 1,
+   "by_journal": {
+    "Phronesis": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 358,
+   "section": "c",
+   "count": 2,
+   "articles": 1,
+   "by_journal": {
+    "Phronesis": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 358,
+   "section": "d",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Les Études philosophiques": 1,
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 358,
+   "section": "e",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 359,
+   "section": "c",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 359,
+   "section": "d",
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 360,
+   "section": "a",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 360,
+   "section": "b",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Review": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 360,
+   "section": "c",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 360,
+   "section": "d",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 361,
+   "section": "e",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 363,
+   "section": "a",
+   "count": 4,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 3,
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 363,
+   "section": "b",
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Phronesis": 1
+   }
+  }
+ ],
+ "dots": [
+  {
+   "book": "",
+   "page": 324,
+   "section": "d",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "1993",
+   "iid": "01126344-242e-326f-9f44-516ab033ed4e",
+   "doi": "10.2307/24353916",
+   "title": "LECTURE DU CHARMIDE",
+   "author": "Sylvie Solère-Queval"
+  },
+  {
+   "book": "",
+   "page": 325,
+   "section": "a",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "1993",
+   "iid": "01126344-242e-326f-9f44-516ab033ed4e",
+   "doi": "10.2307/24353916",
+   "title": "LECTURE DU CHARMIDE",
+   "author": "Sylvie Solère-Queval"
+  },
+  {
+   "book": "",
+   "page": 363,
+   "section": "b",
+   "line": 3,
+   "journal": "Phronesis",
+   "year": "1962",
+   "iid": "02c1a1a7-6463-3ce4-bb1e-5acf7bd8c552",
+   "doi": "10.2307/4181705",
+   "title": "Plato's \"Lesser Hippias\"",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 363,
+   "section": "a",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1962",
+   "iid": "02c1a1a7-6463-3ce4-bb1e-5acf7bd8c552",
+   "doi": "10.2307/4181705",
+   "title": "Plato's \"Lesser Hippias\"",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 363,
+   "section": "a",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1962",
+   "iid": "02c1a1a7-6463-3ce4-bb1e-5acf7bd8c552",
+   "doi": "10.2307/4181705",
+   "title": "Plato's \"Lesser Hippias\"",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 363,
+   "section": "a",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1962",
+   "iid": "02c1a1a7-6463-3ce4-bb1e-5acf7bd8c552",
+   "doi": "10.2307/4181705",
+   "title": "Plato's \"Lesser Hippias\"",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 344,
+   "section": "d",
+   "line": null,
+   "journal": "Méthexis",
+   "year": "1995",
+   "iid": "02eca29f-deda-3e18-80c3-82852411a162",
+   "doi": "10.2307/43738473",
+   "title": "ZENONS PARADOXIEN DER BEWEGUNG UND DIE STRUKTUR VON RAUM UND ZEIT. EINE RETRAKTATION",
+   "author": "RAFAEL FERBER"
+  },
+  {
+   "book": "",
+   "page": 342,
+   "section": "a",
+   "line": null,
+   "journal": "Méthexis",
+   "year": "1995",
+   "iid": "02eca29f-deda-3e18-80c3-82852411a162",
+   "doi": "10.2307/43738473",
+   "title": "ZENONS PARADOXIEN DER BEWEGUNG UND DIE STRUKTUR VON RAUM UND ZEIT. EINE RETRAKTATION",
+   "author": "RAFAEL FERBER"
+  },
+  {
+   "book": "",
+   "page": 339,
+   "section": "a",
+   "line": 7,
+   "journal": "Classical Philology",
+   "year": "1915",
+   "iid": "095a8956-823d-3561-8d70-59fc06f3e2df",
+   "doi": "10.2307/261765",
+   "title": "Textual Problems in Aristotle's Meteorology",
+   "author": "F. H. Fobes"
+  },
+  {
+   "book": "",
+   "page": 345,
+   "section": "b",
+   "line": 33,
+   "journal": "Classical Philology",
+   "year": "1915",
+   "iid": "095a8956-823d-3561-8d70-59fc06f3e2df",
+   "doi": "10.2307/261765",
+   "title": "Textual Problems in Aristotle's Meteorology",
+   "author": "F. H. Fobes"
+  },
+  {
+   "book": "",
+   "page": 344,
+   "section": "a",
+   "line": 29,
+   "journal": "Classical Philology",
+   "year": "1915",
+   "iid": "095a8956-823d-3561-8d70-59fc06f3e2df",
+   "doi": "10.2307/261765",
+   "title": "Textual Problems in Aristotle's Meteorology",
+   "author": "F. H. Fobes"
+  },
+  {
+   "book": "",
+   "page": 334,
+   "section": "a",
+   "line": 31,
+   "journal": "Classical Philology",
+   "year": "1915",
+   "iid": "095a8956-823d-3561-8d70-59fc06f3e2df",
+   "doi": "10.2307/261765",
+   "title": "Textual Problems in Aristotle's Meteorology",
+   "author": "F. H. Fobes"
+  },
+  {
+   "book": "",
+   "page": 350,
+   "section": "a",
+   "line": 32,
+   "journal": "Classical Philology",
+   "year": "1915",
+   "iid": "095a8956-823d-3561-8d70-59fc06f3e2df",
+   "doi": "10.2307/261765",
+   "title": "Textual Problems in Aristotle's Meteorology",
+   "author": "F. H. Fobes"
+  },
+  {
+   "book": "",
+   "page": 360,
+   "section": "a",
+   "line": 17,
+   "journal": "Classical Philology",
+   "year": "1915",
+   "iid": "095a8956-823d-3561-8d70-59fc06f3e2df",
+   "doi": "10.2307/261765",
+   "title": "Textual Problems in Aristotle's Meteorology",
+   "author": "F. H. Fobes"
+  },
+  {
+   "book": "",
+   "page": 345,
+   "section": "e",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2009",
+   "iid": "12213805-0793-3c13-931c-75e1076299df",
+   "doi": "10.2307/20616671",
+   "title": "Mutati artus: Scylla, Philomela and the End of Silenus' Song in Virgil \"Eclogue\" 6",
+   "author": "Irene Peirano"
+  },
+  {
+   "book": "",
+   "page": 339,
+   "section": "d",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1990",
+   "iid": "12f63f3e-abf1-3a4e-b517-84cd4d19ea05",
+   "doi": "10.2307/4182355",
+   "title": "Plato and Archytas in the \"Seventh Letter\"",
+   "author": "G. E. R. Lloyd"
+  },
+  {
+   "book": "",
+   "page": 349,
+   "section": "d",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1990",
+   "iid": "12f63f3e-abf1-3a4e-b517-84cd4d19ea05",
+   "doi": "10.2307/4182355",
+   "title": "Plato and Archytas in the \"Seventh Letter\"",
+   "author": "G. E. R. Lloyd"
+  },
+  {
+   "book": "",
+   "page": 339,
+   "section": "d",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1990",
+   "iid": "12f63f3e-abf1-3a4e-b517-84cd4d19ea05",
+   "doi": "10.2307/4182355",
+   "title": "Plato and Archytas in the \"Seventh Letter\"",
+   "author": "G. E. R. Lloyd"
+  },
+  {
+   "book": "",
+   "page": 312,
+   "section": "d",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1990",
+   "iid": "12f63f3e-abf1-3a4e-b517-84cd4d19ea05",
+   "doi": "10.2307/4182355",
+   "title": "Plato and Archytas in the \"Seventh Letter\"",
+   "author": "G. E. R. Lloyd"
+  },
+  {
+   "book": "",
+   "page": 350,
+   "section": "a",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1990",
+   "iid": "12f63f3e-abf1-3a4e-b517-84cd4d19ea05",
+   "doi": "10.2307/4182355",
+   "title": "Plato and Archytas in the \"Seventh Letter\"",
+   "author": "G. E. R. Lloyd"
+  },
+  {
+   "book": "",
+   "page": 339,
+   "section": "b",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1990",
+   "iid": "12f63f3e-abf1-3a4e-b517-84cd4d19ea05",
+   "doi": "10.2307/4182355",
+   "title": "Plato and Archytas in the \"Seventh Letter\"",
+   "author": "G. E. R. Lloyd"
+  },
+  {
+   "book": "",
+   "page": 359,
+   "section": "c",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1990",
+   "iid": "12f63f3e-abf1-3a4e-b517-84cd4d19ea05",
+   "doi": "10.2307/4182355",
+   "title": "Plato and Archytas in the \"Seventh Letter\"",
+   "author": "G. E. R. Lloyd"
+  },
+  {
+   "book": "",
+   "page": 360,
+   "section": "c",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1990",
+   "iid": "12f63f3e-abf1-3a4e-b517-84cd4d19ea05",
+   "doi": "10.2307/4182355",
+   "title": "Plato and Archytas in the \"Seventh Letter\"",
+   "author": "G. E. R. Lloyd"
+  },
+  {
+   "book": "",
+   "page": 322,
+   "section": "e",
+   "line": 6,
+   "journal": "The Classical Review",
+   "year": "1956",
+   "iid": "15a6d56e-0ee1-37cc-9846-39fc6ae3028b",
+   "doi": "10.2307/704143",
+   "title": "",
+   "author": "D. A. Russell, Rudolf Stark"
+  },
+  {
+   "book": "",
+   "page": 346,
+   "section": "a",
+   "line": null,
+   "journal": "Méthexis",
+   "year": "1992",
+   "iid": "1bfb9df3-3916-3884-8138-29fecaca8cd3",
+   "doi": "10.2307/43738380",
+   "title": "LA TRANSMISIÓN DEL CONCEPTO ESTOICO DE CAUSA SINÉCTICA",
+   "author": "MARCELO D. BOERI"
+  },
+  {
+   "book": "",
+   "page": 342,
+   "section": "c",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1934",
+   "iid": "1d5ede10-1a9c-39fd-8c1b-8bc0465e69a6",
+   "doi": "10.2307/636797",
+   "title": "The Philosophy of Parmenides",
+   "author": "A. H. Coxon"
+  },
+  {
+   "book": "",
+   "page": 322,
+   "section": "c",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2000",
+   "iid": "1f206d94-5413-3c58-91c4-0362428545f0",
+   "doi": "10.2307/1558911",
+   "title": "O Egregie Grammatice: The Vocative Problems of Latin Words Ending in -ius",
+   "author": "Eleanor Dickey"
+  },
+  {
+   "book": "",
+   "page": 357,
+   "section": "c",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2003",
+   "iid": "2239b243-9281-332b-9545-012e19cffedd",
+   "doi": "10.1086/381370",
+   "title": "A Propos d’un <em>Agraphon: </em>Réflexions sur la Transmission de L’homilétique Latine Antique, Avec Édition du Sermon “Sermo Sacerdotis Dei”",
+   "author": "François Dolbeau"
+  },
+  {
+   "book": "",
+   "page": 348,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2003",
+   "iid": "2239b243-9281-332b-9545-012e19cffedd",
+   "doi": "10.1086/381370",
+   "title": "A Propos d’un <em>Agraphon: </em>Réflexions sur la Transmission de L’homilétique Latine Antique, Avec Édition du Sermon “Sermo Sacerdotis Dei”",
+   "author": "François Dolbeau"
+  },
+  {
+   "book": "",
+   "page": 348,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2003",
+   "iid": "2239b243-9281-332b-9545-012e19cffedd",
+   "doi": "10.1086/381370",
+   "title": "A Propos d’un <em>Agraphon: </em>Réflexions sur la Transmission de L’homilétique Latine Antique, Avec Édition du Sermon “Sermo Sacerdotis Dei”",
+   "author": "François Dolbeau"
+  },
+  {
+   "book": "",
+   "page": 348,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2003",
+   "iid": "2239b243-9281-332b-9545-012e19cffedd",
+   "doi": "10.1086/381370",
+   "title": "A Propos d’un <em>Agraphon: </em>Réflexions sur la Transmission de L’homilétique Latine Antique, Avec Édition du Sermon “Sermo Sacerdotis Dei”",
+   "author": "François Dolbeau"
+  },
+  {
+   "book": "",
+   "page": 324,
+   "section": "c",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1938",
+   "iid": "21f214b0-cec1-389c-9e4b-36d8f4188e61",
+   "doi": "10.2307/636534",
+   "title": "Theramenes against Lysander",
+   "author": "J. A. R. Munro"
+  },
+  {
+   "book": "",
+   "page": 344,
+   "section": "b",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "1989",
+   "iid": "2730f9f2-8ea1-351c-901f-289d754f7a4b",
+   "doi": "10.2307/24353863",
+   "title": "L'INSCRIPTION. REMARQUES SUR LA DÉCONSTRUCTION DU PLATONISME PAR J. DERRIDA",
+   "author": "Claude GAUDIN"
+  },
+  {
+   "book": "",
+   "page": 312,
+   "section": "e",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1931",
+   "iid": "2992208c-e7d8-32c2-8282-f75697d195ee",
+   "doi": "10.2307/636685",
+   "title": "The Hellenism of Clement of Alexandria",
+   "author": "R. E. Witt"
+  },
+  {
+   "book": "",
+   "page": 312,
+   "section": "e",
+   "line": null,
+   "journal": "Les Études philosophiques",
+   "year": "2020",
+   "iid": "2c0cde7b-e228-3ec8-9867-5f8eed98271f",
+   "doi": "10.2307/27035799",
+   "title": "LES ORIGINES DU CONCEPT DE TRINITÉ",
+   "author": "Sébastien Morlet"
+  },
+  {
+   "book": "",
+   "page": 312,
+   "section": "e",
+   "line": null,
+   "journal": "Les Études philosophiques",
+   "year": "2020",
+   "iid": "2c0cde7b-e228-3ec8-9867-5f8eed98271f",
+   "doi": "10.2307/27035799",
+   "title": "LES ORIGINES DU CONCEPT DE TRINITÉ",
+   "author": "Sébastien Morlet"
+  },
+  {
+   "book": "",
+   "page": 312,
+   "section": "e",
+   "line": null,
+   "journal": "Les Études philosophiques",
+   "year": "2020",
+   "iid": "2c0cde7b-e228-3ec8-9867-5f8eed98271f",
+   "doi": "10.2307/27035799",
+   "title": "LES ORIGINES DU CONCEPT DE TRINITÉ",
+   "author": "Sébastien Morlet"
+  },
+  {
+   "book": "",
+   "page": 322,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1921",
+   "iid": "2d72b0d2-2120-33df-9a36-d96a5c52cc6e",
+   "doi": "10.2307/636149",
+   "title": "Vindiciae Platonicae III",
+   "author": "John Burnet"
+  },
+  {
+   "book": "",
+   "page": 335,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1935",
+   "iid": "2e17cbf0-dbf4-35ac-94c9-bfb05a4c034b",
+   "doi": "10.2307/699864",
+   "title": "Orphism",
+   "author": "Adolf Krueger, W. K. C. Guthrie"
+  },
+  {
+   "book": "",
+   "page": 342,
+   "section": "c",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1990",
+   "iid": "30390c6b-6992-3d53-9828-b62a78dfbfe1",
+   "doi": "10.2307/639118",
+   "title": "What Are the Topnoi in Philebus 51C?",
+   "author": "Todd Compton"
+  },
+  {
+   "book": "",
+   "page": 343,
+   "section": "b",
+   "line": 4,
+   "journal": "Phronesis",
+   "year": "1998",
+   "iid": "31375b68-4518-3001-a845-818bbb8a7a19",
+   "doi": "10.2307/4182596",
+   "title": "Collecting the Letters",
+   "author": "Stephen Menn"
+  },
+  {
+   "book": "",
+   "page": 324,
+   "section": "b",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2018",
+   "iid": "335c56f9-ded0-327e-bdcd-9ec88404d67b",
+   "doi": "10.2307/26501831",
+   "title": "<em>ENKRATEIA</em> ET PARTITION DE L’ÂME CHEZ PLATON",
+   "author": "Louis-André Dorion"
+  },
+  {
+   "book": "",
+   "page": 351,
+   "section": "a",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2018",
+   "iid": "335c56f9-ded0-327e-bdcd-9ec88404d67b",
+   "doi": "10.2307/26501831",
+   "title": "<em>ENKRATEIA</em> ET PARTITION DE L’ÂME CHEZ PLATON",
+   "author": "Louis-André Dorion"
+  },
+  {
+   "book": "",
+   "page": 324,
+   "section": "e",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2022",
+   "iid": "353e3723-b29a-3c0e-9e47-74b1a6544150",
+   "doi": "10.2307/27264529",
+   "title": "ASKÊSIS, GENÈSE DE LAVERTU ET EXEMPLARITÉ DE SOCRATE CHEZ PLATON ET XÉNOPHON",
+   "author": "Louis-André DORION"
+  },
+  {
+   "book": "",
+   "page": 328,
+   "section": "c",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "2022",
+   "iid": "35386cc9-3197-327b-82b2-20ba1046952d",
+   "doi": "10.2307/27363950",
+   "title": "Cephalus, <em>patêr tou logou</em>",
+   "author": "Tad Brennan"
+  },
+  {
+   "book": "",
+   "page": 312,
+   "section": "a",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1960",
+   "iid": "36d2378f-828d-3d0c-8d30-c0b0e6f50e77",
+   "doi": "10.2307/4181666",
+   "title": "Plato, \"Ep. II\", 312A",
+   "author": "Jerry Stannard"
+  },
+  {
+   "book": "",
+   "page": 338,
+   "section": "d",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1927",
+   "iid": "39ea03b8-3762-33a3-bf48-b35c5234d32b",
+   "doi": "10.2307/701203",
+   "title": "The Date of the Second Platonic Epistle",
+   "author": "L. A. Post"
+  },
+  {
+   "book": "",
+   "page": 312,
+   "section": "d",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1927",
+   "iid": "39ea03b8-3762-33a3-bf48-b35c5234d32b",
+   "doi": "10.2307/701203",
+   "title": "The Date of the Second Platonic Epistle",
+   "author": "L. A. Post"
+  },
+  {
+   "book": "",
+   "page": 345,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1927",
+   "iid": "39ea03b8-3762-33a3-bf48-b35c5234d32b",
+   "doi": "10.2307/701203",
+   "title": "The Date of the Second Platonic Epistle",
+   "author": "L. A. Post"
+  },
+  {
+   "book": "",
+   "page": 324,
+   "section": "b",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1976",
+   "iid": "4106a8ef-c5a7-340d-ba18-c8b79a76bb3a",
+   "doi": "10.2307/268523",
+   "title": "A Traditional Pattern of Imitation in Sallust and His Sources",
+   "author": "R. Renehan"
+  },
+  {
+   "book": "",
+   "page": 325,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1976",
+   "iid": "4106a8ef-c5a7-340d-ba18-c8b79a76bb3a",
+   "doi": "10.2307/268523",
+   "title": "A Traditional Pattern of Imitation in Sallust and His Sources",
+   "author": "R. Renehan"
+  },
+  {
+   "book": "",
+   "page": 325,
+   "section": "e",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1976",
+   "iid": "4106a8ef-c5a7-340d-ba18-c8b79a76bb3a",
+   "doi": "10.2307/268523",
+   "title": "A Traditional Pattern of Imitation in Sallust and His Sources",
+   "author": "R. Renehan"
+  },
+  {
+   "book": "",
+   "page": 326,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1976",
+   "iid": "4106a8ef-c5a7-340d-ba18-c8b79a76bb3a",
+   "doi": "10.2307/268523",
+   "title": "A Traditional Pattern of Imitation in Sallust and His Sources",
+   "author": "R. Renehan"
+  },
+  {
+   "book": "",
+   "page": 310,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1986",
+   "iid": "42558d63-2757-31d7-a803-285825a62355",
+   "doi": "10.2307/638949",
+   "title": "Xenophon's Hiero and the Meeting of the Wise Man and Tyrant in Greek Literature",
+   "author": "V. J. Gray"
+  },
+  {
+   "book": "",
+   "page": 311,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1986",
+   "iid": "42558d63-2757-31d7-a803-285825a62355",
+   "doi": "10.2307/638949",
+   "title": "Xenophon's Hiero and the Meeting of the Wise Man and Tyrant in Greek Literature",
+   "author": "V. J. Gray"
+  },
+  {
+   "book": "",
+   "page": 312,
+   "section": "d",
+   "line": null,
+   "journal": "Revue Internationale de Philosophie",
+   "year": "1970",
+   "iid": "436fcfb0-56d6-3d6d-9b3a-4a577750a497",
+   "doi": "10.2307/23940605",
+   "title": "DER KÖNIG: Ein platonisches Schlüsselwort, von Plotin mit neuem Sinn erfüllt",
+   "author": "H. DÖRRIE"
+  },
+  {
+   "book": "",
+   "page": 313,
+   "section": "a",
+   "line": null,
+   "journal": "Revue Internationale de Philosophie",
+   "year": "1970",
+   "iid": "436fcfb0-56d6-3d6d-9b3a-4a577750a497",
+   "doi": "10.2307/23940605",
+   "title": "DER KÖNIG: Ein platonisches Schlüsselwort, von Plotin mit neuem Sinn erfüllt",
+   "author": "H. DÖRRIE"
+  },
+  {
+   "book": "",
+   "page": 323,
+   "section": "d",
+   "line": null,
+   "journal": "Revue Internationale de Philosophie",
+   "year": "1970",
+   "iid": "436fcfb0-56d6-3d6d-9b3a-4a577750a497",
+   "doi": "10.2307/23940605",
+   "title": "DER KÖNIG: Ein platonisches Schlüsselwort, von Plotin mit neuem Sinn erfüllt",
+   "author": "H. DÖRRIE"
+  },
+  {
+   "book": "",
+   "page": 315,
+   "section": "d",
+   "line": 6,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "1984",
+   "iid": "4446fc41-d362-3342-b57f-553260c2485b",
+   "doi": "10.2307/24353768",
+   "title": "SUR UNE LECTURE ANALYTIQUE DES ARGUMENTS CONCERNANT LE NON-ÊTRE (\"SOPHISTE\", 237b10 - 239a12)",
+   "author": "Yvon Lafrance"
+  },
+  {
+   "book": "",
+   "page": 357,
+   "section": "d",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1928",
+   "iid": "4589e27a-049c-3dca-940e-815f2b1dbe2b",
+   "doi": "10.2307/635998",
+   "title": "The Seventh and Eighth Platonic Epistles",
+   "author": "J. Harward"
+  },
+  {
+   "book": "",
+   "page": 330,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1928",
+   "iid": "4589e27a-049c-3dca-940e-815f2b1dbe2b",
+   "doi": "10.2307/635998",
+   "title": "The Seventh and Eighth Platonic Epistles",
+   "author": "J. Harward"
+  },
+  {
+   "book": "",
+   "page": 352,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1928",
+   "iid": "4589e27a-049c-3dca-940e-815f2b1dbe2b",
+   "doi": "10.2307/635998",
+   "title": "The Seventh and Eighth Platonic Epistles",
+   "author": "J. Harward"
+  },
+  {
+   "book": "",
+   "page": 325,
+   "section": "c",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1928",
+   "iid": "4589e27a-049c-3dca-940e-815f2b1dbe2b",
+   "doi": "10.2307/635998",
+   "title": "The Seventh and Eighth Platonic Epistles",
+   "author": "J. Harward"
+  },
+  {
+   "book": "",
+   "page": 332,
+   "section": "c",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1928",
+   "iid": "4589e27a-049c-3dca-940e-815f2b1dbe2b",
+   "doi": "10.2307/635998",
+   "title": "The Seventh and Eighth Platonic Epistles",
+   "author": "J. Harward"
+  },
+  {
+   "book": "",
+   "page": 335,
+   "section": "e",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1928",
+   "iid": "4589e27a-049c-3dca-940e-815f2b1dbe2b",
+   "doi": "10.2307/635998",
+   "title": "The Seventh and Eighth Platonic Epistles",
+   "author": "J. Harward"
+  },
+  {
+   "book": "",
+   "page": 326,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1928",
+   "iid": "4589e27a-049c-3dca-940e-815f2b1dbe2b",
+   "doi": "10.2307/635998",
+   "title": "The Seventh and Eighth Platonic Epistles",
+   "author": "J. Harward"
+  },
+  {
+   "book": "",
+   "page": 333,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1928",
+   "iid": "4589e27a-049c-3dca-940e-815f2b1dbe2b",
+   "doi": "10.2307/635998",
+   "title": "The Seventh and Eighth Platonic Epistles",
+   "author": "J. Harward"
+  },
+  {
+   "book": "",
+   "page": 335,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1928",
+   "iid": "4589e27a-049c-3dca-940e-815f2b1dbe2b",
+   "doi": "10.2307/635998",
+   "title": "The Seventh and Eighth Platonic Epistles",
+   "author": "J. Harward"
+  },
+  {
+   "book": "",
+   "page": 336,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1928",
+   "iid": "4589e27a-049c-3dca-940e-815f2b1dbe2b",
+   "doi": "10.2307/635998",
+   "title": "The Seventh and Eighth Platonic Epistles",
+   "author": "J. Harward"
+  },
+  {
+   "book": "",
+   "page": 353,
+   "section": "c",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1928",
+   "iid": "4589e27a-049c-3dca-940e-815f2b1dbe2b",
+   "doi": "10.2307/635998",
+   "title": "The Seventh and Eighth Platonic Epistles",
+   "author": "J. Harward"
+  },
+  {
+   "book": "",
+   "page": 356,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1928",
+   "iid": "4589e27a-049c-3dca-940e-815f2b1dbe2b",
+   "doi": "10.2307/635998",
+   "title": "The Seventh and Eighth Platonic Epistles",
+   "author": "J. Harward"
+  },
+  {
+   "book": "",
+   "page": 355,
+   "section": "e",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1928",
+   "iid": "4589e27a-049c-3dca-940e-815f2b1dbe2b",
+   "doi": "10.2307/635998",
+   "title": "The Seventh and Eighth Platonic Epistles",
+   "author": "J. Harward"
+  },
+  {
+   "book": "",
+   "page": 345,
+   "section": "c",
+   "line": 3,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "1993",
+   "iid": "468d0f29-d004-3229-a590-89415f5b576c",
+   "doi": "10.2307/24354368",
+   "title": "UNE ÉNIGME PLATONICIENNE: LA QUESTION DES DOCTRINES NON-ÉCRITES",
+   "author": "Francesco Fronterotta"
+  },
+  {
+   "book": "",
+   "page": 347,
+   "section": "c",
+   "line": 3,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "1993",
+   "iid": "468d0f29-d004-3229-a590-89415f5b576c",
+   "doi": "10.2307/24354368",
+   "title": "UNE ÉNIGME PLATONICIENNE: LA QUESTION DES DOCTRINES NON-ÉCRITES",
+   "author": "Francesco Fronterotta"
+  },
+  {
+   "book": "",
+   "page": 345,
+   "section": "c",
+   "line": 3,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "1993",
+   "iid": "468d0f29-d004-3229-a590-89415f5b576c",
+   "doi": "10.2307/24354368",
+   "title": "UNE ÉNIGME PLATONICIENNE: LA QUESTION DES DOCTRINES NON-ÉCRITES",
+   "author": "Francesco Fronterotta"
+  },
+  {
+   "book": "",
+   "page": 347,
+   "section": "c",
+   "line": 3,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "1993",
+   "iid": "468d0f29-d004-3229-a590-89415f5b576c",
+   "doi": "10.2307/24354368",
+   "title": "UNE ÉNIGME PLATONICIENNE: LA QUESTION DES DOCTRINES NON-ÉCRITES",
+   "author": "Francesco Fronterotta"
+  },
+  {
+   "book": "",
+   "page": 345,
+   "section": "c",
+   "line": 3,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "1993",
+   "iid": "468d0f29-d004-3229-a590-89415f5b576c",
+   "doi": "10.2307/24354368",
+   "title": "UNE ÉNIGME PLATONICIENNE: LA QUESTION DES DOCTRINES NON-ÉCRITES",
+   "author": "Francesco Fronterotta"
+  },
+  {
+   "book": "",
+   "page": 341,
+   "section": "b",
+   "line": 4,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "1993",
+   "iid": "468d0f29-d004-3229-a590-89415f5b576c",
+   "doi": "10.2307/24354368",
+   "title": "UNE ÉNIGME PLATONICIENNE: LA QUESTION DES DOCTRINES NON-ÉCRITES",
+   "author": "Francesco Fronterotta"
+  },
+  {
+   "book": "",
+   "page": 341,
+   "section": "c",
+   "line": 6,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "1993",
+   "iid": "468d0f29-d004-3229-a590-89415f5b576c",
+   "doi": "10.2307/24354368",
+   "title": "UNE ÉNIGME PLATONICIENNE: LA QUESTION DES DOCTRINES NON-ÉCRITES",
+   "author": "Francesco Fronterotta"
+  },
+  {
+   "book": "",
+   "page": 341,
+   "section": "c",
+   "line": 4,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "1993",
+   "iid": "468d0f29-d004-3229-a590-89415f5b576c",
+   "doi": "10.2307/24354368",
+   "title": "UNE ÉNIGME PLATONICIENNE: LA QUESTION DES DOCTRINES NON-ÉCRITES",
+   "author": "Francesco Fronterotta"
+  },
+  {
+   "book": "",
+   "page": 342,
+   "section": "a",
+   "line": 7,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "1993",
+   "iid": "468d0f29-d004-3229-a590-89415f5b576c",
+   "doi": "10.2307/24354368",
+   "title": "UNE ÉNIGME PLATONICIENNE: LA QUESTION DES DOCTRINES NON-ÉCRITES",
+   "author": "Francesco Fronterotta"
+  },
+  {
+   "book": "",
+   "page": 341,
+   "section": "c",
+   "line": 4,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "1993",
+   "iid": "468d0f29-d004-3229-a590-89415f5b576c",
+   "doi": "10.2307/24354368",
+   "title": "UNE ÉNIGME PLATONICIENNE: LA QUESTION DES DOCTRINES NON-ÉCRITES",
+   "author": "Francesco Fronterotta"
+  },
+  {
+   "book": "",
+   "page": 341,
+   "section": "e",
+   "line": 2,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "1993",
+   "iid": "468d0f29-d004-3229-a590-89415f5b576c",
+   "doi": "10.2307/24354368",
+   "title": "UNE ÉNIGME PLATONICIENNE: LA QUESTION DES DOCTRINES NON-ÉCRITES",
+   "author": "Francesco Fronterotta"
+  },
+  {
+   "book": "",
+   "page": 323,
+   "section": "e",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1914",
+   "iid": "476514ca-6b20-38be-ab6b-3aa25e29c5df",
+   "doi": "10.2307/699579",
+   "title": "Plutarch, Moralia",
+   "author": "H. Richards"
+  },
+  {
+   "book": "",
+   "page": 344,
+   "section": "d",
+   "line": 8,
+   "journal": "Méthexis",
+   "year": "1993",
+   "iid": "47cc7f2c-c001-34f5-9c27-da73c998a63f",
+   "doi": "10.2307/43738409",
+   "title": "ZUR ÜBLICHEN ABNEIGUNG GEGEN DIE AGRAPHA DOGMATA",
+   "author": "THOMAS ALEXANDER SZLEZÁK"
+  },
+  {
+   "book": "",
+   "page": 341,
+   "section": "c",
+   "line": 5,
+   "journal": "Méthexis",
+   "year": "1993",
+   "iid": "47cc7f2c-c001-34f5-9c27-da73c998a63f",
+   "doi": "10.2307/43738409",
+   "title": "ZUR ÜBLICHEN ABNEIGUNG GEGEN DIE AGRAPHA DOGMATA",
+   "author": "THOMAS ALEXANDER SZLEZÁK"
+  },
+  {
+   "book": "",
+   "page": 341,
+   "section": "b",
+   "line": 7,
+   "journal": "Méthexis",
+   "year": "1993",
+   "iid": "47cc7f2c-c001-34f5-9c27-da73c998a63f",
+   "doi": "10.2307/43738409",
+   "title": "ZUR ÜBLICHEN ABNEIGUNG GEGEN DIE AGRAPHA DOGMATA",
+   "author": "THOMAS ALEXANDER SZLEZÁK"
+  },
+  {
+   "book": "",
+   "page": 341,
+   "section": "d",
+   "line": 5,
+   "journal": "Méthexis",
+   "year": "1993",
+   "iid": "47cc7f2c-c001-34f5-9c27-da73c998a63f",
+   "doi": "10.2307/43738409",
+   "title": "ZUR ÜBLICHEN ABNEIGUNG GEGEN DIE AGRAPHA DOGMATA",
+   "author": "THOMAS ALEXANDER SZLEZÁK"
+  },
+  {
+   "book": "",
+   "page": 336,
+   "section": "c",
+   "line": 7,
+   "journal": "The Classical Review",
+   "year": "1930",
+   "iid": "4a2ffcec-05e7-30df-9556-a29003aaf69c",
+   "doi": "10.2307/698059",
+   "title": "",
+   "author": "F. Novotný, R. Hackforth"
+  },
+  {
+   "book": "",
+   "page": 355,
+   "section": "e",
+   "line": 5,
+   "journal": "The Classical Review",
+   "year": "1930",
+   "iid": "4a2ffcec-05e7-30df-9556-a29003aaf69c",
+   "doi": "10.2307/698059",
+   "title": "",
+   "author": "F. Novotný, R. Hackforth"
+  },
+  {
+   "book": "",
+   "page": 360,
+   "section": "b",
+   "line": 8,
+   "journal": "The Classical Review",
+   "year": "1930",
+   "iid": "4a2ffcec-05e7-30df-9556-a29003aaf69c",
+   "doi": "10.2307/698059",
+   "title": "",
+   "author": "F. Novotný, R. Hackforth"
+  },
+  {
+   "book": "",
+   "page": 324,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1930",
+   "iid": "4aa28a24-cd6f-3661-8803-9d5ecfe9a26f",
+   "doi": "10.2307/636598",
+   "title": "The Seventh and Eighth Platonic Epistles",
+   "author": "L. A. Post"
+  },
+  {
+   "book": "",
+   "page": 334,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1930",
+   "iid": "4aa28a24-cd6f-3661-8803-9d5ecfe9a26f",
+   "doi": "10.2307/636598",
+   "title": "The Seventh and Eighth Platonic Epistles",
+   "author": "L. A. Post"
+  },
+  {
+   "book": "",
+   "page": 350,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1930",
+   "iid": "4aa28a24-cd6f-3661-8803-9d5ecfe9a26f",
+   "doi": "10.2307/636598",
+   "title": "The Seventh and Eighth Platonic Epistles",
+   "author": "L. A. Post"
+  },
+  {
+   "book": "",
+   "page": 324,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1930",
+   "iid": "4aa28a24-cd6f-3661-8803-9d5ecfe9a26f",
+   "doi": "10.2307/636598",
+   "title": "The Seventh and Eighth Platonic Epistles",
+   "author": "L. A. Post"
+  },
+  {
+   "book": "",
+   "page": 354,
+   "section": "c",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1930",
+   "iid": "4aa28a24-cd6f-3661-8803-9d5ecfe9a26f",
+   "doi": "10.2307/636598",
+   "title": "The Seventh and Eighth Platonic Epistles",
+   "author": "L. A. Post"
+  },
+  {
+   "book": "",
+   "page": 352,
+   "section": "c",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1930",
+   "iid": "4aa28a24-cd6f-3661-8803-9d5ecfe9a26f",
+   "doi": "10.2307/636598",
+   "title": "The Seventh and Eighth Platonic Epistles",
+   "author": "L. A. Post"
+  },
+  {
+   "book": "",
+   "page": 356,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1930",
+   "iid": "4aa28a24-cd6f-3661-8803-9d5ecfe9a26f",
+   "doi": "10.2307/636598",
+   "title": "The Seventh and Eighth Platonic Epistles",
+   "author": "L. A. Post"
+  },
+  {
+   "book": "",
+   "page": 331,
+   "section": "e",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2014",
+   "iid": "4cf5b0fa-7bd1-339f-895e-b758f08473f4",
+   "doi": "10.2307/24358722",
+   "title": "LA QUESTION BARBARE : PLATON OU ARISTOTE?",
+   "author": "Fulcran Teisserenc"
+  },
+  {
+   "book": "",
+   "page": 332,
+   "section": "a",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2014",
+   "iid": "4cf5b0fa-7bd1-339f-895e-b758f08473f4",
+   "doi": "10.2307/24358722",
+   "title": "LA QUESTION BARBARE : PLATON OU ARISTOTE?",
+   "author": "Fulcran Teisserenc"
+  },
+  {
+   "book": "",
+   "page": 357,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1984",
+   "iid": "4ce224b2-5b3f-35a0-840b-0bfc762ce29a",
+   "doi": "10.2307/638287",
+   "title": "Eumenides in Greek Tragedy",
+   "author": "A. L. Brown"
+  },
+  {
+   "book": "",
+   "page": 344,
+   "section": "a",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1960",
+   "iid": "4ddfd035-3d2c-3d5d-a4e5-2c5d9d8c0cbe",
+   "doi": "10.2307/4181675",
+   "title": "The Second Platonic Epistle",
+   "author": "R. S. Bluck"
+  },
+  {
+   "book": "",
+   "page": 341,
+   "section": "c",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1960",
+   "iid": "4ddfd035-3d2c-3d5d-a4e5-2c5d9d8c0cbe",
+   "doi": "10.2307/4181675",
+   "title": "The Second Platonic Epistle",
+   "author": "R. S. Bluck"
+  },
+  {
+   "book": "",
+   "page": 329,
+   "section": "b",
+   "line": 24,
+   "journal": "The Classical Quarterly",
+   "year": "1961",
+   "iid": "514d853e-8630-39f0-a79c-43c604642043",
+   "doi": "10.2307/637747",
+   "title": "The Authorship of Meteorologica, Book IV",
+   "author": "H. B. Gottschalk"
+  },
+  {
+   "book": "",
+   "page": 344,
+   "section": "c",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "2000",
+   "iid": "5299e082-f27e-3992-ad0a-a213511ff3c0",
+   "doi": "10.2307/4182654",
+   "title": "An Interpretation of Plato's \"Cratylus\"",
+   "author": "Simon Keller"
+  },
+  {
+   "book": "",
+   "page": 342,
+   "section": "a",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "2000",
+   "iid": "5299e082-f27e-3992-ad0a-a213511ff3c0",
+   "doi": "10.2307/4182654",
+   "title": "An Interpretation of Plato's \"Cratylus\"",
+   "author": "Simon Keller"
+  },
+  {
+   "book": "",
+   "page": 343,
+   "section": "c",
+   "line": 7,
+   "journal": "The Classical Quarterly",
+   "year": "1934",
+   "iid": "538191c7-4268-3829-9aa2-268a4a12433a",
+   "doi": "10.2307/636803",
+   "title": "Plato's Simile of Light Again",
+   "author": "A. S. Ferguson"
+  },
+  {
+   "book": "",
+   "page": 359,
+   "section": "d",
+   "line": 4,
+   "journal": "The Classical Quarterly",
+   "year": "2012",
+   "iid": "5351184e-0402-3f08-97c9-66dc365bce1e",
+   "doi": "10.2307/41820000",
+   "title": "USE OF HOMERIC REFERENCES IN PLATO AND XENOPHON",
+   "author": "NAOKO YAMAGATA"
+  },
+  {
+   "book": "",
+   "page": 358,
+   "section": "a",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "2002",
+   "iid": "54a6c789-4227-3066-8949-c59b03120ff4",
+   "doi": "10.2307/4182706",
+   "title": "Plato's Division of Goods in the \"Republic\"",
+   "author": "Robert Heinaman"
+  },
+  {
+   "book": "",
+   "page": 353,
+   "section": "e",
+   "line": 4,
+   "journal": "The Classical Quarterly",
+   "year": "2019",
+   "iid": "55966cb5-4ac1-3346-a866-67d3f67b1ff9",
+   "doi": "10.2307/26954943",
+   "title": "‘I WILL INTERPRET’",
+   "author": "CAROL ATACK"
+  },
+  {
+   "book": "",
+   "page": 352,
+   "section": "b",
+   "line": 4,
+   "journal": "The Classical Quarterly",
+   "year": "2019",
+   "iid": "55966cb5-4ac1-3346-a866-67d3f67b1ff9",
+   "doi": "10.2307/26954943",
+   "title": "‘I WILL INTERPRET’",
+   "author": "CAROL ATACK"
+  },
+  {
+   "book": "",
+   "page": 353,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2019",
+   "iid": "55966cb5-4ac1-3346-a866-67d3f67b1ff9",
+   "doi": "10.2307/26954943",
+   "title": "‘I WILL INTERPRET’",
+   "author": "CAROL ATACK"
+  },
+  {
+   "book": "",
+   "page": 324,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2019",
+   "iid": "55966cb5-4ac1-3346-a866-67d3f67b1ff9",
+   "doi": "10.2307/26954943",
+   "title": "‘I WILL INTERPRET’",
+   "author": "CAROL ATACK"
+  },
+  {
+   "book": "",
+   "page": 334,
+   "section": "c",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2019",
+   "iid": "55966cb5-4ac1-3346-a866-67d3f67b1ff9",
+   "doi": "10.2307/26954943",
+   "title": "‘I WILL INTERPRET’",
+   "author": "CAROL ATACK"
+  },
+  {
+   "book": "",
+   "page": 354,
+   "section": "a",
+   "line": 2,
+   "journal": "The Classical Quarterly",
+   "year": "2019",
+   "iid": "55966cb5-4ac1-3346-a866-67d3f67b1ff9",
+   "doi": "10.2307/26954943",
+   "title": "‘I WILL INTERPRET’",
+   "author": "CAROL ATACK"
+  },
+  {
+   "book": "",
+   "page": 354,
+   "section": "a",
+   "line": 3,
+   "journal": "The Classical Quarterly",
+   "year": "2019",
+   "iid": "55966cb5-4ac1-3346-a866-67d3f67b1ff9",
+   "doi": "10.2307/26954943",
+   "title": "‘I WILL INTERPRET’",
+   "author": "CAROL ATACK"
+  },
+  {
+   "book": "",
+   "page": 355,
+   "section": "a",
+   "line": 1,
+   "journal": "The Classical Quarterly",
+   "year": "2019",
+   "iid": "55966cb5-4ac1-3346-a866-67d3f67b1ff9",
+   "doi": "10.2307/26954943",
+   "title": "‘I WILL INTERPRET’",
+   "author": "CAROL ATACK"
+  },
+  {
+   "book": "",
+   "page": 354,
+   "section": "b",
+   "line": 1,
+   "journal": "The Classical Quarterly",
+   "year": "2019",
+   "iid": "55966cb5-4ac1-3346-a866-67d3f67b1ff9",
+   "doi": "10.2307/26954943",
+   "title": "‘I WILL INTERPRET’",
+   "author": "CAROL ATACK"
+  },
+  {
+   "book": "",
+   "page": 354,
+   "section": "b",
+   "line": 1,
+   "journal": "The Classical Quarterly",
+   "year": "2019",
+   "iid": "55966cb5-4ac1-3346-a866-67d3f67b1ff9",
+   "doi": "10.2307/26954943",
+   "title": "‘I WILL INTERPRET’",
+   "author": "CAROL ATACK"
+  },
+  {
+   "book": "",
+   "page": 347,
+   "section": "a",
+   "line": 2,
+   "journal": "The Classical Quarterly",
+   "year": "2019",
+   "iid": "55966cb5-4ac1-3346-a866-67d3f67b1ff9",
+   "doi": "10.2307/26954943",
+   "title": "‘I WILL INTERPRET’",
+   "author": "CAROL ATACK"
+  },
+  {
+   "book": "",
+   "page": 310,
+   "section": "e",
+   "line": 5,
+   "journal": "The Classical Quarterly",
+   "year": "2019",
+   "iid": "55966cb5-4ac1-3346-a866-67d3f67b1ff9",
+   "doi": "10.2307/26954943",
+   "title": "‘I WILL INTERPRET’",
+   "author": "CAROL ATACK"
+  },
+  {
+   "book": "",
+   "page": 355,
+   "section": "a",
+   "line": 8,
+   "journal": "The Classical Quarterly",
+   "year": "2019",
+   "iid": "55966cb5-4ac1-3346-a866-67d3f67b1ff9",
+   "doi": "10.2307/26954943",
+   "title": "‘I WILL INTERPRET’",
+   "author": "CAROL ATACK"
+  },
+  {
+   "book": "",
+   "page": 355,
+   "section": "b",
+   "line": 2,
+   "journal": "The Classical Quarterly",
+   "year": "2019",
+   "iid": "55966cb5-4ac1-3346-a866-67d3f67b1ff9",
+   "doi": "10.2307/26954943",
+   "title": "‘I WILL INTERPRET’",
+   "author": "CAROL ATACK"
+  },
+  {
+   "book": "",
+   "page": 355,
+   "section": "b",
+   "line": 2,
+   "journal": "The Classical Quarterly",
+   "year": "2019",
+   "iid": "55966cb5-4ac1-3346-a866-67d3f67b1ff9",
+   "doi": "10.2307/26954943",
+   "title": "‘I WILL INTERPRET’",
+   "author": "CAROL ATACK"
+  },
+  {
+   "book": "",
+   "page": 313,
+   "section": "a",
+   "line": 6,
+   "journal": "The Classical Quarterly",
+   "year": "2019",
+   "iid": "55966cb5-4ac1-3346-a866-67d3f67b1ff9",
+   "doi": "10.2307/26954943",
+   "title": "‘I WILL INTERPRET’",
+   "author": "CAROL ATACK"
+  },
+  {
+   "book": "",
+   "page": 313,
+   "section": "d",
+   "line": 1,
+   "journal": "The Classical Quarterly",
+   "year": "2019",
+   "iid": "55966cb5-4ac1-3346-a866-67d3f67b1ff9",
+   "doi": "10.2307/26954943",
+   "title": "‘I WILL INTERPRET’",
+   "author": "CAROL ATACK"
+  },
+  {
+   "book": "",
+   "page": 355,
+   "section": "d",
+   "line": 8,
+   "journal": "The Classical Quarterly",
+   "year": "2019",
+   "iid": "55966cb5-4ac1-3346-a866-67d3f67b1ff9",
+   "doi": "10.2307/26954943",
+   "title": "‘I WILL INTERPRET’",
+   "author": "CAROL ATACK"
+  },
+  {
+   "book": "",
+   "page": 356,
+   "section": "d",
+   "line": 6,
+   "journal": "The Classical Quarterly",
+   "year": "2019",
+   "iid": "55966cb5-4ac1-3346-a866-67d3f67b1ff9",
+   "doi": "10.2307/26954943",
+   "title": "‘I WILL INTERPRET’",
+   "author": "CAROL ATACK"
+  },
+  {
+   "book": "",
+   "page": 356,
+   "section": "e",
+   "line": 3,
+   "journal": "The Classical Quarterly",
+   "year": "2019",
+   "iid": "55966cb5-4ac1-3346-a866-67d3f67b1ff9",
+   "doi": "10.2307/26954943",
+   "title": "‘I WILL INTERPRET’",
+   "author": "CAROL ATACK"
+  },
+  {
+   "book": "",
+   "page": 317,
+   "section": "c",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1999",
+   "iid": "5bbb7d68-8e16-3098-925f-9d5af073eaaf",
+   "doi": "10.2307/639869",
+   "title": "Thucydides 5.26.3-5: The Verb ἰσχυρίζεσθαι and a Contrast in Methodology",
+   "author": "John E. Thorburn, <suffix>Jr.</suffix>"
+  },
+  {
+   "book": "",
+   "page": 347,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1927",
+   "iid": "5caa293c-7c1a-34a4-baa6-f7f2630a473a",
+   "doi": "10.2307/263280",
+   "title": "",
+   "author": "G. J. Laing, Gunnar Söderström"
+  },
+  {
+   "book": "",
+   "page": 332,
+   "section": "d",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1961",
+   "iid": "5e1a4f55-aa6f-3db1-a128-0474bb924444",
+   "doi": "10.2307/709529",
+   "title": "",
+   "author": "Johannes Irmscher, R. S. Bluck, Platon"
+  },
+  {
+   "book": "",
+   "page": 314,
+   "section": "c",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1961",
+   "iid": "5e1a4f55-aa6f-3db1-a128-0474bb924444",
+   "doi": "10.2307/709529",
+   "title": "",
+   "author": "Johannes Irmscher, R. S. Bluck, Platon"
+  },
+  {
+   "book": "",
+   "page": 335,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1961",
+   "iid": "5e1a4f55-aa6f-3db1-a128-0474bb924444",
+   "doi": "10.2307/709529",
+   "title": "",
+   "author": "Johannes Irmscher, R. S. Bluck, Platon"
+  },
+  {
+   "book": "",
+   "page": 324,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1961",
+   "iid": "5e1a4f55-aa6f-3db1-a128-0474bb924444",
+   "doi": "10.2307/709529",
+   "title": "",
+   "author": "Johannes Irmscher, R. S. Bluck, Platon"
+  },
+  {
+   "book": "",
+   "page": 341,
+   "section": "c",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1961",
+   "iid": "5e1a4f55-aa6f-3db1-a128-0474bb924444",
+   "doi": "10.2307/709529",
+   "title": "",
+   "author": "Johannes Irmscher, R. S. Bluck, Platon"
+  },
+  {
+   "book": "",
+   "page": 325,
+   "section": "e",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1999",
+   "iid": "5e858a2d-79ab-3af7-bf5b-a6c02e904100",
+   "doi": "10.2307/639488",
+   "title": "Literate Education in Classical Athens",
+   "author": "T. J. Morgan"
+  },
+  {
+   "book": "",
+   "page": 357,
+   "section": "c",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2020",
+   "iid": "6790736b-218d-3454-82c9-e94f7462069b",
+   "doi": "10.2307/27340968",
+   "title": "JULIAN, AETIUS AND ‘THE GALILEANS’",
+   "author": "MOYSÉS MARCOS"
+  },
+  {
+   "book": "",
+   "page": 363,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2020",
+   "iid": "6790736b-218d-3454-82c9-e94f7462069b",
+   "doi": "10.2307/27340968",
+   "title": "JULIAN, AETIUS AND ‘THE GALILEANS’",
+   "author": "MOYSÉS MARCOS"
+  },
+  {
+   "book": "",
+   "page": 330,
+   "section": "b",
+   "line": 25,
+   "journal": "The Classical Quarterly",
+   "year": "2013",
+   "iid": "67679be3-fb7b-3652-882a-4ae75a9ce399",
+   "doi": "10.2307/23470080",
+   "title": "\"DE GENERATIONE ET CORRUPTIONE\" 2.3: DOES ARISTOTLE IDENTIFY THE CONTRARIES AS ELEMENTS?",
+   "author": "TIMOTHY J. CROWLEY"
+  },
+  {
+   "book": "",
+   "page": 340,
+   "section": "b",
+   "line": 22,
+   "journal": "The Classical Quarterly",
+   "year": "2013",
+   "iid": "67679be3-fb7b-3652-882a-4ae75a9ce399",
+   "doi": "10.2307/23470080",
+   "title": "\"DE GENERATIONE ET CORRUPTIONE\" 2.3: DOES ARISTOTLE IDENTIFY THE CONTRARIES AS ELEMENTS?",
+   "author": "TIMOTHY J. CROWLEY"
+  },
+  {
+   "book": "",
+   "page": 334,
+   "section": "d",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "2001",
+   "iid": "686d1689-4a53-3fa9-9ad5-fbf16f41a70c",
+   "doi": "10.2307/4182672",
+   "title": "Themistius on Evil",
+   "author": "Guy Guldentops"
+  },
+  {
+   "book": "",
+   "page": 326,
+   "section": "b",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "2001",
+   "iid": "686d1689-4a53-3fa9-9ad5-fbf16f41a70c",
+   "doi": "10.2307/4182672",
+   "title": "Themistius on Evil",
+   "author": "Guy Guldentops"
+  },
+  {
+   "book": "",
+   "page": 337,
+   "section": "e",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "2001",
+   "iid": "686d1689-4a53-3fa9-9ad5-fbf16f41a70c",
+   "doi": "10.2307/4182672",
+   "title": "Themistius on Evil",
+   "author": "Guy Guldentops"
+  },
+  {
+   "book": "",
+   "page": 342,
+   "section": "e",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1926",
+   "iid": "693238df-6075-37c8-8d41-eb836e6e29fc",
+   "doi": "10.2307/636338",
+   "title": "Aristotle and the χωρισμός of Plato",
+   "author": "J. D. Mabbott"
+  },
+  {
+   "book": "",
+   "page": 324,
+   "section": "e",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1938",
+   "iid": "6a546424-835f-3070-8efa-a23a0a2cacd9",
+   "doi": "10.2307/636950",
+   "title": "The Constitution of Dracontides",
+   "author": "J. A. R. Munro"
+  },
+  {
+   "book": "",
+   "page": 310,
+   "section": "e",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "2005",
+   "iid": "6b914eb9-37f9-37e6-b691-ae7a7d5e2046",
+   "doi": "10.2307/4182778",
+   "title": "La figure d'Ulysse chez les Socratiques: Socrate polutropos",
+   "author": "David Lévystone"
+  },
+  {
+   "book": "",
+   "page": 323,
+   "section": "d",
+   "line": 2,
+   "journal": "Méthexis",
+   "year": "2018",
+   "iid": "6f2cfc3a-d099-3322-b239-0a0727287dbd",
+   "doi": "10.2307/26416818",
+   "title": "Porphyry and ‘Neopythagorean’ Exegesis in <em>Cave of the Nymphs</em> and Elsewhere",
+   "author": "Marguerite Johnson, Harold Tarrant"
+  },
+  {
+   "book": "",
+   "page": 313,
+   "section": "b",
+   "line": 4,
+   "journal": "Méthexis",
+   "year": "2018",
+   "iid": "6f2cfc3a-d099-3322-b239-0a0727287dbd",
+   "doi": "10.2307/26416818",
+   "title": "Porphyry and ‘Neopythagorean’ Exegesis in <em>Cave of the Nymphs</em> and Elsewhere",
+   "author": "Marguerite Johnson, Harold Tarrant"
+  },
+  {
+   "book": "",
+   "page": 323,
+   "section": "c",
+   "line": 2,
+   "journal": "The Classical Quarterly",
+   "year": "2017",
+   "iid": "6f794907-3bd5-38d7-9577-cdb779daafe1",
+   "doi": "10.2307/26546328",
+   "title": "PROTAGORAS’ GREAT SPEECH",
+   "author": "A.R. NATHAN"
+  },
+  {
+   "book": "",
+   "page": 323,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2017",
+   "iid": "6f794907-3bd5-38d7-9577-cdb779daafe1",
+   "doi": "10.2307/26546328",
+   "title": "PROTAGORAS’ GREAT SPEECH",
+   "author": "A.R. NATHAN"
+  },
+  {
+   "book": "",
+   "page": 323,
+   "section": "a",
+   "line": 5,
+   "journal": "The Classical Quarterly",
+   "year": "2017",
+   "iid": "6f794907-3bd5-38d7-9577-cdb779daafe1",
+   "doi": "10.2307/26546328",
+   "title": "PROTAGORAS’ GREAT SPEECH",
+   "author": "A.R. NATHAN"
+  },
+  {
+   "book": "",
+   "page": 339,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1905",
+   "iid": "6fe54538-326f-36c0-b08d-27eaf4301b4a",
+   "doi": "10.2307/694739",
+   "title": "The Perfect Subjunctive, Optative, and Imperative in Greek",
+   "author": "J. E. Harry"
+  },
+  {
+   "book": "",
+   "page": 348,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1964",
+   "iid": "71352843-0d7d-3335-9180-b2535d37d1b2",
+   "doi": "10.2307/637735",
+   "title": "Christianity and Tradition in the Historiography of the Late Empire",
+   "author": "Averil Cameron, Alan Cameron"
+  },
+  {
+   "book": "",
+   "page": 349,
+   "section": "c",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1938",
+   "iid": "719f7bac-288b-3930-b4e7-c1029c0a45cc",
+   "doi": "10.2307/636728",
+   "title": "The Sources of Plutarch's Timoleon",
+   "author": "H. D. Westlake"
+  },
+  {
+   "book": "",
+   "page": 314,
+   "section": "c",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1988",
+   "iid": "737480ad-d82d-3c1f-b742-bf47f6166e91",
+   "doi": "10.2307/3065564",
+   "title": "Plato's Letters and Gorgias",
+   "author": "L. Brisson, Plato, L. Coventry, M. Canto"
+  },
+  {
+   "book": "",
+   "page": 323,
+   "section": "c",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1988",
+   "iid": "737480ad-d82d-3c1f-b742-bf47f6166e91",
+   "doi": "10.2307/3065564",
+   "title": "Plato's Letters and Gorgias",
+   "author": "L. Brisson, Plato, L. Coventry, M. Canto"
+  },
+  {
+   "book": "",
+   "page": 345,
+   "section": "d",
+   "line": 6,
+   "journal": "The Classical Review",
+   "year": "1988",
+   "iid": "737480ad-d82d-3c1f-b742-bf47f6166e91",
+   "doi": "10.2307/3065564",
+   "title": "Plato's Letters and Gorgias",
+   "author": "L. Brisson, Plato, L. Coventry, M. Canto"
+  },
+  {
+   "book": "",
+   "page": 324,
+   "section": "d",
+   "line": 3,
+   "journal": "The Classical Review",
+   "year": "1988",
+   "iid": "737480ad-d82d-3c1f-b742-bf47f6166e91",
+   "doi": "10.2307/3065564",
+   "title": "Plato's Letters and Gorgias",
+   "author": "L. Brisson, Plato, L. Coventry, M. Canto"
+  },
+  {
+   "book": "",
+   "page": 324,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1988",
+   "iid": "737480ad-d82d-3c1f-b742-bf47f6166e91",
+   "doi": "10.2307/3065564",
+   "title": "Plato's Letters and Gorgias",
+   "author": "L. Brisson, Plato, L. Coventry, M. Canto"
+  },
+  {
+   "book": "",
+   "page": 316,
+   "section": "b",
+   "line": 6,
+   "journal": "The Classical Review",
+   "year": "1988",
+   "iid": "737480ad-d82d-3c1f-b742-bf47f6166e91",
+   "doi": "10.2307/3065564",
+   "title": "Plato's Letters and Gorgias",
+   "author": "L. Brisson, Plato, L. Coventry, M. Canto"
+  },
+  {
+   "book": "",
+   "page": 342,
+   "section": "a",
+   "line": null,
+   "journal": "Revue Internationale de Philosophie",
+   "year": "1980",
+   "iid": "75960abd-baa3-3d19-9355-2e86a2c13a8e",
+   "doi": "10.2307/23945503",
+   "title": "UNITY AND DIVERSITY OF THE SCIENCES : THE METHODOLOGY OF THE MATHEMATICAL AND OF THE PHYSICAL SCIENCES AND THE ROLE OF NOMINAL DEFINITION",
+   "author": "Walter LESZL"
+  },
+  {
+   "book": "",
+   "page": 343,
+   "section": "b",
+   "line": null,
+   "journal": "Archivio di Filosofia",
+   "year": "2017",
+   "iid": "758904f8-3b2c-3595-b803-ce5d6098b0de",
+   "doi": "10.2307/26572220",
+   "title": "CHI DICE ‘COGITO’? CHI PUÒ DIRE ‘COGITO’? CHI DICE ‘SUM’? CHI PUÒ DIRE ‘SUM’? MARGINALIA A",
+   "author": "Vincenzo Vitiello"
+  },
+  {
+   "book": "",
+   "page": 341,
+   "section": "b",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1966",
+   "iid": "773ec11a-24bf-3801-9ae0-d86b5cdbd9f1",
+   "doi": "10.2307/4181782",
+   "title": "Die philosophische Stelle im siebten platonischen Brief und die Frage der 'esoterischen' Philosophie Platons",
+   "author": "K. von Fritz"
+  },
+  {
+   "book": "",
+   "page": 342,
+   "section": "c",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1966",
+   "iid": "773ec11a-24bf-3801-9ae0-d86b5cdbd9f1",
+   "doi": "10.2307/4181782",
+   "title": "Die philosophische Stelle im siebten platonischen Brief und die Frage der 'esoterischen' Philosophie Platons",
+   "author": "K. von Fritz"
+  },
+  {
+   "book": "",
+   "page": 343,
+   "section": "a",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1966",
+   "iid": "773ec11a-24bf-3801-9ae0-d86b5cdbd9f1",
+   "doi": "10.2307/4181782",
+   "title": "Die philosophische Stelle im siebten platonischen Brief und die Frage der 'esoterischen' Philosophie Platons",
+   "author": "K. von Fritz"
+  },
+  {
+   "book": "",
+   "page": 342,
+   "section": "e",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1966",
+   "iid": "773ec11a-24bf-3801-9ae0-d86b5cdbd9f1",
+   "doi": "10.2307/4181782",
+   "title": "Die philosophische Stelle im siebten platonischen Brief und die Frage der 'esoterischen' Philosophie Platons",
+   "author": "K. von Fritz"
+  },
+  {
+   "book": "",
+   "page": 343,
+   "section": "b",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1966",
+   "iid": "773ec11a-24bf-3801-9ae0-d86b5cdbd9f1",
+   "doi": "10.2307/4181782",
+   "title": "Die philosophische Stelle im siebten platonischen Brief und die Frage der 'esoterischen' Philosophie Platons",
+   "author": "K. von Fritz"
+  },
+  {
+   "book": "",
+   "page": 343,
+   "section": "d",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1966",
+   "iid": "773ec11a-24bf-3801-9ae0-d86b5cdbd9f1",
+   "doi": "10.2307/4181782",
+   "title": "Die philosophische Stelle im siebten platonischen Brief und die Frage der 'esoterischen' Philosophie Platons",
+   "author": "K. von Fritz"
+  },
+  {
+   "book": "",
+   "page": 343,
+   "section": "e",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1966",
+   "iid": "773ec11a-24bf-3801-9ae0-d86b5cdbd9f1",
+   "doi": "10.2307/4181782",
+   "title": "Die philosophische Stelle im siebten platonischen Brief und die Frage der 'esoterischen' Philosophie Platons",
+   "author": "K. von Fritz"
+  },
+  {
+   "book": "",
+   "page": 341,
+   "section": "e",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1966",
+   "iid": "773ec11a-24bf-3801-9ae0-d86b5cdbd9f1",
+   "doi": "10.2307/4181782",
+   "title": "Die philosophische Stelle im siebten platonischen Brief und die Frage der 'esoterischen' Philosophie Platons",
+   "author": "K. von Fritz"
+  },
+  {
+   "book": "",
+   "page": 317,
+   "section": "c",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1947",
+   "iid": "77215065-d16c-3ffd-9a90-835cac24fc9f",
+   "doi": "10.2307/266093",
+   "title": "Two Sophists and Two Emperors",
+   "author": "Roger Pack"
+  },
+  {
+   "book": "",
+   "page": 312,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1947",
+   "iid": "77215065-d16c-3ffd-9a90-835cac24fc9f",
+   "doi": "10.2307/266093",
+   "title": "Two Sophists and Two Emperors",
+   "author": "Roger Pack"
+  },
+  {
+   "book": "",
+   "page": 333,
+   "section": "b",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1947",
+   "iid": "77215065-d16c-3ffd-9a90-835cac24fc9f",
+   "doi": "10.2307/266093",
+   "title": "Two Sophists and Two Emperors",
+   "author": "Roger Pack"
+  },
+  {
+   "book": "",
+   "page": 334,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1947",
+   "iid": "77215065-d16c-3ffd-9a90-835cac24fc9f",
+   "doi": "10.2307/266093",
+   "title": "Two Sophists and Two Emperors",
+   "author": "Roger Pack"
+  },
+  {
+   "book": "",
+   "page": 318,
+   "section": "e",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1925",
+   "iid": "799a7d53-96d2-385a-9020-a7c58bc2858b",
+   "doi": "10.2307/263771",
+   "title": "",
+   "author": "J. Bidez, Paul Shorey"
+  },
+  {
+   "book": "",
+   "page": 344,
+   "section": "a",
+   "line": 2,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "1994",
+   "iid": "79690fcc-7cf2-3238-8882-3019e649cfaa",
+   "doi": "10.2307/24354332",
+   "title": "SUR LA CONNAISSANCE ESSENTIELLE SELON PLATON",
+   "author": "Roberta de Monticelli"
+  },
+  {
+   "book": "",
+   "page": 341,
+   "section": "b",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1932",
+   "iid": "79e70adc-b5f9-36c7-a1b6-bbc9ef82dc47",
+   "doi": "10.2307/265083",
+   "title": "Humor at the Expense of the Ruler Cult",
+   "author": "Kenneth Scott"
+  },
+  {
+   "book": "",
+   "page": 358,
+   "section": "d",
+   "line": null,
+   "journal": "Les Études philosophiques",
+   "year": "2014",
+   "iid": "7b4dd3b8-fd5e-3f93-af0e-7e5cae131c30",
+   "doi": "10.2307/43901162",
+   "title": "LA CHAIR ET LE BRONZE. REMARQUES SUR \"MÉTAPHYSIQUE\" Z, 11 ET L'INTERPRÉTATION DE M. FREDE ET G. PATZIG",
+   "author": "Riccardo Chiaradonna"
+  },
+  {
+   "book": "",
+   "page": 346,
+   "section": "c",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1984",
+   "iid": "7f475100-b6a7-3633-a162-ae54066dd1ac",
+   "doi": "10.2307/638293",
+   "title": "Pausanias and Plutarch's Epaminondas",
+   "author": "C. J. Tuplin"
+  },
+  {
+   "book": "",
+   "page": 353,
+   "section": "e",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1928",
+   "iid": "806957ac-5c5b-3226-887e-84ae01b05c5a",
+   "doi": "10.2307/635937",
+   "title": "Hedonism in Plato's Protagoras",
+   "author": "R. Hackforth"
+  },
+  {
+   "book": "",
+   "page": 342,
+   "section": "c",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2010",
+   "iid": "818b7391-b510-3d45-8208-c2656a09acfe",
+   "doi": "10.2307/24358467",
+   "title": "MICHEL FOUCAULT : LA \"PARRÊSIA\" DANS LE GOUVERNEMENT DE SOI ET DES AUTRES",
+   "author": "Valérie Glansdorff"
+  },
+  {
+   "book": "",
+   "page": 343,
+   "section": "b",
+   "line": 7,
+   "journal": "Méthexis",
+   "year": "2001",
+   "iid": "83cfcf32-88c1-35b7-89ff-fdf82d3d4e45",
+   "doi": "10.2307/43738645",
+   "title": "IST DIE IDEE DES GUTEN NICHT TRANSZENDENT ODER IST SIE ES DOCH? NOCHMALS PLATONS EPEKEINA ΤΗΣ ΟΥΣΙΑΣ",
+   "author": "RAFAEL FERBER"
+  },
+  {
+   "book": "",
+   "page": 326,
+   "section": "b",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1940",
+   "iid": "89d2fea1-a92c-32fe-93ba-d3ebf957fa14",
+   "doi": "10.2307/264959",
+   "title": "Plato in Cicero",
+   "author": "Thelma B. Degraff"
+  },
+  {
+   "book": "",
+   "page": 326,
+   "section": "b",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1940",
+   "iid": "89d2fea1-a92c-32fe-93ba-d3ebf957fa14",
+   "doi": "10.2307/264959",
+   "title": "Plato in Cicero",
+   "author": "Thelma B. Degraff"
+  },
+  {
+   "book": "",
+   "page": 344,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1930",
+   "iid": "89abf40d-8f3a-352f-bbe0-1e72503fba7b",
+   "doi": "10.2307/637134",
+   "title": "Plotinus and Posidonius",
+   "author": "R. E. Witt"
+  },
+  {
+   "book": "",
+   "page": 315,
+   "section": "c",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1983",
+   "iid": "8989037e-bf94-3048-a25f-28581fd3001d",
+   "doi": "10.2307/4182166",
+   "title": "Middle Platonism and the Seventh Epistle",
+   "author": "Harold Tarrant"
+  },
+  {
+   "book": "",
+   "page": 360,
+   "section": "d",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1983",
+   "iid": "8989037e-bf94-3048-a25f-28581fd3001d",
+   "doi": "10.2307/4182166",
+   "title": "Middle Platonism and the Seventh Epistle",
+   "author": "Harold Tarrant"
+  },
+  {
+   "book": "",
+   "page": 345,
+   "section": "c",
+   "line": 3,
+   "journal": "Phronesis",
+   "year": "1983",
+   "iid": "8989037e-bf94-3048-a25f-28581fd3001d",
+   "doi": "10.2307/4182166",
+   "title": "Middle Platonism and the Seventh Epistle",
+   "author": "Harold Tarrant"
+  },
+  {
+   "book": "",
+   "page": 342,
+   "section": "d",
+   "line": 5,
+   "journal": "Phronesis",
+   "year": "1983",
+   "iid": "8989037e-bf94-3048-a25f-28581fd3001d",
+   "doi": "10.2307/4182166",
+   "title": "Middle Platonism and the Seventh Epistle",
+   "author": "Harold Tarrant"
+  },
+  {
+   "book": "",
+   "page": 338,
+   "section": "a",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1983",
+   "iid": "8989037e-bf94-3048-a25f-28581fd3001d",
+   "doi": "10.2307/4182166",
+   "title": "Middle Platonism and the Seventh Epistle",
+   "author": "Harold Tarrant"
+  },
+  {
+   "book": "",
+   "page": 342,
+   "section": "a",
+   "line": 3,
+   "journal": "Phronesis",
+   "year": "1983",
+   "iid": "8989037e-bf94-3048-a25f-28581fd3001d",
+   "doi": "10.2307/4182166",
+   "title": "Middle Platonism and the Seventh Epistle",
+   "author": "Harold Tarrant"
+  },
+  {
+   "book": "",
+   "page": 340,
+   "section": "d",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1983",
+   "iid": "8989037e-bf94-3048-a25f-28581fd3001d",
+   "doi": "10.2307/4182166",
+   "title": "Middle Platonism and the Seventh Epistle",
+   "author": "Harold Tarrant"
+  },
+  {
+   "book": "",
+   "page": 340,
+   "section": "d",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1983",
+   "iid": "8989037e-bf94-3048-a25f-28581fd3001d",
+   "doi": "10.2307/4182166",
+   "title": "Middle Platonism and the Seventh Epistle",
+   "author": "Harold Tarrant"
+  },
+  {
+   "book": "",
+   "page": 344,
+   "section": "a",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1983",
+   "iid": "8989037e-bf94-3048-a25f-28581fd3001d",
+   "doi": "10.2307/4182166",
+   "title": "Middle Platonism and the Seventh Epistle",
+   "author": "Harold Tarrant"
+  },
+  {
+   "book": "",
+   "page": 342,
+   "section": "a",
+   "line": 7,
+   "journal": "Phronesis",
+   "year": "1983",
+   "iid": "8989037e-bf94-3048-a25f-28581fd3001d",
+   "doi": "10.2307/4182166",
+   "title": "Middle Platonism and the Seventh Epistle",
+   "author": "Harold Tarrant"
+  },
+  {
+   "book": "",
+   "page": 312,
+   "section": "d",
+   "line": 3,
+   "journal": "Phronesis",
+   "year": "1983",
+   "iid": "8989037e-bf94-3048-a25f-28581fd3001d",
+   "doi": "10.2307/4182166",
+   "title": "Middle Platonism and the Seventh Epistle",
+   "author": "Harold Tarrant"
+  },
+  {
+   "book": "",
+   "page": 312,
+   "section": "d",
+   "line": 7,
+   "journal": "Phronesis",
+   "year": "1983",
+   "iid": "8989037e-bf94-3048-a25f-28581fd3001d",
+   "doi": "10.2307/4182166",
+   "title": "Middle Platonism and the Seventh Epistle",
+   "author": "Harold Tarrant"
+  },
+  {
+   "book": "",
+   "page": 312,
+   "section": "e",
+   "line": 3,
+   "journal": "Phronesis",
+   "year": "1983",
+   "iid": "8989037e-bf94-3048-a25f-28581fd3001d",
+   "doi": "10.2307/4182166",
+   "title": "Middle Platonism and the Seventh Epistle",
+   "author": "Harold Tarrant"
+  },
+  {
+   "book": "",
+   "page": 342,
+   "section": "e",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1983",
+   "iid": "8989037e-bf94-3048-a25f-28581fd3001d",
+   "doi": "10.2307/4182166",
+   "title": "Middle Platonism and the Seventh Epistle",
+   "author": "Harold Tarrant"
+  },
+  {
+   "book": "",
+   "page": 343,
+   "section": "c",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1983",
+   "iid": "8989037e-bf94-3048-a25f-28581fd3001d",
+   "doi": "10.2307/4182166",
+   "title": "Middle Platonism and the Seventh Epistle",
+   "author": "Harold Tarrant"
+  },
+  {
+   "book": "",
+   "page": 342,
+   "section": "e",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1983",
+   "iid": "8989037e-bf94-3048-a25f-28581fd3001d",
+   "doi": "10.2307/4182166",
+   "title": "Middle Platonism and the Seventh Epistle",
+   "author": "Harold Tarrant"
+  },
+  {
+   "book": "",
+   "page": 345,
+   "section": "c",
+   "line": 4,
+   "journal": "Phronesis",
+   "year": "1983",
+   "iid": "8989037e-bf94-3048-a25f-28581fd3001d",
+   "doi": "10.2307/4182166",
+   "title": "Middle Platonism and the Seventh Epistle",
+   "author": "Harold Tarrant"
+  },
+  {
+   "book": "",
+   "page": 341,
+   "section": "c",
+   "line": 7,
+   "journal": "Phronesis",
+   "year": "1983",
+   "iid": "8989037e-bf94-3048-a25f-28581fd3001d",
+   "doi": "10.2307/4182166",
+   "title": "Middle Platonism and the Seventh Epistle",
+   "author": "Harold Tarrant"
+  },
+  {
+   "book": "",
+   "page": 343,
+   "section": "e",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1983",
+   "iid": "8989037e-bf94-3048-a25f-28581fd3001d",
+   "doi": "10.2307/4182166",
+   "title": "Middle Platonism and the Seventh Epistle",
+   "author": "Harold Tarrant"
+  },
+  {
+   "book": "",
+   "page": 341,
+   "section": "a",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1983",
+   "iid": "8989037e-bf94-3048-a25f-28581fd3001d",
+   "doi": "10.2307/4182166",
+   "title": "Middle Platonism and the Seventh Epistle",
+   "author": "Harold Tarrant"
+  },
+  {
+   "book": "",
+   "page": 340,
+   "section": "b",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1983",
+   "iid": "8989037e-bf94-3048-a25f-28581fd3001d",
+   "doi": "10.2307/4182166",
+   "title": "Middle Platonism and the Seventh Epistle",
+   "author": "Harold Tarrant"
+  },
+  {
+   "book": "",
+   "page": 344,
+   "section": "a",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1983",
+   "iid": "8989037e-bf94-3048-a25f-28581fd3001d",
+   "doi": "10.2307/4182166",
+   "title": "Middle Platonism and the Seventh Epistle",
+   "author": "Harold Tarrant"
+  },
+  {
+   "book": "",
+   "page": 355,
+   "section": "b",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1983",
+   "iid": "8989037e-bf94-3048-a25f-28581fd3001d",
+   "doi": "10.2307/4182166",
+   "title": "Middle Platonism and the Seventh Epistle",
+   "author": "Harold Tarrant"
+  },
+  {
+   "book": "",
+   "page": 326,
+   "section": "b",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1983",
+   "iid": "8989037e-bf94-3048-a25f-28581fd3001d",
+   "doi": "10.2307/4182166",
+   "title": "Middle Platonism and the Seventh Epistle",
+   "author": "Harold Tarrant"
+  },
+  {
+   "book": "",
+   "page": 343,
+   "section": "e",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1983",
+   "iid": "8989037e-bf94-3048-a25f-28581fd3001d",
+   "doi": "10.2307/4182166",
+   "title": "Middle Platonism and the Seventh Epistle",
+   "author": "Harold Tarrant"
+  },
+  {
+   "book": "",
+   "page": 343,
+   "section": "e",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1983",
+   "iid": "8989037e-bf94-3048-a25f-28581fd3001d",
+   "doi": "10.2307/4182166",
+   "title": "Middle Platonism and the Seventh Epistle",
+   "author": "Harold Tarrant"
+  },
+  {
+   "book": "",
+   "page": 312,
+   "section": "e",
+   "line": 3,
+   "journal": "Phronesis",
+   "year": "1983",
+   "iid": "8989037e-bf94-3048-a25f-28581fd3001d",
+   "doi": "10.2307/4182166",
+   "title": "Middle Platonism and the Seventh Epistle",
+   "author": "Harold Tarrant"
+  },
+  {
+   "book": "",
+   "page": 344,
+   "section": "a",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1983",
+   "iid": "8989037e-bf94-3048-a25f-28581fd3001d",
+   "doi": "10.2307/4182166",
+   "title": "Middle Platonism and the Seventh Epistle",
+   "author": "Harold Tarrant"
+  },
+  {
+   "book": "",
+   "page": 313,
+   "section": "a",
+   "line": null,
+   "journal": "Les Études philosophiques",
+   "year": "1995",
+   "iid": "8aba2a34-9e2b-3bf5-8244-bb3081935bb0",
+   "doi": "10.2307/20848955",
+   "title": "PLATON ET LA MALADIE DANS LA RÉPUBLIQUE",
+   "author": "Thierry Ménissier"
+  },
+  {
+   "book": "",
+   "page": 332,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1958",
+   "iid": "8bc55bc0-e94d-36e0-909e-8e09b39f1d3f",
+   "doi": "10.2307/637669",
+   "title": "Persica",
+   "author": "A. H. Coxon"
+  },
+  {
+   "book": "",
+   "page": 339,
+   "section": "c",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1926",
+   "iid": "909631da-6311-32c1-9100-fe84aa16ede2",
+   "doi": "10.2307/698616",
+   "title": "The Date of the Second Platonic Epistle",
+   "author": "J. Harward"
+  },
+  {
+   "book": "",
+   "page": 314,
+   "section": "e",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1926",
+   "iid": "909631da-6311-32c1-9100-fe84aa16ede2",
+   "doi": "10.2307/698616",
+   "title": "The Date of the Second Platonic Epistle",
+   "author": "J. Harward"
+  },
+  {
+   "book": "",
+   "page": 352,
+   "section": "d",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1980",
+   "iid": "919b1652-4deb-35d7-8542-952296c7e608",
+   "doi": "10.2307/269603",
+   "title": "Review Article: Progress in Hesiod",
+   "author": "M. L. West, R. Renehan"
+  },
+  {
+   "book": "",
+   "page": 336,
+   "section": "d",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1963",
+   "iid": "96a4841a-019e-3869-bda3-ab05b41f086d",
+   "doi": "10.2307/266532",
+   "title": "Plato's Funeral Oration: The Motive of the Menexenus",
+   "author": "Charles H. Kahn"
+  },
+  {
+   "book": "",
+   "page": 334,
+   "section": "b",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1963",
+   "iid": "96a4841a-019e-3869-bda3-ab05b41f086d",
+   "doi": "10.2307/266532",
+   "title": "Plato's Funeral Oration: The Motive of the Menexenus",
+   "author": "Charles H. Kahn"
+  },
+  {
+   "book": "",
+   "page": 349,
+   "section": "b",
+   "line": 5,
+   "journal": "The Classical Quarterly",
+   "year": "1991",
+   "iid": "9a96a31b-2949-3330-81d6-78e6924762e9",
+   "doi": "10.2307/638905",
+   "title": "The Apology: The Beginning of Plato's Own Philosophy",
+   "author": "Shinro Kato"
+  },
+  {
+   "book": "",
+   "page": 345,
+   "section": "c",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2018",
+   "iid": "9aa28aba-6057-3652-8357-0fc1c7f79329",
+   "doi": "10.2307/26670600",
+   "title": "IAMBLICHUS’ EPISTLES, FOURTH-CENTURY PHILOSOPHICAL AND POLITICAL EPISTOLOGRAPHY AND THE NEOPLATONIC CURRICULA AT ATHENS AND ALEXANDRIA",
+   "author": "MOYSÉS MARCOS"
+  },
+  {
+   "book": "",
+   "page": 338,
+   "section": "d",
+   "line": 2,
+   "journal": "The Classical Review",
+   "year": "1988",
+   "iid": "9d28e58a-7f57-33cc-b01d-70366c5db5fd",
+   "doi": "10.2307/3065565",
+   "title": "The Teubner of the Platonic Letters",
+   "author": "David B. Robinson, Jennifer Moore-Blunt, Plato"
+  },
+  {
+   "book": "",
+   "page": 331,
+   "section": "b",
+   "line": 6,
+   "journal": "The Classical Review",
+   "year": "1988",
+   "iid": "9d28e58a-7f57-33cc-b01d-70366c5db5fd",
+   "doi": "10.2307/3065565",
+   "title": "The Teubner of the Platonic Letters",
+   "author": "David B. Robinson, Jennifer Moore-Blunt, Plato"
+  },
+  {
+   "book": "",
+   "page": 354,
+   "section": "b",
+   "line": 6,
+   "journal": "The Classical Review",
+   "year": "1988",
+   "iid": "9d28e58a-7f57-33cc-b01d-70366c5db5fd",
+   "doi": "10.2307/3065565",
+   "title": "The Teubner of the Platonic Letters",
+   "author": "David B. Robinson, Jennifer Moore-Blunt, Plato"
+  },
+  {
+   "book": "",
+   "page": 330,
+   "section": "a",
+   "line": 7,
+   "journal": "The Classical Review",
+   "year": "1988",
+   "iid": "9d28e58a-7f57-33cc-b01d-70366c5db5fd",
+   "doi": "10.2307/3065565",
+   "title": "The Teubner of the Platonic Letters",
+   "author": "David B. Robinson, Jennifer Moore-Blunt, Plato"
+  },
+  {
+   "book": "",
+   "page": 357,
+   "section": "a",
+   "line": 3,
+   "journal": "The Classical Review",
+   "year": "1988",
+   "iid": "9d28e58a-7f57-33cc-b01d-70366c5db5fd",
+   "doi": "10.2307/3065565",
+   "title": "The Teubner of the Platonic Letters",
+   "author": "David B. Robinson, Jennifer Moore-Blunt, Plato"
+  },
+  {
+   "book": "",
+   "page": 329,
+   "section": "b",
+   "line": 2,
+   "journal": "The Classical Review",
+   "year": "1988",
+   "iid": "9d28e58a-7f57-33cc-b01d-70366c5db5fd",
+   "doi": "10.2307/3065565",
+   "title": "The Teubner of the Platonic Letters",
+   "author": "David B. Robinson, Jennifer Moore-Blunt, Plato"
+  },
+  {
+   "book": "",
+   "page": 332,
+   "section": "b",
+   "line": 8,
+   "journal": "The Classical Review",
+   "year": "1988",
+   "iid": "9d28e58a-7f57-33cc-b01d-70366c5db5fd",
+   "doi": "10.2307/3065565",
+   "title": "The Teubner of the Platonic Letters",
+   "author": "David B. Robinson, Jennifer Moore-Blunt, Plato"
+  },
+  {
+   "book": "",
+   "page": 336,
+   "section": "a",
+   "line": 2,
+   "journal": "The Classical Review",
+   "year": "1988",
+   "iid": "9d28e58a-7f57-33cc-b01d-70366c5db5fd",
+   "doi": "10.2307/3065565",
+   "title": "The Teubner of the Platonic Letters",
+   "author": "David B. Robinson, Jennifer Moore-Blunt, Plato"
+  },
+  {
+   "book": "",
+   "page": 328,
+   "section": "c",
+   "line": 6,
+   "journal": "The Classical Review",
+   "year": "1988",
+   "iid": "9d28e58a-7f57-33cc-b01d-70366c5db5fd",
+   "doi": "10.2307/3065565",
+   "title": "The Teubner of the Platonic Letters",
+   "author": "David B. Robinson, Jennifer Moore-Blunt, Plato"
+  },
+  {
+   "book": "",
+   "page": 313,
+   "section": "d",
+   "line": 3,
+   "journal": "The Classical Review",
+   "year": "1988",
+   "iid": "9d28e58a-7f57-33cc-b01d-70366c5db5fd",
+   "doi": "10.2307/3065565",
+   "title": "The Teubner of the Platonic Letters",
+   "author": "David B. Robinson, Jennifer Moore-Blunt, Plato"
+  },
+  {
+   "book": "",
+   "page": 318,
+   "section": "e",
+   "line": 6,
+   "journal": "The Classical Review",
+   "year": "1988",
+   "iid": "9d28e58a-7f57-33cc-b01d-70366c5db5fd",
+   "doi": "10.2307/3065565",
+   "title": "The Teubner of the Platonic Letters",
+   "author": "David B. Robinson, Jennifer Moore-Blunt, Plato"
+  },
+  {
+   "book": "",
+   "page": 335,
+   "section": "b",
+   "line": 5,
+   "journal": "The Classical Review",
+   "year": "1988",
+   "iid": "9d28e58a-7f57-33cc-b01d-70366c5db5fd",
+   "doi": "10.2307/3065565",
+   "title": "The Teubner of the Platonic Letters",
+   "author": "David B. Robinson, Jennifer Moore-Blunt, Plato"
+  },
+  {
+   "book": "",
+   "page": 309,
+   "section": "a",
+   "line": 2,
+   "journal": "The Classical Review",
+   "year": "1988",
+   "iid": "9d28e58a-7f57-33cc-b01d-70366c5db5fd",
+   "doi": "10.2307/3065565",
+   "title": "The Teubner of the Platonic Letters",
+   "author": "David B. Robinson, Jennifer Moore-Blunt, Plato"
+  },
+  {
+   "book": "",
+   "page": 310,
+   "section": "a",
+   "line": 3,
+   "journal": "The Classical Review",
+   "year": "1988",
+   "iid": "9d28e58a-7f57-33cc-b01d-70366c5db5fd",
+   "doi": "10.2307/3065565",
+   "title": "The Teubner of the Platonic Letters",
+   "author": "David B. Robinson, Jennifer Moore-Blunt, Plato"
+  },
+  {
+   "book": "",
+   "page": 328,
+   "section": "b",
+   "line": 5,
+   "journal": "The Classical Review",
+   "year": "1988",
+   "iid": "9d28e58a-7f57-33cc-b01d-70366c5db5fd",
+   "doi": "10.2307/3065565",
+   "title": "The Teubner of the Platonic Letters",
+   "author": "David B. Robinson, Jennifer Moore-Blunt, Plato"
+  },
+  {
+   "book": "",
+   "page": 339,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1928",
+   "iid": "9f162628-467a-3850-9231-7db9388fcac4",
+   "doi": "10.2307/635932",
+   "title": "The Vatican Plato",
+   "author": "L. A. Post"
+  },
+  {
+   "book": "",
+   "page": 346,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1928",
+   "iid": "9f162628-467a-3850-9231-7db9388fcac4",
+   "doi": "10.2307/635932",
+   "title": "The Vatican Plato",
+   "author": "L. A. Post"
+  },
+  {
+   "book": "",
+   "page": 343,
+   "section": "e",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "2013",
+   "iid": "a4a60a58-c06f-38e3-8a80-399605ddae2f",
+   "doi": "10.2307/43301282",
+   "title": "THE \"CHARMIDES\"",
+   "author": "DOUGAL BLYTH, T. M. Tuozzo"
+  },
+  {
+   "book": "",
+   "page": 344,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "2013",
+   "iid": "a4a60a58-c06f-38e3-8a80-399605ddae2f",
+   "doi": "10.2307/43301282",
+   "title": "THE \"CHARMIDES\"",
+   "author": "DOUGAL BLYTH, T. M. Tuozzo"
+  },
+  {
+   "book": "",
+   "page": 343,
+   "section": "b",
+   "line": 8,
+   "journal": "Méthexis",
+   "year": "1993",
+   "iid": "a87bf15b-52c2-3d91-8aae-9887fdafb003",
+   "doi": "10.2307/43738856",
+   "title": "¿HA SOSTENIDO PLATÓN EN LA “ENSEÑANZA NO ESCRITA” UNA “METAFÍSICA DOGMÁTICA Y SISTEMÁTICA”? Algunas observaciones sobre el status quaestionis",
+   "author": "RAFAEL FERBER, C. E. L."
+  },
+  {
+   "book": "",
+   "page": 342,
+   "section": "e",
+   "line": 2,
+   "journal": "Méthexis",
+   "year": "1993",
+   "iid": "a87bf15b-52c2-3d91-8aae-9887fdafb003",
+   "doi": "10.2307/43738856",
+   "title": "¿HA SOSTENIDO PLATÓN EN LA “ENSEÑANZA NO ESCRITA” UNA “METAFÍSICA DOGMÁTICA Y SISTEMÁTICA”? Algunas observaciones sobre el status quaestionis",
+   "author": "RAFAEL FERBER, C. E. L."
+  },
+  {
+   "book": "",
+   "page": 343,
+   "section": "b",
+   "line": 7,
+   "journal": "Méthexis",
+   "year": "1993",
+   "iid": "a87bf15b-52c2-3d91-8aae-9887fdafb003",
+   "doi": "10.2307/43738856",
+   "title": "¿HA SOSTENIDO PLATÓN EN LA “ENSEÑANZA NO ESCRITA” UNA “METAFÍSICA DOGMÁTICA Y SISTEMÁTICA”? Algunas observaciones sobre el status quaestionis",
+   "author": "RAFAEL FERBER, C. E. L."
+  },
+  {
+   "book": "",
+   "page": 342,
+   "section": "e",
+   "line": 2,
+   "journal": "Méthexis",
+   "year": "1993",
+   "iid": "a87bf15b-52c2-3d91-8aae-9887fdafb003",
+   "doi": "10.2307/43738856",
+   "title": "¿HA SOSTENIDO PLATÓN EN LA “ENSEÑANZA NO ESCRITA” UNA “METAFÍSICA DOGMÁTICA Y SISTEMÁTICA”? Algunas observaciones sobre el status quaestionis",
+   "author": "RAFAEL FERBER, C. E. L."
+  },
+  {
+   "book": "",
+   "page": 327,
+   "section": "c",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1927",
+   "iid": "ac28f574-18d4-39f2-8a39-ba2f89f73f32",
+   "doi": "10.2307/701214",
+   "title": "The Platonic Epistles",
+   "author": "W. R. M. Lamb, Joseph Souilhé"
+  },
+  {
+   "book": "",
+   "page": 315,
+   "section": "d",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1976",
+   "iid": "aecd9880-8ff3-3056-8b91-705e5642e604",
+   "doi": "10.2307/267959",
+   "title": "The Tyrant Kings of Syracuse",
+   "author": "Stewart Irvin Oost"
+  },
+  {
+   "book": "",
+   "page": 319,
+   "section": "d",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1976",
+   "iid": "aecd9880-8ff3-3056-8b91-705e5642e604",
+   "doi": "10.2307/267959",
+   "title": "The Tyrant Kings of Syracuse",
+   "author": "Stewart Irvin Oost"
+  },
+  {
+   "book": "",
+   "page": 341,
+   "section": "c",
+   "line": null,
+   "journal": "Méthexis",
+   "year": "1999",
+   "iid": "af187335-b41c-330d-a090-59223692247d",
+   "doi": "10.2307/43739153",
+   "title": "DAS PRINZIP DES PERFORMATIVEN WIDERSPRUCHS. ZUR EPISTEMOLOGISCHEN BEDEUTUNG DER DIALOGFORM IN PLATONS \"EUTHYDEMOS\"",
+   "author": "GREGOR DAMSCHEN"
+  },
+  {
+   "book": "",
+   "page": 342,
+   "section": "e",
+   "line": 2,
+   "journal": "Méthexis",
+   "year": "1993",
+   "iid": "afde040c-fb9b-3410-8637-46ab2cee3ad2",
+   "doi": "10.2307/43738403",
+   "title": "HAT PLATO IN DER \"UNGESCHRIEBENEN LEHRE\" EINE \"DOGMATISCHE METAPHYSIK UND SYSTEMATIK\" VERTRETEN? EINIGE BEMERKUNGEN ZUM STATUS QUAESTIONIS",
+   "author": "RAFAEL FERBER"
+  },
+  {
+   "book": "",
+   "page": 342,
+   "section": "e",
+   "line": 2,
+   "journal": "Méthexis",
+   "year": "1993",
+   "iid": "afde040c-fb9b-3410-8637-46ab2cee3ad2",
+   "doi": "10.2307/43738403",
+   "title": "HAT PLATO IN DER \"UNGESCHRIEBENEN LEHRE\" EINE \"DOGMATISCHE METAPHYSIK UND SYSTEMATIK\" VERTRETEN? EINIGE BEMERKUNGEN ZUM STATUS QUAESTIONIS",
+   "author": "RAFAEL FERBER"
+  },
+  {
+   "book": "",
+   "page": 343,
+   "section": "b",
+   "line": 8,
+   "journal": "Méthexis",
+   "year": "1993",
+   "iid": "afde040c-fb9b-3410-8637-46ab2cee3ad2",
+   "doi": "10.2307/43738403",
+   "title": "HAT PLATO IN DER \"UNGESCHRIEBENEN LEHRE\" EINE \"DOGMATISCHE METAPHYSIK UND SYSTEMATIK\" VERTRETEN? EINIGE BEMERKUNGEN ZUM STATUS QUAESTIONIS",
+   "author": "RAFAEL FERBER"
+  },
+  {
+   "book": "",
+   "page": 343,
+   "section": "b",
+   "line": 7,
+   "journal": "Méthexis",
+   "year": "1993",
+   "iid": "afde040c-fb9b-3410-8637-46ab2cee3ad2",
+   "doi": "10.2307/43738403",
+   "title": "HAT PLATO IN DER \"UNGESCHRIEBENEN LEHRE\" EINE \"DOGMATISCHE METAPHYSIK UND SYSTEMATIK\" VERTRETEN? EINIGE BEMERKUNGEN ZUM STATUS QUAESTIONIS",
+   "author": "RAFAEL FERBER"
+  },
+  {
+   "book": "",
+   "page": 327,
+   "section": "b",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "1991",
+   "iid": "b1e9eb4b-f79e-39e5-a6c5-3122ca03fa75",
+   "doi": "10.2307/24353884",
+   "title": "CALLICLÈS ET THRASYMAQUE: SUR LA RUSE ET LA VIOLENCE CHEZ PLATON",
+   "author": "Michèle Broze"
+  },
+  {
+   "book": "",
+   "page": 342,
+   "section": "b",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1959",
+   "iid": "b2c8f297-faa8-3e03-95cf-88397f22c82e",
+   "doi": "10.2307/4181645",
+   "title": "Plato's 'Sophist\": A Defense of Negative Expressions and a Doctrine of Sense and of Truth",
+   "author": "Jason Xenakis"
+  },
+  {
+   "book": "",
+   "page": 340,
+   "section": "c",
+   "line": 6,
+   "journal": "Les Études philosophiques",
+   "year": "2005",
+   "iid": "b862cb4b-e37e-3f9e-a722-21b0bf79a0a2",
+   "doi": "10.2307/20849712",
+   "title": "LA DIVISION ET L'UNITÉ DU POLITIQUE DE PLATON: À Monique Dixsaut",
+   "author": "Dimitri El Murr"
+  },
+  {
+   "book": "",
+   "page": 348,
+   "section": "a",
+   "line": 9,
+   "journal": "Les Études philosophiques",
+   "year": "2005",
+   "iid": "b862cb4b-e37e-3f9e-a722-21b0bf79a0a2",
+   "doi": "10.2307/20849712",
+   "title": "LA DIVISION ET L'UNITÉ DU POLITIQUE DE PLATON: À Monique Dixsaut",
+   "author": "Dimitri El Murr"
+  },
+  {
+   "book": "",
+   "page": 344,
+   "section": "b",
+   "line": 5,
+   "journal": "Méthexis",
+   "year": "1994",
+   "iid": "b83a57c3-613b-34d4-b54d-ef34a6a6f916",
+   "doi": "10.2307/43738435",
+   "title": "RIPARLARE DI PLATONE: Ancora su scrittura, oralità e dialettica",
+   "author": "LINDA M. NAPOLITANO VALDITARA"
+  },
+  {
+   "book": "",
+   "page": 340,
+   "section": "b",
+   "line": null,
+   "journal": "Méthexis",
+   "year": "1994",
+   "iid": "b83a57c3-613b-34d4-b54d-ef34a6a6f916",
+   "doi": "10.2307/43738435",
+   "title": "RIPARLARE DI PLATONE: Ancora su scrittura, oralità e dialettica",
+   "author": "LINDA M. NAPOLITANO VALDITARA"
+  },
+  {
+   "book": "",
+   "page": 351,
+   "section": "d",
+   "line": null,
+   "journal": "Revue Internationale de Philosophie",
+   "year": "1974",
+   "iid": "ba93687a-88b8-374b-b839-c168bbaa387d",
+   "doi": "10.2307/23943191",
+   "title": "FUTURE",
+   "author": "MICHITARO TANAKA"
+  },
+  {
+   "book": "",
+   "page": 342,
+   "section": "b",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1990",
+   "iid": "bbb76564-238f-3b9f-bc81-9e45b72f2602",
+   "doi": "10.2307/4182347",
+   "title": "Lectio Difficilior: Le système dans la théorie platonicienne de l'âme selon l'interprétation de M. Gueroult",
+   "author": "Claude Gaudin"
+  },
+  {
+   "book": "",
+   "page": 338,
+   "section": "b",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1993",
+   "iid": "bd40a050-6960-37db-b15a-6487460af515",
+   "doi": "10.2307/270014",
+   "title": "Review Article: Ammianus Marcellinus and His World",
+   "author": "J. Matthews, T. D. Barnes"
+  },
+  {
+   "book": "",
+   "page": 324,
+   "section": "a",
+   "line": 3,
+   "journal": "Méthexis",
+   "year": "2021",
+   "iid": "bc1652ab-5791-3ec6-9b11-2f8d3e7c8e87",
+   "doi": "10.2307/27140735",
+   "title": "Plato’s <em>Seventh Letter</em>",
+   "author": "Paulo Butti de Lima"
+  },
+  {
+   "book": "",
+   "page": 324,
+   "section": "b",
+   "line": 8,
+   "journal": "Méthexis",
+   "year": "2021",
+   "iid": "bc1652ab-5791-3ec6-9b11-2f8d3e7c8e87",
+   "doi": "10.2307/27140735",
+   "title": "Plato’s <em>Seventh Letter</em>",
+   "author": "Paulo Butti de Lima"
+  },
+  {
+   "book": "",
+   "page": 338,
+   "section": "a",
+   "line": 3,
+   "journal": "Méthexis",
+   "year": "2021",
+   "iid": "bc1652ab-5791-3ec6-9b11-2f8d3e7c8e87",
+   "doi": "10.2307/27140735",
+   "title": "Plato’s <em>Seventh Letter</em>",
+   "author": "Paulo Butti de Lima"
+  },
+  {
+   "book": "",
+   "page": 330,
+   "section": "b",
+   "line": 7,
+   "journal": "Méthexis",
+   "year": "2021",
+   "iid": "bc1652ab-5791-3ec6-9b11-2f8d3e7c8e87",
+   "doi": "10.2307/27140735",
+   "title": "Plato’s <em>Seventh Letter</em>",
+   "author": "Paulo Butti de Lima"
+  },
+  {
+   "book": "",
+   "page": 330,
+   "section": "b",
+   "line": 7,
+   "journal": "Méthexis",
+   "year": "2021",
+   "iid": "bc1652ab-5791-3ec6-9b11-2f8d3e7c8e87",
+   "doi": "10.2307/27140735",
+   "title": "Plato’s <em>Seventh Letter</em>",
+   "author": "Paulo Butti de Lima"
+  },
+  {
+   "book": "",
+   "page": 338,
+   "section": "a",
+   "line": 3,
+   "journal": "Méthexis",
+   "year": "2021",
+   "iid": "bc1652ab-5791-3ec6-9b11-2f8d3e7c8e87",
+   "doi": "10.2307/27140735",
+   "title": "Plato’s <em>Seventh Letter</em>",
+   "author": "Paulo Butti de Lima"
+  },
+  {
+   "book": "",
+   "page": 330,
+   "section": "b",
+   "line": 7,
+   "journal": "Méthexis",
+   "year": "2021",
+   "iid": "bc1652ab-5791-3ec6-9b11-2f8d3e7c8e87",
+   "doi": "10.2307/27140735",
+   "title": "Plato’s <em>Seventh Letter</em>",
+   "author": "Paulo Butti de Lima"
+  },
+  {
+   "book": "",
+   "page": 338,
+   "section": "a",
+   "line": 3,
+   "journal": "Méthexis",
+   "year": "2021",
+   "iid": "bc1652ab-5791-3ec6-9b11-2f8d3e7c8e87",
+   "doi": "10.2307/27140735",
+   "title": "Plato’s <em>Seventh Letter</em>",
+   "author": "Paulo Butti de Lima"
+  },
+  {
+   "book": "",
+   "page": 324,
+   "section": "b",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1989",
+   "iid": "c5e8a23c-16f2-3040-a894-42e1cba54a6e",
+   "doi": "10.2307/4182317",
+   "title": "Platonic Chronology",
+   "author": "Holger Thesleff"
+  },
+  {
+   "book": "",
+   "page": 326,
+   "section": "b",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1989",
+   "iid": "c5e8a23c-16f2-3040-a894-42e1cba54a6e",
+   "doi": "10.2307/4182317",
+   "title": "Platonic Chronology",
+   "author": "Holger Thesleff"
+  },
+  {
+   "book": "",
+   "page": 341,
+   "section": "b",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1989",
+   "iid": "c5e8a23c-16f2-3040-a894-42e1cba54a6e",
+   "doi": "10.2307/4182317",
+   "title": "Platonic Chronology",
+   "author": "Holger Thesleff"
+  },
+  {
+   "book": "",
+   "page": 326,
+   "section": "a",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1989",
+   "iid": "c5e8a23c-16f2-3040-a894-42e1cba54a6e",
+   "doi": "10.2307/4182317",
+   "title": "Platonic Chronology",
+   "author": "Holger Thesleff"
+  },
+  {
+   "book": "",
+   "page": 314,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1928",
+   "iid": "c638656c-0117-38aa-b2eb-18960cfa4f88",
+   "doi": "10.2307/263725",
+   "title": "",
+   "author": "Paul Friedländer, Paul Shorey"
+  },
+  {
+   "book": "",
+   "page": 324,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1923",
+   "iid": "c6e85db2-a06d-36aa-ae03-30bb4194e844",
+   "doi": "10.2307/635638",
+   "title": "On the Sallustian Svasoriae-II (Continued) [On the Sallustian Suasoriae-II (Continued)]",
+   "author": "Hugh Last"
+  },
+  {
+   "book": "",
+   "page": 326,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1923",
+   "iid": "c6e85db2-a06d-36aa-ae03-30bb4194e844",
+   "doi": "10.2307/635638",
+   "title": "On the Sallustian Svasoriae-II (Continued) [On the Sallustian Suasoriae-II (Continued)]",
+   "author": "Hugh Last"
+  },
+  {
+   "book": "",
+   "page": 342,
+   "section": "d",
+   "line": 3,
+   "journal": "Méthexis",
+   "year": "2014",
+   "iid": "c91cd701-5924-3240-8026-0453a2d054a5",
+   "doi": "10.2307/44820262",
+   "title": "IL PROBLEMA DELLE IDEE DI ARTEFATTO IN PLATONE",
+   "author": "FILIPPO FORCIGNANÒ"
+  },
+  {
+   "book": "",
+   "page": 352,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1930",
+   "iid": "cbc2c3d9-63e1-373d-975b-f8e991e2f2a5",
+   "doi": "10.2307/697055",
+   "title": "The Loeb Plato, VII",
+   "author": "A. E. Taylor, R. G. Bury"
+  },
+  {
+   "book": "",
+   "page": 339,
+   "section": "d",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1930",
+   "iid": "cbc2c3d9-63e1-373d-975b-f8e991e2f2a5",
+   "doi": "10.2307/697055",
+   "title": "The Loeb Plato, VII",
+   "author": "A. E. Taylor, R. G. Bury"
+  },
+  {
+   "book": "",
+   "page": 359,
+   "section": "d",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1941",
+   "iid": "cdd26b51-cf5f-3273-aeca-c28358c4bca4",
+   "doi": "10.2307/263951",
+   "title": "IXΘ Υ EΣ  XOPEΥ TAI",
+   "author": "Lillian B. Lawler"
+  },
+  {
+   "book": "",
+   "page": 361,
+   "section": "e",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1980",
+   "iid": "cf10c947-3536-3b61-ab03-311f9876f0bb",
+   "doi": "10.2307/638142",
+   "title": "Black Zeus in Sophocles' Inachos",
+   "author": "Richard Seaford"
+  },
+  {
+   "book": "",
+   "page": 312,
+   "section": "e",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2001",
+   "iid": "cf030888-ddde-3002-a8f0-17c6ca610391",
+   "doi": "10.2307/24354673",
+   "title": "LA SCIENCE SUPRÊME SELON THÉMISTIUS",
+   "author": "Guy Guldentops"
+  },
+  {
+   "book": "",
+   "page": 331,
+   "section": "b",
+   "line": 6,
+   "journal": "The Classical Quarterly",
+   "year": "1991",
+   "iid": "ceb39a5e-4276-30b6-a31e-39f5fb5fef21",
+   "doi": "10.2307/638906",
+   "title": "Persuasion, Compulsion and Freedom in Plato's Laws",
+   "author": "Christopher Bobonich"
+  },
+  {
+   "book": "",
+   "page": 333,
+   "section": "e",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1969",
+   "iid": "d059b2e7-ff21-304b-a890-2296ba6041cc",
+   "doi": "10.2307/4181822",
+   "title": "Das Proömium des Parmenides und die \"Katabasis\" des Pythagoras",
+   "author": ""
+  },
+  {
+   "book": "",
+   "page": 327,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1936",
+   "iid": "d28ac884-ea97-31ba-aec7-3dacee3aba65",
+   "doi": "10.2307/637318",
+   "title": "Aristotle and the Koine-Notes on the Prepositions",
+   "author": "P. T. Stevens"
+  },
+  {
+   "book": "",
+   "page": 314,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1936",
+   "iid": "d28ac884-ea97-31ba-aec7-3dacee3aba65",
+   "doi": "10.2307/637318",
+   "title": "Aristotle and the Koine-Notes on the Prepositions",
+   "author": "P. T. Stevens"
+  },
+  {
+   "book": "",
+   "page": 348,
+   "section": "c",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1929",
+   "iid": "d3d9186d-d558-3daa-9550-fe664a61c530",
+   "doi": "10.2307/700513",
+   "title": "Socratic Letters",
+   "author": "A. E. Taylor, Liselotte Köhler"
+  },
+  {
+   "book": "",
+   "page": 319,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1929",
+   "iid": "d3d9186d-d558-3daa-9550-fe664a61c530",
+   "doi": "10.2307/700513",
+   "title": "Socratic Letters",
+   "author": "A. E. Taylor, Liselotte Köhler"
+  },
+  {
+   "book": "",
+   "page": 347,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1929",
+   "iid": "d3d9186d-d558-3daa-9550-fe664a61c530",
+   "doi": "10.2307/700513",
+   "title": "Socratic Letters",
+   "author": "A. E. Taylor, Liselotte Köhler"
+  },
+  {
+   "book": "",
+   "page": 344,
+   "section": "c",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1992",
+   "iid": "d3e5300d-2383-3337-956c-4e4ca9d6d7ab",
+   "doi": "10.2307/4182408",
+   "title": "Socrates and Plato",
+   "author": "Daniel W. Graham"
+  },
+  {
+   "book": "",
+   "page": 327,
+   "section": "b",
+   "line": 22,
+   "journal": "Phronesis",
+   "year": "2021",
+   "iid": "d9246404-3489-3510-9999-c7fec480e412",
+   "doi": "10.2307/27073983",
+   "title": "Mixture, Generation and the First <em>Aporia</em> of Aristotle's <em>GC</em> 1.10",
+   "author": "Andreas Anagnostopoulos"
+  },
+  {
+   "book": "",
+   "page": 329,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1913",
+   "iid": "da9417ee-1998-376f-98a6-ba2f1fb01094",
+   "doi": "10.2307/635563",
+   "title": "The Canonicity of Homer",
+   "author": "T. W. Allen"
+  },
+  {
+   "book": "",
+   "page": 331,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1980",
+   "iid": "ddadf67d-e90b-3101-8a78-ab33d7f60bb9",
+   "doi": "10.2307/269360",
+   "title": "The Order of the Dorian Phylai",
+   "author": "Nicholas F. Jones"
+  },
+  {
+   "book": "",
+   "page": 329,
+   "section": "e",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1935",
+   "iid": "dea7a909-60f3-3616-b76b-24f05a5d18f1",
+   "doi": "10.2307/264904",
+   "title": "<tex-math>$\\text{'}\\acute{{}}\\text{E}\\mu \\pi \\text{o}\\rho \\text{o}\\varsigma,\\ \\text{N}\\alpha \\acute{\\upsilon}\\kappa \\lambda \\eta \\rho \\text{o}\\varsigma $</tex-math>, and  Kάπ η λ oς : A Prolegomena to the Study of Athenian Trade",
+   "author": "Moses I. Finkelstein"
+  },
+  {
+   "book": "",
+   "page": 341,
+   "section": "b",
+   "line": 5,
+   "journal": "Méthexis",
+   "year": "1993",
+   "iid": "e0d2431e-4064-3a18-91b4-05dd9fc1a655",
+   "doi": "10.2307/43738404",
+   "title": "PLATONIC DIALECTIC AND THE TRUTH-STATUS OF THE UNWRITTEN DOCTRINES",
+   "author": "CHRISTOPHER GILL"
+  },
+  {
+   "book": "",
+   "page": 343,
+   "section": "d",
+   "line": 2,
+   "journal": "Méthexis",
+   "year": "1993",
+   "iid": "e0d2431e-4064-3a18-91b4-05dd9fc1a655",
+   "doi": "10.2307/43738404",
+   "title": "PLATONIC DIALECTIC AND THE TRUTH-STATUS OF THE UNWRITTEN DOCTRINES",
+   "author": "CHRISTOPHER GILL"
+  },
+  {
+   "book": "",
+   "page": 344,
+   "section": "a",
+   "line": 2,
+   "journal": "Méthexis",
+   "year": "1993",
+   "iid": "e0d2431e-4064-3a18-91b4-05dd9fc1a655",
+   "doi": "10.2307/43738404",
+   "title": "PLATONIC DIALECTIC AND THE TRUTH-STATUS OF THE UNWRITTEN DOCTRINES",
+   "author": "CHRISTOPHER GILL"
+  },
+  {
+   "book": "",
+   "page": 344,
+   "section": "b",
+   "line": 3,
+   "journal": "Méthexis",
+   "year": "1993",
+   "iid": "e0d2431e-4064-3a18-91b4-05dd9fc1a655",
+   "doi": "10.2307/43738404",
+   "title": "PLATONIC DIALECTIC AND THE TRUTH-STATUS OF THE UNWRITTEN DOCTRINES",
+   "author": "CHRISTOPHER GILL"
+  },
+  {
+   "book": "",
+   "page": 324,
+   "section": "d",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1985",
+   "iid": "e230efe7-eaeb-3d2c-99c9-d1a03b0cb324",
+   "doi": "10.2307/270163",
+   "title": "Review Article: A New Commentary on Euripides",
+   "author": "Godfrey W. Bond, R. Renehan"
+  },
+  {
+   "book": "",
+   "page": 341,
+   "section": "c",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1980",
+   "iid": "e4810216-1ae0-3237-bae2-5f98cab2557a",
+   "doi": "10.2307/4182081",
+   "title": "Plato's Enigmatic Lecture 'On the Good'",
+   "author": "Konrad Gaiser"
+  },
+  {
+   "book": "",
+   "page": 344,
+   "section": "d",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1980",
+   "iid": "e4810216-1ae0-3237-bae2-5f98cab2557a",
+   "doi": "10.2307/4182081",
+   "title": "Plato's Enigmatic Lecture 'On the Good'",
+   "author": "Konrad Gaiser"
+  },
+  {
+   "book": "",
+   "page": 342,
+   "section": "b",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "1987",
+   "iid": "e59cda17-cd13-3585-b027-685523d87379",
+   "doi": "10.2307/24353908",
+   "title": "LE \"SÊMEÎON\" DANS LE \"CRATYLE\"",
+   "author": "Monique Canto"
+  },
+  {
+   "book": "",
+   "page": 322,
+   "section": "d",
+   "line": 5,
+   "journal": "Phronesis",
+   "year": "1995",
+   "iid": "ea2ef17c-3fd0-3971-beaf-1a4dfc5a333d",
+   "doi": "10.2307/4182485",
+   "title": "Punishment in Plato's \"Protagoras\"",
+   "author": "R. F. Stalley"
+  },
+  {
+   "book": "",
+   "page": 323,
+   "section": "a",
+   "line": 4,
+   "journal": "Phronesis",
+   "year": "1995",
+   "iid": "ea2ef17c-3fd0-3971-beaf-1a4dfc5a333d",
+   "doi": "10.2307/4182485",
+   "title": "Punishment in Plato's \"Protagoras\"",
+   "author": "R. F. Stalley"
+  },
+  {
+   "book": "",
+   "page": 344,
+   "section": "d",
+   "line": 5,
+   "journal": "Classical Philology",
+   "year": "1974",
+   "iid": "f2bea351-7246-3c2f-be66-de27c75e8384",
+   "doi": "10.2307/268501",
+   "title": "Again-Plato's Seventh Letter",
+   "author": "Elizabeth Gwyn Caskey"
+  },
+  {
+   "book": "",
+   "page": 346,
+   "section": "a",
+   "line": 7,
+   "journal": "Classical Philology",
+   "year": "1974",
+   "iid": "f2bea351-7246-3c2f-be66-de27c75e8384",
+   "doi": "10.2307/268501",
+   "title": "Again-Plato's Seventh Letter",
+   "author": "Elizabeth Gwyn Caskey"
+  },
+  {
+   "book": "",
+   "page": 324,
+   "section": "d",
+   "line": 6,
+   "journal": "Méthexis",
+   "year": "2012",
+   "iid": "f4576455-49db-3991-9b63-e11a31a88154",
+   "doi": "10.2307/43738875",
+   "title": "Book Review : \n        Le vie della confutazione. I dialoghi socratici di Platone\n        \n          Laura\n          Candiotto\n        \n        \n          Lue\n          Brisson\n        \n        \n          Luigi Vero\n          Tarca",
+   "author": "Diego De Brasi, Laura Candiotto, Lue Brisson, Luigi Vero Tarca"
+  },
+  {
+   "book": "",
+   "page": 325,
+   "section": "c",
+   "line": 5,
+   "journal": "Méthexis",
+   "year": "2012",
+   "iid": "f4576455-49db-3991-9b63-e11a31a88154",
+   "doi": "10.2307/43738875",
+   "title": "Book Review : \n        Le vie della confutazione. I dialoghi socratici di Platone\n        \n          Laura\n          Candiotto\n        \n        \n          Lue\n          Brisson\n        \n        \n          Luigi Vero\n          Tarca",
+   "author": "Diego De Brasi, Laura Candiotto, Lue Brisson, Luigi Vero Tarca"
+  },
+  {
+   "book": "",
+   "page": 342,
+   "section": "a",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1980",
+   "iid": "f6773d82-6102-3f79-9b40-a50839eac720",
+   "doi": "10.2307/4182082",
+   "title": "Plato's Semantics and Plato's \"Parmenides\"",
+   "author": "Thomas Wheaton Bestor"
+  },
+  {
+   "book": "",
+   "page": 313,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1938",
+   "iid": "f48273b1-78db-3b0f-b290-5f3911065fca",
+   "doi": "10.2307/636955",
+   "title": "A New Collation of the Text of Euripides in the Jerusalem Palimpsest",
+   "author": "J. A. Spranger"
+  },
+  {
+   "book": "",
+   "page": 340,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1938",
+   "iid": "f48273b1-78db-3b0f-b290-5f3911065fca",
+   "doi": "10.2307/636955",
+   "title": "A New Collation of the Text of Euripides in the Jerusalem Palimpsest",
+   "author": "J. A. Spranger"
+  },
+  {
+   "book": "",
+   "page": 357,
+   "section": "e",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "2006",
+   "iid": "fd715429-ac9a-38e7-b913-c4b25312c91e",
+   "doi": "10.2307/4182805",
+   "title": "Akrasia in the \"Protagoras\" and the \"Republic\"",
+   "author": "Michael Morris"
+  },
+  {
+   "book": "",
+   "page": 358,
+   "section": "a",
+   "line": 5,
+   "journal": "Phronesis",
+   "year": "2006",
+   "iid": "fd715429-ac9a-38e7-b913-c4b25312c91e",
+   "doi": "10.2307/4182805",
+   "title": "Akrasia in the \"Protagoras\" and the \"Republic\"",
+   "author": "Michael Morris"
+  },
+  {
+   "book": "",
+   "page": 358,
+   "section": "c",
+   "line": 3,
+   "journal": "Phronesis",
+   "year": "2006",
+   "iid": "fd715429-ac9a-38e7-b913-c4b25312c91e",
+   "doi": "10.2307/4182805",
+   "title": "Akrasia in the \"Protagoras\" and the \"Republic\"",
+   "author": "Michael Morris"
+  },
+  {
+   "book": "",
+   "page": 358,
+   "section": "c",
+   "line": 6,
+   "journal": "Phronesis",
+   "year": "2006",
+   "iid": "fd715429-ac9a-38e7-b913-c4b25312c91e",
+   "doi": "10.2307/4182805",
+   "title": "Akrasia in the \"Protagoras\" and the \"Republic\"",
+   "author": "Michael Morris"
+  },
+  {
+   "book": "",
+   "page": 358,
+   "section": "d",
+   "line": 4,
+   "journal": "Phronesis",
+   "year": "2006",
+   "iid": "fd715429-ac9a-38e7-b913-c4b25312c91e",
+   "doi": "10.2307/4182805",
+   "title": "Akrasia in the \"Protagoras\" and the \"Republic\"",
+   "author": "Michael Morris"
+  },
+  {
+   "book": "",
+   "page": 358,
+   "section": "e",
+   "line": 6,
+   "journal": "Phronesis",
+   "year": "2006",
+   "iid": "fd715429-ac9a-38e7-b913-c4b25312c91e",
+   "doi": "10.2307/4182805",
+   "title": "Akrasia in the \"Protagoras\" and the \"Republic\"",
+   "author": "Michael Morris"
+  },
+  {
+   "book": "",
+   "page": 358,
+   "section": "a",
+   "line": 4,
+   "journal": "Phronesis",
+   "year": "2006",
+   "iid": "fd715429-ac9a-38e7-b913-c4b25312c91e",
+   "doi": "10.2307/4182805",
+   "title": "Akrasia in the \"Protagoras\" and the \"Republic\"",
+   "author": "Michael Morris"
+  },
+  {
+   "book": "",
+   "page": 358,
+   "section": "b",
+   "line": 2,
+   "journal": "Phronesis",
+   "year": "2006",
+   "iid": "fd715429-ac9a-38e7-b913-c4b25312c91e",
+   "doi": "10.2307/4182805",
+   "title": "Akrasia in the \"Protagoras\" and the \"Republic\"",
+   "author": "Michael Morris"
+  },
+  {
+   "book": "",
+   "page": 358,
+   "section": "b",
+   "line": 6,
+   "journal": "Phronesis",
+   "year": "2006",
+   "iid": "fd715429-ac9a-38e7-b913-c4b25312c91e",
+   "doi": "10.2307/4182805",
+   "title": "Akrasia in the \"Protagoras\" and the \"Republic\"",
+   "author": "Michael Morris"
+  }
+ ]
+}

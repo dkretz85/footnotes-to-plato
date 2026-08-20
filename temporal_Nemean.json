@@ -1,0 +1,554 @@
+{
+ "work": "Nemean",
+ "system": "pindar",
+ "bin_years": 5,
+ "grain": "passage",
+ "journals_filter": "all",
+ "movers_min_articles": 15,
+ "n_passages_tested": 8,
+ "n_significant_movers": 0,
+ "n_significant_movers_fdr": 0,
+ "n_movers_expected_by_chance": 0.4,
+ "n_citations": 2620,
+ "n_articles": 538,
+ "n_passages": 693,
+ "year_range": [
+  1834,
+  2022
+ ],
+ "split_year": 1998,
+ "shape_change": {
+  "spearman_rho": 0.1868,
+  "tvd": 0.4223,
+  "n_passages_compared": 693,
+  "early_article_incidences": 1308,
+  "late_article_incidences": 1312,
+  "null": {
+   "n_perm": 200,
+   "rho_mean": 0.2418,
+   "rho_sd": 0.0257,
+   "tvd_mean": 0.3916,
+   "tvd_sd": 0.0118,
+   "rho_z": -2.14,
+   "tvd_z": 2.6,
+   "tvd_percentile": 98.5
+  }
+ },
+ "sparsity": {
+  "cell_article_hist": {
+   "3-4": 82,
+   "2": 317,
+   "1": 1692,
+   "5+": 6
+  },
+  "drawable_passages": {
+   "ge5": 204,
+   "ge10": 35,
+   "ge20": 3
+  }
+ },
+ "bin_totals": {
+  "1830": 1,
+  "1905": 2,
+  "1935": 1,
+  "1940": 1,
+  "1945": 43,
+  "1950": 28,
+  "1955": 37,
+  "1960": 24,
+  "1965": 77,
+  "1970": 49,
+  "1975": 133,
+  "1980": 149,
+  "1985": 279,
+  "1990": 349,
+  "1995": 179,
+  "2000": 246,
+  "2005": 268,
+  "2010": 285,
+  "2015": 293,
+  "2020": 176
+ },
+ "top_passages": [
+  {
+   "passage": "2.1",
+   "book": "2",
+   "total_articles": 21,
+   "by_bin": {
+    "1950": 3,
+    "1955": 1,
+    "1960": 1,
+    "1975": 2,
+    "1990": 2,
+    "1995": 2,
+    "2000": 1,
+    "2005": 2,
+    "2010": 3,
+    "2015": 4
+   }
+  },
+  {
+   "passage": "7.23",
+   "book": "7",
+   "total_articles": 21,
+   "by_bin": {
+    "1960": 1,
+    "1965": 2,
+    "1970": 1,
+    "1975": 1,
+    "1990": 2,
+    "1995": 1,
+    "2000": 2,
+    "2005": 5,
+    "2010": 5,
+    "2015": 1
+   }
+  },
+  {
+   "passage": "7.21",
+   "book": "7",
+   "total_articles": 21,
+   "by_bin": {
+    "1965": 2,
+    "1970": 2,
+    "1975": 1,
+    "1980": 1,
+    "1985": 1,
+    "1990": 2,
+    "1995": 1,
+    "2000": 2,
+    "2005": 4,
+    "2010": 5
+   }
+  },
+  {
+   "passage": "5.1",
+   "book": "5",
+   "total_articles": 18,
+   "by_bin": {
+    "1955": 1,
+    "1970": 1,
+    "1985": 2,
+    "1990": 4,
+    "1995": 2,
+    "2000": 3,
+    "2005": 1,
+    "2010": 1,
+    "2015": 3
+   }
+  },
+  {
+   "passage": "7.22",
+   "book": "7",
+   "total_articles": 18,
+   "by_bin": {
+    "1965": 2,
+    "1975": 3,
+    "1990": 2,
+    "1995": 1,
+    "2000": 1,
+    "2005": 4,
+    "2010": 5
+   }
+  },
+  {
+   "passage": "5.2",
+   "book": "5",
+   "total_articles": 17,
+   "by_bin": {
+    "1975": 2,
+    "1985": 2,
+    "1990": 3,
+    "1995": 2,
+    "2000": 3,
+    "2005": 1,
+    "2010": 1,
+    "2015": 3
+   }
+  },
+  {
+   "passage": "7.30",
+   "book": "7",
+   "total_articles": 16,
+   "by_bin": {
+    "1945": 1,
+    "1965": 1,
+    "1970": 1,
+    "1975": 2,
+    "1985": 2,
+    "1990": 2,
+    "2000": 1,
+    "2005": 3,
+    "2010": 2,
+    "2015": 1
+   }
+  },
+  {
+   "passage": "7.20",
+   "book": "7",
+   "total_articles": 15,
+   "by_bin": {
+    "1965": 2,
+    "1975": 1,
+    "1980": 1,
+    "1990": 1,
+    "1995": 1,
+    "2000": 1,
+    "2005": 3,
+    "2010": 5
+   }
+  },
+  {
+   "passage": "2.2",
+   "book": "2",
+   "total_articles": 13,
+   "by_bin": {
+    "1965": 1,
+    "1975": 1,
+    "1990": 1,
+    "1995": 2,
+    "2005": 3,
+    "2010": 2,
+    "2015": 3
+   }
+  },
+  {
+   "passage": "6.1",
+   "book": "6",
+   "total_articles": 13,
+   "by_bin": {
+    "1950": 1,
+    "1960": 2,
+    "1970": 2,
+    "1980": 2,
+    "2000": 1,
+    "2005": 3,
+    "2010": 1,
+    "2015": 1
+   }
+  },
+  {
+   "passage": "5.3",
+   "book": "5",
+   "total_articles": 13,
+   "by_bin": {
+    "1975": 1,
+    "1985": 1,
+    "1990": 3,
+    "1995": 1,
+    "2000": 2,
+    "2005": 1,
+    "2010": 1,
+    "2015": 2,
+    "2020": 1
+   }
+  },
+  {
+   "passage": "8.21",
+   "book": "8",
+   "total_articles": 12,
+   "by_bin": {
+    "1980": 1,
+    "1985": 4,
+    "1990": 1,
+    "1995": 1,
+    "2000": 1,
+    "2005": 1,
+    "2015": 2,
+    "2020": 1
+   }
+  },
+  {
+   "passage": "5.5",
+   "book": "5",
+   "total_articles": 12,
+   "by_bin": {
+    "1975": 1,
+    "1985": 1,
+    "1990": 2,
+    "1995": 1,
+    "2000": 2,
+    "2005": 1,
+    "2015": 3,
+    "2020": 1
+   }
+  },
+  {
+   "passage": "8.32",
+   "book": "8",
+   "total_articles": 12,
+   "by_bin": {
+    "1950": 1,
+    "1975": 1,
+    "1985": 5,
+    "1990": 2,
+    "1995": 1,
+    "2005": 1,
+    "2010": 1
+   }
+  },
+  {
+   "passage": "3.22",
+   "book": "3",
+   "total_articles": 12,
+   "by_bin": {
+    "1965": 1,
+    "1970": 1,
+    "1975": 1,
+    "1980": 1,
+    "1985": 1,
+    "1995": 1,
+    "2000": 1,
+    "2005": 2,
+    "2010": 1,
+    "2020": 2
+   }
+  },
+  {
+   "passage": "5.25",
+   "book": "5",
+   "total_articles": 11,
+   "by_bin": {
+    "1980": 2,
+    "1990": 2,
+    "2010": 2,
+    "2015": 4,
+    "2020": 1
+   }
+  },
+  {
+   "passage": "5.24",
+   "book": "5",
+   "total_articles": 11,
+   "by_bin": {
+    "1975": 1,
+    "1980": 1,
+    "1990": 2,
+    "2010": 3,
+    "2015": 3,
+    "2020": 1
+   }
+  },
+  {
+   "passage": "8.25",
+   "book": "8",
+   "total_articles": 11,
+   "by_bin": {
+    "1950": 1,
+    "1985": 4,
+    "1990": 1,
+    "1995": 2,
+    "2005": 1,
+    "2015": 1,
+    "2020": 1
+   }
+  },
+  {
+   "passage": "7.24",
+   "book": "7",
+   "total_articles": 11,
+   "by_bin": {
+    "1965": 1,
+    "1975": 1,
+    "2000": 1,
+    "2005": 3,
+    "2010": 4,
+    "2015": 1
+   }
+  },
+  {
+   "passage": "7.25",
+   "book": "7",
+   "total_articles": 11,
+   "by_bin": {
+    "1965": 2,
+    "1975": 1,
+    "1985": 1,
+    "2000": 1,
+    "2005": 3,
+    "2010": 2,
+    "2015": 1
+   }
+  },
+  {
+   "passage": "7.71",
+   "book": "7",
+   "total_articles": 11,
+   "by_bin": {
+    "1945": 1,
+    "1955": 1,
+    "1965": 2,
+    "1970": 1,
+    "1985": 1,
+    "1990": 1,
+    "1995": 1,
+    "2005": 1,
+    "2020": 2
+   }
+  },
+  {
+   "passage": "5.4",
+   "book": "5",
+   "total_articles": 11,
+   "by_bin": {
+    "1975": 1,
+    "1985": 1,
+    "1990": 2,
+    "1995": 1,
+    "2000": 2,
+    "2005": 1,
+    "2015": 2,
+    "2020": 1
+   }
+  },
+  {
+   "passage": "8.19",
+   "book": "8",
+   "total_articles": 11,
+   "by_bin": {
+    "1955": 1,
+    "1985": 4,
+    "1990": 1,
+    "1995": 1,
+    "2005": 1,
+    "2010": 1,
+    "2020": 2
+   }
+  },
+  {
+   "passage": "5.23",
+   "book": "5",
+   "total_articles": 11,
+   "by_bin": {
+    "1980": 1,
+    "1990": 1,
+    "2000": 2,
+    "2010": 2,
+    "2015": 3,
+    "2020": 2
+   }
+  },
+  {
+   "passage": "7.102",
+   "book": "7",
+   "total_articles": 11,
+   "by_bin": {
+    "1970": 1,
+    "1975": 2,
+    "1980": 1,
+    "1995": 2,
+    "2000": 2,
+    "2005": 1,
+    "2010": 1,
+    "2020": 1
+   }
+  }
+ ],
+ "top_movers": [
+  {
+   "passage": "7.23",
+   "book": "7",
+   "early_share": 0.0061,
+   "late_share": 0.0099,
+   "delta": 0.0038,
+   "early_articles": 8,
+   "late_articles": 13,
+   "p_value": 0.353,
+   "q_value": 1.0,
+   "significant": false,
+   "significant_fdr": false
+  },
+  {
+   "passage": "7.20",
+   "book": "7",
+   "early_share": 0.0046,
+   "late_share": 0.0069,
+   "delta": 0.0023,
+   "early_articles": 6,
+   "late_articles": 9,
+   "p_value": 0.637,
+   "q_value": 1.0,
+   "significant": false,
+   "significant_fdr": false
+  },
+  {
+   "passage": "5.1",
+   "book": "5",
+   "early_share": 0.0076,
+   "late_share": 0.0061,
+   "delta": -0.0015,
+   "early_articles": 10,
+   "late_articles": 8,
+   "p_value": 0.652,
+   "q_value": 1.0,
+   "significant": false,
+   "significant_fdr": false
+  },
+  {
+   "passage": "7.22",
+   "book": "7",
+   "early_share": 0.0061,
+   "late_share": 0.0076,
+   "delta": 0.0015,
+   "early_articles": 8,
+   "late_articles": 10,
+   "p_value": 0.811,
+   "q_value": 1.0,
+   "significant": false,
+   "significant_fdr": false
+  },
+  {
+   "passage": "7.30",
+   "book": "7",
+   "early_share": 0.0069,
+   "late_share": 0.0053,
+   "delta": -0.0015,
+   "early_articles": 9,
+   "late_articles": 7,
+   "p_value": 0.592,
+   "q_value": 1.0,
+   "significant": false,
+   "significant_fdr": false
+  },
+  {
+   "passage": "5.2",
+   "book": "5",
+   "early_share": 0.0069,
+   "late_share": 0.0061,
+   "delta": -0.0008,
+   "early_articles": 9,
+   "late_articles": 8,
+   "p_value": 0.821,
+   "q_value": 1.0,
+   "significant": false,
+   "significant_fdr": false
+  },
+  {
+   "passage": "2.1",
+   "book": "2",
+   "early_share": 0.0076,
+   "late_share": 0.0084,
+   "delta": 0.0007,
+   "early_articles": 10,
+   "late_articles": 11,
+   "p_value": 1.0,
+   "q_value": 1.0,
+   "significant": false,
+   "significant_fdr": false
+  },
+  {
+   "passage": "7.21",
+   "book": "7",
+   "early_share": 0.0076,
+   "late_share": 0.0084,
+   "delta": 0.0007,
+   "early_articles": 10,
+   "late_articles": 11,
+   "p_value": 1.0,
+   "q_value": 1.0,
+   "significant": false,
+   "significant_fdr": false
+  }
+ ],
+ "focus": {}
+}

@@ -1,22 +1,93 @@
 {
  "work": "Theages",
  "faceted": false,
+ "system": "stephanus",
  "tier": "trustworthy",
  "cells": [
   {
    "book": "",
-   "page": 122,
-   "section": "a",
+   "page": 121,
+   "section": "c",
+   "band": 0,
    "count": 1,
    "articles": 1,
    "by_journal": {
-    "Classical Philology": 1
+    "Journal of Biblical Literature": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 121,
+   "section": "d",
+   "band": 0,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Hermes": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 122,
+   "section": "a",
+   "band": 0,
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Classical Philology": 1,
+    "The American Journal of Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 122,
+   "section": "c",
+   "band": 0,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Mnemosyne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 122,
+   "section": "d",
+   "band": 0,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical World": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 122,
+   "section": "e",
+   "band": 0,
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "The American Journal of Philology": 1,
+    "Harvard Studies in Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 123,
+   "section": "b",
+   "band": 0,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Mnemosyne": 1
    }
   },
   {
    "book": "",
    "page": 123,
    "section": "d",
+   "band": 0,
    "count": 2,
    "articles": 2,
    "by_journal": {
@@ -25,8 +96,20 @@
   },
   {
    "book": "",
+   "page": 123,
+   "section": "e",
+   "band": 0,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
    "page": 124,
    "section": "b",
+   "band": 0,
    "count": 1,
    "articles": 1,
    "by_journal": {
@@ -37,6 +120,7 @@
    "book": "",
    "page": 124,
    "section": "c",
+   "band": 0,
    "count": 1,
    "articles": 1,
    "by_journal": {
@@ -45,8 +129,20 @@
   },
   {
    "book": "",
+   "page": 124,
+   "section": "d",
+   "band": 0,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Hermes": 1
+   }
+  },
+  {
+   "book": "",
    "page": 125,
    "section": "a",
+   "band": 0,
    "count": 1,
    "articles": 1,
    "by_journal": {
@@ -55,8 +151,59 @@
   },
   {
    "book": "",
+   "page": 125,
+   "section": "b",
+   "band": 0,
+   "count": 4,
+   "articles": 3,
+   "by_journal": {
+    "Illinois Classical Studies": 2,
+    "Hermes": 1,
+    "Rheinisches Museum für Philologie": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 125,
+   "section": "c",
+   "band": 0,
+   "count": 4,
+   "articles": 3,
+   "by_journal": {
+    "Illinois Classical Studies": 2,
+    "Hermes": 1,
+    "Mnemosyne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 125,
+   "section": "d",
+   "band": 0,
+   "count": 5,
+   "articles": 4,
+   "by_journal": {
+    "Hermes": 3,
+    "Illinois Classical Studies": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 125,
+   "section": "e",
+   "band": 0,
+   "count": 5,
+   "articles": 2,
+   "by_journal": {
+    "Hermes": 3,
+    "The American Journal of Philology": 2
+   }
+  },
+  {
+   "book": "",
    "page": 126,
    "section": "d",
+   "band": 0,
    "count": 1,
    "articles": 1,
    "by_journal": {
@@ -66,7 +213,31 @@
   {
    "book": "",
    "page": 127,
+   "section": "a",
+   "band": 0,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Rheinisches Museum für Philologie": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 127,
    "section": "b",
+   "band": 0,
+   "count": 3,
+   "articles": 2,
+   "by_journal": {
+    "Classical Philology": 2,
+    "The Harvard Theological Review": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 127,
+   "section": "c",
+   "band": 0,
    "count": 2,
    "articles": 1,
    "by_journal": {
@@ -76,127 +247,231 @@
   {
    "book": "",
    "page": 127,
-   "section": "c",
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Classical Philology": 1
-   }
-  },
-  {
-   "book": "",
-   "page": 127,
    "section": "e",
-   "count": 1,
-   "articles": 1,
+   "band": 0,
+   "count": 4,
+   "articles": 3,
    "by_journal": {
-    "The Classical Quarterly": 1
+    "The Classical Quarterly": 1,
+    "Classical Antiquity": 2,
+    "Mnemosyne": 1
    }
   },
   {
    "book": "",
    "page": 128,
    "section": "a",
-   "count": 1,
-   "articles": 1,
+   "band": 0,
+   "count": 4,
+   "articles": 3,
    "by_journal": {
-    "Classical Philology": 1
+    "Classical Philology": 1,
+    "Classical Antiquity": 2,
+    "Mnemosyne": 1
    }
   },
   {
    "book": "",
    "page": 128,
    "section": "b",
-   "count": 3,
-   "articles": 2,
+   "band": 0,
+   "count": 8,
+   "articles": 7,
    "by_journal": {
     "History of Philosophy Quarterly": 1,
-    "Méthexis": 2
+    "Méthexis": 2,
+    "Classical Antiquity": 1,
+    "The American Journal of Philology": 1,
+    "The Classical World": 2,
+    "Novum Testamentum": 1
    }
   },
   {
    "book": "",
    "page": 128,
    "section": "c",
-   "count": 2,
-   "articles": 1,
+   "band": 0,
+   "count": 3,
+   "articles": 2,
    "by_journal": {
-    "History of Philosophy Quarterly": 2
+    "History of Philosophy Quarterly": 2,
+    "The American Journal of Philology": 1
    }
   },
   {
    "book": "",
    "page": 128,
    "section": "d",
-   "count": 8,
-   "articles": 3,
+   "band": 0,
+   "count": 16,
+   "articles": 11,
    "by_journal": {
     "History of Philosophy Quarterly": 1,
     "Classical Philology": 1,
-    "The Classical Quarterly": 6
+    "The Classical Quarterly": 6,
+    "The American Journal of Philology": 3,
+    "Mnemosyne": 1,
+    "Rheinisches Museum für Philologie": 1,
+    "The Harvard Theological Review": 1,
+    "Vigiliae Christianae": 1,
+    "Hermes": 1
    }
   },
   {
    "book": "",
    "page": 128,
    "section": "e",
-   "count": 1,
-   "articles": 1,
+   "band": 0,
+   "count": 6,
+   "articles": 6,
    "by_journal": {
-    "Classical Philology": 1
+    "Classical Philology": 2,
+    "The American Journal of Philology": 1,
+    "Mnemosyne": 1,
+    "Hermes": 1,
+    "The Harvard Theological Review": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 129,
+   "section": "a",
+   "band": 0,
+   "count": 4,
+   "articles": 3,
+   "by_journal": {
+    "Mnemosyne": 1,
+    "Rheinisches Museum für Philologie": 2,
+    "Hermes": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 129,
+   "section": "b",
+   "band": 0,
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "Mnemosyne": 1,
+    "Classical Antiquity": 1,
+    "Hermes": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 129,
+   "section": "c",
+   "band": 0,
+   "count": 4,
+   "articles": 3,
+   "by_journal": {
+    "Mnemosyne": 1,
+    "Rheinisches Museum für Philologie": 2,
+    "Hermes": 1
    }
   },
   {
    "book": "",
    "page": 129,
    "section": "d",
-   "count": 2,
-   "articles": 2,
+   "band": 0,
+   "count": 6,
+   "articles": 6,
    "by_journal": {
     "The Classical Quarterly": 1,
-    "Phronesis": 1
+    "Phronesis": 1,
+    "Mnemosyne": 2,
+    "Rheinisches Museum für Philologie": 1,
+    "Journal of Biblical Literature": 1
    }
   },
   {
    "book": "",
    "page": 129,
    "section": "e",
-   "count": 6,
-   "articles": 3,
+   "band": 0,
+   "count": 11,
+   "articles": 6,
    "by_journal": {
     "History of Philosophy Quarterly": 3,
-    "Classical Philology": 3
+    "Classical Philology": 2,
+    "The American Journal of Philology": 3,
+    "Mnemosyne": 1,
+    "Classical Antiquity": 2
    }
   },
   {
    "book": "",
    "page": 130,
    "section": "a",
-   "count": 2,
-   "articles": 2,
+   "band": 0,
+   "count": 10,
+   "articles": 7,
    "by_journal": {
     "Méthexis": 1,
-    "Classical Philology": 1
+    "Classical Philology": 1,
+    "Classical Antiquity": 2,
+    "The American Journal of Philology": 4,
+    "Mnemosyne": 1,
+    "Transactions of the American Philological Association (1974-2014)": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 130,
+   "section": "b",
+   "band": 0,
+   "count": 7,
+   "articles": 6,
+   "by_journal": {
+    "Classical Philology": 1,
+    "Classical Antiquity": 1,
+    "The American Journal of Philology": 2,
+    "Mnemosyne": 2,
+    "Hermes": 1
    }
   },
   {
    "book": "",
    "page": 130,
    "section": "c",
-   "count": 1,
-   "articles": 1,
+   "band": 0,
+   "count": 4,
+   "articles": 3,
    "by_journal": {
-    "Classical Philology": 1
+    "Classical Philology": 2,
+    "Classical Antiquity": 1,
+    "The American Journal of Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 130,
+   "section": "d",
+   "band": 0,
+   "count": 5,
+   "articles": 3,
+   "by_journal": {
+    "Classical Philology": 1,
+    "Classical Antiquity": 1,
+    "The American Journal of Philology": 3
    }
   },
   {
    "book": "",
    "page": 130,
    "section": "e",
-   "count": 2,
-   "articles": 1,
+   "band": 0,
+   "count": 10,
+   "articles": 6,
    "by_journal": {
-    "History of Philosophy Quarterly": 2
+    "History of Philosophy Quarterly": 2,
+    "Classical Philology": 1,
+    "Classical Antiquity": 2,
+    "The American Journal of Philology": 3,
+    "Mnemosyne": 1,
+    "Illinois Classical Studies": 1
    }
   }
  ],
@@ -215,8 +490,8 @@
   },
   {
    "book": "",
-   "page": 124,
-   "section": "c",
+   "page": 130,
+   "section": "a",
    "line": null,
    "journal": "Méthexis",
    "year": "1992",
@@ -227,8 +502,8 @@
   },
   {
    "book": "",
-   "page": 130,
-   "section": "a",
+   "page": 124,
+   "section": "c",
    "line": null,
    "journal": "Méthexis",
    "year": "1992",
@@ -336,32 +611,32 @@
   {
    "book": "",
    "page": 127,
+   "section": "b",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2011",
+   "iid": "2ba2a36d-7ee6-3c90-8aed-1191264da7e6",
+   "doi": "10.1086/661544",
+   "title": "Doctrine, Anecdote, and Action: Reconsidering the Social\nHistory of the Last Platonists (c. 430–c. 550 C.E.)",
+   "author": "Edward Watts"
+  },
+  {
+   "book": "",
+   "page": 127,
+   "section": "c",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2011",
+   "iid": "2ba2a36d-7ee6-3c90-8aed-1191264da7e6",
+   "doi": "10.1086/661544",
+   "title": "Doctrine, Anecdote, and Action: Reconsidering the Social\nHistory of the Last Platonists (c. 430–c. 550 C.E.)",
+   "author": "Edward Watts"
+  },
+  {
+   "book": "",
+   "page": 127,
    "section": "c",
    "line": 3,
-   "journal": "Classical Philology",
-   "year": "2011",
-   "iid": "2ba2a36d-7ee6-3c90-8aed-1191264da7e6",
-   "doi": "10.1086/661544",
-   "title": "Doctrine, Anecdote, and Action: Reconsidering the Social\nHistory of the Last Platonists (c. 430–c. 550 C.E.)",
-   "author": "Edward Watts"
-  },
-  {
-   "book": "",
-   "page": 127,
-   "section": "b",
-   "line": 7,
-   "journal": "Classical Philology",
-   "year": "2011",
-   "iid": "2ba2a36d-7ee6-3c90-8aed-1191264da7e6",
-   "doi": "10.1086/661544",
-   "title": "Doctrine, Anecdote, and Action: Reconsidering the Social\nHistory of the Last Platonists (c. 430–c. 550 C.E.)",
-   "author": "Edward Watts"
-  },
-  {
-   "book": "",
-   "page": 127,
-   "section": "b",
-   "line": 8,
    "journal": "Classical Philology",
    "year": "2011",
    "iid": "2ba2a36d-7ee6-3c90-8aed-1191264da7e6",
@@ -397,6 +672,18 @@
    "book": "",
    "page": 128,
    "section": "d",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2011",
+   "iid": "645722b9-fbed-38b4-a1fa-e1a28d9bb5ec",
+   "doi": "10.1086/661542",
+   "title": "Socrates and the True Political Craft",
+   "author": "J. Clerk Shaw"
+  },
+  {
+   "book": "",
+   "page": 128,
+   "section": "e",
    "line": null,
    "journal": "Classical Philology",
    "year": "2011",
@@ -455,6 +742,54 @@
   },
   {
    "book": "",
+   "page": 130,
+   "section": "b",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2011",
+   "iid": "645722b9-fbed-38b4-a1fa-e1a28d9bb5ec",
+   "doi": "10.1086/661542",
+   "title": "Socrates and the True Political Craft",
+   "author": "J. Clerk Shaw"
+  },
+  {
+   "book": "",
+   "page": 130,
+   "section": "c",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2011",
+   "iid": "645722b9-fbed-38b4-a1fa-e1a28d9bb5ec",
+   "doi": "10.1086/661542",
+   "title": "Socrates and the True Political Craft",
+   "author": "J. Clerk Shaw"
+  },
+  {
+   "book": "",
+   "page": 130,
+   "section": "d",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2011",
+   "iid": "645722b9-fbed-38b4-a1fa-e1a28d9bb5ec",
+   "doi": "10.1086/661542",
+   "title": "Socrates and the True Political Craft",
+   "author": "J. Clerk Shaw"
+  },
+  {
+   "book": "",
+   "page": 130,
+   "section": "e",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2011",
+   "iid": "645722b9-fbed-38b4-a1fa-e1a28d9bb5ec",
+   "doi": "10.1086/661542",
+   "title": "Socrates and the True Political Craft",
+   "author": "J. Clerk Shaw"
+  },
+  {
+   "book": "",
    "page": 125,
    "section": "a",
    "line": null,
@@ -503,15 +838,15 @@
   },
   {
    "book": "",
-   "page": 129,
+   "page": 123,
    "section": "e",
    "line": null,
    "journal": "Classical Philology",
-   "year": "2011",
-   "iid": "8f2b9140-5fb6-3a92-a734-7f33847daacf",
-   "doi": "10.1086/662042",
-   "title": "Don’t Blame Socrates (Xen. <em>Mem</em>. 1.2.40–46)",
-   "author": "Kirk R. Sanders"
+   "year": "2009",
+   "iid": "8593e90b-749e-30b1-a195-6a15ceded5bb",
+   "doi": "10.1086/603569",
+   "title": "Wisdom for Sale? The Sophists and Money",
+   "author": "Håkan Tell"
   },
   {
    "book": "",
@@ -584,6 +919,1098 @@
    "doi": "10.2307/48807132",
    "title": "DELIBERATION IN ANCIENT GREEK ASSEMBLIES",
    "author": "DANIELA CAMMACK"
+  },
+  {
+   "book": "",
+   "page": 121,
+   "section": "d",
+   "line": null,
+   "journal": "Hermes",
+   "year": "1903",
+   "iid": "11a023c1-9801-35c8-8a3f-44eb1882981d",
+   "doi": "10.2307/4472918",
+   "title": "Beitraege zur Textgeschichte und Kritik der Philonischen Schriften",
+   "author": "Leopold Cohn"
+  },
+  {
+   "book": "",
+   "page": 125,
+   "section": "d",
+   "line": null,
+   "journal": "Hermes",
+   "year": "1990",
+   "iid": "27e9f529-3533-335b-86b5-e1770de20a10",
+   "doi": "10.2307/4476741",
+   "title": "Anacreon Fr. 449 (P.M.G.)",
+   "author": "Mark A. Joyal"
+  },
+  {
+   "book": "",
+   "page": 125,
+   "section": "e",
+   "line": null,
+   "journal": "Hermes",
+   "year": "1990",
+   "iid": "27e9f529-3533-335b-86b5-e1770de20a10",
+   "doi": "10.2307/4476741",
+   "title": "Anacreon Fr. 449 (P.M.G.)",
+   "author": "Mark A. Joyal"
+  },
+  {
+   "book": "",
+   "page": 125,
+   "section": "e",
+   "line": 2,
+   "journal": "Hermes",
+   "year": "1990",
+   "iid": "27e9f529-3533-335b-86b5-e1770de20a10",
+   "doi": "10.2307/4476741",
+   "title": "Anacreon Fr. 449 (P.M.G.)",
+   "author": "Mark A. Joyal"
+  },
+  {
+   "book": "",
+   "page": 125,
+   "section": "e",
+   "line": 4,
+   "journal": "Hermes",
+   "year": "1990",
+   "iid": "27e9f529-3533-335b-86b5-e1770de20a10",
+   "doi": "10.2307/4476741",
+   "title": "Anacreon Fr. 449 (P.M.G.)",
+   "author": "Mark A. Joyal"
+  },
+  {
+   "book": "",
+   "page": 128,
+   "section": "b",
+   "line": 2,
+   "journal": "Classical Antiquity",
+   "year": "2010",
+   "iid": "331be7d2-3259-3299-b755-cd6d18ce3cc7",
+   "doi": "10.1525/ca.2010.29.2.181",
+   "title": "“Socratic Therapy” from Aeschines of Sphettus to Lacan",
+   "author": "Kurt Lampe"
+  },
+  {
+   "book": "",
+   "page": 130,
+   "section": "a",
+   "line": 4,
+   "journal": "Classical Antiquity",
+   "year": "2010",
+   "iid": "331be7d2-3259-3299-b755-cd6d18ce3cc7",
+   "doi": "10.1525/ca.2010.29.2.181",
+   "title": "“Socratic Therapy” from Aeschines of Sphettus to Lacan",
+   "author": "Kurt Lampe"
+  },
+  {
+   "book": "",
+   "page": 128,
+   "section": "d",
+   "line": 3,
+   "journal": "The American Journal of Philology",
+   "year": "2014",
+   "iid": "34a26e32-0f29-3bb0-ae9c-911a264fa55d",
+   "doi": "10.2307/24560258",
+   "title": "VOICE OR VISION? SOCRATES' DIVINE SIGN AND HOMERIC EPIPHANY IN LATE PLATONISM AND BEYOND",
+   "author": "Geert Roskam"
+  },
+  {
+   "book": "",
+   "page": 128,
+   "section": "e",
+   "line": 3,
+   "journal": "The American Journal of Philology",
+   "year": "2014",
+   "iid": "34a26e32-0f29-3bb0-ae9c-911a264fa55d",
+   "doi": "10.2307/24560258",
+   "title": "VOICE OR VISION? SOCRATES' DIVINE SIGN AND HOMERIC EPIPHANY IN LATE PLATONISM AND BEYOND",
+   "author": "Geert Roskam"
+  },
+  {
+   "book": "",
+   "page": 129,
+   "section": "e",
+   "line": null,
+   "journal": "The American Journal of Philology",
+   "year": "2014",
+   "iid": "34a26e32-0f29-3bb0-ae9c-911a264fa55d",
+   "doi": "10.2307/24560258",
+   "title": "VOICE OR VISION? SOCRATES' DIVINE SIGN AND HOMERIC EPIPHANY IN LATE PLATONISM AND BEYOND",
+   "author": "Geert Roskam"
+  },
+  {
+   "book": "",
+   "page": 125,
+   "section": "b",
+   "line": null,
+   "journal": "Illinois Classical Studies",
+   "year": "1996",
+   "iid": "387d1030-02fa-3ca1-9d3e-a2cccd5d5990",
+   "doi": "10.2307/23065387",
+   "title": "Plato and Euripides",
+   "author": "DAVID SANSONE"
+  },
+  {
+   "book": "",
+   "page": 125,
+   "section": "c",
+   "line": null,
+   "journal": "Illinois Classical Studies",
+   "year": "1996",
+   "iid": "387d1030-02fa-3ca1-9d3e-a2cccd5d5990",
+   "doi": "10.2307/23065387",
+   "title": "Plato and Euripides",
+   "author": "DAVID SANSONE"
+  },
+  {
+   "book": "",
+   "page": 125,
+   "section": "d",
+   "line": null,
+   "journal": "Illinois Classical Studies",
+   "year": "1996",
+   "iid": "387d1030-02fa-3ca1-9d3e-a2cccd5d5990",
+   "doi": "10.2307/23065387",
+   "title": "Plato and Euripides",
+   "author": "DAVID SANSONE"
+  },
+  {
+   "book": "",
+   "page": 125,
+   "section": "d",
+   "line": null,
+   "journal": "Hermes",
+   "year": "1897",
+   "iid": "3d962b41-b744-3289-9c9a-9e556c638330",
+   "doi": "10.2307/4472579",
+   "title": "Die Xenophontische Apologie",
+   "author": "U. v. Wilamowitz-Moellendorff"
+  },
+  {
+   "book": "",
+   "page": 128,
+   "section": "d",
+   "line": null,
+   "journal": "Mnemosyne",
+   "year": "2020",
+   "iid": "4ea66f4c-53b2-3b97-89ba-67f9dbfa7a35",
+   "doi": "10.2307/26895694",
+   "title": "Daemons in the Cave",
+   "author": "Mauro Bonazzi"
+  },
+  {
+   "book": "",
+   "page": 128,
+   "section": "e",
+   "line": null,
+   "journal": "Mnemosyne",
+   "year": "2020",
+   "iid": "4ea66f4c-53b2-3b97-89ba-67f9dbfa7a35",
+   "doi": "10.2307/26895694",
+   "title": "Daemons in the Cave",
+   "author": "Mauro Bonazzi"
+  },
+  {
+   "book": "",
+   "page": 129,
+   "section": "a",
+   "line": null,
+   "journal": "Mnemosyne",
+   "year": "2020",
+   "iid": "4ea66f4c-53b2-3b97-89ba-67f9dbfa7a35",
+   "doi": "10.2307/26895694",
+   "title": "Daemons in the Cave",
+   "author": "Mauro Bonazzi"
+  },
+  {
+   "book": "",
+   "page": 129,
+   "section": "b",
+   "line": null,
+   "journal": "Mnemosyne",
+   "year": "2020",
+   "iid": "4ea66f4c-53b2-3b97-89ba-67f9dbfa7a35",
+   "doi": "10.2307/26895694",
+   "title": "Daemons in the Cave",
+   "author": "Mauro Bonazzi"
+  },
+  {
+   "book": "",
+   "page": 129,
+   "section": "c",
+   "line": null,
+   "journal": "Mnemosyne",
+   "year": "2020",
+   "iid": "4ea66f4c-53b2-3b97-89ba-67f9dbfa7a35",
+   "doi": "10.2307/26895694",
+   "title": "Daemons in the Cave",
+   "author": "Mauro Bonazzi"
+  },
+  {
+   "book": "",
+   "page": 129,
+   "section": "d",
+   "line": null,
+   "journal": "Mnemosyne",
+   "year": "2020",
+   "iid": "4ea66f4c-53b2-3b97-89ba-67f9dbfa7a35",
+   "doi": "10.2307/26895694",
+   "title": "Daemons in the Cave",
+   "author": "Mauro Bonazzi"
+  },
+  {
+   "book": "",
+   "page": 129,
+   "section": "e",
+   "line": null,
+   "journal": "Mnemosyne",
+   "year": "2020",
+   "iid": "4ea66f4c-53b2-3b97-89ba-67f9dbfa7a35",
+   "doi": "10.2307/26895694",
+   "title": "Daemons in the Cave",
+   "author": "Mauro Bonazzi"
+  },
+  {
+   "book": "",
+   "page": 128,
+   "section": "e",
+   "line": null,
+   "journal": "Hermes",
+   "year": "1990",
+   "iid": "548a5637-3f35-3361-b2c1-e8e6e6f89f2d",
+   "doi": "10.2307/4476752",
+   "title": "Demetriana Varia",
+   "author": "Hans Gärtner"
+  },
+  {
+   "book": "",
+   "page": 121,
+   "section": "c",
+   "line": null,
+   "journal": "Journal of Biblical Literature",
+   "year": "2003",
+   "iid": "570f9675-7a32-35c5-b555-3fd1d94c529d",
+   "doi": "10.2307/3268389",
+   "title": "\"To Die Is Gain\" (Philippians 1:19-26): Does Paul Contemplate Suicide?",
+   "author": "N. Clayton Croy"
+  },
+  {
+   "book": "",
+   "page": 129,
+   "section": "e",
+   "line": null,
+   "journal": "Classical Antiquity",
+   "year": "1985",
+   "iid": "57c3930c-c53c-35a7-8eaa-b8022cead3f6",
+   "doi": "10.2307/25010822",
+   "title": "Socratics versus Sophists on Payment for Teaching",
+   "author": "David L. Blank"
+  },
+  {
+   "book": "",
+   "page": 130,
+   "section": "e",
+   "line": null,
+   "journal": "Classical Antiquity",
+   "year": "1985",
+   "iid": "57c3930c-c53c-35a7-8eaa-b8022cead3f6",
+   "doi": "10.2307/25010822",
+   "title": "Socratics versus Sophists on Payment for Teaching",
+   "author": "David L. Blank"
+  },
+  {
+   "book": "",
+   "page": 130,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Antiquity",
+   "year": "1985",
+   "iid": "57c3930c-c53c-35a7-8eaa-b8022cead3f6",
+   "doi": "10.2307/25010822",
+   "title": "Socratics versus Sophists on Payment for Teaching",
+   "author": "David L. Blank"
+  },
+  {
+   "book": "",
+   "page": 130,
+   "section": "b",
+   "line": null,
+   "journal": "Classical Antiquity",
+   "year": "1985",
+   "iid": "57c3930c-c53c-35a7-8eaa-b8022cead3f6",
+   "doi": "10.2307/25010822",
+   "title": "Socratics versus Sophists on Payment for Teaching",
+   "author": "David L. Blank"
+  },
+  {
+   "book": "",
+   "page": 130,
+   "section": "c",
+   "line": null,
+   "journal": "Classical Antiquity",
+   "year": "1985",
+   "iid": "57c3930c-c53c-35a7-8eaa-b8022cead3f6",
+   "doi": "10.2307/25010822",
+   "title": "Socratics versus Sophists on Payment for Teaching",
+   "author": "David L. Blank"
+  },
+  {
+   "book": "",
+   "page": 130,
+   "section": "d",
+   "line": null,
+   "journal": "Classical Antiquity",
+   "year": "1985",
+   "iid": "57c3930c-c53c-35a7-8eaa-b8022cead3f6",
+   "doi": "10.2307/25010822",
+   "title": "Socratics versus Sophists on Payment for Teaching",
+   "author": "David L. Blank"
+  },
+  {
+   "book": "",
+   "page": 127,
+   "section": "e",
+   "line": null,
+   "journal": "Classical Antiquity",
+   "year": "1985",
+   "iid": "57c3930c-c53c-35a7-8eaa-b8022cead3f6",
+   "doi": "10.2307/25010822",
+   "title": "Socratics versus Sophists on Payment for Teaching",
+   "author": "David L. Blank"
+  },
+  {
+   "book": "",
+   "page": 128,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Antiquity",
+   "year": "1985",
+   "iid": "57c3930c-c53c-35a7-8eaa-b8022cead3f6",
+   "doi": "10.2307/25010822",
+   "title": "Socratics versus Sophists on Payment for Teaching",
+   "author": "David L. Blank"
+  },
+  {
+   "book": "",
+   "page": 122,
+   "section": "e",
+   "line": 5,
+   "journal": "The American Journal of Philology",
+   "year": "2013",
+   "iid": "60b49990-e2f3-392a-a823-00f0ad9ad830",
+   "doi": "10.2307/24560750",
+   "title": "RATIONALITY, EROS, AND DAEMONIC INFLUENCE IN THE PLATONIC \"THEAGES\" AND THE ACADEMY OF POLEMO AND CRATES",
+   "author": "Kurt Lampe"
+  },
+  {
+   "book": "",
+   "page": 125,
+   "section": "e",
+   "line": 4,
+   "journal": "The American Journal of Philology",
+   "year": "2013",
+   "iid": "60b49990-e2f3-392a-a823-00f0ad9ad830",
+   "doi": "10.2307/24560750",
+   "title": "RATIONALITY, EROS, AND DAEMONIC INFLUENCE IN THE PLATONIC \"THEAGES\" AND THE ACADEMY OF POLEMO AND CRATES",
+   "author": "Kurt Lampe"
+  },
+  {
+   "book": "",
+   "page": 128,
+   "section": "c",
+   "line": null,
+   "journal": "The American Journal of Philology",
+   "year": "2013",
+   "iid": "60b49990-e2f3-392a-a823-00f0ad9ad830",
+   "doi": "10.2307/24560750",
+   "title": "RATIONALITY, EROS, AND DAEMONIC INFLUENCE IN THE PLATONIC \"THEAGES\" AND THE ACADEMY OF POLEMO AND CRATES",
+   "author": "Kurt Lampe"
+  },
+  {
+   "book": "",
+   "page": 128,
+   "section": "d",
+   "line": null,
+   "journal": "The American Journal of Philology",
+   "year": "2013",
+   "iid": "60b49990-e2f3-392a-a823-00f0ad9ad830",
+   "doi": "10.2307/24560750",
+   "title": "RATIONALITY, EROS, AND DAEMONIC INFLUENCE IN THE PLATONIC \"THEAGES\" AND THE ACADEMY OF POLEMO AND CRATES",
+   "author": "Kurt Lampe"
+  },
+  {
+   "book": "",
+   "page": 130,
+   "section": "d",
+   "line": null,
+   "journal": "The American Journal of Philology",
+   "year": "2013",
+   "iid": "60b49990-e2f3-392a-a823-00f0ad9ad830",
+   "doi": "10.2307/24560750",
+   "title": "RATIONALITY, EROS, AND DAEMONIC INFLUENCE IN THE PLATONIC \"THEAGES\" AND THE ACADEMY OF POLEMO AND CRATES",
+   "author": "Kurt Lampe"
+  },
+  {
+   "book": "",
+   "page": 130,
+   "section": "e",
+   "line": null,
+   "journal": "The American Journal of Philology",
+   "year": "2013",
+   "iid": "60b49990-e2f3-392a-a823-00f0ad9ad830",
+   "doi": "10.2307/24560750",
+   "title": "RATIONALITY, EROS, AND DAEMONIC INFLUENCE IN THE PLATONIC \"THEAGES\" AND THE ACADEMY OF POLEMO AND CRATES",
+   "author": "Kurt Lampe"
+  },
+  {
+   "book": "",
+   "page": 128,
+   "section": "b",
+   "line": 2,
+   "journal": "The American Journal of Philology",
+   "year": "2013",
+   "iid": "60b49990-e2f3-392a-a823-00f0ad9ad830",
+   "doi": "10.2307/24560750",
+   "title": "RATIONALITY, EROS, AND DAEMONIC INFLUENCE IN THE PLATONIC \"THEAGES\" AND THE ACADEMY OF POLEMO AND CRATES",
+   "author": "Kurt Lampe"
+  },
+  {
+   "book": "",
+   "page": 130,
+   "section": "a",
+   "line": 5,
+   "journal": "The American Journal of Philology",
+   "year": "2013",
+   "iid": "60b49990-e2f3-392a-a823-00f0ad9ad830",
+   "doi": "10.2307/24560750",
+   "title": "RATIONALITY, EROS, AND DAEMONIC INFLUENCE IN THE PLATONIC \"THEAGES\" AND THE ACADEMY OF POLEMO AND CRATES",
+   "author": "Kurt Lampe"
+  },
+  {
+   "book": "",
+   "page": 129,
+   "section": "e",
+   "line": 9,
+   "journal": "The American Journal of Philology",
+   "year": "2013",
+   "iid": "60b49990-e2f3-392a-a823-00f0ad9ad830",
+   "doi": "10.2307/24560750",
+   "title": "RATIONALITY, EROS, AND DAEMONIC INFLUENCE IN THE PLATONIC \"THEAGES\" AND THE ACADEMY OF POLEMO AND CRATES",
+   "author": "Kurt Lampe"
+  },
+  {
+   "book": "",
+   "page": 130,
+   "section": "a",
+   "line": 3,
+   "journal": "The American Journal of Philology",
+   "year": "2013",
+   "iid": "60b49990-e2f3-392a-a823-00f0ad9ad830",
+   "doi": "10.2307/24560750",
+   "title": "RATIONALITY, EROS, AND DAEMONIC INFLUENCE IN THE PLATONIC \"THEAGES\" AND THE ACADEMY OF POLEMO AND CRATES",
+   "author": "Kurt Lampe"
+  },
+  {
+   "book": "",
+   "page": 130,
+   "section": "a",
+   "line": 6,
+   "journal": "The American Journal of Philology",
+   "year": "2013",
+   "iid": "60b49990-e2f3-392a-a823-00f0ad9ad830",
+   "doi": "10.2307/24560750",
+   "title": "RATIONALITY, EROS, AND DAEMONIC INFLUENCE IN THE PLATONIC \"THEAGES\" AND THE ACADEMY OF POLEMO AND CRATES",
+   "author": "Kurt Lampe"
+  },
+  {
+   "book": "",
+   "page": 130,
+   "section": "d",
+   "line": 5,
+   "journal": "The American Journal of Philology",
+   "year": "2013",
+   "iid": "60b49990-e2f3-392a-a823-00f0ad9ad830",
+   "doi": "10.2307/24560750",
+   "title": "RATIONALITY, EROS, AND DAEMONIC INFLUENCE IN THE PLATONIC \"THEAGES\" AND THE ACADEMY OF POLEMO AND CRATES",
+   "author": "Kurt Lampe"
+  },
+  {
+   "book": "",
+   "page": 130,
+   "section": "e",
+   "line": 2,
+   "journal": "The American Journal of Philology",
+   "year": "2013",
+   "iid": "60b49990-e2f3-392a-a823-00f0ad9ad830",
+   "doi": "10.2307/24560750",
+   "title": "RATIONALITY, EROS, AND DAEMONIC INFLUENCE IN THE PLATONIC \"THEAGES\" AND THE ACADEMY OF POLEMO AND CRATES",
+   "author": "Kurt Lampe"
+  },
+  {
+   "book": "",
+   "page": 130,
+   "section": "e",
+   "line": 6,
+   "journal": "The American Journal of Philology",
+   "year": "2013",
+   "iid": "60b49990-e2f3-392a-a823-00f0ad9ad830",
+   "doi": "10.2307/24560750",
+   "title": "RATIONALITY, EROS, AND DAEMONIC INFLUENCE IN THE PLATONIC \"THEAGES\" AND THE ACADEMY OF POLEMO AND CRATES",
+   "author": "Kurt Lampe"
+  },
+  {
+   "book": "",
+   "page": 130,
+   "section": "d",
+   "line": 8,
+   "journal": "The American Journal of Philology",
+   "year": "2013",
+   "iid": "60b49990-e2f3-392a-a823-00f0ad9ad830",
+   "doi": "10.2307/24560750",
+   "title": "RATIONALITY, EROS, AND DAEMONIC INFLUENCE IN THE PLATONIC \"THEAGES\" AND THE ACADEMY OF POLEMO AND CRATES",
+   "author": "Kurt Lampe"
+  },
+  {
+   "book": "",
+   "page": 130,
+   "section": "b",
+   "line": 2,
+   "journal": "The American Journal of Philology",
+   "year": "2013",
+   "iid": "60b49990-e2f3-392a-a823-00f0ad9ad830",
+   "doi": "10.2307/24560750",
+   "title": "RATIONALITY, EROS, AND DAEMONIC INFLUENCE IN THE PLATONIC \"THEAGES\" AND THE ACADEMY OF POLEMO AND CRATES",
+   "author": "Kurt Lampe"
+  },
+  {
+   "book": "",
+   "page": 130,
+   "section": "b",
+   "line": 8,
+   "journal": "The American Journal of Philology",
+   "year": "2013",
+   "iid": "60b49990-e2f3-392a-a823-00f0ad9ad830",
+   "doi": "10.2307/24560750",
+   "title": "RATIONALITY, EROS, AND DAEMONIC INFLUENCE IN THE PLATONIC \"THEAGES\" AND THE ACADEMY OF POLEMO AND CRATES",
+   "author": "Kurt Lampe"
+  },
+  {
+   "book": "",
+   "page": 130,
+   "section": "c",
+   "line": 4,
+   "journal": "The American Journal of Philology",
+   "year": "2013",
+   "iid": "60b49990-e2f3-392a-a823-00f0ad9ad830",
+   "doi": "10.2307/24560750",
+   "title": "RATIONALITY, EROS, AND DAEMONIC INFLUENCE IN THE PLATONIC \"THEAGES\" AND THE ACADEMY OF POLEMO AND CRATES",
+   "author": "Kurt Lampe"
+  },
+  {
+   "book": "",
+   "page": 129,
+   "section": "e",
+   "line": 7,
+   "journal": "The American Journal of Philology",
+   "year": "2013",
+   "iid": "60b49990-e2f3-392a-a823-00f0ad9ad830",
+   "doi": "10.2307/24560750",
+   "title": "RATIONALITY, EROS, AND DAEMONIC INFLUENCE IN THE PLATONIC \"THEAGES\" AND THE ACADEMY OF POLEMO AND CRATES",
+   "author": "Kurt Lampe"
+  },
+  {
+   "book": "",
+   "page": 125,
+   "section": "b",
+   "line": null,
+   "journal": "Hermes",
+   "year": "2020",
+   "iid": "688f79ff-cd55-3de3-beb9-13f290d06e5f",
+   "doi": "10.2307/48591765",
+   "title": "Platon im Theater - Plato in the Theatre",
+   "author": "MICHAEL SCHRAMM"
+  },
+  {
+   "book": "",
+   "page": 125,
+   "section": "c",
+   "line": null,
+   "journal": "Hermes",
+   "year": "2020",
+   "iid": "688f79ff-cd55-3de3-beb9-13f290d06e5f",
+   "doi": "10.2307/48591765",
+   "title": "Platon im Theater - Plato in the Theatre",
+   "author": "MICHAEL SCHRAMM"
+  },
+  {
+   "book": "",
+   "page": 125,
+   "section": "d",
+   "line": null,
+   "journal": "Hermes",
+   "year": "2020",
+   "iid": "688f79ff-cd55-3de3-beb9-13f290d06e5f",
+   "doi": "10.2307/48591765",
+   "title": "Platon im Theater - Plato in the Theatre",
+   "author": "MICHAEL SCHRAMM"
+  },
+  {
+   "book": "",
+   "page": 122,
+   "section": "e",
+   "line": null,
+   "journal": "Harvard Studies in Classical Philology",
+   "year": "1942",
+   "iid": "6f6c2b89-a8be-3c22-ad59-c19d71c27fcf",
+   "doi": "10.2307/310792",
+   "title": "The Scope of Early Rhetorical Instruction",
+   "author": "Stanley Wilcox"
+  },
+  {
+   "book": "",
+   "page": 122,
+   "section": "a",
+   "line": null,
+   "journal": "The American Journal of Philology",
+   "year": "1984",
+   "iid": "7b5452c6-aaa6-3874-8d0b-cc30cdb59381",
+   "doi": "10.2307/294834",
+   "title": "Greek and Latin Epistolary Formulae: Some Light on Cicero's Letter Writing",
+   "author": "Hannah M. Cotton"
+  },
+  {
+   "book": "",
+   "page": 128,
+   "section": "a",
+   "line": null,
+   "journal": "Mnemosyne",
+   "year": "1908",
+   "iid": "7ccc4879-3e74-3acf-ae89-fa91ca3c5d73",
+   "doi": "10.2307/4425523",
+   "title": "Platonica (Continued)",
+   "author": "S. A. Naber"
+  },
+  {
+   "book": "",
+   "page": 130,
+   "section": "e",
+   "line": null,
+   "journal": "Mnemosyne",
+   "year": "1908",
+   "iid": "7ccc4879-3e74-3acf-ae89-fa91ca3c5d73",
+   "doi": "10.2307/4425523",
+   "title": "Platonica (Continued)",
+   "author": "S. A. Naber"
+  },
+  {
+   "book": "",
+   "page": 130,
+   "section": "a",
+   "line": null,
+   "journal": "Mnemosyne",
+   "year": "1908",
+   "iid": "7ccc4879-3e74-3acf-ae89-fa91ca3c5d73",
+   "doi": "10.2307/4425523",
+   "title": "Platonica (Continued)",
+   "author": "S. A. Naber"
+  },
+  {
+   "book": "",
+   "page": 129,
+   "section": "a",
+   "line": 3,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1989",
+   "iid": "81d296ca-d371-3625-bb37-8131f55f52d3",
+   "doi": "10.2307/41233709",
+   "title": "[PLATO], THEAGES 129a3",
+   "author": "M. Joyal"
+  },
+  {
+   "book": "",
+   "page": 128,
+   "section": "d",
+   "line": 8,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1989",
+   "iid": "81d296ca-d371-3625-bb37-8131f55f52d3",
+   "doi": "10.2307/41233709",
+   "title": "[PLATO], THEAGES 129a3",
+   "author": "M. Joyal"
+  },
+  {
+   "book": "",
+   "page": 129,
+   "section": "d",
+   "line": 6,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1989",
+   "iid": "81d296ca-d371-3625-bb37-8131f55f52d3",
+   "doi": "10.2307/41233709",
+   "title": "[PLATO], THEAGES 129a3",
+   "author": "M. Joyal"
+  },
+  {
+   "book": "",
+   "page": 129,
+   "section": "c",
+   "line": 6,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1989",
+   "iid": "81d296ca-d371-3625-bb37-8131f55f52d3",
+   "doi": "10.2307/41233709",
+   "title": "[PLATO], THEAGES 129a3",
+   "author": "M. Joyal"
+  },
+  {
+   "book": "",
+   "page": 129,
+   "section": "c",
+   "line": 7,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1989",
+   "iid": "81d296ca-d371-3625-bb37-8131f55f52d3",
+   "doi": "10.2307/41233709",
+   "title": "[PLATO], THEAGES 129a3",
+   "author": "M. Joyal"
+  },
+  {
+   "book": "",
+   "page": 129,
+   "section": "d",
+   "line": null,
+   "journal": "Journal of Biblical Literature",
+   "year": "2004",
+   "iid": "839af533-6d04-33b6-a2d9-3b942fd71b34",
+   "doi": "10.2307/3268466",
+   "title": "Saved through Childbearing: Virtues as Children in 1 Timothy 2:11-15",
+   "author": "Kenneth L. Waters, <suffix>Sr.</suffix>"
+  },
+  {
+   "book": "",
+   "page": 129,
+   "section": "b",
+   "line": null,
+   "journal": "Classical Antiquity",
+   "year": "1989",
+   "iid": "874cc902-ef0c-3499-a86e-8dacb6da3592",
+   "doi": "10.2307/25010899",
+   "title": "Diviners and Divination in Aristophanic Comedy",
+   "author": "Nicholas D. Smith"
+  },
+  {
+   "book": "",
+   "page": 130,
+   "section": "e",
+   "line": null,
+   "journal": "Illinois Classical Studies",
+   "year": "2018",
+   "iid": "95b1f3ee-84c5-33df-a6e3-de92c40d299a",
+   "doi": "10.5406/illiclasstud.43.1.0058",
+   "title": "Socrates, Satyrs, and Satyr-Play in Plato's <em>Symposium</em>",
+   "author": "David Sansone"
+  },
+  {
+   "book": "",
+   "page": 130,
+   "section": "a",
+   "line": null,
+   "journal": "Transactions of the American Philological Association (1974-2014)",
+   "year": "1989",
+   "iid": "9d78745d-ca89-3724-90b7-dd9394ff7388",
+   "doi": "10.2307/284266",
+   "title": "An Accusation of Magic in Classical Athens (Ar. Wasps 946-48)",
+   "author": "Christopher A. Faraone"
+  },
+  {
+   "book": "",
+   "page": 128,
+   "section": "b",
+   "line": 3,
+   "journal": "The Classical World",
+   "year": "2001",
+   "iid": "a2d861d0-c4e5-3e2d-9cbe-0233a75f92ac",
+   "doi": "10.2307/4352639",
+   "title": "",
+   "author": "David J. Murphy, Mark Joyal"
+  },
+  {
+   "book": "",
+   "page": 122,
+   "section": "d",
+   "line": 7,
+   "journal": "The Classical World",
+   "year": "2001",
+   "iid": "a2d861d0-c4e5-3e2d-9cbe-0233a75f92ac",
+   "doi": "10.2307/4352639",
+   "title": "",
+   "author": "David J. Murphy, Mark Joyal"
+  },
+  {
+   "book": "",
+   "page": 128,
+   "section": "d",
+   "line": null,
+   "journal": "The Harvard Theological Review",
+   "year": "1995",
+   "iid": "b1cd5fbf-8544-3da6-9f00-cc2a3ee17971",
+   "doi": "10.2307/1509884",
+   "title": "The Prophetic Spirit as an Angel According to Philo",
+   "author": "John R. Levison"
+  },
+  {
+   "book": "",
+   "page": 128,
+   "section": "e",
+   "line": null,
+   "journal": "The Harvard Theological Review",
+   "year": "1995",
+   "iid": "b1cd5fbf-8544-3da6-9f00-cc2a3ee17971",
+   "doi": "10.2307/1509884",
+   "title": "The Prophetic Spirit as an Angel According to Philo",
+   "author": "John R. Levison"
+  },
+  {
+   "book": "",
+   "page": 125,
+   "section": "b",
+   "line": 5,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "2002",
+   "iid": "b3112926-7cf4-3bc2-a24e-50646dc096a6",
+   "doi": "10.2307/41234522",
+   "title": "VON TEILEN, MENGEN UND GROSSEN BROCKEN: Was heißt μέρει μύθου προσχρήσασθαι in Platons Politikos?",
+   "author": "Markus Janka"
+  },
+  {
+   "book": "",
+   "page": 130,
+   "section": "b",
+   "line": null,
+   "journal": "Mnemosyne",
+   "year": "1944",
+   "iid": "b79c7af8-f973-3f72-ba68-cc854f038085",
+   "doi": "10.2307/4427063",
+   "title": "ΣΕΜΝΟΣ and Cognate Words in Plato",
+   "author": "G. J. de Vries"
+  },
+  {
+   "book": "",
+   "page": 122,
+   "section": "c",
+   "line": 5,
+   "journal": "Mnemosyne",
+   "year": "2014",
+   "iid": "ba72ab01-476f-3aca-b044-2f2b2b7a32cb",
+   "doi": "10.2307/24522897",
+   "title": "More Critical Notes on Plato's \"Charmides\"",
+   "author": "David J. Murphy"
+  },
+  {
+   "book": "",
+   "page": 128,
+   "section": "d",
+   "line": 4,
+   "journal": "The American Journal of Philology",
+   "year": "2000",
+   "iid": "bd9ea32e-8761-3fb0-86ec-43caefabcb5e",
+   "doi": "10.2307/1561723",
+   "title": "Socrates Plays the Buffoon: Cautionary Protreptic in \"Euthydemus\"",
+   "author": "Ann N. Michelini"
+  },
+  {
+   "book": "",
+   "page": 127,
+   "section": "a",
+   "line": 8,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1993",
+   "iid": "c3e921ca-03a2-3d1a-8481-ade7b3139d9c",
+   "doi": "10.2307/41233913",
+   "title": "THE CONCLUSION OF AESCHINES' \"ALCIBIADES\"",
+   "author": "Mark A. Joyal"
+  },
+  {
+   "book": "",
+   "page": 128,
+   "section": "d",
+   "line": 2,
+   "journal": "Vigiliae Christianae",
+   "year": "1975",
+   "iid": "c401b9ff-41f9-3f25-90af-e41649f914b7",
+   "doi": "10.2307/1583166",
+   "title": "Calcidiana",
+   "author": "J. H. Waszink"
+  },
+  {
+   "book": "",
+   "page": 125,
+   "section": "c",
+   "line": 7,
+   "journal": "Mnemosyne",
+   "year": "1991",
+   "iid": "c6680271-7a86-3b71-94b3-b94d1ee22a78",
+   "doi": "10.2307/4432073",
+   "title": "Notes on [Plato], \"Theages\"",
+   "author": "M. A. Joyal"
+  },
+  {
+   "book": "",
+   "page": 123,
+   "section": "b",
+   "line": 7,
+   "journal": "Mnemosyne",
+   "year": "1991",
+   "iid": "c6680271-7a86-3b71-94b3-b94d1ee22a78",
+   "doi": "10.2307/4432073",
+   "title": "Notes on [Plato], \"Theages\"",
+   "author": "M. A. Joyal"
+  },
+  {
+   "book": "",
+   "page": 129,
+   "section": "d",
+   "line": 4,
+   "journal": "Mnemosyne",
+   "year": "1991",
+   "iid": "c6680271-7a86-3b71-94b3-b94d1ee22a78",
+   "doi": "10.2307/4432073",
+   "title": "Notes on [Plato], \"Theages\"",
+   "author": "M. A. Joyal"
+  },
+  {
+   "book": "",
+   "page": 130,
+   "section": "b",
+   "line": 6,
+   "journal": "Mnemosyne",
+   "year": "1991",
+   "iid": "c6680271-7a86-3b71-94b3-b94d1ee22a78",
+   "doi": "10.2307/4432073",
+   "title": "Notes on [Plato], \"Theages\"",
+   "author": "M. A. Joyal"
+  },
+  {
+   "book": "",
+   "page": 129,
+   "section": "a",
+   "line": null,
+   "journal": "Hermes",
+   "year": "1901",
+   "iid": "c8b6d7dc-d16a-37f0-a509-2904358e5abc",
+   "doi": "10.2307/4472796",
+   "title": "Ueber die Echtheit und Abfassungszeit des Theages",
+   "author": "Walther Janell"
+  },
+  {
+   "book": "",
+   "page": 129,
+   "section": "b",
+   "line": null,
+   "journal": "Hermes",
+   "year": "1901",
+   "iid": "c8b6d7dc-d16a-37f0-a509-2904358e5abc",
+   "doi": "10.2307/4472796",
+   "title": "Ueber die Echtheit und Abfassungszeit des Theages",
+   "author": "Walther Janell"
+  },
+  {
+   "book": "",
+   "page": 129,
+   "section": "c",
+   "line": null,
+   "journal": "Hermes",
+   "year": "1901",
+   "iid": "c8b6d7dc-d16a-37f0-a509-2904358e5abc",
+   "doi": "10.2307/4472796",
+   "title": "Ueber die Echtheit und Abfassungszeit des Theages",
+   "author": "Walther Janell"
+  },
+  {
+   "book": "",
+   "page": 130,
+   "section": "b",
+   "line": null,
+   "journal": "Hermes",
+   "year": "1901",
+   "iid": "c8b6d7dc-d16a-37f0-a509-2904358e5abc",
+   "doi": "10.2307/4472796",
+   "title": "Ueber die Echtheit und Abfassungszeit des Theages",
+   "author": "Walther Janell"
+  },
+  {
+   "book": "",
+   "page": 128,
+   "section": "d",
+   "line": null,
+   "journal": "Hermes",
+   "year": "1901",
+   "iid": "c8b6d7dc-d16a-37f0-a509-2904358e5abc",
+   "doi": "10.2307/4472796",
+   "title": "Ueber die Echtheit und Abfassungszeit des Theages",
+   "author": "Walther Janell"
+  },
+  {
+   "book": "",
+   "page": 124,
+   "section": "d",
+   "line": null,
+   "journal": "Hermes",
+   "year": "1901",
+   "iid": "c8b6d7dc-d16a-37f0-a509-2904358e5abc",
+   "doi": "10.2307/4472796",
+   "title": "Ueber die Echtheit und Abfassungszeit des Theages",
+   "author": "Walther Janell"
+  },
+  {
+   "book": "",
+   "page": 127,
+   "section": "b",
+   "line": null,
+   "journal": "The Harvard Theological Review",
+   "year": "1971",
+   "iid": "ce96a2ed-bd2a-3507-a6f5-5003edfc068b",
+   "doi": "10.2307/1508973",
+   "title": "The Harpagmos Enigma: A Philological Solution",
+   "author": "Roy W. Hoover"
+  },
+  {
+   "book": "",
+   "page": 128,
+   "section": "b",
+   "line": null,
+   "journal": "Novum Testamentum",
+   "year": "2010",
+   "iid": "e2004b8e-9b7b-3122-8bd5-ed1a8e1e5e94",
+   "doi": "10.2307/25750733",
+   "title": "Ehe als Sanatorium: Plutarchs \"Coniugalia Praecepta\" und die Pastoralbriefe",
+   "author": "Matthias Becker"
+  },
+  {
+   "book": "",
+   "page": 127,
+   "section": "e",
+   "line": null,
+   "journal": "Mnemosyne",
+   "year": "1997",
+   "iid": "e76f4a00-9c0e-35a8-9245-8b633e0a2154",
+   "doi": "10.2307/4432682",
+   "title": "Polos of Akragas: Testimonia",
+   "author": "Robert L. Fowler"
+  },
+  {
+   "book": "",
+   "page": 128,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical World",
+   "year": "1978",
+   "iid": "ff170c2b-75a0-3c21-8da6-63424a400cc2",
+   "doi": "10.2307/4348993",
+   "title": "Plato's Use of Dialogue",
+   "author": "Kent F. Moors"
   }
  ]
 }

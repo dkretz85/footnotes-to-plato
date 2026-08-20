@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Perseus embedding test — Footnotes to Plato</title>
+<style>
+  :root {
+    --ink: #1c2333;
+    --muted: #5d6b85;
+    --rule: #d7dEE9;
+    --bg: #fbfcfe;
+    --accent: #3d5a8a;
+    --clay: #a8624a;
+  }
+  body {
+    font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+    background: var(--bg);
+    color: var(--ink);
+    margin: 0;
+    padding: 32px 40px 80px;
+    line-height: 1.5;
+  }
+  h1 { font-size: 30px; font-weight: 600; margin: 0 0 4px; letter-spacing: -0.01em; }
+  .sub { font-size: 14px; color: var(--muted); margin: 0 0 28px; }
+  h2 {
+    font-size: 17px; font-weight: 600; margin: 0 0 6px;
+    padding-bottom: 6px; border-bottom: 1px solid var(--rule);
+  }
+  .test { margin-bottom: 40px; }
+  .desc { font-size: 13px; color: var(--muted); margin: 8px 0 12px; }
+  .url {
+    font-family: ui-monospace, "SF Mono", Menlo, monospace;
+    font-size: 11px; color: var(--accent);
+    background: #eef2f8; padding: 6px 9px; border-radius: 4px;
+    display: block; margin-bottom: 10px; word-break: break-all;
+  }
+  iframe {
+    width: 100%; height: 460px;
+    border: 1px solid var(--rule); border-radius: 6px;
+    background: #fff;
+  }
+  .verdict {
+    font-size: 13px; margin-top: 10px; padding: 9px 12px;
+    background: #fff; border-left: 3px solid var(--clay); border-radius: 3px;
+  }
+  .verdict b { color: var(--clay); }
+  ol { font-size: 14px; padding-left: 20px; }
+  li { margin-bottom: 7px; }
+  .note {
+    background: #fff; border: 1px solid var(--rule); border-radius: 6px;
+    padding: 16px 20px; margin-bottom: 32px;
+  }
+  a { color: var(--accent); }
+</style>
+</head>
+<body>
+
+<h1>Perseus embedding test</h1>
+<p class="sub">Laws XI, Stephanus 918 — five URL variants, live-embedded.</p>
+
+<div class="note">
+  <b>What to look for.</b> Any frame showing a browser error, a blank white box, or a
+  &ldquo;refused to connect&rdquo; message means embedding is blocked for that variant.
+  Any frame showing Greek or English text means it works. Compare how much
+  Perseus navigation furniture each variant drags in — least furniture wins.
+  <br><br>
+  Also open your browser console (⌘⌥J in Chrome, ⌘⌥K in Firefox) and watch for
+  <code>X-Frame-Options</code> or <code>frame-ancestors</code> errors — those are the
+  definitive signal, since a GET can send headers a HEAD request did not.
+</div>
+
+<div class="test">
+  <h2>1. Standard hopper page (baseline)</h2>
+  <p class="desc">The URL you already have. Full page furniture expected.</p>
+  <code class="url">https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0166%3Abook%3D11%3Apage%3D918</code>
+  <iframe src="https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0166%3Abook%3D11%3Apage%3D918"></iframe>
+  <div class="verdict"><b>If this renders</b> the iframe route is viable. Note how much of the frame is actual text versus Perseus chrome.</div>
+</div>
+
+<div class="test">
+  <h2>2. Bare-text attempt &mdash; <code>xmlchunk</code> endpoint</h2>
+  <p class="desc">Perseus exposes an XML chunk endpoint used internally by the hopper. If it returns just the passage, this is the ideal target.</p>
+  <code class="url">https://www.perseus.tufts.edu/hopper/xmlchunk?doc=Perseus%3Atext%3A1999.01.0166%3Abook%3D11%3Apage%3D918</code>
+  <iframe src="https://www.perseus.tufts.edu/hopper/xmlchunk?doc=Perseus%3Atext%3A1999.01.0166%3Abook%3D11%3Apage%3D918"></iframe>
+  <div class="verdict"><b>Best case.</b> Raw text or XML with no navigation. If this works you can style it yourself.</div>
+</div>
+
+<div class="test">
+  <h2>3. Bare-text attempt &mdash; <code>loadquery</code></h2>
+  <p class="desc">Another internal hopper endpoint, sometimes returns a trimmed fragment.</p>
+  <code class="url">https://www.perseus.tufts.edu/hopper/loadquery?doc=Perseus%3Atext%3A1999.01.0166%3Abook%3D11%3Apage%3D918</code>
+  <iframe src="https://www.perseus.tufts.edu/hopper/loadquery?doc=Perseus%3Atext%3A1999.01.0166%3Abook%3D11%3Apage%3D918"></iframe>
+  <div class="verdict">Speculative &mdash; may 404. A 404 here costs nothing.</div>
+</div>
+
+<div class="test">
+  <h2>4. English translation (Bury, Loeb)</h2>
+  <p class="desc">Confirms the doc-ID pattern works for translations too &mdash; <code>1999.01.0166</code> is the Greek Laws; <code>1999.01.0165</code> should be the English.</p>
+  <code class="url">https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0165%3Abook%3D11%3Apage%3D918</code>
+  <iframe src="https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0165%3Abook%3D11%3Apage%3D918"></iframe>
+  <div class="verdict">If this shows English Laws 918, the Greek/English doc-ID pairing is predictable and worth capturing in the mapping table.</div>
+</div>
+
+<div class="test">
+  <h2>5. Scaife reader (modern viewer)</h2>
+  <p class="desc">For comparison. Expected to be slower, and more likely to block embedding since it is modern infrastructure.</p>
+  <code class="url">https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0059.tlg034.perseus-grc2:11/</code>
+  <iframe src="https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0059.tlg034.perseus-grc2:11/"></iframe>
+  <div class="verdict">If this blocks but #1 renders, that settles hopper-over-Scaife on technical grounds as well as speed.</div>
+</div>
+
+<div class="note">
+  <b>Aristotle Bekker check &mdash; the important one.</b>
+  Everything above is Plato, where Stephanus pages are well-behaved. The open question
+  is whether the hopper accepts a Bekker page as a URL parameter for Aristotle.
+  Try these by hand in a normal tab and see which lands on or near <i>NE</i> 1097b:
+  <ol style="margin-top:10px">
+    <li><a href="https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0054%3Abekker+page%3D1097b" target="_blank">…1999.01.0054:bekker page=1097b</a></li>
+    <li><a href="https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0054%3Abook%3D1%3Achapter%3D7" target="_blank">…1999.01.0054:book=1:chapter=7</a> &mdash; the chapter containing 1097b</li>
+    <li><a href="https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0054%3Abekker%2Bpage%3D1097b" target="_blank">…alternate encoding of the space</a></li>
+  </ol>
+  If variant 1 works, Aristotle is as easy as Plato and the whole project is one evening.
+  If only variant 2 works, Aristotle links land at chapter granularity &mdash; still useful,
+  but worth knowing before you build the URL template.
+</div>
+
+</body>
+</html>
