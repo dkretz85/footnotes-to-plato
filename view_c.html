@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Footnotes to Plato — attention over time, within a work</title>
+<style>
+/* Viewer C. Tokens mirror site.css so the file also stands alone; when built,
+   the site chrome supplies the header/footer and this <header class="mast"> is
+   stripped. Saturated colour is reserved for data — controls stay lavender. */
+.vc{
+  --ink:#1c2230; --ink2:#3d4453; --soft:#5b6478; --faint:#8a90a0; --rule-muted:#b9bcc7;
+  --rule:#ddd9ee; --lav:#5a5497; --lav-hi:#403b78; --lav-line:#c9c5e4; --lav-tint:#eae7f7;
+  --clay:#b06a3a; --clay-paper:#faf1ea; --clay-line:#e7d3c4; --clay-ink:#8a7566;
+  --serif:"Iowan Old Style","Palatino Linotype",Palatino,"Book Antiqua",Georgia,serif;
+  --sans:"Inter","Helvetica Neue",Arial,system-ui,sans-serif;
+  --mono:"SF Mono",ui-monospace,"Cascadia Mono",Menlo,Consolas,monospace;
+  --shadow:0 1px 2px rgba(28,34,48,.06),0 4px 16px rgba(28,34,48,.06);
+  font-family:var(--sans); color:var(--ink); line-height:1.6;
+}
+.vc *{box-sizing:border-box}
+.vc .panel{background:#fff;border:1px solid var(--rule);border-radius:10px;box-shadow:var(--shadow)}
+.vc .mono{font-family:var(--mono)}
+.vc .serif{font-family:var(--serif)}
+.vc .lab{font-family:var(--mono);font-size:9.5px;letter-spacing:.13em;text-transform:uppercase;color:var(--soft)}
+.vc button{font-family:var(--sans);cursor:pointer}
+.vc .chip{font-size:12.5px;padding:5px 12px;border-radius:7px;cursor:pointer;
+  background:#fff;color:var(--lav);border:1px solid var(--rule)}
+.vc .chip.on{background:var(--lav);color:#fff;border-color:var(--lav)}
+.vc .mini{font-size:11.5px;padding:4px 10px;border-radius:6px}
+
+/* -- step 1 : the text index ------------------------------------------------ */
+.vc .idx-head{border-bottom:1px solid var(--rule);padding-bottom:14px;margin-bottom:18px}
+.vc .idx-head h2{font-family:var(--serif);font-size:30px;font-weight:600;line-height:1.15;margin:0}
+.vc .idx-head .sub{font-size:13.5px;line-height:1.6;color:var(--soft);margin-top:7px;max-width:80ch}
+.vc .authors{display:flex;flex-direction:column;gap:20px}
+.vc .abloc{display:grid;grid-template-columns:132px 1fr;gap:0 20px;align-items:start}
+.vc .alab{font-family:var(--mono);font-size:10.5px;letter-spacing:.13em;text-transform:uppercase;
+  text-align:right;padding-top:9px;padding-right:14px}
+.vc .agrid{display:grid;gap:6px;grid-template-columns:repeat(4,minmax(0,1fr));min-width:0}
+.vc .agrid.pindar{grid-template-columns:repeat(6,minmax(0,1fr))}
+.vc .trow{display:flex;align-items:baseline;justify-content:space-between;gap:9px;min-width:0;
+  padding:6px 11px;border-radius:7px;cursor:pointer;text-decoration:none;color:inherit}
+.vc .trow .tn{font-family:var(--serif);font-size:15.5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.vc .trow .tc{font-family:var(--mono);font-size:10px;color:var(--faint);flex:none}
+.vc .thinpanel{margin-top:30px;background:var(--clay-paper);border:1px solid var(--clay-line);
+  border-left:3px solid var(--clay);border-radius:0 9px 9px 0;padding:18px 20px}
+.vc .thinpanel h3{font-family:var(--serif);font-size:17px;font-weight:600;margin:0}
+.vc .thinpanel .trow{padding:5px 10px;border:1px solid var(--clay-line);background:#fff;color:var(--clay-ink)}
+.vc .thinpanel .trow .tn{font-size:14px}
+.vc .thinpanel .trow .tc{color:var(--clay)}
+.vc .note{font-family:var(--mono);font-size:10.5px;color:var(--clay);line-height:1.6}
+
+/* -- step 2 : the work map -------------------------------------------------- */
+.vc .back{font-family:var(--mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--lav);cursor:pointer;display:inline-block}
+.vc .wtitle{display:flex;align-items:baseline;gap:11px;margin-top:6px;flex-wrap:wrap}
+.vc .wbar{width:4px;height:27px;border-radius:1px;flex:none}
+.vc .wtitle h2{font-family:var(--serif);font-size:31px;font-weight:600;line-height:1.15;margin:0}
+.vc .wmeta{font-family:var(--mono);font-size:11px;color:var(--soft);margin-left:auto}
+.vc .ctrl{display:flex;align-items:center;gap:11px;flex-wrap:wrap;margin-top:16px;padding:14px 18px;
+  border-radius:10px;background:#fff;border:1px solid var(--rule);box-shadow:var(--shadow)}
+.vc .ctrl .div{width:1px;height:20px;background:var(--rule)}
+.vc .ctrl .setline{font-family:var(--mono);font-size:10.5px;color:var(--soft)}
+.vc .ctrl .gnote{font-size:12px;color:var(--soft);font-style:italic}
+.vc .find{margin-top:16px;border-radius:0 9px 9px 0;padding:20px 22px;display:flex;
+  align-items:flex-start;gap:18px;border:1px solid var(--rule);border-left:3px solid var(--lav);background:var(--lav-tint)}
+.vc .find.thin{border-color:var(--clay-line);border-left-color:var(--clay);background:var(--clay-paper)}
+.vc .tiles{display:flex;gap:10px;flex:none;padding-top:2px}
+.vc .tile{display:flex;flex-direction:column;align-items:center;gap:7px;padding:9px 11px;border-radius:9px;
+  background:#fff;border:1px solid var(--rule);min-width:86px}
+.vc .tile .tl{font-family:var(--mono);font-size:8.5px;letter-spacing:.08em;text-transform:uppercase;
+  color:var(--soft);white-space:nowrap}
+.vc .glyph{display:flex;align-items:flex-end;justify-content:center;gap:2px;height:20px}
+.vc .glyph i{width:4px;background:var(--ink);border-radius:1px;display:block}
+.vc .dots{display:flex;align-items:center;justify-content:center;gap:3px;height:20px}
+.vc .dots i{width:6px;height:6px;border-radius:50%;display:block}
+.vc .statement{font-family:var(--serif);font-size:19px;line-height:1.42}
+.vc .why{font-size:13px;line-height:1.6;color:var(--soft);margin-top:9px;max-width:82ch}
+.vc .why .hedge{color:var(--clay)}
+
+.vc .density{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:11px}
+.vc .density .dn{font-size:12px;color:var(--soft);font-style:italic}
+.vc .axhead{display:grid;grid-template-columns:118px 1fr;gap:0 8px;align-items:end;margin-bottom:9px}
+.vc .axhead .cap{font-family:var(--mono);font-size:8.5px;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--faint);text-align:right;padding-bottom:2px}
+.vc .decrow{display:grid;grid-template-columns:repeat(14,1fr);gap:3px;padding-bottom:6px}
+.vc .decrow .d{font-family:var(--mono);font-size:9px;text-align:center;white-space:nowrap;color:var(--soft)}
+.vc .decrow .d.anchor{font-weight:600;color:var(--ink)}
+.vc .decrow .d.early{color:var(--rule-muted)}
+.vc .maprows{display:flex;flex-direction:column}
+.vc .mrow{display:grid;grid-template-columns:118px 1fr;gap:0 8px;align-items:center}
+.vc .mrow .rl{font-family:var(--mono);text-align:right;padding-right:2px;line-height:1;color:var(--faint)}
+.vc .mrow .rl.named{color:var(--ink)}
+.vc .cells{display:grid;grid-template-columns:repeat(14,1fr);gap:3px}
+.vc .cells i{border-radius:2px;display:block}
+.vc .maplegend{display:flex;align-items:center;gap:14px;margin-top:12px;flex-wrap:wrap}
+.vc .maplegend .sw{width:15px;height:9px;border-radius:2px;display:block}
+.vc .booknote{margin-top:9px;font-size:12px;line-height:1.5;color:var(--soft);font-style:italic}
+.vc .thinwarn{margin-top:9px;font-family:var(--mono);font-size:10.5px;color:var(--clay)}
+.vc .volwrap{display:grid;grid-template-columns:118px 1fr;gap:0 8px;align-items:end;margin-bottom:9px}
+.vc .volbars{display:flex;align-items:flex-end;gap:5px;height:64px}
+.vc .volbars i{flex:1;background:var(--clay-line);border-radius:2px 2px 0 0;display:block}
+
+.vc .thinbox{margin-top:22px;border:1px dashed var(--clay-line);background:#faf9f5;border-radius:10px;padding:24px 26px}
+.vc .thinbox p{font-size:13.5px;line-height:1.6;color:var(--soft);max-width:70ch;margin:0}
+
+.vc .movers{margin-top:22px;padding-top:18px;border-top:1px solid var(--rule)}
+.vc .mvrow{display:flex;align-items:baseline;gap:12px;font-size:13px}
+.vc .mvrow .mn{font-family:var(--mono);font-size:12.5px;min-width:70px}
+.vc .mvrow .mg{font-family:var(--serif);font-size:14px;color:var(--soft)}
+.vc .mvrow .md{margin-left:auto;font-family:var(--mono);font-size:12px}
+.vc .diffuse{font-size:13px;line-height:1.6;color:var(--soft);max-width:74ch}
+
+.vc .summ{margin-top:24px;padding-top:20px;border-top:1px solid var(--rule)}
+.vc .summ-h{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap}
+.vc .summ-h h3{font-family:var(--serif);font-size:18px;font-weight:600;margin:0}
+.vc .summ-h p{font-size:13px;line-height:1.6;color:var(--soft);margin:5px 0 0;max-width:76ch}
+.vc .btn{font-size:13px;padding:8px 16px;border-radius:8px;border:1px solid var(--lav);
+  background:var(--lav);color:#fff;cursor:pointer}
+.vc .btn.ghost{background:#fff;color:var(--lav);border-color:var(--lav-line)}
+.vc .splitpanel{margin-top:16px;background:#eef1fa;border:1px solid var(--rule);border-left:3px solid var(--lav);
+  border-radius:0 8px 8px 0;padding:14px 18px 16px}
+.vc .metricrow{display:flex;align-items:center;gap:9px;flex-wrap:wrap;padding-bottom:12px;margin-bottom:12px;
+  border-bottom:1px solid rgba(28,34,48,.1)}
+.vc .metricrow .mnote{font-size:12px;line-height:1.5;color:var(--soft);flex:1;min-width:280px}
+.vc .strip{display:flex;align-items:stretch;gap:9px;height:196px;margin-top:8px}
+.vc .band{flex:1;display:flex;flex-direction:column;align-items:center;min-width:0}
+.vc .band .up,.vc .band .dn{width:100%;display:block}
+.vc .band .base{height:1px;background:var(--ink);width:100%;flex:none;opacity:.55}
+.vc .band .bl{font-family:var(--mono);font-size:9px;margin-top:6px;white-space:nowrap;
+  transform:rotate(-40deg);transform-origin:top left;height:22px}
+.vc input[type=range]{width:100%;margin:0;height:16px;accent-color:var(--lav);cursor:grab}
+.vc .ticks{position:relative;height:13px;font-family:var(--mono);font-size:9px;color:var(--soft);opacity:.75}
+.vc .ticks span{position:absolute}
+
+.vc .cmp{margin-top:18px;background:#f7f8fd;border:1px solid var(--rule);border-radius:11px;padding:20px 22px 22px}
+.vc .cmp-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+.vc .cside{background:#fff;border:1px solid #e3e0f0;border-radius:10px;padding:16px 18px 18px}
+.vc .cside .ch{display:flex;align-items:baseline;gap:8px;padding-bottom:9px;border-bottom:1px solid var(--rule);
+  margin-bottom:11px;flex-wrap:wrap}
+.vc .cside .ch .sl{font-size:13px;font-weight:600}
+.vc .pills{display:flex;gap:4px;margin-left:auto;flex-wrap:wrap;justify-content:flex-end}
+.vc .pill{font-size:10.5px;padding:3px 8px;border-radius:6px;cursor:pointer;background:#f2f1f8;color:var(--lav)}
+.vc .pill.on{background:var(--lav);color:#fff}
+.vc .cnote{font-size:12.5px;color:var(--soft);margin-bottom:11px;line-height:1.5}
+.vc .cblank{height:150px;display:flex;align-items:center;justify-content:center;text-align:center;
+  border:1px dashed var(--clay-line);background:#faf9f5;border-radius:9px;padding:16px;
+  font-size:12.5px;line-height:1.5;color:var(--soft)}
+.vc .cmpfoot{margin-top:14px;font-family:var(--mono);font-size:10.5px;color:var(--clay)}
+.vc .cdec{display:grid;grid-template-columns:56px 1fr;gap:0 6px}
+.vc .cdec .draw{display:grid;grid-template-columns:repeat(14,1fr);gap:2px;padding-bottom:5px}
+.vc .cdec .draw .d{font-family:var(--mono);font-size:8px;text-align:center;color:var(--faint)}
+.vc .crows{display:flex;flex-direction:column;gap:2px}
+.vc .crow{display:grid;grid-template-columns:56px 1fr;gap:0 6px;align-items:center}
+.vc .crow .rl{font-family:var(--mono);font-size:8px;text-align:right;padding-right:2px;color:var(--faint)}
+.vc .crow .rl.named{color:var(--ink)}
+.vc .builder{margin-bottom:11px}
+.vc .builder input{width:100%;font-family:var(--sans);font-size:12.5px;padding:7px 10px;border-radius:7px;border:1px solid var(--lav-line);color:var(--ink);background:#fff}
+.vc .jlist{display:flex;flex-direction:column;gap:3px;margin-top:8px}
+.vc .jrow{display:flex;align-items:baseline;gap:8px;font-size:12px;padding:4px 8px;border-radius:6px;background:#fff;border:1px solid #eceaf4;cursor:pointer}
+.vc .jrow.on{background:#eceafa;border-color:var(--lav-line)}
+.vc .jrow .jm{font-family:var(--mono);font-size:11px;color:var(--lav);width:10px;flex:none}
+.vc .jrow .jn{font-family:var(--serif);font-size:13px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.vc .jrow .jf{font-family:var(--mono);font-size:9.5px;color:var(--faint);margin-left:auto;flex:none}
+.vc .jempty{font-size:12px;color:var(--faint);font-style:italic;padding:4px 8px}
+.vc .jchips{display:flex;gap:5px;flex-wrap:wrap;margin-top:9px}
+.vc .jchip{display:flex;align-items:center;gap:6px;font-size:11.5px;background:#eceafa;border:1px solid var(--lav-line);border-radius:6px;padding:3px 8px;color:var(--lav)}
+.vc .jchip span{cursor:pointer;color:#8b86c9}
+@media (max-width:820px){
+  .vc .cmp-grid{grid-template-columns:1fr}
+  .vc .abloc,.vc .thinpanel .abloc{grid-template-columns:1fr}
+  .vc .alab{text-align:left;border-right:0;padding:0 0 4px}
+  .vc .wmeta{margin-left:0;width:100%}
+}
+.vc .scroll{max-height:560px;overflow-y:auto;padding-right:4px}
+</style>
+</head>
+<body>
+<header class="mast">
+  <div style="max-width:1120px;margin:0 auto;padding:20px 24px 0;font-family:'Iowan Old Style',Georgia,serif;font-size:30px;font-weight:600">How attention shifted over time within a single work</div>
+</header>
+
+<div class="vc" id="vcApp">
+  <div id="vcRoot"><div style="padding:40px;color:#5b6478">Loading…</div></div>
+</div>
+
+<script>
+const DATA_DIR = "viewer_data/";
+const $ = (s, r=document) => r.querySelector(s);
+const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+
+const AU = {
+  Homer:{c:"#7d6a2a",t:"#f9f8f3",rgb:"125,106,42"},
+  Pindar:{c:"#3f6f9c",t:"#f4f8fc",rgb:"63,111,156"},
+  Plato:{c:"#5a5497",t:"#f7f8fd",rgb:"90,84,151"},
+  Aristotle:{c:"#1f9e8a",t:"#f5fbf9",rgb:"31,158,138"},
+  Paul:{c:"#a15a72",t:"#fcf6f8",rgb:"161,90,114"}
+};
+const AORDER = ["Homer","Pindar","Plato","Aristotle","Paul"];
+const PAUL_ORDER = ["Romans","1 Corinthians","2 Corinthians","Galatians","Ephesians","Philippians",
+  "Colossians","1 Thessalonians","2 Thessalonians","1 Timothy","2 Timothy","Titus","Philemon"];
+const SETS = ["all","phil","classics","theo"];
+const SETNAME = {all:"All journals",phil:"Philosophy",classics:"Classics",theo:"Theology & NT"};
+const SETLINE = {
+  all:"48 journals · philosophy, classics, theology & New Testament",
+  phil:"philosophy journals · Phronesis alone is 40,945 citations",
+  classics:"classics journals · led by The Classical Quarterly",
+  theo:"theology & New Testament journals · led by The Catholic Biblical Quarterly"
+};
+const DEC = ["1890s","1900s","1910s","1920s","1930s","1940s","1950s","1960s","1970s","1980s","1990s","2000s","2010s","2020s"];
+// per-author grain nouns: [coarse, fine]
+const NOUN = {Paul:["chapter","verse"],Pindar:["ode","line"]};
+const noun = (a,fine) => (NOUN[a]||["book","passage"])[fine?1:0];
+
+const BOOKNOTE = {
+  Metaphysics:"Fourteen books, including the little alpha at 993 — so the letter is not the book number from Beta onwards.",
+  "Nicomachean Ethics":"* the three common books, textually identical to Eudemian IV–VI and printed here in the Bekker pagination.",
+  "Eudemian Ethics":"* the three common books, printed in the Nicomachean page-space, which is why the numbering jumps back before Book VII."
+};
+
+let INDEX = null, CACHE = {};
+const S = { screen:"list", work:null, entry:null, grain:null, jset:"all",
+  split:1961, splitOpen:false, metric:"share", density:"full", cmpOpen:false,
+  cmpA:"phil", cmpB:"classics", listA:[], listB:[], qA:"", qB:"" };
+
+function setState(patch){ Object.assign(S, patch); render(); }
+function safe(w){ return w.replace(/ /g,"_").replace(/\//g,"_"); }
+function variant(entry, grain, jset){ return entry.variants[grain+"|"+jset] || {shape:"t",rows:[],volume:new Array(14).fill(0),movers:[],articles:0,n_units:0}; }
+
+// ---- boot -----------------------------------------------------------------
+fetch(DATA_DIR+"view_c.json").then(r=>{ if(!r.ok) throw new Error("view_c.json "+r.status); return r.json(); })
+  .then(d=>{ INDEX=d; render(); })
+  .catch(e=>{ $("#vcRoot").innerHTML = '<div style="max-width:44ch;margin:12vh auto;color:#5b6478">'+
+    '<b style="color:#b06a3a">Could not load.</b><br>The data file <code>view_c.json</code> could not be loaded.</div>';
+    console.error(e); });
+
+function openWork(work){
+  const key = safe(work);
+  const go = e => {
+    setState({ screen:"work", work, entry:e, grain: e.default_grain,
+      jset:"all", split: e.median || 1961, splitOpen:false, cmpOpen:false, density:"full",
+      cmpA:"phil", cmpB:"classics", listA:[], listB:[], qA:"", qB:"" });
+  };
+  if(CACHE[key]) return go(CACHE[key]);
+  fetch(DATA_DIR+"view_c/"+key+".json").then(r=>r.json()).then(e=>{ CACHE[key]=e; go(e); })
+    .catch(err=>console.error("open "+work, err));
+}
+
+function render(){
+  if(!INDEX){ return; }
+  $("#vcRoot").innerHTML = S.screen==="list" ? renderList() : renderWork();
+  wire();
+}
+
+// =========================================================================
+// STEP 1 — the text index
+// =========================================================================
+function renderList(){
+  const never = INDEX.filter(e=>e.never_testable);
+  const neverSet = new Set(never.map(e=>e.work));
+  const live = INDEX.filter(e=>!e.never_testable);
+
+  const trow = (e, thin) => {
+    const a = e.author, col = AU[a]||AU.Plato;
+    const st = thin ? "" : `border-left:2px solid ${col.c};background:${col.t}`;
+    return `<a class="trow" data-open="${esc(e.work)}" style="${st}">`
+      + `<span class="tn">${esc(shortName(e))}</span>`
+      + `<span class="tc">${(e.articles||0).toLocaleString()}</span></a>`;
+  };
+  const bloc = (a, list, thin) => {
+    if(!list.length) return "";
+    const cols = a==="Pindar" ? "agrid pindar" : "agrid";
+    const col = AU[a]||AU.Plato;
+    return `<div class="abloc">`
+      + `<div class="alab" style="color:${col.c};border-right:2px solid ${col.c}33">${a}</div>`
+      + `<div class="${cols}">${list.map(e=>trow(e,thin)).join("")}</div></div>`;
+  };
+
+  const authors = AORDER.map(a=>{
+    let list = live.filter(e=>e.author===a);
+    list = orderAuthor(a, list);
+    return bloc(a, list, false);
+  }).join("");
+
+  const neverBlocs = AORDER.map(a=>{
+    const list = orderAuthor(a, never.filter(e=>e.author===a));
+    if(!list.length) return "";
+    const col = AU[a]||AU.Plato, cols = a==="Pindar"?"agrid pindar":"agrid";
+    return `<div class="abloc"><div class="alab" style="color:${col.c};border-right:2px solid ${col.c}33">${a}</div>`
+      + `<div class="${cols}">${list.map(e=>trow(e,true)).join("")}</div></div>`;
+  }).join("");
+
+  return `<div class="panel" style="padding:30px 34px 34px">
+    <div class="authors">${authors}</div>
+    <div class="thinpanel">
+      <div style="display:flex;align-items:baseline;gap:10px;margin-bottom:6px">
+        <h3>Too thinly cited to test</h3>
+        <div class="mono" style="font-size:10.5px;color:var(--clay);margin-left:auto">${never.length} texts</div>
+      </div>
+      <div style="font-size:13px;line-height:1.6;color:var(--soft);max-width:84ch">${never.length} of the ${INDEX.length} texts fail the test at every level and in every journal set we hold, so no map is drawn for any of them. They are held here rather than mixed into the lists above. Open one and you still get its citation volume over time. The distinction that matters: a text here is one we could not test, not one we tested and found steady.</div>
+      <div style="display:flex;flex-direction:column;gap:10px;margin-top:14px">${neverBlocs}</div>
+    </div>
+    <div class="note" style="margin-top:22px">◦ For no Pindaric ode did we have enough data to demonstrate non-random shifts in scholarly attention over time at line granularity.</div>
+    <div class="note" style="margin-top:8px">◦ Distinct-article counts from works_index.json · 48 journals · 1827–2022 · authors in chronological order · glosses for named passages are still to come from the passage index</div>
+  </div>`;
+}
+
+function shortName(e){ return e.display; }
+function orderAuthor(a, list){
+  if(a==="Paul"){ const idx=n=>{const i=PAUL_ORDER.indexOf(n);return i<0?99:i;}; return list.slice().sort((p,q)=>idx(p.display)-idx(q.display)); }
+  if(a==="Homer") return list;
+  return list.slice().sort((p,q)=>p.display.localeCompare(q.display));
+}
+
+// =========================================================================
+// STEP 2 — the work map
+// =========================================================================
+function renderWork(){
+  const e = S.entry, a = e.author, col = AU[a]||AU.Plato;
+  const faceted = e.grains.length>1;
+  const grain = S.grain;
+  const fine = grain==="passage";
+  const v = variant(e, grain, S.jset);
+  const shape = v.shape, hedged = !!v.hedged;
+  const isThin = shape==="t", hasMap = !isThin;
+  const lvl = noun(a, fine);
+  const title = (a==="Paul"||a==="Pindar") ? e.display : "the "+e.display;
+
+  // control bar
+  const grainBtns = faceted
+    ? `<span class="lab">Read at</span>`
+      + `<button class="chip ${grain==="book"?"on":""}" data-grain="book">${cap(noun(a,false))} level</button>`
+      + `<button class="chip ${grain==="passage"?"on":""}" data-grain="passage">${cap(noun(a,true))} level</button>`
+      + `<span class="div"></span>`
+    : `<span class="lab">Read at</span>`
+      + `<button class="chip on" disabled>${cap(noun(a,true))} level</button>`
+      + `<span class="gnote">Only ${noun(a,true)}-level facets exist for this text.</span>`
+      + `<span class="div"></span>`;
+  const setBtns = SETS.map(s=>`<button class="chip ${S.jset===s?"on":""}" data-set="${s}">${SETNAME[s].replace(" & NT"," & NT")}</button>`).join("");
+
+  // finding block — the change-type statement only; the how-to-read gloss was
+  // removed as clutter (the legend and section copy already carry it).
+  const statement = findStatement(shape, title, lvl, hedged);
+  const dir = dirIcon(shape), loc = locIcon(shape);
+  const tiles = `<div class="tiles">
+    <div class="tile"><div class="glyph">${dir.bars.map(h=>`<i style="height:${h}px"></i>`).join("")}</div><div class="tl">${dir.name}</div></div>
+    <div class="tile"><div class="dots">${loc.pat.map(on=>`<i style="background:${on?'#1c2230':'#fff'};border:1px solid ${on?'#1c2230':'#c3c7d2'}"></i>`).join("")}</div><div class="tl">${loc.name}</div></div>
+  </div>`;
+  const find = `<div class="find ${isThin?"thin":""}">${tiles}
+    <div><div class="statement">${statement}</div></div></div>`;
+
+  const body = hasMap ? mapBlock(e, v, col, shape) : thinBlock(v, col);
+  const movers = hasMap && shape!=="s" ? moversBlock(v, shape, lvl) : "";
+  const summ = shape==="1p" ? summBlock(e, v, lvl) : "";
+  const cmp = cmpBlock(e);
+
+  return `<div class="panel" style="padding:28px 32px 32px">
+    <div class="back" data-back>← all texts</div>
+    <div class="wtitle"><div class="wbar" style="background:${col.c}"></div>
+      <h2>${esc(e.display)}</h2>
+      <div class="wmeta">${a} · by ${lvl} · ${(v.articles||0).toLocaleString()} placed articles · ${SETNAME[S.jset]}</div></div>
+    <div class="ctrl">${grainBtns}<span class="lab">Journals</span>${setBtns}
+      <span class="setline">${SETLINE[S.jset]}</span></div>
+    ${find}${body}${movers}${summ}${cmp}
+  </div>`;
+}
+
+function cap(s){ return s.charAt(0).toUpperCase()+s.slice(1); }
+
+// ---- the heatmap ----------------------------------------------------------
+function mapBlock(e, v, col, shape){
+  const rows = v.rows||[];
+  const glance = S.density==="glance";
+  const many = rows.length>26;
+  const rh = glance?6:17, gap = glance?1:3;
+  // opacity scale: normalise cell share by the max cell across the map
+  let maxc = 0; rows.forEach(r=>r.share.forEach(x=>{ if(x>maxc) maxc=x; }));
+  const op = x => (0.06 + (maxc? x/maxc:0)*0.88).toFixed(3);
+
+  const decrow = DEC.map((d,i)=>{
+    const anchor = d==="1890s"||d==="1990s";
+    const cls = anchor?"d anchor":(i<2?"d early":"d");
+    return `<div class="${cls}">${anchor?d:d.slice(2)}</div>`;
+  }).join("");
+
+  const rowsHtml = rows.map((r,i)=>{
+    const lab = (glance && !r.named && i%5!==0) ? "" : r.label;
+    const cells = r.share.map(x=>`<i style="height:${rh}px;background:rgba(${col.rgb},${op(x)})"></i>`).join("");
+    return `<div class="mrow"><div class="rl ${r.named?"named":""}" style="font-size:${glance?"8px":"9.5px"}">${esc(lab)}</div>`
+      + `<div class="cells">${cells}</div></div>`;
+  }).join("");
+
+  // volume curve
+  const vol = v.volume||new Array(14).fill(0);
+  const vmax = Math.max(1,...vol);
+  const step = 280/13;
+  const pts = vol.map((n,i)=>[i*step, 32 - (n/vmax)*28]);
+  let curve = "";
+  pts.forEach((p,i)=>{ if(i===0){curve="M"+p[0].toFixed(1)+" "+p[1].toFixed(1);} else {
+    const q=pts[i-1], cx=(q[0]+p[0])/2; curve+=" C"+cx.toFixed(1)+" "+q[1].toFixed(1)+" "+cx.toFixed(1)+" "+p[1].toFixed(1)+" "+p[0].toFixed(1)+" "+p[1].toFixed(1); } });
+
+  const legend = [.14,.32,.5,.68,.9].map(x=>`<span class="sw" style="background:rgba(${col.rgb},${x})"></span>`).join("");
+  const bnote = (S.grain==="book" && BOOKNOTE[e.display]) ? `<div class="booknote">${BOOKNOTE[e.display]}</div>` : "";
+  const density = many ? `<div class="density"><span class="lab">Rows</span>
+    <button class="mini chip ${glance?"on":""}" data-density="glance">At a glance</button>
+    <button class="mini chip ${!glance?"on":""}" data-density="full">Full detail</button>
+    <span class="dn">${glance?"the whole text at once, every fifth band labelled":"full labels · scroll to read down the text"}</span></div>` : "";
+
+  return `<div style="margin-top:24px">
+    ${density}
+    <div class="volwrap"><div class="mono" style="font-size:8.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--faint);text-align:right;padding-bottom:2px">citations<br>per decade</div>
+      <svg viewBox="0 0 280 34" preserveAspectRatio="none" style="width:100%;height:54px;display:block;overflow:visible">
+        <path d="${curve} L280 34 L0 34 Z" fill="rgba(${col.rgb},.13)"></path>
+        <path d="${curve}" fill="none" stroke="${col.c}" stroke-width="1.5" stroke-linejoin="round" vector-effect="non-scaling-stroke"></path>
+      </svg></div>
+    <div class="axhead"><div></div><div class="decrow">${decrow}</div></div>
+    <div class="${many?"scroll":""}"><div class="maprows" style="gap:${gap}px">${rowsHtml}</div></div>
+    <div class="maplegend">
+      <div class="mono" style="font-size:9.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--soft)">rows in text order · columns by decade, 1890s to 2020s · darker = larger share of that decade</div>
+      <div style="display:flex;align-items:center;gap:5px;margin-left:auto"><span class="mono" style="font-size:9px;color:var(--faint)">low</span>${legend}<span class="mono" style="font-size:9px;color:var(--faint)">high</span></div>
+    </div>
+    ${bnote}
+    <div class="thinwarn">◦ the 1890s and 1900s rest on few citations — read those two columns with that in mind${S.grain==="book"?"":" · rows are the "+rows.length+" most-cited "+noun(e.author,true)+"s, in text order"}</div>
+  </div>`;
+}
+
+function thinBlock(v, col){
+  const vol = v.volume||new Array(14).fill(0);
+  const vmax = Math.max(1,...vol);
+  const bars = vol.map(n=>`<i style="height:${Math.max(3,Math.round(n/vmax*64))}px"></i>`).join("");
+  return `<div class="thinbox">
+    <p>We can still show you how often this text was cited over time, which is a real measurement. What we cannot show is where inside the text that attention sat.</p>
+    <div class="volbars" style="margin-top:18px">${bars}</div>
+    <div class="mono" style="font-size:9.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--soft);margin-top:8px">citing articles per decade</div>
+  </div>`;
+}
+
+function moversBlock(v, shape, lvl){
+  const named = shape==="1p"||shape==="rp";
+  if(named){
+    const rows = (v.movers||[]).map(m=>{
+      const detail = shape==="1p"
+        ? (S.metric==="share"
+            ? (m.delta_share>=0?"+":"−")+Math.abs(m.delta_share).toFixed(1)+" pts of share"
+            : (m.delta_arts>=0?"+":"−")+Math.abs(m.delta_arts).toLocaleString()+" citing articles")
+        : "peaked in the "+(m.peak||"—");
+      return `<div class="mvrow"><span class="mn">${esc(m.label)}</span>`
+        + `<span class="mg">${m.gloss?esc(m.gloss):"[gloss from the "+lvl+" index]"}</span>`
+        + `<span class="md">${detail}</span></div>`;
+    }).join("");
+    return `<div class="movers"><div class="lab" style="margin-bottom:10px">The ${lvl}s that lead the change</div>
+      <div style="display:flex;flex-direction:column;gap:7px">${rows}</div></div>`;
+  }
+  return `<div class="movers"><div class="lab" style="margin-bottom:10px">No ${lvl} may be named</div>
+    <div class="diffuse">Every ${lvl} moved a little and none moved far enough to be named. What changed is the distribution, not ${/^[aeiou]/i.test(lvl)?"an":"a"} ${lvl}.</div></div>`;
+}
+
+// ---- before/after split summary (1p only) ---------------------------------
+function summBlock(e, v, lvl){
+  const open = S.splitOpen;
+  const head = `<div class="summ-h"><div><h3>Summarise it as before and after</h3>
+    <p>The map above shows the whole trajectory. A before-and-after is a summary of it — offered here because this text moves one way and specific ${lvl}s carry the move, so a single split can state the change without distorting it.</p></div>
+    <button class="btn" data-splittoggle>${open?"Hide the summary":"Show before and after"}</button></div>`;
+  if(!open) return `<div class="summ">${head}</div>`;
+
+  const metricNote = S.metric==="share"
+    ? "Share of each era's citations — this asks whether attention moved around inside the text, with overall growth held constant."
+    : "Citation counts — this asks how many more or fewer articles cited each "+lvl+". Almost everything rises here, because the literature itself grew.";
+  const strip = buildStrip(v);
+  const legend = S.metric==="share" ? "▲ gained share after the split · ▼ lost share" : "▲ more citing articles after the split · ▼ fewer";
+
+  return `<div class="summ">${head}
+    <div class="splitpanel">
+      <div class="metricrow"><span class="lab">Measure by</span>
+        <button class="mini chip ${S.metric==="share"?"on":""}" data-metric="share">Share of citations</button>
+        <button class="mini chip ${S.metric==="count"?"on":""}" data-metric="count">Citation counts</button>
+        <span class="mnote">${metricNote}</span></div>
+      <div style="display:flex;align-items:baseline;gap:10px;margin-bottom:8px">
+        <span class="lab" style="color:var(--lav)">Split the years at</span>
+        <span class="serif" style="font-size:21px;font-weight:600">${S.split}</span>
+        <span style="font-size:12px;color:var(--soft);font-style:italic">the corpus median for this text · drag to try another</span></div>
+      <input type="range" min="1887" max="2022" step="1" value="${S.split}" data-splitdrag>
+      <div class="ticks"><span style="left:0">1887</span><span style="left:46.7%;transform:translateX(-50%)">1950</span>
+        <span style="left:76.3%;transform:translateX(-50%)">1990</span><span style="right:0">2022</span></div>
+      <div class="strip">${strip}</div>
+      <div class="lab" style="margin-top:4px;letter-spacing:.1em">${legend}</div>
+    </div></div>`;
+}
+
+// before/after per unit around the chosen split year, from the decade matrix
+function buildStrip(v){
+  const rows = v.rows||[];
+  const col = AU[S.entry.author]||AU.Plato;
+  const cut = Math.max(1, Math.round((S.split-1887)/135*13));
+  const vol = v.volume||new Array(14).fill(0);
+  const abs = S.metric==="count";
+  const sum = xs => xs.reduce((s,x)=>s+x,0);
+  const sb = sum(vol.slice(0,cut))||1, sa = sum(vol.slice(cut))||1;
+  // true before/after share-shift from raw per-decade counts (matches the movers
+  // list's measure); count mode shows the raw change in citing articles.
+  const raw = rows.map(r=>{
+    const c = r.counts || r.share.map((_,i)=>0);
+    const cb = sum(c.slice(0,cut)), ca = sum(c.slice(cut));
+    return abs ? (ca - cb) : (ca/sa - cb/sb);
+  });
+  // normalise by the largest mover so real (small) share deltas fill the strip;
+  // a floor keeps a near-flat work from amplifying noise to full height.
+  const peak = Math.max(abs ? 1 : 0.004, ...raw.map(Math.abs));
+  const norm = raw.map(x=>Math.max(-1,Math.min(1,x/peak)));
+  // keep the material movers so labels stay legible
+  let keep = rows.map((r,i)=>i);
+  if(rows.length>20){
+    const material = keep.filter(i=>Math.abs(norm[i])>.12 || rows[i].named);
+    keep = (material.length>=4?material:keep).slice();
+    if(keep.length>20) keep = keep.slice().sort((x,y)=>Math.abs(norm[y])-Math.abs(norm[x])).slice(0,20).sort((x,y)=>x-y);
+  }
+  const hi = 80;
+  return keep.map(i=>{
+    const r=rows[i], val=norm[i], strong=Math.abs(val)>.3;
+    const c = val>=0 ? (strong?"#1f9e8a":"#a8d8cd") : (strong?"#b06a3a":"#e0c3ac");
+    const px = Math.max(2, Math.round(Math.abs(val)*hi));
+    return `<div class="band" style="${strong?"":"opacity:.85"}">
+      <div style="height:${hi}px;display:flex;flex-direction:column;justify-content:flex-end;width:100%"><div class="up" style="background:${c};border-radius:2px 2px 0 0;height:${val>=0?px:0}px"></div></div>
+      <div class="base"></div>
+      <div style="height:${hi}px;display:flex;flex-direction:column;justify-content:flex-start;width:100%"><div class="dn" style="background:${c};border-radius:0 0 2px 2px;height:${val<0?px:0}px"></div></div>
+      <div class="bl" style="color:${strong?'#1c2230':'#8a90a0'}">${esc(r.label)}</div></div>`;
+  }).join("");
+}
+
+// ---- compare two journal sets ---------------------------------------------
+function cmpBlock(e){
+  const head = `<div style="margin-top:26px;padding-top:22px;border-top:1px solid var(--rule);display:flex;align-items:baseline;gap:16px;flex-wrap:wrap">
+    <div><h3 class="serif" style="font-size:18px;font-weight:600;margin:0">Compare two bodies of journals</h3>
+      <p style="font-size:13px;line-height:1.6;color:var(--soft);margin:5px 0 0;max-width:76ch">Did this text move for everybody, or only inside one community of readers? The same map, twice, with the journals as the only difference.</p></div>
+    <button class="btn ghost" data-cmptoggle style="margin-left:auto">${S.cmpOpen?"Close the comparison":"Compare journal sets"}</button></div>`;
+  if(!S.cmpOpen) return head;
+  const side = (which) => cmpSide(e, which);
+  return head + `<div class="cmp"><div class="cmp-grid">${side("A")}${side("B")}</div>
+    <div class="cmpfoot">◦ both sides are the same text at the same level · only the journals differ</div></div>`;
+}
+
+// build a descriptive (no-verdict) heatmap for an arbitrary journal selection,
+// summed client-side from the per-journal counts
+function customMap(cust, names){
+  const pick = new Set(names), jidx = [];
+  cust.journals.forEach((jf,i)=>{ if(pick.has(jf[0])) jidx.push(String(i)); });
+  const denom = new Array(14).fill(0);
+  jidx.forEach(ji=>{ const v=cust.jvol[ji]; if(v) for(let d=0;d<14;d++) denom[d]+=v[d]; });
+  const rows = cust.units.map(u=>{
+    const counts=new Array(14).fill(0);
+    jidx.forEach(ji=>{ const c=u.jc[ji]; if(c) for(let d=0;d<14;d++) counts[d]+=c[d]; });
+    return { label:u.label, named:false, share: counts.map((n,d)=>denom[d]?n/denom[d]:0) };
+  });
+  return { rows, total: denom.reduce((s,x)=>s+x,0) };
+}
+
+function heatmapHtml(rows, rgb){
+  let maxc=0; rows.forEach(r=>r.share.forEach(x=>{if(x>maxc)maxc=x;}));
+  const op = x => (0.06+(maxc?x/maxc:0)*0.88).toFixed(3);
+  const dec = DEC.map(d=>`<div class="d">${d.slice(2,4)}</div>`).join("");
+  const rh = rows.map(r=>`<div class="crow"><div class="rl ${r.named?"named":""}">${esc(r.label)}</div>`
+    + `<div class="cells" style="gap:2px">${r.share.map(x=>`<i style="height:11px;background:rgba(${rgb},${op(x)})"></i>`).join("")}</div></div>`).join("");
+  return `<div class="cdec"><div></div><div class="draw">${dec}</div></div><div class="crows">${rh}</div>`;
+}
+
+function cmpSide(e, which){
+  const set = S["cmp"+which], list = S["list"+which], q = (S["q"+which]||"").trim().toLowerCase();
+  const custom = set==="custom";
+  const col = AU[e.author]||AU.Plato;
+  const cust = (e.custom||{})[S.grain] || null;
+  const pills = SETS.map(s=>`<span class="pill ${(!custom&&set===s)?"on":""}" data-cmppick="${which}:${s}">${SETNAME[s].replace(" & NT","")}</span>`).join("")
+    + `<span class="pill ${custom?"on":""}" data-cmppick="${which}:custom" ${cust?"":"style=\"opacity:.4;cursor:not-allowed\""}>Custom</span>`;
+
+  let label, note, draw, builder = "";
+  if(custom){
+    label = list.length ? "Custom · "+list.length+" journal"+(list.length===1?"":"s") : "Custom · none picked yet";
+    // builder: filter + up to 8 matches + selected chips
+    const matches = (cust? cust.journals: []).filter(jf=>!q || jf[0].toLowerCase().indexOf(q)>=0).slice(0,8);
+    const fieldName = {philosophy:"philosophy",classics:"classics",theology:"theology"};
+    const rows = matches.map(jf=>{
+      const on = list.indexOf(jf[0])>=0;
+      return `<div class="jrow ${on?"on":""}" data-jtoggle="${which}:${esc(jf[0])}">`
+        + `<span class="jm">${on?"✓":"+"}</span><span class="jn">${esc(jf[0])}</span>`
+        + `<span class="jf">${fieldName[jf[1]]||""}</span></div>`;
+    }).join("");
+    const chips = list.map(nm=>`<span class="jchip">${esc(nm)}<span data-jdrop="${which}:${esc(nm)}">×</span></span>`).join("");
+    builder = `<div class="builder">
+      <input type="text" placeholder="Type to find a journal…" value="${esc(S["q"+which]||"")}" data-jquery="${which}">
+      <div class="jlist">${rows||'<div class="jempty">no journal matches</div>'}</div>
+      <div class="jchips">${chips}</div>
+      <div class="mono" style="font-size:9.5px;color:var(--clay);margin-top:8px">◦ only journals with citations for this text are offered</div>
+    </div>`;
+    if(!cust){ note="No per-journal data for this text."; draw=`<div class="cblank">No custom map available.</div>`; }
+    else if(!list.length){ note="Pick one or more journals to draw the map."; draw=`<div class="cblank">No journals selected yet.</div>`; }
+    else {
+      const m = customMap(cust, list);
+      note = m.total.toLocaleString()+" placed citations · distribution only, not significance-tested";
+      draw = heatmapHtml(m.rows, col.rgb);
+    }
+  } else {
+    const v = variant(e, S.grain, set), thin = v.shape==="t";
+    label = SETNAME[set];
+    note = thin ? (v.articles||0).toLocaleString()+" citing articles · too few placed to a passage"
+      : (v.shape==="s"?"Tested in this set, and nothing moved.":(v.shape==="1p"||v.shape==="1w"?"Shifts in one direction in this set.":"Rises and falls in this set."))
+        +" "+(v.articles||0).toLocaleString()+" placed articles.";
+    draw = thin ? `<div class="cblank">No passage map in this set — too few placed citations here to draw one.</div>`
+      : heatmapHtml(v.rows||[], col.rgb);
+  }
+  return `<div class="cside"><div class="ch"><span class="sl">${label}</span><div class="pills">${pills}</div></div>
+    ${builder}<div class="cnote">${note}</div>${draw}</div>`;
+}
+
+// ---- statements + icons (derived from shape, in one place) ----------------
+function findStatement(shape, title, lvl, hedged){
+  const H = hedged ? " The signal is weak — near the floor of what we can detect." : "";
+  if(shape==="s")
+    return "The distribution of scholarly attention within "+title+" has not meaningfully shifted over the period covered — and there are enough citations here to be reasonably sure we would have detected a shift had there been one.";
+  if(shape==="t")
+    return "There are too few placed citations to say how attention is distributed within "+title+", let alone whether that distribution has changed.";
+  if(shape==="1p")
+    return "Attention within "+title+" has shifted in one direction over time, and the shift is led by specific "+lvl+"s."+H;
+  if(shape==="1w")
+    return "Attention within "+title+" has shifted in one direction over time, but no single "+lvl+" carries the shift."+H;
+  if(shape==="rp")
+    return "Attention within "+title+" rose and fell rather than moving in one direction, and specific "+lvl+"s lead the movement."+H;
+  return "Attention within "+title+" rose and fell rather than moving in one direction, and no single "+lvl+" carries the movement."+H;
+}
+
+function dirIcon(shape){
+  if(shape==="s") return {name:"steady",bars:[9,9,9,9]};
+  if(shape==="t") return {name:"untested",bars:[3,3,3,3]};
+  if(shape==="1p"||shape==="1w") return {name:"one direction",bars:[4,8,12,17]};
+  return {name:"rises & falls",bars:[4,16,6,14]};
+}
+function locIcon(shape){
+  if(shape==="t") return {name:"untested",pat:[0,0,0,0,0]};
+  if(shape==="s") return {name:"no movement",pat:[0,0,0,0,0]};
+  if(shape==="1p"||shape==="rp") return {name:"passage-led",pat:[0,1,0,0,1]};
+  return {name:"diffuse",pat:[1,1,1,1,1]};
+}
+
+// ---- events ---------------------------------------------------------------
+function wire(){
+  const root = $("#vcRoot");
+  root.querySelectorAll("[data-open]").forEach(el=>el.addEventListener("click",ev=>{ev.preventDefault();openWork(el.dataset.open);}));
+  const back = root.querySelector("[data-back]"); if(back) back.addEventListener("click",()=>setState({screen:"list"}));
+  root.querySelectorAll("[data-grain]").forEach(b=>b.addEventListener("click",()=>setState({grain:b.dataset.grain,splitOpen:false})));
+  root.querySelectorAll("[data-set]").forEach(b=>b.addEventListener("click",()=>setState({jset:b.dataset.set,splitOpen:false})));
+  root.querySelectorAll("[data-density]").forEach(b=>b.addEventListener("click",()=>setState({density:b.dataset.density})));
+  root.querySelectorAll("[data-metric]").forEach(b=>b.addEventListener("click",()=>setState({metric:b.dataset.metric})));
+  const stog = root.querySelector("[data-splittoggle]"); if(stog) stog.addEventListener("click",()=>setState({splitOpen:!S.splitOpen}));
+  const sd = root.querySelector("[data-splitdrag]"); if(sd) sd.addEventListener("input",ev=>setState({split:+ev.target.value}));
+  const ctog = root.querySelector("[data-cmptoggle]"); if(ctog) ctog.addEventListener("click",()=>setState({cmpOpen:!S.cmpOpen}));
+  root.querySelectorAll("[data-cmppick]").forEach(p=>p.addEventListener("click",()=>{
+    const v=p.dataset.cmppick, i=v.indexOf(":"), w=v.slice(0,i), s=v.slice(i+1);
+    if(s==="custom" && !((S.entry.custom||{})[S.grain])) return;   // no per-journal data
+    setState(w==="A"?{cmpA:s}:{cmpB:s});
+  }));
+  root.querySelectorAll("[data-jtoggle]").forEach(el=>el.addEventListener("click",()=>{
+    const v=el.dataset.jtoggle, i=v.indexOf(":"), w=v.slice(0,i), nm=v.slice(i+1);
+    const key="list"+w, cur=S[key].slice(), k=cur.indexOf(nm);
+    if(k>=0) cur.splice(k,1); else cur.push(nm);
+    setState({[key]:cur});
+  }));
+  root.querySelectorAll("[data-jdrop]").forEach(el=>el.addEventListener("click",ev=>{
+    ev.stopPropagation();
+    const v=el.dataset.jdrop, i=v.indexOf(":"), w=v.slice(0,i), nm=v.slice(i+1);
+    const key="list"+w; setState({[key]:S[key].filter(x=>x!==nm)});
+  }));
+  root.querySelectorAll("[data-jquery]").forEach(el=>el.addEventListener("change",ev=>{
+    setState({["q"+el.dataset.jquery]: ev.target.value});
+  }));
+}
+</script>
+</body>
+</html>

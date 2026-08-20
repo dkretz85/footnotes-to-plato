@@ -1,0 +1,842 @@
+[
+ {
+  "work": "Odyssey",
+  "display": "Odyssey",
+  "author": "Homer",
+  "system": "homer",
+  "faceted": false,
+  "articles": 5428,
+  "citations": 53805,
+  "never_testable": false
+ },
+ {
+  "work": "Romans",
+  "display": "Romans",
+  "author": "Paul",
+  "system": "nt",
+  "faceted": false,
+  "articles": 3014,
+  "citations": 43094,
+  "never_testable": false
+ },
+ {
+  "work": "Republic",
+  "display": "Republic",
+  "author": "Plato",
+  "system": "stephanus",
+  "faceted": true,
+  "articles": 5220,
+  "citations": 39932,
+  "never_testable": false
+ },
+ {
+  "work": "1 Corinthians",
+  "display": "1 Corinthians",
+  "author": "Paul",
+  "system": "nt",
+  "faceted": false,
+  "articles": 3261,
+  "citations": 35215,
+  "never_testable": false
+ },
+ {
+  "work": "Iliad",
+  "display": "Iliad",
+  "author": "Homer",
+  "system": "homer",
+  "faceted": false,
+  "articles": 4141,
+  "citations": 34087,
+  "never_testable": false
+ },
+ {
+  "work": "Laws",
+  "display": "Laws",
+  "author": "Plato",
+  "system": "stephanus",
+  "faceted": true,
+  "articles": 4707,
+  "citations": 28778,
+  "never_testable": false
+ },
+ {
+  "work": "Galatians",
+  "display": "Galatians",
+  "author": "Paul",
+  "system": "nt",
+  "faceted": false,
+  "articles": 2103,
+  "citations": 18088,
+  "never_testable": false
+ },
+ {
+  "work": "2 Corinthians",
+  "display": "2 Corinthians",
+  "author": "Paul",
+  "system": "nt",
+  "faceted": false,
+  "articles": 1765,
+  "citations": 15003,
+  "never_testable": false
+ },
+ {
+  "work": "Timaeus",
+  "display": "Timaeus",
+  "author": "Plato",
+  "system": "stephanus",
+  "faceted": false,
+  "articles": 2203,
+  "citations": 14208,
+  "never_testable": false
+ },
+ {
+  "work": "Metaphysics",
+  "display": "Metaphysics",
+  "author": "Aristotle",
+  "system": "stephanus",
+  "faceted": true,
+  "articles": 2330,
+  "citations": 13050,
+  "never_testable": false
+ },
+ {
+  "work": "Phaedo",
+  "display": "Phaedo",
+  "author": "Plato",
+  "system": "stephanus",
+  "faceted": false,
+  "articles": 1494,
+  "citations": 11518,
+  "never_testable": false
+ },
+ {
+  "work": "Nicomachean_Ethics",
+  "display": "Nicomachean Ethics",
+  "author": "Aristotle",
+  "system": "bekker",
+  "faceted": true,
+  "articles": 2044,
+  "citations": 11326,
+  "never_testable": false
+ },
+ {
+  "work": "Phaedrus",
+  "display": "Phaedrus",
+  "author": "Plato",
+  "system": "stephanus",
+  "faceted": false,
+  "articles": 1685,
+  "citations": 9598,
+  "never_testable": false
+ },
+ {
+  "work": "Philippians",
+  "display": "Philippians",
+  "author": "Paul",
+  "system": "nt",
+  "faceted": false,
+  "articles": 1312,
+  "citations": 8405,
+  "never_testable": false
+ },
+ {
+  "work": "Gorgias",
+  "display": "Gorgias",
+  "author": "Plato",
+  "system": "stephanus",
+  "faceted": false,
+  "articles": 1086,
+  "citations": 7821,
+  "never_testable": false
+ },
+ {
+  "work": "Politics",
+  "display": "Politics",
+  "author": "Aristotle",
+  "system": "bekker",
+  "faceted": false,
+  "articles": 1804,
+  "citations": 7702,
+  "never_testable": false
+ },
+ {
+  "work": "Protagoras",
+  "display": "Protagoras",
+  "author": "Plato",
+  "system": "stephanus",
+  "faceted": false,
+  "articles": 1030,
+  "citations": 7405,
+  "never_testable": false
+ },
+ {
+  "work": "Philebus",
+  "display": "Philebus",
+  "author": "Plato",
+  "system": "stephanus",
+  "faceted": false,
+  "articles": 785,
+  "citations": 6665,
+  "never_testable": false
+ },
+ {
+  "work": "Ephesians",
+  "display": "Ephesians",
+  "author": "Paul",
+  "system": "nt",
+  "faceted": false,
+  "articles": 1184,
+  "citations": 6589,
+  "never_testable": false
+ },
+ {
+  "work": "Symposium",
+  "display": "Symposium",
+  "author": "Plato",
+  "system": "stephanus",
+  "faceted": false,
+  "articles": 1205,
+  "citations": 6230,
+  "never_testable": false
+ },
+ {
+  "work": "Apology",
+  "display": "Apology",
+  "author": "Plato",
+  "system": "stephanus",
+  "faceted": false,
+  "articles": 1203,
+  "citations": 6059,
+  "never_testable": false
+ },
+ {
+  "work": "Theaetetus",
+  "display": "Theaetetus",
+  "author": "Plato",
+  "system": "stephanus",
+  "faceted": false,
+  "articles": 972,
+  "citations": 5867,
+  "never_testable": false
+ },
+ {
+  "work": "1 Timothy",
+  "display": "1 Timothy",
+  "author": "Paul",
+  "system": "nt",
+  "faceted": false,
+  "articles": 789,
+  "citations": 5526,
+  "never_testable": false
+ },
+ {
+  "work": "Rhetoric",
+  "display": "Rhetoric",
+  "author": "Aristotle",
+  "system": "bekker",
+  "faceted": false,
+  "articles": 1504,
+  "citations": 5128,
+  "never_testable": false
+ },
+ {
+  "work": "Sophist",
+  "display": "Sophist",
+  "author": "Plato",
+  "system": "stephanus",
+  "faceted": false,
+  "articles": 683,
+  "citations": 5003,
+  "never_testable": false
+ },
+ {
+  "work": "1 Thessalonians",
+  "display": "1 Thessalonians",
+  "author": "Paul",
+  "system": "nt",
+  "faceted": false,
+  "articles": 862,
+  "citations": 4754,
+  "never_testable": false
+ },
+ {
+  "work": "Poetics",
+  "display": "Poetics",
+  "author": "Aristotle",
+  "system": "bekker",
+  "faceted": false,
+  "articles": 1222,
+  "citations": 4384,
+  "never_testable": false
+ },
+ {
+  "work": "Meno",
+  "display": "Meno",
+  "author": "Plato",
+  "system": "stephanus",
+  "faceted": false,
+  "articles": 801,
+  "citations": 4268,
+  "never_testable": false
+ },
+ {
+  "work": "Statesman",
+  "display": "Statesman",
+  "author": "Plato",
+  "system": "stephanus",
+  "faceted": false,
+  "articles": 620,
+  "citations": 4143,
+  "never_testable": false
+ },
+ {
+  "work": "Physics",
+  "display": "Physics",
+  "author": "Aristotle",
+  "system": "stephanus",
+  "faceted": false,
+  "articles": 860,
+  "citations": 4028,
+  "never_testable": false
+ },
+ {
+  "work": "Colossians",
+  "display": "Colossians",
+  "author": "Paul",
+  "system": "nt",
+  "faceted": false,
+  "articles": 937,
+  "citations": 3921,
+  "never_testable": false
+ },
+ {
+  "work": "De_Anima",
+  "display": "De Anima",
+  "author": "Aristotle",
+  "system": "stephanus",
+  "faceted": false,
+  "articles": 748,
+  "citations": 3766,
+  "never_testable": false
+ },
+ {
+  "work": "Cratylus",
+  "display": "Cratylus",
+  "author": "Plato",
+  "system": "stephanus",
+  "faceted": false,
+  "articles": 629,
+  "citations": 3481,
+  "never_testable": false
+ },
+ {
+  "work": "Parmenides",
+  "display": "Parmenides",
+  "author": "Plato",
+  "system": "stephanus",
+  "faceted": false,
+  "articles": 414,
+  "citations": 3111,
+  "never_testable": false
+ },
+ {
+  "work": "Laches",
+  "display": "Laches",
+  "author": "Plato",
+  "system": "stephanus",
+  "faceted": false,
+  "articles": 452,
+  "citations": 2592,
+  "never_testable": false
+ },
+ {
+  "work": "Eudemian_Ethics",
+  "display": "Eudemian Ethics",
+  "author": "Aristotle",
+  "system": "bekker",
+  "faceted": true,
+  "articles": 595,
+  "citations": 2537,
+  "never_testable": false
+ },
+ {
+  "work": "Euthydemus",
+  "display": "Euthydemus",
+  "author": "Plato",
+  "system": "stephanus",
+  "faceted": false,
+  "articles": 415,
+  "citations": 2299,
+  "never_testable": false
+ },
+ {
+  "work": "Charmides",
+  "display": "Charmides",
+  "author": "Plato",
+  "system": "stephanus",
+  "faceted": false,
+  "articles": 327,
+  "citations": 2072,
+  "never_testable": false
+ },
+ {
+  "work": "Crito",
+  "display": "Crito",
+  "author": "Plato",
+  "system": "stephanus",
+  "faceted": false,
+  "articles": 328,
+  "citations": 2020,
+  "never_testable": false
+ },
+ {
+  "work": "2 Timothy",
+  "display": "2 Timothy",
+  "author": "Paul",
+  "system": "nt",
+  "faceted": false,
+  "articles": 537,
+  "citations": 1950,
+  "never_testable": false
+ },
+ {
+  "work": "Euthyphro",
+  "display": "Euthyphro",
+  "author": "Plato",
+  "system": "stephanus",
+  "faceted": false,
+  "articles": 973,
+  "citations": 1893,
+  "never_testable": false
+ },
+ {
+  "work": "Lysis",
+  "display": "Lysis",
+  "author": "Plato",
+  "system": "stephanus",
+  "faceted": false,
+  "articles": 256,
+  "citations": 1648,
+  "never_testable": false
+ },
+ {
+  "work": "Topics",
+  "display": "Topics",
+  "author": "Aristotle",
+  "system": "stephanus",
+  "faceted": false,
+  "articles": 443,
+  "citations": 1622,
+  "never_testable": false
+ },
+ {
+  "work": "2 Thessalonians",
+  "display": "2 Thessalonians",
+  "author": "Paul",
+  "system": "nt",
+  "faceted": false,
+  "articles": 327,
+  "citations": 1417,
+  "never_testable": false
+ },
+ {
+  "work": "Epinomis",
+  "display": "Epinomis",
+  "author": "Plato",
+  "system": "stephanus",
+  "faceted": false,
+  "articles": 383,
+  "citations": 1375,
+  "never_testable": false
+ },
+ {
+  "work": "De_Generatione_Animalium",
+  "display": "De Generatione Animalium",
+  "author": "Aristotle",
+  "system": "stephanus",
+  "faceted": false,
+  "articles": 209,
+  "citations": 1365,
+  "never_testable": false
+ },
+ {
+  "work": "Ion",
+  "display": "Ion",
+  "author": "Plato",
+  "system": "stephanus",
+  "faceted": false,
+  "articles": 251,
+  "citations": 1265,
+  "never_testable": false
+ },
+ {
+  "work": "De_Caelo",
+  "display": "De Caelo",
+  "author": "Aristotle",
+  "system": "stephanus",
+  "faceted": false,
+  "articles": 384,
+  "citations": 1224,
+  "never_testable": false
+ },
+ {
+  "work": "Letters",
+  "display": "Letters",
+  "author": "Plato",
+  "system": "stephanus",
+  "faceted": false,
+  "articles": 354,
+  "citations": 1208,
+  "never_testable": true
+ },
+ {
+  "work": "Historia_Animalium",
+  "display": "Historia Animalium",
+  "author": "Aristotle",
+  "system": "stephanus",
+  "faceted": false,
+  "articles": 385,
+  "citations": 1172,
+  "never_testable": false
+ },
+ {
+  "work": "Meteorology",
+  "display": "Meteorology",
+  "author": "Aristotle",
+  "system": "bekker",
+  "faceted": false,
+  "articles": 261,
+  "citations": 1006,
+  "never_testable": false
+ },
+ {
+  "work": "Posterior_Analytics",
+  "display": "Posterior Analytics",
+  "author": "Aristotle",
+  "system": "bekker",
+  "faceted": false,
+  "articles": 202,
+  "citations": 982,
+  "never_testable": false
+ },
+ {
+  "work": "Alcibiades_1",
+  "display": "Alcibiades 1",
+  "author": "Plato",
+  "system": "stephanus",
+  "faceted": false,
+  "articles": 198,
+  "citations": 972,
+  "never_testable": false
+ },
+ {
+  "work": "De_Partibus_Animalium",
+  "display": "De Partibus Animalium",
+  "author": "Aristotle",
+  "system": "bekker",
+  "faceted": false,
+  "articles": 223,
+  "citations": 949,
+  "never_testable": false
+ },
+ {
+  "work": "Hippias_Major",
+  "display": "Hippias Major",
+  "author": "Plato",
+  "system": "stephanus",
+  "faceted": false,
+  "articles": 128,
+  "citations": 754,
+  "never_testable": false
+ },
+ {
+  "work": "Menexenus",
+  "display": "Menexenus",
+  "author": "Plato",
+  "system": "stephanus",
+  "faceted": false,
+  "articles": 228,
+  "citations": 749,
+  "never_testable": false
+ },
+ {
+  "work": "Prior_Analytics",
+  "display": "Prior Analytics",
+  "author": "Aristotle",
+  "system": "bekker",
+  "faceted": false,
+  "articles": 112,
+  "citations": 644,
+  "never_testable": false
+ },
+ {
+  "work": "Magna_Moralia",
+  "display": "Magna Moralia",
+  "author": "Aristotle",
+  "system": "bekker",
+  "faceted": false,
+  "articles": 241,
+  "citations": 568,
+  "never_testable": false
+ },
+ {
+  "work": "De_Interpretatione",
+  "display": "De Interpretatione",
+  "author": "Aristotle",
+  "system": "stephanus",
+  "faceted": false,
+  "articles": 170,
+  "citations": 550,
+  "never_testable": false
+ },
+ {
+  "work": "De_Sensu",
+  "display": "De Sensu",
+  "author": "Aristotle",
+  "system": "stephanus",
+  "faceted": false,
+  "articles": 138,
+  "citations": 505,
+  "never_testable": false
+ },
+ {
+  "work": "Titus",
+  "display": "Titus",
+  "author": "Paul",
+  "system": "nt",
+  "faceted": false,
+  "articles": 127,
+  "citations": 491,
+  "never_testable": false
+ },
+ {
+  "work": "Rhetorica_ad_Alexandrum",
+  "display": "Rhetorica ad Alexandrum",
+  "author": "Aristotle",
+  "system": "bekker",
+  "faceted": false,
+  "articles": 160,
+  "citations": 483,
+  "never_testable": false
+ },
+ {
+  "work": "Critias",
+  "display": "Critias",
+  "author": "Plato",
+  "system": "stephanus",
+  "faceted": false,
+  "articles": 124,
+  "citations": 457,
+  "never_testable": false
+ },
+ {
+  "work": "Sophistical_Refutations",
+  "display": "Sophistical Refutations",
+  "author": "Aristotle",
+  "system": "stephanus",
+  "faceted": false,
+  "articles": 133,
+  "citations": 395,
+  "never_testable": false
+ },
+ {
+  "work": "De_Motu_Animalium",
+  "display": "De Motu Animalium",
+  "author": "Aristotle",
+  "system": "stephanus",
+  "faceted": false,
+  "articles": 91,
+  "citations": 335,
+  "never_testable": false
+ },
+ {
+  "work": "De_Generatione_et_Corruptione",
+  "display": "De Generatione et Corruptione",
+  "author": "Aristotle",
+  "system": "bekker",
+  "faceted": false,
+  "articles": 72,
+  "citations": 321,
+  "never_testable": false
+ },
+ {
+  "work": "Hippias_Minor",
+  "display": "Hippias Minor",
+  "author": "Plato",
+  "system": "stephanus",
+  "faceted": false,
+  "articles": 45,
+  "citations": 290,
+  "never_testable": true
+ },
+ {
+  "work": "Categories",
+  "display": "Categories",
+  "author": "Aristotle",
+  "system": "stephanus",
+  "faceted": false,
+  "articles": 184,
+  "citations": 287,
+  "never_testable": false
+ },
+ {
+  "work": "De_Memoria",
+  "display": "De Memoria",
+  "author": "Aristotle",
+  "system": "stephanus",
+  "faceted": false,
+  "articles": 79,
+  "citations": 246,
+  "never_testable": true
+ },
+ {
+  "work": "Minos",
+  "display": "Minos",
+  "author": "Plato",
+  "system": "stephanus",
+  "faceted": false,
+  "articles": 53,
+  "citations": 216,
+  "never_testable": true
+ },
+ {
+  "work": "De_Insomniis",
+  "display": "De Insomniis",
+  "author": "Aristotle",
+  "system": "stephanus",
+  "faceted": false,
+  "articles": 39,
+  "citations": 185,
+  "never_testable": false
+ },
+ {
+  "work": "De_Somno",
+  "display": "De Somno",
+  "author": "Aristotle",
+  "system": "stephanus",
+  "faceted": false,
+  "articles": 59,
+  "citations": 167,
+  "never_testable": false
+ },
+ {
+  "work": "Clitophon",
+  "display": "Clitophon",
+  "author": "Plato",
+  "system": "stephanus",
+  "faceted": false,
+  "articles": 37,
+  "citations": 156,
+  "never_testable": true
+ },
+ {
+  "work": "Hipparchus",
+  "display": "Hipparchus",
+  "author": "Plato",
+  "system": "stephanus",
+  "faceted": false,
+  "articles": 70,
+  "citations": 150,
+  "never_testable": true
+ },
+ {
+  "work": "Theages",
+  "display": "Theages",
+  "author": "Plato",
+  "system": "stephanus",
+  "faceted": false,
+  "articles": 52,
+  "citations": 146,
+  "never_testable": false
+ },
+ {
+  "work": "Rival_Lovers",
+  "display": "Rival Lovers",
+  "author": "Plato",
+  "system": "stephanus",
+  "faceted": false,
+  "articles": 18,
+  "citations": 132,
+  "never_testable": true
+ },
+ {
+  "work": "Alcibiades_2",
+  "display": "Alcibiades 2",
+  "author": "Plato",
+  "system": "stephanus",
+  "faceted": false,
+  "articles": 10,
+  "citations": 71,
+  "never_testable": false
+ },
+ {
+  "work": "De_Incessu_Animalium",
+  "display": "De Incessu Animalium",
+  "author": "Aristotle",
+  "system": "stephanus",
+  "faceted": false,
+  "articles": 29,
+  "citations": 50,
+  "never_testable": true
+ },
+ {
+  "work": "De_Juventute",
+  "display": "De Juventute",
+  "author": "Aristotle",
+  "system": "stephanus",
+  "faceted": false,
+  "articles": 19,
+  "citations": 41,
+  "never_testable": true
+ },
+ {
+  "work": "De_Respiratione",
+  "display": "De Respiratione",
+  "author": "Aristotle",
+  "system": "stephanus",
+  "faceted": false,
+  "articles": 17,
+  "citations": 41,
+  "never_testable": false
+ },
+ {
+  "work": "Philemon",
+  "display": "Philemon",
+  "author": "Paul",
+  "system": "nt",
+  "faceted": false,
+  "articles": 11,
+  "citations": 17,
+  "never_testable": true
+ },
+ {
+  "work": "De_Longitudine_Vitae",
+  "display": "De Longitudine Vitae",
+  "author": "Aristotle",
+  "system": "stephanus",
+  "faceted": false,
+  "articles": 7,
+  "citations": 8,
+  "never_testable": false
+ },
+ {
+  "work": "De_Divinatione_per_Somnum",
+  "display": "De Divinatione per Somnum",
+  "author": "Aristotle",
+  "system": "stephanus",
+  "faceted": false,
+  "articles": 4,
+  "citations": 6,
+  "never_testable": true
+ },
+ {
+  "work": "Problems",
+  "display": "Problems",
+  "author": "Aristotle",
+  "system": "bekker",
+  "faceted": false,
+  "articles": 2,
+  "citations": 2,
+  "never_testable": true
+ }
+]
