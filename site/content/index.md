@@ -1,134 +1,115 @@
 ---
 title: Footnotes to Plato
-subtitle: Which passages of Plato and Aristotle the scholarship cites — and which remain understudied
-description: A passage-level citation index built from 135 years of ancient-philosophy journals. Explore which works and which passages draw scholarly attention, and see exactly how much of the picture is missing.
+subtitle: A passage-level citation index of five ancient authors across the journal literature
+description: A passage-level citation index tracking how the journal literature cites Homer, Pindar, Plato, Aristotle and Paul — which works and passages draw scholarly attention, how that shifts over time, and how much of the picture is missing.
 ---
 
-<p class="lede">This tool shows which works—and which individual passages—by Plato and
-Aristotle receive the most scholarly attention, and which are relatively
-understudied, for both philosophy and classics, for individual journals, across
-135 years.</p>
+<div class="lede" style="font-family:var(--serif);font-size:19px;line-height:1.6">Welcome! <strong>Footnotes to Plato (and Others)</strong> is a tool for scholars in ancient philosophy, classics, theology, reception studies, intellectual history, history of the humanities, and digital humanities.</div>
 
-<div class="statrow">
-  <div class="stat"><div class="n">90,502</div><div class="l">citations placed to a passage</div></div>
-  <div class="stat"><div class="n">68</div><div class="l">works of Plato &amp; Aristotle</div></div>
-  <div class="stat"><div class="n">10</div><div class="l">journals</div></div>
-  <div class="stat"><div class="n">1887–2022</div><div class="l">years covered</div></div>
+<p class="lede">It tracks citations to five ancient authors—Homer, Pindar, Plato, Aristotle, and Paul—across a corpus of {{journal_count}} academic journals, published between {{year_from}} and {{year_to}}. Three visualization tools let you analyze how scholarly attention distributes between and within texts at passage-level granularity, how that shifts over time, and how it differs from journal to journal and discipline to discipline. Shoutout to the folks at JSTOR who kindly provided the data. For the list of journals covered see [the methods page](/methods/#coverage); for the full method see [methods](/methods/), and for the data, [the data page](/data/).</p>
+
+<div class="figrow">
+  <div class="fig"><div class="n">5</div><div class="l">ancient authors</div></div>
+  <div class="fig"><div class="n">{{work_count}}</div><div class="l">texts indexed</div></div>
+  <div class="fig"><div class="n">{{placed_total}}</div><div class="l">citations placed to a passage</div></div>
+  <div class="fig"><div class="n">{{journal_count}}</div><div class="l">journals included</div></div>
+  <div class="fig"><div class="n">{{year_from}}–{{year_to}}</div><div class="l">period covered</div></div>
 </div>
 
-## What this tool can do for you
+<h4 style="font-family:var(--mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-soft);border:0;margin:8px 0 0">The three tools</h4>
 
-- **Which passages receive the most scholarly attention?** See where, in a given
-  work, scholarly attention spikes — for entire fields (philosophy/classics),
-  specific journals, and periods.
-- **How did attention to a work move over time?** Plot *Republic* against
-  *Laws*, or the whole Platonic corpus against the Aristotelian, across 135
-  years.
-- **Do philosophers and classicists read the same passages?** Explore how the
-  two fields' journals emphasize different parts of the same text.
-- **Who cited this passage?** Create exportable bibliographies of all the works
-  in the database that cite a specific passage, with one click.
+<div class="tools">
+  <a class="tool" href="/explore/works/">
+    <div class="thumb" id="thumb-a"></div>
+    <div><div class="thead"><span class="tt">Attention to a text over time</span><span class="kk">Works over time</span></div>
+      <p class="tbody">Plot whole texts, or clusters of them, against each other across two centuries. Set <em>Republic</em> beside <em>Laws</em>, the Platonic corpus beside the Aristotelian, or the philosophy journals beside the classics and theology ones on the same text.</p>
+      <span class="go">Open →</span></div>
+  </a>
+  <a class="tool" href="/explore/passages/">
+    <div class="thumb" id="thumb-b"></div>
+    <div><div class="thead"><span class="tt">Passage-level attention distribution</span><span class="kk">Passages</span></div>
+      <p class="tbody">Inside a single text: which pages, sections and lines the literature keeps returning to, and which it leaves alone. Drill through any passage to the articles that cite it, and export the list as a bibliography.</p>
+      <span class="go">Open →</span></div>
+  </a>
+  <a class="tool" href="/explore/shifts/">
+    <div class="thumb" id="thumb-c" style="gap:3px"></div>
+    <div><div class="thead"><span class="tt">Passage-level attention over time</span><span class="kk">Over time, within</span></div>
+      <p class="tbody">A text's passages down the page, decades across it. Each map comes with a plain statement of what the measurement found — attention moved in one direction, rose and fell, held steady, or was too thinly cited to tell.</p>
+      <span class="go">Open →</span></div>
+  </a>
+</div>
 
-## What it cannot tell you
+<div class="figure" style="margin-top:34px">
+<h2 style="border:0;margin:0 0 6px">Three caveats, before you start</h2>
 
-- **Ten journals, not the entire field.** Journal articles only — no monographs, edited
-  volumes, or commentaries — and with an Anglophone skew, so much influential
-  work on Plato and Aristotle is simply absent.
-  [The ten titles are listed on the methods page.](/methods/#coverage)
-- **Uneven across 1887–2022.** The early decades are thin and most of the
-  citations fall after 1980, so a quiet early stretch reflects how little was
-  published then, not a lapse in attention.
-- **Every count is a floor.** We placed {{placed_total}} citations to a specific
-  passage, but {{queued_total}} more were detected and could not be uniquely
-  resolved — usually because page numbers collide. A bare reference like *80b*,
-  with no work named, fits *Meno*, *Phaedo*, *Timaeus* or *Posterior Analytics*
-  at once, and does not even declare whether it is a Stephanus or a Bekker number
-  to begin with; where the surrounding text does not settle it, we decline to
-  guess. So a short bar can mean "rarely cited" or "we could not place it" — the
-  two are always shown apart, and no number here is ever a total.
-  [How resolution works →](/methods/#floors-not-totals)
+<div class="caveats">
+  <div class="cv"><h4>Select journals ≠ the whole field</h4><p>Journal articles only — no monographs, edited volumes or commentaries, and with an Anglophone and European skew. Much influential work is simply absent from these counts.</p></div>
+  <div class="cv"><h4>Uneven across two centuries</h4><p>The early decades are thin and most citations fall after 1980. A quiet early stretch reflects how little was published and digitized then, not a lapse in scholarly attention.</p></div>
+  <div class="cv"><h4>Every count is a floor</h4><p>A bare reference like <em>80b</em> fits <em>Meno</em>, <em>Phaedo</em>, <em>Timaeus</em> or <em>Posterior Analytics</em> at once, and does not even declare which pagination it uses. Where the surrounding text does not settle it, we decline to guess.</p></div>
+</div>
 
-## How much of the picture we actually have
-
-Everything else on this site depends on this chart, so it comes first. Each bar
-is a work; solid length is what we could place with confidence. The tail that
-fades to nothing are citations that *could* belong to this text, but which we were
-not able to resolve with certainty.
-
-<div class="figure">
-  <div id="landing-bars">
-    <noscript>The summary chart requires JavaScript. The underlying numbers are
-    published on the <a href="/data/">data page</a>.</noscript>
+<div class="sampler">
+  <div class="sh"><span class="t">What a floor looks like</span><span class="k">eight texts of {{work_count}}</span></div>
+  <p class="intro">Solid is what we could place with confidence. The fade is traffic we detected but could not attribute — shared among the texts a bare page number could belong to, so it is an upper limit, never a subtotal. A short solid bar with a long fade means "much of its traffic couldn't be placed," not "little studied."</p>
+  <div class="srows" id="fade-sampler">
+    <noscript>The sampler requires JavaScript; the underlying numbers are on the <a href="/data/">data page</a>.</noscript>
   </div>
-  <div class="cap cap-lg"><b>Reading this chart.</b> Works are ranked by their
-  <b>solid floor</b> — the citations we could place with confidence. The
-  <b>fade</b> is traffic we detected but could not attribute with certainty; it is shared among
-  the works a bare page number could, in principle, belong to. It is an upper limit, not
-  a subtotal. Read the two together: a short solid bar with a <em>long</em> fade
-  (like <em>Meno</em> or <em>Apology</em>, whose Stephanus page numbers collide
-  with other dialogues) means "much of its traffic couldn't be placed," <b>not</b>
-  that the work is little studied — while a short bar with little fade really is
-  a quiet work. Because the fade is shared, don't compare bars by adding their
-  fades, and treat every solid length as a floor.</div>
+  <div class="sfoot">
+    <span class="kk"><span class="sw" style="background:var(--p-floor)"></span>placed with confidence</span>
+    <span class="kk"><span class="sw" style="background:linear-gradient(90deg,rgba(176,106,58,.5),rgba(176,106,58,0))"></span>detected, unresolvable</span>
+    <a href="/methods/#floors-not-totals">All {{work_count}} texts, in Methods →</a>
+  </div>
 </div>
-
-## Explore
-
-<div class="cards">
-  <a class="card" href="/explore/works/">
-    <h3>Works over time</h3>
-    <p>Plot attention to any work or group across 135 years. Compare
-    <em>Republic</em> with <em>Laws</em>, Plato with Aristotle, or philosophy
-    journals with classics journals.</p>
-    <span class="go">Open →</span>
-  </a>
-  <a class="card" href="/explore/passages/">
-    <h3>Passages</h3>
-    <p>Inside a single work: which pages, sections and lines the literature
-    returns to. Drill through any passage to the articles that cite it.</p>
-    <span class="go">Open →</span>
-  </a>
-  <a class="card" href="/methods/">
-    <h3>Methods</h3>
-    <p>How citations were extracted, resolved, and audited — what the counts
-    can support, and where the picture is thin.</p>
-    <span class="go">Read →</span>
-  </a>
 </div>
 
 ## Citing and contributing
 
-If this contributed to published work, please cite as: *Kretz, David.
-Footnotes to Plato: A Passage-Level Citation Index of Ancient-Philosophy
-Scholarship. Version 1.0, date.* The derived data is
-[published for download](/data/) so results can be checked or reused.
+If this contributed to published work, please cite as: *Kretz, David, Footnotes to Plato: A Passage-Level Citation Index for Ancient Texts,* Version 2.0, date. The derived data is [published for download](/data/) so results can be checked or reused.
 
-**Publish or edit a journal you would like to see included?** Please
-[write to me](/contact/)! Corrections, methodological objections, and suggestions
-for additional features are also all very welcome.
+**Publish or edit a journal you would like to see included?** Please [write to me](/contact/)! Corrections, methodological objections, and suggestions for additional features are also all very welcome.
 
 ## Acknowledgements
 
-The pipeline, the analysis, and this website were developed with substantial
-assistance from Claude Opus 4.8 (by Anthropic) throughout. The responsibility
-for methodological decisions remains mine. I would like to thank the team at
-JSTOR Text Analysis Support for sharing the data that made this possible, and
-Joshua Mendelsohn for feedback on an earlier version.
+The pipeline, the analysis, and this website were developed with substantial assistance from Claude Opus 4.8 (by Anthropic) throughout. The responsibility for methodological decisions remains mine. I would like to thank the team at JSTOR Text Analysis Support for sharing the data that made this possible, and Joshua Mendelsohn for feedback on an earlier version.
 
 <script>
-/* The landing chart is the same View A bar chart, rendered read-only: no
-   filter, no metric toggle, no interaction beyond the tooltip. Its job here is
-   to frame everything else, so it should look like a figure, not a control
-   panel. */
+/* Landing thumbnails (abstract, deterministic — no data) and the eight-text
+   floor-vs-fade sampler (real: solid = placed floor, fade = unplaceable, from
+   view_a.json). The full chart for all texts lives on the methods page. */
 (function(){
-  var host = document.getElementById('landing-bars');
+  function h(s){var x=2166136261;for(var i=0;i<s.length;i++){x^=s.charCodeAt(i);x=Math.imul(x,16777619);}return ((x>>>0)%1000)/1000;}
+  var a=document.getElementById('thumb-a');
+  if(a){var html='';for(var i=0;i<6;i++){var l=20+h('l'+i)*30,r=20+h('r'+i)*30;
+    html+='<div class="r" style="justify-content:center">'
+      +'<i style="height:10px;width:'+l.toFixed(0)+'%;background:var(--p-floor);opacity:.8;border-radius:2px 0 0 2px"></i>'
+      +'<i style="height:10px;width:1px;background:var(--lav-line)"></i>'
+      +'<i style="height:10px;width:'+r.toFixed(0)+'%;background:var(--a-floor);opacity:.8;border-radius:0 2px 2px 0"></i></div>';}
+    a.innerHTML=html;}
+  var b=document.getElementById('thumb-b');
+  if(b){var html2='';for(var i=0;i<6;i++){var w=Math.round(96-i*13-h('b'+i)*9);
+    html2+='<div class="r"><i style="height:9px;width:'+w+'%;background:var(--p-floor);opacity:'+(1-i*.11).toFixed(2)+';border-radius:2px"></i></div>';}
+    b.innerHTML=html2;}
+  var c=document.getElementById('thumb-c');
+  if(c){var html3='';for(var r=0;r<6;r++){html3+='<div class="r" style="gap:3px">';
+    for(var col=0;col<14;col++){var v=Math.min(1,.06+h(r+'x'+col)*.5+(col/13)*(r===2||r===4?.85:.3));
+      html3+='<i style="flex:1;height:11px;border-radius:1.5px;background:rgba(90,84,151,'+v.toFixed(2)+')"></i>';}
+    html3+='</div>';}
+    c.innerHTML=html3;}
+
+  var host=document.getElementById('fade-sampler');
   if(!host) return;
-  fetch('/data/viewer/view_a.json').then(function(r){ return r.json(); })
-    .then(function(d){ renderLandingBars(host, d); })
-    .catch(function(){
-      host.innerHTML = '<p class="muted">Summary chart unavailable — the '
-        + 'derived data has not been published yet.</p>';
-    });
+  var PICK=["Odyssey","Romans","Republic","Iliad","Timaeus","Phaedo","Apology","Meno"];
+  fetch('/data/viewer/view_a.json').then(function(r){return r.json();}).then(function(D){
+    var by={}; D.forEach(function(w){by[w.work]=w;});
+    var rows=PICK.map(function(n){var w=by[n]||{floor:0,unplaceable:0};
+      return {name:n,solid:w.floor||0,fade:w.unplaceable||0};});
+    var max=rows.reduce(function(m,r){return Math.max(m,r.solid+r.fade);},1);
+    host.innerHTML=rows.map(function(r){
+      return '<div class="srow"><div class="sn">'+r.name+'</div>'
+        +'<div class="strack"><span class="ssolid" style="width:'+(r.solid/max*100).toFixed(1)+'%"></span>'
+        +'<span class="sfade" style="width:'+(r.fade/max*100).toFixed(1)+'%"></span></div>'
+        +'<div class="sval">'+r.solid.toLocaleString()+'</div></div>';
+    }).join('');
+  }).catch(function(){ host.innerHTML='<p class="muted">Sampler unavailable — data not published yet.</p>'; });
 })();
 </script>
-<script src="/static/landing-bars.js"></script>

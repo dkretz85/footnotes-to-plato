@@ -18,7 +18,17 @@
 window.renderLandingBars = function (host, DATA) {
   var AUTHORS = {"Magna_Moralia":"a","Meno":"p","De_Incessu_Animalium":"a","Ion":"p","Euthyphro":"p","De_Generatione_Animalium":"a","Hippias_Minor":"p","De_Respiratione":"a","Meteorology":"a","Sophist":"p","Prior_Analytics":"a","De_Partibus_Animalium":"a","Apology":"p","Posterior_Analytics":"a","Critias":"p","Cratylus":"p","Euthydemus":"p","Lysis":"p","Historia_Animalium":"a","Menexenus":"p","Parmenides":"p","Hippias_Major":"p","De_Insomniis":"a","Alcibiades_2":"p","Rival_Lovers":"p","Nicomachean_Ethics":"a","Metaphysics":"a","De_Sensu":"a","Rhetoric":"a","Poetics":"a","Hipparchus":"p","Statesman":"p","Topics":"a","De_Divinatione_per_Somnum":"a","Theages":"p","Laches":"p","De_Caelo":"a","Clitophon":"p","Crito":"p","Philebus":"p","Letters":"p","De_Generatione_et_Corruptione":"a","Alcibiades_1":"p","Rhetorica_ad_Alexandrum":"a","Charmides":"p","Republic":"p","Politics":"a","De_Somno":"a","De_Interpretatione":"a","Gorgias":"p","Eudemian_Ethics":"a","De_Motu_Animalium":"a","Symposium":"p","De_Longitudine_Vitae":"a","Phaedrus":"p","Physics":"a","Laws":"p","Sophistical_Refutations":"a","De_Juventute":"a","Categories":"a","De_Anima":"a","Epinomis":"p","Timaeus":"p","De_Memoria":"a","Minos":"p","Phaedo":"p","Protagoras":"p","Theaetetus":"p"};
 
-  function authorName(w) { return AUTHORS[w] === "a" ? "Aristotle" : "Plato"; }
+  // Full five-author corpus: prefer the passed-in work->author map (authors.json);
+  // fall back to the legacy 2-author map so the old call still works.
+  var AMAP = arguments[2] || null;
+  var COLORS = {
+    Homer: { hex: "#7d6a2a", rgb: "125,106,42" }, Pindar: { hex: "#3f6f9c", rgb: "63,111,156" },
+    Plato: { hex: "#5a5497", rgb: "90,84,151" }, Aristotle: { hex: "#1f9e8a", rgb: "31,158,138" },
+    Paul: { hex: "#a15a72", rgb: "161,90,114" }
+  };
+  function auth(w) { return (AMAP && AMAP[w]) ? AMAP[w] : (AUTHORS[w] === "a" ? "Aristotle" : "Plato"); }
+  function col(w) { return COLORS[auth(w)] || COLORS.Plato; }
+  function authorName(w) { return auth(w); }
   function nice(n) { return (n || 0).toLocaleString(); }
 
   // one shared tooltip element, reused across every row
@@ -41,11 +51,17 @@ window.renderLandingBars = function (host, DATA) {
 
   var key = document.createElement("div");
   key.className = "lb-key";
+  // one author swatch per author actually present in the data, in corpus order
+  var order = ["Homer", "Pindar", "Plato", "Aristotle", "Paul"];
+  var present = {};
+  DATA.forEach(function (w) { present[auth(w.work)] = true; });
+  var swatches = order.filter(function (a) { return present[a]; }).map(function (a) {
+    return '<span class="k"><i class="chip" style="background:' + COLORS[a].hex + '"></i>' + a + "</span>";
+  }).join("");
   key.innerHTML =
     '<span class="k"><i class="sw floor"></i>placed with confidence</span>' +
     '<span class="k"><i class="sw fade"></i>detected, could not be placed</span>' +
-    '<span class="k"><i class="chip p"></i>Stephanus (Plato)</span>' +
-    '<span class="k"><i class="chip a"></i>Bekker (Aristotle)</span>';
+    swatches;
   host.appendChild(key);
 
   // One list, ranked by the confident floor. No tiers.
@@ -56,8 +72,7 @@ window.renderLandingBars = function (host, DATA) {
   host.appendChild(rows);
 
   function row(w, SCALE) {
-    var au = AUTHORS[w.work] === "a" ? "a" : "p";
-    var rgb = au === "a" ? "31,158,138" : "90,84,151";
+    var c = col(w.work), rgb = c.rgb;
     var el = document.createElement("div");
     el.className = "lb-row";
     var fw = Math.max(1, w.floor * SCALE);
@@ -67,7 +82,7 @@ window.renderLandingBars = function (host, DATA) {
     el.innerHTML =
       '<span class="lb-name">' + w.work.replace(/_/g, " ") + "</span>" +
       '<span class="lb-track">' +
-        '<span class="lb-floor" style="width:' + fw + "px;background:var(--" + au + '-floor)"></span>' +
+        '<span class="lb-floor" style="width:' + fw + "px;background:" + c.hex + '"></span>' +
         (dw > 2 ? '<span class="lb-fade" style="width:' + Math.min(dw, 250) +
                   "px;background:" + fade + '"></span>' : "") +
       "</span>" +

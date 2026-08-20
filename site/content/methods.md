@@ -250,6 +250,37 @@ time-series. And no verbatim article text is ever published: the citation contex
 extracted during processing is confidential under the JSTOR agreement and is
 dropped before anything is written to a shareable file.
 
+Every text in the corpus, ranked by its confident floor, with the fade drawn to
+scale beside it. This is the full version of the eight-text sample on the home
+page. Bars are coloured by author; hover a row for its floor, distinct articles,
+and collision partners.
+
+<div class="figure">
+  <div id="landing-bars">
+    <noscript>The chart requires JavaScript; the underlying numbers are on the
+    <a href="/data/">data page</a>.</noscript>
+  </div>
+  <div class="cap"><b>Solid</b> is what we could place with confidence;
+  <b>fade</b> is detected-but-unresolvable traffic that could belong to this text,
+  shared with its collision partners — an upper gesture, never a subtotal, and
+  never summed across texts. A short solid bar with a long fade (like
+  <em>Timaeus</em> or <em>Apology</em>) means "much of its traffic couldn't be
+  placed," not "little studied."</div>
+</div>
+
+<script>
+(function(){
+  var host = document.getElementById('landing-bars');
+  if(!host) return;
+  Promise.all([
+    fetch('/data/viewer/view_a.json').then(function(r){ return r.json(); }),
+    fetch('/data/viewer/authors.json').then(function(r){ return r.json(); }).catch(function(){ return null; })
+  ]).then(function(res){ renderLandingBars(host, res[0], res[1]); })
+    .catch(function(){ host.innerHTML = '<p class="muted">Chart unavailable — data not published yet.</p>'; });
+})();
+</script>
+<script src="/static/landing-bars.js"></script>
+
 ### Cross-work versus within-work uncertainty
 
 The two kinds of uncertainty fall on genuinely different sets of works:
