@@ -1,0 +1,295 @@
+{
+ "work": "Philemon",
+ "faceted": false,
+ "system": "nt",
+ "tier": "trustworthy",
+ "cells": [
+  {
+   "book": "1",
+   "page": 1,
+   "section": "",
+   "band": 0,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Neotestamentica": 1
+   }
+  },
+  {
+   "book": "1",
+   "page": 4,
+   "section": "",
+   "band": 0,
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Neotestamentica": 1,
+    "The Harvard Theological Review": 1
+   }
+  },
+  {
+   "book": "1",
+   "page": 8,
+   "section": "",
+   "band": 0,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Journal of Biblical Literature": 1
+   }
+  },
+  {
+   "book": "1",
+   "page": 9,
+   "section": "",
+   "band": 0,
+   "count": 4,
+   "articles": 4,
+   "by_journal": {
+    "The Catholic Biblical Quarterly": 1,
+    "Neotestamentica": 1,
+    "Vigiliae Christianae": 1,
+    "Journal of Biblical Literature": 1
+   }
+  },
+  {
+   "book": "1",
+   "page": 12,
+   "section": "",
+   "band": 0,
+   "count": 3,
+   "articles": 2,
+   "by_journal": {
+    "Neotestamentica": 2,
+    "The Harvard Theological Review": 1
+   }
+  },
+  {
+   "book": "1",
+   "page": 13,
+   "section": "",
+   "band": 0,
+   "count": 2,
+   "articles": 1,
+   "by_journal": {
+    "The Catholic Biblical Quarterly": 2
+   }
+  },
+  {
+   "book": "1",
+   "page": 16,
+   "section": "",
+   "band": 0,
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Journal of Biblical Literature": 1,
+    "Novum Testamentum": 1
+   }
+  },
+  {
+   "book": "1",
+   "page": 19,
+   "section": "",
+   "band": 0,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Neotestamentica": 1
+   }
+  },
+  {
+   "book": "1",
+   "page": 24,
+   "section": "",
+   "band": 0,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Neotestamentica": 1
+   }
+  }
+ ],
+ "dots": [
+  {
+   "book": "1",
+   "page": 1,
+   "section": "",
+   "line": 1,
+   "journal": "Neotestamentica",
+   "year": "2012",
+   "iid": "0d6798ff-83a6-3bde-a4f2-f8286514920f",
+   "doi": "10.2307/43049196",
+   "title": "THE FLAWED EVANGELIST (JOHN) MARK: A NEGLECTED CLUE TO THE RECEPTION OF MARK'S GOSPEL IN LUKE-ACTS?",
+   "author": "Michael J Kok"
+  },
+  {
+   "book": "1",
+   "page": 24,
+   "section": "",
+   "line": 24,
+   "journal": "Neotestamentica",
+   "year": "2012",
+   "iid": "0d6798ff-83a6-3bde-a4f2-f8286514920f",
+   "doi": "10.2307/43049196",
+   "title": "THE FLAWED EVANGELIST (JOHN) MARK: A NEGLECTED CLUE TO THE RECEPTION OF MARK'S GOSPEL IN LUKE-ACTS?",
+   "author": "Michael J Kok"
+  },
+  {
+   "book": "1",
+   "page": 9,
+   "section": "",
+   "line": 9,
+   "journal": "The Catholic Biblical Quarterly",
+   "year": "1975",
+   "iid": "49103ad7-5775-39c4-8380-0c4d2f691a31",
+   "doi": "10.2307/43714070",
+   "title": "Book Review : \n        Die Briefe an die Philipper, an Philemon, an die Kolosser, an die Epheser\n        \n          Josef\n          Ernst",
+   "author": "Josef Ernst, Herman Mueller"
+  },
+  {
+   "book": "1",
+   "page": 4,
+   "section": "",
+   "line": 4,
+   "journal": "Neotestamentica",
+   "year": "2022",
+   "iid": "4a4cab53-aebb-35b5-9837-f4d87293ca59",
+   "doi": "10.2307/27254212",
+   "title": "“I Received from the Lord”",
+   "author": "Afetame Alabi"
+  },
+  {
+   "book": "1",
+   "page": 13,
+   "section": "",
+   "line": 13,
+   "journal": "The Catholic Biblical Quarterly",
+   "year": "2019",
+   "iid": "9ec1fae9-f933-387a-813b-9fe9173e83aa",
+   "doi": "10.2307/45212956",
+   "title": "Book Review : \n        Enslaved Leadership in Early Christianity\n        \n          KATHERINE A.\n          SHANER",
+   "author": "Mary Ann Beavis, KATHERINE A. SHANER"
+  },
+  {
+   "book": "1",
+   "page": 19,
+   "section": "",
+   "line": 19,
+   "journal": "Neotestamentica",
+   "year": "2000",
+   "iid": "a21808db-412b-36d8-9871-4808ec4c7c95",
+   "doi": "10.2307/43048399",
+   "title": "MEDIA CRITICISM AND THE MYTH OF PAUL, THE CREATIVE GENIUS, AND HIS FORGOTTEN CO-WORKERS",
+   "author": "J A (Bobby) Loubser"
+  },
+  {
+   "book": "1",
+   "page": 12,
+   "section": "",
+   "line": 12,
+   "journal": "Neotestamentica",
+   "year": "2000",
+   "iid": "a21808db-412b-36d8-9871-4808ec4c7c95",
+   "doi": "10.2307/43048399",
+   "title": "MEDIA CRITICISM AND THE MYTH OF PAUL, THE CREATIVE GENIUS, AND HIS FORGOTTEN CO-WORKERS",
+   "author": "J A (Bobby) Loubser"
+  },
+  {
+   "book": "1",
+   "page": 16,
+   "section": "",
+   "line": 16,
+   "journal": "Journal of Biblical Literature",
+   "year": "2007",
+   "iid": "aa02cb8c-e67c-307a-a4c9-1d992868bca1",
+   "doi": "10.2307/27638453",
+   "title": "The Syntax of έν Xϱιωστ[ill] in 1 Thessalonians 4:16",
+   "author": "David Konstan, Ilaria Ramelli"
+  },
+  {
+   "book": "1",
+   "page": 9,
+   "section": "",
+   "line": 9,
+   "journal": "Neotestamentica",
+   "year": "1976",
+   "iid": "b8790bc7-b9d7-3d44-90cd-4d3beab41b9d",
+   "doi": "10.2307/43048959",
+   "title": "THE RELATIONSHIP BETWEEN APOSTOLATE AND OFFICE IN THE THEOLOGY OF PAUL",
+   "author": "F.S. Malan"
+  },
+  {
+   "book": "1",
+   "page": 12,
+   "section": "",
+   "line": 12,
+   "journal": "The Harvard Theological Review",
+   "year": "2011",
+   "iid": "d422d348-0e97-3c4c-8db2-ed2f2a46cbb6",
+   "doi": "10.2307/41234088",
+   "title": "What Purpose Did Paul Understand His Mission To Serve?",
+   "author": "Richard Last"
+  },
+  {
+   "book": "1",
+   "page": 4,
+   "section": "",
+   "line": 4,
+   "journal": "The Harvard Theological Review",
+   "year": "2011",
+   "iid": "d422d348-0e97-3c4c-8db2-ed2f2a46cbb6",
+   "doi": "10.2307/41234088",
+   "title": "What Purpose Did Paul Understand His Mission To Serve?",
+   "author": "Richard Last"
+  },
+  {
+   "book": "1",
+   "page": 16,
+   "section": "",
+   "line": 16,
+   "journal": "Novum Testamentum",
+   "year": "2004",
+   "iid": "dc4fc4b4-98b0-3c48-a649-39fb695369a3",
+   "doi": "10.2307/1561560",
+   "title": "The Interpretation of μάλιστα in 1 Timothy 5:17",
+   "author": "Hong Bom Kim"
+  },
+  {
+   "book": "1",
+   "page": 9,
+   "section": "",
+   "line": 9,
+   "journal": "Vigiliae Christianae",
+   "year": "1989",
+   "iid": "e32be875-8b38-3e47-a41f-8fd5445cd6ba",
+   "doi": "10.2307/1584438",
+   "title": "Ignatius 'To the Romans' and I clement LIV-LVI",
+   "author": "Christine Trevett"
+  },
+  {
+   "book": "1",
+   "page": 8,
+   "section": "",
+   "line": 8,
+   "journal": "Journal of Biblical Literature",
+   "year": "2022",
+   "iid": "f040be4d-2b2e-3871-b130-4a5f168be35b",
+   "doi": "10.2307/48806292",
+   "title": "Paul’s Use of Συναπάγω in Romans 12:16",
+   "author": "RODNEY KILGORE"
+  },
+  {
+   "book": "1",
+   "page": 9,
+   "section": "",
+   "line": 9,
+   "journal": "Journal of Biblical Literature",
+   "year": "2022",
+   "iid": "f040be4d-2b2e-3871-b130-4a5f168be35b",
+   "doi": "10.2307/48806292",
+   "title": "Paul’s Use of Συναπάγω in Romans 12:16",
+   "author": "RODNEY KILGORE"
+  }
+ ]
+}

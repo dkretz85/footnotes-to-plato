@@ -1,76 +1,106 @@
 {
  "work": "De_Incessu_Animalium",
  "faceted": false,
+ "system": "stephanus",
  "tier": "uncertain",
  "cells": [
   {
    "book": "",
    "page": 704,
    "section": "b",
-   "count": 4,
-   "articles": 4,
+   "band": 0,
+   "count": 6,
+   "articles": 5,
    "by_journal": {
     "Phronesis": 3,
-    "Méthexis": 1
+    "Méthexis": 1,
+    "Harvard Studies in Classical Philology": 2
    }
   },
   {
    "book": "",
    "page": 705,
    "section": "a",
-   "count": 4,
-   "articles": 3,
+   "band": 0,
+   "count": 10,
+   "articles": 8,
    "by_journal": {
     "Phronesis": 1,
     "Classical Philology": 2,
-    "The Classical Quarterly": 1
+    "The Classical Quarterly": 2,
+    "Illinois Classical Studies": 1,
+    "Mnemosyne": 1,
+    "The Classical World": 2,
+    "The American Journal of Philology": 1
    }
   },
   {
    "book": "",
    "page": 705,
    "section": "b",
-   "count": 1,
-   "articles": 1,
+   "band": 0,
+   "count": 4,
+   "articles": 4,
    "by_journal": {
-    "Classical Philology": 1
+    "Phronesis": 1,
+    "Classical Philology": 1,
+    "The Classical Quarterly": 1,
+    "Mnemosyne": 1
    }
   },
   {
    "book": "",
    "page": 706,
    "section": "a",
-   "count": 1,
-   "articles": 1,
+   "band": 0,
+   "count": 3,
+   "articles": 2,
    "by_journal": {
-    "Classical Philology": 1
+    "Classical Philology": 1,
+    "Harvard Studies in Classical Philology": 2
    }
   },
   {
    "book": "",
    "page": 706,
    "section": "b",
-   "count": 3,
-   "articles": 3,
+   "band": 0,
+   "count": 4,
+   "articles": 4,
    "by_journal": {
     "Phronesis": 1,
-    "The Classical Quarterly": 2
+    "The Classical Quarterly": 2,
+    "Mnemosyne": 1
    }
   },
   {
    "book": "",
    "page": 707,
    "section": "a",
+   "band": 0,
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 1,
+    "Journal of Biblical Literature": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 707,
+   "section": "b",
+   "band": 0,
    "count": 1,
    "articles": 1,
    "by_journal": {
-    "Revue de Philosophie Ancienne": 1
+    "Mnemosyne": 1
    }
   },
   {
    "book": "",
    "page": 708,
    "section": "a",
+   "band": 0,
    "count": 6,
    "articles": 5,
    "by_journal": {
@@ -83,6 +113,7 @@
    "book": "",
    "page": 708,
    "section": "b",
+   "band": 0,
    "count": 1,
    "articles": 1,
    "by_journal": {
@@ -93,6 +124,7 @@
    "book": "",
    "page": 709,
    "section": "a",
+   "band": 0,
    "count": 1,
    "articles": 1,
    "by_journal": {
@@ -103,16 +135,31 @@
    "book": "",
    "page": 710,
    "section": "a",
-   "count": 1,
-   "articles": 1,
+   "band": 0,
+   "count": 2,
+   "articles": 2,
    "by_journal": {
-    "Phronesis": 1
+    "Phronesis": 1,
+    "Transactions of the American Philological Association (1974-2014)": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 710,
+   "section": "b",
+   "band": 0,
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Recherches de théologie et philosophie médiévales": 1,
+    "Hermes": 1
    }
   },
   {
    "book": "",
    "page": 711,
    "section": "b",
+   "band": 0,
    "count": 1,
    "articles": 1,
    "by_journal": {
@@ -123,10 +170,45 @@
    "book": "",
    "page": 712,
    "section": "a",
+   "band": 0,
+   "count": 4,
+   "articles": 2,
+   "by_journal": {
+    "The Classical Quarterly": 2,
+    "Harvard Studies in Classical Philology": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 712,
+   "section": "b",
+   "band": 0,
    "count": 1,
    "articles": 1,
    "by_journal": {
     "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 713,
+   "section": "a",
+   "band": 0,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Harvard Studies in Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 714,
+   "section": "a",
+   "band": 0,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Mnemosyne": 1
    }
   }
  ],
@@ -159,7 +241,19 @@
    "book": "",
    "page": 705,
    "section": "a",
-   "line": 32,
+   "line": 30,
+   "journal": "Phronesis",
+   "year": "2022",
+   "iid": "4c5ec375-baa7-372d-9f89-dd3dc7f2407e",
+   "doi": "10.2307/27363951",
+   "title": "Aristotle's Account of the Immobility of Place",
+   "author": "Diana Quarantotto"
+  },
+  {
+   "book": "",
+   "page": 705,
+   "section": "b",
+   "line": null,
    "journal": "Phronesis",
    "year": "2022",
    "iid": "4c5ec375-baa7-372d-9f89-dd3dc7f2407e",
@@ -363,7 +457,31 @@
    "book": "",
    "page": 712,
    "section": "a",
-   "line": 23,
+   "line": 15,
+   "journal": "The Classical Quarterly",
+   "year": "2015",
+   "iid": "c7ace55e-3c20-36ef-959a-50c468eeb71d",
+   "doi": "10.2307/43905645",
+   "title": "ARISTOTLE'S BIOLOGY AND HIS LOST \"HOMERIC PUZZLES\"",
+   "author": "ROBERT MAYHEW"
+  },
+  {
+   "book": "",
+   "page": 712,
+   "section": "a",
+   "line": 30,
+   "journal": "The Classical Quarterly",
+   "year": "2015",
+   "iid": "c7ace55e-3c20-36ef-959a-50c468eeb71d",
+   "doi": "10.2307/43905645",
+   "title": "ARISTOTLE'S BIOLOGY AND HIS LOST \"HOMERIC PUZZLES\"",
+   "author": "ROBERT MAYHEW"
+  },
+  {
+   "book": "",
+   "page": 712,
+   "section": "b",
+   "line": null,
    "journal": "The Classical Quarterly",
    "year": "2015",
    "iid": "c7ace55e-3c20-36ef-959a-50c468eeb71d",
@@ -375,7 +493,31 @@
    "book": "",
    "page": 705,
    "section": "a",
-   "line": 26,
+   "line": 15,
+   "journal": "The Classical Quarterly",
+   "year": "2019",
+   "iid": "e88c3cc3-4065-31c3-911d-0f1279b32c23",
+   "doi": "10.2307/26954941",
+   "title": "ARISTOTLE’S IDEAL CITY-PLANNING",
+   "author": "MOR SEGEV"
+  },
+  {
+   "book": "",
+   "page": 705,
+   "section": "a",
+   "line": 30,
+   "journal": "The Classical Quarterly",
+   "year": "2019",
+   "iid": "e88c3cc3-4065-31c3-911d-0f1279b32c23",
+   "doi": "10.2307/26954941",
+   "title": "ARISTOTLE’S IDEAL CITY-PLANNING",
+   "author": "MOR SEGEV"
+  },
+  {
+   "book": "",
+   "page": 705,
+   "section": "b",
+   "line": null,
    "journal": "The Classical Quarterly",
    "year": "2019",
    "iid": "e88c3cc3-4065-31c3-911d-0f1279b32c23",
@@ -406,6 +548,210 @@
    "doi": "10.2307/696269",
    "title": "Hicks's Aristotle, De Anima",
    "author": "W. D. Ross, R. D. Hicks"
+  },
+  {
+   "book": "",
+   "page": 712,
+   "section": "a",
+   "line": 34,
+   "journal": "Harvard Studies in Classical Philology",
+   "year": "1985",
+   "iid": "08006a22-1425-3baf-bd66-52a1c610343b",
+   "doi": "10.2307/311270",
+   "title": "Χωριστός in Aristotle",
+   "author": "Donald Morrison"
+  },
+  {
+   "book": "",
+   "page": 706,
+   "section": "a",
+   "line": 21,
+   "journal": "Harvard Studies in Classical Philology",
+   "year": "1985",
+   "iid": "08006a22-1425-3baf-bd66-52a1c610343b",
+   "doi": "10.2307/311270",
+   "title": "Χωριστός in Aristotle",
+   "author": "Donald Morrison"
+  },
+  {
+   "book": "",
+   "page": 714,
+   "section": "a",
+   "line": null,
+   "journal": "Mnemosyne",
+   "year": "2007",
+   "iid": "102e8b32-ad5d-3c28-af0d-57b4732fe0a7",
+   "doi": "10.2307/27736171",
+   "title": "Aristotle's \"De spiritu\" as a Critique of the Doctrine of pneuma in Plato and His Predecessors",
+   "author": "R. Ferwerda, A. P. Bos"
+  },
+  {
+   "book": "",
+   "page": 705,
+   "section": "a",
+   "line": 30,
+   "journal": "Illinois Classical Studies",
+   "year": "1991",
+   "iid": "19db6f4d-223c-3dfe-9197-2993e24d25ac",
+   "doi": "10.2307/23064363",
+   "title": "Plants as Aristotelian Substances",
+   "author": "ROSAMOND KENT SPRAGUE"
+  },
+  {
+   "book": "",
+   "page": 705,
+   "section": "b",
+   "line": null,
+   "journal": "Mnemosyne",
+   "year": "1942",
+   "iid": "3a346321-9d12-3e58-9a09-196866a36288",
+   "doi": "10.2307/4427019",
+   "title": "Aristote est-il toujours resté fidèle à sa conception que la plante se tient la tête en bas?",
+   "author": "W. K. Kraak"
+  },
+  {
+   "book": "",
+   "page": 705,
+   "section": "a",
+   "line": null,
+   "journal": "Mnemosyne",
+   "year": "1942",
+   "iid": "3a346321-9d12-3e58-9a09-196866a36288",
+   "doi": "10.2307/4427019",
+   "title": "Aristote est-il toujours resté fidèle à sa conception que la plante se tient la tête en bas?",
+   "author": "W. K. Kraak"
+  },
+  {
+   "book": "",
+   "page": 706,
+   "section": "b",
+   "line": null,
+   "journal": "Mnemosyne",
+   "year": "1942",
+   "iid": "3a346321-9d12-3e58-9a09-196866a36288",
+   "doi": "10.2307/4427019",
+   "title": "Aristote est-il toujours resté fidèle à sa conception que la plante se tient la tête en bas?",
+   "author": "W. K. Kraak"
+  },
+  {
+   "book": "",
+   "page": 705,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical World",
+   "year": "1958",
+   "iid": "3f55e6b0-f73c-3bdb-a26f-a056729f77b0",
+   "doi": "10.2307/4344038",
+   "title": "A Bibliographical Survey of Recent Work on Aristotle (1945-) (Continued)",
+   "author": "Herbert S. Long"
+  },
+  {
+   "book": "",
+   "page": 705,
+   "section": "a",
+   "line": null,
+   "journal": "The American Journal of Philology",
+   "year": "1938",
+   "iid": "54829092-6fa3-35e2-9287-8003b0816123",
+   "doi": "10.2307/291179",
+   "title": "The Pentathlum Jump",
+   "author": "Walter Woodburn Hyde"
+  },
+  {
+   "book": "",
+   "page": 704,
+   "section": "b",
+   "line": 2,
+   "journal": "Harvard Studies in Classical Philology",
+   "year": "1976",
+   "iid": "573bdb02-0f63-336f-8dd0-c18a67257ba9",
+   "doi": "10.2307/311236",
+   "title": "The Text of Aristotle's De Motu Animalium",
+   "author": "Martha C. Nussbaum"
+  },
+  {
+   "book": "",
+   "page": 713,
+   "section": "a",
+   "line": 17,
+   "journal": "Harvard Studies in Classical Philology",
+   "year": "1976",
+   "iid": "573bdb02-0f63-336f-8dd0-c18a67257ba9",
+   "doi": "10.2307/311236",
+   "title": "The Text of Aristotle's De Motu Animalium",
+   "author": "Martha C. Nussbaum"
+  },
+  {
+   "book": "",
+   "page": 707,
+   "section": "a",
+   "line": null,
+   "journal": "Journal of Biblical Literature",
+   "year": "1918",
+   "iid": "6919c2b4-1e78-3c88-bb6f-86426fb21b88",
+   "doi": "10.2307/3260036",
+   "title": "The Coronation of Zerubbabel",
+   "author": "Paul Haupt"
+  },
+  {
+   "book": "",
+   "page": 710,
+   "section": "b",
+   "line": 26,
+   "journal": "Recherches de théologie et philosophie médiévales",
+   "year": "2008",
+   "iid": "b4b9f1d0-67e1-3b7f-b3c6-1c2eadc1a0cc",
+   "doi": "10.2307/26172302",
+   "title": "ARISTOTE À PARIS: LE SYSTÈME DE LA \"PECIA\" ET LES TRADUCTIONS DE GUILLAUME DE MOERBEKE",
+   "author": "Pieter De Leemans, Pieter Beullens"
+  },
+  {
+   "book": "",
+   "page": 707,
+   "section": "b",
+   "line": 2,
+   "journal": "Mnemosyne",
+   "year": "2009",
+   "iid": "c02be353-9618-3907-b751-8361b9d86b0d",
+   "doi": "10.2307/27736350",
+   "title": "Aristotle on Soul and Soul-'Parts' in Semen (\"GA\" 2.1, 735a4-22)",
+   "author": "Abraham P. Bos"
+  },
+  {
+   "book": "",
+   "page": 710,
+   "section": "a",
+   "line": 7,
+   "journal": "Transactions of the American Philological Association (1974-2014)",
+   "year": "1998",
+   "iid": "f69b417e-d431-3e12-8dac-d96fe8d57642",
+   "doi": "10.2307/284407",
+   "title": "Pindar's Poetry and the Obligatory Crux: Isthmian 5.56-63, Text and Interpretation",
+   "author": "M. S. Silk"
+  },
+  {
+   "book": "",
+   "page": 705,
+   "section": "a",
+   "line": 17,
+   "journal": "The Classical World",
+   "year": "1985",
+   "iid": "f982a15d-bf65-3a78-8555-6ca39e6cf3eb",
+   "doi": "10.2307/4349836",
+   "title": "Studies in Greek Athletics. Part II",
+   "author": "Nigel B. Crowther"
+  },
+  {
+   "book": "",
+   "page": 710,
+   "section": "b",
+   "line": null,
+   "journal": "Hermes",
+   "year": "1995",
+   "iid": "fb24c303-3724-3c10-94ed-b0112219c2e0",
+   "doi": "10.2307/4477085",
+   "title": "The Private Aristotle: Two Clues",
+   "author": "R. Renehan"
   }
  ]
 }

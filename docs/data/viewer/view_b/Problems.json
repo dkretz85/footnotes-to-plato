@@ -1,0 +1,56 @@
+{
+ "work": "Problems",
+ "faceted": false,
+ "system": "bekker",
+ "tier": "trustworthy",
+ "cells": [
+  {
+   "book": "",
+   "page": 921,
+   "section": "b",
+   "band": 0,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Rheinisches Museum für Philologie": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 926,
+   "section": "a",
+   "band": 0,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Hermes": 1
+   }
+  }
+ ],
+ "dots": [
+  {
+   "book": "",
+   "page": 921,
+   "section": "b",
+   "line": null,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "2005",
+   "iid": "19b6b705-f626-3f19-9154-317e7a043df8",
+   "doi": "10.2307/41234620",
+   "title": "ΚΛΕΑΡΧΟΣ ΟDER ΚΛΕΙΤΑΡΧΟΣ? Zur Urheberschaft zweier Worterklärungen und zur Autorschaft eines Glossenwerks in der Überlieferung des Klearchos aus Soloi",
+   "author": "Stephanos Matthaios"
+  },
+  {
+   "book": "",
+   "page": 926,
+   "section": "a",
+   "line": null,
+   "journal": "Hermes",
+   "year": "1960",
+   "iid": "bf4f3999-fbcd-3851-8019-ba2b3516ef9e",
+   "doi": "10.2307/4475127",
+   "title": "Die ΟΔΟΣ ΠΟΛΥΦΗΜΟΣ der parmenideischen Wahrheit",
+   "author": "Conrado Eggers Lan"
+  }
+ ]
+}

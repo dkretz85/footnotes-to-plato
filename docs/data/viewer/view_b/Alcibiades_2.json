@@ -1,12 +1,390 @@
 {
  "work": "Alcibiades_2",
  "faceted": false,
+ "system": "stephanus",
  "tier": "uncertain",
  "cells": [
   {
    "book": "",
+   "page": 138,
+   "section": "a",
+   "band": 0,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Mnemosyne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 138,
+   "section": "b",
+   "band": 0,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Mnemosyne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 138,
+   "section": "c",
+   "band": 0,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Mnemosyne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 138,
+   "section": "d",
+   "band": 0,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Mnemosyne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 138,
+   "section": "e",
+   "band": 0,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Mnemosyne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 139,
+   "section": "a",
+   "band": 0,
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Mnemosyne": 1,
+    "Harvard Studies in Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 139,
+   "section": "b",
+   "band": 0,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Mnemosyne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 139,
+   "section": "c",
+   "band": 0,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Mnemosyne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 139,
+   "section": "d",
+   "band": 0,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Mnemosyne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 139,
+   "section": "e",
+   "band": 0,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Mnemosyne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 140,
+   "section": "a",
+   "band": 0,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Mnemosyne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 140,
+   "section": "b",
+   "band": 0,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Mnemosyne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 140,
+   "section": "c",
+   "band": 0,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Mnemosyne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 140,
+   "section": "d",
+   "band": 0,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Mnemosyne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 140,
+   "section": "e",
+   "band": 0,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Mnemosyne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 141,
+   "section": "a",
+   "band": 0,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Mnemosyne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 141,
+   "section": "b",
+   "band": 0,
+   "count": 2,
+   "articles": 1,
+   "by_journal": {
+    "Mnemosyne": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 141,
+   "section": "c",
+   "band": 0,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Mnemosyne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 141,
+   "section": "d",
+   "band": 0,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Mnemosyne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 141,
+   "section": "e",
+   "band": 0,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Mnemosyne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 142,
+   "section": "a",
+   "band": 0,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Mnemosyne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 142,
+   "section": "b",
+   "band": 0,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Mnemosyne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 142,
+   "section": "c",
+   "band": 0,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Mnemosyne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 142,
+   "section": "d",
+   "band": 0,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Mnemosyne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 142,
+   "section": "e",
+   "band": 0,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Mnemosyne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 143,
+   "section": "a",
+   "band": 0,
+   "count": 3,
+   "articles": 1,
+   "by_journal": {
+    "Mnemosyne": 3
+   }
+  },
+  {
+   "book": "",
+   "page": 143,
+   "section": "e",
+   "band": 0,
+   "count": 3,
+   "articles": 1,
+   "by_journal": {
+    "Mnemosyne": 3
+   }
+  },
+  {
+   "book": "",
+   "page": 144,
+   "section": "a",
+   "band": 0,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Mnemosyne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 144,
+   "section": "c",
+   "band": 0,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Mnemosyne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 144,
+   "section": "d",
+   "band": 0,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Mnemosyne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 144,
+   "section": "e",
+   "band": 0,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Mnemosyne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 145,
+   "section": "c",
+   "band": 0,
+   "count": 2,
+   "articles": 1,
+   "by_journal": {
+    "Mnemosyne": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 145,
+   "section": "e",
+   "band": 0,
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Harvard Studies in Classical Philology": 1,
+    "Novum Testamentum": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 146,
+   "section": "a",
+   "band": 0,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Mnemosyne": 1
+   }
+  },
+  {
+   "book": "",
    "page": 147,
    "section": "a",
+   "band": 0,
    "count": 1,
    "articles": 1,
    "by_journal": {
@@ -16,7 +394,30 @@
   {
    "book": "",
    "page": 147,
+   "section": "c",
+   "band": 0,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Mnemosyne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 147,
+   "section": "d",
+   "band": 0,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Mnemosyne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 147,
    "section": "e",
+   "band": 0,
    "count": 1,
    "articles": 1,
    "by_journal": {
@@ -26,41 +427,152 @@
   {
    "book": "",
    "page": 148,
-   "section": "b",
+   "section": "a",
+   "band": 0,
    "count": 1,
    "articles": 1,
    "by_journal": {
-    "Classical Philology": 1
+    "Mnemosyne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 148,
+   "section": "b",
+   "band": 0,
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Classical Philology": 1,
+    "Mnemosyne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 148,
+   "section": "c",
+   "band": 0,
+   "count": 3,
+   "articles": 2,
+   "by_journal": {
+    "Mnemosyne": 2,
+    "The Catholic Biblical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 148,
+   "section": "d",
+   "band": 0,
+   "count": 3,
+   "articles": 2,
+   "by_journal": {
+    "Mnemosyne": 2,
+    "The Catholic Biblical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 148,
+   "section": "e",
+   "band": 0,
+   "count": 3,
+   "articles": 2,
+   "by_journal": {
+    "Mnemosyne": 2,
+    "The Catholic Biblical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 149,
+   "section": "a",
+   "band": 0,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Catholic Biblical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 149,
+   "section": "b",
+   "band": 0,
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Mnemosyne": 1,
+    "The Catholic Biblical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 149,
+   "section": "c",
+   "band": 0,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Catholic Biblical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 149,
+   "section": "d",
+   "band": 0,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Mnemosyne": 1
    }
   },
   {
    "book": "",
    "page": 149,
    "section": "e",
+   "band": 0,
+   "count": 3,
+   "articles": 2,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 1,
+    "Mnemosyne": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 150,
+   "section": "a",
+   "band": 0,
    "count": 1,
    "articles": 1,
    "by_journal": {
-    "Revue de Philosophie Ancienne": 1
+    "Mnemosyne": 1
    }
   },
   {
    "book": "",
    "page": 150,
    "section": "d",
-   "count": 1,
-   "articles": 1,
+   "band": 0,
+   "count": 2,
+   "articles": 2,
    "by_journal": {
-    "Classical Philology": 1
+    "Classical Philology": 1,
+    "Harvard Studies in Classical Philology": 1
    }
   },
   {
    "book": "",
    "page": 151,
    "section": "b",
-   "count": 1,
-   "articles": 1,
+   "band": 0,
+   "count": 2,
+   "articles": 2,
    "by_journal": {
-    "Phronesis": 1
+    "Phronesis": 1,
+    "Mnemosyne": 1
    }
   }
  ],
@@ -79,8 +591,8 @@
   },
   {
    "book": "",
-   "page": 147,
-   "section": "e",
+   "page": 148,
+   "section": "b",
    "line": null,
    "journal": "Classical Philology",
    "year": "1928",
@@ -91,8 +603,8 @@
   },
   {
    "book": "",
-   "page": 148,
-   "section": "b",
+   "page": 147,
+   "section": "e",
    "line": null,
    "journal": "Classical Philology",
    "year": "1928",
@@ -136,6 +648,714 @@
    "doi": "10.2307/262678",
    "title": "Posidonius and the Flight of the Mind through the Universe",
    "author": "Roger Miller Jones"
+  },
+  {
+   "book": "",
+   "page": 143,
+   "section": "a",
+   "line": null,
+   "journal": "Mnemosyne",
+   "year": "1992",
+   "iid": "0dd8bc98-2500-341b-a054-364625e03843",
+   "doi": "10.2307/4432168",
+   "title": "The Independence of Parisinus GR. 1813 in Plato's \"Phaedrus, Hipparchus and Alcibiades II\"",
+   "author": "D. J. Murphy"
+  },
+  {
+   "book": "",
+   "page": 144,
+   "section": "c",
+   "line": 3,
+   "journal": "Mnemosyne",
+   "year": "1992",
+   "iid": "0dd8bc98-2500-341b-a054-364625e03843",
+   "doi": "10.2307/4432168",
+   "title": "The Independence of Parisinus GR. 1813 in Plato's \"Phaedrus, Hipparchus and Alcibiades II\"",
+   "author": "D. J. Murphy"
+  },
+  {
+   "book": "",
+   "page": 145,
+   "section": "c",
+   "line": 5,
+   "journal": "Mnemosyne",
+   "year": "1992",
+   "iid": "0dd8bc98-2500-341b-a054-364625e03843",
+   "doi": "10.2307/4432168",
+   "title": "The Independence of Parisinus GR. 1813 in Plato's \"Phaedrus, Hipparchus and Alcibiades II\"",
+   "author": "D. J. Murphy"
+  },
+  {
+   "book": "",
+   "page": 145,
+   "section": "c",
+   "line": 9,
+   "journal": "Mnemosyne",
+   "year": "1992",
+   "iid": "0dd8bc98-2500-341b-a054-364625e03843",
+   "doi": "10.2307/4432168",
+   "title": "The Independence of Parisinus GR. 1813 in Plato's \"Phaedrus, Hipparchus and Alcibiades II\"",
+   "author": "D. J. Murphy"
+  },
+  {
+   "book": "",
+   "page": 143,
+   "section": "e",
+   "line": 8,
+   "journal": "Mnemosyne",
+   "year": "1992",
+   "iid": "0dd8bc98-2500-341b-a054-364625e03843",
+   "doi": "10.2307/4432168",
+   "title": "The Independence of Parisinus GR. 1813 in Plato's \"Phaedrus, Hipparchus and Alcibiades II\"",
+   "author": "D. J. Murphy"
+  },
+  {
+   "book": "",
+   "page": 144,
+   "section": "a",
+   "line": 3,
+   "journal": "Mnemosyne",
+   "year": "1992",
+   "iid": "0dd8bc98-2500-341b-a054-364625e03843",
+   "doi": "10.2307/4432168",
+   "title": "The Independence of Parisinus GR. 1813 in Plato's \"Phaedrus, Hipparchus and Alcibiades II\"",
+   "author": "D. J. Murphy"
+  },
+  {
+   "book": "",
+   "page": 148,
+   "section": "e",
+   "line": 3,
+   "journal": "Mnemosyne",
+   "year": "1992",
+   "iid": "0dd8bc98-2500-341b-a054-364625e03843",
+   "doi": "10.2307/4432168",
+   "title": "The Independence of Parisinus GR. 1813 in Plato's \"Phaedrus, Hipparchus and Alcibiades II\"",
+   "author": "D. J. Murphy"
+  },
+  {
+   "book": "",
+   "page": 149,
+   "section": "e",
+   "line": 8,
+   "journal": "Mnemosyne",
+   "year": "1992",
+   "iid": "0dd8bc98-2500-341b-a054-364625e03843",
+   "doi": "10.2307/4432168",
+   "title": "The Independence of Parisinus GR. 1813 in Plato's \"Phaedrus, Hipparchus and Alcibiades II\"",
+   "author": "D. J. Murphy"
+  },
+  {
+   "book": "",
+   "page": 148,
+   "section": "d",
+   "line": 3,
+   "journal": "Mnemosyne",
+   "year": "1992",
+   "iid": "0dd8bc98-2500-341b-a054-364625e03843",
+   "doi": "10.2307/4432168",
+   "title": "The Independence of Parisinus GR. 1813 in Plato's \"Phaedrus, Hipparchus and Alcibiades II\"",
+   "author": "D. J. Murphy"
+  },
+  {
+   "book": "",
+   "page": 149,
+   "section": "d",
+   "line": 3,
+   "journal": "Mnemosyne",
+   "year": "1992",
+   "iid": "0dd8bc98-2500-341b-a054-364625e03843",
+   "doi": "10.2307/4432168",
+   "title": "The Independence of Parisinus GR. 1813 in Plato's \"Phaedrus, Hipparchus and Alcibiades II\"",
+   "author": "D. J. Murphy"
+  },
+  {
+   "book": "",
+   "page": 147,
+   "section": "d",
+   "line": 2,
+   "journal": "Mnemosyne",
+   "year": "1992",
+   "iid": "0dd8bc98-2500-341b-a054-364625e03843",
+   "doi": "10.2307/4432168",
+   "title": "The Independence of Parisinus GR. 1813 in Plato's \"Phaedrus, Hipparchus and Alcibiades II\"",
+   "author": "D. J. Murphy"
+  },
+  {
+   "book": "",
+   "page": 148,
+   "section": "a",
+   "line": 8,
+   "journal": "Mnemosyne",
+   "year": "1992",
+   "iid": "0dd8bc98-2500-341b-a054-364625e03843",
+   "doi": "10.2307/4432168",
+   "title": "The Independence of Parisinus GR. 1813 in Plato's \"Phaedrus, Hipparchus and Alcibiades II\"",
+   "author": "D. J. Murphy"
+  },
+  {
+   "book": "",
+   "page": 148,
+   "section": "b",
+   "line": 5,
+   "journal": "Mnemosyne",
+   "year": "1992",
+   "iid": "0dd8bc98-2500-341b-a054-364625e03843",
+   "doi": "10.2307/4432168",
+   "title": "The Independence of Parisinus GR. 1813 in Plato's \"Phaedrus, Hipparchus and Alcibiades II\"",
+   "author": "D. J. Murphy"
+  },
+  {
+   "book": "",
+   "page": 146,
+   "section": "a",
+   "line": 7,
+   "journal": "Mnemosyne",
+   "year": "1992",
+   "iid": "0dd8bc98-2500-341b-a054-364625e03843",
+   "doi": "10.2307/4432168",
+   "title": "The Independence of Parisinus GR. 1813 in Plato's \"Phaedrus, Hipparchus and Alcibiades II\"",
+   "author": "D. J. Murphy"
+  },
+  {
+   "book": "",
+   "page": 149,
+   "section": "e",
+   "line": 3,
+   "journal": "Mnemosyne",
+   "year": "1992",
+   "iid": "0dd8bc98-2500-341b-a054-364625e03843",
+   "doi": "10.2307/4432168",
+   "title": "The Independence of Parisinus GR. 1813 in Plato's \"Phaedrus, Hipparchus and Alcibiades II\"",
+   "author": "D. J. Murphy"
+  },
+  {
+   "book": "",
+   "page": 151,
+   "section": "b",
+   "line": 8,
+   "journal": "Mnemosyne",
+   "year": "1992",
+   "iid": "0dd8bc98-2500-341b-a054-364625e03843",
+   "doi": "10.2307/4432168",
+   "title": "The Independence of Parisinus GR. 1813 in Plato's \"Phaedrus, Hipparchus and Alcibiades II\"",
+   "author": "D. J. Murphy"
+  },
+  {
+   "book": "",
+   "page": 149,
+   "section": "b",
+   "line": 2,
+   "journal": "Mnemosyne",
+   "year": "1992",
+   "iid": "0dd8bc98-2500-341b-a054-364625e03843",
+   "doi": "10.2307/4432168",
+   "title": "The Independence of Parisinus GR. 1813 in Plato's \"Phaedrus, Hipparchus and Alcibiades II\"",
+   "author": "D. J. Murphy"
+  },
+  {
+   "book": "",
+   "page": 147,
+   "section": "c",
+   "line": 5,
+   "journal": "Mnemosyne",
+   "year": "1992",
+   "iid": "0dd8bc98-2500-341b-a054-364625e03843",
+   "doi": "10.2307/4432168",
+   "title": "The Independence of Parisinus GR. 1813 in Plato's \"Phaedrus, Hipparchus and Alcibiades II\"",
+   "author": "D. J. Murphy"
+  },
+  {
+   "book": "",
+   "page": 144,
+   "section": "d",
+   "line": 8,
+   "journal": "Mnemosyne",
+   "year": "1992",
+   "iid": "0dd8bc98-2500-341b-a054-364625e03843",
+   "doi": "10.2307/4432168",
+   "title": "The Independence of Parisinus GR. 1813 in Plato's \"Phaedrus, Hipparchus and Alcibiades II\"",
+   "author": "D. J. Murphy"
+  },
+  {
+   "book": "",
+   "page": 144,
+   "section": "e",
+   "line": 4,
+   "journal": "Mnemosyne",
+   "year": "1992",
+   "iid": "0dd8bc98-2500-341b-a054-364625e03843",
+   "doi": "10.2307/4432168",
+   "title": "The Independence of Parisinus GR. 1813 in Plato's \"Phaedrus, Hipparchus and Alcibiades II\"",
+   "author": "D. J. Murphy"
+  },
+  {
+   "book": "",
+   "page": 150,
+   "section": "a",
+   "line": 6,
+   "journal": "Mnemosyne",
+   "year": "1992",
+   "iid": "0dd8bc98-2500-341b-a054-364625e03843",
+   "doi": "10.2307/4432168",
+   "title": "The Independence of Parisinus GR. 1813 in Plato's \"Phaedrus, Hipparchus and Alcibiades II\"",
+   "author": "D. J. Murphy"
+  },
+  {
+   "book": "",
+   "page": 138,
+   "section": "a",
+   "line": null,
+   "journal": "Mnemosyne",
+   "year": "1992",
+   "iid": "0dd8bc98-2500-341b-a054-364625e03843",
+   "doi": "10.2307/4432168",
+   "title": "The Independence of Parisinus GR. 1813 in Plato's \"Phaedrus, Hipparchus and Alcibiades II\"",
+   "author": "D. J. Murphy"
+  },
+  {
+   "book": "",
+   "page": 138,
+   "section": "b",
+   "line": null,
+   "journal": "Mnemosyne",
+   "year": "1992",
+   "iid": "0dd8bc98-2500-341b-a054-364625e03843",
+   "doi": "10.2307/4432168",
+   "title": "The Independence of Parisinus GR. 1813 in Plato's \"Phaedrus, Hipparchus and Alcibiades II\"",
+   "author": "D. J. Murphy"
+  },
+  {
+   "book": "",
+   "page": 138,
+   "section": "c",
+   "line": null,
+   "journal": "Mnemosyne",
+   "year": "1992",
+   "iid": "0dd8bc98-2500-341b-a054-364625e03843",
+   "doi": "10.2307/4432168",
+   "title": "The Independence of Parisinus GR. 1813 in Plato's \"Phaedrus, Hipparchus and Alcibiades II\"",
+   "author": "D. J. Murphy"
+  },
+  {
+   "book": "",
+   "page": 138,
+   "section": "d",
+   "line": null,
+   "journal": "Mnemosyne",
+   "year": "1992",
+   "iid": "0dd8bc98-2500-341b-a054-364625e03843",
+   "doi": "10.2307/4432168",
+   "title": "The Independence of Parisinus GR. 1813 in Plato's \"Phaedrus, Hipparchus and Alcibiades II\"",
+   "author": "D. J. Murphy"
+  },
+  {
+   "book": "",
+   "page": 138,
+   "section": "e",
+   "line": null,
+   "journal": "Mnemosyne",
+   "year": "1992",
+   "iid": "0dd8bc98-2500-341b-a054-364625e03843",
+   "doi": "10.2307/4432168",
+   "title": "The Independence of Parisinus GR. 1813 in Plato's \"Phaedrus, Hipparchus and Alcibiades II\"",
+   "author": "D. J. Murphy"
+  },
+  {
+   "book": "",
+   "page": 139,
+   "section": "a",
+   "line": null,
+   "journal": "Mnemosyne",
+   "year": "1992",
+   "iid": "0dd8bc98-2500-341b-a054-364625e03843",
+   "doi": "10.2307/4432168",
+   "title": "The Independence of Parisinus GR. 1813 in Plato's \"Phaedrus, Hipparchus and Alcibiades II\"",
+   "author": "D. J. Murphy"
+  },
+  {
+   "book": "",
+   "page": 139,
+   "section": "b",
+   "line": null,
+   "journal": "Mnemosyne",
+   "year": "1992",
+   "iid": "0dd8bc98-2500-341b-a054-364625e03843",
+   "doi": "10.2307/4432168",
+   "title": "The Independence of Parisinus GR. 1813 in Plato's \"Phaedrus, Hipparchus and Alcibiades II\"",
+   "author": "D. J. Murphy"
+  },
+  {
+   "book": "",
+   "page": 139,
+   "section": "c",
+   "line": null,
+   "journal": "Mnemosyne",
+   "year": "1992",
+   "iid": "0dd8bc98-2500-341b-a054-364625e03843",
+   "doi": "10.2307/4432168",
+   "title": "The Independence of Parisinus GR. 1813 in Plato's \"Phaedrus, Hipparchus and Alcibiades II\"",
+   "author": "D. J. Murphy"
+  },
+  {
+   "book": "",
+   "page": 139,
+   "section": "d",
+   "line": null,
+   "journal": "Mnemosyne",
+   "year": "1992",
+   "iid": "0dd8bc98-2500-341b-a054-364625e03843",
+   "doi": "10.2307/4432168",
+   "title": "The Independence of Parisinus GR. 1813 in Plato's \"Phaedrus, Hipparchus and Alcibiades II\"",
+   "author": "D. J. Murphy"
+  },
+  {
+   "book": "",
+   "page": 139,
+   "section": "e",
+   "line": null,
+   "journal": "Mnemosyne",
+   "year": "1992",
+   "iid": "0dd8bc98-2500-341b-a054-364625e03843",
+   "doi": "10.2307/4432168",
+   "title": "The Independence of Parisinus GR. 1813 in Plato's \"Phaedrus, Hipparchus and Alcibiades II\"",
+   "author": "D. J. Murphy"
+  },
+  {
+   "book": "",
+   "page": 140,
+   "section": "a",
+   "line": null,
+   "journal": "Mnemosyne",
+   "year": "1992",
+   "iid": "0dd8bc98-2500-341b-a054-364625e03843",
+   "doi": "10.2307/4432168",
+   "title": "The Independence of Parisinus GR. 1813 in Plato's \"Phaedrus, Hipparchus and Alcibiades II\"",
+   "author": "D. J. Murphy"
+  },
+  {
+   "book": "",
+   "page": 140,
+   "section": "b",
+   "line": null,
+   "journal": "Mnemosyne",
+   "year": "1992",
+   "iid": "0dd8bc98-2500-341b-a054-364625e03843",
+   "doi": "10.2307/4432168",
+   "title": "The Independence of Parisinus GR. 1813 in Plato's \"Phaedrus, Hipparchus and Alcibiades II\"",
+   "author": "D. J. Murphy"
+  },
+  {
+   "book": "",
+   "page": 140,
+   "section": "c",
+   "line": null,
+   "journal": "Mnemosyne",
+   "year": "1992",
+   "iid": "0dd8bc98-2500-341b-a054-364625e03843",
+   "doi": "10.2307/4432168",
+   "title": "The Independence of Parisinus GR. 1813 in Plato's \"Phaedrus, Hipparchus and Alcibiades II\"",
+   "author": "D. J. Murphy"
+  },
+  {
+   "book": "",
+   "page": 140,
+   "section": "d",
+   "line": null,
+   "journal": "Mnemosyne",
+   "year": "1992",
+   "iid": "0dd8bc98-2500-341b-a054-364625e03843",
+   "doi": "10.2307/4432168",
+   "title": "The Independence of Parisinus GR. 1813 in Plato's \"Phaedrus, Hipparchus and Alcibiades II\"",
+   "author": "D. J. Murphy"
+  },
+  {
+   "book": "",
+   "page": 140,
+   "section": "e",
+   "line": null,
+   "journal": "Mnemosyne",
+   "year": "1992",
+   "iid": "0dd8bc98-2500-341b-a054-364625e03843",
+   "doi": "10.2307/4432168",
+   "title": "The Independence of Parisinus GR. 1813 in Plato's \"Phaedrus, Hipparchus and Alcibiades II\"",
+   "author": "D. J. Murphy"
+  },
+  {
+   "book": "",
+   "page": 141,
+   "section": "a",
+   "line": null,
+   "journal": "Mnemosyne",
+   "year": "1992",
+   "iid": "0dd8bc98-2500-341b-a054-364625e03843",
+   "doi": "10.2307/4432168",
+   "title": "The Independence of Parisinus GR. 1813 in Plato's \"Phaedrus, Hipparchus and Alcibiades II\"",
+   "author": "D. J. Murphy"
+  },
+  {
+   "book": "",
+   "page": 141,
+   "section": "b",
+   "line": null,
+   "journal": "Mnemosyne",
+   "year": "1992",
+   "iid": "0dd8bc98-2500-341b-a054-364625e03843",
+   "doi": "10.2307/4432168",
+   "title": "The Independence of Parisinus GR. 1813 in Plato's \"Phaedrus, Hipparchus and Alcibiades II\"",
+   "author": "D. J. Murphy"
+  },
+  {
+   "book": "",
+   "page": 141,
+   "section": "c",
+   "line": null,
+   "journal": "Mnemosyne",
+   "year": "1992",
+   "iid": "0dd8bc98-2500-341b-a054-364625e03843",
+   "doi": "10.2307/4432168",
+   "title": "The Independence of Parisinus GR. 1813 in Plato's \"Phaedrus, Hipparchus and Alcibiades II\"",
+   "author": "D. J. Murphy"
+  },
+  {
+   "book": "",
+   "page": 141,
+   "section": "d",
+   "line": null,
+   "journal": "Mnemosyne",
+   "year": "1992",
+   "iid": "0dd8bc98-2500-341b-a054-364625e03843",
+   "doi": "10.2307/4432168",
+   "title": "The Independence of Parisinus GR. 1813 in Plato's \"Phaedrus, Hipparchus and Alcibiades II\"",
+   "author": "D. J. Murphy"
+  },
+  {
+   "book": "",
+   "page": 141,
+   "section": "e",
+   "line": null,
+   "journal": "Mnemosyne",
+   "year": "1992",
+   "iid": "0dd8bc98-2500-341b-a054-364625e03843",
+   "doi": "10.2307/4432168",
+   "title": "The Independence of Parisinus GR. 1813 in Plato's \"Phaedrus, Hipparchus and Alcibiades II\"",
+   "author": "D. J. Murphy"
+  },
+  {
+   "book": "",
+   "page": 142,
+   "section": "a",
+   "line": null,
+   "journal": "Mnemosyne",
+   "year": "1992",
+   "iid": "0dd8bc98-2500-341b-a054-364625e03843",
+   "doi": "10.2307/4432168",
+   "title": "The Independence of Parisinus GR. 1813 in Plato's \"Phaedrus, Hipparchus and Alcibiades II\"",
+   "author": "D. J. Murphy"
+  },
+  {
+   "book": "",
+   "page": 142,
+   "section": "b",
+   "line": null,
+   "journal": "Mnemosyne",
+   "year": "1992",
+   "iid": "0dd8bc98-2500-341b-a054-364625e03843",
+   "doi": "10.2307/4432168",
+   "title": "The Independence of Parisinus GR. 1813 in Plato's \"Phaedrus, Hipparchus and Alcibiades II\"",
+   "author": "D. J. Murphy"
+  },
+  {
+   "book": "",
+   "page": 142,
+   "section": "c",
+   "line": null,
+   "journal": "Mnemosyne",
+   "year": "1992",
+   "iid": "0dd8bc98-2500-341b-a054-364625e03843",
+   "doi": "10.2307/4432168",
+   "title": "The Independence of Parisinus GR. 1813 in Plato's \"Phaedrus, Hipparchus and Alcibiades II\"",
+   "author": "D. J. Murphy"
+  },
+  {
+   "book": "",
+   "page": 142,
+   "section": "d",
+   "line": null,
+   "journal": "Mnemosyne",
+   "year": "1992",
+   "iid": "0dd8bc98-2500-341b-a054-364625e03843",
+   "doi": "10.2307/4432168",
+   "title": "The Independence of Parisinus GR. 1813 in Plato's \"Phaedrus, Hipparchus and Alcibiades II\"",
+   "author": "D. J. Murphy"
+  },
+  {
+   "book": "",
+   "page": 142,
+   "section": "e",
+   "line": null,
+   "journal": "Mnemosyne",
+   "year": "1992",
+   "iid": "0dd8bc98-2500-341b-a054-364625e03843",
+   "doi": "10.2307/4432168",
+   "title": "The Independence of Parisinus GR. 1813 in Plato's \"Phaedrus, Hipparchus and Alcibiades II\"",
+   "author": "D. J. Murphy"
+  },
+  {
+   "book": "",
+   "page": 143,
+   "section": "a",
+   "line": 7,
+   "journal": "Mnemosyne",
+   "year": "1992",
+   "iid": "0dd8bc98-2500-341b-a054-364625e03843",
+   "doi": "10.2307/4432168",
+   "title": "The Independence of Parisinus GR. 1813 in Plato's \"Phaedrus, Hipparchus and Alcibiades II\"",
+   "author": "D. J. Murphy"
+  },
+  {
+   "book": "",
+   "page": 148,
+   "section": "c",
+   "line": 4,
+   "journal": "Mnemosyne",
+   "year": "1992",
+   "iid": "0dd8bc98-2500-341b-a054-364625e03843",
+   "doi": "10.2307/4432168",
+   "title": "The Independence of Parisinus GR. 1813 in Plato's \"Phaedrus, Hipparchus and Alcibiades II\"",
+   "author": "D. J. Murphy"
+  },
+  {
+   "book": "",
+   "page": 141,
+   "section": "b",
+   "line": 2,
+   "journal": "Mnemosyne",
+   "year": "1992",
+   "iid": "0dd8bc98-2500-341b-a054-364625e03843",
+   "doi": "10.2307/4432168",
+   "title": "The Independence of Parisinus GR. 1813 in Plato's \"Phaedrus, Hipparchus and Alcibiades II\"",
+   "author": "D. J. Murphy"
+  },
+  {
+   "book": "",
+   "page": 150,
+   "section": "d",
+   "line": null,
+   "journal": "Harvard Studies in Classical Philology",
+   "year": "2017",
+   "iid": "1e2bf3e1-22e7-343b-9032-32e09ec7900c",
+   "doi": "10.2307/44863967",
+   "title": "THE POETICS OF VISION IN VIRGIL'S \"AENEID\"",
+   "author": "Fiachra Mac Góráin"
+  },
+  {
+   "book": "",
+   "page": 145,
+   "section": "e",
+   "line": null,
+   "journal": "Harvard Studies in Classical Philology",
+   "year": "1942",
+   "iid": "6f6c2b89-a8be-3c22-ad59-c19d71c27fcf",
+   "doi": "10.2307/310792",
+   "title": "The Scope of Early Rhetorical Instruction",
+   "author": "Stanley Wilcox"
+  },
+  {
+   "book": "",
+   "page": 139,
+   "section": "a",
+   "line": null,
+   "journal": "Harvard Studies in Classical Philology",
+   "year": "1942",
+   "iid": "6f6c2b89-a8be-3c22-ad59-c19d71c27fcf",
+   "doi": "10.2307/310792",
+   "title": "The Scope of Early Rhetorical Instruction",
+   "author": "Stanley Wilcox"
+  },
+  {
+   "book": "",
+   "page": 145,
+   "section": "e",
+   "line": null,
+   "journal": "Novum Testamentum",
+   "year": "1987",
+   "iid": "a1586e8a-6241-3955-9bb6-55264a470b7f",
+   "doi": "10.2307/1560778",
+   "title": "A Conciliatory Principle in 1 Cor. 4:6",
+   "author": "L. L. Welborn"
+  },
+  {
+   "book": "",
+   "page": 148,
+   "section": "c",
+   "line": null,
+   "journal": "The Catholic Biblical Quarterly",
+   "year": "1992",
+   "iid": "ecc14f00-3fba-31d0-97cf-a761db8e2590",
+   "doi": "10.2307/43720815",
+   "title": "The Ambiguity of \"The Pharisee and the Toll-collector\" (Luke 18:9-14) in the Greco-Roman World of Late Antiquity",
+   "author": "F. GERALD DOWNING"
+  },
+  {
+   "book": "",
+   "page": 148,
+   "section": "d",
+   "line": null,
+   "journal": "The Catholic Biblical Quarterly",
+   "year": "1992",
+   "iid": "ecc14f00-3fba-31d0-97cf-a761db8e2590",
+   "doi": "10.2307/43720815",
+   "title": "The Ambiguity of \"The Pharisee and the Toll-collector\" (Luke 18:9-14) in the Greco-Roman World of Late Antiquity",
+   "author": "F. GERALD DOWNING"
+  },
+  {
+   "book": "",
+   "page": 148,
+   "section": "e",
+   "line": null,
+   "journal": "The Catholic Biblical Quarterly",
+   "year": "1992",
+   "iid": "ecc14f00-3fba-31d0-97cf-a761db8e2590",
+   "doi": "10.2307/43720815",
+   "title": "The Ambiguity of \"The Pharisee and the Toll-collector\" (Luke 18:9-14) in the Greco-Roman World of Late Antiquity",
+   "author": "F. GERALD DOWNING"
+  },
+  {
+   "book": "",
+   "page": 149,
+   "section": "a",
+   "line": null,
+   "journal": "The Catholic Biblical Quarterly",
+   "year": "1992",
+   "iid": "ecc14f00-3fba-31d0-97cf-a761db8e2590",
+   "doi": "10.2307/43720815",
+   "title": "The Ambiguity of \"The Pharisee and the Toll-collector\" (Luke 18:9-14) in the Greco-Roman World of Late Antiquity",
+   "author": "F. GERALD DOWNING"
+  },
+  {
+   "book": "",
+   "page": 149,
+   "section": "b",
+   "line": null,
+   "journal": "The Catholic Biblical Quarterly",
+   "year": "1992",
+   "iid": "ecc14f00-3fba-31d0-97cf-a761db8e2590",
+   "doi": "10.2307/43720815",
+   "title": "The Ambiguity of \"The Pharisee and the Toll-collector\" (Luke 18:9-14) in the Greco-Roman World of Late Antiquity",
+   "author": "F. GERALD DOWNING"
+  },
+  {
+   "book": "",
+   "page": 149,
+   "section": "c",
+   "line": null,
+   "journal": "The Catholic Biblical Quarterly",
+   "year": "1992",
+   "iid": "ecc14f00-3fba-31d0-97cf-a761db8e2590",
+   "doi": "10.2307/43720815",
+   "title": "The Ambiguity of \"The Pharisee and the Toll-collector\" (Luke 18:9-14) in the Greco-Roman World of Late Antiquity",
+   "author": "F. GERALD DOWNING"
   }
  ]
 }

@@ -1,181 +1,500 @@
 {
  "work": "Minos",
  "faceted": false,
+ "system": "stephanus",
  "tier": "trustworthy",
  "cells": [
   {
    "book": "",
+   "page": 313,
+   "section": "a",
+   "band": 0,
+   "count": 4,
+   "articles": 2,
+   "by_journal": {
+    "Hermes": 3,
+    "Transactions of the American Philological Association (1974-2014)": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 313,
+   "section": "b",
+   "band": 0,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Transactions of the American Philological Association (1974-2014)": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 313,
+   "section": "c",
+   "band": 0,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Transactions of the American Philological Association (1974-2014)": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 314,
+   "section": "a",
+   "band": 0,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Transactions of the American Philological Association (1974-2014)": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 314,
+   "section": "e",
+   "band": 0,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Rheinisches Museum für Philologie": 1
+   }
+  },
+  {
+   "book": "",
    "page": 315,
    "section": "a",
-   "count": 2,
-   "articles": 2,
+   "band": 0,
+   "count": 8,
+   "articles": 4,
    "by_journal": {
     "The Classical Review": 1,
-    "Méthexis": 1
+    "Méthexis": 1,
+    "Rheinisches Museum für Philologie": 5,
+    "The American Journal of Philology": 1
    }
   },
   {
    "book": "",
    "page": 315,
-   "section": "c",
-   "count": 2,
+   "section": "b",
+   "band": 0,
+   "count": 5,
    "articles": 2,
    "by_journal": {
-    "Classical Philology": 2
+    "The American Journal of Philology": 1,
+    "Rheinisches Museum für Philologie": 4
+   }
+  },
+  {
+   "book": "",
+   "page": 315,
+   "section": "c",
+   "band": 0,
+   "count": 13,
+   "articles": 8,
+   "by_journal": {
+    "Classical Philology": 2,
+    "Transactions and Proceedings of the American Philological Association": 4,
+    "Rheinisches Museum für Philologie": 4,
+    "The American Journal of Philology": 1,
+    "Quaderni Urbinati di Cultura Classica": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 315,
+   "section": "d",
+   "band": 0,
+   "count": 4,
+   "articles": 2,
+   "by_journal": {
+    "The American Journal of Philology": 1,
+    "Rheinisches Museum für Philologie": 3
    }
   },
   {
    "book": "",
    "page": 315,
    "section": "e",
-   "count": 1,
+   "band": 0,
+   "count": 6,
+   "articles": 2,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "Rheinisches Museum für Philologie": 5
+   }
+  },
+  {
+   "book": "",
+   "page": 316,
+   "section": "a",
+   "band": 0,
+   "count": 5,
    "articles": 1,
    "by_journal": {
-    "The Classical Quarterly": 1
+    "Rheinisches Museum für Philologie": 5
+   }
+  },
+  {
+   "book": "",
+   "page": 316,
+   "section": "b",
+   "band": 0,
+   "count": 9,
+   "articles": 2,
+   "by_journal": {
+    "Transactions of the American Philological Association (1974-2014)": 1,
+    "Rheinisches Museum für Philologie": 8
    }
   },
   {
    "book": "",
    "page": 316,
    "section": "c",
-   "count": 2,
-   "articles": 1,
+   "band": 0,
+   "count": 7,
+   "articles": 3,
    "by_journal": {
-    "Revue de Philosophie Ancienne": 2
+    "Revue de Philosophie Ancienne": 2,
+    "The Catholic Biblical Quarterly": 1,
+    "Rheinisches Museum für Philologie": 4
+   }
+  },
+  {
+   "book": "",
+   "page": 316,
+   "section": "d",
+   "band": 0,
+   "count": 3,
+   "articles": 2,
+   "by_journal": {
+    "Classical Antiquity": 1,
+    "Rheinisches Museum für Philologie": 2
    }
   },
   {
    "book": "",
    "page": 316,
    "section": "e",
-   "count": 1,
-   "articles": 1,
+   "band": 0,
+   "count": 3,
+   "articles": 2,
    "by_journal": {
-    "Classical Philology": 1
+    "Classical Philology": 1,
+    "Rheinisches Museum für Philologie": 2
    }
   },
   {
    "book": "",
    "page": 317,
    "section": "a",
-   "count": 2,
-   "articles": 2,
-   "by_journal": {
-    "The Classical Quarterly": 1,
-    "Revue de Philosophie Ancienne": 1
-   }
-  },
-  {
-   "book": "",
-   "page": 318,
-   "section": "b",
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical Quarterly": 1
-   }
-  },
-  {
-   "book": "",
-   "page": 318,
-   "section": "c",
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Classical Philology": 1
-   }
-  },
-  {
-   "book": "",
-   "page": 318,
-   "section": "d",
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Classical Philology": 1
-   }
-  },
-  {
-   "book": "",
-   "page": 319,
-   "section": "c",
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical Quarterly": 1
-   }
-  },
-  {
-   "book": "",
-   "page": 319,
-   "section": "e",
-   "count": 3,
-   "articles": 3,
-   "by_journal": {
-    "The Classical Review": 1,
-    "The Classical Quarterly": 1,
-    "Classical Philology": 1
-   }
-  },
-  {
-   "book": "",
-   "page": 320,
-   "section": "a",
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Classical Philology": 1
-   }
-  },
-  {
-   "book": "",
-   "page": 320,
-   "section": "b",
-   "count": 3,
-   "articles": 1,
-   "by_journal": {
-    "The Classical Quarterly": 3
-   }
-  },
-  {
-   "book": "",
-   "page": 320,
-   "section": "d",
-   "count": 2,
-   "articles": 2,
-   "by_journal": {
-    "Classical Philology": 2
-   }
-  },
-  {
-   "book": "",
-   "page": 320,
-   "section": "e",
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Classical Philology": 1
-   }
-  },
-  {
-   "book": "",
-   "page": 321,
-   "section": "a",
-   "count": 2,
-   "articles": 2,
-   "by_journal": {
-    "Classical Philology": 2
-   }
-  },
-  {
-   "book": "",
-   "page": 321,
-   "section": "b",
+   "band": 0,
    "count": 4,
    "articles": 3,
    "by_journal": {
+    "The Classical Quarterly": 1,
+    "Revue de Philosophie Ancienne": 1,
+    "Rheinisches Museum für Philologie": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 317,
+   "section": "b",
+   "band": 0,
+   "count": 6,
+   "articles": 1,
+   "by_journal": {
+    "Rheinisches Museum für Philologie": 6
+   }
+  },
+  {
+   "book": "",
+   "page": 317,
+   "section": "c",
+   "band": 0,
+   "count": 8,
+   "articles": 2,
+   "by_journal": {
+    "Illinois Classical Studies": 1,
+    "Rheinisches Museum für Philologie": 7
+   }
+  },
+  {
+   "book": "",
+   "page": 317,
+   "section": "d",
+   "band": 0,
+   "count": 7,
+   "articles": 2,
+   "by_journal": {
+    "Transactions of the American Philological Association (1974-2014)": 1,
+    "Rheinisches Museum für Philologie": 6
+   }
+  },
+  {
+   "book": "",
+   "page": 317,
+   "section": "e",
+   "band": 0,
+   "count": 3,
+   "articles": 1,
+   "by_journal": {
+    "Rheinisches Museum für Philologie": 3
+   }
+  },
+  {
+   "book": "",
+   "page": 318,
+   "section": "a",
+   "band": 0,
+   "count": 4,
+   "articles": 1,
+   "by_journal": {
+    "Rheinisches Museum für Philologie": 4
+   }
+  },
+  {
+   "book": "",
+   "page": 318,
+   "section": "b",
+   "band": 0,
+   "count": 6,
+   "articles": 5,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "Quaderni Urbinati di Cultura Classica": 2,
+    "The American Journal of Philology": 2,
+    "Rheinisches Museum für Philologie": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 318,
+   "section": "c",
+   "band": 0,
+   "count": 4,
+   "articles": 3,
+   "by_journal": {
+    "Classical Philology": 1,
+    "Quaderni Urbinati di Cultura Classica": 1,
+    "Rheinisches Museum für Philologie": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 318,
+   "section": "d",
+   "band": 0,
+   "count": 5,
+   "articles": 4,
+   "by_journal": {
+    "Classical Philology": 2,
+    "History of Religions": 1,
+    "Mnemosyne": 1,
+    "Rheinisches Museum für Philologie": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 318,
+   "section": "e",
+   "band": 0,
+   "count": 7,
+   "articles": 4,
+   "by_journal": {
+    "The American Journal of Philology": 2,
+    "Journal of Biblical Literature": 1,
+    "The Classical Journal": 1,
+    "Rheinisches Museum für Philologie": 3
+   }
+  },
+  {
+   "book": "",
+   "page": 319,
+   "section": "a",
+   "band": 0,
+   "count": 6,
+   "articles": 3,
+   "by_journal": {
+    "The Classical Journal": 1,
+    "Journal of Biblical Literature": 1,
+    "Rheinisches Museum für Philologie": 4
+   }
+  },
+  {
+   "book": "",
+   "page": 319,
+   "section": "b",
+   "band": 0,
+   "count": 5,
+   "articles": 2,
+   "by_journal": {
+    "Journal of Biblical Literature": 1,
+    "Rheinisches Museum für Philologie": 4
+   }
+  },
+  {
+   "book": "",
+   "page": 319,
+   "section": "c",
+   "band": 0,
+   "count": 11,
+   "articles": 5,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "History of Religions": 1,
+    "Hermes": 1,
+    "Journal of Biblical Literature": 1,
+    "Rheinisches Museum für Philologie": 7
+   }
+  },
+  {
+   "book": "",
+   "page": 319,
+   "section": "d",
+   "band": 0,
+   "count": 9,
+   "articles": 4,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "Journal of Biblical Literature": 1,
+    "The Classical Journal": 1,
+    "Rheinisches Museum für Philologie": 6
+   }
+  },
+  {
+   "book": "",
+   "page": 319,
+   "section": "e",
+   "band": 0,
+   "count": 12,
+   "articles": 7,
+   "by_journal": {
+    "The Classical Review": 1,
+    "The Classical Quarterly": 2,
+    "Classical Philology": 1,
+    "Mnemosyne": 1,
+    "History of Religions": 1,
+    "Rheinisches Museum für Philologie": 6
+   }
+  },
+  {
+   "book": "",
+   "page": 320,
+   "section": "a",
+   "band": 0,
+   "count": 8,
+   "articles": 6,
+   "by_journal": {
+    "Classical Philology": 1,
+    "The Classical Quarterly": 1,
+    "Mnemosyne": 1,
+    "The Classical Journal": 1,
+    "Classical Antiquity": 1,
+    "Rheinisches Museum für Philologie": 3
+   }
+  },
+  {
+   "book": "",
+   "page": 320,
+   "section": "b",
+   "band": 0,
+   "count": 8,
+   "articles": 3,
+   "by_journal": {
+    "The Classical Quarterly": 3,
+    "Rheinisches Museum für Philologie": 5
+   }
+  },
+  {
+   "book": "",
+   "page": 320,
+   "section": "c",
+   "band": 0,
+   "count": 3,
+   "articles": 2,
+   "by_journal": {
+    "Journal of Biblical Literature": 1,
+    "Rheinisches Museum für Philologie": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 320,
+   "section": "d",
+   "band": 0,
+   "count": 5,
+   "articles": 3,
+   "by_journal": {
+    "Classical Philology": 2,
+    "Rheinisches Museum für Philologie": 3
+   }
+  },
+  {
+   "book": "",
+   "page": 320,
+   "section": "e",
+   "band": 0,
+   "count": 3,
+   "articles": 2,
+   "by_journal": {
+    "Classical Philology": 2,
+    "Rheinisches Museum für Philologie": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 321,
+   "section": "a",
+   "band": 0,
+   "count": 10,
+   "articles": 8,
+   "by_journal": {
     "Classical Philology": 3,
-    "The Classical Quarterly": 1
+    "Hermes": 1,
+    "Transactions of the American Philological Association (1974-2014)": 1,
+    "Mnemosyne": 2,
+    "Rheinisches Museum für Philologie": 3
+   }
+  },
+  {
+   "book": "",
+   "page": 321,
+   "section": "b",
+   "band": 0,
+   "count": 6,
+   "articles": 5,
+   "by_journal": {
+    "Classical Philology": 3,
+    "The Classical Quarterly": 1,
+    "Transactions of the American Philological Association (1974-2014)": 1,
+    "Rheinisches Museum für Philologie": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 321,
+   "section": "c",
+   "band": 0,
+   "count": 3,
+   "articles": 2,
+   "by_journal": {
+    "The Classical World": 1,
+    "Rheinisches Museum für Philologie": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 321,
+   "section": "d",
+   "band": 0,
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "The Classical World": 1,
+    "Rheinisches Museum für Philologie": 1
    }
   }
  ],
@@ -243,6 +562,18 @@
   {
    "book": "",
    "page": 321,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1979",
+   "iid": "200b019b-a382-3747-a9a3-8ef3619710cb",
+   "doi": "10.2307/269163",
+   "title": "Poet or Plato in Plutarch?",
+   "author": "Robert Renehan"
+  },
+  {
+   "book": "",
+   "page": 321,
    "section": "b",
    "line": null,
    "journal": "Classical Philology",
@@ -278,8 +609,8 @@
   },
   {
    "book": "",
-   "page": 318,
-   "section": "d",
+   "page": 321,
+   "section": "b",
    "line": null,
    "journal": "Classical Philology",
    "year": "1992",
@@ -290,8 +621,8 @@
   },
   {
    "book": "",
-   "page": 321,
-   "section": "b",
+   "page": 318,
+   "section": "d",
    "line": null,
    "journal": "Classical Philology",
    "year": "1992",
@@ -422,6 +753,42 @@
   },
   {
    "book": "",
+   "page": 319,
+   "section": "d",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2020",
+   "iid": "953e6d1d-a5e8-3db6-9fe5-1693d42337fa",
+   "doi": "10.2307/27340945",
+   "title": "THE ARISTOTELIAN LEGISLATOR AND POLITICAL NATURALISM",
+   "author": "GEORGE DUKE"
+  },
+  {
+   "book": "",
+   "page": 319,
+   "section": "e",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2020",
+   "iid": "953e6d1d-a5e8-3db6-9fe5-1693d42337fa",
+   "doi": "10.2307/27340945",
+   "title": "THE ARISTOTELIAN LEGISLATOR AND POLITICAL NATURALISM",
+   "author": "GEORGE DUKE"
+  },
+  {
+   "book": "",
+   "page": 320,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2020",
+   "iid": "953e6d1d-a5e8-3db6-9fe5-1693d42337fa",
+   "doi": "10.2307/27340945",
+   "title": "THE ARISTOTELIAN LEGISLATOR AND POLITICAL NATURALISM",
+   "author": "GEORGE DUKE"
+  },
+  {
+   "book": "",
    "page": 320,
    "section": "b",
    "line": null,
@@ -491,6 +858,1218 @@
    "doi": "10.2307/267958",
    "title": "Silius Italicus, Cataphracti, and the Date of Q. Curtius Rufus",
    "author": "J. Rufus Fears"
+  },
+  {
+   "book": "",
+   "page": 320,
+   "section": "c",
+   "line": null,
+   "journal": "Journal of Biblical Literature",
+   "year": "2004",
+   "iid": "01aa6fe6-cc91-3eb4-acb8-2515b923b5f0",
+   "doi": "10.2307/3268041",
+   "title": "Pozo Moro, Child Sacrifice, and the Greek Legendary Tradition",
+   "author": "John S. Rundin"
+  },
+  {
+   "book": "",
+   "page": 313,
+   "section": "a",
+   "line": null,
+   "journal": "Hermes",
+   "year": "2008",
+   "iid": "022fd76a-94f1-3cba-b1e8-d91fbe6ff9b3",
+   "doi": "10.2307/40379150",
+   "title": "Zum Termin von Poplifugia und Nonae Caprotinae",
+   "author": "Rene Pfeilschifter"
+  },
+  {
+   "book": "",
+   "page": 315,
+   "section": "c",
+   "line": null,
+   "journal": "Transactions and Proceedings of the American Philological Association",
+   "year": "1948",
+   "iid": "035eb194-4432-3d46-ae24-87af53c71aca",
+   "doi": "10.2307/283358",
+   "title": "The Sorrows of Ino and of Procne",
+   "author": "Joseph Fontenrose"
+  },
+  {
+   "book": "",
+   "page": 320,
+   "section": "a",
+   "line": null,
+   "journal": "Mnemosyne",
+   "year": "2019",
+   "iid": "0a1bed71-a275-39e9-bb6a-8b0183dffa8a",
+   "doi": "10.2307/26675806",
+   "title": "Οὐδὲν λέγειν / nihil dicere",
+   "author": "Sara Chiarini"
+  },
+  {
+   "book": "",
+   "page": 319,
+   "section": "e",
+   "line": null,
+   "journal": "Mnemosyne",
+   "year": "2019",
+   "iid": "0a1bed71-a275-39e9-bb6a-8b0183dffa8a",
+   "doi": "10.2307/26675806",
+   "title": "Οὐδὲν λέγειν / nihil dicere",
+   "author": "Sara Chiarini"
+  },
+  {
+   "book": "",
+   "page": 320,
+   "section": "b",
+   "line": null,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1878",
+   "iid": "1703d369-aace-34be-963e-39d6019a1c63",
+   "doi": "10.2307/41245724",
+   "title": "Excurse zu den attischen Rednern",
+   "author": "Karl Fuhr"
+  },
+  {
+   "book": "",
+   "page": 319,
+   "section": "c",
+   "line": null,
+   "journal": "History of Religions",
+   "year": "1974",
+   "iid": "245b9f44-e734-37eb-b023-2359e719d383",
+   "doi": "10.2307/1061890",
+   "title": "The Open Entrance to the Closed Palace of the King: The Greek Labyrinth in Context",
+   "author": "Philippe Borgeaud"
+  },
+  {
+   "book": "",
+   "page": 318,
+   "section": "d",
+   "line": null,
+   "journal": "History of Religions",
+   "year": "1974",
+   "iid": "245b9f44-e734-37eb-b023-2359e719d383",
+   "doi": "10.2307/1061890",
+   "title": "The Open Entrance to the Closed Palace of the King: The Greek Labyrinth in Context",
+   "author": "Philippe Borgeaud"
+  },
+  {
+   "book": "",
+   "page": 319,
+   "section": "e",
+   "line": null,
+   "journal": "History of Religions",
+   "year": "1974",
+   "iid": "245b9f44-e734-37eb-b023-2359e719d383",
+   "doi": "10.2307/1061890",
+   "title": "The Open Entrance to the Closed Palace of the King: The Greek Labyrinth in Context",
+   "author": "Philippe Borgeaud"
+  },
+  {
+   "book": "",
+   "page": 315,
+   "section": "c",
+   "line": null,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1997",
+   "iid": "323cd4a8-4e63-3d12-98ec-d88097c5da0c",
+   "doi": "10.2307/41234286",
+   "title": "ARISTAEUS AND MOUNT LYCAEUS",
+   "author": "Paul Murgatroyd"
+  },
+  {
+   "book": "",
+   "page": 321,
+   "section": "a",
+   "line": null,
+   "journal": "Hermes",
+   "year": "1998",
+   "iid": "355697ee-d3ff-34c7-a4c6-c88bd71d44ef",
+   "doi": "10.2307/4477244",
+   "title": "'O ΝΕΟΣ ΔΑΣΜΟΣ: \"Tribute\" in Classical Athens",
+   "author": "David Whitehead"
+  },
+  {
+   "book": "",
+   "page": 320,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Journal",
+   "year": "1974",
+   "iid": "3dea1dec-a74b-3211-843d-48dff33e3585",
+   "doi": "10.2307/3295608",
+   "title": "The Chorus of Ariadne",
+   "author": "Alfred Burns"
+  },
+  {
+   "book": "",
+   "page": 321,
+   "section": "a",
+   "line": null,
+   "journal": "Transactions of the American Philological Association (1974-2014)",
+   "year": "2007",
+   "iid": "43b8bb3a-6dac-3183-b6ec-b4b6345a05bd",
+   "doi": "10.2307/4543305",
+   "title": "The Subtle Artistry of the \"Minos\" and the \"Hipparchus\"",
+   "author": "David Mulroy"
+  },
+  {
+   "book": "",
+   "page": 313,
+   "section": "a",
+   "line": null,
+   "journal": "Transactions of the American Philological Association (1974-2014)",
+   "year": "2007",
+   "iid": "43b8bb3a-6dac-3183-b6ec-b4b6345a05bd",
+   "doi": "10.2307/4543305",
+   "title": "The Subtle Artistry of the \"Minos\" and the \"Hipparchus\"",
+   "author": "David Mulroy"
+  },
+  {
+   "book": "",
+   "page": 313,
+   "section": "b",
+   "line": null,
+   "journal": "Transactions of the American Philological Association (1974-2014)",
+   "year": "2007",
+   "iid": "43b8bb3a-6dac-3183-b6ec-b4b6345a05bd",
+   "doi": "10.2307/4543305",
+   "title": "The Subtle Artistry of the \"Minos\" and the \"Hipparchus\"",
+   "author": "David Mulroy"
+  },
+  {
+   "book": "",
+   "page": 313,
+   "section": "c",
+   "line": null,
+   "journal": "Transactions of the American Philological Association (1974-2014)",
+   "year": "2007",
+   "iid": "43b8bb3a-6dac-3183-b6ec-b4b6345a05bd",
+   "doi": "10.2307/4543305",
+   "title": "The Subtle Artistry of the \"Minos\" and the \"Hipparchus\"",
+   "author": "David Mulroy"
+  },
+  {
+   "book": "",
+   "page": 316,
+   "section": "b",
+   "line": null,
+   "journal": "Transactions of the American Philological Association (1974-2014)",
+   "year": "2007",
+   "iid": "43b8bb3a-6dac-3183-b6ec-b4b6345a05bd",
+   "doi": "10.2307/4543305",
+   "title": "The Subtle Artistry of the \"Minos\" and the \"Hipparchus\"",
+   "author": "David Mulroy"
+  },
+  {
+   "book": "",
+   "page": 317,
+   "section": "d",
+   "line": null,
+   "journal": "Transactions of the American Philological Association (1974-2014)",
+   "year": "2007",
+   "iid": "43b8bb3a-6dac-3183-b6ec-b4b6345a05bd",
+   "doi": "10.2307/4543305",
+   "title": "The Subtle Artistry of the \"Minos\" and the \"Hipparchus\"",
+   "author": "David Mulroy"
+  },
+  {
+   "book": "",
+   "page": 321,
+   "section": "b",
+   "line": null,
+   "journal": "Transactions of the American Philological Association (1974-2014)",
+   "year": "2007",
+   "iid": "43b8bb3a-6dac-3183-b6ec-b4b6345a05bd",
+   "doi": "10.2307/4543305",
+   "title": "The Subtle Artistry of the \"Minos\" and the \"Hipparchus\"",
+   "author": "David Mulroy"
+  },
+  {
+   "book": "",
+   "page": 318,
+   "section": "d",
+   "line": null,
+   "journal": "Mnemosyne",
+   "year": "2009",
+   "iid": "520e3510-ea23-3aa4-b55f-92cffbabffd5",
+   "doi": "10.2307/27736323",
+   "title": "illa rudem cursu prima imbuit Amphitriten (Catul. 64.11): The Dynamic Intertextual Connotations of a Metonymy",
+   "author": "Andreas N. Michalopoulos"
+  },
+  {
+   "book": "",
+   "page": 318,
+   "section": "e",
+   "line": null,
+   "journal": "The American Journal of Philology",
+   "year": "2015",
+   "iid": "5b5ce1f7-a861-3c20-bfdb-374f4542b337",
+   "doi": "10.2307/24560621",
+   "title": "\"PROMĒTHEIA\" (\"FORETHOUGHT\") UNTIL PLATO",
+   "author": "Christopher Moore"
+  },
+  {
+   "book": "",
+   "page": 319,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Journal",
+   "year": "1941",
+   "iid": "5c38fdc0-c0c5-312d-bc32-26bf772e1651",
+   "doi": "10.2307/3291428",
+   "title": "Plato's \"Republic\", Totalitarian or Democratic?",
+   "author": "Clyde Murley"
+  },
+  {
+   "book": "",
+   "page": 316,
+   "section": "d",
+   "line": null,
+   "journal": "Classical Antiquity",
+   "year": "1987",
+   "iid": "667dbb9a-e03a-309e-b589-9899527d814b",
+   "doi": "10.2307/25010867",
+   "title": "\"Callirhoe\" and \"Parthenope\": The Beginnings of the Historical Novel",
+   "author": "Tomas Hägg"
+  },
+  {
+   "book": "",
+   "page": 321,
+   "section": "a",
+   "line": null,
+   "journal": "Mnemosyne",
+   "year": "2017",
+   "iid": "6cb598c6-48ec-3972-b184-efbc01fdefde",
+   "doi": "10.2307/26572881",
+   "title": "Eratosthenes’ <em>Erigone</em> fr. 4 Rosokoki (= 22 Powell)",
+   "author": "Alexandra Rozokoki"
+  },
+  {
+   "book": "",
+   "page": 319,
+   "section": "c",
+   "line": null,
+   "journal": "Hermes",
+   "year": "2004",
+   "iid": "6ec92fe6-d0df-30b4-b4e8-6b1b3897d097",
+   "doi": "10.2307/4477581",
+   "title": "Pindar und die Orphik. Zu Frg. 133 Snell/Maehler",
+   "author": "Jens Holzhausen"
+  },
+  {
+   "book": "",
+   "page": 320,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Antiquity",
+   "year": "2004",
+   "iid": "7923c74b-0f18-37b3-bbbd-a2c55b034fc7",
+   "doi": "10.1525/ca.2004.23.1.95",
+   "title": "Tinker, Tailor, Soldier, Sailor: The Economies of Archaic Eleutherna, Crete",
+   "author": "Paula Perlman"
+  },
+  {
+   "book": "",
+   "page": 318,
+   "section": "e",
+   "line": null,
+   "journal": "Journal of Biblical Literature",
+   "year": "2004",
+   "iid": "839af533-6d04-33b6-a2d9-3b942fd71b34",
+   "doi": "10.2307/3268466",
+   "title": "Saved through Childbearing: Virtues as Children in 1 Timothy 2:11-15",
+   "author": "Kenneth L. Waters, <suffix>Sr.</suffix>"
+  },
+  {
+   "book": "",
+   "page": 319,
+   "section": "a",
+   "line": null,
+   "journal": "Journal of Biblical Literature",
+   "year": "2004",
+   "iid": "839af533-6d04-33b6-a2d9-3b942fd71b34",
+   "doi": "10.2307/3268466",
+   "title": "Saved through Childbearing: Virtues as Children in 1 Timothy 2:11-15",
+   "author": "Kenneth L. Waters, <suffix>Sr.</suffix>"
+  },
+  {
+   "book": "",
+   "page": 319,
+   "section": "b",
+   "line": null,
+   "journal": "Journal of Biblical Literature",
+   "year": "2004",
+   "iid": "839af533-6d04-33b6-a2d9-3b942fd71b34",
+   "doi": "10.2307/3268466",
+   "title": "Saved through Childbearing: Virtues as Children in 1 Timothy 2:11-15",
+   "author": "Kenneth L. Waters, <suffix>Sr.</suffix>"
+  },
+  {
+   "book": "",
+   "page": 319,
+   "section": "c",
+   "line": null,
+   "journal": "Journal of Biblical Literature",
+   "year": "2004",
+   "iid": "839af533-6d04-33b6-a2d9-3b942fd71b34",
+   "doi": "10.2307/3268466",
+   "title": "Saved through Childbearing: Virtues as Children in 1 Timothy 2:11-15",
+   "author": "Kenneth L. Waters, <suffix>Sr.</suffix>"
+  },
+  {
+   "book": "",
+   "page": 319,
+   "section": "d",
+   "line": null,
+   "journal": "Journal of Biblical Literature",
+   "year": "2004",
+   "iid": "839af533-6d04-33b6-a2d9-3b942fd71b34",
+   "doi": "10.2307/3268466",
+   "title": "Saved through Childbearing: Virtues as Children in 1 Timothy 2:11-15",
+   "author": "Kenneth L. Waters, <suffix>Sr.</suffix>"
+  },
+  {
+   "book": "",
+   "page": 318,
+   "section": "b",
+   "line": null,
+   "journal": "Quaderni Urbinati di Cultura Classica",
+   "year": "2011",
+   "iid": "88c9ef1c-2f93-3994-b321-0952ef324f5b",
+   "doi": "10.2307/23347434",
+   "title": "THE MUSIC OF OLYMPUS",
+   "author": "Andrew Barker"
+  },
+  {
+   "book": "",
+   "page": 318,
+   "section": "c",
+   "line": null,
+   "journal": "Quaderni Urbinati di Cultura Classica",
+   "year": "1983",
+   "iid": "8a4fc7b0-cf74-3a6a-be00-d341a1a6eaf7",
+   "doi": "10.2307/20538765",
+   "title": "Tucidide e la colonizzazione dorica di Melos",
+   "author": "Carlo Brillante"
+  },
+  {
+   "book": "",
+   "page": 318,
+   "section": "e",
+   "line": null,
+   "journal": "The Classical Journal",
+   "year": "1943",
+   "iid": "94f9969f-824b-355c-9a75-243419d40f75",
+   "doi": "10.2307/3292154",
+   "title": "The Historical Development of Ancient Literature",
+   "author": "James Duffy"
+  },
+  {
+   "book": "",
+   "page": 315,
+   "section": "b",
+   "line": null,
+   "journal": "The American Journal of Philology",
+   "year": "2004",
+   "iid": "9c19e40e-641b-3eb7-9507-da046a22f0e7",
+   "doi": "10.2307/1562222",
+   "title": "All in the Family: Funeral Rites and the Health of the Oikos in Aischylos' Oresteia",
+   "author": "Kerri J. Hame"
+  },
+  {
+   "book": "",
+   "page": 315,
+   "section": "c",
+   "line": null,
+   "journal": "The American Journal of Philology",
+   "year": "2004",
+   "iid": "9c19e40e-641b-3eb7-9507-da046a22f0e7",
+   "doi": "10.2307/1562222",
+   "title": "All in the Family: Funeral Rites and the Health of the Oikos in Aischylos' Oresteia",
+   "author": "Kerri J. Hame"
+  },
+  {
+   "book": "",
+   "page": 315,
+   "section": "d",
+   "line": null,
+   "journal": "The American Journal of Philology",
+   "year": "2004",
+   "iid": "9c19e40e-641b-3eb7-9507-da046a22f0e7",
+   "doi": "10.2307/1562222",
+   "title": "All in the Family: Funeral Rites and the Health of the Oikos in Aischylos' Oresteia",
+   "author": "Kerri J. Hame"
+  },
+  {
+   "book": "",
+   "page": 318,
+   "section": "b",
+   "line": null,
+   "journal": "Quaderni Urbinati di Cultura Classica",
+   "year": "2001",
+   "iid": "a063c845-51b8-3ce5-90a1-c3cea969fe40",
+   "doi": "10.2307/20546666",
+   "title": "La musica di Stesicoro",
+   "author": "Andrew Barker"
+  },
+  {
+   "book": "",
+   "page": 319,
+   "section": "d",
+   "line": null,
+   "journal": "The Classical Journal",
+   "year": "1954",
+   "iid": "ab4b439c-785a-3e97-9d9a-cfa12e48bbf0",
+   "doi": "10.2307/3292607",
+   "title": "Murder in the Bath: Reflections on the Death of Agamemnon",
+   "author": "T. T. Duke"
+  },
+  {
+   "book": "",
+   "page": 321,
+   "section": "c",
+   "line": null,
+   "journal": "The Classical World",
+   "year": "1972",
+   "iid": "ae446576-57ee-3b0f-8ddc-bc487a833814",
+   "doi": "10.2307/4347779",
+   "title": "Psychoanalytic Writings on Greek and Latin Authors, 1911-1960",
+   "author": "Justin Glenn"
+  },
+  {
+   "book": "",
+   "page": 321,
+   "section": "d",
+   "line": null,
+   "journal": "The Classical World",
+   "year": "1972",
+   "iid": "ae446576-57ee-3b0f-8ddc-bc487a833814",
+   "doi": "10.2307/4347779",
+   "title": "Psychoanalytic Writings on Greek and Latin Authors, 1911-1960",
+   "author": "Justin Glenn"
+  },
+  {
+   "book": "",
+   "page": 314,
+   "section": "a",
+   "line": null,
+   "journal": "Transactions of the American Philological Association (1974-2014)",
+   "year": "1990",
+   "iid": "b56f254c-8a4d-34e9-9ed0-c358b054e3c2",
+   "doi": "10.2307/283980",
+   "title": "Pindar's Sixth Pythian and the Tradition of Advice Poetry",
+   "author": "Leslie Kurke"
+  },
+  {
+   "book": "",
+   "page": 315,
+   "section": "c",
+   "line": null,
+   "journal": "Transactions and Proceedings of the American Philological Association",
+   "year": "1937",
+   "iid": "ba693e8c-9eed-32c3-85d7-0653ec106cbf",
+   "doi": "10.2307/283263",
+   "title": "The Platonic Scholia",
+   "author": "William Chase Greene"
+  },
+  {
+   "book": "",
+   "page": 318,
+   "section": "b",
+   "line": 4,
+   "journal": "The American Journal of Philology",
+   "year": "2002",
+   "iid": "be0ef0bf-44e4-3cf2-a1be-d910d0c650a0",
+   "doi": "10.2307/1561741",
+   "title": "Satyr Play in Plato's Symposium",
+   "author": "M. D. Usher"
+  },
+  {
+   "book": "",
+   "page": 318,
+   "section": "b",
+   "line": 6,
+   "journal": "The American Journal of Philology",
+   "year": "2002",
+   "iid": "be0ef0bf-44e4-3cf2-a1be-d910d0c650a0",
+   "doi": "10.2307/1561741",
+   "title": "Satyr Play in Plato's Symposium",
+   "author": "M. D. Usher"
+  },
+  {
+   "book": "",
+   "page": 321,
+   "section": "a",
+   "line": null,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1929",
+   "iid": "c9af30f0-7feb-363d-861c-f2038b70e07b",
+   "doi": "10.2307/41243281",
+   "title": "NACHTRÄGLICHES ZU ANDROGEOS",
+   "author": "Leo Weber"
+  },
+  {
+   "book": "",
+   "page": 316,
+   "section": "c",
+   "line": null,
+   "journal": "The Catholic Biblical Quarterly",
+   "year": "2011",
+   "iid": "cf0aa53e-6c07-3d0a-9b41-92266e82b4fd",
+   "doi": "10.2307/43727712",
+   "title": "The New Is Better: A Neglected Aspect of the Hermeneutics of Hebrews",
+   "author": "JAMES W. THOMPSON"
+  },
+  {
+   "book": "",
+   "page": 317,
+   "section": "c",
+   "line": null,
+   "journal": "Illinois Classical Studies",
+   "year": "1977",
+   "iid": "cf060748-56cd-31bf-b6a4-112f8041e89d",
+   "doi": "10.2307/23061171",
+   "title": "A Sophist on Omniscience, Polymathy, and Omnicompetence: Δ. Λ. 8.1—13",
+   "author": "THOMAS M. ROBINSON"
+  },
+  {
+   "book": "",
+   "page": 315,
+   "section": "c",
+   "line": null,
+   "journal": "Quaderni Urbinati di Cultura Classica",
+   "year": "2004",
+   "iid": "def87f12-81b3-36a2-b96c-2d0d5a976882",
+   "doi": "10.2307/20546801",
+   "title": "\"L'inno ad Apollo Ptoios\" di Pindaro (\"Hymn.\" frr. 51A-D Maehl)",
+   "author": "Oretta Olivieri"
+  },
+  {
+   "book": "",
+   "page": 320,
+   "section": "c",
+   "line": null,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1995",
+   "iid": "e2816302-1ef3-3a7f-9554-ef68ece1f544",
+   "doi": "10.2307/41234196",
+   "title": "CICERO, ANTISTHENES UND DER PSEUDOPLATONISCHE ‚MINOS‘ ÜBER DAS GESETZ",
+   "author": "Carl Werner Müller"
+  },
+  {
+   "book": "",
+   "page": 319,
+   "section": "d",
+   "line": null,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1995",
+   "iid": "e2816302-1ef3-3a7f-9554-ef68ece1f544",
+   "doi": "10.2307/41234196",
+   "title": "CICERO, ANTISTHENES UND DER PSEUDOPLATONISCHE ‚MINOS‘ ÜBER DAS GESETZ",
+   "author": "Carl Werner Müller"
+  },
+  {
+   "book": "",
+   "page": 318,
+   "section": "c",
+   "line": null,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1995",
+   "iid": "e2816302-1ef3-3a7f-9554-ef68ece1f544",
+   "doi": "10.2307/41234196",
+   "title": "CICERO, ANTISTHENES UND DER PSEUDOPLATONISCHE ‚MINOS‘ ÜBER DAS GESETZ",
+   "author": "Carl Werner Müller"
+  },
+  {
+   "book": "",
+   "page": 318,
+   "section": "d",
+   "line": null,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1995",
+   "iid": "e2816302-1ef3-3a7f-9554-ef68ece1f544",
+   "doi": "10.2307/41234196",
+   "title": "CICERO, ANTISTHENES UND DER PSEUDOPLATONISCHE ‚MINOS‘ ÜBER DAS GESETZ",
+   "author": "Carl Werner Müller"
+  },
+  {
+   "book": "",
+   "page": 318,
+   "section": "e",
+   "line": null,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1995",
+   "iid": "e2816302-1ef3-3a7f-9554-ef68ece1f544",
+   "doi": "10.2307/41234196",
+   "title": "CICERO, ANTISTHENES UND DER PSEUDOPLATONISCHE ‚MINOS‘ ÜBER DAS GESETZ",
+   "author": "Carl Werner Müller"
+  },
+  {
+   "book": "",
+   "page": 319,
+   "section": "a",
+   "line": null,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1995",
+   "iid": "e2816302-1ef3-3a7f-9554-ef68ece1f544",
+   "doi": "10.2307/41234196",
+   "title": "CICERO, ANTISTHENES UND DER PSEUDOPLATONISCHE ‚MINOS‘ ÜBER DAS GESETZ",
+   "author": "Carl Werner Müller"
+  },
+  {
+   "book": "",
+   "page": 319,
+   "section": "b",
+   "line": null,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1995",
+   "iid": "e2816302-1ef3-3a7f-9554-ef68ece1f544",
+   "doi": "10.2307/41234196",
+   "title": "CICERO, ANTISTHENES UND DER PSEUDOPLATONISCHE ‚MINOS‘ ÜBER DAS GESETZ",
+   "author": "Carl Werner Müller"
+  },
+  {
+   "book": "",
+   "page": 319,
+   "section": "c",
+   "line": null,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1995",
+   "iid": "e2816302-1ef3-3a7f-9554-ef68ece1f544",
+   "doi": "10.2307/41234196",
+   "title": "CICERO, ANTISTHENES UND DER PSEUDOPLATONISCHE ‚MINOS‘ ÜBER DAS GESETZ",
+   "author": "Carl Werner Müller"
+  },
+  {
+   "book": "",
+   "page": 319,
+   "section": "e",
+   "line": null,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1995",
+   "iid": "e2816302-1ef3-3a7f-9554-ef68ece1f544",
+   "doi": "10.2307/41234196",
+   "title": "CICERO, ANTISTHENES UND DER PSEUDOPLATONISCHE ‚MINOS‘ ÜBER DAS GESETZ",
+   "author": "Carl Werner Müller"
+  },
+  {
+   "book": "",
+   "page": 320,
+   "section": "a",
+   "line": null,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1995",
+   "iid": "e2816302-1ef3-3a7f-9554-ef68ece1f544",
+   "doi": "10.2307/41234196",
+   "title": "CICERO, ANTISTHENES UND DER PSEUDOPLATONISCHE ‚MINOS‘ ÜBER DAS GESETZ",
+   "author": "Carl Werner Müller"
+  },
+  {
+   "book": "",
+   "page": 320,
+   "section": "b",
+   "line": null,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1995",
+   "iid": "e2816302-1ef3-3a7f-9554-ef68ece1f544",
+   "doi": "10.2307/41234196",
+   "title": "CICERO, ANTISTHENES UND DER PSEUDOPLATONISCHE ‚MINOS‘ ÜBER DAS GESETZ",
+   "author": "Carl Werner Müller"
+  },
+  {
+   "book": "",
+   "page": 321,
+   "section": "c",
+   "line": 4,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1995",
+   "iid": "e2816302-1ef3-3a7f-9554-ef68ece1f544",
+   "doi": "10.2307/41234196",
+   "title": "CICERO, ANTISTHENES UND DER PSEUDOPLATONISCHE ‚MINOS‘ ÜBER DAS GESETZ",
+   "author": "Carl Werner Müller"
+  },
+  {
+   "book": "",
+   "page": 318,
+   "section": "a",
+   "line": null,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1995",
+   "iid": "e2816302-1ef3-3a7f-9554-ef68ece1f544",
+   "doi": "10.2307/41234196",
+   "title": "CICERO, ANTISTHENES UND DER PSEUDOPLATONISCHE ‚MINOS‘ ÜBER DAS GESETZ",
+   "author": "Carl Werner Müller"
+  },
+  {
+   "book": "",
+   "page": 321,
+   "section": "d",
+   "line": 4,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1995",
+   "iid": "e2816302-1ef3-3a7f-9554-ef68ece1f544",
+   "doi": "10.2307/41234196",
+   "title": "CICERO, ANTISTHENES UND DER PSEUDOPLATONISCHE ‚MINOS‘ ÜBER DAS GESETZ",
+   "author": "Carl Werner Müller"
+  },
+  {
+   "book": "",
+   "page": 315,
+   "section": "a",
+   "line": 3,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1995",
+   "iid": "e2816302-1ef3-3a7f-9554-ef68ece1f544",
+   "doi": "10.2307/41234196",
+   "title": "CICERO, ANTISTHENES UND DER PSEUDOPLATONISCHE ‚MINOS‘ ÜBER DAS GESETZ",
+   "author": "Carl Werner Müller"
+  },
+  {
+   "book": "",
+   "page": 315,
+   "section": "a",
+   "line": null,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1995",
+   "iid": "e2816302-1ef3-3a7f-9554-ef68ece1f544",
+   "doi": "10.2307/41234196",
+   "title": "CICERO, ANTISTHENES UND DER PSEUDOPLATONISCHE ‚MINOS‘ ÜBER DAS GESETZ",
+   "author": "Carl Werner Müller"
+  },
+  {
+   "book": "",
+   "page": 315,
+   "section": "b",
+   "line": null,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1995",
+   "iid": "e2816302-1ef3-3a7f-9554-ef68ece1f544",
+   "doi": "10.2307/41234196",
+   "title": "CICERO, ANTISTHENES UND DER PSEUDOPLATONISCHE ‚MINOS‘ ÜBER DAS GESETZ",
+   "author": "Carl Werner Müller"
+  },
+  {
+   "book": "",
+   "page": 315,
+   "section": "c",
+   "line": null,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1995",
+   "iid": "e2816302-1ef3-3a7f-9554-ef68ece1f544",
+   "doi": "10.2307/41234196",
+   "title": "CICERO, ANTISTHENES UND DER PSEUDOPLATONISCHE ‚MINOS‘ ÜBER DAS GESETZ",
+   "author": "Carl Werner Müller"
+  },
+  {
+   "book": "",
+   "page": 315,
+   "section": "d",
+   "line": null,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1995",
+   "iid": "e2816302-1ef3-3a7f-9554-ef68ece1f544",
+   "doi": "10.2307/41234196",
+   "title": "CICERO, ANTISTHENES UND DER PSEUDOPLATONISCHE ‚MINOS‘ ÜBER DAS GESETZ",
+   "author": "Carl Werner Müller"
+  },
+  {
+   "book": "",
+   "page": 315,
+   "section": "e",
+   "line": null,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1995",
+   "iid": "e2816302-1ef3-3a7f-9554-ef68ece1f544",
+   "doi": "10.2307/41234196",
+   "title": "CICERO, ANTISTHENES UND DER PSEUDOPLATONISCHE ‚MINOS‘ ÜBER DAS GESETZ",
+   "author": "Carl Werner Müller"
+  },
+  {
+   "book": "",
+   "page": 316,
+   "section": "a",
+   "line": null,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1995",
+   "iid": "e2816302-1ef3-3a7f-9554-ef68ece1f544",
+   "doi": "10.2307/41234196",
+   "title": "CICERO, ANTISTHENES UND DER PSEUDOPLATONISCHE ‚MINOS‘ ÜBER DAS GESETZ",
+   "author": "Carl Werner Müller"
+  },
+  {
+   "book": "",
+   "page": 316,
+   "section": "b",
+   "line": null,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1995",
+   "iid": "e2816302-1ef3-3a7f-9554-ef68ece1f544",
+   "doi": "10.2307/41234196",
+   "title": "CICERO, ANTISTHENES UND DER PSEUDOPLATONISCHE ‚MINOS‘ ÜBER DAS GESETZ",
+   "author": "Carl Werner Müller"
+  },
+  {
+   "book": "",
+   "page": 316,
+   "section": "c",
+   "line": 3,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1995",
+   "iid": "e2816302-1ef3-3a7f-9554-ef68ece1f544",
+   "doi": "10.2307/41234196",
+   "title": "CICERO, ANTISTHENES UND DER PSEUDOPLATONISCHE ‚MINOS‘ ÜBER DAS GESETZ",
+   "author": "Carl Werner Müller"
+  },
+  {
+   "book": "",
+   "page": 316,
+   "section": "b",
+   "line": 7,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1995",
+   "iid": "e2816302-1ef3-3a7f-9554-ef68ece1f544",
+   "doi": "10.2307/41234196",
+   "title": "CICERO, ANTISTHENES UND DER PSEUDOPLATONISCHE ‚MINOS‘ ÜBER DAS GESETZ",
+   "author": "Carl Werner Müller"
+  },
+  {
+   "book": "",
+   "page": 316,
+   "section": "c",
+   "line": null,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1995",
+   "iid": "e2816302-1ef3-3a7f-9554-ef68ece1f544",
+   "doi": "10.2307/41234196",
+   "title": "CICERO, ANTISTHENES UND DER PSEUDOPLATONISCHE ‚MINOS‘ ÜBER DAS GESETZ",
+   "author": "Carl Werner Müller"
+  },
+  {
+   "book": "",
+   "page": 316,
+   "section": "d",
+   "line": null,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1995",
+   "iid": "e2816302-1ef3-3a7f-9554-ef68ece1f544",
+   "doi": "10.2307/41234196",
+   "title": "CICERO, ANTISTHENES UND DER PSEUDOPLATONISCHE ‚MINOS‘ ÜBER DAS GESETZ",
+   "author": "Carl Werner Müller"
+  },
+  {
+   "book": "",
+   "page": 316,
+   "section": "e",
+   "line": null,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1995",
+   "iid": "e2816302-1ef3-3a7f-9554-ef68ece1f544",
+   "doi": "10.2307/41234196",
+   "title": "CICERO, ANTISTHENES UND DER PSEUDOPLATONISCHE ‚MINOS‘ ÜBER DAS GESETZ",
+   "author": "Carl Werner Müller"
+  },
+  {
+   "book": "",
+   "page": 317,
+   "section": "a",
+   "line": null,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1995",
+   "iid": "e2816302-1ef3-3a7f-9554-ef68ece1f544",
+   "doi": "10.2307/41234196",
+   "title": "CICERO, ANTISTHENES UND DER PSEUDOPLATONISCHE ‚MINOS‘ ÜBER DAS GESETZ",
+   "author": "Carl Werner Müller"
+  },
+  {
+   "book": "",
+   "page": 317,
+   "section": "b",
+   "line": null,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1995",
+   "iid": "e2816302-1ef3-3a7f-9554-ef68ece1f544",
+   "doi": "10.2307/41234196",
+   "title": "CICERO, ANTISTHENES UND DER PSEUDOPLATONISCHE ‚MINOS‘ ÜBER DAS GESETZ",
+   "author": "Carl Werner Müller"
+  },
+  {
+   "book": "",
+   "page": 317,
+   "section": "c",
+   "line": null,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1995",
+   "iid": "e2816302-1ef3-3a7f-9554-ef68ece1f544",
+   "doi": "10.2307/41234196",
+   "title": "CICERO, ANTISTHENES UND DER PSEUDOPLATONISCHE ‚MINOS‘ ÜBER DAS GESETZ",
+   "author": "Carl Werner Müller"
+  },
+  {
+   "book": "",
+   "page": 317,
+   "section": "d",
+   "line": null,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1995",
+   "iid": "e2816302-1ef3-3a7f-9554-ef68ece1f544",
+   "doi": "10.2307/41234196",
+   "title": "CICERO, ANTISTHENES UND DER PSEUDOPLATONISCHE ‚MINOS‘ ÜBER DAS GESETZ",
+   "author": "Carl Werner Müller"
+  },
+  {
+   "book": "",
+   "page": 317,
+   "section": "b",
+   "line": 8,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1995",
+   "iid": "e2816302-1ef3-3a7f-9554-ef68ece1f544",
+   "doi": "10.2307/41234196",
+   "title": "CICERO, ANTISTHENES UND DER PSEUDOPLATONISCHE ‚MINOS‘ ÜBER DAS GESETZ",
+   "author": "Carl Werner Müller"
+  },
+  {
+   "book": "",
+   "page": 317,
+   "section": "b",
+   "line": 2,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1995",
+   "iid": "e2816302-1ef3-3a7f-9554-ef68ece1f544",
+   "doi": "10.2307/41234196",
+   "title": "CICERO, ANTISTHENES UND DER PSEUDOPLATONISCHE ‚MINOS‘ ÜBER DAS GESETZ",
+   "author": "Carl Werner Müller"
+  },
+  {
+   "book": "",
+   "page": 319,
+   "section": "e",
+   "line": 7,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1995",
+   "iid": "e2816302-1ef3-3a7f-9554-ef68ece1f544",
+   "doi": "10.2307/41234196",
+   "title": "CICERO, ANTISTHENES UND DER PSEUDOPLATONISCHE ‚MINOS‘ ÜBER DAS GESETZ",
+   "author": "Carl Werner Müller"
+  },
+  {
+   "book": "",
+   "page": 314,
+   "section": "e",
+   "line": null,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1995",
+   "iid": "e2816302-1ef3-3a7f-9554-ef68ece1f544",
+   "doi": "10.2307/41234196",
+   "title": "CICERO, ANTISTHENES UND DER PSEUDOPLATONISCHE ‚MINOS‘ ÜBER DAS GESETZ",
+   "author": "Carl Werner Müller"
+  },
+  {
+   "book": "",
+   "page": 316,
+   "section": "b",
+   "line": 5,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1995",
+   "iid": "e2816302-1ef3-3a7f-9554-ef68ece1f544",
+   "doi": "10.2307/41234196",
+   "title": "CICERO, ANTISTHENES UND DER PSEUDOPLATONISCHE ‚MINOS‘ ÜBER DAS GESETZ",
+   "author": "Carl Werner Müller"
+  },
+  {
+   "book": "",
+   "page": 317,
+   "section": "e",
+   "line": null,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1995",
+   "iid": "e2816302-1ef3-3a7f-9554-ef68ece1f544",
+   "doi": "10.2307/41234196",
+   "title": "CICERO, ANTISTHENES UND DER PSEUDOPLATONISCHE ‚MINOS‘ ÜBER DAS GESETZ",
+   "author": "Carl Werner Müller"
+  },
+  {
+   "book": "",
+   "page": 318,
+   "section": "b",
+   "line": null,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1995",
+   "iid": "e2816302-1ef3-3a7f-9554-ef68ece1f544",
+   "doi": "10.2307/41234196",
+   "title": "CICERO, ANTISTHENES UND DER PSEUDOPLATONISCHE ‚MINOS‘ ÜBER DAS GESETZ",
+   "author": "Carl Werner Müller"
+  },
+  {
+   "book": "",
+   "page": 321,
+   "section": "c",
+   "line": null,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1995",
+   "iid": "e2816302-1ef3-3a7f-9554-ef68ece1f544",
+   "doi": "10.2307/41234196",
+   "title": "CICERO, ANTISTHENES UND DER PSEUDOPLATONISCHE ‚MINOS‘ ÜBER DAS GESETZ",
+   "author": "Carl Werner Müller"
+  },
+  {
+   "book": "",
+   "page": 321,
+   "section": "b",
+   "line": null,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1995",
+   "iid": "e2816302-1ef3-3a7f-9554-ef68ece1f544",
+   "doi": "10.2307/41234196",
+   "title": "CICERO, ANTISTHENES UND DER PSEUDOPLATONISCHE ‚MINOS‘ ÜBER DAS GESETZ",
+   "author": "Carl Werner Müller"
+  },
+  {
+   "book": "",
+   "page": 319,
+   "section": "c",
+   "line": 3,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1995",
+   "iid": "e2816302-1ef3-3a7f-9554-ef68ece1f544",
+   "doi": "10.2307/41234196",
+   "title": "CICERO, ANTISTHENES UND DER PSEUDOPLATONISCHE ‚MINOS‘ ÜBER DAS GESETZ",
+   "author": "Carl Werner Müller"
+  },
+  {
+   "book": "",
+   "page": 319,
+   "section": "c",
+   "line": 6,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1995",
+   "iid": "e2816302-1ef3-3a7f-9554-ef68ece1f544",
+   "doi": "10.2307/41234196",
+   "title": "CICERO, ANTISTHENES UND DER PSEUDOPLATONISCHE ‚MINOS‘ ÜBER DAS GESETZ",
+   "author": "Carl Werner Müller"
+  },
+  {
+   "book": "",
+   "page": 319,
+   "section": "e",
+   "line": 2,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1995",
+   "iid": "e2816302-1ef3-3a7f-9554-ef68ece1f544",
+   "doi": "10.2307/41234196",
+   "title": "CICERO, ANTISTHENES UND DER PSEUDOPLATONISCHE ‚MINOS‘ ÜBER DAS GESETZ",
+   "author": "Carl Werner Müller"
+  },
+  {
+   "book": "",
+   "page": 319,
+   "section": "c",
+   "line": 5,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1995",
+   "iid": "e2816302-1ef3-3a7f-9554-ef68ece1f544",
+   "doi": "10.2307/41234196",
+   "title": "CICERO, ANTISTHENES UND DER PSEUDOPLATONISCHE ‚MINOS‘ ÜBER DAS GESETZ",
+   "author": "Carl Werner Müller"
+  },
+  {
+   "book": "",
+   "page": 320,
+   "section": "b",
+   "line": 2,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1995",
+   "iid": "e2816302-1ef3-3a7f-9554-ef68ece1f544",
+   "doi": "10.2307/41234196",
+   "title": "CICERO, ANTISTHENES UND DER PSEUDOPLATONISCHE ‚MINOS‘ ÜBER DAS GESETZ",
+   "author": "Carl Werner Müller"
+  },
+  {
+   "book": "",
+   "page": 319,
+   "section": "d",
+   "line": 2,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1995",
+   "iid": "e2816302-1ef3-3a7f-9554-ef68ece1f544",
+   "doi": "10.2307/41234196",
+   "title": "CICERO, ANTISTHENES UND DER PSEUDOPLATONISCHE ‚MINOS‘ ÜBER DAS GESETZ",
+   "author": "Carl Werner Müller"
+  },
+  {
+   "book": "",
+   "page": 320,
+   "section": "d",
+   "line": 6,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1995",
+   "iid": "e2816302-1ef3-3a7f-9554-ef68ece1f544",
+   "doi": "10.2307/41234196",
+   "title": "CICERO, ANTISTHENES UND DER PSEUDOPLATONISCHE ‚MINOS‘ ÜBER DAS GESETZ",
+   "author": "Carl Werner Müller"
+  },
+  {
+   "book": "",
+   "page": 317,
+   "section": "c",
+   "line": 6,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1995",
+   "iid": "e2816302-1ef3-3a7f-9554-ef68ece1f544",
+   "doi": "10.2307/41234196",
+   "title": "CICERO, ANTISTHENES UND DER PSEUDOPLATONISCHE ‚MINOS‘ ÜBER DAS GESETZ",
+   "author": "Carl Werner Müller"
+  },
+  {
+   "book": "",
+   "page": 320,
+   "section": "d",
+   "line": null,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1995",
+   "iid": "e2816302-1ef3-3a7f-9554-ef68ece1f544",
+   "doi": "10.2307/41234196",
+   "title": "CICERO, ANTISTHENES UND DER PSEUDOPLATONISCHE ‚MINOS‘ ÜBER DAS GESETZ",
+   "author": "Carl Werner Müller"
+  },
+  {
+   "book": "",
+   "page": 320,
+   "section": "e",
+   "line": null,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1995",
+   "iid": "e2816302-1ef3-3a7f-9554-ef68ece1f544",
+   "doi": "10.2307/41234196",
+   "title": "CICERO, ANTISTHENES UND DER PSEUDOPLATONISCHE ‚MINOS‘ ÜBER DAS GESETZ",
+   "author": "Carl Werner Müller"
+  },
+  {
+   "book": "",
+   "page": 321,
+   "section": "a",
+   "line": null,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1995",
+   "iid": "e2816302-1ef3-3a7f-9554-ef68ece1f544",
+   "doi": "10.2307/41234196",
+   "title": "CICERO, ANTISTHENES UND DER PSEUDOPLATONISCHE ‚MINOS‘ ÜBER DAS GESETZ",
+   "author": "Carl Werner Müller"
+  },
+  {
+   "book": "",
+   "page": 315,
+   "section": "a",
+   "line": 2,
+   "journal": "The American Journal of Philology",
+   "year": "1987",
+   "iid": "e4e68c79-ba2c-3029-b024-a017f9fb0844",
+   "doi": "10.2307/294818",
+   "title": "Cicero's De Legibus I: Its Plan and Intention",
+   "author": "Seth Benardete"
   }
  ]
 }

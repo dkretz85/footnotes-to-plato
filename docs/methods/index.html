@@ -16,7 +16,7 @@
   <div class="bar">
     <a class="brand" href="/"><span class="bt">Footnotes to Plato</span><i class="bt-and"> … and others</i></a>
     <button class="navtoggle" aria-label="Menu" aria-expanded="false">☰</button>
-    <nav class="mainnav"><a href="/">Home</a><a href="/explore/works/">Works over time</a><a href="/explore/passages/">Passages</a><a href="/methods/" class="on">Methods</a><a href="/data/">Data</a><a href="/contact/">Contact</a></nav>
+    <nav class="mainnav"><a href="/">Home</a><a href="/explore/works/">Works over time</a><a href="/explore/passages/">Passages</a><a href="/explore/shifts/">Over time, within</a><a href="/methods/" class="on">Methods</a><a href="/data/">Data</a><a href="/contact/">Contact</a></nav>
   </div>
 </header>
 <main id="main" class="">
@@ -27,7 +27,7 @@
   <nav class="toc" aria-label="On this page"><div class="toc-h">On this page</div><ul><li class="l2"><a href="#the-source-corpus">The source corpus</a></li><li class="l2"><a href="#coverage">Coverage</a></li><li class="l2"><a href="#extracting-citation-candidates">Extracting citation candidates</a></li><li class="l3"><a href="#two-pagination-systems-and-where-they-collide">Two pagination systems, and where they collide</a></li><li class="l2"><a href="#resolving-candidates-to-works">Resolving candidates to works</a></li><li class="l2"><a href="#what-is-filtered-out">What is filtered out</a></li><li class="l3"><a href="#the-document-type-decision">The document-type decision</a></li><li class="l2"><a href="#reference-tables">Reference tables</a></li><li class="l2"><a href="#book-level-faceting">Book-level faceting</a></li><li class="l2"><a href="#reading-the-results">Reading the results</a></li><li class="l3"><a href="#floors-not-totals">Floors, not totals</a></li><li class="l3"><a href="#cross-work-versus-within-work-uncertainty">Cross-work versus within-work uncertainty</a></li><li class="l3"><a href="#collision-bands">Collision bands</a></li><li class="l3"><a href="#page-range-integrity">Page-range integrity</a></li><li class="l3"><a href="#small-n-works">Small-n works</a></li><li class="l2"><a href="#grouping-schemes">Grouping schemes</a></li><li class="l2"><a href="#passage-links-perseus">Passage links (Perseus)</a></li><li class="l2"><a href="#method-discipline">Method discipline</a></li><li class="l2"><a href="#known-limitations">Known limitations</a></li><li class="l2"><a href="#checking-the-work">Checking the work</a></li></ul></nav>
   <div class="prose">
 <p>This page sets out how <em>Footnotes to Plato</em> is built: how citations are extracted from the journal full text, how they are resolved to particular works and passages, what is filtered out and why, and — most important for anyone reading the charts — what the resulting numbers can and cannot be made to say. Every figure here can be checked against the <a href="/data/">published derived data</a>.</p>
-<p>The pipeline is <strong>precision-first</strong> throughout. At each stage the default is to decline rather than guess: a citation that cannot be placed beyond reasonable doubt is set aside in a review queue, not forced to a best guess, and every exclusion is diverted to an auditable file rather than deleted. The headline placement figure — <strong>90,502 of roughly 141,000 detected citations (64%)</strong> — is therefore a trustworthy floor, not a rate reached by relaxing correctness.</p>
+<p>The pipeline is <strong>precision-first</strong> throughout. At each stage the default is to decline rather than guess: a citation that cannot be placed beyond reasonable doubt is set aside in a review queue, not forced to a best guess, and every exclusion is diverted to an auditable file rather than deleted. The headline placement figure — <strong>493,233 of roughly 141,000 detected citations (64%)</strong> — is therefore a trustworthy floor, not a rate reached by relaxing correctness.</p>
 <h2 id="the-source-corpus">The source corpus<a class="anchor" href="#the-source-corpus" aria-label="link">#</a></h2>
 <p>The underlying data is a full-text delivery from JSTOR Text Analysis Support: <strong>69,177 articles</strong> across ten journals of ancient philosophy and classics, one record per article, each carrying the article's text as a list of page strings. Because the text arrives page by page, every citation's page-level position within its article is known without further work, and citation strings appear verbatim in the text (<code>PLAT. MEN. 80D5-E5</code>), so there is no tokenisation to corrupt them.</p>
 <p>Article-level metadata — journal, year, document type, and title — is not part of the text delivery; it is joined from JSTOR's separate catalogue by article ID. The delivery matches the request exactly but for a single item withheld by JSTOR (0.001% of the corpus, immaterial to any aggregate). No other items are dropped silently; the reconciliation is re-run on every pass.</p>
@@ -102,11 +102,11 @@
       <strong>Footnotes to Plato</strong> · A passage-level citation index of the ancient-philosophy scholarship<br>
       <span class="muted">Made by David Kretz (Yale University /
       <a href="https://dkretz.com">dkretz.com</a>), with Claude Opus 4.8.
-      Built 2026-07-29. Derived from a JSTOR Text Analysis
+      Built 2026-08-20. Derived from a JSTOR Text Analysis
       Support delivery; a finding aid that links out to the articles, never a
       substitute for them.</span>
     </div>
-    <div class="flinks"><a href="/">Home</a><a href="/explore/works/">Works over time</a><a href="/explore/passages/">Passages</a><a href="/methods/">Methods</a><a href="/data/">Data</a><a href="/contact/">Contact</a></div>
+    <div class="flinks"><a href="/">Home</a><a href="/explore/works/">Works over time</a><a href="/explore/passages/">Passages</a><a href="/explore/shifts/">Over time, within</a><a href="/methods/">Methods</a><a href="/data/">Data</a><a href="/contact/">Contact</a></div>
   </div>
 </footer>
 <script src="/static/site.js"></script>

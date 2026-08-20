@@ -1,355 +1,1492 @@
 {
  "work": "Hippias_Major",
  "faceted": false,
+ "system": "stephanus",
  "tier": "trustworthy",
  "cells": [
   {
    "book": "",
    "page": 281,
    "section": "a",
-   "count": 8,
-   "articles": 5,
+   "band": 0,
+   "count": 18,
+   "articles": 7,
    "by_journal": {
     "The Classical Quarterly": 4,
     "History of Philosophy Quarterly": 1,
-    "Phronesis": 3
+    "Phronesis": 3,
+    "Mnemosyne": 10
+   }
+  },
+  {
+   "book": "",
+   "page": 281,
+   "section": "b",
+   "band": 0,
+   "count": 6,
+   "articles": 5,
+   "by_journal": {
+    "History of Philosophy Quarterly": 1,
+    "Phronesis": 2,
+    "Classical Antiquity": 1,
+    "Mnemosyne": 1,
+    "Rheinisches Museum für Philologie": 1
    }
   },
   {
    "book": "",
    "page": 281,
    "section": "c",
-   "count": 1,
-   "articles": 1,
+   "band": 0,
+   "count": 6,
+   "articles": 5,
    "by_journal": {
-    "Méthexis": 1
+    "History of Philosophy Quarterly": 1,
+    "Méthexis": 1,
+    "Phronesis": 2,
+    "Mnemosyne": 1,
+    "The American Journal of Philology": 1
    }
   },
   {
    "book": "",
    "page": 281,
    "section": "d",
-   "count": 3,
-   "articles": 3,
+   "band": 0,
+   "count": 8,
+   "articles": 7,
    "by_journal": {
-    "The Classical Quarterly": 3
+    "The Classical Quarterly": 3,
+    "History of Philosophy Quarterly": 1,
+    "Méthexis": 1,
+    "Phronesis": 2,
+    "Mnemosyne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 281,
+   "section": "e",
+   "band": 0,
+   "count": 5,
+   "articles": 4,
+   "by_journal": {
+    "History of Philosophy Quarterly": 1,
+    "Méthexis": 1,
+    "The Classical Quarterly": 1,
+    "Phronesis": 2
    }
   },
   {
    "book": "",
    "page": 282,
    "section": "a",
-   "count": 3,
-   "articles": 2,
+   "band": 0,
+   "count": 8,
+   "articles": 6,
    "by_journal": {
+    "History of Philosophy Quarterly": 1,
     "Méthexis": 1,
-    "Phronesis": 2
+    "The Classical Quarterly": 1,
+    "Phronesis": 3,
+    "The Harvard Theological Review": 1,
+    "Transactions of the American Philological Association (1974-2014)": 1
    }
   },
   {
    "book": "",
    "page": 282,
    "section": "b",
-   "count": 5,
-   "articles": 5,
+   "band": 0,
+   "count": 9,
+   "articles": 7,
    "by_journal": {
     "The Classical Quarterly": 3,
-    "Phronesis": 2
+    "History of Philosophy Quarterly": 1,
+    "Phronesis": 4,
+    "Harvard Studies in Classical Philology": 1
    }
   },
   {
    "book": "",
    "page": 282,
    "section": "c",
-   "count": 1,
-   "articles": 1,
+   "band": 0,
+   "count": 7,
+   "articles": 5,
    "by_journal": {
-    "Classical Philology": 1
+    "History of Philosophy Quarterly": 1,
+    "Classical Philology": 1,
+    "Phronesis": 4,
+    "Greece & Rome": 1
    }
   },
   {
    "book": "",
    "page": 282,
    "section": "d",
-   "count": 3,
-   "articles": 2,
+   "band": 0,
+   "count": 11,
+   "articles": 6,
    "by_journal": {
-    "Classical Philology": 1,
-    "Phronesis": 2
+    "History of Philosophy Quarterly": 1,
+    "Classical Philology": 2,
+    "Phronesis": 5,
+    "Classical Antiquity": 1,
+    "Harvard Studies in Classical Philology": 1,
+    "Greece & Rome": 1
    }
   },
   {
    "book": "",
    "page": 282,
    "section": "e",
-   "count": 6,
-   "articles": 5,
+   "band": 0,
+   "count": 14,
+   "articles": 9,
    "by_journal": {
     "The Classical Quarterly": 3,
-    "Classical Philology": 1,
-    "Phronesis": 2
+    "History of Philosophy Quarterly": 1,
+    "Classical Philology": 2,
+    "Phronesis": 5,
+    "Transactions and Proceedings of the American Philological Association": 1,
+    "Mnemosyne": 1,
+    "Harvard Studies in Classical Philology": 1
    }
   },
   {
    "book": "",
    "page": 283,
    "section": "a",
-   "count": 3,
-   "articles": 2,
+   "band": 0,
+   "count": 6,
+   "articles": 4,
    "by_journal": {
+    "History of Philosophy Quarterly": 1,
     "The Classical Review": 1,
-    "Phronesis": 2
+    "Phronesis": 3,
+    "Illinois Classical Studies": 1
    }
   },
   {
    "book": "",
    "page": 283,
    "section": "b",
-   "count": 4,
-   "articles": 3,
+   "band": 0,
+   "count": 6,
+   "articles": 4,
    "by_journal": {
     "History of Philosophy Quarterly": 1,
     "The Classical Quarterly": 2,
-    "Phronesis": 1
+    "Phronesis": 2,
+    "Classical Antiquity": 1
    }
   },
   {
    "book": "",
    "page": 283,
    "section": "c",
+   "band": 0,
+   "count": 11,
+   "articles": 5,
+   "by_journal": {
+    "The Classical Quarterly": 2,
+    "Phronesis": 7,
+    "Classical Antiquity": 1,
+    "Mnemosyne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 283,
+   "section": "d",
+   "band": 0,
    "count": 5,
+   "articles": 3,
+   "by_journal": {
+    "Phronesis": 3,
+    "Quaderni Urbinati di Cultura Classica": 1,
+    "Classical Antiquity": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 283,
+   "section": "e",
+   "band": 0,
+   "count": 5,
+   "articles": 3,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "Phronesis": 3,
+    "Classical Antiquity": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 284,
+   "section": "a",
+   "band": 0,
+   "count": 5,
+   "articles": 3,
+   "by_journal": {
+    "Phronesis": 3,
+    "Classical Antiquity": 1,
+    "Mnemosyne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 284,
+   "section": "b",
+   "band": 0,
+   "count": 9,
+   "articles": 3,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 1,
+    "Phronesis": 7,
+    "Classical Antiquity": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 284,
+   "section": "c",
+   "band": 0,
+   "count": 4,
+   "articles": 3,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "Phronesis": 2,
+    "Classical Antiquity": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 284,
+   "section": "d",
+   "band": 0,
+   "count": 4,
+   "articles": 3,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "Phronesis": 2,
+    "Classical Antiquity": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 284,
+   "section": "e",
+   "band": 0,
+   "count": 3,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 2,
+    "Classical Antiquity": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 285,
+   "section": "a",
+   "band": 0,
+   "count": 6,
+   "articles": 5,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "Phronesis": 2,
+    "Mnemosyne": 2,
+    "Classical Antiquity": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 285,
+   "section": "b",
+   "band": 0,
+   "count": 8,
+   "articles": 6,
+   "by_journal": {
+    "The Classical Quarterly": 2,
+    "Phronesis": 2,
+    "Hermes": 2,
+    "Revue de Théologie et de Philosophie": 1,
+    "Classical Antiquity": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 285,
+   "section": "c",
+   "band": 0,
+   "count": 6,
+   "articles": 5,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "Phronesis": 2,
+    "Hermes": 1,
+    "Revue de Théologie et de Philosophie": 1,
+    "Classical Antiquity": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 285,
+   "section": "d",
+   "band": 0,
+   "count": 10,
+   "articles": 9,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 1,
+    "The Classical Quarterly": 1,
+    "Classical Philology": 1,
+    "Phronesis": 2,
+    "Hermes": 1,
+    "Harvard Studies in Classical Philology": 1,
+    "Journal of Biblical Literature": 1,
+    "Revue de Théologie et de Philosophie": 1,
+    "Classical Antiquity": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 285,
+   "section": "e",
+   "band": 0,
+   "count": 7,
+   "articles": 6,
+   "by_journal": {
+    "Phronesis": 2,
+    "Hermes": 1,
+    "Harvard Studies in Classical Philology": 1,
+    "Revue de Théologie et de Philosophie": 1,
+    "Classical Antiquity": 1,
+    "Transactions and Proceedings of the American Philological Association": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 286,
+   "section": "a",
+   "band": 0,
+   "count": 12,
+   "articles": 11,
+   "by_journal": {
+    "The Classical Quarterly": 4,
+    "Revue de Philosophie Ancienne": 1,
+    "Phronesis": 2,
+    "Harvard Studies in Classical Philology": 1,
+    "Revue de Théologie et de Philosophie": 1,
+    "Classical Antiquity": 1,
+    "Hermes": 1,
+    "Transactions of the American Philological Association (1974-2014)": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 286,
+   "section": "b",
+   "band": 0,
+   "count": 13,
+   "articles": 9,
+   "by_journal": {
+    "Phronesis": 7,
+    "The Classical Review": 1,
+    "Mnemosyne": 1,
+    "Revue de Théologie et de Philosophie": 1,
+    "Classical Antiquity": 1,
+    "Harvard Studies in Classical Philology": 1,
+    "Transactions of the American Philological Association (1974-2014)": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 286,
+   "section": "c",
+   "band": 0,
+   "count": 12,
+   "articles": 11,
+   "by_journal": {
+    "Phronesis": 3,
+    "History of Philosophy Quarterly": 4,
+    "Revue de Philosophie Ancienne": 1,
+    "The Classical Quarterly": 1,
+    "Revue Internationale de Philosophie": 1,
+    "Mnemosyne": 1,
+    "Revue de Théologie et de Philosophie": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 286,
+   "section": "d",
+   "band": 0,
+   "count": 13,
+   "articles": 12,
+   "by_journal": {
+    "History of Philosophy Quarterly": 4,
+    "Phronesis": 3,
+    "Revue de Philosophie Ancienne": 2,
+    "The Classical Quarterly": 1,
+    "Revue Internationale de Philosophie": 1,
+    "Classical Philology": 1,
+    "The Classical World": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 286,
+   "section": "e",
+   "band": 0,
+   "count": 6,
+   "articles": 5,
+   "by_journal": {
+    "History of Philosophy Quarterly": 2,
+    "Revue de Philosophie Ancienne": 2,
+    "Phronesis": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 287,
+   "section": "a",
+   "band": 0,
+   "count": 5,
+   "articles": 4,
+   "by_journal": {
+    "Phronesis": 3,
+    "The Classical Quarterly": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 287,
+   "section": "b",
+   "band": 0,
+   "count": 5,
+   "articles": 4,
+   "by_journal": {
+    "Phronesis": 3,
+    "Mnemosyne": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 287,
+   "section": "c",
+   "band": 0,
+   "count": 17,
+   "articles": 9,
+   "by_journal": {
+    "Phronesis": 12,
+    "The Classical Quarterly": 3,
+    "History of Philosophy Quarterly": 1,
+    "Hermes": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 287,
+   "section": "d",
+   "band": 0,
+   "count": 12,
+   "articles": 8,
+   "by_journal": {
+    "Phronesis": 10,
+    "Classical Philology": 1,
+    "The Classical Review": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 287,
+   "section": "e",
+   "band": 0,
+   "count": 9,
+   "articles": 8,
+   "by_journal": {
+    "Phronesis": 7,
+    "Revue de Philosophie Ancienne": 1,
+    "Revue de Théologie et de Philosophie": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 288,
+   "section": "a",
+   "band": 0,
+   "count": 14,
+   "articles": 8,
+   "by_journal": {
+    "Phronesis": 10,
+    "The Classical Quarterly": 1,
+    "Classical Philology": 1,
+    "Revue de Philosophie Ancienne": 1,
+    "Revue de Théologie et de Philosophie": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 288,
+   "section": "b",
+   "band": 0,
+   "count": 6,
+   "articles": 5,
+   "by_journal": {
+    "Phronesis": 4,
+    "Revue de Philosophie Ancienne": 1,
+    "Revue de Théologie et de Philosophie": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 288,
+   "section": "c",
+   "band": 0,
+   "count": 7,
+   "articles": 5,
+   "by_journal": {
+    "Phronesis": 5,
+    "Revue de Philosophie Ancienne": 1,
+    "Revue de Théologie et de Philosophie": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 288,
+   "section": "d",
+   "band": 0,
+   "count": 7,
+   "articles": 5,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 1,
+    "Phronesis": 4,
+    "Revue de Théologie et de Philosophie": 1,
+    "Illinois Classical Studies": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 288,
+   "section": "e",
+   "band": 0,
+   "count": 7,
+   "articles": 5,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 1,
+    "Phronesis": 4,
+    "Revue de Théologie et de Philosophie": 1,
+    "Illinois Classical Studies": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 289,
+   "section": "a",
+   "band": 0,
+   "count": 10,
+   "articles": 9,
+   "by_journal": {
+    "History of Philosophy Quarterly": 1,
+    "The Classical Quarterly": 1,
+    "Phronesis": 3,
+    "Revue de Philosophie Ancienne": 1,
+    "Revue de Théologie et de Philosophie": 1,
+    "Quaderni Urbinati di Cultura Classica": 1,
+    "Rheinisches Museum für Philologie": 1,
+    "Illinois Classical Studies": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 289,
+   "section": "b",
+   "band": 0,
+   "count": 13,
+   "articles": 11,
+   "by_journal": {
+    "History of Philosophy Quarterly": 1,
+    "Phronesis": 4,
+    "Classical Philology": 1,
+    "Revue de Philosophie Ancienne": 1,
+    "Revue de Théologie et de Philosophie": 1,
+    "Quaderni Urbinati di Cultura Classica": 1,
+    "Mnemosyne": 1,
+    "Illinois Classical Studies": 1,
+    "Hermes": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 289,
+   "section": "c",
+   "band": 0,
+   "count": 8,
+   "articles": 7,
+   "by_journal": {
+    "History of Philosophy Quarterly": 1,
+    "Phronesis": 4,
+    "Revue Internationale de Philosophie": 1,
+    "Revue de Philosophie Ancienne": 1,
+    "Revue de Théologie et de Philosophie": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 289,
+   "section": "d",
+   "band": 0,
+   "count": 9,
+   "articles": 6,
+   "by_journal": {
+    "Phronesis": 6,
+    "Revue de Théologie et de Philosophie": 2,
+    "Harvard Studies in Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 289,
+   "section": "e",
+   "band": 0,
+   "count": 3,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 2,
+    "Revue de Théologie et de Philosophie": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 290,
+   "section": "a",
+   "band": 0,
+   "count": 4,
+   "articles": 3,
+   "by_journal": {
+    "Phronesis": 2,
+    "Revue de Théologie et de Philosophie": 1,
+    "Mnemosyne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 290,
+   "section": "b",
+   "band": 0,
+   "count": 7,
+   "articles": 3,
+   "by_journal": {
+    "Phronesis": 5,
+    "Revue de Théologie et de Philosophie": 1,
+    "Mnemosyne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 290,
+   "section": "c",
+   "band": 0,
+   "count": 6,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 5,
+    "Revue de Théologie et de Philosophie": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 290,
+   "section": "d",
+   "band": 0,
+   "count": 8,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 7,
+    "Revue de Théologie et de Philosophie": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 290,
+   "section": "e",
+   "band": 0,
+   "count": 9,
+   "articles": 3,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "Phronesis": 7,
+    "Revue de Théologie et de Philosophie": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 291,
+   "section": "a",
+   "band": 0,
+   "count": 9,
+   "articles": 4,
+   "by_journal": {
+    "The Classical Review": 1,
+    "Phronesis": 5,
+    "Revue de Théologie et de Philosophie": 1,
+    "Mnemosyne": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 291,
+   "section": "b",
+   "band": 0,
+   "count": 6,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 5,
+    "Revue de Théologie et de Philosophie": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 291,
+   "section": "c",
+   "band": 0,
+   "count": 6,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 5,
+    "Revue de Théologie et de Philosophie": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 291,
+   "section": "d",
+   "band": 0,
+   "count": 7,
+   "articles": 3,
+   "by_journal": {
+    "Phronesis": 4,
+    "Revue de Théologie et de Philosophie": 2,
+    "Mnemosyne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 291,
+   "section": "e",
+   "band": 0,
+   "count": 7,
+   "articles": 3,
+   "by_journal": {
+    "Phronesis": 4,
+    "Revue de Théologie et de Philosophie": 2,
+    "The American Journal of Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 292,
+   "section": "a",
+   "band": 0,
+   "count": 7,
+   "articles": 5,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 1,
+    "Classical Philology": 1,
+    "The Classical Quarterly": 1,
+    "Phronesis": 3,
+    "Revue de Théologie et de Philosophie": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 292,
+   "section": "b",
+   "band": 0,
+   "count": 5,
+   "articles": 3,
+   "by_journal": {
+    "The Classical Review": 1,
+    "Phronesis": 3,
+    "Revue de Théologie et de Philosophie": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 292,
+   "section": "c",
+   "band": 0,
+   "count": 6,
+   "articles": 4,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "Phronesis": 4,
+    "Revue de Théologie et de Philosophie": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 292,
+   "section": "d",
+   "band": 0,
+   "count": 9,
+   "articles": 5,
+   "by_journal": {
+    "The Classical Quarterly": 3,
+    "Phronesis": 5,
+    "Revue de Théologie et de Philosophie": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 292,
+   "section": "e",
+   "band": 0,
+   "count": 10,
+   "articles": 7,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "The Classical Review": 2,
+    "History of Philosophy Quarterly": 1,
+    "Phronesis": 4,
+    "Revue de Théologie et de Philosophie": 1,
+    "The Classical World": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 293,
+   "section": "a",
+   "band": 0,
+   "count": 6,
+   "articles": 3,
+   "by_journal": {
+    "The Classical Review": 1,
+    "Phronesis": 4,
+    "Revue de Théologie et de Philosophie": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 293,
+   "section": "b",
+   "band": 0,
+   "count": 5,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 4,
+    "Revue de Théologie et de Philosophie": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 293,
+   "section": "c",
+   "band": 0,
+   "count": 4,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 3,
+    "Revue de Théologie et de Philosophie": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 293,
+   "section": "d",
+   "band": 0,
+   "count": 3,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 2,
+    "Mnemosyne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 293,
+   "section": "e",
+   "band": 0,
+   "count": 6,
+   "articles": 4,
+   "by_journal": {
+    "Classical Philology": 1,
+    "The Classical Quarterly": 1,
+    "Phronesis": 3,
+    "Méthexis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 294,
+   "section": "a",
+   "band": 0,
+   "count": 7,
+   "articles": 4,
+   "by_journal": {
+    "Phronesis": 5,
+    "Classical Philology": 1,
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 294,
+   "section": "b",
+   "band": 0,
+   "count": 6,
+   "articles": 4,
+   "by_journal": {
+    "Classical Philology": 1,
+    "Phronesis": 4,
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 294,
+   "section": "c",
+   "band": 0,
+   "count": 5,
+   "articles": 3,
+   "by_journal": {
+    "Phronesis": 4,
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 294,
+   "section": "d",
+   "band": 0,
+   "count": 5,
+   "articles": 3,
+   "by_journal": {
+    "Phronesis": 4,
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 294,
+   "section": "e",
+   "band": 0,
+   "count": 4,
+   "articles": 2,
+   "by_journal": {
+    "Classical Philology": 1,
+    "Phronesis": 3
+   }
+  },
+  {
+   "book": "",
+   "page": 295,
+   "section": "a",
+   "band": 0,
+   "count": 6,
+   "articles": 6,
+   "by_journal": {
+    "Classical Philology": 1,
+    "The Classical Quarterly": 3,
+    "Phronesis": 1,
+    "Greece & Rome": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 295,
+   "section": "b",
+   "band": 0,
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "Phronesis": 1,
+    "Illinois Classical Studies": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 295,
+   "section": "c",
+   "band": 0,
+   "count": 5,
+   "articles": 3,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "Phronesis": 3,
+    "Méthexis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 295,
+   "section": "d",
+   "band": 0,
+   "count": 5,
+   "articles": 2,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "Phronesis": 4
+   }
+  },
+  {
+   "book": "",
+   "page": 295,
+   "section": "e",
+   "band": 0,
+   "count": 1,
    "articles": 1,
+   "by_journal": {
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 296,
+   "section": "a",
+   "band": 0,
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 1,
+    "Illinois Classical Studies": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 296,
+   "section": "b",
+   "band": 0,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 296,
+   "section": "c",
+   "band": 0,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 296,
+   "section": "d",
+   "band": 0,
+   "count": 5,
+   "articles": 3,
+   "by_journal": {
+    "The Classical Quarterly": 3,
+    "Phronesis": 1,
+    "Transactions and Proceedings of the American Philological Association": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 296,
+   "section": "e",
+   "band": 0,
+   "count": 7,
+   "articles": 6,
+   "by_journal": {
+    "Classical Philology": 1,
+    "Phronesis": 3,
+    "Méthexis": 1,
+    "Mnemosyne": 1,
+    "Transactions and Proceedings of the American Philological Association": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 297,
+   "section": "a",
+   "band": 0,
+   "count": 4,
+   "articles": 3,
+   "by_journal": {
+    "Classical Philology": 1,
+    "Phronesis": 2,
+    "Mnemosyne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 297,
+   "section": "b",
+   "band": 0,
+   "count": 5,
+   "articles": 4,
+   "by_journal": {
+    "Classical Philology": 1,
+    "Phronesis": 2,
+    "Mnemosyne": 1,
+    "Transactions and Proceedings of the American Philological Association": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 297,
+   "section": "c",
+   "band": 0,
+   "count": 7,
+   "articles": 6,
+   "by_journal": {
+    "Phronesis": 3,
+    "Classical Philology": 1,
+    "Mnemosyne": 2,
+    "Transactions and Proceedings of the American Philological Association": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 297,
+   "section": "d",
+   "band": 0,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 297,
+   "section": "e",
+   "band": 0,
+   "count": 6,
+   "articles": 5,
+   "by_journal": {
+    "Phronesis": 2,
+    "Revue de Philosophie Ancienne": 1,
+    "Mnemosyne": 2,
+    "Greece & Rome": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 298,
+   "section": "a",
+   "band": 0,
+   "count": 10,
+   "articles": 7,
+   "by_journal": {
+    "The Classical Review": 1,
+    "Phronesis": 4,
+    "The Classical Quarterly": 3,
+    "Méthexis": 1,
+    "Transactions and Proceedings of the American Philological Association": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 298,
+   "section": "b",
+   "band": 0,
+   "count": 6,
+   "articles": 5,
+   "by_journal": {
+    "History of Philosophy Quarterly": 1,
+    "The Classical Quarterly": 2,
+    "Phronesis": 1,
+    "Mnemosyne": 1,
+    "Harvard Studies in Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 298,
+   "section": "c",
+   "band": 0,
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "Classical Philology": 1,
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 298,
+   "section": "d",
+   "band": 0,
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "Classical Philology": 1,
+    "The Classical Quarterly": 1,
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 298,
+   "section": "e",
+   "band": 0,
+   "count": 3,
+   "articles": 2,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "Phronesis": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 299,
+   "section": "a",
+   "band": 0,
+   "count": 4,
+   "articles": 3,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "Classical Philology": 1,
+    "Phronesis": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 299,
+   "section": "b",
+   "band": 0,
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 299,
+   "section": "c",
+   "band": 0,
+   "count": 4,
+   "articles": 3,
+   "by_journal": {
+    "The Classical Quarterly": 2,
+    "Phronesis": 1,
+    "Revue de Philosophie Ancienne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 299,
+   "section": "d",
+   "band": 0,
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "Méthexis": 1,
+    "The Classical Quarterly": 1,
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 299,
+   "section": "e",
+   "band": 0,
+   "count": 6,
+   "articles": 4,
+   "by_journal": {
+    "Phronesis": 4,
+    "The Classical Quarterly": 1,
+    "Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 300,
+   "section": "a",
+   "band": 0,
+   "count": 6,
+   "articles": 3,
+   "by_journal": {
+    "The Classical Quarterly": 2,
+    "Classical Philology": 1,
+    "Phronesis": 3
+   }
+  },
+  {
+   "book": "",
+   "page": 300,
+   "section": "b",
+   "band": 0,
+   "count": 3,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 3
+   }
+  },
+  {
+   "book": "",
+   "page": 300,
+   "section": "c",
+   "band": 0,
+   "count": 4,
+   "articles": 3,
+   "by_journal": {
+    "Phronesis": 3,
+    "Mnemosyne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 300,
+   "section": "d",
+   "band": 0,
+   "count": 7,
+   "articles": 6,
+   "by_journal": {
+    "The Classical Review": 2,
+    "Phronesis": 3,
+    "The Classical Quarterly": 1,
+    "Mnemosyne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 300,
+   "section": "e",
+   "band": 0,
+   "count": 6,
+   "articles": 4,
+   "by_journal": {
+    "The Classical Review": 2,
+    "Phronesis": 4
+   }
+  },
+  {
+   "book": "",
+   "page": 301,
+   "section": "a",
+   "band": 0,
+   "count": 6,
+   "articles": 4,
+   "by_journal": {
+    "The Classical Review": 2,
+    "Phronesis": 4
+   }
+  },
+  {
+   "book": "",
+   "page": 301,
+   "section": "b",
+   "band": 0,
+   "count": 8,
+   "articles": 7,
+   "by_journal": {
+    "The Classical Review": 2,
+    "Phronesis": 3,
+    "Classical Philology": 2,
+    "Transactions and Proceedings of the American Philological Association": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 301,
+   "section": "c",
+   "band": 0,
+   "count": 3,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 3
+   }
+  },
+  {
+   "book": "",
+   "page": 301,
+   "section": "d",
+   "band": 0,
+   "count": 5,
+   "articles": 2,
    "by_journal": {
     "Phronesis": 5
    }
   },
   {
    "book": "",
-   "page": 283,
+   "page": 301,
    "section": "e",
-   "count": 2,
-   "articles": 2,
-   "by_journal": {
-    "The Classical Quarterly": 1,
-    "Phronesis": 1
-   }
-  },
-  {
-   "book": "",
-   "page": 284,
-   "section": "a",
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Phronesis": 1
-   }
-  },
-  {
-   "book": "",
-   "page": 284,
-   "section": "b",
+   "band": 0,
    "count": 5,
    "articles": 2,
    "by_journal": {
-    "Revue de Philosophie Ancienne": 1,
-    "Phronesis": 4
+    "Phronesis": 5
    }
   },
   {
    "book": "",
-   "page": 284,
-   "section": "c",
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical Quarterly": 1
-   }
-  },
-  {
-   "book": "",
-   "page": 284,
-   "section": "d",
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical Quarterly": 1
-   }
-  },
-  {
-   "book": "",
-   "page": 285,
+   "page": 302,
    "section": "a",
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical Quarterly": 1
-   }
-  },
-  {
-   "book": "",
-   "page": 285,
-   "section": "b",
-   "count": 2,
-   "articles": 1,
-   "by_journal": {
-    "The Classical Quarterly": 2
-   }
-  },
-  {
-   "book": "",
-   "page": 285,
-   "section": "c",
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical Quarterly": 1
-   }
-  },
-  {
-   "book": "",
-   "page": 285,
-   "section": "d",
-   "count": 3,
-   "articles": 3,
-   "by_journal": {
-    "Revue de Philosophie Ancienne": 1,
-    "The Classical Quarterly": 1,
-    "Classical Philology": 1
-   }
-  },
-  {
-   "book": "",
-   "page": 286,
-   "section": "a",
+   "band": 0,
    "count": 6,
-   "articles": 6,
-   "by_journal": {
-    "The Classical Quarterly": 4,
-    "Revue de Philosophie Ancienne": 1,
-    "Phronesis": 1
-   }
-  },
-  {
-   "book": "",
-   "page": 286,
-   "section": "b",
-   "count": 8,
    "articles": 4,
    "by_journal": {
-    "Phronesis": 7,
-    "The Classical Review": 1
-   }
-  },
-  {
-   "book": "",
-   "page": 286,
-   "section": "c",
-   "count": 9,
-   "articles": 8,
-   "by_journal": {
-    "History of Philosophy Quarterly": 4,
-    "Revue de Philosophie Ancienne": 1,
     "The Classical Quarterly": 1,
-    "Revue Internationale de Philosophie": 1,
-    "Phronesis": 2
-   }
-  },
-  {
-   "book": "",
-   "page": 286,
-   "section": "d",
-   "count": 4,
-   "articles": 4,
-   "by_journal": {
-    "Phronesis": 1,
-    "Revue de Philosophie Ancienne": 1,
-    "The Classical Quarterly": 1,
+    "Phronesis": 4,
     "Classical Philology": 1
    }
   },
   {
    "book": "",
-   "page": 287,
-   "section": "a",
+   "page": 302,
+   "section": "b",
+   "band": 0,
+   "count": 3,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 3
+   }
+  },
+  {
+   "book": "",
+   "page": 302,
+   "section": "c",
+   "band": 0,
+   "count": 4,
+   "articles": 3,
+   "by_journal": {
+    "Phronesis": 3,
+    "Mnemosyne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 302,
+   "section": "d",
+   "band": 0,
+   "count": 3,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 3
+   }
+  },
+  {
+   "book": "",
+   "page": 302,
+   "section": "e",
+   "band": 0,
    "count": 3,
    "articles": 3,
    "by_journal": {
-    "Phronesis": 1,
-    "The Classical Quarterly": 2
-   }
-  },
-  {
-   "book": "",
-   "page": 287,
-   "section": "b",
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Phronesis": 1
-   }
-  },
-  {
-   "book": "",
-   "page": 287,
-   "section": "c",
-   "count": 13,
-   "articles": 6,
-   "by_journal": {
-    "Phronesis": 9,
-    "The Classical Quarterly": 3,
-    "History of Philosophy Quarterly": 1
-   }
-  },
-  {
-   "book": "",
-   "page": 287,
-   "section": "d",
-   "count": 7,
-   "articles": 5,
-   "by_journal": {
-    "Phronesis": 5,
-    "Classical Philology": 1,
-    "The Classical Review": 1
-   }
-  },
-  {
-   "book": "",
-   "page": 287,
-   "section": "e",
-   "count": 7,
-   "articles": 7,
-   "by_journal": {
-    "Phronesis": 5,
-    "Revue de Philosophie Ancienne": 1,
-    "The Classical Review": 1
-   }
-  },
-  {
-   "book": "",
-   "page": 288,
-   "section": "a",
-   "count": 9,
-   "articles": 4,
-   "by_journal": {
-    "Phronesis": 7,
-    "The Classical Quarterly": 1,
+    "Phronesis": 2,
     "Classical Philology": 1
    }
   },
   {
    "book": "",
-   "page": 288,
-   "section": "b",
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Phronesis": 1
-   }
-  },
-  {
-   "book": "",
-   "page": 288,
-   "section": "c",
+   "page": 303,
+   "section": "a",
+   "band": 0,
    "count": 2,
    "articles": 2,
    "by_journal": {
@@ -358,678 +1495,125 @@
   },
   {
    "book": "",
-   "page": 288,
-   "section": "e",
-   "count": 1,
-   "articles": 1,
+   "page": 303,
+   "section": "b",
+   "band": 0,
+   "count": 4,
+   "articles": 4,
    "by_journal": {
-    "Phronesis": 1
+    "The Classical Quarterly": 1,
+    "Phronesis": 2,
+    "The American Journal of Philology": 1
    }
   },
   {
    "book": "",
-   "page": 289,
+   "page": 303,
+   "section": "c",
+   "band": 0,
+   "count": 5,
+   "articles": 5,
+   "by_journal": {
+    "Phronesis": 2,
+    "The American Journal of Philology": 1,
+    "The Journal of Religion": 1,
+    "Mnemosyne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 303,
+   "section": "d",
+   "band": 0,
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "Phronesis": 2,
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 303,
+   "section": "e",
+   "band": 0,
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 1,
+    "Méthexis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 304,
    "section": "a",
+   "band": 0,
    "count": 3,
    "articles": 3,
    "by_journal": {
     "History of Philosophy Quarterly": 1,
-    "The Classical Quarterly": 1,
-    "Phronesis": 1
-   }
-  },
-  {
-   "book": "",
-   "page": 289,
-   "section": "b",
-   "count": 2,
-   "articles": 2,
-   "by_journal": {
     "Phronesis": 1,
-    "Classical Philology": 1
+    "Harvard Studies in Classical Philology": 1
    }
   },
   {
    "book": "",
-   "page": 289,
+   "page": 304,
+   "section": "b",
+   "band": 0,
+   "count": 4,
+   "articles": 3,
+   "by_journal": {
+    "History of Philosophy Quarterly": 1,
+    "Phronesis": 2,
+    "Mnemosyne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 304,
    "section": "c",
-   "count": 5,
+   "band": 0,
+   "count": 6,
    "articles": 5,
    "by_journal": {
+    "History of Philosophy Quarterly": 1,
+    "Phronesis": 2,
+    "Harvard Studies in Classical Philology": 1,
+    "The Journal of Religion": 1,
+    "Hermes": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 304,
+   "section": "d",
+   "band": 0,
+   "count": 9,
+   "articles": 9,
+   "by_journal": {
+    "History of Philosophy Quarterly": 3,
+    "Revue de Philosophie Ancienne": 1,
     "Phronesis": 3,
     "Revue Internationale de Philosophie": 1,
-    "Revue de Philosophie Ancienne": 1
+    "Hermes": 1
    }
   },
   {
    "book": "",
-   "page": 289,
-   "section": "d",
-   "count": 6,
-   "articles": 5,
-   "by_journal": {
-    "Phronesis": 5,
-    "Les Études philosophiques": 1
-   }
-  },
-  {
-   "book": "",
-   "page": 290,
-   "section": "b",
-   "count": 3,
-   "articles": 1,
-   "by_journal": {
-    "Phronesis": 3
-   }
-  },
-  {
-   "book": "",
-   "page": 290,
-   "section": "d",
-   "count": 2,
-   "articles": 1,
-   "by_journal": {
-    "Phronesis": 2
-   }
-  },
-  {
-   "book": "",
-   "page": 290,
+   "page": 304,
    "section": "e",
-   "count": 1,
-   "articles": 1,
+   "band": 0,
+   "count": 9,
+   "articles": 9,
    "by_journal": {
-    "The Classical Quarterly": 1
-   }
-  },
-  {
-   "book": "",
-   "page": 291,
-   "section": "a",
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical Review": 1
-   }
-  },
-  {
-   "book": "",
-   "page": 291,
-   "section": "c",
-   "count": 4,
-   "articles": 1,
-   "by_journal": {
-    "Phronesis": 4
-   }
-  },
-  {
-   "book": "",
-   "page": 291,
-   "section": "d",
-   "count": 3,
-   "articles": 1,
-   "by_journal": {
-    "Phronesis": 3
-   }
-  },
-  {
-   "book": "",
-   "page": 292,
-   "section": "a",
-   "count": 3,
-   "articles": 3,
-   "by_journal": {
+    "History of Philosophy Quarterly": 3,
     "Revue de Philosophie Ancienne": 1,
-    "Classical Philology": 1,
-    "The Classical Quarterly": 1
-   }
-  },
-  {
-   "book": "",
-   "page": 292,
-   "section": "b",
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical Review": 1
-   }
-  },
-  {
-   "book": "",
-   "page": 292,
-   "section": "c",
-   "count": 2,
-   "articles": 2,
-   "by_journal": {
-    "The Classical Quarterly": 1,
-    "Phronesis": 1
-   }
-  },
-  {
-   "book": "",
-   "page": 292,
-   "section": "d",
-   "count": 3,
-   "articles": 3,
-   "by_journal": {
-    "The Classical Quarterly": 2,
-    "Phronesis": 1
-   }
-  },
-  {
-   "book": "",
-   "page": 292,
-   "section": "e",
-   "count": 5,
-   "articles": 5,
-   "by_journal": {
-    "The Classical Quarterly": 1,
-    "The Classical Review": 2,
-    "History of Philosophy Quarterly": 1,
-    "Phronesis": 1
-   }
-  },
-  {
-   "book": "",
-   "page": 293,
-   "section": "a",
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical Review": 1
-   }
-  },
-  {
-   "book": "",
-   "page": 293,
-   "section": "b",
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Phronesis": 1
-   }
-  },
-  {
-   "book": "",
-   "page": 293,
-   "section": "c",
-   "count": 3,
-   "articles": 1,
-   "by_journal": {
-    "Phronesis": 3
-   }
-  },
-  {
-   "book": "",
-   "page": 293,
-   "section": "d",
-   "count": 3,
-   "articles": 1,
-   "by_journal": {
-    "Phronesis": 3
-   }
-  },
-  {
-   "book": "",
-   "page": 293,
-   "section": "e",
-   "count": 4,
-   "articles": 4,
-   "by_journal": {
-    "Classical Philology": 1,
-    "The Classical Quarterly": 1,
-    "Phronesis": 1,
-    "Méthexis": 1
-   }
-  },
-  {
-   "book": "",
-   "page": 294,
-   "section": "a",
-   "count": 5,
-   "articles": 4,
-   "by_journal": {
-    "Phronesis": 3,
-    "Classical Philology": 1,
-    "The Classical Quarterly": 1
-   }
-  },
-  {
-   "book": "",
-   "page": 294,
-   "section": "b",
-   "count": 2,
-   "articles": 2,
-   "by_journal": {
-    "Phronesis": 1,
-    "The Classical Quarterly": 1
-   }
-  },
-  {
-   "book": "",
-   "page": 294,
-   "section": "c",
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Phronesis": 1
-   }
-  },
-  {
-   "book": "",
-   "page": 294,
-   "section": "e",
-   "count": 2,
-   "articles": 1,
-   "by_journal": {
-    "Phronesis": 2
-   }
-  },
-  {
-   "book": "",
-   "page": 295,
-   "section": "a",
-   "count": 5,
-   "articles": 5,
-   "by_journal": {
-    "Classical Philology": 1,
-    "The Classical Quarterly": 3,
-    "Phronesis": 1
-   }
-  },
-  {
-   "book": "",
-   "page": 295,
-   "section": "c",
-   "count": 4,
-   "articles": 3,
-   "by_journal": {
-    "The Classical Quarterly": 1,
     "Phronesis": 2,
-    "Méthexis": 1
-   }
-  },
-  {
-   "book": "",
-   "page": 295,
-   "section": "d",
-   "count": 4,
-   "articles": 2,
-   "by_journal": {
-    "The Classical Quarterly": 1,
-    "Phronesis": 3
-   }
-  },
-  {
-   "book": "",
-   "page": 296,
-   "section": "d",
-   "count": 3,
-   "articles": 1,
-   "by_journal": {
-    "The Classical Quarterly": 3
-   }
-  },
-  {
-   "book": "",
-   "page": 296,
-   "section": "e",
-   "count": 4,
-   "articles": 4,
-   "by_journal": {
-    "Classical Philology": 1,
-    "Phronesis": 2,
-    "Méthexis": 1
-   }
-  },
-  {
-   "book": "",
-   "page": 297,
-   "section": "a",
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Classical Philology": 1
-   }
-  },
-  {
-   "book": "",
-   "page": 297,
-   "section": "b",
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Classical Philology": 1
-   }
-  },
-  {
-   "book": "",
-   "page": 297,
-   "section": "c",
-   "count": 3,
-   "articles": 3,
-   "by_journal": {
-    "Phronesis": 2,
-    "Classical Philology": 1
-   }
-  },
-  {
-   "book": "",
-   "page": 297,
-   "section": "d",
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Phronesis": 1
-   }
-  },
-  {
-   "book": "",
-   "page": 297,
-   "section": "e",
-   "count": 3,
-   "articles": 3,
-   "by_journal": {
-    "Phronesis": 2,
-    "Revue de Philosophie Ancienne": 1
-   }
-  },
-  {
-   "book": "",
-   "page": 298,
-   "section": "a",
-   "count": 7,
-   "articles": 5,
-   "by_journal": {
-    "The Classical Review": 1,
-    "Phronesis": 3,
-    "The Classical Quarterly": 3
-   }
-  },
-  {
-   "book": "",
-   "page": 298,
-   "section": "b",
-   "count": 2,
-   "articles": 2,
-   "by_journal": {
-    "History of Philosophy Quarterly": 1,
-    "The Classical Quarterly": 1
-   }
-  },
-  {
-   "book": "",
-   "page": 298,
-   "section": "c",
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Classical Philology": 1
-   }
-  },
-  {
-   "book": "",
-   "page": 298,
-   "section": "d",
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Classical Philology": 1
-   }
-  },
-  {
-   "book": "",
-   "page": 298,
-   "section": "e",
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Phronesis": 1
-   }
-  },
-  {
-   "book": "",
-   "page": 299,
-   "section": "a",
-   "count": 3,
-   "articles": 3,
-   "by_journal": {
-    "Classical Philology": 1,
-    "Les Études philosophiques": 1,
-    "Phronesis": 1
-   }
-  },
-  {
-   "book": "",
-   "page": 299,
-   "section": "c",
-   "count": 2,
-   "articles": 2,
-   "by_journal": {
-    "The Classical Quarterly": 1,
-    "Revue de Philosophie Ancienne": 1
-   }
-  },
-  {
-   "book": "",
-   "page": 299,
-   "section": "d",
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Méthexis": 1
-   }
-  },
-  {
-   "book": "",
-   "page": 299,
-   "section": "e",
-   "count": 4,
-   "articles": 3,
-   "by_journal": {
-    "Phronesis": 3,
-    "Classical Philology": 1
-   }
-  },
-  {
-   "book": "",
-   "page": 300,
-   "section": "a",
-   "count": 4,
-   "articles": 3,
-   "by_journal": {
-    "The Classical Quarterly": 2,
-    "Classical Philology": 1,
-    "Phronesis": 1
-   }
-  },
-  {
-   "book": "",
-   "page": 300,
-   "section": "b",
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Phronesis": 1
-   }
-  },
-  {
-   "book": "",
-   "page": 300,
-   "section": "d",
-   "count": 3,
-   "articles": 3,
-   "by_journal": {
-    "The Classical Review": 2,
-    "The Classical Quarterly": 1
-   }
-  },
-  {
-   "book": "",
-   "page": 300,
-   "section": "e",
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Phronesis": 1
-   }
-  },
-  {
-   "book": "",
-   "page": 301,
-   "section": "a",
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Phronesis": 1
-   }
-  },
-  {
-   "book": "",
-   "page": 301,
-   "section": "b",
-   "count": 4,
-   "articles": 4,
-   "by_journal": {
-    "The Classical Review": 2,
-    "Classical Philology": 2
-   }
-  },
-  {
-   "book": "",
-   "page": 301,
-   "section": "d",
-   "count": 2,
-   "articles": 2,
-   "by_journal": {
-    "Phronesis": 2
-   }
-  },
-  {
-   "book": "",
-   "page": 302,
-   "section": "a",
-   "count": 3,
-   "articles": 3,
-   "by_journal": {
-    "The Classical Quarterly": 1,
-    "Classical Philology": 1,
-    "Phronesis": 1
-   }
-  },
-  {
-   "book": "",
-   "page": 302,
-   "section": "d",
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Phronesis": 1
-   }
-  },
-  {
-   "book": "",
-   "page": 302,
-   "section": "e",
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Classical Philology": 1
-   }
-  },
-  {
-   "book": "",
-   "page": 303,
-   "section": "a",
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Phronesis": 1
-   }
-  },
-  {
-   "book": "",
-   "page": 303,
-   "section": "b",
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical Quarterly": 1
-   }
-  },
-  {
-   "book": "",
-   "page": 303,
-   "section": "d",
-   "count": 2,
-   "articles": 2,
-   "by_journal": {
-    "Phronesis": 1,
-    "The Classical Quarterly": 1
-   }
-  },
-  {
-   "book": "",
-   "page": 303,
-   "section": "e",
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Méthexis": 1
-   }
-  },
-  {
-   "book": "",
-   "page": 304,
-   "section": "a",
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "History of Philosophy Quarterly": 1
-   }
-  },
-  {
-   "book": "",
-   "page": 304,
-   "section": "b",
-   "count": 2,
-   "articles": 2,
-   "by_journal": {
-    "History of Philosophy Quarterly": 1,
-    "Phronesis": 1
-   }
-  },
-  {
-   "book": "",
-   "page": 304,
-   "section": "c",
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Phronesis": 1
-   }
-  },
-  {
-   "book": "",
-   "page": 304,
-   "section": "d",
-   "count": 6,
-   "articles": 6,
-   "by_journal": {
-    "Revue de Philosophie Ancienne": 1,
-    "History of Philosophy Quarterly": 2,
-    "Phronesis": 2,
-    "Revue Internationale de Philosophie": 1
-   }
-  },
-  {
-   "book": "",
-   "page": 304,
-   "section": "e",
-   "count": 2,
-   "articles": 1,
-   "by_journal": {
-    "Phronesis": 2
+    "Revue Internationale de Philosophie": 1,
+    "Illinois Classical Studies": 1,
+    "Transactions and Proceedings of the American Philological Association": 1
    }
   }
  ],
@@ -1084,8 +1668,92 @@
   },
   {
    "book": "",
+   "page": 304,
+   "section": "c",
+   "line": null,
+   "journal": "History of Philosophy Quarterly",
+   "year": "1985",
+   "iid": "0961643d-a560-3abd-ba36-0a4a1512f410",
+   "doi": "10.2307/27743716",
+   "title": "The Socratic Conception of Courage",
+   "author": "W. Thomas Schmid"
+  },
+  {
+   "book": "",
+   "page": 304,
+   "section": "d",
+   "line": null,
+   "journal": "History of Philosophy Quarterly",
+   "year": "1985",
+   "iid": "0961643d-a560-3abd-ba36-0a4a1512f410",
+   "doi": "10.2307/27743716",
+   "title": "The Socratic Conception of Courage",
+   "author": "W. Thomas Schmid"
+  },
+  {
+   "book": "",
+   "page": 304,
+   "section": "e",
+   "line": null,
+   "journal": "History of Philosophy Quarterly",
+   "year": "1985",
+   "iid": "0961643d-a560-3abd-ba36-0a4a1512f410",
+   "doi": "10.2307/27743716",
+   "title": "The Socratic Conception of Courage",
+   "author": "W. Thomas Schmid"
+  },
+  {
+   "book": "",
+   "page": 281,
+   "section": "a",
+   "line": 1,
+   "journal": "The Classical Quarterly",
+   "year": "2017",
+   "iid": "0bde57c6-532f-3ef7-a70a-90551fe59488",
+   "doi": "10.2307/26546347",
+   "title": "‘HIPPIAS, HANDSOME AND WISE’",
+   "author": "PIERRE DESTRÉE"
+  },
+  {
+   "book": "",
+   "page": 283,
+   "section": "c",
+   "line": 4,
+   "journal": "The Classical Quarterly",
+   "year": "2017",
+   "iid": "0bde57c6-532f-3ef7-a70a-90551fe59488",
+   "doi": "10.2307/26546347",
+   "title": "‘HIPPIAS, HANDSOME AND WISE’",
+   "author": "PIERRE DESTRÉE"
+  },
+  {
+   "book": "",
+   "page": 286,
+   "section": "a",
+   "line": 3,
+   "journal": "The Classical Quarterly",
+   "year": "2017",
+   "iid": "0bde57c6-532f-3ef7-a70a-90551fe59488",
+   "doi": "10.2307/26546347",
+   "title": "‘HIPPIAS, HANDSOME AND WISE’",
+   "author": "PIERRE DESTRÉE"
+  },
+  {
+   "book": "",
    "page": 281,
    "section": "d",
+   "line": 5,
+   "journal": "The Classical Quarterly",
+   "year": "2017",
+   "iid": "0bde57c6-532f-3ef7-a70a-90551fe59488",
+   "doi": "10.2307/26546347",
+   "title": "‘HIPPIAS, HANDSOME AND WISE’",
+   "author": "PIERRE DESTRÉE"
+  },
+  {
+   "book": "",
+   "page": 282,
+   "section": "b",
    "line": 5,
    "journal": "The Classical Quarterly",
    "year": "2017",
@@ -1108,44 +1776,32 @@
   },
   {
    "book": "",
-   "page": 281,
-   "section": "a",
-   "line": 1,
-   "journal": "The Classical Quarterly",
-   "year": "2017",
-   "iid": "0bde57c6-532f-3ef7-a70a-90551fe59488",
-   "doi": "10.2307/26546347",
-   "title": "‘HIPPIAS, HANDSOME AND WISE’",
-   "author": "PIERRE DESTRÉE"
-  },
-  {
-   "book": "",
-   "page": 286,
-   "section": "a",
-   "line": 3,
-   "journal": "The Classical Quarterly",
-   "year": "2017",
-   "iid": "0bde57c6-532f-3ef7-a70a-90551fe59488",
-   "doi": "10.2307/26546347",
-   "title": "‘HIPPIAS, HANDSOME AND WISE’",
-   "author": "PIERRE DESTRÉE"
-  },
-  {
-   "book": "",
-   "page": 282,
-   "section": "b",
-   "line": 5,
-   "journal": "The Classical Quarterly",
-   "year": "2017",
-   "iid": "0bde57c6-532f-3ef7-a70a-90551fe59488",
-   "doi": "10.2307/26546347",
-   "title": "‘HIPPIAS, HANDSOME AND WISE’",
-   "author": "PIERRE DESTRÉE"
+   "page": 300,
+   "section": "d",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1985",
+   "iid": "0f49c79f-6d89-32e1-8abf-6bf617434c97",
+   "doi": "10.2307/3063763",
+   "title": "",
+   "author": "J. L. Creed, H. D. Rankin"
   },
   {
    "book": "",
    "page": 300,
-   "section": "d",
+   "section": "e",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1985",
+   "iid": "0f49c79f-6d89-32e1-8abf-6bf617434c97",
+   "doi": "10.2307/3063763",
+   "title": "",
+   "author": "J. L. Creed, H. D. Rankin"
+  },
+  {
+   "book": "",
+   "page": 301,
+   "section": "a",
    "line": null,
    "journal": "The Classical Review",
    "year": "1985",
@@ -1182,6 +1838,30 @@
    "book": "",
    "page": 286,
    "section": "c",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1988",
+   "iid": "1597495e-d1b8-3609-801d-398310e6c267",
+   "doi": "10.2307/4182305",
+   "title": "Plato and Lit. Crit.",
+   "author": "G. R. F. Ferrari, R. B. Rutherford"
+  },
+  {
+   "book": "",
+   "page": 286,
+   "section": "c",
+   "line": null,
+   "journal": "History of Philosophy Quarterly",
+   "year": "1984",
+   "iid": "1b6508ce-6a9d-3a36-9d9a-a9a38a5973a5",
+   "doi": "10.2307/27743673",
+   "title": "The Paradox of Socratic Ignorance in Plato's Apology",
+   "author": "Thomas C. Brickhouse, Nicholas D. Smith"
+  },
+  {
+   "book": "",
+   "page": 286,
+   "section": "d",
    "line": null,
    "journal": "History of Philosophy Quarterly",
    "year": "1984",
@@ -1242,30 +1922,6 @@
    "book": "",
    "page": 287,
    "section": "c",
-   "line": 1,
-   "journal": "Phronesis",
-   "year": "1978",
-   "iid": "1ea62929-09aa-37ec-957e-35990ab43082",
-   "doi": "10.2307/4182034",
-   "title": "Socrates and Ontology: The Evidence of the \"Hippias Major\"",
-   "author": "Paul Woodruff"
-  },
-  {
-   "book": "",
-   "page": 287,
-   "section": "d",
-   "line": 2,
-   "journal": "Phronesis",
-   "year": "1978",
-   "iid": "1ea62929-09aa-37ec-957e-35990ab43082",
-   "doi": "10.2307/4182034",
-   "title": "Socrates and Ontology: The Evidence of the \"Hippias Major\"",
-   "author": "Paul Woodruff"
-  },
-  {
-   "book": "",
-   "page": 287,
-   "section": "c",
    "line": 4,
    "journal": "Phronesis",
    "year": "1978",
@@ -1288,9 +1944,9 @@
   },
   {
    "book": "",
-   "page": 289,
-   "section": "d",
-   "line": 2,
+   "page": 288,
+   "section": "a",
+   "line": 6,
    "journal": "Phronesis",
    "year": "1978",
    "iid": "1ea62929-09aa-37ec-957e-35990ab43082",
@@ -1300,9 +1956,9 @@
   },
   {
    "book": "",
-   "page": 288,
-   "section": "a",
-   "line": 6,
+   "page": 289,
+   "section": "d",
+   "line": 2,
    "journal": "Phronesis",
    "year": "1978",
    "iid": "1ea62929-09aa-37ec-957e-35990ab43082",
@@ -1350,7 +2006,7 @@
    "book": "",
    "page": 294,
    "section": "c",
-   "line": 8,
+   "line": null,
    "journal": "Phronesis",
    "year": "1978",
    "iid": "1ea62929-09aa-37ec-957e-35990ab43082",
@@ -1360,9 +2016,9 @@
   },
   {
    "book": "",
-   "page": 299,
-   "section": "e",
-   "line": 4,
+   "page": 294,
+   "section": "d",
+   "line": null,
    "journal": "Phronesis",
    "year": "1978",
    "iid": "1ea62929-09aa-37ec-957e-35990ab43082",
@@ -1375,6 +2031,18 @@
    "page": 294,
    "section": "a",
    "line": null,
+   "journal": "Phronesis",
+   "year": "1978",
+   "iid": "1ea62929-09aa-37ec-957e-35990ab43082",
+   "doi": "10.2307/4182034",
+   "title": "Socrates and Ontology: The Evidence of the \"Hippias Major\"",
+   "author": "Paul Woodruff"
+  },
+  {
+   "book": "",
+   "page": 299,
+   "section": "e",
+   "line": 4,
    "journal": "Phronesis",
    "year": "1978",
    "iid": "1ea62929-09aa-37ec-957e-35990ab43082",
@@ -1468,6 +2136,126 @@
   },
   {
    "book": "",
+   "page": 281,
+   "section": "b",
+   "line": null,
+   "journal": "History of Philosophy Quarterly",
+   "year": "2016",
+   "iid": "23913065-e1c4-3f73-b76d-55d980fe861c",
+   "doi": "10.2307/44076604",
+   "title": "SOCRATES ON EDUCATIONAL SUCCESS",
+   "author": "Shigeru Yonezawa"
+  },
+  {
+   "book": "",
+   "page": 281,
+   "section": "c",
+   "line": null,
+   "journal": "History of Philosophy Quarterly",
+   "year": "2016",
+   "iid": "23913065-e1c4-3f73-b76d-55d980fe861c",
+   "doi": "10.2307/44076604",
+   "title": "SOCRATES ON EDUCATIONAL SUCCESS",
+   "author": "Shigeru Yonezawa"
+  },
+  {
+   "book": "",
+   "page": 281,
+   "section": "d",
+   "line": null,
+   "journal": "History of Philosophy Quarterly",
+   "year": "2016",
+   "iid": "23913065-e1c4-3f73-b76d-55d980fe861c",
+   "doi": "10.2307/44076604",
+   "title": "SOCRATES ON EDUCATIONAL SUCCESS",
+   "author": "Shigeru Yonezawa"
+  },
+  {
+   "book": "",
+   "page": 281,
+   "section": "e",
+   "line": null,
+   "journal": "History of Philosophy Quarterly",
+   "year": "2016",
+   "iid": "23913065-e1c4-3f73-b76d-55d980fe861c",
+   "doi": "10.2307/44076604",
+   "title": "SOCRATES ON EDUCATIONAL SUCCESS",
+   "author": "Shigeru Yonezawa"
+  },
+  {
+   "book": "",
+   "page": 282,
+   "section": "a",
+   "line": null,
+   "journal": "History of Philosophy Quarterly",
+   "year": "2016",
+   "iid": "23913065-e1c4-3f73-b76d-55d980fe861c",
+   "doi": "10.2307/44076604",
+   "title": "SOCRATES ON EDUCATIONAL SUCCESS",
+   "author": "Shigeru Yonezawa"
+  },
+  {
+   "book": "",
+   "page": 282,
+   "section": "b",
+   "line": null,
+   "journal": "History of Philosophy Quarterly",
+   "year": "2016",
+   "iid": "23913065-e1c4-3f73-b76d-55d980fe861c",
+   "doi": "10.2307/44076604",
+   "title": "SOCRATES ON EDUCATIONAL SUCCESS",
+   "author": "Shigeru Yonezawa"
+  },
+  {
+   "book": "",
+   "page": 282,
+   "section": "c",
+   "line": null,
+   "journal": "History of Philosophy Quarterly",
+   "year": "2016",
+   "iid": "23913065-e1c4-3f73-b76d-55d980fe861c",
+   "doi": "10.2307/44076604",
+   "title": "SOCRATES ON EDUCATIONAL SUCCESS",
+   "author": "Shigeru Yonezawa"
+  },
+  {
+   "book": "",
+   "page": 282,
+   "section": "d",
+   "line": null,
+   "journal": "History of Philosophy Quarterly",
+   "year": "2016",
+   "iid": "23913065-e1c4-3f73-b76d-55d980fe861c",
+   "doi": "10.2307/44076604",
+   "title": "SOCRATES ON EDUCATIONAL SUCCESS",
+   "author": "Shigeru Yonezawa"
+  },
+  {
+   "book": "",
+   "page": 282,
+   "section": "e",
+   "line": null,
+   "journal": "History of Philosophy Quarterly",
+   "year": "2016",
+   "iid": "23913065-e1c4-3f73-b76d-55d980fe861c",
+   "doi": "10.2307/44076604",
+   "title": "SOCRATES ON EDUCATIONAL SUCCESS",
+   "author": "Shigeru Yonezawa"
+  },
+  {
+   "book": "",
+   "page": 283,
+   "section": "a",
+   "line": null,
+   "journal": "History of Philosophy Quarterly",
+   "year": "2016",
+   "iid": "23913065-e1c4-3f73-b76d-55d980fe861c",
+   "doi": "10.2307/44076604",
+   "title": "SOCRATES ON EDUCATIONAL SUCCESS",
+   "author": "Shigeru Yonezawa"
+  },
+  {
+   "book": "",
    "page": 283,
    "section": "b",
    "line": null,
@@ -1518,7 +2306,31 @@
    "book": "",
    "page": 287,
    "section": "b",
-   "line": 4,
+   "line": null,
+   "journal": "Phronesis",
+   "year": "2018",
+   "iid": "23d25755-599a-39df-a0dc-16fc636b83d2",
+   "doi": "10.2307/26566216",
+   "title": "Plato's Geach Talks to Socrates",
+   "author": "Vasilis Politis"
+  },
+  {
+   "book": "",
+   "page": 287,
+   "section": "c",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "2018",
+   "iid": "23d25755-599a-39df-a0dc-16fc636b83d2",
+   "doi": "10.2307/26566216",
+   "title": "Plato's Geach Talks to Socrates",
+   "author": "Vasilis Politis"
+  },
+  {
+   "book": "",
+   "page": 287,
+   "section": "d",
+   "line": null,
    "journal": "Phronesis",
    "year": "2018",
    "iid": "23d25755-599a-39df-a0dc-16fc636b83d2",
@@ -1530,6 +2342,30 @@
    "book": "",
    "page": 286,
    "section": "c",
+   "line": null,
+   "journal": "History of Philosophy Quarterly",
+   "year": "1995",
+   "iid": "2c44d1bc-e529-32d7-a79a-ac8e072324c3",
+   "doi": "10.2307/27744664",
+   "title": "How to Discriminate between Experts and Frauds: Some Problems for Socratic Peirastic",
+   "author": "Jyl Gentzler"
+  },
+  {
+   "book": "",
+   "page": 286,
+   "section": "d",
+   "line": null,
+   "journal": "History of Philosophy Quarterly",
+   "year": "1995",
+   "iid": "2c44d1bc-e529-32d7-a79a-ac8e072324c3",
+   "doi": "10.2307/27744664",
+   "title": "How to Discriminate between Experts and Frauds: Some Problems for Socratic Peirastic",
+   "author": "Jyl Gentzler"
+  },
+  {
+   "book": "",
+   "page": 286,
+   "section": "e",
    "line": null,
    "journal": "History of Philosophy Quarterly",
    "year": "1995",
@@ -1564,8 +2400,44 @@
   },
   {
    "book": "",
+   "page": 286,
+   "section": "d",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2022",
+   "iid": "353e3723-b29a-3c0e-9e47-74b1a6544150",
+   "doi": "10.2307/27264529",
+   "title": "ASKÊSIS, GENÈSE DE LAVERTU ET EXEMPLARITÉ DE SOCRATE CHEZ PLATON ET XÉNOPHON",
+   "author": "Louis-André DORION"
+  },
+  {
+   "book": "",
+   "page": 286,
+   "section": "e",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2022",
+   "iid": "353e3723-b29a-3c0e-9e47-74b1a6544150",
+   "doi": "10.2307/27264529",
+   "title": "ASKÊSIS, GENÈSE DE LAVERTU ET EXEMPLARITÉ DE SOCRATE CHEZ PLATON ET XÉNOPHON",
+   "author": "Louis-André DORION"
+  },
+  {
+   "book": "",
    "page": 304,
    "section": "d",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2022",
+   "iid": "353e3723-b29a-3c0e-9e47-74b1a6544150",
+   "doi": "10.2307/27264529",
+   "title": "ASKÊSIS, GENÈSE DE LAVERTU ET EXEMPLARITÉ DE SOCRATE CHEZ PLATON ET XÉNOPHON",
+   "author": "Louis-André DORION"
+  },
+  {
+   "book": "",
+   "page": 304,
+   "section": "e",
    "line": null,
    "journal": "Revue de Philosophie Ancienne",
    "year": "2022",
@@ -1602,6 +2474,30 @@
    "book": "",
    "page": 289,
    "section": "a",
+   "line": null,
+   "journal": "History of Philosophy Quarterly",
+   "year": "1996",
+   "iid": "36cc43a8-1302-38ba-b3d4-a04d6d8ae95c",
+   "doi": "10.2307/27744697",
+   "title": "\"To an Unhypothetical First Principle\" in Plato's \"Republic\"",
+   "author": "Dirk C. Baltzly"
+  },
+  {
+   "book": "",
+   "page": 289,
+   "section": "b",
+   "line": null,
+   "journal": "History of Philosophy Quarterly",
+   "year": "1996",
+   "iid": "36cc43a8-1302-38ba-b3d4-a04d6d8ae95c",
+   "doi": "10.2307/27744697",
+   "title": "\"To an Unhypothetical First Principle\" in Plato's \"Republic\"",
+   "author": "Dirk C. Baltzly"
+  },
+  {
+   "book": "",
+   "page": 289,
+   "section": "c",
    "line": null,
    "journal": "History of Philosophy Quarterly",
    "year": "1996",
@@ -1660,6 +2556,54 @@
   },
   {
    "book": "",
+   "page": 294,
+   "section": "b",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2010",
+   "iid": "3d2a870e-5d7e-3e55-a8ea-7f48b00d51d1",
+   "doi": "10.1086/657026",
+   "title": "Notes on Plato on the <em>Kalon</em> and the\nGood",
+   "author": "Rachel Barney"
+  },
+  {
+   "book": "",
+   "page": 294,
+   "section": "c",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2010",
+   "iid": "3d2a870e-5d7e-3e55-a8ea-7f48b00d51d1",
+   "doi": "10.1086/657026",
+   "title": "Notes on Plato on the <em>Kalon</em> and the\nGood",
+   "author": "Rachel Barney"
+  },
+  {
+   "book": "",
+   "page": 294,
+   "section": "d",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2010",
+   "iid": "3d2a870e-5d7e-3e55-a8ea-7f48b00d51d1",
+   "doi": "10.1086/657026",
+   "title": "Notes on Plato on the <em>Kalon</em> and the\nGood",
+   "author": "Rachel Barney"
+  },
+  {
+   "book": "",
+   "page": 294,
+   "section": "e",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2010",
+   "iid": "3d2a870e-5d7e-3e55-a8ea-7f48b00d51d1",
+   "doi": "10.1086/657026",
+   "title": "Notes on Plato on the <em>Kalon</em> and the\nGood",
+   "author": "Rachel Barney"
+  },
+  {
+   "book": "",
    "page": 295,
    "section": "a",
    "line": null,
@@ -1674,6 +2618,18 @@
    "book": "",
    "page": 287,
    "section": "c",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1998",
+   "iid": "3d2151cb-d737-344d-adca-6eea5d72d0da",
+   "doi": "10.2307/4182582",
+   "title": "Platonic Causes",
+   "author": "David Sedley"
+  },
+  {
+   "book": "",
+   "page": 287,
+   "section": "d",
    "line": null,
    "journal": "Phronesis",
    "year": "1998",
@@ -1720,8 +2676,80 @@
   },
   {
    "book": "",
-   "page": 303,
+   "page": 300,
+   "section": "b",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "2018",
+   "iid": "43e8a95d-9997-3ebc-a282-bf1bfceed2cb",
+   "doi": "10.2307/26566224",
+   "title": "The Razor Argument of <em>Metaphysics</em> Α.9",
+   "author": "José Edgar González-Varela"
+  },
+  {
+   "book": "",
+   "page": 300,
+   "section": "c",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "2018",
+   "iid": "43e8a95d-9997-3ebc-a282-bf1bfceed2cb",
+   "doi": "10.2307/26566224",
+   "title": "The Razor Argument of <em>Metaphysics</em> Α.9",
+   "author": "José Edgar González-Varela"
+  },
+  {
+   "book": "",
+   "page": 300,
    "section": "d",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "2018",
+   "iid": "43e8a95d-9997-3ebc-a282-bf1bfceed2cb",
+   "doi": "10.2307/26566224",
+   "title": "The Razor Argument of <em>Metaphysics</em> Α.9",
+   "author": "José Edgar González-Varela"
+  },
+  {
+   "book": "",
+   "page": 300,
+   "section": "e",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "2018",
+   "iid": "43e8a95d-9997-3ebc-a282-bf1bfceed2cb",
+   "doi": "10.2307/26566224",
+   "title": "The Razor Argument of <em>Metaphysics</em> Α.9",
+   "author": "José Edgar González-Varela"
+  },
+  {
+   "book": "",
+   "page": 301,
+   "section": "a",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "2018",
+   "iid": "43e8a95d-9997-3ebc-a282-bf1bfceed2cb",
+   "doi": "10.2307/26566224",
+   "title": "The Razor Argument of <em>Metaphysics</em> Α.9",
+   "author": "José Edgar González-Varela"
+  },
+  {
+   "book": "",
+   "page": 301,
+   "section": "b",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "2018",
+   "iid": "43e8a95d-9997-3ebc-a282-bf1bfceed2cb",
+   "doi": "10.2307/26566224",
+   "title": "The Razor Argument of <em>Metaphysics</em> Α.9",
+   "author": "José Edgar González-Varela"
+  },
+  {
+   "book": "",
+   "page": 301,
+   "section": "c",
    "line": null,
    "journal": "Phronesis",
    "year": "2018",
@@ -1734,7 +2762,7 @@
    "book": "",
    "page": 301,
    "section": "d",
-   "line": 6,
+   "line": null,
    "journal": "Phronesis",
    "year": "2018",
    "iid": "43e8a95d-9997-3ebc-a282-bf1bfceed2cb",
@@ -1744,8 +2772,116 @@
   },
   {
    "book": "",
-   "page": 300,
+   "page": 301,
+   "section": "e",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "2018",
+   "iid": "43e8a95d-9997-3ebc-a282-bf1bfceed2cb",
+   "doi": "10.2307/26566224",
+   "title": "The Razor Argument of <em>Metaphysics</em> Α.9",
+   "author": "José Edgar González-Varela"
+  },
+  {
+   "book": "",
+   "page": 302,
+   "section": "a",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "2018",
+   "iid": "43e8a95d-9997-3ebc-a282-bf1bfceed2cb",
+   "doi": "10.2307/26566224",
+   "title": "The Razor Argument of <em>Metaphysics</em> Α.9",
+   "author": "José Edgar González-Varela"
+  },
+  {
+   "book": "",
+   "page": 302,
    "section": "b",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "2018",
+   "iid": "43e8a95d-9997-3ebc-a282-bf1bfceed2cb",
+   "doi": "10.2307/26566224",
+   "title": "The Razor Argument of <em>Metaphysics</em> Α.9",
+   "author": "José Edgar González-Varela"
+  },
+  {
+   "book": "",
+   "page": 302,
+   "section": "c",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "2018",
+   "iid": "43e8a95d-9997-3ebc-a282-bf1bfceed2cb",
+   "doi": "10.2307/26566224",
+   "title": "The Razor Argument of <em>Metaphysics</em> Α.9",
+   "author": "José Edgar González-Varela"
+  },
+  {
+   "book": "",
+   "page": 302,
+   "section": "d",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "2018",
+   "iid": "43e8a95d-9997-3ebc-a282-bf1bfceed2cb",
+   "doi": "10.2307/26566224",
+   "title": "The Razor Argument of <em>Metaphysics</em> Α.9",
+   "author": "José Edgar González-Varela"
+  },
+  {
+   "book": "",
+   "page": 302,
+   "section": "e",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "2018",
+   "iid": "43e8a95d-9997-3ebc-a282-bf1bfceed2cb",
+   "doi": "10.2307/26566224",
+   "title": "The Razor Argument of <em>Metaphysics</em> Α.9",
+   "author": "José Edgar González-Varela"
+  },
+  {
+   "book": "",
+   "page": 303,
+   "section": "a",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "2018",
+   "iid": "43e8a95d-9997-3ebc-a282-bf1bfceed2cb",
+   "doi": "10.2307/26566224",
+   "title": "The Razor Argument of <em>Metaphysics</em> Α.9",
+   "author": "José Edgar González-Varela"
+  },
+  {
+   "book": "",
+   "page": 303,
+   "section": "b",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "2018",
+   "iid": "43e8a95d-9997-3ebc-a282-bf1bfceed2cb",
+   "doi": "10.2307/26566224",
+   "title": "The Razor Argument of <em>Metaphysics</em> Α.9",
+   "author": "José Edgar González-Varela"
+  },
+  {
+   "book": "",
+   "page": 303,
+   "section": "c",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "2018",
+   "iid": "43e8a95d-9997-3ebc-a282-bf1bfceed2cb",
+   "doi": "10.2307/26566224",
+   "title": "The Razor Argument of <em>Metaphysics</em> Α.9",
+   "author": "José Edgar González-Varela"
+  },
+  {
+   "book": "",
+   "page": 303,
+   "section": "d",
    "line": null,
    "journal": "Phronesis",
    "year": "2018",
@@ -1770,7 +2906,31 @@
    "book": "",
    "page": 286,
    "section": "c",
-   "line": 8,
+   "line": null,
+   "journal": "History of Philosophy Quarterly",
+   "year": "2013",
+   "iid": "50e574b7-a16d-34bf-ae10-a89c998b8ef6",
+   "doi": "10.2307/43488062",
+   "title": "SOCRATES ON PRACTICAL DELIBERATION",
+   "author": "Nicholas D. Smith"
+  },
+  {
+   "book": "",
+   "page": 286,
+   "section": "d",
+   "line": null,
+   "journal": "History of Philosophy Quarterly",
+   "year": "2013",
+   "iid": "50e574b7-a16d-34bf-ae10-a89c998b8ef6",
+   "doi": "10.2307/43488062",
+   "title": "SOCRATES ON PRACTICAL DELIBERATION",
+   "author": "Nicholas D. Smith"
+  },
+  {
+   "book": "",
+   "page": 286,
+   "section": "e",
+   "line": null,
    "journal": "History of Philosophy Quarterly",
    "year": "2013",
    "iid": "50e574b7-a16d-34bf-ae10-a89c998b8ef6",
@@ -1782,7 +2942,19 @@
    "book": "",
    "page": 304,
    "section": "d",
-   "line": 4,
+   "line": null,
+   "journal": "History of Philosophy Quarterly",
+   "year": "2013",
+   "iid": "50e574b7-a16d-34bf-ae10-a89c998b8ef6",
+   "doi": "10.2307/43488062",
+   "title": "SOCRATES ON PRACTICAL DELIBERATION",
+   "author": "Nicholas D. Smith"
+  },
+  {
+   "book": "",
+   "page": 304,
+   "section": "e",
+   "line": null,
    "journal": "History of Philosophy Quarterly",
    "year": "2013",
    "iid": "50e574b7-a16d-34bf-ae10-a89c998b8ef6",
@@ -1864,6 +3036,30 @@
   },
   {
    "book": "",
+   "page": 281,
+   "section": "d",
+   "line": null,
+   "journal": "Méthexis",
+   "year": "2011",
+   "iid": "5e2892d9-51c6-3413-920c-1dd365d13464",
+   "doi": "10.2307/43738842",
+   "title": "DES ARGUMENTS PROTAGORÉENS CONTRE LE CHANGEMENT. \"THÉÉTÈTE ET PHÉDON\"",
+   "author": "ANNE BALANSARD"
+  },
+  {
+   "book": "",
+   "page": 281,
+   "section": "e",
+   "line": null,
+   "journal": "Méthexis",
+   "year": "2011",
+   "iid": "5e2892d9-51c6-3413-920c-1dd365d13464",
+   "doi": "10.2307/43738842",
+   "title": "DES ARGUMENTS PROTAGORÉENS CONTRE LE CHANGEMENT. \"THÉÉTÈTE ET PHÉDON\"",
+   "author": "ANNE BALANSARD"
+  },
+  {
+   "book": "",
    "page": 282,
    "section": "a",
    "line": null,
@@ -1926,7 +3122,19 @@
    "book": "",
    "page": 304,
    "section": "d",
-   "line": 5,
+   "line": null,
+   "journal": "Phronesis",
+   "year": "2020",
+   "iid": "620e7294-5747-37b1-9157-e98ca3722753",
+   "doi": "10.2307/27073972",
+   "title": "Why Socrates' Legs Didn't Run Off to Megara",
+   "author": "Ellisif Wasmuth"
+  },
+  {
+   "book": "",
+   "page": 304,
+   "section": "e",
+   "line": null,
    "journal": "Phronesis",
    "year": "2020",
    "iid": "620e7294-5747-37b1-9157-e98ca3722753",
@@ -1985,7 +3193,55 @@
   {
    "book": "",
    "page": 281,
+   "section": "a",
+   "line": 1,
+   "journal": "The Classical Quarterly",
+   "year": "2017",
+   "iid": "6c57309d-4fef-3ffb-83da-3d421a1c7516",
+   "doi": "10.2307/26546346",
+   "title": "ARISTOPHANES’ <em>ACHARNIANS</em> 591–2",
+   "author": "NICHOLAS D. SMITH"
+  },
+  {
+   "book": "",
+   "page": 283,
+   "section": "c",
+   "line": 4,
+   "journal": "The Classical Quarterly",
+   "year": "2017",
+   "iid": "6c57309d-4fef-3ffb-83da-3d421a1c7516",
+   "doi": "10.2307/26546346",
+   "title": "ARISTOPHANES’ <em>ACHARNIANS</em> 591–2",
+   "author": "NICHOLAS D. SMITH"
+  },
+  {
+   "book": "",
+   "page": 286,
+   "section": "a",
+   "line": 3,
+   "journal": "The Classical Quarterly",
+   "year": "2017",
+   "iid": "6c57309d-4fef-3ffb-83da-3d421a1c7516",
+   "doi": "10.2307/26546346",
+   "title": "ARISTOPHANES’ <em>ACHARNIANS</em> 591–2",
+   "author": "NICHOLAS D. SMITH"
+  },
+  {
+   "book": "",
+   "page": 281,
    "section": "d",
+   "line": 5,
+   "journal": "The Classical Quarterly",
+   "year": "2017",
+   "iid": "6c57309d-4fef-3ffb-83da-3d421a1c7516",
+   "doi": "10.2307/26546346",
+   "title": "ARISTOPHANES’ <em>ACHARNIANS</em> 591–2",
+   "author": "NICHOLAS D. SMITH"
+  },
+  {
+   "book": "",
+   "page": 282,
+   "section": "b",
    "line": 5,
    "journal": "The Classical Quarterly",
    "year": "2017",
@@ -2008,44 +3264,20 @@
   },
   {
    "book": "",
-   "page": 281,
-   "section": "a",
-   "line": 1,
-   "journal": "The Classical Quarterly",
-   "year": "2017",
-   "iid": "6c57309d-4fef-3ffb-83da-3d421a1c7516",
-   "doi": "10.2307/26546346",
-   "title": "ARISTOPHANES’ <em>ACHARNIANS</em> 591–2",
-   "author": "NICHOLAS D. SMITH"
-  },
-  {
-   "book": "",
-   "page": 286,
-   "section": "a",
-   "line": 3,
-   "journal": "The Classical Quarterly",
-   "year": "2017",
-   "iid": "6c57309d-4fef-3ffb-83da-3d421a1c7516",
-   "doi": "10.2307/26546346",
-   "title": "ARISTOPHANES’ <em>ACHARNIANS</em> 591–2",
-   "author": "NICHOLAS D. SMITH"
-  },
-  {
-   "book": "",
-   "page": 282,
-   "section": "b",
-   "line": 5,
-   "journal": "The Classical Quarterly",
-   "year": "2017",
-   "iid": "6c57309d-4fef-3ffb-83da-3d421a1c7516",
-   "doi": "10.2307/26546346",
-   "title": "ARISTOPHANES’ <em>ACHARNIANS</em> 591–2",
-   "author": "NICHOLAS D. SMITH"
-  },
-  {
-   "book": "",
    "page": 286,
    "section": "d",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2019",
+   "iid": "757c0758-bff1-39a9-a6b6-a49684bceeb1",
+   "doi": "10.2307/26731343",
+   "title": "<em>RÉPUBLIQUE</em> VII 537D-539D",
+   "author": "Anthony Bonnemaison"
+  },
+  {
+   "book": "",
+   "page": 286,
+   "section": "e",
    "line": null,
    "journal": "Revue de Philosophie Ancienne",
    "year": "2019",
@@ -2104,8 +3336,8 @@
   },
   {
    "book": "",
-   "page": 287,
-   "section": "d",
+   "page": 286,
+   "section": "b",
    "line": null,
    "journal": "The Classical Review",
    "year": "1903",
@@ -2116,8 +3348,8 @@
   },
   {
    "book": "",
-   "page": 286,
-   "section": "b",
+   "page": 287,
+   "section": "d",
    "line": null,
    "journal": "The Classical Review",
    "year": "1903",
@@ -2166,6 +3398,18 @@
    "book": "",
    "page": 295,
    "section": "a",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1990",
+   "iid": "83f5bfd4-c3c4-3ed5-87df-3163396f4fda",
+   "doi": "10.2307/639098",
+   "title": "Socrates' Iolaos: Myth and Eristic in Plato's Euthydemus",
+   "author": "Robin Jackson"
+  },
+  {
+   "book": "",
+   "page": 295,
+   "section": "b",
    "line": null,
    "journal": "The Classical Quarterly",
    "year": "1990",
@@ -2238,7 +3482,19 @@
    "book": "",
    "page": 282,
    "section": "b",
-   "line": 7,
+   "line": null,
+   "journal": "Phronesis",
+   "year": "2019",
+   "iid": "8aabed1f-8eb5-306f-bdce-28f98a6ccaef",
+   "doi": "10.2307/26832221",
+   "title": "Is Plato an Innatist in the <em>Meno</em>?",
+   "author": "David Bronstein, Whitney Schwab"
+  },
+  {
+   "book": "",
+   "page": 282,
+   "section": "c",
+   "line": null,
    "journal": "Phronesis",
    "year": "2019",
    "iid": "8aabed1f-8eb5-306f-bdce-28f98a6ccaef",
@@ -2320,6 +3576,30 @@
   },
   {
    "book": "",
+   "page": 281,
+   "section": "e",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1926",
+   "iid": "8efae639-7315-344c-aa0f-dda73db90442",
+   "doi": "10.2307/635772",
+   "title": "On the Authenticity of the Hippias Maior",
+   "author": "G. M. A. Grube"
+  },
+  {
+   "book": "",
+   "page": 282,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1926",
+   "iid": "8efae639-7315-344c-aa0f-dda73db90442",
+   "doi": "10.2307/635772",
+   "title": "On the Authenticity of the Hippias Maior",
+   "author": "G. M. A. Grube"
+  },
+  {
+   "book": "",
    "page": 282,
    "section": "b",
    "line": null,
@@ -2368,8 +3648,8 @@
   },
   {
    "book": "",
-   "page": 287,
-   "section": "c",
+   "page": 295,
+   "section": "a",
    "line": null,
    "journal": "The Classical Quarterly",
    "year": "1926",
@@ -2380,8 +3660,8 @@
   },
   {
    "book": "",
-   "page": 295,
-   "section": "a",
+   "page": 287,
+   "section": "c",
    "line": null,
    "journal": "The Classical Quarterly",
    "year": "1926",
@@ -2488,8 +3768,8 @@
   },
   {
    "book": "",
-   "page": 292,
-   "section": "e",
+   "page": 298,
+   "section": "b",
    "line": null,
    "journal": "History of Philosophy Quarterly",
    "year": "2012",
@@ -2500,8 +3780,8 @@
   },
   {
    "book": "",
-   "page": 298,
-   "section": "b",
+   "page": 292,
+   "section": "e",
    "line": null,
    "journal": "History of Philosophy Quarterly",
    "year": "2012",
@@ -2537,18 +3817,6 @@
   {
    "book": "",
    "page": 284,
-   "section": "c",
-   "line": null,
-   "journal": "The Classical Quarterly",
-   "year": "1927",
-   "iid": "a48fcb40-04c7-3b5c-a93e-64aaea7ce66f",
-   "doi": "10.2307/636439",
-   "title": "The Authorship of the Hippias Maior",
-   "author": "Dorothy Tarrant"
-  },
-  {
-   "book": "",
-   "page": 292,
    "section": "c",
    "line": null,
    "journal": "The Classical Quarterly",
@@ -2596,7 +3864,7 @@
   },
   {
    "book": "",
-   "page": 286,
+   "page": 292,
    "section": "c",
    "line": null,
    "journal": "The Classical Quarterly",
@@ -2608,8 +3876,8 @@
   },
   {
    "book": "",
-   "page": 293,
-   "section": "e",
+   "page": 292,
+   "section": "d",
    "line": null,
    "journal": "The Classical Quarterly",
    "year": "1927",
@@ -2620,8 +3888,8 @@
   },
   {
    "book": "",
-   "page": 303,
-   "section": "d",
+   "page": 286,
+   "section": "c",
    "line": null,
    "journal": "The Classical Quarterly",
    "year": "1927",
@@ -2644,8 +3912,8 @@
   },
   {
    "book": "",
-   "page": 298,
-   "section": "a",
+   "page": 293,
+   "section": "e",
    "line": null,
    "journal": "The Classical Quarterly",
    "year": "1927",
@@ -2656,7 +3924,7 @@
   },
   {
    "book": "",
-   "page": 300,
+   "page": 298,
    "section": "a",
    "line": null,
    "journal": "The Classical Quarterly",
@@ -2680,7 +3948,7 @@
   },
   {
    "book": "",
-   "page": 287,
+   "page": 298,
    "section": "c",
    "line": null,
    "journal": "The Classical Quarterly",
@@ -2692,8 +3960,104 @@
   },
   {
    "book": "",
-   "page": 292,
+   "page": 298,
    "section": "d",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1927",
+   "iid": "a48fcb40-04c7-3b5c-a93e-64aaea7ce66f",
+   "doi": "10.2307/636439",
+   "title": "The Authorship of the Hippias Maior",
+   "author": "Dorothy Tarrant"
+  },
+  {
+   "book": "",
+   "page": 298,
+   "section": "e",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1927",
+   "iid": "a48fcb40-04c7-3b5c-a93e-64aaea7ce66f",
+   "doi": "10.2307/636439",
+   "title": "The Authorship of the Hippias Maior",
+   "author": "Dorothy Tarrant"
+  },
+  {
+   "book": "",
+   "page": 299,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1927",
+   "iid": "a48fcb40-04c7-3b5c-a93e-64aaea7ce66f",
+   "doi": "10.2307/636439",
+   "title": "The Authorship of the Hippias Maior",
+   "author": "Dorothy Tarrant"
+  },
+  {
+   "book": "",
+   "page": 299,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1927",
+   "iid": "a48fcb40-04c7-3b5c-a93e-64aaea7ce66f",
+   "doi": "10.2307/636439",
+   "title": "The Authorship of the Hippias Maior",
+   "author": "Dorothy Tarrant"
+  },
+  {
+   "book": "",
+   "page": 299,
+   "section": "d",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1927",
+   "iid": "a48fcb40-04c7-3b5c-a93e-64aaea7ce66f",
+   "doi": "10.2307/636439",
+   "title": "The Authorship of the Hippias Maior",
+   "author": "Dorothy Tarrant"
+  },
+  {
+   "book": "",
+   "page": 299,
+   "section": "e",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1927",
+   "iid": "a48fcb40-04c7-3b5c-a93e-64aaea7ce66f",
+   "doi": "10.2307/636439",
+   "title": "The Authorship of the Hippias Maior",
+   "author": "Dorothy Tarrant"
+  },
+  {
+   "book": "",
+   "page": 300,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1927",
+   "iid": "a48fcb40-04c7-3b5c-a93e-64aaea7ce66f",
+   "doi": "10.2307/636439",
+   "title": "The Authorship of the Hippias Maior",
+   "author": "Dorothy Tarrant"
+  },
+  {
+   "book": "",
+   "page": 303,
+   "section": "d",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1927",
+   "iid": "a48fcb40-04c7-3b5c-a93e-64aaea7ce66f",
+   "doi": "10.2307/636439",
+   "title": "The Authorship of the Hippias Maior",
+   "author": "Dorothy Tarrant"
+  },
+  {
+   "book": "",
+   "page": 287,
+   "section": "c",
    "line": null,
    "journal": "The Classical Quarterly",
    "year": "1927",
@@ -2718,7 +4082,19 @@
    "book": "",
    "page": 286,
    "section": "c",
-   "line": 5,
+   "line": null,
+   "journal": "Revue Internationale de Philosophie",
+   "year": "1986",
+   "iid": "a8098bd9-d91a-3335-9aab-9420a556cfd3",
+   "doi": "10.2307/23946604",
+   "title": "THE SKEPTICAL SIDE OF PLATO'S METHOD",
+   "author": "Paul WOODRUFF"
+  },
+  {
+   "book": "",
+   "page": 286,
+   "section": "d",
+   "line": null,
    "journal": "Revue Internationale de Philosophie",
    "year": "1986",
    "iid": "a8098bd9-d91a-3335-9aab-9420a556cfd3",
@@ -2730,7 +4106,19 @@
    "book": "",
    "page": 304,
    "section": "d",
-   "line": 4,
+   "line": null,
+   "journal": "Revue Internationale de Philosophie",
+   "year": "1986",
+   "iid": "a8098bd9-d91a-3335-9aab-9420a556cfd3",
+   "doi": "10.2307/23946604",
+   "title": "THE SKEPTICAL SIDE OF PLATO'S METHOD",
+   "author": "Paul WOODRUFF"
+  },
+  {
+   "book": "",
+   "page": 304,
+   "section": "e",
+   "line": null,
    "journal": "Revue Internationale de Philosophie",
    "year": "1986",
    "iid": "a8098bd9-d91a-3335-9aab-9420a556cfd3",
@@ -2777,19 +4165,7 @@
   {
    "book": "",
    "page": 299,
-   "section": "e",
-   "line": null,
-   "journal": "Classical Philology",
-   "year": "1929",
-   "iid": "a8bae0cc-2a75-36e0-83db-e35e87286bc3",
-   "doi": "10.2307/263410",
-   "title": "The Logic and Language of the Hippias Major",
-   "author": "G. M. A. Grube"
-  },
-  {
-   "book": "",
-   "page": 302,
-   "section": "e",
+   "section": "a",
    "line": null,
    "journal": "Classical Philology",
    "year": "1929",
@@ -2801,7 +4177,7 @@
   {
    "book": "",
    "page": 299,
-   "section": "a",
+   "section": "e",
    "line": null,
    "journal": "Classical Philology",
    "year": "1929",
@@ -2826,6 +4202,18 @@
    "book": "",
    "page": 302,
    "section": "a",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1929",
+   "iid": "a8bae0cc-2a75-36e0-83db-e35e87286bc3",
+   "doi": "10.2307/263410",
+   "title": "The Logic and Language of the Hippias Major",
+   "author": "G. M. A. Grube"
+  },
+  {
+   "book": "",
+   "page": 302,
+   "section": "e",
    "line": null,
    "journal": "Classical Philology",
    "year": "1929",
@@ -2872,6 +4260,30 @@
   },
   {
    "book": "",
+   "page": 300,
+   "section": "e",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1985",
+   "iid": "b179fd47-8a47-3c8e-be07-bd51f51810e6",
+   "doi": "10.2307/3063762",
+   "title": "",
+   "author": "P. Cox, T. D. Barnes"
+  },
+  {
+   "book": "",
+   "page": 301,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Review",
+   "year": "1985",
+   "iid": "b179fd47-8a47-3c8e-be07-bd51f51810e6",
+   "doi": "10.2307/3063762",
+   "title": "",
+   "author": "P. Cox, T. D. Barnes"
+  },
+  {
+   "book": "",
    "page": 301,
    "section": "b",
    "line": null,
@@ -2886,7 +4298,19 @@
    "book": "",
    "page": 289,
    "section": "a",
-   "line": 8,
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1986",
+   "iid": "b2d4f77d-b4a1-389a-b169-695032e51b91",
+   "doi": "10.2307/4182258",
+   "title": "Between Knowledge and Ignorance",
+   "author": "Neil Cooper"
+  },
+  {
+   "book": "",
+   "page": 289,
+   "section": "b",
+   "line": null,
    "journal": "Phronesis",
    "year": "1986",
    "iid": "b2d4f77d-b4a1-389a-b169-695032e51b91",
@@ -2932,27 +4356,15 @@
   },
   {
    "book": "",
-   "page": 289,
+   "page": 287,
    "section": "d",
    "line": null,
-   "journal": "Les Études philosophiques",
-   "year": "2014",
-   "iid": "c2696d40-1155-3f99-bdef-584ba0e6ce27",
-   "doi": "10.2307/42773170",
-   "title": "LES PLAISIRS INTELLECTUELS DANS LE MODÈLE PLATONICIEN DU PLAISIR",
-   "author": "Charlotte Murgier"
-  },
-  {
-   "book": "",
-   "page": 299,
-   "section": "a",
-   "line": null,
-   "journal": "Les Études philosophiques",
-   "year": "2014",
-   "iid": "c2696d40-1155-3f99-bdef-584ba0e6ce27",
-   "doi": "10.2307/42773170",
-   "title": "LES PLAISIRS INTELLECTUELS DANS LE MODÈLE PLATONICIEN DU PLAISIR",
-   "author": "Charlotte Murgier"
+   "journal": "Phronesis",
+   "year": "2003",
+   "iid": "b484eeb2-6cbc-3140-9e82-ba8158b7719b",
+   "doi": "10.2307/4182728",
+   "title": "Recollecting Forms in the \"Phaedo\"",
+   "author": "Panos Dimas"
   },
   {
    "book": "",
@@ -2982,6 +4394,90 @@
    "book": "",
    "page": 287,
    "section": "e",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "1997",
+   "iid": "c9bcd9e0-fbdc-36ae-86e4-d174a982bed0",
+   "doi": "10.2307/24354611",
+   "title": "SENSE-PERCEPTION AND INTELLECT IN PLATO",
+   "author": "Eric D. Perl"
+  },
+  {
+   "book": "",
+   "page": 288,
+   "section": "a",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "1997",
+   "iid": "c9bcd9e0-fbdc-36ae-86e4-d174a982bed0",
+   "doi": "10.2307/24354611",
+   "title": "SENSE-PERCEPTION AND INTELLECT IN PLATO",
+   "author": "Eric D. Perl"
+  },
+  {
+   "book": "",
+   "page": 288,
+   "section": "b",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "1997",
+   "iid": "c9bcd9e0-fbdc-36ae-86e4-d174a982bed0",
+   "doi": "10.2307/24354611",
+   "title": "SENSE-PERCEPTION AND INTELLECT IN PLATO",
+   "author": "Eric D. Perl"
+  },
+  {
+   "book": "",
+   "page": 288,
+   "section": "c",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "1997",
+   "iid": "c9bcd9e0-fbdc-36ae-86e4-d174a982bed0",
+   "doi": "10.2307/24354611",
+   "title": "SENSE-PERCEPTION AND INTELLECT IN PLATO",
+   "author": "Eric D. Perl"
+  },
+  {
+   "book": "",
+   "page": 288,
+   "section": "d",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "1997",
+   "iid": "c9bcd9e0-fbdc-36ae-86e4-d174a982bed0",
+   "doi": "10.2307/24354611",
+   "title": "SENSE-PERCEPTION AND INTELLECT IN PLATO",
+   "author": "Eric D. Perl"
+  },
+  {
+   "book": "",
+   "page": 288,
+   "section": "e",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "1997",
+   "iid": "c9bcd9e0-fbdc-36ae-86e4-d174a982bed0",
+   "doi": "10.2307/24354611",
+   "title": "SENSE-PERCEPTION AND INTELLECT IN PLATO",
+   "author": "Eric D. Perl"
+  },
+  {
+   "book": "",
+   "page": 289,
+   "section": "a",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "1997",
+   "iid": "c9bcd9e0-fbdc-36ae-86e4-d174a982bed0",
+   "doi": "10.2307/24354611",
+   "title": "SENSE-PERCEPTION AND INTELLECT IN PLATO",
+   "author": "Eric D. Perl"
+  },
+  {
+   "book": "",
+   "page": 289,
+   "section": "b",
    "line": null,
    "journal": "Revue de Philosophie Ancienne",
    "year": "1997",
@@ -3040,18 +4536,6 @@
   },
   {
    "book": "",
-   "page": 287,
-   "section": "e",
-   "line": null,
-   "journal": "The Classical Review",
-   "year": "1926",
-   "iid": "e1bbd458-1046-3b61-88a1-f9e0e6921da9",
-   "doi": "10.2307/698617",
-   "title": "Notes on the Hippias maior",
-   "author": "G. M. A. Grube"
-  },
-  {
-   "book": "",
    "page": 289,
    "section": "c",
    "line": 7,
@@ -3078,7 +4562,19 @@
    "book": "",
    "page": 286,
    "section": "c",
-   "line": 5,
+   "line": null,
+   "journal": "History of Philosophy Quarterly",
+   "year": "2003",
+   "iid": "e271fe62-1936-326d-b875-b33af6b340e5",
+   "doi": "10.2307/27744947",
+   "title": "Socratic Wisdom",
+   "author": "Emmanuel Kofi Ackah"
+  },
+  {
+   "book": "",
+   "page": 286,
+   "section": "d",
+   "line": null,
    "journal": "History of Philosophy Quarterly",
    "year": "2003",
    "iid": "e271fe62-1936-326d-b875-b33af6b340e5",
@@ -3090,7 +4586,19 @@
    "book": "",
    "page": 304,
    "section": "d",
-   "line": 5,
+   "line": null,
+   "journal": "History of Philosophy Quarterly",
+   "year": "2003",
+   "iid": "e271fe62-1936-326d-b875-b33af6b340e5",
+   "doi": "10.2307/27744947",
+   "title": "Socratic Wisdom",
+   "author": "Emmanuel Kofi Ackah"
+  },
+  {
+   "book": "",
+   "page": 304,
+   "section": "e",
+   "line": null,
    "journal": "History of Philosophy Quarterly",
    "year": "2003",
    "iid": "e271fe62-1936-326d-b875-b33af6b340e5",
@@ -3102,78 +4610,6 @@
    "book": "",
    "page": 286,
    "section": "b",
-   "line": null,
-   "journal": "Phronesis",
-   "year": "1964",
-   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
-   "doi": "10.2307/4181747",
-   "title": "Plato's Greater Hippias",
-   "author": "Robert G. Hoerber"
-  },
-  {
-   "book": "",
-   "page": 286,
-   "section": "c",
-   "line": null,
-   "journal": "Phronesis",
-   "year": "1964",
-   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
-   "doi": "10.2307/4181747",
-   "title": "Plato's Greater Hippias",
-   "author": "Robert G. Hoerber"
-  },
-  {
-   "book": "",
-   "page": 293,
-   "section": "c",
-   "line": null,
-   "journal": "Phronesis",
-   "year": "1964",
-   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
-   "doi": "10.2307/4181747",
-   "title": "Plato's Greater Hippias",
-   "author": "Robert G. Hoerber"
-  },
-  {
-   "book": "",
-   "page": 289,
-   "section": "c",
-   "line": null,
-   "journal": "Phronesis",
-   "year": "1964",
-   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
-   "doi": "10.2307/4181747",
-   "title": "Plato's Greater Hippias",
-   "author": "Robert G. Hoerber"
-  },
-  {
-   "book": "",
-   "page": 289,
-   "section": "d",
-   "line": null,
-   "journal": "Phronesis",
-   "year": "1964",
-   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
-   "doi": "10.2307/4181747",
-   "title": "Plato's Greater Hippias",
-   "author": "Robert G. Hoerber"
-  },
-  {
-   "book": "",
-   "page": 291,
-   "section": "c",
-   "line": null,
-   "journal": "Phronesis",
-   "year": "1964",
-   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
-   "doi": "10.2307/4181747",
-   "title": "Plato's Greater Hippias",
-   "author": "Robert G. Hoerber"
-  },
-  {
-   "book": "",
-   "page": 291,
-   "section": "d",
    "line": null,
    "journal": "Phronesis",
    "year": "1964",
@@ -3196,8 +4632,104 @@
   },
   {
    "book": "",
+   "page": 281,
+   "section": "b",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 281,
+   "section": "c",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 281,
+   "section": "d",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 281,
+   "section": "e",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
    "page": 282,
    "section": "a",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 282,
+   "section": "b",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 282,
+   "section": "c",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 282,
+   "section": "d",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 282,
+   "section": "e",
    "line": null,
    "journal": "Phronesis",
    "year": "1964",
@@ -3232,6 +4764,606 @@
   },
   {
    "book": "",
+   "page": 283,
+   "section": "c",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 283,
+   "section": "d",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 283,
+   "section": "e",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 284,
+   "section": "a",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 284,
+   "section": "b",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 284,
+   "section": "c",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 284,
+   "section": "d",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 284,
+   "section": "e",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 285,
+   "section": "a",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 285,
+   "section": "b",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 285,
+   "section": "c",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 285,
+   "section": "d",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 285,
+   "section": "e",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 286,
+   "section": "a",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 286,
+   "section": "c",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 286,
+   "section": "d",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 286,
+   "section": "e",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 287,
+   "section": "a",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 287,
+   "section": "b",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 287,
+   "section": "c",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 287,
+   "section": "d",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 287,
+   "section": "e",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 288,
+   "section": "a",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 288,
+   "section": "b",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 288,
+   "section": "c",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 288,
+   "section": "d",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 288,
+   "section": "e",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 289,
+   "section": "a",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 289,
+   "section": "b",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 289,
+   "section": "c",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 289,
+   "section": "d",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 289,
+   "section": "e",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 290,
+   "section": "a",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 290,
+   "section": "b",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 290,
+   "section": "c",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 290,
+   "section": "d",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 290,
+   "section": "e",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 291,
+   "section": "a",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 291,
+   "section": "b",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 291,
+   "section": "c",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 291,
+   "section": "d",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 291,
+   "section": "e",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 292,
+   "section": "a",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 292,
+   "section": "b",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 292,
+   "section": "c",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 292,
+   "section": "d",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 292,
+   "section": "e",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 293,
+   "section": "a",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 293,
+   "section": "b",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 293,
+   "section": "c",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
    "page": 293,
    "section": "d",
    "line": null,
@@ -3244,8 +5376,56 @@
   },
   {
    "book": "",
-   "page": 304,
+   "page": 293,
    "section": "e",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 294,
+   "section": "a",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 294,
+   "section": "b",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 294,
+   "section": "c",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 294,
+   "section": "d",
    "line": null,
    "journal": "Phronesis",
    "year": "1964",
@@ -3268,6 +5448,162 @@
   },
   {
    "book": "",
+   "page": 295,
+   "section": "a",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 295,
+   "section": "b",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 295,
+   "section": "c",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 295,
+   "section": "d",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 295,
+   "section": "e",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 296,
+   "section": "a",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 296,
+   "section": "b",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 296,
+   "section": "c",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 296,
+   "section": "d",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 296,
+   "section": "e",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 297,
+   "section": "a",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 297,
+   "section": "b",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 297,
+   "section": "c",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
    "page": 297,
    "section": "d",
    "line": null,
@@ -3292,8 +5628,416 @@
   },
   {
    "book": "",
-   "page": 283,
+   "page": 298,
+   "section": "a",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 298,
+   "section": "b",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 298,
    "section": "c",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 298,
+   "section": "d",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 298,
+   "section": "e",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 299,
+   "section": "a",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 299,
+   "section": "b",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 299,
+   "section": "c",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 299,
+   "section": "d",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 299,
+   "section": "e",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 300,
+   "section": "a",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 300,
+   "section": "b",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 300,
+   "section": "c",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 300,
+   "section": "d",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 300,
+   "section": "e",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 301,
+   "section": "a",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 301,
+   "section": "b",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 301,
+   "section": "c",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 301,
+   "section": "d",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 301,
+   "section": "e",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 302,
+   "section": "a",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 302,
+   "section": "b",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 302,
+   "section": "c",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 302,
+   "section": "d",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 302,
+   "section": "e",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 303,
+   "section": "a",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 303,
+   "section": "b",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 303,
+   "section": "c",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 303,
+   "section": "d",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 303,
+   "section": "e",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 304,
+   "section": "a",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 304,
+   "section": "b",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 304,
+   "section": "c",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 304,
+   "section": "d",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
+   "page": 304,
+   "section": "e",
    "line": null,
    "journal": "Phronesis",
    "year": "1964",
@@ -3328,6 +6072,18 @@
   },
   {
    "book": "",
+   "page": 284,
+   "section": "b",
+   "line": 3,
+   "journal": "Phronesis",
+   "year": "1964",
+   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
+   "doi": "10.2307/4181747",
+   "title": "Plato's Greater Hippias",
+   "author": "Robert G. Hoerber"
+  },
+  {
+   "book": "",
    "page": 282,
    "section": "e",
    "line": 4,
@@ -3352,333 +6108,9 @@
   },
   {
    "book": "",
-   "page": 295,
-   "section": "a",
-   "line": null,
-   "journal": "Phronesis",
-   "year": "1964",
-   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
-   "doi": "10.2307/4181747",
-   "title": "Plato's Greater Hippias",
-   "author": "Robert G. Hoerber"
-  },
-  {
-   "book": "",
-   "page": 284,
-   "section": "a",
-   "line": null,
-   "journal": "Phronesis",
-   "year": "1964",
-   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
-   "doi": "10.2307/4181747",
-   "title": "Plato's Greater Hippias",
-   "author": "Robert G. Hoerber"
-  },
-  {
-   "book": "",
-   "page": 284,
-   "section": "b",
-   "line": 3,
-   "journal": "Phronesis",
-   "year": "1964",
-   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
-   "doi": "10.2307/4181747",
-   "title": "Plato's Greater Hippias",
-   "author": "Robert G. Hoerber"
-  },
-  {
-   "book": "",
    "page": 284,
    "section": "b",
    "line": 4,
-   "journal": "Phronesis",
-   "year": "1964",
-   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
-   "doi": "10.2307/4181747",
-   "title": "Plato's Greater Hippias",
-   "author": "Robert G. Hoerber"
-  },
-  {
-   "book": "",
-   "page": 286,
-   "section": "a",
-   "line": null,
-   "journal": "Phronesis",
-   "year": "1964",
-   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
-   "doi": "10.2307/4181747",
-   "title": "Plato's Greater Hippias",
-   "author": "Robert G. Hoerber"
-  },
-  {
-   "book": "",
-   "page": 292,
-   "section": "d",
-   "line": null,
-   "journal": "Phronesis",
-   "year": "1964",
-   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
-   "doi": "10.2307/4181747",
-   "title": "Plato's Greater Hippias",
-   "author": "Robert G. Hoerber"
-  },
-  {
-   "book": "",
-   "page": 292,
-   "section": "e",
-   "line": null,
-   "journal": "Phronesis",
-   "year": "1964",
-   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
-   "doi": "10.2307/4181747",
-   "title": "Plato's Greater Hippias",
-   "author": "Robert G. Hoerber"
-  },
-  {
-   "book": "",
-   "page": 295,
-   "section": "c",
-   "line": null,
-   "journal": "Phronesis",
-   "year": "1964",
-   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
-   "doi": "10.2307/4181747",
-   "title": "Plato's Greater Hippias",
-   "author": "Robert G. Hoerber"
-  },
-  {
-   "book": "",
-   "page": 295,
-   "section": "d",
-   "line": null,
-   "journal": "Phronesis",
-   "year": "1964",
-   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
-   "doi": "10.2307/4181747",
-   "title": "Plato's Greater Hippias",
-   "author": "Robert G. Hoerber"
-  },
-  {
-   "book": "",
-   "page": 290,
-   "section": "b",
-   "line": null,
-   "journal": "Phronesis",
-   "year": "1964",
-   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
-   "doi": "10.2307/4181747",
-   "title": "Plato's Greater Hippias",
-   "author": "Robert G. Hoerber"
-  },
-  {
-   "book": "",
-   "page": 293,
-   "section": "b",
-   "line": null,
-   "journal": "Phronesis",
-   "year": "1964",
-   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
-   "doi": "10.2307/4181747",
-   "title": "Plato's Greater Hippias",
-   "author": "Robert G. Hoerber"
-  },
-  {
-   "book": "",
-   "page": 294,
-   "section": "a",
-   "line": null,
-   "journal": "Phronesis",
-   "year": "1964",
-   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
-   "doi": "10.2307/4181747",
-   "title": "Plato's Greater Hippias",
-   "author": "Robert G. Hoerber"
-  },
-  {
-   "book": "",
-   "page": 296,
-   "section": "e",
-   "line": null,
-   "journal": "Phronesis",
-   "year": "1964",
-   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
-   "doi": "10.2307/4181747",
-   "title": "Plato's Greater Hippias",
-   "author": "Robert G. Hoerber"
-  },
-  {
-   "book": "",
-   "page": 297,
-   "section": "c",
-   "line": null,
-   "journal": "Phronesis",
-   "year": "1964",
-   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
-   "doi": "10.2307/4181747",
-   "title": "Plato's Greater Hippias",
-   "author": "Robert G. Hoerber"
-  },
-  {
-   "book": "",
-   "page": 298,
-   "section": "e",
-   "line": null,
-   "journal": "Phronesis",
-   "year": "1964",
-   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
-   "doi": "10.2307/4181747",
-   "title": "Plato's Greater Hippias",
-   "author": "Robert G. Hoerber"
-  },
-  {
-   "book": "",
-   "page": 299,
-   "section": "e",
-   "line": null,
-   "journal": "Phronesis",
-   "year": "1964",
-   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
-   "doi": "10.2307/4181747",
-   "title": "Plato's Greater Hippias",
-   "author": "Robert G. Hoerber"
-  },
-  {
-   "book": "",
-   "page": 302,
-   "section": "d",
-   "line": null,
-   "journal": "Phronesis",
-   "year": "1964",
-   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
-   "doi": "10.2307/4181747",
-   "title": "Plato's Greater Hippias",
-   "author": "Robert G. Hoerber"
-  },
-  {
-   "book": "",
-   "page": 300,
-   "section": "e",
-   "line": null,
-   "journal": "Phronesis",
-   "year": "1964",
-   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
-   "doi": "10.2307/4181747",
-   "title": "Plato's Greater Hippias",
-   "author": "Robert G. Hoerber"
-  },
-  {
-   "book": "",
-   "page": 301,
-   "section": "d",
-   "line": null,
-   "journal": "Phronesis",
-   "year": "1964",
-   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
-   "doi": "10.2307/4181747",
-   "title": "Plato's Greater Hippias",
-   "author": "Robert G. Hoerber"
-  },
-  {
-   "book": "",
-   "page": 304,
-   "section": "c",
-   "line": null,
-   "journal": "Phronesis",
-   "year": "1964",
-   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
-   "doi": "10.2307/4181747",
-   "title": "Plato's Greater Hippias",
-   "author": "Robert G. Hoerber"
-  },
-  {
-   "book": "",
-   "page": 298,
-   "section": "a",
-   "line": null,
-   "journal": "Phronesis",
-   "year": "1964",
-   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
-   "doi": "10.2307/4181747",
-   "title": "Plato's Greater Hippias",
-   "author": "Robert G. Hoerber"
-  },
-  {
-   "book": "",
-   "page": 299,
-   "section": "a",
-   "line": null,
-   "journal": "Phronesis",
-   "year": "1964",
-   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
-   "doi": "10.2307/4181747",
-   "title": "Plato's Greater Hippias",
-   "author": "Robert G. Hoerber"
-  },
-  {
-   "book": "",
-   "page": 301,
-   "section": "a",
-   "line": null,
-   "journal": "Phronesis",
-   "year": "1964",
-   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
-   "doi": "10.2307/4181747",
-   "title": "Plato's Greater Hippias",
-   "author": "Robert G. Hoerber"
-  },
-  {
-   "book": "",
-   "page": 302,
-   "section": "a",
-   "line": null,
-   "journal": "Phronesis",
-   "year": "1964",
-   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
-   "doi": "10.2307/4181747",
-   "title": "Plato's Greater Hippias",
-   "author": "Robert G. Hoerber"
-  },
-  {
-   "book": "",
-   "page": 303,
-   "section": "a",
-   "line": null,
-   "journal": "Phronesis",
-   "year": "1964",
-   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
-   "doi": "10.2307/4181747",
-   "title": "Plato's Greater Hippias",
-   "author": "Robert G. Hoerber"
-  },
-  {
-   "book": "",
-   "page": 304,
-   "section": "b",
-   "line": null,
-   "journal": "Phronesis",
-   "year": "1964",
-   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
-   "doi": "10.2307/4181747",
-   "title": "Plato's Greater Hippias",
-   "author": "Robert G. Hoerber"
-  },
-  {
-   "book": "",
-   "page": 282,
-   "section": "b",
-   "line": null,
-   "journal": "Phronesis",
-   "year": "1964",
-   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
-   "doi": "10.2307/4181747",
-   "title": "Plato's Greater Hippias",
-   "author": "Robert G. Hoerber"
-  },
-  {
-   "book": "",
-   "page": 300,
-   "section": "a",
-   "line": null,
    "journal": "Phronesis",
    "year": "1964",
    "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
@@ -3700,42 +6132,6 @@
   },
   {
    "book": "",
-   "page": 288,
-   "section": "c",
-   "line": null,
-   "journal": "Phronesis",
-   "year": "1964",
-   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
-   "doi": "10.2307/4181747",
-   "title": "Plato's Greater Hippias",
-   "author": "Robert G. Hoerber"
-  },
-  {
-   "book": "",
-   "page": 290,
-   "section": "d",
-   "line": null,
-   "journal": "Phronesis",
-   "year": "1964",
-   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
-   "doi": "10.2307/4181747",
-   "title": "Plato's Greater Hippias",
-   "author": "Robert G. Hoerber"
-  },
-  {
-   "book": "",
-   "page": 293,
-   "section": "e",
-   "line": null,
-   "journal": "Phronesis",
-   "year": "1964",
-   "iid": "e59a6eea-4861-3d1f-b91a-7ec545c85392",
-   "doi": "10.2307/4181747",
-   "title": "Plato's Greater Hippias",
-   "author": "Robert G. Hoerber"
-  },
-  {
-   "book": "",
    "page": 293,
    "section": "e",
    "line": 4,
@@ -3763,6 +6159,18 @@
    "page": 296,
    "section": "e",
    "line": 4,
+   "journal": "Méthexis",
+   "year": "2006",
+   "iid": "e778a93e-c672-30ae-a939-55cfa8045f37",
+   "doi": "10.2307/43738765",
+   "title": "DEFINITION AND ESSENCE IN THE PLATONIC DIALOGUES",
+   "author": "LLOYD P. GERSON"
+  },
+  {
+   "book": "",
+   "page": 298,
+   "section": "a",
+   "line": 6,
    "journal": "Méthexis",
    "year": "2006",
    "iid": "e778a93e-c672-30ae-a939-55cfa8045f37",
@@ -3809,6 +6217,54 @@
   {
    "book": "",
    "page": 288,
+   "section": "a",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1980",
+   "iid": "f6773d82-6102-3f79-9b40-a50839eac720",
+   "doi": "10.2307/4182082",
+   "title": "Plato's Semantics and Plato's \"Parmenides\"",
+   "author": "Thomas Wheaton Bestor"
+  },
+  {
+   "book": "",
+   "page": 288,
+   "section": "b",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1980",
+   "iid": "f6773d82-6102-3f79-9b40-a50839eac720",
+   "doi": "10.2307/4182082",
+   "title": "Plato's Semantics and Plato's \"Parmenides\"",
+   "author": "Thomas Wheaton Bestor"
+  },
+  {
+   "book": "",
+   "page": 288,
+   "section": "c",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1980",
+   "iid": "f6773d82-6102-3f79-9b40-a50839eac720",
+   "doi": "10.2307/4182082",
+   "title": "Plato's Semantics and Plato's \"Parmenides\"",
+   "author": "Thomas Wheaton Bestor"
+  },
+  {
+   "book": "",
+   "page": 288,
+   "section": "d",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1980",
+   "iid": "f6773d82-6102-3f79-9b40-a50839eac720",
+   "doi": "10.2307/4182082",
+   "title": "Plato's Semantics and Plato's \"Parmenides\"",
+   "author": "Thomas Wheaton Bestor"
+  },
+  {
+   "book": "",
+   "page": 288,
    "section": "e",
    "line": null,
    "journal": "Phronesis",
@@ -3834,6 +6290,18 @@
    "book": "",
    "page": 292,
    "section": "c",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "1980",
+   "iid": "f6773d82-6102-3f79-9b40-a50839eac720",
+   "doi": "10.2307/4182082",
+   "title": "Plato's Semantics and Plato's \"Parmenides\"",
+   "author": "Thomas Wheaton Bestor"
+  },
+  {
+   "book": "",
+   "page": 292,
+   "section": "d",
    "line": null,
    "journal": "Phronesis",
    "year": "1980",
@@ -3877,6 +6345,1782 @@
    "doi": "10.2307/4181619",
    "title": "Plato's \"Phaedo\", 74b7-c6",
    "author": "K. W. Mills"
+  },
+  {
+   "book": "",
+   "page": 304,
+   "section": "e",
+   "line": 8,
+   "journal": "Illinois Classical Studies",
+   "year": "2022",
+   "iid": "0e539dc1-0017-3c37-b425-6ca77b7ade3a",
+   "doi": "10.2307/48779746",
+   "title": "Being and Becoming Good in Plato’s <em>Protagoras</em>",
+   "author": "BRIAN REESE"
+  },
+  {
+   "book": "",
+   "page": 285,
+   "section": "b",
+   "line": null,
+   "journal": "Hermes",
+   "year": "2016",
+   "iid": "0e76589b-fdc1-3b55-8b7b-e0f94abd1638",
+   "doi": "10.2307/26649896",
+   "title": "Kataloge und Ringkompositionen in Hesiods „Theogonie“",
+   "author": "MARCEL HUMAR"
+  },
+  {
+   "book": "",
+   "page": 285,
+   "section": "c",
+   "line": null,
+   "journal": "Hermes",
+   "year": "2016",
+   "iid": "0e76589b-fdc1-3b55-8b7b-e0f94abd1638",
+   "doi": "10.2307/26649896",
+   "title": "Kataloge und Ringkompositionen in Hesiods „Theogonie“",
+   "author": "MARCEL HUMAR"
+  },
+  {
+   "book": "",
+   "page": 285,
+   "section": "d",
+   "line": null,
+   "journal": "Hermes",
+   "year": "2016",
+   "iid": "0e76589b-fdc1-3b55-8b7b-e0f94abd1638",
+   "doi": "10.2307/26649896",
+   "title": "Kataloge und Ringkompositionen in Hesiods „Theogonie“",
+   "author": "MARCEL HUMAR"
+  },
+  {
+   "book": "",
+   "page": 285,
+   "section": "e",
+   "line": null,
+   "journal": "Hermes",
+   "year": "2016",
+   "iid": "0e76589b-fdc1-3b55-8b7b-e0f94abd1638",
+   "doi": "10.2307/26649896",
+   "title": "Kataloge und Ringkompositionen in Hesiods „Theogonie“",
+   "author": "MARCEL HUMAR"
+  },
+  {
+   "book": "",
+   "page": 286,
+   "section": "c",
+   "line": 2,
+   "journal": "Mnemosyne",
+   "year": "2014",
+   "iid": "18c5dc34-3fc3-3c74-9384-42e9a63f0dc8",
+   "doi": "10.2307/24521944",
+   "title": "Sophistische Satyrn: Das sogenannte Oineus-Fragment und seine Bedeutung für die Poetik des Satyrspiels",
+   "author": "Jan Bernhardt"
+  },
+  {
+   "book": "",
+   "page": 287,
+   "section": "e",
+   "line": null,
+   "journal": "Revue de Théologie et de Philosophie",
+   "year": "2005",
+   "iid": "1c694a88-ff95-3516-8797-77532290b21a",
+   "doi": "10.2307/44360118",
+   "title": "Book Review : \n        Hippias majeur, Hippias mineur\n        \n          Platon\n        \n        \n          Jean-François\n          Pradeau\n        \n        \n          Francesco\n          Fronterotta",
+   "author": "Jean-François Pradeau, Stefan Imhoof, Francesco Fronterotta, Platon"
+  },
+  {
+   "book": "",
+   "page": 288,
+   "section": "a",
+   "line": null,
+   "journal": "Revue de Théologie et de Philosophie",
+   "year": "2005",
+   "iid": "1c694a88-ff95-3516-8797-77532290b21a",
+   "doi": "10.2307/44360118",
+   "title": "Book Review : \n        Hippias majeur, Hippias mineur\n        \n          Platon\n        \n        \n          Jean-François\n          Pradeau\n        \n        \n          Francesco\n          Fronterotta",
+   "author": "Jean-François Pradeau, Stefan Imhoof, Francesco Fronterotta, Platon"
+  },
+  {
+   "book": "",
+   "page": 288,
+   "section": "b",
+   "line": null,
+   "journal": "Revue de Théologie et de Philosophie",
+   "year": "2005",
+   "iid": "1c694a88-ff95-3516-8797-77532290b21a",
+   "doi": "10.2307/44360118",
+   "title": "Book Review : \n        Hippias majeur, Hippias mineur\n        \n          Platon\n        \n        \n          Jean-François\n          Pradeau\n        \n        \n          Francesco\n          Fronterotta",
+   "author": "Jean-François Pradeau, Stefan Imhoof, Francesco Fronterotta, Platon"
+  },
+  {
+   "book": "",
+   "page": 288,
+   "section": "c",
+   "line": null,
+   "journal": "Revue de Théologie et de Philosophie",
+   "year": "2005",
+   "iid": "1c694a88-ff95-3516-8797-77532290b21a",
+   "doi": "10.2307/44360118",
+   "title": "Book Review : \n        Hippias majeur, Hippias mineur\n        \n          Platon\n        \n        \n          Jean-François\n          Pradeau\n        \n        \n          Francesco\n          Fronterotta",
+   "author": "Jean-François Pradeau, Stefan Imhoof, Francesco Fronterotta, Platon"
+  },
+  {
+   "book": "",
+   "page": 288,
+   "section": "d",
+   "line": null,
+   "journal": "Revue de Théologie et de Philosophie",
+   "year": "2005",
+   "iid": "1c694a88-ff95-3516-8797-77532290b21a",
+   "doi": "10.2307/44360118",
+   "title": "Book Review : \n        Hippias majeur, Hippias mineur\n        \n          Platon\n        \n        \n          Jean-François\n          Pradeau\n        \n        \n          Francesco\n          Fronterotta",
+   "author": "Jean-François Pradeau, Stefan Imhoof, Francesco Fronterotta, Platon"
+  },
+  {
+   "book": "",
+   "page": 288,
+   "section": "e",
+   "line": null,
+   "journal": "Revue de Théologie et de Philosophie",
+   "year": "2005",
+   "iid": "1c694a88-ff95-3516-8797-77532290b21a",
+   "doi": "10.2307/44360118",
+   "title": "Book Review : \n        Hippias majeur, Hippias mineur\n        \n          Platon\n        \n        \n          Jean-François\n          Pradeau\n        \n        \n          Francesco\n          Fronterotta",
+   "author": "Jean-François Pradeau, Stefan Imhoof, Francesco Fronterotta, Platon"
+  },
+  {
+   "book": "",
+   "page": 289,
+   "section": "a",
+   "line": null,
+   "journal": "Revue de Théologie et de Philosophie",
+   "year": "2005",
+   "iid": "1c694a88-ff95-3516-8797-77532290b21a",
+   "doi": "10.2307/44360118",
+   "title": "Book Review : \n        Hippias majeur, Hippias mineur\n        \n          Platon\n        \n        \n          Jean-François\n          Pradeau\n        \n        \n          Francesco\n          Fronterotta",
+   "author": "Jean-François Pradeau, Stefan Imhoof, Francesco Fronterotta, Platon"
+  },
+  {
+   "book": "",
+   "page": 289,
+   "section": "b",
+   "line": null,
+   "journal": "Revue de Théologie et de Philosophie",
+   "year": "2005",
+   "iid": "1c694a88-ff95-3516-8797-77532290b21a",
+   "doi": "10.2307/44360118",
+   "title": "Book Review : \n        Hippias majeur, Hippias mineur\n        \n          Platon\n        \n        \n          Jean-François\n          Pradeau\n        \n        \n          Francesco\n          Fronterotta",
+   "author": "Jean-François Pradeau, Stefan Imhoof, Francesco Fronterotta, Platon"
+  },
+  {
+   "book": "",
+   "page": 289,
+   "section": "c",
+   "line": null,
+   "journal": "Revue de Théologie et de Philosophie",
+   "year": "2005",
+   "iid": "1c694a88-ff95-3516-8797-77532290b21a",
+   "doi": "10.2307/44360118",
+   "title": "Book Review : \n        Hippias majeur, Hippias mineur\n        \n          Platon\n        \n        \n          Jean-François\n          Pradeau\n        \n        \n          Francesco\n          Fronterotta",
+   "author": "Jean-François Pradeau, Stefan Imhoof, Francesco Fronterotta, Platon"
+  },
+  {
+   "book": "",
+   "page": 289,
+   "section": "d",
+   "line": null,
+   "journal": "Revue de Théologie et de Philosophie",
+   "year": "2005",
+   "iid": "1c694a88-ff95-3516-8797-77532290b21a",
+   "doi": "10.2307/44360118",
+   "title": "Book Review : \n        Hippias majeur, Hippias mineur\n        \n          Platon\n        \n        \n          Jean-François\n          Pradeau\n        \n        \n          Francesco\n          Fronterotta",
+   "author": "Jean-François Pradeau, Stefan Imhoof, Francesco Fronterotta, Platon"
+  },
+  {
+   "book": "",
+   "page": 289,
+   "section": "e",
+   "line": null,
+   "journal": "Revue de Théologie et de Philosophie",
+   "year": "2005",
+   "iid": "1c694a88-ff95-3516-8797-77532290b21a",
+   "doi": "10.2307/44360118",
+   "title": "Book Review : \n        Hippias majeur, Hippias mineur\n        \n          Platon\n        \n        \n          Jean-François\n          Pradeau\n        \n        \n          Francesco\n          Fronterotta",
+   "author": "Jean-François Pradeau, Stefan Imhoof, Francesco Fronterotta, Platon"
+  },
+  {
+   "book": "",
+   "page": 290,
+   "section": "a",
+   "line": null,
+   "journal": "Revue de Théologie et de Philosophie",
+   "year": "2005",
+   "iid": "1c694a88-ff95-3516-8797-77532290b21a",
+   "doi": "10.2307/44360118",
+   "title": "Book Review : \n        Hippias majeur, Hippias mineur\n        \n          Platon\n        \n        \n          Jean-François\n          Pradeau\n        \n        \n          Francesco\n          Fronterotta",
+   "author": "Jean-François Pradeau, Stefan Imhoof, Francesco Fronterotta, Platon"
+  },
+  {
+   "book": "",
+   "page": 290,
+   "section": "b",
+   "line": null,
+   "journal": "Revue de Théologie et de Philosophie",
+   "year": "2005",
+   "iid": "1c694a88-ff95-3516-8797-77532290b21a",
+   "doi": "10.2307/44360118",
+   "title": "Book Review : \n        Hippias majeur, Hippias mineur\n        \n          Platon\n        \n        \n          Jean-François\n          Pradeau\n        \n        \n          Francesco\n          Fronterotta",
+   "author": "Jean-François Pradeau, Stefan Imhoof, Francesco Fronterotta, Platon"
+  },
+  {
+   "book": "",
+   "page": 290,
+   "section": "c",
+   "line": null,
+   "journal": "Revue de Théologie et de Philosophie",
+   "year": "2005",
+   "iid": "1c694a88-ff95-3516-8797-77532290b21a",
+   "doi": "10.2307/44360118",
+   "title": "Book Review : \n        Hippias majeur, Hippias mineur\n        \n          Platon\n        \n        \n          Jean-François\n          Pradeau\n        \n        \n          Francesco\n          Fronterotta",
+   "author": "Jean-François Pradeau, Stefan Imhoof, Francesco Fronterotta, Platon"
+  },
+  {
+   "book": "",
+   "page": 290,
+   "section": "d",
+   "line": null,
+   "journal": "Revue de Théologie et de Philosophie",
+   "year": "2005",
+   "iid": "1c694a88-ff95-3516-8797-77532290b21a",
+   "doi": "10.2307/44360118",
+   "title": "Book Review : \n        Hippias majeur, Hippias mineur\n        \n          Platon\n        \n        \n          Jean-François\n          Pradeau\n        \n        \n          Francesco\n          Fronterotta",
+   "author": "Jean-François Pradeau, Stefan Imhoof, Francesco Fronterotta, Platon"
+  },
+  {
+   "book": "",
+   "page": 290,
+   "section": "e",
+   "line": null,
+   "journal": "Revue de Théologie et de Philosophie",
+   "year": "2005",
+   "iid": "1c694a88-ff95-3516-8797-77532290b21a",
+   "doi": "10.2307/44360118",
+   "title": "Book Review : \n        Hippias majeur, Hippias mineur\n        \n          Platon\n        \n        \n          Jean-François\n          Pradeau\n        \n        \n          Francesco\n          Fronterotta",
+   "author": "Jean-François Pradeau, Stefan Imhoof, Francesco Fronterotta, Platon"
+  },
+  {
+   "book": "",
+   "page": 291,
+   "section": "a",
+   "line": null,
+   "journal": "Revue de Théologie et de Philosophie",
+   "year": "2005",
+   "iid": "1c694a88-ff95-3516-8797-77532290b21a",
+   "doi": "10.2307/44360118",
+   "title": "Book Review : \n        Hippias majeur, Hippias mineur\n        \n          Platon\n        \n        \n          Jean-François\n          Pradeau\n        \n        \n          Francesco\n          Fronterotta",
+   "author": "Jean-François Pradeau, Stefan Imhoof, Francesco Fronterotta, Platon"
+  },
+  {
+   "book": "",
+   "page": 291,
+   "section": "b",
+   "line": null,
+   "journal": "Revue de Théologie et de Philosophie",
+   "year": "2005",
+   "iid": "1c694a88-ff95-3516-8797-77532290b21a",
+   "doi": "10.2307/44360118",
+   "title": "Book Review : \n        Hippias majeur, Hippias mineur\n        \n          Platon\n        \n        \n          Jean-François\n          Pradeau\n        \n        \n          Francesco\n          Fronterotta",
+   "author": "Jean-François Pradeau, Stefan Imhoof, Francesco Fronterotta, Platon"
+  },
+  {
+   "book": "",
+   "page": 291,
+   "section": "c",
+   "line": null,
+   "journal": "Revue de Théologie et de Philosophie",
+   "year": "2005",
+   "iid": "1c694a88-ff95-3516-8797-77532290b21a",
+   "doi": "10.2307/44360118",
+   "title": "Book Review : \n        Hippias majeur, Hippias mineur\n        \n          Platon\n        \n        \n          Jean-François\n          Pradeau\n        \n        \n          Francesco\n          Fronterotta",
+   "author": "Jean-François Pradeau, Stefan Imhoof, Francesco Fronterotta, Platon"
+  },
+  {
+   "book": "",
+   "page": 291,
+   "section": "d",
+   "line": null,
+   "journal": "Revue de Théologie et de Philosophie",
+   "year": "2005",
+   "iid": "1c694a88-ff95-3516-8797-77532290b21a",
+   "doi": "10.2307/44360118",
+   "title": "Book Review : \n        Hippias majeur, Hippias mineur\n        \n          Platon\n        \n        \n          Jean-François\n          Pradeau\n        \n        \n          Francesco\n          Fronterotta",
+   "author": "Jean-François Pradeau, Stefan Imhoof, Francesco Fronterotta, Platon"
+  },
+  {
+   "book": "",
+   "page": 291,
+   "section": "e",
+   "line": null,
+   "journal": "Revue de Théologie et de Philosophie",
+   "year": "2005",
+   "iid": "1c694a88-ff95-3516-8797-77532290b21a",
+   "doi": "10.2307/44360118",
+   "title": "Book Review : \n        Hippias majeur, Hippias mineur\n        \n          Platon\n        \n        \n          Jean-François\n          Pradeau\n        \n        \n          Francesco\n          Fronterotta",
+   "author": "Jean-François Pradeau, Stefan Imhoof, Francesco Fronterotta, Platon"
+  },
+  {
+   "book": "",
+   "page": 292,
+   "section": "a",
+   "line": null,
+   "journal": "Revue de Théologie et de Philosophie",
+   "year": "2005",
+   "iid": "1c694a88-ff95-3516-8797-77532290b21a",
+   "doi": "10.2307/44360118",
+   "title": "Book Review : \n        Hippias majeur, Hippias mineur\n        \n          Platon\n        \n        \n          Jean-François\n          Pradeau\n        \n        \n          Francesco\n          Fronterotta",
+   "author": "Jean-François Pradeau, Stefan Imhoof, Francesco Fronterotta, Platon"
+  },
+  {
+   "book": "",
+   "page": 292,
+   "section": "b",
+   "line": null,
+   "journal": "Revue de Théologie et de Philosophie",
+   "year": "2005",
+   "iid": "1c694a88-ff95-3516-8797-77532290b21a",
+   "doi": "10.2307/44360118",
+   "title": "Book Review : \n        Hippias majeur, Hippias mineur\n        \n          Platon\n        \n        \n          Jean-François\n          Pradeau\n        \n        \n          Francesco\n          Fronterotta",
+   "author": "Jean-François Pradeau, Stefan Imhoof, Francesco Fronterotta, Platon"
+  },
+  {
+   "book": "",
+   "page": 292,
+   "section": "c",
+   "line": null,
+   "journal": "Revue de Théologie et de Philosophie",
+   "year": "2005",
+   "iid": "1c694a88-ff95-3516-8797-77532290b21a",
+   "doi": "10.2307/44360118",
+   "title": "Book Review : \n        Hippias majeur, Hippias mineur\n        \n          Platon\n        \n        \n          Jean-François\n          Pradeau\n        \n        \n          Francesco\n          Fronterotta",
+   "author": "Jean-François Pradeau, Stefan Imhoof, Francesco Fronterotta, Platon"
+  },
+  {
+   "book": "",
+   "page": 292,
+   "section": "d",
+   "line": null,
+   "journal": "Revue de Théologie et de Philosophie",
+   "year": "2005",
+   "iid": "1c694a88-ff95-3516-8797-77532290b21a",
+   "doi": "10.2307/44360118",
+   "title": "Book Review : \n        Hippias majeur, Hippias mineur\n        \n          Platon\n        \n        \n          Jean-François\n          Pradeau\n        \n        \n          Francesco\n          Fronterotta",
+   "author": "Jean-François Pradeau, Stefan Imhoof, Francesco Fronterotta, Platon"
+  },
+  {
+   "book": "",
+   "page": 292,
+   "section": "e",
+   "line": null,
+   "journal": "Revue de Théologie et de Philosophie",
+   "year": "2005",
+   "iid": "1c694a88-ff95-3516-8797-77532290b21a",
+   "doi": "10.2307/44360118",
+   "title": "Book Review : \n        Hippias majeur, Hippias mineur\n        \n          Platon\n        \n        \n          Jean-François\n          Pradeau\n        \n        \n          Francesco\n          Fronterotta",
+   "author": "Jean-François Pradeau, Stefan Imhoof, Francesco Fronterotta, Platon"
+  },
+  {
+   "book": "",
+   "page": 293,
+   "section": "a",
+   "line": null,
+   "journal": "Revue de Théologie et de Philosophie",
+   "year": "2005",
+   "iid": "1c694a88-ff95-3516-8797-77532290b21a",
+   "doi": "10.2307/44360118",
+   "title": "Book Review : \n        Hippias majeur, Hippias mineur\n        \n          Platon\n        \n        \n          Jean-François\n          Pradeau\n        \n        \n          Francesco\n          Fronterotta",
+   "author": "Jean-François Pradeau, Stefan Imhoof, Francesco Fronterotta, Platon"
+  },
+  {
+   "book": "",
+   "page": 293,
+   "section": "b",
+   "line": null,
+   "journal": "Revue de Théologie et de Philosophie",
+   "year": "2005",
+   "iid": "1c694a88-ff95-3516-8797-77532290b21a",
+   "doi": "10.2307/44360118",
+   "title": "Book Review : \n        Hippias majeur, Hippias mineur\n        \n          Platon\n        \n        \n          Jean-François\n          Pradeau\n        \n        \n          Francesco\n          Fronterotta",
+   "author": "Jean-François Pradeau, Stefan Imhoof, Francesco Fronterotta, Platon"
+  },
+  {
+   "book": "",
+   "page": 293,
+   "section": "c",
+   "line": null,
+   "journal": "Revue de Théologie et de Philosophie",
+   "year": "2005",
+   "iid": "1c694a88-ff95-3516-8797-77532290b21a",
+   "doi": "10.2307/44360118",
+   "title": "Book Review : \n        Hippias majeur, Hippias mineur\n        \n          Platon\n        \n        \n          Jean-François\n          Pradeau\n        \n        \n          Francesco\n          Fronterotta",
+   "author": "Jean-François Pradeau, Stefan Imhoof, Francesco Fronterotta, Platon"
+  },
+  {
+   "book": "",
+   "page": 295,
+   "section": "b",
+   "line": null,
+   "journal": "Illinois Classical Studies",
+   "year": "1998",
+   "iid": "1d732b70-3f15-3d98-8ad0-845e86513eb3",
+   "doi": "10.2307/23065281",
+   "title": "\"True Justice\" in the \"Republic\"",
+   "author": "GABRIEL DANZIG"
+  },
+  {
+   "book": "",
+   "page": 282,
+   "section": "a",
+   "line": null,
+   "journal": "The Harvard Theological Review",
+   "year": "1992",
+   "iid": "2676e26e-6286-3682-9743-1c1f6c3b2b0a",
+   "doi": "10.2307/1510037",
+   "title": "Athenagoras the Christian, Pausanias the Travel Guide, and a Mysterious Corinthian Girl",
+   "author": "Louis A. Ruprecht, <suffix>Jr.</suffix>"
+  },
+  {
+   "book": "",
+   "page": 289,
+   "section": "a",
+   "line": null,
+   "journal": "Quaderni Urbinati di Cultura Classica",
+   "year": "2000",
+   "iid": "2dd370b0-f6c7-3578-89f8-0a135171e6ab",
+   "doi": "10.2307/20546624",
+   "title": "\"Non vedo, non sento, non parlo\": Il gioco delle tre scimmie nell'\"Edipo Re\"",
+   "author": "Franco Maiullari"
+  },
+  {
+   "book": "",
+   "page": 289,
+   "section": "b",
+   "line": null,
+   "journal": "Quaderni Urbinati di Cultura Classica",
+   "year": "2000",
+   "iid": "2dd370b0-f6c7-3578-89f8-0a135171e6ab",
+   "doi": "10.2307/20546624",
+   "title": "\"Non vedo, non sento, non parlo\": Il gioco delle tre scimmie nell'\"Edipo Re\"",
+   "author": "Franco Maiullari"
+  },
+  {
+   "book": "",
+   "page": 296,
+   "section": "e",
+   "line": null,
+   "journal": "Mnemosyne",
+   "year": "1991",
+   "iid": "2edaa7e9-43bf-3c9f-90ae-08385c931d33",
+   "doi": "10.2307/4432010",
+   "title": "Middle Platonism on the Beautiful and the Good",
+   "author": "M. J. Edwards"
+  },
+  {
+   "book": "",
+   "page": 297,
+   "section": "a",
+   "line": null,
+   "journal": "Mnemosyne",
+   "year": "1991",
+   "iid": "2edaa7e9-43bf-3c9f-90ae-08385c931d33",
+   "doi": "10.2307/4432010",
+   "title": "Middle Platonism on the Beautiful and the Good",
+   "author": "M. J. Edwards"
+  },
+  {
+   "book": "",
+   "page": 297,
+   "section": "b",
+   "line": null,
+   "journal": "Mnemosyne",
+   "year": "1991",
+   "iid": "2edaa7e9-43bf-3c9f-90ae-08385c931d33",
+   "doi": "10.2307/4432010",
+   "title": "Middle Platonism on the Beautiful and the Good",
+   "author": "M. J. Edwards"
+  },
+  {
+   "book": "",
+   "page": 297,
+   "section": "c",
+   "line": null,
+   "journal": "Mnemosyne",
+   "year": "1991",
+   "iid": "2edaa7e9-43bf-3c9f-90ae-08385c931d33",
+   "doi": "10.2307/4432010",
+   "title": "Middle Platonism on the Beautiful and the Good",
+   "author": "M. J. Edwards"
+  },
+  {
+   "book": "",
+   "page": 291,
+   "section": "a",
+   "line": 8,
+   "journal": "Mnemosyne",
+   "year": "2007",
+   "iid": "3a0db3fc-3daa-3a13-a854-7e3fe9babfdf",
+   "doi": "10.2307/4433815",
+   "title": "Critical Notes on Plato's \"Charmides\"",
+   "author": "D. J. Murphy"
+  },
+  {
+   "book": "",
+   "page": 285,
+   "section": "a",
+   "line": 2,
+   "journal": "Mnemosyne",
+   "year": "2007",
+   "iid": "3a0db3fc-3daa-3a13-a854-7e3fe9babfdf",
+   "doi": "10.2307/4433815",
+   "title": "Critical Notes on Plato's \"Charmides\"",
+   "author": "D. J. Murphy"
+  },
+  {
+   "book": "",
+   "page": 291,
+   "section": "a",
+   "line": 6,
+   "journal": "Mnemosyne",
+   "year": "2007",
+   "iid": "3a0db3fc-3daa-3a13-a854-7e3fe9babfdf",
+   "doi": "10.2307/4433815",
+   "title": "Critical Notes on Plato's \"Charmides\"",
+   "author": "D. J. Murphy"
+  },
+  {
+   "book": "",
+   "page": 282,
+   "section": "a",
+   "line": null,
+   "journal": "Transactions of the American Philological Association (1974-2014)",
+   "year": "1994",
+   "iid": "3f23851b-ac55-32a5-b7af-49019ec89bf4",
+   "doi": "10.2307/284287",
+   "title": "Aeschylus' Theoroi and Realism in Greek Art",
+   "author": "Mary Stieber"
+  },
+  {
+   "book": "",
+   "page": 285,
+   "section": "d",
+   "line": null,
+   "journal": "Harvard Studies in Classical Philology",
+   "year": "2017",
+   "iid": "40eb32db-fa5e-3a2a-b02b-014ef61b1fe5",
+   "doi": "10.2307/44863954",
+   "title": "CORINNAS \"OLD WIVES' TALES\"",
+   "author": "John Heath"
+  },
+  {
+   "book": "",
+   "page": 285,
+   "section": "e",
+   "line": null,
+   "journal": "Harvard Studies in Classical Philology",
+   "year": "2017",
+   "iid": "40eb32db-fa5e-3a2a-b02b-014ef61b1fe5",
+   "doi": "10.2307/44863954",
+   "title": "CORINNAS \"OLD WIVES' TALES\"",
+   "author": "John Heath"
+  },
+  {
+   "book": "",
+   "page": 286,
+   "section": "a",
+   "line": null,
+   "journal": "Harvard Studies in Classical Philology",
+   "year": "2017",
+   "iid": "40eb32db-fa5e-3a2a-b02b-014ef61b1fe5",
+   "doi": "10.2307/44863954",
+   "title": "CORINNAS \"OLD WIVES' TALES\"",
+   "author": "John Heath"
+  },
+  {
+   "book": "",
+   "page": 282,
+   "section": "e",
+   "line": null,
+   "journal": "Transactions and Proceedings of the American Philological Association",
+   "year": "1966",
+   "iid": "4132d5df-3d4d-3210-83de-6ce0ba59cc1b",
+   "doi": "10.2307/2936019",
+   "title": "Creon and Herodotus",
+   "author": "Anthony J. Podlecki"
+  },
+  {
+   "book": "",
+   "page": 285,
+   "section": "d",
+   "line": null,
+   "journal": "Journal of Biblical Literature",
+   "year": "1992",
+   "iid": "4bdc8735-68f2-3a6c-8756-77bcbae73d27",
+   "doi": "10.2307/3267434",
+   "title": "Josephus's Portrait of Hezekiah",
+   "author": "Louis H. Feldman"
+  },
+  {
+   "book": "",
+   "page": 286,
+   "section": "b",
+   "line": 2,
+   "journal": "Mnemosyne",
+   "year": "2007",
+   "iid": "5111bbd7-7fcf-303a-9dd3-1719d0424943",
+   "doi": "10.2307/4433797",
+   "title": "Platonica altera",
+   "author": "Stefan L. Radt"
+  },
+  {
+   "book": "",
+   "page": 297,
+   "section": "c",
+   "line": 5,
+   "journal": "Mnemosyne",
+   "year": "2007",
+   "iid": "5111bbd7-7fcf-303a-9dd3-1719d0424943",
+   "doi": "10.2307/4433797",
+   "title": "Platonica altera",
+   "author": "Stefan L. Radt"
+  },
+  {
+   "book": "",
+   "page": 297,
+   "section": "e",
+   "line": 7,
+   "journal": "Mnemosyne",
+   "year": "2007",
+   "iid": "5111bbd7-7fcf-303a-9dd3-1719d0424943",
+   "doi": "10.2307/4433797",
+   "title": "Platonica altera",
+   "author": "Stefan L. Radt"
+  },
+  {
+   "book": "",
+   "page": 297,
+   "section": "e",
+   "line": null,
+   "journal": "Mnemosyne",
+   "year": "2007",
+   "iid": "5111bbd7-7fcf-303a-9dd3-1719d0424943",
+   "doi": "10.2307/4433797",
+   "title": "Platonica altera",
+   "author": "Stefan L. Radt"
+  },
+  {
+   "book": "",
+   "page": 281,
+   "section": "b",
+   "line": 6,
+   "journal": "Classical Antiquity",
+   "year": "1985",
+   "iid": "57c3930c-c53c-35a7-8eaa-b8022cead3f6",
+   "doi": "10.2307/25010822",
+   "title": "Socratics versus Sophists on Payment for Teaching",
+   "author": "David L. Blank"
+  },
+  {
+   "book": "",
+   "page": 282,
+   "section": "d",
+   "line": 2,
+   "journal": "Classical Antiquity",
+   "year": "1985",
+   "iid": "57c3930c-c53c-35a7-8eaa-b8022cead3f6",
+   "doi": "10.2307/25010822",
+   "title": "Socratics versus Sophists on Payment for Teaching",
+   "author": "David L. Blank"
+  },
+  {
+   "book": "",
+   "page": 289,
+   "section": "a",
+   "line": null,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "2017",
+   "iid": "58fc8260-4cb8-32d7-8303-63bf288ddeca",
+   "doi": "10.2307/26315630",
+   "title": "ERACLITO IN PLOTINO",
+   "author": "Max Bergamo"
+  },
+  {
+   "book": "",
+   "page": 297,
+   "section": "b",
+   "line": null,
+   "journal": "Transactions and Proceedings of the American Philological Association",
+   "year": "1957",
+   "iid": "63b08e98-c50f-3109-adf0-a6cdfe4f6d9c",
+   "doi": "10.2307/283895",
+   "title": "Plato and Mass Words",
+   "author": "Thomas G. Rosenmeyer"
+  },
+  {
+   "book": "",
+   "page": 297,
+   "section": "c",
+   "line": null,
+   "journal": "Transactions and Proceedings of the American Philological Association",
+   "year": "1957",
+   "iid": "63b08e98-c50f-3109-adf0-a6cdfe4f6d9c",
+   "doi": "10.2307/283895",
+   "title": "Plato and Mass Words",
+   "author": "Thomas G. Rosenmeyer"
+  },
+  {
+   "book": "",
+   "page": 301,
+   "section": "b",
+   "line": 7,
+   "journal": "Transactions and Proceedings of the American Philological Association",
+   "year": "1957",
+   "iid": "63b08e98-c50f-3109-adf0-a6cdfe4f6d9c",
+   "doi": "10.2307/283895",
+   "title": "Plato and Mass Words",
+   "author": "Thomas G. Rosenmeyer"
+  },
+  {
+   "book": "",
+   "page": 281,
+   "section": "a",
+   "line": null,
+   "journal": "Mnemosyne",
+   "year": "1998",
+   "iid": "666d0cbf-7dd7-3465-a878-f99f53f69b04",
+   "doi": "10.2307/4432894",
+   "title": "",
+   "author": "S. R. Slings, B. Vancamp"
+  },
+  {
+   "book": "",
+   "page": 281,
+   "section": "b",
+   "line": null,
+   "journal": "Mnemosyne",
+   "year": "1998",
+   "iid": "666d0cbf-7dd7-3465-a878-f99f53f69b04",
+   "doi": "10.2307/4432894",
+   "title": "",
+   "author": "S. R. Slings, B. Vancamp"
+  },
+  {
+   "book": "",
+   "page": 281,
+   "section": "c",
+   "line": null,
+   "journal": "Mnemosyne",
+   "year": "1998",
+   "iid": "666d0cbf-7dd7-3465-a878-f99f53f69b04",
+   "doi": "10.2307/4432894",
+   "title": "",
+   "author": "S. R. Slings, B. Vancamp"
+  },
+  {
+   "book": "",
+   "page": 281,
+   "section": "d",
+   "line": null,
+   "journal": "Mnemosyne",
+   "year": "1998",
+   "iid": "666d0cbf-7dd7-3465-a878-f99f53f69b04",
+   "doi": "10.2307/4432894",
+   "title": "",
+   "author": "S. R. Slings, B. Vancamp"
+  },
+  {
+   "book": "",
+   "page": 290,
+   "section": "a",
+   "line": 3,
+   "journal": "Mnemosyne",
+   "year": "1998",
+   "iid": "666d0cbf-7dd7-3465-a878-f99f53f69b04",
+   "doi": "10.2307/4432894",
+   "title": "",
+   "author": "S. R. Slings, B. Vancamp"
+  },
+  {
+   "book": "",
+   "page": 282,
+   "section": "e",
+   "line": 2,
+   "journal": "Mnemosyne",
+   "year": "1998",
+   "iid": "666d0cbf-7dd7-3465-a878-f99f53f69b04",
+   "doi": "10.2307/4432894",
+   "title": "",
+   "author": "S. R. Slings, B. Vancamp"
+  },
+  {
+   "book": "",
+   "page": 281,
+   "section": "a",
+   "line": 1,
+   "journal": "Mnemosyne",
+   "year": "2019",
+   "iid": "6ba1c831-8c9c-3c29-9215-5445e3b049f1",
+   "doi": "10.2307/26834703",
+   "title": "Καλὸς καὶ σοφός",
+   "author": "Konstantine Panegyres"
+  },
+  {
+   "book": "",
+   "page": 289,
+   "section": "b",
+   "line": null,
+   "journal": "Mnemosyne",
+   "year": "2019",
+   "iid": "6ba1c831-8c9c-3c29-9215-5445e3b049f1",
+   "doi": "10.2307/26834703",
+   "title": "Καλὸς καὶ σοφός",
+   "author": "Konstantine Panegyres"
+  },
+  {
+   "book": "",
+   "page": 282,
+   "section": "e",
+   "line": null,
+   "journal": "Harvard Studies in Classical Philology",
+   "year": "1942",
+   "iid": "6f6c2b89-a8be-3c22-ad59-c19d71c27fcf",
+   "doi": "10.2307/310792",
+   "title": "The Scope of Early Rhetorical Instruction",
+   "author": "Stanley Wilcox"
+  },
+  {
+   "book": "",
+   "page": 282,
+   "section": "d",
+   "line": null,
+   "journal": "Harvard Studies in Classical Philology",
+   "year": "1942",
+   "iid": "6f6c2b89-a8be-3c22-ad59-c19d71c27fcf",
+   "doi": "10.2307/310792",
+   "title": "The Scope of Early Rhetorical Instruction",
+   "author": "Stanley Wilcox"
+  },
+  {
+   "book": "",
+   "page": 304,
+   "section": "a",
+   "line": null,
+   "journal": "Harvard Studies in Classical Philology",
+   "year": "1942",
+   "iid": "6f6c2b89-a8be-3c22-ad59-c19d71c27fcf",
+   "doi": "10.2307/310792",
+   "title": "The Scope of Early Rhetorical Instruction",
+   "author": "Stanley Wilcox"
+  },
+  {
+   "book": "",
+   "page": 304,
+   "section": "c",
+   "line": null,
+   "journal": "Harvard Studies in Classical Philology",
+   "year": "1942",
+   "iid": "6f6c2b89-a8be-3c22-ad59-c19d71c27fcf",
+   "doi": "10.2307/310792",
+   "title": "The Scope of Early Rhetorical Instruction",
+   "author": "Stanley Wilcox"
+  },
+  {
+   "book": "",
+   "page": 282,
+   "section": "b",
+   "line": null,
+   "journal": "Harvard Studies in Classical Philology",
+   "year": "1942",
+   "iid": "6f6c2b89-a8be-3c22-ad59-c19d71c27fcf",
+   "doi": "10.2307/310792",
+   "title": "The Scope of Early Rhetorical Instruction",
+   "author": "Stanley Wilcox"
+  },
+  {
+   "book": "",
+   "page": 291,
+   "section": "e",
+   "line": null,
+   "journal": "The American Journal of Philology",
+   "year": "2009",
+   "iid": "74e0fa20-3556-32f1-9ae5-d037fbf805dc",
+   "doi": "10.2307/20616167",
+   "title": "Lost at Sea: Pythermus as an Anti-Odysseus?",
+   "author": "Margherita Maria Di Nino"
+  },
+  {
+   "book": "",
+   "page": 303,
+   "section": "b",
+   "line": null,
+   "journal": "The American Journal of Philology",
+   "year": "1988",
+   "iid": "76f8b42d-8f0a-3303-b55f-2cee22472da1",
+   "doi": "10.2307/294891",
+   "title": "Elenchus and Mathematics: A Turning-Point in Plato's Philosophical Development",
+   "author": "Gregory Vlastos"
+  },
+  {
+   "book": "",
+   "page": 303,
+   "section": "c",
+   "line": null,
+   "journal": "The American Journal of Philology",
+   "year": "1988",
+   "iid": "76f8b42d-8f0a-3303-b55f-2cee22472da1",
+   "doi": "10.2307/294891",
+   "title": "Elenchus and Mathematics: A Turning-Point in Plato's Philosophical Development",
+   "author": "Gregory Vlastos"
+  },
+  {
+   "book": "",
+   "page": 292,
+   "section": "e",
+   "line": null,
+   "journal": "The Classical World",
+   "year": "1996",
+   "iid": "78c27149-50fd-396d-b94a-7a9b093b503d",
+   "doi": "10.2307/4351830",
+   "title": "",
+   "author": "Michael G. Sollenberger, John Malcolm"
+  },
+  {
+   "book": "",
+   "page": 291,
+   "section": "d",
+   "line": 2,
+   "journal": "Mnemosyne",
+   "year": "1983",
+   "iid": "82554854-6a8c-3bfe-b2be-511592194c66",
+   "doi": "10.2307/4431274",
+   "title": "",
+   "author": "S. R. Slings, K. J. Dover"
+  },
+  {
+   "book": "",
+   "page": 286,
+   "section": "d",
+   "line": 4,
+   "journal": "The Classical World",
+   "year": "2003",
+   "iid": "84a42ca6-b577-302e-89b3-1a4098295116",
+   "doi": "10.2307/4352778",
+   "title": "",
+   "author": "William V. Harris, Elizabeth Belfiore"
+  },
+  {
+   "book": "",
+   "page": 283,
+   "section": "d",
+   "line": null,
+   "journal": "Quaderni Urbinati di Cultura Classica",
+   "year": "2006",
+   "iid": "88e980de-8656-356d-a659-22beb5f3e48c",
+   "doi": "10.2307/20546902",
+   "title": "\"Patriam Mutare\": Colonization in Ovid's \"Metamorphoses\"",
+   "author": "Anastasios D. Nikolopoulos"
+  },
+  {
+   "book": "",
+   "page": 285,
+   "section": "b",
+   "line": null,
+   "journal": "Revue de Théologie et de Philosophie",
+   "year": "2018",
+   "iid": "896cc863-73e7-39af-9a92-921fdbd482e4",
+   "doi": "10.2307/45465142",
+   "title": "DE QUELQUES FIGURES DU SILENCE DANS L'ŒUVRE DE PLATON",
+   "author": "David Lévystone"
+  },
+  {
+   "book": "",
+   "page": 285,
+   "section": "c",
+   "line": null,
+   "journal": "Revue de Théologie et de Philosophie",
+   "year": "2018",
+   "iid": "896cc863-73e7-39af-9a92-921fdbd482e4",
+   "doi": "10.2307/45465142",
+   "title": "DE QUELQUES FIGURES DU SILENCE DANS L'ŒUVRE DE PLATON",
+   "author": "David Lévystone"
+  },
+  {
+   "book": "",
+   "page": 285,
+   "section": "d",
+   "line": null,
+   "journal": "Revue de Théologie et de Philosophie",
+   "year": "2018",
+   "iid": "896cc863-73e7-39af-9a92-921fdbd482e4",
+   "doi": "10.2307/45465142",
+   "title": "DE QUELQUES FIGURES DU SILENCE DANS L'ŒUVRE DE PLATON",
+   "author": "David Lévystone"
+  },
+  {
+   "book": "",
+   "page": 285,
+   "section": "e",
+   "line": null,
+   "journal": "Revue de Théologie et de Philosophie",
+   "year": "2018",
+   "iid": "896cc863-73e7-39af-9a92-921fdbd482e4",
+   "doi": "10.2307/45465142",
+   "title": "DE QUELQUES FIGURES DU SILENCE DANS L'ŒUVRE DE PLATON",
+   "author": "David Lévystone"
+  },
+  {
+   "book": "",
+   "page": 286,
+   "section": "a",
+   "line": null,
+   "journal": "Revue de Théologie et de Philosophie",
+   "year": "2018",
+   "iid": "896cc863-73e7-39af-9a92-921fdbd482e4",
+   "doi": "10.2307/45465142",
+   "title": "DE QUELQUES FIGURES DU SILENCE DANS L'ŒUVRE DE PLATON",
+   "author": "David Lévystone"
+  },
+  {
+   "book": "",
+   "page": 286,
+   "section": "b",
+   "line": null,
+   "journal": "Revue de Théologie et de Philosophie",
+   "year": "2018",
+   "iid": "896cc863-73e7-39af-9a92-921fdbd482e4",
+   "doi": "10.2307/45465142",
+   "title": "DE QUELQUES FIGURES DU SILENCE DANS L'ŒUVRE DE PLATON",
+   "author": "David Lévystone"
+  },
+  {
+   "book": "",
+   "page": 286,
+   "section": "c",
+   "line": null,
+   "journal": "Revue de Théologie et de Philosophie",
+   "year": "2018",
+   "iid": "896cc863-73e7-39af-9a92-921fdbd482e4",
+   "doi": "10.2307/45465142",
+   "title": "DE QUELQUES FIGURES DU SILENCE DANS L'ŒUVRE DE PLATON",
+   "author": "David Lévystone"
+  },
+  {
+   "book": "",
+   "page": 282,
+   "section": "c",
+   "line": null,
+   "journal": "Greece & Rome",
+   "year": "2003",
+   "iid": "896eaab5-e0ce-34ad-b87f-7db659122167",
+   "doi": "10.2307/3567891",
+   "title": "Teaching and Learning in Classical Athens",
+   "author": "T. E. Rihll"
+  },
+  {
+   "book": "",
+   "page": 282,
+   "section": "d",
+   "line": null,
+   "journal": "Greece & Rome",
+   "year": "2003",
+   "iid": "896eaab5-e0ce-34ad-b87f-7db659122167",
+   "doi": "10.2307/3567891",
+   "title": "Teaching and Learning in Classical Athens",
+   "author": "T. E. Rihll"
+  },
+  {
+   "book": "",
+   "page": 302,
+   "section": "c",
+   "line": 12,
+   "journal": "Mnemosyne",
+   "year": "2021",
+   "iid": "91c38db3-ddf9-375e-8c7f-ab8ebbce8bed",
+   "doi": "10.2307/27286779",
+   "title": "Second Sailing towards Immortality and God",
+   "author": "Rafael Ferber"
+  },
+  {
+   "book": "",
+   "page": 283,
+   "section": "b",
+   "line": null,
+   "journal": "Classical Antiquity",
+   "year": "2001",
+   "iid": "933b4cfc-f863-3392-9347-4172e084d0be",
+   "doi": "10.1525/ca.2001.20.1.121",
+   "title": "Spartan Literacy Revisited",
+   "author": "Ellen G. Millender"
+  },
+  {
+   "book": "",
+   "page": 283,
+   "section": "c",
+   "line": null,
+   "journal": "Classical Antiquity",
+   "year": "2001",
+   "iid": "933b4cfc-f863-3392-9347-4172e084d0be",
+   "doi": "10.1525/ca.2001.20.1.121",
+   "title": "Spartan Literacy Revisited",
+   "author": "Ellen G. Millender"
+  },
+  {
+   "book": "",
+   "page": 283,
+   "section": "d",
+   "line": null,
+   "journal": "Classical Antiquity",
+   "year": "2001",
+   "iid": "933b4cfc-f863-3392-9347-4172e084d0be",
+   "doi": "10.1525/ca.2001.20.1.121",
+   "title": "Spartan Literacy Revisited",
+   "author": "Ellen G. Millender"
+  },
+  {
+   "book": "",
+   "page": 283,
+   "section": "e",
+   "line": null,
+   "journal": "Classical Antiquity",
+   "year": "2001",
+   "iid": "933b4cfc-f863-3392-9347-4172e084d0be",
+   "doi": "10.1525/ca.2001.20.1.121",
+   "title": "Spartan Literacy Revisited",
+   "author": "Ellen G. Millender"
+  },
+  {
+   "book": "",
+   "page": 284,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Antiquity",
+   "year": "2001",
+   "iid": "933b4cfc-f863-3392-9347-4172e084d0be",
+   "doi": "10.1525/ca.2001.20.1.121",
+   "title": "Spartan Literacy Revisited",
+   "author": "Ellen G. Millender"
+  },
+  {
+   "book": "",
+   "page": 284,
+   "section": "b",
+   "line": null,
+   "journal": "Classical Antiquity",
+   "year": "2001",
+   "iid": "933b4cfc-f863-3392-9347-4172e084d0be",
+   "doi": "10.1525/ca.2001.20.1.121",
+   "title": "Spartan Literacy Revisited",
+   "author": "Ellen G. Millender"
+  },
+  {
+   "book": "",
+   "page": 284,
+   "section": "c",
+   "line": null,
+   "journal": "Classical Antiquity",
+   "year": "2001",
+   "iid": "933b4cfc-f863-3392-9347-4172e084d0be",
+   "doi": "10.1525/ca.2001.20.1.121",
+   "title": "Spartan Literacy Revisited",
+   "author": "Ellen G. Millender"
+  },
+  {
+   "book": "",
+   "page": 284,
+   "section": "d",
+   "line": null,
+   "journal": "Classical Antiquity",
+   "year": "2001",
+   "iid": "933b4cfc-f863-3392-9347-4172e084d0be",
+   "doi": "10.1525/ca.2001.20.1.121",
+   "title": "Spartan Literacy Revisited",
+   "author": "Ellen G. Millender"
+  },
+  {
+   "book": "",
+   "page": 284,
+   "section": "e",
+   "line": null,
+   "journal": "Classical Antiquity",
+   "year": "2001",
+   "iid": "933b4cfc-f863-3392-9347-4172e084d0be",
+   "doi": "10.1525/ca.2001.20.1.121",
+   "title": "Spartan Literacy Revisited",
+   "author": "Ellen G. Millender"
+  },
+  {
+   "book": "",
+   "page": 285,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Antiquity",
+   "year": "2001",
+   "iid": "933b4cfc-f863-3392-9347-4172e084d0be",
+   "doi": "10.1525/ca.2001.20.1.121",
+   "title": "Spartan Literacy Revisited",
+   "author": "Ellen G. Millender"
+  },
+  {
+   "book": "",
+   "page": 285,
+   "section": "b",
+   "line": null,
+   "journal": "Classical Antiquity",
+   "year": "2001",
+   "iid": "933b4cfc-f863-3392-9347-4172e084d0be",
+   "doi": "10.1525/ca.2001.20.1.121",
+   "title": "Spartan Literacy Revisited",
+   "author": "Ellen G. Millender"
+  },
+  {
+   "book": "",
+   "page": 285,
+   "section": "c",
+   "line": null,
+   "journal": "Classical Antiquity",
+   "year": "2001",
+   "iid": "933b4cfc-f863-3392-9347-4172e084d0be",
+   "doi": "10.1525/ca.2001.20.1.121",
+   "title": "Spartan Literacy Revisited",
+   "author": "Ellen G. Millender"
+  },
+  {
+   "book": "",
+   "page": 285,
+   "section": "d",
+   "line": null,
+   "journal": "Classical Antiquity",
+   "year": "2001",
+   "iid": "933b4cfc-f863-3392-9347-4172e084d0be",
+   "doi": "10.1525/ca.2001.20.1.121",
+   "title": "Spartan Literacy Revisited",
+   "author": "Ellen G. Millender"
+  },
+  {
+   "book": "",
+   "page": 285,
+   "section": "e",
+   "line": null,
+   "journal": "Classical Antiquity",
+   "year": "2001",
+   "iid": "933b4cfc-f863-3392-9347-4172e084d0be",
+   "doi": "10.1525/ca.2001.20.1.121",
+   "title": "Spartan Literacy Revisited",
+   "author": "Ellen G. Millender"
+  },
+  {
+   "book": "",
+   "page": 286,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Antiquity",
+   "year": "2001",
+   "iid": "933b4cfc-f863-3392-9347-4172e084d0be",
+   "doi": "10.1525/ca.2001.20.1.121",
+   "title": "Spartan Literacy Revisited",
+   "author": "Ellen G. Millender"
+  },
+  {
+   "book": "",
+   "page": 286,
+   "section": "b",
+   "line": null,
+   "journal": "Classical Antiquity",
+   "year": "2001",
+   "iid": "933b4cfc-f863-3392-9347-4172e084d0be",
+   "doi": "10.1525/ca.2001.20.1.121",
+   "title": "Spartan Literacy Revisited",
+   "author": "Ellen G. Millender"
+  },
+  {
+   "book": "",
+   "page": 286,
+   "section": "a",
+   "line": null,
+   "journal": "Hermes",
+   "year": "2011",
+   "iid": "9a0b89c3-dcd5-387e-9369-d94e1e93f1fc",
+   "doi": "10.2307/23067343",
+   "title": "THE ELEIAN ASYLIA: A DEFENCE OF THE ANCIENT TEXTS",
+   "author": "Graeme F. Bourke"
+  },
+  {
+   "book": "",
+   "page": 288,
+   "section": "d",
+   "line": 2,
+   "journal": "Illinois Classical Studies",
+   "year": "2001",
+   "iid": "9e4fd463-3495-3458-bbbe-85b7d4e0f0a2",
+   "doi": "10.2307/23064532",
+   "title": "\"The Sophistry of Noble Lineage\" Revisited: Plato's \"Sophist\" 226b1—231b8",
+   "author": "ZINA GIANNOPOULOU"
+  },
+  {
+   "book": "",
+   "page": 285,
+   "section": "e",
+   "line": null,
+   "journal": "Transactions and Proceedings of the American Philological Association",
+   "year": "1938",
+   "iid": "a4f0dc50-dc3f-32b9-8176-fda0e035ef95",
+   "doi": "10.2307/283194",
+   "title": "Mnemosyne in Oral Literature",
+   "author": "James A. Notopoulos"
+  },
+  {
+   "book": "",
+   "page": 286,
+   "section": "b",
+   "line": null,
+   "journal": "Harvard Studies in Classical Philology",
+   "year": "1941",
+   "iid": "b0f10427-73a0-300a-88b0-cbbfce5892ca",
+   "doi": "10.2307/310955",
+   "title": "The True Tragedy: On the Relationship between Greek Tragedy and Plato, I",
+   "author": "Helmut Kuhn"
+  },
+  {
+   "book": "",
+   "page": 295,
+   "section": "a",
+   "line": null,
+   "journal": "Greece & Rome",
+   "year": "1949",
+   "iid": "b352cbea-f890-3268-800f-1709cf8ef740",
+   "doi": "10.2307/641798",
+   "title": "Impromptu Speaking",
+   "author": "H. Ll. Hudson-Williams"
+  },
+  {
+   "book": "",
+   "page": 297,
+   "section": "e",
+   "line": null,
+   "journal": "Greece & Rome",
+   "year": "1949",
+   "iid": "b352cbea-f890-3268-800f-1709cf8ef740",
+   "doi": "10.2307/641798",
+   "title": "Impromptu Speaking",
+   "author": "H. Ll. Hudson-Williams"
+  },
+  {
+   "book": "",
+   "page": 304,
+   "section": "c",
+   "line": null,
+   "journal": "The Journal of Religion",
+   "year": "2007",
+   "iid": "b2fa7d92-008c-372f-90fe-f1d8628b9089",
+   "doi": "10.1086/508387",
+   "title": "“Facie ad Faciem”: Visuality, Desire, and the Discourse of the Other",
+   "author": "Margaret R. Miles"
+  },
+  {
+   "book": "",
+   "page": 303,
+   "section": "c",
+   "line": null,
+   "journal": "The Journal of Religion",
+   "year": "2007",
+   "iid": "b2fa7d92-008c-372f-90fe-f1d8628b9089",
+   "doi": "10.1086/508387",
+   "title": "“Facie ad Faciem”: Visuality, Desire, and the Discourse of the Other",
+   "author": "Margaret R. Miles"
+  },
+  {
+   "book": "",
+   "page": 286,
+   "section": "a",
+   "line": null,
+   "journal": "Transactions of the American Philological Association (1974-2014)",
+   "year": "1990",
+   "iid": "b56f254c-8a4d-34e9-9ed0-c358b054e3c2",
+   "doi": "10.2307/283980",
+   "title": "Pindar's Sixth Pythian and the Tradition of Advice Poetry",
+   "author": "Leslie Kurke"
+  },
+  {
+   "book": "",
+   "page": 286,
+   "section": "b",
+   "line": null,
+   "journal": "Transactions of the American Philological Association (1974-2014)",
+   "year": "1990",
+   "iid": "b56f254c-8a4d-34e9-9ed0-c358b054e3c2",
+   "doi": "10.2307/283980",
+   "title": "Pindar's Sixth Pythian and the Tradition of Advice Poetry",
+   "author": "Leslie Kurke"
+  },
+  {
+   "book": "",
+   "page": 285,
+   "section": "a",
+   "line": 2,
+   "journal": "Mnemosyne",
+   "year": "1988",
+   "iid": "baabd51f-d43d-3e25-a35f-d8e66cdc8809",
+   "doi": "10.2307/4431753",
+   "title": "",
+   "author": "S. R. Slings, N. van der Ben"
+  },
+  {
+   "book": "",
+   "page": 303,
+   "section": "c",
+   "line": 1,
+   "journal": "Mnemosyne",
+   "year": "2014",
+   "iid": "ba72ab01-476f-3aca-b044-2f2b2b7a32cb",
+   "doi": "10.2307/24522897",
+   "title": "More Critical Notes on Plato's \"Charmides\"",
+   "author": "David J. Murphy"
+  },
+  {
+   "book": "",
+   "page": 300,
+   "section": "c",
+   "line": 9,
+   "journal": "Mnemosyne",
+   "year": "2014",
+   "iid": "ba72ab01-476f-3aca-b044-2f2b2b7a32cb",
+   "doi": "10.2307/24522897",
+   "title": "More Critical Notes on Plato's \"Charmides\"",
+   "author": "David J. Murphy"
+  },
+  {
+   "book": "",
+   "page": 300,
+   "section": "d",
+   "line": 6,
+   "journal": "Mnemosyne",
+   "year": "2014",
+   "iid": "ba72ab01-476f-3aca-b044-2f2b2b7a32cb",
+   "doi": "10.2307/24522897",
+   "title": "More Critical Notes on Plato's \"Charmides\"",
+   "author": "David J. Murphy"
+  },
+  {
+   "book": "",
+   "page": 281,
+   "section": "b",
+   "line": null,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1968",
+   "iid": "c053a6dd-6f53-34d3-b81c-1b52ff2113ec",
+   "doi": "10.2307/41244359",
+   "title": "PLATO \"REPUBLIC\" 328C",
+   "author": "A. S. Henry"
+  },
+  {
+   "book": "",
+   "page": 296,
+   "section": "d",
+   "line": null,
+   "journal": "Transactions and Proceedings of the American Philological Association",
+   "year": "1961",
+   "iid": "c2587ba5-4631-395b-8242-ed9fdf03ce39",
+   "doi": "10.2307/283826",
+   "title": "The \"Fallacy\" in Protagoras 349D-350C",
+   "author": "Michael J. O'Brien"
+  },
+  {
+   "book": "",
+   "page": 296,
+   "section": "e",
+   "line": null,
+   "journal": "Transactions and Proceedings of the American Philological Association",
+   "year": "1961",
+   "iid": "c2587ba5-4631-395b-8242-ed9fdf03ce39",
+   "doi": "10.2307/283826",
+   "title": "The \"Fallacy\" in Protagoras 349D-350C",
+   "author": "Michael J. O'Brien"
+  },
+  {
+   "book": "",
+   "page": 298,
+   "section": "a",
+   "line": null,
+   "journal": "Transactions and Proceedings of the American Philological Association",
+   "year": "1961",
+   "iid": "c2587ba5-4631-395b-8242-ed9fdf03ce39",
+   "doi": "10.2307/283826",
+   "title": "The \"Fallacy\" in Protagoras 349D-350C",
+   "author": "Michael J. O'Brien"
+  },
+  {
+   "book": "",
+   "page": 304,
+   "section": "c",
+   "line": null,
+   "journal": "Hermes",
+   "year": "2012",
+   "iid": "c2721bd8-ad4e-3e23-93a9-023571cff960",
+   "doi": "10.2307/43652911",
+   "title": "SOCRATIC ELEMENTS IN AESCHINES' 'ALCIBIADES' AND PLATO'S SOCRATIC DIALOGUES",
+   "author": "Shigeru Yonezawa"
+  },
+  {
+   "book": "",
+   "page": 304,
+   "section": "d",
+   "line": null,
+   "journal": "Hermes",
+   "year": "2012",
+   "iid": "c2721bd8-ad4e-3e23-93a9-023571cff960",
+   "doi": "10.2307/43652911",
+   "title": "SOCRATIC ELEMENTS IN AESCHINES' 'ALCIBIADES' AND PLATO'S SOCRATIC DIALOGUES",
+   "author": "Shigeru Yonezawa"
+  },
+  {
+   "book": "",
+   "page": 287,
+   "section": "c",
+   "line": 4,
+   "journal": "Hermes",
+   "year": "2009",
+   "iid": "c52615cf-ae93-3ff1-a851-5b5d779383ed",
+   "doi": "10.2307/40379079",
+   "title": "In Praise of the Fable. The Philostratean Aesop",
+   "author": "Graeme Miles, Kristoffel Demoen"
+  },
+  {
+   "book": "",
+   "page": 293,
+   "section": "d",
+   "line": 4,
+   "journal": "Mnemosyne",
+   "year": "1991",
+   "iid": "c6680271-7a86-3b71-94b3-b94d1ee22a78",
+   "doi": "10.2307/4432073",
+   "title": "Notes on [Plato], \"Theages\"",
+   "author": "M. A. Joyal"
+  },
+  {
+   "book": "",
+   "page": 290,
+   "section": "b",
+   "line": 6,
+   "journal": "Mnemosyne",
+   "year": "1991",
+   "iid": "c6680271-7a86-3b71-94b3-b94d1ee22a78",
+   "doi": "10.2307/4432073",
+   "title": "Notes on [Plato], \"Theages\"",
+   "author": "M. A. Joyal"
+  },
+  {
+   "book": "",
+   "page": 304,
+   "section": "b",
+   "line": 8,
+   "journal": "Mnemosyne",
+   "year": "1991",
+   "iid": "c6680271-7a86-3b71-94b3-b94d1ee22a78",
+   "doi": "10.2307/4432073",
+   "title": "Notes on [Plato], \"Theages\"",
+   "author": "M. A. Joyal"
+  },
+  {
+   "book": "",
+   "page": 287,
+   "section": "b",
+   "line": 4,
+   "journal": "Mnemosyne",
+   "year": "2002",
+   "iid": "c6a1f95f-e1d1-364f-a22a-5d91a23ff30f",
+   "doi": "10.2307/4433361",
+   "title": "Critical Notes on Plato's \"Politeia,\" VIII",
+   "author": "S. R. Slings"
+  },
+  {
+   "book": "",
+   "page": 283,
+   "section": "a",
+   "line": null,
+   "journal": "Illinois Classical Studies",
+   "year": "2022",
+   "iid": "c9b8088d-a1e0-3dd0-ad22-862f910a2171",
+   "doi": "10.2307/48779750",
+   "title": "Hippias, Heraclitus, and Socrates",
+   "author": "SEAN DRISCOLL"
+  },
+  {
+   "book": "",
+   "page": 288,
+   "section": "e",
+   "line": null,
+   "journal": "Illinois Classical Studies",
+   "year": "2022",
+   "iid": "c9b8088d-a1e0-3dd0-ad22-862f910a2171",
+   "doi": "10.2307/48779750",
+   "title": "Hippias, Heraclitus, and Socrates",
+   "author": "SEAN DRISCOLL"
+  },
+  {
+   "book": "",
+   "page": 289,
+   "section": "a",
+   "line": null,
+   "journal": "Illinois Classical Studies",
+   "year": "2022",
+   "iid": "c9b8088d-a1e0-3dd0-ad22-862f910a2171",
+   "doi": "10.2307/48779750",
+   "title": "Hippias, Heraclitus, and Socrates",
+   "author": "SEAN DRISCOLL"
+  },
+  {
+   "book": "",
+   "page": 289,
+   "section": "b",
+   "line": null,
+   "journal": "Illinois Classical Studies",
+   "year": "2022",
+   "iid": "c9b8088d-a1e0-3dd0-ad22-862f910a2171",
+   "doi": "10.2307/48779750",
+   "title": "Hippias, Heraclitus, and Socrates",
+   "author": "SEAN DRISCOLL"
+  },
+  {
+   "book": "",
+   "page": 289,
+   "section": "b",
+   "line": 8,
+   "journal": "Hermes",
+   "year": "2018",
+   "iid": "ca221182-0f16-3a04-9186-31f7cc4bfd73",
+   "doi": "10.2307/26650541",
+   "title": "De deux expressions utilisées par Platon en contexte réfutatif : ἐναντία λέγειν et ἀντιλέγειν",
+   "author": "GENEVIÈVE LACHANCE"
+  },
+  {
+   "book": "",
+   "page": 283,
+   "section": "c",
+   "line": 4,
+   "journal": "Mnemosyne",
+   "year": "2008",
+   "iid": "d6fbc954-c31d-3907-b606-e4fcd630a5a0",
+   "doi": "10.2307/27736272",
+   "title": "Kleinigkeiten zu Plutarch",
+   "author": "Stefan Radt"
+  },
+  {
+   "book": "",
+   "page": 284,
+   "section": "a",
+   "line": 3,
+   "journal": "Mnemosyne",
+   "year": "2008",
+   "iid": "d6fbc954-c31d-3907-b606-e4fcd630a5a0",
+   "doi": "10.2307/27736272",
+   "title": "Kleinigkeiten zu Plutarch",
+   "author": "Stefan Radt"
+  },
+  {
+   "book": "",
+   "page": 304,
+   "section": "e",
+   "line": null,
+   "journal": "Transactions and Proceedings of the American Philological Association",
+   "year": "1953",
+   "iid": "db2bb18b-6691-35c1-a68a-ee58bea2af0c",
+   "doi": "10.2307/283404",
+   "title": "Simonides on &#x0386;&#x03C1;&#x03B5;&#x03C4;&#x1F75;",
+   "author": "Leonard Woodbury"
+  },
+  {
+   "book": "",
+   "page": 287,
+   "section": "b",
+   "line": 4,
+   "journal": "Mnemosyne",
+   "year": "1988",
+   "iid": "e3c3b53a-a759-3b4e-9a98-dd8d9efc14ba",
+   "doi": "10.2307/4431734",
+   "title": "Critical Notes on Plato's \"Politeia\", I",
+   "author": "S. R. Slings"
+  },
+  {
+   "book": "",
+   "page": 298,
+   "section": "b",
+   "line": null,
+   "journal": "Mnemosyne",
+   "year": "1999",
+   "iid": "e98d7940-a0b6-38b1-b7c2-b28a4559a1f3",
+   "doi": "10.2307/4432927",
+   "title": "Observations on the Text of Olympiodorus on Plato's \"Gorgias\"",
+   "author": "Harold Tarrant"
+  },
+  {
+   "book": "",
+   "page": 285,
+   "section": "b",
+   "line": null,
+   "journal": "Hermes",
+   "year": "1979",
+   "iid": "ef8f7107-89b2-3dcd-b301-34b9248ec367",
+   "doi": "10.2307/4476135",
+   "title": "Politische Ziele in der Frühen Hellenistischen Geschichtsschreibung",
+   "author": "Klaus Rosen"
+  },
+  {
+   "book": "",
+   "page": 296,
+   "section": "a",
+   "line": 5,
+   "journal": "Illinois Classical Studies",
+   "year": "1992",
+   "iid": "f1b0b244-eabc-3f5d-8317-ebbebf3003c5",
+   "doi": "10.2307/23064328",
+   "title": "Notes on Justin Martyr's \"Apologies\"",
+   "author": "MIROSLAV MARCOVICH"
+  },
+  {
+   "book": "",
+   "page": 281,
+   "section": "c",
+   "line": null,
+   "journal": "The American Journal of Philology",
+   "year": "2014",
+   "iid": "f3dea535-68b7-3084-98e7-b2af70f7ab13",
+   "doi": "10.2307/24560466",
+   "title": "HESIODIC POETRY AND WISDOM IN PLUTARCH'S \"SYMPOSIUM OF THE SEVEN SAGES\"",
+   "author": "Zoe Stamatopoulou"
+  },
+  {
+   "book": "",
+   "page": 289,
+   "section": "d",
+   "line": null,
+   "journal": "Harvard Studies in Classical Philology",
+   "year": "1936",
+   "iid": "fc668997-6c08-3715-8b6d-b85ed693e5eb",
+   "doi": "10.2307/310570",
+   "title": "The Terminology of the Ideas",
+   "author": "Gerald Frank Else"
+  },
+  {
+   "book": "",
+   "page": 298,
+   "section": "b",
+   "line": null,
+   "journal": "Harvard Studies in Classical Philology",
+   "year": "1936",
+   "iid": "fc668997-6c08-3715-8b6d-b85ed693e5eb",
+   "doi": "10.2307/310570",
+   "title": "The Terminology of the Ideas",
+   "author": "Gerald Frank Else"
   }
  ]
 }

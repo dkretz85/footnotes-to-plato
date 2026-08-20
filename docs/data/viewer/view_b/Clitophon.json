@@ -1,16 +1,66 @@
 {
  "work": "Clitophon",
  "faceted": false,
+ "system": "stephanus",
  "tier": "uncertain",
  "cells": [
   {
    "book": "",
    "page": 406,
    "section": "a",
-   "count": 5,
-   "articles": 2,
+   "band": 0,
+   "count": 9,
+   "articles": 6,
    "by_journal": {
     "Classical Philology": 4,
+    "The Classical Quarterly": 1,
+    "The American Journal of Philology": 1,
+    "Mnemosyne": 2,
+    "The Classical Journal": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 406,
+   "section": "b",
+   "band": 0,
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "Illinois Classical Studies": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 406,
+   "section": "c",
+   "band": 0,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 406,
+   "section": "d",
+   "band": 0,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 406,
+   "section": "e",
+   "band": 0,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
     "The Classical Quarterly": 1
    }
   },
@@ -18,147 +68,275 @@
    "book": "",
    "page": 407,
    "section": "a",
+   "band": 0,
+   "count": 18,
+   "articles": 14,
+   "by_journal": {
+    "Classical Philology": 4,
+    "Revue de Philosophie Ancienne": 1,
+    "The Classical Quarterly": 2,
+    "The American Journal of Philology": 1,
+    "Mnemosyne": 7,
+    "Classical Antiquity": 1,
+    "Illinois Classical Studies": 1,
+    "Hermes": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 407,
+   "section": "b",
+   "band": 0,
+   "count": 14,
+   "articles": 6,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 2,
+    "The Classical Quarterly": 2,
+    "Classical Philology": 1,
+    "Mnemosyne": 9
+   }
+  },
+  {
+   "book": "",
+   "page": 407,
+   "section": "c",
+   "band": 0,
    "count": 6,
-   "articles": 5,
+   "articles": 6,
    "by_journal": {
-    "Classical Philology": 4,
-    "Revue de Philosophie Ancienne": 1,
-    "The Classical Quarterly": 1
-   }
-  },
-  {
-   "book": "",
-   "page": 407,
-   "section": "b",
-   "count": 2,
-   "articles": 2,
-   "by_journal": {
-    "Revue de Philosophie Ancienne": 1,
-    "The Classical Quarterly": 1
-   }
-  },
-  {
-   "book": "",
-   "page": 407,
-   "section": "c",
-   "count": 2,
-   "articles": 2,
-   "by_journal": {
-    "Classical Philology": 2
+    "The Classical Quarterly": 2,
+    "Classical Philology": 2,
+    "Mnemosyne": 2
    }
   },
   {
    "book": "",
    "page": 407,
    "section": "d",
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Classical Philology": 1
-   }
-  },
-  {
-   "book": "",
-   "page": 408,
-   "section": "b",
-   "count": 2,
-   "articles": 2,
-   "by_journal": {
-    "The Classical Review": 1,
-    "The Classical Quarterly": 1
-   }
-  },
-  {
-   "book": "",
-   "page": 408,
-   "section": "d",
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical Quarterly": 1
-   }
-  },
-  {
-   "book": "",
-   "page": 409,
-   "section": "b",
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Classical Philology": 1
-   }
-  },
-  {
-   "book": "",
-   "page": 409,
-   "section": "c",
-   "count": 2,
-   "articles": 1,
-   "by_journal": {
-    "Classical Philology": 2
-   }
-  },
-  {
-   "book": "",
-   "page": 409,
-   "section": "d",
-   "count": 4,
-   "articles": 2,
-   "by_journal": {
-    "Classical Philology": 4
-   }
-  },
-  {
-   "book": "",
-   "page": 410,
-   "section": "a",
-   "count": 2,
-   "articles": 2,
-   "by_journal": {
-    "Classical Philology": 2
-   }
-  },
-  {
-   "book": "",
-   "page": 410,
-   "section": "b",
-   "count": 3,
-   "articles": 2,
-   "by_journal": {
-    "Classical Philology": 3
-   }
-  },
-  {
-   "book": "",
-   "page": 410,
-   "section": "c",
+   "band": 0,
    "count": 5,
    "articles": 3,
    "by_journal": {
-    "The Classical Review": 1,
+    "Classical Philology": 2,
     "The Classical Quarterly": 1,
-    "Classical Philology": 3
+    "Mnemosyne": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 407,
+   "section": "e",
+   "band": 0,
+   "count": 4,
+   "articles": 2,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "Mnemosyne": 3
+   }
+  },
+  {
+   "book": "",
+   "page": 408,
+   "section": "a",
+   "band": 0,
+   "count": 5,
+   "articles": 3,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "Mnemosyne": 3,
+    "Illinois Classical Studies": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 408,
+   "section": "b",
+   "band": 0,
+   "count": 7,
+   "articles": 6,
+   "by_journal": {
+    "The Classical Review": 1,
+    "The Classical Quarterly": 2,
+    "Transactions of the American Philological Association (1974-2014)": 1,
+    "Mnemosyne": 3
+   }
+  },
+  {
+   "book": "",
+   "page": 408,
+   "section": "c",
+   "band": 0,
+   "count": 6,
+   "articles": 4,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "Transactions of the American Philological Association (1974-2014)": 3,
+    "Mnemosyne": 1,
+    "Hermes": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 408,
+   "section": "d",
+   "band": 0,
+   "count": 8,
+   "articles": 5,
+   "by_journal": {
+    "The Classical Quarterly": 2,
+    "Classical Antiquity": 1,
+    "Transactions of the American Philological Association (1974-2014)": 2,
+    "Mnemosyne": 3
+   }
+  },
+  {
+   "book": "",
+   "page": 408,
+   "section": "e",
+   "band": 0,
+   "count": 4,
+   "articles": 4,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "Classical Antiquity": 1,
+    "Transactions of the American Philological Association (1974-2014)": 1,
+    "Mnemosyne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 409,
+   "section": "a",
+   "band": 0,
+   "count": 8,
+   "articles": 3,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "Classical Antiquity": 1,
+    "Mnemosyne": 6
+   }
+  },
+  {
+   "book": "",
+   "page": 409,
+   "section": "b",
+   "band": 0,
+   "count": 6,
+   "articles": 4,
+   "by_journal": {
+    "Classical Philology": 1,
+    "The Classical Quarterly": 1,
+    "Classical Antiquity": 1,
+    "Mnemosyne": 3
+   }
+  },
+  {
+   "book": "",
+   "page": 409,
+   "section": "c",
+   "band": 0,
+   "count": 4,
+   "articles": 3,
+   "by_journal": {
+    "Classical Philology": 2,
+    "The Classical Quarterly": 1,
+    "Classical Antiquity": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 409,
+   "section": "d",
+   "band": 0,
+   "count": 6,
+   "articles": 4,
+   "by_journal": {
+    "Classical Philology": 4,
+    "The Classical Quarterly": 1,
+    "Classical Antiquity": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 409,
+   "section": "e",
+   "band": 0,
+   "count": 7,
+   "articles": 7,
+   "by_journal": {
+    "Classical Philology": 2,
+    "The Classical Quarterly": 1,
+    "Classical Antiquity": 1,
+    "Hermes": 1,
+    "Mnemosyne": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 410,
+   "section": "a",
+   "band": 0,
+   "count": 4,
+   "articles": 4,
+   "by_journal": {
+    "Classical Philology": 2,
+    "The Classical Quarterly": 1,
+    "Classical Antiquity": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 410,
+   "section": "b",
+   "band": 0,
+   "count": 8,
+   "articles": 5,
+   "by_journal": {
+    "Classical Philology": 3,
+    "The Classical Quarterly": 1,
+    "Transactions of the American Philological Association (1974-2014)": 1,
+    "Mnemosyne": 3
+   }
+  },
+  {
+   "book": "",
+   "page": 410,
+   "section": "c",
+   "band": 0,
+   "count": 12,
+   "articles": 8,
+   "by_journal": {
+    "The Classical Review": 1,
+    "Classical Philology": 4,
+    "The Classical Quarterly": 2,
+    "Transactions of the American Philological Association (1974-2014)": 1,
+    "Mnemosyne": 3,
+    "Greece & Rome": 1
    }
   },
   {
    "book": "",
    "page": 410,
    "section": "d",
-   "count": 3,
-   "articles": 2,
+   "band": 0,
+   "count": 6,
+   "articles": 5,
    "by_journal": {
     "Classical Philology": 2,
-    "The Classical Quarterly": 1
+    "The Classical Quarterly": 1,
+    "Mnemosyne": 3
    }
   },
   {
    "book": "",
    "page": 410,
    "section": "e",
-   "count": 3,
-   "articles": 1,
+   "band": 0,
+   "count": 4,
+   "articles": 2,
    "by_journal": {
-    "Classical Philology": 3
+    "Classical Philology": 3,
+    "Mnemosyne": 1
    }
   }
  ],
@@ -179,6 +357,18 @@
    "book": "",
    "page": 407,
    "section": "a",
+   "line": null,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2022",
+   "iid": "353e3723-b29a-3c0e-9e47-74b1a6544150",
+   "doi": "10.2307/27264529",
+   "title": "ASKÊSIS, GENÈSE DE LAVERTU ET EXEMPLARITÉ DE SOCRATE CHEZ PLATON ET XÉNOPHON",
+   "author": "Louis-André DORION"
+  },
+  {
+   "book": "",
+   "page": 407,
+   "section": "b",
    "line": null,
    "journal": "Revue de Philosophie Ancienne",
    "year": "2022",
@@ -215,6 +405,18 @@
    "book": "",
    "page": 407,
    "section": "b",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1999",
+   "iid": "5e858a2d-79ab-3af7-bf5b-a6c02e904100",
+   "doi": "10.2307/639488",
+   "title": "Literate Education in Classical Athens",
+   "author": "T. J. Morgan"
+  },
+  {
+   "book": "",
+   "page": 407,
+   "section": "c",
    "line": null,
    "journal": "The Classical Quarterly",
    "year": "1999",
@@ -285,8 +487,32 @@
   },
   {
    "book": "",
+   "page": 410,
+   "section": "c",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1931",
+   "iid": "823beabe-6420-34d8-bae5-e5da45937063",
+   "doi": "10.2307/264500",
+   "title": "The Cleitophon of Plato",
+   "author": "G. M. A. Grube"
+  },
+  {
+   "book": "",
    "page": 407,
    "section": "c",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1931",
+   "iid": "823beabe-6420-34d8-bae5-e5da45937063",
+   "doi": "10.2307/264500",
+   "title": "The Cleitophon of Plato",
+   "author": "G. M. A. Grube"
+  },
+  {
+   "book": "",
+   "page": 409,
+   "section": "e",
    "line": null,
    "journal": "Classical Philology",
    "year": "1931",
@@ -347,6 +573,18 @@
    "book": "",
    "page": 409,
    "section": "d",
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "1993",
+   "iid": "c2723ed9-ad9f-3386-8116-b00ef8efc27b",
+   "doi": "10.2307/270018",
+   "title": "",
+   "author": "Barry S. Strauss, Mark Golden"
+  },
+  {
+   "book": "",
+   "page": 409,
+   "section": "e",
    "line": null,
    "journal": "Classical Philology",
    "year": "1993",
@@ -477,8 +715,8 @@
   },
   {
    "book": "",
-   "page": 410,
-   "section": "d",
+   "page": 407,
+   "section": "b",
    "line": null,
    "journal": "Classical Philology",
    "year": "2007",
@@ -491,7 +729,295 @@
    "book": "",
    "page": 410,
    "section": "d",
-   "line": 5,
+   "line": null,
+   "journal": "Classical Philology",
+   "year": "2007",
+   "iid": "ebce74a8-ca40-3e12-9fbe-32a9d9179dda",
+   "doi": "10.1086/529471",
+   "title": "In Defense of Clitophon",
+   "author": "G. S. Bowe"
+  },
+  {
+   "book": "",
+   "page": 406,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2000",
+   "iid": "f9574eec-87cf-3c55-ab43-f81dffdd1299",
+   "doi": "10.2307/1558896",
+   "title": "Plato's Disappointment with His Phaedran Characters and Its Impact on His Theory of Psychology",
+   "author": "Julius Tomin"
+  },
+  {
+   "book": "",
+   "page": 406,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2000",
+   "iid": "f9574eec-87cf-3c55-ab43-f81dffdd1299",
+   "doi": "10.2307/1558896",
+   "title": "Plato's Disappointment with His Phaedran Characters and Its Impact on His Theory of Psychology",
+   "author": "Julius Tomin"
+  },
+  {
+   "book": "",
+   "page": 406,
+   "section": "c",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2000",
+   "iid": "f9574eec-87cf-3c55-ab43-f81dffdd1299",
+   "doi": "10.2307/1558896",
+   "title": "Plato's Disappointment with His Phaedran Characters and Its Impact on His Theory of Psychology",
+   "author": "Julius Tomin"
+  },
+  {
+   "book": "",
+   "page": 406,
+   "section": "d",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2000",
+   "iid": "f9574eec-87cf-3c55-ab43-f81dffdd1299",
+   "doi": "10.2307/1558896",
+   "title": "Plato's Disappointment with His Phaedran Characters and Its Impact on His Theory of Psychology",
+   "author": "Julius Tomin"
+  },
+  {
+   "book": "",
+   "page": 406,
+   "section": "e",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2000",
+   "iid": "f9574eec-87cf-3c55-ab43-f81dffdd1299",
+   "doi": "10.2307/1558896",
+   "title": "Plato's Disappointment with His Phaedran Characters and Its Impact on His Theory of Psychology",
+   "author": "Julius Tomin"
+  },
+  {
+   "book": "",
+   "page": 407,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2000",
+   "iid": "f9574eec-87cf-3c55-ab43-f81dffdd1299",
+   "doi": "10.2307/1558896",
+   "title": "Plato's Disappointment with His Phaedran Characters and Its Impact on His Theory of Psychology",
+   "author": "Julius Tomin"
+  },
+  {
+   "book": "",
+   "page": 407,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2000",
+   "iid": "f9574eec-87cf-3c55-ab43-f81dffdd1299",
+   "doi": "10.2307/1558896",
+   "title": "Plato's Disappointment with His Phaedran Characters and Its Impact on His Theory of Psychology",
+   "author": "Julius Tomin"
+  },
+  {
+   "book": "",
+   "page": 407,
+   "section": "c",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2000",
+   "iid": "f9574eec-87cf-3c55-ab43-f81dffdd1299",
+   "doi": "10.2307/1558896",
+   "title": "Plato's Disappointment with His Phaedran Characters and Its Impact on His Theory of Psychology",
+   "author": "Julius Tomin"
+  },
+  {
+   "book": "",
+   "page": 407,
+   "section": "d",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2000",
+   "iid": "f9574eec-87cf-3c55-ab43-f81dffdd1299",
+   "doi": "10.2307/1558896",
+   "title": "Plato's Disappointment with His Phaedran Characters and Its Impact on His Theory of Psychology",
+   "author": "Julius Tomin"
+  },
+  {
+   "book": "",
+   "page": 407,
+   "section": "e",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2000",
+   "iid": "f9574eec-87cf-3c55-ab43-f81dffdd1299",
+   "doi": "10.2307/1558896",
+   "title": "Plato's Disappointment with His Phaedran Characters and Its Impact on His Theory of Psychology",
+   "author": "Julius Tomin"
+  },
+  {
+   "book": "",
+   "page": 408,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2000",
+   "iid": "f9574eec-87cf-3c55-ab43-f81dffdd1299",
+   "doi": "10.2307/1558896",
+   "title": "Plato's Disappointment with His Phaedran Characters and Its Impact on His Theory of Psychology",
+   "author": "Julius Tomin"
+  },
+  {
+   "book": "",
+   "page": 408,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2000",
+   "iid": "f9574eec-87cf-3c55-ab43-f81dffdd1299",
+   "doi": "10.2307/1558896",
+   "title": "Plato's Disappointment with His Phaedran Characters and Its Impact on His Theory of Psychology",
+   "author": "Julius Tomin"
+  },
+  {
+   "book": "",
+   "page": 408,
+   "section": "c",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2000",
+   "iid": "f9574eec-87cf-3c55-ab43-f81dffdd1299",
+   "doi": "10.2307/1558896",
+   "title": "Plato's Disappointment with His Phaedran Characters and Its Impact on His Theory of Psychology",
+   "author": "Julius Tomin"
+  },
+  {
+   "book": "",
+   "page": 408,
+   "section": "d",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2000",
+   "iid": "f9574eec-87cf-3c55-ab43-f81dffdd1299",
+   "doi": "10.2307/1558896",
+   "title": "Plato's Disappointment with His Phaedran Characters and Its Impact on His Theory of Psychology",
+   "author": "Julius Tomin"
+  },
+  {
+   "book": "",
+   "page": 408,
+   "section": "e",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2000",
+   "iid": "f9574eec-87cf-3c55-ab43-f81dffdd1299",
+   "doi": "10.2307/1558896",
+   "title": "Plato's Disappointment with His Phaedran Characters and Its Impact on His Theory of Psychology",
+   "author": "Julius Tomin"
+  },
+  {
+   "book": "",
+   "page": 409,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2000",
+   "iid": "f9574eec-87cf-3c55-ab43-f81dffdd1299",
+   "doi": "10.2307/1558896",
+   "title": "Plato's Disappointment with His Phaedran Characters and Its Impact on His Theory of Psychology",
+   "author": "Julius Tomin"
+  },
+  {
+   "book": "",
+   "page": 409,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2000",
+   "iid": "f9574eec-87cf-3c55-ab43-f81dffdd1299",
+   "doi": "10.2307/1558896",
+   "title": "Plato's Disappointment with His Phaedran Characters and Its Impact on His Theory of Psychology",
+   "author": "Julius Tomin"
+  },
+  {
+   "book": "",
+   "page": 409,
+   "section": "c",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2000",
+   "iid": "f9574eec-87cf-3c55-ab43-f81dffdd1299",
+   "doi": "10.2307/1558896",
+   "title": "Plato's Disappointment with His Phaedran Characters and Its Impact on His Theory of Psychology",
+   "author": "Julius Tomin"
+  },
+  {
+   "book": "",
+   "page": 409,
+   "section": "d",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2000",
+   "iid": "f9574eec-87cf-3c55-ab43-f81dffdd1299",
+   "doi": "10.2307/1558896",
+   "title": "Plato's Disappointment with His Phaedran Characters and Its Impact on His Theory of Psychology",
+   "author": "Julius Tomin"
+  },
+  {
+   "book": "",
+   "page": 409,
+   "section": "e",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2000",
+   "iid": "f9574eec-87cf-3c55-ab43-f81dffdd1299",
+   "doi": "10.2307/1558896",
+   "title": "Plato's Disappointment with His Phaedran Characters and Its Impact on His Theory of Psychology",
+   "author": "Julius Tomin"
+  },
+  {
+   "book": "",
+   "page": 410,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2000",
+   "iid": "f9574eec-87cf-3c55-ab43-f81dffdd1299",
+   "doi": "10.2307/1558896",
+   "title": "Plato's Disappointment with His Phaedran Characters and Its Impact on His Theory of Psychology",
+   "author": "Julius Tomin"
+  },
+  {
+   "book": "",
+   "page": 410,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2000",
+   "iid": "f9574eec-87cf-3c55-ab43-f81dffdd1299",
+   "doi": "10.2307/1558896",
+   "title": "Plato's Disappointment with His Phaedran Characters and Its Impact on His Theory of Psychology",
+   "author": "Julius Tomin"
+  },
+  {
+   "book": "",
+   "page": 410,
+   "section": "c",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2000",
+   "iid": "f9574eec-87cf-3c55-ab43-f81dffdd1299",
+   "doi": "10.2307/1558896",
+   "title": "Plato's Disappointment with His Phaedran Characters and Its Impact on His Theory of Psychology",
+   "author": "Julius Tomin"
+  },
+  {
+   "book": "",
+   "page": 410,
+   "section": "d",
+   "line": null,
    "journal": "The Classical Quarterly",
    "year": "2000",
    "iid": "f9574eec-87cf-3c55-ab43-f81dffdd1299",
@@ -503,13 +1029,805 @@
    "book": "",
    "page": 406,
    "section": "a",
+   "line": null,
+   "journal": "The American Journal of Philology",
+   "year": "2004",
+   "iid": "220ee3f9-a238-3917-9188-3934c3dd3bf2",
+   "doi": "10.2307/1562196",
+   "title": "Plato's Reply to Lysias: Republic 1 and 2 and Against Eratosthenes",
+   "author": "Jacob Howland"
+  },
+  {
+   "book": "",
+   "page": 408,
+   "section": "d",
+   "line": null,
+   "journal": "Classical Antiquity",
+   "year": "2010",
+   "iid": "331be7d2-3259-3299-b755-cd6d18ce3cc7",
+   "doi": "10.1525/ca.2010.29.2.181",
+   "title": "“Socratic Therapy” from Aeschines of Sphettus to Lacan",
+   "author": "Kurt Lampe"
+  },
+  {
+   "book": "",
+   "page": 408,
+   "section": "e",
+   "line": null,
+   "journal": "Classical Antiquity",
+   "year": "2010",
+   "iid": "331be7d2-3259-3299-b755-cd6d18ce3cc7",
+   "doi": "10.1525/ca.2010.29.2.181",
+   "title": "“Socratic Therapy” from Aeschines of Sphettus to Lacan",
+   "author": "Kurt Lampe"
+  },
+  {
+   "book": "",
+   "page": 409,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Antiquity",
+   "year": "2010",
+   "iid": "331be7d2-3259-3299-b755-cd6d18ce3cc7",
+   "doi": "10.1525/ca.2010.29.2.181",
+   "title": "“Socratic Therapy” from Aeschines of Sphettus to Lacan",
+   "author": "Kurt Lampe"
+  },
+  {
+   "book": "",
+   "page": 409,
+   "section": "b",
+   "line": null,
+   "journal": "Classical Antiquity",
+   "year": "2010",
+   "iid": "331be7d2-3259-3299-b755-cd6d18ce3cc7",
+   "doi": "10.1525/ca.2010.29.2.181",
+   "title": "“Socratic Therapy” from Aeschines of Sphettus to Lacan",
+   "author": "Kurt Lampe"
+  },
+  {
+   "book": "",
+   "page": 409,
+   "section": "c",
+   "line": null,
+   "journal": "Classical Antiquity",
+   "year": "2010",
+   "iid": "331be7d2-3259-3299-b755-cd6d18ce3cc7",
+   "doi": "10.1525/ca.2010.29.2.181",
+   "title": "“Socratic Therapy” from Aeschines of Sphettus to Lacan",
+   "author": "Kurt Lampe"
+  },
+  {
+   "book": "",
+   "page": 409,
+   "section": "d",
+   "line": null,
+   "journal": "Classical Antiquity",
+   "year": "2010",
+   "iid": "331be7d2-3259-3299-b755-cd6d18ce3cc7",
+   "doi": "10.1525/ca.2010.29.2.181",
+   "title": "“Socratic Therapy” from Aeschines of Sphettus to Lacan",
+   "author": "Kurt Lampe"
+  },
+  {
+   "book": "",
+   "page": 409,
+   "section": "e",
+   "line": null,
+   "journal": "Classical Antiquity",
+   "year": "2010",
+   "iid": "331be7d2-3259-3299-b755-cd6d18ce3cc7",
+   "doi": "10.1525/ca.2010.29.2.181",
+   "title": "“Socratic Therapy” from Aeschines of Sphettus to Lacan",
+   "author": "Kurt Lampe"
+  },
+  {
+   "book": "",
+   "page": 410,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Antiquity",
+   "year": "2010",
+   "iid": "331be7d2-3259-3299-b755-cd6d18ce3cc7",
+   "doi": "10.1525/ca.2010.29.2.181",
+   "title": "“Socratic Therapy” from Aeschines of Sphettus to Lacan",
+   "author": "Kurt Lampe"
+  },
+  {
+   "book": "",
+   "page": 410,
+   "section": "d",
+   "line": 4,
+   "journal": "Mnemosyne",
+   "year": "1990",
+   "iid": "391fc693-afaf-3938-b6d9-e398735cca7a",
+   "doi": "10.2307/4431956",
+   "title": "Critical Notes on Plato's \"Politeia\", III",
+   "author": "S. R. Slings"
+  },
+  {
+   "book": "",
+   "page": 409,
+   "section": "e",
+   "line": null,
+   "journal": "Hermes",
+   "year": "1886",
+   "iid": "397fdc4d-81d5-35f9-b500-e679ed36cb93",
+   "doi": "10.2307/4472024",
+   "title": "Zur Entwickelung des Platonischen Stils",
+   "author": "Martin Schanz"
+  },
+  {
+   "book": "",
+   "page": 406,
+   "section": "b",
+   "line": null,
+   "journal": "Illinois Classical Studies",
+   "year": "2002",
+   "iid": "4e32a833-4915-3ec5-8951-7053e5780a66",
+   "doi": "10.2307/23065449",
+   "title": "Sheer Doggedness or Love of Neighbor? Motives for Self-Sufficiency in the Cynics and Others",
+   "author": "FREDERICK E. BRENK"
+  },
+  {
+   "book": "",
+   "page": 408,
+   "section": "d",
+   "line": null,
+   "journal": "Transactions of the American Philological Association (1974-2014)",
+   "year": "2009",
+   "iid": "5cd0ed9a-11b0-3405-80dc-7a5993d38b57",
+   "doi": "10.2307/40651976",
+   "title": "Womanly Humanism in Cicero's <em>Tusculan Disputations</em>",
+   "author": "WILLIAM H. F. ALTMAN"
+  },
+  {
+   "book": "",
+   "page": 408,
+   "section": "e",
+   "line": null,
+   "journal": "Transactions of the American Philological Association (1974-2014)",
+   "year": "2009",
+   "iid": "5cd0ed9a-11b0-3405-80dc-7a5993d38b57",
+   "doi": "10.2307/40651976",
+   "title": "Womanly Humanism in Cicero's <em>Tusculan Disputations</em>",
+   "author": "WILLIAM H. F. ALTMAN"
+  },
+  {
+   "book": "",
+   "page": 410,
+   "section": "b",
    "line": 5,
-   "journal": "The Classical Quarterly",
-   "year": "2000",
-   "iid": "f9574eec-87cf-3c55-ab43-f81dffdd1299",
-   "doi": "10.2307/1558896",
-   "title": "Plato's Disappointment with His Phaedran Characters and Its Impact on His Theory of Psychology",
-   "author": "Julius Tomin"
+   "journal": "Transactions of the American Philological Association (1974-2014)",
+   "year": "2009",
+   "iid": "5cd0ed9a-11b0-3405-80dc-7a5993d38b57",
+   "doi": "10.2307/40651976",
+   "title": "Womanly Humanism in Cicero's <em>Tusculan Disputations</em>",
+   "author": "WILLIAM H. F. ALTMAN"
+  },
+  {
+   "book": "",
+   "page": 410,
+   "section": "c",
+   "line": 4,
+   "journal": "Transactions of the American Philological Association (1974-2014)",
+   "year": "2009",
+   "iid": "5cd0ed9a-11b0-3405-80dc-7a5993d38b57",
+   "doi": "10.2307/40651976",
+   "title": "Womanly Humanism in Cicero's <em>Tusculan Disputations</em>",
+   "author": "WILLIAM H. F. ALTMAN"
+  },
+  {
+   "book": "",
+   "page": 408,
+   "section": "b",
+   "line": null,
+   "journal": "Transactions of the American Philological Association (1974-2014)",
+   "year": "2009",
+   "iid": "5cd0ed9a-11b0-3405-80dc-7a5993d38b57",
+   "doi": "10.2307/40651976",
+   "title": "Womanly Humanism in Cicero's <em>Tusculan Disputations</em>",
+   "author": "WILLIAM H. F. ALTMAN"
+  },
+  {
+   "book": "",
+   "page": 408,
+   "section": "c",
+   "line": null,
+   "journal": "Transactions of the American Philological Association (1974-2014)",
+   "year": "2009",
+   "iid": "5cd0ed9a-11b0-3405-80dc-7a5993d38b57",
+   "doi": "10.2307/40651976",
+   "title": "Womanly Humanism in Cicero's <em>Tusculan Disputations</em>",
+   "author": "WILLIAM H. F. ALTMAN"
+  },
+  {
+   "book": "",
+   "page": 408,
+   "section": "d",
+   "line": 2,
+   "journal": "Transactions of the American Philological Association (1974-2014)",
+   "year": "2009",
+   "iid": "5cd0ed9a-11b0-3405-80dc-7a5993d38b57",
+   "doi": "10.2307/40651976",
+   "title": "Womanly Humanism in Cicero's <em>Tusculan Disputations</em>",
+   "author": "WILLIAM H. F. ALTMAN"
+  },
+  {
+   "book": "",
+   "page": 408,
+   "section": "c",
+   "line": 4,
+   "journal": "Transactions of the American Philological Association (1974-2014)",
+   "year": "2009",
+   "iid": "5cd0ed9a-11b0-3405-80dc-7a5993d38b57",
+   "doi": "10.2307/40651976",
+   "title": "Womanly Humanism in Cicero's <em>Tusculan Disputations</em>",
+   "author": "WILLIAM H. F. ALTMAN"
+  },
+  {
+   "book": "",
+   "page": 408,
+   "section": "c",
+   "line": 9,
+   "journal": "Transactions of the American Philological Association (1974-2014)",
+   "year": "2009",
+   "iid": "5cd0ed9a-11b0-3405-80dc-7a5993d38b57",
+   "doi": "10.2307/40651976",
+   "title": "Womanly Humanism in Cicero's <em>Tusculan Disputations</em>",
+   "author": "WILLIAM H. F. ALTMAN"
+  },
+  {
+   "book": "",
+   "page": 407,
+   "section": "a",
+   "line": null,
+   "journal": "The American Journal of Philology",
+   "year": "2010",
+   "iid": "66366220-7913-35f4-930b-183932cca583",
+   "doi": "10.2307/40730912",
+   "title": "MENANDER'S <em>THEOPHOROUMENE</em> BETWEEN GREECE AND ROME",
+   "author": "Sebastiana Nervegna"
+  },
+  {
+   "book": "",
+   "page": 410,
+   "section": "d",
+   "line": 3,
+   "journal": "Mnemosyne",
+   "year": "1986",
+   "iid": "685177a3-63c3-35be-b1bf-3852fa6f1d04",
+   "doi": "10.2307/4431469",
+   "title": "The Venetus T of Plato",
+   "author": "G. J. Boter"
+  },
+  {
+   "book": "",
+   "page": 409,
+   "section": "e",
+   "line": 2,
+   "journal": "Mnemosyne",
+   "year": "2001",
+   "iid": "6f40a8b8-b488-3386-84ed-0397a4e21297",
+   "doi": "10.2307/4433238",
+   "title": "Critical Notes on Plato's \"Politeia,\" VII",
+   "author": "S. R. Slings"
+  },
+  {
+   "book": "",
+   "page": 407,
+   "section": "a",
+   "line": 5,
+   "journal": "Mnemosyne",
+   "year": "2001",
+   "iid": "6f40a8b8-b488-3386-84ed-0397a4e21297",
+   "doi": "10.2307/4433238",
+   "title": "Critical Notes on Plato's \"Politeia,\" VII",
+   "author": "S. R. Slings"
+  },
+  {
+   "book": "",
+   "page": 407,
+   "section": "a",
+   "line": 8,
+   "journal": "Classical Antiquity",
+   "year": "1992",
+   "iid": "7146a514-7db3-3058-9bf8-4e70b92a0d91",
+   "doi": "10.2307/25010965",
+   "title": "Plato's \"Gorgias\" and Euripides' \"Antiope\": A Study in Generic Transformation",
+   "author": "Andrea Wilson Nightingale"
+  },
+  {
+   "book": "",
+   "page": 407,
+   "section": "b",
+   "line": 6,
+   "journal": "Mnemosyne",
+   "year": "1987",
+   "iid": "71611773-ec5f-391f-8cb6-ab84db5bcef1",
+   "doi": "10.2307/4431594",
+   "title": "Supplementary Notes on Manuscripts of the \"Clitophon\"",
+   "author": "S. R. Slings"
+  },
+  {
+   "book": "",
+   "page": 408,
+   "section": "a",
+   "line": null,
+   "journal": "Mnemosyne",
+   "year": "1987",
+   "iid": "71611773-ec5f-391f-8cb6-ab84db5bcef1",
+   "doi": "10.2307/4431594",
+   "title": "Supplementary Notes on Manuscripts of the \"Clitophon\"",
+   "author": "S. R. Slings"
+  },
+  {
+   "book": "",
+   "page": 409,
+   "section": "b",
+   "line": null,
+   "journal": "Mnemosyne",
+   "year": "1987",
+   "iid": "71611773-ec5f-391f-8cb6-ab84db5bcef1",
+   "doi": "10.2307/4431594",
+   "title": "Supplementary Notes on Manuscripts of the \"Clitophon\"",
+   "author": "S. R. Slings"
+  },
+  {
+   "book": "",
+   "page": 407,
+   "section": "a",
+   "line": 8,
+   "journal": "Mnemosyne",
+   "year": "1987",
+   "iid": "71611773-ec5f-391f-8cb6-ab84db5bcef1",
+   "doi": "10.2307/4431594",
+   "title": "Supplementary Notes on Manuscripts of the \"Clitophon\"",
+   "author": "S. R. Slings"
+  },
+  {
+   "book": "",
+   "page": 409,
+   "section": "a",
+   "line": 6,
+   "journal": "Mnemosyne",
+   "year": "1987",
+   "iid": "71611773-ec5f-391f-8cb6-ab84db5bcef1",
+   "doi": "10.2307/4431594",
+   "title": "Supplementary Notes on Manuscripts of the \"Clitophon\"",
+   "author": "S. R. Slings"
+  },
+  {
+   "book": "",
+   "page": 408,
+   "section": "b",
+   "line": null,
+   "journal": "Mnemosyne",
+   "year": "1987",
+   "iid": "71611773-ec5f-391f-8cb6-ab84db5bcef1",
+   "doi": "10.2307/4431594",
+   "title": "Supplementary Notes on Manuscripts of the \"Clitophon\"",
+   "author": "S. R. Slings"
+  },
+  {
+   "book": "",
+   "page": 407,
+   "section": "e",
+   "line": 7,
+   "journal": "Mnemosyne",
+   "year": "1987",
+   "iid": "71611773-ec5f-391f-8cb6-ab84db5bcef1",
+   "doi": "10.2307/4431594",
+   "title": "Supplementary Notes on Manuscripts of the \"Clitophon\"",
+   "author": "S. R. Slings"
+  },
+  {
+   "book": "",
+   "page": 406,
+   "section": "a",
+   "line": 3,
+   "journal": "Mnemosyne",
+   "year": "1987",
+   "iid": "71611773-ec5f-391f-8cb6-ab84db5bcef1",
+   "doi": "10.2307/4431594",
+   "title": "Supplementary Notes on Manuscripts of the \"Clitophon\"",
+   "author": "S. R. Slings"
+  },
+  {
+   "book": "",
+   "page": 407,
+   "section": "b",
+   "line": 4,
+   "journal": "Mnemosyne",
+   "year": "1987",
+   "iid": "71611773-ec5f-391f-8cb6-ab84db5bcef1",
+   "doi": "10.2307/4431594",
+   "title": "Supplementary Notes on Manuscripts of the \"Clitophon\"",
+   "author": "S. R. Slings"
+  },
+  {
+   "book": "",
+   "page": 408,
+   "section": "b",
+   "line": 7,
+   "journal": "Mnemosyne",
+   "year": "1987",
+   "iid": "71611773-ec5f-391f-8cb6-ab84db5bcef1",
+   "doi": "10.2307/4431594",
+   "title": "Supplementary Notes on Manuscripts of the \"Clitophon\"",
+   "author": "S. R. Slings"
+  },
+  {
+   "book": "",
+   "page": 410,
+   "section": "b",
+   "line": 3,
+   "journal": "Mnemosyne",
+   "year": "1987",
+   "iid": "71611773-ec5f-391f-8cb6-ab84db5bcef1",
+   "doi": "10.2307/4431594",
+   "title": "Supplementary Notes on Manuscripts of the \"Clitophon\"",
+   "author": "S. R. Slings"
+  },
+  {
+   "book": "",
+   "page": 407,
+   "section": "d",
+   "line": 8,
+   "journal": "Mnemosyne",
+   "year": "1987",
+   "iid": "71611773-ec5f-391f-8cb6-ab84db5bcef1",
+   "doi": "10.2307/4431594",
+   "title": "Supplementary Notes on Manuscripts of the \"Clitophon\"",
+   "author": "S. R. Slings"
+  },
+  {
+   "book": "",
+   "page": 409,
+   "section": "a",
+   "line": 7,
+   "journal": "Mnemosyne",
+   "year": "1987",
+   "iid": "71611773-ec5f-391f-8cb6-ab84db5bcef1",
+   "doi": "10.2307/4431594",
+   "title": "Supplementary Notes on Manuscripts of the \"Clitophon\"",
+   "author": "S. R. Slings"
+  },
+  {
+   "book": "",
+   "page": 408,
+   "section": "d",
+   "line": 7,
+   "journal": "Mnemosyne",
+   "year": "1987",
+   "iid": "71611773-ec5f-391f-8cb6-ab84db5bcef1",
+   "doi": "10.2307/4431594",
+   "title": "Supplementary Notes on Manuscripts of the \"Clitophon\"",
+   "author": "S. R. Slings"
+  },
+  {
+   "book": "",
+   "page": 408,
+   "section": "c",
+   "line": 9,
+   "journal": "Mnemosyne",
+   "year": "1987",
+   "iid": "71611773-ec5f-391f-8cb6-ab84db5bcef1",
+   "doi": "10.2307/4431594",
+   "title": "Supplementary Notes on Manuscripts of the \"Clitophon\"",
+   "author": "S. R. Slings"
+  },
+  {
+   "book": "",
+   "page": 410,
+   "section": "b",
+   "line": 2,
+   "journal": "Mnemosyne",
+   "year": "1987",
+   "iid": "71611773-ec5f-391f-8cb6-ab84db5bcef1",
+   "doi": "10.2307/4431594",
+   "title": "Supplementary Notes on Manuscripts of the \"Clitophon\"",
+   "author": "S. R. Slings"
+  },
+  {
+   "book": "",
+   "page": 408,
+   "section": "a",
+   "line": 6,
+   "journal": "Mnemosyne",
+   "year": "1987",
+   "iid": "71611773-ec5f-391f-8cb6-ab84db5bcef1",
+   "doi": "10.2307/4431594",
+   "title": "Supplementary Notes on Manuscripts of the \"Clitophon\"",
+   "author": "S. R. Slings"
+  },
+  {
+   "book": "",
+   "page": 409,
+   "section": "e",
+   "line": 9,
+   "journal": "Mnemosyne",
+   "year": "1987",
+   "iid": "71611773-ec5f-391f-8cb6-ab84db5bcef1",
+   "doi": "10.2307/4431594",
+   "title": "Supplementary Notes on Manuscripts of the \"Clitophon\"",
+   "author": "S. R. Slings"
+  },
+  {
+   "book": "",
+   "page": 409,
+   "section": "b",
+   "line": 4,
+   "journal": "Mnemosyne",
+   "year": "1987",
+   "iid": "71611773-ec5f-391f-8cb6-ab84db5bcef1",
+   "doi": "10.2307/4431594",
+   "title": "Supplementary Notes on Manuscripts of the \"Clitophon\"",
+   "author": "S. R. Slings"
+  },
+  {
+   "book": "",
+   "page": 410,
+   "section": "e",
+   "line": 8,
+   "journal": "Mnemosyne",
+   "year": "1987",
+   "iid": "71611773-ec5f-391f-8cb6-ab84db5bcef1",
+   "doi": "10.2307/4431594",
+   "title": "Supplementary Notes on Manuscripts of the \"Clitophon\"",
+   "author": "S. R. Slings"
+  },
+  {
+   "book": "",
+   "page": 410,
+   "section": "c",
+   "line": 6,
+   "journal": "Mnemosyne",
+   "year": "1987",
+   "iid": "71611773-ec5f-391f-8cb6-ab84db5bcef1",
+   "doi": "10.2307/4431594",
+   "title": "Supplementary Notes on Manuscripts of the \"Clitophon\"",
+   "author": "S. R. Slings"
+  },
+  {
+   "book": "",
+   "page": 409,
+   "section": "b",
+   "line": 8,
+   "journal": "Mnemosyne",
+   "year": "1987",
+   "iid": "71611773-ec5f-391f-8cb6-ab84db5bcef1",
+   "doi": "10.2307/4431594",
+   "title": "Supplementary Notes on Manuscripts of the \"Clitophon\"",
+   "author": "S. R. Slings"
+  },
+  {
+   "book": "",
+   "page": 408,
+   "section": "a",
+   "line": 7,
+   "journal": "Mnemosyne",
+   "year": "1987",
+   "iid": "71611773-ec5f-391f-8cb6-ab84db5bcef1",
+   "doi": "10.2307/4431594",
+   "title": "Supplementary Notes on Manuscripts of the \"Clitophon\"",
+   "author": "S. R. Slings"
+  },
+  {
+   "book": "",
+   "page": 407,
+   "section": "c",
+   "line": 5,
+   "journal": "Mnemosyne",
+   "year": "1987",
+   "iid": "71611773-ec5f-391f-8cb6-ab84db5bcef1",
+   "doi": "10.2307/4431594",
+   "title": "Supplementary Notes on Manuscripts of the \"Clitophon\"",
+   "author": "S. R. Slings"
+  },
+  {
+   "book": "",
+   "page": 408,
+   "section": "e",
+   "line": 5,
+   "journal": "Mnemosyne",
+   "year": "1987",
+   "iid": "71611773-ec5f-391f-8cb6-ab84db5bcef1",
+   "doi": "10.2307/4431594",
+   "title": "Supplementary Notes on Manuscripts of the \"Clitophon\"",
+   "author": "S. R. Slings"
+  },
+  {
+   "book": "",
+   "page": 410,
+   "section": "c",
+   "line": 8,
+   "journal": "Mnemosyne",
+   "year": "1987",
+   "iid": "71611773-ec5f-391f-8cb6-ab84db5bcef1",
+   "doi": "10.2307/4431594",
+   "title": "Supplementary Notes on Manuscripts of the \"Clitophon\"",
+   "author": "S. R. Slings"
+  },
+  {
+   "book": "",
+   "page": 410,
+   "section": "d",
+   "line": 3,
+   "journal": "Mnemosyne",
+   "year": "1987",
+   "iid": "71611773-ec5f-391f-8cb6-ab84db5bcef1",
+   "doi": "10.2307/4431594",
+   "title": "Supplementary Notes on Manuscripts of the \"Clitophon\"",
+   "author": "S. R. Slings"
+  },
+  {
+   "book": "",
+   "page": 407,
+   "section": "a",
+   "line": 2,
+   "journal": "Mnemosyne",
+   "year": "1987",
+   "iid": "71611773-ec5f-391f-8cb6-ab84db5bcef1",
+   "doi": "10.2307/4431594",
+   "title": "Supplementary Notes on Manuscripts of the \"Clitophon\"",
+   "author": "S. R. Slings"
+  },
+  {
+   "book": "",
+   "page": 407,
+   "section": "a",
+   "line": 6,
+   "journal": "Mnemosyne",
+   "year": "1987",
+   "iid": "71611773-ec5f-391f-8cb6-ab84db5bcef1",
+   "doi": "10.2307/4431594",
+   "title": "Supplementary Notes on Manuscripts of the \"Clitophon\"",
+   "author": "S. R. Slings"
+  },
+  {
+   "book": "",
+   "page": 406,
+   "section": "a",
+   "line": 9,
+   "journal": "Mnemosyne",
+   "year": "1983",
+   "iid": "82554854-6a8c-3bfe-b2be-511592194c66",
+   "doi": "10.2307/4431274",
+   "title": "",
+   "author": "S. R. Slings, K. J. Dover"
+  },
+  {
+   "book": "",
+   "page": 407,
+   "section": "a",
+   "line": 3,
+   "journal": "Mnemosyne",
+   "year": "1983",
+   "iid": "82554854-6a8c-3bfe-b2be-511592194c66",
+   "doi": "10.2307/4431274",
+   "title": "",
+   "author": "S. R. Slings, K. J. Dover"
+  },
+  {
+   "book": "",
+   "page": 408,
+   "section": "a",
+   "line": null,
+   "journal": "Illinois Classical Studies",
+   "year": "2005",
+   "iid": "82f8a782-7f38-38ae-b7d9-92e969457833",
+   "doi": "10.2307/23065297",
+   "title": "Was Manilius really a Stoic?",
+   "author": "Alexander MacGregor"
+  },
+  {
+   "book": "",
+   "page": 407,
+   "section": "a",
+   "line": null,
+   "journal": "Illinois Classical Studies",
+   "year": "2018",
+   "iid": "95b1f3ee-84c5-33df-a6e3-de92c40d299a",
+   "doi": "10.5406/illiclasstud.43.1.0058",
+   "title": "Socrates, Satyrs, and Satyr-Play in Plato's <em>Symposium</em>",
+   "author": "David Sansone"
+  },
+  {
+   "book": "",
+   "page": 407,
+   "section": "c",
+   "line": 3,
+   "journal": "Mnemosyne",
+   "year": "1999",
+   "iid": "9c2cec57-fa85-3997-9b40-39d59badc1a1",
+   "doi": "10.2307/4433002",
+   "title": "Critical Notes on Plato's \"politeia,\" V",
+   "author": "S. R. Slings"
+  },
+  {
+   "book": "",
+   "page": 410,
+   "section": "c",
+   "line": null,
+   "journal": "Greece & Rome",
+   "year": "1985",
+   "iid": "af692b9e-a196-38af-830a-7ea7f5b83371",
+   "doi": "10.2307/642297",
+   "title": "Socrates: Devious or Divine?",
+   "author": "Paul W. Gooch"
+  },
+  {
+   "book": "",
+   "page": 407,
+   "section": "a",
+   "line": 5,
+   "journal": "Mnemosyne",
+   "year": "2011",
+   "iid": "b04f1c4a-cc8d-3917-b89f-75d9d7b44b99",
+   "doi": "10.2307/23054352",
+   "title": "Book Review : \n        Aristophanis fabulae, I-II (OCT)\n        \n          N.G.\n          Wilson",
+   "author": "R.F. Regtuit, N.G. Wilson"
+  },
+  {
+   "book": "",
+   "page": 408,
+   "section": "c",
+   "line": null,
+   "journal": "Hermes",
+   "year": "1933",
+   "iid": "c813ff1e-5589-398e-8fe4-de75349e503b",
+   "doi": "10.2307/4474333",
+   "title": "Das Rätsel des 'Kleitophon'",
+   "author": "Johannes Geffcken"
+  },
+  {
+   "book": "",
+   "page": 406,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Journal",
+   "year": "1998",
+   "iid": "ce11f994-a273-35ee-bc9a-3ffb59a3b023",
+   "doi": "10.2307/3298163",
+   "title": "The Dramatic Date of Plato's Republic",
+   "author": "Debra Nails"
+  },
+  {
+   "book": "",
+   "page": 407,
+   "section": "a",
+   "line": null,
+   "journal": "Hermes",
+   "year": "1943",
+   "iid": "daaaa577-9859-3e3d-a565-cbd5c63dfd75",
+   "doi": "10.2307/4474715",
+   "title": "Sokrates und Epiktet",
+   "author": "F. Scweingruber, Fritz Schweingruber"
+  },
+  {
+   "book": "",
+   "page": 407,
+   "section": "b",
+   "line": 3,
+   "journal": "Mnemosyne",
+   "year": "2003",
+   "iid": "ecf98238-28db-391e-9813-c83f782c530b",
+   "doi": "10.2307/4433481",
+   "title": "Critical Notes on Plato's \"Politeia\", X",
+   "author": "S. R. Slings"
+  },
+  {
+   "book": "",
+   "page": 408,
+   "section": "b",
+   "line": null,
+   "journal": "Mnemosyne",
+   "year": "1990",
+   "iid": "fe61342e-2a35-3ae2-ae29-c35cdaa2f593",
+   "doi": "10.2307/4431906",
+   "title": "",
+   "author": "E. G. Turner, S. R. Slings, G. Cavallo, P. J. Parsons, H. Maehler"
   }
  ]
 }

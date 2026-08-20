@@ -1,32 +1,208 @@
 {
  "work": "Rhetorica_ad_Alexandrum",
  "faceted": false,
+ "system": "bekker",
  "tier": "trustworthy",
  "cells": [
   {
    "book": "",
-   "page": 1421,
+   "page": 1420,
    "section": "a",
-   "count": 1,
+   "band": 0,
+   "count": 2,
    "articles": 1,
    "by_journal": {
-    "The Classical Quarterly": 1
+    "Recherches de théologie et philosophie médiévales": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 1420,
+   "section": "a",
+   "band": 1,
+   "count": 12,
+   "articles": 1,
+   "by_journal": {
+    "Recherches de théologie et philosophie médiévales": 12
+   }
+  },
+  {
+   "book": "",
+   "page": 1420,
+   "section": "a",
+   "band": 2,
+   "count": 4,
+   "articles": 1,
+   "by_journal": {
+    "Recherches de théologie et philosophie médiévales": 4
+   }
+  },
+  {
+   "book": "",
+   "page": 1420,
+   "section": "b",
+   "band": 0,
+   "count": 9,
+   "articles": 1,
+   "by_journal": {
+    "Recherches de théologie et philosophie médiévales": 9
+   }
+  },
+  {
+   "book": "",
+   "page": 1420,
+   "section": "b",
+   "band": 1,
+   "count": 2,
+   "articles": 1,
+   "by_journal": {
+    "Recherches de théologie et philosophie médiévales": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 1421,
+   "section": "a",
+   "band": 0,
+   "count": 17,
+   "articles": 2,
+   "by_journal": {
+    "Recherches de théologie et philosophie médiévales": 15,
+    "Vigiliae Christianae": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 1421,
+   "section": "a",
+   "band": 1,
+   "count": 41,
+   "articles": 4,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "Recherches de théologie et philosophie médiévales": 39,
+    "Rheinisches Museum für Philologie": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1421,
+   "section": "a",
+   "band": 2,
+   "count": 4,
+   "articles": 2,
+   "by_journal": {
+    "Rheinisches Museum für Philologie": 1,
+    "Recherches de théologie et philosophie médiévales": 3
    }
   },
   {
    "book": "",
    "page": 1421,
    "section": "b",
+   "band": 0,
+   "count": 10,
+   "articles": 6,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "Vigiliae Christianae": 3,
+    "Recherches de théologie et philosophie médiévales": 3,
+    "The American Journal of Philology": 1,
+    "Harvard Studies in Classical Philology": 1,
+    "Journal of Biblical Literature": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1421,
+   "section": "b",
+   "band": 1,
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "Transactions and Proceedings of the American Philological Association": 1,
+    "Illinois Classical Studies": 1,
+    "Mnemosyne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1421,
+   "section": "b",
+   "band": 2,
    "count": 1,
    "articles": 1,
    "by_journal": {
-    "The Classical Quarterly": 1
+    "Neotestamentica": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1422,
+   "section": "a",
+   "band": 0,
+   "count": 6,
+   "articles": 5,
+   "by_journal": {
+    "The Classical Journal": 1,
+    "Vigiliae Christianae": 1,
+    "Neotestamentica": 1,
+    "Journal of Biblical Literature": 1,
+    "Recherches de théologie et philosophie médiévales": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 1422,
+   "section": "a",
+   "band": 1,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Recherches de théologie et philosophie médiévales": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1422,
+   "section": "a",
+   "band": 2,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Recherches de théologie et philosophie médiévales": 1
    }
   },
   {
    "book": "",
    "page": 1422,
    "section": "b",
+   "band": 0,
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "Hermes": 1,
+    "Recherches de théologie et philosophie médiévales": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1423,
+   "section": "a",
+   "band": 0,
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Vigiliae Christianae": 1,
+    "Novum Testamentum": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1423,
+   "section": "a",
+   "band": 1,
    "count": 1,
    "articles": 1,
    "by_journal": {
@@ -37,184 +213,632 @@
    "book": "",
    "page": 1423,
    "section": "a",
+   "band": 2,
    "count": 1,
    "articles": 1,
    "by_journal": {
-    "The Classical Quarterly": 1
+    "Mnemosyne": 1
    }
   },
   {
    "book": "",
    "page": 1423,
    "section": "b",
-   "count": 1,
-   "articles": 1,
+   "band": 0,
+   "count": 3,
+   "articles": 3,
    "by_journal": {
-    "The Classical Quarterly": 1
+    "The Classical Quarterly": 1,
+    "Journal of Biblical Literature": 1,
+    "Classical Antiquity": 1
    }
   },
   {
    "book": "",
    "page": 1424,
    "section": "a",
+   "band": 0,
+   "count": 25,
+   "articles": 13,
+   "by_journal": {
+    "The Classical Quarterly": 2,
+    "Classical Philology": 2,
+    "Hermes": 1,
+    "The Classical Journal": 1,
+    "Transactions of the American Philological Association (1974-2014)": 1,
+    "Harvard Studies in Classical Philology": 15,
+    "Biblica": 1,
+    "Novum Testamentum": 1,
+    "Vigiliae Christianae": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1424,
+   "section": "a",
+   "band": 1,
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "Greece & Rome": 1,
+    "Classical Antiquity": 1,
+    "Transactions of the American Philological Association (1974-2014)": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1424,
+   "section": "a",
+   "band": 2,
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Classical Philology": 1,
+    "Classical Antiquity": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1424,
+   "section": "b",
+   "band": 0,
+   "count": 4,
+   "articles": 3,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "Harvard Studies in Classical Philology": 1,
+    "Classical Antiquity": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 1425,
+   "section": "a",
+   "band": 0,
    "count": 5,
    "articles": 5,
    "by_journal": {
+    "The Classical Review": 1,
+    "Journal of Biblical Literature": 1,
+    "Biblica": 1,
+    "Zeitschrift für katholische Theologie": 1,
+    "Revue de Théologie et de Philosophie": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1425,
+   "section": "b",
+   "band": 0,
+   "count": 6,
+   "articles": 5,
+   "by_journal": {
     "The Classical Quarterly": 2,
-    "Classical Philology": 3
-   }
-  },
-  {
-   "book": "",
-   "page": 1424,
-   "section": "b",
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical Quarterly": 1
-   }
-  },
-  {
-   "book": "",
-   "page": 1425,
-   "section": "a",
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical Review": 1
+    "History of Religions": 1,
+    "The American Journal of Philology": 1,
+    "Classical Antiquity": 1,
+    "Harvard Studies in Classical Philology": 1
    }
   },
   {
    "book": "",
    "page": 1425,
    "section": "b",
+   "band": 1,
    "count": 2,
-   "articles": 1,
+   "articles": 2,
    "by_journal": {
-    "The Classical Quarterly": 2
+    "The Classical Quarterly": 1,
+    "History of Religions": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1425,
+   "section": "b",
+   "band": 2,
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "History of Religions": 1
    }
   },
   {
    "book": "",
    "page": 1426,
    "section": "a",
+   "band": 0,
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "Classical Philology": 1,
+    "The Classical Quarterly": 1,
+    "History of Religions": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1426,
+   "section": "a",
+   "band": 1,
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "Neotestamentica": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1426,
+   "section": "a",
+   "band": 2,
    "count": 1,
    "articles": 1,
    "by_journal": {
-    "Classical Philology": 1
+    "The Classical Quarterly": 1
    }
   },
   {
    "book": "",
    "page": 1426,
    "section": "b",
-   "count": 1,
-   "articles": 1,
+   "band": 0,
+   "count": 3,
+   "articles": 3,
    "by_journal": {
-    "The Classical Quarterly": 1
+    "The Classical Quarterly": 1,
+    "Vigiliae Christianae": 1,
+    "Biblica": 1
    }
   },
   {
    "book": "",
    "page": 1427,
    "section": "a",
-   "count": 4,
-   "articles": 4,
+   "band": 0,
+   "count": 7,
+   "articles": 7,
    "by_journal": {
     "The Classical Quarterly": 3,
-    "The Classical Review": 1
+    "Hermes": 2,
+    "Biblica": 1,
+    "The Classical Journal": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1427,
+   "section": "a",
+   "band": 1,
+   "count": 5,
+   "articles": 2,
+   "by_journal": {
+    "Harvard Studies in Classical Philology": 2,
+    "Mnemosyne": 3
+   }
+  },
+  {
+   "book": "",
+   "page": 1427,
+   "section": "a",
+   "band": 2,
+   "count": 6,
+   "articles": 3,
+   "by_journal": {
+    "The Classical Review": 1,
+    "Rheinisches Museum für Philologie": 1,
+    "Harvard Studies in Classical Philology": 4
+   }
+  },
+  {
+   "book": "",
+   "page": 1427,
+   "section": "b",
+   "band": 0,
+   "count": 4,
+   "articles": 3,
+   "by_journal": {
+    "Journal of Biblical Literature": 1,
+    "The Harvard Theological Review": 2,
+    "Mnemosyne": 1
    }
   },
   {
    "book": "",
    "page": 1428,
    "section": "a",
-   "count": 3,
-   "articles": 3,
+   "band": 0,
+   "count": 2,
+   "articles": 2,
    "by_journal": {
-    "The Classical Quarterly": 2,
-    "Méthexis": 1
+    "The Classical Quarterly": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 1428,
+   "section": "a",
+   "band": 1,
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Mnemosyne": 1,
+    "The American Journal of Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1428,
+   "section": "a",
+   "band": 2,
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Méthexis": 1,
+    "Mnemosyne": 1
    }
   },
   {
    "book": "",
    "page": 1428,
    "section": "b",
-   "count": 3,
-   "articles": 3,
+   "band": 0,
+   "count": 11,
+   "articles": 9,
    "by_journal": {
-    "The Classical Quarterly": 2,
-    "Classical Philology": 1
+    "The Classical Quarterly": 1,
+    "Méthexis": 1,
+    "Classical Philology": 1,
+    "Hermes": 3,
+    "Mnemosyne": 2,
+    "Revue de Théologie et de Philosophie": 1,
+    "The American Journal of Philology": 1,
+    "Zeitschrift für katholische Theologie": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1428,
+   "section": "b",
+   "band": 1,
+   "count": 2,
+   "articles": 1,
+   "by_journal": {
+    "Mnemosyne": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 1428,
+   "section": "b",
+   "band": 2,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Quarterly": 1
    }
   },
   {
    "book": "",
    "page": 1429,
    "section": "a",
+   "band": 0,
    "count": 4,
    "articles": 4,
    "by_journal": {
     "The Classical Review": 1,
+    "Hermes": 1,
+    "Harvard Studies in Classical Philology": 1,
+    "Mnemosyne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1429,
+   "section": "a",
+   "band": 1,
+   "count": 4,
+   "articles": 4,
+   "by_journal": {
     "Phronesis": 1,
     "The Classical Quarterly": 1,
-    "Classical Philology": 1
+    "Classical Philology": 1,
+    "Harvard Studies in Classical Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1429,
+   "section": "a",
+   "band": 2,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1429,
+   "section": "b",
+   "band": 0,
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "The American Journal of Philology": 1,
+    "Classical Antiquity": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1429,
+   "section": "b",
+   "band": 1,
+   "count": 4,
+   "articles": 4,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "Classical Antiquity": 1,
+    "Rheinisches Museum für Philologie": 1,
+    "Greece & Rome": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1429,
+   "section": "b",
+   "band": 2,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Classical Antiquity": 1
    }
   },
   {
    "book": "",
    "page": 1430,
    "section": "a",
+   "band": 0,
+   "count": 9,
+   "articles": 6,
+   "by_journal": {
+    "Hermes": 2,
+    "Journal of Biblical Literature": 5,
+    "Classical Antiquity": 1,
+    "Biblica": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1430,
+   "section": "a",
+   "band": 1,
    "count": 1,
    "articles": 1,
    "by_journal": {
-    "Classical Philology": 1
+    "Rheinisches Museum für Philologie": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1430,
+   "section": "a",
+   "band": 2,
+   "count": 4,
+   "articles": 4,
+   "by_journal": {
+    "Classical Philology": 1,
+    "Rheinisches Museum für Philologie": 2,
+    "Journal of Biblical Literature": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1430,
+   "section": "b",
+   "band": 0,
+   "count": 5,
+   "articles": 4,
+   "by_journal": {
+    "Rheinisches Museum für Philologie": 1,
+    "Biblica": 1,
+    "Journal of Biblical Literature": 1,
+    "The Catholic Biblical Quarterly": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 1430,
+   "section": "b",
+   "band": 1,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Rheinisches Museum für Philologie": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1430,
+   "section": "b",
+   "band": 2,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The American Journal of Philology": 1
    }
   },
   {
    "book": "",
    "page": 1431,
    "section": "a",
+   "band": 0,
+   "count": 14,
+   "articles": 9,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "Rheinisches Museum für Philologie": 2,
+    "Recherches de théologie ancienne et médiévale": 1,
+    "Journal of Biblical Literature": 1,
+    "Quaderni Urbinati di Cultura Classica": 3,
+    "Illinois Classical Studies": 4,
+    "Mnemosyne": 1,
+    "Hermes": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1431,
+   "section": "a",
+   "band": 1,
    "count": 1,
    "articles": 1,
    "by_journal": {
-    "The Classical Quarterly": 1
+    "Rheinisches Museum für Philologie": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1431,
+   "section": "b",
+   "band": 0,
+   "count": 8,
+   "articles": 6,
+   "by_journal": {
+    "Journal of Biblical Literature": 2,
+    "Quaderni Urbinati di Cultura Classica": 3,
+    "The Journal of Religion": 1,
+    "Harvard Studies in Classical Philology": 1,
+    "The Catholic Biblical Quarterly": 1
    }
   },
   {
    "book": "",
    "page": 1432,
    "section": "a",
-   "count": 2,
-   "articles": 2,
+   "band": 0,
+   "count": 4,
+   "articles": 4,
    "by_journal": {
     "Classical Philology": 1,
-    "The Classical Quarterly": 1
+    "The Classical Quarterly": 1,
+    "Hermes": 1,
+    "Quaderni Urbinati di Cultura Classica": 1
    }
   },
   {
    "book": "",
    "page": 1432,
    "section": "b",
+   "band": 0,
+   "count": 3,
+   "articles": 2,
+   "by_journal": {
+    "The Classical Review": 1,
+    "Biblica": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 1432,
+   "section": "b",
+   "band": 1,
    "count": 1,
    "articles": 1,
    "by_journal": {
-    "The Classical Review": 1
+    "Rheinisches Museum für Philologie": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1433,
+   "section": "a",
+   "band": 0,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Vigiliae Christianae": 1
    }
   },
   {
    "book": "",
    "page": 1433,
    "section": "b",
+   "band": 0,
+   "count": 5,
+   "articles": 4,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "The American Journal of Philology": 1,
+    "Novum Testamentum": 1,
+    "Biblica": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 1434,
+   "section": "a",
+   "band": 0,
+   "count": 3,
+   "articles": 2,
+   "by_journal": {
+    "Journal of Biblical Literature": 2,
+    "Biblica": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1434,
+   "section": "a",
+   "band": 1,
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Hermes": 1,
+    "Mnemosyne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1434,
+   "section": "a",
+   "band": 2,
    "count": 1,
    "articles": 1,
    "by_journal": {
-    "The Classical Quarterly": 1
+    "Rheinisches Museum für Philologie": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1434,
+   "section": "b",
+   "band": 0,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Hermes": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1434,
+   "section": "b",
+   "band": 2,
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "The American Journal of Philology": 2
    }
   },
   {
    "book": "",
    "page": 1435,
    "section": "a",
+   "band": 0,
    "count": 1,
    "articles": 1,
    "by_journal": {
@@ -225,156 +849,686 @@
    "book": "",
    "page": 1435,
    "section": "b",
+   "band": 0,
+   "count": 7,
+   "articles": 4,
+   "by_journal": {
+    "Mnemosyne": 1,
+    "Journal of Biblical Literature": 6
+   }
+  },
+  {
+   "book": "",
+   "page": 1435,
+   "section": "b",
+   "band": 1,
+   "count": 3,
+   "articles": 2,
+   "by_journal": {
+    "The Classical Quarterly": 2,
+    "Vigiliae Christianae": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1435,
+   "section": "b",
+   "band": 2,
    "count": 2,
    "articles": 1,
    "by_journal": {
-    "The Classical Quarterly": 2
+    "Vigiliae Christianae": 2
    }
   },
   {
    "book": "",
    "page": 1436,
    "section": "a",
+   "band": 0,
+   "count": 18,
+   "articles": 10,
+   "by_journal": {
+    "The Classical Review": 1,
+    "The Harvard Theological Review": 2,
+    "Journal of Biblical Literature": 11,
+    "The Classical Journal": 1,
+    "Quaderni Urbinati di Cultura Classica": 1,
+    "Biblica": 1,
+    "Hermes": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1436,
+   "section": "a",
+   "band": 1,
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Mnemosyne": 1,
+    "The Classical Journal": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1436,
+   "section": "a",
+   "band": 2,
+   "count": 6,
+   "articles": 5,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "The American Journal of Philology": 1,
+    "Rheinisches Museum für Philologie": 2,
+    "The Classical Journal": 1,
+    "Journal of Biblical Literature": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1436,
+   "section": "b",
+   "band": 0,
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "The American Journal of Philology": 1,
+    "The Classical Journal": 1,
+    "Journal of Biblical Literature": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1436,
+   "section": "b",
+   "band": 1,
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Rheinisches Museum für Philologie": 1,
+    "Journal of Biblical Literature": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1436,
+   "section": "b",
+   "band": 2,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Journal of Biblical Literature": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1437,
+   "section": "a",
+   "band": 0,
    "count": 2,
    "articles": 2,
    "by_journal": {
     "The Classical Quarterly": 1,
-    "The Classical Review": 1
+    "Journal of Biblical Literature": 1
    }
   },
   {
    "book": "",
    "page": 1437,
    "section": "a",
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical Quarterly": 1
-   }
-  },
-  {
-   "book": "",
-   "page": 1437,
-   "section": "b",
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical Review": 1
-   }
-  },
-  {
-   "book": "",
-   "page": 1438,
-   "section": "a",
+   "band": 1,
    "count": 2,
    "articles": 2,
    "by_journal": {
+    "The Classical Quarterly": 1,
+    "Journal of Biblical Literature": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1437,
+   "section": "a",
+   "band": 2,
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "Journal of Biblical Literature": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1437,
+   "section": "b",
+   "band": 0,
+   "count": 4,
+   "articles": 4,
+   "by_journal": {
+    "The Classical Review": 1,
+    "The Classical Quarterly": 1,
+    "Journal of Biblical Literature": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 1437,
+   "section": "b",
+   "band": 1,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Journal of Biblical Literature": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1437,
+   "section": "b",
+   "band": 2,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Journal of Biblical Literature": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1438,
+   "section": "a",
+   "band": 0,
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
     "Classical Philology": 1,
-    "The Classical Review": 1
+    "The Classical Review": 1,
+    "Journal of Biblical Literature": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1438,
+   "section": "a",
+   "band": 1,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Journal of Biblical Literature": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1438,
+   "section": "a",
+   "band": 2,
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Rheinisches Museum für Philologie": 1,
+    "Journal of Biblical Literature": 1
    }
   },
   {
    "book": "",
    "page": 1438,
    "section": "b",
+   "band": 0,
+   "count": 5,
+   "articles": 4,
+   "by_journal": {
+    "Mnemosyne": 1,
+    "Hermes": 1,
+    "Journal of Biblical Literature": 3
+   }
+  },
+  {
+   "book": "",
+   "page": 1438,
+   "section": "b",
+   "band": 1,
    "count": 1,
    "articles": 1,
    "by_journal": {
-    "Phronesis": 1
+    "Journal of Biblical Literature": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1438,
+   "section": "b",
+   "band": 2,
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 1,
+    "Journal of Biblical Literature": 1
    }
   },
   {
    "book": "",
    "page": 1439,
    "section": "a",
-   "count": 1,
+   "band": 0,
+   "count": 4,
+   "articles": 4,
+   "by_journal": {
+    "Phronesis": 1,
+    "Rheinisches Museum für Philologie": 1,
+    "Biblica": 1,
+    "Journal of Biblical Literature": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1439,
+   "section": "b",
+   "band": 0,
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "The Classical Journal": 1,
+    "Biblica": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 1439,
+   "section": "b",
+   "band": 1,
+   "count": 3,
    "articles": 1,
    "by_journal": {
-    "Phronesis": 1
+    "Novum Testamentum": 3
    }
   },
   {
    "book": "",
    "page": 1440,
    "section": "a",
-   "count": 3,
-   "articles": 2,
+   "band": 0,
+   "count": 7,
+   "articles": 6,
    "by_journal": {
     "The Classical Quarterly": 2,
-    "Phronesis": 1
+    "Zeitschrift für katholische Theologie": 1,
+    "The Harvard Theological Review": 1,
+    "The American Journal of Philology": 1,
+    "Recherches de théologie ancienne et médiévale": 1,
+    "Journal of Biblical Literature": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1440,
+   "section": "a",
+   "band": 2,
+   "count": 4,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 1,
+    "Neotestamentica": 3
    }
   },
   {
    "book": "",
    "page": 1440,
    "section": "b",
+   "band": 0,
+   "count": 7,
+   "articles": 7,
+   "by_journal": {
+    "The Classical Review": 1,
+    "The Classical Quarterly": 1,
+    "Biblica": 2,
+    "Zeitschrift für Theologie und Kirche": 1,
+    "The American Journal of Philology": 1,
+    "The Catholic Biblical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1440,
+   "section": "b",
+   "band": 1,
    "count": 3,
    "articles": 3,
    "by_journal": {
-    "The Classical Review": 1,
-    "The Classical Quarterly": 2
+    "The Classical Quarterly": 2,
+    "The American Journal of Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1440,
+   "section": "b",
+   "band": 2,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1441,
+   "section": "a",
+   "band": 0,
+   "count": 5,
+   "articles": 5,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "Quaderni Urbinati di Cultura Classica": 1,
+    "Zeitschrift für katholische Theologie": 1,
+    "Biblica": 1,
+    "Journal of Biblical Literature": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1441,
+   "section": "a",
+   "band": 1,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1441,
+   "section": "a",
+   "band": 2,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Quarterly": 1
    }
   },
   {
    "book": "",
    "page": 1441,
    "section": "b",
-   "count": 5,
-   "articles": 5,
+   "band": 0,
+   "count": 8,
+   "articles": 7,
    "by_journal": {
-    "The Classical Quarterly": 4,
-    "The Classical Review": 1
+    "The Classical Quarterly": 3,
+    "The Classical Review": 1,
+    "The Catholic Biblical Quarterly": 1,
+    "Classical Antiquity": 2,
+    "Quaderni Urbinati di Cultura Classica": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1441,
+   "section": "b",
+   "band": 1,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Quarterly": 1
    }
   },
   {
    "book": "",
    "page": 1442,
    "section": "a",
-   "count": 1,
-   "articles": 1,
+   "band": 0,
+   "count": 6,
+   "articles": 6,
    "by_journal": {
-    "The Classical Quarterly": 1
+    "The Classical Quarterly": 1,
+    "Biblica": 1,
+    "Rheinisches Museum für Philologie": 1,
+    "The American Journal of Philology": 1,
+    "Transactions and Proceedings of the American Philological Association": 1,
+    "Recherches de théologie ancienne et médiévale": 1
    }
   },
   {
    "book": "",
    "page": 1442,
    "section": "b",
+   "band": 0,
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "The American Journal of Philology": 1,
+    "Mnemosyne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1442,
+   "section": "b",
+   "band": 2,
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Mnemosyne": 1,
+    "Journal of Biblical Literature": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1443,
+   "section": "a",
+   "band": 0,
+   "count": 4,
+   "articles": 3,
+   "by_journal": {
+    "Biblica": 2,
+    "Recherches de théologie et philosophie médiévales": 1,
+    "Journal of Biblical Literature": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1443,
+   "section": "a",
+   "band": 1,
    "count": 1,
    "articles": 1,
    "by_journal": {
-    "The Classical Quarterly": 1
+    "Journal of Biblical Literature": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1443,
+   "section": "a",
+   "band": 2,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Journal of Biblical Literature": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1443,
+   "section": "b",
+   "band": 0,
+   "count": 5,
+   "articles": 4,
+   "by_journal": {
+    "Biblica": 2,
+    "The American Journal of Philology": 1,
+    "The Catholic Biblical Quarterly": 1,
+    "Journal of Biblical Literature": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1443,
+   "section": "b",
+   "band": 1,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Journal of Biblical Literature": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1443,
+   "section": "b",
+   "band": 2,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Journal of Biblical Literature": 1
    }
   },
   {
    "book": "",
    "page": 1444,
    "section": "a",
+   "band": 0,
+   "count": 13,
+   "articles": 11,
+   "by_journal": {
+    "The Classical Quarterly": 2,
+    "The Classical Review": 1,
+    "Hermes": 1,
+    "Quaderni Urbinati di Cultura Classica": 2,
+    "Zeitschrift für katholische Theologie": 1,
+    "Recherches de théologie ancienne et médiévale": 2,
+    "Harvard Studies in Classical Philology": 1,
+    "Journal of Biblical Literature": 1,
+    "Recherches de théologie et philosophie médiévales": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 1444,
+   "section": "a",
+   "band": 1,
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Journal of Biblical Literature": 1,
+    "Recherches de théologie ancienne et médiévale": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1444,
+   "section": "a",
+   "band": 2,
    "count": 4,
    "articles": 4,
    "by_journal": {
-    "The Classical Review": 2,
-    "The Classical Quarterly": 2
+    "The Classical Review": 1,
+    "The American Journal of Philology": 1,
+    "Journal of Biblical Literature": 1,
+    "Recherches de théologie ancienne et médiévale": 1
    }
   },
   {
    "book": "",
    "page": 1444,
    "section": "b",
+   "band": 0,
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Journal of Biblical Literature": 1,
+    "Recherches de théologie ancienne et médiévale": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1444,
+   "section": "b",
+   "band": 1,
    "count": 1,
    "articles": 1,
    "by_journal": {
-    "The Classical Quarterly": 1
+    "Journal of Biblical Literature": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1444,
+   "section": "b",
+   "band": 2,
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "Journal of Biblical Literature": 1
    }
   },
   {
    "book": "",
    "page": 1445,
    "section": "a",
+   "band": 0,
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "Journal of Biblical Literature": 1,
+    "Novum Testamentum": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1445,
+   "section": "a",
+   "band": 1,
    "count": 1,
    "articles": 1,
    "by_journal": {
-    "The Classical Quarterly": 1
+    "Journal of Biblical Literature": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1445,
+   "section": "b",
+   "band": 0,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Harvard Theological Review": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1445,
+   "section": "b",
+   "band": 1,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Greece & Rome": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1446,
+   "section": "a",
+   "band": 0,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Mnemosyne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 1446,
+   "section": "a",
+   "band": 2,
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Hermes": 1,
+    "Mnemosyne": 1
    }
   }
  ],
@@ -575,7 +1729,7 @@
    "book": "",
    "page": 1438,
    "section": "b",
-   "line": 39,
+   "line": 30,
    "journal": "Phronesis",
    "year": "2002",
    "iid": "2fe2a7b4-7107-3872-8d46-ec6993c083b0",
@@ -587,7 +1741,7 @@
    "book": "",
    "page": 1439,
    "section": "a",
-   "line": 3,
+   "line": null,
    "journal": "Phronesis",
    "year": "2002",
    "iid": "2fe2a7b4-7107-3872-8d46-ec6993c083b0",
@@ -633,6 +1787,66 @@
   },
   {
    "book": "",
+   "page": 1440,
+   "section": "b",
+   "line": 15,
+   "journal": "The Classical Quarterly",
+   "year": "2012",
+   "iid": "3e86fc32-240b-3872-846d-f19b886acb80",
+   "doi": "10.2307/23470131",
+   "title": "TERENTIUS ORATOR AN POETA: THE ENDINGS OF \"EUNUCHUS\" AND \"ADELPHOE\"",
+   "author": "BENJAMIN VICTOR"
+  },
+  {
+   "book": "",
+   "page": 1440,
+   "section": "b",
+   "line": 30,
+   "journal": "The Classical Quarterly",
+   "year": "2012",
+   "iid": "3e86fc32-240b-3872-846d-f19b886acb80",
+   "doi": "10.2307/23470131",
+   "title": "TERENTIUS ORATOR AN POETA: THE ENDINGS OF \"EUNUCHUS\" AND \"ADELPHOE\"",
+   "author": "BENJAMIN VICTOR"
+  },
+  {
+   "book": "",
+   "page": 1441,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2012",
+   "iid": "3e86fc32-240b-3872-846d-f19b886acb80",
+   "doi": "10.2307/23470131",
+   "title": "TERENTIUS ORATOR AN POETA: THE ENDINGS OF \"EUNUCHUS\" AND \"ADELPHOE\"",
+   "author": "BENJAMIN VICTOR"
+  },
+  {
+   "book": "",
+   "page": 1441,
+   "section": "a",
+   "line": 15,
+   "journal": "The Classical Quarterly",
+   "year": "2012",
+   "iid": "3e86fc32-240b-3872-846d-f19b886acb80",
+   "doi": "10.2307/23470131",
+   "title": "TERENTIUS ORATOR AN POETA: THE ENDINGS OF \"EUNUCHUS\" AND \"ADELPHOE\"",
+   "author": "BENJAMIN VICTOR"
+  },
+  {
+   "book": "",
+   "page": 1441,
+   "section": "a",
+   "line": 30,
+   "journal": "The Classical Quarterly",
+   "year": "2012",
+   "iid": "3e86fc32-240b-3872-846d-f19b886acb80",
+   "doi": "10.2307/23470131",
+   "title": "TERENTIUS ORATOR AN POETA: THE ENDINGS OF \"EUNUCHUS\" AND \"ADELPHOE\"",
+   "author": "BENJAMIN VICTOR"
+  },
+  {
+   "book": "",
    "page": 1441,
    "section": "b",
    "line": null,
@@ -647,6 +1861,42 @@
    "book": "",
    "page": 1437,
    "section": "a",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2012",
+   "iid": "3e86fc32-240b-3872-846d-f19b886acb80",
+   "doi": "10.2307/23470131",
+   "title": "TERENTIUS ORATOR AN POETA: THE ENDINGS OF \"EUNUCHUS\" AND \"ADELPHOE\"",
+   "author": "BENJAMIN VICTOR"
+  },
+  {
+   "book": "",
+   "page": 1437,
+   "section": "a",
+   "line": 15,
+   "journal": "The Classical Quarterly",
+   "year": "2012",
+   "iid": "3e86fc32-240b-3872-846d-f19b886acb80",
+   "doi": "10.2307/23470131",
+   "title": "TERENTIUS ORATOR AN POETA: THE ENDINGS OF \"EUNUCHUS\" AND \"ADELPHOE\"",
+   "author": "BENJAMIN VICTOR"
+  },
+  {
+   "book": "",
+   "page": 1437,
+   "section": "a",
+   "line": 30,
+   "journal": "The Classical Quarterly",
+   "year": "2012",
+   "iid": "3e86fc32-240b-3872-846d-f19b886acb80",
+   "doi": "10.2307/23470131",
+   "title": "TERENTIUS ORATOR AN POETA: THE ENDINGS OF \"EUNUCHUS\" AND \"ADELPHOE\"",
+   "author": "BENJAMIN VICTOR"
+  },
+  {
+   "book": "",
+   "page": 1437,
+   "section": "b",
    "line": null,
    "journal": "The Classical Quarterly",
    "year": "2012",
@@ -813,6 +2063,66 @@
   },
   {
    "book": "",
+   "page": 1425,
+   "section": "b",
+   "line": 15,
+   "journal": "The Classical Quarterly",
+   "year": "1993",
+   "iid": "84166123-7204-3f44-a269-71c9353b0476",
+   "doi": "10.2307/639456",
+   "title": "The Folly of Praise: Plato's Critique of Encomiastic Discourse in the Lysis and Symposium",
+   "author": "Andrea Wilson Nightingale"
+  },
+  {
+   "book": "",
+   "page": 1425,
+   "section": "b",
+   "line": 30,
+   "journal": "The Classical Quarterly",
+   "year": "1993",
+   "iid": "84166123-7204-3f44-a269-71c9353b0476",
+   "doi": "10.2307/639456",
+   "title": "The Folly of Praise: Plato's Critique of Encomiastic Discourse in the Lysis and Symposium",
+   "author": "Andrea Wilson Nightingale"
+  },
+  {
+   "book": "",
+   "page": 1426,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "1993",
+   "iid": "84166123-7204-3f44-a269-71c9353b0476",
+   "doi": "10.2307/639456",
+   "title": "The Folly of Praise: Plato's Critique of Encomiastic Discourse in the Lysis and Symposium",
+   "author": "Andrea Wilson Nightingale"
+  },
+  {
+   "book": "",
+   "page": 1426,
+   "section": "a",
+   "line": 15,
+   "journal": "The Classical Quarterly",
+   "year": "1993",
+   "iid": "84166123-7204-3f44-a269-71c9353b0476",
+   "doi": "10.2307/639456",
+   "title": "The Folly of Praise: Plato's Critique of Encomiastic Discourse in the Lysis and Symposium",
+   "author": "Andrea Wilson Nightingale"
+  },
+  {
+   "book": "",
+   "page": 1426,
+   "section": "a",
+   "line": 30,
+   "journal": "The Classical Quarterly",
+   "year": "1993",
+   "iid": "84166123-7204-3f44-a269-71c9353b0476",
+   "doi": "10.2307/639456",
+   "title": "The Folly of Praise: Plato's Critique of Encomiastic Discourse in the Lysis and Symposium",
+   "author": "Andrea Wilson Nightingale"
+  },
+  {
+   "book": "",
    "page": 1426,
    "section": "b",
    "line": null,
@@ -875,7 +2185,19 @@
    "book": "",
    "page": 1428,
    "section": "a",
-   "line": 36,
+   "line": 30,
+   "journal": "Méthexis",
+   "year": "2006",
+   "iid": "8d4b0b0d-c0f9-3385-8186-26cd359c3e11",
+   "doi": "10.2307/43738771",
+   "title": "THE CONCEPT OF \"EMOTION\" FROM PLATO TO CICERO",
+   "author": "DAVID KONSTAN"
+  },
+  {
+   "book": "",
+   "page": 1428,
+   "section": "b",
+   "line": null,
    "journal": "Méthexis",
    "year": "2006",
    "iid": "8d4b0b0d-c0f9-3385-8186-26cd359c3e11",
@@ -1031,7 +2353,43 @@
    "book": "",
    "page": 1429,
    "section": "a",
-   "line": 21,
+   "line": 15,
+   "journal": "The Classical Quarterly",
+   "year": "2016",
+   "iid": "cbb92840-f947-3259-bbbf-fd0b2c5461e9",
+   "doi": "10.2307/43905732",
+   "title": "THE RHETORIC OF VISIBILITY AND INVISIBILITY IN ANTIPHON 5, \"ON THE MURDER OF HERODES\"",
+   "author": "PETER A. O'CONNELL"
+  },
+  {
+   "book": "",
+   "page": 1429,
+   "section": "a",
+   "line": 30,
+   "journal": "The Classical Quarterly",
+   "year": "2016",
+   "iid": "cbb92840-f947-3259-bbbf-fd0b2c5461e9",
+   "doi": "10.2307/43905732",
+   "title": "THE RHETORIC OF VISIBILITY AND INVISIBILITY IN ANTIPHON 5, \"ON THE MURDER OF HERODES\"",
+   "author": "PETER A. O'CONNELL"
+  },
+  {
+   "book": "",
+   "page": 1429,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2016",
+   "iid": "cbb92840-f947-3259-bbbf-fd0b2c5461e9",
+   "doi": "10.2307/43905732",
+   "title": "THE RHETORIC OF VISIBILITY AND INVISIBILITY IN ANTIPHON 5, \"ON THE MURDER OF HERODES\"",
+   "author": "PETER A. O'CONNELL"
+  },
+  {
+   "book": "",
+   "page": 1429,
+   "section": "b",
+   "line": 15,
    "journal": "The Classical Quarterly",
    "year": "2016",
    "iid": "cbb92840-f947-3259-bbbf-fd0b2c5461e9",
@@ -1158,6 +2516,3438 @@
    "doi": "10.2307/636691",
    "title": "The Legal Background of Two Passages in the Nichomachean Ethics",
    "author": "H. D. P. Lee"
+  },
+  {
+   "book": "",
+   "page": 1435,
+   "section": "b",
+   "line": 25,
+   "journal": "Vigiliae Christianae",
+   "year": "2022",
+   "iid": "01c1b5e4-2f3e-33b7-bc86-0448335dcc22",
+   "doi": "10.2307/27370995",
+   "title": "Antithesis and Paradox in the <em>Epistle to Diognetus</em>",
+   "author": "Michelle Freeman"
+  },
+  {
+   "book": "",
+   "page": 1435,
+   "section": "b",
+   "line": 35,
+   "journal": "Vigiliae Christianae",
+   "year": "2022",
+   "iid": "01c1b5e4-2f3e-33b7-bc86-0448335dcc22",
+   "doi": "10.2307/27370995",
+   "title": "Antithesis and Paradox in the <em>Epistle to Diognetus</em>",
+   "author": "Michelle Freeman"
+  },
+  {
+   "book": "",
+   "page": 1442,
+   "section": "a",
+   "line": null,
+   "journal": "Biblica",
+   "year": "1967",
+   "iid": "01f20594-dc34-3932-8250-132bd0404e9a",
+   "doi": "10.2307/42629719",
+   "title": "[Elenchus bibliographicus biblicus]",
+   "author": "P. Nober"
+  },
+  {
+   "book": "",
+   "page": 1443,
+   "section": "a",
+   "line": null,
+   "journal": "Biblica",
+   "year": "1967",
+   "iid": "01f20594-dc34-3932-8250-132bd0404e9a",
+   "doi": "10.2307/42629719",
+   "title": "[Elenchus bibliographicus biblicus]",
+   "author": "P. Nober"
+  },
+  {
+   "book": "",
+   "page": 1443,
+   "section": "b",
+   "line": null,
+   "journal": "Biblica",
+   "year": "1967",
+   "iid": "01f20594-dc34-3932-8250-132bd0404e9a",
+   "doi": "10.2307/42629719",
+   "title": "[Elenchus bibliographicus biblicus]",
+   "author": "P. Nober"
+  },
+  {
+   "book": "",
+   "page": 1424,
+   "section": "a",
+   "line": null,
+   "journal": "Hermes",
+   "year": "2002",
+   "iid": "02f33132-97ff-330d-acfd-c55cbc4fcfba",
+   "doi": "10.2307/4477493",
+   "title": "Grain for Andros",
+   "author": "Joshua D. Sosin"
+  },
+  {
+   "book": "",
+   "page": 1433,
+   "section": "b",
+   "line": null,
+   "journal": "The American Journal of Philology",
+   "year": "1984",
+   "iid": "04041c62-6b28-3b5e-84b9-1bdbc6574f71",
+   "doi": "10.2307/294874",
+   "title": "The Art of Safe Criticism in Greece and Rome",
+   "author": "Frederick Ahl"
+  },
+  {
+   "book": "",
+   "page": 1440,
+   "section": "b",
+   "line": null,
+   "journal": "Biblica",
+   "year": "2009",
+   "iid": "06b23b10-d217-3b75-9177-c90c189b80d8",
+   "doi": "10.2307/42614899",
+   "title": "A Letter of Recommendation? A Closer look at Third John's \"rhetorical\" Argumentation",
+   "author": "Luca Marulli"
+  },
+  {
+   "book": "",
+   "page": 1426,
+   "section": "b",
+   "line": 9,
+   "journal": "Vigiliae Christianae",
+   "year": "2002",
+   "iid": "083a7587-27f6-3533-b961-e4f727d74ef5",
+   "doi": "10.2307/1584821",
+   "title": "Gregory of Nyssa on Universals",
+   "author": "Richard Cross"
+  },
+  {
+   "book": "",
+   "page": 1425,
+   "section": "b",
+   "line": null,
+   "journal": "History of Religions",
+   "year": "1993",
+   "iid": "091dc65c-2a75-3658-ba9f-1ee173d29974",
+   "doi": "10.2307/1062997",
+   "title": "The Real Presence for Joseph M. Kitagawa",
+   "author": "Robert F. Campany"
+  },
+  {
+   "book": "",
+   "page": 1425,
+   "section": "b",
+   "line": 15,
+   "journal": "History of Religions",
+   "year": "1993",
+   "iid": "091dc65c-2a75-3658-ba9f-1ee173d29974",
+   "doi": "10.2307/1062997",
+   "title": "The Real Presence for Joseph M. Kitagawa",
+   "author": "Robert F. Campany"
+  },
+  {
+   "book": "",
+   "page": 1425,
+   "section": "b",
+   "line": 30,
+   "journal": "History of Religions",
+   "year": "1993",
+   "iid": "091dc65c-2a75-3658-ba9f-1ee173d29974",
+   "doi": "10.2307/1062997",
+   "title": "The Real Presence for Joseph M. Kitagawa",
+   "author": "Robert F. Campany"
+  },
+  {
+   "book": "",
+   "page": 1426,
+   "section": "a",
+   "line": null,
+   "journal": "History of Religions",
+   "year": "1993",
+   "iid": "091dc65c-2a75-3658-ba9f-1ee173d29974",
+   "doi": "10.2307/1062997",
+   "title": "The Real Presence for Joseph M. Kitagawa",
+   "author": "Robert F. Campany"
+  },
+  {
+   "book": "",
+   "page": 1425,
+   "section": "a",
+   "line": null,
+   "journal": "Journal of Biblical Literature",
+   "year": "1906",
+   "iid": "099a3ddf-450c-36c6-a950-40d8d3e8ae49",
+   "doi": "10.2307/3260155",
+   "title": "The Unity of the Older Saul-David Narratives",
+   "author": "William W. Guth"
+  },
+  {
+   "book": "",
+   "page": 1422,
+   "section": "a",
+   "line": 2,
+   "journal": "The Classical Journal",
+   "year": "1938",
+   "iid": "0bf8e521-316a-37dc-9877-82aef4d47003",
+   "doi": "10.2307/3290944",
+   "title": "Aristotle on Nomos",
+   "author": "Van Johnson"
+  },
+  {
+   "book": "",
+   "page": 1424,
+   "section": "a",
+   "line": 10,
+   "journal": "The Classical Journal",
+   "year": "1938",
+   "iid": "0bf8e521-316a-37dc-9877-82aef4d47003",
+   "doi": "10.2307/3290944",
+   "title": "Aristotle on Nomos",
+   "author": "Van Johnson"
+  },
+  {
+   "book": "",
+   "page": 1435,
+   "section": "b",
+   "line": 6,
+   "journal": "Mnemosyne",
+   "year": "1995",
+   "iid": "0c15daab-f8c8-305d-ae6b-ccca75895aaa",
+   "doi": "10.2307/4432518",
+   "title": "Grammatical Ambiguity in Latin",
+   "author": "F. Jones"
+  },
+  {
+   "book": "",
+   "page": 1439,
+   "section": "b",
+   "line": 3,
+   "journal": "The Classical Journal",
+   "year": "2008",
+   "iid": "0c6a2b03-aca6-398b-a722-435750770d18",
+   "doi": "10.2307/30038004",
+   "title": "Feeling Vulnerable, but Not Too Vulnerable: Pity in Sophocles' \"Oedipus Coloneus, Ajax and Philoctetes\"",
+   "author": "Norman B. Sandridge"
+  },
+  {
+   "book": "",
+   "page": 1426,
+   "section": "b",
+   "line": null,
+   "journal": "Biblica",
+   "year": "2003",
+   "iid": "0f2d50a4-1631-37a4-a827-11d96352ed75",
+   "doi": "10.2307/42614436",
+   "title": "Epideictic Rhetoric in Paul's First Letter to the Corinthians 1-4",
+   "author": "Joop F.M. Smit"
+  },
+  {
+   "book": "",
+   "page": 1432,
+   "section": "a",
+   "line": null,
+   "journal": "Hermes",
+   "year": "1998",
+   "iid": "119af8f1-79cf-3042-9727-95bf0f138db7",
+   "doi": "10.2307/4477271",
+   "title": "Wahrheit, Gerechtigkeit und Rhetorik in den Reden Antiphons. Zur Genese Einiger Topoi der Gerichtsrede",
+   "author": "Thomas Zinsmaier"
+  },
+  {
+   "book": "",
+   "page": 1430,
+   "section": "a",
+   "line": null,
+   "journal": "Hermes",
+   "year": "1998",
+   "iid": "119af8f1-79cf-3042-9727-95bf0f138db7",
+   "doi": "10.2307/4477271",
+   "title": "Wahrheit, Gerechtigkeit und Rhetorik in den Reden Antiphons. Zur Genese Einiger Topoi der Gerichtsrede",
+   "author": "Thomas Zinsmaier"
+  },
+  {
+   "book": "",
+   "page": 1427,
+   "section": "a",
+   "line": null,
+   "journal": "Hermes",
+   "year": "1998",
+   "iid": "119af8f1-79cf-3042-9727-95bf0f138db7",
+   "doi": "10.2307/4477271",
+   "title": "Wahrheit, Gerechtigkeit und Rhetorik in den Reden Antiphons. Zur Genese Einiger Topoi der Gerichtsrede",
+   "author": "Thomas Zinsmaier"
+  },
+  {
+   "book": "",
+   "page": 1444,
+   "section": "a",
+   "line": null,
+   "journal": "Hermes",
+   "year": "1998",
+   "iid": "119af8f1-79cf-3042-9727-95bf0f138db7",
+   "doi": "10.2307/4477271",
+   "title": "Wahrheit, Gerechtigkeit und Rhetorik in den Reden Antiphons. Zur Genese Einiger Topoi der Gerichtsrede",
+   "author": "Thomas Zinsmaier"
+  },
+  {
+   "book": "",
+   "page": 1436,
+   "section": "a",
+   "line": 30,
+   "journal": "The American Journal of Philology",
+   "year": "1994",
+   "iid": "126b441f-4c3e-3fda-b938-493f92e262f2",
+   "doi": "10.2307/295299",
+   "title": "Protagoras' Head: Interpreting Philosophic Fragments in Theaetetus",
+   "author": "Andrew Ford"
+  },
+  {
+   "book": "",
+   "page": 1436,
+   "section": "b",
+   "line": null,
+   "journal": "The American Journal of Philology",
+   "year": "1994",
+   "iid": "126b441f-4c3e-3fda-b938-493f92e262f2",
+   "doi": "10.2307/295299",
+   "title": "Protagoras' Head: Interpreting Philosophic Fragments in Theaetetus",
+   "author": "Andrew Ford"
+  },
+  {
+   "book": "",
+   "page": 1431,
+   "section": "a",
+   "line": null,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "2014",
+   "iid": "13045e98-c9b8-3d88-91e4-9fa947334f82",
+   "doi": "10.2307/24392818",
+   "title": "ARISTOPHANES AND AESCHYLUS' PERSIANS: HELLENISTIC DISCUSSIONS ON AR. RAN. 1028 F.",
+   "author": "Maria Broggiato"
+  },
+  {
+   "book": "",
+   "page": 1421,
+   "section": "a",
+   "line": 38,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "2007",
+   "iid": "16b92639-1694-3e64-9cf4-d1c6f9d64c41",
+   "doi": "10.2307/41234728",
+   "title": "ZUR DATIERUNG DER SCHRIFT DES DEMETRIOS \"ÜBER DEN STIL\"",
+   "author": "Albrecht Dihle"
+  },
+  {
+   "book": "",
+   "page": 1443,
+   "section": "b",
+   "line": null,
+   "journal": "The American Journal of Philology",
+   "year": "1952",
+   "iid": "1802fd3b-f669-3db9-8587-60af7ae092fb",
+   "doi": "10.2307/291812",
+   "title": "The Aristotelian Concept of the Tragic Hero",
+   "author": "Charles H. Reeves"
+  },
+  {
+   "book": "",
+   "page": 1428,
+   "section": "b",
+   "line": null,
+   "journal": "Hermes",
+   "year": "1908",
+   "iid": "1903edf3-cda1-3983-a8ce-5fc30abaac5b",
+   "doi": "10.2307/4473126",
+   "title": "Das Fortleben der Volkssprachen in Kleinasien in Nachchristlicher Zeit",
+   "author": "Karl Holl"
+  },
+  {
+   "book": "",
+   "page": 1440,
+   "section": "b",
+   "line": null,
+   "journal": "Zeitschrift für Theologie und Kirche",
+   "year": "1994",
+   "iid": "1a8abfbf-b918-341a-aad0-6a8ab86d8e4d",
+   "doi": "10.2307/23585183",
+   "title": "Größe und Grenzen des »Löwen von Mitternacht«: Das Bild Gustav Adolfs in der populären protestantischen Publizistik als Beispiel religiöser Situationswahrnehmung im Dreißigjährigen Krieg",
+   "author": "Hellmut Zschoch"
+  },
+  {
+   "book": "",
+   "page": 1446,
+   "section": "a",
+   "line": null,
+   "journal": "Mnemosyne",
+   "year": "1903",
+   "iid": "1a35a02f-5d3d-35fc-92c6-e1783cdc39f0",
+   "doi": "10.2307/4425350",
+   "title": "De Carneis",
+   "author": "J. Vürtheim"
+  },
+  {
+   "book": "",
+   "page": 1434,
+   "section": "b",
+   "line": 34,
+   "journal": "The American Journal of Philology",
+   "year": "1925",
+   "iid": "1e4eac07-1510-3f7a-a99a-c2e79c1b7e74",
+   "doi": "10.2307/289148",
+   "title": "Book Review : \n        The Works of Aristotle\n        \n          W. D.\n          Ross",
+   "author": "Lane Cooper, E. S. Forster, Ingram Bywater, W. D. Ross, W. Rhys Roberts"
+  },
+  {
+   "book": "",
+   "page": 1440,
+   "section": "b",
+   "line": 11,
+   "journal": "The American Journal of Philology",
+   "year": "1925",
+   "iid": "1e4eac07-1510-3f7a-a99a-c2e79c1b7e74",
+   "doi": "10.2307/289148",
+   "title": "Book Review : \n        The Works of Aristotle\n        \n          W. D.\n          Ross",
+   "author": "Lane Cooper, E. S. Forster, Ingram Bywater, W. D. Ross, W. Rhys Roberts"
+  },
+  {
+   "book": "",
+   "page": 1431,
+   "section": "a",
+   "line": null,
+   "journal": "Recherches de théologie ancienne et médiévale",
+   "year": "1974",
+   "iid": "2365444d-1e3a-3884-a824-ff275f016332",
+   "doi": "10.2307/26188454",
+   "title": "Engelberti Abbatis Admontensis Tractatus de Corpore Domini",
+   "author": "George B. Fowler"
+  },
+  {
+   "book": "",
+   "page": 1434,
+   "section": "a",
+   "line": 35,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "2007",
+   "iid": "2570da21-26cb-3282-8397-5a03eecef415",
+   "doi": "10.2307/41234726",
+   "title": "DAS RHETORISCHE PRINZIP DER AUSSPARUNG BEI THEOPHRAST (FR. 696 F.)",
+   "author": "Jan Stenger"
+  },
+  {
+   "book": "",
+   "page": 1430,
+   "section": "a",
+   "line": 36,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "2007",
+   "iid": "2570da21-26cb-3282-8397-5a03eecef415",
+   "doi": "10.2307/41234726",
+   "title": "DAS RHETORISCHE PRINZIP DER AUSSPARUNG BEI THEOPHRAST (FR. 696 F.)",
+   "author": "Jan Stenger"
+  },
+  {
+   "book": "",
+   "page": 1430,
+   "section": "a",
+   "line": 23,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "2007",
+   "iid": "2570da21-26cb-3282-8397-5a03eecef415",
+   "doi": "10.2307/41234726",
+   "title": "DAS RHETORISCHE PRINZIP DER AUSSPARUNG BEI THEOPHRAST (FR. 696 F.)",
+   "author": "Jan Stenger"
+  },
+  {
+   "book": "",
+   "page": 1431,
+   "section": "a",
+   "line": 28,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "2007",
+   "iid": "2570da21-26cb-3282-8397-5a03eecef415",
+   "doi": "10.2307/41234726",
+   "title": "DAS RHETORISCHE PRINZIP DER AUSSPARUNG BEI THEOPHRAST (FR. 696 F.)",
+   "author": "Jan Stenger"
+  },
+  {
+   "book": "",
+   "page": 1439,
+   "section": "a",
+   "line": 4,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "2007",
+   "iid": "2570da21-26cb-3282-8397-5a03eecef415",
+   "doi": "10.2307/41234726",
+   "title": "DAS RHETORISCHE PRINZIP DER AUSSPARUNG BEI THEOPHRAST (FR. 696 F.)",
+   "author": "Jan Stenger"
+  },
+  {
+   "book": "",
+   "page": 1432,
+   "section": "b",
+   "line": 25,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "2007",
+   "iid": "2570da21-26cb-3282-8397-5a03eecef415",
+   "doi": "10.2307/41234726",
+   "title": "DAS RHETORISCHE PRINZIP DER AUSSPARUNG BEI THEOPHRAST (FR. 696 F.)",
+   "author": "Jan Stenger"
+  },
+  {
+   "book": "",
+   "page": 1438,
+   "section": "a",
+   "line": 37,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "2007",
+   "iid": "2570da21-26cb-3282-8397-5a03eecef415",
+   "doi": "10.2307/41234726",
+   "title": "DAS RHETORISCHE PRINZIP DER AUSSPARUNG BEI THEOPHRAST (FR. 696 F.)",
+   "author": "Jan Stenger"
+  },
+  {
+   "book": "",
+   "page": 1424,
+   "section": "a",
+   "line": null,
+   "journal": "Transactions of the American Philological Association (1974-2014)",
+   "year": "1998",
+   "iid": "2641776c-fa2d-30b9-8185-4449922e34d4",
+   "doi": "10.2307/284408",
+   "title": "Thucydides 7.13.2 and the Crews of Athenian Triremes: An Addendum",
+   "author": "A. J. Graham"
+  },
+  {
+   "book": "",
+   "page": 1423,
+   "section": "a",
+   "line": null,
+   "journal": "Vigiliae Christianae",
+   "year": "1994",
+   "iid": "26e87d13-af2f-344b-8b5d-d491a9f13fc3",
+   "doi": "10.2307/1583962",
+   "title": "The Protreptic Power of Early Christian Language: From John to Augustine",
+   "author": "John G. Cook"
+  },
+  {
+   "book": "",
+   "page": 1421,
+   "section": "b",
+   "line": null,
+   "journal": "Vigiliae Christianae",
+   "year": "1994",
+   "iid": "26e87d13-af2f-344b-8b5d-d491a9f13fc3",
+   "doi": "10.2307/1583962",
+   "title": "The Protreptic Power of Early Christian Language: From John to Augustine",
+   "author": "John G. Cook"
+  },
+  {
+   "book": "",
+   "page": 1422,
+   "section": "a",
+   "line": null,
+   "journal": "Vigiliae Christianae",
+   "year": "1994",
+   "iid": "26e87d13-af2f-344b-8b5d-d491a9f13fc3",
+   "doi": "10.2307/1583962",
+   "title": "The Protreptic Power of Early Christian Language: From John to Augustine",
+   "author": "John G. Cook"
+  },
+  {
+   "book": "",
+   "page": 1430,
+   "section": "a",
+   "line": null,
+   "journal": "Journal of Biblical Literature",
+   "year": "2001",
+   "iid": "2b3a21ea-16a9-3de5-ac63-d0fba1041897",
+   "doi": "10.2307/3268298",
+   "title": "The Enthymeme as an Element of Style in Paul",
+   "author": "Paul A. Holloway"
+  },
+  {
+   "book": "",
+   "page": 1431,
+   "section": "b",
+   "line": null,
+   "journal": "Journal of Biblical Literature",
+   "year": "2001",
+   "iid": "2b3a21ea-16a9-3de5-ac63-d0fba1041897",
+   "doi": "10.2307/3268298",
+   "title": "The Enthymeme as an Element of Style in Paul",
+   "author": "Paul A. Holloway"
+  },
+  {
+   "book": "",
+   "page": 1434,
+   "section": "a",
+   "line": null,
+   "journal": "Journal of Biblical Literature",
+   "year": "2001",
+   "iid": "2b3a21ea-16a9-3de5-ac63-d0fba1041897",
+   "doi": "10.2307/3268298",
+   "title": "The Enthymeme as an Element of Style in Paul",
+   "author": "Paul A. Holloway"
+  },
+  {
+   "book": "",
+   "page": 1431,
+   "section": "a",
+   "line": null,
+   "journal": "Journal of Biblical Literature",
+   "year": "2001",
+   "iid": "2b3a21ea-16a9-3de5-ac63-d0fba1041897",
+   "doi": "10.2307/3268298",
+   "title": "The Enthymeme as an Element of Style in Paul",
+   "author": "Paul A. Holloway"
+  },
+  {
+   "book": "",
+   "page": 1427,
+   "section": "b",
+   "line": null,
+   "journal": "Journal of Biblical Literature",
+   "year": "2001",
+   "iid": "2b3a21ea-16a9-3de5-ac63-d0fba1041897",
+   "doi": "10.2307/3268298",
+   "title": "The Enthymeme as an Element of Style in Paul",
+   "author": "Paul A. Holloway"
+  },
+  {
+   "book": "",
+   "page": 1430,
+   "section": "a",
+   "line": 31,
+   "journal": "Journal of Biblical Literature",
+   "year": "2001",
+   "iid": "2b3a21ea-16a9-3de5-ac63-d0fba1041897",
+   "doi": "10.2307/3268298",
+   "title": "The Enthymeme as an Element of Style in Paul",
+   "author": "Paul A. Holloway"
+  },
+  {
+   "book": "",
+   "page": 1427,
+   "section": "a",
+   "line": null,
+   "journal": "Hermes",
+   "year": "1982",
+   "iid": "2a758b3e-75f5-35c1-b52c-18d19b0cf430",
+   "doi": "10.2307/4476251",
+   "title": "Die Schöne Helena, wie Gorgias und Isokrates sie Sehen",
+   "author": "Ludwig Braun"
+  },
+  {
+   "book": "",
+   "page": 1429,
+   "section": "a",
+   "line": null,
+   "journal": "Hermes",
+   "year": "1982",
+   "iid": "2a758b3e-75f5-35c1-b52c-18d19b0cf430",
+   "doi": "10.2307/4476251",
+   "title": "Die Schöne Helena, wie Gorgias und Isokrates sie Sehen",
+   "author": "Ludwig Braun"
+  },
+  {
+   "book": "",
+   "page": 1436,
+   "section": "a",
+   "line": null,
+   "journal": "The Harvard Theological Review",
+   "year": "1994",
+   "iid": "2c265860-ea5e-3505-afbd-392222b52683",
+   "doi": "10.2307/1509845",
+   "title": "Paul's Argumentation in Galatians 1-2",
+   "author": "Johan S. Vos"
+  },
+  {
+   "book": "",
+   "page": 1430,
+   "section": "a",
+   "line": null,
+   "journal": "Hermes",
+   "year": "1932",
+   "iid": "2db3062d-f3ae-3afd-8d11-60d36525f7ba",
+   "doi": "10.2307/4474244",
+   "title": "ΟΨΙΣ ΑΔΗΛΩΝ TA ΦΑΙΝΟΜΕΝΑ",
+   "author": "Hans Diller"
+  },
+  {
+   "book": "",
+   "page": 1428,
+   "section": "a",
+   "line": 27,
+   "journal": "Mnemosyne",
+   "year": "1989",
+   "iid": "2f03a034-550d-34e0-8703-d746bfd319fd",
+   "doi": "10.2307/4431777",
+   "title": "Probability in the Earliest Rhetorical Theory",
+   "author": "George H. Goebel"
+  },
+  {
+   "book": "",
+   "page": 1428,
+   "section": "a",
+   "line": 36,
+   "journal": "Mnemosyne",
+   "year": "1989",
+   "iid": "2f03a034-550d-34e0-8703-d746bfd319fd",
+   "doi": "10.2307/4431777",
+   "title": "Probability in the Earliest Rhetorical Theory",
+   "author": "George H. Goebel"
+  },
+  {
+   "book": "",
+   "page": 1428,
+   "section": "b",
+   "line": 8,
+   "journal": "Mnemosyne",
+   "year": "1989",
+   "iid": "2f03a034-550d-34e0-8703-d746bfd319fd",
+   "doi": "10.2307/4431777",
+   "title": "Probability in the Earliest Rhetorical Theory",
+   "author": "George H. Goebel"
+  },
+  {
+   "book": "",
+   "page": 1428,
+   "section": "b",
+   "line": 20,
+   "journal": "Mnemosyne",
+   "year": "1989",
+   "iid": "2f03a034-550d-34e0-8703-d746bfd319fd",
+   "doi": "10.2307/4431777",
+   "title": "Probability in the Earliest Rhetorical Theory",
+   "author": "George H. Goebel"
+  },
+  {
+   "book": "",
+   "page": 1428,
+   "section": "b",
+   "line": 29,
+   "journal": "Mnemosyne",
+   "year": "1989",
+   "iid": "2f03a034-550d-34e0-8703-d746bfd319fd",
+   "doi": "10.2307/4431777",
+   "title": "Probability in the Earliest Rhetorical Theory",
+   "author": "George H. Goebel"
+  },
+  {
+   "book": "",
+   "page": 1438,
+   "section": "b",
+   "line": 6,
+   "journal": "Mnemosyne",
+   "year": "1989",
+   "iid": "2f03a034-550d-34e0-8703-d746bfd319fd",
+   "doi": "10.2307/4431777",
+   "title": "Probability in the Earliest Rhetorical Theory",
+   "author": "George H. Goebel"
+  },
+  {
+   "book": "",
+   "page": 1425,
+   "section": "a",
+   "line": null,
+   "journal": "Biblica",
+   "year": "1980",
+   "iid": "30022564-18e2-314b-9af6-2c4b127c7459",
+   "doi": "10.2307/42706882",
+   "title": "Das Testament Hiobs und die Septuaginta-Übersetzung des Buches Hiob",
+   "author": "Berndt Schaller"
+  },
+  {
+   "book": "",
+   "page": 1436,
+   "section": "a",
+   "line": 37,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1991",
+   "iid": "382d1bc6-c509-3904-8394-092a3357eee5",
+   "doi": "10.2307/41233812",
+   "title": "PERSUASION THROUGH CHARACTER AND THE COMPOSITION OF ARISTOTLE'S RHETORIC",
+   "author": "William W. Fortenbaugh"
+  },
+  {
+   "book": "",
+   "page": 1442,
+   "section": "a",
+   "line": null,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1991",
+   "iid": "382d1bc6-c509-3904-8394-092a3357eee5",
+   "doi": "10.2307/41233812",
+   "title": "PERSUASION THROUGH CHARACTER AND THE COMPOSITION OF ARISTOTLE'S RHETORIC",
+   "author": "William W. Fortenbaugh"
+  },
+  {
+   "book": "",
+   "page": 1436,
+   "section": "b",
+   "line": 21,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1991",
+   "iid": "382d1bc6-c509-3904-8394-092a3357eee5",
+   "doi": "10.2307/41233812",
+   "title": "PERSUASION THROUGH CHARACTER AND THE COMPOSITION OF ARISTOTLE'S RHETORIC",
+   "author": "William W. Fortenbaugh"
+  },
+  {
+   "book": "",
+   "page": 1444,
+   "section": "a",
+   "line": null,
+   "journal": "Quaderni Urbinati di Cultura Classica",
+   "year": "2008",
+   "iid": "394b835f-40a4-3f8f-8dea-05cc659ecff1",
+   "doi": "10.2307/20546489",
+   "title": "Colometria antica e pratica editoriale moderna",
+   "author": "Luigi Battezzato"
+  },
+  {
+   "book": "",
+   "page": 1425,
+   "section": "b",
+   "line": 8,
+   "journal": "The American Journal of Philology",
+   "year": "2018",
+   "iid": "39bd12b6-4778-39fc-8ace-9bcf6f18461c",
+   "doi": "10.2307/48545482",
+   "title": "THE BURIAL OF BRASIDAS AND THE POLITICS OF COMMEMORATION IN THE CLASSICAL PERIOD",
+   "author": "Matthew Simonton"
+  },
+  {
+   "book": "",
+   "page": 1440,
+   "section": "a",
+   "line": null,
+   "journal": "Zeitschrift für katholische Theologie",
+   "year": "1931",
+   "iid": "3b14311d-c54c-3a35-b416-0fd9ebee7d84",
+   "doi": "10.2307/24181840",
+   "title": "Der Tag der Himmelfahrt des Herrn",
+   "author": "Urban Holzmeister"
+  },
+  {
+   "book": "",
+   "page": 1421,
+   "section": "b",
+   "line": 37,
+   "journal": "Neotestamentica",
+   "year": "2008",
+   "iid": "3ba9aeb2-b975-3ee5-a8b7-1cd321501873",
+   "doi": "10.2307/43049253",
+   "title": "THE STRATEGIC AROUSAL OF EMOTION IN JOHN'S VISIONS OF ROMAN IMPERIALISM: A RHETORICAL-CRITICAL INVESTIGATION OF REVELATION 4-22",
+   "author": "David A. deSilva"
+  },
+  {
+   "book": "",
+   "page": 1422,
+   "section": "a",
+   "line": 2,
+   "journal": "Neotestamentica",
+   "year": "2008",
+   "iid": "3ba9aeb2-b975-3ee5-a8b7-1cd321501873",
+   "doi": "10.2307/43049253",
+   "title": "THE STRATEGIC AROUSAL OF EMOTION IN JOHN'S VISIONS OF ROMAN IMPERIALISM: A RHETORICAL-CRITICAL INVESTIGATION OF REVELATION 4-22",
+   "author": "David A. deSilva"
+  },
+  {
+   "book": "",
+   "page": 1426,
+   "section": "a",
+   "line": 22,
+   "journal": "Neotestamentica",
+   "year": "2008",
+   "iid": "3ba9aeb2-b975-3ee5-a8b7-1cd321501873",
+   "doi": "10.2307/43049253",
+   "title": "THE STRATEGIC AROUSAL OF EMOTION IN JOHN'S VISIONS OF ROMAN IMPERIALISM: A RHETORICAL-CRITICAL INVESTIGATION OF REVELATION 4-22",
+   "author": "David A. deSilva"
+  },
+  {
+   "book": "",
+   "page": 1440,
+   "section": "a",
+   "line": 30,
+   "journal": "Neotestamentica",
+   "year": "2008",
+   "iid": "3ba9aeb2-b975-3ee5-a8b7-1cd321501873",
+   "doi": "10.2307/43049253",
+   "title": "THE STRATEGIC AROUSAL OF EMOTION IN JOHN'S VISIONS OF ROMAN IMPERIALISM: A RHETORICAL-CRITICAL INVESTIGATION OF REVELATION 4-22",
+   "author": "David A. deSilva"
+  },
+  {
+   "book": "",
+   "page": 1440,
+   "section": "a",
+   "line": 34,
+   "journal": "Neotestamentica",
+   "year": "2008",
+   "iid": "3ba9aeb2-b975-3ee5-a8b7-1cd321501873",
+   "doi": "10.2307/43049253",
+   "title": "THE STRATEGIC AROUSAL OF EMOTION IN JOHN'S VISIONS OF ROMAN IMPERIALISM: A RHETORICAL-CRITICAL INVESTIGATION OF REVELATION 4-22",
+   "author": "David A. deSilva"
+  },
+  {
+   "book": "",
+   "page": 1443,
+   "section": "a",
+   "line": 5,
+   "journal": "Recherches de théologie et philosophie médiévales",
+   "year": "2017",
+   "iid": "3c2ee9e5-a43b-349a-a90e-158eda183787",
+   "doi": "10.2307/26786223",
+   "title": "<em>REDUCTIO AD AUCTORITATEM</em> THE MEDIEVAL RECEPTION OF PSEUDO-ARISTOTLE’S <em>EPISTOLA AD ALEXANDRUM</em>",
+   "author": "Pieter De Leemans"
+  },
+  {
+   "book": "",
+   "page": 1421,
+   "section": "b",
+   "line": 7,
+   "journal": "Recherches de théologie et philosophie médiévales",
+   "year": "2017",
+   "iid": "3c2ee9e5-a43b-349a-a90e-158eda183787",
+   "doi": "10.2307/26786223",
+   "title": "<em>REDUCTIO AD AUCTORITATEM</em> THE MEDIEVAL RECEPTION OF PSEUDO-ARISTOTLE’S <em>EPISTOLA AD ALEXANDRUM</em>",
+   "author": "Pieter De Leemans"
+  },
+  {
+   "book": "",
+   "page": 1421,
+   "section": "a",
+   "line": 16,
+   "journal": "Recherches de théologie et philosophie médiévales",
+   "year": "2017",
+   "iid": "3c2ee9e5-a43b-349a-a90e-158eda183787",
+   "doi": "10.2307/26786223",
+   "title": "<em>REDUCTIO AD AUCTORITATEM</em> THE MEDIEVAL RECEPTION OF PSEUDO-ARISTOTLE’S <em>EPISTOLA AD ALEXANDRUM</em>",
+   "author": "Pieter De Leemans"
+  },
+  {
+   "book": "",
+   "page": 1421,
+   "section": "a",
+   "line": 21,
+   "journal": "Recherches de théologie et philosophie médiévales",
+   "year": "2017",
+   "iid": "3c2ee9e5-a43b-349a-a90e-158eda183787",
+   "doi": "10.2307/26786223",
+   "title": "<em>REDUCTIO AD AUCTORITATEM</em> THE MEDIEVAL RECEPTION OF PSEUDO-ARISTOTLE’S <em>EPISTOLA AD ALEXANDRUM</em>",
+   "author": "Pieter De Leemans"
+  },
+  {
+   "book": "",
+   "page": 1421,
+   "section": "a",
+   "line": 23,
+   "journal": "Recherches de théologie et philosophie médiévales",
+   "year": "2017",
+   "iid": "3c2ee9e5-a43b-349a-a90e-158eda183787",
+   "doi": "10.2307/26786223",
+   "title": "<em>REDUCTIO AD AUCTORITATEM</em> THE MEDIEVAL RECEPTION OF PSEUDO-ARISTOTLE’S <em>EPISTOLA AD ALEXANDRUM</em>",
+   "author": "Pieter De Leemans"
+  },
+  {
+   "book": "",
+   "page": 1421,
+   "section": "a",
+   "line": 10,
+   "journal": "Recherches de théologie et philosophie médiévales",
+   "year": "2017",
+   "iid": "3c2ee9e5-a43b-349a-a90e-158eda183787",
+   "doi": "10.2307/26786223",
+   "title": "<em>REDUCTIO AD AUCTORITATEM</em> THE MEDIEVAL RECEPTION OF PSEUDO-ARISTOTLE’S <em>EPISTOLA AD ALEXANDRUM</em>",
+   "author": "Pieter De Leemans"
+  },
+  {
+   "book": "",
+   "page": 1421,
+   "section": "a",
+   "line": 15,
+   "journal": "Recherches de théologie et philosophie médiévales",
+   "year": "2017",
+   "iid": "3c2ee9e5-a43b-349a-a90e-158eda183787",
+   "doi": "10.2307/26786223",
+   "title": "<em>REDUCTIO AD AUCTORITATEM</em> THE MEDIEVAL RECEPTION OF PSEUDO-ARISTOTLE’S <em>EPISTOLA AD ALEXANDRUM</em>",
+   "author": "Pieter De Leemans"
+  },
+  {
+   "book": "",
+   "page": 1421,
+   "section": "a",
+   "line": 18,
+   "journal": "Recherches de théologie et philosophie médiévales",
+   "year": "2017",
+   "iid": "3c2ee9e5-a43b-349a-a90e-158eda183787",
+   "doi": "10.2307/26786223",
+   "title": "<em>REDUCTIO AD AUCTORITATEM</em> THE MEDIEVAL RECEPTION OF PSEUDO-ARISTOTLE’S <em>EPISTOLA AD ALEXANDRUM</em>",
+   "author": "Pieter De Leemans"
+  },
+  {
+   "book": "",
+   "page": 1420,
+   "section": "a",
+   "line": 28,
+   "journal": "Recherches de théologie et philosophie médiévales",
+   "year": "2017",
+   "iid": "3c2ee9e5-a43b-349a-a90e-158eda183787",
+   "doi": "10.2307/26786223",
+   "title": "<em>REDUCTIO AD AUCTORITATEM</em> THE MEDIEVAL RECEPTION OF PSEUDO-ARISTOTLE’S <em>EPISTOLA AD ALEXANDRUM</em>",
+   "author": "Pieter De Leemans"
+  },
+  {
+   "book": "",
+   "page": 1420,
+   "section": "a",
+   "line": 15,
+   "journal": "Recherches de théologie et philosophie médiévales",
+   "year": "2017",
+   "iid": "3c2ee9e5-a43b-349a-a90e-158eda183787",
+   "doi": "10.2307/26786223",
+   "title": "<em>REDUCTIO AD AUCTORITATEM</em> THE MEDIEVAL RECEPTION OF PSEUDO-ARISTOTLE’S <em>EPISTOLA AD ALEXANDRUM</em>",
+   "author": "Pieter De Leemans"
+  },
+  {
+   "book": "",
+   "page": 1420,
+   "section": "b",
+   "line": 11,
+   "journal": "Recherches de théologie et philosophie médiévales",
+   "year": "2017",
+   "iid": "3c2ee9e5-a43b-349a-a90e-158eda183787",
+   "doi": "10.2307/26786223",
+   "title": "<em>REDUCTIO AD AUCTORITATEM</em> THE MEDIEVAL RECEPTION OF PSEUDO-ARISTOTLE’S <em>EPISTOLA AD ALEXANDRUM</em>",
+   "author": "Pieter De Leemans"
+  },
+  {
+   "book": "",
+   "page": 1421,
+   "section": "a",
+   "line": 1,
+   "journal": "Recherches de théologie et philosophie médiévales",
+   "year": "2017",
+   "iid": "3c2ee9e5-a43b-349a-a90e-158eda183787",
+   "doi": "10.2307/26786223",
+   "title": "<em>REDUCTIO AD AUCTORITATEM</em> THE MEDIEVAL RECEPTION OF PSEUDO-ARISTOTLE’S <em>EPISTOLA AD ALEXANDRUM</em>",
+   "author": "Pieter De Leemans"
+  },
+  {
+   "book": "",
+   "page": 1421,
+   "section": "a",
+   "line": 28,
+   "journal": "Recherches de théologie et philosophie médiévales",
+   "year": "2017",
+   "iid": "3c2ee9e5-a43b-349a-a90e-158eda183787",
+   "doi": "10.2307/26786223",
+   "title": "<em>REDUCTIO AD AUCTORITATEM</em> THE MEDIEVAL RECEPTION OF PSEUDO-ARISTOTLE’S <em>EPISTOLA AD ALEXANDRUM</em>",
+   "author": "Pieter De Leemans"
+  },
+  {
+   "book": "",
+   "page": 1421,
+   "section": "b",
+   "line": 8,
+   "journal": "Recherches de théologie et philosophie médiévales",
+   "year": "2017",
+   "iid": "3c2ee9e5-a43b-349a-a90e-158eda183787",
+   "doi": "10.2307/26786223",
+   "title": "<em>REDUCTIO AD AUCTORITATEM</em> THE MEDIEVAL RECEPTION OF PSEUDO-ARISTOTLE’S <em>EPISTOLA AD ALEXANDRUM</em>",
+   "author": "Pieter De Leemans"
+  },
+  {
+   "book": "",
+   "page": 1421,
+   "section": "a",
+   "line": 32,
+   "journal": "Recherches de théologie et philosophie médiévales",
+   "year": "2017",
+   "iid": "3c2ee9e5-a43b-349a-a90e-158eda183787",
+   "doi": "10.2307/26786223",
+   "title": "<em>REDUCTIO AD AUCTORITATEM</em> THE MEDIEVAL RECEPTION OF PSEUDO-ARISTOTLE’S <em>EPISTOLA AD ALEXANDRUM</em>",
+   "author": "Pieter De Leemans"
+  },
+  {
+   "book": "",
+   "page": 1420,
+   "section": "b",
+   "line": 10,
+   "journal": "Recherches de théologie et philosophie médiévales",
+   "year": "2017",
+   "iid": "3c2ee9e5-a43b-349a-a90e-158eda183787",
+   "doi": "10.2307/26786223",
+   "title": "<em>REDUCTIO AD AUCTORITATEM</em> THE MEDIEVAL RECEPTION OF PSEUDO-ARISTOTLE’S <em>EPISTOLA AD ALEXANDRUM</em>",
+   "author": "Pieter De Leemans"
+  },
+  {
+   "book": "",
+   "page": 1420,
+   "section": "a",
+   "line": 25,
+   "journal": "Recherches de théologie et philosophie médiévales",
+   "year": "2017",
+   "iid": "3c2ee9e5-a43b-349a-a90e-158eda183787",
+   "doi": "10.2307/26786223",
+   "title": "<em>REDUCTIO AD AUCTORITATEM</em> THE MEDIEVAL RECEPTION OF PSEUDO-ARISTOTLE’S <em>EPISTOLA AD ALEXANDRUM</em>",
+   "author": "Pieter De Leemans"
+  },
+  {
+   "book": "",
+   "page": 1420,
+   "section": "b",
+   "line": 12,
+   "journal": "Recherches de théologie et philosophie médiévales",
+   "year": "2017",
+   "iid": "3c2ee9e5-a43b-349a-a90e-158eda183787",
+   "doi": "10.2307/26786223",
+   "title": "<em>REDUCTIO AD AUCTORITATEM</em> THE MEDIEVAL RECEPTION OF PSEUDO-ARISTOTLE’S <em>EPISTOLA AD ALEXANDRUM</em>",
+   "author": "Pieter De Leemans"
+  },
+  {
+   "book": "",
+   "page": 1420,
+   "section": "b",
+   "line": 5,
+   "journal": "Recherches de théologie et philosophie médiévales",
+   "year": "2017",
+   "iid": "3c2ee9e5-a43b-349a-a90e-158eda183787",
+   "doi": "10.2307/26786223",
+   "title": "<em>REDUCTIO AD AUCTORITATEM</em> THE MEDIEVAL RECEPTION OF PSEUDO-ARISTOTLE’S <em>EPISTOLA AD ALEXANDRUM</em>",
+   "author": "Pieter De Leemans"
+  },
+  {
+   "book": "",
+   "page": 1420,
+   "section": "a",
+   "line": 12,
+   "journal": "Recherches de théologie et philosophie médiévales",
+   "year": "2017",
+   "iid": "3c2ee9e5-a43b-349a-a90e-158eda183787",
+   "doi": "10.2307/26786223",
+   "title": "<em>REDUCTIO AD AUCTORITATEM</em> THE MEDIEVAL RECEPTION OF PSEUDO-ARISTOTLE’S <em>EPISTOLA AD ALEXANDRUM</em>",
+   "author": "Pieter De Leemans"
+  },
+  {
+   "book": "",
+   "page": 1420,
+   "section": "a",
+   "line": 30,
+   "journal": "Recherches de théologie et philosophie médiévales",
+   "year": "2017",
+   "iid": "3c2ee9e5-a43b-349a-a90e-158eda183787",
+   "doi": "10.2307/26786223",
+   "title": "<em>REDUCTIO AD AUCTORITATEM</em> THE MEDIEVAL RECEPTION OF PSEUDO-ARISTOTLE’S <em>EPISTOLA AD ALEXANDRUM</em>",
+   "author": "Pieter De Leemans"
+  },
+  {
+   "book": "",
+   "page": 1420,
+   "section": "a",
+   "line": 27,
+   "journal": "Recherches de théologie et philosophie médiévales",
+   "year": "2017",
+   "iid": "3c2ee9e5-a43b-349a-a90e-158eda183787",
+   "doi": "10.2307/26786223",
+   "title": "<em>REDUCTIO AD AUCTORITATEM</em> THE MEDIEVAL RECEPTION OF PSEUDO-ARISTOTLE’S <em>EPISTOLA AD ALEXANDRUM</em>",
+   "author": "Pieter De Leemans"
+  },
+  {
+   "book": "",
+   "page": 1420,
+   "section": "b",
+   "line": 23,
+   "journal": "Recherches de théologie et philosophie médiévales",
+   "year": "2017",
+   "iid": "3c2ee9e5-a43b-349a-a90e-158eda183787",
+   "doi": "10.2307/26786223",
+   "title": "<em>REDUCTIO AD AUCTORITATEM</em> THE MEDIEVAL RECEPTION OF PSEUDO-ARISTOTLE’S <em>EPISTOLA AD ALEXANDRUM</em>",
+   "author": "Pieter De Leemans"
+  },
+  {
+   "book": "",
+   "page": 1420,
+   "section": "a",
+   "line": 22,
+   "journal": "Recherches de théologie et philosophie médiévales",
+   "year": "2017",
+   "iid": "3c2ee9e5-a43b-349a-a90e-158eda183787",
+   "doi": "10.2307/26786223",
+   "title": "<em>REDUCTIO AD AUCTORITATEM</em> THE MEDIEVAL RECEPTION OF PSEUDO-ARISTOTLE’S <em>EPISTOLA AD ALEXANDRUM</em>",
+   "author": "Pieter De Leemans"
+  },
+  {
+   "book": "",
+   "page": 1420,
+   "section": "a",
+   "line": 19,
+   "journal": "Recherches de théologie et philosophie médiévales",
+   "year": "2017",
+   "iid": "3c2ee9e5-a43b-349a-a90e-158eda183787",
+   "doi": "10.2307/26786223",
+   "title": "<em>REDUCTIO AD AUCTORITATEM</em> THE MEDIEVAL RECEPTION OF PSEUDO-ARISTOTLE’S <em>EPISTOLA AD ALEXANDRUM</em>",
+   "author": "Pieter De Leemans"
+  },
+  {
+   "book": "",
+   "page": 1420,
+   "section": "b",
+   "line": 8,
+   "journal": "Recherches de théologie et philosophie médiévales",
+   "year": "2017",
+   "iid": "3c2ee9e5-a43b-349a-a90e-158eda183787",
+   "doi": "10.2307/26786223",
+   "title": "<em>REDUCTIO AD AUCTORITATEM</em> THE MEDIEVAL RECEPTION OF PSEUDO-ARISTOTLE’S <em>EPISTOLA AD ALEXANDRUM</em>",
+   "author": "Pieter De Leemans"
+  },
+  {
+   "book": "",
+   "page": 1420,
+   "section": "b",
+   "line": 20,
+   "journal": "Recherches de théologie et philosophie médiévales",
+   "year": "2017",
+   "iid": "3c2ee9e5-a43b-349a-a90e-158eda183787",
+   "doi": "10.2307/26786223",
+   "title": "<em>REDUCTIO AD AUCTORITATEM</em> THE MEDIEVAL RECEPTION OF PSEUDO-ARISTOTLE’S <em>EPISTOLA AD ALEXANDRUM</em>",
+   "author": "Pieter De Leemans"
+  },
+  {
+   "book": "",
+   "page": 1420,
+   "section": "a",
+   "line": 17,
+   "journal": "Recherches de théologie et philosophie médiévales",
+   "year": "2017",
+   "iid": "3c2ee9e5-a43b-349a-a90e-158eda183787",
+   "doi": "10.2307/26786223",
+   "title": "<em>REDUCTIO AD AUCTORITATEM</em> THE MEDIEVAL RECEPTION OF PSEUDO-ARISTOTLE’S <em>EPISTOLA AD ALEXANDRUM</em>",
+   "author": "Pieter De Leemans"
+  },
+  {
+   "book": "",
+   "page": 1421,
+   "section": "a",
+   "line": 12,
+   "journal": "Recherches de théologie et philosophie médiévales",
+   "year": "2017",
+   "iid": "3c2ee9e5-a43b-349a-a90e-158eda183787",
+   "doi": "10.2307/26786223",
+   "title": "<em>REDUCTIO AD AUCTORITATEM</em> THE MEDIEVAL RECEPTION OF PSEUDO-ARISTOTLE’S <em>EPISTOLA AD ALEXANDRUM</em>",
+   "author": "Pieter De Leemans"
+  },
+  {
+   "book": "",
+   "page": 1421,
+   "section": "a",
+   "line": 17,
+   "journal": "Recherches de théologie et philosophie médiévales",
+   "year": "2017",
+   "iid": "3c2ee9e5-a43b-349a-a90e-158eda183787",
+   "doi": "10.2307/26786223",
+   "title": "<em>REDUCTIO AD AUCTORITATEM</em> THE MEDIEVAL RECEPTION OF PSEUDO-ARISTOTLE’S <em>EPISTOLA AD ALEXANDRUM</em>",
+   "author": "Pieter De Leemans"
+  },
+  {
+   "book": "",
+   "page": 1420,
+   "section": "a",
+   "line": 5,
+   "journal": "Recherches de théologie et philosophie médiévales",
+   "year": "2017",
+   "iid": "3c2ee9e5-a43b-349a-a90e-158eda183787",
+   "doi": "10.2307/26786223",
+   "title": "<em>REDUCTIO AD AUCTORITATEM</em> THE MEDIEVAL RECEPTION OF PSEUDO-ARISTOTLE’S <em>EPISTOLA AD ALEXANDRUM</em>",
+   "author": "Pieter De Leemans"
+  },
+  {
+   "book": "",
+   "page": 1420,
+   "section": "b",
+   "line": null,
+   "journal": "Recherches de théologie et philosophie médiévales",
+   "year": "2017",
+   "iid": "3c2ee9e5-a43b-349a-a90e-158eda183787",
+   "doi": "10.2307/26786223",
+   "title": "<em>REDUCTIO AD AUCTORITATEM</em> THE MEDIEVAL RECEPTION OF PSEUDO-ARISTOTLE’S <em>EPISTOLA AD ALEXANDRUM</em>",
+   "author": "Pieter De Leemans"
+  },
+  {
+   "book": "",
+   "page": 1421,
+   "section": "a",
+   "line": 8,
+   "journal": "Recherches de théologie et philosophie médiévales",
+   "year": "2017",
+   "iid": "3c2ee9e5-a43b-349a-a90e-158eda183787",
+   "doi": "10.2307/26786223",
+   "title": "<em>REDUCTIO AD AUCTORITATEM</em> THE MEDIEVAL RECEPTION OF PSEUDO-ARISTOTLE’S <em>EPISTOLA AD ALEXANDRUM</em>",
+   "author": "Pieter De Leemans"
+  },
+  {
+   "book": "",
+   "page": 1431,
+   "section": "a",
+   "line": null,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "2019",
+   "iid": "3d001b47-faf5-3d35-9ee8-ba60c3d2fde8",
+   "doi": "10.2307/45174395",
+   "title": "THE LION CUB AINOS, SUPPOSITIOUS CHILDREN, AND \"THESMOPHORIAZUSAE\"",
+   "author": "Jonathan Vickers"
+  },
+  {
+   "book": "",
+   "page": 1421,
+   "section": "a",
+   "line": 29,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "2019",
+   "iid": "3d001b47-faf5-3d35-9ee8-ba60c3d2fde8",
+   "doi": "10.2307/45174395",
+   "title": "THE LION CUB AINOS, SUPPOSITIOUS CHILDREN, AND \"THESMOPHORIAZUSAE\"",
+   "author": "Jonathan Vickers"
+  },
+  {
+   "book": "",
+   "page": 1431,
+   "section": "a",
+   "line": null,
+   "journal": "Quaderni Urbinati di Cultura Classica",
+   "year": "1998",
+   "iid": "3e737093-41db-35bb-8d0a-1c11a71d0d8a",
+   "doi": "10.2307/20546524",
+   "title": "Aristofane, \"Nuvole\" 652-654: Una proposta",
+   "author": "Fabio Cannatà"
+  },
+  {
+   "book": "",
+   "page": 1431,
+   "section": "b",
+   "line": null,
+   "journal": "Quaderni Urbinati di Cultura Classica",
+   "year": "1998",
+   "iid": "3e737093-41db-35bb-8d0a-1c11a71d0d8a",
+   "doi": "10.2307/20546524",
+   "title": "Aristofane, \"Nuvole\" 652-654: Una proposta",
+   "author": "Fabio Cannatà"
+  },
+  {
+   "book": "",
+   "page": 1427,
+   "section": "b",
+   "line": null,
+   "journal": "The Harvard Theological Review",
+   "year": "1927",
+   "iid": "41fba5af-0e01-356a-bb59-2482d7af8788",
+   "doi": "10.2307/1507589",
+   "title": "A Ninth-Century Commentator on the Gospel According to Matthew",
+   "author": "M. L. W. Laistner"
+  },
+  {
+   "book": "",
+   "page": 1445,
+   "section": "b",
+   "line": null,
+   "journal": "The Harvard Theological Review",
+   "year": "1927",
+   "iid": "41fba5af-0e01-356a-bb59-2482d7af8788",
+   "doi": "10.2307/1507589",
+   "title": "A Ninth-Century Commentator on the Gospel According to Matthew",
+   "author": "M. L. W. Laistner"
+  },
+  {
+   "book": "",
+   "page": 1436,
+   "section": "a",
+   "line": null,
+   "journal": "The Harvard Theological Review",
+   "year": "1927",
+   "iid": "41fba5af-0e01-356a-bb59-2482d7af8788",
+   "doi": "10.2307/1507589",
+   "title": "A Ninth-Century Commentator on the Gospel According to Matthew",
+   "author": "M. L. W. Laistner"
+  },
+  {
+   "book": "",
+   "page": 1440,
+   "section": "a",
+   "line": null,
+   "journal": "The Harvard Theological Review",
+   "year": "1927",
+   "iid": "41fba5af-0e01-356a-bb59-2482d7af8788",
+   "doi": "10.2307/1507589",
+   "title": "A Ninth-Century Commentator on the Gospel According to Matthew",
+   "author": "M. L. W. Laistner"
+  },
+  {
+   "book": "",
+   "page": 1440,
+   "section": "a",
+   "line": null,
+   "journal": "The American Journal of Philology",
+   "year": "1962",
+   "iid": "46438275-0a11-399c-8639-7fa4b5d00985",
+   "doi": "10.2307/292598",
+   "title": "Charinus' Megarean Decree",
+   "author": "W. R. Connor"
+  },
+  {
+   "book": "",
+   "page": 1427,
+   "section": "a",
+   "line": 34,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1999",
+   "iid": "491e60c5-9cc8-30c8-838b-c2f993bd5ce0",
+   "doi": "10.2307/41234369",
+   "title": "ERKENNTNIS UND HANDLUNG IM OIDIPUS TYRANNOS DES SOPHOKLES",
+   "author": "Andreas Zierl"
+  },
+  {
+   "book": "",
+   "page": 1421,
+   "section": "b",
+   "line": 20,
+   "journal": "Transactions and Proceedings of the American Philological Association",
+   "year": "1936",
+   "iid": "4b50a56d-3be7-33b8-8d84-7081ee589079",
+   "doi": "10.2307/283241",
+   "title": "Aristotle's Protrepticus and the Structure of the Epinomis",
+   "author": "Benedict Einarson"
+  },
+  {
+   "book": "",
+   "page": 1439,
+   "section": "b",
+   "line": 15,
+   "journal": "Novum Testamentum",
+   "year": "2020",
+   "iid": "512d693f-42fd-3633-98d7-cc42f0954bef",
+   "doi": "10.2307/27067575",
+   "title": "The Rhetoric of Empathy in Hebrews",
+   "author": "Chee-Chiew Lee"
+  },
+  {
+   "book": "",
+   "page": 1429,
+   "section": "b",
+   "line": null,
+   "journal": "The American Journal of Philology",
+   "year": "1949",
+   "iid": "53ac7801-5d3d-3db2-b3f1-52a4751a31d0",
+   "doi": "10.2307/290966",
+   "title": "The Purpose of Timoleon's Mission",
+   "author": "H. D. Westlake"
+  },
+  {
+   "book": "",
+   "page": 1440,
+   "section": "b",
+   "line": null,
+   "journal": "The Catholic Biblical Quarterly",
+   "year": "1989",
+   "iid": "59616f11-9b70-382c-963b-c5acbf1d3086",
+   "doi": "10.2307/43717897",
+   "title": "A Rhetorical Analysis of 3 John: A Study in Epistolary Rhetoric",
+   "author": "DUANE F. WATSON"
+  },
+  {
+   "book": "",
+   "page": 1441,
+   "section": "b",
+   "line": null,
+   "journal": "The Catholic Biblical Quarterly",
+   "year": "1989",
+   "iid": "59616f11-9b70-382c-963b-c5acbf1d3086",
+   "doi": "10.2307/43717897",
+   "title": "A Rhetorical Analysis of 3 John: A Study in Epistolary Rhetoric",
+   "author": "DUANE F. WATSON"
+  },
+  {
+   "book": "",
+   "page": 1443,
+   "section": "b",
+   "line": null,
+   "journal": "The Catholic Biblical Quarterly",
+   "year": "1989",
+   "iid": "59616f11-9b70-382c-963b-c5acbf1d3086",
+   "doi": "10.2307/43717897",
+   "title": "A Rhetorical Analysis of 3 John: A Study in Epistolary Rhetoric",
+   "author": "DUANE F. WATSON"
+  },
+  {
+   "book": "",
+   "page": 1444,
+   "section": "a",
+   "line": null,
+   "journal": "Zeitschrift für katholische Theologie",
+   "year": "1904",
+   "iid": "5cd43f4e-d1d3-3268-8943-3e4eebd23cbb",
+   "doi": "10.2307/24188944",
+   "title": "Papst und Konzil im ersten Jahrtausend",
+   "author": "C. A. Kneller"
+  },
+  {
+   "book": "",
+   "page": 1433,
+   "section": "a",
+   "line": null,
+   "journal": "Vigiliae Christianae",
+   "year": "1991",
+   "iid": "5ffd3495-52ee-35ec-bebb-68dc101a4fc3",
+   "doi": "10.2307/1584449",
+   "title": "Citations de l'homélie de Proclus, \"In nativitatem Salvatoris\" (CPG 5068), dans un florilège christologique des IVe et Ve siècles",
+   "author": "Michel Aubineau"
+  },
+  {
+   "book": "",
+   "page": 1446,
+   "section": "a",
+   "line": 39,
+   "journal": "Hermes",
+   "year": "1991",
+   "iid": "64dc2ce6-6557-34e6-ab07-d2d2bb83a191",
+   "doi": "10.2307/4476828",
+   "title": "Supplementary Notes on the 'De mundo'",
+   "author": "A. P. Bos"
+  },
+  {
+   "book": "",
+   "page": 1425,
+   "section": "a",
+   "line": null,
+   "journal": "Zeitschrift für katholische Theologie",
+   "year": "1959",
+   "iid": "6efe76c5-2a61-3c96-891d-0f10b6594d03",
+   "doi": "10.2307/24177070",
+   "title": "ZUR STELLUNG ALKUINS AUF DEM FRANKFURTER KONZIL (794)",
+   "author": "Hans Bernhard Meyer"
+  },
+  {
+   "book": "",
+   "page": 1429,
+   "section": "b",
+   "line": null,
+   "journal": "Classical Antiquity",
+   "year": "2008",
+   "iid": "70187bc7-9da4-30ed-be6b-a120eb2b2b20",
+   "doi": "10.1525/ca.2008.27.2.359",
+   "title": "Tacitus, Stoic <em>exempla</em>, and the <em>praecipuum munus annalium</em>",
+   "author": "William Turpin"
+  },
+  {
+   "book": "",
+   "page": 1429,
+   "section": "b",
+   "line": 15,
+   "journal": "Classical Antiquity",
+   "year": "2008",
+   "iid": "70187bc7-9da4-30ed-be6b-a120eb2b2b20",
+   "doi": "10.1525/ca.2008.27.2.359",
+   "title": "Tacitus, Stoic <em>exempla</em>, and the <em>praecipuum munus annalium</em>",
+   "author": "William Turpin"
+  },
+  {
+   "book": "",
+   "page": 1429,
+   "section": "b",
+   "line": 30,
+   "journal": "Classical Antiquity",
+   "year": "2008",
+   "iid": "70187bc7-9da4-30ed-be6b-a120eb2b2b20",
+   "doi": "10.1525/ca.2008.27.2.359",
+   "title": "Tacitus, Stoic <em>exempla</em>, and the <em>praecipuum munus annalium</em>",
+   "author": "William Turpin"
+  },
+  {
+   "book": "",
+   "page": 1430,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Antiquity",
+   "year": "2008",
+   "iid": "70187bc7-9da4-30ed-be6b-a120eb2b2b20",
+   "doi": "10.1525/ca.2008.27.2.359",
+   "title": "Tacitus, Stoic <em>exempla</em>, and the <em>praecipuum munus annalium</em>",
+   "author": "William Turpin"
+  },
+  {
+   "book": "",
+   "page": 1431,
+   "section": "a",
+   "line": null,
+   "journal": "Illinois Classical Studies",
+   "year": "1977",
+   "iid": "7a401bb9-42e0-36db-b422-ded93c1f1803",
+   "doi": "10.2307/23061172",
+   "title": "Ancient Interpolation in Aristophanes",
+   "author": "KENNETH J. DOVER"
+  },
+  {
+   "book": "",
+   "page": 1424,
+   "section": "a",
+   "line": null,
+   "journal": "Harvard Studies in Classical Philology",
+   "year": "1940",
+   "iid": "8117e326-ffd5-3ce5-8eec-e8e24e9943e9",
+   "doi": "10.2307/45134355",
+   "title": "TWO ATTIC TREASURE-RECORDS",
+   "author": "Arthur M. Woodward"
+  },
+  {
+   "book": "",
+   "page": 1442,
+   "section": "b",
+   "line": null,
+   "journal": "The American Journal of Philology",
+   "year": "1968",
+   "iid": "82f7127e-3648-3a44-904a-7de47925fdbf",
+   "doi": "10.2307/292826",
+   "title": "The Rhetoric of Advocacy in Greece and Rome",
+   "author": "George Kennedy"
+  },
+  {
+   "book": "",
+   "page": 1444,
+   "section": "a",
+   "line": 34,
+   "journal": "The American Journal of Philology",
+   "year": "1968",
+   "iid": "82f7127e-3648-3a44-904a-7de47925fdbf",
+   "doi": "10.2307/292826",
+   "title": "The Rhetoric of Advocacy in Greece and Rome",
+   "author": "George Kennedy"
+  },
+  {
+   "book": "",
+   "page": 1442,
+   "section": "a",
+   "line": null,
+   "journal": "The American Journal of Philology",
+   "year": "1968",
+   "iid": "82f7127e-3648-3a44-904a-7de47925fdbf",
+   "doi": "10.2307/292826",
+   "title": "The Rhetoric of Advocacy in Greece and Rome",
+   "author": "George Kennedy"
+  },
+  {
+   "book": "",
+   "page": 1431,
+   "section": "b",
+   "line": null,
+   "journal": "The Journal of Religion",
+   "year": "2005",
+   "iid": "84200b05-aa34-3ab4-b513-a07068ecaa6f",
+   "doi": "10.1086/429573",
+   "title": "Patristic Rhetoric on Allegory: Origen and Eustathius Put 1 Samuel 28 on Trial",
+   "author": "Margaret M. Mitchell"
+  },
+  {
+   "book": "",
+   "page": 1441,
+   "section": "a",
+   "line": null,
+   "journal": "Quaderni Urbinati di Cultura Classica",
+   "year": "1983",
+   "iid": "85bde93f-a4f3-3512-a425-50f559259708",
+   "doi": "10.2307/20538764",
+   "title": "Aristotele e la poesia: Un problema di classificazione",
+   "author": "Diego Lanza"
+  },
+  {
+   "book": "",
+   "page": 1421,
+   "section": "b",
+   "line": 24,
+   "journal": "Illinois Classical Studies",
+   "year": "1988",
+   "iid": "88654c40-6dab-39a4-8df6-6e58c51e068b",
+   "doi": "10.2307/23064245",
+   "title": "Is Plutarch Fair to Nikias?",
+   "author": "ANASTASIOS G. NIKOLAIDIS"
+  },
+  {
+   "book": "",
+   "page": 1431,
+   "section": "a",
+   "line": null,
+   "journal": "Mnemosyne",
+   "year": "1960",
+   "iid": "89594772-1908-3e97-a4e8-d9ca16753c3f",
+   "doi": "10.2307/4428356",
+   "title": "",
+   "author": "W. B. Stanford, G. J. de Vries"
+  },
+  {
+   "book": "",
+   "page": 1428,
+   "section": "b",
+   "line": null,
+   "journal": "Revue de Théologie et de Philosophie",
+   "year": "2004",
+   "iid": "8ad57f72-e136-3633-aeab-16fde9a9a03e",
+   "doi": "10.2307/44359688",
+   "title": "DE LA «LOI DE DIEU» À LA «VOLONTÉ DE DIEU» : L'ÊTRE ET SON DEVOIR CHEZ ANSELME DE CANTORBÉRY",
+   "author": "Kristell Trego"
+  },
+  {
+   "book": "",
+   "page": 1439,
+   "section": "b",
+   "line": null,
+   "journal": "Biblica",
+   "year": "1940",
+   "iid": "8a96eb85-a3ea-3a19-a28d-2ce66b48f8c7",
+   "doi": "10.2307/42631780",
+   "title": "DER PAULINENKOMMENTAR DES HERVAEUS VON BOURG-DIEU",
+   "author": "A. Landgraf"
+  },
+  {
+   "book": "",
+   "page": 1436,
+   "section": "a",
+   "line": null,
+   "journal": "Journal of Biblical Literature",
+   "year": "2015",
+   "iid": "8cf28031-189d-39e7-9aaf-71ee607dd0fc",
+   "doi": "10.15699/jbl.1342.2015.2804",
+   "title": "The Poetry of the Lord's Prayer: A Study in Poetic Device",
+   "author": "Michael Wade Martin"
+  },
+  {
+   "book": "",
+   "page": 1435,
+   "section": "b",
+   "line": null,
+   "journal": "Journal of Biblical Literature",
+   "year": "2015",
+   "iid": "8cf28031-189d-39e7-9aaf-71ee607dd0fc",
+   "doi": "10.15699/jbl.1342.2015.2804",
+   "title": "The Poetry of the Lord's Prayer: A Study in Poetic Device",
+   "author": "Michael Wade Martin"
+  },
+  {
+   "book": "",
+   "page": 1421,
+   "section": "a",
+   "line": 16,
+   "journal": "Recherches de théologie et philosophie médiévales",
+   "year": "2018",
+   "iid": "8c9a6453-71d3-37c5-9919-f2a85e859330",
+   "doi": "10.2307/26786286",
+   "title": "Book Review : Grundriss: Philosophie des Humanismus und der Renaissance (1350–1600)",
+   "author": "Guy Guldentops, Thomas Leinkauf"
+  },
+  {
+   "book": "",
+   "page": 1424,
+   "section": "a",
+   "line": null,
+   "journal": "Biblica",
+   "year": "1957",
+   "iid": "8f9fcdf6-1744-3abd-aec4-6096e7342bca",
+   "doi": "10.2307/42629716",
+   "title": "[Elenchus bibliographicus biblicus]",
+   "author": "P. Nober"
+  },
+  {
+   "book": "",
+   "page": 1427,
+   "section": "a",
+   "line": null,
+   "journal": "Biblica",
+   "year": "1957",
+   "iid": "8f9fcdf6-1744-3abd-aec4-6096e7342bca",
+   "doi": "10.2307/42629716",
+   "title": "[Elenchus bibliographicus biblicus]",
+   "author": "P. Nober"
+  },
+  {
+   "book": "",
+   "page": 1434,
+   "section": "a",
+   "line": 25,
+   "journal": "Hermes",
+   "year": "1993",
+   "iid": "911fee6d-b41b-3942-943c-57fbc4929a8b",
+   "doi": "10.2307/4476936",
+   "title": "Food, Sex, Money and Poetry in 'Olympian' 1",
+   "author": "Dana L. Burgess"
+  },
+  {
+   "book": "",
+   "page": 1438,
+   "section": "b",
+   "line": 6,
+   "journal": "Hermes",
+   "year": "1993",
+   "iid": "911fee6d-b41b-3942-943c-57fbc4929a8b",
+   "doi": "10.2307/4476936",
+   "title": "Food, Sex, Money and Poetry in 'Olympian' 1",
+   "author": "Dana L. Burgess"
+  },
+  {
+   "book": "",
+   "page": 1428,
+   "section": "b",
+   "line": null,
+   "journal": "The American Journal of Philology",
+   "year": "1989",
+   "iid": "91b4f688-f221-3b61-961d-cb25674c2a72",
+   "doi": "10.2307/294951",
+   "title": "The Vilification of Eratosthenes and Theramenes in Lysias 12",
+   "author": "Thomas M. Murphy"
+  },
+  {
+   "book": "",
+   "page": 1436,
+   "section": "a",
+   "line": 25,
+   "journal": "Mnemosyne",
+   "year": "2019",
+   "iid": "943ebde6-fdf2-30f9-bb13-07d18d97d367",
+   "doi": "10.2307/26675813",
+   "title": "The Fossilized Meaning of <em>Chreia</em> as Anecdote",
+   "author": "Denis Michael Searby"
+  },
+  {
+   "book": "",
+   "page": 1431,
+   "section": "a",
+   "line": null,
+   "journal": "Hermes",
+   "year": "2002",
+   "iid": "95f0f07a-cfc5-3201-abd8-1a4b7a1cb4a4",
+   "doi": "10.2307/4477479",
+   "title": "Aischylos als Kriegsprofiteur: Zum Sieg des Aischylos in den \"Fröschen\" des Aristophanes",
+   "author": "Andreas Willi"
+  },
+  {
+   "book": "",
+   "page": 1425,
+   "section": "b",
+   "line": null,
+   "journal": "Classical Antiquity",
+   "year": "1989",
+   "iid": "96b8645f-9868-30d3-a23a-ab83aea071df",
+   "doi": "10.2307/25010912",
+   "title": "Why Was the Greek Alphabet Invented? The Epigraphical Evidence",
+   "author": "Barry B. Powell"
+  },
+  {
+   "book": "",
+   "page": 1444,
+   "section": "a",
+   "line": null,
+   "journal": "Recherches de théologie ancienne et médiévale",
+   "year": "1956",
+   "iid": "9c42912b-93bb-3fd5-9d36-7de7dd78c98e",
+   "doi": "10.2307/26186496",
+   "title": "Zur frühscholastischen Christologie",
+   "author": "Matthäus Bernards"
+  },
+  {
+   "book": "",
+   "page": 1436,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Journal",
+   "year": "1984",
+   "iid": "9e144e45-0bf0-322d-a6bd-6c445c1fd31e",
+   "doi": "10.2307/3297027",
+   "title": "Magna Tibi Imposita Est Nostris Persona Libellis: Playwright and Actor in Ovid's \"Epistulae ex Ponto\" 3.1",
+   "author": "Mary H. T. Davisson"
+  },
+  {
+   "book": "",
+   "page": 1436,
+   "section": "a",
+   "line": 15,
+   "journal": "The Classical Journal",
+   "year": "1984",
+   "iid": "9e144e45-0bf0-322d-a6bd-6c445c1fd31e",
+   "doi": "10.2307/3297027",
+   "title": "Magna Tibi Imposita Est Nostris Persona Libellis: Playwright and Actor in Ovid's \"Epistulae ex Ponto\" 3.1",
+   "author": "Mary H. T. Davisson"
+  },
+  {
+   "book": "",
+   "page": 1436,
+   "section": "a",
+   "line": 30,
+   "journal": "The Classical Journal",
+   "year": "1984",
+   "iid": "9e144e45-0bf0-322d-a6bd-6c445c1fd31e",
+   "doi": "10.2307/3297027",
+   "title": "Magna Tibi Imposita Est Nostris Persona Libellis: Playwright and Actor in Ovid's \"Epistulae ex Ponto\" 3.1",
+   "author": "Mary H. T. Davisson"
+  },
+  {
+   "book": "",
+   "page": 1436,
+   "section": "b",
+   "line": null,
+   "journal": "The Classical Journal",
+   "year": "1984",
+   "iid": "9e144e45-0bf0-322d-a6bd-6c445c1fd31e",
+   "doi": "10.2307/3297027",
+   "title": "Magna Tibi Imposita Est Nostris Persona Libellis: Playwright and Actor in Ovid's \"Epistulae ex Ponto\" 3.1",
+   "author": "Mary H. T. Davisson"
+  },
+  {
+   "book": "",
+   "page": 1446,
+   "section": "a",
+   "line": 34,
+   "journal": "Mnemosyne",
+   "year": "2019",
+   "iid": "9e52ba7c-50ff-347f-b472-37c030f1b461",
+   "doi": "10.2307/26675829",
+   "title": "A New End-title in the Herculaneum Papyri and the First Case of a Preserved <em>subscriptio</em> in One of the Books Assigned to Philodemus’ <em>Systematic Arrangement of the Philosophers (PHerc</em>. 327)",
+   "author": "Graziano Ranocchia"
+  },
+  {
+   "book": "",
+   "page": 1439,
+   "section": "a",
+   "line": null,
+   "journal": "Biblica",
+   "year": "1954",
+   "iid": "a0895e72-a710-3d79-8101-8e1a2b5c917c",
+   "doi": "10.2307/42618972",
+   "title": "[Elenchus bibliographicus biblicus]",
+   "author": "P. Nober"
+  },
+  {
+   "book": "",
+   "page": 1436,
+   "section": "a",
+   "line": null,
+   "journal": "Journal of Biblical Literature",
+   "year": "2021",
+   "iid": "a21799f8-6267-3821-9072-531ac7f37fe9",
+   "doi": "10.15699/jbl.1403.2021.4",
+   "title": "Does Ancient Hebrew Poetry Have Meter?",
+   "author": "Michael Wade Martin"
+  },
+  {
+   "book": "",
+   "page": 1435,
+   "section": "b",
+   "line": null,
+   "journal": "Journal of Biblical Literature",
+   "year": "2021",
+   "iid": "a21799f8-6267-3821-9072-531ac7f37fe9",
+   "doi": "10.15699/jbl.1403.2021.4",
+   "title": "Does Ancient Hebrew Poetry Have Meter?",
+   "author": "Michael Wade Martin"
+  },
+  {
+   "book": "",
+   "page": 1429,
+   "section": "b",
+   "line": 24,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1959",
+   "iid": "a39cfb7b-e836-3cd2-943f-14385af604d1",
+   "doi": "10.2307/41243931",
+   "title": "TEXTKRITISCHES ZU ARISTOTELES' ΠΕΡΙ ΓΕΝΕΣΕΩΣ ΚΑΙ ΦΘΟΡΑΣ",
+   "author": "Helmut Kuhl"
+  },
+  {
+   "book": "",
+   "page": 1441,
+   "section": "b",
+   "line": null,
+   "journal": "Classical Antiquity",
+   "year": "1992",
+   "iid": "a4872d61-01e0-3200-81f5-9561e2eb04ef",
+   "doi": "10.2307/25010977",
+   "title": "Euripides' \"Iphigenia among the Taurians\": Aetiology, Ritual, and Myth",
+   "author": "Christian Wolff"
+  },
+  {
+   "book": "",
+   "page": 1432,
+   "section": "a",
+   "line": null,
+   "journal": "Quaderni Urbinati di Cultura Classica",
+   "year": "1969",
+   "iid": "a7e180d6-897f-3879-aa5d-b6fcd5f4357c",
+   "doi": "10.2307/20537602",
+   "title": "La versificazione anglosassone: Ricerche e proposte",
+   "author": "Anna Maria Luiselli Fadda"
+  },
+  {
+   "book": "",
+   "page": 1436,
+   "section": "a",
+   "line": null,
+   "journal": "Quaderni Urbinati di Cultura Classica",
+   "year": "1969",
+   "iid": "a7e180d6-897f-3879-aa5d-b6fcd5f4357c",
+   "doi": "10.2307/20537602",
+   "title": "La versificazione anglosassone: Ricerche e proposte",
+   "author": "Anna Maria Luiselli Fadda"
+  },
+  {
+   "book": "",
+   "page": 1441,
+   "section": "b",
+   "line": null,
+   "journal": "Quaderni Urbinati di Cultura Classica",
+   "year": "1969",
+   "iid": "a7e180d6-897f-3879-aa5d-b6fcd5f4357c",
+   "doi": "10.2307/20537602",
+   "title": "La versificazione anglosassone: Ricerche e proposte",
+   "author": "Anna Maria Luiselli Fadda"
+  },
+  {
+   "book": "",
+   "page": 1433,
+   "section": "b",
+   "line": null,
+   "journal": "Novum Testamentum",
+   "year": "1977",
+   "iid": "aa7949ca-1cc7-3f04-91b4-82cc4fe4bbf7",
+   "doi": "10.2307/1560802",
+   "title": "Lexical Evidence on Two Pauline Passages",
+   "author": "Rory B. Egan"
+  },
+  {
+   "book": "",
+   "page": 1434,
+   "section": "a",
+   "line": 17,
+   "journal": "Mnemosyne",
+   "year": "2018",
+   "iid": "acac0cc9-067f-359b-8da4-211e919f2bf8",
+   "doi": "10.2307/26572976",
+   "title": "Implicit, Explicit, and ‘Paraphrased’ Irony in Attic Oratory",
+   "author": "Alessandro Vatri"
+  },
+  {
+   "book": "",
+   "page": 1421,
+   "section": "b",
+   "line": 14,
+   "journal": "The American Journal of Philology",
+   "year": "1939",
+   "iid": "b028a09d-0b2f-32db-b3ea-78b3e6f15cfa",
+   "doi": "10.2307/291294",
+   "title": "Horace and the Theory of Imitation",
+   "author": "Craig La Drière"
+  },
+  {
+   "book": "",
+   "page": 1445,
+   "section": "b",
+   "line": 27,
+   "journal": "Greece & Rome",
+   "year": "2018",
+   "iid": "b0d55762-3b11-3a68-8429-c67a2b0ff4f8",
+   "doi": "10.2307/26782299",
+   "title": "Greek Literature",
+   "author": "MALCOLM HEATH"
+  },
+  {
+   "book": "",
+   "page": 1429,
+   "section": "b",
+   "line": 29,
+   "journal": "Greece & Rome",
+   "year": "2018",
+   "iid": "b0d55762-3b11-3a68-8429-c67a2b0ff4f8",
+   "doi": "10.2307/26782299",
+   "title": "Greek Literature",
+   "author": "MALCOLM HEATH"
+  },
+  {
+   "book": "",
+   "page": 1428,
+   "section": "b",
+   "line": null,
+   "journal": "Zeitschrift für katholische Theologie",
+   "year": "1914",
+   "iid": "b3501611-da56-36f6-aaf4-9d31fcaad24f",
+   "doi": "10.2307/24192257",
+   "title": "Book Review : \n        De Agnoetarum doctrina. Argumentum patristicum pro omniscientia Christi hominis relativa\n        \n          Joseph\n          Marić",
+   "author": "Heinrich Bruders, Joseph Marić"
+  },
+  {
+   "book": "",
+   "page": 1430,
+   "section": "a",
+   "line": 30,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "2015",
+   "iid": "b3806e2f-aa3f-3e93-8d68-c9e65fa7127c",
+   "doi": "10.2307/26315637",
+   "title": "ON \"ENDOXA\" IN ARISTOTLE'S \"TOPICS\"",
+   "author": "Tobias Reinhardt"
+  },
+  {
+   "book": "",
+   "page": 1430,
+   "section": "b",
+   "line": null,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "2015",
+   "iid": "b3806e2f-aa3f-3e93-8d68-c9e65fa7127c",
+   "doi": "10.2307/26315637",
+   "title": "ON \"ENDOXA\" IN ARISTOTLE'S \"TOPICS\"",
+   "author": "Tobias Reinhardt"
+  },
+  {
+   "book": "",
+   "page": 1430,
+   "section": "b",
+   "line": 15,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "2015",
+   "iid": "b3806e2f-aa3f-3e93-8d68-c9e65fa7127c",
+   "doi": "10.2307/26315637",
+   "title": "ON \"ENDOXA\" IN ARISTOTLE'S \"TOPICS\"",
+   "author": "Tobias Reinhardt"
+  },
+  {
+   "book": "",
+   "page": 1427,
+   "section": "a",
+   "line": 33,
+   "journal": "Harvard Studies in Classical Philology",
+   "year": "1989",
+   "iid": "b914143a-9b59-3c55-beb1-bbe5c4752827",
+   "doi": "10.2307/311356",
+   "title": "Traditional Elements in the Concept of Hamartia in Aristotle's Poetics",
+   "author": "Eckart Schütrumpf"
+  },
+  {
+   "book": "",
+   "page": 1427,
+   "section": "a",
+   "line": 27,
+   "journal": "Harvard Studies in Classical Philology",
+   "year": "1989",
+   "iid": "b914143a-9b59-3c55-beb1-bbe5c4752827",
+   "doi": "10.2307/311356",
+   "title": "Traditional Elements in the Concept of Hamartia in Aristotle's Poetics",
+   "author": "Eckart Schütrumpf"
+  },
+  {
+   "book": "",
+   "page": 1429,
+   "section": "a",
+   "line": 14,
+   "journal": "Harvard Studies in Classical Philology",
+   "year": "1989",
+   "iid": "b914143a-9b59-3c55-beb1-bbe5c4752827",
+   "doi": "10.2307/311356",
+   "title": "Traditional Elements in the Concept of Hamartia in Aristotle's Poetics",
+   "author": "Eckart Schütrumpf"
+  },
+  {
+   "book": "",
+   "page": 1444,
+   "section": "a",
+   "line": 8,
+   "journal": "Harvard Studies in Classical Philology",
+   "year": "1989",
+   "iid": "b914143a-9b59-3c55-beb1-bbe5c4752827",
+   "doi": "10.2307/311356",
+   "title": "Traditional Elements in the Concept of Hamartia in Aristotle's Poetics",
+   "author": "Eckart Schütrumpf"
+  },
+  {
+   "book": "",
+   "page": 1427,
+   "section": "a",
+   "line": 37,
+   "journal": "Harvard Studies in Classical Philology",
+   "year": "1989",
+   "iid": "b914143a-9b59-3c55-beb1-bbe5c4752827",
+   "doi": "10.2307/311356",
+   "title": "Traditional Elements in the Concept of Hamartia in Aristotle's Poetics",
+   "author": "Eckart Schütrumpf"
+  },
+  {
+   "book": "",
+   "page": 1427,
+   "section": "a",
+   "line": 30,
+   "journal": "Harvard Studies in Classical Philology",
+   "year": "1989",
+   "iid": "b914143a-9b59-3c55-beb1-bbe5c4752827",
+   "doi": "10.2307/311356",
+   "title": "Traditional Elements in the Concept of Hamartia in Aristotle's Poetics",
+   "author": "Eckart Schütrumpf"
+  },
+  {
+   "book": "",
+   "page": 1429,
+   "section": "a",
+   "line": 15,
+   "journal": "Harvard Studies in Classical Philology",
+   "year": "1989",
+   "iid": "b914143a-9b59-3c55-beb1-bbe5c4752827",
+   "doi": "10.2307/311356",
+   "title": "Traditional Elements in the Concept of Hamartia in Aristotle's Poetics",
+   "author": "Eckart Schütrumpf"
+  },
+  {
+   "book": "",
+   "page": 1425,
+   "section": "a",
+   "line": null,
+   "journal": "Revue de Théologie et de Philosophie",
+   "year": "1996",
+   "iid": "b9a1989e-89a8-3394-8b52-5a0f509cfba8",
+   "doi": "10.2307/44358233",
+   "title": "UNE GUERRE JUSTE EST-ELLE POSSIBLE?",
+   "author": "Catherine Loetscher"
+  },
+  {
+   "book": "",
+   "page": 1428,
+   "section": "b",
+   "line": null,
+   "journal": "Hermes",
+   "year": "1920",
+   "iid": "bae2457e-faf8-344b-8674-89cc44d1011d",
+   "doi": "10.2307/4473778",
+   "title": "Zu Philodems Schrift uber die Frömmigkeit. IV. Die Philosophenkritik",
+   "author": "R. Philippson"
+  },
+  {
+   "book": "",
+   "page": 1424,
+   "section": "a",
+   "line": 25,
+   "journal": "Greece & Rome",
+   "year": "2014",
+   "iid": "be3aa534-38a0-3456-897b-5e712d2a2f0f",
+   "doi": "10.2307/43297496",
+   "title": "LET'S WORK TOGETHER! ECONOMIC COOPERATION, SOCIAL CAPITAL, AND CHANCES OF SOCIAL MOBILITY IN CLASSICAL ATHENS",
+   "author": "MARLOES DEENE"
+  },
+  {
+   "book": "",
+   "page": 1427,
+   "section": "a",
+   "line": 29,
+   "journal": "Mnemosyne",
+   "year": "1999",
+   "iid": "be7292e3-c85a-37cc-b4f1-366188340329",
+   "doi": "10.2307/4433003",
+   "title": "Aristotle's Almost Unnoticed Contribution to the Doctrine of Stasis",
+   "author": "A. C. Braet"
+  },
+  {
+   "book": "",
+   "page": 1427,
+   "section": "b",
+   "line": 7,
+   "journal": "Mnemosyne",
+   "year": "1999",
+   "iid": "be7292e3-c85a-37cc-b4f1-366188340329",
+   "doi": "10.2307/4433003",
+   "title": "Aristotle's Almost Unnoticed Contribution to the Doctrine of Stasis",
+   "author": "A. C. Braet"
+  },
+  {
+   "book": "",
+   "page": 1442,
+   "section": "b",
+   "line": 34,
+   "journal": "Mnemosyne",
+   "year": "1999",
+   "iid": "be7292e3-c85a-37cc-b4f1-366188340329",
+   "doi": "10.2307/4433003",
+   "title": "Aristotle's Almost Unnoticed Contribution to the Doctrine of Stasis",
+   "author": "A. C. Braet"
+  },
+  {
+   "book": "",
+   "page": 1427,
+   "section": "a",
+   "line": 23,
+   "journal": "Mnemosyne",
+   "year": "1999",
+   "iid": "be7292e3-c85a-37cc-b4f1-366188340329",
+   "doi": "10.2307/4433003",
+   "title": "Aristotle's Almost Unnoticed Contribution to the Doctrine of Stasis",
+   "author": "A. C. Braet"
+  },
+  {
+   "book": "",
+   "page": 1421,
+   "section": "b",
+   "line": 24,
+   "journal": "Mnemosyne",
+   "year": "1999",
+   "iid": "be7292e3-c85a-37cc-b4f1-366188340329",
+   "doi": "10.2307/4433003",
+   "title": "Aristotle's Almost Unnoticed Contribution to the Doctrine of Stasis",
+   "author": "A. C. Braet"
+  },
+  {
+   "book": "",
+   "page": 1429,
+   "section": "a",
+   "line": 8,
+   "journal": "Mnemosyne",
+   "year": "1999",
+   "iid": "be7292e3-c85a-37cc-b4f1-366188340329",
+   "doi": "10.2307/4433003",
+   "title": "Aristotle's Almost Unnoticed Contribution to the Doctrine of Stasis",
+   "author": "A. C. Braet"
+  },
+  {
+   "book": "",
+   "page": 1442,
+   "section": "b",
+   "line": null,
+   "journal": "Mnemosyne",
+   "year": "1999",
+   "iid": "be7292e3-c85a-37cc-b4f1-366188340329",
+   "doi": "10.2307/4433003",
+   "title": "Aristotle's Almost Unnoticed Contribution to the Doctrine of Stasis",
+   "author": "A. C. Braet"
+  },
+  {
+   "book": "",
+   "page": 1441,
+   "section": "a",
+   "line": null,
+   "journal": "Zeitschrift für katholische Theologie",
+   "year": "1933",
+   "iid": "c2fd7c80-ff26-3c11-8de9-285f1b6b3ff1",
+   "doi": "10.2307/24182239",
+   "title": "Irrige Zuweisungen asketischer Texte",
+   "author": "Erik Peterson"
+  },
+  {
+   "book": "",
+   "page": 1442,
+   "section": "a",
+   "line": null,
+   "journal": "Transactions and Proceedings of the American Philological Association",
+   "year": "1939",
+   "iid": "c2efb181-b659-3be5-a4b3-85933ccdb87b",
+   "doi": "10.2307/283106",
+   "title": "Ecclesia Mater",
+   "author": "Joseph C. Plumpe"
+  },
+  {
+   "book": "",
+   "page": 1440,
+   "section": "a",
+   "line": null,
+   "journal": "Recherches de théologie ancienne et médiévale",
+   "year": "1959",
+   "iid": "c5536e9d-63ff-3b07-bdf5-d35e769d53ac",
+   "doi": "10.2307/26189520",
+   "title": "Autour des « Enarrationes in Evangelium S. Matthaei » attribuées à Geoffroi Babion",
+   "author": "Damien Van den Eynde"
+  },
+  {
+   "book": "",
+   "page": 1423,
+   "section": "a",
+   "line": 30,
+   "journal": "Mnemosyne",
+   "year": "2020",
+   "iid": "c822f1b3-c15b-3e1d-b2e9-f405e209ff04",
+   "doi": "10.2307/26989183",
+   "title": "Grain Crisis at Prusa",
+   "author": "Thierry V. Oppeneer"
+  },
+  {
+   "book": "",
+   "page": 1434,
+   "section": "b",
+   "line": 33,
+   "journal": "The American Journal of Philology",
+   "year": "1997",
+   "iid": "c95eceba-a11f-3cc5-998e-9e3702a79131",
+   "doi": "10.2307/1562051",
+   "title": "Aristotle on Metaphor",
+   "author": "John T. Kirby"
+  },
+  {
+   "book": "",
+   "page": 1440,
+   "section": "b",
+   "line": 21,
+   "journal": "The American Journal of Philology",
+   "year": "1997",
+   "iid": "c95eceba-a11f-3cc5-998e-9e3702a79131",
+   "doi": "10.2307/1562051",
+   "title": "Aristotle on Metaphor",
+   "author": "John T. Kirby"
+  },
+  {
+   "book": "",
+   "page": 1422,
+   "section": "b",
+   "line": null,
+   "journal": "Hermes",
+   "year": "1881",
+   "iid": "d096f202-9d92-3cf7-81d7-6b6ab84970e9",
+   "doi": "10.2307/4471783",
+   "title": "Das Römische Heer in Britannien",
+   "author": "E. Hübner"
+  },
+  {
+   "book": "",
+   "page": 1424,
+   "section": "a",
+   "line": null,
+   "journal": "Novum Testamentum",
+   "year": "2000",
+   "iid": "d360515b-c087-378c-8127-83a13308486e",
+   "doi": "10.2307/1561327",
+   "title": "The Originality of Text-Critical Symbols in Codex Vaticanus",
+   "author": "Paul Canart, Philip B. Payne"
+  },
+  {
+   "book": "",
+   "page": 1428,
+   "section": "a",
+   "line": 27,
+   "journal": "The American Journal of Philology",
+   "year": "2000",
+   "iid": "d822474d-4668-37d1-bb1c-426dc22fd620",
+   "doi": "10.2307/1561646",
+   "title": "Plausibility in the Greek Orators",
+   "author": "Thomas A. Schmitz"
+  },
+  {
+   "book": "",
+   "page": 1423,
+   "section": "a",
+   "line": null,
+   "journal": "Novum Testamentum",
+   "year": "1993",
+   "iid": "da844392-5674-3c41-b79b-052c187d4650",
+   "doi": "10.2307/1561425",
+   "title": "The Rhetoric of James 3:1-12 and a Classical Pattern of Argumentation",
+   "author": "Duane F. Watson"
+  },
+  {
+   "book": "",
+   "page": 1431,
+   "section": "b",
+   "line": null,
+   "journal": "Harvard Studies in Classical Philology",
+   "year": "1933",
+   "iid": "ded17a51-0aa6-3767-94e6-93c1f3eb46b8",
+   "doi": "10.2307/310682",
+   "title": "The Influence of Athenian Institutions upon the Laws of Plato",
+   "author": "Alston Hurd Chase"
+  },
+  {
+   "book": "",
+   "page": 1436,
+   "section": "a",
+   "line": 30,
+   "journal": "Journal of Biblical Literature",
+   "year": "1988",
+   "iid": "e181d86a-fc3b-377b-b2c5-4373c480dae9",
+   "doi": "10.2307/3267699",
+   "title": "The Rhetorical Composition of Hebrews 11",
+   "author": "Michael R. Cosby"
+  },
+  {
+   "book": "",
+   "page": 1436,
+   "section": "b",
+   "line": null,
+   "journal": "Journal of Biblical Literature",
+   "year": "1988",
+   "iid": "e181d86a-fc3b-377b-b2c5-4373c480dae9",
+   "doi": "10.2307/3267699",
+   "title": "The Rhetorical Composition of Hebrews 11",
+   "author": "Michael R. Cosby"
+  },
+  {
+   "book": "",
+   "page": 1436,
+   "section": "b",
+   "line": 15,
+   "journal": "Journal of Biblical Literature",
+   "year": "1988",
+   "iid": "e181d86a-fc3b-377b-b2c5-4373c480dae9",
+   "doi": "10.2307/3267699",
+   "title": "The Rhetorical Composition of Hebrews 11",
+   "author": "Michael R. Cosby"
+  },
+  {
+   "book": "",
+   "page": 1436,
+   "section": "b",
+   "line": 30,
+   "journal": "Journal of Biblical Literature",
+   "year": "1988",
+   "iid": "e181d86a-fc3b-377b-b2c5-4373c480dae9",
+   "doi": "10.2307/3267699",
+   "title": "The Rhetorical Composition of Hebrews 11",
+   "author": "Michael R. Cosby"
+  },
+  {
+   "book": "",
+   "page": 1437,
+   "section": "a",
+   "line": null,
+   "journal": "Journal of Biblical Literature",
+   "year": "1988",
+   "iid": "e181d86a-fc3b-377b-b2c5-4373c480dae9",
+   "doi": "10.2307/3267699",
+   "title": "The Rhetorical Composition of Hebrews 11",
+   "author": "Michael R. Cosby"
+  },
+  {
+   "book": "",
+   "page": 1437,
+   "section": "a",
+   "line": 15,
+   "journal": "Journal of Biblical Literature",
+   "year": "1988",
+   "iid": "e181d86a-fc3b-377b-b2c5-4373c480dae9",
+   "doi": "10.2307/3267699",
+   "title": "The Rhetorical Composition of Hebrews 11",
+   "author": "Michael R. Cosby"
+  },
+  {
+   "book": "",
+   "page": 1437,
+   "section": "a",
+   "line": 30,
+   "journal": "Journal of Biblical Literature",
+   "year": "1988",
+   "iid": "e181d86a-fc3b-377b-b2c5-4373c480dae9",
+   "doi": "10.2307/3267699",
+   "title": "The Rhetorical Composition of Hebrews 11",
+   "author": "Michael R. Cosby"
+  },
+  {
+   "book": "",
+   "page": 1437,
+   "section": "b",
+   "line": null,
+   "journal": "Journal of Biblical Literature",
+   "year": "1988",
+   "iid": "e181d86a-fc3b-377b-b2c5-4373c480dae9",
+   "doi": "10.2307/3267699",
+   "title": "The Rhetorical Composition of Hebrews 11",
+   "author": "Michael R. Cosby"
+  },
+  {
+   "book": "",
+   "page": 1437,
+   "section": "b",
+   "line": 15,
+   "journal": "Journal of Biblical Literature",
+   "year": "1988",
+   "iid": "e181d86a-fc3b-377b-b2c5-4373c480dae9",
+   "doi": "10.2307/3267699",
+   "title": "The Rhetorical Composition of Hebrews 11",
+   "author": "Michael R. Cosby"
+  },
+  {
+   "book": "",
+   "page": 1437,
+   "section": "b",
+   "line": 30,
+   "journal": "Journal of Biblical Literature",
+   "year": "1988",
+   "iid": "e181d86a-fc3b-377b-b2c5-4373c480dae9",
+   "doi": "10.2307/3267699",
+   "title": "The Rhetorical Composition of Hebrews 11",
+   "author": "Michael R. Cosby"
+  },
+  {
+   "book": "",
+   "page": 1438,
+   "section": "a",
+   "line": null,
+   "journal": "Journal of Biblical Literature",
+   "year": "1988",
+   "iid": "e181d86a-fc3b-377b-b2c5-4373c480dae9",
+   "doi": "10.2307/3267699",
+   "title": "The Rhetorical Composition of Hebrews 11",
+   "author": "Michael R. Cosby"
+  },
+  {
+   "book": "",
+   "page": 1438,
+   "section": "a",
+   "line": 15,
+   "journal": "Journal of Biblical Literature",
+   "year": "1988",
+   "iid": "e181d86a-fc3b-377b-b2c5-4373c480dae9",
+   "doi": "10.2307/3267699",
+   "title": "The Rhetorical Composition of Hebrews 11",
+   "author": "Michael R. Cosby"
+  },
+  {
+   "book": "",
+   "page": 1438,
+   "section": "a",
+   "line": 30,
+   "journal": "Journal of Biblical Literature",
+   "year": "1988",
+   "iid": "e181d86a-fc3b-377b-b2c5-4373c480dae9",
+   "doi": "10.2307/3267699",
+   "title": "The Rhetorical Composition of Hebrews 11",
+   "author": "Michael R. Cosby"
+  },
+  {
+   "book": "",
+   "page": 1438,
+   "section": "b",
+   "line": null,
+   "journal": "Journal of Biblical Literature",
+   "year": "1988",
+   "iid": "e181d86a-fc3b-377b-b2c5-4373c480dae9",
+   "doi": "10.2307/3267699",
+   "title": "The Rhetorical Composition of Hebrews 11",
+   "author": "Michael R. Cosby"
+  },
+  {
+   "book": "",
+   "page": 1438,
+   "section": "b",
+   "line": 15,
+   "journal": "Journal of Biblical Literature",
+   "year": "1988",
+   "iid": "e181d86a-fc3b-377b-b2c5-4373c480dae9",
+   "doi": "10.2307/3267699",
+   "title": "The Rhetorical Composition of Hebrews 11",
+   "author": "Michael R. Cosby"
+  },
+  {
+   "book": "",
+   "page": 1438,
+   "section": "b",
+   "line": 30,
+   "journal": "Journal of Biblical Literature",
+   "year": "1988",
+   "iid": "e181d86a-fc3b-377b-b2c5-4373c480dae9",
+   "doi": "10.2307/3267699",
+   "title": "The Rhetorical Composition of Hebrews 11",
+   "author": "Michael R. Cosby"
+  },
+  {
+   "book": "",
+   "page": 1439,
+   "section": "a",
+   "line": null,
+   "journal": "Journal of Biblical Literature",
+   "year": "1988",
+   "iid": "e181d86a-fc3b-377b-b2c5-4373c480dae9",
+   "doi": "10.2307/3267699",
+   "title": "The Rhetorical Composition of Hebrews 11",
+   "author": "Michael R. Cosby"
+  },
+  {
+   "book": "",
+   "page": 1442,
+   "section": "b",
+   "line": 30,
+   "journal": "Journal of Biblical Literature",
+   "year": "1988",
+   "iid": "e181d86a-fc3b-377b-b2c5-4373c480dae9",
+   "doi": "10.2307/3267699",
+   "title": "The Rhetorical Composition of Hebrews 11",
+   "author": "Michael R. Cosby"
+  },
+  {
+   "book": "",
+   "page": 1443,
+   "section": "a",
+   "line": null,
+   "journal": "Journal of Biblical Literature",
+   "year": "1988",
+   "iid": "e181d86a-fc3b-377b-b2c5-4373c480dae9",
+   "doi": "10.2307/3267699",
+   "title": "The Rhetorical Composition of Hebrews 11",
+   "author": "Michael R. Cosby"
+  },
+  {
+   "book": "",
+   "page": 1443,
+   "section": "a",
+   "line": 15,
+   "journal": "Journal of Biblical Literature",
+   "year": "1988",
+   "iid": "e181d86a-fc3b-377b-b2c5-4373c480dae9",
+   "doi": "10.2307/3267699",
+   "title": "The Rhetorical Composition of Hebrews 11",
+   "author": "Michael R. Cosby"
+  },
+  {
+   "book": "",
+   "page": 1443,
+   "section": "a",
+   "line": 30,
+   "journal": "Journal of Biblical Literature",
+   "year": "1988",
+   "iid": "e181d86a-fc3b-377b-b2c5-4373c480dae9",
+   "doi": "10.2307/3267699",
+   "title": "The Rhetorical Composition of Hebrews 11",
+   "author": "Michael R. Cosby"
+  },
+  {
+   "book": "",
+   "page": 1443,
+   "section": "b",
+   "line": null,
+   "journal": "Journal of Biblical Literature",
+   "year": "1988",
+   "iid": "e181d86a-fc3b-377b-b2c5-4373c480dae9",
+   "doi": "10.2307/3267699",
+   "title": "The Rhetorical Composition of Hebrews 11",
+   "author": "Michael R. Cosby"
+  },
+  {
+   "book": "",
+   "page": 1443,
+   "section": "b",
+   "line": 15,
+   "journal": "Journal of Biblical Literature",
+   "year": "1988",
+   "iid": "e181d86a-fc3b-377b-b2c5-4373c480dae9",
+   "doi": "10.2307/3267699",
+   "title": "The Rhetorical Composition of Hebrews 11",
+   "author": "Michael R. Cosby"
+  },
+  {
+   "book": "",
+   "page": 1443,
+   "section": "b",
+   "line": 30,
+   "journal": "Journal of Biblical Literature",
+   "year": "1988",
+   "iid": "e181d86a-fc3b-377b-b2c5-4373c480dae9",
+   "doi": "10.2307/3267699",
+   "title": "The Rhetorical Composition of Hebrews 11",
+   "author": "Michael R. Cosby"
+  },
+  {
+   "book": "",
+   "page": 1444,
+   "section": "a",
+   "line": null,
+   "journal": "Journal of Biblical Literature",
+   "year": "1988",
+   "iid": "e181d86a-fc3b-377b-b2c5-4373c480dae9",
+   "doi": "10.2307/3267699",
+   "title": "The Rhetorical Composition of Hebrews 11",
+   "author": "Michael R. Cosby"
+  },
+  {
+   "book": "",
+   "page": 1444,
+   "section": "a",
+   "line": 15,
+   "journal": "Journal of Biblical Literature",
+   "year": "1988",
+   "iid": "e181d86a-fc3b-377b-b2c5-4373c480dae9",
+   "doi": "10.2307/3267699",
+   "title": "The Rhetorical Composition of Hebrews 11",
+   "author": "Michael R. Cosby"
+  },
+  {
+   "book": "",
+   "page": 1444,
+   "section": "a",
+   "line": 30,
+   "journal": "Journal of Biblical Literature",
+   "year": "1988",
+   "iid": "e181d86a-fc3b-377b-b2c5-4373c480dae9",
+   "doi": "10.2307/3267699",
+   "title": "The Rhetorical Composition of Hebrews 11",
+   "author": "Michael R. Cosby"
+  },
+  {
+   "book": "",
+   "page": 1444,
+   "section": "b",
+   "line": null,
+   "journal": "Journal of Biblical Literature",
+   "year": "1988",
+   "iid": "e181d86a-fc3b-377b-b2c5-4373c480dae9",
+   "doi": "10.2307/3267699",
+   "title": "The Rhetorical Composition of Hebrews 11",
+   "author": "Michael R. Cosby"
+  },
+  {
+   "book": "",
+   "page": 1444,
+   "section": "b",
+   "line": 15,
+   "journal": "Journal of Biblical Literature",
+   "year": "1988",
+   "iid": "e181d86a-fc3b-377b-b2c5-4373c480dae9",
+   "doi": "10.2307/3267699",
+   "title": "The Rhetorical Composition of Hebrews 11",
+   "author": "Michael R. Cosby"
+  },
+  {
+   "book": "",
+   "page": 1444,
+   "section": "b",
+   "line": 30,
+   "journal": "Journal of Biblical Literature",
+   "year": "1988",
+   "iid": "e181d86a-fc3b-377b-b2c5-4373c480dae9",
+   "doi": "10.2307/3267699",
+   "title": "The Rhetorical Composition of Hebrews 11",
+   "author": "Michael R. Cosby"
+  },
+  {
+   "book": "",
+   "page": 1445,
+   "section": "a",
+   "line": null,
+   "journal": "Journal of Biblical Literature",
+   "year": "1988",
+   "iid": "e181d86a-fc3b-377b-b2c5-4373c480dae9",
+   "doi": "10.2307/3267699",
+   "title": "The Rhetorical Composition of Hebrews 11",
+   "author": "Michael R. Cosby"
+  },
+  {
+   "book": "",
+   "page": 1445,
+   "section": "a",
+   "line": 15,
+   "journal": "Journal of Biblical Literature",
+   "year": "1988",
+   "iid": "e181d86a-fc3b-377b-b2c5-4373c480dae9",
+   "doi": "10.2307/3267699",
+   "title": "The Rhetorical Composition of Hebrews 11",
+   "author": "Michael R. Cosby"
+  },
+  {
+   "book": "",
+   "page": 1430,
+   "section": "a",
+   "line": null,
+   "journal": "Biblica",
+   "year": "1966",
+   "iid": "e1cad0b3-9f1f-371a-a9be-a8d31a7c0936",
+   "doi": "10.2307/43595232",
+   "title": "[Elenchus bibliographicus biblicus]",
+   "author": "P. Nober"
+  },
+  {
+   "book": "",
+   "page": 1430,
+   "section": "b",
+   "line": null,
+   "journal": "Biblica",
+   "year": "1966",
+   "iid": "e1cad0b3-9f1f-371a-a9be-a8d31a7c0936",
+   "doi": "10.2307/43595232",
+   "title": "[Elenchus bibliographicus biblicus]",
+   "author": "P. Nober"
+  },
+  {
+   "book": "",
+   "page": 1441,
+   "section": "a",
+   "line": null,
+   "journal": "Biblica",
+   "year": "1966",
+   "iid": "e1cad0b3-9f1f-371a-a9be-a8d31a7c0936",
+   "doi": "10.2307/43595232",
+   "title": "[Elenchus bibliographicus biblicus]",
+   "author": "P. Nober"
+  },
+  {
+   "book": "",
+   "page": 1424,
+   "section": "a",
+   "line": null,
+   "journal": "Harvard Studies in Classical Philology",
+   "year": "1940",
+   "iid": "e248d76b-e6de-30e8-9168-4920208ee680",
+   "doi": "10.2307/45134349",
+   "title": "A GOLDEN NIKE FROM THE ATHENIAN AGORA",
+   "author": "Homer A. Thompson"
+  },
+  {
+   "book": "",
+   "page": 1442,
+   "section": "a",
+   "line": null,
+   "journal": "Recherches de théologie ancienne et médiévale",
+   "year": "1964",
+   "iid": "e33c0638-733f-3b4d-a024-3dc85d2800d0",
+   "doi": "10.2307/26187739",
+   "title": "Sénèque au moyen âge: Autour d'un livre",
+   "author": "M. Spanneut"
+  },
+  {
+   "book": "",
+   "page": 1421,
+   "section": "b",
+   "line": null,
+   "journal": "Harvard Studies in Classical Philology",
+   "year": "1938",
+   "iid": "e47ba7b8-41f2-36ac-b4ad-71a053b42899",
+   "doi": "10.2307/310699",
+   "title": "Euripides and Thucydides",
+   "author": "John H. Finley, <suffix>Jr.</suffix>"
+  },
+  {
+   "book": "",
+   "page": 1425,
+   "section": "b",
+   "line": null,
+   "journal": "Harvard Studies in Classical Philology",
+   "year": "1938",
+   "iid": "e47ba7b8-41f2-36ac-b4ad-71a053b42899",
+   "doi": "10.2307/310699",
+   "title": "Euripides and Thucydides",
+   "author": "John H. Finley, <suffix>Jr.</suffix>"
+  },
+  {
+   "book": "",
+   "page": 1424,
+   "section": "a",
+   "line": null,
+   "journal": "Harvard Studies in Classical Philology",
+   "year": "1938",
+   "iid": "e47ba7b8-41f2-36ac-b4ad-71a053b42899",
+   "doi": "10.2307/310699",
+   "title": "Euripides and Thucydides",
+   "author": "John H. Finley, <suffix>Jr.</suffix>"
+  },
+  {
+   "book": "",
+   "page": 1424,
+   "section": "b",
+   "line": null,
+   "journal": "Harvard Studies in Classical Philology",
+   "year": "1938",
+   "iid": "e47ba7b8-41f2-36ac-b4ad-71a053b42899",
+   "doi": "10.2307/310699",
+   "title": "Euripides and Thucydides",
+   "author": "John H. Finley, <suffix>Jr.</suffix>"
+  },
+  {
+   "book": "",
+   "page": 1444,
+   "section": "a",
+   "line": null,
+   "journal": "Recherches de théologie ancienne et médiévale",
+   "year": "1995",
+   "iid": "e7e218f7-b04d-3fba-a155-9fb9fe954c8d",
+   "doi": "10.2307/26189088",
+   "title": "LA CIENCIA HUMANA DE JESUCRISTO SEGUN ODÓN RIGALDO",
+   "author": "F. Martínez Fresneda"
+  },
+  {
+   "book": "",
+   "page": 1444,
+   "section": "a",
+   "line": 15,
+   "journal": "Recherches de théologie ancienne et médiévale",
+   "year": "1995",
+   "iid": "e7e218f7-b04d-3fba-a155-9fb9fe954c8d",
+   "doi": "10.2307/26189088",
+   "title": "LA CIENCIA HUMANA DE JESUCRISTO SEGUN ODÓN RIGALDO",
+   "author": "F. Martínez Fresneda"
+  },
+  {
+   "book": "",
+   "page": 1444,
+   "section": "a",
+   "line": 30,
+   "journal": "Recherches de théologie ancienne et médiévale",
+   "year": "1995",
+   "iid": "e7e218f7-b04d-3fba-a155-9fb9fe954c8d",
+   "doi": "10.2307/26189088",
+   "title": "LA CIENCIA HUMANA DE JESUCRISTO SEGUN ODÓN RIGALDO",
+   "author": "F. Martínez Fresneda"
+  },
+  {
+   "book": "",
+   "page": 1444,
+   "section": "b",
+   "line": null,
+   "journal": "Recherches de théologie ancienne et médiévale",
+   "year": "1995",
+   "iid": "e7e218f7-b04d-3fba-a155-9fb9fe954c8d",
+   "doi": "10.2307/26189088",
+   "title": "LA CIENCIA HUMANA DE JESUCRISTO SEGUN ODÓN RIGALDO",
+   "author": "F. Martínez Fresneda"
+  },
+  {
+   "book": "",
+   "page": 1441,
+   "section": "a",
+   "line": null,
+   "journal": "Journal of Biblical Literature",
+   "year": "1986",
+   "iid": "e9073949-8407-3a4a-aaf3-80545b0aff51",
+   "doi": "10.2307/3260514",
+   "title": "\"The Law as Our Pedagogue\": A Study in Galatians 3:19-25",
+   "author": "David J. Lull"
+  },
+  {
+   "book": "",
+   "page": 1421,
+   "section": "b",
+   "line": null,
+   "journal": "Journal of Biblical Literature",
+   "year": "1905",
+   "iid": "ea300695-7d67-32be-abe6-f38f58b1488c",
+   "doi": "10.2307/3260221",
+   "title": "Traces of the Diatessaron of Tatian in Harclean Syriac Lectionaries",
+   "author": "Hans H. Spoer, George A. Barton"
+  },
+  {
+   "book": "",
+   "page": 1430,
+   "section": "a",
+   "line": null,
+   "journal": "Journal of Biblical Literature",
+   "year": "1905",
+   "iid": "ea300695-7d67-32be-abe6-f38f58b1488c",
+   "doi": "10.2307/3260221",
+   "title": "Traces of the Diatessaron of Tatian in Harclean Syriac Lectionaries",
+   "author": "Hans H. Spoer, George A. Barton"
+  },
+  {
+   "book": "",
+   "page": 1422,
+   "section": "a",
+   "line": null,
+   "journal": "Journal of Biblical Literature",
+   "year": "1905",
+   "iid": "ea300695-7d67-32be-abe6-f38f58b1488c",
+   "doi": "10.2307/3260221",
+   "title": "Traces of the Diatessaron of Tatian in Harclean Syriac Lectionaries",
+   "author": "Hans H. Spoer, George A. Barton"
+  },
+  {
+   "book": "",
+   "page": 1423,
+   "section": "b",
+   "line": null,
+   "journal": "Journal of Biblical Literature",
+   "year": "1905",
+   "iid": "ea300695-7d67-32be-abe6-f38f58b1488c",
+   "doi": "10.2307/3260221",
+   "title": "Traces of the Diatessaron of Tatian in Harclean Syriac Lectionaries",
+   "author": "Hans H. Spoer, George A. Barton"
+  },
+  {
+   "book": "",
+   "page": 1430,
+   "section": "b",
+   "line": null,
+   "journal": "Journal of Biblical Literature",
+   "year": "1905",
+   "iid": "ea300695-7d67-32be-abe6-f38f58b1488c",
+   "doi": "10.2307/3260221",
+   "title": "Traces of the Diatessaron of Tatian in Harclean Syriac Lectionaries",
+   "author": "Hans H. Spoer, George A. Barton"
+  },
+  {
+   "book": "",
+   "page": 1431,
+   "section": "b",
+   "line": null,
+   "journal": "Journal of Biblical Literature",
+   "year": "1905",
+   "iid": "ea300695-7d67-32be-abe6-f38f58b1488c",
+   "doi": "10.2307/3260221",
+   "title": "Traces of the Diatessaron of Tatian in Harclean Syriac Lectionaries",
+   "author": "Hans H. Spoer, George A. Barton"
+  },
+  {
+   "book": "",
+   "page": 1435,
+   "section": "b",
+   "line": null,
+   "journal": "Journal of Biblical Literature",
+   "year": "1905",
+   "iid": "ea300695-7d67-32be-abe6-f38f58b1488c",
+   "doi": "10.2307/3260221",
+   "title": "Traces of the Diatessaron of Tatian in Harclean Syriac Lectionaries",
+   "author": "Hans H. Spoer, George A. Barton"
+  },
+  {
+   "book": "",
+   "page": 1436,
+   "section": "a",
+   "line": null,
+   "journal": "Journal of Biblical Literature",
+   "year": "1905",
+   "iid": "ea300695-7d67-32be-abe6-f38f58b1488c",
+   "doi": "10.2307/3260221",
+   "title": "Traces of the Diatessaron of Tatian in Harclean Syriac Lectionaries",
+   "author": "Hans H. Spoer, George A. Barton"
+  },
+  {
+   "book": "",
+   "page": 1437,
+   "section": "b",
+   "line": null,
+   "journal": "Journal of Biblical Literature",
+   "year": "1905",
+   "iid": "ea300695-7d67-32be-abe6-f38f58b1488c",
+   "doi": "10.2307/3260221",
+   "title": "Traces of the Diatessaron of Tatian in Harclean Syriac Lectionaries",
+   "author": "Hans H. Spoer, George A. Barton"
+  },
+  {
+   "book": "",
+   "page": 1438,
+   "section": "b",
+   "line": null,
+   "journal": "Journal of Biblical Literature",
+   "year": "1905",
+   "iid": "ea300695-7d67-32be-abe6-f38f58b1488c",
+   "doi": "10.2307/3260221",
+   "title": "Traces of the Diatessaron of Tatian in Harclean Syriac Lectionaries",
+   "author": "Hans H. Spoer, George A. Barton"
+  },
+  {
+   "book": "",
+   "page": 1445,
+   "section": "a",
+   "line": null,
+   "journal": "Novum Testamentum",
+   "year": "1988",
+   "iid": "ec45f481-5b0f-3c86-8f64-46b09ad4e9f6",
+   "doi": "10.2307/1560841",
+   "title": "A Rhetorical Analysis of Philippians and Its Implications for the Unity Question",
+   "author": "Duane F. Watson"
+  },
+  {
+   "book": "",
+   "page": 1433,
+   "section": "b",
+   "line": null,
+   "journal": "Biblica",
+   "year": "1997",
+   "iid": "edfad4df-dcdc-3025-852d-b68e243d51cb",
+   "doi": "10.2307/42613996",
+   "title": "The Function of First Corinthians 10,23-30: A Rhetorical Anticipation",
+   "author": "Joop F.M. Smit"
+  },
+  {
+   "book": "",
+   "page": 1434,
+   "section": "a",
+   "line": null,
+   "journal": "Biblica",
+   "year": "1997",
+   "iid": "edfad4df-dcdc-3025-852d-b68e243d51cb",
+   "doi": "10.2307/42613996",
+   "title": "The Function of First Corinthians 10,23-30: A Rhetorical Anticipation",
+   "author": "Joop F.M. Smit"
+  },
+  {
+   "book": "",
+   "page": 1432,
+   "section": "b",
+   "line": null,
+   "journal": "Biblica",
+   "year": "1997",
+   "iid": "edfad4df-dcdc-3025-852d-b68e243d51cb",
+   "doi": "10.2307/42613996",
+   "title": "The Function of First Corinthians 10,23-30: A Rhetorical Anticipation",
+   "author": "Joop F.M. Smit"
+  },
+  {
+   "book": "",
+   "page": 1436,
+   "section": "a",
+   "line": null,
+   "journal": "Biblica",
+   "year": "1997",
+   "iid": "edfad4df-dcdc-3025-852d-b68e243d51cb",
+   "doi": "10.2307/42613996",
+   "title": "The Function of First Corinthians 10,23-30: A Rhetorical Anticipation",
+   "author": "Joop F.M. Smit"
+  },
+  {
+   "book": "",
+   "page": 1440,
+   "section": "b",
+   "line": null,
+   "journal": "Biblica",
+   "year": "1997",
+   "iid": "edfad4df-dcdc-3025-852d-b68e243d51cb",
+   "doi": "10.2307/42613996",
+   "title": "The Function of First Corinthians 10,23-30: A Rhetorical Anticipation",
+   "author": "Joop F.M. Smit"
+  },
+  {
+   "book": "",
+   "page": 1439,
+   "section": "b",
+   "line": null,
+   "journal": "Biblica",
+   "year": "1997",
+   "iid": "edfad4df-dcdc-3025-852d-b68e243d51cb",
+   "doi": "10.2307/42613996",
+   "title": "The Function of First Corinthians 10,23-30: A Rhetorical Anticipation",
+   "author": "Joop F.M. Smit"
+  },
+  {
+   "book": "",
+   "page": 1424,
+   "section": "a",
+   "line": null,
+   "journal": "Vigiliae Christianae",
+   "year": "1980",
+   "iid": "ee7fb472-1645-311f-a206-19e743ddab6c",
+   "doi": "10.2307/1582831",
+   "title": "Quelques observations sur le terme μονολόγιστος",
+   "author": "G. J. M. Bartelink"
+  },
+  {
+   "book": "",
+   "page": 1421,
+   "section": "a",
+   "line": null,
+   "journal": "Vigiliae Christianae",
+   "year": "1980",
+   "iid": "ee7fb472-1645-311f-a206-19e743ddab6c",
+   "doi": "10.2307/1582831",
+   "title": "Quelques observations sur le terme μονολόγιστος",
+   "author": "G. J. M. Bartelink"
+  },
+  {
+   "book": "",
+   "page": 1440,
+   "section": "a",
+   "line": null,
+   "journal": "Journal of Biblical Literature",
+   "year": "1989",
+   "iid": "ef5067cd-d4c0-3347-979a-1bb6816354e2",
+   "doi": "10.2307/3267299",
+   "title": "1 Corinthians 10:23-11:1 in the Light of Greco-Roman Rhetoric: The Role of Rhetorical Questions",
+   "author": "Duane F. Watson"
+  },
+  {
+   "book": "",
+   "page": 1434,
+   "section": "b",
+   "line": null,
+   "journal": "Hermes",
+   "year": "1969",
+   "iid": "ee86709e-f11b-3f92-bcbf-5e171c0b6f9d",
+   "doi": "10.2307/4475571",
+   "title": "Zur Rhetorischen Theorie des Archaismus",
+   "author": "W.-D. Lebek"
+  },
+  {
+   "book": "",
+   "page": 1430,
+   "section": "b",
+   "line": null,
+   "journal": "The Catholic Biblical Quarterly",
+   "year": "1995",
+   "iid": "ef6d22c3-74c0-351c-8cb1-68c46d22d85c",
+   "doi": "10.2307/43722420",
+   "title": "More Than an Opinion: Paul's Rhetorical Maxim in First Corinthians 7:25-26",
+   "author": "ROLLIN A. RAMSARAN"
+  },
+  {
+   "book": "",
+   "page": 1431,
+   "section": "b",
+   "line": null,
+   "journal": "The Catholic Biblical Quarterly",
+   "year": "1995",
+   "iid": "ef6d22c3-74c0-351c-8cb1-68c46d22d85c",
+   "doi": "10.2307/43722420",
+   "title": "More Than an Opinion: Paul's Rhetorical Maxim in First Corinthians 7:25-26",
+   "author": "ROLLIN A. RAMSARAN"
+  },
+  {
+   "book": "",
+   "page": 1436,
+   "section": "a",
+   "line": null,
+   "journal": "Hermes",
+   "year": "1978",
+   "iid": "f25c0b60-b47f-3f8a-b9f2-55bcaca41630",
+   "doi": "10.2307/4476083",
+   "title": "Realitätsnähe und Formale Systematik in der Lehre vom \"Exordium\" der Rede",
+   "author": "Johannes Christes"
+  },
+  {
+   "book": "",
+   "page": 1427,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Journal",
+   "year": "1939",
+   "iid": "fa514cc2-c875-30ad-ac12-683d6bfa2a5f",
+   "doi": "10.2307/3291134",
+   "title": "The Athenian Juror and Emotional Pleas",
+   "author": "James F. Cronin"
+  },
+  {
+   "book": "",
+   "page": 1422,
+   "section": "a",
+   "line": null,
+   "journal": "Recherches de théologie et philosophie médiévales",
+   "year": "2001",
+   "iid": "fae16512-56c9-36b1-892f-4ae0b3d93f26",
+   "doi": "10.2307/26170062",
+   "title": "PROPERTIES, CAUSALITY AND EPISTEMOLOGICAL OPTIMISM IN THOMAS AQUINAS",
+   "author": "P. L. Reynolds"
+  },
+  {
+   "book": "",
+   "page": 1422,
+   "section": "a",
+   "line": 15,
+   "journal": "Recherches de théologie et philosophie médiévales",
+   "year": "2001",
+   "iid": "fae16512-56c9-36b1-892f-4ae0b3d93f26",
+   "doi": "10.2307/26170062",
+   "title": "PROPERTIES, CAUSALITY AND EPISTEMOLOGICAL OPTIMISM IN THOMAS AQUINAS",
+   "author": "P. L. Reynolds"
+  },
+  {
+   "book": "",
+   "page": 1422,
+   "section": "a",
+   "line": 30,
+   "journal": "Recherches de théologie et philosophie médiévales",
+   "year": "2001",
+   "iid": "fae16512-56c9-36b1-892f-4ae0b3d93f26",
+   "doi": "10.2307/26170062",
+   "title": "PROPERTIES, CAUSALITY AND EPISTEMOLOGICAL OPTIMISM IN THOMAS AQUINAS",
+   "author": "P. L. Reynolds"
+  },
+  {
+   "book": "",
+   "page": 1422,
+   "section": "b",
+   "line": null,
+   "journal": "Recherches de théologie et philosophie médiévales",
+   "year": "2001",
+   "iid": "fae16512-56c9-36b1-892f-4ae0b3d93f26",
+   "doi": "10.2307/26170062",
+   "title": "PROPERTIES, CAUSALITY AND EPISTEMOLOGICAL OPTIMISM IN THOMAS AQUINAS",
+   "author": "P. L. Reynolds"
+  },
+  {
+   "book": "",
+   "page": 1444,
+   "section": "a",
+   "line": null,
+   "journal": "Recherches de théologie et philosophie médiévales",
+   "year": "2001",
+   "iid": "fae16512-56c9-36b1-892f-4ae0b3d93f26",
+   "doi": "10.2307/26170062",
+   "title": "PROPERTIES, CAUSALITY AND EPISTEMOLOGICAL OPTIMISM IN THOMAS AQUINAS",
+   "author": "P. L. Reynolds"
+  },
+  {
+   "book": "",
+   "page": 1424,
+   "section": "a",
+   "line": 40,
+   "journal": "Classical Antiquity",
+   "year": "2017",
+   "iid": "fddd871e-2bb3-33bd-aeb9-b5e89f119e4f",
+   "doi": "10.2307/26362677",
+   "title": "Stability and Violence in Classical Greek Democracies and Oligarchies",
+   "author": "MATTHEW SIMONTON"
+  },
+  {
+   "book": "",
+   "page": 1424,
+   "section": "a",
+   "line": 29,
+   "journal": "Classical Antiquity",
+   "year": "2017",
+   "iid": "fddd871e-2bb3-33bd-aeb9-b5e89f119e4f",
+   "doi": "10.2307/26362677",
+   "title": "Stability and Violence in Classical Greek Democracies and Oligarchies",
+   "author": "MATTHEW SIMONTON"
+  },
+  {
+   "book": "",
+   "page": 1424,
+   "section": "b",
+   "line": 6,
+   "journal": "Classical Antiquity",
+   "year": "2017",
+   "iid": "fddd871e-2bb3-33bd-aeb9-b5e89f119e4f",
+   "doi": "10.2307/26362677",
+   "title": "Stability and Violence in Classical Greek Democracies and Oligarchies",
+   "author": "MATTHEW SIMONTON"
+  },
+  {
+   "book": "",
+   "page": 1423,
+   "section": "b",
+   "line": 3,
+   "journal": "Classical Antiquity",
+   "year": "2017",
+   "iid": "fddd871e-2bb3-33bd-aeb9-b5e89f119e4f",
+   "doi": "10.2307/26362677",
+   "title": "Stability and Violence in Classical Greek Democracies and Oligarchies",
+   "author": "MATTHEW SIMONTON"
+  },
+  {
+   "book": "",
+   "page": 1424,
+   "section": "b",
+   "line": 8,
+   "journal": "Classical Antiquity",
+   "year": "2017",
+   "iid": "fddd871e-2bb3-33bd-aeb9-b5e89f119e4f",
+   "doi": "10.2307/26362677",
+   "title": "Stability and Violence in Classical Greek Democracies and Oligarchies",
+   "author": "MATTHEW SIMONTON"
+  },
+  {
+   "book": "",
+   "page": 1424,
+   "section": "a",
+   "line": 20,
+   "journal": "Transactions of the American Philological Association (1974-2014)",
+   "year": "1990",
+   "iid": "fd821221-d759-3565-892d-4b231a4e6249",
+   "doi": "10.2307/283983",
+   "title": "Liturgy Avoidance and Antidosis in Classical Athens",
+   "author": "Matthew R. Christ"
+  },
+  {
+   "book": "",
+   "page": 1430,
+   "section": "b",
+   "line": 32,
+   "journal": "The American Journal of Philology",
+   "year": "1967",
+   "iid": "ffa67698-bc4f-3d5b-8eb8-14aad8790fe2",
+   "doi": "10.2307/293477",
+   "title": "Book Review : \n        Ananke\n        \n          Heinz\n          Schreckenberg",
+   "author": "A. Wooley, Heinz Schreckenberg"
   }
  ]
 }

@@ -1,82 +1,381 @@
 {
  "work": "Rival_Lovers",
  "faceted": false,
+ "system": "stephanus",
  "tier": "trustworthy",
  "cells": [
   {
    "book": "",
-   "page": 133,
+   "page": 132,
+   "section": "a",
+   "band": 0,
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "The Classical Journal": 1,
+    "Mnemosyne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 132,
    "section": "b",
-   "count": 1,
+   "band": 0,
+   "count": 3,
+   "articles": 2,
+   "by_journal": {
+    "The American Journal of Philology": 2,
+    "The Classical Journal": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 132,
+   "section": "d",
+   "band": 0,
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Harvard Studies in Classical Philology": 1,
+    "The American Journal of Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 133,
+   "section": "a",
+   "band": 0,
+   "count": 3,
    "articles": 1,
    "by_journal": {
-    "The Classical Quarterly": 1
+    "The American Journal of Philology": 3
+   }
+  },
+  {
+   "book": "",
+   "page": 133,
+   "section": "b",
+   "band": 0,
+   "count": 4,
+   "articles": 2,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "The American Journal of Philology": 3
    }
   },
   {
    "book": "",
    "page": 133,
    "section": "c",
-   "count": 1,
+   "band": 0,
+   "count": 4,
+   "articles": 3,
+   "by_journal": {
+    "The Classical Quarterly": 2,
+    "The American Journal of Philology": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 133,
+   "section": "e",
+   "band": 0,
+   "count": 2,
    "articles": 1,
    "by_journal": {
-    "The Classical Quarterly": 1
+    "The American Journal of Philology": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 134,
+   "section": "a",
+   "band": 0,
+   "count": 3,
+   "articles": 1,
+   "by_journal": {
+    "The American Journal of Philology": 3
+   }
+  },
+  {
+   "book": "",
+   "page": 134,
+   "section": "b",
+   "band": 0,
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "The Classical Journal": 1,
+    "The American Journal of Philology": 1
    }
   },
   {
    "book": "",
    "page": 134,
    "section": "c",
+   "band": 0,
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 1,
+    "The American Journal of Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 134,
+   "section": "d",
+   "band": 0,
+   "count": 3,
+   "articles": 1,
+   "by_journal": {
+    "The American Journal of Philology": 3
+   }
+  },
+  {
+   "book": "",
+   "page": 134,
+   "section": "e",
+   "band": 0,
+   "count": 4,
+   "articles": 2,
+   "by_journal": {
+    "The American Journal of Philology": 4
+   }
+  },
+  {
+   "book": "",
+   "page": 135,
+   "section": "a",
+   "band": 0,
+   "count": 2,
+   "articles": 1,
+   "by_journal": {
+    "The American Journal of Philology": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 135,
+   "section": "b",
+   "band": 0,
    "count": 1,
    "articles": 1,
    "by_journal": {
-    "Phronesis": 1
+    "The American Journal of Philology": 1
    }
   },
   {
    "book": "",
    "page": 135,
    "section": "c",
+   "band": 0,
+   "count": 4,
+   "articles": 3,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "The American Journal of Philology": 2,
+    "The Classical World": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 135,
+   "section": "d",
+   "band": 0,
+   "count": 3,
+   "articles": 1,
+   "by_journal": {
+    "The American Journal of Philology": 3
+   }
+  },
+  {
+   "book": "",
+   "page": 135,
+   "section": "e",
+   "band": 0,
    "count": 1,
    "articles": 1,
    "by_journal": {
-    "The Classical Quarterly": 1
+    "The American Journal of Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 136,
+   "section": "b",
+   "band": 0,
+   "count": 4,
+   "articles": 1,
+   "by_journal": {
+    "The American Journal of Philology": 4
+   }
+  },
+  {
+   "book": "",
+   "page": 136,
+   "section": "c",
+   "band": 0,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The American Journal of Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 136,
+   "section": "d",
+   "band": 0,
+   "count": 3,
+   "articles": 1,
+   "by_journal": {
+    "The American Journal of Philology": 3
+   }
+  },
+  {
+   "book": "",
+   "page": 136,
+   "section": "e",
+   "band": 0,
+   "count": 2,
+   "articles": 1,
+   "by_journal": {
+    "The American Journal of Philology": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 137,
+   "section": "a",
+   "band": 0,
+   "count": 7,
+   "articles": 1,
+   "by_journal": {
+    "The American Journal of Philology": 7
    }
   },
   {
    "book": "",
    "page": 137,
    "section": "b",
-   "count": 1,
+   "band": 0,
+   "count": 8,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 1,
+    "The American Journal of Philology": 7
+   }
+  },
+  {
+   "book": "",
+   "page": 137,
+   "section": "c",
+   "band": 0,
+   "count": 10,
    "articles": 1,
    "by_journal": {
-    "Phronesis": 1
+    "The American Journal of Philology": 10
+   }
+  },
+  {
+   "book": "",
+   "page": 137,
+   "section": "d",
+   "band": 0,
+   "count": 8,
+   "articles": 1,
+   "by_journal": {
+    "The American Journal of Philology": 8
+   }
+  },
+  {
+   "book": "",
+   "page": 137,
+   "section": "e",
+   "band": 0,
+   "count": 7,
+   "articles": 1,
+   "by_journal": {
+    "The American Journal of Philology": 7
    }
   },
   {
    "book": "",
    "page": 138,
    "section": "a",
-   "count": 1,
-   "articles": 1,
+   "band": 0,
+   "count": 6,
+   "articles": 3,
    "by_journal": {
-    "The Classical Quarterly": 1
+    "The Classical Quarterly": 1,
+    "The Classical Journal": 1,
+    "The American Journal of Philology": 4
    }
   },
   {
    "book": "",
    "page": 138,
    "section": "b",
-   "count": 1,
+   "band": 0,
+   "count": 6,
+   "articles": 2,
+   "by_journal": {
+    "Classical Philology": 1,
+    "The American Journal of Philology": 5
+   }
+  },
+  {
+   "book": "",
+   "page": 138,
+   "section": "c",
+   "band": 0,
+   "count": 5,
+   "articles": 2,
+   "by_journal": {
+    "The American Journal of Philology": 4,
+    "Journal of Biblical Literature": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 138,
+   "section": "d",
+   "band": 0,
+   "count": 5,
+   "articles": 2,
+   "by_journal": {
+    "The American Journal of Philology": 5
+   }
+  },
+  {
+   "book": "",
+   "page": 138,
+   "section": "e",
+   "band": 0,
+   "count": 6,
+   "articles": 2,
+   "by_journal": {
+    "Mnemosyne": 1,
+    "The American Journal of Philology": 5
+   }
+  },
+  {
+   "book": "",
+   "page": 139,
+   "section": "a",
+   "band": 0,
+   "count": 8,
    "articles": 1,
    "by_journal": {
-    "Classical Philology": 1
+    "The American Journal of Philology": 8
    }
   },
   {
    "book": "",
    "page": 139,
    "section": "e",
+   "band": 0,
    "count": 1,
    "articles": 1,
    "by_journal": {
@@ -135,6 +434,18 @@
   },
   {
    "book": "",
+   "page": 133,
+   "section": "c",
+   "line": null,
+   "journal": "The Classical Quarterly",
+   "year": "2009",
+   "iid": "c590d5ce-36a0-336f-9f3c-de7bacb2876c",
+   "doi": "10.2307/20616698",
+   "title": "Traditional Forms of Wisdom and Politics in Plato's \"Apology\"",
+   "author": "Harvey Goldman"
+  },
+  {
+   "book": "",
    "page": 138,
    "section": "a",
    "line": null,
@@ -147,8 +458,8 @@
   },
   {
    "book": "",
-   "page": 134,
-   "section": "c",
+   "page": 137,
+   "section": "b",
    "line": 3,
    "journal": "Phronesis",
    "year": "2008",
@@ -159,8 +470,8 @@
   },
   {
    "book": "",
-   "page": 137,
-   "section": "b",
+   "page": 134,
+   "section": "c",
    "line": 3,
    "journal": "Phronesis",
    "year": "2008",
@@ -180,6 +491,774 @@
    "doi": "10.2307/1558937",
    "title": "The Subjection of Muthos to Logos: Plato's Citations of the Poets",
    "author": "S. Halliwell"
+  },
+  {
+   "book": "",
+   "page": 132,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Journal",
+   "year": "1981",
+   "iid": "0cba65ac-bd57-3d0e-9b29-7ef6f2ed2325",
+   "doi": "10.2307/3297338",
+   "title": "Hoi Polloi in the Crito (44b5-d10)",
+   "author": "Vincent J. Rosivach"
+  },
+  {
+   "book": "",
+   "page": 132,
+   "section": "a",
+   "line": null,
+   "journal": "Mnemosyne",
+   "year": "1908",
+   "iid": "0e5602d5-15e1-37eb-af3f-156cba6af2e6",
+   "doi": "10.2307/4425544",
+   "title": "Platonica (Continued)",
+   "author": "S. A. Naber"
+  },
+  {
+   "book": "",
+   "page": 138,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical Journal",
+   "year": "2015",
+   "iid": "1669d9a9-314e-305b-b653-f3dbd3f10b2f",
+   "doi": "10.5184/classicalj.110.4.0397",
+   "title": "SELF-KNOWLEDGE IN XENOPHON'S <em>MEMORABILIA</em> 4.2",
+   "author": "CHRISTOPHER MOORE"
+  },
+  {
+   "book": "",
+   "page": 138,
+   "section": "e",
+   "line": 6,
+   "journal": "Mnemosyne",
+   "year": "2007",
+   "iid": "3a0db3fc-3daa-3a13-a854-7e3fe9babfdf",
+   "doi": "10.2307/4433815",
+   "title": "Critical Notes on Plato's \"Charmides\"",
+   "author": "D. J. Murphy"
+  },
+  {
+   "book": "",
+   "page": 132,
+   "section": "d",
+   "line": null,
+   "journal": "Harvard Studies in Classical Philology",
+   "year": "1912",
+   "iid": "3c70f01b-8dcd-3510-b114-20b9ddba0dcf",
+   "doi": "10.2307/310446",
+   "title": "Some Features of the Allegorical Debate in Greek Literature",
+   "author": "M. C. Waites"
+  },
+  {
+   "book": "",
+   "page": 134,
+   "section": "b",
+   "line": 4,
+   "journal": "The Classical Journal",
+   "year": "1987",
+   "iid": "58648e34-d824-308f-8e31-5235288ffc1f",
+   "doi": "10.2307/3297985",
+   "title": "Red Faces in Plato",
+   "author": "Paul W. Gooch"
+  },
+  {
+   "book": "",
+   "page": 134,
+   "section": "e",
+   "line": 7,
+   "journal": "The American Journal of Philology",
+   "year": "2001",
+   "iid": "5a43d8af-dec6-3be0-9a6a-ba98bad1681b",
+   "doi": "10.2307/1562017",
+   "title": "Plato on Virtue: Definitions of ΣΩΦΡΟΣΥΝΗ in Plato's Charmides and in Plotinus Enneads 1.2 (19)",
+   "author": "Matthias Vorwerk"
+  },
+  {
+   "book": "",
+   "page": 137,
+   "section": "c",
+   "line": null,
+   "journal": "The American Journal of Philology",
+   "year": "2018",
+   "iid": "5d46c3dc-64ed-39a3-92f3-e324043b5dc8",
+   "doi": "10.2307/48545506",
+   "title": "THE PERFORMANCE OF PHILOSOPHIZING IN THE PLATONIC <em>LOVERS</em>",
+   "author": "Emily Katz, Ronald Polansky"
+  },
+  {
+   "book": "",
+   "page": 137,
+   "section": "d",
+   "line": null,
+   "journal": "The American Journal of Philology",
+   "year": "2018",
+   "iid": "5d46c3dc-64ed-39a3-92f3-e324043b5dc8",
+   "doi": "10.2307/48545506",
+   "title": "THE PERFORMANCE OF PHILOSOPHIZING IN THE PLATONIC <em>LOVERS</em>",
+   "author": "Emily Katz, Ronald Polansky"
+  },
+  {
+   "book": "",
+   "page": 137,
+   "section": "e",
+   "line": null,
+   "journal": "The American Journal of Philology",
+   "year": "2018",
+   "iid": "5d46c3dc-64ed-39a3-92f3-e324043b5dc8",
+   "doi": "10.2307/48545506",
+   "title": "THE PERFORMANCE OF PHILOSOPHIZING IN THE PLATONIC <em>LOVERS</em>",
+   "author": "Emily Katz, Ronald Polansky"
+  },
+  {
+   "book": "",
+   "page": 138,
+   "section": "a",
+   "line": null,
+   "journal": "The American Journal of Philology",
+   "year": "2018",
+   "iid": "5d46c3dc-64ed-39a3-92f3-e324043b5dc8",
+   "doi": "10.2307/48545506",
+   "title": "THE PERFORMANCE OF PHILOSOPHIZING IN THE PLATONIC <em>LOVERS</em>",
+   "author": "Emily Katz, Ronald Polansky"
+  },
+  {
+   "book": "",
+   "page": 138,
+   "section": "b",
+   "line": null,
+   "journal": "The American Journal of Philology",
+   "year": "2018",
+   "iid": "5d46c3dc-64ed-39a3-92f3-e324043b5dc8",
+   "doi": "10.2307/48545506",
+   "title": "THE PERFORMANCE OF PHILOSOPHIZING IN THE PLATONIC <em>LOVERS</em>",
+   "author": "Emily Katz, Ronald Polansky"
+  },
+  {
+   "book": "",
+   "page": 138,
+   "section": "c",
+   "line": null,
+   "journal": "The American Journal of Philology",
+   "year": "2018",
+   "iid": "5d46c3dc-64ed-39a3-92f3-e324043b5dc8",
+   "doi": "10.2307/48545506",
+   "title": "THE PERFORMANCE OF PHILOSOPHIZING IN THE PLATONIC <em>LOVERS</em>",
+   "author": "Emily Katz, Ronald Polansky"
+  },
+  {
+   "book": "",
+   "page": 134,
+   "section": "a",
+   "line": 3,
+   "journal": "The American Journal of Philology",
+   "year": "2018",
+   "iid": "5d46c3dc-64ed-39a3-92f3-e324043b5dc8",
+   "doi": "10.2307/48545506",
+   "title": "THE PERFORMANCE OF PHILOSOPHIZING IN THE PLATONIC <em>LOVERS</em>",
+   "author": "Emily Katz, Ronald Polansky"
+  },
+  {
+   "book": "",
+   "page": 135,
+   "section": "a",
+   "line": 6,
+   "journal": "The American Journal of Philology",
+   "year": "2018",
+   "iid": "5d46c3dc-64ed-39a3-92f3-e324043b5dc8",
+   "doi": "10.2307/48545506",
+   "title": "THE PERFORMANCE OF PHILOSOPHIZING IN THE PLATONIC <em>LOVERS</em>",
+   "author": "Emily Katz, Ronald Polansky"
+  },
+  {
+   "book": "",
+   "page": 132,
+   "section": "d",
+   "line": 9,
+   "journal": "The American Journal of Philology",
+   "year": "2018",
+   "iid": "5d46c3dc-64ed-39a3-92f3-e324043b5dc8",
+   "doi": "10.2307/48545506",
+   "title": "THE PERFORMANCE OF PHILOSOPHIZING IN THE PLATONIC <em>LOVERS</em>",
+   "author": "Emily Katz, Ronald Polansky"
+  },
+  {
+   "book": "",
+   "page": 133,
+   "section": "b",
+   "line": 5,
+   "journal": "The American Journal of Philology",
+   "year": "2018",
+   "iid": "5d46c3dc-64ed-39a3-92f3-e324043b5dc8",
+   "doi": "10.2307/48545506",
+   "title": "THE PERFORMANCE OF PHILOSOPHIZING IN THE PLATONIC <em>LOVERS</em>",
+   "author": "Emily Katz, Ronald Polansky"
+  },
+  {
+   "book": "",
+   "page": 132,
+   "section": "b",
+   "line": 6,
+   "journal": "The American Journal of Philology",
+   "year": "2018",
+   "iid": "5d46c3dc-64ed-39a3-92f3-e324043b5dc8",
+   "doi": "10.2307/48545506",
+   "title": "THE PERFORMANCE OF PHILOSOPHIZING IN THE PLATONIC <em>LOVERS</em>",
+   "author": "Emily Katz, Ronald Polansky"
+  },
+  {
+   "book": "",
+   "page": 136,
+   "section": "d",
+   "line": null,
+   "journal": "The American Journal of Philology",
+   "year": "2018",
+   "iid": "5d46c3dc-64ed-39a3-92f3-e324043b5dc8",
+   "doi": "10.2307/48545506",
+   "title": "THE PERFORMANCE OF PHILOSOPHIZING IN THE PLATONIC <em>LOVERS</em>",
+   "author": "Emily Katz, Ronald Polansky"
+  },
+  {
+   "book": "",
+   "page": 136,
+   "section": "e",
+   "line": null,
+   "journal": "The American Journal of Philology",
+   "year": "2018",
+   "iid": "5d46c3dc-64ed-39a3-92f3-e324043b5dc8",
+   "doi": "10.2307/48545506",
+   "title": "THE PERFORMANCE OF PHILOSOPHIZING IN THE PLATONIC <em>LOVERS</em>",
+   "author": "Emily Katz, Ronald Polansky"
+  },
+  {
+   "book": "",
+   "page": 137,
+   "section": "a",
+   "line": null,
+   "journal": "The American Journal of Philology",
+   "year": "2018",
+   "iid": "5d46c3dc-64ed-39a3-92f3-e324043b5dc8",
+   "doi": "10.2307/48545506",
+   "title": "THE PERFORMANCE OF PHILOSOPHIZING IN THE PLATONIC <em>LOVERS</em>",
+   "author": "Emily Katz, Ronald Polansky"
+  },
+  {
+   "book": "",
+   "page": 133,
+   "section": "c",
+   "line": 1,
+   "journal": "The American Journal of Philology",
+   "year": "2018",
+   "iid": "5d46c3dc-64ed-39a3-92f3-e324043b5dc8",
+   "doi": "10.2307/48545506",
+   "title": "THE PERFORMANCE OF PHILOSOPHIZING IN THE PLATONIC <em>LOVERS</em>",
+   "author": "Emily Katz, Ronald Polansky"
+  },
+  {
+   "book": "",
+   "page": 133,
+   "section": "b",
+   "line": 7,
+   "journal": "The American Journal of Philology",
+   "year": "2018",
+   "iid": "5d46c3dc-64ed-39a3-92f3-e324043b5dc8",
+   "doi": "10.2307/48545506",
+   "title": "THE PERFORMANCE OF PHILOSOPHIZING IN THE PLATONIC <em>LOVERS</em>",
+   "author": "Emily Katz, Ronald Polansky"
+  },
+  {
+   "book": "",
+   "page": 133,
+   "section": "c",
+   "line": 6,
+   "journal": "The American Journal of Philology",
+   "year": "2018",
+   "iid": "5d46c3dc-64ed-39a3-92f3-e324043b5dc8",
+   "doi": "10.2307/48545506",
+   "title": "THE PERFORMANCE OF PHILOSOPHIZING IN THE PLATONIC <em>LOVERS</em>",
+   "author": "Emily Katz, Ronald Polansky"
+  },
+  {
+   "book": "",
+   "page": 137,
+   "section": "a",
+   "line": 2,
+   "journal": "The American Journal of Philology",
+   "year": "2018",
+   "iid": "5d46c3dc-64ed-39a3-92f3-e324043b5dc8",
+   "doi": "10.2307/48545506",
+   "title": "THE PERFORMANCE OF PHILOSOPHIZING IN THE PLATONIC <em>LOVERS</em>",
+   "author": "Emily Katz, Ronald Polansky"
+  },
+  {
+   "book": "",
+   "page": 133,
+   "section": "e",
+   "line": 7,
+   "journal": "The American Journal of Philology",
+   "year": "2018",
+   "iid": "5d46c3dc-64ed-39a3-92f3-e324043b5dc8",
+   "doi": "10.2307/48545506",
+   "title": "THE PERFORMANCE OF PHILOSOPHIZING IN THE PLATONIC <em>LOVERS</em>",
+   "author": "Emily Katz, Ronald Polansky"
+  },
+  {
+   "book": "",
+   "page": 134,
+   "section": "a",
+   "line": 6,
+   "journal": "The American Journal of Philology",
+   "year": "2018",
+   "iid": "5d46c3dc-64ed-39a3-92f3-e324043b5dc8",
+   "doi": "10.2307/48545506",
+   "title": "THE PERFORMANCE OF PHILOSOPHIZING IN THE PLATONIC <em>LOVERS</em>",
+   "author": "Emily Katz, Ronald Polansky"
+  },
+  {
+   "book": "",
+   "page": 134,
+   "section": "d",
+   "line": null,
+   "journal": "The American Journal of Philology",
+   "year": "2018",
+   "iid": "5d46c3dc-64ed-39a3-92f3-e324043b5dc8",
+   "doi": "10.2307/48545506",
+   "title": "THE PERFORMANCE OF PHILOSOPHIZING IN THE PLATONIC <em>LOVERS</em>",
+   "author": "Emily Katz, Ronald Polansky"
+  },
+  {
+   "book": "",
+   "page": 134,
+   "section": "e",
+   "line": 6,
+   "journal": "The American Journal of Philology",
+   "year": "2018",
+   "iid": "5d46c3dc-64ed-39a3-92f3-e324043b5dc8",
+   "doi": "10.2307/48545506",
+   "title": "THE PERFORMANCE OF PHILOSOPHIZING IN THE PLATONIC <em>LOVERS</em>",
+   "author": "Emily Katz, Ronald Polansky"
+  },
+  {
+   "book": "",
+   "page": 134,
+   "section": "d",
+   "line": 4,
+   "journal": "The American Journal of Philology",
+   "year": "2018",
+   "iid": "5d46c3dc-64ed-39a3-92f3-e324043b5dc8",
+   "doi": "10.2307/48545506",
+   "title": "THE PERFORMANCE OF PHILOSOPHIZING IN THE PLATONIC <em>LOVERS</em>",
+   "author": "Emily Katz, Ronald Polansky"
+  },
+  {
+   "book": "",
+   "page": 134,
+   "section": "e",
+   "line": null,
+   "journal": "The American Journal of Philology",
+   "year": "2018",
+   "iid": "5d46c3dc-64ed-39a3-92f3-e324043b5dc8",
+   "doi": "10.2307/48545506",
+   "title": "THE PERFORMANCE OF PHILOSOPHIZING IN THE PLATONIC <em>LOVERS</em>",
+   "author": "Emily Katz, Ronald Polansky"
+  },
+  {
+   "book": "",
+   "page": 136,
+   "section": "b",
+   "line": 1,
+   "journal": "The American Journal of Philology",
+   "year": "2018",
+   "iid": "5d46c3dc-64ed-39a3-92f3-e324043b5dc8",
+   "doi": "10.2307/48545506",
+   "title": "THE PERFORMANCE OF PHILOSOPHIZING IN THE PLATONIC <em>LOVERS</em>",
+   "author": "Emily Katz, Ronald Polansky"
+  },
+  {
+   "book": "",
+   "page": 135,
+   "section": "b",
+   "line": 1,
+   "journal": "The American Journal of Philology",
+   "year": "2018",
+   "iid": "5d46c3dc-64ed-39a3-92f3-e324043b5dc8",
+   "doi": "10.2307/48545506",
+   "title": "THE PERFORMANCE OF PHILOSOPHIZING IN THE PLATONIC <em>LOVERS</em>",
+   "author": "Emily Katz, Ronald Polansky"
+  },
+  {
+   "book": "",
+   "page": 135,
+   "section": "c",
+   "line": null,
+   "journal": "The American Journal of Philology",
+   "year": "2018",
+   "iid": "5d46c3dc-64ed-39a3-92f3-e324043b5dc8",
+   "doi": "10.2307/48545506",
+   "title": "THE PERFORMANCE OF PHILOSOPHIZING IN THE PLATONIC <em>LOVERS</em>",
+   "author": "Emily Katz, Ronald Polansky"
+  },
+  {
+   "book": "",
+   "page": 135,
+   "section": "d",
+   "line": null,
+   "journal": "The American Journal of Philology",
+   "year": "2018",
+   "iid": "5d46c3dc-64ed-39a3-92f3-e324043b5dc8",
+   "doi": "10.2307/48545506",
+   "title": "THE PERFORMANCE OF PHILOSOPHIZING IN THE PLATONIC <em>LOVERS</em>",
+   "author": "Emily Katz, Ronald Polansky"
+  },
+  {
+   "book": "",
+   "page": 135,
+   "section": "d",
+   "line": 5,
+   "journal": "The American Journal of Philology",
+   "year": "2018",
+   "iid": "5d46c3dc-64ed-39a3-92f3-e324043b5dc8",
+   "doi": "10.2307/48545506",
+   "title": "THE PERFORMANCE OF PHILOSOPHIZING IN THE PLATONIC <em>LOVERS</em>",
+   "author": "Emily Katz, Ronald Polansky"
+  },
+  {
+   "book": "",
+   "page": 135,
+   "section": "e",
+   "line": null,
+   "journal": "The American Journal of Philology",
+   "year": "2018",
+   "iid": "5d46c3dc-64ed-39a3-92f3-e324043b5dc8",
+   "doi": "10.2307/48545506",
+   "title": "THE PERFORMANCE OF PHILOSOPHIZING IN THE PLATONIC <em>LOVERS</em>",
+   "author": "Emily Katz, Ronald Polansky"
+  },
+  {
+   "book": "",
+   "page": 138,
+   "section": "e",
+   "line": null,
+   "journal": "The American Journal of Philology",
+   "year": "2018",
+   "iid": "5d46c3dc-64ed-39a3-92f3-e324043b5dc8",
+   "doi": "10.2307/48545506",
+   "title": "THE PERFORMANCE OF PHILOSOPHIZING IN THE PLATONIC <em>LOVERS</em>",
+   "author": "Emily Katz, Ronald Polansky"
+  },
+  {
+   "book": "",
+   "page": 139,
+   "section": "a",
+   "line": null,
+   "journal": "The American Journal of Philology",
+   "year": "2018",
+   "iid": "5d46c3dc-64ed-39a3-92f3-e324043b5dc8",
+   "doi": "10.2307/48545506",
+   "title": "THE PERFORMANCE OF PHILOSOPHIZING IN THE PLATONIC <em>LOVERS</em>",
+   "author": "Emily Katz, Ronald Polansky"
+  },
+  {
+   "book": "",
+   "page": 136,
+   "section": "b",
+   "line": null,
+   "journal": "The American Journal of Philology",
+   "year": "2018",
+   "iid": "5d46c3dc-64ed-39a3-92f3-e324043b5dc8",
+   "doi": "10.2307/48545506",
+   "title": "THE PERFORMANCE OF PHILOSOPHIZING IN THE PLATONIC <em>LOVERS</em>",
+   "author": "Emily Katz, Ronald Polansky"
+  },
+  {
+   "book": "",
+   "page": 137,
+   "section": "b",
+   "line": null,
+   "journal": "The American Journal of Philology",
+   "year": "2018",
+   "iid": "5d46c3dc-64ed-39a3-92f3-e324043b5dc8",
+   "doi": "10.2307/48545506",
+   "title": "THE PERFORMANCE OF PHILOSOPHIZING IN THE PLATONIC <em>LOVERS</em>",
+   "author": "Emily Katz, Ronald Polansky"
+  },
+  {
+   "book": "",
+   "page": 137,
+   "section": "e",
+   "line": 4,
+   "journal": "The American Journal of Philology",
+   "year": "2018",
+   "iid": "5d46c3dc-64ed-39a3-92f3-e324043b5dc8",
+   "doi": "10.2307/48545506",
+   "title": "THE PERFORMANCE OF PHILOSOPHIZING IN THE PLATONIC <em>LOVERS</em>",
+   "author": "Emily Katz, Ronald Polansky"
+  },
+  {
+   "book": "",
+   "page": 137,
+   "section": "d",
+   "line": 5,
+   "journal": "The American Journal of Philology",
+   "year": "2018",
+   "iid": "5d46c3dc-64ed-39a3-92f3-e324043b5dc8",
+   "doi": "10.2307/48545506",
+   "title": "THE PERFORMANCE OF PHILOSOPHIZING IN THE PLATONIC <em>LOVERS</em>",
+   "author": "Emily Katz, Ronald Polansky"
+  },
+  {
+   "book": "",
+   "page": 137,
+   "section": "e",
+   "line": 6,
+   "journal": "The American Journal of Philology",
+   "year": "2018",
+   "iid": "5d46c3dc-64ed-39a3-92f3-e324043b5dc8",
+   "doi": "10.2307/48545506",
+   "title": "THE PERFORMANCE OF PHILOSOPHIZING IN THE PLATONIC <em>LOVERS</em>",
+   "author": "Emily Katz, Ronald Polansky"
+  },
+  {
+   "book": "",
+   "page": 136,
+   "section": "c",
+   "line": 1,
+   "journal": "The American Journal of Philology",
+   "year": "2018",
+   "iid": "5d46c3dc-64ed-39a3-92f3-e324043b5dc8",
+   "doi": "10.2307/48545506",
+   "title": "THE PERFORMANCE OF PHILOSOPHIZING IN THE PLATONIC <em>LOVERS</em>",
+   "author": "Emily Katz, Ronald Polansky"
+  },
+  {
+   "book": "",
+   "page": 136,
+   "section": "b",
+   "line": 7,
+   "journal": "The American Journal of Philology",
+   "year": "2018",
+   "iid": "5d46c3dc-64ed-39a3-92f3-e324043b5dc8",
+   "doi": "10.2307/48545506",
+   "title": "THE PERFORMANCE OF PHILOSOPHIZING IN THE PLATONIC <em>LOVERS</em>",
+   "author": "Emily Katz, Ronald Polansky"
+  },
+  {
+   "book": "",
+   "page": 137,
+   "section": "a",
+   "line": 8,
+   "journal": "The American Journal of Philology",
+   "year": "2018",
+   "iid": "5d46c3dc-64ed-39a3-92f3-e324043b5dc8",
+   "doi": "10.2307/48545506",
+   "title": "THE PERFORMANCE OF PHILOSOPHIZING IN THE PLATONIC <em>LOVERS</em>",
+   "author": "Emily Katz, Ronald Polansky"
+  },
+  {
+   "book": "",
+   "page": 133,
+   "section": "a",
+   "line": null,
+   "journal": "The American Journal of Philology",
+   "year": "2018",
+   "iid": "5d46c3dc-64ed-39a3-92f3-e324043b5dc8",
+   "doi": "10.2307/48545506",
+   "title": "THE PERFORMANCE OF PHILOSOPHIZING IN THE PLATONIC <em>LOVERS</em>",
+   "author": "Emily Katz, Ronald Polansky"
+  },
+  {
+   "book": "",
+   "page": 133,
+   "section": "b",
+   "line": null,
+   "journal": "The American Journal of Philology",
+   "year": "2018",
+   "iid": "5d46c3dc-64ed-39a3-92f3-e324043b5dc8",
+   "doi": "10.2307/48545506",
+   "title": "THE PERFORMANCE OF PHILOSOPHIZING IN THE PLATONIC <em>LOVERS</em>",
+   "author": "Emily Katz, Ronald Polansky"
+  },
+  {
+   "book": "",
+   "page": 138,
+   "section": "d",
+   "line": null,
+   "journal": "The American Journal of Philology",
+   "year": "2018",
+   "iid": "5d46c3dc-64ed-39a3-92f3-e324043b5dc8",
+   "doi": "10.2307/48545506",
+   "title": "THE PERFORMANCE OF PHILOSOPHIZING IN THE PLATONIC <em>LOVERS</em>",
+   "author": "Emily Katz, Ronald Polansky"
+  },
+  {
+   "book": "",
+   "page": 137,
+   "section": "c",
+   "line": 9,
+   "journal": "The American Journal of Philology",
+   "year": "2018",
+   "iid": "5d46c3dc-64ed-39a3-92f3-e324043b5dc8",
+   "doi": "10.2307/48545506",
+   "title": "THE PERFORMANCE OF PHILOSOPHIZING IN THE PLATONIC <em>LOVERS</em>",
+   "author": "Emily Katz, Ronald Polansky"
+  },
+  {
+   "book": "",
+   "page": 137,
+   "section": "c",
+   "line": 1,
+   "journal": "The American Journal of Philology",
+   "year": "2018",
+   "iid": "5d46c3dc-64ed-39a3-92f3-e324043b5dc8",
+   "doi": "10.2307/48545506",
+   "title": "THE PERFORMANCE OF PHILOSOPHIZING IN THE PLATONIC <em>LOVERS</em>",
+   "author": "Emily Katz, Ronald Polansky"
+  },
+  {
+   "book": "",
+   "page": 133,
+   "section": "a",
+   "line": 7,
+   "journal": "The American Journal of Philology",
+   "year": "2018",
+   "iid": "5d46c3dc-64ed-39a3-92f3-e324043b5dc8",
+   "doi": "10.2307/48545506",
+   "title": "THE PERFORMANCE OF PHILOSOPHIZING IN THE PLATONIC <em>LOVERS</em>",
+   "author": "Emily Katz, Ronald Polansky"
+  },
+  {
+   "book": "",
+   "page": 134,
+   "section": "a",
+   "line": null,
+   "journal": "The American Journal of Philology",
+   "year": "2018",
+   "iid": "5d46c3dc-64ed-39a3-92f3-e324043b5dc8",
+   "doi": "10.2307/48545506",
+   "title": "THE PERFORMANCE OF PHILOSOPHIZING IN THE PLATONIC <em>LOVERS</em>",
+   "author": "Emily Katz, Ronald Polansky"
+  },
+  {
+   "book": "",
+   "page": 134,
+   "section": "b",
+   "line": null,
+   "journal": "The American Journal of Philology",
+   "year": "2018",
+   "iid": "5d46c3dc-64ed-39a3-92f3-e324043b5dc8",
+   "doi": "10.2307/48545506",
+   "title": "THE PERFORMANCE OF PHILOSOPHIZING IN THE PLATONIC <em>LOVERS</em>",
+   "author": "Emily Katz, Ronald Polansky"
+  },
+  {
+   "book": "",
+   "page": 134,
+   "section": "c",
+   "line": null,
+   "journal": "The American Journal of Philology",
+   "year": "2018",
+   "iid": "5d46c3dc-64ed-39a3-92f3-e324043b5dc8",
+   "doi": "10.2307/48545506",
+   "title": "THE PERFORMANCE OF PHILOSOPHIZING IN THE PLATONIC <em>LOVERS</em>",
+   "author": "Emily Katz, Ronald Polansky"
+  },
+  {
+   "book": "",
+   "page": 138,
+   "section": "e",
+   "line": 1,
+   "journal": "The American Journal of Philology",
+   "year": "2018",
+   "iid": "5d46c3dc-64ed-39a3-92f3-e324043b5dc8",
+   "doi": "10.2307/48545506",
+   "title": "THE PERFORMANCE OF PHILOSOPHIZING IN THE PLATONIC <em>LOVERS</em>",
+   "author": "Emily Katz, Ronald Polansky"
+  },
+  {
+   "book": "",
+   "page": 139,
+   "section": "a",
+   "line": 4,
+   "journal": "The American Journal of Philology",
+   "year": "2018",
+   "iid": "5d46c3dc-64ed-39a3-92f3-e324043b5dc8",
+   "doi": "10.2307/48545506",
+   "title": "THE PERFORMANCE OF PHILOSOPHIZING IN THE PLATONIC <em>LOVERS</em>",
+   "author": "Emily Katz, Ronald Polansky"
+  },
+  {
+   "book": "",
+   "page": 139,
+   "section": "a",
+   "line": 6,
+   "journal": "The American Journal of Philology",
+   "year": "2018",
+   "iid": "5d46c3dc-64ed-39a3-92f3-e324043b5dc8",
+   "doi": "10.2307/48545506",
+   "title": "THE PERFORMANCE OF PHILOSOPHIZING IN THE PLATONIC <em>LOVERS</em>",
+   "author": "Emily Katz, Ronald Polansky"
+  },
+  {
+   "book": "",
+   "page": 132,
+   "section": "b",
+   "line": null,
+   "journal": "The American Journal of Philology",
+   "year": "2018",
+   "iid": "5d46c3dc-64ed-39a3-92f3-e324043b5dc8",
+   "doi": "10.2307/48545506",
+   "title": "THE PERFORMANCE OF PHILOSOPHIZING IN THE PLATONIC <em>LOVERS</em>",
+   "author": "Emily Katz, Ronald Polansky"
+  },
+  {
+   "book": "",
+   "page": 138,
+   "section": "c",
+   "line": null,
+   "journal": "Journal of Biblical Literature",
+   "year": "2019",
+   "iid": "a63dbce5-4487-3ad0-9002-bf46c06bf21e",
+   "doi": "10.15699/jbl.1383.2019.650443",
+   "title": "Of Social Death and Solitary Confinement: The Political Life of a\n                    Gerasene (Luke 8:26–39)",
+   "author": "Luis Menéndez-Antuña"
+  },
+  {
+   "book": "",
+   "page": 138,
+   "section": "d",
+   "line": 8,
+   "journal": "The American Journal of Philology",
+   "year": "1997",
+   "iid": "b4d0ed4c-6f3c-395e-8b79-2d5c1f819f5b",
+   "doi": "10.2307/1561881",
+   "title": "On reading Plato Mimetically",
+   "author": "Hayden W. Ausland"
+  },
+  {
+   "book": "",
+   "page": 132,
+   "section": "b",
+   "line": 1,
+   "journal": "The Classical Journal",
+   "year": "2018",
+   "iid": "b7927626-19b4-3f9a-b55c-0a051479f3e9",
+   "doi": "10.5184/classicalj.113.3.0363",
+   "title": "Book Review : Early Greek Philosophy",
+   "author": "Christopher Moore, André Laks and Glenn W. Most"
+  },
+  {
+   "book": "",
+   "page": 135,
+   "section": "c",
+   "line": null,
+   "journal": "The Classical World",
+   "year": "1985",
+   "iid": "f982a15d-bf65-3a78-8555-6ca39e6cf3eb",
+   "doi": "10.2307/4349836",
+   "title": "Studies in Greek Athletics. Part II",
+   "author": "Nigel B. Crowther"
   }
  ]
 }

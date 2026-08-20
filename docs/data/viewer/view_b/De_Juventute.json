@@ -1,12 +1,14 @@
 {
  "work": "De_Juventute",
  "faceted": false,
+ "system": "stephanus",
  "tier": "uncertain",
  "cells": [
   {
    "book": "",
    "page": 467,
    "section": "b",
+   "band": 0,
    "count": 4,
    "articles": 4,
    "by_journal": {
@@ -17,60 +19,73 @@
    "book": "",
    "page": 468,
    "section": "a",
-   "count": 3,
-   "articles": 2,
+   "band": 0,
+   "count": 6,
+   "articles": 4,
    "by_journal": {
-    "Phronesis": 3
+    "Phronesis": 3,
+    "Harvard Studies in Classical Philology": 1,
+    "Mnemosyne": 2
    }
   },
   {
    "book": "",
    "page": 468,
    "section": "b",
-   "count": 2,
-   "articles": 2,
+   "band": 0,
+   "count": 4,
+   "articles": 3,
    "by_journal": {
-    "Phronesis": 1,
-    "Revue de Philosophie Ancienne": 1
+    "Phronesis": 2,
+    "Revue de Philosophie Ancienne": 1,
+    "Harvard Studies in Classical Philology": 1
    }
   },
   {
    "book": "",
    "page": 469,
    "section": "a",
-   "count": 4,
-   "articles": 4,
+   "band": 0,
+   "count": 11,
+   "articles": 6,
    "by_journal": {
-    "Phronesis": 3,
-    "Méthexis": 1
+    "Phronesis": 6,
+    "Méthexis": 1,
+    "Harvard Studies in Classical Philology": 2,
+    "The American Journal of Philology": 2
    }
   },
   {
    "book": "",
    "page": 469,
    "section": "b",
-   "count": 6,
-   "articles": 5,
+   "band": 0,
+   "count": 7,
+   "articles": 6,
    "by_journal": {
     "Phronesis": 4,
     "Classical Philology": 1,
-    "The Classical Quarterly": 1
+    "The Classical Quarterly": 1,
+    "The American Journal of Philology": 1
    }
   },
   {
    "book": "",
    "page": 470,
    "section": "a",
-   "count": 1,
-   "articles": 1,
+   "band": 0,
+   "count": 2,
+   "articles": 2,
    "by_journal": {
-    "Revue de Philosophie Ancienne": 1
+    "Revue de Philosophie Ancienne": 1,
+    "Illinois Classical Studies": 1
    }
   },
   {
    "book": "",
    "page": 472,
    "section": "a",
+   "band": 0,
    "count": 1,
    "articles": 1,
    "by_journal": {
@@ -79,8 +94,43 @@
   },
   {
    "book": "",
+   "page": 474,
+   "section": "b",
+   "band": 0,
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "The American Journal of Philology": 1,
+    "Mnemosyne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 477,
+   "section": "a",
+   "band": 0,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Illinois Classical Studies": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 478,
+   "section": "a",
+   "band": 0,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Mnemosyne": 1
+   }
+  },
+  {
+   "book": "",
    "page": 479,
    "section": "b",
+   "band": 0,
    "count": 1,
    "articles": 1,
    "by_journal": {
@@ -91,6 +141,7 @@
    "book": "",
    "page": 480,
    "section": "b",
+   "band": 0,
    "count": 1,
    "articles": 1,
    "by_journal": {
@@ -175,7 +226,55 @@
    "book": "",
    "page": 468,
    "section": "b",
-   "line": 28,
+   "line": 15,
+   "journal": "Phronesis",
+   "year": "2020",
+   "iid": "29d45ff2-5679-3926-8d77-ef21d3374bd9",
+   "doi": "10.2307/26952099",
+   "title": "Nutritive and Sentient Soul in Aristotle’s <em>Generation of Animals</em> 2.5",
+   "author": "Sophia M. Connell"
+  },
+  {
+   "book": "",
+   "page": 468,
+   "section": "b",
+   "line": 30,
+   "journal": "Phronesis",
+   "year": "2020",
+   "iid": "29d45ff2-5679-3926-8d77-ef21d3374bd9",
+   "doi": "10.2307/26952099",
+   "title": "Nutritive and Sentient Soul in Aristotle’s <em>Generation of Animals</em> 2.5",
+   "author": "Sophia M. Connell"
+  },
+  {
+   "book": "",
+   "page": 469,
+   "section": "a",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "2020",
+   "iid": "29d45ff2-5679-3926-8d77-ef21d3374bd9",
+   "doi": "10.2307/26952099",
+   "title": "Nutritive and Sentient Soul in Aristotle’s <em>Generation of Animals</em> 2.5",
+   "author": "Sophia M. Connell"
+  },
+  {
+   "book": "",
+   "page": 469,
+   "section": "a",
+   "line": 15,
+   "journal": "Phronesis",
+   "year": "2020",
+   "iid": "29d45ff2-5679-3926-8d77-ef21d3374bd9",
+   "doi": "10.2307/26952099",
+   "title": "Nutritive and Sentient Soul in Aristotle’s <em>Generation of Animals</em> 2.5",
+   "author": "Sophia M. Connell"
+  },
+  {
+   "book": "",
+   "page": 469,
+   "section": "a",
+   "line": 30,
    "journal": "Phronesis",
    "year": "2020",
    "iid": "29d45ff2-5679-3926-8d77-ef21d3374bd9",
@@ -187,7 +286,7 @@
    "book": "",
    "page": 469,
    "section": "b",
-   "line": 7,
+   "line": null,
    "journal": "Phronesis",
    "year": "2020",
    "iid": "29d45ff2-5679-3926-8d77-ef21d3374bd9",
@@ -362,6 +461,138 @@
    "doi": "10.2307/26954992",
    "title": "BLOOD FLOW IN ARISTOTLE",
    "author": "CLAIRE BUBB"
+  },
+  {
+   "book": "",
+   "page": 468,
+   "section": "a",
+   "line": 30,
+   "journal": "Harvard Studies in Classical Philology",
+   "year": "1985",
+   "iid": "08006a22-1425-3baf-bd66-52a1c610343b",
+   "doi": "10.2307/311270",
+   "title": "Χωριστός in Aristotle",
+   "author": "Donald Morrison"
+  },
+  {
+   "book": "",
+   "page": 469,
+   "section": "a",
+   "line": 16,
+   "journal": "Harvard Studies in Classical Philology",
+   "year": "1985",
+   "iid": "08006a22-1425-3baf-bd66-52a1c610343b",
+   "doi": "10.2307/311270",
+   "title": "Χωριστός in Aristotle",
+   "author": "Donald Morrison"
+  },
+  {
+   "book": "",
+   "page": 468,
+   "section": "b",
+   "line": 14,
+   "journal": "Harvard Studies in Classical Philology",
+   "year": "1985",
+   "iid": "08006a22-1425-3baf-bd66-52a1c610343b",
+   "doi": "10.2307/311270",
+   "title": "Χωριστός in Aristotle",
+   "author": "Donald Morrison"
+  },
+  {
+   "book": "",
+   "page": 469,
+   "section": "a",
+   "line": null,
+   "journal": "The American Journal of Philology",
+   "year": "1961",
+   "iid": "0995ef95-1ae9-3eba-bdb2-e9f089687ed4",
+   "doi": "10.2307/292006",
+   "title": "The Order of Aristotle's Psychological Writings",
+   "author": "Irving Block"
+  },
+  {
+   "book": "",
+   "page": 469,
+   "section": "b",
+   "line": null,
+   "journal": "The American Journal of Philology",
+   "year": "1961",
+   "iid": "0995ef95-1ae9-3eba-bdb2-e9f089687ed4",
+   "doi": "10.2307/292006",
+   "title": "The Order of Aristotle's Psychological Writings",
+   "author": "Irving Block"
+  },
+  {
+   "book": "",
+   "page": 474,
+   "section": "b",
+   "line": null,
+   "journal": "The American Journal of Philology",
+   "year": "1961",
+   "iid": "0995ef95-1ae9-3eba-bdb2-e9f089687ed4",
+   "doi": "10.2307/292006",
+   "title": "The Order of Aristotle's Psychological Writings",
+   "author": "Irving Block"
+  },
+  {
+   "book": "",
+   "page": 474,
+   "section": "b",
+   "line": 9,
+   "journal": "Mnemosyne",
+   "year": "2007",
+   "iid": "102e8b32-ad5d-3c28-af0d-57b4732fe0a7",
+   "doi": "10.2307/27736171",
+   "title": "Aristotle's \"De spiritu\" as a Critique of the Doctrine of pneuma in Plato and His Predecessors",
+   "author": "R. Ferwerda, A. P. Bos"
+  },
+  {
+   "book": "",
+   "page": 478,
+   "section": "a",
+   "line": 27,
+   "journal": "Mnemosyne",
+   "year": "2007",
+   "iid": "102e8b32-ad5d-3c28-af0d-57b4732fe0a7",
+   "doi": "10.2307/27736171",
+   "title": "Aristotle's \"De spiritu\" as a Critique of the Doctrine of pneuma in Plato and His Predecessors",
+   "author": "R. Ferwerda, A. P. Bos"
+  },
+  {
+   "book": "",
+   "page": 477,
+   "section": "a",
+   "line": 28,
+   "journal": "Illinois Classical Studies",
+   "year": "1991",
+   "iid": "19db6f4d-223c-3dfe-9197-2993e24d25ac",
+   "doi": "10.2307/23064363",
+   "title": "Plants as Aristotelian Substances",
+   "author": "ROSAMOND KENT SPRAGUE"
+  },
+  {
+   "book": "",
+   "page": 470,
+   "section": "a",
+   "line": 21,
+   "journal": "Illinois Classical Studies",
+   "year": "1991",
+   "iid": "19db6f4d-223c-3dfe-9197-2993e24d25ac",
+   "doi": "10.2307/23064363",
+   "title": "Plants as Aristotelian Substances",
+   "author": "ROSAMOND KENT SPRAGUE"
+  },
+  {
+   "book": "",
+   "page": 468,
+   "section": "a",
+   "line": null,
+   "journal": "Mnemosyne",
+   "year": "1942",
+   "iid": "3a346321-9d12-3e58-9a09-196866a36288",
+   "doi": "10.2307/4427019",
+   "title": "Aristote est-il toujours resté fidèle à sa conception que la plante se tient la tête en bas?",
+   "author": "W. K. Kraak"
   }
  ]
 }

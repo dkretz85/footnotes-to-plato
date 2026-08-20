@@ -1,546 +1,794 @@
 [
  {
+  "work": "Odyssey",
+  "citations": 53805,
+  "distinct_articles": 5428,
+  "faceted": false,
+  "system": "homer",
+  "tier": "trustworthy",
+  "file": "view_b/Odyssey.json"
+ },
+ {
+  "work": "Romans",
+  "citations": 43094,
+  "distinct_articles": 3014,
+  "faceted": false,
+  "system": "nt",
+  "tier": "trustworthy",
+  "file": "view_b/Romans.json"
+ },
+ {
   "work": "Republic",
-  "citations": 12350,
-  "distinct_articles": 2030,
+  "citations": 39932,
+  "distinct_articles": 5220,
   "faceted": true,
+  "system": "stephanus",
   "tier": "trustworthy",
   "file": "view_b/Republic.json"
  },
  {
-  "work": "Metaphysics",
-  "citations": 7851,
-  "distinct_articles": 1141,
-  "faceted": true,
+  "work": "1 Corinthians",
+  "citations": 35215,
+  "distinct_articles": 3261,
+  "faceted": false,
+  "system": "nt",
   "tier": "trustworthy",
-  "file": "view_b/Metaphysics.json"
+  "file": "view_b/1_Corinthians.json"
+ },
+ {
+  "work": "Iliad",
+  "citations": 34087,
+  "distinct_articles": 4141,
+  "faceted": false,
+  "system": "homer",
+  "tier": "trustworthy",
+  "file": "view_b/Iliad.json"
  },
  {
   "work": "Laws",
-  "citations": 7491,
-  "distinct_articles": 1472,
+  "citations": 28778,
+  "distinct_articles": 4707,
   "faceted": true,
+  "system": "stephanus",
   "tier": "trustworthy",
   "file": "view_b/Laws.json"
  },
  {
-  "work": "Nicomachean_Ethics",
-  "citations": 6730,
-  "distinct_articles": 882,
-  "faceted": true,
+  "work": "Galatians",
+  "citations": 18088,
+  "distinct_articles": 2103,
+  "faceted": false,
+  "system": "nt",
   "tier": "trustworthy",
-  "file": "view_b/Nicomachean_Ethics.json"
+  "file": "view_b/Galatians.json"
+ },
+ {
+  "work": "2 Corinthians",
+  "citations": 15003,
+  "distinct_articles": 1765,
+  "faceted": false,
+  "system": "nt",
+  "tier": "trustworthy",
+  "file": "view_b/2_Corinthians.json"
  },
  {
   "work": "Timaeus",
-  "citations": 3977,
-  "distinct_articles": 829,
+  "citations": 14208,
+  "distinct_articles": 2203,
   "faceted": false,
+  "system": "stephanus",
   "tier": "trustworthy",
   "file": "view_b/Timaeus.json"
  },
  {
+  "work": "Metaphysics",
+  "citations": 13050,
+  "distinct_articles": 2330,
+  "faceted": true,
+  "system": "stephanus",
+  "tier": "trustworthy",
+  "file": "view_b/Metaphysics.json"
+ },
+ {
   "work": "Phaedo",
-  "citations": 3551,
-  "distinct_articles": 667,
+  "citations": 11518,
+  "distinct_articles": 1494,
   "faceted": false,
+  "system": "stephanus",
   "tier": "uncertain",
   "file": "view_b/Phaedo.json"
  },
  {
-  "work": "Politics",
-  "citations": 3525,
-  "distinct_articles": 727,
-  "faceted": false,
+  "work": "Nicomachean_Ethics",
+  "citations": 11326,
+  "distinct_articles": 2044,
+  "faceted": true,
+  "system": "bekker",
   "tier": "trustworthy",
-  "file": "view_b/Politics.json"
+  "file": "view_b/Nicomachean_Ethics.json"
  },
  {
   "work": "Phaedrus",
-  "citations": 2483,
-  "distinct_articles": 658,
+  "citations": 9598,
+  "distinct_articles": 1685,
   "faceted": false,
+  "system": "stephanus",
   "tier": "uncertain",
   "file": "view_b/Phaedrus.json"
  },
  {
-  "work": "Physics",
-  "citations": 2433,
-  "distinct_articles": 511,
+  "work": "Philippians",
+  "citations": 8405,
+  "distinct_articles": 1312,
   "faceted": false,
+  "system": "nt",
   "tier": "trustworthy",
-  "file": "view_b/Physics.json"
+  "file": "view_b/Philippians.json"
  },
  {
   "work": "Gorgias",
-  "citations": 2341,
-  "distinct_articles": 502,
+  "citations": 7821,
+  "distinct_articles": 1086,
   "faceted": false,
+  "system": "stephanus",
   "tier": "uncertain",
   "file": "view_b/Gorgias.json"
  },
  {
-  "work": "Philebus",
-  "citations": 2301,
-  "distinct_articles": 361,
+  "work": "Politics",
+  "citations": 7702,
+  "distinct_articles": 1804,
   "faceted": false,
-  "tier": "uncertain",
-  "file": "view_b/Philebus.json"
- },
- {
-  "work": "De_Anima",
-  "citations": 2200,
-  "distinct_articles": 416,
-  "faceted": false,
+  "system": "bekker",
   "tier": "trustworthy",
-  "file": "view_b/De_Anima.json"
+  "file": "view_b/Politics.json"
  },
  {
   "work": "Protagoras",
-  "citations": 2096,
-  "distinct_articles": 496,
+  "citations": 7405,
+  "distinct_articles": 1030,
   "faceted": false,
+  "system": "stephanus",
   "tier": "trustworthy",
   "file": "view_b/Protagoras.json"
  },
  {
-  "work": "Sophist",
-  "citations": 1999,
-  "distinct_articles": 411,
+  "work": "Philebus",
+  "citations": 6665,
+  "distinct_articles": 785,
   "faceted": false,
-  "tier": "trustworthy",
-  "file": "view_b/Sophist.json"
- },
- {
-  "work": "Theaetetus",
-  "citations": 1985,
-  "distinct_articles": 534,
-  "faceted": false,
-  "tier": "trustworthy",
-  "file": "view_b/Theaetetus.json"
- },
- {
-  "work": "Rhetoric",
-  "citations": 1782,
-  "distinct_articles": 535,
-  "faceted": false,
-  "tier": "trustworthy",
-  "file": "view_b/Rhetoric.json"
- },
- {
-  "work": "Apology",
-  "citations": 1738,
-  "distinct_articles": 422,
-  "faceted": false,
+  "system": "stephanus",
   "tier": "uncertain",
-  "file": "view_b/Apology.json"
+  "file": "view_b/Philebus.json"
+ },
+ {
+  "work": "Ephesians",
+  "citations": 6589,
+  "distinct_articles": 1184,
+  "faceted": false,
+  "system": "nt",
+  "tier": "trustworthy",
+  "file": "view_b/Ephesians.json"
  },
  {
   "work": "Symposium",
-  "citations": 1702,
-  "distinct_articles": 455,
+  "citations": 6230,
+  "distinct_articles": 1205,
   "faceted": false,
+  "system": "stephanus",
   "tier": "trustworthy",
   "file": "view_b/Symposium.json"
  },
  {
-  "work": "Meno",
-  "citations": 1575,
-  "distinct_articles": 412,
+  "work": "Apology",
+  "citations": 6059,
+  "distinct_articles": 1203,
   "faceted": false,
+  "system": "stephanus",
   "tier": "uncertain",
-  "file": "view_b/Meno.json"
+  "file": "view_b/Apology.json"
  },
  {
-  "work": "Eudemian_Ethics",
-  "citations": 1546,
-  "distinct_articles": 310,
-  "faceted": true,
+  "work": "Theaetetus",
+  "citations": 5867,
+  "distinct_articles": 972,
+  "faceted": false,
+  "system": "stephanus",
   "tier": "trustworthy",
-  "file": "view_b/Eudemian_Ethics.json"
+  "file": "view_b/Theaetetus.json"
+ },
+ {
+  "work": "1 Timothy",
+  "citations": 5526,
+  "distinct_articles": 789,
+  "faceted": false,
+  "system": "nt",
+  "tier": "trustworthy",
+  "file": "view_b/1_Timothy.json"
+ },
+ {
+  "work": "Rhetoric",
+  "citations": 5128,
+  "distinct_articles": 1504,
+  "faceted": false,
+  "system": "bekker",
+  "tier": "trustworthy",
+  "file": "view_b/Rhetoric.json"
+ },
+ {
+  "work": "Sophist",
+  "citations": 5003,
+  "distinct_articles": 683,
+  "faceted": false,
+  "system": "stephanus",
+  "tier": "trustworthy",
+  "file": "view_b/Sophist.json"
+ },
+ {
+  "work": "1 Thessalonians",
+  "citations": 4754,
+  "distinct_articles": 862,
+  "faceted": false,
+  "system": "nt",
+  "tier": "trustworthy",
+  "file": "view_b/1_Thessalonians.json"
+ },
+ {
+  "work": "Pythian",
+  "citations": 4639,
+  "distinct_articles": 703,
+  "faceted": false,
+  "system": "pindar",
+  "tier": "trustworthy",
+  "file": "view_b/Pythian.json"
  },
  {
   "work": "Poetics",
-  "citations": 1512,
-  "distinct_articles": 406,
+  "citations": 4384,
+  "distinct_articles": 1222,
   "faceted": false,
+  "system": "bekker",
   "tier": "trustworthy",
   "file": "view_b/Poetics.json"
  },
  {
-  "work": "Statesman",
-  "citations": 1332,
-  "distinct_articles": 316,
+  "work": "Meno",
+  "citations": 4268,
+  "distinct_articles": 801,
   "faceted": false,
+  "system": "stephanus",
+  "tier": "uncertain",
+  "file": "view_b/Meno.json"
+ },
+ {
+  "work": "Statesman",
+  "citations": 4143,
+  "distinct_articles": 620,
+  "faceted": false,
+  "system": "stephanus",
   "tier": "trustworthy",
   "file": "view_b/Statesman.json"
  },
  {
-  "work": "Parmenides",
-  "citations": 1294,
-  "distinct_articles": 258,
+  "work": "Physics",
+  "citations": 4028,
+  "distinct_articles": 860,
   "faceted": false,
+  "system": "stephanus",
   "tier": "trustworthy",
-  "file": "view_b/Parmenides.json"
+  "file": "view_b/Physics.json"
+ },
+ {
+  "work": "Colossians",
+  "citations": 3921,
+  "distinct_articles": 937,
+  "faceted": false,
+  "system": "nt",
+  "tier": "trustworthy",
+  "file": "view_b/Colossians.json"
+ },
+ {
+  "work": "De_Anima",
+  "citations": 3766,
+  "distinct_articles": 748,
+  "faceted": false,
+  "system": "stephanus",
+  "tier": "trustworthy",
+  "file": "view_b/De_Anima.json"
  },
  {
   "work": "Cratylus",
-  "citations": 1230,
-  "distinct_articles": 266,
+  "citations": 3481,
+  "distinct_articles": 629,
   "faceted": false,
+  "system": "stephanus",
   "tier": "uncertain",
   "file": "view_b/Cratylus.json"
  },
  {
-  "work": "Posterior_Analytics",
-  "citations": 985,
-  "distinct_articles": 151,
+  "work": "Nemean",
+  "citations": 3321,
+  "distinct_articles": 538,
   "faceted": false,
+  "system": "pindar",
   "tier": "trustworthy",
-  "file": "view_b/Posterior_Analytics.json"
+  "file": "view_b/Nemean.json"
+ },
+ {
+  "work": "Parmenides",
+  "citations": 3111,
+  "distinct_articles": 414,
+  "faceted": false,
+  "system": "stephanus",
+  "tier": "trustworthy",
+  "file": "view_b/Parmenides.json"
  },
  {
   "work": "Laches",
-  "citations": 932,
-  "distinct_articles": 225,
+  "citations": 2592,
+  "distinct_articles": 452,
   "faceted": false,
+  "system": "stephanus",
   "tier": "uncertain",
   "file": "view_b/Laches.json"
  },
  {
-  "work": "Topics",
-  "citations": 866,
-  "distinct_articles": 269,
-  "faceted": false,
+  "work": "Eudemian_Ethics",
+  "citations": 2537,
+  "distinct_articles": 595,
+  "faceted": true,
+  "system": "bekker",
   "tier": "trustworthy",
-  "file": "view_b/Topics.json"
- },
- {
-  "work": "De_Generatione_Animalium",
-  "citations": 809,
-  "distinct_articles": 109,
-  "faceted": false,
-  "tier": "uncertain",
-  "file": "view_b/De_Generatione_Animalium.json"
+  "file": "view_b/Eudemian_Ethics.json"
  },
  {
   "work": "Euthydemus",
-  "citations": 685,
-  "distinct_articles": 210,
+  "citations": 2299,
+  "distinct_articles": 415,
   "faceted": false,
+  "system": "stephanus",
   "tier": "uncertain",
   "file": "view_b/Euthydemus.json"
  },
  {
-  "work": "Crito",
-  "citations": 637,
-  "distinct_articles": 162,
+  "work": "Olympian",
+  "citations": 2291,
+  "distinct_articles": 346,
   "faceted": false,
-  "tier": "uncertain",
-  "file": "view_b/Crito.json"
- },
- {
-  "work": "Prior_Analytics",
-  "citations": 626,
-  "distinct_articles": 78,
-  "faceted": false,
+  "system": "pindar",
   "tier": "trustworthy",
-  "file": "view_b/Prior_Analytics.json"
- },
- {
-  "work": "Lysis",
-  "citations": 613,
-  "distinct_articles": 127,
-  "faceted": false,
-  "tier": "uncertain",
-  "file": "view_b/Lysis.json"
- },
- {
-  "work": "De_Partibus_Animalium",
-  "citations": 590,
-  "distinct_articles": 130,
-  "faceted": false,
-  "tier": "uncertain",
-  "file": "view_b/De_Partibus_Animalium.json"
+  "file": "view_b/Olympian.json"
  },
  {
   "work": "Charmides",
-  "citations": 585,
-  "distinct_articles": 161,
+  "citations": 2072,
+  "distinct_articles": 327,
   "faceted": false,
+  "system": "stephanus",
   "tier": "uncertain",
   "file": "view_b/Charmides.json"
  },
  {
-  "work": "De_Caelo",
-  "citations": 569,
-  "distinct_articles": 218,
+  "work": "Crito",
+  "citations": 2020,
+  "distinct_articles": 328,
   "faceted": false,
+  "system": "stephanus",
   "tier": "uncertain",
-  "file": "view_b/De_Caelo.json"
+  "file": "view_b/Crito.json"
  },
  {
-  "work": "Meteorology",
-  "citations": 510,
-  "distinct_articles": 133,
+  "work": "2 Timothy",
+  "citations": 1950,
+  "distinct_articles": 537,
   "faceted": false,
-  "tier": "uncertain",
-  "file": "view_b/Meteorology.json"
- },
- {
-  "work": "Historia_Animalium",
-  "citations": 438,
-  "distinct_articles": 147,
-  "faceted": false,
-  "tier": "uncertain",
-  "file": "view_b/Historia_Animalium.json"
+  "system": "nt",
+  "tier": "trustworthy",
+  "file": "view_b/2_Timothy.json"
  },
  {
   "work": "Euthyphro",
-  "citations": 431,
-  "distinct_articles": 232,
+  "citations": 1893,
+  "distinct_articles": 973,
   "faceted": false,
+  "system": "stephanus",
   "tier": "uncertain",
   "file": "view_b/Euthyphro.json"
  },
  {
-  "work": "De_Interpretatione",
-  "citations": 402,
-  "distinct_articles": 95,
+  "work": "Lysis",
+  "citations": 1648,
+  "distinct_articles": 256,
   "faceted": false,
+  "system": "stephanus",
   "tier": "uncertain",
-  "file": "view_b/De_Interpretatione.json"
+  "file": "view_b/Lysis.json"
+ },
+ {
+  "work": "Topics",
+  "citations": 1622,
+  "distinct_articles": 443,
+  "faceted": false,
+  "system": "stephanus",
+  "tier": "trustworthy",
+  "file": "view_b/Topics.json"
+ },
+ {
+  "work": "2 Thessalonians",
+  "citations": 1417,
+  "distinct_articles": 327,
+  "faceted": false,
+  "system": "nt",
+  "tier": "trustworthy",
+  "file": "view_b/2_Thessalonians.json"
  },
  {
   "work": "Epinomis",
-  "citations": 356,
-  "distinct_articles": 121,
+  "citations": 1375,
+  "distinct_articles": 383,
   "faceted": false,
+  "system": "stephanus",
   "tier": "uncertain",
   "file": "view_b/Epinomis.json"
  },
  {
-  "work": "Alcibiades_1",
-  "citations": 349,
-  "distinct_articles": 87,
+  "work": "De_Generatione_Animalium",
+  "citations": 1365,
+  "distinct_articles": 209,
   "faceted": false,
+  "system": "stephanus",
   "tier": "uncertain",
-  "file": "view_b/Alcibiades_1.json"
- },
- {
-  "work": "Letters",
-  "citations": 322,
-  "distinct_articles": 124,
-  "faceted": false,
-  "tier": "uncertain",
-  "file": "view_b/Letters.json"
- },
- {
-  "work": "Hippias_Major",
-  "citations": 285,
-  "distinct_articles": 74,
-  "faceted": false,
-  "tier": "trustworthy",
-  "file": "view_b/Hippias_Major.json"
- },
- {
-  "work": "De_Sensu",
-  "citations": 239,
-  "distinct_articles": 83,
-  "faceted": false,
-  "tier": "uncertain",
-  "file": "view_b/De_Sensu.json"
- },
- {
-  "work": "Sophistical_Refutations",
-  "citations": 227,
-  "distinct_articles": 78,
-  "faceted": false,
-  "tier": "uncertain",
-  "file": "view_b/Sophistical_Refutations.json"
- },
- {
-  "work": "Menexenus",
-  "citations": 225,
-  "distinct_articles": 74,
-  "faceted": false,
-  "tier": "uncertain",
-  "file": "view_b/Menexenus.json"
- },
- {
-  "work": "Critias",
-  "citations": 204,
-  "distinct_articles": 57,
-  "faceted": false,
-  "tier": "trustworthy",
-  "file": "view_b/Critias.json"
+  "file": "view_b/De_Generatione_Animalium.json"
  },
  {
   "work": "Ion",
-  "citations": 196,
-  "distinct_articles": 82,
+  "citations": 1265,
+  "distinct_articles": 251,
   "faceted": false,
+  "system": "stephanus",
   "tier": "uncertain",
   "file": "view_b/Ion.json"
  },
  {
-  "work": "De_Motu_Animalium",
-  "citations": 180,
-  "distinct_articles": 61,
+  "work": "De_Caelo",
+  "citations": 1224,
+  "distinct_articles": 384,
   "faceted": false,
+  "system": "stephanus",
+  "tier": "uncertain",
+  "file": "view_b/De_Caelo.json"
+ },
+ {
+  "work": "Letters",
+  "citations": 1208,
+  "distinct_articles": 354,
+  "faceted": false,
+  "system": "stephanus",
+  "tier": "uncertain",
+  "file": "view_b/Letters.json"
+ },
+ {
+  "work": "Historia_Animalium",
+  "citations": 1172,
+  "distinct_articles": 385,
+  "faceted": false,
+  "system": "stephanus",
+  "tier": "uncertain",
+  "file": "view_b/Historia_Animalium.json"
+ },
+ {
+  "work": "Meteorology",
+  "citations": 1006,
+  "distinct_articles": 261,
+  "faceted": false,
+  "system": "bekker",
+  "tier": "uncertain",
+  "file": "view_b/Meteorology.json"
+ },
+ {
+  "work": "Isthmian",
+  "citations": 993,
+  "distinct_articles": 178,
+  "faceted": false,
+  "system": "pindar",
+  "tier": "trustworthy",
+  "file": "view_b/Isthmian.json"
+ },
+ {
+  "work": "Posterior_Analytics",
+  "citations": 982,
+  "distinct_articles": 202,
+  "faceted": false,
+  "system": "bekker",
+  "tier": "trustworthy",
+  "file": "view_b/Posterior_Analytics.json"
+ },
+ {
+  "work": "Alcibiades_1",
+  "citations": 972,
+  "distinct_articles": 198,
+  "faceted": false,
+  "system": "stephanus",
+  "tier": "uncertain",
+  "file": "view_b/Alcibiades_1.json"
+ },
+ {
+  "work": "De_Partibus_Animalium",
+  "citations": 949,
+  "distinct_articles": 223,
+  "faceted": false,
+  "system": "bekker",
+  "tier": "uncertain",
+  "file": "view_b/De_Partibus_Animalium.json"
+ },
+ {
+  "work": "Hippias_Major",
+  "citations": 754,
+  "distinct_articles": 128,
+  "faceted": false,
+  "system": "stephanus",
+  "tier": "trustworthy",
+  "file": "view_b/Hippias_Major.json"
+ },
+ {
+  "work": "Menexenus",
+  "citations": 749,
+  "distinct_articles": 228,
+  "faceted": false,
+  "system": "stephanus",
+  "tier": "uncertain",
+  "file": "view_b/Menexenus.json"
+ },
+ {
+  "work": "Prior_Analytics",
+  "citations": 644,
+  "distinct_articles": 112,
+  "faceted": false,
+  "system": "bekker",
+  "tier": "trustworthy",
+  "file": "view_b/Prior_Analytics.json"
+ },
+ {
+  "work": "Magna_Moralia",
+  "citations": 568,
+  "distinct_articles": 241,
+  "faceted": false,
+  "system": "bekker",
+  "tier": "trustworthy",
+  "file": "view_b/Magna_Moralia.json"
+ },
+ {
+  "work": "De_Interpretatione",
+  "citations": 550,
+  "distinct_articles": 170,
+  "faceted": false,
+  "system": "stephanus",
+  "tier": "uncertain",
+  "file": "view_b/De_Interpretatione.json"
+ },
+ {
+  "work": "De_Sensu",
+  "citations": 505,
+  "distinct_articles": 138,
+  "faceted": false,
+  "system": "stephanus",
+  "tier": "uncertain",
+  "file": "view_b/De_Sensu.json"
+ },
+ {
+  "work": "Titus",
+  "citations": 491,
+  "distinct_articles": 127,
+  "faceted": false,
+  "system": "nt",
+  "tier": "trustworthy",
+  "file": "view_b/Titus.json"
+ },
+ {
+  "work": "Rhetorica_ad_Alexandrum",
+  "citations": 483,
+  "distinct_articles": 160,
+  "faceted": false,
+  "system": "bekker",
+  "tier": "trustworthy",
+  "file": "view_b/Rhetorica_ad_Alexandrum.json"
+ },
+ {
+  "work": "Critias",
+  "citations": 457,
+  "distinct_articles": 124,
+  "faceted": false,
+  "system": "stephanus",
+  "tier": "trustworthy",
+  "file": "view_b/Critias.json"
+ },
+ {
+  "work": "Sophistical_Refutations",
+  "citations": 395,
+  "distinct_articles": 133,
+  "faceted": false,
+  "system": "stephanus",
+  "tier": "uncertain",
+  "file": "view_b/Sophistical_Refutations.json"
+ },
+ {
+  "work": "De_Motu_Animalium",
+  "citations": 335,
+  "distinct_articles": 91,
+  "faceted": false,
+  "system": "stephanus",
   "tier": "uncertain",
   "file": "view_b/De_Motu_Animalium.json"
  },
  {
   "work": "De_Generatione_et_Corruptione",
-  "citations": 156,
-  "distinct_articles": 48,
+  "citations": 321,
+  "distinct_articles": 72,
   "faceted": false,
+  "system": "bekker",
   "tier": "uncertain",
   "file": "view_b/De_Generatione_et_Corruptione.json"
  },
  {
   "work": "Hippias_Minor",
-  "citations": 153,
-  "distinct_articles": 25,
+  "citations": 290,
+  "distinct_articles": 45,
   "faceted": false,
+  "system": "stephanus",
   "tier": "uncertain",
   "file": "view_b/Hippias_Minor.json"
  },
  {
-  "work": "Magna_Moralia",
-  "citations": 149,
-  "distinct_articles": 79,
-  "faceted": false,
-  "tier": "trustworthy",
-  "file": "view_b/Magna_Moralia.json"
- },
- {
-  "work": "De_Memoria",
-  "citations": 129,
-  "distinct_articles": 47,
-  "faceted": false,
-  "tier": "uncertain",
-  "file": "view_b/De_Memoria.json"
- },
- {
-  "work": "De_Insomniis",
-  "citations": 123,
-  "distinct_articles": 22,
-  "faceted": false,
-  "tier": "uncertain",
-  "file": "view_b/De_Insomniis.json"
- },
- {
   "work": "Categories",
-  "citations": 122,
-  "distinct_articles": 73,
+  "citations": 287,
+  "distinct_articles": 184,
   "faceted": false,
+  "system": "stephanus",
   "tier": "uncertain",
   "file": "view_b/Categories.json"
  },
  {
-  "work": "De_Somno",
-  "citations": 103,
-  "distinct_articles": 40,
+  "work": "De_Memoria",
+  "citations": 246,
+  "distinct_articles": 79,
   "faceted": false,
+  "system": "stephanus",
   "tier": "uncertain",
-  "file": "view_b/De_Somno.json"
- },
- {
-  "work": "Rhetorica_ad_Alexandrum",
-  "citations": 66,
-  "distinct_articles": 43,
-  "faceted": false,
-  "tier": "trustworthy",
-  "file": "view_b/Rhetorica_ad_Alexandrum.json"
- },
- {
-  "work": "Clitophon",
-  "citations": 42,
-  "distinct_articles": 15,
-  "faceted": false,
-  "tier": "uncertain",
-  "file": "view_b/Clitophon.json"
- },
- {
-  "work": "Theages",
-  "citations": 39,
-  "distinct_articles": 19,
-  "faceted": false,
-  "tier": "trustworthy",
-  "file": "view_b/Theages.json"
+  "file": "view_b/De_Memoria.json"
  },
  {
   "work": "Minos",
-  "citations": 30,
-  "distinct_articles": 19,
+  "citations": 216,
+  "distinct_articles": 53,
   "faceted": false,
+  "system": "stephanus",
   "tier": "trustworthy",
   "file": "view_b/Minos.json"
  },
  {
-  "work": "De_Incessu_Animalium",
-  "citations": 25,
-  "distinct_articles": 16,
+  "work": "De_Insomniis",
+  "citations": 185,
+  "distinct_articles": 39,
   "faceted": false,
+  "system": "stephanus",
   "tier": "uncertain",
-  "file": "view_b/De_Incessu_Animalium.json"
+  "file": "view_b/De_Insomniis.json"
  },
  {
-  "work": "De_Juventute",
-  "citations": 23,
-  "distinct_articles": 14,
+  "work": "De_Somno",
+  "citations": 167,
+  "distinct_articles": 59,
   "faceted": false,
+  "system": "stephanus",
   "tier": "uncertain",
-  "file": "view_b/De_Juventute.json"
+  "file": "view_b/De_Somno.json"
+ },
+ {
+  "work": "Clitophon",
+  "citations": 156,
+  "distinct_articles": 37,
+  "faceted": false,
+  "system": "stephanus",
+  "tier": "uncertain",
+  "file": "view_b/Clitophon.json"
  },
  {
   "work": "Hipparchus",
-  "citations": 17,
-  "distinct_articles": 14,
+  "citations": 150,
+  "distinct_articles": 70,
   "faceted": false,
+  "system": "stephanus",
   "tier": "uncertain",
   "file": "view_b/Hipparchus.json"
  },
  {
-  "work": "De_Respiratione",
-  "citations": 17,
-  "distinct_articles": 9,
+  "work": "Theages",
+  "citations": 146,
+  "distinct_articles": 52,
   "faceted": false,
-  "tier": "uncertain",
-  "file": "view_b/De_Respiratione.json"
+  "system": "stephanus",
+  "tier": "trustworthy",
+  "file": "view_b/Theages.json"
  },
  {
   "work": "Rival_Lovers",
-  "citations": 8,
-  "distinct_articles": 6,
+  "citations": 132,
+  "distinct_articles": 18,
   "faceted": false,
+  "system": "stephanus",
   "tier": "trustworthy",
   "file": "view_b/Rival_Lovers.json"
  },
  {
   "work": "Alcibiades_2",
-  "citations": 6,
-  "distinct_articles": 5,
+  "citations": 71,
+  "distinct_articles": 10,
   "faceted": false,
+  "system": "stephanus",
   "tier": "uncertain",
   "file": "view_b/Alcibiades_2.json"
+ },
+ {
+  "work": "De_Incessu_Animalium",
+  "citations": 50,
+  "distinct_articles": 29,
+  "faceted": false,
+  "system": "stephanus",
+  "tier": "uncertain",
+  "file": "view_b/De_Incessu_Animalium.json"
+ },
+ {
+  "work": "De_Juventute",
+  "citations": 41,
+  "distinct_articles": 19,
+  "faceted": false,
+  "system": "stephanus",
+  "tier": "uncertain",
+  "file": "view_b/De_Juventute.json"
+ },
+ {
+  "work": "De_Respiratione",
+  "citations": 41,
+  "distinct_articles": 17,
+  "faceted": false,
+  "system": "stephanus",
+  "tier": "uncertain",
+  "file": "view_b/De_Respiratione.json"
+ },
+ {
+  "work": "Philemon",
+  "citations": 17,
+  "distinct_articles": 11,
+  "faceted": false,
+  "system": "nt",
+  "tier": "trustworthy",
+  "file": "view_b/Philemon.json"
+ },
+ {
+  "work": "De_Longitudine_Vitae",
+  "citations": 8,
+  "distinct_articles": 7,
+  "faceted": false,
+  "system": "stephanus",
+  "tier": "uncertain",
+  "file": "view_b/De_Longitudine_Vitae.json"
  },
  {
   "work": "De_Divinatione_per_Somnum",
   "citations": 6,
   "distinct_articles": 4,
   "faceted": false,
+  "system": "stephanus",
   "tier": "uncertain",
   "file": "view_b/De_Divinatione_per_Somnum.json"
  },
  {
-  "work": "De_Longitudine_Vitae",
-  "citations": 3,
-  "distinct_articles": 3,
+  "work": "Problems",
+  "citations": 2,
+  "distinct_articles": 2,
   "faceted": false,
-  "tier": "uncertain",
-  "file": "view_b/De_Longitudine_Vitae.json"
+  "system": "bekker",
+  "tier": "trustworthy",
+  "file": "view_b/Problems.json"
  }
 ]

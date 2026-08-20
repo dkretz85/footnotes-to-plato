@@ -1,48 +1,81 @@
 {
-  "_comment": [
-    "Field classification for the 10 journals in the corpus. Kept as DATA, not",
-    "code, because it is an editorial judgement about disciplinary culture and a",
-    "user may reasonably disagree. Edit here; both views pick it up.",
-    "",
-    "'classics'   = general classical-studies journals, where ancient philosophy",
-    "               sits alongside literature, history, papyrology, epigraphy.",
-    "'philosophy' = philosophy journals, including ancient-philosophy specialist",
-    "               journals housed in philosophy rather than classics.",
-    "",
-    "Arguable cases, stated openly rather than hidden:",
-    "  Phronesis — the flagship ancient-philosophy journal, read across both",
-    "    camps. Filed under philosophy (philosophy-department milieu), but a",
-    "    classicist might reasonably file it the other way. It is also the",
-    "    single largest source (26,703 citations, 29% of the corpus), so this",
-    "    one assignment moves the philosophy/classics comparison more than any",
-    "    other. Treat any philosophy-vs-classics contrast as partly a claim",
-    "    about where Phronesis belongs.",
-    "  Methexis, Revue de Philosophie Ancienne — ancient-philosophy specialists;",
-    "    same reasoning as Phronesis, smaller volume so lower stakes.",
-    "  Revue Internationale de Philosophie, Les Etudes philosophiques,",
-    "    Archivio di Filosofia — general philosophy journals that publish",
-    "    ancient material; unambiguously philosophy."
-  ],
-  "groups": {
-    "philosophy": {
-      "label": "Philosophy",
-      "journals": [
-        "Phronesis",
-        "M\u00e9thexis",
-        "Revue de Philosophie Ancienne",
-        "History of Philosophy Quarterly",
-        "Revue Internationale de Philosophie",
-        "Les \u00c9tudes philosophiques",
-        "Archivio di Filosofia"
-      ]
-    },
-    "classics": {
-      "label": "Classics",
-      "journals": [
-        "The Classical Quarterly",
-        "Classical Philology",
-        "The Classical Review"
-      ]
-    }
+ "_comment": [
+  "Field classification for the journals in the corpus. Kept as DATA, not code,",
+  "because it is an editorial judgement about disciplinary culture and a user may",
+  "reasonably disagree. Regenerate with build_journal_groups.py; edit FIELD there.",
+  "",
+  "'philosophy' = journals of philosophy / history of philosophy.",
+  "'classics'   = general classical-studies journals (philology, literature,",
+  "               history, papyrology) where ancient philosophy sits alongside.",
+  "'theology'   = theology, New Testament and religious-studies journals — the",
+  "               venues that carry the Pauline corpus. A few cross-disciplinary",
+  "               titles (the theologie-et-philosophie journals, Religious Studies,",
+  "               History of Religions) are judgement calls; see the script.",
+  "Both viewers and temporal_analysis.py --journals pick this up."
+ ],
+ "groups": {
+  "philosophy": {
+   "label": "Philosophy",
+   "journals": [
+    "Phronesis",
+    "Méthexis",
+    "Revue de Philosophie Ancienne",
+    "History of Philosophy Quarterly",
+    "Revue Internationale de Philosophie",
+    "Les Études philosophiques",
+    "Archivio di Filosofia"
+   ]
+  },
+  "classics": {
+   "label": "Classics",
+   "journals": [
+    "The Classical Quarterly",
+    "Classical Philology",
+    "Mnemosyne",
+    "The American Journal of Philology",
+    "Hermes",
+    "Harvard Studies in Classical Philology",
+    "Rheinisches Museum für Philologie",
+    "Quaderni Urbinati di Cultura Classica",
+    "Classical Antiquity",
+    "The Classical Journal",
+    "Transactions of the American Philological Association (1974-2014)",
+    "The Classical Review",
+    "The Classical World",
+    "Illinois Classical Studies",
+    "Transactions and Proceedings of the American Philological Association",
+    "Greece & Rome",
+    "Transactions of the American Philological Association (1869-1896)",
+    "Rheinisches Museum für Philologie, Geschichte und griechische Philosophie"
+   ]
+  },
+  "theology": {
+   "label": "Theology & NT",
+   "journals": [
+    "The Catholic Biblical Quarterly",
+    "Journal of Biblical Literature",
+    "Novum Testamentum",
+    "Neotestamentica",
+    "The Harvard Theological Review",
+    "Vigiliae Christianae",
+    "The Journal of Religion",
+    "Recherches de théologie ancienne et médiévale",
+    "Recherches de théologie et philosophie médiévales",
+    "Biblica",
+    "The American Journal of Theology",
+    "The Biblical World",
+    "Church History",
+    "History of Religions",
+    "Revue de Théologie et de Philosophie",
+    "Zeitschrift für katholische Theologie",
+    "Zeitschrift für Theologie und Kirche",
+    "Religious Studies",
+    "American Journal of Theology & Philosophy",
+    "Theologische Rundschau",
+    "Revue de Théologie et de Philosophie et Compte-rendu des Principales Publications Scientifiques",
+    "Journal of the Society of Biblical Literature and Exegesis",
+    "Deutsche Theologie"
+   ]
   }
+ }
 }

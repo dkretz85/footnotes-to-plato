@@ -1,12 +1,14 @@
 {
  "work": "De_Divinatione_per_Somnum",
  "faceted": false,
+ "system": "stephanus",
  "tier": "uncertain",
  "cells": [
   {
    "book": "",
    "page": 463,
    "section": "a",
+   "band": 0,
    "count": 1,
    "articles": 1,
    "by_journal": {
@@ -17,6 +19,7 @@
    "book": "",
    "page": 463,
    "section": "b",
+   "band": 0,
    "count": 4,
    "articles": 3,
    "by_journal": {
@@ -29,6 +32,7 @@
    "book": "",
    "page": 464,
    "section": "a",
+   "band": 0,
    "count": 1,
    "articles": 1,
    "by_journal": {

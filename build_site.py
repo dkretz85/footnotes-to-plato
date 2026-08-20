@@ -47,6 +47,7 @@ NAV = [
     ("/",                   "Home"),
     ("/explore/works/",     "Works over time"),
     ("/explore/passages/",  "Passages"),
+    ("/explore/shifts/",    "Over time, within"),
     ("/methods/",           "Methods"),
     ("/data/",              "Data"),
     ("/contact/",           "Contact"),
@@ -301,6 +302,13 @@ def load_subs(viewer_data_dir):
             subs["journal_count"] = str(len(journals))
         if n_articles is not None:
             subs["n_articles"] = f"{n_articles:,}"
+        works = m.get("distinct_works")
+        if works is not None:
+            subs["work_count"] = str(works)
+        if m.get("year_min") is not None:
+            subs["year_from"] = str(m["year_min"])
+        if m.get("year_max") is not None:
+            subs["year_to"] = str(m["year_max"])
     return subs
 
 
@@ -514,6 +522,16 @@ def main():
         else:
             print("  WARNING: copy.json not found — viewers will fail to load "
                   "their text.", file=sys.stderr)
+        # journal_groups.json and work_groups.json are edited at the repo root
+        # (canonical) but the viewers fetch them from DATA_DIR — publish them too.
+        for gj in ("journal_groups.json", "work_groups.json"):
+            src = os.path.join(ROOT, gj)
+            if os.path.exists(src):
+                shutil.copy(src, os.path.join(out, "data", "viewer", gj))
+                print(f"  published {gj} -> data/viewer/{gj}", file=sys.stderr)
+            else:
+                print(f"  WARNING: {gj} not found — a viewer's grouping will 404.",
+                      file=sys.stderr)
     else:
         print(f"  WARNING: {args.viewer_data}/ not found. The viewers will have "
               f"no data. Run build_viewer_data.py first.", file=sys.stderr)
@@ -557,6 +575,16 @@ def main():
             open(os.path.join(CONTENT, "_intro_passages.md"), encoding="utf-8").read()
             if os.path.exists(os.path.join(CONTENT, "_intro_passages.md")) else "",
             "/explore/passages/")
+    vc = os.path.join(ROOT, "view_c.html")
+    if os.path.exists(vc):
+        build_viewer_page(
+            out, vc, "/explore/shifts/",
+            "How attention shifted over time within a single work",
+            "Pick a text — each opens as a map of its own passages over time, with a "
+            "plain statement of what the measurements found.",
+            open(os.path.join(CONTENT, "_intro_shifts.md"), encoding="utf-8").read()
+            if os.path.exists(os.path.join(CONTENT, "_intro_shifts.md")) else "",
+            "/explore/shifts/")
 
     # GitHub Pages: don't run Jekyll over our output
     write(out, ".nojekyll", "")

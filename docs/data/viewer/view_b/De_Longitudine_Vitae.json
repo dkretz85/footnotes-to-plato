@@ -1,12 +1,26 @@
 {
  "work": "De_Longitudine_Vitae",
  "faceted": false,
+ "system": "stephanus",
  "tier": "uncertain",
  "cells": [
   {
    "book": "",
+   "page": 464,
+   "section": "b",
+   "band": 0,
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Classical Antiquity": 1,
+    "Transactions of the American Philological Association (1974-2014)": 1
+   }
+  },
+  {
+   "book": "",
    "page": 465,
    "section": "a",
+   "band": 0,
    "count": 2,
    "articles": 2,
    "by_journal": {
@@ -15,8 +29,21 @@
   },
   {
    "book": "",
+   "page": 465,
+   "section": "b",
+   "band": 0,
+   "count": 3,
+   "articles": 2,
+   "by_journal": {
+    "Rheinisches Museum für Philologie": 2,
+    "Quaderni Urbinati di Cultura Classica": 1
+   }
+  },
+  {
+   "book": "",
    "page": 466,
    "section": "a",
+   "band": 0,
    "count": 1,
    "articles": 1,
    "by_journal": {
@@ -60,6 +87,66 @@
    "doi": "10.2307/639606",
    "title": "Space, Time and Phantasms in Aristotle, De Memoria 2, 452B7-25",
    "author": "John E. Sisko"
+  },
+  {
+   "book": "",
+   "page": 465,
+   "section": "b",
+   "line": 5,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1991",
+   "iid": "4d44d8e3-32ec-307d-a045-5276c9389dc0",
+   "doi": "10.2307/41233819",
+   "title": "ARISTOTELES, DE LONG. VIT. 3, 465b5-6",
+   "author": "Péter Lautner"
+  },
+  {
+   "book": "",
+   "page": 465,
+   "section": "b",
+   "line": 3,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1991",
+   "iid": "4d44d8e3-32ec-307d-a045-5276c9389dc0",
+   "doi": "10.2307/41233819",
+   "title": "ARISTOTELES, DE LONG. VIT. 3, 465b5-6",
+   "author": "Péter Lautner"
+  },
+  {
+   "book": "",
+   "page": 464,
+   "section": "b",
+   "line": 19,
+   "journal": "Classical Antiquity",
+   "year": "1983",
+   "iid": "8a97f505-b1a4-396c-bf92-b76c1c99f09b",
+   "doi": "10.2307/25010799",
+   "title": "Αἱ γὰρ τω̑ν ἐναντίων ἀποδείξεις ἀπορίαι περὶ τω̑ν ἐναντίων εἰσίν Philosophical Program and Expository Practice in Aristotle",
+   "author": "Kenneth Quandt"
+  },
+  {
+   "book": "",
+   "page": 464,
+   "section": "b",
+   "line": 19,
+   "journal": "Transactions of the American Philological Association (1974-2014)",
+   "year": "1981",
+   "iid": "dac7395f-a91e-3c9e-aaa3-21dd02ce98ab",
+   "doi": "10.2307/284128",
+   "title": "Some Puns in Aristotle",
+   "author": "Kenneth Quandt"
+  },
+  {
+   "book": "",
+   "page": 465,
+   "section": "b",
+   "line": null,
+   "journal": "Quaderni Urbinati di Cultura Classica",
+   "year": "1998",
+   "iid": "deea7e88-5698-3100-9810-e968370c369c",
+   "doi": "10.2307/20546542",
+   "title": "Τὸ μὲν Α λευϰὸν τὸ δὲ Β ἄνϑϱωποϛ. Λευϰόϛ e μέλαϛ nella filosofia greca",
+   "author": "Maria Fernanda Ferrini"
   }
  ]
 }

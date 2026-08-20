@@ -1,18 +1,20 @@
 {
  "work": "Posterior_Analytics",
  "faceted": false,
+ "system": "bekker",
  "tier": "trustworthy",
  "cells": [
   {
    "book": "",
    "page": 71,
    "section": "a",
-   "count": 32,
-   "articles": 16,
+   "band": 0,
+   "count": 19,
+   "articles": 13,
    "by_journal": {
-    "Revue de Philosophie Ancienne": 10,
-    "Phronesis": 17,
-    "History of Philosophy Quarterly": 3,
+    "Revue de Philosophie Ancienne": 7,
+    "Phronesis": 9,
+    "History of Philosophy Quarterly": 1,
     "Revue Internationale de Philosophie": 1,
     "The Classical Quarterly": 1
    }
@@ -20,113 +22,313 @@
   {
    "book": "",
    "page": 71,
-   "section": "b",
-   "count": 42,
-   "articles": 20,
-   "by_journal": {
-    "Phronesis": 26,
-    "History of Philosophy Quarterly": 3,
-    "Revue de Philosophie Ancienne": 7,
-    "Revue Internationale de Philosophie": 1,
-    "Méthexis": 1,
-    "The Classical Quarterly": 4
-   }
-  },
-  {
-   "book": "",
-   "page": 72,
    "section": "a",
-   "count": 54,
-   "articles": 17,
-   "by_journal": {
-    "Phronesis": 26,
-    "History of Philosophy Quarterly": 8,
-    "Revue de Philosophie Ancienne": 18,
-    "Méthexis": 1,
-    "The Classical Quarterly": 1
-   }
-  },
-  {
-   "book": "",
-   "page": 72,
-   "section": "b",
-   "count": 46,
-   "articles": 14,
-   "by_journal": {
-    "Phronesis": 33,
-    "Revue Internationale de Philosophie": 1,
-    "Méthexis": 2,
-    "Revue de Philosophie Ancienne": 1,
-    "The Classical Quarterly": 9
-   }
-  },
-  {
-   "book": "",
-   "page": 73,
-   "section": "a",
-   "count": 41,
-   "articles": 24,
-   "by_journal": {
-    "Phronesis": 23,
-    "History of Philosophy Quarterly": 1,
-    "Les Études philosophiques": 1,
-    "Méthexis": 5,
-    "Revue de Philosophie Ancienne": 2,
-    "The Classical Quarterly": 8,
-    "The Classical Review": 1
-   }
-  },
-  {
-   "book": "",
-   "page": 73,
-   "section": "b",
-   "count": 26,
-   "articles": 17,
-   "by_journal": {
-    "Phronesis": 20,
-    "Les Études philosophiques": 1,
-    "Revue de Philosophie Ancienne": 2,
-    "Méthexis": 1,
-    "History of Philosophy Quarterly": 1,
-    "Classical Philology": 1
-   }
-  },
-  {
-   "book": "",
-   "page": 74,
-   "section": "a",
-   "count": 29,
-   "articles": 13,
-   "by_journal": {
-    "Phronesis": 23,
-    "Les Études philosophiques": 1,
-    "The Classical Quarterly": 1,
-    "Revue de Philosophie Ancienne": 1,
-    "Revue Internationale de Philosophie": 3
-   }
-  },
-  {
-   "book": "",
-   "page": 74,
-   "section": "b",
-   "count": 9,
+   "band": 1,
+   "count": 10,
    "articles": 5,
    "by_journal": {
+    "Phronesis": 7,
+    "History of Philosophy Quarterly": 2,
+    "Revue de Philosophie Ancienne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 71,
+   "section": "b",
+   "band": 0,
+   "count": 28,
+   "articles": 21,
+   "by_journal": {
+    "Phronesis": 8,
+    "Revue de Philosophie Ancienne": 2,
+    "Revue Internationale de Philosophie": 1,
+    "History of Philosophy Quarterly": 1,
+    "Méthexis": 1,
+    "The Classical Quarterly": 4,
+    "Hermes": 2,
+    "Recherches de théologie et philosophie médiévales": 6,
+    "The Journal of Religion": 1,
+    "Recherches de théologie ancienne et médiévale": 1,
+    "Mnemosyne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 71,
+   "section": "b",
+   "band": 1,
+   "count": 22,
+   "articles": 12,
+   "by_journal": {
+    "History of Philosophy Quarterly": 2,
+    "Phronesis": 10,
+    "Revue de Philosophie Ancienne": 3,
+    "The Journal of Religion": 2,
+    "Recherches de théologie et philosophie médiévales": 1,
+    "Vigiliae Christianae": 1,
+    "Rheinisches Museum für Philologie": 3
+   }
+  },
+  {
+   "book": "",
+   "page": 72,
+   "section": "a",
+   "band": 0,
+   "count": 52,
+   "articles": 15,
+   "by_journal": {
+    "History of Philosophy Quarterly": 5,
+    "Phronesis": 11,
+    "Revue de Philosophie Ancienne": 11,
+    "Méthexis": 1,
     "The Classical Quarterly": 1,
+    "Mnemosyne": 1,
+    "Vigiliae Christianae": 1,
+    "Hermes": 20,
+    "Rheinisches Museum für Philologie": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 72,
+   "section": "a",
+   "band": 1,
+   "count": 16,
+   "articles": 7,
+   "by_journal": {
+    "Phronesis": 7,
+    "History of Philosophy Quarterly": 3,
+    "Revue de Philosophie Ancienne": 5,
+    "Hermes": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 72,
+   "section": "b",
+   "band": 0,
+   "count": 23,
+   "articles": 9,
+   "by_journal": {
+    "Phronesis": 12,
+    "Méthexis": 1,
+    "The Classical Quarterly": 9,
+    "The Journal of Religion": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 72,
+   "section": "b",
+   "band": 1,
+   "count": 19,
+   "articles": 10,
+   "by_journal": {
+    "Revue Internationale de Philosophie": 1,
+    "Phronesis": 12,
+    "Revue de Philosophie Ancienne": 1,
+    "The Journal of Religion": 3,
+    "Hermes": 1,
+    "Rheinisches Museum für Philologie": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 72,
+   "section": "b",
+   "band": 2,
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 73,
+   "section": "a",
+   "band": 0,
+   "count": 15,
+   "articles": 8,
+   "by_journal": {
+    "Phronesis": 4,
+    "History of Philosophy Quarterly": 1,
+    "Méthexis": 1,
+    "The Classical Quarterly": 7,
+    "The Classical Review": 1,
+    "Hermes": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 73,
+   "section": "a",
+   "band": 1,
+   "count": 6,
+   "articles": 6,
+   "by_journal": {
+    "Phronesis": 3,
+    "Les Études philosophiques": 1,
+    "Recherches de théologie et philosophie médiévales": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 73,
+   "section": "a",
+   "band": 2,
+   "count": 11,
+   "articles": 9,
+   "by_journal": {
+    "Phronesis": 7,
+    "Méthexis": 3,
+    "Recherches de théologie et philosophie médiévales": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 73,
+   "section": "b",
+   "band": 0,
+   "count": 9,
+   "articles": 9,
+   "by_journal": {
+    "Phronesis": 5,
+    "Méthexis": 1,
+    "History of Philosophy Quarterly": 1,
+    "Classical Philology": 1,
+    "Mnemosyne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 73,
+   "section": "b",
+   "band": 1,
+   "count": 11,
+   "articles": 8,
+   "by_journal": {
     "Phronesis": 6,
-    "Revue de Philosophie Ancienne": 2
+    "Les Études philosophiques": 1,
+    "Revue de Philosophie Ancienne": 2,
+    "Recherches de théologie et philosophie médiévales": 1,
+    "Mnemosyne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 73,
+   "section": "b",
+   "band": 2,
+   "count": 6,
+   "articles": 5,
+   "by_journal": {
+    "Phronesis": 6
+   }
+  },
+  {
+   "book": "",
+   "page": 74,
+   "section": "a",
+   "band": 0,
+   "count": 12,
+   "articles": 8,
+   "by_journal": {
+    "Phronesis": 5,
+    "Les Études philosophiques": 1,
+    "The Classical Quarterly": 1,
+    "Revue Internationale de Philosophie": 3,
+    "The Catholic Biblical Quarterly": 1,
+    "Rheinisches Museum für Philologie": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 74,
+   "section": "a",
+   "band": 1,
+   "count": 8,
+   "articles": 4,
+   "by_journal": {
+    "Phronesis": 6,
+    "Harvard Studies in Classical Philology": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 74,
+   "section": "a",
+   "band": 2,
+   "count": 9,
+   "articles": 3,
+   "by_journal": {
+    "Phronesis": 6,
+    "Mnemosyne": 3
+   }
+  },
+  {
+   "book": "",
+   "page": 74,
+   "section": "b",
+   "band": 0,
+   "count": 10,
+   "articles": 7,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "Phronesis": 5,
+    "Hermes": 1,
+    "The Journal of Religion": 1,
+    "Recherches de théologie et philosophie médiévales": 1,
+    "Mnemosyne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 74,
+   "section": "b",
+   "band": 1,
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "Phronesis": 1,
+    "Revue de Philosophie Ancienne": 1,
+    "Hermes": 1
    }
   },
   {
    "book": "",
    "page": 75,
    "section": "a",
-   "count": 8,
-   "articles": 6,
+   "band": 0,
+   "count": 1,
+   "articles": 1,
    "by_journal": {
-    "Phronesis": 3,
+    "The Harvard Theological Review": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 75,
+   "section": "a",
+   "band": 1,
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 1,
+    "The Journal of Religion": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 75,
+   "section": "a",
+   "band": 2,
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "Phronesis": 1,
     "The Classical Quarterly": 1,
-    "Revue de Philosophie Ancienne": 3,
     "Méthexis": 1
    }
   },
@@ -134,112 +336,295 @@
    "book": "",
    "page": 75,
    "section": "b",
-   "count": 14,
-   "articles": 12,
+   "band": 0,
+   "count": 7,
+   "articles": 7,
+   "by_journal": {
+    "Phronesis": 4,
+    "Méthexis": 1,
+    "Les Études philosophiques": 1,
+    "Revue de Théologie et de Philosophie": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 75,
+   "section": "b",
+   "band": 1,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 75,
+   "section": "b",
+   "band": 2,
+   "count": 5,
+   "articles": 4,
    "by_journal": {
     "The Classical Review": 1,
-    "Phronesis": 10,
     "Revue de Philosophie Ancienne": 1,
-    "Méthexis": 1,
-    "Les Études philosophiques": 1
+    "Phronesis": 3
    }
   },
   {
    "book": "",
    "page": 76,
    "section": "a",
-   "count": 22,
-   "articles": 13,
-   "by_journal": {
-    "Phronesis": 9,
-    "Revue de Philosophie Ancienne": 6,
-    "Méthexis": 4,
-    "The Classical Quarterly": 1,
-    "Revue Internationale de Philosophie": 1,
-    "Les Études philosophiques": 1
-   }
-  },
-  {
-   "book": "",
-   "page": 76,
-   "section": "b",
-   "count": 21,
-   "articles": 12,
-   "by_journal": {
-    "History of Philosophy Quarterly": 1,
-    "Phronesis": 13,
-    "The Classical Quarterly": 2,
-    "Classical Philology": 1,
-    "Revue de Philosophie Ancienne": 4
-   }
-  },
-  {
-   "book": "",
-   "page": 77,
-   "section": "a",
-   "count": 15,
+   "band": 0,
+   "count": 9,
    "articles": 9,
    "by_journal": {
-    "Revue Internationale de Philosophie": 1,
-    "Phronesis": 6,
+    "Phronesis": 2,
     "The Classical Quarterly": 1,
-    "Revue de Philosophie Ancienne": 5,
+    "Revue Internationale de Philosophie": 1,
+    "Les Études philosophiques": 1,
+    "Recherches de théologie et philosophie médiévales": 1,
+    "Recherches de théologie ancienne et médiévale": 1,
+    "Revue de Théologie et de Philosophie": 1,
+    "Vigiliae Christianae": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 76,
+   "section": "a",
+   "band": 1,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Recherches de théologie et philosophie médiévales": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 76,
+   "section": "a",
+   "band": 2,
+   "count": 10,
+   "articles": 6,
+   "by_journal": {
+    "Phronesis": 4,
+    "Revue de Philosophie Ancienne": 4,
     "Méthexis": 2
    }
   },
   {
    "book": "",
-   "page": 77,
+   "page": 76,
    "section": "b",
+   "band": 0,
+   "count": 9,
+   "articles": 7,
+   "by_journal": {
+    "History of Philosophy Quarterly": 1,
+    "Phronesis": 5,
+    "Revue de Philosophie Ancienne": 2,
+    "The American Journal of Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 76,
+   "section": "b",
+   "band": 1,
+   "count": 7,
+   "articles": 7,
+   "by_journal": {
+    "Phronesis": 3,
+    "The Classical Quarterly": 1,
+    "Classical Philology": 1,
+    "Revue de Philosophie Ancienne": 1,
+    "Rheinisches Museum für Philologie": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 76,
+   "section": "b",
+   "band": 2,
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 77,
+   "section": "a",
+   "band": 0,
    "count": 3,
-   "articles": 3,
+   "articles": 2,
    "by_journal": {
     "Phronesis": 2,
-    "The Classical Review": 1
+    "Revue de Philosophie Ancienne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 77,
+   "section": "a",
+   "band": 1,
+   "count": 4,
+   "articles": 3,
+   "by_journal": {
+    "Revue Internationale de Philosophie": 1,
+    "Phronesis": 1,
+    "Revue de Philosophie Ancienne": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 77,
+   "section": "b",
+   "band": 0,
+   "count": 4,
+   "articles": 4,
+   "by_journal": {
+    "The Classical Review": 1,
+    "Recherches de théologie et philosophie médiévales": 1,
+    "Hermes": 1,
+    "The Classical Journal": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 77,
+   "section": "b",
+   "band": 1,
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 1,
+    "Transactions of the American Philological Association (1974-2014)": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 77,
+   "section": "b",
+   "band": 2,
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 1,
+    "The Classical World": 1
    }
   },
   {
    "book": "",
    "page": 78,
    "section": "a",
-   "count": 27,
-   "articles": 12,
+   "band": 0,
+   "count": 9,
+   "articles": 9,
    "by_journal": {
-    "Phronesis": 20,
     "Classical Philology": 1,
-    "Revue de Philosophie Ancienne": 4,
+    "Phronesis": 3,
+    "Revue de Philosophie Ancienne": 1,
     "The Classical Quarterly": 1,
-    "The Classical Review": 1
+    "The Classical Review": 1,
+    "The Classical World": 1,
+    "Hermes": 1
    }
   },
   {
    "book": "",
    "page": 78,
-   "section": "b",
-   "count": 7,
+   "section": "a",
+   "band": 1,
+   "count": 5,
    "articles": 5,
    "by_journal": {
-    "Phronesis": 5,
-    "Revue de Philosophie Ancienne": 1,
-    "The Classical Quarterly": 1
+    "Phronesis": 4,
+    "Mnemosyne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 78,
+   "section": "a",
+   "band": 2,
+   "count": 8,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 8
+   }
+  },
+  {
+   "book": "",
+   "page": 78,
+   "section": "b",
+   "band": 0,
+   "count": 5,
+   "articles": 4,
+   "by_journal": {
+    "Phronesis": 3,
+    "The Classical Quarterly": 1,
+    "Revue de Théologie et de Philosophie": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 78,
+   "section": "b",
+   "band": 2,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Phronesis": 1
    }
   },
   {
    "book": "",
    "page": 79,
    "section": "a",
-   "count": 25,
+   "band": 0,
+   "count": 8,
    "articles": 8,
    "by_journal": {
-    "Phronesis": 12,
-    "Revue de Philosophie Ancienne": 12,
-    "Revue Internationale de Philosophie": 1
+    "Phronesis": 2,
+    "Revue de Philosophie Ancienne": 1,
+    "Revue Internationale de Philosophie": 1,
+    "Revue de Théologie et de Philosophie": 1,
+    "The Classical Journal": 1,
+    "Quaderni Urbinati di Cultura Classica": 1,
+    "Mnemosyne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 79,
+   "section": "a",
+   "band": 1,
+   "count": 4,
+   "articles": 3,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 3,
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 79,
+   "section": "a",
+   "band": 2,
+   "count": 11,
+   "articles": 3,
+   "by_journal": {
+    "Phronesis": 7,
+    "Revue de Philosophie Ancienne": 4
    }
   },
   {
    "book": "",
    "page": 79,
    "section": "b",
+   "band": 0,
    "count": 2,
    "articles": 1,
    "by_journal": {
@@ -250,10 +635,22 @@
    "book": "",
    "page": 81,
    "section": "a",
-   "count": 10,
-   "articles": 8,
+   "band": 0,
+   "count": 1,
+   "articles": 1,
    "by_journal": {
-    "Phronesis": 7,
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 81,
+   "section": "a",
+   "band": 2,
+   "count": 6,
+   "articles": 4,
+   "by_journal": {
+    "Phronesis": 3,
     "History of Philosophy Quarterly": 1,
     "Revue de Philosophie Ancienne": 2
    }
@@ -262,33 +659,84 @@
    "book": "",
    "page": 81,
    "section": "b",
-   "count": 6,
+   "band": 0,
+   "count": 7,
    "articles": 5,
    "by_journal": {
-    "Phronesis": 5,
-    "Méthexis": 1
+    "Phronesis": 4,
+    "Harvard Studies in Classical Philology": 2,
+    "The American Journal of Philology": 1
    }
   },
   {
    "book": "",
-   "page": 82,
-   "section": "a",
-   "count": 5,
+   "page": 81,
+   "section": "b",
+   "band": 1,
+   "count": 2,
    "articles": 2,
    "by_journal": {
-    "Phronesis": 4,
-    "The Classical Quarterly": 1
+    "Phronesis": 1,
+    "Méthexis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 82,
+   "section": "a",
+   "band": 0,
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "Phronesis": 1,
+    "The Classical Quarterly": 1,
+    "Mnemosyne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 82,
+   "section": "a",
+   "band": 1,
+   "count": 3,
+   "articles": 1,
+   "by_journal": {
+    "Phronesis": 3
    }
   },
   {
    "book": "",
    "page": 82,
    "section": "b",
+   "band": 1,
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "The Classical Review": 1,
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 82,
+   "section": "b",
+   "band": 2,
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 83,
+   "section": "a",
+   "band": 0,
    "count": 7,
    "articles": 5,
    "by_journal": {
     "Phronesis": 5,
-    "The Classical Review": 1,
+    "History of Philosophy Quarterly": 1,
     "Revue de Philosophie Ancienne": 1
    }
   },
@@ -296,46 +744,106 @@
    "book": "",
    "page": 83,
    "section": "a",
-   "count": 15,
-   "articles": 8,
+   "band": 1,
+   "count": 6,
+   "articles": 4,
    "by_journal": {
-    "Phronesis": 10,
-    "History of Philosophy Quarterly": 1,
-    "Revue de Philosophie Ancienne": 3,
+    "Phronesis": 3,
+    "Revue de Philosophie Ancienne": 2,
     "Méthexis": 1
    }
   },
   {
    "book": "",
    "page": 83,
-   "section": "b",
-   "count": 9,
-   "articles": 5,
+   "section": "a",
+   "band": 2,
+   "count": 2,
+   "articles": 2,
    "by_journal": {
-    "Phronesis": 8,
+    "Phronesis": 1,
+    "Mnemosyne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 83,
+   "section": "b",
+   "band": 0,
+   "count": 4,
+   "articles": 4,
+   "by_journal": {
+    "Phronesis": 3,
+    "Mnemosyne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 83,
+   "section": "b",
+   "band": 1,
+   "count": 3,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 2,
     "Revue de Philosophie Ancienne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 83,
+   "section": "b",
+   "band": 2,
+   "count": 2,
+   "articles": 1,
+   "by_journal": {
+    "Phronesis": 2
    }
   },
   {
    "book": "",
    "page": 84,
    "section": "a",
-   "count": 6,
-   "articles": 5,
+   "band": 0,
+   "count": 4,
+   "articles": 3,
    "by_journal": {
     "The Classical Quarterly": 1,
-    "Phronesis": 4,
-    "Revue de Philosophie Ancienne": 1
+    "Phronesis": 2,
+    "Mnemosyne": 1
    }
   },
   {
    "book": "",
    "page": 84,
    "section": "b",
-   "count": 7,
-   "articles": 5,
+   "band": 0,
+   "count": 1,
+   "articles": 1,
    "by_journal": {
-    "Phronesis": 6,
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 84,
+   "section": "b",
+   "band": 1,
+   "count": 4,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 4
+   }
+  },
+  {
+   "book": "",
+   "page": 84,
+   "section": "b",
+   "band": 2,
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 1,
     "Revue de Philosophie Ancienne": 1
    }
   },
@@ -343,206 +851,562 @@
    "book": "",
    "page": 85,
    "section": "a",
-   "count": 7,
-   "articles": 6,
+   "band": 0,
+   "count": 3,
+   "articles": 3,
    "by_journal": {
-    "Phronesis": 5,
     "The Classical Quarterly": 1,
+    "Phronesis": 1,
     "Revue de Philosophie Ancienne": 1
    }
   },
   {
    "book": "",
    "page": 85,
-   "section": "b",
-   "count": 11,
-   "articles": 6,
+   "section": "a",
+   "band": 1,
+   "count": 2,
+   "articles": 2,
    "by_journal": {
-    "Phronesis": 7,
-    "Revue de Philosophie Ancienne": 2,
+    "Phronesis": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 85,
+   "section": "a",
+   "band": 2,
+   "count": 2,
+   "articles": 1,
+   "by_journal": {
+    "Phronesis": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 85,
+   "section": "b",
+   "band": 0,
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "Phronesis": 1,
     "History of Philosophy Quarterly": 1,
     "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 85,
+   "section": "b",
+   "band": 1,
+   "count": 5,
+   "articles": 3,
+   "by_journal": {
+    "Phronesis": 3,
+    "Revue de Philosophie Ancienne": 2
    }
   },
   {
    "book": "",
    "page": 86,
    "section": "a",
-   "count": 9,
-   "articles": 6,
-   "by_journal": {
-    "Phronesis": 7,
-    "Revue de Philosophie Ancienne": 2
-   }
-  },
-  {
-   "book": "",
-   "page": 87,
-   "section": "a",
-   "count": 9,
-   "articles": 7,
-   "by_journal": {
-    "The Classical Review": 1,
-    "Phronesis": 4,
-    "Revue de Philosophie Ancienne": 2,
-    "Méthexis": 2
-   }
-  },
-  {
-   "book": "",
-   "page": 87,
-   "section": "b",
-   "count": 26,
-   "articles": 18,
-   "by_journal": {
-    "Phronesis": 21,
-    "History of Philosophy Quarterly": 2,
-    "Revue de Philosophie Ancienne": 2,
-    "The Classical Quarterly": 1
-   }
-  },
-  {
-   "book": "",
-   "page": 88,
-   "section": "a",
-   "count": 8,
-   "articles": 5,
-   "by_journal": {
-    "Phronesis": 5,
-    "Revue de Philosophie Ancienne": 3
-   }
-  },
-  {
-   "book": "",
-   "page": 88,
-   "section": "b",
-   "count": 16,
-   "articles": 7,
-   "by_journal": {
-    "The Classical Quarterly": 2,
-    "Phronesis": 14
-   }
-  },
-  {
-   "book": "",
-   "page": 89,
-   "section": "a",
+   "band": 0,
    "count": 3,
    "articles": 3,
    "by_journal": {
-    "The Classical Quarterly": 2,
+    "Phronesis": 2,
+    "Recherches de théologie et philosophie médiévales": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 86,
+   "section": "a",
+   "band": 1,
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 1,
+    "Revue de Philosophie Ancienne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 86,
+   "section": "a",
+   "band": 2,
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 1,
+    "The Harvard Theological Review": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 86,
+   "section": "b",
+   "band": 2,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Hermes": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 87,
+   "section": "a",
+   "band": 0,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
     "Phronesis": 1
    }
   },
   {
    "book": "",
-   "page": 89,
-   "section": "b",
-   "count": 33,
-   "articles": 13,
-   "by_journal": {
-    "History of Philosophy Quarterly": 2,
-    "Revue de Philosophie Ancienne": 9,
-    "Phronesis": 14,
-    "The Classical Quarterly": 8
-   }
-  },
-  {
-   "book": "",
-   "page": 90,
+   "page": 87,
    "section": "a",
-   "count": 26,
-   "articles": 9,
+   "band": 1,
+   "count": 1,
+   "articles": 1,
    "by_journal": {
-    "History of Philosophy Quarterly": 1,
-    "Phronesis": 17,
-    "Revue de Philosophie Ancienne": 8
+    "The Classical Review": 1
    }
   },
   {
    "book": "",
-   "page": 90,
-   "section": "b",
-   "count": 12,
-   "articles": 11,
-   "by_journal": {
-    "History of Philosophy Quarterly": 1,
-    "Phronesis": 5,
-    "Les Études philosophiques": 2,
-    "Revue de Philosophie Ancienne": 1,
-    "Méthexis": 3
-   }
-  },
-  {
-   "book": "",
-   "page": 91,
+   "page": 87,
    "section": "a",
-   "count": 7,
+   "band": 2,
+   "count": 9,
    "articles": 6,
+   "by_journal": {
+    "Phronesis": 3,
+    "Revue de Philosophie Ancienne": 2,
+    "Méthexis": 2,
+    "Harvard Studies in Classical Philology": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 87,
+   "section": "b",
+   "band": 0,
+   "count": 5,
+   "articles": 5,
    "by_journal": {
     "Revue de Philosophie Ancienne": 1,
     "Phronesis": 3,
-    "Méthexis": 1,
-    "Les Études philosophiques": 1,
     "The Classical Quarterly": 1
    }
   },
   {
    "book": "",
-   "page": 91,
+   "page": 87,
    "section": "b",
-   "count": 6,
-   "articles": 5,
+   "band": 1,
+   "count": 16,
+   "articles": 9,
    "by_journal": {
-    "The Classical Quarterly": 1,
+    "Phronesis": 15,
+    "History of Philosophy Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 87,
+   "section": "b",
+   "band": 2,
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "History of Philosophy Quarterly": 1,
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 88,
+   "section": "a",
+   "band": 0,
+   "count": 4,
+   "articles": 3,
+   "by_journal": {
+    "Phronesis": 3,
+    "The Harvard Theological Review": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 88,
+   "section": "a",
+   "band": 1,
+   "count": 2,
+   "articles": 1,
+   "by_journal": {
+    "Harvard Studies in Classical Philology": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 88,
+   "section": "b",
+   "band": 0,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 88,
+   "section": "b",
+   "band": 1,
+   "count": 3,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 3
+   }
+  },
+  {
+   "book": "",
+   "page": 88,
+   "section": "b",
+   "band": 2,
+   "count": 13,
+   "articles": 6,
+   "by_journal": {
+    "Phronesis": 11,
+    "Recherches de théologie et philosophie médiévales": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 89,
+   "section": "a",
+   "band": 0,
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 1,
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 89,
+   "section": "b",
+   "band": 0,
+   "count": 9,
+   "articles": 3,
+   "by_journal": {
+    "Phronesis": 8,
+    "Biblica": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 89,
+   "section": "b",
+   "band": 1,
+   "count": 12,
+   "articles": 6,
+   "by_journal": {
+    "History of Philosophy Quarterly": 1,
     "Revue de Philosophie Ancienne": 4,
+    "Phronesis": 2,
+    "The Classical Quarterly": 5
+   }
+  },
+  {
+   "book": "",
+   "page": 89,
+   "section": "b",
+   "band": 2,
+   "count": 8,
+   "articles": 6,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 2,
+    "Phronesis": 3,
+    "The Classical Quarterly": 3
+   }
+  },
+  {
+   "book": "",
+   "page": 90,
+   "section": "a",
+   "band": 0,
+   "count": 18,
+   "articles": 7,
+   "by_journal": {
+    "History of Philosophy Quarterly": 1,
+    "Phronesis": 13,
+    "Revue de Philosophie Ancienne": 3,
+    "The American Journal of Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 90,
+   "section": "a",
+   "band": 1,
+   "count": 4,
+   "articles": 3,
+   "by_journal": {
+    "Phronesis": 3,
+    "Revue de Philosophie Ancienne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 90,
+   "section": "a",
+   "band": 2,
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 1,
+    "Revue de Philosophie Ancienne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 90,
+   "section": "b",
+   "band": 0,
+   "count": 4,
+   "articles": 4,
+   "by_journal": {
+    "History of Philosophy Quarterly": 1,
+    "Phronesis": 2,
     "Méthexis": 1
    }
   },
   {
    "book": "",
-   "page": 92,
-   "section": "a",
-   "count": 9,
-   "articles": 4,
-   "by_journal": {
-    "Phronesis": 2,
-    "Revue de Philosophie Ancienne": 7
-   }
-  },
-  {
-   "book": "",
-   "page": 92,
+   "page": 90,
    "section": "b",
-   "count": 13,
-   "articles": 6,
+   "band": 1,
+   "count": 5,
+   "articles": 5,
    "by_journal": {
-    "Phronesis": 11,
+    "Phronesis": 3,
     "Revue de Philosophie Ancienne": 1,
     "Méthexis": 1
    }
   },
   {
    "book": "",
+   "page": 90,
+   "section": "b",
+   "band": 2,
+   "count": 3,
+   "articles": 2,
+   "by_journal": {
+    "Les Études philosophiques": 2,
+    "Méthexis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 91,
+   "section": "a",
+   "band": 0,
+   "count": 14,
+   "articles": 11,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 1,
+    "Phronesis": 1,
+    "Les Études philosophiques": 1,
+    "The Classical Quarterly": 1,
+    "The Catholic Biblical Quarterly": 6,
+    "The American Journal of Philology": 2,
+    "Zeitschrift für katholische Theologie": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 91,
+   "section": "a",
+   "band": 1,
+   "count": 2,
+   "articles": 1,
+   "by_journal": {
+    "Phronesis": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 91,
+   "section": "a",
+   "band": 2,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Méthexis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 91,
+   "section": "b",
+   "band": 0,
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "Revue de Philosophie Ancienne": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 91,
+   "section": "b",
+   "band": 1,
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 2,
+    "Classical Antiquity": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 91,
+   "section": "b",
+   "band": 2,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Méthexis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 92,
+   "section": "a",
+   "band": 0,
+   "count": 5,
+   "articles": 2,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 3,
+    "Harvard Studies in Classical Philology": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 92,
+   "section": "a",
+   "band": 1,
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 92,
+   "section": "a",
+   "band": 2,
+   "count": 3,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 2,
+    "Revue de Philosophie Ancienne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 92,
+   "section": "b",
+   "band": 0,
+   "count": 16,
+   "articles": 9,
+   "by_journal": {
+    "Phronesis": 11,
+    "Revue de Philosophie Ancienne": 1,
+    "Méthexis": 1,
+    "Religious Studies": 1,
+    "Zeitschrift für katholische Theologie": 1,
+    "Hermes": 1
+   }
+  },
+  {
+   "book": "",
    "page": 93,
    "section": "a",
-   "count": 51,
-   "articles": 10,
+   "band": 0,
+   "count": 24,
+   "articles": 7,
    "by_journal": {
-    "Phronesis": 43,
-    "Revue de Philosophie Ancienne": 8
+    "Revue de Philosophie Ancienne": 2,
+    "Phronesis": 22
+   }
+  },
+  {
+   "book": "",
+   "page": 93,
+   "section": "a",
+   "band": 1,
+   "count": 17,
+   "articles": 7,
+   "by_journal": {
+    "Phronesis": 11,
+    "Revue de Philosophie Ancienne": 6
+   }
+  },
+  {
+   "book": "",
+   "page": 93,
+   "section": "a",
+   "band": 2,
+   "count": 8,
+   "articles": 3,
+   "by_journal": {
+    "Phronesis": 7,
+    "Illinois Classical Studies": 1
    }
   },
   {
    "book": "",
    "page": 93,
    "section": "b",
-   "count": 38,
-   "articles": 11,
+   "band": 0,
+   "count": 20,
+   "articles": 5,
    "by_journal": {
-    "History of Philosophy Quarterly": 6,
-    "Phronesis": 27,
-    "Revue de Philosophie Ancienne": 4,
+    "Phronesis": 20
+   }
+  },
+  {
+   "book": "",
+   "page": 93,
+   "section": "b",
+   "band": 1,
+   "count": 4,
+   "articles": 3,
+   "by_journal": {
+    "History of Philosophy Quarterly": 2,
+    "Revue de Philosophie Ancienne": 1,
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 93,
+   "section": "b",
+   "band": 2,
+   "count": 13,
+   "articles": 5,
+   "by_journal": {
+    "History of Philosophy Quarterly": 4,
+    "Phronesis": 6,
+    "Revue de Philosophie Ancienne": 2,
     "Revue Internationale de Philosophie": 1
    }
   },
@@ -550,33 +1414,107 @@
    "book": "",
    "page": 94,
    "section": "a",
-   "count": 23,
-   "articles": 13,
+   "band": 0,
+   "count": 12,
+   "articles": 7,
    "by_journal": {
-    "History of Philosophy Quarterly": 3,
-    "Revue de Philosophie Ancienne": 4,
-    "Phronesis": 16
+    "History of Philosophy Quarterly": 1,
+    "Phronesis": 8,
+    "Revue de Philosophie Ancienne": 1,
+    "Hermes": 1,
+    "Greece & Rome": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 94,
+   "section": "a",
+   "band": 1,
+   "count": 11,
+   "articles": 8,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 2,
+    "Phronesis": 6,
+    "History of Philosophy Quarterly": 2,
+    "Mnemosyne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 94,
+   "section": "a",
+   "band": 2,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Phronesis": 1
    }
   },
   {
    "book": "",
    "page": 94,
    "section": "b",
-   "count": 7,
+   "band": 0,
+   "count": 5,
    "articles": 4,
    "by_journal": {
+    "Phronesis": 4,
+    "Revue de Théologie et de Philosophie": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 94,
+   "section": "b",
+   "band": 1,
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
     "The Classical Review": 1,
-    "Phronesis": 6
+    "Phronesis": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 94,
+   "section": "b",
+   "band": 2,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Journal of Biblical Literature": 1
    }
   },
   {
    "book": "",
    "page": 95,
    "section": "a",
-   "count": 6,
-   "articles": 4,
+   "band": 0,
+   "count": 3,
+   "articles": 3,
    "by_journal": {
-    "Phronesis": 5,
+    "Phronesis": 3
+   }
+  },
+  {
+   "book": "",
+   "page": 95,
+   "section": "a",
+   "band": 1,
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 95,
+   "section": "a",
+   "band": 2,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
     "Revue de Philosophie Ancienne": 1
    }
   },
@@ -584,6 +1522,7 @@
    "book": "",
    "page": 95,
    "section": "b",
+   "band": 0,
    "count": 3,
    "articles": 3,
    "by_journal": {
@@ -595,120 +1534,321 @@
    "book": "",
    "page": 96,
    "section": "a",
-   "count": 7,
-   "articles": 7,
+   "band": 0,
+   "count": 2,
+   "articles": 2,
    "by_journal": {
-    "Phronesis": 3,
-    "Revue de Philosophie Ancienne": 3,
+    "Phronesis": 1,
     "The Classical Quarterly": 1
    }
   },
   {
    "book": "",
    "page": 96,
-   "section": "b",
-   "count": 6,
-   "articles": 4,
+   "section": "a",
+   "band": 1,
+   "count": 2,
+   "articles": 2,
    "by_journal": {
-    "Revue de Philosophie Ancienne": 4,
-    "Méthexis": 2
+    "Phronesis": 1,
+    "Revue de Philosophie Ancienne": 1
    }
   },
   {
    "book": "",
-   "page": 97,
+   "page": 96,
    "section": "a",
-   "count": 6,
+   "band": 2,
+   "count": 2,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 1,
+    "Revue de Philosophie Ancienne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 96,
+   "section": "b",
+   "band": 1,
+   "count": 3,
    "articles": 3,
    "by_journal": {
-    "Revue de Philosophie Ancienne": 5,
+    "Revue de Philosophie Ancienne": 2,
     "Méthexis": 1
    }
   },
   {
    "book": "",
+   "page": 96,
+   "section": "b",
+   "band": 2,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 1
+   }
+  },
+  {
+   "book": "",
    "page": 97,
-   "section": "b",
-   "count": 11,
-   "articles": 6,
-   "by_journal": {
-    "Phronesis": 7,
-    "Méthexis": 1,
-    "Revue de Philosophie Ancienne": 3
-   }
-  },
-  {
-   "book": "",
-   "page": 98,
    "section": "a",
-   "count": 16,
-   "articles": 5,
+   "band": 0,
+   "count": 2,
+   "articles": 1,
    "by_journal": {
-    "Phronesis": 14,
-    "Revue Internationale de Philosophie": 1,
-    "The Classical Quarterly": 1
-   }
-  },
-  {
-   "book": "",
-   "page": 98,
-   "section": "b",
-   "count": 5,
-   "articles": 3,
-   "by_journal": {
-    "Phronesis": 5
-   }
-  },
-  {
-   "book": "",
-   "page": 99,
-   "section": "a",
-   "count": 8,
-   "articles": 5,
-   "by_journal": {
-    "Phronesis": 6,
-    "Méthexis": 1,
-    "The Classical Quarterly": 1
-   }
-  },
-  {
-   "book": "",
-   "page": 99,
-   "section": "b",
-   "count": 42,
-   "articles": 13,
-   "by_journal": {
-    "Phronesis": 37,
-    "The Classical Quarterly": 1,
-    "History of Philosophy Quarterly": 2,
     "Revue de Philosophie Ancienne": 2
    }
   },
   {
    "book": "",
+   "page": 97,
+   "section": "a",
+   "band": 1,
+   "count": 2,
+   "articles": 1,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 97,
+   "section": "b",
+   "band": 0,
+   "count": 7,
+   "articles": 6,
+   "by_journal": {
+    "Phronesis": 4,
+    "Revue de Philosophie Ancienne": 1,
+    "Hermes": 1,
+    "Quaderni Urbinati di Cultura Classica": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 97,
+   "section": "b",
+   "band": 1,
+   "count": 5,
+   "articles": 4,
+   "by_journal": {
+    "Phronesis": 3,
+    "Revue de Philosophie Ancienne": 1,
+    "The American Journal of Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 97,
+   "section": "b",
+   "band": 2,
+   "count": 4,
+   "articles": 3,
+   "by_journal": {
+    "Méthexis": 1,
+    "Revue de Philosophie Ancienne": 1,
+    "Harvard Studies in Classical Philology": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 98,
+   "section": "a",
+   "band": 0,
+   "count": 12,
+   "articles": 3,
+   "by_journal": {
+    "Phronesis": 11,
+    "Recherches de théologie et philosophie médiévales": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 98,
+   "section": "a",
+   "band": 1,
+   "count": 5,
+   "articles": 4,
+   "by_journal": {
+    "Phronesis": 2,
+    "Revue Internationale de Philosophie": 1,
+    "The Classical Quarterly": 1,
+    "The Classical Journal": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 98,
+   "section": "b",
+   "band": 0,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 98,
+   "section": "b",
+   "band": 1,
+   "count": 3,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 3
+   }
+  },
+  {
+   "book": "",
+   "page": 98,
+   "section": "b",
+   "band": 2,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 99,
+   "section": "a",
+   "band": 0,
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "Phronesis": 2,
+    "The Classical Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 99,
+   "section": "a",
+   "band": 1,
+   "count": 4,
+   "articles": 2,
+   "by_journal": {
+    "Phronesis": 3,
+    "Méthexis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 99,
+   "section": "a",
+   "band": 2,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Phronesis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 99,
+   "section": "b",
+   "band": 0,
+   "count": 6,
+   "articles": 4,
+   "by_journal": {
+    "Phronesis": 6
+   }
+  },
+  {
+   "book": "",
+   "page": 99,
+   "section": "b",
+   "band": 1,
+   "count": 19,
+   "articles": 5,
+   "by_journal": {
+    "Phronesis": 18,
+    "History of Philosophy Quarterly": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 99,
+   "section": "b",
+   "band": 2,
+   "count": 8,
+   "articles": 5,
+   "by_journal": {
+    "Phronesis": 6,
+    "The Classical Quarterly": 1,
+    "Mnemosyne": 1
+   }
+  },
+  {
+   "book": "",
    "page": 100,
    "section": "a",
-   "count": 38,
-   "articles": 13,
+   "band": 0,
+   "count": 31,
+   "articles": 12,
    "by_journal": {
-    "The Classical Review": 3,
     "Méthexis": 2,
-    "Phronesis": 31,
+    "Phronesis": 24,
     "Revue de Philosophie Ancienne": 1,
-    "Classical Philology": 1
+    "Classical Philology": 1,
+    "The Classical Review": 1,
+    "Recherches de théologie et philosophie médiévales": 1,
+    "Mnemosyne": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 100,
+   "section": "a",
+   "band": 1,
+   "count": 9,
+   "articles": 6,
+   "by_journal": {
+    "The Classical Review": 2,
+    "Phronesis": 5,
+    "Revue de Philosophie Ancienne": 1,
+    "Méthexis": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 100,
+   "section": "a",
+   "band": 2,
+   "count": 6,
+   "articles": 4,
+   "by_journal": {
+    "Phronesis": 4,
+    "Revue de Philosophie Ancienne": 1,
+    "Méthexis": 1
    }
   },
   {
    "book": "",
    "page": 100,
    "section": "b",
-   "count": 35,
-   "articles": 11,
+   "band": 0,
+   "count": 40,
+   "articles": 10,
    "by_journal": {
-    "Phronesis": 31,
-    "Revue de Philosophie Ancienne": 2,
-    "Méthexis": 1,
-    "History of Philosophy Quarterly": 1
+    "Phronesis": 30,
+    "Revue de Philosophie Ancienne": 1,
+    "Méthexis": 2,
+    "The Journal of Religion": 6,
+    "Recherches de théologie et philosophie médiévales": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 100,
+   "section": "b",
+   "band": 1,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "The Journal of Religion": 1
    }
   }
  ],
@@ -826,30 +1966,6 @@
    "page": 72,
    "section": "a",
    "line": 25,
-   "journal": "Phronesis",
-   "year": "2013",
-   "iid": "04231dcb-34b0-3f16-8abd-851a7e5a0564",
-   "doi": "10.2307/42000236",
-   "title": "Circular Justification and Explanation in Aristotle",
-   "author": "Owen Goldin"
-  },
-  {
-   "book": "",
-   "page": 72,
-   "section": "b",
-   "line": 36,
-   "journal": "Phronesis",
-   "year": "2013",
-   "iid": "04231dcb-34b0-3f16-8abd-851a7e5a0564",
-   "doi": "10.2307/42000236",
-   "title": "Circular Justification and Explanation in Aristotle",
-   "author": "Owen Goldin"
-  },
-  {
-   "book": "",
-   "page": 73,
-   "section": "a",
-   "line": 6,
    "journal": "Phronesis",
    "year": "2013",
    "iid": "04231dcb-34b0-3f16-8abd-851a7e5a0564",
@@ -1293,30 +2409,6 @@
    "book": "",
    "page": 71,
    "section": "b",
-   "line": 33,
-   "journal": "Revue de Philosophie Ancienne",
-   "year": "2021",
-   "iid": "146261e8-724a-3aef-8c72-8e49bb674cb3",
-   "doi": "10.2307/27142320",
-   "title": "TECHNIQUE ET MÉTHODE CHEZ ARISTOTE",
-   "author": "Henri Stephanou"
-  },
-  {
-   "book": "",
-   "page": 72,
-   "section": "a",
-   "line": 5,
-   "journal": "Revue de Philosophie Ancienne",
-   "year": "2021",
-   "iid": "146261e8-724a-3aef-8c72-8e49bb674cb3",
-   "doi": "10.2307/27142320",
-   "title": "TECHNIQUE ET MÉTHODE CHEZ ARISTOTE",
-   "author": "Henri Stephanou"
-  },
-  {
-   "book": "",
-   "page": 71,
-   "section": "b",
    "line": 9,
    "journal": "Revue de Philosophie Ancienne",
    "year": "2021",
@@ -1366,18 +2458,6 @@
    "page": 71,
    "section": "b",
    "line": 9,
-   "journal": "Phronesis",
-   "year": "2021",
-   "iid": "1660b270-8d4b-3145-bb62-954662a8a0ba",
-   "doi": "10.2307/27285980",
-   "title": "The Doing of Justice and the Priority of Acting from Virtue",
-   "author": "Patricio A. Fernandez"
-  },
-  {
-   "book": "",
-   "page": 73,
-   "section": "a",
-   "line": 34,
    "journal": "Phronesis",
    "year": "2021",
    "iid": "1660b270-8d4b-3145-bb62-954662a8a0ba",
@@ -1483,30 +2563,6 @@
   },
   {
    "book": "",
-   "page": 88,
-   "section": "b",
-   "line": 30,
-   "journal": "The Classical Quarterly",
-   "year": "2002",
-   "iid": "1b29e0f3-92f8-3686-966f-c8ba44dcaebc",
-   "doi": "10.2307/3556456",
-   "title": "The Distinction between ΦΑΝΤΑΣΙΑ and ΔΟΞΑ in Proclus' In Timaeum",
-   "author": "Peter Lautner"
-  },
-  {
-   "book": "",
-   "page": 89,
-   "section": "a",
-   "line": null,
-   "journal": "The Classical Quarterly",
-   "year": "2002",
-   "iid": "1b29e0f3-92f8-3686-966f-c8ba44dcaebc",
-   "doi": "10.2307/3556456",
-   "title": "The Distinction between ΦΑΝΤΑΣΙΑ and ΔΟΞΑ in Proclus' In Timaeum",
-   "author": "Peter Lautner"
-  },
-  {
-   "book": "",
    "page": 94,
    "section": "b",
    "line": 28,
@@ -1591,30 +2647,6 @@
   },
   {
    "book": "",
-   "page": 99,
-   "section": "b",
-   "line": 36,
-   "journal": "Phronesis",
-   "year": "2010",
-   "iid": "1bbe5ffb-35e1-346f-84b2-1bf5b8702560",
-   "doi": "10.2307/20779325",
-   "title": "Nous and Two Kinds of Epistêmê in Aristotle's \"Posterior Analytics\"",
-   "author": "Zeev Perelmuter"
-  },
-  {
-   "book": "",
-   "page": 100,
-   "section": "b",
-   "line": 4,
-   "journal": "Phronesis",
-   "year": "2010",
-   "iid": "1bbe5ffb-35e1-346f-84b2-1bf5b8702560",
-   "doi": "10.2307/20779325",
-   "title": "Nous and Two Kinds of Epistêmê in Aristotle's \"Posterior Analytics\"",
-   "author": "Zeev Perelmuter"
-  },
-  {
-   "book": "",
    "page": 100,
    "section": "a",
    "line": 3,
@@ -1654,18 +2686,6 @@
    "page": 88,
    "section": "b",
    "line": 35,
-   "journal": "Phronesis",
-   "year": "2010",
-   "iid": "1bbe5ffb-35e1-346f-84b2-1bf5b8702560",
-   "doi": "10.2307/20779325",
-   "title": "Nous and Two Kinds of Epistêmê in Aristotle's \"Posterior Analytics\"",
-   "author": "Zeev Perelmuter"
-  },
-  {
-   "book": "",
-   "page": 71,
-   "section": "a",
-   "line": 34,
    "journal": "Phronesis",
    "year": "2010",
    "iid": "1bbe5ffb-35e1-346f-84b2-1bf5b8702560",
@@ -1748,8 +2768,32 @@
   {
    "book": "",
    "page": 100,
-   "section": "b",
-   "line": 2,
+   "section": "a",
+   "line": null,
+   "journal": "Phronesis",
+   "year": "2010",
+   "iid": "1bbe5ffb-35e1-346f-84b2-1bf5b8702560",
+   "doi": "10.2307/20779325",
+   "title": "Nous and Two Kinds of Epistêmê in Aristotle's \"Posterior Analytics\"",
+   "author": "Zeev Perelmuter"
+  },
+  {
+   "book": "",
+   "page": 100,
+   "section": "a",
+   "line": 15,
+   "journal": "Phronesis",
+   "year": "2010",
+   "iid": "1bbe5ffb-35e1-346f-84b2-1bf5b8702560",
+   "doi": "10.2307/20779325",
+   "title": "Nous and Two Kinds of Epistêmê in Aristotle's \"Posterior Analytics\"",
+   "author": "Zeev Perelmuter"
+  },
+  {
+   "book": "",
+   "page": 100,
+   "section": "a",
+   "line": 30,
    "journal": "Phronesis",
    "year": "2010",
    "iid": "1bbe5ffb-35e1-346f-84b2-1bf5b8702560",
@@ -1762,6 +2806,30 @@
    "page": 100,
    "section": "b",
    "line": null,
+   "journal": "Phronesis",
+   "year": "2010",
+   "iid": "1bbe5ffb-35e1-346f-84b2-1bf5b8702560",
+   "doi": "10.2307/20779325",
+   "title": "Nous and Two Kinds of Epistêmê in Aristotle's \"Posterior Analytics\"",
+   "author": "Zeev Perelmuter"
+  },
+  {
+   "book": "",
+   "page": 100,
+   "section": "b",
+   "line": 2,
+   "journal": "Phronesis",
+   "year": "2010",
+   "iid": "1bbe5ffb-35e1-346f-84b2-1bf5b8702560",
+   "doi": "10.2307/20779325",
+   "title": "Nous and Two Kinds of Epistêmê in Aristotle's \"Posterior Analytics\"",
+   "author": "Zeev Perelmuter"
+  },
+  {
+   "book": "",
+   "page": 99,
+   "section": "b",
+   "line": 36,
    "journal": "Phronesis",
    "year": "2010",
    "iid": "1bbe5ffb-35e1-346f-84b2-1bf5b8702560",
@@ -1904,30 +2972,6 @@
   {
    "book": "",
    "page": 71,
-   "section": "b",
-   "line": 33,
-   "journal": "Revue de Philosophie Ancienne",
-   "year": "1988",
-   "iid": "2c658474-677e-32ea-a515-241d5502a1b7",
-   "doi": "10.2307/24354394",
-   "title": "L'ÉPISTÉMOLOGIE DU PRINCIPE DE CONTRADICTION CHEZ ARISTOTE",
-   "author": "D.S. HUTCHINSON"
-  },
-  {
-   "book": "",
-   "page": 72,
-   "section": "a",
-   "line": 5,
-   "journal": "Revue de Philosophie Ancienne",
-   "year": "1988",
-   "iid": "2c658474-677e-32ea-a515-241d5502a1b7",
-   "doi": "10.2307/24354394",
-   "title": "L'ÉPISTÉMOLOGIE DU PRINCIPE DE CONTRADICTION CHEZ ARISTOTE",
-   "author": "D.S. HUTCHINSON"
-  },
-  {
-   "book": "",
-   "page": 71,
    "section": "a",
    "line": 8,
    "journal": "Phronesis",
@@ -1966,30 +3010,6 @@
    "page": 75,
    "section": "b",
    "line": 2,
-   "journal": "Phronesis",
-   "year": "1983",
-   "iid": "382076f0-2d17-3597-88c4-d4719f864a73",
-   "doi": "10.2307/4182162",
-   "title": "Why the Triangle Has Two Right Angles Kath' Hauto",
-   "author": "J. E. Tiles"
-  },
-  {
-   "book": "",
-   "page": 87,
-   "section": "b",
-   "line": 35,
-   "journal": "Phronesis",
-   "year": "1983",
-   "iid": "382076f0-2d17-3597-88c4-d4719f864a73",
-   "doi": "10.2307/4182162",
-   "title": "Why the Triangle Has Two Right Angles Kath' Hauto",
-   "author": "J. E. Tiles"
-  },
-  {
-   "book": "",
-   "page": 88,
-   "section": "a",
-   "line": 5,
    "journal": "Phronesis",
    "year": "1983",
    "iid": "382076f0-2d17-3597-88c4-d4719f864a73",
@@ -2131,30 +3151,6 @@
   },
   {
    "book": "",
-   "page": 76,
-   "section": "b",
-   "line": 35,
-   "journal": "Phronesis",
-   "year": "1983",
-   "iid": "382076f0-2d17-3597-88c4-d4719f864a73",
-   "doi": "10.2307/4182162",
-   "title": "Why the Triangle Has Two Right Angles Kath' Hauto",
-   "author": "J. E. Tiles"
-  },
-  {
-   "book": "",
-   "page": 77,
-   "section": "a",
-   "line": 4,
-   "journal": "Phronesis",
-   "year": "1983",
-   "iid": "382076f0-2d17-3597-88c4-d4719f864a73",
-   "doi": "10.2307/4182162",
-   "title": "Why the Triangle Has Two Right Angles Kath' Hauto",
-   "author": "J. E. Tiles"
-  },
-  {
-   "book": "",
    "page": 73,
    "section": "a",
    "line": 34,
@@ -2227,9 +3223,9 @@
   },
   {
    "book": "",
-   "page": 99,
-   "section": "b",
-   "line": 32,
+   "page": 88,
+   "section": "a",
+   "line": 7,
    "journal": "Phronesis",
    "year": "2012",
    "iid": "3bfc6609-5e5c-33a7-b2c7-d7761ae811ed",
@@ -2239,9 +3235,9 @@
   },
   {
    "book": "",
-   "page": 88,
-   "section": "a",
-   "line": 7,
+   "page": 99,
+   "section": "b",
+   "line": 32,
    "journal": "Phronesis",
    "year": "2012",
    "iid": "3bfc6609-5e5c-33a7-b2c7-d7761ae811ed",
@@ -2434,18 +3430,6 @@
    "page": 100,
    "section": "a",
    "line": 3,
-   "journal": "Phronesis",
-   "year": "2012",
-   "iid": "3bfc6609-5e5c-33a7-b2c7-d7761ae811ed",
-   "doi": "10.2307/23249180",
-   "title": "The Origin and Aim of \"Posterior Analytics\" II.19",
-   "author": "David Bronstein"
-  },
-  {
-   "book": "",
-   "page": 99,
-   "section": "b",
-   "line": 34,
    "journal": "Phronesis",
    "year": "2012",
    "iid": "3bfc6609-5e5c-33a7-b2c7-d7761ae811ed",
@@ -2683,18 +3667,6 @@
   },
   {
    "book": "",
-   "page": 81,
-   "section": "a",
-   "line": 38,
-   "journal": "Phronesis",
-   "year": "1999",
-   "iid": "3bfd3273-14ec-3f06-a1ff-d08d185a850d",
-   "doi": "10.2307/4182603",
-   "title": "Aristotle on Platonic Recollection and the Paradox of Knowing Universals: \"Prior Analytics\" B.21 67a8-30",
-   "author": "Mark Gifford"
-  },
-  {
-   "book": "",
    "page": 71,
    "section": "a",
    "line": 24,
@@ -2746,18 +3718,6 @@
    "page": 99,
    "section": "b",
    "line": 20,
-   "journal": "History of Philosophy Quarterly",
-   "year": "1988",
-   "iid": "4092f829-fcf2-3f18-b5e8-f1e10bc01e32",
-   "doi": "10.2307/27743846",
-   "title": "Meno's Paradox and De Re Knowledge in Aristotle's Theory of Demonstration",
-   "author": "Michael Ferejohn"
-  },
-  {
-   "book": "",
-   "page": 89,
-   "section": "b",
-   "line": 33,
    "journal": "History of Philosophy Quarterly",
    "year": "1988",
    "iid": "4092f829-fcf2-3f18-b5e8-f1e10bc01e32",
@@ -2875,30 +3835,6 @@
   },
   {
    "book": "",
-   "page": 71,
-   "section": "b",
-   "line": 19,
-   "journal": "Phronesis",
-   "year": "2022",
-   "iid": "4de27333-3584-3d89-ad39-ec81041fdb6a",
-   "doi": "10.2307/27363941",
-   "title": "The Discovery of Principles in <em>Prior Analytics</em> 1.30",
-   "author": "Marko Malink"
-  },
-  {
-   "book": "",
-   "page": 72,
-   "section": "a",
-   "line": 5,
-   "journal": "Phronesis",
-   "year": "2022",
-   "iid": "4de27333-3584-3d89-ad39-ec81041fdb6a",
-   "doi": "10.2307/27363941",
-   "title": "The Discovery of Principles in <em>Prior Analytics</em> 1.30",
-   "author": "Marko Malink"
-  },
-  {
-   "book": "",
    "page": 91,
    "section": "a",
    "line": 18,
@@ -2926,30 +3862,6 @@
    "page": 81,
    "section": "b",
    "line": 18,
-   "journal": "Phronesis",
-   "year": "2022",
-   "iid": "4de27333-3584-3d89-ad39-ec81041fdb6a",
-   "doi": "10.2307/27363941",
-   "title": "The Discovery of Principles in <em>Prior Analytics</em> 1.30",
-   "author": "Marko Malink"
-  },
-  {
-   "book": "",
-   "page": 82,
-   "section": "b",
-   "line": 37,
-   "journal": "Phronesis",
-   "year": "2022",
-   "iid": "4de27333-3584-3d89-ad39-ec81041fdb6a",
-   "doi": "10.2307/27363941",
-   "title": "The Discovery of Principles in <em>Prior Analytics</em> 1.30",
-   "author": "Marko Malink"
-  },
-  {
-   "book": "",
-   "page": 83,
-   "section": "b",
-   "line": 31,
    "journal": "Phronesis",
    "year": "2022",
    "iid": "4de27333-3584-3d89-ad39-ec81041fdb6a",
@@ -3010,18 +3922,6 @@
    "page": 83,
    "section": "b",
    "line": 26,
-   "journal": "Phronesis",
-   "year": "2022",
-   "iid": "4de27333-3584-3d89-ad39-ec81041fdb6a",
-   "doi": "10.2307/27363941",
-   "title": "The Discovery of Principles in <em>Prior Analytics</em> 1.30",
-   "author": "Marko Malink"
-  },
-  {
-   "book": "",
-   "page": 84,
-   "section": "a",
-   "line": 29,
    "journal": "Phronesis",
    "year": "2022",
    "iid": "4de27333-3584-3d89-ad39-ec81041fdb6a",
@@ -3127,18 +4027,6 @@
   },
   {
    "book": "",
-   "page": 86,
-   "section": "a",
-   "line": 39,
-   "journal": "Phronesis",
-   "year": "2022",
-   "iid": "4de27333-3584-3d89-ad39-ec81041fdb6a",
-   "doi": "10.2307/27363941",
-   "title": "The Discovery of Principles in <em>Prior Analytics</em> 1.30",
-   "author": "Marko Malink"
-  },
-  {
-   "book": "",
    "page": 72,
    "section": "b",
    "line": 27,
@@ -3235,18 +4123,6 @@
   },
   {
    "book": "",
-   "page": 78,
-   "section": "a",
-   "line": 39,
-   "journal": "Phronesis",
-   "year": "2022",
-   "iid": "4de27333-3584-3d89-ad39-ec81041fdb6a",
-   "doi": "10.2307/27363941",
-   "title": "The Discovery of Principles in <em>Prior Analytics</em> 1.30",
-   "author": "Marko Malink"
-  },
-  {
-   "book": "",
    "page": 90,
    "section": "a",
    "line": 12,
@@ -3298,18 +4174,6 @@
    "page": 79,
    "section": "a",
    "line": 33,
-   "journal": "Phronesis",
-   "year": "2022",
-   "iid": "4de27333-3584-3d89-ad39-ec81041fdb6a",
-   "doi": "10.2307/27363941",
-   "title": "The Discovery of Principles in <em>Prior Analytics</em> 1.30",
-   "author": "Marko Malink"
-  },
-  {
-   "book": "",
-   "page": 79,
-   "section": "a",
-   "line": 36,
    "journal": "Phronesis",
    "year": "2022",
    "iid": "4de27333-3584-3d89-ad39-ec81041fdb6a",
@@ -3475,45 +4339,9 @@
   },
   {
    "book": "",
-   "page": 71,
-   "section": "b",
-   "line": 29,
-   "journal": "Phronesis",
-   "year": "2013",
-   "iid": "4f5da692-6290-34ac-8266-1b57e0451d55",
-   "doi": "10.2307/42000237",
-   "title": "Aristotle on Circular Proof",
-   "author": "Marko Malink"
-  },
-  {
-   "book": "",
-   "page": 72,
-   "section": "a",
-   "line": 5,
-   "journal": "Phronesis",
-   "year": "2013",
-   "iid": "4f5da692-6290-34ac-8266-1b57e0451d55",
-   "doi": "10.2307/42000237",
-   "title": "Aristotle on Circular Proof",
-   "author": "Marko Malink"
-  },
-  {
-   "book": "",
    "page": 72,
    "section": "b",
    "line": 25,
-   "journal": "Phronesis",
-   "year": "2013",
-   "iid": "4f5da692-6290-34ac-8266-1b57e0451d55",
-   "doi": "10.2307/42000237",
-   "title": "Aristotle on Circular Proof",
-   "author": "Marko Malink"
-  },
-  {
-   "book": "",
-   "page": 72,
-   "section": "b",
-   "line": 34,
    "journal": "Phronesis",
    "year": "2013",
    "iid": "4f5da692-6290-34ac-8266-1b57e0451d55",
@@ -3751,30 +4579,6 @@
   },
   {
    "book": "",
-   "page": 73,
-   "section": "b",
-   "line": 25,
-   "journal": "Phronesis",
-   "year": "1976",
-   "iid": "5bc57f14-92ec-347e-adbf-a5f0aa15a755",
-   "doi": "10.2307/4181977",
-   "title": "The Definition of the 'Predicables' in Aristotle",
-   "author": "Demetrius J. Hadgopoulos"
-  },
-  {
-   "book": "",
-   "page": 74,
-   "section": "a",
-   "line": 3,
-   "journal": "Phronesis",
-   "year": "1976",
-   "iid": "5bc57f14-92ec-347e-adbf-a5f0aa15a755",
-   "doi": "10.2307/4181977",
-   "title": "The Definition of the 'Predicables' in Aristotle",
-   "author": "Demetrius J. Hadgopoulos"
-  },
-  {
-   "book": "",
    "page": 91,
    "section": "a",
    "line": 37,
@@ -3784,18 +4588,6 @@
    "doi": "10.2307/26730255",
    "title": "Xenocrates on Plato, Pythagoras and the Poets",
    "author": "John Dillon"
-  },
-  {
-   "book": "",
-   "page": 74,
-   "section": "a",
-   "line": 38,
-   "journal": "Phronesis",
-   "year": "2019",
-   "iid": "5e53f7a7-c4c6-3cd6-a6d9-e16f0b54569c",
-   "doi": "10.2307/26832223",
-   "title": "Geometrical Objects as Properties of Sensibles",
-   "author": "Emily Katz"
   },
   {
    "book": "",
@@ -3838,30 +4630,6 @@
    "page": 76,
    "section": "b",
    "line": 6,
-   "journal": "Phronesis",
-   "year": "2019",
-   "iid": "5e53f7a7-c4c6-3cd6-a6d9-e16f0b54569c",
-   "doi": "10.2307/26832223",
-   "title": "Geometrical Objects as Properties of Sensibles",
-   "author": "Emily Katz"
-  },
-  {
-   "book": "",
-   "page": 76,
-   "section": "b",
-   "line": 39,
-   "journal": "Phronesis",
-   "year": "2019",
-   "iid": "5e53f7a7-c4c6-3cd6-a6d9-e16f0b54569c",
-   "doi": "10.2307/26832223",
-   "title": "Geometrical Objects as Properties of Sensibles",
-   "author": "Emily Katz"
-  },
-  {
-   "book": "",
-   "page": 77,
-   "section": "a",
-   "line": 3,
    "journal": "Phronesis",
    "year": "2019",
    "iid": "5e53f7a7-c4c6-3cd6-a6d9-e16f0b54569c",
@@ -3919,42 +4687,6 @@
   },
   {
    "book": "",
-   "page": 99,
-   "section": "b",
-   "line": 20,
-   "journal": "Revue de Philosophie Ancienne",
-   "year": "2020",
-   "iid": "5fad5520-935e-3aad-a6f4-4eff95477b6e",
-   "doi": "10.2307/26911519",
-   "title": "LA CONCEPTION ARISTOTÉLICIENNE DES FONCTIONS CÉRÉBRALES",
-   "author": "Léa Derome"
-  },
-  {
-   "book": "",
-   "page": 100,
-   "section": "b",
-   "line": 5,
-   "journal": "Revue de Philosophie Ancienne",
-   "year": "2020",
-   "iid": "5fad5520-935e-3aad-a6f4-4eff95477b6e",
-   "doi": "10.2307/26911519",
-   "title": "LA CONCEPTION ARISTOTÉLICIENNE DES FONCTIONS CÉRÉBRALES",
-   "author": "Léa Derome"
-  },
-  {
-   "book": "",
-   "page": 73,
-   "section": "a",
-   "line": 34,
-   "journal": "Phronesis",
-   "year": "2021",
-   "iid": "61552815-9b22-3d02-9737-6ca72908c0cf",
-   "doi": "10.2307/27073989",
-   "title": "Aristotle on Substance as Primary in Time",
-   "author": "Wolfgang Sattler"
-  },
-  {
-   "book": "",
    "page": 73,
    "section": "b",
    "line": 16,
@@ -3991,18 +4723,6 @@
   },
   {
    "book": "",
-   "page": 81,
-   "section": "a",
-   "line": 38,
-   "journal": "Phronesis",
-   "year": "1985",
-   "iid": "62bc8e16-4bdd-304f-81e1-0ca3a1d41aab",
-   "doi": "10.2307/4182215",
-   "title": "On the Terminology of 'Abstraction' in Aristotle",
-   "author": "John J. Cleary"
-  },
-  {
-   "book": "",
    "page": 74,
    "section": "a",
    "line": 32,
@@ -4030,30 +4750,6 @@
    "page": 76,
    "section": "b",
    "line": 23,
-   "journal": "The Classical Quarterly",
-   "year": "2013",
-   "iid": "62c90aa7-c3ff-3bd5-937a-51af92cf0200",
-   "doi": "10.2307/43905998",
-   "title": "ARISTOTLE AND EUCLID'S POSTULATES",
-   "author": "FABIO ACERBI"
-  },
-  {
-   "book": "",
-   "page": 76,
-   "section": "b",
-   "line": 35,
-   "journal": "The Classical Quarterly",
-   "year": "2013",
-   "iid": "62c90aa7-c3ff-3bd5-937a-51af92cf0200",
-   "doi": "10.2307/43905998",
-   "title": "ARISTOTLE AND EUCLID'S POSTULATES",
-   "author": "FABIO ACERBI"
-  },
-  {
-   "book": "",
-   "page": 77,
-   "section": "a",
-   "line": 4,
    "journal": "The Classical Quarterly",
    "year": "2013",
    "iid": "62c90aa7-c3ff-3bd5-937a-51af92cf0200",
@@ -4185,7 +4881,7 @@
    "book": "",
    "page": 100,
    "section": "a",
-   "line": 14,
+   "line": null,
    "journal": "Revue de Philosophie Ancienne",
    "year": "2020",
    "iid": "73f50a44-7c38-39f3-91b1-df9380eab900",
@@ -4195,8 +4891,8 @@
   },
   {
    "book": "",
-   "page": 96,
-   "section": "b",
+   "page": 100,
+   "section": "a",
    "line": 15,
    "journal": "Revue de Philosophie Ancienne",
    "year": "2020",
@@ -4207,9 +4903,21 @@
   },
   {
    "book": "",
-   "page": 97,
+   "page": 100,
    "section": "a",
-   "line": 6,
+   "line": 30,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2020",
+   "iid": "73f50a44-7c38-39f3-91b1-df9380eab900",
+   "doi": "10.2307/27142056",
+   "title": "COURAGE",
+   "author": "Marguerite Deslauriers"
+  },
+  {
+   "book": "",
+   "page": 100,
+   "section": "b",
+   "line": null,
    "journal": "Revue de Philosophie Ancienne",
    "year": "2020",
    "iid": "73f50a44-7c38-39f3-91b1-df9380eab900",
@@ -4228,42 +4936,6 @@
    "doi": "10.2307/24768014",
    "title": "Dialectic in the \"Phaedrus\"",
    "author": "Atsushi Hayase"
-  },
-  {
-   "book": "",
-   "page": 85,
-   "section": "b",
-   "line": 27,
-   "journal": "Phronesis",
-   "year": "2018",
-   "iid": "750b0e5d-07fe-36b2-a37f-874fac56984a",
-   "doi": "10.2307/27071892",
-   "title": "Practical and Productive Thinking in Aristotle",
-   "author": "Jozef Müller"
-  },
-  {
-   "book": "",
-   "page": 86,
-   "section": "a",
-   "line": 3,
-   "journal": "Phronesis",
-   "year": "2018",
-   "iid": "750b0e5d-07fe-36b2-a37f-874fac56984a",
-   "doi": "10.2307/27071892",
-   "title": "Practical and Productive Thinking in Aristotle",
-   "author": "Jozef Müller"
-  },
-  {
-   "book": "",
-   "page": 85,
-   "section": "b",
-   "line": 28,
-   "journal": "Phronesis",
-   "year": "2018",
-   "iid": "750b0e5d-07fe-36b2-a37f-874fac56984a",
-   "doi": "10.2307/27071892",
-   "title": "Practical and Productive Thinking in Aristotle",
-   "author": "Jozef Müller"
   },
   {
    "book": "",
@@ -4339,18 +5011,6 @@
   },
   {
    "book": "",
-   "page": 94,
-   "section": "a",
-   "line": 36,
-   "journal": "Phronesis",
-   "year": "1995",
-   "iid": "75e8eebb-52c2-3e78-ba21-e6ac2b3d3cb2",
-   "doi": "10.2307/4182504",
-   "title": "Definition through Demonstration: The Two Types of Syllogisms in \"Posterior Analytics\" II.8",
-   "author": "Greg Bayer"
-  },
-  {
-   "book": "",
    "page": 93,
    "section": "a",
    "line": 7,
@@ -4390,18 +5050,6 @@
    "page": 93,
    "section": "a",
    "line": 21,
-   "journal": "Phronesis",
-   "year": "1995",
-   "iid": "75e8eebb-52c2-3e78-ba21-e6ac2b3d3cb2",
-   "doi": "10.2307/4182504",
-   "title": "Definition through Demonstration: The Two Types of Syllogisms in \"Posterior Analytics\" II.8",
-   "author": "Greg Bayer"
-  },
-  {
-   "book": "",
-   "page": 89,
-   "section": "b",
-   "line": 34,
    "journal": "Phronesis",
    "year": "1995",
    "iid": "75e8eebb-52c2-3e78-ba21-e6ac2b3d3cb2",
@@ -4675,30 +5323,6 @@
   },
   {
    "book": "",
-   "page": 87,
-   "section": "b",
-   "line": 37,
-   "journal": "Phronesis",
-   "year": "1995",
-   "iid": "75e8eebb-52c2-3e78-ba21-e6ac2b3d3cb2",
-   "doi": "10.2307/4182504",
-   "title": "Definition through Demonstration: The Two Types of Syllogisms in \"Posterior Analytics\" II.8",
-   "author": "Greg Bayer"
-  },
-  {
-   "book": "",
-   "page": 88,
-   "section": "a",
-   "line": 2,
-   "journal": "Phronesis",
-   "year": "1995",
-   "iid": "75e8eebb-52c2-3e78-ba21-e6ac2b3d3cb2",
-   "doi": "10.2307/4182504",
-   "title": "Definition through Demonstration: The Two Types of Syllogisms in \"Posterior Analytics\" II.8",
-   "author": "Greg Bayer"
-  },
-  {
-   "book": "",
    "page": 94,
    "section": "a",
    "line": 5,
@@ -4879,30 +5503,6 @@
   },
   {
    "book": "",
-   "page": 85,
-   "section": "b",
-   "line": 39,
-   "journal": "Phronesis",
-   "year": "2021",
-   "iid": "7e4cccae-5b76-31bb-8c2e-6b31539e3589",
-   "doi": "10.2307/27073978",
-   "title": "The Supposed Material Cause in <em>Posterior Analytics</em> 2.11",
-   "author": "Nathanael Stein"
-  },
-  {
-   "book": "",
-   "page": 86,
-   "section": "a",
-   "line": 2,
-   "journal": "Phronesis",
-   "year": "2021",
-   "iid": "7e4cccae-5b76-31bb-8c2e-6b31539e3589",
-   "doi": "10.2307/27073978",
-   "title": "The Supposed Material Cause in <em>Posterior Analytics</em> 2.11",
-   "author": "Nathanael Stein"
-  },
-  {
-   "book": "",
    "page": 86,
    "section": "a",
    "line": 26,
@@ -4963,30 +5563,6 @@
   },
   {
    "book": "",
-   "page": 71,
-   "section": "b",
-   "line": 20,
-   "journal": "Phronesis",
-   "year": "2021",
-   "iid": "7e4cccae-5b76-31bb-8c2e-6b31539e3589",
-   "doi": "10.2307/27073978",
-   "title": "The Supposed Material Cause in <em>Posterior Analytics</em> 2.11",
-   "author": "Nathanael Stein"
-  },
-  {
-   "book": "",
-   "page": 72,
-   "section": "a",
-   "line": 6,
-   "journal": "Phronesis",
-   "year": "2021",
-   "iid": "7e4cccae-5b76-31bb-8c2e-6b31539e3589",
-   "doi": "10.2307/27073978",
-   "title": "The Supposed Material Cause in <em>Posterior Analytics</em> 2.11",
-   "author": "Nathanael Stein"
-  },
-  {
-   "book": "",
    "page": 98,
    "section": "a",
    "line": 7,
@@ -5002,30 +5578,6 @@
    "page": 98,
    "section": "a",
    "line": 9,
-   "journal": "Phronesis",
-   "year": "2021",
-   "iid": "7e4cccae-5b76-31bb-8c2e-6b31539e3589",
-   "doi": "10.2307/27073978",
-   "title": "The Supposed Material Cause in <em>Posterior Analytics</em> 2.11",
-   "author": "Nathanael Stein"
-  },
-  {
-   "book": "",
-   "page": 75,
-   "section": "b",
-   "line": 37,
-   "journal": "Phronesis",
-   "year": "2021",
-   "iid": "7e4cccae-5b76-31bb-8c2e-6b31539e3589",
-   "doi": "10.2307/27073978",
-   "title": "The Supposed Material Cause in <em>Posterior Analytics</em> 2.11",
-   "author": "Nathanael Stein"
-  },
-  {
-   "book": "",
-   "page": 76,
-   "section": "a",
-   "line": 3,
    "journal": "Phronesis",
    "year": "2021",
    "iid": "7e4cccae-5b76-31bb-8c2e-6b31539e3589",
@@ -5131,30 +5683,6 @@
   },
   {
    "book": "",
-   "page": 72,
-   "section": "b",
-   "line": 5,
-   "journal": "Méthexis",
-   "year": "2017",
-   "iid": "84caf0a9-893c-3452-81f8-12d4bbd4c7fa",
-   "doi": "10.2307/26414179",
-   "title": "The Two Modes of Scepticism and the Aporetic Structure of Foundationalism",
-   "author": "Massimo Catapano"
-  },
-  {
-   "book": "",
-   "page": 73,
-   "section": "a",
-   "line": 20,
-   "journal": "Méthexis",
-   "year": "2017",
-   "iid": "84caf0a9-893c-3452-81f8-12d4bbd4c7fa",
-   "doi": "10.2307/26414179",
-   "title": "The Two Modes of Scepticism and the Aporetic Structure of Foundationalism",
-   "author": "Massimo Catapano"
-  },
-  {
-   "book": "",
    "page": 75,
    "section": "a",
    "line": 39,
@@ -5299,30 +5827,6 @@
   },
   {
    "book": "",
-   "page": 78,
-   "section": "a",
-   "line": 22,
-   "journal": "Revue de Philosophie Ancienne",
-   "year": "2015",
-   "iid": "8a243dca-f913-3bf7-a1fb-59dcb9e0a911",
-   "doi": "10.2307/26394451",
-   "title": "ΕΙ ΕΣΤΙΝ. DES HYPOTHÈSES D’EXISTENCE CHEZ ARISTOTE ?",
-   "author": "António Pedro Mesquita"
-  },
-  {
-   "book": "",
-   "page": 79,
-   "section": "a",
-   "line": 16,
-   "journal": "Revue de Philosophie Ancienne",
-   "year": "2015",
-   "iid": "8a243dca-f913-3bf7-a1fb-59dcb9e0a911",
-   "doi": "10.2307/26394451",
-   "title": "ΕΙ ΕΣΤΙΝ. DES HYPOTHÈSES D’EXISTENCE CHEZ ARISTOTE ?",
-   "author": "António Pedro Mesquita"
-  },
-  {
-   "book": "",
    "page": 79,
    "section": "a",
    "line": 17,
@@ -5347,57 +5851,9 @@
   },
   {
    "book": "",
-   "page": 87,
-   "section": "b",
-   "line": 33,
-   "journal": "Revue de Philosophie Ancienne",
-   "year": "2015",
-   "iid": "8a243dca-f913-3bf7-a1fb-59dcb9e0a911",
-   "doi": "10.2307/26394451",
-   "title": "ΕΙ ΕΣΤΙΝ. DES HYPOTHÈSES D’EXISTENCE CHEZ ARISTOTE ?",
-   "author": "António Pedro Mesquita"
-  },
-  {
-   "book": "",
-   "page": 88,
-   "section": "a",
-   "line": 11,
-   "journal": "Revue de Philosophie Ancienne",
-   "year": "2015",
-   "iid": "8a243dca-f913-3bf7-a1fb-59dcb9e0a911",
-   "doi": "10.2307/26394451",
-   "title": "ΕΙ ΕΣΤΙΝ. DES HYPOTHÈSES D’EXISTENCE CHEZ ARISTOTE ?",
-   "author": "António Pedro Mesquita"
-  },
-  {
-   "book": "",
    "page": 71,
    "section": "b",
    "line": 9,
-   "journal": "Revue de Philosophie Ancienne",
-   "year": "2015",
-   "iid": "8a243dca-f913-3bf7-a1fb-59dcb9e0a911",
-   "doi": "10.2307/26394451",
-   "title": "ΕΙ ΕΣΤΙΝ. DES HYPOTHÈSES D’EXISTENCE CHEZ ARISTOTE ?",
-   "author": "António Pedro Mesquita"
-  },
-  {
-   "book": "",
-   "page": 89,
-   "section": "b",
-   "line": 36,
-   "journal": "Revue de Philosophie Ancienne",
-   "year": "2015",
-   "iid": "8a243dca-f913-3bf7-a1fb-59dcb9e0a911",
-   "doi": "10.2307/26394451",
-   "title": "ΕΙ ΕΣΤΙΝ. DES HYPOTHÈSES D’EXISTENCE CHEZ ARISTOTE ?",
-   "author": "António Pedro Mesquita"
-  },
-  {
-   "book": "",
-   "page": 90,
-   "section": "a",
-   "line": 11,
    "journal": "Revue de Philosophie Ancienne",
    "year": "2015",
    "iid": "8a243dca-f913-3bf7-a1fb-59dcb9e0a911",
@@ -5503,54 +5959,6 @@
   },
   {
    "book": "",
-   "page": 73,
-   "section": "a",
-   "line": 21,
-   "journal": "Revue de Philosophie Ancienne",
-   "year": "2015",
-   "iid": "8a243dca-f913-3bf7-a1fb-59dcb9e0a911",
-   "doi": "10.2307/26394451",
-   "title": "ΕΙ ΕΣΤΙΝ. DES HYPOTHÈSES D’EXISTENCE CHEZ ARISTOTE ?",
-   "author": "António Pedro Mesquita"
-  },
-  {
-   "book": "",
-   "page": 74,
-   "section": "a",
-   "line": 2,
-   "journal": "Revue de Philosophie Ancienne",
-   "year": "2015",
-   "iid": "8a243dca-f913-3bf7-a1fb-59dcb9e0a911",
-   "doi": "10.2307/26394451",
-   "title": "ΕΙ ΕΣΤΙΝ. DES HYPOTHÈSES D’EXISTENCE CHEZ ARISTOTE ?",
-   "author": "António Pedro Mesquita"
-  },
-  {
-   "book": "",
-   "page": 74,
-   "section": "b",
-   "line": 5,
-   "journal": "Revue de Philosophie Ancienne",
-   "year": "2015",
-   "iid": "8a243dca-f913-3bf7-a1fb-59dcb9e0a911",
-   "doi": "10.2307/26394451",
-   "title": "ΕΙ ΕΣΤΙΝ. DES HYPOTHÈSES D’EXISTENCE CHEZ ARISTOTE ?",
-   "author": "António Pedro Mesquita"
-  },
-  {
-   "book": "",
-   "page": 75,
-   "section": "a",
-   "line": 32,
-   "journal": "Revue de Philosophie Ancienne",
-   "year": "2015",
-   "iid": "8a243dca-f913-3bf7-a1fb-59dcb9e0a911",
-   "doi": "10.2307/26394451",
-   "title": "ΕΙ ΕΣΤΙΝ. DES HYPOTHÈSES D’EXISTENCE CHEZ ARISTOTE ?",
-   "author": "António Pedro Mesquita"
-  },
-  {
-   "book": "",
    "page": 72,
    "section": "a",
    "line": 5,
@@ -5566,30 +5974,6 @@
    "page": 72,
    "section": "a",
    "line": 14,
-   "journal": "Revue de Philosophie Ancienne",
-   "year": "2015",
-   "iid": "8a243dca-f913-3bf7-a1fb-59dcb9e0a911",
-   "doi": "10.2307/26394451",
-   "title": "ΕΙ ΕΣΤΙΝ. DES HYPOTHÈSES D’EXISTENCE CHEZ ARISTOTE ?",
-   "author": "António Pedro Mesquita"
-  },
-  {
-   "book": "",
-   "page": 75,
-   "section": "a",
-   "line": 38,
-   "journal": "Revue de Philosophie Ancienne",
-   "year": "2015",
-   "iid": "8a243dca-f913-3bf7-a1fb-59dcb9e0a911",
-   "doi": "10.2307/26394451",
-   "title": "ΕΙ ΕΣΤΙΝ. DES HYPOTHÈSES D’EXISTENCE CHEZ ARISTOTE ?",
-   "author": "António Pedro Mesquita"
-  },
-  {
-   "book": "",
-   "page": 76,
-   "section": "a",
-   "line": 37,
    "journal": "Revue de Philosophie Ancienne",
    "year": "2015",
    "iid": "8a243dca-f913-3bf7-a1fb-59dcb9e0a911",
@@ -5635,18 +6019,6 @@
   },
   {
    "book": "",
-   "page": 88,
-   "section": "a",
-   "line": 36,
-   "journal": "Revue de Philosophie Ancienne",
-   "year": "2015",
-   "iid": "8a243dca-f913-3bf7-a1fb-59dcb9e0a911",
-   "doi": "10.2307/26394451",
-   "title": "ΕΙ ΕΣΤΙΝ. DES HYPOTHÈSES D’EXISTENCE CHEZ ARISTOTE ?",
-   "author": "António Pedro Mesquita"
-  },
-  {
-   "book": "",
    "page": 72,
    "section": "a",
    "line": 18,
@@ -5662,18 +6034,6 @@
    "page": 76,
    "section": "b",
    "line": 24,
-   "journal": "Revue de Philosophie Ancienne",
-   "year": "2015",
-   "iid": "8a243dca-f913-3bf7-a1fb-59dcb9e0a911",
-   "doi": "10.2307/26394451",
-   "title": "ΕΙ ΕΣΤΙΝ. DES HYPOTHÈSES D’EXISTENCE CHEZ ARISTOTE ?",
-   "author": "António Pedro Mesquita"
-  },
-  {
-   "book": "",
-   "page": 77,
-   "section": "a",
-   "line": 4,
    "journal": "Revue de Philosophie Ancienne",
    "year": "2015",
    "iid": "8a243dca-f913-3bf7-a1fb-59dcb9e0a911",
@@ -5719,18 +6079,6 @@
   },
   {
    "book": "",
-   "page": 76,
-   "section": "b",
-   "line": 35,
-   "journal": "Revue de Philosophie Ancienne",
-   "year": "2015",
-   "iid": "8a243dca-f913-3bf7-a1fb-59dcb9e0a911",
-   "doi": "10.2307/26394451",
-   "title": "ΕΙ ΕΣΤΙΝ. DES HYPOTHÈSES D’EXISTENCE CHEZ ARISTOTE ?",
-   "author": "António Pedro Mesquita"
-  },
-  {
-   "book": "",
    "page": 79,
    "section": "a",
    "line": 24,
@@ -5746,18 +6094,6 @@
    "page": 90,
    "section": "b",
    "line": 24,
-   "journal": "Revue de Philosophie Ancienne",
-   "year": "2015",
-   "iid": "8a243dca-f913-3bf7-a1fb-59dcb9e0a911",
-   "doi": "10.2307/26394451",
-   "title": "ΕΙ ΕΣΤΙΝ. DES HYPOTHÈSES D’EXISTENCE CHEZ ARISTOTE ?",
-   "author": "António Pedro Mesquita"
-  },
-  {
-   "book": "",
-   "page": 71,
-   "section": "a",
-   "line": 1,
    "journal": "Revue de Philosophie Ancienne",
    "year": "2015",
    "iid": "8a243dca-f913-3bf7-a1fb-59dcb9e0a911",
@@ -5794,18 +6130,6 @@
    "page": 89,
    "section": "b",
    "line": 31,
-   "journal": "Revue de Philosophie Ancienne",
-   "year": "2015",
-   "iid": "8a243dca-f913-3bf7-a1fb-59dcb9e0a911",
-   "doi": "10.2307/26394451",
-   "title": "ΕΙ ΕΣΤΙΝ. DES HYPOTHÈSES D’EXISTENCE CHEZ ARISTOTE ?",
-   "author": "António Pedro Mesquita"
-  },
-  {
-   "book": "",
-   "page": 90,
-   "section": "a",
-   "line": 1,
    "journal": "Revue de Philosophie Ancienne",
    "year": "2015",
    "iid": "8a243dca-f913-3bf7-a1fb-59dcb9e0a911",
@@ -5863,30 +6187,6 @@
   },
   {
    "book": "",
-   "page": 82,
-   "section": "b",
-   "line": 37,
-   "journal": "Revue de Philosophie Ancienne",
-   "year": "2015",
-   "iid": "8a243dca-f913-3bf7-a1fb-59dcb9e0a911",
-   "doi": "10.2307/26394451",
-   "title": "ΕΙ ΕΣΤΙΝ. DES HYPOTHÈSES D’EXISTENCE CHEZ ARISTOTE ?",
-   "author": "António Pedro Mesquita"
-  },
-  {
-   "book": "",
-   "page": 84,
-   "section": "a",
-   "line": 30,
-   "journal": "Revue de Philosophie Ancienne",
-   "year": "2015",
-   "iid": "8a243dca-f913-3bf7-a1fb-59dcb9e0a911",
-   "doi": "10.2307/26394451",
-   "title": "ΕΙ ΕΣΤΙΝ. DES HYPOTHÈSES D’EXISTENCE CHEZ ARISTOTE ?",
-   "author": "António Pedro Mesquita"
-  },
-  {
-   "book": "",
    "page": 86,
    "section": "a",
    "line": 30,
@@ -5899,9 +6199,9 @@
   },
   {
    "book": "",
-   "page": 88,
+   "page": 77,
    "section": "a",
-   "line": 19,
+   "line": 4,
    "journal": "Revue de Philosophie Ancienne",
    "year": "2015",
    "iid": "8a243dca-f913-3bf7-a1fb-59dcb9e0a911",
@@ -5983,30 +6283,6 @@
   },
   {
    "book": "",
-   "page": 93,
-   "section": "b",
-   "line": 38,
-   "journal": "Revue de Philosophie Ancienne",
-   "year": "2015",
-   "iid": "8a243dca-f913-3bf7-a1fb-59dcb9e0a911",
-   "doi": "10.2307/26394451",
-   "title": "ΕΙ ΕΣΤΙΝ. DES HYPOTHÈSES D’EXISTENCE CHEZ ARISTOTE ?",
-   "author": "António Pedro Mesquita"
-  },
-  {
-   "book": "",
-   "page": 94,
-   "section": "a",
-   "line": 9,
-   "journal": "Revue de Philosophie Ancienne",
-   "year": "2015",
-   "iid": "8a243dca-f913-3bf7-a1fb-59dcb9e0a911",
-   "doi": "10.2307/26394451",
-   "title": "ΕΙ ΕΣΤΙΝ. DES HYPOTHÈSES D’EXISTENCE CHEZ ARISTOTE ?",
-   "author": "António Pedro Mesquita"
-  },
-  {
-   "book": "",
    "page": 87,
    "section": "a",
    "line": 38,
@@ -6034,30 +6310,6 @@
    "page": 90,
    "section": "a",
    "line": 24,
-   "journal": "Revue de Philosophie Ancienne",
-   "year": "2015",
-   "iid": "8a243dca-f913-3bf7-a1fb-59dcb9e0a911",
-   "doi": "10.2307/26394451",
-   "title": "ΕΙ ΕΣΤΙΝ. DES HYPOTHÈSES D’EXISTENCE CHEZ ARISTOTE ?",
-   "author": "António Pedro Mesquita"
-  },
-  {
-   "book": "",
-   "page": 99,
-   "section": "b",
-   "line": 20,
-   "journal": "Revue de Philosophie Ancienne",
-   "year": "2015",
-   "iid": "8a243dca-f913-3bf7-a1fb-59dcb9e0a911",
-   "doi": "10.2307/26394451",
-   "title": "ΕΙ ΕΣΤΙΝ. DES HYPOTHÈSES D’EXISTENCE CHEZ ARISTOTE ?",
-   "author": "António Pedro Mesquita"
-  },
-  {
-   "book": "",
-   "page": 100,
-   "section": "b",
-   "line": 5,
    "journal": "Revue de Philosophie Ancienne",
    "year": "2015",
    "iid": "8a243dca-f913-3bf7-a1fb-59dcb9e0a911",
@@ -6106,18 +6358,6 @@
    "page": 91,
    "section": "b",
    "line": 1,
-   "journal": "Revue de Philosophie Ancienne",
-   "year": "2015",
-   "iid": "8a243dca-f913-3bf7-a1fb-59dcb9e0a911",
-   "doi": "10.2307/26394451",
-   "title": "ΕΙ ΕΣΤΙΝ. DES HYPOTHÈSES D’EXISTENCE CHEZ ARISTOTE ?",
-   "author": "António Pedro Mesquita"
-  },
-  {
-   "book": "",
-   "page": 96,
-   "section": "a",
-   "line": 20,
    "journal": "Revue de Philosophie Ancienne",
    "year": "2015",
    "iid": "8a243dca-f913-3bf7-a1fb-59dcb9e0a911",
@@ -6202,6 +6442,18 @@
    "page": 93,
    "section": "a",
    "line": 27,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2015",
+   "iid": "8a243dca-f913-3bf7-a1fb-59dcb9e0a911",
+   "doi": "10.2307/26394451",
+   "title": "ΕΙ ΕΣΤΙΝ. DES HYPOTHÈSES D’EXISTENCE CHEZ ARISTOTE ?",
+   "author": "António Pedro Mesquita"
+  },
+  {
+   "book": "",
+   "page": 71,
+   "section": "a",
+   "line": 1,
    "journal": "Revue de Philosophie Ancienne",
    "year": "2015",
    "iid": "8a243dca-f913-3bf7-a1fb-59dcb9e0a911",
@@ -6331,30 +6583,6 @@
   },
   {
    "book": "",
-   "page": 81,
-   "section": "a",
-   "line": 38,
-   "journal": "Phronesis",
-   "year": "2020",
-   "iid": "906fdc9d-a04f-3f56-9807-e2f0788bc581",
-   "doi": "10.2307/26952094",
-   "title": "Aristotle and the Origins of Evil",
-   "author": "Jozef Müller"
-  },
-  {
-   "book": "",
-   "page": 78,
-   "section": "a",
-   "line": 22,
-   "journal": "Phronesis",
-   "year": "2021",
-   "iid": "921d6e3e-561f-32af-8dfc-22be0b85f474",
-   "doi": "10.2307/27073982",
-   "title": "Immediacy in Aristotle's Epistemology",
-   "author": "Breno Zuppolini"
-  },
-  {
-   "book": "",
    "page": 71,
    "section": "b",
    "line": 9,
@@ -6415,18 +6643,6 @@
   },
   {
    "book": "",
-   "page": 76,
-   "section": "a",
-   "line": 37,
-   "journal": "Phronesis",
-   "year": "2021",
-   "iid": "921d6e3e-561f-32af-8dfc-22be0b85f474",
-   "doi": "10.2307/27073982",
-   "title": "Immediacy in Aristotle's Epistemology",
-   "author": "Breno Zuppolini"
-  },
-  {
-   "book": "",
    "page": 72,
    "section": "a",
    "line": 5,
@@ -6478,18 +6694,6 @@
    "page": 81,
    "section": "a",
    "line": 35,
-   "journal": "Phronesis",
-   "year": "2021",
-   "iid": "921d6e3e-561f-32af-8dfc-22be0b85f474",
-   "doi": "10.2307/27073982",
-   "title": "Immediacy in Aristotle's Epistemology",
-   "author": "Breno Zuppolini"
-  },
-  {
-   "book": "",
-   "page": 84,
-   "section": "a",
-   "line": 29,
    "journal": "Phronesis",
    "year": "2021",
    "iid": "921d6e3e-561f-32af-8dfc-22be0b85f474",
@@ -6620,6 +6824,18 @@
   {
    "book": "",
    "page": 78,
+   "section": "a",
+   "line": 22,
+   "journal": "Phronesis",
+   "year": "2021",
+   "iid": "921d6e3e-561f-32af-8dfc-22be0b85f474",
+   "doi": "10.2307/27073982",
+   "title": "Immediacy in Aristotle's Epistemology",
+   "author": "Breno Zuppolini"
+  },
+  {
+   "book": "",
+   "page": 78,
    "section": "b",
    "line": 4,
    "journal": "Phronesis",
@@ -6715,42 +6931,6 @@
   },
   {
    "book": "",
-   "page": 71,
-   "section": "b",
-   "line": 29,
-   "journal": "Phronesis",
-   "year": "2021",
-   "iid": "921d6e3e-561f-32af-8dfc-22be0b85f474",
-   "doi": "10.2307/27073982",
-   "title": "Immediacy in Aristotle's Epistemology",
-   "author": "Breno Zuppolini"
-  },
-  {
-   "book": "",
-   "page": 72,
-   "section": "a",
-   "line": 29,
-   "journal": "Phronesis",
-   "year": "2021",
-   "iid": "921d6e3e-561f-32af-8dfc-22be0b85f474",
-   "doi": "10.2307/27073982",
-   "title": "Immediacy in Aristotle's Epistemology",
-   "author": "Breno Zuppolini"
-  },
-  {
-   "book": "",
-   "page": 72,
-   "section": "b",
-   "line": 4,
-   "journal": "Phronesis",
-   "year": "2021",
-   "iid": "921d6e3e-561f-32af-8dfc-22be0b85f474",
-   "doi": "10.2307/27073982",
-   "title": "Immediacy in Aristotle's Epistemology",
-   "author": "Breno Zuppolini"
-  },
-  {
-   "book": "",
    "page": 72,
    "section": "b",
    "line": 25,
@@ -6799,18 +6979,6 @@
   },
   {
    "book": "",
-   "page": 72,
-   "section": "b",
-   "line": 32,
-   "journal": "Phronesis",
-   "year": "2021",
-   "iid": "921d6e3e-561f-32af-8dfc-22be0b85f474",
-   "doi": "10.2307/27073982",
-   "title": "Immediacy in Aristotle's Epistemology",
-   "author": "Breno Zuppolini"
-  },
-  {
-   "book": "",
    "page": 73,
    "section": "a",
    "line": 6,
@@ -6838,30 +7006,6 @@
    "page": 93,
    "section": "a",
    "line": 16,
-   "journal": "Phronesis",
-   "year": "2021",
-   "iid": "921d6e3e-561f-32af-8dfc-22be0b85f474",
-   "doi": "10.2307/27073982",
-   "title": "Immediacy in Aristotle's Epistemology",
-   "author": "Breno Zuppolini"
-  },
-  {
-   "book": "",
-   "page": 93,
-   "section": "a",
-   "line": 30,
-   "journal": "Phronesis",
-   "year": "2021",
-   "iid": "921d6e3e-561f-32af-8dfc-22be0b85f474",
-   "doi": "10.2307/27073982",
-   "title": "Immediacy in Aristotle's Epistemology",
-   "author": "Breno Zuppolini"
-  },
-  {
-   "book": "",
-   "page": 98,
-   "section": "a",
-   "line": 35,
    "journal": "Phronesis",
    "year": "2021",
    "iid": "921d6e3e-561f-32af-8dfc-22be0b85f474",
@@ -6919,45 +7063,9 @@
   },
   {
    "book": "",
-   "page": 76,
-   "section": "a",
-   "line": 9,
-   "journal": "Phronesis",
-   "year": "2021",
-   "iid": "921d6e3e-561f-32af-8dfc-22be0b85f474",
-   "doi": "10.2307/27073982",
-   "title": "Immediacy in Aristotle's Epistemology",
-   "author": "Breno Zuppolini"
-  },
-  {
-   "book": "",
    "page": 98,
    "section": "b",
    "line": 21,
-   "journal": "Phronesis",
-   "year": "2021",
-   "iid": "921d6e3e-561f-32af-8dfc-22be0b85f474",
-   "doi": "10.2307/27073982",
-   "title": "Immediacy in Aristotle's Epistemology",
-   "author": "Breno Zuppolini"
-  },
-  {
-   "book": "",
-   "page": 78,
-   "section": "b",
-   "line": 32,
-   "journal": "Phronesis",
-   "year": "2021",
-   "iid": "921d6e3e-561f-32af-8dfc-22be0b85f474",
-   "doi": "10.2307/27073982",
-   "title": "Immediacy in Aristotle's Epistemology",
-   "author": "Breno Zuppolini"
-  },
-  {
-   "book": "",
-   "page": 79,
-   "section": "a",
-   "line": 16,
    "journal": "Phronesis",
    "year": "2021",
    "iid": "921d6e3e-561f-32af-8dfc-22be0b85f474",
@@ -7027,45 +7135,9 @@
   },
   {
    "book": "",
-   "page": 72,
-   "section": "a",
-   "line": 8,
-   "journal": "Phronesis",
-   "year": "2021",
-   "iid": "921d6e3e-561f-32af-8dfc-22be0b85f474",
-   "doi": "10.2307/27073982",
-   "title": "Immediacy in Aristotle's Epistemology",
-   "author": "Breno Zuppolini"
-  },
-  {
-   "book": "",
    "page": 71,
    "section": "b",
    "line": 27,
-   "journal": "Phronesis",
-   "year": "2021",
-   "iid": "921d6e3e-561f-32af-8dfc-22be0b85f474",
-   "doi": "10.2307/27073982",
-   "title": "Immediacy in Aristotle's Epistemology",
-   "author": "Breno Zuppolini"
-  },
-  {
-   "book": "",
-   "page": 73,
-   "section": "b",
-   "line": 25,
-   "journal": "Phronesis",
-   "year": "2021",
-   "iid": "921d6e3e-561f-32af-8dfc-22be0b85f474",
-   "doi": "10.2307/27073982",
-   "title": "Immediacy in Aristotle's Epistemology",
-   "author": "Breno Zuppolini"
-  },
-  {
-   "book": "",
-   "page": 74,
-   "section": "a",
-   "line": 3,
    "journal": "Phronesis",
    "year": "2021",
    "iid": "921d6e3e-561f-32af-8dfc-22be0b85f474",
@@ -7375,45 +7447,9 @@
   },
   {
    "book": "",
-   "page": 73,
-   "section": "b",
-   "line": 25,
-   "journal": "Phronesis",
-   "year": "2006",
-   "iid": "9e25d729-48a4-354a-851a-c70445a4ee19",
-   "doi": "10.2307/4182807",
-   "title": "Sources of Delusion in \"Analytica Posteriora\" 1.5",
-   "author": "Pieter Sjoerd Hasper"
-  },
-  {
-   "book": "",
-   "page": 74,
-   "section": "a",
-   "line": 3,
-   "journal": "Phronesis",
-   "year": "2006",
-   "iid": "9e25d729-48a4-354a-851a-c70445a4ee19",
-   "doi": "10.2307/4182807",
-   "title": "Sources of Delusion in \"Analytica Posteriora\" 1.5",
-   "author": "Pieter Sjoerd Hasper"
-  },
-  {
-   "book": "",
    "page": 74,
    "section": "a",
    "line": 4,
-   "journal": "Phronesis",
-   "year": "2006",
-   "iid": "9e25d729-48a4-354a-851a-c70445a4ee19",
-   "doi": "10.2307/4182807",
-   "title": "Sources of Delusion in \"Analytica Posteriora\" 1.5",
-   "author": "Pieter Sjoerd Hasper"
-  },
-  {
-   "book": "",
-   "page": 74,
-   "section": "a",
-   "line": 32,
    "journal": "Phronesis",
    "year": "2006",
    "iid": "9e25d729-48a4-354a-851a-c70445a4ee19",
@@ -7438,18 +7474,6 @@
    "page": 99,
    "section": "a",
    "line": 35,
-   "journal": "Phronesis",
-   "year": "2006",
-   "iid": "9e25d729-48a4-354a-851a-c70445a4ee19",
-   "doi": "10.2307/4182807",
-   "title": "Sources of Delusion in \"Analytica Posteriora\" 1.5",
-   "author": "Pieter Sjoerd Hasper"
-  },
-  {
-   "book": "",
-   "page": 73,
-   "section": "a",
-   "line": 34,
    "journal": "Phronesis",
    "year": "2006",
    "iid": "9e25d729-48a4-354a-851a-c70445a4ee19",
@@ -7497,6 +7521,18 @@
    "book": "",
    "page": 74,
    "section": "a",
+   "line": 32,
+   "journal": "Phronesis",
+   "year": "2006",
+   "iid": "9e25d729-48a4-354a-851a-c70445a4ee19",
+   "doi": "10.2307/4182807",
+   "title": "Sources of Delusion in \"Analytica Posteriora\" 1.5",
+   "author": "Pieter Sjoerd Hasper"
+  },
+  {
+   "book": "",
+   "page": 74,
+   "section": "a",
    "line": 16,
    "journal": "Phronesis",
    "year": "2006",
@@ -7522,18 +7558,6 @@
    "page": 99,
    "section": "a",
    "line": 8,
-   "journal": "Phronesis",
-   "year": "2006",
-   "iid": "9e25d729-48a4-354a-851a-c70445a4ee19",
-   "doi": "10.2307/4182807",
-   "title": "Sources of Delusion in \"Analytica Posteriora\" 1.5",
-   "author": "Pieter Sjoerd Hasper"
-  },
-  {
-   "book": "",
-   "page": 99,
-   "section": "b",
-   "line": 4,
    "journal": "Phronesis",
    "year": "2006",
    "iid": "9e25d729-48a4-354a-851a-c70445a4ee19",
@@ -7677,7 +7701,31 @@
    "book": "",
    "page": 100,
    "section": "a",
-   "line": 16,
+   "line": 15,
+   "journal": "Phronesis",
+   "year": "2019",
+   "iid": "9f03d081-5102-3b9e-a92d-2f4869ac5396",
+   "doi": "10.2307/26675264",
+   "title": "The Aristotelian Psychology of Tragic Mimesis",
+   "author": "José M. González"
+  },
+  {
+   "book": "",
+   "page": 100,
+   "section": "a",
+   "line": 30,
+   "journal": "Phronesis",
+   "year": "2019",
+   "iid": "9f03d081-5102-3b9e-a92d-2f4869ac5396",
+   "doi": "10.2307/26675264",
+   "title": "The Aristotelian Psychology of Tragic Mimesis",
+   "author": "José M. González"
+  },
+  {
+   "book": "",
+   "page": 100,
+   "section": "b",
+   "line": null,
    "journal": "Phronesis",
    "year": "2019",
    "iid": "9f03d081-5102-3b9e-a92d-2f4869ac5396",
@@ -7750,30 +7798,6 @@
    "page": 72,
    "section": "b",
    "line": 32,
-   "journal": "Phronesis",
-   "year": "2019",
-   "iid": "9f03d081-5102-3b9e-a92d-2f4869ac5396",
-   "doi": "10.2307/26675264",
-   "title": "The Aristotelian Psychology of Tragic Mimesis",
-   "author": "José M. González"
-  },
-  {
-   "book": "",
-   "page": 73,
-   "section": "a",
-   "line": 6,
-   "journal": "Phronesis",
-   "year": "2019",
-   "iid": "9f03d081-5102-3b9e-a92d-2f4869ac5396",
-   "doi": "10.2307/26675264",
-   "title": "The Aristotelian Psychology of Tragic Mimesis",
-   "author": "José M. González"
-  },
-  {
-   "book": "",
-   "page": 72,
-   "section": "b",
-   "line": 37,
    "journal": "Phronesis",
    "year": "2019",
    "iid": "9f03d081-5102-3b9e-a92d-2f4869ac5396",
@@ -8037,19 +8061,7 @@
    "book": "",
    "page": 76,
    "section": "a",
-   "line": 31,
-   "journal": "Méthexis",
-   "year": "2008",
-   "iid": "a3de5057-debc-32f4-9f03-ddc9cdafcde1",
-   "doi": "10.2307/43739201",
-   "title": "CONSIDERAZIONI CRITICHE SULLA PRESENZA DI ARISTOTELE NELL' \"IN EUCLIDEM\" DI PROCLO",
-   "author": "Giovanna G. Giardina, GIOVANNA R. GIARDINA"
-  },
-  {
-   "book": "",
-   "page": 77,
-   "section": "a",
-   "line": 4,
+   "line": 30,
    "journal": "Méthexis",
    "year": "2008",
    "iid": "a3de5057-debc-32f4-9f03-ddc9cdafcde1",
@@ -8061,7 +8073,7 @@
    "book": "",
    "page": 76,
    "section": "a",
-   "line": 30,
+   "line": 31,
    "journal": "Méthexis",
    "year": "2008",
    "iid": "a3de5057-debc-32f4-9f03-ddc9cdafcde1",
@@ -8109,7 +8121,43 @@
    "book": "",
    "page": 100,
    "section": "a",
-   "line": 6,
+   "line": null,
+   "journal": "Méthexis",
+   "year": "2014",
+   "iid": "a5ca1c5d-5b28-33b7-a6c0-5d20b16a9b6f",
+   "doi": "10.2307/44820260",
+   "title": "DIVISION, DIALECTIQUE ET DÉFINITION CHEZ PLATON ET ARISTOTE",
+   "author": "SYLVAIN DELCOMMINETTE"
+  },
+  {
+   "book": "",
+   "page": 100,
+   "section": "a",
+   "line": 15,
+   "journal": "Méthexis",
+   "year": "2014",
+   "iid": "a5ca1c5d-5b28-33b7-a6c0-5d20b16a9b6f",
+   "doi": "10.2307/44820260",
+   "title": "DIVISION, DIALECTIQUE ET DÉFINITION CHEZ PLATON ET ARISTOTE",
+   "author": "SYLVAIN DELCOMMINETTE"
+  },
+  {
+   "book": "",
+   "page": 100,
+   "section": "a",
+   "line": 30,
+   "journal": "Méthexis",
+   "year": "2014",
+   "iid": "a5ca1c5d-5b28-33b7-a6c0-5d20b16a9b6f",
+   "doi": "10.2307/44820260",
+   "title": "DIVISION, DIALECTIQUE ET DÉFINITION CHEZ PLATON ET ARISTOTE",
+   "author": "SYLVAIN DELCOMMINETTE"
+  },
+  {
+   "book": "",
+   "page": 100,
+   "section": "b",
+   "line": null,
    "journal": "Méthexis",
    "year": "2014",
    "iid": "a5ca1c5d-5b28-33b7-a6c0-5d20b16a9b6f",
@@ -8152,18 +8200,6 @@
    "doi": "10.2307/23270776",
    "title": "THE \"POSTERIOR ANALYTICS\"",
    "author": "PAOLO C. BIONDI, J.H. Lesher"
-  },
-  {
-   "book": "",
-   "page": 73,
-   "section": "a",
-   "line": 34,
-   "journal": "Revue de Philosophie Ancienne",
-   "year": "2017",
-   "iid": "aa8b38ff-af67-3c16-9798-bfb10c400055",
-   "doi": "10.2307/26394505",
-   "title": "PLATON SUR LE PONTAUX ÂNES",
-   "author": "Michel Crubellier"
   },
   {
    "book": "",
@@ -8356,30 +8392,6 @@
    "doi": "10.2307/4182121",
    "title": "A Note on Aristotelian epagōgē",
    "author": "Thomas V. Upton"
-  },
-  {
-   "book": "",
-   "page": 78,
-   "section": "b",
-   "line": 32,
-   "journal": "Revue de Philosophie Ancienne",
-   "year": "2022",
-   "iid": "ab42514c-7cdf-3d50-8315-c55e78be8682",
-   "doi": "10.2307/27264376",
-   "title": "ARISTOTLE’S INTERMEDIATES AND XENOCRATES’ MATHEMATICALS",
-   "author": "Phillip Sidney Horky"
-  },
-  {
-   "book": "",
-   "page": 79,
-   "section": "a",
-   "line": 16,
-   "journal": "Revue de Philosophie Ancienne",
-   "year": "2022",
-   "iid": "ab42514c-7cdf-3d50-8315-c55e78be8682",
-   "doi": "10.2307/27264376",
-   "title": "ARISTOTLE’S INTERMEDIATES AND XENOCRATES’ MATHEMATICALS",
-   "author": "Phillip Sidney Horky"
   },
   {
    "book": "",
@@ -8587,30 +8599,6 @@
   },
   {
    "book": "",
-   "page": 99,
-   "section": "b",
-   "line": 35,
-   "journal": "History of Philosophy Quarterly",
-   "year": "2021",
-   "iid": "c9b4a599-465b-3e33-b33c-fa95291c6362",
-   "doi": "10.2307/48774274",
-   "title": "AVICENNA’S INTUITIONIST RATIONALISM",
-   "author": "Ismail Kurun"
-  },
-  {
-   "book": "",
-   "page": 100,
-   "section": "b",
-   "line": 5,
-   "journal": "History of Philosophy Quarterly",
-   "year": "2021",
-   "iid": "c9b4a599-465b-3e33-b33c-fa95291c6362",
-   "doi": "10.2307/48774274",
-   "title": "AVICENNA’S INTUITIONIST RATIONALISM",
-   "author": "Ismail Kurun"
-  },
-  {
-   "book": "",
    "page": 88,
    "section": "b",
    "line": 30,
@@ -8659,18 +8647,6 @@
   },
   {
    "book": "",
-   "page": 100,
-   "section": "a",
-   "line": null,
-   "journal": "Phronesis",
-   "year": "2010",
-   "iid": "d54d6857-6938-31ac-9172-f8f5d23a203a",
-   "doi": "10.2307/41057448",
-   "title": "\"Posterior Analytics\" and the Definition of Happiness in \"NE\" I",
-   "author": "Carlo Natali"
-  },
-  {
-   "book": "",
    "page": 72,
    "section": "a",
    "line": 8,
@@ -8686,18 +8662,6 @@
    "page": 82,
    "section": "b",
    "line": 37,
-   "journal": "Phronesis",
-   "year": "1985",
-   "iid": "d64ee765-2792-327b-82d2-113ed51e6eb6",
-   "doi": "10.2307/4182226",
-   "title": "The Scala Naturae and the Continuity of Kinds",
-   "author": "Herbert Granger"
-  },
-  {
-   "book": "",
-   "page": 83,
-   "section": "a",
-   "line": null,
    "journal": "Phronesis",
    "year": "1985",
    "iid": "d64ee765-2792-327b-82d2-113ed51e6eb6",
@@ -8851,18 +8815,6 @@
   },
   {
    "book": "",
-   "page": 75,
-   "section": "a",
-   "line": 39,
-   "journal": "Phronesis",
-   "year": "2020",
-   "iid": "e2b2cbd0-ea8e-3a7a-8637-f4ab697866f5",
-   "doi": "10.2307/26952088",
-   "title": "Mathematical Generality, Letter-Labels, and All That",
-   "author": "F. Acerbi"
-  },
-  {
-   "book": "",
    "page": 76,
    "section": "b",
    "line": 11,
@@ -8878,30 +8830,6 @@
    "page": 76,
    "section": "b",
    "line": 23,
-   "journal": "Phronesis",
-   "year": "2020",
-   "iid": "e2b2cbd0-ea8e-3a7a-8637-f4ab697866f5",
-   "doi": "10.2307/26952088",
-   "title": "Mathematical Generality, Letter-Labels, and All That",
-   "author": "F. Acerbi"
-  },
-  {
-   "book": "",
-   "page": 76,
-   "section": "b",
-   "line": 35,
-   "journal": "Phronesis",
-   "year": "2020",
-   "iid": "e2b2cbd0-ea8e-3a7a-8637-f4ab697866f5",
-   "doi": "10.2307/26952088",
-   "title": "Mathematical Generality, Letter-Labels, and All That",
-   "author": "F. Acerbi"
-  },
-  {
-   "book": "",
-   "page": 77,
-   "section": "a",
-   "line": 4,
    "journal": "Phronesis",
    "year": "2020",
    "iid": "e2b2cbd0-ea8e-3a7a-8637-f4ab697866f5",
@@ -9271,30 +9199,6 @@
   },
   {
    "book": "",
-   "page": 89,
-   "section": "b",
-   "line": 23,
-   "journal": "Revue de Philosophie Ancienne",
-   "year": "2016",
-   "iid": "f0371bcf-810f-32af-810d-b16a77e862f9",
-   "doi": "10.2307/26394446",
-   "title": "PLACE AND LOCOMOTION IN ARISTOTLE",
-   "author": "Johannes Fritsche"
-  },
-  {
-   "book": "",
-   "page": 90,
-   "section": "a",
-   "line": 34,
-   "journal": "Revue de Philosophie Ancienne",
-   "year": "2016",
-   "iid": "f0371bcf-810f-32af-810d-b16a77e862f9",
-   "doi": "10.2307/26394446",
-   "title": "PLACE AND LOCOMOTION IN ARISTOTLE",
-   "author": "Johannes Fritsche"
-  },
-  {
-   "book": "",
    "page": 77,
    "section": "b",
    "line": null,
@@ -9367,30 +9271,6 @@
   },
   {
    "book": "",
-   "page": 96,
-   "section": "b",
-   "line": 35,
-   "journal": "Méthexis",
-   "year": "2001",
-   "iid": "f2fd5328-7ea4-3c3d-a4fa-89f3fffbff96",
-   "doi": "10.2307/43738649",
-   "title": "IDENTIDAD, DEFINICIÓN Y CLASES NATURALES EN EL MÉTODO PLATÓNICO DE LA DIVISIÓN",
-   "author": "FABIÁN MIÉ"
-  },
-  {
-   "book": "",
-   "page": 97,
-   "section": "a",
-   "line": 6,
-   "journal": "Méthexis",
-   "year": "2001",
-   "iid": "f2fd5328-7ea4-3c3d-a4fa-89f3fffbff96",
-   "doi": "10.2307/43738649",
-   "title": "IDENTIDAD, DEFINICIÓN Y CLASES NATURALES EN EL MÉTODO PLATÓNICO DE LA DIVISIÓN",
-   "author": "FABIÁN MIÉ"
-  },
-  {
-   "book": "",
    "page": 75,
    "section": "b",
    "line": 1,
@@ -9403,69 +9283,9 @@
   },
   {
    "book": "",
-   "page": 73,
-   "section": "a",
-   "line": 34,
-   "journal": "The Classical Quarterly",
-   "year": "1972",
-   "iid": "f7992537-cd4c-30d6-a4d6-1baf8f1ac22a",
-   "doi": "10.2307/638209",
-   "title": "Subordinate Demonstrative Science in the Sixth Book of Aristotle's Physics",
-   "author": "James Jope"
-  },
-  {
-   "book": "",
-   "page": 71,
-   "section": "b",
-   "line": 19,
-   "journal": "Phronesis",
-   "year": "2017",
-   "iid": "f7f05310-e280-3fb0-968d-4ce6b0acebd4",
-   "doi": "10.2307/26566206",
-   "title": "The Philosophical Justification for the Equant in Ptolemy's <em>Almagest</em>",
-   "author": "James L. Zainaldin"
-  },
-  {
-   "book": "",
-   "page": 72,
-   "section": "b",
-   "line": 4,
-   "journal": "Phronesis",
-   "year": "2017",
-   "iid": "f7f05310-e280-3fb0-968d-4ce6b0acebd4",
-   "doi": "10.2307/26566206",
-   "title": "The Philosophical Justification for the Equant in Ptolemy's <em>Almagest</em>",
-   "author": "James L. Zainaldin"
-  },
-  {
-   "book": "",
    "page": 71,
    "section": "b",
    "line": 27,
-   "journal": "Phronesis",
-   "year": "2017",
-   "iid": "f7f05310-e280-3fb0-968d-4ce6b0acebd4",
-   "doi": "10.2307/26566206",
-   "title": "The Philosophical Justification for the Equant in Ptolemy's <em>Almagest</em>",
-   "author": "James L. Zainaldin"
-  },
-  {
-   "book": "",
-   "page": 99,
-   "section": "b",
-   "line": 20,
-   "journal": "Phronesis",
-   "year": "2017",
-   "iid": "f7f05310-e280-3fb0-968d-4ce6b0acebd4",
-   "doi": "10.2307/26566206",
-   "title": "The Philosophical Justification for the Equant in Ptolemy's <em>Almagest</em>",
-   "author": "James L. Zainaldin"
-  },
-  {
-   "book": "",
-   "page": 100,
-   "section": "b",
-   "line": 17,
    "journal": "Phronesis",
    "year": "2017",
    "iid": "f7f05310-e280-3fb0-968d-4ce6b0acebd4",
@@ -9568,6 +9388,1470 @@
    "doi": "10.2307/4182480",
    "title": "What Did Pyrrho Think about \"The Nature of the Divine and the Good\"?",
    "author": "Richard Bett"
+  },
+  {
+   "book": "",
+   "page": 71,
+   "section": "b",
+   "line": 9,
+   "journal": "Hermes",
+   "year": "1994",
+   "iid": "03017549-46e5-353a-9d76-02a81c0c4929",
+   "doi": "10.2307/4477044",
+   "title": "Posidonius and Geminus on the Foundations of Mathematics",
+   "author": "Theokritos Kouremenos"
+  },
+  {
+   "book": "",
+   "page": 74,
+   "section": "b",
+   "line": 5,
+   "journal": "Hermes",
+   "year": "1994",
+   "iid": "03017549-46e5-353a-9d76-02a81c0c4929",
+   "doi": "10.2307/4477044",
+   "title": "Posidonius and Geminus on the Foundations of Mathematics",
+   "author": "Theokritos Kouremenos"
+  },
+  {
+   "book": "",
+   "page": 71,
+   "section": "b",
+   "line": 12,
+   "journal": "Hermes",
+   "year": "1994",
+   "iid": "03017549-46e5-353a-9d76-02a81c0c4929",
+   "doi": "10.2307/4477044",
+   "title": "Posidonius and Geminus on the Foundations of Mathematics",
+   "author": "Theokritos Kouremenos"
+  },
+  {
+   "book": "",
+   "page": 74,
+   "section": "b",
+   "line": 20,
+   "journal": "Hermes",
+   "year": "1994",
+   "iid": "03017549-46e5-353a-9d76-02a81c0c4929",
+   "doi": "10.2307/4477044",
+   "title": "Posidonius and Geminus on the Foundations of Mathematics",
+   "author": "Theokritos Kouremenos"
+  },
+  {
+   "book": "",
+   "page": 74,
+   "section": "a",
+   "line": 19,
+   "journal": "Harvard Studies in Classical Philology",
+   "year": "1985",
+   "iid": "08006a22-1425-3baf-bd66-52a1c610343b",
+   "doi": "10.2307/311270",
+   "title": "Χωριστός in Aristotle",
+   "author": "Donald Morrison"
+  },
+  {
+   "book": "",
+   "page": 87,
+   "section": "a",
+   "line": 32,
+   "journal": "Harvard Studies in Classical Philology",
+   "year": "1985",
+   "iid": "08006a22-1425-3baf-bd66-52a1c610343b",
+   "doi": "10.2307/311270",
+   "title": "Χωριστός in Aristotle",
+   "author": "Donald Morrison"
+  },
+  {
+   "book": "",
+   "page": 88,
+   "section": "a",
+   "line": 16,
+   "journal": "Harvard Studies in Classical Philology",
+   "year": "1985",
+   "iid": "08006a22-1425-3baf-bd66-52a1c610343b",
+   "doi": "10.2307/311270",
+   "title": "Χωριστός in Aristotle",
+   "author": "Donald Morrison"
+  },
+  {
+   "book": "",
+   "page": 92,
+   "section": "a",
+   "line": 14,
+   "journal": "Harvard Studies in Classical Philology",
+   "year": "1985",
+   "iid": "08006a22-1425-3baf-bd66-52a1c610343b",
+   "doi": "10.2307/311270",
+   "title": "Χωριστός in Aristotle",
+   "author": "Donald Morrison"
+  },
+  {
+   "book": "",
+   "page": 97,
+   "section": "b",
+   "line": 34,
+   "journal": "Harvard Studies in Classical Philology",
+   "year": "1985",
+   "iid": "08006a22-1425-3baf-bd66-52a1c610343b",
+   "doi": "10.2307/311270",
+   "title": "Χωριστός in Aristotle",
+   "author": "Donald Morrison"
+  },
+  {
+   "book": "",
+   "page": 81,
+   "section": "b",
+   "line": 5,
+   "journal": "Harvard Studies in Classical Philology",
+   "year": "1985",
+   "iid": "08006a22-1425-3baf-bd66-52a1c610343b",
+   "doi": "10.2307/311270",
+   "title": "Χωριστός in Aristotle",
+   "author": "Donald Morrison"
+  },
+  {
+   "book": "",
+   "page": 77,
+   "section": "b",
+   "line": null,
+   "journal": "Recherches de théologie et philosophie médiévales",
+   "year": "2016",
+   "iid": "0f5c07cb-1e49-3e17-a59f-b94e543eecfe",
+   "doi": "10.2307/26486075",
+   "title": "DER DÄMON IM TEXT: LATEINISCHE LESARTEN VON \"DE SOMNO\" 453B22 UND \"DE DIVINATIONE PER SOMNUM\" 463B12 ZWISCHEN 1150 UND 1650",
+   "author": "Christoph Sander"
+  },
+  {
+   "book": "",
+   "page": 71,
+   "section": "b",
+   "line": null,
+   "journal": "Recherches de théologie et philosophie médiévales",
+   "year": "2018",
+   "iid": "16cf6001-e987-3ae3-9df7-d3a40902d754",
+   "doi": "10.2307/26786234",
+   "title": "ADAM OF BOCFELD OR ROGER BACON? NEW REMARKS ON A COMMENTARY ON THE <em>BOOK OF CAUSES</em>",
+   "author": "Dragos Calma"
+  },
+  {
+   "book": "",
+   "page": 76,
+   "section": "a",
+   "line": null,
+   "journal": "Recherches de théologie et philosophie médiévales",
+   "year": "2018",
+   "iid": "16cf6001-e987-3ae3-9df7-d3a40902d754",
+   "doi": "10.2307/26786234",
+   "title": "ADAM OF BOCFELD OR ROGER BACON? NEW REMARKS ON A COMMENTARY ON THE <em>BOOK OF CAUSES</em>",
+   "author": "Dragos Calma"
+  },
+  {
+   "book": "",
+   "page": 72,
+   "section": "a",
+   "line": null,
+   "journal": "Mnemosyne",
+   "year": "1896",
+   "iid": "19971df4-2338-340c-9535-77c1113095a2",
+   "doi": "10.2307/4425097",
+   "title": "Ad Corpus Inscriptionum Rhodiarum",
+   "author": "H. van Gelder"
+  },
+  {
+   "book": "",
+   "page": 91,
+   "section": "a",
+   "line": null,
+   "journal": "The Catholic Biblical Quarterly",
+   "year": "2015",
+   "iid": "1b1c12a6-9d82-30f4-8f56-961083dde30e",
+   "doi": "10.2307/43900650",
+   "title": "Creature Features: Monstrosity and the Construction of Human Identity in the \"Testament of Solomon\"",
+   "author": "THOMAS SCOTT CASON"
+  },
+  {
+   "book": "",
+   "page": 76,
+   "section": "b",
+   "line": 14,
+   "journal": "The American Journal of Philology",
+   "year": "1936",
+   "iid": "1db623e1-cf3c-3277-8df5-6ca6493730ad",
+   "doi": "10.2307/289829",
+   "title": "On Certain Mathematical Terms in Aristotle's Logic: Part I",
+   "author": "Benedict Einarson"
+  },
+  {
+   "book": "",
+   "page": 77,
+   "section": "b",
+   "line": 31,
+   "journal": "The Classical World",
+   "year": "2013",
+   "iid": "1ddcaf37-9a65-3a68-8d64-766d246751b0",
+   "doi": "10.2307/24699930",
+   "title": "Isocrates and the Dialogue",
+   "author": "DAVID J. MURPHY"
+  },
+  {
+   "book": "",
+   "page": 78,
+   "section": "a",
+   "line": null,
+   "journal": "The Classical World",
+   "year": "2013",
+   "iid": "1ddcaf37-9a65-3a68-8d64-766d246751b0",
+   "doi": "10.2307/24699930",
+   "title": "Isocrates and the Dialogue",
+   "author": "DAVID J. MURPHY"
+  },
+  {
+   "book": "",
+   "page": 91,
+   "section": "a",
+   "line": null,
+   "journal": "The Catholic Biblical Quarterly",
+   "year": "2016",
+   "iid": "1e6d9223-c451-39a0-afb7-c79604f7266a",
+   "doi": "10.2307/43900811",
+   "title": "We Speak in a Mystery: Neglected Greek Evidence for the Syntax and Sense of 1 Corinthians 2:7",
+   "author": "T. J. LANG"
+  },
+  {
+   "book": "",
+   "page": 72,
+   "section": "a",
+   "line": null,
+   "journal": "Vigiliae Christianae",
+   "year": "2022",
+   "iid": "1f9903b3-2e88-30c3-8cac-0f3196ec36e5",
+   "doi": "10.2307/27371027",
+   "title": "Tertullians Gegnerin aus <em>De baptismo</em> 1 und <em>Die Paraphrase des Sêem</em> (NHC VII,1)",
+   "author": "Herbert Schmid"
+  },
+  {
+   "book": "",
+   "page": 92,
+   "section": "b",
+   "line": null,
+   "journal": "Religious Studies",
+   "year": "1988",
+   "iid": "22b5cc40-a976-3d29-95e5-a8f7ee5311a6",
+   "doi": "10.2307/20019291",
+   "title": "Gerard Manley Hopkins and John Duns Scotus",
+   "author": "Hywel Thomas"
+  },
+  {
+   "book": "",
+   "page": 82,
+   "section": "a",
+   "line": null,
+   "journal": "Mnemosyne",
+   "year": "1883",
+   "iid": "2d647d78-a1ac-3cfb-a50f-e4070c1b8b4d",
+   "doi": "10.2307/4424615",
+   "title": "Observationes Criticae in Aristophanem (Continued)",
+   "author": "S. A. Naber"
+  },
+  {
+   "book": "",
+   "page": 71,
+   "section": "b",
+   "line": 18,
+   "journal": "The Journal of Religion",
+   "year": "2009",
+   "iid": "2ee303c3-2f5b-31c0-a444-c075b8cb5641",
+   "doi": "10.1086/596068",
+   "title": "Apprehending “Demonstrations” from the First Principle: Clement of Alexandria’s Phenomenology of Faith",
+   "author": "Dragoş Andrei Giulea"
+  },
+  {
+   "book": "",
+   "page": 71,
+   "section": "b",
+   "line": 20,
+   "journal": "The Journal of Religion",
+   "year": "2009",
+   "iid": "2ee303c3-2f5b-31c0-a444-c075b8cb5641",
+   "doi": "10.1086/596068",
+   "title": "Apprehending “Demonstrations” from the First Principle: Clement of Alexandria’s Phenomenology of Faith",
+   "author": "Dragoş Andrei Giulea"
+  },
+  {
+   "book": "",
+   "page": 74,
+   "section": "b",
+   "line": 5,
+   "journal": "The Journal of Religion",
+   "year": "2009",
+   "iid": "2ee303c3-2f5b-31c0-a444-c075b8cb5641",
+   "doi": "10.1086/596068",
+   "title": "Apprehending “Demonstrations” from the First Principle: Clement of Alexandria’s Phenomenology of Faith",
+   "author": "Dragoş Andrei Giulea"
+  },
+  {
+   "book": "",
+   "page": 75,
+   "section": "a",
+   "line": 28,
+   "journal": "The Journal of Religion",
+   "year": "2009",
+   "iid": "2ee303c3-2f5b-31c0-a444-c075b8cb5641",
+   "doi": "10.1086/596068",
+   "title": "Apprehending “Demonstrations” from the First Principle: Clement of Alexandria’s Phenomenology of Faith",
+   "author": "Dragoş Andrei Giulea"
+  },
+  {
+   "book": "",
+   "page": 100,
+   "section": "b",
+   "line": null,
+   "journal": "The Journal of Religion",
+   "year": "2009",
+   "iid": "2ee303c3-2f5b-31c0-a444-c075b8cb5641",
+   "doi": "10.1086/596068",
+   "title": "Apprehending “Demonstrations” from the First Principle: Clement of Alexandria’s Phenomenology of Faith",
+   "author": "Dragoş Andrei Giulea"
+  },
+  {
+   "book": "",
+   "page": 72,
+   "section": "b",
+   "line": 5,
+   "journal": "The Journal of Religion",
+   "year": "2009",
+   "iid": "2ee303c3-2f5b-31c0-a444-c075b8cb5641",
+   "doi": "10.1086/596068",
+   "title": "Apprehending “Demonstrations” from the First Principle: Clement of Alexandria’s Phenomenology of Faith",
+   "author": "Dragoş Andrei Giulea"
+  },
+  {
+   "book": "",
+   "page": 72,
+   "section": "b",
+   "line": 16,
+   "journal": "The Journal of Religion",
+   "year": "2009",
+   "iid": "2ee303c3-2f5b-31c0-a444-c075b8cb5641",
+   "doi": "10.1086/596068",
+   "title": "Apprehending “Demonstrations” from the First Principle: Clement of Alexandria’s Phenomenology of Faith",
+   "author": "Dragoş Andrei Giulea"
+  },
+  {
+   "book": "",
+   "page": 72,
+   "section": "b",
+   "line": 19,
+   "journal": "The Journal of Religion",
+   "year": "2009",
+   "iid": "2ee303c3-2f5b-31c0-a444-c075b8cb5641",
+   "doi": "10.1086/596068",
+   "title": "Apprehending “Demonstrations” from the First Principle: Clement of Alexandria’s Phenomenology of Faith",
+   "author": "Dragoş Andrei Giulea"
+  },
+  {
+   "book": "",
+   "page": 72,
+   "section": "b",
+   "line": 22,
+   "journal": "The Journal of Religion",
+   "year": "2009",
+   "iid": "2ee303c3-2f5b-31c0-a444-c075b8cb5641",
+   "doi": "10.1086/596068",
+   "title": "Apprehending “Demonstrations” from the First Principle: Clement of Alexandria’s Phenomenology of Faith",
+   "author": "Dragoş Andrei Giulea"
+  },
+  {
+   "book": "",
+   "page": 100,
+   "section": "b",
+   "line": 14,
+   "journal": "The Journal of Religion",
+   "year": "2009",
+   "iid": "2ee303c3-2f5b-31c0-a444-c075b8cb5641",
+   "doi": "10.1086/596068",
+   "title": "Apprehending “Demonstrations” from the First Principle: Clement of Alexandria’s Phenomenology of Faith",
+   "author": "Dragoş Andrei Giulea"
+  },
+  {
+   "book": "",
+   "page": 100,
+   "section": "b",
+   "line": 9,
+   "journal": "The Journal of Religion",
+   "year": "2009",
+   "iid": "2ee303c3-2f5b-31c0-a444-c075b8cb5641",
+   "doi": "10.1086/596068",
+   "title": "Apprehending “Demonstrations” from the First Principle: Clement of Alexandria’s Phenomenology of Faith",
+   "author": "Dragoş Andrei Giulea"
+  },
+  {
+   "book": "",
+   "page": 100,
+   "section": "b",
+   "line": 15,
+   "journal": "The Journal of Religion",
+   "year": "2009",
+   "iid": "2ee303c3-2f5b-31c0-a444-c075b8cb5641",
+   "doi": "10.1086/596068",
+   "title": "Apprehending “Demonstrations” from the First Principle: Clement of Alexandria’s Phenomenology of Faith",
+   "author": "Dragoş Andrei Giulea"
+  },
+  {
+   "book": "",
+   "page": 100,
+   "section": "b",
+   "line": 8,
+   "journal": "The Journal of Religion",
+   "year": "2009",
+   "iid": "2ee303c3-2f5b-31c0-a444-c075b8cb5641",
+   "doi": "10.1086/596068",
+   "title": "Apprehending “Demonstrations” from the First Principle: Clement of Alexandria’s Phenomenology of Faith",
+   "author": "Dragoş Andrei Giulea"
+  },
+  {
+   "book": "",
+   "page": 71,
+   "section": "b",
+   "line": null,
+   "journal": "The Journal of Religion",
+   "year": "2009",
+   "iid": "2ee303c3-2f5b-31c0-a444-c075b8cb5641",
+   "doi": "10.1086/596068",
+   "title": "Apprehending “Demonstrations” from the First Principle: Clement of Alexandria’s Phenomenology of Faith",
+   "author": "Dragoş Andrei Giulea"
+  },
+  {
+   "book": "",
+   "page": 71,
+   "section": "b",
+   "line": 20,
+   "journal": "Recherches de théologie et philosophie médiévales",
+   "year": "2011",
+   "iid": "306e9abf-bf6d-3490-b946-bd7c27413cdc",
+   "doi": "10.2307/26173548",
+   "title": "HENRY OF HARCLAY'S PROLOGUE TO HIS \"SENTENCES\" COMMENTARY, QUESTION 1: THEOLOGY AS A SCIENCE",
+   "author": "Chris Schabel, Francesco Fiorentino"
+  },
+  {
+   "book": "",
+   "page": 88,
+   "section": "b",
+   "line": 30,
+   "journal": "Recherches de théologie et philosophie médiévales",
+   "year": "2011",
+   "iid": "306e9abf-bf6d-3490-b946-bd7c27413cdc",
+   "doi": "10.2307/26173548",
+   "title": "HENRY OF HARCLAY'S PROLOGUE TO HIS \"SENTENCES\" COMMENTARY, QUESTION 1: THEOLOGY AS A SCIENCE",
+   "author": "Chris Schabel, Francesco Fiorentino"
+  },
+  {
+   "book": "",
+   "page": 71,
+   "section": "b",
+   "line": 9,
+   "journal": "Recherches de théologie et philosophie médiévales",
+   "year": "2011",
+   "iid": "306e9abf-bf6d-3490-b946-bd7c27413cdc",
+   "doi": "10.2307/26173548",
+   "title": "HENRY OF HARCLAY'S PROLOGUE TO HIS \"SENTENCES\" COMMENTARY, QUESTION 1: THEOLOGY AS A SCIENCE",
+   "author": "Chris Schabel, Francesco Fiorentino"
+  },
+  {
+   "book": "",
+   "page": 76,
+   "section": "a",
+   "line": 5,
+   "journal": "Recherches de théologie ancienne et médiévale",
+   "year": "1994",
+   "iid": "35307d74-c541-36ed-9781-d199483868a6",
+   "doi": "10.2307/26189074",
+   "title": "Robert Graystanes O.S.B. on the Subalternation of Sciences",
+   "author": "Steven J. Livesey"
+  },
+  {
+   "book": "",
+   "page": 71,
+   "section": "b",
+   "line": null,
+   "journal": "Recherches de théologie ancienne et médiévale",
+   "year": "1994",
+   "iid": "35307d74-c541-36ed-9781-d199483868a6",
+   "doi": "10.2307/26189074",
+   "title": "Robert Graystanes O.S.B. on the Subalternation of Sciences",
+   "author": "Steven J. Livesey"
+  },
+  {
+   "book": "",
+   "page": 90,
+   "section": "a",
+   "line": null,
+   "journal": "The American Journal of Philology",
+   "year": "1969",
+   "iid": "35f9895d-7e5a-3b4c-bfc6-0f8eefcc34c5",
+   "doi": "10.2307/293183",
+   "title": "ΣΥΛΛΟΓΙΣΜΟΣ and ΣΥΛΛΟΓΙΖΕΣ[unrepresentable symbol]ΑΙ in Aristotle's Organon",
+   "author": "James Duerlinger"
+  },
+  {
+   "book": "",
+   "page": 97,
+   "section": "b",
+   "line": null,
+   "journal": "Hermes",
+   "year": "1999",
+   "iid": "3a0fda43-5396-3468-a6f7-8313156c9395",
+   "doi": "10.2307/4477286",
+   "title": "Parallelität und die moralischen Ziele Plutarchs: 'Coriolanus' und 'Alkibiades'",
+   "author": "Evangelos Alexiou"
+  },
+  {
+   "book": "",
+   "page": 100,
+   "section": "a",
+   "line": 3,
+   "journal": "Recherches de théologie et philosophie médiévales",
+   "year": "2009",
+   "iid": "3aa717da-d179-3624-8493-0cd81836c079",
+   "doi": "10.2307/26172334",
+   "title": "WHAT DO I SEE WHEN I SEE THIS LION? INTUITIVE COGNITION AND CONCEPT FORMATION, ACCORDING TO WILLIAM OF OCKHAM",
+   "author": "H. Francie ROBERTS"
+  },
+  {
+   "book": "",
+   "page": 75,
+   "section": "b",
+   "line": null,
+   "journal": "Revue de Théologie et de Philosophie",
+   "year": "2021",
+   "iid": "3b3d3879-0b37-3ea3-b66a-aee27c4f4f65",
+   "doi": "10.2307/45466002",
+   "title": "HUGH OF ST VICTOR, DOMINICUS GUNDISSALINUS AND THE PLACE OF THE MECHANICAL ARTS IN MEDIEVAL ARCHITECTURES OF KNOWLEDGE",
+   "author": "Nicola Polloni, Alexander Fidora"
+  },
+  {
+   "book": "",
+   "page": 76,
+   "section": "a",
+   "line": null,
+   "journal": "Revue de Théologie et de Philosophie",
+   "year": "2021",
+   "iid": "3b3d3879-0b37-3ea3-b66a-aee27c4f4f65",
+   "doi": "10.2307/45466002",
+   "title": "HUGH OF ST VICTOR, DOMINICUS GUNDISSALINUS AND THE PLACE OF THE MECHANICAL ARTS IN MEDIEVAL ARCHITECTURES OF KNOWLEDGE",
+   "author": "Nicola Polloni, Alexander Fidora"
+  },
+  {
+   "book": "",
+   "page": 78,
+   "section": "b",
+   "line": null,
+   "journal": "Revue de Théologie et de Philosophie",
+   "year": "2021",
+   "iid": "3b3d3879-0b37-3ea3-b66a-aee27c4f4f65",
+   "doi": "10.2307/45466002",
+   "title": "HUGH OF ST VICTOR, DOMINICUS GUNDISSALINUS AND THE PLACE OF THE MECHANICAL ARTS IN MEDIEVAL ARCHITECTURES OF KNOWLEDGE",
+   "author": "Nicola Polloni, Alexander Fidora"
+  },
+  {
+   "book": "",
+   "page": 79,
+   "section": "a",
+   "line": null,
+   "journal": "Revue de Théologie et de Philosophie",
+   "year": "2021",
+   "iid": "3b3d3879-0b37-3ea3-b66a-aee27c4f4f65",
+   "doi": "10.2307/45466002",
+   "title": "HUGH OF ST VICTOR, DOMINICUS GUNDISSALINUS AND THE PLACE OF THE MECHANICAL ARTS IN MEDIEVAL ARCHITECTURES OF KNOWLEDGE",
+   "author": "Nicola Polloni, Alexander Fidora"
+  },
+  {
+   "book": "",
+   "page": 92,
+   "section": "b",
+   "line": null,
+   "journal": "Zeitschrift für katholische Theologie",
+   "year": "1984",
+   "iid": "43064d03-8b49-3905-aa16-06091759fe08",
+   "doi": "10.2307/24167367",
+   "title": "DIE EUCHARISTIE ALS GOTTES MILCH IN FRÜHCHRISTLICHER SICHT",
+   "author": "Johannes Betz"
+  },
+  {
+   "book": "",
+   "page": 78,
+   "section": "a",
+   "line": null,
+   "journal": "Hermes",
+   "year": "2005",
+   "iid": "43895cc2-c918-309f-8b79-d7f6957c5b5c",
+   "doi": "10.2307/4477660",
+   "title": "Setting Aright the House of Themistius in Pindar's \"Nemean\" 5 and \"Isthmian\" 6",
+   "author": "J. Fenno"
+  },
+  {
+   "book": "",
+   "page": 94,
+   "section": "a",
+   "line": null,
+   "journal": "Hermes",
+   "year": "1981",
+   "iid": "48eb3581-6a0f-35d8-9602-a78218455599",
+   "doi": "10.2307/4476201",
+   "title": "Erkenntniserwerb Durch στοχάζεσθαι bei Aristoteles",
+   "author": "Heinz Gerd Ingenkamp"
+  },
+  {
+   "book": "",
+   "page": 94,
+   "section": "a",
+   "line": null,
+   "journal": "Greece & Rome",
+   "year": "1981",
+   "iid": "495a0da2-4f07-3df3-81e4-ff4d0e72990c",
+   "doi": "10.2307/642480",
+   "title": "Aristotle's Approach to Poetry",
+   "author": "B. R. Rees"
+  },
+  {
+   "book": "",
+   "page": 91,
+   "section": "a",
+   "line": null,
+   "journal": "The American Journal of Philology",
+   "year": "2006",
+   "iid": "4de2f3c0-9ca3-335b-80e2-0342afec3a13",
+   "doi": "10.2307/3804924",
+   "title": "The Strangeness of the \"Phaedrus\"",
+   "author": "David J. Schenker"
+  },
+  {
+   "book": "",
+   "page": 72,
+   "section": "a",
+   "line": 8,
+   "journal": "Hermes",
+   "year": "2001",
+   "iid": "51c26acb-1306-3962-b733-ce256d4b8b7e",
+   "doi": "10.2307/4477410",
+   "title": "Aristoteles, 'Analytica Posteriora' A 2, 72A8-9: 'Der eine Teil Einer Aussage'",
+   "author": "Gregor Damschen"
+  },
+  {
+   "book": "",
+   "page": 72,
+   "section": "a",
+   "line": 7,
+   "journal": "Hermes",
+   "year": "2001",
+   "iid": "51c26acb-1306-3962-b733-ce256d4b8b7e",
+   "doi": "10.2307/4477410",
+   "title": "Aristoteles, 'Analytica Posteriora' A 2, 72A8-9: 'Der eine Teil Einer Aussage'",
+   "author": "Gregor Damschen"
+  },
+  {
+   "book": "",
+   "page": 72,
+   "section": "a",
+   "line": null,
+   "journal": "Hermes",
+   "year": "2001",
+   "iid": "51c26acb-1306-3962-b733-ce256d4b8b7e",
+   "doi": "10.2307/4477410",
+   "title": "Aristoteles, 'Analytica Posteriora' A 2, 72A8-9: 'Der eine Teil Einer Aussage'",
+   "author": "Gregor Damschen"
+  },
+  {
+   "book": "",
+   "page": 72,
+   "section": "a",
+   "line": 9,
+   "journal": "Hermes",
+   "year": "2001",
+   "iid": "51c26acb-1306-3962-b733-ce256d4b8b7e",
+   "doi": "10.2307/4477410",
+   "title": "Aristoteles, 'Analytica Posteriora' A 2, 72A8-9: 'Der eine Teil Einer Aussage'",
+   "author": "Gregor Damschen"
+  },
+  {
+   "book": "",
+   "page": 72,
+   "section": "a",
+   "line": 13,
+   "journal": "Hermes",
+   "year": "2001",
+   "iid": "51c26acb-1306-3962-b733-ce256d4b8b7e",
+   "doi": "10.2307/4477410",
+   "title": "Aristoteles, 'Analytica Posteriora' A 2, 72A8-9: 'Der eine Teil Einer Aussage'",
+   "author": "Gregor Damschen"
+  },
+  {
+   "book": "",
+   "page": 86,
+   "section": "b",
+   "line": 30,
+   "journal": "Hermes",
+   "year": "2001",
+   "iid": "51c26acb-1306-3962-b733-ce256d4b8b7e",
+   "doi": "10.2307/4477410",
+   "title": "Aristoteles, 'Analytica Posteriora' A 2, 72A8-9: 'Der eine Teil Einer Aussage'",
+   "author": "Gregor Damschen"
+  },
+  {
+   "book": "",
+   "page": 72,
+   "section": "a",
+   "line": 12,
+   "journal": "Hermes",
+   "year": "2001",
+   "iid": "51c26acb-1306-3962-b733-ce256d4b8b7e",
+   "doi": "10.2307/4477410",
+   "title": "Aristoteles, 'Analytica Posteriora' A 2, 72A8-9: 'Der eine Teil Einer Aussage'",
+   "author": "Gregor Damschen"
+  },
+  {
+   "book": "",
+   "page": 72,
+   "section": "a",
+   "line": 19,
+   "journal": "Hermes",
+   "year": "2001",
+   "iid": "51c26acb-1306-3962-b733-ce256d4b8b7e",
+   "doi": "10.2307/4477410",
+   "title": "Aristoteles, 'Analytica Posteriora' A 2, 72A8-9: 'Der eine Teil Einer Aussage'",
+   "author": "Gregor Damschen"
+  },
+  {
+   "book": "",
+   "page": 72,
+   "section": "b",
+   "line": 24,
+   "journal": "Hermes",
+   "year": "2001",
+   "iid": "51c26acb-1306-3962-b733-ce256d4b8b7e",
+   "doi": "10.2307/4477410",
+   "title": "Aristoteles, 'Analytica Posteriora' A 2, 72A8-9: 'Der eine Teil Einer Aussage'",
+   "author": "Gregor Damschen"
+  },
+  {
+   "book": "",
+   "page": 73,
+   "section": "a",
+   "line": 9,
+   "journal": "Hermes",
+   "year": "2001",
+   "iid": "51c26acb-1306-3962-b733-ce256d4b8b7e",
+   "doi": "10.2307/4477410",
+   "title": "Aristoteles, 'Analytica Posteriora' A 2, 72A8-9: 'Der eine Teil Einer Aussage'",
+   "author": "Gregor Damschen"
+  },
+  {
+   "book": "",
+   "page": 93,
+   "section": "a",
+   "line": 37,
+   "journal": "Illinois Classical Studies",
+   "year": "1993",
+   "iid": "5190fed1-6d04-3140-9cbb-8923ec64dad0",
+   "doi": "10.2307/23064433",
+   "title": "Heraclitus and the Moon: The New Fragments in \"P.Oxy.\" 3710",
+   "author": "WALTER BURKERT"
+  },
+  {
+   "book": "",
+   "page": 75,
+   "section": "a",
+   "line": null,
+   "journal": "The Harvard Theological Review",
+   "year": "2011",
+   "iid": "57b281ff-9964-3fce-92e0-6e2c2852eb3b",
+   "doi": "10.2307/41234100",
+   "title": "Theology and the Historical-Critical Study of the Bible",
+   "author": "Paul E. Capetz"
+  },
+  {
+   "book": "",
+   "page": 74,
+   "section": "a",
+   "line": null,
+   "journal": "The Catholic Biblical Quarterly",
+   "year": "1964",
+   "iid": "5fbca149-4de4-36b4-982c-0f94fbc0e7f8",
+   "doi": "10.2307/43720706",
+   "title": "THE DEVIL IN THE DESERT",
+   "author": "H. A. Kelly"
+  },
+  {
+   "book": "",
+   "page": 73,
+   "section": "a",
+   "line": 21,
+   "journal": "Recherches de théologie et philosophie médiévales",
+   "year": "2005",
+   "iid": "6b1e3604-ba05-3923-8398-f4cf9e4a3946",
+   "doi": "10.2307/26170144",
+   "title": "THE \"SENTENCES\" COMMENTARY OF PAUL OF PERUGIA, O.CARM., WITH AN EDITION OF HIS QUESTION ON DIVINE FOREKNOWLEDGE",
+   "author": "Chris Schabel"
+  },
+  {
+   "book": "",
+   "page": 74,
+   "section": "b",
+   "line": 5,
+   "journal": "Recherches de théologie et philosophie médiévales",
+   "year": "2005",
+   "iid": "6b1e3604-ba05-3923-8398-f4cf9e4a3946",
+   "doi": "10.2307/26170144",
+   "title": "THE \"SENTENCES\" COMMENTARY OF PAUL OF PERUGIA, O.CARM., WITH AN EDITION OF HIS QUESTION ON DIVINE FOREKNOWLEDGE",
+   "author": "Chris Schabel"
+  },
+  {
+   "book": "",
+   "page": 88,
+   "section": "b",
+   "line": 31,
+   "journal": "Recherches de théologie et philosophie médiévales",
+   "year": "2005",
+   "iid": "6b1e3604-ba05-3923-8398-f4cf9e4a3946",
+   "doi": "10.2307/26170144",
+   "title": "THE \"SENTENCES\" COMMENTARY OF PAUL OF PERUGIA, O.CARM., WITH AN EDITION OF HIS QUESTION ON DIVINE FOREKNOWLEDGE",
+   "author": "Chris Schabel"
+  },
+  {
+   "book": "",
+   "page": 91,
+   "section": "b",
+   "line": 27,
+   "journal": "Classical Antiquity",
+   "year": "1997",
+   "iid": "6e74e2c1-fcbc-361b-b42e-72c812d648fe",
+   "doi": "10.2307/25011067",
+   "title": "Delphic Oracles as Oral Performances: Authenticity and Historical Evidence",
+   "author": "Lisa Maurizio"
+  },
+  {
+   "book": "",
+   "page": 77,
+   "section": "b",
+   "line": 26,
+   "journal": "Transactions of the American Philological Association (1974-2014)",
+   "year": "2006",
+   "iid": "752f51cd-dd38-33e6-9f6c-82a63ae05e58",
+   "doi": "10.2307/4543285",
+   "title": "The Meaning and Function of Phantasia in Aristotle's \"Rhetoric\" III.1",
+   "author": "José M. González"
+  },
+  {
+   "book": "",
+   "page": 94,
+   "section": "b",
+   "line": null,
+   "journal": "Revue de Théologie et de Philosophie",
+   "year": "1979",
+   "iid": "7bdfe821-c961-3efe-bcbc-0fb3da885f63",
+   "doi": "10.2307/44356103",
+   "title": "UN CONFLIT DANS L'INTERPRÉTATION DE LA «MÉTAPHYSIQUE» D'ARISTOTE",
+   "author": "ANDRÉ-JEAN VOELKE"
+  },
+  {
+   "book": "",
+   "page": 76,
+   "section": "a",
+   "line": null,
+   "journal": "Vigiliae Christianae",
+   "year": "2012",
+   "iid": "7c3e6edd-a29d-3e2e-926e-ab8e04d66df5",
+   "doi": "10.2307/41480517",
+   "title": "Hieronymus und Johannes Chrysostomos (zu Hier. in Tit. 1,12 und epist. 70,2)",
+   "author": "Markus Mülke"
+  },
+  {
+   "book": "",
+   "page": 97,
+   "section": "b",
+   "line": 23,
+   "journal": "The American Journal of Philology",
+   "year": "2020",
+   "iid": "7d5f44de-5195-385d-bd97-45cd08d2c003",
+   "doi": "10.2307/48583508",
+   "title": "MARRYING STOICISM WITH PLATONISM? PSEUDO-PLUTARCH’S USE OF THE CIRCE EPISODE",
+   "author": "Mikolaj Domaradzki"
+  },
+  {
+   "book": "",
+   "page": 83,
+   "section": "b",
+   "line": 5,
+   "journal": "Mnemosyne",
+   "year": "2019",
+   "iid": "8a3c0f9f-1387-3a7f-9a74-243ceccb1144",
+   "doi": "10.2307/26675802",
+   "title": "How to Think the Infinite",
+   "author": "Mirjam E. Kotwick, Christian Pfeiffer"
+  },
+  {
+   "book": "",
+   "page": 84,
+   "section": "a",
+   "line": 2,
+   "journal": "Mnemosyne",
+   "year": "2019",
+   "iid": "8a3c0f9f-1387-3a7f-9a74-243ceccb1144",
+   "doi": "10.2307/26675802",
+   "title": "How to Think the Infinite",
+   "author": "Mirjam E. Kotwick, Christian Pfeiffer"
+  },
+  {
+   "book": "",
+   "page": 73,
+   "section": "b",
+   "line": 6,
+   "journal": "Mnemosyne",
+   "year": "2019",
+   "iid": "8a3c0f9f-1387-3a7f-9a74-243ceccb1144",
+   "doi": "10.2307/26675802",
+   "title": "How to Think the Infinite",
+   "author": "Mirjam E. Kotwick, Christian Pfeiffer"
+  },
+  {
+   "book": "",
+   "page": 83,
+   "section": "a",
+   "line": 33,
+   "journal": "Mnemosyne",
+   "year": "2021",
+   "iid": "91c38db3-ddf9-375e-8c7f-ab8ebbce8bed",
+   "doi": "10.2307/27286779",
+   "title": "Second Sailing towards Immortality and God",
+   "author": "Rafael Ferber"
+  },
+  {
+   "book": "",
+   "page": 91,
+   "section": "a",
+   "line": null,
+   "journal": "Zeitschrift für katholische Theologie",
+   "year": "1939",
+   "iid": "976a3820-c5ab-33d8-976b-f9eaff58aad2",
+   "doi": "10.2307/45433063",
+   "title": "DIE HIERA DES EVAGRIUS (Fortsetzung)",
+   "author": "HANS URS VON BALTHASAR"
+  },
+  {
+   "book": "",
+   "page": 79,
+   "section": "a",
+   "line": 10,
+   "journal": "The Classical Journal",
+   "year": "2009",
+   "iid": "99186dae-f2cf-3b7b-8579-b779c9ce92f3",
+   "doi": "10.5184/00098353.105.1.27",
+   "title": "Ancient Meteorological Optics",
+   "author": "Richard Stothers"
+  },
+  {
+   "book": "",
+   "page": 98,
+   "section": "a",
+   "line": 26,
+   "journal": "The Classical Journal",
+   "year": "2009",
+   "iid": "99186dae-f2cf-3b7b-8579-b779c9ce92f3",
+   "doi": "10.5184/00098353.105.1.27",
+   "title": "Ancient Meteorological Optics",
+   "author": "Richard Stothers"
+  },
+  {
+   "book": "",
+   "page": 94,
+   "section": "a",
+   "line": 20,
+   "journal": "Mnemosyne",
+   "year": "2018",
+   "iid": "9c8a8629-4db7-32ee-9c52-c988cd8cf727",
+   "doi": "10.2307/26572972",
+   "title": "Aristotle on the Senses of Nature and the Naturalness of the City",
+   "author": "Siyi Chen"
+  },
+  {
+   "book": "",
+   "page": 94,
+   "section": "b",
+   "line": 32,
+   "journal": "Journal of Biblical Literature",
+   "year": "1994",
+   "iid": "9f747c96-558f-3f87-b8b3-c72c049cf81d",
+   "doi": "10.2307/3266312",
+   "title": "\"Don't Walk on the Highways\": The Pythagorean Akousmata and Early Christian Literature",
+   "author": "Johan C. Thom"
+  },
+  {
+   "book": "",
+   "page": 86,
+   "section": "a",
+   "line": 8,
+   "journal": "Recherches de théologie et philosophie médiévales",
+   "year": "2012",
+   "iid": "a0428e41-fac6-30d3-9f6b-67603f8b1d0e",
+   "doi": "10.2307/26485559",
+   "title": "SCIENTIA PERIPATETICORUM: HEYMERICUS DE CAMPO, THE \"BOOK OF CAUSES\", AND THE DEBATE OVER UNIVERSALS IN THE FIFTEENTH CENTURY",
+   "author": "Mario Meliadò"
+  },
+  {
+   "book": "",
+   "page": 73,
+   "section": "b",
+   "line": 26,
+   "journal": "Recherches de théologie et philosophie médiévales",
+   "year": "2012",
+   "iid": "a0428e41-fac6-30d3-9f6b-67603f8b1d0e",
+   "doi": "10.2307/26485559",
+   "title": "SCIENTIA PERIPATETICORUM: HEYMERICUS DE CAMPO, THE \"BOOK OF CAUSES\", AND THE DEBATE OVER UNIVERSALS IN THE FIFTEENTH CENTURY",
+   "author": "Mario Meliadò"
+  },
+  {
+   "book": "",
+   "page": 92,
+   "section": "b",
+   "line": null,
+   "journal": "Hermes",
+   "year": "2016",
+   "iid": "a0d9f59a-de7f-3cf8-8089-b29c6da222a5",
+   "doi": "10.2307/26649580",
+   "title": "Ἀπορία und ἀπάτη in der aristotelischen Dialektik",
+   "author": "GEORGIOS E. PAPATSIMPAS"
+  },
+  {
+   "book": "",
+   "page": 71,
+   "section": "b",
+   "line": 27,
+   "journal": "Vigiliae Christianae",
+   "year": "2011",
+   "iid": "a1e5b5b5-c115-3bf6-9af4-2f989b2fd7d4",
+   "doi": "10.2307/41291364",
+   "title": "Galenus Christianus? The Doctrine of Demonstration in Stromata VIII and the Question of its Source",
+   "author": "Matyáš Havrda"
+  },
+  {
+   "book": "",
+   "page": 74,
+   "section": "a",
+   "line": 37,
+   "journal": "Mnemosyne",
+   "year": "2003",
+   "iid": "a6fcdd51-a02e-3aaa-be13-3e36887d07cc",
+   "doi": "10.2307/4433468",
+   "title": "Aristotle on Geometric Perfection in the Physical World",
+   "author": "Theokritos Kouremenos"
+  },
+  {
+   "book": "",
+   "page": 73,
+   "section": "b",
+   "line": 26,
+   "journal": "Mnemosyne",
+   "year": "2003",
+   "iid": "a6fcdd51-a02e-3aaa-be13-3e36887d07cc",
+   "doi": "10.2307/4433468",
+   "title": "Aristotle on Geometric Perfection in the Physical World",
+   "author": "Theokritos Kouremenos"
+  },
+  {
+   "book": "",
+   "page": 74,
+   "section": "b",
+   "line": 2,
+   "journal": "Mnemosyne",
+   "year": "2003",
+   "iid": "a6fcdd51-a02e-3aaa-be13-3e36887d07cc",
+   "doi": "10.2307/4433468",
+   "title": "Aristotle on Geometric Perfection in the Physical World",
+   "author": "Theokritos Kouremenos"
+  },
+  {
+   "book": "",
+   "page": 97,
+   "section": "b",
+   "line": null,
+   "journal": "Quaderni Urbinati di Cultura Classica",
+   "year": "1997",
+   "iid": "b13e58f6-88bf-3214-8dd7-b0dfcaa6b9f7",
+   "doi": "10.2307/20546512",
+   "title": "Condensation and Expansion in the \"Oresteia\"",
+   "author": "Albert Cook"
+  },
+  {
+   "book": "",
+   "page": 71,
+   "section": "b",
+   "line": null,
+   "journal": "Recherches de théologie et philosophie médiévales",
+   "year": "2011",
+   "iid": "b4b509ab-3024-37f1-8a31-3b4968c24df4",
+   "doi": "10.2307/26173572",
+   "title": "PARISIAN SECULAR MASTERS ON DIVINE FOREKNOWLEDGE AND FUTURE CONTINGENTS IN THE EARLY FOURTEENTH CENTURY, PART II: THOMAS WYLTON'S \"QUAESTIO ORDINARIA\" «UTRUM PRAEDESTINATUS POSSIT DAMNARI»",
+   "author": "Chris Schabel"
+  },
+  {
+   "book": "",
+   "page": 71,
+   "section": "b",
+   "line": null,
+   "journal": "Recherches de théologie et philosophie médiévales",
+   "year": "2007",
+   "iid": "b5a87617-2e26-3922-9701-8d71d1c80ada",
+   "doi": "10.2307/26172293",
+   "title": "BYZANTINE PHILOSOPHY AS A CONTEMPORARY HISTORIOGRAPHICAL PROJECT",
+   "author": "Michele Trizio"
+  },
+  {
+   "book": "",
+   "page": 88,
+   "section": "a",
+   "line": 6,
+   "journal": "The Harvard Theological Review",
+   "year": "1926",
+   "iid": "c70072e7-bae7-3f9b-94af-cc1d932c19b4",
+   "doi": "10.2307/1507735",
+   "title": "The Georgian Version of Fourth Esdras from the Jerusalem Manuscript",
+   "author": "Robert P. Blake"
+  },
+  {
+   "book": "",
+   "page": 86,
+   "section": "a",
+   "line": 39,
+   "journal": "The Harvard Theological Review",
+   "year": "1926",
+   "iid": "c70072e7-bae7-3f9b-94af-cc1d932c19b4",
+   "doi": "10.2307/1507735",
+   "title": "The Georgian Version of Fourth Esdras from the Jerusalem Manuscript",
+   "author": "Robert P. Blake"
+  },
+  {
+   "book": "",
+   "page": 79,
+   "section": "a",
+   "line": null,
+   "journal": "Quaderni Urbinati di Cultura Classica",
+   "year": "2018",
+   "iid": "cde68396-5545-3ac3-924d-cb61976f06f0",
+   "doi": "10.2307/44841649",
+   "title": "IL SOGNO DI CLITENNESTRA NELL'“ORESTEA” DI STESICORO E NELLE “COEFORE” DI ESCHILO",
+   "author": "Carlo Brillante"
+  },
+  {
+   "book": "",
+   "page": 81,
+   "section": "b",
+   "line": 2,
+   "journal": "The American Journal of Philology",
+   "year": "1982",
+   "iid": "cdb5849a-7ef3-3f7b-a795-2ac9356c5916",
+   "doi": "10.2307/294520",
+   "title": "The Fundamentals of the Via Negativa",
+   "author": "Raoul Mortley"
+  },
+  {
+   "book": "",
+   "page": 91,
+   "section": "a",
+   "line": null,
+   "journal": "The American Journal of Philology",
+   "year": "2009",
+   "iid": "d0d54181-d179-36fc-9a33-623be39235d4",
+   "doi": "10.2307/20616179",
+   "title": "Revenge of the Nerds: Xenophanes, Euripides, and Socrates vs. Olympic Victors",
+   "author": "John P. Harris"
+  },
+  {
+   "book": "",
+   "page": 89,
+   "section": "b",
+   "line": null,
+   "journal": "Biblica",
+   "year": "1975",
+   "iid": "d30a22e3-cc9b-348e-87f9-5bedec288cba",
+   "doi": "10.2307/42610758",
+   "title": "Les textes hébreux de Judith: un nouveau signe d'originalité",
+   "author": "A. M. Dubarle"
+  },
+  {
+   "book": "",
+   "page": 71,
+   "section": "b",
+   "line": 9,
+   "journal": "Recherches de théologie et philosophie médiévales",
+   "year": "2019",
+   "iid": "d4393df2-e731-3fcd-88bc-815333b66dac",
+   "doi": "10.2307/26786292",
+   "title": "WISSENSCHAFTSPHILOSOPHISCH RELEVANTE IMPULSE AUS DER THEOLOGIE",
+   "author": "Theodor W. Kohler"
+  },
+  {
+   "book": "",
+   "page": 100,
+   "section": "b",
+   "line": 5,
+   "journal": "Recherches de théologie et philosophie médiévales",
+   "year": "2019",
+   "iid": "d4393df2-e731-3fcd-88bc-815333b66dac",
+   "doi": "10.2307/26786292",
+   "title": "WISSENSCHAFTSPHILOSOPHISCH RELEVANTE IMPULSE AUS DER THEOLOGIE",
+   "author": "Theodor W. Kohler"
+  },
+  {
+   "book": "",
+   "page": 73,
+   "section": "a",
+   "line": 21,
+   "journal": "Recherches de théologie et philosophie médiévales",
+   "year": "2019",
+   "iid": "d4393df2-e731-3fcd-88bc-815333b66dac",
+   "doi": "10.2307/26786292",
+   "title": "WISSENSCHAFTSPHILOSOPHISCH RELEVANTE IMPULSE AUS DER THEOLOGIE",
+   "author": "Theodor W. Kohler"
+  },
+  {
+   "book": "",
+   "page": 76,
+   "section": "a",
+   "line": 26,
+   "journal": "Recherches de théologie et philosophie médiévales",
+   "year": "2019",
+   "iid": "d4393df2-e731-3fcd-88bc-815333b66dac",
+   "doi": "10.2307/26786292",
+   "title": "WISSENSCHAFTSPHILOSOPHISCH RELEVANTE IMPULSE AUS DER THEOLOGIE",
+   "author": "Theodor W. Kohler"
+  },
+  {
+   "book": "",
+   "page": 71,
+   "section": "b",
+   "line": 10,
+   "journal": "Recherches de théologie et philosophie médiévales",
+   "year": "2017",
+   "iid": "d48adf09-012b-301b-827b-3dc7d17e4e58",
+   "doi": "10.2307/26786225",
+   "title": "THE NEXT BEST THING TO A SAINT? PETER LOMBARD AND THE <em>SENTENCES</em> IN THE <em>PRINCIPIA</em> OF JOHN OF NAPLES",
+   "author": "Kirsten Schut"
+  },
+  {
+   "book": "",
+   "page": 77,
+   "section": "b",
+   "line": null,
+   "journal": "Hermes",
+   "year": "1940",
+   "iid": "dceeca0f-f177-3826-b274-5bb0804434af",
+   "doi": "10.2307/4474596",
+   "title": "Der Name Homeros",
+   "author": "Eduard Schwartz"
+  },
+  {
+   "book": "",
+   "page": 91,
+   "section": "a",
+   "line": null,
+   "journal": "Zeitschrift für katholische Theologie",
+   "year": "1914",
+   "iid": "dfbc5877-4c1e-38b0-a723-22fbe10eb842",
+   "doi": "10.2307/24192250",
+   "title": "Synesius von Kyrene, Metropolit der Pentapolis",
+   "author": "Josef Stiglmayr"
+  },
+  {
+   "book": "",
+   "page": 99,
+   "section": "b",
+   "line": 37,
+   "journal": "Mnemosyne",
+   "year": "2009",
+   "iid": "e3312abc-67bb-333d-875c-ab23aca47e26",
+   "doi": "10.2307/27736295",
+   "title": "Cognition in Aristotle's \"Poetics\"",
+   "author": "M. F. Heath"
+  },
+  {
+   "book": "",
+   "page": 100,
+   "section": "a",
+   "line": 3,
+   "journal": "Mnemosyne",
+   "year": "2009",
+   "iid": "e3312abc-67bb-333d-875c-ab23aca47e26",
+   "doi": "10.2307/27736295",
+   "title": "Cognition in Aristotle's \"Poetics\"",
+   "author": "M. F. Heath"
+  },
+  {
+   "book": "",
+   "page": 71,
+   "section": "b",
+   "line": 9,
+   "journal": "Mnemosyne",
+   "year": "2009",
+   "iid": "e3312abc-67bb-333d-875c-ab23aca47e26",
+   "doi": "10.2307/27736295",
+   "title": "Cognition in Aristotle's \"Poetics\"",
+   "author": "M. F. Heath"
+  },
+  {
+   "book": "",
+   "page": 79,
+   "section": "a",
+   "line": 2,
+   "journal": "Mnemosyne",
+   "year": "2009",
+   "iid": "e3312abc-67bb-333d-875c-ab23aca47e26",
+   "doi": "10.2307/27736295",
+   "title": "Cognition in Aristotle's \"Poetics\"",
+   "author": "M. F. Heath"
+  },
+  {
+   "book": "",
+   "page": 78,
+   "section": "a",
+   "line": 22,
+   "journal": "Mnemosyne",
+   "year": "2009",
+   "iid": "e3312abc-67bb-333d-875c-ab23aca47e26",
+   "doi": "10.2307/27736295",
+   "title": "Cognition in Aristotle's \"Poetics\"",
+   "author": "M. F. Heath"
+  },
+  {
+   "book": "",
+   "page": 71,
+   "section": "b",
+   "line": 27,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1993",
+   "iid": "ead71ddc-ffec-33e4-acbc-bd8cf66d3d00",
+   "doi": "10.2307/41233922",
+   "title": "THE MIDDLE PLATONIC RECEPTION OF ARISTOTELIAN SCIENCE",
+   "author": "Lawrence P. Schrenk"
+  },
+  {
+   "book": "",
+   "page": 72,
+   "section": "b",
+   "line": 22,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1993",
+   "iid": "ead71ddc-ffec-33e4-acbc-bd8cf66d3d00",
+   "doi": "10.2307/41233922",
+   "title": "THE MIDDLE PLATONIC RECEPTION OF ARISTOTELIAN SCIENCE",
+   "author": "Lawrence P. Schrenk"
+  },
+  {
+   "book": "",
+   "page": 71,
+   "section": "b",
+   "line": 23,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1993",
+   "iid": "ead71ddc-ffec-33e4-acbc-bd8cf66d3d00",
+   "doi": "10.2307/41233922",
+   "title": "THE MIDDLE PLATONIC RECEPTION OF ARISTOTELIAN SCIENCE",
+   "author": "Lawrence P. Schrenk"
+  },
+  {
+   "book": "",
+   "page": 76,
+   "section": "b",
+   "line": 23,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1993",
+   "iid": "ead71ddc-ffec-33e4-acbc-bd8cf66d3d00",
+   "doi": "10.2307/41233922",
+   "title": "THE MIDDLE PLATONIC RECEPTION OF ARISTOTELIAN SCIENCE",
+   "author": "Lawrence P. Schrenk"
+  },
+  {
+   "book": "",
+   "page": 74,
+   "section": "a",
+   "line": 8,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1993",
+   "iid": "ead71ddc-ffec-33e4-acbc-bd8cf66d3d00",
+   "doi": "10.2307/41233922",
+   "title": "THE MIDDLE PLATONIC RECEPTION OF ARISTOTELIAN SCIENCE",
+   "author": "Lawrence P. Schrenk"
+  },
+  {
+   "book": "",
+   "page": 72,
+   "section": "a",
+   "line": 3,
+   "journal": "Rheinisches Museum für Philologie",
+   "year": "1993",
+   "iid": "ead71ddc-ffec-33e4-acbc-bd8cf66d3d00",
+   "doi": "10.2307/41233922",
+   "title": "THE MIDDLE PLATONIC RECEPTION OF ARISTOTELIAN SCIENCE",
+   "author": "Lawrence P. Schrenk"
+  },
+  {
+   "book": "",
+   "page": 72,
+   "section": "a",
+   "line": 9,
+   "journal": "Hermes",
+   "year": "2021",
+   "iid": "f16046f1-b8b0-308a-81fc-fdc2cd961cfc",
+   "doi": "10.2307/48643730",
+   "title": "Plato’s <em>Protagoras</em> as an ἀγὼν λόγων",
+   "author": "DALE PARKER"
+  },
+  {
+   "book": "",
+   "page": 77,
+   "section": "b",
+   "line": 3,
+   "journal": "The Classical Journal",
+   "year": "2016",
+   "iid": "f187dbaa-5cd8-333e-a4aa-5d7a91e9dde2",
+   "doi": "10.5184/classicalj.112.1.0102",
+   "title": "Book Review : The Greek Epic Cycle and its Ancient Reception: A Companion",
+   "author": "Marco Fantuzzi and Christos Tsagalis, C. Robert Phillips III"
+  },
+  {
+   "book": "",
+   "page": 91,
+   "section": "a",
+   "line": null,
+   "journal": "The Catholic Biblical Quarterly",
+   "year": "2008",
+   "iid": "f80efc2a-d493-300a-a03a-d496b570a3e1",
+   "doi": "10.2307/43726400",
+   "title": "Esther, Jesus, and Psalm 22",
+   "author": "CATHERINE BROWN TKACZ"
+  },
+  {
+   "book": "",
+   "page": 98,
+   "section": "a",
+   "line": 8,
+   "journal": "Recherches de théologie et philosophie médiévales",
+   "year": "2000",
+   "iid": "f9e36477-67b1-3e20-b69d-2b44b6ade845",
+   "doi": "10.2307/26170043",
+   "title": "RETRACTED: THE ORIGINS OF PROBABILISM IN LATE SCHOLASTIC MORAL THOUGHT: A PROLEGOMENON TO FURTHER STUDY",
+   "author": "M. W. F. Stone"
+  },
+  {
+   "book": "",
+   "page": 73,
+   "section": "a",
+   "line": 34,
+   "journal": "Recherches de théologie et philosophie médiévales",
+   "year": "2001",
+   "iid": "fae16512-56c9-36b1-892f-4ae0b3d93f26",
+   "doi": "10.2307/26170062",
+   "title": "PROPERTIES, CAUSALITY AND EPISTEMOLOGICAL OPTIMISM IN THOMAS AQUINAS",
+   "author": "P. L. Reynolds"
   }
  ]
 }

@@ -1,12 +1,14 @@
 {
  "work": "De_Respiratione",
  "faceted": false,
+ "system": "stephanus",
  "tier": "uncertain",
  "cells": [
   {
    "book": "",
    "page": 467,
    "section": "a",
+   "band": 0,
    "count": 1,
    "articles": 1,
    "by_journal": {
@@ -17,6 +19,7 @@
    "book": "",
    "page": 467,
    "section": "b",
+   "band": 0,
    "count": 1,
    "articles": 1,
    "by_journal": {
@@ -27,16 +30,41 @@
    "book": "",
    "page": 468,
    "section": "a",
+   "band": 0,
+   "count": 3,
+   "articles": 2,
+   "by_journal": {
+    "Revue de Philosophie Ancienne": 1,
+    "Recherches de théologie et philosophie médiévales": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 469,
+   "section": "a",
+   "band": 0,
    "count": 1,
    "articles": 1,
    "by_journal": {
-    "Revue de Philosophie Ancienne": 1
+    "The American Journal of Philology": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 469,
+   "section": "b",
+   "band": 0,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Recherches de théologie et philosophie médiévales": 1
    }
   },
   {
    "book": "",
    "page": 471,
    "section": "b",
+   "band": 0,
    "count": 3,
    "articles": 2,
    "by_journal": {
@@ -48,6 +76,7 @@
    "book": "",
    "page": 472,
    "section": "b",
+   "band": 0,
    "count": 2,
    "articles": 2,
    "by_journal": {
@@ -58,10 +87,11 @@
    "book": "",
    "page": 474,
    "section": "a",
-   "count": 3,
+   "band": 0,
+   "count": 4,
    "articles": 2,
    "by_journal": {
-    "Revue de Philosophie Ancienne": 1,
+    "Revue de Philosophie Ancienne": 2,
     "Phronesis": 2
    }
   },
@@ -69,27 +99,55 @@
    "book": "",
    "page": 474,
    "section": "b",
-   "count": 1,
-   "articles": 1,
+   "band": 0,
+   "count": 2,
+   "articles": 2,
    "by_journal": {
-    "Revue de Philosophie Ancienne": 1
+    "Revue de Philosophie Ancienne": 1,
+    "Transactions and Proceedings of the American Philological Association": 1
    }
   },
   {
    "book": "",
    "page": 475,
    "section": "a",
+   "band": 0,
+   "count": 3,
+   "articles": 3,
+   "by_journal": {
+    "The Classical Quarterly": 1,
+    "Revue de Philosophie Ancienne": 1,
+    "Recherches de théologie et philosophie médiévales": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 477,
+   "section": "a",
+   "band": 0,
    "count": 2,
    "articles": 2,
    "by_journal": {
-    "The Classical Quarterly": 1,
-    "Revue de Philosophie Ancienne": 1
+    "The American Journal of Philology": 1,
+    "Hermes": 1
+   }
+  },
+  {
+   "book": "",
+   "page": 478,
+   "section": "b",
+   "band": 0,
+   "count": 1,
+   "articles": 1,
+   "by_journal": {
+    "Recherches de théologie et philosophie médiévales": 1
    }
   },
   {
    "book": "",
    "page": 479,
    "section": "a",
+   "band": 0,
    "count": 1,
    "articles": 1,
    "by_journal": {
@@ -98,12 +156,39 @@
   },
   {
    "book": "",
-   "page": 480,
+   "page": 479,
    "section": "b",
-   "count": 2,
+   "band": 0,
+   "count": 5,
    "articles": 2,
    "by_journal": {
-    "The Classical Quarterly": 2
+    "Classical Antiquity": 3,
+    "Recherches de théologie et philosophie médiévales": 2
+   }
+  },
+  {
+   "book": "",
+   "page": 480,
+   "section": "a",
+   "band": 0,
+   "count": 4,
+   "articles": 2,
+   "by_journal": {
+    "Classical Antiquity": 1,
+    "Recherches de théologie et philosophie médiévales": 3
+   }
+  },
+  {
+   "book": "",
+   "page": 480,
+   "section": "b",
+   "band": 0,
+   "count": 7,
+   "articles": 5,
+   "by_journal": {
+    "The Classical Quarterly": 2,
+    "Recherches de théologie et philosophie médiévales": 4,
+    "The American Journal of Philology": 1
    }
   }
  ],
@@ -136,7 +221,19 @@
    "book": "",
    "page": 474,
    "section": "a",
-   "line": 25,
+   "line": 15,
+   "journal": "Revue de Philosophie Ancienne",
+   "year": "2015",
+   "iid": "25d9dc07-630e-3432-bfee-b963cc2acdd4",
+   "doi": "10.2307/26387851",
+   "title": "L’AVORTEMENT CHEZ ARISTOTE",
+   "author": "Yiannis Panidis"
+  },
+  {
+   "book": "",
+   "page": 474,
+   "section": "a",
+   "line": 30,
    "journal": "Revue de Philosophie Ancienne",
    "year": "2015",
    "iid": "25d9dc07-630e-3432-bfee-b963cc2acdd4",
@@ -148,7 +245,7 @@
    "book": "",
    "page": 474,
    "section": "b",
-   "line": 3,
+   "line": null,
    "journal": "Revue de Philosophie Ancienne",
    "year": "2015",
    "iid": "25d9dc07-630e-3432-bfee-b963cc2acdd4",
@@ -287,6 +384,270 @@
    "doi": "10.2307/26566223",
    "title": "Dividing Plato's Kinds",
    "author": "George Rudebusch, Fernando Muniz"
+  },
+  {
+   "book": "",
+   "page": 477,
+   "section": "a",
+   "line": 7,
+   "journal": "The American Journal of Philology",
+   "year": "1970",
+   "iid": "1a2b3b8b-a24d-318f-9dea-9690961e8e77",
+   "doi": "10.2307/292960",
+   "title": "Book Review : \n        The Awakening of the Greek Historical Spirit\n        \n          Chester G.\n          Starr",
+   "author": "Martin Ostwald, Chester G. Starr"
+  },
+  {
+   "book": "",
+   "page": 479,
+   "section": "b",
+   "line": null,
+   "journal": "Classical Antiquity",
+   "year": "2009",
+   "iid": "46eeed78-a7f6-39b1-8fc4-51766dbf83a2",
+   "doi": "10.1525/ca.2009.28.2.211",
+   "title": "Mystery Inquisitors: Performance, Authority, and Sacrilege at Eleusis",
+   "author": "Renaud Gagné"
+  },
+  {
+   "book": "",
+   "page": 479,
+   "section": "b",
+   "line": 15,
+   "journal": "Classical Antiquity",
+   "year": "2009",
+   "iid": "46eeed78-a7f6-39b1-8fc4-51766dbf83a2",
+   "doi": "10.1525/ca.2009.28.2.211",
+   "title": "Mystery Inquisitors: Performance, Authority, and Sacrilege at Eleusis",
+   "author": "Renaud Gagné"
+  },
+  {
+   "book": "",
+   "page": 479,
+   "section": "b",
+   "line": 30,
+   "journal": "Classical Antiquity",
+   "year": "2009",
+   "iid": "46eeed78-a7f6-39b1-8fc4-51766dbf83a2",
+   "doi": "10.1525/ca.2009.28.2.211",
+   "title": "Mystery Inquisitors: Performance, Authority, and Sacrilege at Eleusis",
+   "author": "Renaud Gagné"
+  },
+  {
+   "book": "",
+   "page": 480,
+   "section": "a",
+   "line": null,
+   "journal": "Classical Antiquity",
+   "year": "2009",
+   "iid": "46eeed78-a7f6-39b1-8fc4-51766dbf83a2",
+   "doi": "10.1525/ca.2009.28.2.211",
+   "title": "Mystery Inquisitors: Performance, Authority, and Sacrilege at Eleusis",
+   "author": "Renaud Gagné"
+  },
+  {
+   "book": "",
+   "page": 474,
+   "section": "b",
+   "line": null,
+   "journal": "Transactions and Proceedings of the American Philological Association",
+   "year": "1948",
+   "iid": "9bbf7ac6-c0ff-33e1-853a-25f4ee1825b0",
+   "doi": "10.2307/283359",
+   "title": "A Medical Theory of Cognition",
+   "author": "Harold W. Miller"
+  },
+  {
+   "book": "",
+   "page": 468,
+   "section": "a",
+   "line": 25,
+   "journal": "Recherches de théologie et philosophie médiévales",
+   "year": "2008",
+   "iid": "b4b9f1d0-67e1-3b7f-b3c6-1c2eadc1a0cc",
+   "doi": "10.2307/26172302",
+   "title": "ARISTOTE À PARIS: LE SYSTÈME DE LA \"PECIA\" ET LES TRADUCTIONS DE GUILLAUME DE MOERBEKE",
+   "author": "Pieter De Leemans, Pieter Beullens"
+  },
+  {
+   "book": "",
+   "page": 479,
+   "section": "b",
+   "line": 15,
+   "journal": "Recherches de théologie et philosophie médiévales",
+   "year": "2008",
+   "iid": "b4b9f1d0-67e1-3b7f-b3c6-1c2eadc1a0cc",
+   "doi": "10.2307/26172302",
+   "title": "ARISTOTE À PARIS: LE SYSTÈME DE LA \"PECIA\" ET LES TRADUCTIONS DE GUILLAUME DE MOERBEKE",
+   "author": "Pieter De Leemans, Pieter Beullens"
+  },
+  {
+   "book": "",
+   "page": 479,
+   "section": "b",
+   "line": 30,
+   "journal": "Recherches de théologie et philosophie médiévales",
+   "year": "2008",
+   "iid": "b4b9f1d0-67e1-3b7f-b3c6-1c2eadc1a0cc",
+   "doi": "10.2307/26172302",
+   "title": "ARISTOTE À PARIS: LE SYSTÈME DE LA \"PECIA\" ET LES TRADUCTIONS DE GUILLAUME DE MOERBEKE",
+   "author": "Pieter De Leemans, Pieter Beullens"
+  },
+  {
+   "book": "",
+   "page": 480,
+   "section": "a",
+   "line": null,
+   "journal": "Recherches de théologie et philosophie médiévales",
+   "year": "2008",
+   "iid": "b4b9f1d0-67e1-3b7f-b3c6-1c2eadc1a0cc",
+   "doi": "10.2307/26172302",
+   "title": "ARISTOTE À PARIS: LE SYSTÈME DE LA \"PECIA\" ET LES TRADUCTIONS DE GUILLAUME DE MOERBEKE",
+   "author": "Pieter De Leemans, Pieter Beullens"
+  },
+  {
+   "book": "",
+   "page": 480,
+   "section": "a",
+   "line": 15,
+   "journal": "Recherches de théologie et philosophie médiévales",
+   "year": "2008",
+   "iid": "b4b9f1d0-67e1-3b7f-b3c6-1c2eadc1a0cc",
+   "doi": "10.2307/26172302",
+   "title": "ARISTOTE À PARIS: LE SYSTÈME DE LA \"PECIA\" ET LES TRADUCTIONS DE GUILLAUME DE MOERBEKE",
+   "author": "Pieter De Leemans, Pieter Beullens"
+  },
+  {
+   "book": "",
+   "page": 480,
+   "section": "a",
+   "line": 30,
+   "journal": "Recherches de théologie et philosophie médiévales",
+   "year": "2008",
+   "iid": "b4b9f1d0-67e1-3b7f-b3c6-1c2eadc1a0cc",
+   "doi": "10.2307/26172302",
+   "title": "ARISTOTE À PARIS: LE SYSTÈME DE LA \"PECIA\" ET LES TRADUCTIONS DE GUILLAUME DE MOERBEKE",
+   "author": "Pieter De Leemans, Pieter Beullens"
+  },
+  {
+   "book": "",
+   "page": 480,
+   "section": "b",
+   "line": null,
+   "journal": "Recherches de théologie et philosophie médiévales",
+   "year": "2008",
+   "iid": "b4b9f1d0-67e1-3b7f-b3c6-1c2eadc1a0cc",
+   "doi": "10.2307/26172302",
+   "title": "ARISTOTE À PARIS: LE SYSTÈME DE LA \"PECIA\" ET LES TRADUCTIONS DE GUILLAUME DE MOERBEKE",
+   "author": "Pieter De Leemans, Pieter Beullens"
+  },
+  {
+   "book": "",
+   "page": 480,
+   "section": "b",
+   "line": 15,
+   "journal": "Recherches de théologie et philosophie médiévales",
+   "year": "2008",
+   "iid": "b4b9f1d0-67e1-3b7f-b3c6-1c2eadc1a0cc",
+   "doi": "10.2307/26172302",
+   "title": "ARISTOTE À PARIS: LE SYSTÈME DE LA \"PECIA\" ET LES TRADUCTIONS DE GUILLAUME DE MOERBEKE",
+   "author": "Pieter De Leemans, Pieter Beullens"
+  },
+  {
+   "book": "",
+   "page": 480,
+   "section": "b",
+   "line": 30,
+   "journal": "Recherches de théologie et philosophie médiévales",
+   "year": "2008",
+   "iid": "b4b9f1d0-67e1-3b7f-b3c6-1c2eadc1a0cc",
+   "doi": "10.2307/26172302",
+   "title": "ARISTOTE À PARIS: LE SYSTÈME DE LA \"PECIA\" ET LES TRADUCTIONS DE GUILLAUME DE MOERBEKE",
+   "author": "Pieter De Leemans, Pieter Beullens"
+  },
+  {
+   "book": "",
+   "page": 469,
+   "section": "b",
+   "line": 6,
+   "journal": "Recherches de théologie et philosophie médiévales",
+   "year": "2008",
+   "iid": "b4b9f1d0-67e1-3b7f-b3c6-1c2eadc1a0cc",
+   "doi": "10.2307/26172302",
+   "title": "ARISTOTE À PARIS: LE SYSTÈME DE LA \"PECIA\" ET LES TRADUCTIONS DE GUILLAUME DE MOERBEKE",
+   "author": "Pieter De Leemans, Pieter Beullens"
+  },
+  {
+   "book": "",
+   "page": 475,
+   "section": "a",
+   "line": 8,
+   "journal": "Recherches de théologie et philosophie médiévales",
+   "year": "2008",
+   "iid": "b4b9f1d0-67e1-3b7f-b3c6-1c2eadc1a0cc",
+   "doi": "10.2307/26172302",
+   "title": "ARISTOTE À PARIS: LE SYSTÈME DE LA \"PECIA\" ET LES TRADUCTIONS DE GUILLAUME DE MOERBEKE",
+   "author": "Pieter De Leemans, Pieter Beullens"
+  },
+  {
+   "book": "",
+   "page": 480,
+   "section": "b",
+   "line": 21,
+   "journal": "The American Journal of Philology",
+   "year": "1936",
+   "iid": "b4934819-68d2-3dc2-8e1c-beaa32ccab64",
+   "doi": "10.2307/290529",
+   "title": "The Philosophical System of Posidonius",
+   "author": "Ludwig Edelstein"
+  },
+  {
+   "book": "",
+   "page": 477,
+   "section": "a",
+   "line": null,
+   "journal": "Hermes",
+   "year": "1968",
+   "iid": "b677d8b2-79c7-3ed4-8b94-84892bd6bb99",
+   "doi": "10.2307/4475509",
+   "title": "Entoma ΑϒΤΟΜΑΤΑ: Aeschylus, Agamemnon 560-2",
+   "author": "H. MacL. Currie"
+  },
+  {
+   "book": "",
+   "page": 469,
+   "section": "a",
+   "line": 24,
+   "journal": "The American Journal of Philology",
+   "year": "1987",
+   "iid": "c7a083b8-760b-3519-8520-7f7df16b1f64",
+   "doi": "10.2307/294783",
+   "title": "Aristotle's Criticism of Soul-Division",
+   "author": "P. A. Vander Waerdt"
+  },
+  {
+   "book": "",
+   "page": 478,
+   "section": "b",
+   "line": 23,
+   "journal": "Recherches de théologie et philosophie médiévales",
+   "year": "2000",
+   "iid": "ccb3a6bc-fdfa-3233-98ee-5e1f3be9f23e",
+   "doi": "10.2307/26170052",
+   "title": "MEDIEVAL LATIN COMMENTARIES ON ARISTOTLE'S \"DE MOTU ANIMALIUM\": A CONTRIBUTION TO THE \"CORPUS COMMENTARIORUM MEDII AEVI IN ARISTOTELEM LATINORUM\"",
+   "author": "Pieter De Leemans"
+  },
+  {
+   "book": "",
+   "page": 480,
+   "section": "b",
+   "line": 30,
+   "journal": "Recherches de théologie et philosophie médiévales",
+   "year": "2000",
+   "iid": "ccb3a6bc-fdfa-3233-98ee-5e1f3be9f23e",
+   "doi": "10.2307/26170052",
+   "title": "MEDIEVAL LATIN COMMENTARIES ON ARISTOTLE'S \"DE MOTU ANIMALIUM\": A CONTRIBUTION TO THE \"CORPUS COMMENTARIORUM MEDII AEVI IN ARISTOTELEM LATINORUM\"",
+   "author": "Pieter De Leemans"
   }
  ]
 }
