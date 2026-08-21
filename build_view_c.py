@@ -311,7 +311,8 @@ def grains_for(author, faceted):
         return ["book"]
     if author in ("Homer", "Paul"):
         return ["book"]
-    return ["passage", "book"] if faceted else ["passage"]
+    # faceted works: book grain first, so it is the default and the leading toggle
+    return ["book", "passage"] if faceted else ["passage"]
 
 
 def main():

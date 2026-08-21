@@ -46,8 +46,8 @@ STATIC = os.path.join(SITE, "static")
 NAV = [
     ("/",                   "Home"),
     ("/explore/works/",     "Works over time"),
-    ("/explore/passages/",  "Passages"),
-    ("/explore/shifts/",    "Over time, within"),
+    ("/explore/passages/",  "Passages static"),
+    ("/explore/shifts/",    "Passages over time"),
     ("/methods/",           "Methods"),
     ("/data/",              "Data"),
     ("/contact/",           "Contact"),
@@ -570,7 +570,7 @@ def main():
             "/explore/works/")
     if os.path.exists(vb):
         build_viewer_page(
-            out, vb, "/explore/passages/", "Passages",
+            out, vb, "/explore/passages/", "Passages static",
             "Which passages of a single work the scholarship actually cites",
             open(os.path.join(CONTENT, "_intro_passages.md"), encoding="utf-8").read()
             if os.path.exists(os.path.join(CONTENT, "_intro_passages.md")) else "",
@@ -579,9 +579,9 @@ def main():
     if os.path.exists(vc):
         build_viewer_page(
             out, vc, "/explore/shifts/",
-            "How attention shifted over time within a single work",
-            "Pick a text — each opens as a map of its own passages over time, with a "
-            "plain statement of what the measurements found.",
+            "Passages over time",
+            "How attention shifted over time within a single work — pick a text and it "
+            "opens as a map of its own passages over the decades.",
             open(os.path.join(CONTENT, "_intro_shifts.md"), encoding="utf-8").read()
             if os.path.exists(os.path.join(CONTENT, "_intro_shifts.md")) else "",
             "/explore/shifts/")

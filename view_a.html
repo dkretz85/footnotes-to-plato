@@ -102,7 +102,13 @@ const $ = s=>document.querySelector(s);
 // Must end with a slash when non-empty.
 const DATA_DIR = "viewer_data/";
 
-let DATA=null, FILTER=null, WGROUPS=null;
+let DATA=null, FILTER=null, WGROUPS=null, AUTHORS=null;
+// author order + within-author ordering for the text picker
+const AORDER=["Homer","Pindar","Plato","Aristotle","Paul"];
+const HOMER_ORDER=["Iliad","Odyssey"];
+const PINDAR_ORDER=["Olympian","Pythian","Nemean","Isthmian"];
+const PAUL_ORDER=["Romans","1 Corinthians","2 Corinthians","Galatians","Ephesians","Philippians",
+  "Colossians","1 Thessalonians","2 Thessalonians","1 Timothy","2 Timothy","Titus","Philemon"];
 
 // ---- externalised prose ---------------------------------------------------
 // NB: the time-series panel's warnings are still authored inline below.
@@ -162,9 +168,10 @@ function mountFilter(){
     // the heavy matrix arrives after the first paint
     Promise.all([
       fetch(DATA_DIR+'view_a_filter.json').then(r=>r.json()),
-      fetch(DATA_DIR+'work_groups.json').then(r=>r.json()).catch(()=>null)
-    ]).then(([m,wg])=>{
-      FILTER=m; WGROUPS=wg; scInit();
+      fetch(DATA_DIR+'work_groups.json').then(r=>r.json()).catch(()=>null),
+      fetch(DATA_DIR+'authors.json').then(r=>r.json()).catch(()=>null)
+    ]).then(([m,wg,au])=>{
+      FILTER=m; WGROUPS=wg; AUTHORS=au; scInit();
     }).catch(e=>{
       console.warn("view_a_filter.json unavailable", e);
       $("#scChart").innerHTML =
@@ -207,13 +214,37 @@ function scInit(){
     }
     sel.appendChild(og);
   }
-  const ow=document.createElement("optgroup"); ow.label="Works";
-  for(const w of DATA.map(d=>d.work).sort()){
-    const o=document.createElement("option");
-    o.value="w:"+w; o.textContent=w.replace(/_/g," ");
-    ow.appendChild(o);
+  // Texts grouped by author (Homer, Pindar, Plato, Aristotle, Paul), each in a
+  // sensible order: Homer/Pindar/Paul canonical, Plato/Aristotle alphabetical.
+  const works = DATA.map(d=>d.work);
+  const orderIn = (author, list) => {
+    const canon = author==="Homer"?HOMER_ORDER : author==="Pindar"?PINDAR_ORDER
+                 : author==="Paul"?PAUL_ORDER : null;
+    if(canon){ const idx=n=>{const i=canon.indexOf(n.replace(/_/g," "));return i<0?99:i;};
+               return list.slice().sort((a,b)=>idx(a)-idx(b)); }
+    return list.slice().sort((a,b)=>a.replace(/_/g," ").localeCompare(b.replace(/_/g," ")));
+  };
+  if(AUTHORS){
+    for(const author of AORDER){
+      const list = orderIn(author, works.filter(w=>AUTHORS[w]===author));
+      if(!list.length) continue;
+      const og=document.createElement("optgroup"); og.label=author;
+      for(const w of list){
+        const o=document.createElement("option");
+        o.value="w:"+w; o.textContent=w.replace(/_/g," ");
+        og.appendChild(o);
+      }
+      sel.appendChild(og);
+    }
+  } else {
+    const ow=document.createElement("optgroup"); ow.label="Works";
+    for(const w of works.sort()){
+      const o=document.createElement("option");
+      o.value="w:"+w; o.textContent=w.replace(/_/g," ");
+      ow.appendChild(o);
+    }
+    sel.appendChild(ow);
   }
-  sel.appendChild(ow);
 
   sel.addEventListener("change",()=>{
     if(!sel.value) return;

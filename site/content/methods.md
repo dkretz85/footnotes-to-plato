@@ -265,7 +265,13 @@ and collision partners.
   shared with its collision partners — an upper gesture, never a subtotal, and
   never summed across texts. A short solid bar with a long fade (like
   <em>Timaeus</em> or <em>Apology</em>) means "much of its traffic couldn't be
-  placed," not "little studied."</div>
+  placed," not "little studied." <b>The fade is almost entirely a Stephanus
+  (Plato) phenomenon</b>: bare Stephanus pages like <em>80b</em> recur across
+  dozens of dialogues, so a citation with no dialogue named is genuinely
+  ambiguous. Bekker (Aristotle) numbers are mostly unique to one treatise, so
+  Aristotle's fades are small; and Homer, Pindar and Paul name the work in the
+  reference itself (<em>Il. 1.5</em>, <em>Rom 8:1</em>), so they have essentially
+  no fade at all.</div>
 </div>
 
 <script>

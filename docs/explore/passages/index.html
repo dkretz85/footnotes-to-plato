@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Passages — Footnotes to Plato</title>
+<title>Passages static — Footnotes to Plato</title>
 <meta name="description" content="A passage-level citation index of the ancient-philosophy scholarship">
 
 <link rel="stylesheet" href="/static/site.css">
@@ -136,6 +136,20 @@
   .pgcol.mark .pnum{color:var(--lav-deep); font-weight:600}
   .seclabel{font-family:var(--mono); font-size:7px; color:rgba(28,34,48,.4); text-align:center}
 
+  /* ---- book.line / chapter:verse heatmap (Homer, Pindar, Paul) ------------- */
+  .heatgrid.lineheat{display:block; margin-top:8px}
+  .lheat-row{display:grid; grid-template-columns:82px 1fr; align-items:center; gap:0 10px; margin-bottom:3px}
+  .lheat-lab{font-family:var(--mono); font-size:10px; color:var(--lav-deep); text-align:right; white-space:nowrap}
+  .lheat-strip{display:flex; gap:1px}
+  .lcell{flex:1 1 0; min-width:2px; height:14px; border-radius:1px; cursor:pointer;
+    border:1px solid rgba(28,34,48,.05); transition:transform .08s}
+  .lcell:hover{transform:scaleY(1.35); outline:2px solid var(--lav); z-index:2}
+  .lcell.empty{background:transparent!important; border-style:dashed;
+    border-color:rgba(28,34,48,.06); cursor:default}
+  .lcell.empty:hover{transform:none; outline:none}
+  .lcell.mark{box-shadow:inset 0 -2px 0 rgba(90,84,151,.28)}
+  .hg-empty{font-size:13px; color:var(--ink-soft); padding:12px}
+
   /* ---- drill-in panel ----------------------------------------------------- */
   .drill{
     position:fixed; top:0; right:0; height:100vh; width:min(430px,92vw);
@@ -147,6 +161,11 @@
   .drill-head{padding:20px 22px 14px; border-bottom:1px solid var(--rule)}
   .drill-head .loc{font-family:var(--serif); font-size:21px; font-weight:600}
   .drill-head .cnt{font-size:13px; color:var(--ink-soft); margin-top:2px}
+  /* prominent one-click route to the Perseus text, so the article list no longer
+     sits between a clicked passage and reading it */
+  .drill-head .pv-read{display:block; width:100%; margin-top:12px; text-align:center;
+    background:var(--lav-deep); color:#fff; border:1px solid var(--lav-deep)}
+  .drill-head .pv-read:hover{background:var(--lav); border-color:var(--lav)}
   .drill-close{position:absolute; top:16px; right:18px; border:0; background:none; font-size:22px; cursor:pointer; color:var(--ink-soft); line-height:1}
   .drill-body{overflow-y:auto; padding:8px 0}
   .cite{padding:12px 22px; border-bottom:1px solid var(--rule); font-size:13.5px}
@@ -245,12 +264,12 @@
   <div class="bar">
     <a class="brand" href="/"><span class="bt">Footnotes to Plato</span><i class="bt-and"> … and others</i></a>
     <button class="navtoggle" aria-label="Menu" aria-expanded="false">☰</button>
-    <nav class="mainnav"><a href="/">Home</a><a href="/explore/works/">Works over time</a><a href="/explore/passages/" class="on">Passages</a><a href="/explore/shifts/">Over time, within</a><a href="/methods/">Methods</a><a href="/data/">Data</a><a href="/contact/">Contact</a></nav>
+    <nav class="mainnav"><a href="/">Home</a><a href="/explore/works/">Works over time</a><a href="/explore/passages/" class="on">Passages static</a><a href="/explore/shifts/">Passages over time</a><a href="/methods/">Methods</a><a href="/data/">Data</a><a href="/contact/">Contact</a></nav>
   </div>
 </header>
 <main id="main" class="wide">
   <div class="pagehead">
-    <h1>Passages</h1>
+    <h1>Passages static</h1>
     <div class="sub">Which passages of a single work the scholarship actually cites</div>
   </div>
   
@@ -328,10 +347,10 @@
     <button class="drill-close" id="drillClose">×</button>
     <div class="loc" id="drillLoc"></div>
     <div class="cnt" id="drillCnt"></div>
+    <button class="btn pv-read" id="pvFromDrill" type="button" hidden>Read this passage on Perseus →</button>
   </div>
   <div class="drill-body" id="drillBody"></div>
   <div class="drill-foot">
-    <button class="btn ghost" id="pvFromDrill" type="button" hidden>View passage on Perseus ↗</button>
     <button class="btn" id="exportBtn" data-copy="view_b.drill.export_button"></button>
   </div>
 </aside>
@@ -349,11 +368,11 @@
       <strong>Footnotes to Plato</strong> · A passage-level citation index of the ancient-philosophy scholarship<br>
       <span class="muted">Made by David Kretz (Yale University /
       <a href="https://dkretz.com">dkretz.com</a>), with Claude Opus 4.8.
-      Built 2026-08-20. Derived from a JSTOR Text Analysis
+      Built 2026-08-21. Derived from a JSTOR Text Analysis
       Support delivery; a finding aid that links out to the articles, never a
       substitute for them.</span>
     </div>
-    <div class="flinks"><a href="/">Home</a><a href="/explore/works/">Works over time</a><a href="/explore/passages/">Passages</a><a href="/explore/shifts/">Over time, within</a><a href="/methods/">Methods</a><a href="/data/">Data</a><a href="/contact/">Contact</a></div>
+    <div class="flinks"><a href="/">Home</a><a href="/explore/works/">Works over time</a><a href="/explore/passages/">Passages static</a><a href="/explore/shifts/">Passages over time</a><a href="/methods/">Methods</a><a href="/data/">Data</a><a href="/contact/">Contact</a></div>
   </div>
 </footer>
 <script src="/static/site.js"></script>
@@ -653,7 +672,9 @@ function renderHead(){
 
 // rank a book label in reading order, tolerant of the "*" common-book marker
 function bookRank(b){
-  const i = BOOK_ORDER.indexOf((b||"").replace("*",""));
+  const s = (b||"").replace("*","");
+  if(/^\d+$/.test(s)) return parseInt(s,10);   // numeric books: Homer/Pindar/Paul
+  const i = BOOK_ORDER.indexOf(s);
   return i<0 ? 999 : i;
 }
 function orderedBooks(){
@@ -675,11 +696,30 @@ function sectionSequence(){
   return {seq, books};
 }
 
+// Chart sequence with a uniform interface: each item {cell, book, loc, drill}.
+// Section-grain works go through sectionSequence; book.line/chapter:verse works
+// bin their lines/verses (via lineBins) so the chart stays readable.
+function chartSequence(){
+  if(isLineSystem()){
+    const {cells, binSize} = lineBins();
+    const books = [...new Set(cells.map(c=>c.book))].sort((a,b)=>bookRank(a)-bookRank(b));
+    const seq = [];
+    for(const book of books){
+      cells.filter(c=>c.book===book).sort((a,b)=>a.bin-b.bin).forEach(c=>{
+        seq.push({ cell:c, book, loc:lineLocus(book, c.lo, c.hi),
+                   drill:()=>openDrillLine(book, c.bin, binSize) });
+      });
+    }
+    return { seq, books };
+  }
+  return sectionSequence();
+}
+
 // ---- BAR CHART (section grain, magnitude view) ----------------------------
 function renderChart(){
   const host = $("#chart");
   host.innerHTML = "";
-  const {seq, books} = sectionSequence();
+  const {seq, books} = chartSequence();
   if(!seq.length) return;
 
   let max=0; for(const s of seq){ const v=cellValue(s.cell); if(v>max)max=v; }
@@ -768,15 +808,16 @@ function renderChart(){
     bar.setAttribute("rx",Math.min(1.5,bw/2));
     bar.setAttribute("fill",`var(${heatVar(v,max)})`);
     const c=s.cell;
-    bar.addEventListener("click",()=>openDrill(c));
-    bar.addEventListener("mousemove",e=>showTipRaw(e,`${c.page}${c.section}`,v,c.articles));
+    bar.addEventListener("click", s.drill || (()=>openDrill(c)));
+    bar.addEventListener("mousemove",e=>showTipRaw(e, s.loc || `${c.page}${c.section}`, v, c.articles));
     bar.addEventListener("mouseleave",hideTip);
     svg.appendChild(bar);
     idx++;
   }
 
-  // book dividers + labels (only for faceted works with real books)
-  if(current.faceted){
+  // book dividers + labels — for faceted works, and for the book.line / chapter:verse
+  // corpora (Homer, Pindar, Paul) whose books/chapters/odes are the reading unit.
+  if(current.faceted || isLineSystem()){
     for(const book of books){
       const startI = bookStartIdx[book];
       if(startI===undefined) continue;
@@ -800,11 +841,11 @@ function renderChart(){
       tg.textContent = book.replace("*","");
       svg.appendChild(tg);
     }
-    // "Book" caption at far left of the axis row
+    // caption at far left of the axis row (Book / Chapter / Ode)
     const cap=document.createElementNS(NS,"text");
     cap.setAttribute("class","ylabel");
     cap.setAttribute("x",padL-40); cap.setAttribute("y",padT+plotH+26);
-    cap.textContent="Book";
+    cap.textContent=unitWords()[0];
     svg.appendChild(cap);
   }
 
@@ -825,6 +866,7 @@ function niceTicks(max, count){
 function renderHeatgrid(){
   const host = $("#heatgrid");
   host.innerHTML = "";
+  if(isLineSystem()) return renderHeatgridLine(host);
   const books = orderedBooks();
   host.className = "heatgrid" + ((!current.faceted || books.length<=1) ? " single" : "");
 
@@ -889,6 +931,61 @@ function renderHeatgrid(){
   }
 }
 
+// Heatmap for book.line (Homer, Pindar) and chapter:verse (Paul). No section
+// letters, so a books×line-bins matrix replaces the Stephanus a–e grid: one row
+// per book/chapter/ode, one cell per line-bin (verses are shown singly), coloured
+// by distinct citing articles. Fixes the empty/mis-numbered/over-wide grid.
+function renderHeatgridLine(host){
+  host.className = "heatgrid lineheat";
+  const {cells, binSize} = lineBins();
+  if(!cells.length){ host.innerHTML = "<div class='hg-empty'>No placed citations at this filter.</div>"; return; }
+  const w = unitWords();
+  const byBook = new Map();
+  let max = 1, maxBin = 0;
+  for(const c of cells){
+    if(!byBook.has(c.book)) byBook.set(c.book, new Map());
+    byBook.get(c.book).set(c.bin, c);
+    if(c.articles>max) max = c.articles;
+    if(c.bin>maxBin) maxBin = c.bin;
+  }
+  const books = [...byBook.keys()].sort((a,b)=>bookRank(a)-bookRank(b));
+  for(const book of books){
+    const m = byBook.get(book);
+    const row = document.createElement("div"); row.className = "lheat-row";
+    row.innerHTML = `<div class="lheat-lab">${w[0]} ${String(book).replace("*","")}</div>`;
+    const strip = document.createElement("div"); strip.className = "lheat-strip";
+    const bookMax = Math.max(...[...m.keys()]);
+    for(let b=0; b<=bookMax; b+=binSize){
+      const c = m.get(b);
+      const cell = document.createElement("div");
+      const val = c ? c.articles : 0;
+      cell.className = "lcell" + (val?"":" empty") + ((b/binSize)%5===0 ? " mark":"");
+      if(val){
+        cell.style.background = `var(${heatVar(val,max)})`;
+        const loc = lineLocus(book, b, binSize===1?b:b+binSize-1);
+        cell.addEventListener("click",()=>openDrillLine(book, b, binSize));
+        cell.addEventListener("mousemove",e=>showTipRaw(e, loc, val));
+        cell.addEventListener("mouseleave",hideTip);
+        cell.addEventListener("touchstart",e=>showTipRaw(e.touches[0], loc, val),{passive:true});
+      }
+      strip.appendChild(cell);
+    }
+    row.appendChild(strip);
+    host.appendChild(row);
+  }
+}
+
+// drill for one line-bin: the articles citing this book at these lines/verses
+function openDrillLine(book, binStart, binSize){
+  const dots = current.dots.filter(d=>{
+    if(d.book!==book || !passesBar(d)) return false;
+    const ln = parseInt(d.page,10);
+    return !isNaN(ln) && Math.floor(ln/binSize)*binSize===binStart;
+  });
+  const hi = binSize===1 ? binStart : binStart+binSize-1;
+  openDrillDots(dots, lineLocus(book, binStart, hi));
+}
+
 // build line-band cells from dots: book|page|sec|band -> {count, articles, iids}
 let _bandCache=null, _bandCacheKey="";
 function buildBandCells(){
@@ -927,6 +1024,54 @@ const BAND_LABEL = ['\u2081','\u2082','\u2083','\u2093'];   // ₁ ₂ ₃ ₓ
 // Analytics ...) on a Stephanus a-e grid with three permanently empty columns.
 function paginationOf(work){
   return (typeof EDITIONS!=="undefined" && EDITIONS[work]==="a") ? "bekker" : "stephanus"; }
+
+// The addressing SYSTEM of the loaded work. Plato/Aristotle are settled by EDITIONS
+// (authoritative past the work_system mislabel); the new corpora declare it in their
+// JSON — homer/pindar address by book.line, nt by chapter:verse. book.line and
+// chapter:verse have no section letter, so they need their own grid, not the
+// Stephanus a–e one (which left every Homer/Pindar/Paul cell empty).
+function systemOf(){
+  const w = current && current.work;
+  if(typeof EDITIONS!=="undefined" && EDITIONS[w]==="a") return "bekker";
+  if(typeof EDITIONS!=="undefined" && EDITIONS[w]==="p") return "stephanus";
+  const s = current && current.system;
+  if(s==="homer" || s==="pindar") return "line";
+  if(s==="nt") return "verse";
+  return "stephanus";
+}
+function isLineSystem(){ const s=systemOf(); return s==="line" || s==="verse"; }
+// unit words for the loaded work: [book-word, sub-word]
+function unitWords(){
+  const s = current && current.system;
+  if(s==="pindar") return ["Ode","line"];
+  if(s==="homer")  return ["Book","line"];
+  if(s==="nt")     return ["Chapter","verse"];
+  return ["Book","line"];
+}
+// verbose locus for a book.line / chapter:verse tooltip
+function lineLocus(book, lo, hi){
+  const w = unitWords();
+  return (hi && hi!==lo)
+    ? `${w[0]} ${book}, ${w[1]}s ${lo}–${hi}`
+    : `${w[0]} ${book}, ${w[1]} ${lo}`;
+}
+// binned book.line/chapter:verse cells for the chart and the heatmap (shared)
+function lineBins(){
+  const binSize = systemOf()==="verse" ? 1 : 10;   // verses fine; lines by ten
+  const map = new Map();                            // book|bin -> cell
+  for(const d of current.dots){
+    if(!passesBar(d)) continue;
+    const ln = parseInt(d.page,10); if(isNaN(ln)) continue;
+    const bin = Math.floor(ln/binSize)*binSize;
+    const k = d.book+"|"+bin;
+    let e = map.get(k);
+    if(!e){ e={book:d.book, bin, lo:bin, hi:bin+binSize-1, iids:new Set()}; map.set(k,e); }
+    if(d.iid) e.iids.add(d.iid);
+  }
+  const cells = [...map.values()];
+  cells.forEach(e=>{ e.articles=e.iids.size; e.count=e.articles; });
+  return { cells, binSize };
+}
 function sectionsFor(work){
   return paginationOf(work)==="bekker" ? ["a","b"] : SECTIONS; }
 function hasLineBands(work){

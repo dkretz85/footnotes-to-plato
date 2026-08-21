@@ -221,7 +221,7 @@ const BOOKNOTE = {
 
 let INDEX = null, CACHE = {};
 const S = { screen:"list", work:null, entry:null, grain:null, jset:"all",
-  split:1961, splitOpen:false, metric:"share", density:"full", cmpOpen:false,
+  split:1961, splitOpen:true, metric:"share", density:"full", cmpOpen:false,
   cmpA:"phil", cmpB:"classics", listA:[], listB:[], qA:"", qB:"" };
 
 function setState(patch){ Object.assign(S, patch); render(); }
@@ -239,7 +239,7 @@ function openWork(work){
   const key = safe(work);
   const go = e => {
     setState({ screen:"work", work, entry:e, grain: e.default_grain,
-      jset:"all", split: e.median || 1961, splitOpen:false, cmpOpen:false, density:"full",
+      jset:"all", split: e.median || 1961, splitOpen:true, cmpOpen:false, density:"full",
       cmpA:"phil", cmpB:"classics", listA:[], listB:[], qA:"", qB:"" });
   };
   if(CACHE[key]) return go(CACHE[key]);
@@ -379,9 +379,9 @@ function mapBlock(e, v, col, shape){
   const op = x => (0.06 + (maxc? x/maxc:0)*0.88).toFixed(3);
 
   const decrow = DEC.map((d,i)=>{
-    const anchor = d==="1890s"||d==="1990s";
-    const cls = anchor?"d anchor":(i<2?"d early":"d");
-    return `<div class="${cls}">${anchor?d:d.slice(2)}</div>`;
+    const yr = 1890 + i*10;                              // decade-start year, 4 digits
+    const cls = i<2 ? "d early" : (yr%100===0 ? "d anchor" : "d");  // 1900/2000 bold to orient
+    return `<div class="${cls}">${yr}</div>`;            // unambiguous about century
   }).join("");
 
   const rowsHtml = rows.map((r,i)=>{
@@ -478,12 +478,15 @@ function summBlock(e, v, lvl){
         <span class="mnote">${metricNote}</span></div>
       <div style="display:flex;align-items:baseline;gap:10px;margin-bottom:8px">
         <span class="lab" style="color:var(--lav)">Split the years at</span>
-        <span class="serif" style="font-size:21px;font-weight:600">${S.split}</span>
-        <span style="font-size:12px;color:var(--soft);font-style:italic">the corpus median for this text · drag to try another</span></div>
+        <span class="serif" style="font-size:21px;font-weight:600" data-splityear>${S.split}</span>
+        <span style="display:inline-flex;gap:5px">
+          <button class="mini chip" data-splitstep="-1" title="one year earlier">−</button>
+          <button class="mini chip" data-splitstep="1" title="one year later">+</button></span>
+        <span style="font-size:12px;color:var(--soft);font-style:italic">the corpus median for this text · drag, or step year by year</span></div>
       <input type="range" min="1887" max="2022" step="1" value="${S.split}" data-splitdrag>
       <div class="ticks"><span style="left:0">1887</span><span style="left:46.7%;transform:translateX(-50%)">1950</span>
         <span style="left:76.3%;transform:translateX(-50%)">1990</span><span style="right:0">2022</span></div>
-      <div class="strip">${strip}</div>
+      <div class="strip" data-stripwrap>${strip}</div>
       <div class="lab" style="margin-top:4px;letter-spacing:.1em">${legend}</div>
     </div></div>`;
 }
@@ -645,12 +648,23 @@ function wire(){
   const root = $("#vcRoot");
   root.querySelectorAll("[data-open]").forEach(el=>el.addEventListener("click",ev=>{ev.preventDefault();openWork(el.dataset.open);}));
   const back = root.querySelector("[data-back]"); if(back) back.addEventListener("click",()=>setState({screen:"list"}));
-  root.querySelectorAll("[data-grain]").forEach(b=>b.addEventListener("click",()=>setState({grain:b.dataset.grain,splitOpen:false})));
-  root.querySelectorAll("[data-set]").forEach(b=>b.addEventListener("click",()=>setState({jset:b.dataset.set,splitOpen:false})));
+  root.querySelectorAll("[data-grain]").forEach(b=>b.addEventListener("click",()=>setState({grain:b.dataset.grain})));
+  root.querySelectorAll("[data-set]").forEach(b=>b.addEventListener("click",()=>setState({jset:b.dataset.set})));
   root.querySelectorAll("[data-density]").forEach(b=>b.addEventListener("click",()=>setState({density:b.dataset.density})));
   root.querySelectorAll("[data-metric]").forEach(b=>b.addEventListener("click",()=>setState({metric:b.dataset.metric})));
   const stog = root.querySelector("[data-splittoggle]"); if(stog) stog.addEventListener("click",()=>setState({splitOpen:!S.splitOpen}));
-  const sd = root.querySelector("[data-splitdrag]"); if(sd) sd.addEventListener("input",ev=>setState({split:+ev.target.value}));
+  // Live split update — never full-re-renders (which would recreate the slider and
+  // break the drag). Updates the year, the slider position, and the strip in place.
+  function liveSplit(y){
+    y = Math.max(1887, Math.min(2022, Math.round(y)));
+    S.split = y;
+    const ys = root.querySelector("[data-splityear]"); if(ys) ys.textContent = y;
+    const sl = root.querySelector("[data-splitdrag]"); if(sl && +sl.value !== y) sl.value = y;
+    const sw = root.querySelector("[data-stripwrap]");
+    if(sw) sw.innerHTML = buildStrip(variant(S.entry, S.grain, S.jset));
+  }
+  const sd = root.querySelector("[data-splitdrag]"); if(sd) sd.addEventListener("input",ev=>liveSplit(+ev.target.value));
+  root.querySelectorAll("[data-splitstep]").forEach(b=>b.addEventListener("click",()=>liveSplit(S.split + (+b.dataset.splitstep))));
   const ctog = root.querySelector("[data-cmptoggle]"); if(ctog) ctog.addEventListener("click",()=>setState({cmpOpen:!S.cmpOpen}));
   root.querySelectorAll("[data-cmppick]").forEach(p=>p.addEventListener("click",()=>{
     const v=p.dataset.cmppick, i=v.indexOf(":"), w=v.slice(0,i), s=v.slice(i+1);
