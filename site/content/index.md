@@ -6,9 +6,9 @@ description: A passage-level citation index tracking how the journal literature 
 
 <div class="lede" style="font-family:var(--serif);font-size:19px;line-height:1.6">Welcome! <strong>Footnotes to Plato (and Others)</strong> is a tool for scholars in ancient philosophy, classics, theology, reception studies, intellectual history, history of the humanities, and digital humanities.</div>
 
-<p class="lede">It tracks citations to five ancient authors—Homer, Pindar, Plato, Aristotle, and Paul—across a corpus of {{journal_count}} academic journals, published between {{year_from}} and {{year_to}}. Shoutout to the folks at JSTOR who kindly provided the data.</p>
+<p class="lede">It tracks citations to five ancient authors—Homer, Pindar, Plato, Aristotle, and Paul—across a corpus of {{journal_count}} academic journals, published between {{year_from}} and {{year_to}}. Shoutout to the folks at JSTOR who kindly provided the data!</p>
 
-<p class="lede">Three visualization tools let you analyze how scholarly attention distributes between and within texts at passage-level granularity, how that shifts over time, and how it differs from journal to journal and discipline to discipline.</p>
+<p class="lede">Three visualization tools let you analyze how scholarly attention distributes, between and within texts, at passage-level granularity, how that shifts over time, and how it differs from journal to journal and discipline to discipline. You can also create bibliographies of articles citing specific passages at one click.</p>
 
 <p class="lede">For the list of journals covered see [the methods page](/methods/#coverage); for the full method see [methods](/methods/), and for the data, [the data page](/data/).</p>
 
