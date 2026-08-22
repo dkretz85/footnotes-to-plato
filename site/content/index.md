@@ -46,9 +46,9 @@ description: A passage-level citation index tracking how the journal literature 
 <h2 style="border:0;margin:0 0 6px">Three caveats, before you start</h2>
 
 <div class="caveats">
-  <div class="cv"><h4>Select journals ≠ the whole field</h4><p>Journal articles only — no monographs, edited volumes or commentaries, and with an Anglophone and European skew. Much influential work is simply absent from these counts.</p></div>
-  <div class="cv"><h4>Uneven across two centuries</h4><p>The early decades are thin and most citations fall after 1980. A quiet early stretch reflects how little was published and digitized then, not a lapse in scholarly attention.</p></div>
-  <div class="cv"><h4>Every count is a floor</h4><p>A bare reference like <em>80b</em> fits <em>Meno</em>, <em>Phaedo</em>, <em>Timaeus</em> or <em>Posterior Analytics</em> at once, and does not even declare which pagination it uses. Where the surrounding text does not settle it, we decline to guess.</p></div>
+  <div class="cv"><h4>Select journals ≠ the whole field</h4><p>Journal articles only, although included book reviews give a small window onto monographs. The selection skews Anglophone.</p></div>
+  <div class="cv"><h4>Uneven across two centuries</h4><p>The early decades are thin. Most citations date to after 1980.</p></div>
+  <div class="cv"><h4>For Plato & Aristotle, every count is a floor</h4><p>A reference like <em>80b</em> fits <em>Meno</em>, <em>Phaedo</em>, <em>Timaeus</em> or <em>Posterior Analytics</em> at once. Where the surrounding text does not settle it, we decline to guess. See the graph below. </p></div>
 </div>
 
 <div class="sampler">
@@ -73,7 +73,7 @@ If this contributed to published work, please cite as: *Kretz, David, Footnotes 
 
 ## Acknowledgements
 
-The pipeline, the analysis, and this website were developed with substantial assistance from Claude Opus 4.8 (by Anthropic) throughout. The responsibility for methodological decisions remains mine. I would like to thank the team at JSTOR Text Analysis Support for sharing the data that made this possible, and Joshua Mendelsohn for feedback on an earlier version.
+Claude Opus 4.8 (by Anthropic) wrote all the code for the website and data-analysis. AI never decided whether something is or is not a citation, or what author to assign it to. It helped me think through questions of design, analysis, and it drafted text for the Methods section. The responsibility for all genuinely philological and methodological decisions remains mine. </br> I would like to thank the team at JSTOR Text Analysis Support for sharing the data that made this possible, and Joshua Mendelsohn for feedback on an earlier version.
 
 <script>
 /* The eight-text floor-vs-fade sampler (real: solid = placed floor, fade =
