@@ -8,7 +8,9 @@ description: A passage-level citation index tracking how scholarly articles cite
 
 <p class="lede" style="font-family:var(--serif);font-size:19px;line-height:1.6">It tracks citations to five ancient authors—<strong>Homer, Pindar, Plato, Aristotle, and Paul</strong>—across a corpus of {{journal_count}} academic journals, published between {{year_from}} and {{year_to}}. Shoutout to the folks at JSTOR who kindly provided the data!</p>
 
-<p class="lede" style="font-family:var(--serif);font-size:19px;line-height:1.6">Three visualization tools let you analyze how scholarly attention distributes, between and within texts, at passage-level granularity, how that shifts over time, and how it differs from journal to journal and discipline to discipline. You can also create bibliographies of articles citing specific passages at one click.</p>
+<p class="lede" style="font-family:var(--serif);font-size:19px;line-height:1.6">Three visualization tools let you analyze how scholarly attention distributes, </br> between texts, and text clusters, over time, </br> within texts, at passage-level granularity, </br> and how it differs from journal to journal and discipline to discipline.</p>
+
+<p class="lede" style="font-family:var(--serif);font-size:19px;line-height:1.6">You can also create bibliographies of articles citing specific passages at one click.</p>
 
 <p class="lede" style="font-family:var(--serif);font-size:19px;line-height:1.6">For the list of journals covered see [the methods page](/methods/#coverage); for the full method see [methods](/methods/), for the data, [the data page](/data/), and for contacting me with suggestions & questions see [contact](/contact/).</p>
 
