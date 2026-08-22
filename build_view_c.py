@@ -267,9 +267,11 @@ def build_custom(dots, system, grain, labels):
         n = len(iids)
         jvol[jidx[j]][d] += n
         ucell[u][jidx[j]][d] += n
-    label_set = set(labels)
-    units = [{"label": lab, "jc": {str(ji): c for ji, c in ucell.get(lab, {}).items() if any(c)}}
-             for lab in labels]
+    # Emit EVERY unit that carries citations (in text order), not just the top-N
+    # movers rows — the journal-comparison viewer draws a delta for every passage.
+    all_labels = sorted(ucell.keys(), key=lambda u: sort_key(u, system, grain))
+    units = [{"label": lab, "jc": {str(ji): c for ji, c in ucell[lab].items() if any(c)}}
+             for lab in all_labels]
     return {
         "journals": [[j, JFIELD.get(j, "")] for j in jlist],
         "units": units,

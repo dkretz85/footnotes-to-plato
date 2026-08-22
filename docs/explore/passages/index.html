@@ -137,17 +137,23 @@
   .seclabel{font-family:var(--mono); font-size:7px; color:rgba(28,34,48,.4); text-align:center}
 
   /* ---- book.line / chapter:verse heatmap (Homer, Pindar, Paul) ------------- */
-  .heatgrid.lineheat{display:block; margin-top:8px}
-  .lheat-row{display:grid; grid-template-columns:82px 1fr; align-items:center; gap:0 10px; margin-bottom:3px}
+  .heatgrid.lineheat{display:block; margin-top:8px; overflow-x:auto; padding-bottom:4px}
+  /* strip column is max-content, and cells are a FIXED width, so equal line-batches
+     draw equal-length cells — a shorter book/chapter reads as a shorter row. */
+  .lheat-row{display:grid; grid-template-columns:82px max-content; align-items:center; gap:0 10px; margin-bottom:3px}
   .lheat-lab{font-family:var(--mono); font-size:10px; color:var(--lav-deep); text-align:right; white-space:nowrap}
   .lheat-strip{display:flex; gap:1px}
-  .lcell{flex:1 1 0; min-width:2px; height:14px; border-radius:1px; cursor:pointer;
+  .lcell{flex:none; width:8px; height:14px; border-radius:1px; cursor:pointer;
     border:1px solid rgba(28,34,48,.05); transition:transform .08s}
   .lcell:hover{transform:scaleY(1.35); outline:2px solid var(--lav); z-index:2}
   .lcell.empty{background:transparent!important; border-style:dashed;
     border-color:rgba(28,34,48,.06); cursor:default}
   .lcell.empty:hover{transform:none; outline:none}
-  .lcell.mark{box-shadow:inset 0 -2px 0 rgba(90,84,151,.28)}
+  /* every-50-lines marker: a subtle perforated divider in the gap before the cell,
+     not a stripe on the cell itself */
+  .lcell.mark{margin-left:5px; position:relative}
+  .lcell.mark::before{content:""; position:absolute; left:-3px; top:-2px; bottom:-2px;
+    border-left:1px dotted rgba(90,84,151,.45)}
   .hg-empty{font-size:13px; color:var(--ink-soft); padding:12px}
 
   /* ---- drill-in panel ----------------------------------------------------- */
@@ -447,8 +453,14 @@ const PERSEUS_DOC = {
   // Aristotle (only these six are in Perseus)
   "Eudemian_Ethics":"1999.01.0050", "Metaphysics":"1999.01.0052",
   "Nicomachean_Ethics":"1999.01.0054", "Poetics":"1999.01.0056",
-  "Politics":"1999.01.0058", "Rhetoric":"1999.01.0060"
+  "Politics":"1999.01.0058", "Rhetoric":"1999.01.0060",
+  // Homer (English, Murray) and Pindar (English, Svarlien — all four ode-books share one text)
+  "Iliad":"1999.01.0134", "Odyssey":"1999.01.0136",
+  "Olympian":"1999.01.0162", "Pythian":"1999.01.0162",
+  "Nemean":"1999.01.0162", "Isthmian":"1999.01.0162"
 };
+// Pindar ode-book -> Perseus `book=` letter; the ode number is the `poem=` component.
+const PINDAR_BOOK = {Olympian:"O.", Pythian:"P.", Nemean:"N.", Isthmian:"I."};
 const PERSEUS_ABBR = {
   "Alcibiades_1":"Plat. Alc. 1", "Alcibiades_2":"Plat. Alc. 2", "Apology":"Plat. Apol.",
   "Charmides":"Plat. Charm.", "Clitophon":"Plat. Cleit.", "Cratylus":"Plat. Crat.",
@@ -465,7 +477,9 @@ const PERSEUS_ABBR = {
   "Timaeus":"Plat. Tim.",
   "Eudemian_Ethics":"Aristot. Eud. Eth.", "Metaphysics":"Aristot. Met.",
   "Nicomachean_Ethics":"Aristot. Nic. Eth.", "Poetics":"Aristot. Poet.",
-  "Politics":"Aristot. Pol.", "Rhetoric":"Aristot. Rh."
+  "Politics":"Aristot. Pol.", "Rhetoric":"Aristot. Rh.",
+  "Iliad":"Hom. Il.", "Odyssey":"Hom. Od.",
+  "Olympian":"Pind. O.", "Pythian":"Pind. P.", "Nemean":"Pind. N.", "Isthmian":"Pind. I."
 };
 
 // The human-readable citation shown in the strip header, e.g. "Plat. Meno 80a".
@@ -496,6 +510,9 @@ function perseusLabel(book, page, section){
   const work = current && current.work;
   const abbr = PERSEUS_ABBR[work];
   if(!abbr) return null;
+  // Homer and Pindar link at book/ode level on Perseus (card=1 / poem), so label
+  // the book/ode rather than a line the link won't actually jump to.
+  if(current.system==="homer" || current.system==="pindar") return `${abbr} ${book}`;
   if(PERSEUS_ABBR_BOOK[work]){
     const bk = perseusBekkerBook(work, book, page, section);
     return bk ? `${abbr} ${bk}.${page}${section||""}` : `${abbr} ${page}${section||""}`;
@@ -516,6 +533,17 @@ function perseusDocParam(book, page, section){
   const work = current && current.work;
   const base = PERSEUS_DOC[work];
   if(!base) return null;
+  // Homer: Perseus addresses by book + card; we land the reader at the book start
+  // (line->card boundaries aren't in our data). Pindar: by ode-book letter + poem;
+  // the Pythians exist only at book level, and Isthmian 9 isn't on Perseus.
+  if(current.system==="homer") return `doc=Perseus:text:${base}:book=${book}:card=1`;
+  if(current.system==="pindar"){
+    const letter = PINDAR_BOOK[work];
+    if(!letter) return null;
+    if(work==="Isthmian" && String(book)==="9") return null;
+    if(work==="Pythian") return `doc=Perseus:text:${base}:book=${letter}`;
+    return `doc=Perseus:text:${base}:book=${letter}:poem=${book}`;
+  }
   if(PERSEUS_ABBR_BOOK[work]){
     const bk = perseusBekkerBook(work, book, page, section);
     if(!bk) return null;
@@ -703,7 +731,13 @@ function cellValue(cell){ return cell.articles; }
 function render(){
   renderBands();
   renderHead();
-  renderChart();
+  // Pindar's odes are separate poems, so a single bar chart across them reads as
+  // one continuous work when it isn't. Show only the per-ode heatmaps.
+  const isPindar = current && current.system==="pindar";
+  const chartHead = document.querySelector(".chart-head");
+  if(chartHead) chartHead.style.display = isPindar ? "none" : "";
+  $("#chart").style.display = isPindar ? "none" : "";
+  if(isPindar) $("#chart").innerHTML = ""; else renderChart();
   renderHeatgrid();
 }
 
@@ -1021,7 +1055,7 @@ function renderHeatgridLine(host){
       const c = m.get(b);
       const cell = document.createElement("div");
       const val = c ? c.articles : 0;
-      cell.className = "lcell" + (val?"":" empty") + ((b/binSize)%5===0 ? " mark":"");
+      cell.className = "lcell" + (val?"":" empty") + ((b/binSize)%5===0 && b>0 ? " mark":"");
       if(val){
         cell.style.background = `var(${heatVar(val,max)})`;
         const loc = lineLocus(book, b, binSize===1?b:b+binSize-1);

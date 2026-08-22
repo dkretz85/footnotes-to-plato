@@ -38,10 +38,16 @@
 
 /* -- period slider (decade range) ---------------------------------------- */
 .vc .period{display:flex;align-items:center;gap:12px;min-width:280px;flex:1}
-.vc .slider{position:relative;height:30px;flex:1;min-width:180px}
-.vc .track{position:absolute;left:0;right:0;top:13px;height:3px;background:var(--rule);border-radius:2px}
-.vc .sel{position:absolute;top:13px;height:3px;background:var(--lav);border-radius:2px}
-.vc .slider input[type=range]{position:absolute;left:0;right:0;top:4px;width:100%;height:22px;margin:0;
+.vc .slider{position:relative;height:44px;flex:1;min-width:180px}
+/* citation-volume sparkline behind the handles, like the Viewers A & B sliders */
+.vc .spark{position:absolute;inset:0 0 12px 0;overflow:hidden;--l:0%;--r:100%;border-bottom:1px solid var(--rule)}
+.vc .sparksvg{width:100%;height:100%;display:block}
+.vc .sparkarea{fill:var(--lav-line)}
+.vc .spark::before,.vc .spark::after{content:"";position:absolute;top:0;bottom:0;background:rgba(247,248,251,.72);pointer-events:none}
+.vc .spark::before{left:0;width:var(--l)} .vc .spark::after{left:var(--r);right:0}
+.vc .track{position:absolute;left:0;right:0;top:30px;height:3px;background:var(--rule);border-radius:2px}
+.vc .sel{position:absolute;top:30px;height:3px;background:var(--lav);border-radius:2px}
+.vc .slider input[type=range]{position:absolute;left:0;right:0;top:21px;width:100%;height:22px;margin:0;
   background:none;-webkit-appearance:none;appearance:none;pointer-events:none}
 .vc .slider input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;pointer-events:auto;cursor:grab;
   width:15px;height:15px;border-radius:50%;background:#fff;border:2px solid var(--lav);box-shadow:0 1px 3px rgba(28,34,48,.25)}
@@ -71,12 +77,18 @@
   border-bottom:1px solid var(--rule);padding-bottom:3px;margin-bottom:3px;display:flex;justify-content:space-between}
 .vc .jghead button{background:none;border:0;font:inherit;color:var(--lav);cursor:pointer;padding:0}
 .vc .set.B .jghead button{color:var(--clay)}
-.vc .jrow{display:flex;align-items:center;gap:6px;font-size:11.5px;padding:1px 2px;border-radius:4px;cursor:pointer;min-width:0}
+.vc .jsubhead{display:flex;justify-content:space-between;align-items:baseline;font-family:var(--serif);
+  font-size:11px;font-style:italic;color:var(--soft);margin:5px 0 1px;padding-left:2px}
+.vc .jsubhead button{background:none;border:0;font-family:var(--mono);font-size:8.5px;letter-spacing:.08em;
+  text-transform:uppercase;color:var(--lav);cursor:pointer;padding:0}
+.vc .set.B .jsubhead button{color:var(--clay)}
+.vc .jrow{display:flex;align-items:flex-start;gap:6px;font-size:11.5px;padding:2px 2px;border-radius:4px;cursor:pointer;min-width:0}
 .vc .jrow:hover{background:var(--lav-tint)}
 .vc .set.B .jrow:hover{background:var(--clay-paper)}
-.vc .jrow input{margin:0;flex:none;cursor:pointer}
+.vc .jrow input{margin:2px 0 0;flex:none;cursor:pointer}
 .vc .set.A .jrow input{accent-color:var(--lav)} .vc .set.B .jrow input{accent-color:var(--clay)}
-.vc .jrow span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:var(--ink2)}
+/* full titles, wrapping to as many lines as needed rather than truncating */
+.vc .jrow span{white-space:normal;line-height:1.22;color:var(--ink2)}
 .vc .jrow input:not(:checked)~span{color:var(--faint)}
 
 /* -- delta chart ---------------------------------------------------------- */
@@ -91,23 +103,28 @@
 .vc .sortbar button{font-family:var(--mono);font-size:10.5px;letter-spacing:.04em;padding:4px 10px;border-radius:6px;
   border:1px solid var(--rule);background:#fff;color:var(--soft)}
 .vc .sortbar button.on{background:var(--lav);color:#fff;border-color:var(--lav)}
+.vc .sortbar .expandbtn{margin-left:auto}
 /* vertical diverging column chart: baseline across, Set A up (lavender), Set B down (clay) */
 .vc .colwrap{margin-top:10px;display:grid;grid-template-columns:44px 1fr;gap:6px}
 .vc .yaxis{position:relative;font-family:var(--mono);font-size:9.5px;color:var(--faint)}
 .vc .yaxis .yt{position:absolute;right:0;white-space:nowrap} .vc .yaxis .ytop{top:16px} .vc .yzero{top:50%;transform:translateY(-50%);color:var(--rule-muted)} .vc .ybot{bottom:16px}
-.vc .colchart{position:relative;display:flex;align-items:stretch;gap:2px;height:300px}
+.vc .chartscroll{overflow-x:auto;min-width:0}
+.vc .colchart{position:relative;display:flex;align-items:stretch;gap:0;height:300px}
+.vc .colchart.expanded{width:max-content;gap:1px}
 .vc .zeroline{position:absolute;left:0;right:0;top:50%;height:1px;background:var(--rule-muted)}
 .vc .col{flex:1 1 0;position:relative;min-width:0}
+.vc .colchart.expanded .col{flex:0 0 7px}
 .vc .cbar{position:absolute;left:14%;right:14%;min-height:1px}
+.vc .colchart.expanded .cbar{left:1px;right:1px}
 .vc .cbar.pos{bottom:50%;background:var(--lav);border-radius:3px 3px 0 0}
 .vc .cbar.neg{top:50%;background:var(--clay);border-radius:0 0 3px 3px}
-.vc .cbar:hover{filter:brightness(1.1)}
+.vc .cbar:hover{filter:brightness(1.1);outline:1px solid var(--lav)}
 .vc .cval{position:absolute;left:-40%;right:-40%;text-align:center;font-family:var(--mono);font-size:9px;color:var(--soft);white-space:nowrap}
-.vc .cval.pos{bottom:calc(50% + 2px)} .vc .cval.neg{top:calc(50% + 2px)}
-.vc .collabs{display:flex;gap:2px;margin-top:6px}
+.vc .cval.pos{bottom:calc(50% + 2px);color:var(--lav-hi)} .vc .cval.neg{top:calc(50% + 2px);color:var(--clay-hi)}
+.vc .collabs{display:flex;gap:0;margin-top:6px}
 .vc .colref{flex:1 1 0;text-align:center;font-family:var(--serif);font-size:11.5px;color:var(--ink);
-  white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0}
-.vc .cval.pos{color:var(--lav-hi)} .vc .cval.neg{color:var(--clay-hi)}
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0;padding:0 1px}
+.vc .axisnote{margin-top:8px;font-family:var(--mono);font-size:10px;color:var(--faint);text-align:center}
 .vc .note{background:var(--clay-paper);border:1px solid var(--clay-line);border-left:3px solid var(--clay);
   border-radius:0 9px 9px 0;padding:14px 18px;font-size:13px;color:var(--clay-ink);margin-top:6px}
 .vc .tip{position:fixed;z-index:50;background:var(--ink);color:#fff;font-size:12px;line-height:1.5;
@@ -139,6 +156,7 @@
     <div class="period">
       <label class="lab">Period</label>
       <div class="slider" id="vcSlider">
+        <div class="spark" id="vcSpark"></div>
         <div class="track"></div><div class="sel" id="vcSel"></div>
         <input type="range" id="vcP0" min="0" max="13" value="0">
         <input type="range" id="vcP1" min="0" max="13" value="13">
@@ -161,12 +179,31 @@ const HOMER_ORDER=["Iliad","Odyssey"], PINDAR_ORDER=["Olympian","Pythian","Nemea
 const PAUL_ORDER=["Romans","1 Corinthians","2 Corinthians","Galatians","Ephesians","Philippians",
   "Colossians","1 Thessalonians","2 Thessalonians","1 Timothy","2 Timothy","Titus","Philemon"];
 const GROUPS=[["philosophy","Philosophy"],["classics","Classics"],["theology","Theology & NT"]];
+// Theology journals subdivided by DISCIPLINE (confessional splits left aside for now).
+// Editable proposal — adjust assignments as needed. Anything unlisted falls to "theology".
+const THEO_SUB=[["biblical","Biblical studies"],["theology","Theology & church history"],["religion","Religious studies"]];
+const THEOLOGY_SUBFIELD={
+  "The Catholic Biblical Quarterly":"biblical", "Journal of Biblical Literature":"biblical",
+  "Novum Testamentum":"biblical", "Neotestamentica":"biblical", "Biblica":"biblical",
+  "The Biblical World":"biblical", "Journal of the Society of Biblical Literature and Exegesis":"biblical",
+  "The Harvard Theological Review":"theology", "Vigiliae Christianae":"theology",
+  "The American Journal of Theology":"theology", "Church History":"theology",
+  "Zeitschrift für katholische Theologie":"theology", "Zeitschrift für Theologie und Kirche":"theology",
+  "Theologische Rundschau":"theology", "Deutsche Theologie":"theology",
+  "Recherches de théologie ancienne et médiévale":"theology",
+  "Recherches de théologie et philosophie médiévales":"theology",
+  "Revue de Théologie et de Philosophie":"theology", "American Journal of Theology & Philosophy":"theology",
+  "Revue de Théologie et de Philosophie et Compte-rendu des Principales Publications Scientifiques":"theology",
+  "The Journal of Religion":"religion", "History of Religions":"religion", "Religious Studies":"religion"
+};
+const theoSub = j => THEOLOGY_SUBFIELD[j] || "theology";
 const DEC0=1890, NDEC=14;                     // 14 decades, 1890s..2020s
 const decLabel = i => (DEC0+i*10)+"s";
 
 let INDEX=[], cur=null, grain=null, p0=0, p1=NDEC-1;
 let setA=new Set(), setB=new Set();
 let sortMode="delta";                 // "delta" (by emphasis) | "text" (textual order)
+let chartExpanded=false;              // long texts: fit-to-width vs scroll-to-click
 
 // ---- boot -----------------------------------------------------------------
 fetch(DATA_DIR+"view_c.json").then(r=>r.json()).then(idx=>{
@@ -215,9 +252,10 @@ function loadWork(work){
     } else g.hidden=true;
     grain = grains.includes("book") ? "book" : grains[0] || null;
     syncGrain();
+    chartExpanded=false;
     p0=0; p1=NDEC-1; syncSlider();
-    if(!grain){ renderNoData(); return; }
-    buildSets(); render();
+    if(!grain){ renderNoData(); $("#vcSpark").innerHTML=""; return; }
+    buildSpark(); buildSets(); render();
   });
 }
 function syncGrain(){ for(const b of $("#vcGrain").children) b.classList.toggle("on", b.dataset.g===grain); }
@@ -254,14 +292,30 @@ function setPanel(key,label,theSet){
     const js=byGroup[gk]||[]; if(!js.length) continue;
     const col=document.createElement("div"); col.className="jgroup";
     col.innerHTML=`<div class="jghead">${glabel}<button data-g="${gk}" data-on="1">all</button></div>`;
-    for(const idx of js){
+    const addRow = (idx) => {
       const row=document.createElement("label"); row.className="jrow";
-      const on=theSet.has(idx);
-      row.innerHTML=`<input type="checkbox" ${on?"checked":""}><span title="${jd.journals[idx][0]}">${jd.journals[idx][0]}</span>`;
+      row.innerHTML=`<input type="checkbox" ${theSet.has(idx)?"checked":""}><span title="${jd.journals[idx][0]}">${jd.journals[idx][0]}</span>`;
       row.querySelector("input").addEventListener("change",e=>{
         if(e.target.checked) theSet.add(idx); else theSet.delete(idx); render();
       });
       col.appendChild(row);
+    };
+    if(gk==="theology"){
+      // subdivide by discipline, each sub-section with its own all/none toggle
+      for(const [sk,slabel] of THEO_SUB){
+        const sub=js.filter(idx=>theoSub(jd.journals[idx][0])===sk);
+        if(!sub.length) continue;
+        const sh=document.createElement("div"); sh.className="jsubhead";
+        sh.innerHTML=`<span>${slabel}</span><button type="button">all</button>`;
+        sh.querySelector("button").addEventListener("click",()=>{
+          const anyoff=sub.some(i=>!theSet.has(i));
+          sub.forEach(i=>{ if(anyoff) theSet.add(i); else theSet.delete(i); });
+          refreshChecks(panel,theSet); render();
+        });
+        col.appendChild(sh); sub.forEach(addRow);
+      }
+    } else {
+      js.forEach(addRow);
     }
     // per-group all toggles (both directions via one click cycling handled simply)
     col.querySelector(".jghead button").addEventListener("click",()=>{
@@ -299,7 +353,25 @@ function syncSlider(){
   $("#vcP0").value=p0; $("#vcP1").value=p1;
   const span=NDEC-1, l=p0/span*100, r=p1/span*100;
   $("#vcSel").style.left=l+"%"; $("#vcSel").style.width=(r-l)+"%";
+  const sp=$("#vcSpark"); if(sp){ sp.style.setProperty("--l",l+"%"); sp.style.setProperty("--r",r+"%"); }
   $("#vcRange").textContent = p0===p1 ? decLabel(p0) : decLabel(p0)+"–"+decLabel(p1);
+}
+// citation-volume sparkline for the current work (summed over all its journals per decade)
+function buildSpark(){
+  const host=$("#vcSpark"); if(!host) return;
+  const jd = cur && grain ? jdata() : null;
+  if(!jd){ host.innerHTML=""; return; }
+  const vol=new Array(NDEC).fill(0);
+  for(const k in jd.jvol){ const arr=jd.jvol[k]; for(let d=0;d<NDEC;d++) vol[d]+=arr[d]||0; }
+  const max=Math.max(1,...vol), NS="http://www.w3.org/2000/svg";
+  const svg=document.createElementNS(NS,"svg");
+  svg.setAttribute("viewBox",`0 0 ${NDEC-1} 100`); svg.setAttribute("preserveAspectRatio","none");
+  svg.setAttribute("class","sparksvg");
+  let dp="M 0 100";
+  for(let i=0;i<NDEC;i++){ const h=Math.sqrt(vol[i])/Math.sqrt(max)*96; dp+=` L ${i} ${100-h}`; }
+  dp+=` L ${NDEC-1} 100 Z`;
+  const path=document.createElementNS(NS,"path"); path.setAttribute("d",dp); path.setAttribute("class","sparkarea");
+  svg.appendChild(path); host.innerHTML=""; host.appendChild(svg);
 }
 
 // ---- compute + render -----------------------------------------------------
@@ -327,12 +399,11 @@ function render(){
       ${p0===p1?decLabel(p0):decLabel(p0)+"–"+decLabel(p1)}. Widen the period or add journals to that set.</div>`;
     return;
   }
-  // a side built on very few citations per unit gives noisy shares — say so
-  const perUnit = t => t / jd.units.length;
-  const thin = perUnit(A.total)<4 ? "A" : perUnit(B.total)<4 ? "B" : null;
-  const caveat = thin ? `<div class="note" style="margin-bottom:14px">Set ${thin} rests on only
-      ${(thin==="A"?A.total:B.total).toLocaleString()} citations here, so its shares are noisy. For a work
-      read mostly by one field, compare individual journals <em>within</em> that field instead.</div>` : "";
+  // a side that barely reads this work gives noisy shares — say so (field imbalance)
+  const thin = A.total<60 ? "A" : B.total<60 ? "B" : null;
+  const caveat = thin ? `<div class="note" style="margin-bottom:14px">Set ${thin} barely reads this work
+      here (only ${(thin==="A"?A.total:B.total).toLocaleString()} citations), so its shares are noisy. For a
+      work read mostly by one field, compare individual journals <em>within</em> that field instead.</div>` : "";
   let rows=jd.units.map((u,i)=>{
     const ca=unitShare(u,setA), cb=unitShare(u,setB);
     const sa=ca/A.total, sb=cb/B.total;
@@ -341,18 +412,22 @@ function render(){
   rows = sortMode==="text" ? rows.sort((x,y)=>x.order-y.order)
                            : rows.sort((x,y)=>y.delta-x.delta);
   const maxAbs=Math.max(0.5, ...rows.map(r=>Math.abs(r.delta)));
-  const showVals = rows.length<=14;               // don't number every column when crowded
+  const showVals   = rows.length<=14;    // number every column only when few
+  const showLabels = rows.length<=40;    // per-unit x-axis labels only when readable
+  const expandable = rows.length>60;     // long texts: offer a scroll-to-click view
+  const expanded   = expandable && chartExpanded;
   let html=caveat+`<div class="legend">
       <span class="lg lgA"><span class="swatch"></span>Set A emphasises ▲</span>
       <span class="lg lgB"><span class="swatch"></span>Set B emphasises ▼</span>
-      <span class="lgnote">share of each set's citations of this work, ${grain} grain</span></div>
+      <span class="lgnote">share of each set's citations of this work, ${grain} grain · ${rows.length} ${grain==="book"?"units":"passages"}</span></div>
     <div class="sortbar"><span class="lab">Order</span>
       <button data-sort="delta" class="${sortMode==="delta"?"on":""}">by emphasis</button>
-      <button data-sort="text" class="${sortMode==="text"?"on":""}">text order</button></div>
+      <button data-sort="text" class="${sortMode==="text"?"on":""}">text order</button>
+      ${expandable?`<button class="expandbtn" id="vcExpand">${expanded?"Fit to width ⤡":"Expand to scroll ⤢"}</button>`:""}</div>
     <div class="colwrap">
       <div class="yaxis"><span class="yt ytop">+${maxAbs.toFixed(1)}</span>
         <span class="yt yzero">0</span><span class="yt ybot">−${maxAbs.toFixed(1)}</span></div>
-      <div><div class="colchart"><div class="zeroline"></div>`;
+      <div class="chartscroll"><div class="colchart${expanded?' expanded':''}"><div class="zeroline"></div>`;
   for(const r of rows){
     const pos=r.delta>=0, h=Math.abs(r.delta)/maxAbs*46;    // % of chart height (leaves headroom for labels)
     const bar=`<div class="cbar ${pos?'pos':'neg'}" style="height:${h}%" data-l="${enc(String(r.label))}"
@@ -361,11 +436,18 @@ function render(){
     const val = showVals ? `<div class="cval ${pos?'pos':'neg'}" style="${pos?'bottom':'top'}:calc(50% + ${h}% + 2px)">${pos?'+':''}${r.delta.toFixed(1)}</div>` : "";
     html+=`<div class="col">${bar}${val}</div>`;
   }
-  html+=`</div><div class="collabs">`;
-  for(const r of rows) html+=`<div class="colref" title="${enc(String(r.label))}">${enc(String(r.label))}</div>`;
-  html+=`</div></div></div>`;
+  html+=`</div>`;
+  if(showLabels){
+    html+=`<div class="collabs">`;
+    for(const r of rows) html+=`<div class="colref" title="${enc(String(r.label))}">${enc(String(r.label))}</div>`;
+    html+=`</div>`;
+  } else {
+    html+=`<div class="axisnote">${rows.length} passages, in ${sortMode==="text"?"text order":"emphasis order"} — hover a bar for its locus${expandable&&!expanded?", or expand to scroll":""}</div>`;
+  }
+  html+=`</div></div>`;
   host.innerHTML=html;
-  host.querySelectorAll(".sortbar button").forEach(b=>b.addEventListener("click",()=>{ sortMode=b.dataset.sort; render(); }));
+  host.querySelectorAll(".sortbar button[data-sort]").forEach(b=>b.addEventListener("click",()=>{ sortMode=b.dataset.sort; render(); }));
+  const eb=$("#vcExpand"); if(eb) eb.addEventListener("click",()=>{ chartExpanded=!chartExpanded; render(); });
   wireTips(host);
 }
 function renderNoData(){
