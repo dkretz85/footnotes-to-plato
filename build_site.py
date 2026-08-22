@@ -47,7 +47,7 @@ NAV = [
     ("/",                   "Home"),
     ("/explore/works/",     "Works over time"),
     ("/explore/passages/",  "Passages static"),
-    ("/explore/shifts/",    "Passages over time"),
+    ("/explore/journals/",  "Journal comparison"),
     ("/methods/",           "Methods"),
     ("/data/",              "Data"),
     ("/contact/",           "Contact"),
@@ -578,13 +578,13 @@ def main():
     vc = os.path.join(ROOT, "view_c.html")
     if os.path.exists(vc):
         build_viewer_page(
-            out, vc, "/explore/shifts/",
-            "Passages over time",
-            "How attention shifted over time within a single work — pick a text and it "
-            "opens as a map of its own passages over the decades.",
-            open(os.path.join(CONTENT, "_intro_shifts.md"), encoding="utf-8").read()
-            if os.path.exists(os.path.join(CONTENT, "_intro_shifts.md")) else "",
-            "/explore/shifts/")
+            out, vc, "/explore/journals/",
+            "Journal comparison",
+            "How different scholarly communities divide their attention across a work — "
+            "pick a text and two sets of journals, and compare their emphasis passage by passage.",
+            open(os.path.join(CONTENT, "_intro_journals.md"), encoding="utf-8").read()
+            if os.path.exists(os.path.join(CONTENT, "_intro_journals.md")) else "",
+            "/explore/journals/")
 
     # GitHub Pages: don't run Jekyll over our output
     write(out, ".nojekyll", "")

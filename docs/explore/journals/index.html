@@ -3,7 +3,11 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Footnotes to Plato — who reads what, within a work</title>
+<title>Journal comparison — Footnotes to Plato</title>
+<meta name="description" content="A passage-level citation index of the ancient-philosophy scholarship">
+
+<link rel="stylesheet" href="/static/site.css">
+
 <style>
 .vc{
   --ink:#1c2230; --ink2:#3d4453; --soft:#5b6478; --faint:#8a90a0; --rule-muted:#b9bcc7;
@@ -116,6 +120,24 @@
 </style>
 </head>
 <body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site">
+  <div class="bar">
+    <a class="brand" href="/"><span class="bt">Footnotes to Plato</span><i class="bt-and"> … and others</i></a>
+    <button class="navtoggle" aria-label="Menu" aria-expanded="false">☰</button>
+    <nav class="mainnav"><a href="/">Home</a><a href="/explore/works/">Works over time</a><a href="/explore/passages/">Passages static</a><a href="/explore/journals/" class="on">Journal comparison</a><a href="/methods/">Methods</a><a href="/data/">Data</a><a href="/contact/">Contact</a></nav>
+  </div>
+</header>
+<main id="main" class="wide">
+  <div class="pagehead">
+    <h1>Journal comparison</h1>
+    <div class="sub">How different scholarly communities divide their attention across a work — pick a text and two sets of journals, and compare their emphasis passage by passage.</div>
+  </div>
+  
+  <div class="prose">
+<div class="viewer-intro"></div>
+
 <div class="vc">
   <header class="mast" style="margin-bottom:22px">
     <h1 style="font-family:var(--serif);font-size:26px;margin:0">Footnotes to Plato</h1>
@@ -153,8 +175,28 @@
 </div>
 <div class="tip" id="vcTip"></div>
 
+
+
+  </div>
+</main>
+<footer class="site">
+  <div class="fwrap">
+    <div>
+      <strong>Footnotes to Plato</strong> · A passage-level citation index of the ancient-philosophy scholarship<br>
+      <span class="muted">Made by David Kretz (Yale University /
+      <a href="https://dkretz.com">dkretz.com</a>), with Claude Opus 4.8.
+      Built 2026-08-22. Derived from a JSTOR Text Analysis
+      Support delivery; a finding aid that links out to the articles, never a
+      substitute for them.</span>
+    </div>
+    <div class="flinks"><a href="/">Home</a><a href="/explore/works/">Works over time</a><a href="/explore/passages/">Passages static</a><a href="/explore/journals/">Journal comparison</a><a href="/methods/">Methods</a><a href="/data/">Data</a><a href="/contact/">Contact</a></div>
+  </div>
+</footer>
+<script src="/static/site.js"></script>
+<script data-goatcounter="https://dkretz.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
 <script>
-const DATA_DIR = "viewer_data/";
+const DATA_DIR = "/data/viewer/";
 const $ = s => document.querySelector(s);
 const AORDER = ["Homer","Pindar","Plato","Aristotle","Paul"];
 const HOMER_ORDER=["Iliad","Odyssey"], PINDAR_ORDER=["Olympian","Pythian","Nemean","Isthmian"];
