@@ -6,11 +6,13 @@ description: A passage-level citation index tracking how the journal literature 
 
 <div class="lede" style="font-family:var(--serif);font-size:19px;line-height:1.6">Welcome! <strong>Footnotes to Plato (and Others)</strong> is a tool for scholars in ancient philosophy, classics, theology, reception studies, intellectual history, history of the humanities, and digital humanities.</div>
 
-<p class="lede">It tracks citations to five ancient authors—Homer, Pindar, Plato, Aristotle, and Paul—across a corpus of {{journal_count}} academic journals, published between {{year_from}} and {{year_to}}. Shoutout to the folks at JSTOR who kindly provided the data.</p>
+<p class="lede" style="font-family:var(--serif);font-size:19px;line-height:1.6">It tracks citations to five ancient authors—Homer, Pindar, Plato, Aristotle, and Paul—across a corpus of {{journal_count}} academic journals, published between {{year_from}} and {{year_to}}. Shoutout to the folks at JSTOR who kindly provided the data.</p>
 
-<p class="lede">Three visualization tools let you analyze how scholarly attention distributes between and within texts at passage-level granularity, how that shifts over time, and how it differs from journal to journal and discipline to discipline.</p>
+<p class="lede" style="font-family:var(--serif);font-size:19px;line-height:1.6">Three visualization tools let you analyze how scholarly attention distributes </br> between texts, and text-groups, over time, <br> within texts,at passage-level granularity,</br> and how it differs from journal to journal and discipline to discipline.</p>
 
-<p class="lede">For the list of journals covered see [the methods page](/methods/#coverage); for the full method see [methods](/methods/), and for the data, [the data page](/data/).</p>
+<p class="lede" style="font-family:var(--serif);font-size:19px;line-height:1.6">You can also create exportable bibliographies of articles citing a specific passage at one click.</p>
+
+<p class="lede" style="font-family:var(--serif);font-size:19px;line-height:1.6">For the list of journals covered see [the methods page](/methods/#coverage); for the full method see [methods](/methods/), and for the data, [the data page](/data/). For suggestions, questions, feedback feel free to get in touch here: [contact](/contact/).</p>
 
 <div class="figrow">
   <div class="fig"><div class="n">5</div><div class="l">ancient authors</div></div>
@@ -35,7 +37,7 @@ description: A passage-level citation index tracking how the journal literature 
   </a>
   <a class="tool" href="/explore/journals/">
     <div><div class="thead"><span class="kk">Viewer C</span><span class="tt">Comparing disciplines</span></div>
-      <p class="tbody">Set two groups of journals against each other on a single text — philosophy beside theology, or any journals you pick — and see, passage by passage, which side leans into which. A diverging bar for every book or section, within the period you choose.</p>
+      <p class="tbody">Set two groups of journals against each other on a single text — philosophy beside theology, or any journals you pick — and see, passage by passage, which journals/fields emphasize which passages.</p>
       <span class="go">Open →</span></div>
   </a>
 </div>
