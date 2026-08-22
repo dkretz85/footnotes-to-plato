@@ -73,7 +73,7 @@ If this contributed to published work, please cite as: *Kretz, David, Footnotes 
 
 ## Acknowledgements
 
-Claude Opus 4.8 (by Anthropic) wrote all the code for the website and data-analysis. AI never decided whether something is or is not a citation, or what author to assign it to. It helped me think through questions of design, analysis, and it drafted text for the Methods section. The responsibility for all genuinely philological and methodological decisions remains mine. </br> I would like to thank the team at JSTOR Text Analysis Support for sharing the data that made this possible, and Joshua Mendelsohn for feedback on an earlier version.
+Claude Opus 4.8 (by Anthropic) wrote all the code for the website and data-analysis. AI never decided whether something is or is not a citation, or what author to assign it to. It helped me think through questions of design, analysis, and it drafted text for the Methods section. The responsibility for all genuinely philological and methodological decisions remains mine. </br></br> I would like to thank the team at JSTOR Text Analysis Support for sharing the data that made this possible, and Joshua Mendelsohn for feedback on an earlier version.
 
 <script>
 /* The eight-text floor-vs-fade sampler (real: solid = placed floor, fade =
