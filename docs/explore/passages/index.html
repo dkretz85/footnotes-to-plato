@@ -1101,9 +1101,12 @@ function renderCombinedLine(host){
     const sec = document.createElement("div"); sec.className = "lheat-section";
     sec.innerHTML = `<div class="lheat-title">${sub.work}</div>`;
     const inner = document.createElement("div");
-    const {cells, binSize} = lineBins(sub.dots);
-    if(cells.length) lineHeatInto(inner, cells, binSize, sub);
-    else inner.innerHTML = "<div class='hg-empty'>No placed citations at this filter.</div>";
+    // bin under this ode-book's identity so the canonical line gate applies per ode
+    withCtx(sub, ()=>{
+      const {cells, binSize} = lineBins(sub.dots);
+      if(cells.length) lineHeatInto(inner, cells, binSize, sub);
+      else inner.innerHTML = "<div class='hg-empty'>No placed citations at this filter.</div>";
+    });
     sec.appendChild(inner); host.appendChild(sec);
   }
 }
@@ -1244,12 +1247,24 @@ const HOMER_LINES = {
   Odyssey:{1:444,2:434,3:497,4:847,5:493,6:331,7:347,8:586,9:566,10:574,11:640,12:453,
            13:440,14:533,15:557,16:481,17:606,18:428,19:604,20:394,21:434,22:501,23:372,24:548}
 };
-// highest valid line for a book in the current work; Infinity when we have no table
+// Canonical Pindar ode line counts (Snell–Maehler). Same purpose as HOMER_LINES:
+// a stray at line 813 in the 115-line Pythian 3, or 701 in the 70-line Isthmian 8,
+// otherwise stretches that ode's row and crushes the rest. Numbers vary a little
+// by edition, so the gate below adds a margin rather than clipping to the exact count.
+const PINDAR_LINES = {
+  Olympian:{1:116,2:100,3:45,4:33,5:24,6:105,7:95,8:88,9:112,10:105,11:21,12:19,13:115,14:24},
+  Pythian:{1:100,2:96,3:115,4:299,5:124,6:54,7:22,8:100,9:125,10:72,11:64,12:32},
+  Nemean:{1:72,2:25,3:84,4:96,5:54,6:67,7:105,8:51,9:55,10:90,11:48},
+  Isthmian:{1:68,2:48,3:30,4:72,5:63,6:75,7:51,8:70,9:8}
+};
+// highest valid line for a book/ode in the current work; Infinity when we have no table
 function maxLineFor(book){
-  const t = HOMER_LINES[current.work];
-  if(!t) return Infinity;
-  const n = t[parseInt(book,10)];
-  return n ? n : Infinity;
+  const b = parseInt(book,10);
+  const h = HOMER_LINES[current.work];
+  if(h) return h[b] || Infinity;
+  const p = PINDAR_LINES[current.work];
+  if(p && p[b]) return Math.round(p[b]*1.15) + 3;   // margin for edition variance
+  return Infinity;
 }
 
 function lineBins(dots){

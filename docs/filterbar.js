@@ -22,6 +22,25 @@
 
   const NS = "http://www.w3.org/2000/svg";
 
+  // Theology journals subdivided by discipline (same grouping as Viewer C).
+  // Editable — anything unlisted falls to "theology".
+  const THEO_SUB = [["biblical","Biblical studies"],["theology","Theology & church history"],["religion","Religious studies"]];
+  const THEOLOGY_SUBFIELD = {
+    "The Catholic Biblical Quarterly":"biblical", "Journal of Biblical Literature":"biblical",
+    "Novum Testamentum":"biblical", "Neotestamentica":"biblical", "Biblica":"biblical",
+    "The Biblical World":"biblical", "Journal of the Society of Biblical Literature and Exegesis":"biblical",
+    "The Harvard Theological Review":"theology", "Vigiliae Christianae":"theology",
+    "The American Journal of Theology":"theology", "Church History":"theology",
+    "Zeitschrift für katholische Theologie":"theology", "Zeitschrift für Theologie und Kirche":"theology",
+    "Theologische Rundschau":"theology", "Deutsche Theologie":"theology",
+    "Recherches de théologie ancienne et médiévale":"theology",
+    "Recherches de théologie et philosophie médiévales":"theology",
+    "Revue de Théologie et de Philosophie":"theology", "American Journal of Theology & Philosophy":"theology",
+    "Revue de Théologie et de Philosophie et Compte-rendu des Principales Publications Scientifiques":"theology",
+    "The Journal of Religion":"religion", "History of Religions":"religion", "Religious Studies":"religion"
+  };
+  const theoSub = j => THEOLOGY_SUBFIELD[j] || "theology";
+
   const FilterBar = {
     state: { journals: new Set(), y0: 1887, y1: 2022 },
     _meta: null,
@@ -180,14 +199,15 @@
         const list = document.createElement("div");
         list.className = "fb-glist";
 
-        for (const j of js) {
+        const addJRow = (j) => {
           const lab = document.createElement("label");
           lab.className = "fb-j";
           lab.innerHTML =
-            `<input type="checkbox" checked data-j="${j.replace(/"/g, '&quot;')}">` +
+            `<input type="checkbox" data-j="${j.replace(/"/g, '&quot;')}">` +
             `<span class="fb-jn" title="${j}">${j}</span>` +
             `<span class="fb-jc">${(counts[j] || 0).toLocaleString()}</span>`;
           const cb = lab.querySelector("input");
+          cb.checked = this.state.journals.has(j);
           cb.addEventListener("change", () => {
             if (cb.checked) this.state.journals.add(j);
             else this.state.journals.delete(j);
@@ -195,6 +215,26 @@
             this._fire();
           });
           list.appendChild(lab);
+        };
+
+        if (k === "theology") {
+          // subdivide by discipline, each sub-section with its own all/none
+          for (const [sk, slabel] of THEO_SUB) {
+            const sub = js.filter(j => theoSub(j) === sk);
+            if (!sub.length) continue;
+            const sh = document.createElement("div");
+            sh.className = "fb-jsub";
+            sh.innerHTML = `<span>${slabel}</span><button type="button">all</button>`;
+            sh.querySelector("button").addEventListener("click", () => {
+              const anyoff = sub.some(j => !this.state.journals.has(j));
+              sub.forEach(j => { if (anyoff) this.state.journals.add(j); else this.state.journals.delete(j); });
+              this._syncChecks(); this._syncGroupStates(); this._fire();
+            });
+            list.appendChild(sh);
+            sub.forEach(addJRow);
+          }
+        } else {
+          js.forEach(addJRow);
         }
         col.appendChild(list);
 

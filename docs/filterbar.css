@@ -66,6 +66,13 @@
 .fb-group.off .fb-gname{color:var(--ink-soft); opacity:.55}
 .fb-group.partial .fb-gname{color:var(--lav-deep)}
 .fb-glist{display:flex; flex-direction:column; gap:1px}
+/* discipline sub-headers inside the Theology & NT group */
+.fb-jsub{display:flex; justify-content:space-between; align-items:baseline;
+  font-family:var(--serif); font-size:11px; font-style:italic; color:var(--ink-soft);
+  margin:6px 0 1px; padding:0 4px}
+.fb-jsub button{background:none; border:0; font-family:var(--mono); font-size:8.5px;
+  letter-spacing:.08em; text-transform:uppercase; color:var(--lav-deep); cursor:pointer; padding:0}
+.fb-jsub button:hover{text-decoration:underline}
 
 .fb-j{
   display:flex; align-items:center; gap:7px; cursor:pointer;

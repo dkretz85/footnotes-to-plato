@@ -58,10 +58,6 @@
   <section class="sc" id="sc">
     <div class="sc-head">
       <h2>Attention over time</h2>
-      <div class="seg" id="scMode">
-        <button data-mode="works" aria-pressed="true">Compare works</button>
-        <button data-mode="field" aria-pressed="false">Philosophy vs classics</button>
-      </div>
     </div>
 
     <div class="sc-controls" id="scWorksCtl">
@@ -251,12 +247,6 @@ function scInit(){
     if(SC_SEL.length>=6){ sel.value=""; return; }   // palette + legibility cap
     if(!SC_SEL.includes(sel.value)) SC_SEL.push(sel.value);
     sel.value="";
-    scRender();
-  });
-  $("#scMode").addEventListener("click",e=>{
-    if(!e.target.dataset.mode) return;
-    SC_MODE=e.target.dataset.mode;
-    for(const b of $("#scMode").children) b.setAttribute("aria-pressed", b.dataset.mode===SC_MODE);
     scRender();
   });
   $("#scScale").addEventListener("click",e=>{

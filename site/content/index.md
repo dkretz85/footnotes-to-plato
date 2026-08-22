@@ -1,18 +1,16 @@
 ---
 title: Footnotes to Plato
-subtitle: A passage-level citation index of five ancient authors across the scholarly journals
-description: A passage-level citation index tracking how scholarly articles cite Homer, Pindar, Plato, Aristotle and Paul — which works and passages draw attention, how that shifts over time.
+subtitle: A passage-level citation index of five ancient authors across the journal literature
+description: A passage-level citation index tracking how the journal literature cites Homer, Pindar, Plato, Aristotle and Paul — which works and passages draw scholarly attention, how that shifts over time, and how much of the picture is missing.
 ---
 
 <div class="lede" style="font-family:var(--serif);font-size:19px;line-height:1.6">Welcome! <strong>Footnotes to Plato (and Others)</strong> is a tool for scholars in ancient philosophy, classics, theology, reception studies, intellectual history, history of the humanities, and digital humanities.</div>
 
-<p class="lede" style="font-family:var(--serif);font-size:19px;line-height:1.6">It tracks citations to five ancient authors—<strong>Homer, Pindar, Plato, Aristotle, and Paul</strong>—across a corpus of {{journal_count}} academic journals, published between {{year_from}} and {{year_to}}. Shoutout to the folks at JSTOR who kindly provided the data!</p>
+<p class="lede">It tracks citations to five ancient authors—Homer, Pindar, Plato, Aristotle, and Paul—across a corpus of {{journal_count}} academic journals, published between {{year_from}} and {{year_to}}. Shoutout to the folks at JSTOR who kindly provided the data.</p>
 
-<p class="lede" style="font-family:var(--serif);font-size:19px;line-height:1.6">Three visualization tools let you analyze how scholarly attention distributes, </br> between texts, and text clusters, over time, </br> within texts, at passage-level granularity, </br> and how it differs from journal to journal and discipline to discipline.</p>
+<p class="lede">Three visualization tools let you analyze how scholarly attention distributes between and within texts at passage-level granularity, how that shifts over time, and how it differs from journal to journal and discipline to discipline.</p>
 
-<p class="lede" style="font-family:var(--serif);font-size:19px;line-height:1.6">You can also create bibliographies of articles citing specific passages at one click.</p>
-
-<p class="lede" style="font-family:var(--serif);font-size:19px;line-height:1.6">For the list of journals covered see [the methods page](/methods/#coverage); for the full method see [methods](/methods/), for the data, [the data page](/data/), and for contacting me with suggestions & questions see [contact](/contact/).</p>
+<p class="lede">For the list of journals covered see [the methods page](/methods/#coverage); for the full method see [methods](/methods/), and for the data, [the data page](/data/).</p>
 
 <div class="figrow">
   <div class="fig"><div class="n">5</div><div class="l">ancient authors</div></div>
@@ -26,21 +24,18 @@ description: A passage-level citation index tracking how scholarly articles cite
 
 <div class="tools">
   <a class="tool" href="/explore/works/">
-    <div class="thumb" id="thumb-a"></div>
-    <div><div class="thead"><span class="tt">Attention to texts & text-clusters over time</span><span class="kk">Works over time</span></div>
-      <p class="tbody">Here you can plot texts, or clusters of them, against each other across time. Set <em>Republic</em> beside <em>Laws</em>, the Platonic corpus beside the Aristotelian, or the philosophy journals beside the classics and theology ones on the same text.</p>
+    <div><div class="thead"><span class="kk">Viewer A</span><span class="tt">Texts over Time</span></div>
+      <p class="tbody">Plot whole texts, or clusters of them, against each other across two centuries. Set <em>Republic</em> beside <em>Laws</em>, or the Platonic corpus beside the Aristotelian, and watch the shares of attention rise and fall.</p>
       <span class="go">Open →</span></div>
   </a>
   <a class="tool" href="/explore/passages/">
-    <div class="thumb" id="thumb-b"></div>
-    <div><div class="thead"><span class="tt">Distribution of attention to passages within texts</span><span class="kk">Passages</span></div>
-      <p class="tbody">Inside a single text: which pages, sections and lines do scholars pay attention to, and which remain understudies. Click on any passage to see a list of articles that cite it, and export that list as a bibliography with one click.</p>
+    <div><div class="thead"><span class="kk">Viewer B</span><span class="tt">Passage-level attention distribution</span></div>
+      <p class="tbody">Inside a single text: which pages, sections and lines the literature keeps returning to, and which it leaves alone. Drill through any passage to the articles that cite it, and export the list as a bibliography.</p>
       <span class="go">Open →</span></div>
   </a>
-  <a class="tool" href="/explore/shifts/">
-    <div class="thumb" id="thumb-c" style="gap:3px"></div>
-    <div><div class="thead"><span class="tt">How passage-level attention shifts over time</span><span class="kk">Over time, within</span></div>
-      <p class="tbody">See whether attention moved in one direction, rose and fell, held steady, or was too thinly cited to tell, at two levels of granularity: individual passages or books/chapters.</p>
+  <a class="tool" href="/explore/journals/">
+    <div><div class="thead"><span class="kk">Viewer C</span><span class="tt">Comparing disciplines</span></div>
+      <p class="tbody">Set two groups of journals against each other on a single text — philosophy beside theology, or any journals you pick — and see, passage by passage, which side leans into which. A diverging bar for every book or section, within the period you choose.</p>
       <span class="go">Open →</span></div>
   </a>
 </div>
@@ -49,9 +44,9 @@ description: A passage-level citation index tracking how scholarly articles cite
 <h2 style="border:0;margin:0 0 6px">Three caveats, before you start</h2>
 
 <div class="caveats">
-  <div class="cv"><h4>Select journals ≠ the whole field</h4><p>The data only contains journal articles only — no monographs, edited volumes or commentaries, although book reviews are included, giving a small window onto that world. The sample skews Anglophone. </p></div>
-  <div class="cv"><h4>Uneven across two centuries</h4><p>Data for the early decades is thin. Most citations date to after 1980.</p></div>
-  <div class="cv"><h4>For Plato and Aristotle, every count is a floor</h4><p>Many Stephanus/Bekker numbers are ambiguous within and between the two pagination systems. <em>80b</em> fits <em>Meno</em>, <em>Phaedo</em>, <em>Timaeus</em> or <em>Posterior Analytics</em> at once. Where the surrounding text does not settle it, we decline to guess. The floors reflect what we could place with confidence. </p></div>
+  <div class="cv"><h4>Select journals ≠ the whole field</h4><p>Journal articles only — no monographs, edited volumes or commentaries, and with an Anglophone and European skew. Much influential work is simply absent from these counts.</p></div>
+  <div class="cv"><h4>Uneven across two centuries</h4><p>The early decades are thin and most citations fall after 1980. A quiet early stretch reflects how little was published and digitized then, not a lapse in scholarly attention.</p></div>
+  <div class="cv"><h4>Every count is a floor</h4><p>A bare reference like <em>80b</em> fits <em>Meno</em>, <em>Phaedo</em>, <em>Timaeus</em> or <em>Posterior Analytics</em> at once, and does not even declare which pagination it uses. Where the surrounding text does not settle it, we decline to guess.</p></div>
 </div>
 
 <div class="sampler">
@@ -72,36 +67,17 @@ description: A passage-level citation index tracking how scholarly articles cite
 
 If this contributed to published work, please cite as: *Kretz, David, Footnotes to Plato: A Passage-Level Citation Index for Ancient Texts,* Version 2.0, date. The derived data is [published for download](/data/) so results can be checked or reused.
 
-**Publish or edit a journal you would like to see included?** Please [write to me](/contact/)! Corrections, methodological objections, and suggestions for additional features are also very welcome.
+**Publish or edit a journal you would like to see included?** Please [write to me](/contact/)! Corrections, methodological objections, and suggestions for additional features are also all very welcome.
 
 ## Acknowledgements
 
 The pipeline, the analysis, and this website were developed with substantial assistance from Claude Opus 4.8 (by Anthropic) throughout. The responsibility for methodological decisions remains mine. I would like to thank the team at JSTOR Text Analysis Support for sharing the data that made this possible, and Joshua Mendelsohn for feedback on an earlier version.
 
 <script>
-/* Landing thumbnails (abstract, deterministic — no data) and the eight-text
-   floor-vs-fade sampler (real: solid = placed floor, fade = unplaceable, from
-   view_a.json). The full chart for all texts lives on the methods page. */
+/* The eight-text floor-vs-fade sampler (real: solid = placed floor, fade =
+   unplaceable, from view_a.json). The full chart for all texts is on the
+   methods page. */
 (function(){
-  function h(s){var x=2166136261;for(var i=0;i<s.length;i++){x^=s.charCodeAt(i);x=Math.imul(x,16777619);}return ((x>>>0)%1000)/1000;}
-  var a=document.getElementById('thumb-a');
-  if(a){var html='';for(var i=0;i<6;i++){var l=20+h('l'+i)*30,r=20+h('r'+i)*30;
-    html+='<div class="r" style="justify-content:center">'
-      +'<i style="height:10px;width:'+l.toFixed(0)+'%;background:var(--p-floor);opacity:.8;border-radius:2px 0 0 2px"></i>'
-      +'<i style="height:10px;width:1px;background:var(--lav-line)"></i>'
-      +'<i style="height:10px;width:'+r.toFixed(0)+'%;background:var(--a-floor);opacity:.8;border-radius:0 2px 2px 0"></i></div>';}
-    a.innerHTML=html;}
-  var b=document.getElementById('thumb-b');
-  if(b){var html2='';for(var i=0;i<6;i++){var w=Math.round(96-i*13-h('b'+i)*9);
-    html2+='<div class="r"><i style="height:9px;width:'+w+'%;background:var(--p-floor);opacity:'+(1-i*.11).toFixed(2)+';border-radius:2px"></i></div>';}
-    b.innerHTML=html2;}
-  var c=document.getElementById('thumb-c');
-  if(c){var html3='';for(var r=0;r<6;r++){html3+='<div class="r" style="gap:3px">';
-    for(var col=0;col<14;col++){var v=Math.min(1,.06+h(r+'x'+col)*.5+(col/13)*(r===2||r===4?.85:.3));
-      html3+='<i style="flex:1;height:11px;border-radius:1.5px;background:rgba(90,84,151,'+v.toFixed(2)+')"></i>';}
-    html3+='</div>';}
-    c.innerHTML=html3;}
-
   var host=document.getElementById('fade-sampler');
   if(!host) return;
   var PICK=["Odyssey","Romans","Republic","Iliad","Timaeus","Phaedo","Apology","Meno"];
