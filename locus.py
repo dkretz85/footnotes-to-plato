@@ -241,11 +241,19 @@ _PINDAR_PARSE = re.compile(
 HOMER_BOOK_MAX = 24
 PINDAR_ODE_MAX = 14
 
-def _expand_bookline(match_cell, parse_re, canon, max_units, book_conv, book_max):
+def _expand_bookline(match_cell, parse_re, canon, max_units, book_conv, book_max,
+                     line_counts=None):
     """Shared Homer/Pindar expander: parse cue + book/ode + line(-range),
     normalise (cue canonical, book Arabic), enumerate lines. Returns [cell]
     verbatim if unparseable (resolver may still divert); None to divert (over-cap,
-    incoherent, or out-of-range book/line — the OCR-noise guard)."""
+    incoherent, or out-of-range book/line — the OCR-noise guard).
+
+    line_counts, when given, is the lines-per-book array for the resolved work
+    (index = book-1). It plays the same role the NT chapter-length table plays in
+    expand_nt: a line past the book's real end is OCR noise (e.g. an Iliad line
+    mis-cued onto the same-numbered, shorter Odyssey book) and is diverted, not
+    fanned out. Absent (Pindar, or Homer with no table) the guard falls back to
+    the book-number check alone, so behaviour is byte-for-byte unchanged."""
     m = parse_re.match(match_cell or "")
     if not m:
         return [match_cell]
@@ -256,20 +264,25 @@ def _expand_bookline(match_cell, parse_re, canon, max_units, book_conv, book_max
     start = int(m.group(3))
     if not (1 <= book <= book_max) or start < 1:
         return None                     # OCR noise (book/line out of range)
+    bmax = line_counts[book - 1] if (line_counts and book <= len(line_counts)) else None
+    if bmax is not None and start > bmax:
+        return None                     # line past the book's real end -> divert
     if m.group(4) is None:
         return ["%s. %d.%d" % (cue, book, start)]
     end = _expand_line_end(start, m.group(4))
     if end < start or end - start + 1 > max_units:
         return None
+    if bmax is not None and end > bmax:
+        return None                     # range spills past the book's real end
     return ["%s. %d.%d" % (cue, book, ln) for ln in range(start, end + 1)]
 
-def expand_homer(match_cell, max_units=HOMER_MAX_LINES):
+def expand_homer(match_cell, max_units=HOMER_MAX_LINES, line_counts=None):
     return _expand_bookline(match_cell, _HOMER_PARSE, _HOMER_CANON,
-                            max_units, _book_to_int, HOMER_BOOK_MAX)
+                            max_units, _book_to_int, HOMER_BOOK_MAX, line_counts)
 
-def expand_pindar(match_cell, max_units=PINDAR_MAX_LINES):
+def expand_pindar(match_cell, max_units=PINDAR_MAX_LINES, line_counts=None):
     return _expand_bookline(match_cell, _PINDAR_PARSE, _PINDAR_CANON,
-                            max_units, int, PINDAR_ODE_MAX)
+                            max_units, int, PINDAR_ODE_MAX, line_counts)
 
 # --- chapter:verse system (Pauline NT): verse grain -------------------------
 # Cross-chapter ranges (Rom 7:25-8:2) need verses-per-chapter, and the same
@@ -397,17 +410,20 @@ def expand_bekker(match_cell, max_units=BEKKER_MAX_UNITS):
 # system ('stephanus' or 'bekker'), not 'ambiguous', because the section
 # alphabet differs (Plato a-e vs Bekker columns a/b). 'ambiguous' here is only a
 # fallback and defaults to the Plato reading (the common case).
-def expand_range(match_cell, corpus=None, nt_lengths=None, max_units=None):
+def expand_range(match_cell, corpus=None, nt_lengths=None, max_units=None,
+                 line_counts=None):
     """Return the list of single-unit match cells a (possibly-range) cell covers,
-    or None to divert. nt_lengths = verses-per-chapter for the resolved NT book."""
+    or None to divert. nt_lengths = verses-per-chapter for the resolved NT book;
+    line_counts = lines-per-book for the resolved Homer work (both reject
+    out-of-range citations)."""
     if corpus in ("stephanus", "ambiguous"):
         return expand_stephanus(match_cell, max_units or STEPH_MAX_UNITS)
     if corpus == "bekker":
         return expand_bekker(match_cell, max_units or BEKKER_MAX_UNITS)
     if corpus == "homer":
-        return expand_homer(match_cell, max_units or HOMER_MAX_LINES)
+        return expand_homer(match_cell, max_units or HOMER_MAX_LINES, line_counts)
     if corpus == "pindar":
-        return expand_pindar(match_cell, max_units or PINDAR_MAX_LINES)
+        return expand_pindar(match_cell, max_units or PINDAR_MAX_LINES, line_counts)
     if corpus == "nt":
         return expand_nt(match_cell, nt_lengths, max_units or NT_MAX_VERSES)
     return [match_cell]
