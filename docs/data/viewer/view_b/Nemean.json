@@ -1016,17 +1016,6 @@
    }
   },
   {
-   "book": "1",
-   "page": 104,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The American Journal of Philology": 1
-   }
-  },
-  {
    "book": "10",
    "page": 1,
    "section": "",
@@ -1912,105 +1901,6 @@
    }
   },
   {
-   "book": "10",
-   "page": 112,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical Quarterly": 1
-   }
-  },
-  {
-   "book": "10",
-   "page": 114,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical Quarterly": 1
-   }
-  },
-  {
-   "book": "10",
-   "page": 115,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical Quarterly": 1
-   }
-  },
-  {
-   "book": "10",
-   "page": 116,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical Quarterly": 1
-   }
-  },
-  {
-   "book": "10",
-   "page": 128,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical Quarterly": 1
-   }
-  },
-  {
-   "book": "10",
-   "page": 129,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical Quarterly": 1
-   }
-  },
-  {
-   "book": "10",
-   "page": 130,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical Quarterly": 1
-   }
-  },
-  {
-   "book": "10",
-   "page": 131,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical Quarterly": 1
-   }
-  },
-  {
-   "book": "10",
-   "page": 132,
-   "section": "",
-   "band": 0,
-   "count": 2,
-   "articles": 2,
-   "by_journal": {
-    "The Classical Quarterly": 2
-   }
-  },
-  {
    "book": "11",
    "page": 5,
    "section": "",
@@ -2654,50 +2544,6 @@
    "articles": 1,
    "by_journal": {
     "Transactions of the American Philological Association (1974-2014)": 1
-   }
-  },
-  {
-   "book": "2",
-   "page": 69,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Classical Antiquity": 1
-   }
-  },
-  {
-   "book": "2",
-   "page": 70,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Classical Antiquity": 1
-   }
-  },
-  {
-   "book": "2",
-   "page": 71,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Classical Antiquity": 1
-   }
-  },
-  {
-   "book": "2",
-   "page": 72,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Classical Antiquity": 1
    }
   },
   {
@@ -3836,29 +3682,6 @@
    "articles": 1,
    "by_journal": {
     "Classical Philology": 1
-   }
-  },
-  {
-   "book": "3",
-   "page": 122,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Classical Philology": 1
-   }
-  },
-  {
-   "book": "3",
-   "page": 143,
-   "section": "",
-   "band": 0,
-   "count": 2,
-   "articles": 2,
-   "by_journal": {
-    "The Classical World": 1,
-    "Harvard Studies in Classical Philology": 1
    }
   },
   {
@@ -5750,17 +5573,6 @@
    }
   },
   {
-   "book": "5",
-   "page": 89,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The American Journal of Philology": 1
-   }
-  },
-  {
    "book": "6",
    "page": 1,
    "section": "",
@@ -6529,17 +6341,6 @@
    "articles": 2,
    "by_journal": {
     "The Classical Quarterly": 1,
-    "The American Journal of Philology": 1
-   }
-  },
-  {
-   "book": "6",
-   "page": 94,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
     "The American Journal of Philology": 1
    }
   },
@@ -7806,17 +7607,6 @@
    }
   },
   {
-   "book": "7",
-   "page": 155,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Transactions of the American Philological Association (1974-2014)": 1
-   }
-  },
-  {
    "book": "8",
    "page": 1,
    "section": "",
@@ -8597,17 +8387,6 @@
    }
   },
   {
-   "book": "8",
-   "page": 68,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The American Journal of Philology": 1
-   }
-  },
-  {
    "book": "9",
    "page": 1,
    "section": "",
@@ -9272,29 +9051,6 @@
    "articles": 1,
    "by_journal": {
     "Harvard Studies in Classical Philology": 1
-   }
-  },
-  {
-   "book": "9",
-   "page": 67,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Harvard Studies in Classical Philology": 1
-   }
-  },
-  {
-   "book": "9",
-   "page": 95,
-   "section": "",
-   "band": 0,
-   "count": 2,
-   "articles": 2,
-   "by_journal": {
-    "Classical Philology": 1,
-    "Hermes": 1
    }
   }
  ],
@@ -12960,18 +12716,6 @@
    "author": "FELIX J. MEISTER"
   },
   {
-   "book": "9",
-   "page": 95,
-   "section": "",
-   "line": 95,
-   "journal": "Classical Philology",
-   "year": "2019",
-   "iid": "51abdf00-55d6-3c23-b84c-56e7316c914a",
-   "doi": "10.2307/26850705",
-   "title": "HIERON AND ZEUS IN PINDAR",
-   "author": "FELIX J. MEISTER"
-  },
-  {
    "book": "1",
    "page": 2,
    "section": "",
@@ -14566,18 +14310,6 @@
    "doi": "10.2307/270007",
    "title": "Pindar the Professional and the Rhetoric of the ΚΩΜΟΣ",
    "author": "Kathryn A. Morgan"
-  },
-  {
-   "book": "3",
-   "page": 122,
-   "section": "",
-   "line": 122,
-   "journal": "Classical Philology",
-   "year": "2010",
-   "iid": "7b4f7f36-0538-36f8-86dd-da416ce06959",
-   "doi": "10.1086/658629",
-   "title": "Aegina and Megara (<em>IG</em> IV.2<sup>2</sup> 750)",
-   "author": "Kent J. Rigsby"
   },
   {
    "book": "7",
@@ -16368,114 +16100,6 @@
    "author": "TOM PHILLIPS"
   },
   {
-   "book": "10",
-   "page": 112,
-   "section": "",
-   "line": 112,
-   "journal": "The Classical Quarterly",
-   "year": "1989",
-   "iid": "a6d56068-df60-3562-bf8f-43ff9912c65f",
-   "doi": "10.2307/639250",
-   "title": "Causation and the Authority of the Poet in Ovid's Fasti",
-   "author": "Byron Harries"
-  },
-  {
-   "book": "10",
-   "page": 128,
-   "section": "",
-   "line": 128,
-   "journal": "The Classical Quarterly",
-   "year": "1989",
-   "iid": "a6d56068-df60-3562-bf8f-43ff9912c65f",
-   "doi": "10.2307/639250",
-   "title": "Causation and the Authority of the Poet in Ovid's Fasti",
-   "author": "Byron Harries"
-  },
-  {
-   "book": "10",
-   "page": 129,
-   "section": "",
-   "line": 129,
-   "journal": "The Classical Quarterly",
-   "year": "1989",
-   "iid": "a6d56068-df60-3562-bf8f-43ff9912c65f",
-   "doi": "10.2307/639250",
-   "title": "Causation and the Authority of the Poet in Ovid's Fasti",
-   "author": "Byron Harries"
-  },
-  {
-   "book": "10",
-   "page": 130,
-   "section": "",
-   "line": 130,
-   "journal": "The Classical Quarterly",
-   "year": "1989",
-   "iid": "a6d56068-df60-3562-bf8f-43ff9912c65f",
-   "doi": "10.2307/639250",
-   "title": "Causation and the Authority of the Poet in Ovid's Fasti",
-   "author": "Byron Harries"
-  },
-  {
-   "book": "10",
-   "page": 131,
-   "section": "",
-   "line": 131,
-   "journal": "The Classical Quarterly",
-   "year": "1989",
-   "iid": "a6d56068-df60-3562-bf8f-43ff9912c65f",
-   "doi": "10.2307/639250",
-   "title": "Causation and the Authority of the Poet in Ovid's Fasti",
-   "author": "Byron Harries"
-  },
-  {
-   "book": "10",
-   "page": 132,
-   "section": "",
-   "line": 132,
-   "journal": "The Classical Quarterly",
-   "year": "1989",
-   "iid": "a6d56068-df60-3562-bf8f-43ff9912c65f",
-   "doi": "10.2307/639250",
-   "title": "Causation and the Authority of the Poet in Ovid's Fasti",
-   "author": "Byron Harries"
-  },
-  {
-   "book": "10",
-   "page": 114,
-   "section": "",
-   "line": 114,
-   "journal": "The Classical Quarterly",
-   "year": "1989",
-   "iid": "a6d56068-df60-3562-bf8f-43ff9912c65f",
-   "doi": "10.2307/639250",
-   "title": "Causation and the Authority of the Poet in Ovid's Fasti",
-   "author": "Byron Harries"
-  },
-  {
-   "book": "10",
-   "page": 115,
-   "section": "",
-   "line": 115,
-   "journal": "The Classical Quarterly",
-   "year": "1989",
-   "iid": "a6d56068-df60-3562-bf8f-43ff9912c65f",
-   "doi": "10.2307/639250",
-   "title": "Causation and the Authority of the Poet in Ovid's Fasti",
-   "author": "Byron Harries"
-  },
-  {
-   "book": "10",
-   "page": 116,
-   "section": "",
-   "line": 116,
-   "journal": "The Classical Quarterly",
-   "year": "1989",
-   "iid": "a6d56068-df60-3562-bf8f-43ff9912c65f",
-   "doi": "10.2307/639250",
-   "title": "Causation and the Authority of the Poet in Ovid's Fasti",
-   "author": "Byron Harries"
-  },
-  {
    "book": "3",
    "page": 70,
    "section": "",
@@ -17242,18 +16866,6 @@
    "doi": "10.2307/3556329",
    "title": "Critical Studies in the Cantica of Sophocles: I. Antigone",
    "author": "C. W. Willink"
-  },
-  {
-   "book": "10",
-   "page": 132,
-   "section": "",
-   "line": 132,
-   "journal": "The Classical Quarterly",
-   "year": "2003",
-   "iid": "d5dcd523-6c00-3da9-98b8-df71cdfa81c2",
-   "doi": "10.2307/3556481",
-   "title": "Xenelasia and Social Control in Classical Sparta",
-   "author": "Thomas J. Figueira"
   },
   {
    "book": "3",
@@ -25560,18 +25172,6 @@
    "author": "George F. Osmun"
   },
   {
-   "book": "9",
-   "page": 67,
-   "section": "",
-   "line": 67,
-   "journal": "Harvard Studies in Classical Philology",
-   "year": "1983",
-   "iid": "620edafe-a0ce-37b8-9423-5206db5f5916",
-   "doi": "10.2307/311249",
-   "title": "Pindar Pythians 2 and 3: Inscriptional ποτέ and the \"Poetic Epistle\"",
-   "author": "David C. Young"
-  },
-  {
    "book": "4",
    "page": 6,
    "section": "",
@@ -26736,18 +26336,6 @@
    "author": "R. J. Tarrant"
   },
   {
-   "book": "3",
-   "page": 143,
-   "section": "",
-   "line": 143,
-   "journal": "The Classical World",
-   "year": "2007",
-   "iid": "6ed7ade3-45d4-3c62-8201-b3ff491599dd",
-   "doi": "10.2307/25434022",
-   "title": "Reconstructing Aristophanic Performance: Stage Properties in \"Acharnians\"",
-   "author": "Mary C. English"
-  },
-  {
    "book": "5",
    "page": 25,
    "section": "",
@@ -27804,18 +27392,6 @@
    "author": "Edwin D. Floyd"
   },
   {
-   "book": "7",
-   "page": 155,
-   "section": "",
-   "line": 155,
-   "journal": "Transactions of the American Philological Association (1974-2014)",
-   "year": "2010",
-   "iid": "8018ed30-e827-3457-81e4-c444dacb2339",
-   "doi": "10.2307/40890981",
-   "title": "The Beggar and the Clod: The Mythic Notion of Property in Ancient Greece",
-   "author": "ALEX GOTTESMAN"
-  },
-  {
    "book": "4",
    "page": 7,
    "section": "",
@@ -27904,18 +27480,6 @@
    "page": 20,
    "section": "",
    "line": 20,
-   "journal": "Harvard Studies in Classical Philology",
-   "year": "1969",
-   "iid": "83007a58-7ca9-3cd0-a5e2-4ba51c7f9cb1",
-   "doi": "10.2307/311148",
-   "title": "Bacchylides' Ode 5: Imitation and Originality",
-   "author": "Mary R. Lefkowitz"
-  },
-  {
-   "book": "3",
-   "page": 143,
-   "section": "",
-   "line": 143,
    "journal": "Harvard Studies in Classical Philology",
    "year": "1969",
    "iid": "83007a58-7ca9-3cd0-a5e2-4ba51c7f9cb1",
@@ -32160,54 +31724,6 @@
    "author": "Jonathan Fenno"
   },
   {
-   "book": "2",
-   "page": 69,
-   "section": "",
-   "line": 69,
-   "journal": "Classical Antiquity",
-   "year": "1987",
-   "iid": "ac0eda2a-99ef-3e23-85c6-a87992010744",
-   "doi": "10.2307/25010861",
-   "title": "Unifying Themes in the Sculpture of the Temple of Zeus at Olympia",
-   "author": "Nancy D. Tersini"
-  },
-  {
-   "book": "2",
-   "page": 70,
-   "section": "",
-   "line": 70,
-   "journal": "Classical Antiquity",
-   "year": "1987",
-   "iid": "ac0eda2a-99ef-3e23-85c6-a87992010744",
-   "doi": "10.2307/25010861",
-   "title": "Unifying Themes in the Sculpture of the Temple of Zeus at Olympia",
-   "author": "Nancy D. Tersini"
-  },
-  {
-   "book": "2",
-   "page": 71,
-   "section": "",
-   "line": 71,
-   "journal": "Classical Antiquity",
-   "year": "1987",
-   "iid": "ac0eda2a-99ef-3e23-85c6-a87992010744",
-   "doi": "10.2307/25010861",
-   "title": "Unifying Themes in the Sculpture of the Temple of Zeus at Olympia",
-   "author": "Nancy D. Tersini"
-  },
-  {
-   "book": "2",
-   "page": 72,
-   "section": "",
-   "line": 72,
-   "journal": "Classical Antiquity",
-   "year": "1987",
-   "iid": "ac0eda2a-99ef-3e23-85c6-a87992010744",
-   "doi": "10.2307/25010861",
-   "title": "Unifying Themes in the Sculpture of the Temple of Zeus at Olympia",
-   "author": "Nancy D. Tersini"
-  },
-  {
    "book": "3",
    "page": 2,
    "section": "",
@@ -33493,18 +33009,6 @@
   },
   {
    "book": "9",
-   "page": 95,
-   "section": "",
-   "line": 95,
-   "journal": "Hermes",
-   "year": "2013",
-   "iid": "b22cf36f-68f8-3c74-9887-5f46f8f86446",
-   "doi": "10.2307/43652857",
-   "title": "RIVOLTA POPOLARE DISSIDIO FAMILIARE? La caduta dei Dinomenidi a Siracusa in Aristotele, Politica 5.10 1312B9-16",
-   "author": "Marco Vinci"
-  },
-  {
-   "book": "9",
    "page": 53,
    "section": "",
    "line": 53,
@@ -34390,18 +33894,6 @@
    "doi": "10.2307/3297484",
    "title": "Sappho, fr. 16 L-P. and Alkaios, fr. 42 L-P.: Romantic and Classical Strains in Lesbian Lyric",
    "author": "William H. Race"
-  },
-  {
-   "book": "5",
-   "page": 89,
-   "section": "",
-   "line": 89,
-   "journal": "The American Journal of Philology",
-   "year": "1990",
-   "iid": "b7ce22e2-099d-3f25-8862-a2fb38a5aff2",
-   "doi": "10.2307/294973",
-   "title": "The Evidence for Kicking in Greek Boxing",
-   "author": "Nigel B. Crowther"
   },
   {
    "book": "7",
@@ -36384,18 +35876,6 @@
    "author": "Mary R. Lefkowitz"
   },
   {
-   "book": "6",
-   "page": 94,
-   "section": "",
-   "line": 94,
-   "journal": "The American Journal of Philology",
-   "year": "1985",
-   "iid": "c4e2ce8d-ec7d-37b4-a19c-10eaa1bd1ca1",
-   "doi": "10.2307/295028",
-   "title": "The Pindar Scholia",
-   "author": "Mary R. Lefkowitz"
-  },
-  {
    "book": "10",
    "page": 35,
    "section": "",
@@ -36412,18 +35892,6 @@
    "page": 6,
    "section": "",
    "line": 6,
-   "journal": "The American Journal of Philology",
-   "year": "1985",
-   "iid": "c4e2ce8d-ec7d-37b4-a19c-10eaa1bd1ca1",
-   "doi": "10.2307/295028",
-   "title": "The Pindar Scholia",
-   "author": "Mary R. Lefkowitz"
-  },
-  {
-   "book": "1",
-   "page": 104,
-   "section": "",
-   "line": 104,
    "journal": "The American Journal of Philology",
    "year": "1985",
    "iid": "c4e2ce8d-ec7d-37b4-a19c-10eaa1bd1ca1",
@@ -36532,18 +36000,6 @@
    "page": 25,
    "section": "",
    "line": 25,
-   "journal": "The American Journal of Philology",
-   "year": "1985",
-   "iid": "c4e2ce8d-ec7d-37b4-a19c-10eaa1bd1ca1",
-   "doi": "10.2307/295028",
-   "title": "The Pindar Scholia",
-   "author": "Mary R. Lefkowitz"
-  },
-  {
-   "book": "8",
-   "page": 68,
-   "section": "",
-   "line": 68,
    "journal": "The American Journal of Philology",
    "year": "1985",
    "iid": "c4e2ce8d-ec7d-37b4-a19c-10eaa1bd1ca1",

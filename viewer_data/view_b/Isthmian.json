@@ -1295,17 +1295,6 @@
    }
   },
   {
-   "book": "2",
-   "page": 68,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical Quarterly": 1
-   }
-  },
-  {
    "book": "3",
    "page": 1,
    "section": "",
@@ -1430,28 +1419,6 @@
    "articles": 1,
    "by_journal": {
     "Transactions of the American Philological Association (1974-2014)": 1
-   }
-  },
-  {
-   "book": "3",
-   "page": 57,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Transactions of the American Philological Association (1974-2014)": 1
-   }
-  },
-  {
-   "book": "3",
-   "page": 62,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Harvard Studies in Classical Philology": 1
    }
   },
   {
@@ -2028,50 +1995,6 @@
    "articles": 1,
    "by_journal": {
     "Harvard Studies in Classical Philology": 1
-   }
-  },
-  {
-   "book": "4",
-   "page": 88,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical World": 1
-   }
-  },
-  {
-   "book": "4",
-   "page": 89,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical World": 1
-   }
-  },
-  {
-   "book": "4",
-   "page": 90,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical World": 1
-   }
-  },
-  {
-   "book": "4",
-   "page": 104,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Mnemosyne": 1
    }
   },
   {
@@ -4576,39 +4499,6 @@
    }
   },
   {
-   "book": "8",
-   "page": 127,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Harvard Studies in Classical Philology": 1
-   }
-  },
-  {
-   "book": "8",
-   "page": 267,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Hermes": 1
-   }
-  },
-  {
-   "book": "8",
-   "page": 701,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The American Journal of Philology": 1
-   }
-  },
-  {
    "book": "9",
    "page": 1,
    "section": "",
@@ -6287,18 +6177,6 @@
    "author": "Gilbert Norwood"
   },
   {
-   "book": "2",
-   "page": 68,
-   "section": "",
-   "line": 68,
-   "journal": "The Classical Quarterly",
-   "year": "1991",
-   "iid": "f1524f38-440a-3028-9ea5-df890c3643d4",
-   "doi": "10.2307/639023",
-   "title": "Six Greek Verbs of Sexual Congress (βινω̑, κινω̑, πυγίζω, ληκω̑, οἴϕω, λαικάζω)",
-   "author": "David Bain"
-  },
-  {
    "book": "6",
    "page": 71,
    "section": "",
@@ -7161,18 +7039,6 @@
    "doi": "10.2307/283749",
    "title": "What Time Can Do (Pindar, Nemean 1.46-47)",
    "author": "Douglas E. Gerber"
-  },
-  {
-   "book": "8",
-   "page": 127,
-   "section": "",
-   "line": 127,
-   "journal": "Harvard Studies in Classical Philology",
-   "year": "2015",
-   "iid": "1158f5b6-3a37-3646-94af-a828241e2d02",
-   "doi": "10.2307/44157813",
-   "title": "MUSES, METAPHOR, AND METAPOETICS IN CATULLUS 61",
-   "author": "Christopher Eckerman"
   },
   {
    "book": "4",
@@ -9720,18 +9586,6 @@
   },
   {
    "book": "8",
-   "page": 701,
-   "section": "",
-   "line": 701,
-   "journal": "The American Journal of Philology",
-   "year": "1989",
-   "iid": "7018c2cc-34cf-3339-ab10-282d2ac2e441",
-   "doi": "10.2307/294947",
-   "title": "Text and Context in Pindar's Isthmian 8.70",
-   "author": "Terry L. Papillon"
-  },
-  {
-   "book": "8",
    "page": 77,
    "section": "",
    "line": 77,
@@ -10715,18 +10569,6 @@
    "author": "Richard Seaford"
   },
   {
-   "book": "3",
-   "page": 62,
-   "section": "",
-   "line": 62,
-   "journal": "Harvard Studies in Classical Philology",
-   "year": "1981",
-   "iid": "929e5cea-1132-379a-9319-8f504160a462",
-   "doi": "10.2307/311177",
-   "title": "October Horse",
-   "author": "C. Bennett Pascal"
-  },
-  {
    "book": "6",
    "page": 49,
    "section": "",
@@ -10791,18 +10633,6 @@
    "page": 54,
    "section": "",
    "line": 54,
-   "journal": "Hermes",
-   "year": "1994",
-   "iid": "94c78f1c-13b4-367e-96bf-cb7125aa4fcc",
-   "doi": "10.2307/4477027",
-   "title": "Aiakos, Flower of Justice: A Reading of Nemean 3.29",
-   "author": "Jeffrey S. Carnes"
-  },
-  {
-   "book": "8",
-   "page": 267,
-   "section": "",
-   "line": 267,
    "journal": "Hermes",
    "year": "1994",
    "iid": "94c78f1c-13b4-367e-96bf-cb7125aa4fcc",
@@ -12095,42 +11925,6 @@
    "author": "Nigel Nicholson"
   },
   {
-   "book": "4",
-   "page": 88,
-   "section": "",
-   "line": 88,
-   "journal": "The Classical World",
-   "year": "2000",
-   "iid": "b11ea965-44fb-364e-954b-00e24fcc45bb",
-   "doi": "10.2307/4352413",
-   "title": "Pederastic Poets and Adult Patrons in Late Archaic Lyric",
-   "author": "Nigel Nicholson"
-  },
-  {
-   "book": "4",
-   "page": 89,
-   "section": "",
-   "line": 89,
-   "journal": "The Classical World",
-   "year": "2000",
-   "iid": "b11ea965-44fb-364e-954b-00e24fcc45bb",
-   "doi": "10.2307/4352413",
-   "title": "Pederastic Poets and Adult Patrons in Late Archaic Lyric",
-   "author": "Nigel Nicholson"
-  },
-  {
-   "book": "4",
-   "page": 90,
-   "section": "",
-   "line": 90,
-   "journal": "The Classical World",
-   "year": "2000",
-   "iid": "b11ea965-44fb-364e-954b-00e24fcc45bb",
-   "doi": "10.2307/4352413",
-   "title": "Pederastic Poets and Adult Patrons in Late Archaic Lyric",
-   "author": "Nigel Nicholson"
-  },
-  {
    "book": "8",
    "page": 65,
    "section": "",
@@ -13125,18 +12919,6 @@
    "doi": "10.2307/311399",
    "title": "Pindaric Praise and the Third Olympian",
    "author": "Susan C. Shelmerdine"
-  },
-  {
-   "book": "4",
-   "page": 104,
-   "section": "",
-   "line": 104,
-   "journal": "Mnemosyne",
-   "year": "1993",
-   "iid": "c874c6fe-6b81-3e6f-a726-e896781ef14f",
-   "doi": "10.2307/4432215",
-   "title": "The Theme of Corrupted Xenia in Aeschylus' \"Oresteia\"",
-   "author": "Paul Roth"
   },
   {
    "book": "8",
@@ -14187,18 +13969,6 @@
    "page": 23,
    "section": "",
    "line": 23,
-   "journal": "Transactions of the American Philological Association (1974-2014)",
-   "year": "1982",
-   "iid": "e5bbeb57-648d-3530-9f54-90b6cd6db021",
-   "doi": "10.2307/284081",
-   "title": "A Strand of Thought in Pindar, Olympians 7",
-   "author": "Shirley Darcus Sullivan"
-  },
-  {
-   "book": "3",
-   "page": 57,
-   "section": "",
-   "line": 57,
    "journal": "Transactions of the American Philological Association (1974-2014)",
    "year": "1982",
    "iid": "e5bbeb57-648d-3530-9f54-90b6cd6db021",

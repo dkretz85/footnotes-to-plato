@@ -1352,50 +1352,6 @@
    }
   },
   {
-   "book": "1",
-   "page": 153,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Classical Antiquity": 1
-   }
-  },
-  {
-   "book": "1",
-   "page": 167,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The American Journal of Philology": 1
-   }
-  },
-  {
-   "book": "1",
-   "page": 179,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Harvard Studies in Classical Philology": 1
-   }
-  },
-  {
-   "book": "1",
-   "page": 181,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical World": 1
-   }
-  },
-  {
    "book": "10",
    "page": 1,
    "section": "",
@@ -2882,28 +2838,6 @@
    }
   },
   {
-   "book": "11",
-   "page": 89,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Illinois Classical Studies": 1
-   }
-  },
-  {
-   "book": "11",
-   "page": 93,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Quaderni Urbinati di Cultura Classica": 1
-   }
-  },
-  {
    "book": "12",
    "page": 2,
    "section": "",
@@ -3241,17 +3175,6 @@
    "articles": 1,
    "by_journal": {
     "The Classical Quarterly": 1
-   }
-  },
-  {
-   "book": "12",
-   "page": 58,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Mnemosyne": 1
    }
   },
   {
@@ -4443,52 +4366,6 @@
    "articles": 1,
    "by_journal": {
     "The American Journal of Philology": 1
-   }
-  },
-  {
-   "book": "2",
-   "page": 127,
-   "section": "",
-   "band": 0,
-   "count": 7,
-   "articles": 5,
-   "by_journal": {
-    "The Classical Quarterly": 2,
-    "Transactions and Proceedings of the American Philological Association": 3,
-    "Classical Antiquity": 2
-   }
-  },
-  {
-   "book": "2",
-   "page": 128,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical Quarterly": 1
-   }
-  },
-  {
-   "book": "2",
-   "page": 163,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical Review": 1
-   }
-  },
-  {
-   "book": "2",
-   "page": 406,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical Journal": 1
    }
   },
   {
@@ -5956,61 +5833,6 @@
    "articles": 1,
    "by_journal": {
     "Classical Antiquity": 2
-   }
-  },
-  {
-   "book": "3",
-   "page": 167,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Transactions of the American Philological Association (1974-2014)": 1
-   }
-  },
-  {
-   "book": "3",
-   "page": 170,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Hermes": 1
-   }
-  },
-  {
-   "book": "3",
-   "page": 173,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Transactions and Proceedings of the American Philological Association": 1
-   }
-  },
-  {
-   "book": "3",
-   "page": 178,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Classical Antiquity": 1
-   }
-  },
-  {
-   "book": "3",
-   "page": 813,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Harvard Studies in Classical Philology": 1
    }
   },
   {
@@ -9123,61 +8945,6 @@
    "articles": 1,
    "by_journal": {
     "Classical Philology": 1
-   }
-  },
-  {
-   "book": "4",
-   "page": 357,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Transactions of the American Philological Association (1974-2014)": 1
-   }
-  },
-  {
-   "book": "4",
-   "page": 384,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Classical Antiquity": 1
-   }
-  },
-  {
-   "book": "4",
-   "page": 443,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical Journal": 1
-   }
-  },
-  {
-   "book": "4",
-   "page": 480,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Harvard Studies in Classical Philology": 1
-   }
-  },
-  {
-   "book": "4",
-   "page": 507,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical Quarterly": 1
    }
   },
   {
@@ -12757,63 +12524,6 @@
    }
   },
   {
-   "book": "8",
-   "page": 135,
-   "section": "",
-   "band": 0,
-   "count": 4,
-   "articles": 4,
-   "by_journal": {
-    "The Classical Review": 2,
-    "The Classical Journal": 1,
-    "The American Journal of Philology": 1
-   }
-  },
-  {
-   "book": "8",
-   "page": 136,
-   "section": "",
-   "band": 0,
-   "count": 2,
-   "articles": 2,
-   "by_journal": {
-    "The Classical Review": 2
-   }
-  },
-  {
-   "book": "8",
-   "page": 137,
-   "section": "",
-   "band": 0,
-   "count": 2,
-   "articles": 2,
-   "by_journal": {
-    "The Classical Review": 2
-   }
-  },
-  {
-   "book": "8",
-   "page": 138,
-   "section": "",
-   "band": 0,
-   "count": 2,
-   "articles": 2,
-   "by_journal": {
-    "The Classical Review": 2
-   }
-  },
-  {
-   "book": "8",
-   "page": 139,
-   "section": "",
-   "band": 0,
-   "count": 2,
-   "articles": 2,
-   "by_journal": {
-    "The Classical Review": 2
-   }
-  },
-  {
    "book": "9",
    "page": 1,
    "section": "",
@@ -14241,139 +13951,6 @@
     "Classical Philology": 1,
     "The Classical World": 1,
     "The American Journal of Philology": 1
-   }
-  },
-  {
-   "book": "9",
-   "page": 195,
-   "section": "",
-   "band": 0,
-   "count": 2,
-   "articles": 2,
-   "by_journal": {
-    "The Classical Quarterly": 1,
-    "Illinois Classical Studies": 1
-   }
-  },
-  {
-   "book": "9",
-   "page": 196,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical Quarterly": 1
-   }
-  },
-  {
-   "book": "9",
-   "page": 197,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical Quarterly": 1
-   }
-  },
-  {
-   "book": "9",
-   "page": 198,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical Quarterly": 1
-   }
-  },
-  {
-   "book": "9",
-   "page": 199,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical Quarterly": 1
-   }
-  },
-  {
-   "book": "9",
-   "page": 200,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical Quarterly": 1
-   }
-  },
-  {
-   "book": "9",
-   "page": 201,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical Quarterly": 1
-   }
-  },
-  {
-   "book": "9",
-   "page": 202,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical Quarterly": 1
-   }
-  },
-  {
-   "book": "9",
-   "page": 203,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical Quarterly": 1
-   }
-  },
-  {
-   "book": "9",
-   "page": 204,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical Quarterly": 1
-   }
-  },
-  {
-   "book": "9",
-   "page": 205,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical Quarterly": 1
-   }
-  },
-  {
-   "book": "9",
-   "page": 206,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical Quarterly": 1
    }
   }
  ],
@@ -19959,150 +19536,6 @@
    "author": "Harald Mielsch, Hugh Lloyd-Jones, Heide Froning, Tonio Hölscher"
   },
   {
-   "book": "9",
-   "page": 195,
-   "section": "",
-   "line": 195,
-   "journal": "The Classical Quarterly",
-   "year": "1991",
-   "iid": "6e1eef6a-5b25-373b-81ec-01b9d2cbfdfa",
-   "doi": "10.2307/638900",
-   "title": "Royal Succession in Heroic Greece",
-   "author": "Margalit Finkelberg"
-  },
-  {
-   "book": "9",
-   "page": 196,
-   "section": "",
-   "line": 196,
-   "journal": "The Classical Quarterly",
-   "year": "1991",
-   "iid": "6e1eef6a-5b25-373b-81ec-01b9d2cbfdfa",
-   "doi": "10.2307/638900",
-   "title": "Royal Succession in Heroic Greece",
-   "author": "Margalit Finkelberg"
-  },
-  {
-   "book": "9",
-   "page": 197,
-   "section": "",
-   "line": 197,
-   "journal": "The Classical Quarterly",
-   "year": "1991",
-   "iid": "6e1eef6a-5b25-373b-81ec-01b9d2cbfdfa",
-   "doi": "10.2307/638900",
-   "title": "Royal Succession in Heroic Greece",
-   "author": "Margalit Finkelberg"
-  },
-  {
-   "book": "9",
-   "page": 198,
-   "section": "",
-   "line": 198,
-   "journal": "The Classical Quarterly",
-   "year": "1991",
-   "iid": "6e1eef6a-5b25-373b-81ec-01b9d2cbfdfa",
-   "doi": "10.2307/638900",
-   "title": "Royal Succession in Heroic Greece",
-   "author": "Margalit Finkelberg"
-  },
-  {
-   "book": "9",
-   "page": 199,
-   "section": "",
-   "line": 199,
-   "journal": "The Classical Quarterly",
-   "year": "1991",
-   "iid": "6e1eef6a-5b25-373b-81ec-01b9d2cbfdfa",
-   "doi": "10.2307/638900",
-   "title": "Royal Succession in Heroic Greece",
-   "author": "Margalit Finkelberg"
-  },
-  {
-   "book": "9",
-   "page": 200,
-   "section": "",
-   "line": 200,
-   "journal": "The Classical Quarterly",
-   "year": "1991",
-   "iid": "6e1eef6a-5b25-373b-81ec-01b9d2cbfdfa",
-   "doi": "10.2307/638900",
-   "title": "Royal Succession in Heroic Greece",
-   "author": "Margalit Finkelberg"
-  },
-  {
-   "book": "9",
-   "page": 201,
-   "section": "",
-   "line": 201,
-   "journal": "The Classical Quarterly",
-   "year": "1991",
-   "iid": "6e1eef6a-5b25-373b-81ec-01b9d2cbfdfa",
-   "doi": "10.2307/638900",
-   "title": "Royal Succession in Heroic Greece",
-   "author": "Margalit Finkelberg"
-  },
-  {
-   "book": "9",
-   "page": 202,
-   "section": "",
-   "line": 202,
-   "journal": "The Classical Quarterly",
-   "year": "1991",
-   "iid": "6e1eef6a-5b25-373b-81ec-01b9d2cbfdfa",
-   "doi": "10.2307/638900",
-   "title": "Royal Succession in Heroic Greece",
-   "author": "Margalit Finkelberg"
-  },
-  {
-   "book": "9",
-   "page": 203,
-   "section": "",
-   "line": 203,
-   "journal": "The Classical Quarterly",
-   "year": "1991",
-   "iid": "6e1eef6a-5b25-373b-81ec-01b9d2cbfdfa",
-   "doi": "10.2307/638900",
-   "title": "Royal Succession in Heroic Greece",
-   "author": "Margalit Finkelberg"
-  },
-  {
-   "book": "9",
-   "page": 204,
-   "section": "",
-   "line": 204,
-   "journal": "The Classical Quarterly",
-   "year": "1991",
-   "iid": "6e1eef6a-5b25-373b-81ec-01b9d2cbfdfa",
-   "doi": "10.2307/638900",
-   "title": "Royal Succession in Heroic Greece",
-   "author": "Margalit Finkelberg"
-  },
-  {
-   "book": "9",
-   "page": 205,
-   "section": "",
-   "line": 205,
-   "journal": "The Classical Quarterly",
-   "year": "1991",
-   "iid": "6e1eef6a-5b25-373b-81ec-01b9d2cbfdfa",
-   "doi": "10.2307/638900",
-   "title": "Royal Succession in Heroic Greece",
-   "author": "Margalit Finkelberg"
-  },
-  {
-   "book": "9",
-   "page": 206,
-   "section": "",
-   "line": 206,
-   "journal": "The Classical Quarterly",
-   "year": "1991",
-   "iid": "6e1eef6a-5b25-373b-81ec-01b9d2cbfdfa",
-   "doi": "10.2307/638900",
-   "title": "Royal Succession in Heroic Greece",
-   "author": "Margalit Finkelberg"
-  },
-  {
    "book": "11",
    "page": 22,
    "section": "",
@@ -20535,66 +19968,6 @@
    "author": "KONSTANTINE PANEGYRES"
   },
   {
-   "book": "8",
-   "page": 135,
-   "section": "",
-   "line": 135,
-   "journal": "The Classical Review",
-   "year": "2002",
-   "iid": "7a956e03-40d7-3467-bb5a-1a3a36b03d4d",
-   "doi": "10.2307/3662597",
-   "title": "Book Review : \n        Secret of the Muses Retold. Classical Influences on Italian Authors of the Twentieth Century\n        J. T. Kirby",
-   "author": "Martin McLaughlin, J. T. Kirby"
-  },
-  {
-   "book": "8",
-   "page": 136,
-   "section": "",
-   "line": 136,
-   "journal": "The Classical Review",
-   "year": "2002",
-   "iid": "7a956e03-40d7-3467-bb5a-1a3a36b03d4d",
-   "doi": "10.2307/3662597",
-   "title": "Book Review : \n        Secret of the Muses Retold. Classical Influences on Italian Authors of the Twentieth Century\n        J. T. Kirby",
-   "author": "Martin McLaughlin, J. T. Kirby"
-  },
-  {
-   "book": "8",
-   "page": 137,
-   "section": "",
-   "line": 137,
-   "journal": "The Classical Review",
-   "year": "2002",
-   "iid": "7a956e03-40d7-3467-bb5a-1a3a36b03d4d",
-   "doi": "10.2307/3662597",
-   "title": "Book Review : \n        Secret of the Muses Retold. Classical Influences on Italian Authors of the Twentieth Century\n        J. T. Kirby",
-   "author": "Martin McLaughlin, J. T. Kirby"
-  },
-  {
-   "book": "8",
-   "page": 138,
-   "section": "",
-   "line": 138,
-   "journal": "The Classical Review",
-   "year": "2002",
-   "iid": "7a956e03-40d7-3467-bb5a-1a3a36b03d4d",
-   "doi": "10.2307/3662597",
-   "title": "Book Review : \n        Secret of the Muses Retold. Classical Influences on Italian Authors of the Twentieth Century\n        J. T. Kirby",
-   "author": "Martin McLaughlin, J. T. Kirby"
-  },
-  {
-   "book": "8",
-   "page": 139,
-   "section": "",
-   "line": 139,
-   "journal": "The Classical Review",
-   "year": "2002",
-   "iid": "7a956e03-40d7-3467-bb5a-1a3a36b03d4d",
-   "doi": "10.2307/3662597",
-   "title": "Book Review : \n        Secret of the Muses Retold. Classical Influences on Italian Authors of the Twentieth Century\n        J. T. Kirby",
-   "author": "Martin McLaughlin, J. T. Kirby"
-  },
-  {
    "book": "4",
    "page": 20,
    "section": "",
@@ -20905,18 +20278,6 @@
    "doi": "10.2307/4493424",
    "title": "What Lobel Hath Joined Together: Sappho 49 LP",
    "author": "Holt R. Parker"
-  },
-  {
-   "book": "2",
-   "page": 163,
-   "section": "",
-   "line": 163,
-   "journal": "The Classical Review",
-   "year": "1993",
-   "iid": "845de215-f58f-3b9d-a0c9-e64aeefd17a8",
-   "doi": "10.2307/713503",
-   "title": "Greek Lyric 4",
-   "author": "David A. Campbell, M. L. West"
   },
   {
    "book": "4",
@@ -24015,18 +23376,6 @@
    "author": "TOM PHILLIPS"
   },
   {
-   "book": "2",
-   "page": 127,
-   "section": "",
-   "line": 127,
-   "journal": "The Classical Quarterly",
-   "year": "2013",
-   "iid": "a6d06423-93ab-31ec-b4b9-84b01c2d5156",
-   "doi": "10.2307/23470074",
-   "title": "EPINICIAN VARIATIONS: MUSIC AND TEXT IN PINDAR, \"PYTHIANS\" 2 AND 12",
-   "author": "TOM PHILLIPS"
-  },
-  {
    "book": "4",
    "page": 13,
    "section": "",
@@ -24139,18 +23488,6 @@
    "page": 9,
    "section": "",
    "line": 9,
-   "journal": "The Classical Quarterly",
-   "year": "2013",
-   "iid": "a6d06423-93ab-31ec-b4b9-84b01c2d5156",
-   "doi": "10.2307/23470074",
-   "title": "EPINICIAN VARIATIONS: MUSIC AND TEXT IN PINDAR, \"PYTHIANS\" 2 AND 12",
-   "author": "TOM PHILLIPS"
-  },
-  {
-   "book": "2",
-   "page": 128,
-   "section": "",
-   "line": 128,
    "journal": "The Classical Quarterly",
    "year": "2013",
    "iid": "a6d06423-93ab-31ec-b4b9-84b01c2d5156",
@@ -26103,66 +25440,6 @@
    "author": "ANDREW FAULKNER"
   },
   {
-   "book": "8",
-   "page": 135,
-   "section": "",
-   "line": 135,
-   "journal": "The Classical Review",
-   "year": "2002",
-   "iid": "c3bb7ec1-eaa6-308b-9bb6-f18370704c18",
-   "doi": "10.2307/3662596",
-   "title": "Book Review : \n        \n          Hölderlin and the Dynamics of Translation\n        \n        C. Louth",
-   "author": "Tony Phelan, C. Louth"
-  },
-  {
-   "book": "8",
-   "page": 136,
-   "section": "",
-   "line": 136,
-   "journal": "The Classical Review",
-   "year": "2002",
-   "iid": "c3bb7ec1-eaa6-308b-9bb6-f18370704c18",
-   "doi": "10.2307/3662596",
-   "title": "Book Review : \n        \n          Hölderlin and the Dynamics of Translation\n        \n        C. Louth",
-   "author": "Tony Phelan, C. Louth"
-  },
-  {
-   "book": "8",
-   "page": 137,
-   "section": "",
-   "line": 137,
-   "journal": "The Classical Review",
-   "year": "2002",
-   "iid": "c3bb7ec1-eaa6-308b-9bb6-f18370704c18",
-   "doi": "10.2307/3662596",
-   "title": "Book Review : \n        \n          Hölderlin and the Dynamics of Translation\n        \n        C. Louth",
-   "author": "Tony Phelan, C. Louth"
-  },
-  {
-   "book": "8",
-   "page": 138,
-   "section": "",
-   "line": 138,
-   "journal": "The Classical Review",
-   "year": "2002",
-   "iid": "c3bb7ec1-eaa6-308b-9bb6-f18370704c18",
-   "doi": "10.2307/3662596",
-   "title": "Book Review : \n        \n          Hölderlin and the Dynamics of Translation\n        \n        C. Louth",
-   "author": "Tony Phelan, C. Louth"
-  },
-  {
-   "book": "8",
-   "page": 139,
-   "section": "",
-   "line": 139,
-   "journal": "The Classical Review",
-   "year": "2002",
-   "iid": "c3bb7ec1-eaa6-308b-9bb6-f18370704c18",
-   "doi": "10.2307/3662596",
-   "title": "Book Review : \n        \n          Hölderlin and the Dynamics of Translation\n        \n        C. Louth",
-   "author": "Tony Phelan, C. Louth"
-  },
-  {
    "book": "1",
    "page": 39,
    "section": "",
@@ -27411,18 +26688,6 @@
    "author": "Dustin W. Dixon"
   },
   {
-   "book": "2",
-   "page": 127,
-   "section": "",
-   "line": 127,
-   "journal": "The Classical Quarterly",
-   "year": "2018",
-   "iid": "dcbcbaa7-9bd2-36da-8f4c-47d0fd91522f",
-   "doi": "10.2307/26670616",
-   "title": "CRETAN <em>ΝΟΜΟΙ</em>",
-   "author": "ANDREA ROTSTEIN"
-  },
-  {
    "book": "4",
    "page": 17,
    "section": "",
@@ -27583,18 +26848,6 @@
    "page": 9,
    "section": "",
    "line": 9,
-   "journal": "The Classical Quarterly",
-   "year": "1985",
-   "iid": "e8e5e4a1-9f83-38b9-b32b-0a0e17ccde0a",
-   "doi": "10.2307/638812",
-   "title": "The Annotations of M. Valerivs Probvs (II) [The Annotations of M. Valerius Probus (II)]",
-   "author": "H. D. Jocelyn"
-  },
-  {
-   "book": "4",
-   "page": 507,
-   "section": "",
-   "line": 507,
    "journal": "The Classical Quarterly",
    "year": "1985",
    "iid": "e8e5e4a1-9f83-38b9-b32b-0a0e17ccde0a",
@@ -28759,18 +28012,6 @@
    "page": 161,
    "section": "",
    "line": 161,
-   "journal": "Transactions and Proceedings of the American Philological Association",
-   "year": "1948",
-   "iid": "035eb194-4432-3d46-ae24-87af53c71aca",
-   "doi": "10.2307/283358",
-   "title": "The Sorrows of Ino and of Procne",
-   "author": "Joseph Fontenrose"
-  },
-  {
-   "book": "3",
-   "page": 173,
-   "section": "",
-   "line": 173,
    "journal": "Transactions and Proceedings of the American Philological Association",
    "year": "1948",
    "iid": "035eb194-4432-3d46-ae24-87af53c71aca",
@@ -30879,18 +30120,6 @@
    "author": "Kathryn Gutzwiller"
   },
   {
-   "book": "1",
-   "page": 181,
-   "section": "",
-   "line": 181,
-   "journal": "The Classical World",
-   "year": "2009",
-   "iid": "0f6db9b6-f865-3191-8e39-c20ee5a9e15b",
-   "doi": "10.2307/40599877",
-   "title": "The Importance of Being λóγιOς",
-   "author": "NINO LURAGHI"
-  },
-  {
    "book": "6",
    "page": 1,
    "section": "",
@@ -31935,18 +31164,6 @@
    "author": "Helmut Loeffler, William M. Calder <suffix>III</suffix>"
   },
   {
-   "book": "11",
-   "page": 89,
-   "section": "",
-   "line": 89,
-   "journal": "Illinois Classical Studies",
-   "year": "2006",
-   "iid": "1696a5d8-c5b1-37b5-a9f8-80042aec9a8a",
-   "doi": "10.2307/23065316",
-   "title": "Notes of Wilamowitz' Course on Pindar Berlin 1900/01 A First Edition",
-   "author": "Helmut Loeffler, William M. Calder <suffix>III</suffix>"
-  },
-  {
    "book": "7",
    "page": 12,
    "section": "",
@@ -32023,6 +31240,18 @@
    "page": 57,
    "section": "",
    "line": 57,
+   "journal": "Illinois Classical Studies",
+   "year": "2006",
+   "iid": "1696a5d8-c5b1-37b5-a9f8-80042aec9a8a",
+   "doi": "10.2307/23065316",
+   "title": "Notes of Wilamowitz' Course on Pindar Berlin 1900/01 A First Edition",
+   "author": "Helmut Loeffler, William M. Calder <suffix>III</suffix>"
+  },
+  {
+   "book": "2",
+   "page": 89,
+   "section": "",
+   "line": 89,
    "journal": "Illinois Classical Studies",
    "year": "2006",
    "iid": "1696a5d8-c5b1-37b5-a9f8-80042aec9a8a",
@@ -32881,18 +32110,6 @@
    "doi": "10.2307/25010879",
    "title": "Death and Victory in Euripides' \"Alcestis\"",
    "author": "Richard Garner"
-  },
-  {
-   "book": "3",
-   "page": 167,
-   "section": "",
-   "line": 167,
-   "journal": "Transactions of the American Philological Association (1974-2014)",
-   "year": "1991",
-   "iid": "1c480e41-0813-350c-a20d-19a69f175315",
-   "doi": "10.2307/284441",
-   "title": "Kleitias, Stesichoros, and the Jar of Dionysos",
-   "author": "Michael W. Haslam"
   },
   {
    "book": "5",
@@ -37035,18 +36252,6 @@
    "author": "Raffaella Cantore"
   },
   {
-   "book": "8",
-   "page": 135,
-   "section": "",
-   "line": 135,
-   "journal": "The Classical Journal",
-   "year": "1966",
-   "iid": "332aa7b3-f05b-36ab-8c03-88e4eb5a667b",
-   "doi": "10.2307/3296628",
-   "title": "Michael Wigglesworth. From Kill-Joy to Comforter",
-   "author": "Richard M. Gummere"
-  },
-  {
    "book": "9",
    "page": 91,
    "section": "",
@@ -37753,18 +36958,6 @@
    "doi": "10.2307/642496",
    "title": "'Hybris' and Dishonour: II",
    "author": "N. R. E. Fisher"
-  },
-  {
-   "book": "9",
-   "page": 195,
-   "section": "",
-   "line": 195,
-   "journal": "Illinois Classical Studies",
-   "year": "2021",
-   "iid": "3e18766d-e6ae-3ea8-975e-c4122d756162",
-   "doi": "10.2307/48678799",
-   "title": "The “Strangeness” of Hypermestra’s Letter to Lynceus (Ov. <em>Her</em>. 14)",
-   "author": "CHIARA BATTISTELLA"
   },
   {
    "book": "9",
@@ -39903,34 +39096,10 @@
    "author": "EMILY GOWERS"
   },
   {
-   "book": "2",
-   "page": 127,
-   "section": "",
-   "line": 127,
-   "journal": "Transactions and Proceedings of the American Philological Association",
-   "year": "1951",
-   "iid": "5bfec842-b5f7-308a-88b3-2c681de74e62",
-   "doi": "10.2307/283420",
-   "title": "Krêtikôs in the Greek Dance",
-   "author": "Lillian B. Lawler"
-  },
-  {
    "book": "12",
    "page": 2,
    "section": "",
    "line": 2,
-   "journal": "Mnemosyne",
-   "year": "2022",
-   "iid": "5c09622d-7de6-3378-8f6c-5f615858a7e8",
-   "doi": "10.2307/27298891",
-   "title": "Cheeks, Jaws, Effort and Auletics",
-   "author": "Olga L. Akhunova"
-  },
-  {
-   "book": "12",
-   "page": 58,
-   "section": "",
-   "line": 58,
    "journal": "Mnemosyne",
    "year": "2022",
    "iid": "5c09622d-7de6-3378-8f6c-5f615858a7e8",
@@ -41077,18 +40246,6 @@
    "doi": "10.2307/48751717",
    "title": "Double-Bind, Baleful Hope",
    "author": "ALLANNAH KARAS"
-  },
-  {
-   "book": "3",
-   "page": 170,
-   "section": "",
-   "line": 170,
-   "journal": "Hermes",
-   "year": "1992",
-   "iid": "6b5ee037-fa3e-38e8-b09b-b14030ede7a5",
-   "doi": "10.2307/4476918",
-   "title": "The Legacy of Peleus: Death and Divine Gifts in the Iliad",
-   "author": "John Heath"
   },
   {
    "book": "4",
@@ -45123,18 +44280,6 @@
    "author": "Daniel R. Blickman"
   },
   {
-   "book": "2",
-   "page": 406,
-   "section": "",
-   "line": 406,
-   "journal": "The Classical Journal",
-   "year": "1986",
-   "iid": "92385507-80da-3c67-bac3-3df025d611a2",
-   "doi": "10.2307/3297229",
-   "title": "The Myth of Ixion and Pollution for Homicide in Archaic Greece",
-   "author": "Daniel R. Blickman"
-  },
-  {
    "book": "8",
    "page": 28,
    "section": "",
@@ -45532,18 +44677,6 @@
   },
   {
    "book": "11",
-   "page": 93,
-   "section": "",
-   "line": 93,
-   "journal": "Quaderni Urbinati di Cultura Classica",
-   "year": "2013",
-   "iid": "946bb521-c061-3d76-8033-63f27b393f41",
-   "doi": "10.2307/24645235",
-   "title": "PIND. \"PYTH\". 3, 25 SN.-MAEHL. ΚΑΛΛΙΠΕΠΛΟϒ ΛΗΜΑ ΚΟΡΩΝΙΔΟΣ: AMONG LITERARY REPRESENTATION, ETHOLOGICAL DESCRIPTION AND \"CIRCUMLOCUTIO CUM COLORE EPICO\"",
-   "author": "Maria G. Xanthou"
-  },
-  {
-   "book": "11",
    "page": 54,
    "section": "",
    "line": 54,
@@ -45780,18 +44913,6 @@
    "iid": "9a2713c6-5526-3cd9-b1e5-2840285190b6",
    "doi": "10.2307/1562096",
    "title": "Beyond Neo-Analysis: Problems with the Vengeance Theory",
-   "author": "Jonathan Burgess"
-  },
-  {
-   "book": "3",
-   "page": 178,
-   "section": "",
-   "line": 178,
-   "journal": "Classical Antiquity",
-   "year": "1995",
-   "iid": "9a448e93-c0c7-3e3d-b5a5-2db021cc8b8c",
-   "doi": "10.2307/25011021",
-   "title": "Achilles' Heel: The Death of Achilles in Ancient Myth",
    "author": "Jonathan Burgess"
   },
   {
@@ -48067,18 +47188,6 @@
    "page": 49,
    "section": "",
    "line": 49,
-   "journal": "The Classical Journal",
-   "year": "1954",
-   "iid": "ab4b439c-785a-3e97-9d9a-cfa12e48bbf0",
-   "doi": "10.2307/3292607",
-   "title": "Murder in the Bath: Reflections on the Death of Agamemnon",
-   "author": "T. T. Duke"
-  },
-  {
-   "book": "4",
-   "page": 443,
-   "section": "",
-   "line": 443,
    "journal": "The Classical Journal",
    "year": "1954",
    "iid": "ab4b439c-785a-3e97-9d9a-cfa12e48bbf0",
@@ -51663,18 +50772,6 @@
    "author": "ANNAMARIA PERI"
   },
   {
-   "book": "8",
-   "page": 135,
-   "section": "",
-   "line": 135,
-   "journal": "The American Journal of Philology",
-   "year": "1985",
-   "iid": "c4e2ce8d-ec7d-37b4-a19c-10eaa1bd1ca1",
-   "doi": "10.2307/295028",
-   "title": "The Pindar Scholia",
-   "author": "Mary R. Lefkowitz"
-  },
-  {
    "book": "10",
    "page": 79,
    "section": "",
@@ -51727,18 +50824,6 @@
    "page": 154,
    "section": "",
    "line": 154,
-   "journal": "The American Journal of Philology",
-   "year": "1985",
-   "iid": "c4e2ce8d-ec7d-37b4-a19c-10eaa1bd1ca1",
-   "doi": "10.2307/295028",
-   "title": "The Pindar Scholia",
-   "author": "Mary R. Lefkowitz"
-  },
-  {
-   "book": "1",
-   "page": 167,
-   "section": "",
-   "line": 167,
    "journal": "The American Journal of Philology",
    "year": "1985",
    "iid": "c4e2ce8d-ec7d-37b4-a19c-10eaa1bd1ca1",
@@ -52321,18 +51406,6 @@
    "doi": "10.2307/26650608",
    "title": "Heirs and Educators: Pindar in the \"Epitaph for Bion\"",
    "author": "HENRY SPELMAN"
-  },
-  {
-   "book": "4",
-   "page": 357,
-   "section": "",
-   "line": 357,
-   "journal": "Transactions of the American Philological Association (1974-2014)",
-   "year": "1984",
-   "iid": "cd73920e-2069-3ba5-ba0e-eaa06760e792",
-   "doi": "10.2307/284139",
-   "title": "Teiresias as Mantis and Intellectual in Euripides' Bacchae",
-   "author": "Paul Roth"
   },
   {
    "book": "1",
@@ -53923,18 +52996,6 @@
    "page": 30,
    "section": "",
    "line": 30,
-   "journal": "Harvard Studies in Classical Philology",
-   "year": "2004",
-   "iid": "dd6e1db1-540b-348c-bb14-87f7ff1d2d52",
-   "doi": "10.2307/4150032",
-   "title": "Relative Pronouns and Memory: Pindar beyond Syntax",
-   "author": "Anna Bonifazi"
-  },
-  {
-   "book": "3",
-   "page": 813,
-   "section": "",
-   "line": 813,
    "journal": "Harvard Studies in Classical Philology",
    "year": "2004",
    "iid": "dd6e1db1-540b-348c-bb14-87f7ff1d2d52",
@@ -56607,18 +55668,6 @@
    "author": "James P. Holoka"
   },
   {
-   "book": "2",
-   "page": 127,
-   "section": "",
-   "line": 127,
-   "journal": "Classical Antiquity",
-   "year": "2019",
-   "iid": "e8bef74b-8e37-3b6f-89c4-c6cb5f388ca7",
-   "doi": "10.2307/26850599",
-   "title": "Dancing for Free",
-   "author": "PETER WILSON"
-  },
-  {
    "book": "1",
    "page": 103,
    "section": "",
@@ -56635,18 +55684,6 @@
    "page": 69,
    "section": "",
    "line": 69,
-   "journal": "Classical Antiquity",
-   "year": "2019",
-   "iid": "e8bef74b-8e37-3b6f-89c4-c6cb5f388ca7",
-   "doi": "10.2307/26850599",
-   "title": "Dancing for Free",
-   "author": "PETER WILSON"
-  },
-  {
-   "book": "1",
-   "page": 153,
-   "section": "",
-   "line": 153,
    "journal": "Classical Antiquity",
    "year": "2019",
    "iid": "e8bef74b-8e37-3b6f-89c4-c6cb5f388ca7",
@@ -57567,18 +56604,6 @@
    "author": "Nancy Worman"
   },
   {
-   "book": "4",
-   "page": 384,
-   "section": "",
-   "line": 384,
-   "journal": "Classical Antiquity",
-   "year": "1997",
-   "iid": "ee8a2dcc-9b62-33a1-a606-cb8037062f27",
-   "doi": "10.2307/25011057",
-   "title": "The Body as Argument: Helen in Four Greek Texts",
-   "author": "Nancy Worman"
-  },
-  {
    "book": "8",
    "page": 95,
    "section": "",
@@ -58359,30 +57384,6 @@
    "author": "Alexander Nikolaev"
   },
   {
-   "book": "4",
-   "page": 480,
-   "section": "",
-   "line": 480,
-   "journal": "Harvard Studies in Classical Philology",
-   "year": "2019",
-   "iid": "fcd32aea-8118-3220-aa95-ee176e106bf1",
-   "doi": "10.2307/48623473",
-   "title": "THROUGH THE THICKET",
-   "author": "Alexander Nikolaev"
-  },
-  {
-   "book": "1",
-   "page": 179,
-   "section": "",
-   "line": 179,
-   "journal": "Harvard Studies in Classical Philology",
-   "year": "2019",
-   "iid": "fcd32aea-8118-3220-aa95-ee176e106bf1",
-   "doi": "10.2307/48623473",
-   "title": "THROUGH THE THICKET",
-   "author": "Alexander Nikolaev"
-  },
-  {
    "book": "10",
    "page": 60,
    "section": "",
@@ -58501,18 +57502,6 @@
    "doi": "10.2307/23275159",
    "title": "SUBJECT REVIEWS",
    "author": "REBECCA LANGLANDS, MALCOLM HEATH, B. M. LEVICK, CHRISTY CONSTANTAKOPOULOU, NIGEL SPIVEY, PETER LIDDEL"
-  },
-  {
-   "book": "2",
-   "page": 127,
-   "section": "",
-   "line": 127,
-   "journal": "Transactions and Proceedings of the American Philological Association",
-   "year": "1942",
-   "iid": "fed57b3a-92a9-3110-b035-b99134f4ecf7",
-   "doi": "10.2307/283537",
-   "title": "Four Dancers in the Birds of Aristophanes",
-   "author": "Lillian B. Lawler"
   },
   {
    "book": "12",

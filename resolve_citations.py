@@ -186,6 +186,11 @@ class Tables:
         self.work_cues = self._load(d, "work_cues.json")
         self.nt_lengths = self._load(d, "nt_chapter_lengths.json")["books"]
         self.homer_lengths = self._load(d, "homer_line_counts.json")["books"]
+        # Pindar ode lengths vary a little by edition, so pad each by ~15% + 3
+        # lines: catch the wild strays (line 813 in a 115-line ode) without
+        # clipping legitimate near-boundary lines.
+        _pin = self._load(d, "pindar_line_counts.json")["books"]
+        self.pindar_lengths = {w: [round(x * 1.15) + 3 for x in arr] for w, arr in _pin.items()}
         self._build_indexes()
 
     @staticmethod
@@ -617,6 +622,8 @@ def main():
             system = resolved_system(corpus, wid, T)
             nt_len = T.nt_lengths.get(wid) if corpus == "nt" else None
             homer_len = T.homer_lengths.get(wid) if corpus == "homer" else None
+            if corpus == "pindar":
+                homer_len = T.pindar_lengths.get(wid)   # same line_counts channel
             units = locus.expand_range(row["match"], system, nt_lengths=nt_len,
                                        line_counts=homer_len)
             if units is None:

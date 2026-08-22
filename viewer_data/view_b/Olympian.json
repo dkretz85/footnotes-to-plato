@@ -1423,72 +1423,6 @@
    }
   },
   {
-   "book": "1",
-   "page": 144,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Hermes": 1
-   }
-  },
-  {
-   "book": "1",
-   "page": 159,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical Review": 1
-   }
-  },
-  {
-   "book": "1",
-   "page": 318,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "History of Philosophy Quarterly": 1
-   }
-  },
-  {
-   "book": "1",
-   "page": 319,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "History of Philosophy Quarterly": 1
-   }
-  },
-  {
-   "book": "1",
-   "page": 320,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "History of Philosophy Quarterly": 1
-   }
-  },
-  {
-   "book": "1",
-   "page": 321,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "History of Philosophy Quarterly": 1
-   }
-  },
-  {
    "book": "10",
    "page": 1,
    "section": "",
@@ -2509,17 +2443,6 @@
    "by_journal": {
     "The Classical Quarterly": 1,
     "Rheinisches Museum für Philologie": 1
-   }
-  },
-  {
-   "book": "11",
-   "page": 167,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Quaderni Urbinati di Cultura Classica": 1
    }
   },
   {
@@ -4849,50 +4772,6 @@
    }
   },
   {
-   "book": "2",
-   "page": 132,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Classical Antiquity": 1
-   }
-  },
-  {
-   "book": "2",
-   "page": 153,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical Review": 1
-   }
-  },
-  {
-   "book": "2",
-   "page": 154,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Mnemosyne": 1
-   }
-  },
-  {
-   "book": "2",
-   "page": 166,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical Quarterly": 1
-   }
-  },
-  {
    "book": "3",
    "page": 1,
    "section": "",
@@ -5307,17 +5186,6 @@
    "articles": 1,
    "by_journal": {
     "Rheinisches Museum für Philologie": 1
-   }
-  },
-  {
-   "book": "3",
-   "page": 79,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical Quarterly": 1
    }
   },
   {
@@ -6889,72 +6757,6 @@
    }
   },
   {
-   "book": "6",
-   "page": 129,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Classical Philology": 1
-   }
-  },
-  {
-   "book": "6",
-   "page": 134,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Classical Philology": 1
-   }
-  },
-  {
-   "book": "6",
-   "page": 144,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical Quarterly": 1
-   }
-  },
-  {
-   "book": "6",
-   "page": 152,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Illinois Classical Studies": 1
-   }
-  },
-  {
-   "book": "6",
-   "page": 153,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Illinois Classical Studies": 1
-   }
-  },
-  {
-   "book": "6",
-   "page": 162,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Classical Philology": 1
-   }
-  },
-  {
    "book": "7",
    "page": 1,
    "section": "",
@@ -7519,17 +7321,6 @@
    "articles": 1,
    "by_journal": {
     "Harvard Studies in Classical Philology": 1
-   }
-  },
-  {
-   "book": "7",
-   "page": 153,
-   "section": "",
-   "band": 0,
-   "count": 2,
-   "articles": 1,
-   "by_journal": {
-    "Rheinisches Museum für Philologie": 2
    }
   },
   {
@@ -8349,39 +8140,6 @@
    "by_journal": {
     "Illinois Classical Studies": 1,
     "Mnemosyne": 1
-   }
-  },
-  {
-   "book": "8",
-   "page": 147,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Neotestamentica": 1
-   }
-  },
-  {
-   "book": "8",
-   "page": 148,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Neotestamentica": 1
-   }
-  },
-  {
-   "book": "8",
-   "page": 216,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Rheinisches Museum für Philologie": 1
    }
   },
   {
@@ -9329,17 +9087,6 @@
     "Mnemosyne": 1,
     "Harvard Studies in Classical Philology": 1,
     "Transactions and Proceedings of the American Philological Association": 1
-   }
-  },
-  {
-   "book": "9",
-   "page": 134,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Rheinisches Museum für Philologie": 1
    }
   }
  ],
@@ -12082,18 +11829,6 @@
   },
   {
    "book": "6",
-   "page": 162,
-   "section": "",
-   "line": 162,
-   "journal": "Classical Philology",
-   "year": "2019",
-   "iid": "51abdf00-55d6-3c23-b84c-56e7316c914a",
-   "doi": "10.2307/26850705",
-   "title": "HIERON AND ZEUS IN PINDAR",
-   "author": "FELIX J. MEISTER"
-  },
-  {
-   "book": "6",
    "page": 92,
    "section": "",
    "line": 92,
@@ -12921,30 +12656,6 @@
    "author": "Lucia Prauscello"
   },
   {
-   "book": "6",
-   "page": 129,
-   "section": "",
-   "line": 129,
-   "journal": "Classical Philology",
-   "year": "2017",
-   "iid": "76c9b3f0-a3f0-37ee-8d17-bcde6080d09d",
-   "doi": "10.2307/26543454",
-   "title": "RHABDOS TRIPETĒLOS",
-   "author": "Catalin Anghelina"
-  },
-  {
-   "book": "6",
-   "page": 134,
-   "section": "",
-   "line": 134,
-   "journal": "Classical Philology",
-   "year": "2017",
-   "iid": "76c9b3f0-a3f0-37ee-8d17-bcde6080d09d",
-   "doi": "10.2307/26543454",
-   "title": "RHABDOS TRIPETĒLOS",
-   "author": "Catalin Anghelina"
-  },
-  {
    "book": "13",
    "page": 98,
    "section": "",
@@ -13570,18 +13281,6 @@
   },
   {
    "book": "2",
-   "page": 166,
-   "section": "",
-   "line": 166,
-   "journal": "The Classical Quarterly",
-   "year": "2011",
-   "iid": "815ad122-29aa-3217-a6f1-bacb2aac988b",
-   "doi": "10.2307/41301549",
-   "title": "THUCYDIDES AND THE CHARACTER OF GREEK COLONISATION IN SICILY",
-   "author": "ANDREAS MORAKIS"
-  },
-  {
-   "book": "2",
    "page": 15,
    "section": "",
    "line": 15,
@@ -13714,18 +13413,6 @@
   },
   {
    "book": "3",
-   "page": 79,
-   "section": "",
-   "line": 79,
-   "journal": "The Classical Quarterly",
-   "year": "2010",
-   "iid": "8a6d7040-5828-3b3d-b2be-7c70a6f3fe7c",
-   "doi": "10.2307/40984816",
-   "title": "PINDAR OLYMPIAN 3: MAPPING ACRAGAS ON THE PERIPHERY OF THE EARTH",
-   "author": "MARIA PAVLOU"
-  },
-  {
-   "book": "3",
    "page": 38,
    "section": "",
    "line": 38,
@@ -13834,18 +13521,6 @@
   },
   {
    "book": "1",
-   "page": 159,
-   "section": "",
-   "line": 159,
-   "journal": "The Classical Review",
-   "year": "2015",
-   "iid": "8a529e8c-201f-34fc-abc3-9bb560a2a3b8",
-   "doi": "10.2307/24759747",
-   "title": "THE PINDARIC SCHOLIA",
-   "author": "S. David, TOM PHILLIPS, C. Muckensturm-Poulle, M. Fartzoff, C. Daude"
-  },
-  {
-   "book": "1",
    "page": 20,
    "section": "",
    "line": 20,
@@ -13861,18 +13536,6 @@
    "page": 5,
    "section": "",
    "line": 5,
-   "journal": "The Classical Review",
-   "year": "2015",
-   "iid": "8a529e8c-201f-34fc-abc3-9bb560a2a3b8",
-   "doi": "10.2307/24759747",
-   "title": "THE PINDARIC SCHOLIA",
-   "author": "S. David, TOM PHILLIPS, C. Muckensturm-Poulle, M. Fartzoff, C. Daude"
-  },
-  {
-   "book": "2",
-   "page": 153,
-   "section": "",
-   "line": 153,
    "journal": "The Classical Review",
    "year": "2015",
    "iid": "8a529e8c-201f-34fc-abc3-9bb560a2a3b8",
@@ -16221,18 +15884,6 @@
    "author": "Marcus P. Adams"
   },
   {
-   "book": "1",
-   "page": 319,
-   "section": "",
-   "line": 319,
-   "journal": "History of Philosophy Quarterly",
-   "year": "2016",
-   "iid": "d4a9b9a4-b1b8-379c-8e7f-e6a39ea8373a",
-   "doi": "10.2307/44076618",
-   "title": "VISUAL PERCEPTION AS PATTERNING: CAVENDISH AGAINST HOBBES ON SENSATION",
-   "author": "Marcus P. Adams"
-  },
-  {
    "book": "11",
    "page": 11,
    "section": "",
@@ -16261,42 +15912,6 @@
    "page": 13,
    "section": "",
    "line": 13,
-   "journal": "History of Philosophy Quarterly",
-   "year": "2016",
-   "iid": "d4a9b9a4-b1b8-379c-8e7f-e6a39ea8373a",
-   "doi": "10.2307/44076618",
-   "title": "VISUAL PERCEPTION AS PATTERNING: CAVENDISH AGAINST HOBBES ON SENSATION",
-   "author": "Marcus P. Adams"
-  },
-  {
-   "book": "1",
-   "page": 318,
-   "section": "",
-   "line": 318,
-   "journal": "History of Philosophy Quarterly",
-   "year": "2016",
-   "iid": "d4a9b9a4-b1b8-379c-8e7f-e6a39ea8373a",
-   "doi": "10.2307/44076618",
-   "title": "VISUAL PERCEPTION AS PATTERNING: CAVENDISH AGAINST HOBBES ON SENSATION",
-   "author": "Marcus P. Adams"
-  },
-  {
-   "book": "1",
-   "page": 320,
-   "section": "",
-   "line": 320,
-   "journal": "History of Philosophy Quarterly",
-   "year": "2016",
-   "iid": "d4a9b9a4-b1b8-379c-8e7f-e6a39ea8373a",
-   "doi": "10.2307/44076618",
-   "title": "VISUAL PERCEPTION AS PATTERNING: CAVENDISH AGAINST HOBBES ON SENSATION",
-   "author": "Marcus P. Adams"
-  },
-  {
-   "book": "1",
-   "page": 321,
-   "section": "",
-   "line": 321,
    "journal": "History of Philosophy Quarterly",
    "year": "2016",
    "iid": "d4a9b9a4-b1b8-379c-8e7f-e6a39ea8373a",
@@ -16483,18 +16098,6 @@
    "doi": "10.2307/638272",
    "title": "Aristotle, Menaechmus, and Circular Proof",
    "author": "Jonathan Barnes"
-  },
-  {
-   "book": "6",
-   "page": 144,
-   "section": "",
-   "line": 144,
-   "journal": "The Classical Quarterly",
-   "year": "2003",
-   "iid": "e31dae2e-8808-336f-ad53-813066be3ebe",
-   "doi": "10.2307/3556207",
-   "title": "Mapping Phleious: Politics and Myth-Making in Bacchylides 9",
-   "author": "David Fearn"
   },
   {
    "book": "8",
@@ -19353,18 +18956,6 @@
    "author": "Steven Jackson"
   },
   {
-   "book": "8",
-   "page": 216,
-   "section": "",
-   "line": 216,
-   "journal": "Rheinisches Museum für Philologie",
-   "year": "1863",
-   "iid": "298efc37-8f9d-3122-ae71-c7e27f209477",
-   "doi": "10.2307/41249591",
-   "title": "Interpolationen im siebenten Buch der Odyssee",
-   "author": "H. Anton"
-  },
-  {
    "book": "6",
    "page": 86,
    "section": "",
@@ -19711,18 +19302,6 @@
    "doi": "10.2307/26360827",
    "title": "NOISE, MUSIC, SPEECH: THE REPRESENTATION OF LAMENT IN GREEK TRAGEDY",
    "author": "Naomi Weiss"
-  },
-  {
-   "book": "1",
-   "page": 144,
-   "section": "",
-   "line": 144,
-   "journal": "Hermes",
-   "year": "2021",
-   "iid": "3d0f0eaf-dd79-37dd-899e-d7f64af0a12f",
-   "doi": "10.2307/48643756",
-   "title": "Descendants of Pelops in the Fifth Century BC",
-   "author": "ANDRÁS PATAY-HORVÁTH"
   },
   {
    "book": "8",
@@ -22977,18 +22556,6 @@
    "author": "Maria Pavlou"
   },
   {
-   "book": "2",
-   "page": 154,
-   "section": "",
-   "line": 154,
-   "journal": "Mnemosyne",
-   "year": "2008",
-   "iid": "63bdb290-0b5b-36b7-90c8-beb10e7ab00d",
-   "doi": "10.2307/27736267",
-   "title": "Metapoetics, Poetic Tradition, and Praise in Pindar \"Olympian\" 9",
-   "author": "Maria Pavlou"
-  },
-  {
    "book": "9",
    "page": 100,
    "section": "",
@@ -23853,34 +23420,10 @@
    "author": "Noel Robertson"
   },
   {
-   "book": "9",
-   "page": 134,
-   "section": "",
-   "line": 134,
-   "journal": "Rheinisches Museum für Philologie",
-   "year": "1985",
-   "iid": "7b5daca1-1c73-36d1-bd57-3059c403f85a",
-   "doi": "10.2307/41233555",
-   "title": "THE ORIGIN OF THE PANATHENAEA",
-   "author": "Noel Robertson"
-  },
-  {
    "book": "13",
    "page": 82,
    "section": "",
    "line": 82,
-   "journal": "Rheinisches Museum für Philologie",
-   "year": "1985",
-   "iid": "7b5daca1-1c73-36d1-bd57-3059c403f85a",
-   "doi": "10.2307/41233555",
-   "title": "THE ORIGIN OF THE PANATHENAEA",
-   "author": "Noel Robertson"
-  },
-  {
-   "book": "7",
-   "page": 153,
-   "section": "",
-   "line": 153,
    "journal": "Rheinisches Museum für Philologie",
    "year": "1985",
    "iid": "7b5daca1-1c73-36d1-bd57-3059c403f85a",
@@ -24247,18 +23790,6 @@
    "doi": "10.2307/26776767",
    "title": "IMMORTAL ACHILLES",
    "author": "DIANA BURTON"
-  },
-  {
-   "book": "11",
-   "page": 167,
-   "section": "",
-   "line": 167,
-   "journal": "Quaderni Urbinati di Cultura Classica",
-   "year": "2013",
-   "iid": "7fcf13bb-6151-3a2e-87e4-cd51cd1cc4f0",
-   "doi": "10.2307/24645236",
-   "title": "CLYTEMNESTRA'S LAST WORDS IN AESCHYLUS' \"AGAMEMNON\"",
-   "author": "Enrico Medda"
   },
   {
    "book": "2",
@@ -27465,18 +26996,6 @@
    "author": "Peter Kelly"
   },
   {
-   "book": "2",
-   "page": 132,
-   "section": "",
-   "line": 132,
-   "journal": "Classical Antiquity",
-   "year": "1996",
-   "iid": "c03be4be-c18a-3cc2-b3df-2752def1d870",
-   "doi": "10.2307/25011030",
-   "title": "Poetry, Praise, and Patronage: Simonides in Book 4 of Horace's \"Odes\"",
-   "author": "Alessandro Barchiesi"
-  },
-  {
    "book": "1",
    "page": 27,
    "section": "",
@@ -27646,30 +27165,6 @@
   },
   {
    "book": "6",
-   "page": 152,
-   "section": "",
-   "line": 152,
-   "journal": "Illinois Classical Studies",
-   "year": "2011",
-   "iid": "c8200adb-4b22-3d4c-80fe-b41d74e35268",
-   "doi": "10.5406/illiclasstud.35-36.0069",
-   "title": "Playing with Intertexts in Plutarch's <em>Erotikos</em>",
-   "author": "Aristoula Georgiadou"
-  },
-  {
-   "book": "6",
-   "page": 153,
-   "section": "",
-   "line": 153,
-   "journal": "Illinois Classical Studies",
-   "year": "2011",
-   "iid": "c8200adb-4b22-3d4c-80fe-b41d74e35268",
-   "doi": "10.5406/illiclasstud.35-36.0069",
-   "title": "Playing with Intertexts in Plutarch's <em>Erotikos</em>",
-   "author": "Aristoula Georgiadou"
-  },
-  {
-   "book": "6",
    "page": 36,
    "section": "",
    "line": 36,
@@ -27679,30 +27174,6 @@
    "doi": "10.2307/1562051",
    "title": "Aristotle on Metaphor",
    "author": "John T. Kirby"
-  },
-  {
-   "book": "8",
-   "page": 147,
-   "section": "",
-   "line": 147,
-   "journal": "Neotestamentica",
-   "year": "2001",
-   "iid": "ccb797f1-a776-3156-8db1-affe0dc75e9d",
-   "doi": "10.2307/43048415",
-   "title": "1 CORINTHIANS 9:24-27: AN AGONISTIC COMPETITION?",
-   "author": "Stephan Joubert"
-  },
-  {
-   "book": "8",
-   "page": 148,
-   "section": "",
-   "line": 148,
-   "journal": "Neotestamentica",
-   "year": "2001",
-   "iid": "ccb797f1-a776-3156-8db1-affe0dc75e9d",
-   "doi": "10.2307/43048415",
-   "title": "1 CORINTHIANS 9:24-27: AN AGONISTIC COMPETITION?",
-   "author": "Stephan Joubert"
   },
   {
    "book": "6",

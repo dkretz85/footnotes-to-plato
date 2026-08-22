@@ -1,0 +1,14 @@
+{
+  "_meta": {
+    "purpose": "Lines-per-ode for Pindar's four victory-ode books. Same role as homer_line_counts.json: reject citations past an ode's real end (a stray at line 813 in the 115-line Pythian 3, or 701 in the 70-line Isthmian 8) before they are fanned out. Without it, locus._expand_bookline only checks ode<=14 and line>=1, so any line within a valid ode number passes.",
+    "scope": "Olympian, Pythian, Nemean, Isthmian.",
+    "numbering": "Snell-Maehler line counts. Index = ode - 1. Values are approximate to a few lines; the resolver applies a small margin.",
+    "note": "Pythian 4 (299 lines) is genuinely the longest ode; the rest are ~20-130 lines."
+  },
+  "books": {
+    "Olympian": [116, 100, 45, 33, 24, 105, 95, 88, 112, 105, 21, 19, 115, 24],
+    "Pythian":  [100, 96, 115, 299, 124, 54, 22, 100, 125, 72, 64, 32],
+    "Nemean":   [72, 25, 84, 96, 54, 67, 105, 51, 55, 90, 48],
+    "Isthmian": [68, 48, 30, 72, 63, 75, 51, 70, 8]
+  }
+}
