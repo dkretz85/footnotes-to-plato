@@ -19,9 +19,11 @@
     --rule:#ddd9ee;           /* hairline lavender-grey                        */
     --lav:#8b86c9;            /* lavender — structural accent                  */
     --lav-deep:#5a5497;       /* deeper lavender for emphasis                  */
-    /* heat ramp: pale blue -> lavender -> deep indigo (the ONLY strong colour)*/
-    --h0:#eae7f7; --h1:#cfd8f4; --h2:#a7b3ea; --h3:#8388d6;
-    --h4:#6a5fbf; --h5:#4e3f9c; --h6:#3a2a7d;
+    /* heat ramp: pale blue -> lavender -> deep indigo (the ONLY strong colour).
+       9 steps so the low-to-mid range (where most cells live) is legible even
+       when one outlier cell — a Homeric proem — would otherwise flatten it. */
+    --h0:#eeecf9; --h1:#dcdcf3; --h2:#c5c8ec; --h3:#aab0e2; --h4:#8f93d6;
+    --h5:#7674c6; --h6:#5f57ac; --h7:#48398c; --h8:#33246f;
     --uncertain:#b06a3a;      /* warm clay — ONLY for the uncertainty apparatus*/
     --uncertain-soft:#e7d3c4;
     --shadow:0 1px 2px rgba(28,34,48,.06),0 4px 16px rgba(28,34,48,.06);
@@ -135,6 +137,10 @@
 
   /* ---- book.line / chapter:verse heatmap (Homer, Pindar, Paul) ------------- */
   .heatgrid.lineheat{display:block; margin-top:8px; overflow-x:auto; padding-bottom:4px}
+  .heatgrid.lineheat.combined{overflow-x:visible}
+  .lheat-section{margin-bottom:20px; overflow-x:auto}
+  .lheat-section:last-child{margin-bottom:0}
+  .lheat-title{font-family:var(--serif); font-size:16px; font-weight:600; color:var(--ink); margin:2px 0 7px}
   /* strip column is max-content, and cells are a FIXED width, so equal line-batches
      draw equal-length cells — a shorter book/chapter reads as a shorter row. */
   .lheat-row{display:grid; grid-template-columns:82px max-content; align-items:center; gap:0 10px; margin-bottom:3px}
@@ -222,6 +228,9 @@
     margin:8px 2px 0; max-width:80ch}
   .bandnote b{color:var(--ink); font-weight:600}
   .bandnote a{color:var(--lav-deep)}
+  .hgnote{font-size:12px; color:var(--ink-soft); line-height:1.5; margin:2px 2px 10px; max-width:82ch;
+    border-left:2px solid var(--lav-line); padding-left:10px}
+  .hgnote b{color:var(--ink); font-weight:600}
 
   /* ---- Perseus passage frame --------------------------------------------- */
   .passage{margin:22px 0 0}
@@ -296,9 +305,10 @@
   <div class="chart" id="chart"></div>
 
   <div class="viewlabel" data-copy="view_b.heatmap_label"></div>
+  <div id="hgNote" class="hgnote" style="display:none"></div>
   <div class="legend">
     <span data-copy="view_b.legend.low"></span>
-    <div class="ramp"><i style="background:var(--h0)"></i><i style="background:var(--h1)"></i><i style="background:var(--h2)"></i><i style="background:var(--h3)"></i><i style="background:var(--h4)"></i><i style="background:var(--h5)"></i><i style="background:var(--h6)"></i></div>
+    <div class="ramp"><i style="background:var(--h0)"></i><i style="background:var(--h1)"></i><i style="background:var(--h2)"></i><i style="background:var(--h3)"></i><i style="background:var(--h4)"></i><i style="background:var(--h5)"></i><i style="background:var(--h6)"></i><i style="background:var(--h7)"></i><i style="background:var(--h8)"></i></div>
     <span data-copy="view_b.legend.high"></span>
   </div>
   <div id="heatgrid" class="heatgrid"></div>
@@ -635,19 +645,44 @@ const $ = s => document.querySelector(s);
 
 function stripTags(s){ return (s||"").replace(/<[^>]+>/g," ").replace(/\s+/g," ").trim(); }
 
-// heat ramp: map a value in [0,max] to one of 7 buckets
-const RAMP = ["--h0","--h1","--h2","--h3","--h4","--h5","--h6"];
-function heatVar(v, max){
+// heat ramp: map a value in [0,scale] to one of 9 buckets
+const RAMP = ["--h0","--h1","--h2","--h3","--h4","--h5","--h6","--h7","--h8"];
+function heatVar(v, scale){
   if(v<=0) return "--h0";
-  // perceptual-ish: sqrt so mid values aren't all washed out
-  const t = Math.sqrt(v)/Math.sqrt(max);
+  // sqrt so mid values aren't washed out; clamp so an outlier above `scale`
+  // saturates at the darkest step rather than compressing everything below it.
+  const t = Math.min(1, Math.sqrt(v)/Math.sqrt(scale));
   const i = Math.min(RAMP.length-1, Math.max(1, Math.round(t*(RAMP.length-1))));
   return RAMP[i];
 }
+// Robust colour scale: the 94th percentile of the non-zero cells, so a single
+// spike (the Iliad/Odyssey proem) sets the top of the ramp for itself alone and
+// the many low-to-mid cells still spread across distinct steps. Floored so small
+// works don't over-saturate.
+function heatScale(vals){
+  const nz = vals.filter(x=>x>0).sort((a,b)=>a-b);
+  if(!nz.length) return 1;
+  return Math.max(nz[Math.floor(nz.length*0.94)], 4);
+}
 function isHot(v,max){ return v>0 && Math.sqrt(v)/Math.sqrt(max) > 0.55; }
 
+const PINDAR_ODEBOOKS = ["Olympian","Pythian","Nemean","Isthmian"];
 async function loadWork(id){
   chartExpanded = false;   // each work opens in the fit-to-width overview
+  if(id==="__victoryodes__"){
+    try{
+      const subs = await Promise.all(PINDAR_ODEBOOKS.map(n =>
+        fetch(DATA_DIR+"view_b/"+n+".json").then(r=>{ if(!r.ok) throw new Error("HTTP "+r.status); return r.json(); })));
+      const dots = [].concat(...subs.map(s=>s.dots||[]));
+      current = { work:"Victory Odes", system:"pindar", faceted:false, tier:subs[0].tier,
+                  combined:true, subs, dots };
+    }catch(err){
+      console.error("loadWork victory-odes", err);
+      $("#heatgrid").innerHTML = ""; return;
+    }
+    _secCache=null; _bandCache=null; render(); renderPassage();
+    return;
+  }
   try{
     const res = await fetch(DATA_DIR+FILES[id]);
     if(!res.ok) throw new Error("HTTP "+res.status);
@@ -700,7 +735,20 @@ function render(){
   if(chartHead) chartHead.style.display = isPindar ? "none" : "";
   $("#chart").style.display = isPindar ? "none" : "";
   if(isPindar) $("#chart").innerHTML = ""; else renderChart();
+  renderHgNote();
   renderHeatgrid();
+}
+
+// A short explainer above the heatmap for the Bekker (Aristotle) works, whose
+// cells are line-bands rather than passages.
+function renderHgNote(){
+  const el=$("#hgNote"); if(!el) return;
+  if(current && paginationOf(current.work)==="bekker"){
+    el.style.display="";
+    el.innerHTML = `Aristotle is cited by <b>Bekker page and column</b>. Each column is shown as three `+
+      `bands of ~15 lines; a separate cell (hover reads <b>no line given</b>) collects citations that name `+
+      `only a page, with no line.`;
+  } else { el.style.display="none"; el.innerHTML=""; }
 }
 
 function renderBands(){
@@ -782,6 +830,7 @@ function renderChart(){
 
   let max=0; for(const s of seq){ const v=cellValue(s.cell); if(v>max)max=v; }
   max = Math.max(max,1);
+  const cscale = heatScale(seq.map(s=>cellValue(s.cell)));   // robust colour scale (height still uses max)
 
   const H = 300;                       // generous height
   const padL = 46, padR = 12, padT = 14, padB = 40;
@@ -864,7 +913,7 @@ function renderChart(){
     bar.setAttribute("x",x); bar.setAttribute("y",y);
     bar.setAttribute("width",bw); bar.setAttribute("height",Math.max(0,h));
     bar.setAttribute("rx",Math.min(1.5,bw/2));
-    bar.setAttribute("fill",`var(${heatVar(v,max)})`);
+    bar.setAttribute("fill",`var(${heatVar(v,cscale)})`);
     const c=s.cell;
     bar.addEventListener("click", s.drill || (()=>openDrill(c)));
     bar.addEventListener("mousemove",e=>showTipRaw(e, s.loc || `${c.page}${c.section}`, v, c.articles));
@@ -932,6 +981,7 @@ function renderHeatgrid(){
   const bandCells = buildBandCells();   // book|page|sec|band -> {count,articles}
   let max=0; for(const v of bandCells.values()){ const val=metric==="articles"?v.articles:v.count; if(val>max)max=val; }
   max=Math.max(max,1);
+  const cscale = heatScale([...bandCells.values()].map(v=>metric==="articles"?v.articles:v.count));
 
   for(const book of books){
     const panel=document.createElement("div");
@@ -963,7 +1013,7 @@ function renderHeatgrid(){
           if(v){
             const val=v.articles;
             cell.className="cell"+(band===UNSPEC?" unspec":"");
-            cell.style.background=`var(${heatVar(val,max)})`;
+            cell.style.background=`var(${heatVar(val,cscale)})`;
             const bandLbl = banded ? `${sec}${BAND_LABEL[band]}` : sec;
             const locTip = band===UNSPEC
               ? `${page}${sec} · no line given`
@@ -994,17 +1044,41 @@ function renderHeatgrid(){
 // per book/chapter/ode, one cell per line-bin (verses are shown singly), coloured
 // by distinct citing articles. Fixes the empty/mis-numbered/over-wide grid.
 function renderHeatgridLine(host){
+  // Pindar's Victory Odes are one page with four heatmaps (one per ode-book).
+  if(current.combined) return renderCombinedLine(host);
   host.className = "heatgrid lineheat";
   const {cells, binSize} = lineBins();
   if(!cells.length){ host.innerHTML = "<div class='hg-empty'>No placed citations at this filter.</div>"; return; }
+  host.innerHTML = "";
+  lineHeatInto(host, cells, binSize, current);
+}
+
+// Four stacked heatmaps for the combined Victory Odes page. Each section renders
+// one ode-book's odes as rows, and its cells drill / link to Perseus under that
+// ode-book's identity (withCtx swaps `current` for the click).
+function renderCombinedLine(host){
+  host.className = "heatgrid lineheat combined";
+  host.innerHTML = "";
+  for(const sub of current.subs){
+    const sec = document.createElement("div"); sec.className = "lheat-section";
+    sec.innerHTML = `<div class="lheat-title">${sub.work}</div>`;
+    const inner = document.createElement("div");
+    const {cells, binSize} = lineBins(sub.dots);
+    if(cells.length) lineHeatInto(inner, cells, binSize, sub);
+    else inner.innerHTML = "<div class='hg-empty'>No placed citations at this filter.</div>";
+    sec.appendChild(inner); host.appendChild(sec);
+  }
+}
+
+// Render one dataset's line-heatmap rows into `host`; `ctx` is the work whose
+// identity a cell click should act under (the loaded work, or a Pindar ode-book).
+function lineHeatInto(host, cells, binSize, ctx){
   const w = unitWords();
+  const cscale = heatScale(cells.map(c=>c.articles));   // robust so the proem doesn't flatten the rest
   const byBook = new Map();
-  let max = 1, maxBin = 0;
   for(const c of cells){
     if(!byBook.has(c.book)) byBook.set(c.book, new Map());
     byBook.get(c.book).set(c.bin, c);
-    if(c.articles>max) max = c.articles;
-    if(c.bin>maxBin) maxBin = c.bin;
   }
   const books = [...byBook.keys()].sort((a,b)=>bookRank(a)-bookRank(b));
   for(const book of books){
@@ -1019,9 +1093,9 @@ function renderHeatgridLine(host){
       const val = c ? c.articles : 0;
       cell.className = "lcell" + (val?"":" empty") + ((b/binSize)%5===0 && b>0 ? " mark":"");
       if(val){
-        cell.style.background = `var(${heatVar(val,max)})`;
+        cell.style.background = `var(${heatVar(val,cscale)})`;
         const loc = lineLocus(book, b, binSize===1?b:b+binSize-1);
-        cell.addEventListener("click",()=>openDrillLine(book, b, binSize));
+        cell.addEventListener("click",()=>withCtx(ctx, ()=>openDrillLine(book, b, binSize)));
         cell.addEventListener("mousemove",e=>showTipRaw(e, loc, val));
         cell.addEventListener("mouseleave",hideTip);
         cell.addEventListener("touchstart",e=>showTipRaw(e.touches[0], loc, val),{passive:true});
@@ -1032,6 +1106,8 @@ function renderHeatgridLine(host){
     host.appendChild(row);
   }
 }
+// run fn with `current` temporarily set to ctx (for combined-page cell clicks)
+function withCtx(ctx, fn){ const save=current; current=ctx; try{ fn(); } finally { current=save; } }
 
 // drill for one line-bin: the articles citing this book at these lines/verses
 function openDrillLine(book, binStart, binSize){
@@ -1138,10 +1214,11 @@ function maxLineFor(book){
   return n ? n : Infinity;
 }
 
-function lineBins(){
+function lineBins(dots){
+  dots = dots || current.dots;                      // combined page passes a sub-set's dots
   const binSize = systemOf()==="verse" ? 1 : 10;   // verses fine; lines by ten
   const map = new Map();                            // book|bin -> cell
-  for(const d of current.dots){
+  for(const d of dots){
     if(!passesBar(d)) continue;
     const ln = parseInt(d.page,10); if(isNaN(ln)) continue;
     if(ln > maxLineFor(d.book)) continue;           // drop out-of-range mis-parses
@@ -1272,7 +1349,8 @@ let pvRef=null, pvUrl=null, pvExpanded=false, pvLoaded=null;
 // when no provider covers it, otherwise collapse it, clear the locus, and set the
 // provider-specific chrome (strip label, out-link text, credit line).
 function renderPassage(){
-  const has = hasPassage(current && current.work);
+  // the combined Pindar page resolves Perseus per clicked ode-book, so it has a frame
+  const has = hasPassage(current && current.work) || !!(current && current.combined && current.system==="pindar");
   const info = passageInfo();
   $("#pvNone").hidden = has;
   $("#passage").hidden = !has;
@@ -1406,8 +1484,21 @@ function buildWorkSelector(){
   if(AUTHORS){
     // Group by author (Homer, Pindar, Plato, Aristotle, Paul) — the reference
     // edition alone filed every Homer/Pindar/Paul work under "Plato".
-    for(const author of AORDER)
+    for(const author of AORDER){
+      if(author==="Pindar"){
+        // one "Victory Odes" page with four heatmaps, not four separate works
+        const pin = WORKS.filter(w=>AUTHORS[w.work]==="Pindar");
+        if(pin.length){
+          const cites = pin.reduce((a,w)=>a+(w.citations||0),0);
+          const og=document.createElement("optgroup"); og.label="Pindar";
+          const o=document.createElement("option"); o.value="__victoryodes__";
+          o.textContent=`Victory Odes  (${cites.toLocaleString()})`;
+          og.appendChild(o); sel.appendChild(og);
+        }
+        continue;
+      }
       emit(author, orderIn(author, WORKS.filter(w=>AUTHORS[w.work]===author)));
+    }
   } else {
     // authors.json missing: fall back to the edition split rather than one flat list
     for(const [edition,label] of [["stephanus","Plato"],["bekker","Aristotle"]])
