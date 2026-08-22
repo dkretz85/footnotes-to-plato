@@ -181,9 +181,11 @@ class Tables:
         self.abbr   = self._load(d, "abbreviation_synonyms.json")
         self.meta_books = self._load(d, "metaphysics_books.json")
         self.eth_books  = self._load(d, "ethics_books.json")
-        # New corpora (Homer/Pindar/NT): cue -> work, and NT verses-per-chapter.
+        # New corpora (Homer/Pindar/NT): cue -> work, NT verses-per-chapter, and
+        # Homer lines-per-book (both reject citations past a facet's real end).
         self.work_cues = self._load(d, "work_cues.json")
         self.nt_lengths = self._load(d, "nt_chapter_lengths.json")["books"]
+        self.homer_lengths = self._load(d, "homer_line_counts.json")["books"]
         self._build_indexes()
 
     @staticmethod
@@ -614,7 +616,9 @@ def main():
             # --- accepted: FAN OUT the (possibly-range) cell into unit rows. ---
             system = resolved_system(corpus, wid, T)
             nt_len = T.nt_lengths.get(wid) if corpus == "nt" else None
-            units = locus.expand_range(row["match"], system, nt_lengths=nt_len)
+            homer_len = T.homer_lengths.get(wid) if corpus == "homer" else None
+            units = locus.expand_range(row["match"], system, nt_lengths=nt_len,
+                                       line_counts=homer_len)
             if units is None:
                 # over-cap / incoherent / out-of-range span -> divert, don't fan.
                 wrev.writerow(base_row(row["match"], book) + ["", "span_diverted"])

@@ -1,0 +1,14 @@
+{
+  "_meta": {
+    "purpose": "Lines-per-book for the Homeric corpus. Mirrors nt_chapter_lengths.json: reject out-of-range citations (Od. 6.882 -> Odyssey book 6 has 331 lines -> divert). Without it the OCR-noise guard in locus._expand_bookline only checks book<=24 and line>=1, so any line number within a valid book passes, and ~0.5% of Homer weight (mostly Iliad lines mis-cued to the same-numbered Odyssey book, and OCR garbage) lands beyond the book's real end and stretches every line-heat row out to ~line 880.",
+    "scope": "Iliad and Odyssey, 24 books each.",
+    "numbering": "OCT / standard vulgate line counts. Index = book - 1.",
+    "note": "A citation whose (wrong) line happens to fall within the book's length is undetectable here; this table bounds the DETECTABLE contamination, which is the part that distorts the line map."
+  },
+  "books": {
+    "Iliad": [611, 877, 461, 544, 909, 529, 482, 565, 713, 579, 848, 471,
+              837, 522, 746, 867, 761, 617, 424, 503, 611, 515, 897, 804],
+    "Odyssey": [444, 434, 497, 847, 493, 331, 347, 586, 566, 574, 640, 453,
+                440, 533, 557, 481, 606, 428, 604, 394, 434, 501, 372, 548]
+  }
+}

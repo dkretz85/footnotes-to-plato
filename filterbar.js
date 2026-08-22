@@ -91,18 +91,8 @@
           <button class="fb-reset" id="fbReset">Reset</button>
         </div>
         <div class="fb-body">
-          <div class="fb-col fb-journals">
-            <div class="fb-label">Journals
-              <span class="fb-mini fb-allsel"><button data-all="1">all</button> ·
-              <button data-all="0">none</button></span>
-            </div>
-            <div class="fb-groups" id="fbJournals"></div>
-            <div class="fb-cnote">Counts are that journal's total citations of
-              <em>any</em> work in the corpus — its overall weight, not its
-              citations of the work shown below.</div>
-          </div>
           <div class="fb-col fb-years">
-            <div class="fb-label">Years
+            <div class="fb-label">Period
               <span class="fb-range" id="fbRange"></span>
             </div>
             <div class="fb-slider" id="fbSlider">
@@ -114,6 +104,16 @@
             <div class="fb-ticks">
               <span>${m.year_min}</span><span>1950</span><span>1990</span><span>${m.year_max}</span>
             </div>
+          </div>
+          <div class="fb-col fb-journals">
+            <div class="fb-label">Journals
+              <span class="fb-mini fb-allsel"><button data-all="1">all</button> ·
+              <button data-all="0">none</button></span>
+            </div>
+            <div class="fb-groups" id="fbJournals"></div>
+            <div class="fb-cnote">Counts are that journal's total citations of
+              <em>any</em> work in the corpus — its overall weight, not its
+              citations of the work shown below.</div>
           </div>
         </div>`;
 
