@@ -170,9 +170,9 @@ a.card:hover{transform:translateY(-2px);
 
 /* the three tools, stacked, each with an abstract div-thumbnail */
 .tools{display:flex; flex-direction:column; gap:14px; margin:14px 0 6px}
-.tool{display:grid; grid-template-columns:300px 1fr; gap:0 30px; align-items:center;
+.tool{display:block;
   background:#fff; border:1px solid var(--rule); border-radius:10px; box-shadow:var(--shadow);
-  padding:24px 30px; text-decoration:none; color:inherit; transition:transform .1s, box-shadow .1s}
+  padding:22px 28px; text-decoration:none; color:inherit; transition:transform .1s, box-shadow .1s}
 a.tool:hover{transform:translateY(-2px); box-shadow:0 2px 4px rgba(28,34,48,.08),0 10px 26px rgba(28,34,48,.10)}
 .tool .thumb{background:#fbfaff; border:1px solid var(--rule); border-radius:8px; height:150px;
   padding:16px 18px; display:flex; flex-direction:column; justify-content:center; gap:7px; overflow:hidden}
@@ -185,7 +185,7 @@ a.tool:hover{transform:translateY(-2px); box-shadow:0 2px 4px rgba(28,34,48,.08)
 .tool .thead .tt{font-family:var(--serif); font-size:23px; font-weight:600; line-height:1.2; min-width:0}
 .tool .thead .kk{font-family:var(--mono); font-size:9.5px; letter-spacing:.11em; text-transform:uppercase;
   color:var(--faint); flex:none; white-space:nowrap}
-.tool .tbody{margin:9px 0 0; font-size:14.5px; line-height:1.65; color:var(--ink2); max-width:64ch}
+.tool .tbody{margin:9px 0 0; font-size:14.5px; line-height:1.65; color:var(--ink2); max-width:none}
 .tool .go{font-family:var(--mono); font-size:10.5px; letter-spacing:.08em; text-transform:uppercase;
   color:var(--lav-deep); margin-top:13px; display:block}
 @media (max-width:640px){ .tool{grid-template-columns:1fr; gap:16px} .tool .thumb{height:120px} }
