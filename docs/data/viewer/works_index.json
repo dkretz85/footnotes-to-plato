@@ -1,8 +1,8 @@
 [
  {
   "work": "Odyssey",
-  "citations": 53805,
-  "distinct_articles": 5428,
+  "citations": 53572,
+  "distinct_articles": 5401,
   "faceted": false,
   "system": "homer",
   "tier": "trustworthy",
@@ -37,8 +37,8 @@
  },
  {
   "work": "Iliad",
-  "citations": 34087,
-  "distinct_articles": 4141,
+  "citations": 33946,
+  "distinct_articles": 4111,
   "faceted": false,
   "system": "homer",
   "tier": "trustworthy",

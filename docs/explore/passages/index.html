@@ -320,7 +320,7 @@
        coupled data instruments (chart + heatmap). -->
   <section class="passage" id="passage" hidden>
     <button class="pv-strip" id="pvStrip" type="button" aria-expanded="false" aria-controls="pvBody">
-      <span class="pv-label">View passage on Perseus</span>
+      <span class="pv-label" id="pvLabel">View passage on Perseus</span>
       <span class="pv-ref" id="pvRefStrip"></span>
       <span class="pv-caret" aria-hidden="true">▸</span>
     </button>
@@ -329,16 +329,14 @@
         <span class="pv-ref2" id="pvRefHead"></span>
         <span class="pv-actions">
           <button class="pv-btn" id="pvReset" type="button">Reset to passage</button>
-          <a class="pv-btn" id="pvOpen" href="#" target="_blank" rel="noopener">Open on Perseus ↗</a>
+          <a class="pv-btn" id="pvOpen" href="#" target="_blank" rel="noopener">Open ↗</a>
         </span>
       </div>
       <div class="pv-frame" id="pvFrame"></div>
-      <div class="pv-credit">Passage framed from the
-        <a href="https://www.perseus.tufts.edu/hopper/" target="_blank" rel="noopener">Perseus Digital Library</a>,
-        Tufts University — a finding-aid link; the text is neither hosted nor mirrored here.</div>
+      <div class="pv-credit" id="pvCredit"></div>
     </div>
   </section>
-  <div class="passage-none" id="pvNone" hidden>No Perseus text available for this work.</div>
+  <div class="passage-none" id="pvNone" hidden>No linked reading text for this work yet.</div>
 </div>
 
 <div class="scrim" id="scrim"></div>
@@ -393,6 +391,13 @@ const DATA_DIR = "/data/viewer/";
 // works_index gives w.file like "view_b/Republic.json".
 let FILES = {};
 let WORKS = [];                 // [{work, file, tier, citations, faceted, ...}]
+let AUTHORS = null;             // work -> author, from authors.json (boot)
+// author order + within-author ordering for the text picker (mirrors Viewer A)
+const AORDER=["Homer","Pindar","Plato","Aristotle","Paul"];
+const HOMER_ORDER=["Iliad","Odyssey"];
+const PINDAR_ORDER=["Olympian","Pythian","Nemean","Isthmian"];
+const PAUL_ORDER=["Romans","1 Corinthians","2 Corinthians","Galatians","Ephesians","Philippians",
+  "Colossians","1 Thessalonians","2 Thessalonians","1 Timothy","2 Timothy","Titus","Philemon"];
 // textual book order (string sort won't do: II<X alphabetically). Roman books
 // run I–XII, then the Greek-lettered Metaphysics books. The common books that
 // NE marks with a "*" (V*, VI*, VII*) share a rank with their un-starred form,
@@ -533,6 +538,63 @@ function perseusUrl(query){
   return "https://www.perseus.tufts.edu/hopper/text?"+query;
 }
 function workHasPerseus(work){ return !!PERSEUS_DOC[work]; }
+
+// ---- Pauline NT passage frame (BibleGateway) -------------------------------
+// Paul's letters aren't in Perseus; they frame from BibleGateway instead, in the
+// NRSVUE translation David chose. The citation is chapter:verse (the `book`
+// column is the chapter, `page` the verse). BibleGateway's reading view takes a
+// single search= param, e.g.  ?search=Romans%201%3A1&version=NRSVUE  — the full
+// work name is itself a valid BibleGateway book token, so no book map is needed.
+// NT_ABBR is display-only, for the strip header ("Rom. 1:1").
+const BIBLE_VERSION = "NRSVUE";
+const NT_ABBR = {
+  "Romans":"Rom.", "1 Corinthians":"1 Cor.", "2 Corinthians":"2 Cor.",
+  "Galatians":"Gal.", "Ephesians":"Eph.", "Philippians":"Phil.",
+  "Colossians":"Col.", "1 Thessalonians":"1 Thess.", "2 Thessalonians":"2 Thess.",
+  "1 Timothy":"1 Tim.", "2 Timothy":"2 Tim.", "Titus":"Titus", "Philemon":"Philem."
+};
+function workHasBible(work){ return !!NT_ABBR[work]; }
+function bibleLabel(chapter, verse){
+  const abbr = NT_ABBR[current && current.work];
+  return abbr ? `${abbr} ${chapter}:${verse}` : null;
+}
+function bibleUrl(chapter, verse){
+  const work = current && current.work;
+  if(!NT_ABBR[work]) return null;
+  const q = encodeURIComponent(`${work} ${chapter}:${verse}`);   // "Romans 1:1" -> Romans%201%3A1
+  return `https://www.biblegateway.com/passage/?search=${q}&version=${BIBLE_VERSION}`;
+}
+
+// ---- passage provider dispatch (Perseus for Greek, BibleGateway for Paul) ---
+// One collapsed strip serves both; the provider is chosen per work. A work in
+// neither table has no linked reading text and shows the "none" note.
+function hasPassage(work){ return workHasPerseus(work) || workHasBible(work); }
+function passageInfo(){                       // display chrome for the current work
+  if(workHasBible(current && current.work)) return {
+    name:"BibleGateway", strip:"Read passage on BibleGateway",
+    read:"Read this passage on BibleGateway →",
+    creditName:"BibleGateway", creditHref:"https://www.biblegateway.com/",
+    credit:`Passage framed from <a href="https://www.biblegateway.com/" target="_blank" rel="noopener">BibleGateway</a> `+
+           `in the New Revised Standard Version, Updated Edition (NRSVUE) — a finding-aid link; the text is neither hosted nor mirrored here.`
+  };
+  return {
+    name:"Perseus", strip:"View passage on Perseus",
+    read:"Read this passage on Perseus →",
+    creditName:"Perseus Digital Library", creditHref:"https://www.perseus.tufts.edu/hopper/",
+    credit:`Passage framed from the <a href="https://www.perseus.tufts.edu/hopper/" target="_blank" rel="noopener">Perseus Digital Library</a>, `+
+           `Tufts University — a finding-aid link; the text is neither hosted nor mirrored here.`
+  };
+}
+// book=chapter/page=verse for NT; the Greek (book,page,section) locus otherwise
+function passageLabel(book,page,section){
+  return workHasBible(current && current.work) ? bibleLabel(book,page)
+                                               : perseusLabel(book,page,section);
+}
+function passageUrl(book,page,section){
+  if(workHasBible(current && current.work)) return bibleUrl(book,page);
+  const doc = perseusDocParam(book,page,section);
+  return doc ? perseusUrl(doc) : null;
+}
 
 // Author/edition map (68 works). Inlined deliberately: nothing external to fetch,
 // so no silent 404 can put a work on the wrong grid. 'a' = Bekker (Aristotle),
@@ -983,6 +1045,11 @@ function openDrillLine(book, binStart, binSize){
     return !isNaN(ln) && Math.floor(ln/binSize)*binSize===binStart;
   });
   const hi = binSize===1 ? binStart : binStart+binSize-1;
+  // Wire the passage frame to this bin. For the verse system (binSize 1) the
+  // locus is exact (chapter=book, verse=binStart); for line bins it points at the
+  // bin start. setPassageLocus is a no-op for works with no provider (Homer/Pindar
+  // until their Perseus mapping lands), so this is safe for all line systems.
+  setPassageLocus(book, binStart, "");
   openDrillDots(dots, lineLocus(book, binStart, hi));
 }
 
@@ -1056,12 +1123,32 @@ function lineLocus(book, lo, hi){
     : `${w[0]} ${book}, ${w[1]} ${lo}`;
 }
 // binned book.line/chapter:verse cells for the chart and the heatmap (shared)
+// Canonical line counts per book (OCT numbering). Used to drop citations that
+// land beyond a book's real length — almost all are Iliad lines mis-attributed
+// to the same-numbered Odyssey book (and vice-versa), ~0.5% of weight. Left in,
+// they stretch every heat-row out to ~line 880 and manufacture a uniform
+// "fades toward the end of the book" tail that isn't in the real data.
+const HOMER_LINES = {
+  Iliad:  {1:611,2:877,3:461,4:544,5:909,6:529,7:482,8:565,9:713,10:579,11:848,12:471,
+           13:837,14:522,15:746,16:867,17:761,18:617,19:424,20:503,21:611,22:515,23:897,24:804},
+  Odyssey:{1:444,2:434,3:497,4:847,5:493,6:331,7:347,8:586,9:566,10:574,11:640,12:453,
+           13:440,14:533,15:557,16:481,17:606,18:428,19:604,20:394,21:434,22:501,23:372,24:548}
+};
+// highest valid line for a book in the current work; Infinity when we have no table
+function maxLineFor(book){
+  const t = HOMER_LINES[current.work];
+  if(!t) return Infinity;
+  const n = t[parseInt(book,10)];
+  return n ? n : Infinity;
+}
+
 function lineBins(){
   const binSize = systemOf()==="verse" ? 1 : 10;   // verses fine; lines by ten
   const map = new Map();                            // book|bin -> cell
   for(const d of current.dots){
     if(!passesBar(d)) continue;
     const ln = parseInt(d.page,10); if(isNaN(ln)) continue;
+    if(ln > maxLineFor(d.book)) continue;           // drop out-of-range mis-parses
     const bin = Math.floor(ln/binSize)*binSize;
     const k = d.book+"|"+bin;
     let e = map.get(k);
@@ -1167,8 +1254,10 @@ function openDrillDots(dots, locLabel){
   }
   currentDrillDots = dots;
   currentDrillLoc = locLabel;
-  // Offer the one-click route to the passage frame when Perseus covers this work.
-  $("#pvFromDrill").hidden = !(workHasPerseus(current.work) && pvDoc);
+  // Offer the one-click route to the passage frame when a provider covers this work.
+  const db = $("#pvFromDrill");
+  db.hidden = !(hasPassage(current.work) && pvUrl);
+  if(!db.hidden) db.textContent = passageInfo().read;
   $("#drill").classList.add("open");
   $("#scrim").classList.add("open");
 }
@@ -1181,18 +1270,23 @@ function closeDrill(){ $("#drill").classList.remove("open"); $("#scrim").classLi
 // request to Tufts; it loads only when the reader expands it. pvRef is the
 // human label shown in the header; pvDoc is the doc= parameter the iframe loads;
 // pvLoaded tracks which doc is currently framed.
-let pvRef=null, pvDoc=null, pvExpanded=false, pvLoaded=null;
+let pvRef=null, pvUrl=null, pvExpanded=false, pvLoaded=null;
 
 // Called when a work loads: hide the strip entirely (showing an explicit note)
-// when Perseus has no text for it, otherwise collapse it and clear the locus.
+// when no provider covers it, otherwise collapse it, clear the locus, and set the
+// provider-specific chrome (strip label, out-link text, credit line).
 function renderPassage(){
-  const has = workHasPerseus(current && current.work);
+  const has = hasPassage(current && current.work);
+  const info = passageInfo();
   $("#pvNone").hidden = has;
   $("#passage").hidden = !has;
-  pvRef=null; pvDoc=null; pvExpanded=false; pvLoaded=null;
+  pvRef=null; pvUrl=null; pvExpanded=false; pvLoaded=null;
   $("#pvStrip").setAttribute("aria-expanded","false");
   $("#pvBody").hidden = true;
   $("#pvFrame").innerHTML = "";
+  $("#pvLabel").textContent = info.strip;
+  $("#pvOpen").textContent = "Open on "+info.name+" ↗";
+  $("#pvCredit").innerHTML = info.credit;
   setPassageLabel();
 }
 
@@ -1201,34 +1295,35 @@ function setPassageLabel(){
   $("#pvRefStrip").textContent = pvRef || hint;
   $("#pvRefHead").textContent  = pvRef || hint;
   const open = $("#pvOpen");
-  if(pvDoc){ open.href = perseusUrl(pvDoc); open.style.pointerEvents=""; open.style.opacity=""; }
+  if(pvUrl){ open.href = pvUrl; open.style.pointerEvents=""; open.style.opacity=""; }
   else { open.removeAttribute("href"); open.style.pointerEvents="none"; open.style.opacity=".4"; }
 }
 
 // Remember the clicked locus; follow it in the frame only if already expanded.
 function setPassageLocus(book,page,section){
-  if(!workHasPerseus(current.work)) return;
-  const doc = perseusDocParam(book,page,section);
-  if(!doc) return;
-  pvRef = perseusLabel(book,page,section);
-  pvDoc = doc;
+  if(!hasPassage(current.work)) return;
+  const url = passageUrl(book,page,section);
+  if(!url) return;
+  pvRef = passageLabel(book,page,section);
+  pvUrl = url;
   setPassageLabel();
-  if(pvExpanded && pvLoaded!==pvDoc) pvLoadFrame();
+  if(pvExpanded && pvLoaded!==pvUrl) pvLoadFrame();
 }
 
 // The header always shows the citation and a working out-link, so even if the
-// frame itself fails to render the reader has the passage reference plus a link.
+// frame itself fails to render (some providers refuse framing) the reader still
+// has the passage reference plus a link.
 function pvLoadFrame(){
-  if(!pvDoc) return;
-  const url = perseusUrl(pvDoc);
+  if(!pvUrl) return;
+  const name = passageInfo().name;
   $("#pvFrame").innerHTML =
-    `<div class="pv-fallback" id="pvFallback">Loading <b>${pvRef||""}</b> from Perseus…`+
-    ` If nothing appears, <a href="${url}" target="_blank" rel="noopener">open it on Perseus ↗</a>.</div>`+
-    `<iframe class="pv-iframe" title="Perseus passage: ${pvRef||""}" src="${url}"`+
+    `<div class="pv-fallback" id="pvFallback">Loading <b>${pvRef||""}</b> from ${name}…`+
+    ` If nothing appears, <a href="${pvUrl}" target="_blank" rel="noopener">open it on ${name} ↗</a>.</div>`+
+    `<iframe class="pv-iframe" title="${name} passage: ${pvRef||""}" src="${pvUrl}"`+
     ` referrerpolicy="no-referrer-when-downgrade"></iframe>`;
   const fr = $("#pvFrame").querySelector("iframe");
   fr.addEventListener("load", ()=>{ const f=$("#pvFallback"); if(f) f.style.display="none"; });
-  pvLoaded = pvDoc;
+  pvLoaded = pvUrl;
 }
 
 function pvToggle(){
@@ -1236,8 +1331,8 @@ function pvToggle(){
   $("#pvStrip").setAttribute("aria-expanded", pvExpanded?"true":"false");
   $("#pvBody").hidden = !pvExpanded;
   if(pvExpanded){
-    if(pvDoc && pvLoaded!==pvDoc) pvLoadFrame();
-    else if(!pvDoc) $("#pvFrame").innerHTML =
+    if(pvUrl && pvLoaded!==pvUrl) pvLoadFrame();
+    else if(!pvUrl) $("#pvFrame").innerHTML =
       `<div class="pv-fallback">Click a passage in the chart or heatmap above to load it here.</div>`;
   }
 }
@@ -1249,13 +1344,13 @@ function pvToggle(){
 function openPassageFromDrill(){
   closeDrill();
   if(!pvExpanded) pvToggle();
-  else if(pvDoc && pvLoaded!==pvDoc) pvLoadFrame();
+  else if(pvUrl && pvLoaded!==pvUrl) pvLoadFrame();
   const el=$("#passage"); if(el) el.scrollIntoView({behavior:"smooth", block:"start"});
 }
 
 function initPassage(){
   $("#pvStrip").addEventListener("click", pvToggle);
-  $("#pvReset").addEventListener("click", ()=>{ if(pvDoc) pvLoadFrame(); });
+  $("#pvReset").addEventListener("click", ()=>{ if(pvUrl) pvLoadFrame(); });
   $("#pvFromDrill").addEventListener("click", openPassageFromDrill);
 }
 
@@ -1292,13 +1387,17 @@ function exportCsv(){
 function buildWorkSelector(){
   const sel = $("#work");
   sel.innerHTML = "";
-  // Two groups, Plato then Aristotle (by reference edition), alphabetical within
-  // each — a flat citation-sorted list mixed the two authors into chaos.
   const name = w => w.work.replace(/_/g," ");
-  for(const [edition,label] of [["stephanus","Plato"],["bekker","Aristotle"]]){
-    const items = WORKS.filter(w=>paginationOf(w.work)===edition)
-                       .sort((a,b)=>name(a).localeCompare(name(b)));
-    if(!items.length) continue;
+  // order within an author: Homer/Pindar/Paul canonical, Plato/Aristotle alphabetical
+  const orderIn = (author, list) => {
+    const canon = author==="Homer"?HOMER_ORDER : author==="Pindar"?PINDAR_ORDER
+                 : author==="Paul"?PAUL_ORDER : null;
+    if(canon){ const idx=w=>{const i=canon.indexOf(name(w));return i<0?99:i;};
+               return list.slice().sort((a,b)=>idx(a)-idx(b)); }
+    return list.slice().sort((a,b)=>name(a).localeCompare(name(b)));
+  };
+  const emit = (label, items) => {
+    if(!items.length) return;
     const og=document.createElement("optgroup"); og.label=label;
     for(const w of items){
       const o=document.createElement("option");
@@ -1307,6 +1406,17 @@ function buildWorkSelector(){
       og.appendChild(o);
     }
     sel.appendChild(og);
+  };
+  if(AUTHORS){
+    // Group by author (Homer, Pindar, Plato, Aristotle, Paul) — the reference
+    // edition alone filed every Homer/Pindar/Paul work under "Plato".
+    for(const author of AORDER)
+      emit(author, orderIn(author, WORKS.filter(w=>AUTHORS[w.work]===author)));
+  } else {
+    // authors.json missing: fall back to the edition split rather than one flat list
+    for(const [edition,label] of [["stephanus","Plato"],["bekker","Aristotle"]])
+      emit(label, WORKS.filter(w=>paginationOf(w.work)===edition)
+                       .sort((a,b)=>name(a).localeCompare(name(b))));
   }
 }
 
@@ -1368,9 +1478,11 @@ fetch(DATA_DIR+"copy.json")
     Promise.all([
       fetch(DATA_DIR+"works_index.json").then(r=>r.json()),
       fetch(DATA_DIR+"meta.json").then(r=>r.json()),
-      fetch(DATA_DIR+"journal_groups.json").then(r=>r.json()).catch(()=>null)
-    ]).then(([index, meta, groups])=>{
+      fetch(DATA_DIR+"journal_groups.json").then(r=>r.json()).catch(()=>null),
+      fetch(DATA_DIR+"authors.json").then(r=>r.json()).catch(()=>null)
+    ]).then(([index, meta, groups, authors])=>{
       WORKS = index;
+      AUTHORS = authors;
       for(const w of WORKS) FILES[w.work] = w.file;   // relative to DATA_DIR
       buildWorkSelector();
 

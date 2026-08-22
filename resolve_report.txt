@@ -2,9 +2,9 @@ CITATION RESOLUTION REPORT
   input candidates      : 603,196
   excluded (diverted)   : 130,927 (21.7% of input)
   genuine P/A citations : 472,269
-  auto-resolved : 258,673 (54.8% of genuine)
-  unit rows emitted (after span fan-out) : 493,233
-  review queue  : 213,596 (45.2% of genuine)
+  auto-resolved : 258,453 (54.7% of genuine)
+  unit rows emitted (after span fan-out) : 492,859
+  review queue  : 213,816 (45.3% of genuine)
   exclusions by reason (diverted to excluded.tsv):
     excluded_doctype     75,844
     modern_year          36,147
@@ -16,7 +16,7 @@ CITATION RESOLUTION REPORT
     nt         60,049
     stephanus  57,025
     bekker     37,961
-    homer      34,360
+    homer      34,140
     pindar     4,593
   method distribution:
     cue_work                     101,845
@@ -40,7 +40,7 @@ CITATION RESOLUTION REPORT
     no decisive name, no scope; candidates ['Categories', 'Euthyphro', 'Philebus'] 11,632
     no decisive name, no scope; candidates ['Apology', 'Philebus', 'Timaeus'] 5,770
     no decisive name, no scope; candidates ['Crito', 'Philebus', 'Prior_Analytics', 'Timaeus'] 5,740
-    span_diverted                            4,357
+    span_diverted                            4,577
     no decisive name, no scope; candidates ['Meno', 'Phaedo', 'Posterior_Analytics', 'Timaeus'] 4,279
     no decisive name, no scope; candidates ['Phaedo', 'Philebus', 'Prior_Analytics', 'Timaeus'] 3,091
     no decisive name, no scope; candidates ['Categories', 'Euthyphro'] 2,945

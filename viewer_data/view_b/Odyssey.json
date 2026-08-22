@@ -6605,139 +6605,6 @@
    }
   },
   {
-   "book": "1",
-   "page": 475,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Harvard Studies in Classical Philology": 1
-   }
-  },
-  {
-   "book": "1",
-   "page": 476,
-   "section": "",
-   "band": 0,
-   "count": 2,
-   "articles": 2,
-   "by_journal": {
-    "Quaderni Urbinati di Cultura Classica": 1,
-    "Harvard Studies in Classical Philology": 1
-   }
-  },
-  {
-   "book": "1",
-   "page": 477,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Hermes": 1
-   }
-  },
-  {
-   "book": "1",
-   "page": 491,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Harvard Studies in Classical Philology": 1
-   }
-  },
-  {
-   "book": "1",
-   "page": 518,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Hermes": 1
-   }
-  },
-  {
-   "book": "1",
-   "page": 521,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Hermes": 1
-   }
-  },
-  {
-   "book": "1",
-   "page": 539,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical World": 1
-   }
-  },
-  {
-   "book": "1",
-   "page": 598,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Harvard Studies in Classical Philology": 1
-   }
-  },
-  {
-   "book": "1",
-   "page": 606,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Mnemosyne": 1
-   }
-  },
-  {
-   "book": "1",
-   "page": 623,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Harvard Studies in Classical Philology": 1
-   }
-  },
-  {
-   "book": "1",
-   "page": 624,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Harvard Studies in Classical Philology": 1
-   }
-  },
-  {
-   "book": "1",
-   "page": 803,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical World": 1
-   }
-  },
-  {
    "book": "10",
    "page": 1,
    "section": "",
@@ -13330,118 +13197,6 @@
    "articles": 1,
    "by_journal": {
     "Harvard Studies in Classical Philology": 1
-   }
-  },
-  {
-   "book": "10",
-   "page": 582,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Rheinisches Museum für Philologie": 1
-   }
-  },
-  {
-   "book": "10",
-   "page": 601,
-   "section": "",
-   "band": 0,
-   "count": 2,
-   "articles": 2,
-   "by_journal": {
-    "Hermes": 2
-   }
-  },
-  {
-   "book": "10",
-   "page": 602,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Hermes": 1
-   }
-  },
-  {
-   "book": "10",
-   "page": 604,
-   "section": "",
-   "band": 0,
-   "count": 2,
-   "articles": 2,
-   "by_journal": {
-    "Rheinisches Museum für Philologie": 1,
-    "Transactions and Proceedings of the American Philological Association": 1
-   }
-  },
-  {
-   "book": "10",
-   "page": 623,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Harvard Studies in Classical Philology": 1
-   }
-  },
-  {
-   "book": "10",
-   "page": 624,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Harvard Studies in Classical Philology": 1
-   }
-  },
-  {
-   "book": "10",
-   "page": 625,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Harvard Studies in Classical Philology": 1
-   }
-  },
-  {
-   "book": "10",
-   "page": 626,
-   "section": "",
-   "band": 0,
-   "count": 2,
-   "articles": 2,
-   "by_journal": {
-    "Hermes": 1,
-    "Harvard Studies in Classical Philology": 1
-   }
-  },
-  {
-   "book": "10",
-   "page": 631,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Harvard Studies in Classical Philology": 1
-   }
-  },
-  {
-   "book": "10",
-   "page": 845,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical World": 1
    }
   },
   {
@@ -22831,50 +22586,6 @@
    }
   },
   {
-   "book": "11",
-   "page": 691,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Mnemosyne": 1
-   }
-  },
-  {
-   "book": "11",
-   "page": 692,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Mnemosyne": 1
-   }
-  },
-  {
-   "book": "11",
-   "page": 756,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Greece & Rome": 1
-   }
-  },
-  {
-   "book": "11",
-   "page": 850,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical World": 1
-   }
-  },
-  {
    "book": "12",
    "page": 1,
    "section": "",
@@ -27814,39 +27525,6 @@
    "articles": 2,
    "by_journal": {
     "Hermes": 2
-   }
-  },
-  {
-   "book": "12",
-   "page": 575,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical World": 1
-   }
-  },
-  {
-   "book": "12",
-   "page": 733,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Transactions and Proceedings of the American Philological Association": 1
-   }
-  },
-  {
-   "book": "12",
-   "page": 862,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical World": 1
    }
   },
   {
@@ -32801,238 +32479,6 @@
    "articles": 1,
    "by_journal": {
     "Transactions of the American Philological Association (1974-2014)": 1
-   }
-  },
-  {
-   "book": "13",
-   "page": 473,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Mnemosyne": 1
-   }
-  },
-  {
-   "book": "13",
-   "page": 474,
-   "section": "",
-   "band": 0,
-   "count": 2,
-   "articles": 2,
-   "by_journal": {
-    "Mnemosyne": 1,
-    "Rheinisches Museum für Philologie": 1
-   }
-  },
-  {
-   "book": "13",
-   "page": 475,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Mnemosyne": 1
-   }
-  },
-  {
-   "book": "13",
-   "page": 476,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Mnemosyne": 1
-   }
-  },
-  {
-   "book": "13",
-   "page": 477,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Mnemosyne": 1
-   }
-  },
-  {
-   "book": "13",
-   "page": 478,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Mnemosyne": 1
-   }
-  },
-  {
-   "book": "13",
-   "page": 479,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Mnemosyne": 1
-   }
-  },
-  {
-   "book": "13",
-   "page": 539,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Mnemosyne": 1
-   }
-  },
-  {
-   "book": "13",
-   "page": 541,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Mnemosyne": 1
-   }
-  },
-  {
-   "book": "13",
-   "page": 543,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Mnemosyne": 1
-   }
-  },
-  {
-   "book": "13",
-   "page": 545,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Mnemosyne": 1
-   }
-  },
-  {
-   "book": "13",
-   "page": 547,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Mnemosyne": 1
-   }
-  },
-  {
-   "book": "13",
-   "page": 549,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Mnemosyne": 1
-   }
-  },
-  {
-   "book": "13",
-   "page": 551,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Mnemosyne": 1
-   }
-  },
-  {
-   "book": "13",
-   "page": 553,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Mnemosyne": 1
-   }
-  },
-  {
-   "book": "13",
-   "page": 555,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Mnemosyne": 1
-   }
-  },
-  {
-   "book": "13",
-   "page": 557,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Mnemosyne": 1
-   }
-  },
-  {
-   "book": "13",
-   "page": 559,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Mnemosyne": 1
-   }
-  },
-  {
-   "book": "13",
-   "page": 561,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Mnemosyne": 1
-   }
-  },
-  {
-   "book": "13",
-   "page": 580,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical World": 1
-   }
-  },
-  {
-   "book": "13",
-   "page": 865,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical World": 1
    }
   },
   {
@@ -39073,28 +38519,6 @@
    }
   },
   {
-   "book": "14",
-   "page": 581,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical World": 1
-   }
-  },
-  {
-   "book": "14",
-   "page": 866,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical World": 1
-   }
-  },
-  {
    "book": "15",
    "page": 1,
    "section": "",
@@ -43901,83 +43325,6 @@
    }
   },
   {
-   "book": "15",
-   "page": 582,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical World": 1
-   }
-  },
-  {
-   "book": "15",
-   "page": 624,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical Quarterly": 1
-   }
-  },
-  {
-   "book": "15",
-   "page": 625,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical Quarterly": 1
-   }
-  },
-  {
-   "book": "15",
-   "page": 626,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical Quarterly": 1
-   }
-  },
-  {
-   "book": "15",
-   "page": 627,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical Quarterly": 1
-   }
-  },
-  {
-   "book": "15",
-   "page": 628,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical Quarterly": 1
-   }
-  },
-  {
-   "book": "15",
-   "page": 868,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical World": 1
-   }
-  },
-  {
    "book": "16",
    "page": 1,
    "section": "",
@@ -47930,39 +47277,6 @@
     "Classical Philology": 1,
     "The Classical Quarterly": 1,
     "Quaderni Urbinati di Cultura Classica": 2
-   }
-  },
-  {
-   "book": "16",
-   "page": 565,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Rheinisches Museum für Philologie": 1
-   }
-  },
-  {
-   "book": "16",
-   "page": 566,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Rheinisches Museum für Philologie": 1
-   }
-  },
-  {
-   "book": "16",
-   "page": 567,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Rheinisches Museum für Philologie": 1
    }
   },
   {
@@ -53208,28 +52522,6 @@
    }
   },
   {
-   "book": "17",
-   "page": 608,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical Quarterly": 1
-   }
-  },
-  {
-   "book": "17",
-   "page": 869,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical World": 1
-   }
-  },
-  {
    "book": "18",
    "page": 1,
    "section": "",
@@ -57235,28 +56527,6 @@
     "Mnemosyne": 1,
     "Illinois Classical Studies": 1,
     "Quaderni Urbinati di Cultura Classica": 1
-   }
-  },
-  {
-   "book": "18",
-   "page": 584,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical World": 1
-   }
-  },
-  {
-   "book": "18",
-   "page": 873,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical World": 1
    }
   },
   {
@@ -63727,17 +62997,6 @@
    }
   },
   {
-   "book": "19",
-   "page": 875,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical World": 1
-   }
-  },
-  {
    "book": "2",
    "page": 1,
    "section": "",
@@ -68584,601 +67843,6 @@
    }
   },
   {
-   "book": "2",
-   "page": 449,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Transactions and Proceedings of the American Philological Association": 1
-   }
-  },
-  {
-   "book": "2",
-   "page": 482,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Transactions and Proceedings of the American Philological Association": 1
-   }
-  },
-  {
-   "book": "2",
-   "page": 483,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Transactions and Proceedings of the American Philological Association": 1
-   }
-  },
-  {
-   "book": "2",
-   "page": 489,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Transactions and Proceedings of the American Philological Association": 1
-   }
-  },
-  {
-   "book": "2",
-   "page": 490,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Transactions and Proceedings of the American Philological Association": 1
-   }
-  },
-  {
-   "book": "2",
-   "page": 506,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Transactions and Proceedings of the American Philological Association": 1
-   }
-  },
-  {
-   "book": "2",
-   "page": 507,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Transactions and Proceedings of the American Philological Association": 1
-   }
-  },
-  {
-   "book": "2",
-   "page": 539,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Harvard Studies in Classical Philology": 1
-   }
-  },
-  {
-   "book": "2",
-   "page": 543,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical World": 1
-   }
-  },
-  {
-   "book": "2",
-   "page": 550,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The American Journal of Philology": 1
-   }
-  },
-  {
-   "book": "2",
-   "page": 556,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Hermes": 1
-   }
-  },
-  {
-   "book": "2",
-   "page": 569,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Harvard Studies in Classical Philology": 1
-   }
-  },
-  {
-   "book": "2",
-   "page": 582,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Transactions of the American Philological Association (1974-2014)": 1
-   }
-  },
-  {
-   "book": "2",
-   "page": 590,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Mnemosyne": 1
-   }
-  },
-  {
-   "book": "2",
-   "page": 593,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Transactions of the American Philological Association (1974-2014)": 1
-   }
-  },
-  {
-   "book": "2",
-   "page": 594,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Transactions of the American Philological Association (1974-2014)": 1
-   }
-  },
-  {
-   "book": "2",
-   "page": 595,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Transactions of the American Philological Association (1974-2014)": 1
-   }
-  },
-  {
-   "book": "2",
-   "page": 596,
-   "section": "",
-   "band": 0,
-   "count": 2,
-   "articles": 2,
-   "by_journal": {
-    "Transactions of the American Philological Association (1974-2014)": 2
-   }
-  },
-  {
-   "book": "2",
-   "page": 597,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Transactions of the American Philological Association (1974-2014)": 1
-   }
-  },
-  {
-   "book": "2",
-   "page": 598,
-   "section": "",
-   "band": 0,
-   "count": 3,
-   "articles": 3,
-   "by_journal": {
-    "Transactions and Proceedings of the American Philological Association": 1,
-    "Transactions of the American Philological Association (1974-2014)": 2
-   }
-  },
-  {
-   "book": "2",
-   "page": 599,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Transactions of the American Philological Association (1974-2014)": 1
-   }
-  },
-  {
-   "book": "2",
-   "page": 600,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Transactions of the American Philological Association (1974-2014)": 1
-   }
-  },
-  {
-   "book": "2",
-   "page": 602,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Harvard Studies in Classical Philology": 1
-   }
-  },
-  {
-   "book": "2",
-   "page": 603,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Transactions of the American Philological Association (1974-2014)": 1
-   }
-  },
-  {
-   "book": "2",
-   "page": 604,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Transactions and Proceedings of the American Philological Association": 1
-   }
-  },
-  {
-   "book": "2",
-   "page": 608,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The American Journal of Philology": 1
-   }
-  },
-  {
-   "book": "2",
-   "page": 632,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Harvard Studies in Classical Philology": 1
-   }
-  },
-  {
-   "book": "2",
-   "page": 633,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Harvard Studies in Classical Philology": 1
-   }
-  },
-  {
-   "book": "2",
-   "page": 634,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Harvard Studies in Classical Philology": 1
-   }
-  },
-  {
-   "book": "2",
-   "page": 635,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Harvard Studies in Classical Philology": 1
-   }
-  },
-  {
-   "book": "2",
-   "page": 701,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Rheinisches Museum für Philologie": 1
-   }
-  },
-  {
-   "book": "2",
-   "page": 804,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical World": 1
-   }
-  },
-  {
-   "book": "2",
-   "page": 805,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical World": 1
-   }
-  },
-  {
-   "book": "2",
-   "page": 806,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical World": 1
-   }
-  },
-  {
-   "book": "2",
-   "page": 807,
-   "section": "",
-   "band": 0,
-   "count": 2,
-   "articles": 1,
-   "by_journal": {
-    "The Classical World": 2
-   }
-  },
-  {
-   "book": "2",
-   "page": 808,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical World": 1
-   }
-  },
-  {
-   "book": "2",
-   "page": 809,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical World": 1
-   }
-  },
-  {
-   "book": "2",
-   "page": 810,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical World": 1
-   }
-  },
-  {
-   "book": "2",
-   "page": 811,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical World": 1
-   }
-  },
-  {
-   "book": "2",
-   "page": 812,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical World": 1
-   }
-  },
-  {
-   "book": "2",
-   "page": 813,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical World": 1
-   }
-  },
-  {
-   "book": "2",
-   "page": 814,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical World": 1
-   }
-  },
-  {
-   "book": "2",
-   "page": 815,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical World": 1
-   }
-  },
-  {
-   "book": "2",
-   "page": 816,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical World": 1
-   }
-  },
-  {
-   "book": "2",
-   "page": 817,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical World": 1
-   }
-  },
-  {
-   "book": "2",
-   "page": 818,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical World": 1
-   }
-  },
-  {
-   "book": "2",
-   "page": 819,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical World": 1
-   }
-  },
-  {
-   "book": "2",
-   "page": 820,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical World": 1
-   }
-  },
-  {
-   "book": "2",
-   "page": 821,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical World": 1
-   }
-  },
-  {
-   "book": "2",
-   "page": 822,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical World": 1
-   }
-  },
-  {
-   "book": "2",
-   "page": 823,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical World": 1
-   }
-  },
-  {
-   "book": "2",
-   "page": 824,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical World": 1
-   }
-  },
-  {
-   "book": "2",
-   "page": 825,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical World": 1
-   }
-  },
-  {
-   "book": "2",
-   "page": 970,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Harvard Studies in Classical Philology": 1
-   }
-  },
-  {
    "book": "20",
    "page": 1,
    "section": "",
@@ -73063,28 +71727,6 @@
    }
   },
   {
-   "book": "20",
-   "page": 511,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Transactions and Proceedings of the American Philological Association": 1
-   }
-  },
-  {
-   "book": "20",
-   "page": 882,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical World": 1
-   }
-  },
-  {
    "book": "21",
    "page": 1,
    "section": "",
@@ -76617,28 +75259,6 @@
    "articles": 1,
    "by_journal": {
     "The American Journal of Philology": 1
-   }
-  },
-  {
-   "book": "21",
-   "page": 588,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical World": 1
-   }
-  },
-  {
-   "book": "21",
-   "page": 885,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical World": 1
    }
   },
   {
@@ -80643,17 +79263,6 @@
    }
   },
   {
-   "book": "22",
-   "page": 889,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical World": 1
-   }
-  },
-  {
    "book": "23",
    "page": 1,
    "section": "",
@@ -83935,105 +82544,6 @@
    "articles": 1,
    "by_journal": {
     "Transactions of the American Philological Association (1974-2014)": 1
-   }
-  },
-  {
-   "book": "23",
-   "page": 383,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Hermes": 1
-   }
-  },
-  {
-   "book": "23",
-   "page": 384,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Hermes": 1
-   }
-  },
-  {
-   "book": "23",
-   "page": 385,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Hermes": 1
-   }
-  },
-  {
-   "book": "23",
-   "page": 386,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Hermes": 1
-   }
-  },
-  {
-   "book": "23",
-   "page": 387,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Hermes": 1
-   }
-  },
-  {
-   "book": "23",
-   "page": 388,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Hermes": 1
-   }
-  },
-  {
-   "book": "23",
-   "page": 389,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Hermes": 1
-   }
-  },
-  {
-   "book": "23",
-   "page": 589,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical World": 1
-   }
-  },
-  {
-   "book": "23",
-   "page": 890,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical World": 1
    }
   },
   {
@@ -89475,28 +87985,6 @@
     "Mnemosyne": 1,
     "Classical Antiquity": 1,
     "Hermes": 1
-   }
-  },
-  {
-   "book": "24",
-   "page": 594,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical World": 1
-   }
-  },
-  {
-   "book": "24",
-   "page": 891,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical World": 1
    }
   },
   {
@@ -95680,17 +94168,6 @@
    "by_journal": {
     "Transactions and Proceedings of the American Philological Association": 1,
     "The American Journal of Philology": 1
-   }
-  },
-  {
-   "book": "3",
-   "page": 809,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical World": 1
    }
   },
   {
@@ -111580,215 +110057,6 @@
    }
   },
   {
-   "book": "5",
-   "page": 526,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Mnemosyne": 1
-   }
-  },
-  {
-   "book": "5",
-   "page": 546,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Harvard Studies in Classical Philology": 1
-   }
-  },
-  {
-   "book": "5",
-   "page": 562,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Mnemosyne": 1
-   }
-  },
-  {
-   "book": "5",
-   "page": 563,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Mnemosyne": 1
-   }
-  },
-  {
-   "book": "5",
-   "page": 564,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Mnemosyne": 1
-   }
-  },
-  {
-   "book": "5",
-   "page": 565,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Mnemosyne": 1
-   }
-  },
-  {
-   "book": "5",
-   "page": 566,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Mnemosyne": 1
-   }
-  },
-  {
-   "book": "5",
-   "page": 567,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Mnemosyne": 1
-   }
-  },
-  {
-   "book": "5",
-   "page": 568,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Mnemosyne": 1
-   }
-  },
-  {
-   "book": "5",
-   "page": 569,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Mnemosyne": 1
-   }
-  },
-  {
-   "book": "5",
-   "page": 571,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical Quarterly": 1
-   }
-  },
-  {
-   "book": "5",
-   "page": 572,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical Quarterly": 1
-   }
-  },
-  {
-   "book": "5",
-   "page": 573,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical Quarterly": 1
-   }
-  },
-  {
-   "book": "5",
-   "page": 574,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical Quarterly": 1
-   }
-  },
-  {
-   "book": "5",
-   "page": 575,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical Quarterly": 1
-   }
-  },
-  {
-   "book": "5",
-   "page": 725,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical Quarterly": 1
-   }
-  },
-  {
-   "book": "5",
-   "page": 767,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Quaderni Urbinati di Cultura Classica": 1
-   }
-  },
-  {
-   "book": "5",
-   "page": 815,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical World": 1
-   }
-  },
-  {
-   "book": "5",
-   "page": 993,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Harvard Studies in Classical Philology": 1
-   }
-  },
-  {
    "book": "6",
    "page": 1,
    "section": "",
@@ -116623,426 +114891,6 @@
    }
   },
   {
-   "book": "6",
-   "page": 351,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The American Journal of Philology": 1
-   }
-  },
-  {
-   "book": "6",
-   "page": 352,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The American Journal of Philology": 1
-   }
-  },
-  {
-   "book": "6",
-   "page": 353,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The American Journal of Philology": 1
-   }
-  },
-  {
-   "book": "6",
-   "page": 354,
-   "section": "",
-   "band": 0,
-   "count": 2,
-   "articles": 2,
-   "by_journal": {
-    "Hermes": 1,
-    "The American Journal of Philology": 1
-   }
-  },
-  {
-   "book": "6",
-   "page": 355,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The American Journal of Philology": 1
-   }
-  },
-  {
-   "book": "6",
-   "page": 356,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The American Journal of Philology": 1
-   }
-  },
-  {
-   "book": "6",
-   "page": 357,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The American Journal of Philology": 1
-   }
-  },
-  {
-   "book": "6",
-   "page": 358,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The American Journal of Philology": 1
-   }
-  },
-  {
-   "book": "6",
-   "page": 359,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The American Journal of Philology": 1
-   }
-  },
-  {
-   "book": "6",
-   "page": 360,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The American Journal of Philology": 1
-   }
-  },
-  {
-   "book": "6",
-   "page": 361,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The American Journal of Philology": 1
-   }
-  },
-  {
-   "book": "6",
-   "page": 362,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The American Journal of Philology": 1
-   }
-  },
-  {
-   "book": "6",
-   "page": 363,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The American Journal of Philology": 1
-   }
-  },
-  {
-   "book": "6",
-   "page": 364,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The American Journal of Philology": 1
-   }
-  },
-  {
-   "book": "6",
-   "page": 365,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The American Journal of Philology": 1
-   }
-  },
-  {
-   "book": "6",
-   "page": 366,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The American Journal of Philology": 1
-   }
-  },
-  {
-   "book": "6",
-   "page": 367,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The American Journal of Philology": 1
-   }
-  },
-  {
-   "book": "6",
-   "page": 368,
-   "section": "",
-   "band": 0,
-   "count": 2,
-   "articles": 2,
-   "by_journal": {
-    "The American Journal of Philology": 1,
-    "Hermes": 1
-   }
-  },
-  {
-   "book": "6",
-   "page": 369,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The American Journal of Philology": 1
-   }
-  },
-  {
-   "book": "6",
-   "page": 370,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The American Journal of Philology": 1
-   }
-  },
-  {
-   "book": "6",
-   "page": 371,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The American Journal of Philology": 1
-   }
-  },
-  {
-   "book": "6",
-   "page": 372,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The American Journal of Philology": 1
-   }
-  },
-  {
-   "book": "6",
-   "page": 373,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The American Journal of Philology": 1
-   }
-  },
-  {
-   "book": "6",
-   "page": 374,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The American Journal of Philology": 1
-   }
-  },
-  {
-   "book": "6",
-   "page": 375,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The American Journal of Philology": 1
-   }
-  },
-  {
-   "book": "6",
-   "page": 400,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Hermes": 1
-   }
-  },
-  {
-   "book": "6",
-   "page": 442,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Hermes": 1
-   }
-  },
-  {
-   "book": "6",
-   "page": 458,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Hermes": 1
-   }
-  },
-  {
-   "book": "6",
-   "page": 477,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Rheinisches Museum für Philologie": 1
-   }
-  },
-  {
-   "book": "6",
-   "page": 552,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical World": 1
-   }
-  },
-  {
-   "book": "6",
-   "page": 566,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Hermes": 1
-   }
-  },
-  {
-   "book": "6",
-   "page": 567,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Hermes": 1
-   }
-  },
-  {
-   "book": "6",
-   "page": 624,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Hermes": 1
-   }
-  },
-  {
-   "book": "6",
-   "page": 690,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Hermes": 1
-   }
-  },
-  {
-   "book": "6",
-   "page": 759,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Hermes": 1
-   }
-  },
-  {
-   "book": "6",
-   "page": 820,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical World": 1
-   }
-  },
-  {
-   "book": "6",
-   "page": 841,
-   "section": "",
-   "band": 0,
-   "count": 2,
-   "articles": 1,
-   "by_journal": {
-    "Hermes": 2
-   }
-  },
-  {
-   "book": "6",
-   "page": 882,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical Review": 1
-   }
-  },
-  {
    "book": "7",
    "page": 1,
    "section": "",
@@ -121170,111 +119018,11 @@
    "page": 347,
    "section": "",
    "band": 0,
-   "count": 3,
-   "articles": 3,
+   "count": 2,
+   "articles": 2,
    "by_journal": {
-    "Hermes": 1,
     "Harvard Studies in Classical Philology": 1,
     "The Classical World": 1
-   }
-  },
-  {
-   "book": "7",
-   "page": 348,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Hermes": 1
-   }
-  },
-  {
-   "book": "7",
-   "page": 424,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Zeitschrift für katholische Theologie": 1
-   }
-  },
-  {
-   "book": "7",
-   "page": 474,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Greece & Rome": 1
-   }
-  },
-  {
-   "book": "7",
-   "page": 475,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Hermes": 1
-   }
-  },
-  {
-   "book": "7",
-   "page": 519,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical Review": 1
-   }
-  },
-  {
-   "book": "7",
-   "page": 533,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Phronesis": 1
-   }
-  },
-  {
-   "book": "7",
-   "page": 554,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical World": 1
-   }
-  },
-  {
-   "book": "7",
-   "page": 822,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical World": 1
-   }
-  },
-  {
-   "book": "7",
-   "page": 861,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Hermes": 1
    }
   },
   {
@@ -128786,13 +126534,12 @@
    "page": 581,
    "section": "",
    "band": 0,
-   "count": 6,
-   "articles": 6,
+   "count": 5,
+   "articles": 5,
    "by_journal": {
     "The Classical World": 1,
     "The American Journal of Philology": 1,
     "The Classical Journal": 1,
-    "Mnemosyne": 1,
     "Quaderni Urbinati di Cultura Classica": 1,
     "Classical Antiquity": 1
    }
@@ -128802,12 +126549,11 @@
    "page": 582,
    "section": "",
    "band": 0,
-   "count": 4,
-   "articles": 4,
+   "count": 3,
+   "articles": 3,
    "by_journal": {
     "The Classical World": 1,
     "The American Journal of Philology": 1,
-    "Mnemosyne": 1,
     "Quaderni Urbinati di Cultura Classica": 1
    }
   },
@@ -128816,12 +126562,11 @@
    "page": 583,
    "section": "",
    "band": 0,
-   "count": 4,
-   "articles": 4,
+   "count": 3,
+   "articles": 3,
    "by_journal": {
     "The Classical World": 1,
     "The American Journal of Philology": 1,
-    "Mnemosyne": 1,
     "Quaderni Urbinati di Cultura Classica": 1
    }
   },
@@ -128830,13 +126575,12 @@
    "page": 584,
    "section": "",
    "band": 0,
-   "count": 5,
-   "articles": 5,
+   "count": 4,
+   "articles": 4,
    "by_journal": {
     "Classical Philology": 1,
     "The Classical World": 1,
     "The American Journal of Philology": 1,
-    "Mnemosyne": 1,
     "Quaderni Urbinati di Cultura Classica": 1
    }
   },
@@ -128845,12 +126589,11 @@
    "page": 585,
    "section": "",
    "band": 0,
-   "count": 5,
-   "articles": 5,
+   "count": 4,
+   "articles": 4,
    "by_journal": {
     "The Classical World": 2,
     "The American Journal of Philology": 1,
-    "Mnemosyne": 1,
     "Quaderni Urbinati di Cultura Classica": 1
    }
   },
@@ -128859,101 +126602,12 @@
    "page": 586,
    "section": "",
    "band": 0,
-   "count": 4,
-   "articles": 4,
+   "count": 3,
+   "articles": 3,
    "by_journal": {
     "The Classical World": 1,
     "The American Journal of Philology": 1,
-    "Mnemosyne": 1,
     "Quaderni Urbinati di Cultura Classica": 1
-   }
-  },
-  {
-   "book": "8",
-   "page": 587,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Mnemosyne": 1
-   }
-  },
-  {
-   "book": "8",
-   "page": 588,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Mnemosyne": 1
-   }
-  },
-  {
-   "book": "8",
-   "page": 589,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Mnemosyne": 1
-   }
-  },
-  {
-   "book": "8",
-   "page": 767,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical Quarterly": 1
-   }
-  },
-  {
-   "book": "8",
-   "page": 796,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Hermes": 1
-   }
-  },
-  {
-   "book": "8",
-   "page": 820,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "Mnemosyne": 1
-   }
-  },
-  {
-   "book": "8",
-   "page": 824,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical World": 1
-   }
-  },
-  {
-   "book": "8",
-   "page": 849,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical World": 1
    }
   },
   {
@@ -136127,28 +133781,6 @@
    "by_journal": {
     "The American Journal of Philology": 1
    }
-  },
-  {
-   "book": "9",
-   "page": 622,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The American Journal of Philology": 1
-   }
-  },
-  {
-   "book": "9",
-   "page": 828,
-   "section": "",
-   "band": 0,
-   "count": 1,
-   "articles": 1,
-   "by_journal": {
-    "The Classical World": 1
-   }
   }
  ],
  "dots": [
@@ -142133,18 +139765,6 @@
    "page": 518,
    "section": "",
    "line": 518,
-   "journal": "The Classical Review",
-   "year": "1904",
-   "iid": "11310a5f-b049-330f-b08d-941d999e02c6",
-   "doi": "10.2307/695575",
-   "title": "Studies of Latin Words in -cinio-, cinia-. I. Luscinia",
-   "author": "Edwin W. Fay"
-  },
-  {
-   "book": "7",
-   "page": 519,
-   "section": "",
-   "line": 519,
    "journal": "The Classical Review",
    "year": "1904",
    "iid": "11310a5f-b049-330f-b08d-941d999e02c6",
@@ -182389,18 +180009,6 @@
    "author": "Francisco de Oliveira, Douglas M. Macdowell, Maria de Fátima Silva"
   },
   {
-   "book": "8",
-   "page": 767,
-   "section": "",
-   "line": 767,
-   "journal": "The Classical Quarterly",
-   "year": "1942",
-   "iid": "795172bb-f198-3a9d-80b9-760b1a522b80",
-   "doi": "10.2307/636723",
-   "title": "An Epodic Poem of Hipponax",
-   "author": "Eduard Fraenkel"
-  },
-  {
    "book": "6",
    "page": 115,
    "section": "",
@@ -186065,18 +183673,6 @@
    "page": 204,
    "section": "",
    "line": 204,
-   "journal": "The Classical Quarterly",
-   "year": "1998",
-   "iid": "8582c511-cc00-3e84-b133-ab2ea7871c73",
-   "doi": "10.2307/639748",
-   "title": "Timē and Aretē in Homer",
-   "author": "Margalit Finkelberg"
-  },
-  {
-   "book": "5",
-   "page": 725,
-   "section": "",
-   "line": 725,
    "journal": "The Classical Quarterly",
    "year": "1998",
    "iid": "8582c511-cc00-3e84-b133-ab2ea7871c73",
@@ -194819,78 +192415,6 @@
    "doi": "10.2307/691057",
    "title": "Hom. Il. xix",
    "author": "W. T. Lendrum"
-  },
-  {
-   "book": "5",
-   "page": 571,
-   "section": "",
-   "line": 571,
-   "journal": "The Classical Quarterly",
-   "year": "1972",
-   "iid": "9ce0b28c-3401-3a50-8652-7b50e437346c",
-   "doi": "10.2307/637885",
-   "title": "'Barbaric Cries' (Aesch. Pers. 633-639)",
-   "author": "Joan A. Haldane"
-  },
-  {
-   "book": "5",
-   "page": 572,
-   "section": "",
-   "line": 572,
-   "journal": "The Classical Quarterly",
-   "year": "1972",
-   "iid": "9ce0b28c-3401-3a50-8652-7b50e437346c",
-   "doi": "10.2307/637885",
-   "title": "'Barbaric Cries' (Aesch. Pers. 633-639)",
-   "author": "Joan A. Haldane"
-  },
-  {
-   "book": "5",
-   "page": 573,
-   "section": "",
-   "line": 573,
-   "journal": "The Classical Quarterly",
-   "year": "1972",
-   "iid": "9ce0b28c-3401-3a50-8652-7b50e437346c",
-   "doi": "10.2307/637885",
-   "title": "'Barbaric Cries' (Aesch. Pers. 633-639)",
-   "author": "Joan A. Haldane"
-  },
-  {
-   "book": "5",
-   "page": 574,
-   "section": "",
-   "line": 574,
-   "journal": "The Classical Quarterly",
-   "year": "1972",
-   "iid": "9ce0b28c-3401-3a50-8652-7b50e437346c",
-   "doi": "10.2307/637885",
-   "title": "'Barbaric Cries' (Aesch. Pers. 633-639)",
-   "author": "Joan A. Haldane"
-  },
-  {
-   "book": "5",
-   "page": 575,
-   "section": "",
-   "line": 575,
-   "journal": "The Classical Quarterly",
-   "year": "1972",
-   "iid": "9ce0b28c-3401-3a50-8652-7b50e437346c",
-   "doi": "10.2307/637885",
-   "title": "'Barbaric Cries' (Aesch. Pers. 633-639)",
-   "author": "Joan A. Haldane"
-  },
-  {
-   "book": "17",
-   "page": 608,
-   "section": "",
-   "line": 608,
-   "journal": "The Classical Quarterly",
-   "year": "2013",
-   "iid": "9db32a94-4f91-38f0-8b98-252fe35a028e",
-   "doi": "10.2307/23470097",
-   "title": "ARISTOPHANES, \"WEALTH\" 227—9",
-   "author": "DAVID J. JACOBSON"
   },
   {
    "book": "10",
@@ -214585,66 +212109,6 @@
    "author": "MATTHEW C. FARMER"
   },
   {
-   "book": "15",
-   "page": 624,
-   "section": "",
-   "line": 624,
-   "journal": "The Classical Quarterly",
-   "year": "1996",
-   "iid": "ce7d5cab-8dba-3083-9ad2-05f6b78998d6",
-   "doi": "10.2307/639804",
-   "title": "Diiudicatio Locorum: Gellius and the History of a Mode in Ancient Comparative Criticism",
-   "author": "Amiel D. Vardi"
-  },
-  {
-   "book": "15",
-   "page": 625,
-   "section": "",
-   "line": 625,
-   "journal": "The Classical Quarterly",
-   "year": "1996",
-   "iid": "ce7d5cab-8dba-3083-9ad2-05f6b78998d6",
-   "doi": "10.2307/639804",
-   "title": "Diiudicatio Locorum: Gellius and the History of a Mode in Ancient Comparative Criticism",
-   "author": "Amiel D. Vardi"
-  },
-  {
-   "book": "15",
-   "page": 626,
-   "section": "",
-   "line": 626,
-   "journal": "The Classical Quarterly",
-   "year": "1996",
-   "iid": "ce7d5cab-8dba-3083-9ad2-05f6b78998d6",
-   "doi": "10.2307/639804",
-   "title": "Diiudicatio Locorum: Gellius and the History of a Mode in Ancient Comparative Criticism",
-   "author": "Amiel D. Vardi"
-  },
-  {
-   "book": "15",
-   "page": 627,
-   "section": "",
-   "line": 627,
-   "journal": "The Classical Quarterly",
-   "year": "1996",
-   "iid": "ce7d5cab-8dba-3083-9ad2-05f6b78998d6",
-   "doi": "10.2307/639804",
-   "title": "Diiudicatio Locorum: Gellius and the History of a Mode in Ancient Comparative Criticism",
-   "author": "Amiel D. Vardi"
-  },
-  {
-   "book": "15",
-   "page": 628,
-   "section": "",
-   "line": 628,
-   "journal": "The Classical Quarterly",
-   "year": "1996",
-   "iid": "ce7d5cab-8dba-3083-9ad2-05f6b78998d6",
-   "doi": "10.2307/639804",
-   "title": "Diiudicatio Locorum: Gellius and the History of a Mode in Ancient Comparative Criticism",
-   "author": "Amiel D. Vardi"
-  },
-  {
    "book": "19",
    "page": 172,
    "section": "",
@@ -224581,18 +222045,6 @@
    "author": "A. Rengakos, Richard Hunter"
   },
   {
-   "book": "6",
-   "page": 882,
-   "section": "",
-   "line": 882,
-   "journal": "The Classical Review",
-   "year": "1996",
-   "iid": "e9681c1d-90de-3856-bfb9-d5d05b5f47c8",
-   "doi": "10.2307/710771",
-   "title": "Apollonios Homerizon",
-   "author": "A. Rengakos, Richard Hunter"
-  },
-  {
    "book": "1",
    "page": 7,
    "section": "",
@@ -230897,18 +228349,6 @@
    "page": 174,
    "section": "",
    "line": 174,
-   "journal": "Phronesis",
-   "year": "1981",
-   "iid": "f9450daa-1746-33d4-9eb5-e6466a89d9c2",
-   "doi": "10.2307/4182107",
-   "title": "Perceiving and Knowing in the \"Iliad\" and \"Odyssey\"",
-   "author": "J. H. Lesher"
-  },
-  {
-   "book": "7",
-   "page": 533,
-   "section": "",
-   "line": 533,
    "journal": "Phronesis",
    "year": "1981",
    "iid": "f9450daa-1746-33d4-9eb5-e6466a89d9c2",
@@ -237661,18 +235101,6 @@
    "author": "Rainer Spieker"
   },
   {
-   "book": "6",
-   "page": 566,
-   "section": "",
-   "line": 566,
-   "journal": "Hermes",
-   "year": "1969",
-   "iid": "02ec1281-c34b-3de4-8f7c-fb28a0cbbdcb",
-   "doi": "10.2307/4475581",
-   "title": "Die Beschreibung des Olympos (Hom. Od. ζ 41-47)",
-   "author": "Rainer Spieker"
-  },
-  {
    "book": "5",
    "page": 242,
    "section": "",
@@ -242425,10 +239853,10 @@
    "author": "Carmine Pisano"
   },
   {
-   "book": "1",
-   "page": 476,
+   "book": "10",
+   "page": 495,
    "section": "",
-   "line": 476,
+   "line": 495,
    "journal": "Quaderni Urbinati di Cultura Classica",
    "year": "2011",
    "iid": "053bc41b-918d-3f3a-9d57-6909fa0c944b",
@@ -242437,10 +239865,10 @@
    "author": "Carmine Pisano"
   },
   {
-   "book": "10",
-   "page": 495,
+   "book": "11",
+   "page": 476,
    "section": "",
-   "line": 495,
+   "line": 476,
    "journal": "Quaderni Urbinati di Cultura Classica",
    "year": "2011",
    "iid": "053bc41b-918d-3f3a-9d57-6909fa0c944b",
@@ -248093,18 +245521,6 @@
    "page": 229,
    "section": "",
    "line": 229,
-   "journal": "The American Journal of Philology",
-   "year": "1908",
-   "iid": "09dc09f5-7d0a-3e0c-a90f-9c819df413ae",
-   "doi": "10.2307/288470",
-   "title": "Stahl's Syntax of the Greek Verb. Second Article",
-   "author": "Basil L. Gildersleeve"
-  },
-  {
-   "book": "2",
-   "page": 608,
-   "section": "",
-   "line": 608,
    "journal": "The American Journal of Philology",
    "year": "1908",
    "iid": "09dc09f5-7d0a-3e0c-a90f-9c819df413ae",
@@ -258986,90 +256402,6 @@
   },
   {
    "book": "13",
-   "page": 473,
-   "section": "",
-   "line": 473,
-   "journal": "Mnemosyne",
-   "year": "2020",
-   "iid": "126c9e0e-14fe-39e3-a703-c3931c0b903f",
-   "doi": "10.2307/26989180",
-   "title": "Mocking the Wasps or the Meaning of Homeric <em>kertomia</em> Again",
-   "author": "Janek Kucharski"
-  },
-  {
-   "book": "13",
-   "page": 474,
-   "section": "",
-   "line": 474,
-   "journal": "Mnemosyne",
-   "year": "2020",
-   "iid": "126c9e0e-14fe-39e3-a703-c3931c0b903f",
-   "doi": "10.2307/26989180",
-   "title": "Mocking the Wasps or the Meaning of Homeric <em>kertomia</em> Again",
-   "author": "Janek Kucharski"
-  },
-  {
-   "book": "13",
-   "page": 475,
-   "section": "",
-   "line": 475,
-   "journal": "Mnemosyne",
-   "year": "2020",
-   "iid": "126c9e0e-14fe-39e3-a703-c3931c0b903f",
-   "doi": "10.2307/26989180",
-   "title": "Mocking the Wasps or the Meaning of Homeric <em>kertomia</em> Again",
-   "author": "Janek Kucharski"
-  },
-  {
-   "book": "13",
-   "page": 476,
-   "section": "",
-   "line": 476,
-   "journal": "Mnemosyne",
-   "year": "2020",
-   "iid": "126c9e0e-14fe-39e3-a703-c3931c0b903f",
-   "doi": "10.2307/26989180",
-   "title": "Mocking the Wasps or the Meaning of Homeric <em>kertomia</em> Again",
-   "author": "Janek Kucharski"
-  },
-  {
-   "book": "13",
-   "page": 477,
-   "section": "",
-   "line": 477,
-   "journal": "Mnemosyne",
-   "year": "2020",
-   "iid": "126c9e0e-14fe-39e3-a703-c3931c0b903f",
-   "doi": "10.2307/26989180",
-   "title": "Mocking the Wasps or the Meaning of Homeric <em>kertomia</em> Again",
-   "author": "Janek Kucharski"
-  },
-  {
-   "book": "13",
-   "page": 478,
-   "section": "",
-   "line": 478,
-   "journal": "Mnemosyne",
-   "year": "2020",
-   "iid": "126c9e0e-14fe-39e3-a703-c3931c0b903f",
-   "doi": "10.2307/26989180",
-   "title": "Mocking the Wasps or the Meaning of Homeric <em>kertomia</em> Again",
-   "author": "Janek Kucharski"
-  },
-  {
-   "book": "13",
-   "page": 479,
-   "section": "",
-   "line": 479,
-   "journal": "Mnemosyne",
-   "year": "2020",
-   "iid": "126c9e0e-14fe-39e3-a703-c3931c0b903f",
-   "doi": "10.2307/26989180",
-   "title": "Mocking the Wasps or the Meaning of Homeric <em>kertomia</em> Again",
-   "author": "Janek Kucharski"
-  },
-  {
-   "book": "13",
    "page": 324,
    "section": "",
    "line": 324,
@@ -259133,6 +256465,90 @@
    "page": 32,
    "section": "",
    "line": 32,
+   "journal": "Mnemosyne",
+   "year": "2020",
+   "iid": "126c9e0e-14fe-39e3-a703-c3931c0b903f",
+   "doi": "10.2307/26989180",
+   "title": "Mocking the Wasps or the Meaning of Homeric <em>kertomia</em> Again",
+   "author": "Janek Kucharski"
+  },
+  {
+   "book": "9",
+   "page": 473,
+   "section": "",
+   "line": 473,
+   "journal": "Mnemosyne",
+   "year": "2020",
+   "iid": "126c9e0e-14fe-39e3-a703-c3931c0b903f",
+   "doi": "10.2307/26989180",
+   "title": "Mocking the Wasps or the Meaning of Homeric <em>kertomia</em> Again",
+   "author": "Janek Kucharski"
+  },
+  {
+   "book": "9",
+   "page": 474,
+   "section": "",
+   "line": 474,
+   "journal": "Mnemosyne",
+   "year": "2020",
+   "iid": "126c9e0e-14fe-39e3-a703-c3931c0b903f",
+   "doi": "10.2307/26989180",
+   "title": "Mocking the Wasps or the Meaning of Homeric <em>kertomia</em> Again",
+   "author": "Janek Kucharski"
+  },
+  {
+   "book": "9",
+   "page": 475,
+   "section": "",
+   "line": 475,
+   "journal": "Mnemosyne",
+   "year": "2020",
+   "iid": "126c9e0e-14fe-39e3-a703-c3931c0b903f",
+   "doi": "10.2307/26989180",
+   "title": "Mocking the Wasps or the Meaning of Homeric <em>kertomia</em> Again",
+   "author": "Janek Kucharski"
+  },
+  {
+   "book": "9",
+   "page": 476,
+   "section": "",
+   "line": 476,
+   "journal": "Mnemosyne",
+   "year": "2020",
+   "iid": "126c9e0e-14fe-39e3-a703-c3931c0b903f",
+   "doi": "10.2307/26989180",
+   "title": "Mocking the Wasps or the Meaning of Homeric <em>kertomia</em> Again",
+   "author": "Janek Kucharski"
+  },
+  {
+   "book": "9",
+   "page": 477,
+   "section": "",
+   "line": 477,
+   "journal": "Mnemosyne",
+   "year": "2020",
+   "iid": "126c9e0e-14fe-39e3-a703-c3931c0b903f",
+   "doi": "10.2307/26989180",
+   "title": "Mocking the Wasps or the Meaning of Homeric <em>kertomia</em> Again",
+   "author": "Janek Kucharski"
+  },
+  {
+   "book": "9",
+   "page": 478,
+   "section": "",
+   "line": 478,
+   "journal": "Mnemosyne",
+   "year": "2020",
+   "iid": "126c9e0e-14fe-39e3-a703-c3931c0b903f",
+   "doi": "10.2307/26989180",
+   "title": "Mocking the Wasps or the Meaning of Homeric <em>kertomia</em> Again",
+   "author": "Janek Kucharski"
+  },
+  {
+   "book": "9",
+   "page": 479,
+   "section": "",
+   "line": 479,
    "journal": "Mnemosyne",
    "year": "2020",
    "iid": "126c9e0e-14fe-39e3-a703-c3931c0b903f",
@@ -261989,18 +259405,6 @@
    "page": 38,
    "section": "",
    "line": 38,
-   "journal": "Hermes",
-   "year": "1971",
-   "iid": "13b516d2-226f-30bf-adb2-12a5a4ec9967",
-   "doi": "10.2307/4475666",
-   "title": "Virgil, Minucius Felix and the Bible",
-   "author": "David S. Wiesen"
-  },
-  {
-   "book": "10",
-   "page": 626,
-   "section": "",
-   "line": 626,
    "journal": "Hermes",
    "year": "1971",
    "iid": "13b516d2-226f-30bf-adb2-12a5a4ec9967",
@@ -275953,18 +273357,6 @@
    "author": "Michael N. Nagler"
   },
   {
-   "book": "2",
-   "page": 598,
-   "section": "",
-   "line": 598,
-   "journal": "Transactions and Proceedings of the American Philological Association",
-   "year": "1967",
-   "iid": "1ddbcb4d-0fb0-3092-a1dc-3183f374f513",
-   "doi": "10.2307/2935878",
-   "title": "Towards a Generative View of the Oral Formula",
-   "author": "Michael N. Nagler"
-  },
-  {
    "book": "9",
    "page": 537,
    "section": "",
@@ -279373,102 +276765,6 @@
    "author": "Frank J. Nisetich"
   },
   {
-   "book": "2",
-   "page": 593,
-   "section": "",
-   "line": 593,
-   "journal": "Transactions of the American Philological Association (1974-2014)",
-   "year": "1977",
-   "iid": "1efb2270-c7fa-3cbd-95d9-28bde13642cc",
-   "doi": "10.2307/284038",
-   "title": "The Leaves of Triumph and Mortality: Transformation of a Traditional Image in Pindar's Olympian 12",
-   "author": "Frank J. Nisetich"
-  },
-  {
-   "book": "2",
-   "page": 594,
-   "section": "",
-   "line": 594,
-   "journal": "Transactions of the American Philological Association (1974-2014)",
-   "year": "1977",
-   "iid": "1efb2270-c7fa-3cbd-95d9-28bde13642cc",
-   "doi": "10.2307/284038",
-   "title": "The Leaves of Triumph and Mortality: Transformation of a Traditional Image in Pindar's Olympian 12",
-   "author": "Frank J. Nisetich"
-  },
-  {
-   "book": "2",
-   "page": 595,
-   "section": "",
-   "line": 595,
-   "journal": "Transactions of the American Philological Association (1974-2014)",
-   "year": "1977",
-   "iid": "1efb2270-c7fa-3cbd-95d9-28bde13642cc",
-   "doi": "10.2307/284038",
-   "title": "The Leaves of Triumph and Mortality: Transformation of a Traditional Image in Pindar's Olympian 12",
-   "author": "Frank J. Nisetich"
-  },
-  {
-   "book": "2",
-   "page": 596,
-   "section": "",
-   "line": 596,
-   "journal": "Transactions of the American Philological Association (1974-2014)",
-   "year": "1977",
-   "iid": "1efb2270-c7fa-3cbd-95d9-28bde13642cc",
-   "doi": "10.2307/284038",
-   "title": "The Leaves of Triumph and Mortality: Transformation of a Traditional Image in Pindar's Olympian 12",
-   "author": "Frank J. Nisetich"
-  },
-  {
-   "book": "2",
-   "page": 597,
-   "section": "",
-   "line": 597,
-   "journal": "Transactions of the American Philological Association (1974-2014)",
-   "year": "1977",
-   "iid": "1efb2270-c7fa-3cbd-95d9-28bde13642cc",
-   "doi": "10.2307/284038",
-   "title": "The Leaves of Triumph and Mortality: Transformation of a Traditional Image in Pindar's Olympian 12",
-   "author": "Frank J. Nisetich"
-  },
-  {
-   "book": "2",
-   "page": 598,
-   "section": "",
-   "line": 598,
-   "journal": "Transactions of the American Philological Association (1974-2014)",
-   "year": "1977",
-   "iid": "1efb2270-c7fa-3cbd-95d9-28bde13642cc",
-   "doi": "10.2307/284038",
-   "title": "The Leaves of Triumph and Mortality: Transformation of a Traditional Image in Pindar's Olympian 12",
-   "author": "Frank J. Nisetich"
-  },
-  {
-   "book": "2",
-   "page": 599,
-   "section": "",
-   "line": 599,
-   "journal": "Transactions of the American Philological Association (1974-2014)",
-   "year": "1977",
-   "iid": "1efb2270-c7fa-3cbd-95d9-28bde13642cc",
-   "doi": "10.2307/284038",
-   "title": "The Leaves of Triumph and Mortality: Transformation of a Traditional Image in Pindar's Olympian 12",
-   "author": "Frank J. Nisetich"
-  },
-  {
-   "book": "2",
-   "page": 600,
-   "section": "",
-   "line": 600,
-   "journal": "Transactions of the American Philological Association (1974-2014)",
-   "year": "1977",
-   "iid": "1efb2270-c7fa-3cbd-95d9-28bde13642cc",
-   "doi": "10.2307/284038",
-   "title": "The Leaves of Triumph and Mortality: Transformation of a Traditional Image in Pindar's Olympian 12",
-   "author": "Frank J. Nisetich"
-  },
-  {
    "book": "3",
    "page": 233,
    "section": "",
@@ -281075,18 +278371,6 @@
    "doi": "10.2307/311318",
    "title": "A Beggarly Boxer: Theocritus Idyll 22.134",
    "author": "Alexander Sens"
-  },
-  {
-   "book": "10",
-   "page": 601,
-   "section": "",
-   "line": 601,
-   "journal": "Hermes",
-   "year": "1999",
-   "iid": "1fd13070-a842-3fc4-a790-4a87b6d2437e",
-   "doi": "10.2307/4477301",
-   "title": "Zur Interpretation des sophokleischen Philoktet: Hartmut Erbse gewidmet",
-   "author": "Wolf Deicke"
   },
   {
    "book": "6",
@@ -292190,18 +289474,6 @@
   },
   {
    "book": "1",
-   "page": 491,
-   "section": "",
-   "line": 491,
-   "journal": "Harvard Studies in Classical Philology",
-   "year": "2007",
-   "iid": "25f3d8b9-760b-3e22-a220-f07c77e5c180",
-   "doi": "10.2307/30032219",
-   "title": "The Gods' Visit to the Ethiopians in \"Iliad\" 1",
-   "author": "Ruth Scodel"
-  },
-  {
-   "book": "1",
    "page": 328,
    "section": "",
    "line": 328,
@@ -297421,30 +294693,6 @@
    "author": "Giuseppe Giangrande"
   },
   {
-   "book": "6",
-   "page": 458,
-   "section": "",
-   "line": 458,
-   "journal": "Hermes",
-   "year": "1964",
-   "iid": "2a404400-c22a-3e5c-bf4b-02bdba5a647c",
-   "doi": "10.2307/4475322",
-   "title": "Beiträge zu den Dionysiaka des Nonnos",
-   "author": "Giuseppe Giangrande"
-  },
-  {
-   "book": "2",
-   "page": 701,
-   "section": "",
-   "line": 701,
-   "journal": "Rheinisches Museum für Philologie",
-   "year": "2018",
-   "iid": "2a86f799-0c2a-3b98-abd0-a07a9a0c56da",
-   "doi": "10.2307/45174372",
-   "title": "A NEW FRAGMENT OF PALAEPHATUS' \"TROJAN HISTORY\"?",
-   "author": "René Nünlist"
-  },
-  {
    "book": "4",
    "page": 445,
    "section": "",
@@ -298745,18 +295993,6 @@
    "page": 192,
    "section": "",
    "line": 192,
-   "journal": "Hermes",
-   "year": "1916",
-   "iid": "2b340246-17d1-372a-8a4d-1c14622b8b5b",
-   "doi": "10.2307/4473547",
-   "title": "Pamphilos",
-   "author": "M. Wellmann"
-  },
-  {
-   "book": "6",
-   "page": 400,
-   "section": "",
-   "line": 400,
    "journal": "Hermes",
    "year": "1916",
    "iid": "2b340246-17d1-372a-8a4d-1c14622b8b5b",
@@ -300973,18 +298209,6 @@
    "author": "F. Jacoby"
   },
   {
-   "book": "6",
-   "page": 354,
-   "section": "",
-   "line": 354,
-   "journal": "Hermes",
-   "year": "1926",
-   "iid": "2b9b325e-8917-3c56-8801-dba4648885a7",
-   "doi": "10.2307/4473993",
-   "title": "Hesiodstudien zur Theogonie",
-   "author": "F. Jacoby"
-  },
-  {
    "book": "4",
    "page": 123,
    "section": "",
@@ -301991,18 +299215,6 @@
    "doi": "10.2307/643123",
    "title": "Subject Reviews",
    "author": "Don Fowler, John Salmon, B. A. Sparkes, Richard Wallace, T. E. J. Wiedemann, Jenny March, P. Walcot"
-  },
-  {
-   "book": "1",
-   "page": 477,
-   "section": "",
-   "line": 477,
-   "journal": "Hermes",
-   "year": "2008",
-   "iid": "2bd6100b-1560-38d7-b92b-96c1be5676f8",
-   "doi": "10.2307/40379148",
-   "title": "Kritische Überlegungen zu den Fragmenten des Archilochos",
-   "author": "Thomas Gärtner"
   },
   {
    "book": "3",
@@ -327721,18 +324933,6 @@
    "author": "Jon Solomon"
   },
   {
-   "book": "7",
-   "page": 475,
-   "section": "",
-   "line": 475,
-   "journal": "Hermes",
-   "year": "1985",
-   "iid": "392f858c-a5ae-3b42-83a1-7e8bb3e9a372",
-   "doi": "10.2307/4476410",
-   "title": "In Defense of Hesiod's \"Schlechtestem Hexameter\"",
-   "author": "Jon Solomon"
-  },
-  {
    "book": "17",
    "page": 399,
    "section": "",
@@ -334441,18 +331641,6 @@
    "author": "Leslie Kurke"
   },
   {
-   "book": "2",
-   "page": 602,
-   "section": "",
-   "line": 602,
-   "journal": "Harvard Studies in Classical Philology",
-   "year": "1903",
-   "iid": "3e9c488f-b4f0-3a2e-a5af-bbc162726e5a",
-   "doi": "10.2307/310376",
-   "title": "Observations on the Fourth Eclogue of Virgil",
-   "author": "W. Warde Fowler"
-  },
-  {
    "book": "20",
    "page": 347,
    "section": "",
@@ -334463,306 +331651,6 @@
    "doi": "10.2307/311274",
    "title": "Vindiciae Horatianae",
    "author": "D. R. Shackleton Bailey"
-  },
-  {
-   "book": "6",
-   "page": 351,
-   "section": "",
-   "line": 351,
-   "journal": "The American Journal of Philology",
-   "year": "1980",
-   "iid": "3ead966d-85be-316f-9cec-32a4822e59a9",
-   "doi": "10.2307/294422",
-   "title": "The Aischylean Tetralogy: Attested and Conjectured Groups",
-   "author": "Timothy Gantz"
-  },
-  {
-   "book": "6",
-   "page": 352,
-   "section": "",
-   "line": 352,
-   "journal": "The American Journal of Philology",
-   "year": "1980",
-   "iid": "3ead966d-85be-316f-9cec-32a4822e59a9",
-   "doi": "10.2307/294422",
-   "title": "The Aischylean Tetralogy: Attested and Conjectured Groups",
-   "author": "Timothy Gantz"
-  },
-  {
-   "book": "6",
-   "page": 353,
-   "section": "",
-   "line": 353,
-   "journal": "The American Journal of Philology",
-   "year": "1980",
-   "iid": "3ead966d-85be-316f-9cec-32a4822e59a9",
-   "doi": "10.2307/294422",
-   "title": "The Aischylean Tetralogy: Attested and Conjectured Groups",
-   "author": "Timothy Gantz"
-  },
-  {
-   "book": "6",
-   "page": 354,
-   "section": "",
-   "line": 354,
-   "journal": "The American Journal of Philology",
-   "year": "1980",
-   "iid": "3ead966d-85be-316f-9cec-32a4822e59a9",
-   "doi": "10.2307/294422",
-   "title": "The Aischylean Tetralogy: Attested and Conjectured Groups",
-   "author": "Timothy Gantz"
-  },
-  {
-   "book": "6",
-   "page": 355,
-   "section": "",
-   "line": 355,
-   "journal": "The American Journal of Philology",
-   "year": "1980",
-   "iid": "3ead966d-85be-316f-9cec-32a4822e59a9",
-   "doi": "10.2307/294422",
-   "title": "The Aischylean Tetralogy: Attested and Conjectured Groups",
-   "author": "Timothy Gantz"
-  },
-  {
-   "book": "6",
-   "page": 356,
-   "section": "",
-   "line": 356,
-   "journal": "The American Journal of Philology",
-   "year": "1980",
-   "iid": "3ead966d-85be-316f-9cec-32a4822e59a9",
-   "doi": "10.2307/294422",
-   "title": "The Aischylean Tetralogy: Attested and Conjectured Groups",
-   "author": "Timothy Gantz"
-  },
-  {
-   "book": "6",
-   "page": 357,
-   "section": "",
-   "line": 357,
-   "journal": "The American Journal of Philology",
-   "year": "1980",
-   "iid": "3ead966d-85be-316f-9cec-32a4822e59a9",
-   "doi": "10.2307/294422",
-   "title": "The Aischylean Tetralogy: Attested and Conjectured Groups",
-   "author": "Timothy Gantz"
-  },
-  {
-   "book": "6",
-   "page": 358,
-   "section": "",
-   "line": 358,
-   "journal": "The American Journal of Philology",
-   "year": "1980",
-   "iid": "3ead966d-85be-316f-9cec-32a4822e59a9",
-   "doi": "10.2307/294422",
-   "title": "The Aischylean Tetralogy: Attested and Conjectured Groups",
-   "author": "Timothy Gantz"
-  },
-  {
-   "book": "6",
-   "page": 359,
-   "section": "",
-   "line": 359,
-   "journal": "The American Journal of Philology",
-   "year": "1980",
-   "iid": "3ead966d-85be-316f-9cec-32a4822e59a9",
-   "doi": "10.2307/294422",
-   "title": "The Aischylean Tetralogy: Attested and Conjectured Groups",
-   "author": "Timothy Gantz"
-  },
-  {
-   "book": "6",
-   "page": 360,
-   "section": "",
-   "line": 360,
-   "journal": "The American Journal of Philology",
-   "year": "1980",
-   "iid": "3ead966d-85be-316f-9cec-32a4822e59a9",
-   "doi": "10.2307/294422",
-   "title": "The Aischylean Tetralogy: Attested and Conjectured Groups",
-   "author": "Timothy Gantz"
-  },
-  {
-   "book": "6",
-   "page": 361,
-   "section": "",
-   "line": 361,
-   "journal": "The American Journal of Philology",
-   "year": "1980",
-   "iid": "3ead966d-85be-316f-9cec-32a4822e59a9",
-   "doi": "10.2307/294422",
-   "title": "The Aischylean Tetralogy: Attested and Conjectured Groups",
-   "author": "Timothy Gantz"
-  },
-  {
-   "book": "6",
-   "page": 362,
-   "section": "",
-   "line": 362,
-   "journal": "The American Journal of Philology",
-   "year": "1980",
-   "iid": "3ead966d-85be-316f-9cec-32a4822e59a9",
-   "doi": "10.2307/294422",
-   "title": "The Aischylean Tetralogy: Attested and Conjectured Groups",
-   "author": "Timothy Gantz"
-  },
-  {
-   "book": "6",
-   "page": 363,
-   "section": "",
-   "line": 363,
-   "journal": "The American Journal of Philology",
-   "year": "1980",
-   "iid": "3ead966d-85be-316f-9cec-32a4822e59a9",
-   "doi": "10.2307/294422",
-   "title": "The Aischylean Tetralogy: Attested and Conjectured Groups",
-   "author": "Timothy Gantz"
-  },
-  {
-   "book": "6",
-   "page": 364,
-   "section": "",
-   "line": 364,
-   "journal": "The American Journal of Philology",
-   "year": "1980",
-   "iid": "3ead966d-85be-316f-9cec-32a4822e59a9",
-   "doi": "10.2307/294422",
-   "title": "The Aischylean Tetralogy: Attested and Conjectured Groups",
-   "author": "Timothy Gantz"
-  },
-  {
-   "book": "6",
-   "page": 365,
-   "section": "",
-   "line": 365,
-   "journal": "The American Journal of Philology",
-   "year": "1980",
-   "iid": "3ead966d-85be-316f-9cec-32a4822e59a9",
-   "doi": "10.2307/294422",
-   "title": "The Aischylean Tetralogy: Attested and Conjectured Groups",
-   "author": "Timothy Gantz"
-  },
-  {
-   "book": "6",
-   "page": 366,
-   "section": "",
-   "line": 366,
-   "journal": "The American Journal of Philology",
-   "year": "1980",
-   "iid": "3ead966d-85be-316f-9cec-32a4822e59a9",
-   "doi": "10.2307/294422",
-   "title": "The Aischylean Tetralogy: Attested and Conjectured Groups",
-   "author": "Timothy Gantz"
-  },
-  {
-   "book": "6",
-   "page": 367,
-   "section": "",
-   "line": 367,
-   "journal": "The American Journal of Philology",
-   "year": "1980",
-   "iid": "3ead966d-85be-316f-9cec-32a4822e59a9",
-   "doi": "10.2307/294422",
-   "title": "The Aischylean Tetralogy: Attested and Conjectured Groups",
-   "author": "Timothy Gantz"
-  },
-  {
-   "book": "6",
-   "page": 368,
-   "section": "",
-   "line": 368,
-   "journal": "The American Journal of Philology",
-   "year": "1980",
-   "iid": "3ead966d-85be-316f-9cec-32a4822e59a9",
-   "doi": "10.2307/294422",
-   "title": "The Aischylean Tetralogy: Attested and Conjectured Groups",
-   "author": "Timothy Gantz"
-  },
-  {
-   "book": "6",
-   "page": 369,
-   "section": "",
-   "line": 369,
-   "journal": "The American Journal of Philology",
-   "year": "1980",
-   "iid": "3ead966d-85be-316f-9cec-32a4822e59a9",
-   "doi": "10.2307/294422",
-   "title": "The Aischylean Tetralogy: Attested and Conjectured Groups",
-   "author": "Timothy Gantz"
-  },
-  {
-   "book": "6",
-   "page": 370,
-   "section": "",
-   "line": 370,
-   "journal": "The American Journal of Philology",
-   "year": "1980",
-   "iid": "3ead966d-85be-316f-9cec-32a4822e59a9",
-   "doi": "10.2307/294422",
-   "title": "The Aischylean Tetralogy: Attested and Conjectured Groups",
-   "author": "Timothy Gantz"
-  },
-  {
-   "book": "6",
-   "page": 371,
-   "section": "",
-   "line": 371,
-   "journal": "The American Journal of Philology",
-   "year": "1980",
-   "iid": "3ead966d-85be-316f-9cec-32a4822e59a9",
-   "doi": "10.2307/294422",
-   "title": "The Aischylean Tetralogy: Attested and Conjectured Groups",
-   "author": "Timothy Gantz"
-  },
-  {
-   "book": "6",
-   "page": 372,
-   "section": "",
-   "line": 372,
-   "journal": "The American Journal of Philology",
-   "year": "1980",
-   "iid": "3ead966d-85be-316f-9cec-32a4822e59a9",
-   "doi": "10.2307/294422",
-   "title": "The Aischylean Tetralogy: Attested and Conjectured Groups",
-   "author": "Timothy Gantz"
-  },
-  {
-   "book": "6",
-   "page": 373,
-   "section": "",
-   "line": 373,
-   "journal": "The American Journal of Philology",
-   "year": "1980",
-   "iid": "3ead966d-85be-316f-9cec-32a4822e59a9",
-   "doi": "10.2307/294422",
-   "title": "The Aischylean Tetralogy: Attested and Conjectured Groups",
-   "author": "Timothy Gantz"
-  },
-  {
-   "book": "6",
-   "page": 374,
-   "section": "",
-   "line": 374,
-   "journal": "The American Journal of Philology",
-   "year": "1980",
-   "iid": "3ead966d-85be-316f-9cec-32a4822e59a9",
-   "doi": "10.2307/294422",
-   "title": "The Aischylean Tetralogy: Attested and Conjectured Groups",
-   "author": "Timothy Gantz"
-  },
-  {
-   "book": "6",
-   "page": 375,
-   "section": "",
-   "line": 375,
-   "journal": "The American Journal of Philology",
-   "year": "1980",
-   "iid": "3ead966d-85be-316f-9cec-32a4822e59a9",
-   "doi": "10.2307/294422",
-   "title": "The Aischylean Tetralogy: Attested and Conjectured Groups",
-   "author": "Timothy Gantz"
   },
   {
    "book": "9",
@@ -335663,18 +332551,6 @@
    "doi": "10.2307/1562181",
    "title": "The Ongoing Neikos: Thersites, Odysseus, and Achilleus",
    "author": "J. Marks"
-  },
-  {
-   "book": "8",
-   "page": 796,
-   "section": "",
-   "line": 796,
-   "journal": "Hermes",
-   "year": "1893",
-   "iid": "3f205df0-4519-3395-aa6a-63ca20647f0f",
-   "doi": "10.2307/4472414",
-   "title": "Vergilstudien",
-   "author": "E. Norden"
   },
   {
    "book": "9",
@@ -358129,18 +355005,6 @@
    "author": "David Sider"
   },
   {
-   "book": "7",
-   "page": 424,
-   "section": "",
-   "line": 424,
-   "journal": "Zeitschrift für katholische Theologie",
-   "year": "1931",
-   "iid": "4ae17028-2b69-3fad-8734-72beac93155b",
-   "doi": "10.2307/24182562",
-   "title": "Maria in Kana (Jo 2,1—11)",
-   "author": "Paul Gächter"
-  },
-  {
    "book": "19",
    "page": 107,
    "section": "",
@@ -361357,18 +358221,6 @@
    "author": "Richard L. Phillips"
   },
   {
-   "book": "6",
-   "page": 567,
-   "section": "",
-   "line": 567,
-   "journal": "Hermes",
-   "year": "1986",
-   "iid": "4cc10ea8-8cb6-3c84-83e7-583ccafa10cd",
-   "doi": "10.2307/4476524",
-   "title": "Symbolism and Imagery in the Poetry of Ibycus",
-   "author": "Malcolm Davies"
-  },
-  {
    "book": "4",
    "page": 787,
    "section": "",
@@ -363011,18 +359863,6 @@
    "doi": "10.2307/4431688",
    "title": "",
    "author": "G. Wickert-Micknat, J. M. Hemelrijk"
-  },
-  {
-   "book": "8",
-   "page": 820,
-   "section": "",
-   "line": 820,
-   "journal": "Mnemosyne",
-   "year": "1952",
-   "iid": "4f4db4db-b1f2-3f21-abd5-099db143c41f",
-   "doi": "10.2307/4427386",
-   "title": "Atakta",
-   "author": "W. C. Helmbold"
   },
   {
    "book": "9",
@@ -365453,18 +362293,6 @@
    "page": 379,
    "section": "",
    "line": 379,
-   "journal": "Hermes",
-   "year": "1970",
-   "iid": "505aaa57-e1bc-32e9-869a-e3b2c86e2886",
-   "doi": "10.2307/4475643",
-   "title": "Der Stilistische Gebrauch der Dorismen im Epos",
-   "author": "Giuseppe Giangrande"
-  },
-  {
-   "book": "2",
-   "page": 556,
-   "section": "",
-   "line": 556,
    "journal": "Hermes",
    "year": "1970",
    "iid": "505aaa57-e1bc-32e9-869a-e3b2c86e2886",
@@ -373037,18 +369865,6 @@
    "page": 231,
    "section": "",
    "line": 231,
-   "journal": "Transactions and Proceedings of the American Philological Association",
-   "year": "1954",
-   "iid": "56f6458e-c95a-3906-b2e6-04d0b9cdc173",
-   "doi": "10.2307/283476",
-   "title": "Partitive Apposition in Homer and the Greek Accusative",
-   "author": "E. Adelaide Hahn"
-  },
-  {
-   "book": "12",
-   "page": 733,
-   "section": "",
-   "line": 733,
    "journal": "Transactions and Proceedings of the American Philological Association",
    "year": "1954",
    "iid": "56f6458e-c95a-3906-b2e6-04d0b9cdc173",
@@ -381563,18 +378379,6 @@
    "doi": "10.2307/41233546",
    "title": "DIE ARCHILOCHOSLEGENDE",
    "author": "Carl Werner Müller"
-  },
-  {
-   "book": "1",
-   "page": 606,
-   "section": "",
-   "line": 606,
-   "journal": "Mnemosyne",
-   "year": "1893",
-   "iid": "5accd504-d03a-33ce-a396-fe5e3e9f7fc7",
-   "doi": "10.2307/4424982",
-   "title": "Ad hymnos Homericos",
-   "author": "H. van Herwerden"
   },
   {
    "book": "3",
@@ -391253,18 +388057,6 @@
    "page": 145,
    "section": "",
    "line": 145,
-   "journal": "Hermes",
-   "year": "2020",
-   "iid": "60e294bb-1f5c-3ead-95ae-36f349474179",
-   "doi": "10.2307/48590978",
-   "title": "A Poetics of Competition in Conjugal Bedroom Conversation in the “Iliad”, the “Odyssey”, and the “Argonautica”",
-   "author": "KATHARINA EPSTEIN"
-  },
-  {
-   "book": "7",
-   "page": 348,
-   "section": "",
-   "line": 348,
    "journal": "Hermes",
    "year": "2020",
    "iid": "60e294bb-1f5c-3ead-95ae-36f349474179",
@@ -414505,18 +411297,6 @@
    "author": "Liana Lomiento"
   },
   {
-   "book": "6",
-   "page": 477,
-   "section": "",
-   "line": 477,
-   "journal": "Rheinisches Museum für Philologie",
-   "year": "1881",
-   "iid": "6e103b65-e447-3ae4-a6a9-672a826b5e39",
-   "doi": "10.2307/41247332",
-   "title": "Studien zur Chronologie der griechischen\n                            Literaturgeschichte",
-   "author": "Erwin Rohde"
-  },
-  {
    "book": "15",
    "page": 418,
    "section": "",
@@ -414961,34 +411741,10 @@
    "author": ""
   },
   {
-   "book": "20",
-   "page": 511,
-   "section": "",
-   "line": 511,
-   "journal": "Transactions and Proceedings of the American Philological Association",
-   "year": "1902",
-   "iid": "6eb1e232-235e-3514-9703-fbd2601c2b64",
-   "doi": "10.2307/282594",
-   "title": "Proceedings of the Thirty-Fourth Annual Session of the American Philological Association Held at Schenectady, N. Y., July, 1902, Also of the Session of the Philological Association of the Pacific Coast Held at San Francisco, Cal., Dec., 1901",
-   "author": ""
-  },
-  {
    "book": "2",
    "page": 35,
    "section": "",
    "line": 35,
-   "journal": "Transactions and Proceedings of the American Philological Association",
-   "year": "1902",
-   "iid": "6eb1e232-235e-3514-9703-fbd2601c2b64",
-   "doi": "10.2307/282594",
-   "title": "Proceedings of the Thirty-Fourth Annual Session of the American Philological Association Held at Schenectady, N. Y., July, 1902, Also of the Session of the Philological Association of the Pacific Coast Held at San Francisco, Cal., Dec., 1901",
-   "author": ""
-  },
-  {
-   "book": "2",
-   "page": 604,
-   "section": "",
-   "line": 604,
    "journal": "Transactions and Proceedings of the American Philological Association",
    "year": "1902",
    "iid": "6eb1e232-235e-3514-9703-fbd2601c2b64",
@@ -419869,18 +416625,6 @@
    "author": "E. Hiller"
   },
   {
-   "book": "10",
-   "page": 604,
-   "section": "",
-   "line": 604,
-   "journal": "Rheinisches Museum für Philologie",
-   "year": "1887",
-   "iid": "70a56727-643e-331d-a151-e0d4e84e4bef",
-   "doi": "10.2307/41248128",
-   "title": "Beiträge zur griechischen Litteraturgeschichte (Fortsetzung)",
-   "author": "E. Hiller"
-  },
-  {
    "book": "8",
    "page": 179,
    "section": "",
@@ -423589,34 +420333,10 @@
    "author": "David W. Packard"
   },
   {
-   "book": "2",
-   "page": 598,
-   "section": "",
-   "line": 598,
-   "journal": "Transactions of the American Philological Association (1974-2014)",
-   "year": "1974",
-   "iid": "7477beb7-6dbf-37b1-9e29-a796648ece84",
-   "doi": "10.2307/2936092",
-   "title": "Sound-Patterns in Homer",
-   "author": "David W. Packard"
-  },
-  {
    "book": "4",
    "page": 783,
    "section": "",
    "line": 783,
-   "journal": "Transactions of the American Philological Association (1974-2014)",
-   "year": "1974",
-   "iid": "7477beb7-6dbf-37b1-9e29-a796648ece84",
-   "doi": "10.2307/2936092",
-   "title": "Sound-Patterns in Homer",
-   "author": "David W. Packard"
-  },
-  {
-   "book": "2",
-   "page": 596,
-   "section": "",
-   "line": 596,
    "journal": "Transactions of the American Philological Association (1974-2014)",
    "year": "1974",
    "iid": "7477beb7-6dbf-37b1-9e29-a796648ece84",
@@ -424175,18 +420895,6 @@
    "doi": "10.2307/20547262",
    "title": "Note al \"Ciclope\" di Euripide",
    "author": "Emanuela Masaracchia"
-  },
-  {
-   "book": "6",
-   "page": 368,
-   "section": "",
-   "line": 368,
-   "journal": "Hermes",
-   "year": "2000",
-   "iid": "75087ddf-96a8-3c70-859d-167c11136e6e",
-   "doi": "10.2307/4477391",
-   "title": "Aristophanes' Acharnians 95-97 and 100: Persians in the Athenian Assembly",
-   "author": "John Aveline"
   },
   {
    "book": "9",
@@ -429263,18 +425971,6 @@
    "doi": "10.2307/3298018",
    "title": "Poetic Justice: Homer's Death in the Ancient Biographical Tradition",
    "author": "Daniel B. Levine"
-  },
-  {
-   "book": "6",
-   "page": 841,
-   "section": "",
-   "line": 841,
-   "journal": "Hermes",
-   "year": "1988",
-   "iid": "777373cf-5c0e-3600-973b-fbf209fc6d09",
-   "doi": "10.2307/4476623",
-   "title": "The Milking-Time of Night",
-   "author": "Robert J. Edgeworth"
   },
   {
    "book": "11",
@@ -444313,18 +441009,6 @@
    "author": "M. Steinrück"
   },
   {
-   "book": "5",
-   "page": 526,
-   "section": "",
-   "line": 526,
-   "journal": "Mnemosyne",
-   "year": "1999",
-   "iid": "7eb3e1e0-5fef-3733-827f-31baa8ba4214",
-   "doi": "10.2307/4432946",
-   "title": "Homer bei Sappho?",
-   "author": "M. Steinrück"
-  },
-  {
    "book": "11",
    "page": 450,
    "section": "",
@@ -451525,18 +448209,6 @@
    "author": "CELIA CAMPBELL"
   },
   {
-   "book": "11",
-   "page": 756,
-   "section": "",
-   "line": 756,
-   "journal": "Greece & Rome",
-   "year": "2018",
-   "iid": "81e60bf5-f6bd-3a07-8a49-fe45326990f0",
-   "doi": "10.2307/26782294",
-   "title": "(POETIC) LICENCE TO KILL",
-   "author": "CELIA CAMPBELL"
-  },
-  {
    "book": "8",
    "page": 64,
    "section": "",
@@ -451613,30 +448285,6 @@
    "page": 556,
    "section": "",
    "line": 556,
-   "journal": "Harvard Studies in Classical Philology",
-   "year": "1969",
-   "iid": "83007a58-7ca9-3cd0-a5e2-4ba51c7f9cb1",
-   "doi": "10.2307/311148",
-   "title": "Bacchylides' Ode 5: Imitation and Originality",
-   "author": "Mary R. Lefkowitz"
-  },
-  {
-   "book": "1",
-   "page": 623,
-   "section": "",
-   "line": 623,
-   "journal": "Harvard Studies in Classical Philology",
-   "year": "1969",
-   "iid": "83007a58-7ca9-3cd0-a5e2-4ba51c7f9cb1",
-   "doi": "10.2307/311148",
-   "title": "Bacchylides' Ode 5: Imitation and Originality",
-   "author": "Mary R. Lefkowitz"
-  },
-  {
-   "book": "1",
-   "page": 624,
-   "section": "",
-   "line": 624,
    "journal": "Harvard Studies in Classical Philology",
    "year": "1969",
    "iid": "83007a58-7ca9-3cd0-a5e2-4ba51c7f9cb1",
@@ -451793,6 +448441,30 @@
    "page": 622,
    "section": "",
    "line": 622,
+   "journal": "Harvard Studies in Classical Philology",
+   "year": "1969",
+   "iid": "83007a58-7ca9-3cd0-a5e2-4ba51c7f9cb1",
+   "doi": "10.2307/311148",
+   "title": "Bacchylides' Ode 5: Imitation and Originality",
+   "author": "Mary R. Lefkowitz"
+  },
+  {
+   "book": "11",
+   "page": 623,
+   "section": "",
+   "line": 623,
+   "journal": "Harvard Studies in Classical Philology",
+   "year": "1969",
+   "iid": "83007a58-7ca9-3cd0-a5e2-4ba51c7f9cb1",
+   "doi": "10.2307/311148",
+   "title": "Bacchylides' Ode 5: Imitation and Originality",
+   "author": "Mary R. Lefkowitz"
+  },
+  {
+   "book": "11",
+   "page": 624,
+   "section": "",
+   "line": 624,
    "journal": "Harvard Studies in Classical Philology",
    "year": "1969",
    "iid": "83007a58-7ca9-3cd0-a5e2-4ba51c7f9cb1",
@@ -467713,18 +464385,6 @@
    "author": ""
   },
   {
-   "book": "2",
-   "page": 539,
-   "section": "",
-   "line": 539,
-   "journal": "Harvard Studies in Classical Philology",
-   "year": "1961",
-   "iid": "8b884100-08c6-359e-8e08-8a68f43e0fea",
-   "doi": "10.2307/310837",
-   "title": "The Character and Cults of Dionysus and the Unity of the Frogs",
-   "author": "Charles Paul Segal"
-  },
-  {
    "book": "8",
    "page": 474,
    "section": "",
@@ -479377,18 +476037,6 @@
    "author": "Gerald K. Gresseth"
   },
   {
-   "book": "10",
-   "page": 582,
-   "section": "",
-   "line": 582,
-   "journal": "Rheinisches Museum für Philologie",
-   "year": "1908",
-   "iid": "93abb69e-31f9-3c7f-b777-87047f1bb1f3",
-   "doi": "10.2307/41247073",
-   "title": "MOTIV UND PERSÖNLICHKEIT",
-   "author": "L. Radermacher"
-  },
-  {
    "book": "13",
    "page": 182,
    "section": "",
@@ -479399,18 +476047,6 @@
    "doi": "10.2307/44740690",
    "title": "\"PEANI AL DODICESIMO GIORNO PER SESSANTA GIORN\" (APOLLON. \"HIST. MIRAB.\" 40 = ARISTOX. FR. 117 WEHRLI)",
    "author": "Carmine Catenacci"
-  },
-  {
-   "book": "6",
-   "page": 690,
-   "section": "",
-   "line": 690,
-   "journal": "Hermes",
-   "year": "1886",
-   "iid": "93a41672-45c9-3b45-b38b-41c388926030",
-   "doi": "10.2307/4472019",
-   "title": "In Marci Antonini Commentarios Analecta Critica. I",
-   "author": "H. I. Polak"
   },
   {
    "book": "23",
@@ -484741,18 +481377,6 @@
    "author": "Ruobing Xian"
   },
   {
-   "book": "13",
-   "page": 539,
-   "section": "",
-   "line": 539,
-   "journal": "Mnemosyne",
-   "year": "2017",
-   "iid": "970fc064-f6a3-3f15-832d-b8b7caf88ae3",
-   "doi": "10.2307/26572851",
-   "title": "Die Ithakalandschaft in <em>Od</em>. 13",
-   "author": "Ruobing Xian"
-  },
-  {
    "book": "9",
    "page": 136,
    "section": "",
@@ -484865,18 +481489,6 @@
    "page": 359,
    "section": "",
    "line": 359,
-   "journal": "Mnemosyne",
-   "year": "2017",
-   "iid": "970fc064-f6a3-3f15-832d-b8b7caf88ae3",
-   "doi": "10.2307/26572851",
-   "title": "Die Ithakalandschaft in <em>Od</em>. 13",
-   "author": "Ruobing Xian"
-  },
-  {
-   "book": "13",
-   "page": 541,
-   "section": "",
-   "line": 541,
    "journal": "Mnemosyne",
    "year": "2017",
    "iid": "970fc064-f6a3-3f15-832d-b8b7caf88ae3",
@@ -485066,18 +481678,6 @@
   },
   {
    "book": "13",
-   "page": 543,
-   "section": "",
-   "line": 543,
-   "journal": "Mnemosyne",
-   "year": "2017",
-   "iid": "970fc064-f6a3-3f15-832d-b8b7caf88ae3",
-   "doi": "10.2307/26572851",
-   "title": "Die Ithakalandschaft in <em>Od</em>. 13",
-   "author": "Ruobing Xian"
-  },
-  {
-   "book": "13",
    "page": 113,
    "section": "",
    "line": 113,
@@ -485233,34 +481833,10 @@
    "author": "Ruobing Xian"
   },
   {
-   "book": "13",
-   "page": 545,
-   "section": "",
-   "line": 545,
-   "journal": "Mnemosyne",
-   "year": "2017",
-   "iid": "970fc064-f6a3-3f15-832d-b8b7caf88ae3",
-   "doi": "10.2307/26572851",
-   "title": "Die Ithakalandschaft in <em>Od</em>. 13",
-   "author": "Ruobing Xian"
-  },
-  {
    "book": "12",
    "page": 70,
    "section": "",
    "line": 70,
-   "journal": "Mnemosyne",
-   "year": "2017",
-   "iid": "970fc064-f6a3-3f15-832d-b8b7caf88ae3",
-   "doi": "10.2307/26572851",
-   "title": "Die Ithakalandschaft in <em>Od</em>. 13",
-   "author": "Ruobing Xian"
-  },
-  {
-   "book": "13",
-   "page": 547,
-   "section": "",
-   "line": 547,
    "journal": "Mnemosyne",
    "year": "2017",
    "iid": "970fc064-f6a3-3f15-832d-b8b7caf88ae3",
@@ -485321,18 +481897,6 @@
    "page": 353,
    "section": "",
    "line": 353,
-   "journal": "Mnemosyne",
-   "year": "2017",
-   "iid": "970fc064-f6a3-3f15-832d-b8b7caf88ae3",
-   "doi": "10.2307/26572851",
-   "title": "Die Ithakalandschaft in <em>Od</em>. 13",
-   "author": "Ruobing Xian"
-  },
-  {
-   "book": "13",
-   "page": 549,
-   "section": "",
-   "line": 549,
    "journal": "Mnemosyne",
    "year": "2017",
    "iid": "970fc064-f6a3-3f15-832d-b8b7caf88ae3",
@@ -485426,33 +481990,9 @@
   },
   {
    "book": "13",
-   "page": 551,
-   "section": "",
-   "line": 551,
-   "journal": "Mnemosyne",
-   "year": "2017",
-   "iid": "970fc064-f6a3-3f15-832d-b8b7caf88ae3",
-   "doi": "10.2307/26572851",
-   "title": "Die Ithakalandschaft in <em>Od</em>. 13",
-   "author": "Ruobing Xian"
-  },
-  {
-   "book": "13",
    "page": 360,
    "section": "",
    "line": 360,
-   "journal": "Mnemosyne",
-   "year": "2017",
-   "iid": "970fc064-f6a3-3f15-832d-b8b7caf88ae3",
-   "doi": "10.2307/26572851",
-   "title": "Die Ithakalandschaft in <em>Od</em>. 13",
-   "author": "Ruobing Xian"
-  },
-  {
-   "book": "13",
-   "page": 553,
-   "section": "",
-   "line": 553,
    "journal": "Mnemosyne",
    "year": "2017",
    "iid": "970fc064-f6a3-3f15-832d-b8b7caf88ae3",
@@ -485537,30 +482077,6 @@
    "page": 196,
    "section": "",
    "line": 196,
-   "journal": "Mnemosyne",
-   "year": "2017",
-   "iid": "970fc064-f6a3-3f15-832d-b8b7caf88ae3",
-   "doi": "10.2307/26572851",
-   "title": "Die Ithakalandschaft in <em>Od</em>. 13",
-   "author": "Ruobing Xian"
-  },
-  {
-   "book": "13",
-   "page": 555,
-   "section": "",
-   "line": 555,
-   "journal": "Mnemosyne",
-   "year": "2017",
-   "iid": "970fc064-f6a3-3f15-832d-b8b7caf88ae3",
-   "doi": "10.2307/26572851",
-   "title": "Die Ithakalandschaft in <em>Od</em>. 13",
-   "author": "Ruobing Xian"
-  },
-  {
-   "book": "13",
-   "page": 557,
-   "section": "",
-   "line": 557,
    "journal": "Mnemosyne",
    "year": "2017",
    "iid": "970fc064-f6a3-3f15-832d-b8b7caf88ae3",
@@ -485657,30 +482173,6 @@
    "page": 417,
    "section": "",
    "line": 417,
-   "journal": "Mnemosyne",
-   "year": "2017",
-   "iid": "970fc064-f6a3-3f15-832d-b8b7caf88ae3",
-   "doi": "10.2307/26572851",
-   "title": "Die Ithakalandschaft in <em>Od</em>. 13",
-   "author": "Ruobing Xian"
-  },
-  {
-   "book": "13",
-   "page": 559,
-   "section": "",
-   "line": 559,
-   "journal": "Mnemosyne",
-   "year": "2017",
-   "iid": "970fc064-f6a3-3f15-832d-b8b7caf88ae3",
-   "doi": "10.2307/26572851",
-   "title": "Die Ithakalandschaft in <em>Od</em>. 13",
-   "author": "Ruobing Xian"
-  },
-  {
-   "book": "13",
-   "page": 561,
-   "section": "",
-   "line": 561,
    "journal": "Mnemosyne",
    "year": "2017",
    "iid": "970fc064-f6a3-3f15-832d-b8b7caf88ae3",
@@ -508166,30 +504658,6 @@
   },
   {
    "book": "11",
-   "page": 691,
-   "section": "",
-   "line": 691,
-   "journal": "Mnemosyne",
-   "year": "2013",
-   "iid": "a406117d-b837-3b04-ae08-185d17121fbb",
-   "doi": "10.2307/24521805",
-   "title": "The Future's not Bright: Rereading \"Aeneid\" 6.725-51",
-   "author": "Gillian E. McIntosh"
-  },
-  {
-   "book": "11",
-   "page": 692,
-   "section": "",
-   "line": 692,
-   "journal": "Mnemosyne",
-   "year": "2013",
-   "iid": "a406117d-b837-3b04-ae08-185d17121fbb",
-   "doi": "10.2307/24521805",
-   "title": "The Future's not Bright: Rereading \"Aeneid\" 6.725-51",
-   "author": "Gillian E. McIntosh"
-  },
-  {
-   "book": "11",
    "page": 555,
    "section": "",
    "line": 555,
@@ -512399,18 +508867,6 @@
    "doi": "10.2307/25799969",
    "title": "Marriage, Cosmic Tranquility, and the Homeric Retiring Scene",
    "author": "EMILY B. WEST"
-  },
-  {
-   "book": "6",
-   "page": 624,
-   "section": "",
-   "line": 624,
-   "journal": "Hermes",
-   "year": "1998",
-   "iid": "a5b458d7-5803-372c-87ab-1f78f73e7f58",
-   "doi": "10.2307/4477242",
-   "title": "Homerisches Erzählen und das Problem der Gleichzeitigkeit",
-   "author": "Gustav Adolf Seeck"
   },
   {
    "book": "1",
@@ -522865,18 +519321,6 @@
    "author": "Owen C. Cramer"
   },
   {
-   "book": "2",
-   "page": 582,
-   "section": "",
-   "line": 582,
-   "journal": "Transactions of the American Philological Association (1974-2014)",
-   "year": "1974",
-   "iid": "ac595f4c-4156-3761-a195-4113b854ba11",
-   "doi": "10.2307/2936080",
-   "title": "Ulysses the Good? What is the Formula at Od. 2.71, 3.98, 4.328?",
-   "author": "Owen C. Cramer"
-  },
-  {
    "book": "4",
    "page": 726,
    "section": "",
@@ -530665,18 +527109,6 @@
    "author": "Andrew M. Miller"
   },
   {
-   "book": "2",
-   "page": 603,
-   "section": "",
-   "line": 603,
-   "journal": "Transactions of the American Philological Association (1974-2014)",
-   "year": "1977",
-   "iid": "b0bde839-54dc-3c25-93b9-6e322efc82bc",
-   "doi": "10.2307/284037",
-   "title": "Thalia Erasimolpos: Consolation in Pindar's Fourteenth Olympian",
-   "author": "Andrew M. Miller"
-  },
-  {
    "book": "3",
    "page": 420,
    "section": "",
@@ -533489,18 +529921,6 @@
    "page": 299,
    "section": "",
    "line": 299,
-   "journal": "Rheinisches Museum für Philologie",
-   "year": "1905",
-   "iid": "b2d3661b-9a09-3385-ae05-500ab29635fd",
-   "doi": "10.2307/41246995",
-   "title": "AUS VERGILS DICHTERWERKSTÄTTE",
-   "author": "Paul Jahn"
-  },
-  {
-   "book": "13",
-   "page": 474,
-   "section": "",
-   "line": 474,
    "journal": "Rheinisches Museum für Philologie",
    "year": "1905",
    "iid": "b2d3661b-9a09-3385-ae05-500ab29635fd",
@@ -540755,114 +537175,6 @@
    "doi": "10.2307/4427075",
    "title": "The Meaning of ΗΘΟΣ and ΗΘΙΚΟΣ in Aristotle's \"Poetics\"",
    "author": "W. J. Verdenius"
-  },
-  {
-   "book": "8",
-   "page": 581,
-   "section": "",
-   "line": 581,
-   "journal": "Mnemosyne",
-   "year": "2007",
-   "iid": "b67a8002-cd31-36b4-941d-013c3f4aa9c6",
-   "doi": "10.2307/4433814",
-   "title": "'Microstructure' in Greek Tragedy: From Bad to Worse: Wrong Guesses in Euripidean Stichomythia (Including a Comparison with Aeschylus and Sophocles). Part II. The Larger Context",
-   "author": "M. Dubischar"
-  },
-  {
-   "book": "8",
-   "page": 582,
-   "section": "",
-   "line": 582,
-   "journal": "Mnemosyne",
-   "year": "2007",
-   "iid": "b67a8002-cd31-36b4-941d-013c3f4aa9c6",
-   "doi": "10.2307/4433814",
-   "title": "'Microstructure' in Greek Tragedy: From Bad to Worse: Wrong Guesses in Euripidean Stichomythia (Including a Comparison with Aeschylus and Sophocles). Part II. The Larger Context",
-   "author": "M. Dubischar"
-  },
-  {
-   "book": "8",
-   "page": 583,
-   "section": "",
-   "line": 583,
-   "journal": "Mnemosyne",
-   "year": "2007",
-   "iid": "b67a8002-cd31-36b4-941d-013c3f4aa9c6",
-   "doi": "10.2307/4433814",
-   "title": "'Microstructure' in Greek Tragedy: From Bad to Worse: Wrong Guesses in Euripidean Stichomythia (Including a Comparison with Aeschylus and Sophocles). Part II. The Larger Context",
-   "author": "M. Dubischar"
-  },
-  {
-   "book": "8",
-   "page": 584,
-   "section": "",
-   "line": 584,
-   "journal": "Mnemosyne",
-   "year": "2007",
-   "iid": "b67a8002-cd31-36b4-941d-013c3f4aa9c6",
-   "doi": "10.2307/4433814",
-   "title": "'Microstructure' in Greek Tragedy: From Bad to Worse: Wrong Guesses in Euripidean Stichomythia (Including a Comparison with Aeschylus and Sophocles). Part II. The Larger Context",
-   "author": "M. Dubischar"
-  },
-  {
-   "book": "8",
-   "page": 585,
-   "section": "",
-   "line": 585,
-   "journal": "Mnemosyne",
-   "year": "2007",
-   "iid": "b67a8002-cd31-36b4-941d-013c3f4aa9c6",
-   "doi": "10.2307/4433814",
-   "title": "'Microstructure' in Greek Tragedy: From Bad to Worse: Wrong Guesses in Euripidean Stichomythia (Including a Comparison with Aeschylus and Sophocles). Part II. The Larger Context",
-   "author": "M. Dubischar"
-  },
-  {
-   "book": "8",
-   "page": 586,
-   "section": "",
-   "line": 586,
-   "journal": "Mnemosyne",
-   "year": "2007",
-   "iid": "b67a8002-cd31-36b4-941d-013c3f4aa9c6",
-   "doi": "10.2307/4433814",
-   "title": "'Microstructure' in Greek Tragedy: From Bad to Worse: Wrong Guesses in Euripidean Stichomythia (Including a Comparison with Aeschylus and Sophocles). Part II. The Larger Context",
-   "author": "M. Dubischar"
-  },
-  {
-   "book": "8",
-   "page": 587,
-   "section": "",
-   "line": 587,
-   "journal": "Mnemosyne",
-   "year": "2007",
-   "iid": "b67a8002-cd31-36b4-941d-013c3f4aa9c6",
-   "doi": "10.2307/4433814",
-   "title": "'Microstructure' in Greek Tragedy: From Bad to Worse: Wrong Guesses in Euripidean Stichomythia (Including a Comparison with Aeschylus and Sophocles). Part II. The Larger Context",
-   "author": "M. Dubischar"
-  },
-  {
-   "book": "8",
-   "page": 588,
-   "section": "",
-   "line": 588,
-   "journal": "Mnemosyne",
-   "year": "2007",
-   "iid": "b67a8002-cd31-36b4-941d-013c3f4aa9c6",
-   "doi": "10.2307/4433814",
-   "title": "'Microstructure' in Greek Tragedy: From Bad to Worse: Wrong Guesses in Euripidean Stichomythia (Including a Comparison with Aeschylus and Sophocles). Part II. The Larger Context",
-   "author": "M. Dubischar"
-  },
-  {
-   "book": "8",
-   "page": 589,
-   "section": "",
-   "line": 589,
-   "journal": "Mnemosyne",
-   "year": "2007",
-   "iid": "b67a8002-cd31-36b4-941d-013c3f4aa9c6",
-   "doi": "10.2307/4433814",
-   "title": "'Microstructure' in Greek Tragedy: From Bad to Worse: Wrong Guesses in Euripidean Stichomythia (Including a Comparison with Aeschylus and Sophocles). Part II. The Larger Context",
-   "author": "M. Dubischar"
   },
   {
    "book": "11",
@@ -548293,30 +544605,6 @@
    "author": "Robert Renehan"
   },
   {
-   "book": "1",
-   "page": 475,
-   "section": "",
-   "line": 475,
-   "journal": "Harvard Studies in Classical Philology",
-   "year": "1981",
-   "iid": "ba7d2d14-b34b-3f3f-b6a6-e872d4402820",
-   "doi": "10.2307/311176",
-   "title": "The Greek Anthropocentric View of Man",
-   "author": "Robert Renehan"
-  },
-  {
-   "book": "1",
-   "page": 476,
-   "section": "",
-   "line": 476,
-   "journal": "Harvard Studies in Classical Philology",
-   "year": "1981",
-   "iid": "ba7d2d14-b34b-3f3f-b6a6-e872d4402820",
-   "doi": "10.2307/311176",
-   "title": "The Greek Anthropocentric View of Man",
-   "author": "Robert Renehan"
-  },
-  {
    "book": "10",
    "page": 163,
    "section": "",
@@ -553502,18 +549790,6 @@
   },
   {
    "book": "9",
-   "page": 622,
-   "section": "",
-   "line": 622,
-   "journal": "The American Journal of Philology",
-   "year": "2002",
-   "iid": "be0ef0bf-44e4-3cf2-a1be-d910d0c650a0",
-   "doi": "10.2307/1561741",
-   "title": "Satyr Play in Plato's Symposium",
-   "author": "M. D. Usher"
-  },
-  {
-   "book": "9",
    "page": 528,
    "section": "",
    "line": 528,
@@ -554617,18 +550893,6 @@
    "author": "George Edwin Howes"
   },
   {
-   "book": "5",
-   "page": 993,
-   "section": "",
-   "line": 993,
-   "journal": "Harvard Studies in Classical Philology",
-   "year": "1895",
-   "iid": "bf185d4c-d1c8-37c7-85ec-72fce63f137d",
-   "doi": "10.2307/310358",
-   "title": "Homeric Quotations in Plato and Aristotle",
-   "author": "George Edwin Howes"
-  },
-  {
    "book": "17",
    "page": 347,
    "section": "",
@@ -554681,18 +550945,6 @@
    "page": 9,
    "section": "",
    "line": 9,
-   "journal": "Harvard Studies in Classical Philology",
-   "year": "1895",
-   "iid": "bf185d4c-d1c8-37c7-85ec-72fce63f137d",
-   "doi": "10.2307/310358",
-   "title": "Homeric Quotations in Plato and Aristotle",
-   "author": "George Edwin Howes"
-  },
-  {
-   "book": "2",
-   "page": 569,
-   "section": "",
-   "line": 569,
    "journal": "Harvard Studies in Classical Philology",
    "year": "1895",
    "iid": "bf185d4c-d1c8-37c7-85ec-72fce63f137d",
@@ -555121,18 +551373,6 @@
    "author": "George Edwin Howes"
   },
   {
-   "book": "1",
-   "page": 598,
-   "section": "",
-   "line": 598,
-   "journal": "Harvard Studies in Classical Philology",
-   "year": "1895",
-   "iid": "bf185d4c-d1c8-37c7-85ec-72fce63f137d",
-   "doi": "10.2307/310358",
-   "title": "Homeric Quotations in Plato and Aristotle",
-   "author": "George Edwin Howes"
-  },
-  {
    "book": "15",
    "page": 400,
    "section": "",
@@ -555179,18 +551419,6 @@
    "doi": "10.2307/310358",
    "title": "Homeric Quotations in Plato and Aristotle",
    "author": "George Edwin Howes"
-  },
-  {
-   "book": "2",
-   "page": 550,
-   "section": "",
-   "line": 550,
-   "journal": "The American Journal of Philology",
-   "year": "1917",
-   "iid": "bfca104f-5f10-3594-b6f2-8dd934c4af61",
-   "doi": "10.2307/289180",
-   "title": "The Prosecution of Lifeless Things and Animals in Greek Law: Part I",
-   "author": "Walter Woodburn Hyde"
   },
   {
    "book": "5",
@@ -555362,69 +551590,9 @@
   },
   {
    "book": "10",
-   "page": 623,
-   "section": "",
-   "line": 623,
-   "journal": "Harvard Studies in Classical Philology",
-   "year": "1940",
-   "iid": "bf5f118c-a704-3ea6-b7c1-d7a481d0eaf6",
-   "doi": "10.2307/45134343",
-   "title": "ATHENS AND MINOAN CRETE",
-   "author": "George E. Mylonas"
-  },
-  {
-   "book": "10",
-   "page": 624,
-   "section": "",
-   "line": 624,
-   "journal": "Harvard Studies in Classical Philology",
-   "year": "1940",
-   "iid": "bf5f118c-a704-3ea6-b7c1-d7a481d0eaf6",
-   "doi": "10.2307/45134343",
-   "title": "ATHENS AND MINOAN CRETE",
-   "author": "George E. Mylonas"
-  },
-  {
-   "book": "10",
-   "page": 625,
-   "section": "",
-   "line": 625,
-   "journal": "Harvard Studies in Classical Philology",
-   "year": "1940",
-   "iid": "bf5f118c-a704-3ea6-b7c1-d7a481d0eaf6",
-   "doi": "10.2307/45134343",
-   "title": "ATHENS AND MINOAN CRETE",
-   "author": "George E. Mylonas"
-  },
-  {
-   "book": "10",
-   "page": 626,
-   "section": "",
-   "line": 626,
-   "journal": "Harvard Studies in Classical Philology",
-   "year": "1940",
-   "iid": "bf5f118c-a704-3ea6-b7c1-d7a481d0eaf6",
-   "doi": "10.2307/45134343",
-   "title": "ATHENS AND MINOAN CRETE",
-   "author": "George E. Mylonas"
-  },
-  {
-   "book": "10",
    "page": 322,
    "section": "",
    "line": 322,
-   "journal": "Harvard Studies in Classical Philology",
-   "year": "1940",
-   "iid": "bf5f118c-a704-3ea6-b7c1-d7a481d0eaf6",
-   "doi": "10.2307/45134343",
-   "title": "ATHENS AND MINOAN CRETE",
-   "author": "George E. Mylonas"
-  },
-  {
-   "book": "10",
-   "page": 631,
-   "section": "",
-   "line": 631,
    "journal": "Harvard Studies in Classical Philology",
    "year": "1940",
    "iid": "bf5f118c-a704-3ea6-b7c1-d7a481d0eaf6",
@@ -565286,45 +561454,9 @@
   },
   {
    "book": "1",
-   "page": 803,
-   "section": "",
-   "line": 803,
-   "journal": "The Classical World",
-   "year": "1990",
-   "iid": "c769484d-a9d8-38b1-9081-34f59d3daa21",
-   "doi": "10.2307/4350757",
-   "title": "Homer Studies 1978-1983. Part II",
-   "author": "James P. Holoka"
-  },
-  {
-   "book": "1",
    "page": 32,
    "section": "",
    "line": 32,
-   "journal": "The Classical World",
-   "year": "1990",
-   "iid": "c769484d-a9d8-38b1-9081-34f59d3daa21",
-   "doi": "10.2307/4350757",
-   "title": "Homer Studies 1978-1983. Part II",
-   "author": "James P. Holoka"
-  },
-  {
-   "book": "2",
-   "page": 807,
-   "section": "",
-   "line": 807,
-   "journal": "The Classical World",
-   "year": "1990",
-   "iid": "c769484d-a9d8-38b1-9081-34f59d3daa21",
-   "doi": "10.2307/4350757",
-   "title": "Homer Studies 1978-1983. Part II",
-   "author": "James P. Holoka"
-  },
-  {
-   "book": "3",
-   "page": 809,
-   "section": "",
-   "line": 809,
    "journal": "The Classical World",
    "year": "1990",
    "iid": "c769484d-a9d8-38b1-9081-34f59d3daa21",
@@ -565633,46 +561765,10 @@
    "author": "James P. Holoka"
   },
   {
-   "book": "5",
-   "page": 815,
-   "section": "",
-   "line": 815,
-   "journal": "The Classical World",
-   "year": "1990",
-   "iid": "c769484d-a9d8-38b1-9081-34f59d3daa21",
-   "doi": "10.2307/4350757",
-   "title": "Homer Studies 1978-1983. Part II",
-   "author": "James P. Holoka"
-  },
-  {
-   "book": "6",
-   "page": 820,
-   "section": "",
-   "line": 820,
-   "journal": "The Classical World",
-   "year": "1990",
-   "iid": "c769484d-a9d8-38b1-9081-34f59d3daa21",
-   "doi": "10.2307/4350757",
-   "title": "Homer Studies 1978-1983. Part II",
-   "author": "James P. Holoka"
-  },
-  {
    "book": "6",
    "page": 185,
    "section": "",
    "line": 185,
-   "journal": "The Classical World",
-   "year": "1990",
-   "iid": "c769484d-a9d8-38b1-9081-34f59d3daa21",
-   "doi": "10.2307/4350757",
-   "title": "Homer Studies 1978-1983. Part II",
-   "author": "James P. Holoka"
-  },
-  {
-   "book": "7",
-   "page": 822,
-   "section": "",
-   "line": 822,
    "journal": "The Classical World",
    "year": "1990",
    "iid": "c769484d-a9d8-38b1-9081-34f59d3daa21",
@@ -565933,30 +562029,6 @@
    "author": "James P. Holoka"
   },
   {
-   "book": "8",
-   "page": 824,
-   "section": "",
-   "line": 824,
-   "journal": "The Classical World",
-   "year": "1990",
-   "iid": "c769484d-a9d8-38b1-9081-34f59d3daa21",
-   "doi": "10.2307/4350757",
-   "title": "Homer Studies 1978-1983. Part II",
-   "author": "James P. Holoka"
-  },
-  {
-   "book": "9",
-   "page": 828,
-   "section": "",
-   "line": 828,
-   "journal": "The Classical World",
-   "year": "1990",
-   "iid": "c769484d-a9d8-38b1-9081-34f59d3daa21",
-   "doi": "10.2307/4350757",
-   "title": "Homer Studies 1978-1983. Part II",
-   "author": "James P. Holoka"
-  },
-  {
    "book": "9",
    "page": 390,
    "section": "",
@@ -566102,33 +562174,9 @@
   },
   {
    "book": "10",
-   "page": 845,
-   "section": "",
-   "line": 845,
-   "journal": "The Classical World",
-   "year": "1990",
-   "iid": "c769484d-a9d8-38b1-9081-34f59d3daa21",
-   "doi": "10.2307/4350757",
-   "title": "Homer Studies 1978-1983. Part II",
-   "author": "James P. Holoka"
-  },
-  {
-   "book": "10",
    "page": 298,
    "section": "",
    "line": 298,
-   "journal": "The Classical World",
-   "year": "1990",
-   "iid": "c769484d-a9d8-38b1-9081-34f59d3daa21",
-   "doi": "10.2307/4350757",
-   "title": "Homer Studies 1978-1983. Part II",
-   "author": "James P. Holoka"
-  },
-  {
-   "book": "11",
-   "page": 850,
-   "section": "",
-   "line": 850,
    "journal": "The Classical World",
    "year": "1990",
    "iid": "c769484d-a9d8-38b1-9081-34f59d3daa21",
@@ -566414,18 +562462,6 @@
   },
   {
    "book": "12",
-   "page": 862,
-   "section": "",
-   "line": 862,
-   "journal": "The Classical World",
-   "year": "1990",
-   "iid": "c769484d-a9d8-38b1-9081-34f59d3daa21",
-   "doi": "10.2307/4350757",
-   "title": "Homer Studies 1978-1983. Part II",
-   "author": "James P. Holoka"
-  },
-  {
-   "book": "12",
    "page": 184,
    "section": "",
    "line": 184,
@@ -566509,58 +562545,10 @@
    "author": "James P. Holoka"
   },
   {
-   "book": "13",
-   "page": 865,
-   "section": "",
-   "line": 865,
-   "journal": "The Classical World",
-   "year": "1990",
-   "iid": "c769484d-a9d8-38b1-9081-34f59d3daa21",
-   "doi": "10.2307/4350757",
-   "title": "Homer Studies 1978-1983. Part II",
-   "author": "James P. Holoka"
-  },
-  {
-   "book": "14",
-   "page": 866,
-   "section": "",
-   "line": 866,
-   "journal": "The Classical World",
-   "year": "1990",
-   "iid": "c769484d-a9d8-38b1-9081-34f59d3daa21",
-   "doi": "10.2307/4350757",
-   "title": "Homer Studies 1978-1983. Part II",
-   "author": "James P. Holoka"
-  },
-  {
-   "book": "15",
-   "page": 868,
-   "section": "",
-   "line": 868,
-   "journal": "The Classical World",
-   "year": "1990",
-   "iid": "c769484d-a9d8-38b1-9081-34f59d3daa21",
-   "doi": "10.2307/4350757",
-   "title": "Homer Studies 1978-1983. Part II",
-   "author": "James P. Holoka"
-  },
-  {
    "book": "15",
    "page": 469,
    "section": "",
    "line": 469,
-   "journal": "The Classical World",
-   "year": "1990",
-   "iid": "c769484d-a9d8-38b1-9081-34f59d3daa21",
-   "doi": "10.2307/4350757",
-   "title": "Homer Studies 1978-1983. Part II",
-   "author": "James P. Holoka"
-  },
-  {
-   "book": "17",
-   "page": 869,
-   "section": "",
-   "line": 869,
    "journal": "The Classical World",
    "year": "1990",
    "iid": "c769484d-a9d8-38b1-9081-34f59d3daa21",
@@ -566918,33 +562906,9 @@
   },
   {
    "book": "18",
-   "page": 873,
-   "section": "",
-   "line": 873,
-   "journal": "The Classical World",
-   "year": "1990",
-   "iid": "c769484d-a9d8-38b1-9081-34f59d3daa21",
-   "doi": "10.2307/4350757",
-   "title": "Homer Studies 1978-1983. Part II",
-   "author": "James P. Holoka"
-  },
-  {
-   "book": "18",
    "page": 163,
    "section": "",
    "line": 163,
-   "journal": "The Classical World",
-   "year": "1990",
-   "iid": "c769484d-a9d8-38b1-9081-34f59d3daa21",
-   "doi": "10.2307/4350757",
-   "title": "Homer Studies 1978-1983. Part II",
-   "author": "James P. Holoka"
-  },
-  {
-   "book": "19",
-   "page": 875,
-   "section": "",
-   "line": 875,
    "journal": "The Classical World",
    "year": "1990",
    "iid": "c769484d-a9d8-38b1-9081-34f59d3daa21",
@@ -567014,33 +562978,9 @@
   },
   {
    "book": "20",
-   "page": 882,
-   "section": "",
-   "line": 882,
-   "journal": "The Classical World",
-   "year": "1990",
-   "iid": "c769484d-a9d8-38b1-9081-34f59d3daa21",
-   "doi": "10.2307/4350757",
-   "title": "Homer Studies 1978-1983. Part II",
-   "author": "James P. Holoka"
-  },
-  {
-   "book": "20",
    "page": 296,
    "section": "",
    "line": 296,
-   "journal": "The Classical World",
-   "year": "1990",
-   "iid": "c769484d-a9d8-38b1-9081-34f59d3daa21",
-   "doi": "10.2307/4350757",
-   "title": "Homer Studies 1978-1983. Part II",
-   "author": "James P. Holoka"
-  },
-  {
-   "book": "21",
-   "page": 885,
-   "section": "",
-   "line": 885,
    "journal": "The Classical World",
    "year": "1990",
    "iid": "c769484d-a9d8-38b1-9081-34f59d3daa21",
@@ -567065,42 +563005,6 @@
    "page": 7,
    "section": "",
    "line": 7,
-   "journal": "The Classical World",
-   "year": "1990",
-   "iid": "c769484d-a9d8-38b1-9081-34f59d3daa21",
-   "doi": "10.2307/4350757",
-   "title": "Homer Studies 1978-1983. Part II",
-   "author": "James P. Holoka"
-  },
-  {
-   "book": "22",
-   "page": 889,
-   "section": "",
-   "line": 889,
-   "journal": "The Classical World",
-   "year": "1990",
-   "iid": "c769484d-a9d8-38b1-9081-34f59d3daa21",
-   "doi": "10.2307/4350757",
-   "title": "Homer Studies 1978-1983. Part II",
-   "author": "James P. Holoka"
-  },
-  {
-   "book": "23",
-   "page": 890,
-   "section": "",
-   "line": 890,
-   "journal": "The Classical World",
-   "year": "1990",
-   "iid": "c769484d-a9d8-38b1-9081-34f59d3daa21",
-   "doi": "10.2307/4350757",
-   "title": "Homer Studies 1978-1983. Part II",
-   "author": "James P. Holoka"
-  },
-  {
-   "book": "24",
-   "page": 891,
-   "section": "",
-   "line": 891,
    "journal": "The Classical World",
    "year": "1990",
    "iid": "c769484d-a9d8-38b1-9081-34f59d3daa21",
@@ -567545,198 +563449,6 @@
    "page": 227,
    "section": "",
    "line": 227,
-   "journal": "The Classical World",
-   "year": "1990",
-   "iid": "c769484d-a9d8-38b1-9081-34f59d3daa21",
-   "doi": "10.2307/4350757",
-   "title": "Homer Studies 1978-1983. Part II",
-   "author": "James P. Holoka"
-  },
-  {
-   "book": "2",
-   "page": 804,
-   "section": "",
-   "line": 804,
-   "journal": "The Classical World",
-   "year": "1990",
-   "iid": "c769484d-a9d8-38b1-9081-34f59d3daa21",
-   "doi": "10.2307/4350757",
-   "title": "Homer Studies 1978-1983. Part II",
-   "author": "James P. Holoka"
-  },
-  {
-   "book": "2",
-   "page": 805,
-   "section": "",
-   "line": 805,
-   "journal": "The Classical World",
-   "year": "1990",
-   "iid": "c769484d-a9d8-38b1-9081-34f59d3daa21",
-   "doi": "10.2307/4350757",
-   "title": "Homer Studies 1978-1983. Part II",
-   "author": "James P. Holoka"
-  },
-  {
-   "book": "2",
-   "page": 806,
-   "section": "",
-   "line": 806,
-   "journal": "The Classical World",
-   "year": "1990",
-   "iid": "c769484d-a9d8-38b1-9081-34f59d3daa21",
-   "doi": "10.2307/4350757",
-   "title": "Homer Studies 1978-1983. Part II",
-   "author": "James P. Holoka"
-  },
-  {
-   "book": "2",
-   "page": 808,
-   "section": "",
-   "line": 808,
-   "journal": "The Classical World",
-   "year": "1990",
-   "iid": "c769484d-a9d8-38b1-9081-34f59d3daa21",
-   "doi": "10.2307/4350757",
-   "title": "Homer Studies 1978-1983. Part II",
-   "author": "James P. Holoka"
-  },
-  {
-   "book": "2",
-   "page": 810,
-   "section": "",
-   "line": 810,
-   "journal": "The Classical World",
-   "year": "1990",
-   "iid": "c769484d-a9d8-38b1-9081-34f59d3daa21",
-   "doi": "10.2307/4350757",
-   "title": "Homer Studies 1978-1983. Part II",
-   "author": "James P. Holoka"
-  },
-  {
-   "book": "2",
-   "page": 811,
-   "section": "",
-   "line": 811,
-   "journal": "The Classical World",
-   "year": "1990",
-   "iid": "c769484d-a9d8-38b1-9081-34f59d3daa21",
-   "doi": "10.2307/4350757",
-   "title": "Homer Studies 1978-1983. Part II",
-   "author": "James P. Holoka"
-  },
-  {
-   "book": "2",
-   "page": 812,
-   "section": "",
-   "line": 812,
-   "journal": "The Classical World",
-   "year": "1990",
-   "iid": "c769484d-a9d8-38b1-9081-34f59d3daa21",
-   "doi": "10.2307/4350757",
-   "title": "Homer Studies 1978-1983. Part II",
-   "author": "James P. Holoka"
-  },
-  {
-   "book": "2",
-   "page": 813,
-   "section": "",
-   "line": 813,
-   "journal": "The Classical World",
-   "year": "1990",
-   "iid": "c769484d-a9d8-38b1-9081-34f59d3daa21",
-   "doi": "10.2307/4350757",
-   "title": "Homer Studies 1978-1983. Part II",
-   "author": "James P. Holoka"
-  },
-  {
-   "book": "2",
-   "page": 814,
-   "section": "",
-   "line": 814,
-   "journal": "The Classical World",
-   "year": "1990",
-   "iid": "c769484d-a9d8-38b1-9081-34f59d3daa21",
-   "doi": "10.2307/4350757",
-   "title": "Homer Studies 1978-1983. Part II",
-   "author": "James P. Holoka"
-  },
-  {
-   "book": "2",
-   "page": 816,
-   "section": "",
-   "line": 816,
-   "journal": "The Classical World",
-   "year": "1990",
-   "iid": "c769484d-a9d8-38b1-9081-34f59d3daa21",
-   "doi": "10.2307/4350757",
-   "title": "Homer Studies 1978-1983. Part II",
-   "author": "James P. Holoka"
-  },
-  {
-   "book": "2",
-   "page": 817,
-   "section": "",
-   "line": 817,
-   "journal": "The Classical World",
-   "year": "1990",
-   "iid": "c769484d-a9d8-38b1-9081-34f59d3daa21",
-   "doi": "10.2307/4350757",
-   "title": "Homer Studies 1978-1983. Part II",
-   "author": "James P. Holoka"
-  },
-  {
-   "book": "2",
-   "page": 818,
-   "section": "",
-   "line": 818,
-   "journal": "The Classical World",
-   "year": "1990",
-   "iid": "c769484d-a9d8-38b1-9081-34f59d3daa21",
-   "doi": "10.2307/4350757",
-   "title": "Homer Studies 1978-1983. Part II",
-   "author": "James P. Holoka"
-  },
-  {
-   "book": "2",
-   "page": 819,
-   "section": "",
-   "line": 819,
-   "journal": "The Classical World",
-   "year": "1990",
-   "iid": "c769484d-a9d8-38b1-9081-34f59d3daa21",
-   "doi": "10.2307/4350757",
-   "title": "Homer Studies 1978-1983. Part II",
-   "author": "James P. Holoka"
-  },
-  {
-   "book": "2",
-   "page": 821,
-   "section": "",
-   "line": 821,
-   "journal": "The Classical World",
-   "year": "1990",
-   "iid": "c769484d-a9d8-38b1-9081-34f59d3daa21",
-   "doi": "10.2307/4350757",
-   "title": "Homer Studies 1978-1983. Part II",
-   "author": "James P. Holoka"
-  },
-  {
-   "book": "2",
-   "page": 823,
-   "section": "",
-   "line": 823,
-   "journal": "The Classical World",
-   "year": "1990",
-   "iid": "c769484d-a9d8-38b1-9081-34f59d3daa21",
-   "doi": "10.2307/4350757",
-   "title": "Homer Studies 1978-1983. Part II",
-   "author": "James P. Holoka"
-  },
-  {
-   "book": "2",
-   "page": 825,
-   "section": "",
-   "line": 825,
    "journal": "The Classical World",
    "year": "1990",
    "iid": "c769484d-a9d8-38b1-9081-34f59d3daa21",
@@ -577465,54 +573177,6 @@
    "author": "Louis Dyer"
   },
   {
-   "book": "2",
-   "page": 632,
-   "section": "",
-   "line": 632,
-   "journal": "Harvard Studies in Classical Philology",
-   "year": "1908",
-   "iid": "cbf2df4f-19c9-3bc2-bfa4-16fbbc8c0d6c",
-   "doi": "10.2307/310319",
-   "title": "The Olympian Council House and Council",
-   "author": "Louis Dyer"
-  },
-  {
-   "book": "2",
-   "page": 633,
-   "section": "",
-   "line": 633,
-   "journal": "Harvard Studies in Classical Philology",
-   "year": "1908",
-   "iid": "cbf2df4f-19c9-3bc2-bfa4-16fbbc8c0d6c",
-   "doi": "10.2307/310319",
-   "title": "The Olympian Council House and Council",
-   "author": "Louis Dyer"
-  },
-  {
-   "book": "2",
-   "page": 634,
-   "section": "",
-   "line": 634,
-   "journal": "Harvard Studies in Classical Philology",
-   "year": "1908",
-   "iid": "cbf2df4f-19c9-3bc2-bfa4-16fbbc8c0d6c",
-   "doi": "10.2307/310319",
-   "title": "The Olympian Council House and Council",
-   "author": "Louis Dyer"
-  },
-  {
-   "book": "2",
-   "page": 635,
-   "section": "",
-   "line": 635,
-   "journal": "Harvard Studies in Classical Philology",
-   "year": "1908",
-   "iid": "cbf2df4f-19c9-3bc2-bfa4-16fbbc8c0d6c",
-   "doi": "10.2307/310319",
-   "title": "The Olympian Council House and Council",
-   "author": "Louis Dyer"
-  },
-  {
    "book": "3",
    "page": 1,
    "section": "",
@@ -581857,18 +577521,6 @@
    "author": "Sophie Mills"
   },
   {
-   "book": "7",
-   "page": 474,
-   "section": "",
-   "line": 474,
-   "journal": "Greece & Rome",
-   "year": "2000",
-   "iid": "ceabd5d8-bcec-35a7-9564-6338f31871d6",
-   "doi": "10.2307/826944",
-   "title": "Achilles, Patroclus and Parental Care in Some Homeric Similes",
-   "author": "Sophie Mills"
-  },
-  {
    "book": "3",
    "page": 279,
    "section": "",
@@ -583909,18 +579561,6 @@
    "author": "RICHARD SEAFORD"
   },
   {
-   "book": "6",
-   "page": 759,
-   "section": "",
-   "line": 759,
-   "journal": "Hermes",
-   "year": "1924",
-   "iid": "cf1b9d17-4393-3f8d-aee1-3d8998feef1f",
-   "doi": "10.2307/4473926",
-   "title": "Zu den Griechischen Sakralaltertümern",
-   "author": "Paul Stengel"
-  },
-  {
    "book": "10",
    "page": 522,
    "section": "",
@@ -584921,18 +580561,6 @@
    "page": 253,
    "section": "",
    "line": 253,
-   "journal": "Quaderni Urbinati di Cultura Classica",
-   "year": "2013",
-   "iid": "cf9e7ac8-3ef8-32ba-bbeb-d49cda5f740f",
-   "doi": "10.2307/44740658",
-   "title": "IL MITO DI AMPHIARAOS IN ETÀ OMERICA FRA COSTRUZIONE E DESTRUTTURAZIONE",
-   "author": "Chiara Terranova"
-  },
-  {
-   "book": "5",
-   "page": 767,
-   "section": "",
-   "line": 767,
    "journal": "Quaderni Urbinati di Cultura Classica",
    "year": "2013",
    "iid": "cf9e7ac8-3ef8-32ba-bbeb-d49cda5f740f",
@@ -598237,18 +593865,6 @@
    "author": "William W. Minton"
   },
   {
-   "book": "5",
-   "page": 546,
-   "section": "",
-   "line": 546,
-   "journal": "Harvard Studies in Classical Philology",
-   "year": "1975",
-   "iid": "d57ee24f-ef54-3b34-9962-1dc90a4bd914",
-   "doi": "10.2307/311127",
-   "title": "The Frequency and Structuring of Traditional Formulas in Hesiod's Theogony",
-   "author": "William W. Minton"
-  },
-  {
    "book": "3",
    "page": 4,
    "section": "",
@@ -600575,18 +596191,6 @@
    "doi": "10.2307/26649902",
    "title": "A singular smile: Note on Virgil, Eclogue 4. 62–63 with an Appendix on Syntax",
    "author": "SILVIA OTTAVIANO"
-  },
-  {
-   "book": "6",
-   "page": 442,
-   "section": "",
-   "line": 442,
-   "journal": "Hermes",
-   "year": "1911",
-   "iid": "d71032d8-91cc-3331-82d6-0c12c13031ab",
-   "doi": "10.2307/4473284",
-   "title": "Hippokratische Forschungen. II. III",
-   "author": "H. Diels"
   },
   {
    "book": "9",
@@ -612805,18 +608409,6 @@
    "author": "Ann Michelini"
   },
   {
-   "book": "10",
-   "page": 604,
-   "section": "",
-   "line": 604,
-   "journal": "Transactions and Proceedings of the American Philological Association",
-   "year": "1922",
-   "iid": "defe6442-8ac1-3bb6-8506-60f25af77a34",
-   "doi": "10.2307/282862",
-   "title": "Some Literary Papyri in the University of Michigan Collection",
-   "author": "J. G. Winter"
-  },
-  {
    "book": "11",
    "page": 601,
    "section": "",
@@ -624313,18 +619905,6 @@
    "author": "Loukas Papadimitropoulos"
   },
   {
-   "book": "2",
-   "page": 970,
-   "section": "",
-   "line": 970,
-   "journal": "Harvard Studies in Classical Philology",
-   "year": "1930",
-   "iid": "e5abee05-fcd6-3c37-9922-b8ec3a2a1fa3",
-   "doi": "10.2307/310626",
-   "title": "Studies in the Epic Technique of Oral Verse-Making. I. Homer and Homeric Style",
-   "author": "Milman Parry"
-  },
-  {
    "book": "11",
    "page": 190,
    "section": "",
@@ -628694,30 +624274,6 @@
   },
   {
    "book": "2",
-   "page": 489,
-   "section": "",
-   "line": 489,
-   "journal": "Transactions and Proceedings of the American Philological Association",
-   "year": "1966",
-   "iid": "e8dd0a35-dd6f-3df1-a5fb-c0192a6829fd",
-   "doi": "10.2307/2936004",
-   "title": "Some Features of Homeric Craftsmanship",
-   "author": "Mark W. Edwards"
-  },
-  {
-   "book": "2",
-   "page": 490,
-   "section": "",
-   "line": 490,
-   "journal": "Transactions and Proceedings of the American Philological Association",
-   "year": "1966",
-   "iid": "e8dd0a35-dd6f-3df1-a5fb-c0192a6829fd",
-   "doi": "10.2307/2936004",
-   "title": "Some Features of Homeric Craftsmanship",
-   "author": "Mark W. Edwards"
-  },
-  {
-   "book": "2",
    "page": 340,
    "section": "",
    "line": 340,
@@ -628969,30 +624525,6 @@
    "author": "Mark W. Edwards"
   },
   {
-   "book": "2",
-   "page": 482,
-   "section": "",
-   "line": 482,
-   "journal": "Transactions and Proceedings of the American Philological Association",
-   "year": "1966",
-   "iid": "e8dd0a35-dd6f-3df1-a5fb-c0192a6829fd",
-   "doi": "10.2307/2936004",
-   "title": "Some Features of Homeric Craftsmanship",
-   "author": "Mark W. Edwards"
-  },
-  {
-   "book": "2",
-   "page": 483,
-   "section": "",
-   "line": 483,
-   "journal": "Transactions and Proceedings of the American Philological Association",
-   "year": "1966",
-   "iid": "e8dd0a35-dd6f-3df1-a5fb-c0192a6829fd",
-   "doi": "10.2307/2936004",
-   "title": "Some Features of Homeric Craftsmanship",
-   "author": "Mark W. Edwards"
-  },
-  {
    "book": "20",
    "page": 378,
    "section": "",
@@ -629045,30 +624577,6 @@
    "page": 328,
    "section": "",
    "line": 328,
-   "journal": "Transactions and Proceedings of the American Philological Association",
-   "year": "1966",
-   "iid": "e8dd0a35-dd6f-3df1-a5fb-c0192a6829fd",
-   "doi": "10.2307/2936004",
-   "title": "Some Features of Homeric Craftsmanship",
-   "author": "Mark W. Edwards"
-  },
-  {
-   "book": "2",
-   "page": 506,
-   "section": "",
-   "line": 506,
-   "journal": "Transactions and Proceedings of the American Philological Association",
-   "year": "1966",
-   "iid": "e8dd0a35-dd6f-3df1-a5fb-c0192a6829fd",
-   "doi": "10.2307/2936004",
-   "title": "Some Features of Homeric Craftsmanship",
-   "author": "Mark W. Edwards"
-  },
-  {
-   "book": "2",
-   "page": 507,
-   "section": "",
-   "line": 507,
    "journal": "Transactions and Proceedings of the American Philological Association",
    "year": "1966",
    "iid": "e8dd0a35-dd6f-3df1-a5fb-c0192a6829fd",
@@ -629153,18 +624661,6 @@
    "page": 9,
    "section": "",
    "line": 9,
-   "journal": "Transactions and Proceedings of the American Philological Association",
-   "year": "1966",
-   "iid": "e8dd0a35-dd6f-3df1-a5fb-c0192a6829fd",
-   "doi": "10.2307/2936004",
-   "title": "Some Features of Homeric Craftsmanship",
-   "author": "Mark W. Edwards"
-  },
-  {
-   "book": "2",
-   "page": 449,
-   "section": "",
-   "line": 449,
    "journal": "Transactions and Proceedings of the American Philological Association",
    "year": "1966",
    "iid": "e8dd0a35-dd6f-3df1-a5fb-c0192a6829fd",
@@ -630350,18 +625846,6 @@
   },
   {
    "book": "1",
-   "page": 539,
-   "section": "",
-   "line": 539,
-   "journal": "The Classical World",
-   "year": "1979",
-   "iid": "e9042709-4523-32aa-b363-8edf470f0e65",
-   "doi": "10.2307/4349141",
-   "title": "Homer Studies 1971-1977",
-   "author": "James P. Holoka"
-  },
-  {
-   "book": "1",
    "page": 125,
    "section": "",
    "line": 125,
@@ -630661,18 +626145,6 @@
    "author": "James P. Holoka"
   },
   {
-   "book": "2",
-   "page": 543,
-   "section": "",
-   "line": 543,
-   "journal": "The Classical World",
-   "year": "1979",
-   "iid": "e9042709-4523-32aa-b363-8edf470f0e65",
-   "doi": "10.2307/4349141",
-   "title": "Homer Studies 1971-1977",
-   "author": "James P. Holoka"
-  },
-  {
    "book": "4",
    "page": 544,
    "section": "",
@@ -630857,30 +626329,6 @@
    "page": 20,
    "section": "",
    "line": 20,
-   "journal": "The Classical World",
-   "year": "1979",
-   "iid": "e9042709-4523-32aa-b363-8edf470f0e65",
-   "doi": "10.2307/4349141",
-   "title": "Homer Studies 1971-1977",
-   "author": "James P. Holoka"
-  },
-  {
-   "book": "6",
-   "page": 552,
-   "section": "",
-   "line": 552,
-   "journal": "The Classical World",
-   "year": "1979",
-   "iid": "e9042709-4523-32aa-b363-8edf470f0e65",
-   "doi": "10.2307/4349141",
-   "title": "Homer Studies 1971-1977",
-   "author": "James P. Holoka"
-  },
-  {
-   "book": "7",
-   "page": 554,
-   "section": "",
-   "line": 554,
    "journal": "The Classical World",
    "year": "1979",
    "iid": "e9042709-4523-32aa-b363-8edf470f0e65",
@@ -631346,18 +626794,6 @@
   },
   {
    "book": "12",
-   "page": 575,
-   "section": "",
-   "line": 575,
-   "journal": "The Classical World",
-   "year": "1979",
-   "iid": "e9042709-4523-32aa-b363-8edf470f0e65",
-   "doi": "10.2307/4349141",
-   "title": "Homer Studies 1971-1977",
-   "author": "James P. Holoka"
-  },
-  {
-   "book": "12",
    "page": 312,
    "section": "",
    "line": 312,
@@ -631397,30 +626833,6 @@
    "page": 46,
    "section": "",
    "line": 46,
-   "journal": "The Classical World",
-   "year": "1979",
-   "iid": "e9042709-4523-32aa-b363-8edf470f0e65",
-   "doi": "10.2307/4349141",
-   "title": "Homer Studies 1971-1977",
-   "author": "James P. Holoka"
-  },
-  {
-   "book": "13",
-   "page": 580,
-   "section": "",
-   "line": 580,
-   "journal": "The Classical World",
-   "year": "1979",
-   "iid": "e9042709-4523-32aa-b363-8edf470f0e65",
-   "doi": "10.2307/4349141",
-   "title": "Homer Studies 1971-1977",
-   "author": "James P. Holoka"
-  },
-  {
-   "book": "14",
-   "page": 581,
-   "section": "",
-   "line": 581,
    "journal": "The Classical World",
    "year": "1979",
    "iid": "e9042709-4523-32aa-b363-8edf470f0e65",
@@ -631681,18 +627093,6 @@
    "author": "James P. Holoka"
   },
   {
-   "book": "15",
-   "page": 582,
-   "section": "",
-   "line": 582,
-   "journal": "The Classical World",
-   "year": "1979",
-   "iid": "e9042709-4523-32aa-b363-8edf470f0e65",
-   "doi": "10.2307/4349141",
-   "title": "Homer Studies 1971-1977",
-   "author": "James P. Holoka"
-  },
-  {
    "book": "17",
    "page": 583,
    "section": "",
@@ -631733,18 +627133,6 @@
    "page": 106,
    "section": "",
    "line": 106,
-   "journal": "The Classical World",
-   "year": "1979",
-   "iid": "e9042709-4523-32aa-b363-8edf470f0e65",
-   "doi": "10.2307/4349141",
-   "title": "Homer Studies 1971-1977",
-   "author": "James P. Holoka"
-  },
-  {
-   "book": "18",
-   "page": 584,
-   "section": "",
-   "line": 584,
    "journal": "The Classical World",
    "year": "1979",
    "iid": "e9042709-4523-32aa-b363-8edf470f0e65",
@@ -631901,42 +627289,6 @@
    "page": 114,
    "section": "",
    "line": 114,
-   "journal": "The Classical World",
-   "year": "1979",
-   "iid": "e9042709-4523-32aa-b363-8edf470f0e65",
-   "doi": "10.2307/4349141",
-   "title": "Homer Studies 1971-1977",
-   "author": "James P. Holoka"
-  },
-  {
-   "book": "21",
-   "page": 588,
-   "section": "",
-   "line": 588,
-   "journal": "The Classical World",
-   "year": "1979",
-   "iid": "e9042709-4523-32aa-b363-8edf470f0e65",
-   "doi": "10.2307/4349141",
-   "title": "Homer Studies 1971-1977",
-   "author": "James P. Holoka"
-  },
-  {
-   "book": "23",
-   "page": 589,
-   "section": "",
-   "line": 589,
-   "journal": "The Classical World",
-   "year": "1979",
-   "iid": "e9042709-4523-32aa-b363-8edf470f0e65",
-   "doi": "10.2307/4349141",
-   "title": "Homer Studies 1971-1977",
-   "author": "James P. Holoka"
-  },
-  {
-   "book": "24",
-   "page": 594,
-   "section": "",
-   "line": 594,
    "journal": "The Classical World",
    "year": "1979",
    "iid": "e9042709-4523-32aa-b363-8edf470f0e65",
@@ -632366,6 +627718,30 @@
   },
   {
    "book": "11",
+   "page": 580,
+   "section": "",
+   "line": 580,
+   "journal": "The Classical World",
+   "year": "1979",
+   "iid": "e9042709-4523-32aa-b363-8edf470f0e65",
+   "doi": "10.2307/4349141",
+   "title": "Homer Studies 1971-1977",
+   "author": "James P. Holoka"
+  },
+  {
+   "book": "11",
+   "page": 581,
+   "section": "",
+   "line": 581,
+   "journal": "The Classical World",
+   "year": "1979",
+   "iid": "e9042709-4523-32aa-b363-8edf470f0e65",
+   "doi": "10.2307/4349141",
+   "title": "Homer Studies 1971-1977",
+   "author": "James P. Holoka"
+  },
+  {
+   "book": "11",
    "page": 601,
    "section": "",
    "line": 601,
@@ -632462,6 +627838,18 @@
   },
   {
    "book": "11",
+   "page": 543,
+   "section": "",
+   "line": 543,
+   "journal": "The Classical World",
+   "year": "1979",
+   "iid": "e9042709-4523-32aa-b363-8edf470f0e65",
+   "doi": "10.2307/4349141",
+   "title": "Homer Studies 1971-1977",
+   "author": "James P. Holoka"
+  },
+  {
+   "book": "11",
    "page": 545,
    "section": "",
    "line": 545,
@@ -632546,9 +627934,33 @@
   },
   {
    "book": "11",
+   "page": 552,
+   "section": "",
+   "line": 552,
+   "journal": "The Classical World",
+   "year": "1979",
+   "iid": "e9042709-4523-32aa-b363-8edf470f0e65",
+   "doi": "10.2307/4349141",
+   "title": "Homer Studies 1971-1977",
+   "author": "James P. Holoka"
+  },
+  {
+   "book": "11",
    "page": 553,
    "section": "",
    "line": 553,
+   "journal": "The Classical World",
+   "year": "1979",
+   "iid": "e9042709-4523-32aa-b363-8edf470f0e65",
+   "doi": "10.2307/4349141",
+   "title": "Homer Studies 1971-1977",
+   "author": "James P. Holoka"
+  },
+  {
+   "book": "11",
+   "page": 554,
+   "section": "",
+   "line": 554,
    "journal": "The Classical World",
    "year": "1979",
    "iid": "e9042709-4523-32aa-b363-8edf470f0e65",
@@ -632903,18 +628315,6 @@
    "doi": "10.2307/20537866",
    "title": "Lettura della prima \"Istmica\" di Pindaro",
    "author": "G. Aurelio Privitera"
-  },
-  {
-   "book": "1",
-   "page": 518,
-   "section": "",
-   "line": 518,
-   "journal": "Hermes",
-   "year": "1898",
-   "iid": "e96ef749-2cbc-320c-8212-2cc88360f060",
-   "doi": "10.2307/4472661",
-   "title": "Der Goldene Hund des Zeus und die Hochzeit des Laertes auf Griechischen Vasen",
-   "author": "L. D. Barnett"
   },
   {
    "book": "1",
@@ -633527,18 +628927,6 @@
    "doi": "10.2307/4427746",
    "title": "Schol. ad Od. XVIII 115, 116",
    "author": "J. C. Kamerbeek"
-  },
-  {
-   "book": "1",
-   "page": 521,
-   "section": "",
-   "line": 521,
-   "journal": "Hermes",
-   "year": "1885",
-   "iid": "e9a448ca-4259-3d83-8ccc-c3fd89270cd0",
-   "doi": "10.2307/4471948",
-   "title": "Der Protesilaos des Euripides",
-   "author": "Maximilian Mayer"
   },
   {
    "book": "11",
@@ -637439,18 +632827,6 @@
    "doi": "10.2307/26362656",
    "title": "Another Look at Female Choruses in Classical Athens",
    "author": "F. BUDELMANN, T. POWER"
-  },
-  {
-   "book": "8",
-   "page": 849,
-   "section": "",
-   "line": 849,
-   "journal": "The Classical World",
-   "year": "1985",
-   "iid": "ebbaeea2-66d1-34bb-9f40-eb4c7d1ca64a",
-   "doi": "10.2307/4349817",
-   "title": "",
-   "author": "William G. Thalmann, George B. Walsh"
   },
   {
    "book": "21",
@@ -645182,18 +640558,6 @@
   },
   {
    "book": "7",
-   "page": 861,
-   "section": "",
-   "line": 861,
-   "journal": "Hermes",
-   "year": "1997",
-   "iid": "effbe564-cced-3bb3-8ce5-4c092585b958",
-   "doi": "10.2307/4477212",
-   "title": "Apuleian Ecphrasis: Cupid's Palace at Met: 5.1.2-5.2.2",
-   "author": "P. Murgatroyd"
-  },
-  {
-   "book": "7",
    "page": 91,
    "section": "",
    "line": 91,
@@ -647129,30 +642493,6 @@
    "page": 567,
    "section": "",
    "line": 567,
-   "journal": "Rheinisches Museum für Philologie",
-   "year": "2002",
-   "iid": "f0f3a859-b2ed-3826-8b1a-9cf41b7b8dd1",
-   "doi": "10.2307/41234520",
-   "title": "DAS SINGEN DES KLEINEN HERMES UND DES SILEN: Zum homerischen Hermeshymnos und zu Vergils Sechster Ekloge",
-   "author": "Gesine Manuwald"
-  },
-  {
-   "book": "16",
-   "page": 565,
-   "section": "",
-   "line": 565,
-   "journal": "Rheinisches Museum für Philologie",
-   "year": "2002",
-   "iid": "f0f3a859-b2ed-3826-8b1a-9cf41b7b8dd1",
-   "doi": "10.2307/41234520",
-   "title": "DAS SINGEN DES KLEINEN HERMES UND DES SILEN: Zum homerischen Hermeshymnos und zu Vergils Sechster Ekloge",
-   "author": "Gesine Manuwald"
-  },
-  {
-   "book": "16",
-   "page": 566,
-   "section": "",
-   "line": 566,
    "journal": "Rheinisches Museum für Philologie",
    "year": "2002",
    "iid": "f0f3a859-b2ed-3826-8b1a-9cf41b7b8dd1",
@@ -651437,90 +646777,6 @@
    "page": 124,
    "section": "",
    "line": 124,
-   "journal": "Hermes",
-   "year": "2016",
-   "iid": "f3f28b58-f44f-3211-894f-aa10e7929d62",
-   "doi": "10.2307/26649562",
-   "title": "'Order from Chaos': Ecphrasis and Meaning in Context in the Pseudo-Hesiodic Shield of Heracles",
-   "author": "FABIAN HORN"
-  },
-  {
-   "book": "23",
-   "page": 383,
-   "section": "",
-   "line": 383,
-   "journal": "Hermes",
-   "year": "2016",
-   "iid": "f3f28b58-f44f-3211-894f-aa10e7929d62",
-   "doi": "10.2307/26649562",
-   "title": "'Order from Chaos': Ecphrasis and Meaning in Context in the Pseudo-Hesiodic Shield of Heracles",
-   "author": "FABIAN HORN"
-  },
-  {
-   "book": "23",
-   "page": 384,
-   "section": "",
-   "line": 384,
-   "journal": "Hermes",
-   "year": "2016",
-   "iid": "f3f28b58-f44f-3211-894f-aa10e7929d62",
-   "doi": "10.2307/26649562",
-   "title": "'Order from Chaos': Ecphrasis and Meaning in Context in the Pseudo-Hesiodic Shield of Heracles",
-   "author": "FABIAN HORN"
-  },
-  {
-   "book": "23",
-   "page": 385,
-   "section": "",
-   "line": 385,
-   "journal": "Hermes",
-   "year": "2016",
-   "iid": "f3f28b58-f44f-3211-894f-aa10e7929d62",
-   "doi": "10.2307/26649562",
-   "title": "'Order from Chaos': Ecphrasis and Meaning in Context in the Pseudo-Hesiodic Shield of Heracles",
-   "author": "FABIAN HORN"
-  },
-  {
-   "book": "23",
-   "page": 386,
-   "section": "",
-   "line": 386,
-   "journal": "Hermes",
-   "year": "2016",
-   "iid": "f3f28b58-f44f-3211-894f-aa10e7929d62",
-   "doi": "10.2307/26649562",
-   "title": "'Order from Chaos': Ecphrasis and Meaning in Context in the Pseudo-Hesiodic Shield of Heracles",
-   "author": "FABIAN HORN"
-  },
-  {
-   "book": "23",
-   "page": 387,
-   "section": "",
-   "line": 387,
-   "journal": "Hermes",
-   "year": "2016",
-   "iid": "f3f28b58-f44f-3211-894f-aa10e7929d62",
-   "doi": "10.2307/26649562",
-   "title": "'Order from Chaos': Ecphrasis and Meaning in Context in the Pseudo-Hesiodic Shield of Heracles",
-   "author": "FABIAN HORN"
-  },
-  {
-   "book": "23",
-   "page": 388,
-   "section": "",
-   "line": 388,
-   "journal": "Hermes",
-   "year": "2016",
-   "iid": "f3f28b58-f44f-3211-894f-aa10e7929d62",
-   "doi": "10.2307/26649562",
-   "title": "'Order from Chaos': Ecphrasis and Meaning in Context in the Pseudo-Hesiodic Shield of Heracles",
-   "author": "FABIAN HORN"
-  },
-  {
-   "book": "23",
-   "page": 389,
-   "section": "",
-   "line": 389,
    "journal": "Hermes",
    "year": "2016",
    "iid": "f3f28b58-f44f-3211-894f-aa10e7929d62",
@@ -660877,18 +656133,6 @@
    "author": "John A. Scott"
   },
   {
-   "book": "2",
-   "page": 590,
-   "section": "",
-   "line": 590,
-   "journal": "Mnemosyne",
-   "year": "2002",
-   "iid": "fa0693fa-af61-38b7-adaa-4c358cb45fb2",
-   "doi": "10.2307/4433382",
-   "title": "The Metre of Stesichorus PMG 15/192",
-   "author": "C. W. Willink"
-  },
-  {
    "book": "7",
    "page": 123,
    "section": "",
@@ -668663,30 +663907,6 @@
    "doi": "10.2307/283855",
    "title": "The Origin of the Greek Accusative in Latin",
    "author": "E. Adelaide Hahn"
-  },
-  {
-   "book": "10",
-   "page": 601,
-   "section": "",
-   "line": 601,
-   "journal": "Hermes",
-   "year": "1993",
-   "iid": "ff7c07a3-9508-32c3-8315-8966808415a0",
-   "doi": "10.2307/4476946",
-   "title": "Porphyry and the \"Cattle-Stealing God\"",
-   "author": "M. J. Edwards"
-  },
-  {
-   "book": "10",
-   "page": 602,
-   "section": "",
-   "line": 602,
-   "journal": "Hermes",
-   "year": "1993",
-   "iid": "ff7c07a3-9508-32c3-8315-8966808415a0",
-   "doi": "10.2307/4476946",
-   "title": "Porphyry and the \"Cattle-Stealing God\"",
-   "author": "M. J. Edwards"
   },
   {
    "book": "9",
