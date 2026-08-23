@@ -78,9 +78,15 @@
   .profile-head{display:flex; justify-content:space-between; align-items:baseline; margin:26px 0 4px}
   .profile-head h2{font-family:var(--serif); font-weight:600; font-size:24px; margin:0}
   .profile-head .meta{font-size:13px; color:var(--ink-soft)}
-  .legend{display:flex; align-items:center; gap:10px; font-size:12px; color:var(--ink-soft); margin:10px 0 2px}
+  .legend{display:flex; align-items:center; flex-wrap:wrap; gap:6px 10px; font-size:12px; color:var(--ink-soft); margin:10px 0 2px}
   .ramp{display:flex; height:11px; width:150px; border-radius:3px; overflow:hidden; border:1px solid var(--rule)}
   .ramp i{flex:1}
+  /* fixed-scale key: one swatch per article-count band, captioned with its range */
+  .ramp-scale{display:flex; gap:2px; overflow-x:auto; max-width:100%; padding-bottom:2px}
+  .ramp-scale .rs{display:flex; flex-direction:column; align-items:center; min-width:34px}
+  .ramp-scale .rs i{height:11px; width:100%; border-radius:2px; border:1px solid var(--rule)}
+  .ramp-scale .rs b{font-family:var(--mono); font-size:8.5px; font-weight:500; color:var(--ink-soft);
+    margin-top:3px; white-space:nowrap; letter-spacing:.02em}
   .viewlabel{
     font-family:var(--mono); font-size:10px; letter-spacing:.15em; text-transform:uppercase;
     color:var(--lav-deep); margin:26px 0 8px;
@@ -308,7 +314,7 @@
   <div id="hgNote" class="hgnote" style="display:none"></div>
   <div class="legend">
     <span data-copy="view_b.legend.low"></span>
-    <div class="ramp"><i style="background:var(--h0)"></i><i style="background:var(--h1)"></i><i style="background:var(--h2)"></i><i style="background:var(--h3)"></i><i style="background:var(--h4)"></i><i style="background:var(--h5)"></i><i style="background:var(--h6)"></i><i style="background:var(--h7)"></i><i style="background:var(--h8)"></i></div>
+    <div class="ramp-scale" id="rampScale"></div>
     <span data-copy="view_b.legend.high"></span>
   </div>
   <div id="heatgrid" class="heatgrid"></div>
@@ -645,24 +651,37 @@ const $ = s => document.querySelector(s);
 
 function stripTags(s){ return (s||"").replace(/<[^>]+>/g," ").replace(/\s+/g," ").trim(); }
 
-// heat ramp: map a value in [0,scale] to one of 9 buckets
-const RAMP = ["--h0","--h1","--h2","--h3","--h4","--h5","--h6","--h7","--h8"];
-function heatVar(v, scale){
-  if(v<=0) return "--h0";
-  // sqrt so mid values aren't washed out; clamp so an outlier above `scale`
-  // saturates at the darkest step rather than compressing everything below it.
-  const t = Math.min(1, Math.sqrt(v)/Math.sqrt(scale));
-  const i = Math.min(RAMP.length-1, Math.max(1, Math.round(t*(RAMP.length-1))));
-  return RAMP[i];
+// Fixed heat ramp: article counts per cell map to a stable colour in EVERY work,
+// so a given shade always means the same citation load and shades are comparable
+// between works — rather than each work re-scaling the ramp to its own maximum
+// (which made an Iliad-proem indigo and a lightly-cited section's indigo mean
+// wildly different things). The bands widen as counts climb, so the pale steps
+// carry the low-count mass most cells live in and the darkest step is reserved
+// for the near-unique landmark passages. This array is the single source of
+// truth for both the colour lookup and the legend below.
+const HEAT_STEPS = [   // [upper bound (inclusive), css var, legend label]
+  [0,        "--h0", "0"],
+  [7,        "--h1", "1–7"],
+  [15,       "--h2", "8–15"],
+  [25,       "--h3", "16–25"],
+  [40,       "--h4", "26–40"],
+  [60,       "--h5", "41–60"],
+  [90,       "--h6", "61–90"],
+  [140,      "--h7", "91–140"],
+  [Infinity, "--h8", "141+"]
+];
+function heatVar(v){
+  if(!(v>0)) return "--h0";
+  for(const [max, cssVar] of HEAT_STEPS) if(v<=max) return cssVar;
+  return "--h8";
 }
-// Robust colour scale: the 94th percentile of the non-zero cells, so a single
-// spike (the Iliad/Odyssey proem) sets the top of the ramp for itself alone and
-// the many low-to-mid cells still spread across distinct steps. Floored so small
-// works don't over-saturate.
-function heatScale(vals){
-  const nz = vals.filter(x=>x>0).sort((a,b)=>a-b);
-  if(!nz.length) return 1;
-  return Math.max(nz[Math.floor(nz.length*0.94)], 4);
+// Build the legend's colour scale from HEAT_STEPS so it can never drift from the
+// lookup above: one swatch per band, each captioned with its article-count range.
+function buildLegend(){
+  const host = document.getElementById("rampScale");
+  if(!host) return;
+  host.innerHTML = HEAT_STEPS.map(([,cssVar,label]) =>
+    `<div class="rs"><i style="background:var(${cssVar})"></i><b>${label}</b></div>`).join("");
 }
 function isHot(v,max){ return v>0 && Math.sqrt(v)/Math.sqrt(max) > 0.55; }
 
@@ -829,8 +848,7 @@ function renderChart(){
   if(!seq.length) return;
 
   let max=0; for(const s of seq){ const v=cellValue(s.cell); if(v>max)max=v; }
-  max = Math.max(max,1);
-  const cscale = heatScale(seq.map(s=>cellValue(s.cell)));   // robust colour scale (height still uses max)
+  max = Math.max(max,1);   // height still scales to this work's own maximum
 
   const H = 300;                       // generous height
   const padL = 46, padR = 12, padT = 14, padB = 40;
@@ -913,7 +931,7 @@ function renderChart(){
     bar.setAttribute("x",x); bar.setAttribute("y",y);
     bar.setAttribute("width",bw); bar.setAttribute("height",Math.max(0,h));
     bar.setAttribute("rx",Math.min(1.5,bw/2));
-    bar.setAttribute("fill",`var(${heatVar(v,cscale)})`);
+    bar.setAttribute("fill",`var(${heatVar(v)})`);
     const c=s.cell;
     bar.addEventListener("click", s.drill || (()=>openDrill(c)));
     bar.addEventListener("mousemove",e=>showTipRaw(e, s.loc || `${c.page}${c.section}`, v, c.articles));
@@ -981,7 +999,6 @@ function renderHeatgrid(){
   const bandCells = buildBandCells();   // book|page|sec|band -> {count,articles}
   let max=0; for(const v of bandCells.values()){ const val=metric==="articles"?v.articles:v.count; if(val>max)max=val; }
   max=Math.max(max,1);
-  const cscale = heatScale([...bandCells.values()].map(v=>metric==="articles"?v.articles:v.count));
 
   for(const book of books){
     const panel=document.createElement("div");
@@ -1013,7 +1030,7 @@ function renderHeatgrid(){
           if(v){
             const val=v.articles;
             cell.className="cell"+(band===UNSPEC?" unspec":"");
-            cell.style.background=`var(${heatVar(val,cscale)})`;
+            cell.style.background=`var(${heatVar(val)})`;
             const bandLbl = banded ? `${sec}${BAND_LABEL[band]}` : sec;
             const locTip = band===UNSPEC
               ? `${page}${sec} · no line given`
@@ -1077,7 +1094,6 @@ function renderCombinedLine(host){
 // identity a cell click should act under (the loaded work, or a Pindar ode-book).
 function lineHeatInto(host, cells, binSize, ctx){
   const w = unitWords();
-  const cscale = heatScale(cells.map(c=>c.articles));   // robust so the proem doesn't flatten the rest
   const byBook = new Map();
   for(const c of cells){
     if(!byBook.has(c.book)) byBook.set(c.book, new Map());
@@ -1096,7 +1112,7 @@ function lineHeatInto(host, cells, binSize, ctx){
       const val = c ? c.articles : 0;
       cell.className = "lcell" + (val?"":" empty") + ((b/binSize)%5===0 && b>0 ? " mark":"");
       if(val){
-        cell.style.background = `var(${heatVar(val,cscale)})`;
+        cell.style.background = `var(${heatVar(val)})`;
         const loc = lineLocus(book, b, binSize===1?b:b+binSize-1);
         cell.addEventListener("click",()=>withCtx(ctx, ()=>openDrillLine(book, b, binSize)));
         cell.addEventListener("mousemove",e=>showTipRaw(e, loc, val));
@@ -1566,6 +1582,7 @@ fetch(DATA_DIR+"copy.json")
   .then(c=>{
     COPY = c;
     applyCopy();
+    buildLegend();   // populate the fixed-scale colour key from HEAT_STEPS
     // Non-fatal: without bands the overlay is absent, but the page still works.
     fetch(DATA_DIR+"collision_bands.json")
       .then(r=>r.ok?r.json():null)
