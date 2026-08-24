@@ -47,7 +47,7 @@ book reviews, which provides a small window onto monographs. Treat the tool as a
 sample of various fields' attention. Absence of evidence of scholarly attention 
 should not be read as evidence of absence. 
 
-Coverage is also **uneven over time.** The journals are not evenly spread across
+Coverage is also uneven over time. The journals are not evenly spread across
 the span: the pre-1950 decades are very thin. Output climbs steeply from the 1960s. 
 Well over half of all placed citations fall after 1980. A flat or empty
 early stretch in a time chart reflects how little was published and digitized
@@ -55,9 +55,9 @@ then, not a drop in attention.
 
 And two small caveats.
 
-- **Bekker treatise boundaries** outside the *Parva Naturalia* are still unverified at
+- Bekker treatise boundaries outside the *Parva Naturalia* are still unverified at
   their exact edges; impact is confined to citations landing on shared pages.
-- **Line numbers parse noisily in the Bekker (Aristotle) works,** so Aristotle's
+- Line numbers parse noisily in the Bekker (Aristotle) works, so Aristotle's
   line detail is grouped into bands rather than shown line by line, with a
   separate cell for citations that give only a page.
 
@@ -177,14 +177,14 @@ to that single spike, so ordinary variation stays legible.
 
 ## Grouping schemes
 
-**Works.** Viewer A lets you plot named sets of works — *Plato* (the 36 works
+*Works.* Viewer A lets you plot named sets of works — *Plato* (the 36 works
 paginated by Stephanus), *Aristotle* (the 32 paginated by Bekker), the *Organon*,
 the biological works, and so on. Of course, all these groupings (e.g, the developmentalist
 chronology of Plato) are controversial, are marked *contested* and off by default. 
 Still, it seemed useful to offer a few convenient and conventional bundles. The full
 definitions live in `work_groups.json`.
 
-**Journals.** Viewers A, B, and C group journals by field (Philosophy, Classics,
+*Journals.* Viewers A, B, and C group journals by field (Philosophy, Classics,
 Theology & NT), with the theology journals subdivided by discipline: again, a convenience 
 for comparison, not a claim about where a journal "really" belongs. If you think I've
 miscategorized a journal, please do let me know!
@@ -193,13 +193,13 @@ miscategorized a journal, please do let me know!
 
 Each passage in Viewer B links out to the text:
 
-- **Greek works** frame the matching page of the
+- *Greek works* frame the matching page of the
   [Perseus Digital Library](https://www.perseus.tufts.edu/hopper/), Tufts
   University — a finding-aid pointer, framed live, neither hosted nor mirrored
   here. Plato is fully covered; **Perseus's Aristotle holdings are thin** (six
   treatises), and Homer and Pindar link at the book/ode level. The strip always
   shows the exact citation it built, so a wrong mapping is visible, not silent.
-- **Paul** links to [BibleGateway](https://www.biblegateway.com/) in the New
+- *Paul* links to [BibleGateway](https://www.biblegateway.com/) in the New
   Revised Standard Version, Updated Edition (NRSVUE). 
 
 NB: this part of the tool depends to an extent on how these other websites work and might
