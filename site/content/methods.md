@@ -4,56 +4,62 @@ subtitle: What's in the index, and how to read it
 description: What Footnotes to Plato covers, how citations are placed, and what the numbers can and cannot be made to say.
 ---
 
-*Footnotes to Plato* shows how modern scholarship cites five ancient authors —
-**Homer, Pindar, Plato, Aristotle, and Paul** — down to the individual passage.
-The basic idea is very simple. These ancient authors are not cited by page-number,
-which vary across editions, but standardized passage-numbers or even line-numbers.
-This makes it easy to scan a corpus of scholarly journals for citations, 
-and count their distribution over time.  
+*Footnotes to Plato (and Others)* shows how modern scholarship cites five ancient authors —
+**Homer, Pindar, Plato, Aristotle, and Paul**. The basic idea is very simple. 
+These ancient authors are not cited by page-number, which vary across editions, 
+but standardized passage-numbers or even line-numbers. This makes it easy to 
+machine-search a corpus of scholarly journals for citations, and count their 
+distribution over time.  
 
 This page explains in detail what the index covers, how citations were detected 
-and placed becomes a placement, what the resulting numbers can and cannot be made 
-to say. Every figure is checkable against the[published derived data](/data/).
+and placed, what the resulting numbers can and cannot be made to say. 
+Every figure is checkable against the[published derived data](/data/).
 
 ## The corpus
 
-The underlying data was provided by JSTOR's Text Analysis Support. I want to gratefully
-acknowledge their support: **{{n_articles}} articles** across **{{journal_count}} journals**,
+The underlying data was provided by JSTOR's Text Analysis Support. I am very grateful
+for their support. We got **{{n_articles}} articles** across **{{journal_count}} journals**,
 spanning **{{year_from}}–{{year_to}}**. Because the text arrives page by page, every 
-citation's position within its article is known, and citation strings appear verbatim 
-in the text (`PLAT. MEN. 80D5`, `Il. 1.5`, `Rom 8:1`). 
-
-This means no tokenization would corrupt them. Often, when you want to do computational 
-text-analysis, text has to be 'tokenized'—broken down into computer-digestible chunks. 
-But here, we did not have to do that; we could simply search the full text for 
-patterns that match the canonical citation standards for Homer (Il./Od. Book.line), 
-Pindar (Ol., Py. Ne. Is. Line), Plato (Stephanus number, Aristotle (Bekker number), 
-Paul (chapter:verse). In each case, we accounted for variations on those standard patterns
-(e.g., capitalization, roman vs Arabic numerals, longer or shorter abbreviations, 
-and differences across languages—English, French, German, Italian, Latin, Greek).
+citation's position within its article is known. Citation strings appear verbatim 
+in the text (`PLAT. MEN. 80D5`, `Il. 1.5`, `Rom 8:1`). This means no tokenization would corrupt them. 
+Often, when we do computational text-analysis, text has to be 'tokenized'—broken down 
+into computer-digestible chunks. But here, we did not have to do that; we could simply search 
+the full text for patterns that match the canonical citation standards for Homer (Il./Od. Book.line), 
+Pindar (Ol., Py. Ne. Is. + line), Plato (Stephanus number), Aristotle (Bekker number), 
+Paul (chapter:verse). In each case, we accounted for variations on those standard patterns:
+capitalization, Roman vs Arabic numerals, longer or shorter abbreviations, 
+and differences across languages—English, French, German, Italian, Latin, Greek.
 
 The journals fall into three fields, which the filter panel in Viewers A and B
 lets you select and compare:
 
 - **Philosophy** — 7 journals (*Phronesis*, *History of Philosophy Quarterly*, and others).
 - **Classics** — 18 journals (*The Classical Quarterly*, *Classical Philology*, *Hermes*, *Mnemosyne*, and others).
-- **Theology & New Testament** — 23 journals (*Journal of Biblical Literature*, *Novum Testamentum*, *The Harvard Theological Review*, and others), themselves subdivided by discipline into biblical studies, theology & church history, and religious studies.
+- **Theology & New Testament** — 23 journals (*Journal of Biblical Literature*, *Novum Testamentum*, *The Harvard Theological Review*, and others), themselves subdivided by discipline into Biblical studies, theology & church history, and religious studies.
 
 The filter panel of Viewers A and B is the fastest way to get a sense of the full list.
 
-**What this is not.** Note that the corpus excludes monographs, edited volumes,
+**Some caveats** Note that the corpus excludes monographs, edited volumes,
 commentaries, and journals outside the JSTOR delivery — including, sadly, such 
 Heavy-weights as *Oxford Studies in Ancient Philosophy*. Coverage skews Anglophone, 
 although it includes some German, French, and Italian journals. It includes also 
-book reviews, which provides some small window onto monographs. Treat the tool is 
-best treated as a large sample of various fields' attention, not a census. Absence of
-evidence of scholarly attention should not be read as evidence of absence. 
+book reviews, which provides a small window onto monographs. Treat the tool as a large 
+sample of various fields' attention. Absence of evidence of scholarly attention 
+should not be read as evidence of absence. 
 
 Coverage is also **uneven over time.** The journals are not evenly spread across
 the span: the pre-1950 decades are very thin. Output climbs steeply from the 1960s. 
 Well over half of all placed citations fall after 1980. A flat or empty
-early stretch in a time chart reflects how little was published and digitised
+early stretch in a time chart reflects how little was published and digitized
 then, not a drop in attention. 
+
+And two small caveats.
+
+- **Bekker treatise boundaries** outside the *Parva Naturalia* are still unverified at
+  their exact edges; impact is confined to citations landing on shared pages.
+- **Line numbers parse noisily in the Bekker (Aristotle) works,** so Aristotle's
+  line detail is grouped into bands rather than shown line by line, with a
+  separate cell for citations that give only a page.
 
 ## The three viewers
 
@@ -62,7 +68,7 @@ then, not a drop in attention.
   against *Laws*, or the Platonic corpus against the Aristotelian—or Plato against 
   Paul!
 - **Viewer B — Passage-level attention.** Inside one text: which books/chapter or
-  lines/verses does the literature cite, and which does it leave alone.
+  lines/verses does the literature cite, and which does it mostly ignore.
   **Click on a passage drills to see the articles that cite it,** with a link to read
   the passage itself and create an exportable bibliography.
 - **Viewer C — Comparing disciplines.** How two freely chosen sets of journals
@@ -83,7 +89,9 @@ Citations reach the index in two forms, resolved differently:
   that bar goes to the review queue, tagged with its competing works.
 - **Homer, Pindar, and Paul** are cited by an abbreviation that **names the work
   in the reference itself**, plus a line or verse: `Il. 1.5`, `Ol. 1.1`, `Rom 8:1`) 
-  These resolve on the cue, so they carry almost no ambiguity.
+  These resolve on the cue, so they carry almost no ambiguity. But note, of course, 
+  where a work is cited only the first time by name, afterwards just by number, the 
+  script picks up only the first citation. 
 
 One important distinction here is between a work that is *cited* and one that is
 *mentioned*: the index here is of citations, not mentions. Also, for Plato & Aristotle, 
@@ -96,7 +104,7 @@ other authors — is removed before placement.
 
 ### Floors, not totals
 
-To illustrate the issue of detectable-but-unplaceable citations in the cases of 
+To illustrate the issue of detectable-but-unplaceable citations, in the cases of 
 Plato and Aristotle, consider the below graph. Solid bars are floors, fades indicate
 citations that *could* belong to a work, technically, given its numeric range, but 
 could also belong to others, and therefore could not be placed with confidence. 
@@ -190,14 +198,6 @@ Each passage in Viewer B links out to the text:
 
 NB: this part of the tool depends to an extent on how these other websites work and might
 On occasion be a little buggy. I'll try to keep checking on it to keep it working. 
-
-## Two final caveats
-
-- **Bekker treatise boundaries** outside the *Parva Naturalia* are unverified at
-  their exact edges; impact is confined to citations landing on shared pages.
-- **Line numbers parse noisily in the Bekker (Aristotle) works,** so Aristotle's
-  line detail is grouped into bands rather than shown line by line, with a
-  separate cell for citations that give only a page.
 
 ## Checking the work
 
