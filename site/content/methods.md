@@ -120,6 +120,12 @@ scale beside it — the full version of the sample on the home page. Bars are
 coloured by author; hover a row for its floor, distinct articles, and collision
 partners.
 
+### Anaphoric citation
+
+For Homer, Pindar, Paul, the script relies on work-name abbreviations to place a citation: e.g., an Odyssey book + line number (12.432) needs to be preceded by "Od." to be recognized by the script as an Odyssey citation. Of course, many articles practice anaphoric citation: the primary text is cited the first time, and following citations are given by book + line number only, or even just line numbers. We ran several statistical tests to see if the non-capture of anaphoric citations introduces systematic biases in the data (e.g., towards textually earlier passages). A combination of seven tests suggests that this is not the case. It does not bias the *distribution* of the citations (across passages, periods, or disciplines); it only lowers the absolute counts somewhat for these three corpora. Here as everywhere, numbers should be read as floors, not totals. See [here](/anaphoric-citation-validation.md/) for the full tests and figures.
+
+See here for the full numbers.
+
 <div class="figure">
   <div id="landing-bars">
     <noscript>The chart requires JavaScript; the underlying numbers are on the
