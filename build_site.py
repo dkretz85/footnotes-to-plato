@@ -540,6 +540,7 @@ def main():
     pages = {
         "index.md":    ("/",         False),
         "methods.md":  ("/methods/", True),
+        "sequentia-citations.md": ("/methods/sequentia/", True),
         "data.md":     ("/data/",    False),
         "contact.md":  ("/contact/", False),
     }
